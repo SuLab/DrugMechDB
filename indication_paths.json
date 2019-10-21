@@ -1,0 +1,6792 @@
+[
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "imatinib",
+      "disease": "CML (ph+)",
+      "drugbank": "DB00619",
+      "drug_mesh": "MESH:D000068877",
+      "disease_mesh": "MESH:D015464"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "name": "imatinib",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P00519",
+        "name": "BCR/ABL",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D015464",
+        "name": "CML (ph+)",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000068877",
+        "target": "UniProt:P00519",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P00519",
+        "target": "MESH:D015464",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "imatinib",
+      "disease": "Systemic mast cell disease",
+      "drugbank": "DB00619",
+      "drug_mesh": "MESH:D000068877",
+      "disease_mesh": "MESH:D034721"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "name": "imatinib",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P10721",
+        "name": "c-Kit",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0008283",
+        "name": "Cellular proliferation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D034721",
+        "name": "Systemic mast cell disease",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000068877",
+        "target": "UniProt:P10721",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P10721",
+        "target": "GO:0008283",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0008283",
+        "target": "MESH:D034721",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "imatinib",
+      "disease": "Systemic mast cell disease",
+      "drugbank": "DB00619",
+      "drug_mesh": "MESH:D000068877",
+      "disease_mesh": "MESH:D034721"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "name": "imatinib",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P16234",
+        "name": "Pdgf",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0008283",
+        "name": "Cellular proliferation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D034721",
+        "name": "Systemic mast cell disease",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000068877",
+        "target": "UniProt:P16234",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P16234",
+        "target": "GO:0008283",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0008283",
+        "target": "MESH:D034721",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetaminophen",
+      "disease": "Pain",
+      "drugbank": "DB00316",
+      "drug_mesh": "MESH:D000082",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000082",
+        "name": "acetaminophen",
+        "label": "Drug"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "name": "cycloxygenaze pathways",
+        "label": "Pathway"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000082",
+        "target": "REACT:R-HSA-2162123",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D010146",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetaminophen",
+      "disease": "Pain",
+      "drugbank": "DB00316",
+      "drug_mesh": "MESH:D000082",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000082",
+        "name": "acetaminophen",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P23219",
+        "name": "Cox-1",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000082",
+        "target": "UniProt:P23219",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P23219",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetaminophen",
+      "disease": "Pain",
+      "drugbank": "DB00316",
+      "drug_mesh": "MESH:D000082",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000082",
+        "name": "acetaminophen",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35354",
+        "name": "Cox-2",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000082",
+        "target": "UniProt:P35354",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35354",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetaminophen",
+      "disease": "Fever",
+      "drugbank": "DB00316",
+      "drug_mesh": "MESH:D000082",
+      "disease_mesh": "MESH:D005334"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000082",
+        "name": "acetaminophen",
+        "label": "Drug"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "name": "cycloxygenaze pathways",
+        "label": "Pathway"
+      },
+      {
+        "id": "UBERON:0000955",
+        "name": "Brain",
+        "label": "Anatomy"
+      },
+      {
+        "id": "GO:0001659",
+        "name": "Temperature Homeostasis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D005334",
+        "name": "Fever",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000082",
+        "target": "REACT:R-HSA-2162123",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "REACT:R-HSA-2162123",
+        "target": "UBERON:0000955",
+        "key": "LOCALIZED_TO"
+      },
+      {
+        "source": "UBERON:0000955",
+        "target": "GO:0001659",
+        "key": "REGULATES"
+      },
+      {
+        "source": "GO:0001659",
+        "target": "MESH:D005334",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetylsalicylic acid",
+      "disease": "Pain",
+      "drugbank": "DB00945",
+      "drug_mesh": "MESH:D001241",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D001241",
+        "name": "acetylsalicylic acid",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P23219",
+        "name": "Cox-1",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D001241",
+        "target": "UniProt:P23219",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P23219",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetylsalicylic acid",
+      "disease": "Pain",
+      "drugbank": "DB00945",
+      "drug_mesh": "MESH:D001241",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D001241",
+        "name": "acetylsalicylic acid",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35354",
+        "name": "Cox-2",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D001241",
+        "target": "UniProt:P35354",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35354",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetylsalicylic acid",
+      "disease": "Thrombosis",
+      "drugbank": "DB00945",
+      "drug_mesh": "MESH:D001241",
+      "disease_mesh": "MESH:D013927"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D001241",
+        "name": "acetylsalicylic acid",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P23219",
+        "name": "COX",
+        "label": "Protein"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "name": "Synthesis of Prostaglandins and Thromboxanes",
+        "label": "Pathway"
+      },
+      {
+        "id": "MESH:D013928",
+        "name": "Thromboxane A2",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0007596",
+        "name": "Platelet Activiation / Blood Coagulation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D013927",
+        "name": "Thrombosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D001241",
+        "target": "UniProt:P23219",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123",
+        "key": "PART_OF"
+      },
+      {
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D013928",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D013928",
+        "target": "GO:0007596",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0007596",
+        "target": "MESH:D013927",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acetylsalicylic acid",
+      "disease": "Thrombosis",
+      "drugbank": "DB00945",
+      "drug_mesh": "MESH:D001241",
+      "disease_mesh": "MESH:D013927"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D001241",
+        "name": "acetylsalicylic acid",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P23219",
+        "name": "COX",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0007596",
+        "name": "Blood Coagulation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D013927",
+        "name": "Thrombosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D001241",
+        "target": "UniProt:P23219",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P23219",
+        "target": "GO:0007596",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0007596",
+        "target": "MESH:D013927",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "naproxen",
+      "disease": "Pain",
+      "drugbank": "DB00788",
+      "drug_mesh": "MESH:D009288",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D009288",
+        "name": "naproxen",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35354",
+        "name": "Cox-2",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D009288",
+        "target": "UniProt:P35354",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35354",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "GO:0006954",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "norfloxacin",
+      "disease": "Shigellosis",
+      "drugbank": "DB01059",
+      "drug_mesh": "MESH:D009643",
+      "disease_mesh": "MESH:D004405"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D009643",
+        "name": "norfloxacin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P43702",
+        "name": "topoisomerases II, IV",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006260",
+        "name": "Bactierial DNA Replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:622",
+        "name": "Shigella dysenteriae",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D004405",
+        "name": "Shigellosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D009643",
+        "target": "UniProt:P43702",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P43702",
+        "target": "GO:0006260",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006260",
+        "target": "NCBITaxon:622",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:622",
+        "target": "MESH:D004405",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "norfloxacin",
+      "disease": "Shigellosis",
+      "drugbank": "DB01059",
+      "drug_mesh": "MESH:D009643",
+      "disease_mesh": "MESH:D004405"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D009643",
+        "name": "norfloxacin",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0003746",
+        "name": "Translocation of EF-G",
+        "label": "Molecular Function"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Protein Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:622",
+        "name": "Shigella dysenteriae",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D004405",
+        "name": "Shigellosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D009643",
+        "target": "GO:0003746",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "GO:0003746",
+        "target": "GO:0006412",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:622",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:622",
+        "target": "MESH:D004405",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "cortisone acetate",
+      "disease": "Keratitis",
+      "drugbank": "DB01380",
+      "drug_mesh": "MESH:D003348",
+      "disease_mesh": "MESH:D007634"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003348",
+        "name": "cortisone acetate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04083",
+        "name": "lipocortin-1",
+        "label": "Protein"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "name": "Prostaglandin Synthesis",
+        "label": "Pathway"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D007634",
+        "name": "Keratitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003348",
+        "target": "UniProt:P04083",
+        "key": "INCREASES_EXPRESSION"
+      },
+      {
+        "source": "UniProt:P04083",
+        "target": "REACT:R-HSA-2162123",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "REACT:R-HSA-2162123",
+        "target": "GO:0006954",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D007634",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "cortisone acetate",
+      "disease": "Keratitis",
+      "drugbank": "DB01380",
+      "drug_mesh": "MESH:D003348",
+      "disease_mesh": "MESH:D007634"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003348",
+        "name": "cortisone acetate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P23219",
+        "name": "COX Genes",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D007634",
+        "name": "Keratitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003348",
+        "target": "UniProt:P23219",
+        "key": "DECREASES_EXPRESSION"
+      },
+      {
+        "source": "UniProt:P23219",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "GO:0006954",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D007634",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "cortisone acetate",
+      "disease": "Keratitis",
+      "drugbank": "DB01380",
+      "drug_mesh": "MESH:D003348",
+      "disease_mesh": "MESH:D007634"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003348",
+        "name": "cortisone acetate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04083",
+        "name": "lipocortin-1",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0050900",
+        "name": "Immune Cell Funciton",
+        "label": "Pathway"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D007634",
+        "name": "Keratitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003348",
+        "target": "UniProt:P04083",
+        "key": "INCREASES_EXPRESSION"
+      },
+      {
+        "source": "UniProt:P04083",
+        "target": "GO:0050900",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0050900",
+        "target": "GO:0006954",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D007634",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "cortisone acetate",
+      "disease": "Keratitis",
+      "drugbank": "DB01380",
+      "drug_mesh": "MESH:D003348",
+      "disease_mesh": "MESH:D007634"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003348",
+        "name": "cortisone acetate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P04083",
+        "name": "Annexin A1",
+        "label": "Protein"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "name": "Prostaglandin Synthesis",
+        "label": "Pathway"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D007634",
+        "name": "Keratitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003348",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P04083",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "UniProt:P04083",
+        "target": "REACT:R-HSA-2162123",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "REACT:R-HSA-2162123",
+        "target": "GO:0006954",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D007634",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "cortisone acetate",
+      "disease": "Keratitis",
+      "drugbank": "DB01380",
+      "drug_mesh": "MESH:D003348",
+      "disease_mesh": "MESH:D007634"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003348",
+        "name": "cortisone acetate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P23219",
+        "name": "COX genes",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D007634",
+        "name": "Keratitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003348",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P23219",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P23219",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "GO:0006954",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D007634",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "valganciclovir",
+      "disease": "CMV infection",
+      "drugbank": "DB01610",
+      "drug_mesh": "MESH:D000077562",
+      "disease_mesh": "MESH:D003586"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000077562",
+        "name": "valganciclovir",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D015774",
+        "name": "ganciclovir",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0039693",
+        "name": "viral DNA replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:10358",
+        "name": "Cytomegalovirus",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D003586",
+        "name": "CMV infection",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000077562",
+        "target": "MESH:D015774",
+        "key": "INCREASES"
+      },
+      {
+        "source": "MESH:D015774",
+        "target": "GO:0039693",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0039693",
+        "target": "NCBITaxon:10358",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:10358",
+        "target": "MESH:D003586",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "metronidazole",
+      "disease": "Bacterial septicemia",
+      "drugbank": "DB00916",
+      "drug_mesh": "MESH:D008795",
+      "disease_mesh": "MESH:D018805"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D008795",
+        "name": "metronidazole",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:C029371",
+        "name": "hydroxyethyl oxamic acid",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0003676",
+        "name": "bacterial Nucleic Acid synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:2",
+        "name": "Bacteria",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D018805",
+        "name": "Bacterial septicemia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D008795",
+        "target": "MESH:C029371",
+        "key": "INCREASES"
+      },
+      {
+        "source": "MESH:C029371",
+        "target": "GO:0003676",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0003676",
+        "target": "NCBITaxon:2",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:2",
+        "target": "MESH:D018805",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "demeclocycline",
+      "disease": "Rickettsialpox",
+      "drugbank": "DB00618",
+      "drug_mesh": "MESH:D003707",
+      "disease_mesh": "MESH:D000073605"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003707",
+        "name": "demeclocycline",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P0A7S3",
+        "name": "30S Ribosomal Subunit",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Translation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:786",
+        "name": "Rickettsia akari",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D000073605",
+        "name": "Rickettsialpox",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003707",
+        "target": "UniProt:P0A7S3",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P0A7S3",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:786",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:786",
+        "target": "MESH:D000073605",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "demeclocycline",
+      "disease": "Rickettsialpox",
+      "drugbank": "DB00618",
+      "drug_mesh": "MESH:D003707",
+      "disease_mesh": "MESH:D000073605"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003707",
+        "name": "demeclocycline",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P0A7J3",
+        "name": "50S Ribosomal Subunit",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Translation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:786",
+        "name": "Rickettsia akari",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D000073605",
+        "name": "Rickettsialpox",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003707",
+        "target": "UniProt:P0A7J3",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P0A7J3",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:786",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:786",
+        "target": "MESH:D000073605",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "amoxicillin",
+      "disease": "Streptococcal tonsillitis",
+      "drugbank": "DB01060",
+      "drug_mesh": "MESH:D000658",
+      "disease_mesh": "MESH:D014069"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000658",
+        "name": "amoxicillin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P71707",
+        "name": "Penicillin-binding protein 1A",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0009252",
+        "name": "Peptidoglycan Biosyntheic Process",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1314",
+        "name": "Streptococcus pyogenes",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D014069",
+        "name": "Streptococcal tonsillitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000658",
+        "target": "UniProt:P71707",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P71707",
+        "target": "GO:0009252",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0009252",
+        "target": "NCBITaxon:1314",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1314",
+        "target": "MESH:D014069",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "alatrofloxacin",
+      "disease": "Staphylococcal pneumonia",
+      "drugbank": "DB09335",
+      "drug_mesh": "MESH:C106856",
+      "disease_mesh": "MESH:D011023"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C106856",
+        "name": "alatrofloxacin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P0C1U9",
+        "name": "Topoisomeraze 4",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006260",
+        "name": "Bacterial DNA replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1280",
+        "name": "Staphylococcus aureus",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D011023",
+        "name": "Staphylococcal pneumonia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C106856",
+        "target": "UniProt:P0C1U9",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P0C1U9",
+        "target": "GO:0006260",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006260",
+        "target": "NCBITaxon:1280",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1280",
+        "target": "MESH:D011023",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "alatrofloxacin",
+      "disease": "Staphylococcal pneumonia",
+      "drugbank": "DB09335",
+      "drug_mesh": "MESH:C106856",
+      "disease_mesh": "MESH:D011023"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C106856",
+        "name": "alatrofloxacin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P20831",
+        "name": "DNA gyrase",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006260",
+        "name": "Bacterial DNA replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1280",
+        "name": "Staphylococcus aureus",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D011023",
+        "name": "Staphylococcal pneumonia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C106856",
+        "target": "UniProt:P20831",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P20831",
+        "target": "GO:0006260",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006260",
+        "target": "NCBITaxon:1280",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1280",
+        "target": "MESH:D011023",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "amikacin",
+      "disease": "Bacterial meningitis",
+      "drugbank": "DB00479",
+      "drug_mesh": "MESH:D000583",
+      "disease_mesh": "MESH:D016920"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000583",
+        "name": "amikacin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P0A7S3",
+        "name": "30S Ribosomal Subunit",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Translation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:2",
+        "name": "Bacteria",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D016920",
+        "name": "Bacterial meningitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000583",
+        "target": "UniProt:P0A7S3",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P0A7S3",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:2",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:2",
+        "target": "MESH:D016920",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "dexamethasone",
+      "disease": "Tenosynovitis",
+      "drugbank": "DB01234",
+      "drug_mesh": "MESH:D003907",
+      "disease_mesh": "MESH:D013717"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D003907",
+        "name": "dexamethasone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P04083",
+        "name": "Annexin A1",
+        "label": "Protein"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "name": "Prostaglandin Synthesis",
+        "label": "Pathway"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D013717",
+        "name": "Tenosynovitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D003907",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P04083",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "UniProt:P04083",
+        "target": "REACT:R-HSA-2162123",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "REACT:R-HSA-2162123",
+        "target": "GO:0006954",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D013717",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ceftazidime",
+      "disease": "Bacterial urinary infection",
+      "drugbank": "DB00438",
+      "drug_mesh": "MESH:D002442",
+      "disease_mesh": "MESH:D014552"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D002442",
+        "name": "ceftazidime",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q8DR59",
+        "name": "Penicillin-binding proteins",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0009252",
+        "name": "Bacterial Cell Wall Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:562",
+        "name": "Escherichia coli",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D014552",
+        "name": "Bacterial urinary infection",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D002442",
+        "target": "UniProt:Q8DR59",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:Q8DR59",
+        "target": "GO:0009252",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0009252",
+        "target": "NCBITaxon:562",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:562",
+        "target": "MESH:D014552",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "pinacidil",
+      "disease": "Hypertension",
+      "drugbank": "DB06762",
+      "drug_mesh": "MESH:D020110",
+      "disease_mesh": "MESH:D006973"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D020110",
+        "name": "pinacidil",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q12791",
+        "name": "Calcium-activated potassium channel subunit alpha-1",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0042311",
+        "name": "Vasodilation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "GO:0008217",
+        "name": "Negative Regulation of Blood Pressure",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D006973",
+        "name": "Hypertension",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D020110",
+        "target": "UniProt:Q12791",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:Q12791",
+        "target": "GO:0042311",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0042311",
+        "target": "GO:0008217",
+        "key": "ASSOCIATED_WITH"
+      },
+      {
+        "source": "GO:0008217",
+        "target": "MESH:D006973",
+        "key": "REDUCES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "posaconazole",
+      "disease": "Fungal Infection",
+      "drugbank": "DB01263",
+      "drug_mesh": "MESH:C101425",
+      "disease_mesh": "MESH:D009181"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C101425",
+        "name": "posaconazole",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P10613",
+        "name": "sterol 14a-demethylase",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D004875",
+        "name": "ergosterol",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0009277",
+        "name": "Fungal Cell Membrane",
+        "label": "Cellular Component"
+      },
+      {
+        "id": "MESH:D009181",
+        "name": "Fungal Infection",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C101425",
+        "target": "UniProt:P10613",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P10613",
+        "target": "MESH:D004875",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D004875",
+        "target": "GO:0009277",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0009277",
+        "target": "MESH:D009181",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "antazoline",
+      "disease": "Vasomotor rhinitis",
+      "drugbank": "DB08799",
+      "drug_mesh": "MESH:D000865",
+      "disease_mesh": "MESH:D012223"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000865",
+        "name": "antazoline",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35367",
+        "name": "histamine H1 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0034776",
+        "name": "histamine response",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D012223",
+        "name": "Vasomotor rhinitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000865",
+        "target": "UniProt:P35367",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35367",
+        "target": "GO:0034776",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0034776",
+        "target": "MESH:D012223",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "levofloxacin",
+      "disease": "Pyelonephritis",
+      "drugbank": "DB01137",
+      "drug_mesh": "MESH:D064704",
+      "disease_mesh": "MESH:D011704"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D064704",
+        "name": "levofloxacin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P11388",
+        "name": "DNA gyrase",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006260",
+        "name": "Bacterial DNA replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:562",
+        "name": "E. coli",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D011704",
+        "name": "Pyelonephritis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D064704",
+        "target": "UniProt:P11388",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P11388",
+        "target": "GO:0006260",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006260",
+        "target": "NCBITaxon:562",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:562",
+        "target": "MESH:D011704",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "meloxicam",
+      "disease": "Pain",
+      "drugbank": "DB00814",
+      "drug_mesh": "MESH:D000077239",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000077239",
+        "name": "meloxicam",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35354",
+        "name": "Prostaglandin synthhase 2",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D011453",
+        "name": "Prostaglandins",
+        "label": "Compound Class"
+      },
+      {
+        "id": "InterPro:IPR000265",
+        "name": "Pain Receptors",
+        "label": "Protein Family"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000077239",
+        "target": "UniProt:P35354",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35354",
+        "target": "MESH:D011453",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D011453",
+        "target": "InterPro:IPR000265",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "InterPro:IPR000265",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "nimodipine",
+      "disease": "Subarachnoid intracranial hemorrhage",
+      "drugbank": "DB00393",
+      "drug_mesh": "MESH:D009553",
+      "disease_mesh": "MESH:D020300"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D009553",
+        "name": "nimodipine",
+        "label": "Drug"
+      },
+      {
+        "id": "InterPro:IPR005446",
+        "name": "voltage dependent l-type calcium channels",
+        "label": "Protein Family"
+      },
+      {
+        "id": "GO:0006939",
+        "name": "Smooth muscle contraction",
+        "label": "Biological Process"
+      },
+      {
+        "id": "GO:0008217",
+        "name": "Blood Pressure",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D013345",
+        "name": "Subarachnoid intracranial hemorrhage",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D009553",
+        "target": "InterPro:IPR005446",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "InterPro:IPR005446",
+        "target": "GO:0006939",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006939",
+        "target": "GO:0008217",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0008217",
+        "target": "MESH:D013345",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "calcium glucoheptonate",
+      "disease": "hypocalcemia",
+      "drugbank": "DB00326",
+      "drug_mesh": "MESH:C007852",
+      "disease_mesh": "MESH:D006996"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C007852",
+        "name": "calcium glucoheptonate",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D002118",
+        "name": "Calcium Ion",
+        "label": "Compound"
+      },
+      {
+        "id": "MESH:D006996",
+        "name": "hypocalcemia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C007852",
+        "target": "MESH:D002118",
+        "key": "INCREASES"
+      },
+      {
+        "source": "MESH:D002118",
+        "target": "MESH:D006996",
+        "key": "REDUCED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "fluticasone propionate",
+      "disease": "Bronchitis",
+      "drugbank": "DB00588",
+      "drug_mesh": "MESH:D000068298",
+      "disease_mesh": "MESH:D001991"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000068298",
+        "name": "fluticasone propionate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P47712",
+        "name": "Phospholipase A2",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D001991",
+        "name": "Bronchitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000068298",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P47712",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P47712",
+        "target": "GO:0006954",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D001991",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "fluticasone propionate",
+      "disease": "Bronchitis",
+      "drugbank": "DB00588",
+      "drug_mesh": "MESH:D000068298",
+      "disease_mesh": "MESH:D001991"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000068298",
+        "name": "fluticasone propionate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P22301",
+        "name": "IL-10",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D001991",
+        "name": "Bronchitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000068298",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P22301",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "UniProt:P22301",
+        "target": "GO:0006954",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D001991",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "fluphenazine",
+      "disease": "Schizophrenia",
+      "drugbank": "DB00623",
+      "drug_mesh": "MESH:D005476",
+      "disease_mesh": "MESH:D012559"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D005476",
+        "name": "fluphenazine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P14416",
+        "name": "D(2) dopamine receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0030252",
+        "name": "growth hormone secretion",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D012559",
+        "name": "Schizophrenia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D005476",
+        "target": "UniProt:P14416",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P14416",
+        "target": "GO:0030252",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0030252",
+        "target": "MESH:D012559",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "fluphenazine",
+      "disease": "Schizophrenia",
+      "drugbank": "DB00623",
+      "drug_mesh": "MESH:D005476",
+      "disease_mesh": "MESH:D012559"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D005476",
+        "name": "fluphenazine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P21728",
+        "name": "dopaminaergeinc receptors",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D010907",
+        "name": "hypophyseal hormones",
+        "label": "Compound Class"
+      },
+      {
+        "id": "MESH:D012559",
+        "name": "Schizophrenia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D005476",
+        "target": "UniProt:P21728",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P21728",
+        "target": "MESH:D010907",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "MESH:D010907",
+        "target": "MESH:D012559",
+        "key": "UPREGULATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "terfenadine",
+      "disease": "allergic skin disorders",
+      "drugbank": "DB00342",
+      "drug_mesh": "MESH:D016593",
+      "disease_mesh": "MESH:D065631"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D016593",
+        "name": "terfenadine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35367",
+        "name": "histamine H1 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "HP:0000969",
+        "name": "Edema",
+        "label": "Phenotype"
+      },
+      {
+        "id": "MESH:D017449",
+        "name": "allergic skin disorders",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D016593",
+        "target": "UniProt:P35367",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35367",
+        "target": "HP:0000969",
+        "key": "ASSOCIATED_WITH"
+      },
+      {
+        "source": "HP:0000969",
+        "target": "MESH:D017449",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "abacavir",
+      "disease": "HIV infection",
+      "drugbank": "DB01048",
+      "drug_mesh": "MESH:C106538",
+      "disease_mesh": "MESH:D015658"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C106538",
+        "name": "abacavir",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:C066928",
+        "name": "carbovir triphosphate",
+        "label": "Compound"
+      },
+      {
+        "id": "UniProt:P04585",
+        "name": "HIV-1 reverse transcriptase",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0039693",
+        "name": "Viral DNA replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D015658",
+        "name": "HIV infection",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C106538",
+        "target": "MESH:C066928",
+        "key": "INCREASES"
+      },
+      {
+        "source": "MESH:C066928",
+        "target": "UniProt:P04585",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P04585",
+        "target": "GO:0039693",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0039693",
+        "target": "MESH:D015658",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "norethisterone",
+      "disease": "Menorrhagia",
+      "drugbank": "DB00717",
+      "drug_mesh": "MESH:D009640",
+      "disease_mesh": "MESH:D008595"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D009640",
+        "name": "norethisterone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P06401",
+        "name": "progesterone receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P01148",
+        "name": "gonadotropin releasing hormone",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0032275",
+        "name": "Luteinizing hormone secretion",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D008595",
+        "name": "Menorrhagia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D009640",
+        "target": "UniProt:P06401",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P06401",
+        "target": "UniProt:P01148",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P01148",
+        "target": "GO:0032275",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0032275",
+        "target": "MESH:D008595",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ziprasidone",
+      "disease": "Schizophrenia",
+      "drugbank": "DB00246",
+      "drug_mesh": "MESH:C092292",
+      "disease_mesh": "MESH:D012559"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C092292",
+        "name": "ziprasidone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P28223",
+        "name": "5HT2A receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "HP:0000708",
+        "name": "behavior",
+        "label": "Phenotype"
+      },
+      {
+        "id": "MESH:D012559",
+        "name": "Schizophrenia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C092292",
+        "target": "UniProt:P28223",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P28223",
+        "target": "HP:0000708",
+        "key": "ASSOCIATED_WITH"
+      },
+      {
+        "source": "HP:0000708",
+        "target": "MESH:D012559",
+        "key": "PRESENTED_BY"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "carbinoxamine",
+      "disease": "seasonal allergic conjunctivitis",
+      "drugbank": "DB00748",
+      "drug_mesh": "MESH:C004649",
+      "disease_mesh": "MESH:D003233"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C004649",
+        "name": "carbinoxamine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35367",
+        "name": "histamine H1 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0034776",
+        "name": "histamine response",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003233",
+        "name": "seasonal allergic conjunctivitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C004649",
+        "target": "UniProt:P35367",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35367",
+        "target": "GO:0034776",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0034776",
+        "target": "MESH:D003233",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "follitropin",
+      "disease": "primary ovarian failure",
+      "drugbank": "DB00066",
+      "drug_mesh": "MESH:D005640",
+      "disease_mesh": "MESH:D016649"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D005640",
+        "name": "follitropin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P23945",
+        "name": "Human follicle stimulating hormone receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0030728",
+        "name": "ovulation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D016649",
+        "name": "primary ovarian failure",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D005640",
+        "target": "UniProt:P23945",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P23945",
+        "target": "GO:0030728",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0030728",
+        "target": "MESH:D016649",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ceftriaxone",
+      "disease": "Gonorrhea",
+      "drugbank": "DB01212",
+      "drug_mesh": "MESH:D002443",
+      "disease_mesh": "MESH:D006069"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D002443",
+        "name": "ceftriaxone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:O05131",
+        "name": "Penicillin-binding protein 2B",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0009252",
+        "name": "Bacterial Cell Wall Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:485",
+        "name": "N. gonorrhoeae",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D006069",
+        "name": "Gonorrhea",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D002443",
+        "target": "UniProt:O05131",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:O05131",
+        "target": "GO:0009252",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0009252",
+        "target": "NCBITaxon:485",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:485",
+        "target": "MESH:D006069",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "fusidic acid",
+      "disease": "Anthrax",
+      "drugbank": "DB02703",
+      "drug_mesh": "MESH:D005672",
+      "disease_mesh": "MESH:D000881"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D005672",
+        "name": "fusidic acid",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q81VT3",
+        "name": "elongation factor g",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Translation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1392",
+        "name": "Bacillus anthracis",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D000881",
+        "name": "Anthrax",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D005672",
+        "target": "UniProt:Q81VT3",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:Q81VT3",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:1392",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1392",
+        "target": "MESH:D000881",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "warfarin",
+      "disease": "Pulmonary embolism",
+      "drugbank": "DB00682",
+      "drug_mesh": "MESH:D014859",
+      "disease_mesh": "MESH:D011655"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D014859",
+        "name": "warfarin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q9BQB6",
+        "name": "vitamin k reductase",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D014812",
+        "name": "reduced vitamin k",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0007596",
+        "name": "Coagulation factor Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D011655",
+        "name": "Pulmonary embolism",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D014859",
+        "target": "UniProt:Q9BQB6",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:Q9BQB6",
+        "target": "MESH:D014812",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D014812",
+        "target": "GO:0007596",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0007596",
+        "target": "MESH:D011655",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "metreleptin",
+      "disease": "lipodystrophy",
+      "drugbank": "DB09046",
+      "drug_mesh": "MESH:C415771",
+      "disease_mesh": "MESH:D008060"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C415771",
+        "name": "metreleptin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P48357",
+        "name": "leptin receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0060612",
+        "name": "adipogenesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D008060",
+        "name": "lipodystrophy",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C415771",
+        "target": "UniProt:P48357",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P48357",
+        "target": "GO:0060612",
+        "key": "REGULATES"
+      },
+      {
+        "source": "GO:0060612",
+        "target": "MESH:D008060",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ceftizoxime",
+      "disease": "Klebsiella cystitis",
+      "drugbank": "DB01332",
+      "drug_mesh": "MESH:D015296",
+      "disease_mesh": "MESH:D007710"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D015296",
+        "name": "ceftizoxime",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P71707",
+        "name": "Penicillin-binding protein 1A",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0009252",
+        "name": "Bacterial Cell Wall Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:573",
+        "name": "Klebsiella pneumoniae",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D007710",
+        "name": "Klebsiella cystitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D015296",
+        "target": "UniProt:P71707",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P71707",
+        "target": "GO:0009252",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0009252",
+        "target": "NCBITaxon:573",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:573",
+        "target": "MESH:D007710",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "loratadine",
+      "disease": "Allergic Rhinitis",
+      "drugbank": "DB00455",
+      "drug_mesh": "MESH:D017336",
+      "disease_mesh": "MESH:D065631"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D017336",
+        "name": "loratadine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35367",
+        "name": "histamine H1 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0034776",
+        "name": "histamine response",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D065631",
+        "name": "Allergic Rhinitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D017336",
+        "target": "UniProt:P35367",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35367",
+        "target": "GO:0034776",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0034776",
+        "target": "MESH:D065631",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "oxymetazoline",
+      "disease": "Nasal Congestion",
+      "drugbank": "DB00935",
+      "drug_mesh": "MESH:D010109",
+      "disease_mesh": "MESH:D015508"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D010109",
+        "name": "oxymetazoline",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35348",
+        "name": "Alpha-1a adrenergic receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0042310",
+        "name": "Vasoconstriction",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D015508",
+        "name": "Nasal Congestion",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D010109",
+        "target": "UniProt:P35348",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P35348",
+        "target": "GO:0042310",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0042310",
+        "target": "MESH:D015508",
+        "key": "REDUCES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "phenobarbital",
+      "disease": "Epilepsy",
+      "drugbank": "DB01174",
+      "drug_mesh": "MESH:D010634",
+      "disease_mesh": "MESH:D004827"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D010634",
+        "name": "phenobarbital",
+        "label": "Drug"
+      },
+      {
+        "id": "InterPro:IPR006028",
+        "name": "GABAA Receptors",
+        "label": "Protein Family"
+      },
+      {
+        "id": "GO:0099536",
+        "name": "Synaptic Signaling",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D004827",
+        "name": "Epilepsy",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D010634",
+        "target": "InterPro:IPR006028",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "InterPro:IPR006028",
+        "target": "GO:0099536",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0099536",
+        "target": "MESH:D004827",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "lidocaine",
+      "disease": "Pain",
+      "drugbank": "DB00281",
+      "drug_mesh": "MESH:D008012",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D008012",
+        "name": "lidocaine",
+        "label": "Drug"
+      },
+      {
+        "id": "InterPro:IPR028809",
+        "name": "Neuronal Voltage gated sodium channels",
+        "label": "Protein Family"
+      },
+      {
+        "id": "GO:0019233 ",
+        "name": "Sensory perception of pain",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      },
+      {
+        "id": null,
+        "name": "Pain",
+        "label": null
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D008012",
+        "target": "InterPro:IPR028809",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "InterPro:IPR028809",
+        "target": "GO:0019233 ",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0019233 ",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      },
+      {
+        "source": "MESH:D010146",
+        "target": null,
+        "key": null
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "duloxetine",
+      "disease": "major depressive disorder",
+      "drugbank": "DB00476",
+      "drug_mesh": "MESH:D000068736",
+      "disease_mesh": "MESH:D003865"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000068736",
+        "name": "duloxetine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P31645",
+        "name": "sodium dependent serotonin transporter",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0051610",
+        "name": "Neuronal serotonin reuptake",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003865",
+        "name": "major depressive disorder",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000068736",
+        "target": "UniProt:P31645",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P31645",
+        "target": "GO:0051610",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0051610",
+        "target": "MESH:D003865",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "doxylamine",
+      "disease": "Allergic Rhinitis",
+      "drugbank": "DB00366",
+      "drug_mesh": "MESH:D004319",
+      "disease_mesh": "MESH:D065631"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D004319",
+        "name": "doxylamine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35367",
+        "name": "histamine H1 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0034776",
+        "name": "histamine response",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D065631",
+        "name": "Allergic Rhinitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D004319",
+        "target": "UniProt:P35367",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35367",
+        "target": "GO:0034776",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0034776",
+        "target": "MESH:D065631",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "leucovorin",
+      "disease": "Megaloblastic anemia (Methotrexate Treatment)",
+      "drugbank": "DB00650",
+      "drug_mesh": "MESH:D002955",
+      "disease_mesh": "MESH:D000749"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D002955",
+        "name": "leucovorin",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D005492",
+        "name": "Folic Acid",
+        "label": "Compound"
+      },
+      {
+        "id": "MESH:D000749",
+        "name": "Megaloblastic anemia (Methotrexate Treatment)",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D002955",
+        "target": "MESH:D005492",
+        "key": "INCREASES"
+      },
+      {
+        "source": "MESH:D005492",
+        "target": "MESH:D000749",
+        "key": "REDUCED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "clarithromycin",
+      "disease": "Acute maxillary sinusitis",
+      "drugbank": "DB01211",
+      "drug_mesh": "MESH:D017291",
+      "disease_mesh": "MESH:D015523"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D017291",
+        "name": "clarithromycin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P44350",
+        "name": "50S Ribosomal protein l-10",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Translation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:727",
+        "name": "Haemophilus influenzae",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D015523",
+        "name": "Acute maxillary sinusitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D017291",
+        "target": "UniProt:P44350",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P44350",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:727",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:727",
+        "target": "MESH:D015523",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "minoxidil",
+      "disease": "androgenic alopecia",
+      "drugbank": "DB00350",
+      "drug_mesh": "MESH:D008914",
+      "disease_mesh": "MESH:D000505"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D008914",
+        "name": "minoxidil",
+        "label": "Drug"
+      },
+      {
+        "id": "CL:0000346",
+        "name": "dermal papillary cells",
+        "label": "Cell Type"
+      },
+      {
+        "id": "MESH:D000505",
+        "name": "androgenic alopecia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D008914",
+        "target": "CL:0000346",
+        "key": "STIMULATES"
+      },
+      {
+        "source": "CL:0000346",
+        "target": "MESH:D000505",
+        "key": "REDUCED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "minoxidil",
+      "disease": "Hypertension",
+      "drugbank": "DB00350",
+      "drug_mesh": "MESH:D008914",
+      "disease_mesh": "MESH:D006973"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D008914",
+        "name": "minoxidil",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P48048",
+        "name": "ATP-sensitive inward rectifier potassium channel 1",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0042311",
+        "name": "Vasodilation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "GO:0008217",
+        "name": "Blood Pressure",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D006973",
+        "name": "Hypertension",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D008914",
+        "target": "UniProt:P48048",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P48048",
+        "target": "GO:0042311",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0042311",
+        "target": "GO:0008217",
+        "key": "REDUCES"
+      },
+      {
+        "source": "GO:0008217",
+        "target": "MESH:D006973",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "sildenafil",
+      "disease": "Erectile Disfunction",
+      "drugbank": "DB00203",
+      "drug_mesh": "MESH:D000068677",
+      "disease_mesh": "MESH:D007172"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000068677",
+        "name": "sildenafil",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:O76074",
+        "name": "phosphodisterase type 5",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D006152",
+        "name": "cGMP",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0042311",
+        "name": "Vasodilation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D007172",
+        "name": "Erectile Disfunction",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000068677",
+        "target": "UniProt:O76074",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:O76074",
+        "target": "MESH:D006152",
+        "key": "REDUCES"
+      },
+      {
+        "source": "MESH:D006152",
+        "target": "GO:0042311",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0042311",
+        "target": "MESH:D007172",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "gemifloxacin",
+      "disease": "Bacterial pneumonia",
+      "drugbank": "DB01155",
+      "drug_mesh": "MESH:D000077735",
+      "disease_mesh": "MESH:D018410"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000077735",
+        "name": "gemifloxacin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P72525",
+        "name": "Topoisomeraze 4",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006260",
+        "name": "Bacterial DNA replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1313",
+        "name": "Streptococcus pneumoniae",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D018410",
+        "name": "Bacterial pneumonia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000077735",
+        "target": "UniProt:P72525",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P72525",
+        "target": "GO:0006260",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006260",
+        "target": "NCBITaxon:1313",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1313",
+        "target": "MESH:D018410",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "betamethasone",
+      "disease": "Crohn's disease",
+      "drugbank": "DB00443",
+      "drug_mesh": "MESH:D001623",
+      "disease_mesh": "MESH:D003424"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D001623",
+        "name": "betamethasone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P47712",
+        "name": "Phospholipase A2",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003424",
+        "name": "Crohn's disease",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D001623",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P47712",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P47712",
+        "target": "GO:0006954",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D003424",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "tazanolast",
+      "disease": "Allergic conjuctivitis",
+      "drugbank": null,
+      "drug_mesh": "MESH:C106301",
+      "disease_mesh": "MESH:D003233"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C106301",
+        "name": "tazanolast",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0002553",
+        "name": "Histamine sections by Mast Cell",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003233",
+        "name": "Allergic conjuctivitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C106301",
+        "target": "GO:0002553",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "GO:0002553",
+        "target": "MESH:D003233",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "triamcinolone diacetate",
+      "disease": "Crohn's disease",
+      "drugbank": "DB00620",
+      "drug_mesh": "MESH:D014221",
+      "disease_mesh": "MESH:D003424"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D014221",
+        "name": "triamcinolone diacetate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P47712",
+        "name": "Phospholipase A2",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003424",
+        "name": "Crohn's disease",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D014221",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P47712",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P47712",
+        "target": "GO:0006954",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D003424",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "gabapentin",
+      "disease": "Restless Legs Syndrome",
+      "drugbank": "DB00996",
+      "drug_mesh": "MESH:D000077206",
+      "disease_mesh": "MESH:D012148"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000077206",
+        "name": "gabapentin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P54289",
+        "name": "voltage dependent calcium channel alpha-2-delta",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006936",
+        "name": "Muscle Contraction",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D012148",
+        "name": "Restless Legs Syndrome",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000077206",
+        "target": "UniProt:P54289",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P54289",
+        "target": "GO:0006936",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006936",
+        "target": "MESH:D012148",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "imipenem",
+      "disease": "Peritonitis",
+      "drugbank": "DB01598",
+      "drug_mesh": "MESH:D015378",
+      "disease_mesh": "MESH:D010538"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D015378",
+        "name": "imipenem",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P0AD65",
+        "name": "Penicillin-binding proteins",
+        "label": "Protein Family"
+      },
+      {
+        "id": "GO:0009252",
+        "name": "Bacterial Cell Wall Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:562",
+        "name": "Escherichia coli",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D010538",
+        "name": "Peritonitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D015378",
+        "target": "UniProt:P0AD65",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P0AD65",
+        "target": "GO:0009252",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0009252",
+        "target": "NCBITaxon:562",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:562",
+        "target": "MESH:D010538",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "prednisolone",
+      "disease": "Sarcoidosis",
+      "drugbank": "DB00860",
+      "drug_mesh": "MESH:D011239",
+      "disease_mesh": "MESH:D012507"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D011239",
+        "name": "prednisolone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P04083",
+        "name": "lipocortins",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P47712",
+        "name": "phospholipase a2",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "Inflammation signaling",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D012507",
+        "name": "Sarcoidosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D011239",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P04083",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "UniProt:P04083",
+        "target": "UniProt:P47712",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P47712",
+        "target": "GO:0006954",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D012507",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "pramocaine",
+      "disease": "Pain",
+      "drugbank": "DB09345",
+      "drug_mesh": "MESH:C005548",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C005548",
+        "name": "pramocaine",
+        "label": "Drug"
+      },
+      {
+        "id": "InterPro:IPR028809",
+        "name": "Neuronal Voltage gated sodium channels",
+        "label": "Protein Family"
+      },
+      {
+        "id": "GO:0019227",
+        "name": "Neuronal Action Potential Transmission",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C005548",
+        "target": "InterPro:IPR028809",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "InterPro:IPR028809",
+        "target": "GO:0019227",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0019227",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "neomycin",
+      "disease": "Keratitis",
+      "drugbank": "DB00994",
+      "drug_mesh": "MESH:D009355",
+      "disease_mesh": "MESH:D007634"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D009355",
+        "name": "neomycin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P0A0H0",
+        "name": "30S Ribosomal Subunit",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Translation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1280",
+        "name": "Staphylococcus aureus",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D007634",
+        "name": "Keratitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D009355",
+        "target": "UniProt:P0A0H0",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P0A0H0",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:1280",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1280",
+        "target": "MESH:D007634",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ertapenem",
+      "disease": "Bacterial pneumonia",
+      "drugbank": "DB00303",
+      "drug_mesh": "MESH:D000077727",
+      "disease_mesh": "MESH:D018410"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000077727",
+        "name": "ertapenem",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P44469",
+        "name": "Penicillin-binding proteins",
+        "label": "Protein Family"
+      },
+      {
+        "id": "GO:0009252",
+        "name": "Bacterial Cell Wall Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:727",
+        "name": "Haemophilus influenzae",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D018410",
+        "name": "Bacterial pneumonia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000077727",
+        "target": "UniProt:P44469",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P44469",
+        "target": "GO:0009252",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0009252",
+        "target": "NCBITaxon:727",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:727",
+        "target": "MESH:D018410",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "halcinonide",
+      "disease": "Dermatosis",
+      "drugbank": "DB06786",
+      "drug_mesh": "MESH:D006206",
+      "disease_mesh": "MESH:D012871"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D006206",
+        "name": "halcinonide",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "inflammatory signalling",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D012871",
+        "name": "Dermatosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D006206",
+        "target": "GO:0006954",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D012871",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "pimozide",
+      "disease": "Tourette\u2019s Disorder",
+      "drugbank": "DB01100",
+      "drug_mesh": "MESH:D010868",
+      "disease_mesh": "MESH:D005879"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D010868",
+        "name": "pimozide",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P14416",
+        "name": "Dopamine D2 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0014046",
+        "name": "Dopamine Release",
+        "label": "Biological Process"
+      },
+      {
+        "id": "HP:0100033",
+        "name": "tics",
+        "label": "Phenotype"
+      },
+      {
+        "id": "MESH:D005879",
+        "name": "Tourette\u2019s Disorder",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D010868",
+        "target": "UniProt:P14416",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P14416",
+        "target": "GO:0014046",
+        "key": "ACTIVATED_BY"
+      },
+      {
+        "source": "GO:0014046",
+        "target": "HP:0100033",
+        "key": "ASSOCIATED_WITH"
+      },
+      {
+        "source": "HP:0100033",
+        "target": "MESH:D005879",
+        "key": "PRESENTED_BY"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "clortermine",
+      "disease": "Anorexia nervosa",
+      "drugbank": "DB01527",
+      "drug_mesh": null,
+      "disease_mesh": "MESH:D000856"
+    },
+    "nodes": [
+      {
+        "id": "DB:DB01527",
+        "name": "clortermine",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D000856",
+        "name": "Anorexia nervosa",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "DB:DB01527",
+        "target": "MESH:D000856",
+        "key": "TREATS"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "levonorgestrel",
+      "disease": "Menorrhagia",
+      "drugbank": "DB00367",
+      "drug_mesh": "MESH:D016912",
+      "disease_mesh": "MESH:D008595"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D016912",
+        "name": "levonorgestrel",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P06401",
+        "name": "progesterone receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P01148",
+        "name": "gonadotropin releasing hormone",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0032275",
+        "name": "Luteinizing hormone secretion",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D008595",
+        "name": "Menorrhagia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D016912",
+        "target": "UniProt:P06401",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P06401",
+        "target": "UniProt:P01148",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P01148",
+        "target": "GO:0032275",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0032275",
+        "target": "MESH:D008595",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "dimethyl fumarate",
+      "disease": "Multiple Sclerosis",
+      "drugbank": "DB08908",
+      "drug_mesh": "MESH:D000069462",
+      "disease_mesh": "MESH:D009103"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000069462",
+        "name": "dimethyl fumarate",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:Q14145",
+        "name": "Kelch-like ECH-associated protein 1",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:Q16236",
+        "name": "Nrf2",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006979",
+        "name": "Oxidative Stress",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D009103",
+        "name": "Multiple Sclerosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000069462",
+        "target": "MESH:Q14145",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "MESH:Q14145",
+        "target": "UniProt:Q16236",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:Q16236",
+        "target": "GO:0006979",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0006979",
+        "target": "MESH:D009103",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "inulin",
+      "disease": "Hyperglycemia",
+      "drugbank": "DB00638",
+      "drug_mesh": "MESH:D007444",
+      "disease_mesh": "MESH:D006943"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D007444",
+        "name": "inulin",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0032099",
+        "name": "negative regulation of appetite",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D006943",
+        "name": "Hyperglycemia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D007444",
+        "target": "GO:0032099",
+        "key": "ASSOCIATED_WITH"
+      },
+      {
+        "source": "GO:0032099",
+        "target": "MESH:D006943",
+        "key": "REDUCES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "protriptyline",
+      "disease": "Major depressive disorder",
+      "drugbank": "DB00344",
+      "drug_mesh": "MESH:D011530",
+      "disease_mesh": "MESH:D003865"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D011530",
+        "name": "protriptyline",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P23975",
+        "name": "Sodium dependent noradrenaline transporter",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D009638",
+        "name": "noradrenaline",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0023041",
+        "name": "Neuronal activation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003865",
+        "name": "Major depressive disorder",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D011530",
+        "target": "UniProt:P23975",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P23975",
+        "target": "MESH:D009638",
+        "key": "REDUCES"
+      },
+      {
+        "source": "MESH:D009638",
+        "target": "GO:0023041",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0023041",
+        "target": "MESH:D003865",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "terguride",
+      "disease": "Pulmonary hypertension",
+      "drugbank": null,
+      "drug_mesh": "MESH:C006208",
+      "disease_mesh": "MESH:D006976"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C006208",
+        "name": "terguride",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P41595",
+        "name": "5-Hydroxytryptamine receptor 2B",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D006976",
+        "name": "Pulmonary hypertension",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C006208",
+        "target": "UniProt:P41595",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P41595",
+        "target": "MESH:D006976",
+        "key": "UPREGULATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "lafutidine",
+      "disease": "Gastroesophageal Reflux",
+      "drugbank": "DB12770",
+      "drug_mesh": "MESH:C076948",
+      "disease_mesh": "MESH:D005764"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C076948",
+        "name": "lafutidine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P25021",
+        "name": "Histamine H2 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0001696",
+        "name": "Gastric acid secretion",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D005764",
+        "name": "Gastroesophageal Reflux",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C076948",
+        "target": "UniProt:P25021",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P25021",
+        "target": "GO:0001696",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0001696",
+        "target": "MESH:D005764",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ospemifene",
+      "disease": "Dyspareunia",
+      "drugbank": "DB04938",
+      "drug_mesh": "MESH:C119141",
+      "disease_mesh": "MESH:D004414"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C119141",
+        "name": "ospemifene",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P03372",
+        "name": "estrogen receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D004967",
+        "name": "estrogen",
+        "label": "Compound"
+      },
+      {
+        "id": "MESH:D059268",
+        "name": "postmenopausal atrophic vaginitis",
+        "label": "Disease"
+      },
+      {
+        "id": "MESH:D004414",
+        "name": "Dyspareunia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C119141",
+        "target": "UniProt:P03372",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P03372",
+        "target": "MESH:D004967",
+        "key": "ACTIVATED_BY"
+      },
+      {
+        "source": "MESH:D004967",
+        "target": "MESH:D059268",
+        "key": "REDUCED_IN"
+      },
+      {
+        "source": "MESH:D059268",
+        "target": "MESH:D004414",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "erythromycin",
+      "disease": "Listeriosis",
+      "drugbank": "DB00199",
+      "drug_mesh": "MESH:D004917",
+      "disease_mesh": "MESH:D008088"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D004917",
+        "name": "erythromycin",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D012338",
+        "name": "23S Ribosomal RNA",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Translation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1637",
+        "name": "Listeria spp.",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D008088",
+        "name": "Listeriosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D004917",
+        "target": "MESH:D012338",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "MESH:D012338",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:1637",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1637",
+        "target": "MESH:D008088",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "aminobenzoic acid",
+      "disease": "Pemphigus",
+      "drugbank": "DB02362",
+      "drug_mesh": "MESH:D010129",
+      "disease_mesh": "MESH:D010392"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D010129",
+        "name": "aminobenzoic acid",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D010392",
+        "name": "Pemphigus",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D010129",
+        "target": "MESH:D010392",
+        "key": "TREATS"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "glipizide",
+      "disease": "Hyperglycemia",
+      "drugbank": "DB01067",
+      "drug_mesh": "MESH:D005913",
+      "disease_mesh": "MESH:D006943"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D005913",
+        "name": "glipizide",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q09428",
+        "name": "ATP-binding cassette sub-family C member 8",
+        "label": "Protein"
+      },
+      {
+        "id": "CL:0000169",
+        "name": "Islet Cells",
+        "label": "Cell Type"
+      },
+      {
+        "id": "UniProt:P01308",
+        "name": "insulin",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D006943",
+        "name": "Hyperglycemia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D005913",
+        "target": "UniProt:Q09428",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:Q09428",
+        "target": "CL:0000169",
+        "key": "LOCALIZED_TO"
+      },
+      {
+        "source": "CL:0000169",
+        "target": "UniProt:P01308",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "UniProt:P01308",
+        "target": "MESH:D006943",
+        "key": "REDUCES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "landiolol",
+      "disease": "Tachyarrhythmia",
+      "drugbank": "DB12212",
+      "drug_mesh": "MESH:C077049",
+      "disease_mesh": "MESH:D013610"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C077049",
+        "name": "landiolol",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P08588",
+        "name": "Beta-1 adrenergic receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0045823",
+        "name": "positive regulation of heart contraction",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D013610",
+        "name": "Tachyarrhythmia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C077049",
+        "target": "UniProt:P08588",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P08588",
+        "target": "GO:0045823",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0045823",
+        "target": "MESH:D013610",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "levocabastine",
+      "disease": "Allergic conjunctivitis",
+      "drugbank": "DB01106",
+      "drug_mesh": "MESH:C047340",
+      "disease_mesh": "MESH:D003233"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C047340",
+        "name": "levocabastine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35367",
+        "name": "histamine H1 Receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0034776",
+        "name": "response to histamine",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003233",
+        "name": "Allergic conjunctivitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C047340",
+        "target": "UniProt:P35367",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P35367",
+        "target": "GO:0034776",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0034776",
+        "target": "MESH:D003233",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acenocoumarol",
+      "disease": "Pulmonary Embolism",
+      "drugbank": "DB01418",
+      "drug_mesh": "MESH:D000074",
+      "disease_mesh": "MESH:D011655"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000074",
+        "name": "acenocoumarol",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q9BQB6",
+        "name": "vitamin k reductase",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D014812",
+        "name": "Reduced Vitamin k2 (vkH2)",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0007596",
+        "name": "Clotting Factor Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D011655",
+        "name": "Pulmonary Embolism",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000074",
+        "target": "UniProt:Q9BQB6",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:Q9BQB6",
+        "target": "MESH:D014812",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D014812",
+        "target": "GO:0007596",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0007596",
+        "target": "MESH:D011655",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "dexamethasone acetate",
+      "disease": "Multiple meyloma",
+      "drugbank": "DB14649",
+      "drug_mesh": "MESH:C018038",
+      "disease_mesh": "MESH:D009101"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C018038",
+        "name": "dexamethasone acetate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P04150",
+        "name": "Glucocorticoid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P04083",
+        "name": "annexin A1",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P47712",
+        "name": "Phospholipase a2",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0019370",
+        "name": "leukotriene biosysntesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D009101",
+        "name": "Multiple meyloma",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C018038",
+        "target": "UniProt:P04150",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P04150",
+        "target": "UniProt:P04083",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "UniProt:P04083",
+        "target": "UniProt:P47712",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "UniProt:P47712",
+        "target": "GO:0019370",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0019370",
+        "target": "MESH:D009101",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "mosapramine",
+      "disease": "Schizophrenia",
+      "drugbank": "DB13676",
+      "drug_mesh": "MESH:C046384",
+      "disease_mesh": "MESH:D012559"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C046384",
+        "name": "mosapramine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P14416",
+        "name": "Dopamine receptor D2",
+        "label": "Protein"
+      },
+      {
+        "id": "REACT:R-HSA-390651",
+        "name": "Dopamine pathway",
+        "label": "Pathway"
+      },
+      {
+        "id": "MESH:D012559",
+        "name": "Schizophrenia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C046384",
+        "target": "UniProt:P14416",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P14416",
+        "target": "REACT:R-HSA-390651",
+        "key": "PART_OF"
+      },
+      {
+        "source": "REACT:R-HSA-390651",
+        "target": "MESH:D012559",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "thyrotropin alfa",
+      "disease": "Thyroid cancer (Diagnostic)",
+      "drugbank": "DB00024",
+      "drug_mesh": "MESH:D057073",
+      "disease_mesh": "MESH:D013964"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D057073",
+        "name": "thyrotropin alfa",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P16473",
+        "name": "Thyrotropin receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UBERON:0002046",
+        "name": "Thyroid",
+        "label": "Anatomy"
+      },
+      {
+        "id": "MESH:D013964",
+        "name": "Thyroid cancer (Diagnostic)",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D057073",
+        "target": "UniProt:P16473",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P16473",
+        "target": "UBERON:0002046",
+        "key": "LOCALIZED_TO"
+      },
+      {
+        "source": "UBERON:0002046",
+        "target": "MESH:D013964",
+        "key": "LOCATION_OF"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "metolazone",
+      "disease": "Hypertension",
+      "drugbank": "DB00524",
+      "drug_mesh": "MESH:D008788",
+      "disease_mesh": "MESH:D006973"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D008788",
+        "name": "metolazone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P55017",
+        "name": "Solute carrier family 12 member 3",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0055078",
+        "name": "Sodium Ion Homeostasis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D006973",
+        "name": "Hypertension",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D008788",
+        "target": "UniProt:P55017",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P55017",
+        "target": "GO:0055078",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0055078",
+        "target": "MESH:D006973",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "sincalide",
+      "disease": "GallBladder Diseases (Diagnostic)",
+      "drugbank": "DB09142",
+      "drug_mesh": "MESH:D012844",
+      "disease_mesh": "MESH:D005705"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D012844",
+        "name": "sincalide",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0032782",
+        "name": "Bile acid secretion",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D005705",
+        "name": "Gallbladder Diseases (Diagnostic)",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D012844",
+        "target": "GO:0032782",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "GO:0032782",
+        "target": "MESH:D005705",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "gepirone",
+      "disease": "Major depressive disorder",
+      "drugbank": "DB12184",
+      "drug_mesh": "MESH:C039979",
+      "disease_mesh": "MESH:D003865"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C039979",
+        "name": "gepirone",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P08908",
+        "name": "5-HT1a receptor (serotonin 1A)",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0050795",
+        "name": "regulation of behavior",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003865",
+        "name": "Major depressive disorder",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C039979",
+        "target": "UniProt:P08908",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P08908",
+        "target": "GO:0050795",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0050795",
+        "target": "MESH:D003865",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "tramadol",
+      "disease": "Pain",
+      "drugbank": "DB00193",
+      "drug_mesh": "MESH:D014147",
+      "disease_mesh": "MESH:D010146"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D014147",
+        "name": "tramadol",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P35372",
+        "name": "Mu-type opioid receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0019233",
+        "name": "sensory perception",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D010146",
+        "name": "Pain",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D014147",
+        "target": "UniProt:P35372",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P35372",
+        "target": "GO:0019233",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0019233",
+        "target": "MESH:D010146",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "trimethadione",
+      "disease": "Absence seizure",
+      "drugbank": "DB00347",
+      "drug_mesh": "MESH:D014293",
+      "disease_mesh": "MESH:D004832"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D014293",
+        "name": "trimethadione",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:O43497",
+        "name": "voltage dependent T-type calcium channel subunit alpha-1G",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0007268 ",
+        "name": "corticothalamic transmission",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D004832",
+        "name": "Absence seizure",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D014293",
+        "target": "UniProt:O43497",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:O43497",
+        "target": "GO:0007268 ",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0007268 ",
+        "target": "MESH:D004832",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "apalutamide",
+      "disease": "Nonmetastatic prostate cancer",
+      "drugbank": "DB11901",
+      "drug_mesh": "MESH:C572045",
+      "disease_mesh": "MESH:D011471"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C572045",
+        "name": "apalutamide",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P10275",
+        "name": "androgen receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006351",
+        "name": "gene transcription",
+        "label": "Biological Process"
+      },
+      {
+        "id": "GO:0008283",
+        "name": "Cell proliferation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D011471",
+        "name": "Nonmetastatic prostate cancer",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C572045",
+        "target": "UniProt:P10275",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P10275",
+        "target": "GO:0006351",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0006351",
+        "target": "GO:0008283",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "GO:0008283",
+        "target": "MESH:D011471",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "asfotase alfa",
+      "disease": "Hypophosphatasia",
+      "drugbank": "DB09105",
+      "drug_mesh": "MESH:C570710",
+      "disease_mesh": "MESH:D007014"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C570710",
+        "name": "asfotase alfa",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:C107241",
+        "name": "inorgainc pyrophosphate",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0030282",
+        "name": "hydroxpatite crystal growth",
+        "label": "Biological Process"
+      },
+      {
+        "id": "HP:0004349",
+        "name": "Reduced bone mineral density",
+        "label": "Phenotype"
+      },
+      {
+        "id": "MESH:D007014",
+        "name": "Hypophosphatasia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C570710",
+        "target": "MESH:C107241",
+        "key": "REDUCES"
+      },
+      {
+        "source": "MESH:C107241",
+        "target": "GO:0030282",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0030282",
+        "target": "HP:0004349",
+        "key": "CAUSES"
+      },
+      {
+        "source": "HP:0004349",
+        "target": "MESH:D007014",
+        "key": "PRESENTED_BY"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "aminoglutethimide",
+      "disease": "Secondary malignant neoplasm of female breast ",
+      "drugbank": "DB00357",
+      "drug_mesh": "MESH:D000616",
+      "disease_mesh": "MESH:D001943"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000616",
+        "name": "aminoglutethimide",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P11511",
+        "name": "aromatase",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D004967",
+        "name": "estrogen",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0008283",
+        "name": "Cell proliferation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D001943",
+        "name": "Secondary malignant neoplasm of female breast",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000616",
+        "target": "UniProt:P11511",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P11511",
+        "target": "MESH:D004967",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D004967",
+        "target": "GO:0008283",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0008283",
+        "target": "MESH:D001943",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ganirelix",
+      "disease": "Ovulation induction",
+      "drugbank": "DB06785",
+      "drug_mesh": "MESH:C061018",
+      "disease_mesh": "MESH:D010062"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C061018",
+        "name": "ganirelix",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P30968",
+        "name": "GnRH receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "UBERON:0000007",
+        "name": "pituitary gland",
+        "label": "Anatomy"
+      },
+      {
+        "id": "InterPro:IPR000476",
+        "name": "gonadotropins",
+        "label": "Protein Family"
+      },
+      {
+        "id": "MESH:D010062",
+        "name": "Ovulation induction",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C061018",
+        "target": "UniProt:P30968",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P30968",
+        "target": "UBERON:0000007",
+        "key": "LOCALIZED_TO"
+      },
+      {
+        "source": "UBERON:0000007",
+        "target": "InterPro:IPR000476",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "InterPro:IPR000476",
+        "target": "MESH:D010062",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "glutamine",
+      "disease": "Short bowel syndrome",
+      "drugbank": "DB00130",
+      "drug_mesh": "MESH:D005973",
+      "disease_mesh": "MESH:D012778"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D005973",
+        "name": "glutamine",
+        "label": "Drug"
+      },
+      {
+        "id": "CL:0000584",
+        "name": "enterocytes",
+        "label": "Cell Type"
+      },
+      {
+        "id": "GO:0050892",
+        "name": "intestinal nutrient absorption",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D012778",
+        "name": "Short bowel syndrome",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D005973",
+        "target": "CL:0000584",
+        "key": "STIMULATES"
+      },
+      {
+        "source": "CL:0000584",
+        "target": "GO:0050892",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0050892",
+        "target": "MESH:D012778",
+        "key": "DISRUPTED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "anastrozole",
+      "disease": "Hormone receptor positive malignant neoplasm of breast",
+      "drugbank": "DB01217",
+      "drug_mesh": "MESH:D000077384",
+      "disease_mesh": "MESH:D001943"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000077384",
+        "name": "anastrozole",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P11511",
+        "name": "aromatase",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D004967",
+        "name": "estrogen",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0030284",
+        "name": "esterogne receptor activity",
+        "label": "Molecular Function"
+      },
+      {
+        "id": "MESH:D001943",
+        "name": "Hormone receptor positive malignant neoplasm of breast",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000077384",
+        "target": "UniProt:P11511",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P11511",
+        "target": "MESH:D004967",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:D004967",
+        "target": "GO:0030284",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0030284",
+        "target": "MESH:D001943",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "hemin",
+      "disease": "Acute intermittent porphyria",
+      "drugbank": "DB03404",
+      "drug_mesh": "MESH:D006427",
+      "disease_mesh": "MESH:D017118"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D006427",
+        "name": "hemin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P13196",
+        "name": "Aminolevulinic acid synthase",
+        "label": "Protein"
+      },
+      {
+        "id": "REACT:R-HSA-189451",
+        "name": "Heme biosynthesis",
+        "label": "Pathway"
+      },
+      {
+        "id": "MESH:D011162",
+        "name": "porpholobilinogen",
+        "label": "Compound"
+      },
+      {
+        "id": "MESH:D017118",
+        "name": "Acute intermittent porphyria",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D006427",
+        "target": "UniProt:P13196",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P13196",
+        "target": "REACT:R-HSA-189451",
+        "key": "PART_OF"
+      },
+      {
+        "source": "REACT:R-HSA-189451",
+        "target": "MESH:D011162",
+        "key": "HAS_PART"
+      },
+      {
+        "source": "MESH:D011162",
+        "target": "MESH:D017118",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "etizolam",
+      "disease": "Anxiety disorders",
+      "drugbank": "DB09166",
+      "drug_mesh": "MESH:C044610",
+      "disease_mesh": "MESH:D001008"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C044610",
+        "name": "etizolam",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P14867",
+        "name": "GABA-A receptor alpha 1",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0022851",
+        "name": "GABA-A receptor activity",
+        "label": "Molecular Function"
+      },
+      {
+        "id": "MESH:D001008",
+        "name": "Anxiety disorders",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C044610",
+        "target": "UniProt:P14867",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P14867",
+        "target": "GO:0022851",
+        "key": "HAS_FUNCTION"
+      },
+      {
+        "source": "GO:0022851",
+        "target": "MESH:D001008",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "chloramphenicol succinate",
+      "disease": "Typhoid fever ",
+      "drugbank": "DB07565",
+      "drug_mesh": "MESH:C026016",
+      "disease_mesh": "MESH:D014435"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C026016",
+        "name": "chloramphenicol succinate",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P0A298",
+        "name": "50S ribosomal subunit",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0006412",
+        "name": "Bacterial Protein Synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:90370",
+        "name": "Salmonella typhi",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D014435",
+        "name": "Typhoid fever",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C026016",
+        "target": "UniProt:P0A298",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P0A298",
+        "target": "GO:0006412",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0006412",
+        "target": "NCBITaxon:90370",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:90370",
+        "target": "MESH:D014435",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "allantoin",
+      "disease": "Seborrheic dermatitis",
+      "drugbank": "DB11100",
+      "drug_mesh": "MESH:D000481",
+      "disease_mesh": "MESH:D012628"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000481",
+        "name": "allantoin",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0042060",
+        "name": "fibroblast proliferation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D012628",
+        "name": "Seborrheic dermatitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000481",
+        "target": "GO:0042060",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "GO:0042060",
+        "target": "MESH:D012628",
+        "key": "REDUCES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "epoetin theta",
+      "disease": "Anemia",
+      "drugbank": "DB00016",
+      "drug_mesh": "MESH:C555712",
+      "disease_mesh": "MESH:D000740"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C555712",
+        "name": "epoetin theta",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P19235",
+        "name": "erythropoietin receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0030218",
+        "name": "erythrocyte differentiation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "CL:0000232",
+        "name": "erythrocytes",
+        "label": "Cell Type"
+      },
+      {
+        "id": "MESH:D000740",
+        "name": "Anemia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C555712",
+        "target": "UniProt:P19235",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P19235",
+        "target": "GO:0030218",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0030218",
+        "target": "CL:0000232",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "CL:0000232",
+        "target": "MESH:D000740",
+        "key": "REDUCED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "sulfasalazine",
+      "disease": "Ulcerative Colitis",
+      "drugbank": "DB00795",
+      "drug_mesh": "MESH:D012460",
+      "disease_mesh": "MESH:D003093"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D012460",
+        "name": "sulfasalazine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P09917",
+        "name": "Arachidonate 5-lipoxygenase",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0019370",
+        "name": "leukotriene biosynthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "GO:0006954",
+        "name": "inflammatory response",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003093",
+        "name": "Ulcerative Colitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D012460",
+        "target": "UniProt:P09917",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P09917",
+        "target": "GO:0019370",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "GO:0019370",
+        "target": "GO:0006954",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0006954",
+        "target": "MESH:D003093",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "foscarnet",
+      "disease": "Cytomegalovirus Retinitis",
+      "drugbank": "DB00529",
+      "drug_mesh": "MESH:D017245",
+      "disease_mesh": "MESH:D017726"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D017245",
+        "name": "foscarnet",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P08546",
+        "name": "viral DNA Polymerase",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0039693",
+        "name": "viral DNA replication",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:10358",
+        "name": "Cytomegalovirus",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D017726",
+        "name": "Cytomegalovirus Retinitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D017245",
+        "target": "UniProt:P08546",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P08546",
+        "target": "GO:0039693",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0039693",
+        "target": "NCBITaxon:10358",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:10358",
+        "target": "MESH:D017726",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "chlorhexidine",
+      "disease": "periodontitis",
+      "drugbank": "DB00878",
+      "drug_mesh": "MESH:D002710",
+      "disease_mesh": "MESH:D010518"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D002710",
+        "name": "chlorhexidine",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0009274",
+        "name": "Bacterial Cell Wall",
+        "label": "Cellular Component"
+      },
+      {
+        "id": "NCBITaxon:837",
+        "name": "Porphyromonas gingivalis",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D010518",
+        "name": "periodontitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D002710",
+        "target": "GO:0009274",
+        "key": "DISRUPTS"
+      },
+      {
+        "source": "GO:0009274",
+        "target": "NCBITaxon:837",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:837",
+        "target": "MESH:D010518",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "pegaspargase",
+      "disease": "Acute lymphoblastic leukemia",
+      "drugbank": "DB00059",
+      "drug_mesh": "MESH:C042705",
+      "disease_mesh": "MESH:D054198"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C042705",
+        "name": "pegaspargase",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D001216",
+        "name": "extracellular asparagine",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0008283",
+        "name": "cellular proliferation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D054198",
+        "name": "Acute lymphoblastic leukemia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C042705",
+        "target": "MESH:D001216",
+        "key": "REDUCES"
+      },
+      {
+        "source": "MESH:D001216",
+        "target": "GO:0008283",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0008283",
+        "target": "MESH:D054198",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "rifapentine",
+      "disease": "Pulmonary tuberculosis",
+      "drugbank": "DB01201",
+      "drug_mesh": "MESH:C018421",
+      "disease_mesh": "MESH:D014397"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C018421",
+        "name": "rifapentine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P9WGY7",
+        "name": "DNA-directed RNA polymerase subunit beta",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0032774",
+        "name": "RNA synthesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:1773",
+        "name": "Mycobacterium tuberculosis infection",
+        "label": "Taxon"
+      },
+      {
+        "id": "MESH:D014397",
+        "name": "Pulmonary tuberculosis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C018421",
+        "target": "UniProt:P9WGY7",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P9WGY7",
+        "target": "GO:0032774",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0032774",
+        "target": "NCBITaxon:1773",
+        "key": "REQUIRED_FOR"
+      },
+      {
+        "source": "NCBITaxon:1773",
+        "target": "MESH:D014397",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "trichloroacetic acid",
+      "disease": "Condyloma acuminatum",
+      "drugbank": "DB11152",
+      "drug_mesh": "MESH:D014238",
+      "disease_mesh": "MESH:D003218"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D014238",
+        "name": "trichloroacetic acid",
+        "label": "Drug"
+      },
+      {
+        "id": "GO:0070265",
+        "name": "necrotic cell death",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D003218",
+        "name": "Condyloma acuminatum",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D014238",
+        "target": "GO:0070265",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "GO:0070265",
+        "target": "MESH:D003218",
+        "key": "REDUCES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "vinpocetine",
+      "disease": "Dementia",
+      "drugbank": "DB12131",
+      "drug_mesh": "MESH:C013983",
+      "disease_mesh": "MESH:D003704"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C013983",
+        "name": "vinpocetine",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P54750",
+        "name": "Calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1A",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0043025",
+        "name": "Neuronal Cell Body",
+        "label": "Cellular Component"
+      },
+      {
+        "id": "MESH:D003704",
+        "name": "Dementia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C013983",
+        "target": "UniProt:P54750",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P54750",
+        "target": "GO:0043025",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0043025",
+        "target": "MESH:D003704",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "calcium glubionate",
+      "disease": "Hypocalcemia",
+      "drugbank": "DB13142",
+      "drug_mesh": "MESH:C042131",
+      "disease_mesh": "MESH:D006996"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C042131",
+        "name": "calcium glubionate",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D002118",
+        "name": "Calcium Ion",
+        "label": "Compound"
+      },
+      {
+        "id": "MESH:D006996",
+        "name": "Hypocalcemia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C042131",
+        "target": "MESH:D002118",
+        "key": "INCREASES"
+      },
+      {
+        "source": "MESH:D002118",
+        "target": "MESH:D006996",
+        "key": "REDUCED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "glutethimide",
+      "disease": "Insomnia",
+      "drugbank": "DB01437",
+      "drug_mesh": "MESH:D005984",
+      "disease_mesh": "MESH:D007319"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D005984",
+        "name": "glutethimide",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P14867",
+        "name": "Gamma-aminobutyric acid receptor subunit alpha-1",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:1904862",
+        "name": "inhibitory synapse assembly",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D007319",
+        "name": "Insomnia",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D005984",
+        "target": "UniProt:P14867",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:P14867",
+        "target": "GO:1904862",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:1904862",
+        "target": "MESH:D007319",
+        "key": "ASSOCIATED_WITH"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "fomepizole",
+      "disease": "Methanol poisoning",
+      "drugbank": "DB01213",
+      "drug_mesh": "MESH:D000077604",
+      "disease_mesh": "MESH:D000138"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000077604",
+        "name": "fomepizole",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P07327",
+        "name": "Alcohol dehydrogenase 1A",
+        "label": "Protein"
+      },
+      {
+        "id": "REACT:R-HSA-71384",
+        "name": "Ethanol oxidation",
+        "label": "Pathway"
+      },
+      {
+        "id": "MESH:C030544",
+        "name": "formic acid",
+        "label": "Compound"
+      },
+      {
+        "id": "MESH:D000138",
+        "name": "Methanol poisoning",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000077604",
+        "target": "UniProt:P07327",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P07327",
+        "target": "REACT:R-HSA-71384",
+        "key": "PART_OF"
+      },
+      {
+        "source": "REACT:R-HSA-71384",
+        "target": "MESH:C030544",
+        "key": "PRODUCES"
+      },
+      {
+        "source": "MESH:C030544",
+        "target": "MESH:D000138",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "afamelanotide",
+      "disease": "erythropoietic protoporphyria",
+      "drugbank": "DB04931",
+      "drug_mesh": "MESH:C534526",
+      "disease_mesh": "MESH:D046351"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C534526",
+        "name": "afamelanotide",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q01726",
+        "name": "Melanocyte-stimulating hormone receptor",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0042438",
+        "name": "melanogenesis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:C041877",
+        "name": "eumelanin",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0009650",
+        "name": "UV protection",
+        "label": "Biological Process"
+      },
+      {
+        "id": "CHEBI:26523",
+        "name": "reative oxygen species",
+        "label": "Compound Class"
+      },
+      {
+        "id": "MESH:C028025",
+        "name": "protoporphyrin IX",
+        "label": "Compound"
+      },
+      {
+        "id": "MESH:D046351",
+        "name": "erythropoietic protoporphyria",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C534526",
+        "target": "UniProt:Q01726",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "UniProt:Q01726",
+        "target": "GO:0042438",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0042438",
+        "target": "MESH:C041877",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "MESH:C041877",
+        "target": "GO:0009650",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0009650",
+        "target": "CHEBI:26523",
+        "key": "REDUCES"
+      },
+      {
+        "source": "CHEBI:26523",
+        "target": "MESH:C028025",
+        "key": "INCREASED_BY"
+      },
+      {
+        "source": "MESH:C028025",
+        "target": "MESH:D046351",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "voclosporin",
+      "disease": "Noninfectious Uveitis",
+      "drugbank": "DB11693",
+      "drug_mesh": "MESH:C484071",
+      "disease_mesh": "MESH:D014605"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C484071",
+        "name": "voclosporin",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:P63098",
+        "name": "Calcineurin subunit B type 1",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:O95644",
+        "name": "Nuclear factor of activated T-cells, cytoplasmic 1",
+        "label": "Protein"
+      },
+      {
+        "id": "UniProt:P60568",
+        "name": "interleukin 2",
+        "label": "Protein"
+      },
+      {
+        "id": "CL:0000084",
+        "name": "T-Cell",
+        "label": "Cell Type"
+      },
+      {
+        "id": "MESH:D014605",
+        "name": "Noninfectious Uveitis",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C484071",
+        "target": "UniProt:P63098",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P63098",
+        "target": "UniProt:O95644",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "UniProt:O95644",
+        "target": "UniProt:P60568",
+        "key": "UP_REGULATES"
+      },
+      {
+        "source": "UniProt:P60568",
+        "target": "CL:0000084",
+        "key": "STIMULATES"
+      },
+      {
+        "source": "CL:0000084",
+        "target": "MESH:D014605",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "acrisorcin",
+      "disease": "Pityriasis versicolor",
+      "drugbank": ", DB11254",
+      "drug_mesh": "MESH:D000585, MESH:D006604",
+      "disease_mesh": "MESH:D014010"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000585, MESH:D006604",
+        "name": "acrisorcin",
+        "label": "Drug"
+      },
+      {
+        "id": "MESH:D014010",
+        "name": "Pityriasis versicolor",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000585, MESH:D006604",
+        "target": "MESH:D014010",
+        "key": "TREATS"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "ivermectin",
+      "disease": "Onchocerciasis",
+      "drugbank": "DB00602",
+      "drug_mesh": "MESH:D007559",
+      "disease_mesh": "MESH:D009855"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D007559",
+        "name": "ivermectin",
+        "label": "Drug"
+      },
+      {
+        "id": "InterPro:IPR015680",
+        "name": "glutimate-gated chloride channels",
+        "label": "Protein Family"
+      },
+      {
+        "id": "CHEBI:17996",
+        "name": "chloride ion",
+        "label": "Compound"
+      },
+      {
+        "id": "GO:0060081",
+        "name": "membrane hyperpolarization",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D010243",
+        "name": "Paralysis",
+        "label": "Biological Process"
+      },
+      {
+        "id": "NCBITaxon:6282",
+        "name": "Onchocerca volvulus",
+        "label": "Disease"
+      },
+      {
+        "id": "MESH:D009855",
+        "name": "Onchocerciasis",
+        "label": null
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D007559",
+        "target": "InterPro:IPR015680",
+        "key": "ACTIVATES"
+      },
+      {
+        "source": "InterPro:IPR015680",
+        "target": "CHEBI:17996",
+        "key": "INCREASES"
+      },
+      {
+        "source": "CHEBI:17996",
+        "target": "GO:0060081",
+        "key": "PART_OF"
+      },
+      {
+        "source": "GO:0060081",
+        "target": "MESH:D010243",
+        "key": "CAUSES"
+      },
+      {
+        "source": "MESH:D010243",
+        "target": "NCBITaxon:6282",
+        "key": "REDUCES"
+      },
+      {
+        "source": "NCBITaxon:6282",
+        "target": "MESH:D009855",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "cobicistat",
+      "disease": "HIV infection",
+      "drugbank": "DB09065",
+      "drug_mesh": "MESH:D000069547",
+      "disease_mesh": "MESH:D015658"
+    },
+    "nodes": [
+      {
+        "id": "MESH:D000069547",
+        "name": "cobicistat",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q9HB55",
+        "name": "cytochrome P450 3A (CYP3A) isoforms",
+        "label": "Protein"
+      },
+      {
+        "id": "MESH:D000069446",
+        "name": "atazanavir",
+        "label": "Compound"
+      },
+      {
+        "id": "UniProt:P04585",
+        "name": "Gag-Pol polyprotein",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0019068",
+        "name": "Viral Assembly",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D015658",
+        "name": "HIV infection",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:D000069547",
+        "target": "UniProt:Q9HB55",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:Q9HB55",
+        "target": "MESH:D000069446",
+        "key": "REDUCES"
+      },
+      {
+        "source": "MESH:D000069446",
+        "target": "UniProt:P04585",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:P04585",
+        "target": "GO:0019068",
+        "key": "INVOLVED_IN"
+      },
+      {
+        "source": "GO:0019068",
+        "target": "MESH:D015658",
+        "key": "CAUSES"
+      }
+    ]
+  },
+  {
+    "directed": true,
+    "multigraph": true,
+    "graph": {
+      "drug": "avelumab",
+      "disease": "Merkel cell carcinoma",
+      "drugbank": "DB11945",
+      "drug_mesh": "MESH:C000609138",
+      "disease_mesh": "MESH:D015266"
+    },
+    "nodes": [
+      {
+        "id": "MESH:C000609138",
+        "name": "avelumab",
+        "label": "Drug"
+      },
+      {
+        "id": "UniProt:Q9NZQ7",
+        "name": "Programmed cell death 1 ligand 1",
+        "label": "Protein"
+      },
+      {
+        "id": "GO:0036037",
+        "name": "Cytotoxic T-Cell activity",
+        "label": "Biological Process"
+      },
+      {
+        "id": "GO:0008283",
+        "name": "Cell proliferation",
+        "label": "Biological Process"
+      },
+      {
+        "id": "MESH:D015266",
+        "name": "Merkel cell carcinoma",
+        "label": "Disease"
+      }
+    ],
+    "links": [
+      {
+        "source": "MESH:C000609138",
+        "target": "UniProt:Q9NZQ7",
+        "key": "INHIBITS"
+      },
+      {
+        "source": "UniProt:Q9NZQ7",
+        "target": "GO:0036037",
+        "key": "DOWN_REGULATES"
+      },
+      {
+        "source": "GO:0036037",
+        "target": "GO:0008283",
+        "key": "REDUCES"
+      },
+      {
+        "source": "GO:0008283",
+        "target": "MESH:D015266",
+        "key": "ELEVATED_IN"
+      }
+    ]
+  }
+]
