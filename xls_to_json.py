@@ -4,10 +4,16 @@ import pandas as pd
 import networkx as nx
 
 from biothings_client import get_client
-
 mg = get_client('gene')
 
-file_location = "https://zenodo.org/record/3515487/files/indication_MOA_paths.xlsx?download=1"
+file_location = "https://zenodo.org/record/3515518/files/indication_MOA_paths.xlsx?download=1"
+all_sheets = pd.read_excel(file_location, None)
+
+# Dereference each sheet into an individual variable
+moa_inds = all_sheets['sample_indications']
+moa_paths = all_sheets['paths']
+moa_metapaths = all_sheets['metapaths']
+moa_ids = all_sheets['node_ids']
 
 def uniprot_to_entrez(uniprot):
     """Converts a Uniprot ID to an Entrez Gene ID"""
@@ -72,10 +78,6 @@ def add_edges_to_graph(row_numb, G):
 
 
 if __name__ == "__main__":
-    moa_inds = pd.read_excel(file_location, 'sample_indications')
-    moa_paths = pd.read_excel(file_location, 'paths')
-    moa_metapaths = pd.read_excel(file_location, 'metapaths')
-    moa_ids = pd.read_excel(file_location, 'node_ids')
 
     n_cols = [c for c in moa_ids.columns if c.startswith('n')]
     e_cols = [c for c in moa_paths.columns if c.startswith('e')]
