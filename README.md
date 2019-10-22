@@ -1,12 +1,10 @@
 # Indication Mechanism of Action Database
 A database of paths that represent the mechanism of action from a drug to a disease in an indication.
 
-> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3515487)
+> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3516335)
 <br><Small>Mayers, Michael; Steinecke, Dylan; Su, Andrew I.<small><br>
 
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3515518.svg)](https://doi.org/10.5281/zenodo.3515518)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3516335.svg)](https://doi.org/10.5281/zenodo.3516335)
 
 ## Purpose
 
@@ -17,13 +15,13 @@ as a path through a network of biomedical entities.
 
 ## Curation
 
-Indications were selected at random from the set contained within DrugCentral. Half were taken from the full set, 
+Indications were selected at random from the set contained within DrugCentral. Half were taken from the full set,
 representing a set of common drug disease pairs, and the other half were selected from a pool of less-common diseases
-to vary the targets and diseases treated. 
+to vary the targets and diseases treated.
 
-Paths were derived from free-text descriptions found on DrugBank, Wikipeida and within literature. Concepts within the 
+Paths were derived from free-text descriptions found on DrugBank, Wikipeida and within literature. Concepts within the
 text were then normalized to a concept type (Drug, Protein, Pathway, etc) and relationships between the concepts were
-determined from the source. Finally concepts were mapped to an identifier depending on the concept type according to 
+determined from the source. Finally concepts were mapped to an identifier depending on the concept type according to
 the following table:
 
 |Concept Type | Identifier Source|
@@ -38,7 +36,7 @@ the following table:
 |Drug         | MESH, DrugBank   |
 |Molecular Function | GO         |
 |Pathway      | REACT            |
-|Phenotype    | HP               | 
+|Phenotype    | HP               |
 |Protein      | UniProt          |
 |Protein Family | InterPro       |
 |Taxon        | NCBITaxon        |

@@ -6,7 +6,7 @@ import networkx as nx
 from biothings_client import get_client
 mg = get_client('gene')
 
-file_location = "https://zenodo.org/record/3515518/files/indication_MOA_paths.xlsx?download=1"
+file_location = "https://zenodo.org/record/3516335/files/indication_MOA_paths.xlsx?download=1"
 all_sheets = pd.read_excel(file_location, None)
 
 # Dereference each sheet into an individual variable
