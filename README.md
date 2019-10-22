@@ -4,7 +4,9 @@ A database of paths that represent the mechanism of action from a drug to a dise
 > [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3515487)
 <br><Small>Mayers, Michael; Steinecke, Dylan; Su, Andrew I.<small><br>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3515487.svg)](https://doi.org/10.5281/zenodo.3515487)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3515518.svg)](https://doi.org/10.5281/zenodo.3515518)
+
 
 ## Purpose
 
@@ -20,8 +22,8 @@ representing a set of common drug disease pairs, and the other half were selecte
 to vary the targets and diseases treated. 
 
 Paths were derived from free-text descriptions found on DrugBank, Wikipeida and within literature. Concepts within the 
-text were then normalzed to a concpet type (Drug, Protein, Pathway, etc) and relationships between the concepts were
-determined from the source. Finally concepts were mapped to an identifier depending on the concepty type according to 
+text were then normalized to a concept type (Drug, Protein, Pathway, etc) and relationships between the concepts were
+determined from the source. Finally concepts were mapped to an identifier depending on the concept type according to 
 the following table:
 
 |Concept Type | Identifier Source|
