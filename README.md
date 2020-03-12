@@ -1,10 +1,11 @@
 # Indication Mechanism of Action Database
 A database of paths that represent the mechanism of action from a drug to a disease in an indication.
 
-> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3516335)
+> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3708278)
 <br><Small>Mayers, Michael; Steinecke, Dylan; Su, Andrew I.<small><br>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3516335.svg)](https://doi.org/10.5281/zenodo.3516335)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3708278.svg)](https://doi.org/10.5281/zenodo.3708278)
+
 
 ## Purpose
 
