@@ -6,13 +6,20 @@ import networkx as nx
 from biothings_client import get_client
 mg = get_client('gene')
 
-file_location = "https://zenodo.org/record/3516335/files/indication_MOA_paths.xlsx?download=1"
+# Change to new DOI if updates to DrugMechDB
+DOI = 3708278
+# set to metapaths_biolink to use biolink model
+metagraph_sheet = 'metapaths'
+
+# Get the latest iteration of DrugMech DB
+file_location = "https://zenodo.org/record/{}/files/".format(DOI) + \
+                "indication_MOA_paths.xlsx?download=1"
 all_sheets = pd.read_excel(file_location, None)
 
 # Dereference each sheet into an individual variable
 moa_inds = all_sheets['sample_indications']
 moa_paths = all_sheets['paths']
-moa_metapaths = all_sheets['metapaths']
+moa_metapaths = all_sheets[metagraph_sheet]
 moa_ids = all_sheets['node_ids']
 
 def uniprot_to_entrez(uniprot):
@@ -69,7 +76,7 @@ def add_edges_to_graph(row_numb, G):
 
         start_id = moa_ids.iloc[row_numb, j_to_n(j)]
         end_id = moa_ids.iloc[row_numb, j_to_n(j+2)]
-        edge = moa_paths.iloc[row_numb, j+1]
+        edge = moa_metapaths.iloc[row_numb, j+1]
 
         if not (start_id, end_id, edge) in G.edges:
             G.add_edge(start_id, end_id, key=edge)
