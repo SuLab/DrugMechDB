@@ -42,3 +42,34 @@ the following table:
 |Protein Family | InterPro       |
 |Taxon        | NCBITaxon        |
 
+
+## Contributing
+
+If you would like to contribute your own curated mechanistic paths, please do so by making pull requests
+with edits to the file `indication_paths.yaml`.
+
+### Path formatting
+
+Each path begins with a `-   directed: true` statment. Identifiers for concepts and concept type
+should conform to the table above.
+
+Paths contain the following structure:
+
+    - directed: true
+        graph:
+            disease: *name of the disease in the indication*
+            disease_mesh: *MESH Identifier for the disease (if known)*
+            drug: *name of the drug in the indication*
+            drug_mesh: *MESH Identifier for the drug (if known)*
+            drugbank: *DrugBank Identifier for the drug (if known)*
+        links:     (the edges of the path)
+        -   key: *Semantics of the relationship (ALL CAPS)*
+            source: *Identifier for source node in edge*
+            target: *Identifier for target node in edge*
+        nodes:     (the nodes in the path)
+        -   id: *Identifier for the node*
+            label: *Concept type for the node*
+            name: *Name of the node*
+        multigraph: true    (required statment for importing paths into networkx).
+
+
