@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     # Write the output
     print('Writing: indication_MOA_paths.xlsx')
-    with pd.ExcelWriter('indication_MOA_paths.xlsx', engine='xlsxwriter') as writer:
+    with pd.ExcelWriter('../indication_MOA_paths.xlsx', engine='xlsxwriter') as writer:
         for sheet, data in dmdb.items():
             data.to_excel(writer, sheet, index=False)
             auto_adjust_columns_width(writer, sheet, data)
