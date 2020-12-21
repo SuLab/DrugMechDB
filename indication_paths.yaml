@@ -1,5 +1,36 @@
 -   directed: true
     graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: acetaminophen
+        drug_mesh: MESH:D000082
+        drugbank: DB00316
+    links:
+    -   key: INHIBITS
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: PRODUCES
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: CAUSES
+        source: MESH:D011453
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: acetaminophen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: MESH:D011453
+        label: Compound Class
+        name: Prostaglandins
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+-   directed: true
+    graph:
         disease: CML (ph+)
         disease_mesh: MESH:D015464
         drug: imatinib
