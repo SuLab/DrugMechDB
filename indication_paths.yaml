@@ -1,3 +1,43 @@
+directed: true
+    graph:
+        disease: Phototoxicity
+        disease_mesh: MESH: D017484
+        drug: Afamelanotide
+        drug_mesh: MESH: C534526
+        drugbank: DB04931
+    links:
+    -   key: ACTIVATES
+        source: MESH:C534526
+        target: UniProt: Q01726
+    -   key: PRODUCES
+        source: UniProt: Q01726
+        target: MESH: C041877
+    -   key: INCORPORATED_INTO
+        source: MESH: C041877
+        target: MESH: D020460
+    -   key: DISTRIBUTED_TO
+        source: MESH: D020460
+        target: target: MESH: D015603
+
+    multigraph: true
+    nodes:
+    -   id: MESH:C534526
+        label: Drug
+        name: Afamelanotide
+    -   id: UniProt: Q01726
+        label: Protein
+        name: melanocortin-1 receptor
+    -   id: MESH: C041877
+        label: Pigment
+        name: eumelanin
+    -   id: MESH:D015603
+        label: Epidermal cells
+        name: Keratinocytes
+    -   id: MESH: D017484
+        label: Disease
+        name: Phototoxicity
+    
+ 
 -   directed: true
     graph:
         disease: CML (ph+)
