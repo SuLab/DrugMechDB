@@ -11,16 +11,27 @@ DOI = 3708278
 # set to metapaths_biolink to use biolink model
 metagraph_sheet = 'metapaths'
 
-# Get the latest iteration of DrugMech DB
-file_location = "https://zenodo.org/record/{}/files/".format(DOI) + \
-                "indication_MOA_paths.xlsx?download=1"
-all_sheets = pd.read_excel(file_location, None)
 
-# Dereference each sheet into an individual variable
-moa_inds = all_sheets['sample_indications']
-moa_paths = all_sheets['paths']
-moa_metapaths = all_sheets[metagraph_sheet]
-moa_ids = all_sheets['node_ids']
+def read_spreadsheet(location):
+    global all_sheets
+    global moa_inds
+    global moa_paths
+    global moa_metapaths
+    global moa_ids
+    global n_cols
+    global e_cols
+
+    all_sheets = pd.read_excel(location, None)
+
+    # Dereference each sheet into an individual variable
+    moa_inds = all_sheets['sample_indications'].dropna(how='all')
+    moa_paths = all_sheets['paths'].dropna(how='all')
+    moa_metapaths = all_sheets[metagraph_sheet].dropna(how='all')
+    moa_ids = all_sheets['node_ids'].dropna(how='all')
+
+    n_cols = [c for c in moa_ids.columns if c.startswith('n')]
+    e_cols = [c for c in moa_paths.columns if c.startswith('e')]
+
 
 def uniprot_to_entrez(uniprot):
     """Converts a Uniprot ID to an Entrez Gene ID"""
@@ -39,11 +50,11 @@ def uniprot_to_entrez(uniprot):
 
 def create_graph(row_numb):
     """Initializes a graph based on the row number in the spreadsheet"""
-    c_name = moa_inds.loc[i, 'name']
-    d_name = moa_inds.loc[i, 'disease_name']
-    db = moa_inds.loc[i, 'db_id']
-    c_mesh = moa_inds.loc[i, 'comp_mesh_ids']
-    d_mesh = moa_inds.loc[i, 'dis_mesh_id']
+    c_name = moa_inds.loc[row_numb, 'name']
+    d_name = moa_inds.loc[row_numb, 'disease_name']
+    db = moa_inds.loc[row_numb, 'db_id']
+    c_mesh = moa_inds.loc[row_numb, 'comp_mesh_ids']
+    d_mesh = moa_inds.loc[row_numb, 'dis_mesh_id']
 
     G = nx.MultiDiGraph(drug=c_name, disease=d_name, drugbank=db, drug_mesh=c_mesh, disease_mesh=d_mesh)
     return G
@@ -83,12 +94,7 @@ def add_edges_to_graph(row_numb, G):
 
     return G
 
-
-if __name__ == "__main__":
-
-    n_cols = [c for c in moa_ids.columns if c.startswith('n')]
-    e_cols = [c for c in moa_paths.columns if c.startswith('e')]
-
+def process_sheet():
     indication_paths = []
 
     for i in range(len(moa_paths)):
@@ -97,6 +103,18 @@ if __name__ == "__main__":
         G = add_edges_to_graph(i, G)
 
         indication_paths.append(nx.json_graph.node_link_data(G))
+
+    return indication_paths
+
+
+if __name__ == "__main__":
+
+    # Get the latest iteration of DrugMech DB
+    file_location = "https://zenodo.org/record/{}/files/".format(DOI) + \
+                    "indication_MOA_paths.xlsx?download=1"
+
+    read_spreadsheet(file_location)
+    indication_paths = process_sheet()
 
     simplejson.dump(indication_paths, open('indication_paths.json', 'w'), indent=2, ignore_nan=True)
 

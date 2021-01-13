@@ -6,10 +6,10 @@
         drug_mesh: MESH:D000068877
         drugbank: DB00619
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000068877
         target: UniProt:P00519
-    -   key: CAUSES
+    -   key: causes
         source: UniProt:P00519
         target: MESH:D015464
     multigraph: true
@@ -31,13 +31,13 @@
         drug_mesh: MESH:D000068877
         drugbank: DB00619
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000068877
         target: UniProt:P10721
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P10721
         target: GO:0008283
-    -   key: CAUSES
+    -   key: causes
         source: GO:0008283
         target: MESH:D034721
     multigraph: true
@@ -49,7 +49,7 @@
         label: Protein
         name: c-Kit
     -   id: GO:0008283
-        label: Biological Process
+        label: BiologicalProcess
         name: Cellular proliferation
     -   id: MESH:D034721
         label: Disease
@@ -62,13 +62,13 @@
         drug_mesh: MESH:D000068877
         drugbank: DB00619
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000068877
         target: UniProt:P16234
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P16234
         target: GO:0008283
-    -   key: CAUSES
+    -   key: causes
         source: GO:0008283
         target: MESH:D034721
     multigraph: true
@@ -80,7 +80,7 @@
         label: Protein
         name: Pdgf
     -   id: GO:0008283
-        label: Biological Process
+        label: BiologicalProcess
         name: Cellular proliferation
     -   id: MESH:D034721
         label: Disease
@@ -93,10 +93,10 @@
         drug_mesh: MESH:D000082
         drugbank: DB00316
     links:
-    -   key: INHIBITS
+    -   key: negatively regulates
         source: MESH:D000082
         target: REACT:R-HSA-2162123
-    -   key: ASSOCIATED_WITH
+    -   key: affects risk for
         source: REACT:R-HSA-2162123
         target: MESH:D010146
     multigraph: true
@@ -118,13 +118,13 @@
         drug_mesh: MESH:D000082
         drugbank: DB00316
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000082
         target: UniProt:P23219
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P23219
         target: MESH:D011453
-    -   key: CAUSES
+    -   key: causes
         source: MESH:D011453
         target: MESH:D010146
     multigraph: true
@@ -136,7 +136,7 @@
         label: Protein
         name: Cox-1
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: MESH:D010146
         label: Disease
@@ -149,13 +149,13 @@
         drug_mesh: MESH:D000082
         drugbank: DB00316
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000082
         target: UniProt:P35354
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P35354
         target: MESH:D011453
-    -   key: CAUSES
+    -   key: causes
         source: MESH:D011453
         target: MESH:D010146
     multigraph: true
@@ -167,7 +167,7 @@
         label: Protein
         name: Cox-2
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: MESH:D010146
         label: Disease
@@ -180,16 +180,16 @@
         drug_mesh: MESH:D000082
         drugbank: DB00316
     links:
-    -   key: INHIBITS
+    -   key: negatively regulates
         source: MESH:D000082
         target: REACT:R-HSA-2162123
-    -   key: LOCALIZED_TO
+    -   key: occurs in
         source: REACT:R-HSA-2162123
         target: UBERON:0000955
-    -   key: REGULATES
+    -   key: location of
         source: UBERON:0000955
         target: GO:0001659
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0001659
         target: MESH:D005334
     multigraph: true
@@ -201,10 +201,10 @@
         label: Pathway
         name: cycloxygenaze pathways
     -   id: UBERON:0000955
-        label: Anatomy
+        label: GrossAnatomicalStructure
         name: Brain
     -   id: GO:0001659
-        label: Biological Process
+        label: BiologicalProcess
         name: Temperature Homeostasis
     -   id: MESH:D005334
         label: Disease
@@ -217,13 +217,13 @@
         drug_mesh: MESH:D001241
         drugbank: DB00945
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D001241
         target: UniProt:P23219
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P23219
         target: MESH:D011453
-    -   key: CAUSES
+    -   key: causes
         source: MESH:D011453
         target: MESH:D010146
     multigraph: true
@@ -235,7 +235,7 @@
         label: Protein
         name: Cox-1
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: MESH:D010146
         label: Disease
@@ -248,13 +248,13 @@
         drug_mesh: MESH:D001241
         drugbank: DB00945
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D001241
         target: UniProt:P35354
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P35354
         target: MESH:D011453
-    -   key: CAUSES
+    -   key: causes
         source: MESH:D011453
         target: MESH:D010146
     multigraph: true
@@ -266,7 +266,7 @@
         label: Protein
         name: Cox-2
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: MESH:D010146
         label: Disease
@@ -279,19 +279,19 @@
         drug_mesh: MESH:D001241
         drugbank: DB00945
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D001241
         target: UniProt:P23219
-    -   key: PART_OF
+    -   key: participates in
         source: UniProt:P23219
         target: REACT:R-HSA-2162123
-    -   key: PRODUCES
+    -   key: has output
         source: REACT:R-HSA-2162123
         target: MESH:D013928
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D013928
         target: GO:0007596
-    -   key: CAUSES
+    -   key: causes
         source: GO:0007596
         target: MESH:D013927
     multigraph: true
@@ -306,10 +306,10 @@
         label: Pathway
         name: Synthesis of Prostaglandins and Thromboxanes
     -   id: MESH:D013928
-        label: Compound
+        label: ChemicalSubstance
         name: Thromboxane A2
     -   id: GO:0007596
-        label: Biological Process
+        label: BiologicalProcess
         name: Platelet Activiation / Blood Coagulation
     -   id: MESH:D013927
         label: Disease
@@ -322,13 +322,13 @@
         drug_mesh: MESH:D001241
         drugbank: DB00945
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D001241
         target: UniProt:P23219
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P23219
         target: GO:0007596
-    -   key: CAUSES
+    -   key: causes
         source: GO:0007596
         target: MESH:D013927
     multigraph: true
@@ -340,7 +340,7 @@
         label: Protein
         name: COX
     -   id: GO:0007596
-        label: Biological Process
+        label: BiologicalProcess
         name: Blood Coagulation
     -   id: MESH:D013927
         label: Disease
@@ -353,16 +353,16 @@
         drug_mesh: MESH:D009288
         drugbank: DB00788
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D009288
         target: UniProt:P35354
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P35354
         target: MESH:D011453
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D011453
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D010146
     multigraph: true
@@ -374,10 +374,10 @@
         label: Protein
         name: Cox-2
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D010146
         label: Disease
@@ -390,16 +390,16 @@
         drug_mesh: MESH:D009643
         drugbank: DB01059
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D009643
         target: UniProt:P43702
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P43702
         target: GO:0006260
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006260
         target: NCBITaxon:622
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:622
         target: MESH:D004405
     multigraph: true
@@ -411,10 +411,10 @@
         label: Protein
         name: topoisomerases II, IV
     -   id: GO:0006260
-        label: Biological Process
+        label: BiologicalProcess
         name: Bactierial DNA Replication
     -   id: NCBITaxon:622
-        label: Taxon
+        label: OrganismTaxon
         name: Shigella dysenteriae
     -   id: MESH:D004405
         label: Disease
@@ -427,16 +427,16 @@
         drug_mesh: MESH:D009643
         drugbank: DB01059
     links:
-    -   key: INHIBITS
+    -   key: negatively regulates
         source: MESH:D009643
         target: GO:0003746
-    -   key: REQUIRED_FOR
+    -   key: precedes
         source: GO:0003746
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:622
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:622
         target: MESH:D004405
     multigraph: true
@@ -445,13 +445,13 @@
         label: Drug
         name: norfloxacin
     -   id: GO:0003746
-        label: Molecular Function
+        label: MolecularActivity
         name: Translocation of EF-G
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Protein Synthesis
     -   id: NCBITaxon:622
-        label: Taxon
+        label: OrganismTaxon
         name: Shigella dysenteriae
     -   id: MESH:D004405
         label: Disease
@@ -464,16 +464,16 @@
         drug_mesh: MESH:D003348
         drugbank: DB01380
     links:
-    -   key: INCREASES_EXPRESSION
+    -   key: increases abundance of
         source: MESH:D003348
         target: UniProt:P04083
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P04083
         target: REACT:R-HSA-2162123
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: REACT:R-HSA-2162123
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D007634
     multigraph: true
@@ -488,7 +488,7 @@
         label: Pathway
         name: Prostaglandin Synthesis
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D007634
         label: Disease
@@ -501,16 +501,16 @@
         drug_mesh: MESH:D003348
         drugbank: DB01380
     links:
-    -   key: DECREASES_EXPRESSION
+    -   key: decreases abundance of
         source: MESH:D003348
         target: UniProt:P23219
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P23219
         target: MESH:D011453
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D011453
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D007634
     multigraph: true
@@ -522,10 +522,10 @@
         label: Protein
         name: COX Genes
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D007634
         label: Disease
@@ -538,16 +538,16 @@
         drug_mesh: MESH:D003348
         drugbank: DB01380
     links:
-    -   key: INCREASES_EXPRESSION
+    -   key: increases abundance of
         source: MESH:D003348
         target: UniProt:P04083
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P04083
         target: GO:0050900
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: GO:0050900
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D007634
     multigraph: true
@@ -559,10 +559,10 @@
         label: Protein
         name: lipocortin-1
     -   id: GO:0050900
-        label: Biological Process
+        label: BiologicalProcess
         name: Immune Cell Funciton
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D007634
         label: Disease
@@ -575,19 +575,19 @@
         drug_mesh: MESH:D003348
         drugbank: DB01380
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D003348
         target: UniProt:P04150
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:P04150
         target: UniProt:P04083
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P04083
         target: REACT:R-HSA-2162123
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: REACT:R-HSA-2162123
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D007634
     multigraph: true
@@ -605,7 +605,7 @@
         label: Pathway
         name: Prostaglandin Synthesis
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D007634
         label: Disease
@@ -618,19 +618,19 @@
         drug_mesh: MESH:D003348
         drugbank: DB01380
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D003348
         target: UniProt:P04150
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P04150
         target: UniProt:P23219
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P23219
         target: MESH:D011453
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D011453
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D007634
     multigraph: true
@@ -645,10 +645,10 @@
         label: Protein
         name: COX genes
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D007634
         label: Disease
@@ -661,16 +661,16 @@
         drug_mesh: MESH:D000077562
         drugbank: DB01610
     links:
-    -   key: INCREASES
+    -   key: increases abundance of
         source: MESH:D000077562
         target: MESH:D015774
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: MESH:D015774
         target: GO:0039693
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0039693
         target: NCBITaxon:10358
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:10358
         target: MESH:D003586
     multigraph: true
@@ -679,13 +679,13 @@
         label: Drug
         name: valganciclovir
     -   id: MESH:D015774
-        label: Compound
+        label: ChemicalSubstance
         name: ganciclovir
     -   id: GO:0039693
-        label: Biological Process
+        label: BiologicalProcess
         name: viral DNA replication
     -   id: NCBITaxon:10358
-        label: Taxon
+        label: OrganismTaxon
         name: Cytomegalovirus
     -   id: MESH:D003586
         label: Disease
@@ -698,16 +698,16 @@
         drug_mesh: MESH:D008795
         drugbank: DB00916
     links:
-    -   key: INCREASES
+    -   key: increases abundance of
         source: MESH:D008795
         target: MESH:C029371
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: MESH:C029371
         target: GO:0003676
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0003676
         target: NCBITaxon:2
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:2
         target: MESH:D018805
     multigraph: true
@@ -716,13 +716,13 @@
         label: Drug
         name: metronidazole
     -   id: MESH:C029371
-        label: Compound
+        label: ChemicalSubstance
         name: hydroxyethyl oxamic acid
     -   id: GO:0003676
-        label: Biological Process
+        label: BiologicalProcess
         name: bacterial Nucleic Acid synthesis
     -   id: NCBITaxon:2
-        label: Taxon
+        label: OrganismTaxon
         name: Bacteria
     -   id: MESH:D018805
         label: Disease
@@ -735,16 +735,16 @@
         drug_mesh: MESH:D003707
         drugbank: DB00618
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D003707
         target: UniProt:P0A7S3
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P0A7S3
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:786
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:786
         target: MESH:D000073605
     multigraph: true
@@ -756,10 +756,10 @@
         label: Protein
         name: 30S Ribosomal Subunit
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Translation
     -   id: NCBITaxon:786
-        label: Taxon
+        label: OrganismTaxon
         name: Rickettsia akari
     -   id: MESH:D000073605
         label: Disease
@@ -772,16 +772,16 @@
         drug_mesh: MESH:D003707
         drugbank: DB00618
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D003707
         target: UniProt:P0A7J3
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P0A7J3
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:786
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:786
         target: MESH:D000073605
     multigraph: true
@@ -793,10 +793,10 @@
         label: Protein
         name: 50S Ribosomal Subunit
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Translation
     -   id: NCBITaxon:786
-        label: Taxon
+        label: OrganismTaxon
         name: Rickettsia akari
     -   id: MESH:D000073605
         label: Disease
@@ -809,16 +809,16 @@
         drug_mesh: MESH:D000658
         drugbank: DB01060
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000658
         target: UniProt:P71707
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P71707
         target: GO:0009252
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0009252
         target: NCBITaxon:1314
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1314
         target: MESH:D014069
     multigraph: true
@@ -830,10 +830,10 @@
         label: Protein
         name: Penicillin-binding protein 1A
     -   id: GO:0009252
-        label: Biological Process
+        label: BiologicalProcess
         name: Peptidoglycan Biosyntheic Process
     -   id: NCBITaxon:1314
-        label: Taxon
+        label: OrganismTaxon
         name: Streptococcus pyogenes
     -   id: MESH:D014069
         label: Disease
@@ -846,16 +846,16 @@
         drug_mesh: MESH:C106856
         drugbank: DB09335
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C106856
         target: UniProt:P0C1U9
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P0C1U9
         target: GO:0006260
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006260
         target: NCBITaxon:1280
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1280
         target: MESH:D011023
     multigraph: true
@@ -867,10 +867,10 @@
         label: Protein
         name: Topoisomeraze 4
     -   id: GO:0006260
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial DNA replication
     -   id: NCBITaxon:1280
-        label: Taxon
+        label: OrganismTaxon
         name: Staphylococcus aureus
     -   id: MESH:D011023
         label: Disease
@@ -883,16 +883,16 @@
         drug_mesh: MESH:C106856
         drugbank: DB09335
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C106856
         target: UniProt:P20831
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P20831
         target: GO:0006260
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006260
         target: NCBITaxon:1280
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1280
         target: MESH:D011023
     multigraph: true
@@ -904,10 +904,10 @@
         label: Protein
         name: DNA gyrase
     -   id: GO:0006260
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial DNA replication
     -   id: NCBITaxon:1280
-        label: Taxon
+        label: OrganismTaxon
         name: Staphylococcus aureus
     -   id: MESH:D011023
         label: Disease
@@ -920,16 +920,16 @@
         drug_mesh: MESH:D000583
         drugbank: DB00479
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000583
         target: UniProt:P0A7S3
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P0A7S3
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:2
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:2
         target: MESH:D016920
     multigraph: true
@@ -941,10 +941,10 @@
         label: Protein
         name: 30S Ribosomal Subunit
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Translation
     -   id: NCBITaxon:2
-        label: Taxon
+        label: OrganismTaxon
         name: Bacteria
     -   id: MESH:D016920
         label: Disease
@@ -957,19 +957,19 @@
         drug_mesh: MESH:D003907
         drugbank: DB01234
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D003907
         target: UniProt:P04150
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:P04150
         target: UniProt:P04083
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P04083
         target: REACT:R-HSA-2162123
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: REACT:R-HSA-2162123
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D013717
     multigraph: true
@@ -987,7 +987,7 @@
         label: Pathway
         name: Prostaglandin Synthesis
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D013717
         label: Disease
@@ -1000,16 +1000,16 @@
         drug_mesh: MESH:D002442
         drugbank: DB00438
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D002442
         target: UniProt:Q8DR59
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:Q8DR59
         target: GO:0009252
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0009252
         target: NCBITaxon:562
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:562
         target: MESH:D014552
     multigraph: true
@@ -1021,10 +1021,10 @@
         label: Protein
         name: Penicillin-binding proteins
     -   id: GO:0009252
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Cell Wall Synthesis
     -   id: NCBITaxon:562
-        label: Taxon
+        label: OrganismTaxon
         name: Escherichia coli
     -   id: MESH:D014552
         label: Disease
@@ -1037,16 +1037,16 @@
         drug_mesh: MESH:D020110
         drugbank: DB06762
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D020110
         target: UniProt:Q12791
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:Q12791
         target: GO:0042311
-    -   key: ASSOCIATED_WITH
+    -   key: capable of
         source: GO:0042311
         target: GO:0008217
-    -   key: REDUCES
+    -   key: prevents
         source: GO:0008217
         target: MESH:D006973
     multigraph: true
@@ -1058,10 +1058,10 @@
         label: Protein
         name: Calcium-activated potassium channel subunit alpha-1
     -   id: GO:0042311
-        label: Biological Process
+        label: BiologicalProcess
         name: Vasodilation
     -   id: GO:0008217
-        label: Biological Process
+        label: BiologicalProcess
         name: Negative Regulation of Blood Pressure
     -   id: MESH:D006973
         label: Disease
@@ -1074,16 +1074,16 @@
         drug_mesh: MESH:C101425
         drugbank: DB01263
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C101425
         target: UniProt:P10613
-    -   key: PRODUCES
+    -   key: produces
         source: UniProt:P10613
         target: MESH:D004875
-    -   key: PART_OF
+    -   key: located in
         source: MESH:D004875
         target: GO:0009277
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0009277
         target: MESH:D009181
     multigraph: true
@@ -1095,10 +1095,10 @@
         label: Protein
         name: sterol 14a-demethylase
     -   id: MESH:D004875
-        label: Compound
+        label: ChemicalSubstance
         name: ergosterol
     -   id: GO:0009277
-        label: Cellular Component
+        label: CellularComponent
         name: Fungal Cell Membrane
     -   id: MESH:D009181
         label: Disease
@@ -1111,13 +1111,13 @@
         drug_mesh: MESH:D000865
         drugbank: DB08799
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000865
         target: UniProt:P35367
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P35367
         target: GO:0034776
-    -   key: CAUSES
+    -   key: causes
         source: GO:0034776
         target: MESH:D012223
     multigraph: true
@@ -1129,7 +1129,7 @@
         label: Protein
         name: histamine H1 Receptor
     -   id: GO:0034776
-        label: Biological Process
+        label: BiologicalProcess
         name: histamine response
     -   id: MESH:D012223
         label: Disease
@@ -1142,16 +1142,16 @@
         drug_mesh: MESH:D064704
         drugbank: DB01137
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D064704
         target: UniProt:P11388
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P11388
         target: GO:0006260
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006260
         target: NCBITaxon:562
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:562
         target: MESH:D011704
     multigraph: true
@@ -1163,10 +1163,10 @@
         label: Protein
         name: DNA gyrase
     -   id: GO:0006260
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial DNA replication
     -   id: NCBITaxon:562
-        label: Taxon
+        label: OrganismTaxon
         name: E. coli
     -   id: MESH:D011704
         label: Disease
@@ -1179,16 +1179,16 @@
         drug_mesh: MESH:D000077239
         drugbank: DB00814
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000077239
         target: UniProt:P35354
-    -   key: PRODUCES
+    -   key: increases abundance of
         source: UniProt:P35354
         target: MESH:D011453
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D011453
         target: InterPro:IPR000265
-    -   key: CAUSES
+    -   key: causes
         source: InterPro:IPR000265
         target: MESH:D010146
     multigraph: true
@@ -1200,10 +1200,10 @@
         label: Protein
         name: Prostaglandin synthhase 2
     -   id: MESH:D011453
-        label: Compound Class
+        label: ChemicalSubstance
         name: Prostaglandins
     -   id: InterPro:IPR000265
-        label: Protein Family
+        label: GeneFamily
         name: Pain Receptors
     -   id: MESH:D010146
         label: Disease
@@ -1216,16 +1216,16 @@
         drug_mesh: MESH:D009553
         drugbank: DB00393
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D009553
         target: InterPro:IPR005446
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: InterPro:IPR005446
         target: GO:0006939
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: GO:0006939
         target: GO:0008217
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0008217
         target: MESH:D013345
     multigraph: true
@@ -1234,13 +1234,13 @@
         label: Drug
         name: nimodipine
     -   id: InterPro:IPR005446
-        label: Protein Family
+        label: GeneFamily
         name: voltage dependent l-type calcium channels
     -   id: GO:0006939
-        label: Biological Process
+        label: BiologicalProcess
         name: Smooth muscle contraction
     -   id: GO:0008217
-        label: Biological Process
+        label: BiologicalProcess
         name: Blood Pressure
     -   id: MESH:D013345
         label: Disease
@@ -1253,10 +1253,10 @@
         drug_mesh: MESH:C007852
         drugbank: DB00326
     links:
-    -   key: INCREASES
+    -   key: increases abundance of
         source: MESH:C007852
         target: MESH:D002118
-    -   key: REDUCED_IN
+    -   key: prevents
         source: MESH:D002118
         target: MESH:D006996
     multigraph: true
@@ -1265,7 +1265,7 @@
         label: Drug
         name: calcium glucoheptonate
     -   id: MESH:D002118
-        label: Compound
+        label: ChemicalSubstance
         name: Calcium Ion
     -   id: MESH:D006996
         label: Disease
@@ -1278,16 +1278,16 @@
         drug_mesh: MESH:D000068298
         drugbank: DB00588
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D000068298
         target: UniProt:P04150
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P04150
         target: UniProt:P47712
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P47712
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D001991
     multigraph: true
@@ -1302,7 +1302,7 @@
         label: Protein
         name: Phospholipase A2
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D001991
         label: Disease
@@ -1315,16 +1315,16 @@
         drug_mesh: MESH:D000068298
         drugbank: DB00588
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D000068298
         target: UniProt:P04150
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:P04150
         target: UniProt:P22301
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P22301
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D001991
     multigraph: true
@@ -1339,7 +1339,7 @@
         label: Protein
         name: IL-10
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D001991
         label: Disease
@@ -1352,13 +1352,13 @@
         drug_mesh: MESH:D005476
         drugbank: DB00623
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D005476
         target: UniProt:P14416
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P14416
         target: GO:0030252
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0030252
         target: MESH:D012559
     multigraph: true
@@ -1370,7 +1370,7 @@
         label: Protein
         name: D(2) dopamine receptor
     -   id: GO:0030252
-        label: Biological Process
+        label: BiologicalProcess
         name: growth hormone secretion
     -   id: MESH:D012559
         label: Disease
@@ -1383,13 +1383,13 @@
         drug_mesh: MESH:D005476
         drugbank: DB00623
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D005476
         target: UniProt:P21728
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:P21728
         target: MESH:D010907
-    -   key: UPREGULATED_IN
+    -   key: manifestation of
         source: MESH:D010907
         target: MESH:D012559
     multigraph: true
@@ -1401,7 +1401,7 @@
         label: Protein
         name: dopaminaergeinc receptors
     -   id: MESH:D010907
-        label: Compound Class
+        label: ChemicalSubstance
         name: hypophyseal hormones
     -   id: MESH:D012559
         label: Disease
@@ -1414,13 +1414,13 @@
         drug_mesh: MESH:D016593
         drugbank: DB00342
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D016593
         target: UniProt:P35367
-    -   key: ASSOCIATED_WITH
+    -   key: has phenotype
         source: UniProt:P35367
         target: HP:0000969
-    -   key: ELEVATED_IN
+    -   key: manifestation of
         source: HP:0000969
         target: MESH:D017449
     multigraph: true
@@ -1432,7 +1432,7 @@
         label: Protein
         name: histamine H1 Receptor
     -   id: HP:0000969
-        label: Phenotype
+        label: PhenotypicFeature
         name: Edema
     -   id: MESH:D017449
         label: Disease
@@ -1445,16 +1445,16 @@
         drug_mesh: MESH:C106538
         drugbank: DB01048
     links:
-    -   key: INCREASES
+    -   key: increases abundance of
         source: MESH:C106538
         target: MESH:C066928
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C066928
         target: UniProt:P04585
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P04585
         target: GO:0039693
-    -   key: CAUSES
+    -   key: causes
         source: GO:0039693
         target: MESH:D015658
     multigraph: true
@@ -1463,13 +1463,13 @@
         label: Drug
         name: abacavir
     -   id: MESH:C066928
-        label: Compound
+        label: ChemicalSubstance
         name: carbovir triphosphate
     -   id: UniProt:P04585
         label: Protein
         name: HIV-1 reverse transcriptase
     -   id: GO:0039693
-        label: Biological Process
+        label: BiologicalProcess
         name: Viral DNA replication
     -   id: MESH:D015658
         label: Disease
@@ -1482,16 +1482,16 @@
         drug_mesh: MESH:D009640
         drugbank: DB00717
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D009640
         target: UniProt:P06401
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P06401
         target: UniProt:P01148
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P01148
         target: GO:0032275
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0032275
         target: MESH:D008595
     multigraph: true
@@ -1506,7 +1506,7 @@
         label: Protein
         name: gonadotropin releasing hormone
     -   id: GO:0032275
-        label: Biological Process
+        label: BiologicalProcess
         name: Luteinizing hormone secretion
     -   id: MESH:D008595
         label: Disease
@@ -1519,13 +1519,13 @@
         drug_mesh: MESH:C092292
         drugbank: DB00246
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C092292
         target: UniProt:P28223
-    -   key: ASSOCIATED_WITH
+    -   key: has phenotype
         source: UniProt:P28223
         target: HP:0000708
-    -   key: PRESENTED_BY
+    -   key: manifestation of
         source: HP:0000708
         target: MESH:D012559
     multigraph: true
@@ -1537,7 +1537,7 @@
         label: Protein
         name: 5HT2A receptor
     -   id: HP:0000708
-        label: Phenotype
+        label: PhenotypicFeature
         name: behavior
     -   id: MESH:D012559
         label: Disease
@@ -1550,13 +1550,13 @@
         drug_mesh: MESH:C004649
         drugbank: DB00748
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C004649
         target: UniProt:P35367
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P35367
         target: GO:0034776
-    -   key: CAUSES
+    -   key: causes
         source: GO:0034776
         target: MESH:D003233
     multigraph: true
@@ -1568,7 +1568,7 @@
         label: Protein
         name: histamine H1 Receptor
     -   id: GO:0034776
-        label: Biological Process
+        label: BiologicalProcess
         name: histamine response
     -   id: MESH:D003233
         label: Disease
@@ -1581,13 +1581,13 @@
         drug_mesh: MESH:D005640
         drugbank: DB00066
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D005640
         target: UniProt:P23945
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P23945
         target: GO:0030728
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0030728
         target: MESH:D016649
     multigraph: true
@@ -1599,7 +1599,7 @@
         label: Protein
         name: Human follicle stimulating hormone receptor
     -   id: GO:0030728
-        label: Biological Process
+        label: BiologicalProcess
         name: ovulation
     -   id: MESH:D016649
         label: Disease
@@ -1612,16 +1612,16 @@
         drug_mesh: MESH:D002443
         drugbank: DB01212
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D002443
         target: UniProt:O05131
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:O05131
         target: GO:0009252
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0009252
         target: NCBITaxon:485
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:485
         target: MESH:D006069
     multigraph: true
@@ -1633,10 +1633,10 @@
         label: Protein
         name: Penicillin-binding protein 2B
     -   id: GO:0009252
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Cell Wall Synthesis
     -   id: NCBITaxon:485
-        label: Taxon
+        label: OrganismTaxon
         name: N. gonorrhoeae
     -   id: MESH:D006069
         label: Disease
@@ -1649,16 +1649,16 @@
         drug_mesh: MESH:D005672
         drugbank: DB02703
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D005672
         target: UniProt:Q81VT3
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:Q81VT3
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:1392
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1392
         target: MESH:D000881
     multigraph: true
@@ -1670,10 +1670,10 @@
         label: Protein
         name: elongation factor g
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Translation
     -   id: NCBITaxon:1392
-        label: Taxon
+        label: OrganismTaxon
         name: Bacillus anthracis
     -   id: MESH:D000881
         label: Disease
@@ -1686,16 +1686,16 @@
         drug_mesh: MESH:D014859
         drugbank: DB00682
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D014859
         target: UniProt:Q9BQB6
-    -   key: PRODUCES
+    -   key: produces
         source: UniProt:Q9BQB6
         target: MESH:D014812
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D014812
         target: GO:0007596
-    -   key: CAUSES
+    -   key: causes
         source: GO:0007596
         target: MESH:D011655
     multigraph: true
@@ -1707,10 +1707,10 @@
         label: Protein
         name: vitamin k reductase
     -   id: MESH:D014812
-        label: Compound
+        label: ChemicalSubstance
         name: reduced vitamin k
     -   id: GO:0007596
-        label: Biological Process
+        label: BiologicalProcess
         name: Coagulation factor Synthesis
     -   id: MESH:D011655
         label: Disease
@@ -1723,13 +1723,13 @@
         drug_mesh: MESH:C415771
         drugbank: DB09046
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:C415771
         target: UniProt:P48357
-    -   key: REGULATES
+    -   key: regulates
         source: UniProt:P48357
         target: GO:0060612
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0060612
         target: MESH:D008060
     multigraph: true
@@ -1741,7 +1741,7 @@
         label: Protein
         name: leptin receptor
     -   id: GO:0060612
-        label: Biological Process
+        label: BiologicalProcess
         name: adipogenesis
     -   id: MESH:D008060
         label: Disease
@@ -1754,16 +1754,16 @@
         drug_mesh: MESH:D015296
         drugbank: DB01332
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D015296
         target: UniProt:P71707
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P71707
         target: GO:0009252
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0009252
         target: NCBITaxon:573
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:573
         target: MESH:D007710
     multigraph: true
@@ -1775,10 +1775,10 @@
         label: Protein
         name: Penicillin-binding protein 1A
     -   id: GO:0009252
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Cell Wall Synthesis
     -   id: NCBITaxon:573
-        label: Taxon
+        label: OrganismTaxon
         name: Klebsiella pneumoniae
     -   id: MESH:D007710
         label: Disease
@@ -1791,13 +1791,13 @@
         drug_mesh: MESH:D017336
         drugbank: DB00455
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D017336
         target: UniProt:P35367
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P35367
         target: GO:0034776
-    -   key: CAUSES
+    -   key: causes
         source: GO:0034776
         target: MESH:D065631
     multigraph: true
@@ -1809,7 +1809,7 @@
         label: Protein
         name: histamine H1 Receptor
     -   id: GO:0034776
-        label: Biological Process
+        label: BiologicalProcess
         name: histamine response
     -   id: MESH:D065631
         label: Disease
@@ -1822,13 +1822,13 @@
         drug_mesh: MESH:D010109
         drugbank: DB00935
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D010109
         target: UniProt:P35348
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P35348
         target: GO:0042310
-    -   key: REDUCES
+    -   key: prevents
         source: GO:0042310
         target: MESH:D015508
     multigraph: true
@@ -1840,7 +1840,7 @@
         label: Protein
         name: Alpha-1a adrenergic receptor
     -   id: GO:0042310
-        label: Biological Process
+        label: BiologicalProcess
         name: Vasoconstriction
     -   id: MESH:D015508
         label: Disease
@@ -1853,13 +1853,13 @@
         drug_mesh: MESH:D010634
         drugbank: DB01174
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D010634
         target: InterPro:IPR006028
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: InterPro:IPR006028
         target: GO:0099536
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0099536
         target: MESH:D004827
     multigraph: true
@@ -1868,10 +1868,10 @@
         label: Drug
         name: phenobarbital
     -   id: InterPro:IPR006028
-        label: Protein Family
+        label: GeneFamily
         name: GABAA Receptors
     -   id: GO:0099536
-        label: Biological Process
+        label: BiologicalProcess
         name: Synaptic Signaling
     -   id: MESH:D004827
         label: Disease
@@ -1884,13 +1884,13 @@
         drug_mesh: MESH:D008012
         drugbank: DB00281
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D008012
         target: InterPro:IPR028809
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: InterPro:IPR028809
         target: 'GO:0019233 '
-    -   key: CAUSES
+    -   key: causes
         source: 'GO:0019233 '
         target: MESH:D010146
     multigraph: true
@@ -1899,10 +1899,10 @@
         label: Drug
         name: lidocaine
     -   id: InterPro:IPR028809
-        label: Protein Family
+        label: GeneFamily
         name: Neuronal Voltage gated sodium channels
     -   id: 'GO:0019233 '
-        label: Biological Process
+        label: BiologicalProcess
         name: Sensory perception of pain
     -   id: MESH:D010146
         label: Disease
@@ -1915,13 +1915,13 @@
         drug_mesh: MESH:D000068736
         drugbank: DB00476
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000068736
         target: UniProt:P31645
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P31645
         target: GO:0051610
-    -   key: CAUSES
+    -   key: causes
         source: GO:0051610
         target: MESH:D003865
     multigraph: true
@@ -1933,7 +1933,7 @@
         label: Protein
         name: sodium dependent serotonin transporter
     -   id: GO:0051610
-        label: Biological Process
+        label: BiologicalProcess
         name: Neuronal serotonin reuptake
     -   id: MESH:D003865
         label: Disease
@@ -1946,13 +1946,13 @@
         drug_mesh: MESH:D004319
         drugbank: DB00366
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D004319
         target: UniProt:P35367
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P35367
         target: GO:0034776
-    -   key: CAUSES
+    -   key: causes
         source: GO:0034776
         target: MESH:D065631
     multigraph: true
@@ -1964,7 +1964,7 @@
         label: Protein
         name: histamine H1 Receptor
     -   id: GO:0034776
-        label: Biological Process
+        label: BiologicalProcess
         name: histamine response
     -   id: MESH:D065631
         label: Disease
@@ -1977,10 +1977,10 @@
         drug_mesh: MESH:D002955
         drugbank: DB00650
     links:
-    -   key: INCREASES
+    -   key: increases abundance of
         source: MESH:D002955
         target: MESH:D005492
-    -   key: REDUCED_IN
+    -   key: prevents
         source: MESH:D005492
         target: MESH:D000749
     multigraph: true
@@ -1989,7 +1989,7 @@
         label: Drug
         name: leucovorin
     -   id: MESH:D005492
-        label: Compound
+        label: ChemicalSubstance
         name: Folic Acid
     -   id: MESH:D000749
         label: Disease
@@ -2002,16 +2002,16 @@
         drug_mesh: MESH:D017291
         drugbank: DB01211
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D017291
         target: UniProt:P44350
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P44350
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:727
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:727
         target: MESH:D015523
     multigraph: true
@@ -2023,10 +2023,10 @@
         label: Protein
         name: 50S Ribosomal protein l-10
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Translation
     -   id: NCBITaxon:727
-        label: Taxon
+        label: OrganismTaxon
         name: Haemophilus influenzae
     -   id: MESH:D015523
         label: Disease
@@ -2039,10 +2039,10 @@
         drug_mesh: MESH:D008914
         drugbank: DB00350
     links:
-    -   key: STIMULATES
+    -   key: produces
         source: MESH:D008914
         target: CL:0000346
-    -   key: REDUCED_IN
+    -   key: negatively correlated with
         source: CL:0000346
         target: MESH:D000505
     multigraph: true
@@ -2051,7 +2051,7 @@
         label: Drug
         name: minoxidil
     -   id: CL:0000346
-        label: Cell Type
+        label: Cell
         name: dermal papillary cells
     -   id: MESH:D000505
         label: Disease
@@ -2064,16 +2064,16 @@
         drug_mesh: MESH:D008914
         drugbank: DB00350
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D008914
         target: UniProt:P48048
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P48048
         target: GO:0042311
-    -   key: REDUCES
+    -   key: negatively regulates
         source: GO:0042311
         target: GO:0008217
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0008217
         target: MESH:D006973
     multigraph: true
@@ -2085,10 +2085,10 @@
         label: Protein
         name: ATP-sensitive inward rectifier potassium channel 1
     -   id: GO:0042311
-        label: Biological Process
+        label: BiologicalProcess
         name: Vasodilation
     -   id: GO:0008217
-        label: Biological Process
+        label: BiologicalProcess
         name: Blood Pressure
     -   id: MESH:D006973
         label: Disease
@@ -2101,16 +2101,16 @@
         drug_mesh: MESH:D000068677
         drugbank: DB00203
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000068677
         target: UniProt:O76074
-    -   key: REDUCES
+    -   key: decreases abundance of
         source: UniProt:O76074
         target: MESH:D006152
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D006152
         target: GO:0042311
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0042311
         target: MESH:D007172
     multigraph: true
@@ -2122,10 +2122,10 @@
         label: Protein
         name: phosphodisterase type 5
     -   id: MESH:D006152
-        label: Compound
+        label: ChemicalSubstance
         name: cGMP
     -   id: GO:0042311
-        label: Biological Process
+        label: BiologicalProcess
         name: Vasodilation
     -   id: MESH:D007172
         label: Disease
@@ -2138,16 +2138,16 @@
         drug_mesh: MESH:D000077735
         drugbank: DB01155
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000077735
         target: UniProt:P72525
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P72525
         target: GO:0006260
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006260
         target: NCBITaxon:1313
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1313
         target: MESH:D018410
     multigraph: true
@@ -2159,10 +2159,10 @@
         label: Protein
         name: Topoisomeraze 4
     -   id: GO:0006260
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial DNA replication
     -   id: NCBITaxon:1313
-        label: Taxon
+        label: OrganismTaxon
         name: Streptococcus pneumoniae
     -   id: MESH:D018410
         label: Disease
@@ -2175,16 +2175,16 @@
         drug_mesh: MESH:D001623
         drugbank: DB00443
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D001623
         target: UniProt:P04150
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P04150
         target: UniProt:P47712
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P47712
         target: GO:0006954
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0006954
         target: MESH:D003424
     multigraph: true
@@ -2199,7 +2199,7 @@
         label: Protein
         name: Phospholipase A2
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D003424
         label: Disease
@@ -2212,10 +2212,10 @@
         drug_mesh: MESH:C106301
         drugbank: null
     links:
-    -   key: INHIBITS
+    -   key: negatively regulates
         source: MESH:C106301
         target: GO:0002553
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0002553
         target: MESH:D003233
     multigraph: true
@@ -2224,7 +2224,7 @@
         label: Drug
         name: tazanolast
     -   id: GO:0002553
-        label: Biological Process
+        label: BiologicalProcess
         name: Histamine sections by Mast Cell
     -   id: MESH:D003233
         label: Disease
@@ -2237,16 +2237,16 @@
         drug_mesh: MESH:D014221
         drugbank: DB00620
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D014221
         target: UniProt:P04150
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P04150
         target: UniProt:P47712
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P47712
         target: GO:0006954
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0006954
         target: MESH:D003424
     multigraph: true
@@ -2261,7 +2261,7 @@
         label: Protein
         name: Phospholipase A2
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation
     -   id: MESH:D003424
         label: Disease
@@ -2274,13 +2274,13 @@
         drug_mesh: MESH:D000077206
         drugbank: DB00996
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000077206
         target: UniProt:P54289
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P54289
         target: GO:0006936
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0006936
         target: MESH:D012148
     multigraph: true
@@ -2292,7 +2292,7 @@
         label: Protein
         name: voltage dependent calcium channel alpha-2-delta
     -   id: GO:0006936
-        label: Biological Process
+        label: BiologicalProcess
         name: Muscle Contraction
     -   id: MESH:D012148
         label: Disease
@@ -2305,16 +2305,16 @@
         drug_mesh: MESH:D015378
         drugbank: DB01598
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D015378
         target: UniProt:P0AD65
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P0AD65
         target: GO:0009252
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0009252
         target: NCBITaxon:562
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:562
         target: MESH:D010538
     multigraph: true
@@ -2326,10 +2326,10 @@
         label: Protein
         name: Penicillin-binding proteins
     -   id: GO:0009252
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Cell Wall Synthesis
     -   id: NCBITaxon:562
-        label: Taxon
+        label: OrganismTaxon
         name: Escherichia coli
     -   id: MESH:D010538
         label: Disease
@@ -2342,19 +2342,19 @@
         drug_mesh: MESH:D011239
         drugbank: DB00860
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D011239
         target: UniProt:P04150
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:P04150
         target: UniProt:P04083
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P04083
         target: UniProt:P47712
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P47712
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D012507
     multigraph: true
@@ -2372,7 +2372,7 @@
         label: Protein
         name: phospholipase a2
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: Inflammation signaling
     -   id: MESH:D012507
         label: Disease
@@ -2385,13 +2385,13 @@
         drug_mesh: MESH:C005548
         drugbank: DB09345
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C005548
         target: InterPro:IPR028809
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: InterPro:IPR028809
         target: GO:0019227
-    -   key: CAUSES
+    -   key: causes
         source: GO:0019227
         target: MESH:D010146
     multigraph: true
@@ -2400,10 +2400,10 @@
         label: Drug
         name: pramocaine
     -   id: InterPro:IPR028809
-        label: Protein Family
+        label: GeneFamily
         name: Neuronal Voltage gated sodium channels
     -   id: GO:0019227
-        label: Biological Process
+        label: BiologicalProcess
         name: Neuronal Action Potential Transmission
     -   id: MESH:D010146
         label: Disease
@@ -2416,16 +2416,16 @@
         drug_mesh: MESH:D009355
         drugbank: DB00994
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D009355
         target: UniProt:P0A0H0
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P0A0H0
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:1280
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1280
         target: MESH:D007634
     multigraph: true
@@ -2437,10 +2437,10 @@
         label: Protein
         name: 30S Ribosomal Subunit
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Translation
     -   id: NCBITaxon:1280
-        label: Taxon
+        label: OrganismTaxon
         name: Staphylococcus aureus
     -   id: MESH:D007634
         label: Disease
@@ -2453,16 +2453,16 @@
         drug_mesh: MESH:D000077727
         drugbank: DB00303
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000077727
         target: UniProt:P44469
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P44469
         target: GO:0009252
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0009252
         target: NCBITaxon:727
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:727
         target: MESH:D018410
     multigraph: true
@@ -2474,10 +2474,10 @@
         label: Protein
         name: Penicillin-binding proteins
     -   id: GO:0009252
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Cell Wall Synthesis
     -   id: NCBITaxon:727
-        label: Taxon
+        label: OrganismTaxon
         name: Haemophilus influenzae
     -   id: MESH:D018410
         label: Disease
@@ -2490,10 +2490,10 @@
         drug_mesh: MESH:D006206
         drugbank: DB06786
     links:
-    -   key: INHIBITS
+    -   key: negatively regulates
         source: MESH:D006206
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D012871
     multigraph: true
@@ -2502,7 +2502,7 @@
         label: Drug
         name: halcinonide
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: inflammatory signalling
     -   id: MESH:D012871
         label: Disease
@@ -2515,16 +2515,16 @@
         drug_mesh: MESH:D010868
         drugbank: DB01100
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D010868
         target: UniProt:P14416
-    -   key: ACTIVATED_BY
+    -   key: caused by
         source: UniProt:P14416
         target: GO:0014046
-    -   key: ASSOCIATED_WITH
+    -   key: has phenotype
         source: GO:0014046
         target: HP:0100033
-    -   key: PRESENTED_BY
+    -   key: manifestation of
         source: HP:0100033
         target: MESH:D005879
     multigraph: true
@@ -2536,10 +2536,10 @@
         label: Protein
         name: Dopamine D2 Receptor
     -   id: GO:0014046
-        label: Biological Process
+        label: BiologicalProcess
         name: Dopamine Release
     -   id: HP:0100033
-        label: Phenotype
+        label: PhenotypicFeature
         name: tics
     -   id: MESH:D005879
         label: Disease
@@ -2552,7 +2552,7 @@
         drug_mesh: null
         drugbank: DB01527
     links:
-    -   key: TREATS
+    -   key: treats
         source: DB:DB01527
         target: MESH:D000856
     multigraph: true
@@ -2571,16 +2571,16 @@
         drug_mesh: MESH:D016912
         drugbank: DB00367
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D016912
         target: UniProt:P06401
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P06401
         target: UniProt:P01148
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P01148
         target: GO:0032275
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0032275
         target: MESH:D008595
     multigraph: true
@@ -2595,7 +2595,7 @@
         label: Protein
         name: gonadotropin releasing hormone
     -   id: GO:0032275
-        label: Biological Process
+        label: BiologicalProcess
         name: Luteinizing hormone secretion
     -   id: MESH:D008595
         label: Disease
@@ -2608,16 +2608,16 @@
         drug_mesh: MESH:D000069462
         drugbank: DB08908
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000069462
         target: UniProt:Q14145
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:Q14145
         target: UniProt:Q16236
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:Q16236
         target: GO:0006979
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0006979
         target: MESH:D009103
     multigraph: true
@@ -2632,7 +2632,7 @@
         label: Protein
         name: Nrf2
     -   id: GO:0006979
-        label: Biological Process
+        label: BiologicalProcess
         name: Oxidative Stress
     -   id: MESH:D009103
         label: Disease
@@ -2645,10 +2645,10 @@
         drug_mesh: MESH:D007444
         drugbank: DB00638
     links:
-    -   key: ASSOCIATED_WITH
+    -   key: positively regulates
         source: MESH:D007444
         target: GO:0032099
-    -   key: REDUCES
+    -   key: prevents
         source: GO:0032099
         target: MESH:D006943
     multigraph: true
@@ -2657,7 +2657,7 @@
         label: Drug
         name: inulin
     -   id: GO:0032099
-        label: Biological Process
+        label: BiologicalProcess
         name: negative regulation of appetite
     -   id: MESH:D006943
         label: Disease
@@ -2670,16 +2670,16 @@
         drug_mesh: MESH:D011530
         drugbank: DB00344
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D011530
         target: UniProt:P23975
-    -   key: REDUCES
+    -   key: decreases abundance of
         source: UniProt:P23975
         target: MESH:D009638
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D009638
         target: GO:0023041
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0023041
         target: MESH:D003865
     multigraph: true
@@ -2691,10 +2691,10 @@
         label: Protein
         name: Sodium dependent noradrenaline transporter
     -   id: MESH:D009638
-        label: Compound
+        label: ChemicalSubstance
         name: noradrenaline
     -   id: GO:0023041
-        label: Biological Process
+        label: BiologicalProcess
         name: Neuronal activation
     -   id: MESH:D003865
         label: Disease
@@ -2707,10 +2707,10 @@
         drug_mesh: MESH:C006208
         drugbank: null
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C006208
         target: UniProt:P41595
-    -   key: UPREGULATED_IN
+    -   key: positively correlated with
         source: UniProt:P41595
         target: MESH:D006976
     multigraph: true
@@ -2732,13 +2732,13 @@
         drug_mesh: MESH:C076948
         drugbank: DB12770
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C076948
         target: UniProt:P25021
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P25021
         target: GO:0001696
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0001696
         target: MESH:D005764
     multigraph: true
@@ -2750,7 +2750,7 @@
         label: Protein
         name: Histamine H2 Receptor
     -   id: GO:0001696
-        label: Biological Process
+        label: BiologicalProcess
         name: Gastric acid secretion
     -   id: MESH:D005764
         label: Disease
@@ -2763,16 +2763,16 @@
         drug_mesh: MESH:C119141
         drugbank: DB04938
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:C119141
         target: UniProt:P03372
-    -   key: ACTIVATED_BY
+    -   key: molecularly interacts with
         source: UniProt:P03372
         target: MESH:D004967
-    -   key: REDUCED_IN
+    -   key: prevents
         source: MESH:D004967
         target: MESH:D059268
-    -   key: ASSOCIATED_WITH
+    -   key: contributes to
         source: MESH:D059268
         target: MESH:D004414
     multigraph: true
@@ -2784,7 +2784,7 @@
         label: Protein
         name: estrogen receptor
     -   id: MESH:D004967
-        label: Compound
+        label: ChemicalSubstance
         name: estrogen
     -   id: MESH:D059268
         label: Disease
@@ -2800,16 +2800,16 @@
         drug_mesh: MESH:D004917
         drugbank: DB00199
     links:
-    -   key: INHIBITS
+    -   key: decreases abundance of
         source: MESH:D004917
         target: MESH:D012338
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: MESH:D012338
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:1637
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1637
         target: MESH:D008088
     multigraph: true
@@ -2818,13 +2818,13 @@
         label: Drug
         name: erythromycin
     -   id: MESH:D012338
-        label: Compound Class
+        label: ChemicalSubstance
         name: 23S Ribosomal RNA
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Translation
     -   id: NCBITaxon:1637
-        label: Taxon
+        label: OrganismTaxon
         name: Listeria spp.
     -   id: MESH:D008088
         label: Disease
@@ -2837,7 +2837,7 @@
         drug_mesh: MESH:D010129
         drugbank: DB02362
     links:
-    -   key: TREATS
+    -   key: treats
         source: MESH:D010129
         target: MESH:D010392
     multigraph: true
@@ -2856,16 +2856,16 @@
         drug_mesh: MESH:D005913
         drugbank: DB01067
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D005913
         target: UniProt:Q09428
-    -   key: LOCALIZED_TO
+    -   key: located in
         source: UniProt:Q09428
         target: CL:0000169
-    -   key: PRODUCES
+    -   key: expresses
         source: CL:0000169
         target: UniProt:P01308
-    -   key: REDUCES
+    -   key: prevents
         source: UniProt:P01308
         target: MESH:D006943
     multigraph: true
@@ -2877,7 +2877,7 @@
         label: Protein
         name: ATP-binding cassette sub-family C member 8
     -   id: CL:0000169
-        label: Cell Type
+        label: Cell
         name: Islet Cells
     -   id: UniProt:P01308
         label: Protein
@@ -2893,13 +2893,13 @@
         drug_mesh: MESH:C077049
         drugbank: DB12212
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C077049
         target: UniProt:P08588
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P08588
         target: GO:0045823
-    -   key: CAUSES
+    -   key: causes
         source: GO:0045823
         target: MESH:D013610
     multigraph: true
@@ -2911,7 +2911,7 @@
         label: Protein
         name: Beta-1 adrenergic receptor
     -   id: GO:0045823
-        label: Biological Process
+        label: BiologicalProcess
         name: positive regulation of heart contraction
     -   id: MESH:D013610
         label: Disease
@@ -2924,13 +2924,13 @@
         drug_mesh: MESH:C047340
         drugbank: DB01106
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C047340
         target: UniProt:P35367
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P35367
         target: GO:0034776
-    -   key: CAUSES
+    -   key: causes
         source: GO:0034776
         target: MESH:D003233
     multigraph: true
@@ -2942,7 +2942,7 @@
         label: Protein
         name: histamine H1 Receptor
     -   id: GO:0034776
-        label: Biological Process
+        label: BiologicalProcess
         name: response to histamine
     -   id: MESH:D003233
         label: Disease
@@ -2955,16 +2955,16 @@
         drug_mesh: MESH:D000074
         drugbank: DB01418
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000074
         target: UniProt:Q9BQB6
-    -   key: PRODUCES
+    -   key: produces
         source: UniProt:Q9BQB6
         target: MESH:D014812
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D014812
         target: GO:0007596
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0007596
         target: MESH:D011655
     multigraph: true
@@ -2976,10 +2976,10 @@
         label: Protein
         name: vitamin k reductase
     -   id: MESH:D014812
-        label: Compound
+        label: ChemicalSubstance
         name: Reduced Vitamin k2 (vkH2)
     -   id: GO:0007596
-        label: Biological Process
+        label: BiologicalProcess
         name: Clotting Factor Synthesis
     -   id: MESH:D011655
         label: Disease
@@ -2992,19 +2992,19 @@
         drug_mesh: MESH:C018038
         drugbank: DB14649
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:C018038
         target: UniProt:P04150
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:P04150
         target: UniProt:P04083
-    -   key: DOWN_REGULATES
+    -   key: decreases abundance of
         source: UniProt:P04083
         target: UniProt:P47712
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P47712
         target: GO:0019370
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0019370
         target: MESH:D009101
     multigraph: true
@@ -3022,7 +3022,7 @@
         label: Protein
         name: Phospholipase a2
     -   id: GO:0019370
-        label: Biological Process
+        label: BiologicalProcess
         name: leukotriene biosysntesis
     -   id: MESH:D009101
         label: Disease
@@ -3035,13 +3035,13 @@
         drug_mesh: MESH:C046384
         drugbank: DB13676
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C046384
         target: UniProt:P14416
-    -   key: PART_OF
+    -   key: participates in
         source: UniProt:P14416
         target: REACT:R-HSA-390651
-    -   key: ASSOCIATED_WITH
+    -   key: affects risk for
         source: REACT:R-HSA-390651
         target: MESH:D012559
     multigraph: true
@@ -3066,13 +3066,13 @@
         drug_mesh: MESH:D057073
         drugbank: DB00024
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D057073
         target: UniProt:P16473
-    -   key: LOCALIZED_TO
+    -   key: expressed in
         source: UniProt:P16473
         target: UBERON:0002046
-    -   key: LOCATION_OF
+    -   key: location of
         source: UBERON:0002046
         target: MESH:D013964
     multigraph: true
@@ -3084,7 +3084,7 @@
         label: Protein
         name: Thyrotropin receptor
     -   id: UBERON:0002046
-        label: Anatomy
+        label: GrossAnatomicalStructure
         name: Thyroid
     -   id: MESH:D013964
         label: Disease
@@ -3097,13 +3097,13 @@
         drug_mesh: MESH:D008788
         drugbank: DB00524
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D008788
         target: UniProt:P55017
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P55017
         target: GO:0055078
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0055078
         target: MESH:D006973
     multigraph: true
@@ -3115,7 +3115,7 @@
         label: Protein
         name: Solute carrier family 12 member 3
     -   id: GO:0055078
-        label: Biological Process
+        label: BiologicalProcess
         name: Sodium Ion Homeostasis
     -   id: MESH:D006973
         label: Disease
@@ -3128,10 +3128,10 @@
         drug_mesh: MESH:D012844
         drugbank: DB09142
     links:
-    -   key: ACTIVATES
+    -   key: positively regulates
         source: MESH:D012844
         target: GO:0032782
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0032782
         target: MESH:D005705
     multigraph: true
@@ -3140,7 +3140,7 @@
         label: Drug
         name: sincalide
     -   id: GO:0032782
-        label: Biological Process
+        label: BiologicalProcess
         name: Bile acid secretion
     -   id: MESH:D005705
         label: Disease
@@ -3153,13 +3153,13 @@
         drug_mesh: MESH:C039979
         drugbank: DB12184
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:C039979
         target: UniProt:P08908
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P08908
         target: GO:0050795
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0050795
         target: MESH:D003865
     multigraph: true
@@ -3171,7 +3171,7 @@
         label: Protein
         name: 5-HT1a receptor (serotonin 1A)
     -   id: GO:0050795
-        label: Biological Process
+        label: BiologicalProcess
         name: regulation of behavior
     -   id: MESH:D003865
         label: Disease
@@ -3184,13 +3184,13 @@
         drug_mesh: MESH:D014147
         drugbank: DB00193
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D014147
         target: UniProt:P35372
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:P35372
         target: GO:0019233
-    -   key: CAUSES
+    -   key: causes
         source: GO:0019233
         target: MESH:D010146
     multigraph: true
@@ -3202,7 +3202,7 @@
         label: Protein
         name: Mu-type opioid receptor
     -   id: GO:0019233
-        label: Biological Process
+        label: BiologicalProcess
         name: sensory perception
     -   id: MESH:D010146
         label: Disease
@@ -3215,13 +3215,13 @@
         drug_mesh: MESH:D014293
         drugbank: DB00347
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D014293
         target: UniProt:O43497
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:O43497
         target: 'GO:0007268 '
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: 'GO:0007268 '
         target: MESH:D004832
     multigraph: true
@@ -3233,7 +3233,7 @@
         label: Protein
         name: voltage dependent T-type calcium channel subunit alpha-1G
     -   id: 'GO:0007268 '
-        label: Biological Process
+        label: BiologicalProcess
         name: corticothalamic transmission
     -   id: MESH:D004832
         label: Disease
@@ -3246,16 +3246,16 @@
         drug_mesh: MESH:C572045
         drugbank: DB11901
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C572045
         target: UniProt:P10275
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P10275
         target: GO:0006351
-    -   key: REQUIRED_FOR
+    -   key: precedes
         source: GO:0006351
         target: GO:0008283
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0008283
         target: MESH:D011471
     multigraph: true
@@ -3267,10 +3267,10 @@
         label: Protein
         name: androgen receptor
     -   id: GO:0006351
-        label: Biological Process
+        label: BiologicalProcess
         name: gene transcription
     -   id: GO:0008283
-        label: Biological Process
+        label: BiologicalProcess
         name: Cell proliferation
     -   id: MESH:D011471
         label: Disease
@@ -3283,16 +3283,16 @@
         drug_mesh: MESH:C570710
         drugbank: DB09105
     links:
-    -   key: REDUCES
+    -   key: decreases abundance of
         source: MESH:C570710
         target: MESH:C107241
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: MESH:C107241
         target: GO:0030282
-    -   key: CAUSES
+    -   key: has phenotype
         source: GO:0030282
         target: HP:0004349
-    -   key: PRESENTED_BY
+    -   key: manifestation of
         source: HP:0004349
         target: MESH:D007014
     multigraph: true
@@ -3301,13 +3301,13 @@
         label: Drug
         name: asfotase alfa
     -   id: MESH:C107241
-        label: Compound
+        label: ChemicalSubstance
         name: inorgainc pyrophosphate
     -   id: GO:0030282
-        label: Biological Process
+        label: BiologicalProcess
         name: hydroxpatite crystal growth
     -   id: HP:0004349
-        label: Phenotype
+        label: PhenotypicFeature
         name: Reduced bone mineral density
     -   id: MESH:D007014
         label: Disease
@@ -3320,16 +3320,16 @@
         drug_mesh: MESH:D000616
         drugbank: DB00357
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000616
         target: UniProt:P11511
-    -   key: PRODUCES
+    -   key: produces
         source: UniProt:P11511
         target: MESH:D004967
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: MESH:D004967
         target: GO:0008283
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0008283
         target: MESH:D001943
     multigraph: true
@@ -3341,10 +3341,10 @@
         label: Protein
         name: aromatase
     -   id: MESH:D004967
-        label: Compound
+        label: ChemicalSubstance
         name: estrogen
     -   id: GO:0008283
-        label: Biological Process
+        label: BiologicalProcess
         name: Cell proliferation
     -   id: MESH:D001943
         label: Disease
@@ -3357,16 +3357,16 @@
         drug_mesh: MESH:C061018
         drugbank: DB06785
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C061018
         target: UniProt:P30968
-    -   key: LOCALIZED_TO
+    -   key: expressed in
         source: UniProt:P30968
         target: UBERON:0000007
-    -   key: PRODUCES
+    -   key: produces
         source: UBERON:0000007
         target: InterPro:IPR000476
-    -   key: CAUSES
+    -   key: causes
         source: InterPro:IPR000476
         target: MESH:D010062
     multigraph: true
@@ -3378,10 +3378,10 @@
         label: Protein
         name: GnRH receptor
     -   id: UBERON:0000007
-        label: Anatomy
+        label: GrossAnatomicalStructure
         name: pituitary gland
     -   id: InterPro:IPR000476
-        label: Protein Family
+        label: GeneFamily
         name: gonadotropins
     -   id: MESH:D010062
         label: Disease
@@ -3394,13 +3394,13 @@
         drug_mesh: MESH:D005973
         drugbank: DB00130
     links:
-    -   key: STIMULATES
+    -   key: produces
         source: MESH:D005973
         target: CL:0000584
-    -   key: INVOLVED_IN
+    -   key: capable of
         source: CL:0000584
         target: GO:0050892
-    -   key: DISRUPTED_IN
+    -   key: negatively correlated with
         source: GO:0050892
         target: MESH:D012778
     multigraph: true
@@ -3409,10 +3409,10 @@
         label: Drug
         name: glutamine
     -   id: CL:0000584
-        label: Cell Type
+        label: Cell
         name: enterocytes
     -   id: GO:0050892
-        label: Biological Process
+        label: BiologicalProcess
         name: intestinal nutrient absorption
     -   id: MESH:D012778
         label: Disease
@@ -3425,16 +3425,16 @@
         drug_mesh: MESH:D000077384
         drugbank: DB01217
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000077384
         target: UniProt:P11511
-    -   key: PRODUCES
+    -   key: produces
         source: UniProt:P11511
         target: MESH:D004967
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: MESH:D004967
         target: GO:0030284
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0030284
         target: MESH:D001943
     multigraph: true
@@ -3446,10 +3446,10 @@
         label: Protein
         name: aromatase
     -   id: MESH:D004967
-        label: Compound
+        label: ChemicalSubstance
         name: estrogen
     -   id: GO:0030284
-        label: Molecular Function
+        label: MolecularActivity
         name: esterogne receptor activity
     -   id: MESH:D001943
         label: Disease
@@ -3462,16 +3462,16 @@
         drug_mesh: MESH:D006427
         drugbank: DB03404
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D006427
         target: UniProt:P13196
-    -   key: PART_OF
+    -   key: participates in
         source: UniProt:P13196
         target: REACT:R-HSA-189451
-    -   key: HAS_PART
+    -   key: has participant
         source: REACT:R-HSA-189451
         target: MESH:D011162
-    -   key: ELEVATED_IN
+    -   key: manifestation of
         source: MESH:D011162
         target: MESH:D017118
     multigraph: true
@@ -3486,7 +3486,7 @@
         label: Pathway
         name: Heme biosynthesis
     -   id: MESH:D011162
-        label: Compound
+        label: ChemicalSubstance
         name: porpholobilinogen
     -   id: MESH:D017118
         label: Disease
@@ -3499,13 +3499,13 @@
         drug_mesh: MESH:C044610
         drugbank: DB09166
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:C044610
         target: UniProt:P14867
-    -   key: HAS_FUNCTION
+    -   key: capable of
         source: UniProt:P14867
         target: GO:0022851
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0022851
         target: MESH:D001008
     multigraph: true
@@ -3517,7 +3517,7 @@
         label: Protein
         name: GABA-A receptor alpha 1
     -   id: GO:0022851
-        label: Molecular Function
+        label: MolecularActivity
         name: GABA-A receptor activity
     -   id: MESH:D001008
         label: Disease
@@ -3530,16 +3530,16 @@
         drug_mesh: MESH:C026016
         drugbank: DB07565
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C026016
         target: UniProt:P0A298
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P0A298
         target: GO:0006412
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:90370
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:90370
         target: MESH:D014435
     multigraph: true
@@ -3551,10 +3551,10 @@
         label: Protein
         name: 50S ribosomal subunit
     -   id: GO:0006412
-        label: Biological Process
+        label: BiologicalProcess
         name: Bacterial Protein Synthesis
     -   id: NCBITaxon:90370
-        label: Taxon
+        label: OrganismTaxon
         name: Salmonella typhi
     -   id: MESH:D014435
         label: Disease
@@ -3567,10 +3567,10 @@
         drug_mesh: MESH:D000481
         drugbank: DB11100
     links:
-    -   key: ACTIVATES
+    -   key: positively regulates
         source: MESH:D000481
         target: GO:0042060
-    -   key: REDUCES
+    -   key: prevents
         source: GO:0042060
         target: MESH:D012628
     multigraph: true
@@ -3579,7 +3579,7 @@
         label: Drug
         name: allantoin
     -   id: GO:0042060
-        label: Biological Process
+        label: BiologicalProcess
         name: fibroblast proliferation
     -   id: MESH:D012628
         label: Disease
@@ -3592,16 +3592,16 @@
         drug_mesh: MESH:C555712
         drugbank: DB00016
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:C555712
         target: UniProt:P19235
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P19235
         target: GO:0030218
-    -   key: PRODUCES
+    -   key: has output
         source: GO:0030218
         target: CL:0000232
-    -   key: REDUCED_IN
+    -   key: negatively correlated with
         source: CL:0000232
         target: MESH:D000740
     multigraph: true
@@ -3613,10 +3613,10 @@
         label: Protein
         name: erythropoietin receptor
     -   id: GO:0030218
-        label: Biological Process
+        label: BiologicalProcess
         name: erythrocyte differentiation
     -   id: CL:0000232
-        label: Cell Type
+        label: Cell
         name: erythrocytes
     -   id: MESH:D000740
         label: Disease
@@ -3629,16 +3629,16 @@
         drug_mesh: MESH:D012460
         drugbank: DB00795
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D012460
         target: UniProt:P09917
-    -   key: UP_REGULATES
+    -   key: positively regulates
         source: UniProt:P09917
         target: GO:0019370
-    -   key: PART_OF
+    -   key: part of
         source: GO:0019370
         target: GO:0006954
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0006954
         target: MESH:D003093
     multigraph: true
@@ -3650,10 +3650,10 @@
         label: Protein
         name: Arachidonate 5-lipoxygenase
     -   id: GO:0019370
-        label: Biological Process
+        label: BiologicalProcess
         name: leukotriene biosynthesis
     -   id: GO:0006954
-        label: Biological Process
+        label: BiologicalProcess
         name: inflammatory response
     -   id: MESH:D003093
         label: Disease
@@ -3666,16 +3666,16 @@
         drug_mesh: MESH:D017245
         drugbank: DB00529
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D017245
         target: UniProt:P08546
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P08546
         target: GO:0039693
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0039693
         target: NCBITaxon:10358
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:10358
         target: MESH:D017726
     multigraph: true
@@ -3687,10 +3687,10 @@
         label: Protein
         name: viral DNA Polymerase
     -   id: GO:0039693
-        label: Biological Process
+        label: BiologicalProcess
         name: viral DNA replication
     -   id: NCBITaxon:10358
-        label: Taxon
+        label: OrganismTaxon
         name: Cytomegalovirus
     -   id: MESH:D017726
         label: Disease
@@ -3703,13 +3703,13 @@
         drug_mesh: MESH:D002710
         drugbank: DB00878
     links:
-    -   key: DISRUPTS
+    -   key: disrupts
         source: MESH:D002710
         target: GO:0009274
-    -   key: REQUIRED_FOR
+    -   key: in taxon
         source: GO:0009274
         target: NCBITaxon:837
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:837
         target: MESH:D010518
     multigraph: true
@@ -3718,10 +3718,10 @@
         label: Drug
         name: chlorhexidine
     -   id: GO:0009274
-        label: Cellular Component
+        label: CellularComponent
         name: Bacterial Cell Wall
     -   id: NCBITaxon:837
-        label: Taxon
+        label: OrganismTaxon
         name: Porphyromonas gingivalis
     -   id: MESH:D010518
         label: Disease
@@ -3734,13 +3734,13 @@
         drug_mesh: MESH:C042705
         drugbank: DB00059
     links:
-    -   key: REDUCES
+    -   key: decreases abundance of
         source: MESH:C042705
         target: MESH:D001216
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:D001216
         target: GO:0008283
-    -   key: CAUSES
+    -   key: causes
         source: GO:0008283
         target: MESH:D054198
     multigraph: true
@@ -3749,10 +3749,10 @@
         label: Drug
         name: pegaspargase
     -   id: MESH:D001216
-        label: Compound
+        label: ChemicalSubstance
         name: extracellular asparagine
     -   id: GO:0008283
-        label: Biological Process
+        label: BiologicalProcess
         name: cellular proliferation
     -   id: MESH:D054198
         label: Disease
@@ -3765,16 +3765,16 @@
         drug_mesh: MESH:C018421
         drugbank: DB01201
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C018421
         target: UniProt:P9WGY7
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P9WGY7
         target: GO:0032774
-    -   key: REQUIRED_FOR
+    -   key: occurs in
         source: GO:0032774
         target: NCBITaxon:1773
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:1773
         target: MESH:D014397
     multigraph: true
@@ -3786,10 +3786,10 @@
         label: Protein
         name: DNA-directed RNA polymerase subunit beta
     -   id: GO:0032774
-        label: Biological Process
+        label: BiologicalProcess
         name: RNA synthesis
     -   id: NCBITaxon:1773
-        label: Taxon
+        label: OrganismTaxon
         name: Mycobacterium tuberculosis infection
     -   id: MESH:D014397
         label: Disease
@@ -3802,10 +3802,10 @@
         drug_mesh: MESH:D014238
         drugbank: DB11152
     links:
-    -   key: ACTIVATES
+    -   key: positively regulates
         source: MESH:D014238
         target: GO:0070265
-    -   key: REDUCES
+    -   key: prevents
         source: GO:0070265
         target: MESH:D003218
     multigraph: true
@@ -3814,7 +3814,7 @@
         label: Drug
         name: trichloroacetic acid
     -   id: GO:0070265
-        label: Biological Process
+        label: BiologicalProcess
         name: necrotic cell death
     -   id: MESH:D003218
         label: Disease
@@ -3827,13 +3827,13 @@
         drug_mesh: MESH:C013983
         drugbank: DB12131
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C013983
         target: UniProt:P54750
-    -   key: PART_OF
+    -   key: part of
         source: UniProt:P54750
         target: GO:0043025
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:0043025
         target: MESH:D003704
     multigraph: true
@@ -3846,7 +3846,7 @@
         name: Calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase
             1A
     -   id: GO:0043025
-        label: Cellular Component
+        label: CellularComponent
         name: Neuronal Cell Body
     -   id: MESH:D003704
         label: Disease
@@ -3859,10 +3859,10 @@
         drug_mesh: MESH:C042131
         drugbank: DB13142
     links:
-    -   key: INCREASES
+    -   key: increases abundance of
         source: MESH:C042131
         target: MESH:D002118
-    -   key: REDUCED_IN
+    -   key: prevents
         source: MESH:D002118
         target: MESH:D006996
     multigraph: true
@@ -3871,7 +3871,7 @@
         label: Drug
         name: calcium glubionate
     -   id: MESH:D002118
-        label: Compound
+        label: ChemicalSubstance
         name: Calcium Ion
     -   id: MESH:D006996
         label: Disease
@@ -3884,13 +3884,13 @@
         drug_mesh: MESH:D005984
         drugbank: DB01437
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D005984
         target: UniProt:P14867
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P14867
         target: GO:1904862
-    -   key: ASSOCIATED_WITH
+    -   key: correlated with
         source: GO:1904862
         target: MESH:D007319
     multigraph: true
@@ -3902,7 +3902,7 @@
         label: Protein
         name: Gamma-aminobutyric acid receptor subunit alpha-1
     -   id: GO:1904862
-        label: Biological Process
+        label: BiologicalProcess
         name: inhibitory synapse assembly
     -   id: MESH:D007319
         label: Disease
@@ -3915,16 +3915,16 @@
         drug_mesh: MESH:D000077604
         drugbank: DB01213
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000077604
         target: UniProt:P07327
-    -   key: PART_OF
+    -   key: participates in
         source: UniProt:P07327
         target: REACT:R-HSA-71384
-    -   key: PRODUCES
+    -   key: has output
         source: REACT:R-HSA-71384
         target: MESH:C030544
-    -   key: CAUSES
+    -   key: causes
         source: MESH:C030544
         target: MESH:D000138
     multigraph: true
@@ -3939,7 +3939,7 @@
         label: Pathway
         name: Ethanol oxidation
     -   id: MESH:C030544
-        label: Compound
+        label: ChemicalSubstance
         name: formic acid
     -   id: MESH:D000138
         label: Disease
@@ -3952,25 +3952,25 @@
         drug_mesh: MESH:C534526
         drugbank: DB04931
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:C534526
         target: UniProt:Q01726
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:Q01726
         target: GO:0042438
-    -   key: UP_REGULATES
+    -   key: produces
         source: GO:0042438
         target: MESH:C041877
-    -   key: PART_OF
+    -   key: participates in
         source: MESH:C041877
         target: GO:0009650
-    -   key: REDUCES
+    -   key: disrupts
         source: GO:0009650
         target: CHEBI:26523
-    -   key: INCREASED_BY
+    -   key: produced by
         source: CHEBI:26523
         target: MESH:C028025
-    -   key: ELEVATED_IN
+    -   key: manifestation of
         source: MESH:C028025
         target: MESH:D046351
     multigraph: true
@@ -3982,19 +3982,19 @@
         label: Protein
         name: Melanocyte-stimulating hormone receptor
     -   id: GO:0042438
-        label: Biological Process
+        label: BiologicalProcess
         name: melanogenesis
     -   id: MESH:C041877
-        label: Compound
+        label: ChemicalSubstance
         name: eumelanin
     -   id: GO:0009650
-        label: Biological Process
+        label: BiologicalProcess
         name: UV protection
     -   id: CHEBI:26523
-        label: Compound Class
+        label: ChemicalSubstance
         name: reative oxygen species
     -   id: MESH:C028025
-        label: Compound
+        label: ChemicalSubstance
         name: protoporphyrin IX
     -   id: MESH:D046351
         label: Disease
@@ -4007,19 +4007,19 @@
         drug_mesh: MESH:C484071
         drugbank: DB11693
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C484071
         target: UniProt:P63098
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:P63098
         target: UniProt:O95644
-    -   key: UP_REGULATES
+    -   key: increases abundance of
         source: UniProt:O95644
         target: UniProt:P60568
-    -   key: STIMULATES
+    -   key: produces
         source: UniProt:P60568
         target: CL:0000084
-    -   key: CAUSES
+    -   key: causes
         source: CL:0000084
         target: MESH:D014605
     multigraph: true
@@ -4037,7 +4037,7 @@
         label: Protein
         name: interleukin 2
     -   id: CL:0000084
-        label: Cell Type
+        label: Cell
         name: T-Cell
     -   id: MESH:D014605
         label: Disease
@@ -4050,7 +4050,7 @@
         drug_mesh: MESH:D000585, MESH:D006604
         drugbank: ', DB11254'
     links:
-    -   key: TREATS
+    -   key: treats
         source: MESH:D000585, MESH:D006604
         target: MESH:D014010
     multigraph: true
@@ -4069,22 +4069,22 @@
         drug_mesh: MESH:D007559
         drugbank: DB00602
     links:
-    -   key: ACTIVATES
+    -   key: increases activity of
         source: MESH:D007559
         target: InterPro:IPR015680
-    -   key: INCREASES
+    -   key: increases abundance of
         source: InterPro:IPR015680
         target: CHEBI:17996
-    -   key: PART_OF
+    -   key: participates in
         source: CHEBI:17996
         target: GO:0060081
-    -   key: CAUSES
+    -   key: precedes
         source: GO:0060081
         target: MESH:D010243
-    -   key: REDUCES
+    -   key: negatively regulates
         source: MESH:D010243
         target: NCBITaxon:6282
-    -   key: CAUSES
+    -   key: causes
         source: NCBITaxon:6282
         target: MESH:D009855
     multigraph: true
@@ -4093,19 +4093,19 @@
         label: Drug
         name: ivermectin
     -   id: InterPro:IPR015680
-        label: Protein Family
+        label: GeneFamily
         name: glutimate-gated chloride channels
     -   id: CHEBI:17996
-        label: Compound
+        label: ChemicalSubstance
         name: chloride ion
     -   id: GO:0060081
-        label: Biological Process
+        label: BiologicalProcess
         name: membrane hyperpolarization
     -   id: MESH:D010243
-        label: Biological Process
+        label: BiologicalProcess
         name: Paralysis
     -   id: NCBITaxon:6282
-        label: Taxon
+        label: OrganismTaxon
         name: Onchocerca volvulus
     -   id: MESH:D009855
         label: Disease
@@ -4118,19 +4118,19 @@
         drug_mesh: MESH:D000069547
         drugbank: DB09065
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000069547
         target: UniProt:Q9HB55
-    -   key: REDUCES
+    -   key: decreases abundance of
         source: UniProt:Q9HB55
         target: MESH:D000069446
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:D000069446
         target: UniProt:P04585
-    -   key: INVOLVED_IN
+    -   key: participates in
         source: UniProt:P04585
         target: GO:0019068
-    -   key: CAUSES
+    -   key: causes
         source: GO:0019068
         target: MESH:D015658
     multigraph: true
@@ -4142,13 +4142,13 @@
         label: Protein
         name: cytochrome P450 3A (CYP3A) isoforms
     -   id: MESH:D000069446
-        label: Compound
+        label: ChemicalSubstance
         name: atazanavir
     -   id: UniProt:P04585
         label: Protein
         name: Gag-Pol polyprotein
     -   id: GO:0019068
-        label: Biological Process
+        label: BiologicalProcess
         name: Viral Assembly
     -   id: MESH:D015658
         label: Disease
@@ -4161,16 +4161,16 @@
         drug_mesh: MESH:C000609138
         drugbank: DB11945
     links:
-    -   key: INHIBITS
+    -   key: decreases activity of
         source: MESH:C000609138
         target: UniProt:Q9NZQ7
-    -   key: DOWN_REGULATES
+    -   key: negatively regulates
         source: UniProt:Q9NZQ7
         target: GO:0036037
-    -   key: REDUCES
+    -   key: negatively regulates
         source: GO:0036037
         target: GO:0008283
-    -   key: ELEVATED_IN
+    -   key: positively correlated with
         source: GO:0008283
         target: MESH:D015266
     multigraph: true
@@ -4182,10 +4182,10 @@
         label: Protein
         name: Programmed cell death 1 ligand 1
     -   id: GO:0036037
-        label: Biological Process
+        label: BiologicalProcess
         name: Cytotoxic T-Cell activity
     -   id: GO:0008283
-        label: Biological Process
+        label: BiologicalProcess
         name: Cell proliferation
     -   id: MESH:D015266
         label: Disease
