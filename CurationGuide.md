@@ -8,10 +8,10 @@ records are a [path](https://en.wikipedia.org/wiki/Path_(graph_theory)), consist
 Drug to Disease.
 
 Concepts of within DrugMechDB are mapped to universal identifiers as well as a [concept type](#concept-types).
-Relationships are mapped to [relationship types](#relationship-types). These facets function to enhance the
+Relationships are mapped to [relationship types](#relationships). These facets function to enhance the
 machine-readability and reusability of the data contained within DrugMechDB.
 
- See an example of a record below.
+An example of a record is illustrated below.
 
 ![Path](path.png)
 
@@ -34,6 +34,8 @@ where only one should be selected.
 YAML was chosen as a human friendly serialization standard for the content of DrugMechDB. YAML meets the primary
 goal of machine readability and human-interoperability, important for the process of expert curation.
 [For more information on the YAML standard, please follow this link](https://yaml.org/).
+
+See [this sample](sample.yaml) for an example record, properly formatted in YAML.
 
 ### Components
 
