@@ -53,6 +53,8 @@ the following table:
 If you would like to contribute your own curated mechanistic paths, please do so by making pull requests
 with edits to the file `indication_paths.yaml`.
 
+See the [Curation Guide](CurationGuide.md) for more information about contributions.
+
 ### Path formatting
 
 Each path begins with a `-   directed: true` statment. Identifiers for concepts and concept type
