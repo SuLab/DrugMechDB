@@ -14,6 +14,11 @@ However, there are usually more steps across a biological knowledge graph requir
 its mechanism to the reduction of a disease.  This database attempts to catalog a subset of known drug-disease indications
 as a path through a network of biomedical entities.
 
+Below is a visualized example of one entry in DrugMechDB - A path from Cortisone acetate to Keratitis.
+
+![Path Example](path.png)
+
+
 ## Curation
 
 Indications were selected at random from the set contained within DrugCentral. Half were taken from the full set,
