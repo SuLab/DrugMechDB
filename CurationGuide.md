@@ -238,6 +238,13 @@ The predicates currently found within DrugMechDB are as follows:
 
 ## FAQ
 
-TBD
+### Is there somewhere I can validate/visualize my path?
+
+Yes! We've added a jupyter notebook that can be used to visalize paths.
+It can be executed by following [this link to Google CoLab](https://colab.research.google.com/github/SuLab/DrugMechDB/blob/master/path_visualization.ipynb).
+
+To run this code, copy paste your YAML code for **one** path into cell
+number 2 and then  click `Runtime>Run all` and the CoLab notebook
+will run the requred code to produce a picture of your graph.
 
 
