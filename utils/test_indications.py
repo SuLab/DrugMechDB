@@ -6,15 +6,15 @@ indications = nx.read_yaml('indication_paths.yaml')
 
 def validate_dict_keys(to_val, req_keys):
     for req_key in req_keys:
-        assert req_key in to_val, 'Key {0!r:} not in {1:}'.format(req_key, to_val.keys())
+        assert req_key in to_val, 'Required key {0!r:} missing from: {1:}'.format(req_key, to_val.keys())
 
 def validate_node(nodes, identifier):
     node_ids = [node['id'] for node in nodes]
-    assert identifier in node_ids, 'ID {0!r:} not in {1:}'.format(identifier, node_ids)
+    assert identifier in node_ids, 'ID {0!r:} not in node IDs: {1:}'.format(identifier, node_ids)
 
 def validate_nodes(nodes, identifiers):
     node_ids = [node['id'] for node in nodes]
-    assert len(set(node_ids) | set(identifiers)) > 0, 'ID {0!r:} not in {1:}'.format(identifiers, node_ids)
+    assert len(set(node_ids) | set(identifiers)) > 0, 'ID {0!r:} not in node IDs: {1:}'.format(identifiers, node_ids)
 
 
 class PathTester:
@@ -58,15 +58,17 @@ class PathTester:
         link_ids = set(sources) | set(targets)
 
         for node in self.path['nodes']:
-            assert node['id'] in link_ids, 'Node {0!r:} not in {1:}'.format(node['id'], link_ids)
+            assert node['id'] in link_ids, 'Node {0!r:} not in link IDs: {1:}'.format(node['id'], link_ids)
 
     ### Ensure path consistency
     def test_start_end_drug_disease(self):
         drugs = self.get_drugs()
         disease = self.path['graph']['disease_mesh']
 
-        assert self.path['links'][0]['source'] in drugs
-        assert self.path['links'][-1]['target'] == disease
+        assert self.path['links'][0]['source'] in drugs, 'Drug identifiers {0!r:} '.format(drugs) +\
+                                                         'not at start of path'.format(drugs)
+        assert self.path['links'][-1]['target'] == disease, 'Disease identifier {0!r:} '.format(disease) +\
+                                                            'not at end of path'.format(disease)
 
     def test_all_links_connected(self):
         drugs = self.get_drugs()
