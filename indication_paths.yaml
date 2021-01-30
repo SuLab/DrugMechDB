@@ -4190,3 +4190,2105 @@
     -   id: MESH:D015266
         label: Disease
         name: Merkel cell carcinoma
+-   directed: true
+    graph:
+        disease: Uveitis
+        disease_mesh: MESH:D014605
+        drug: medrysone
+        drug_mesh: MESH:C100283
+        drugbank: DB00253
+    links:
+    -   key: increases activity of
+        source: MESH:C100283
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: contributes to
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: Causes
+        source: GO:0006954
+        target: MESH:D014605
+    multigraph: true
+    nodes:
+    -   id: MESH:C100283
+        label: Drug
+        name: medrysone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D014605
+        label: disease
+        name: Uveitis
+    reference: https://go.drugbank.com/drugs/DB00253 https://pubmed.ncbi.nlm.nih.gov/19104500/
+-   directed: true
+    graph:
+        disease: Corneal ulcer
+        disease_mesh: MESH:D003320
+        drug: medrysone
+        drug_mesh: MESH:C100283
+        drugbank: DB00253
+    comment: Contraindicated
+    reference: https://apps.who.int/iris/bitstream/handle/10665/205174/B3516.pdf;jsessionid=7C257D725E19F6E2772D2896910031BF?sequence=1
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: medrysone
+        drug_mesh: MESH:C100283
+        drugbank: DB00253
+    links:
+    -   key: increases activity of
+        source: MESH:C100283
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: contributes to
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: Causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C100283
+        label: Drug
+        name: medrysone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name:  Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003233
+        label: disease
+        name: Allergic conjunctivitis
+    reference: https://pubmed.ncbi.nlm.nih.gov/26280139/  https://pubmed.ncbi.nlm.nih.gov/19104500/
+-   directed: true
+    graph:
+        disease: Rosacea
+        disease_mesh: MESH:D012393
+        drug: medrysone
+        drug_mesh: MESH:C100283
+        drugbank: DB00253
+    comment: Contraindicated; steroids can cause Rosacea
+    reference: https://pubmed.ncbi.nlm.nih.gov/26280139/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3088930/
+-   directed: true
+    graph:
+        disease: Iritis
+        disease_mesh: MESH:D007500
+        drug: medrysone
+        drug_mesh: MESH:C100283
+        drugbank: DB00253
+    links:
+    -   key: increases activity of
+        source: MESH:C100283
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: contributes to
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: Causes
+        source: GO:0006954
+        target: MESH:D007500
+    multigraph: true
+    nodes:
+    -   id: MESH:C100283
+        label: Drug
+        name: medrysone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D007500
+        label: disease
+        name: Iritis
+    reference: https://go.drugbank.com/drugs/DB00253 https://pubmed.ncbi.nlm.nih.gov/19104500/
+-   directed: true
+    graph:
+        disease: Iridocyclitis
+        disease_mesh: MESH:D015863
+        drug: medrysone
+        drug_mesh: MESH:C100283
+        drugbank: DB00253
+    links:
+    -   key: increases activity of
+        source: MESH:C100283
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: contributes to
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: Causes
+        source: GO:0006954
+        target: MESH:D015863
+    multigraph: true
+    nodes:
+    -   id: MESH:C100283
+        label: Drug
+        name: medrysone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D015863
+        label: disease
+        name: Iridocyclitis
+    reference: https://go.drugbank.com/drugs/DB00253 https://pubmed.ncbi.nlm.nih.gov/19104500/
+-   directed: true
+    graph:
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+        drug: alendronic acid
+        drug_mesh: MESH:D019386
+        drugbank: DB00630
+    links:
+    -   key: Causes
+        source: MESH:D019386
+        target: GO:0006915
+    -   key: located in
+        source: GO:0006915
+        target: CL:0000092
+    -   key: participates in
+        source: CL:0000092
+        target: GO:0045453
+    -   key: Causes
+        source: GO:0045453
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:D019386
+        label: drug
+        name: alendronic acid
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: apoptotic process
+    -   id: CL:0000092
+        label: Cell
+        name: Osteoclast
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone Resorption
+    -   id: MESH:D015663
+        label: disease
+        name: Postmenopausal osteoporosis
+    reference: https://go.drugbank.com/drugs/DB00630
+-   directed: true
+    graph:
+        disease: Osteitis deformans
+        disease_mesh: MESH:D010001
+        drug: alendronic acid
+        drug_mesh: MESH:D019386
+        drugbank: DB00630
+    links:
+    -   key: Causes
+        source: MESH:D019386
+        target: GO:0006915
+    -   key: located in
+        source: GO:0006915
+        target: CL:0000092
+    -   key: participates in
+        source: CL:0000092
+        target: GO:0045453
+    -   key: Causes
+        source: GO:0045453
+        target: MESH:D010001
+    multigraph: true
+    nodes:
+    -   id: MESH:D019386
+        label: drug
+        name: alendronic acid
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: apoptotic process
+    -   id: CL:0000092
+        label: Cell
+        name: Osteoclast
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone Resorption
+    -   id: MESH:D010001
+        label: disease
+        name: Osteitis deformans
+    reference: https://go.drugbank.com/drugs/DB00630
+-   directed: true
+    graph:
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: diflunisal
+        drug_mesh: MESH:D004061
+        drugbank: DB00861
+    links:
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: CAUSES
+        source: GO:0006954
+        target: MESH:D010146
+    -   key: occurs in
+        source: MESH:D010146
+        target: MESH:D010003        
+    multigraph: true
+    nodes:
+    -   id: MESH:D004061
+        label: Drug
+        name: diflunisal
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: biological process
+        name: inflammatory response 
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain         
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference: https://go.drugbank.com/drugs/DB00861 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349405/
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: diflunisal
+        drug_mesh: MESH:D004061
+        drugbank: DB00861
+    links:
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: CAUSES
+        source: GO:0006954
+        target: MESH:D010146
+    -   key: occurs in
+        source: MESH:D010146
+        target: MMESH:D001172       
+    multigraph: true
+    nodes:
+    -   id: MESH:D004061
+        label: Drug
+        name: diflunisal
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: biological process
+        name: inflammatory response 
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain         
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB00861 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3891482/
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: diflunisal
+        drug_mesh: MESH:D004061
+        drugbank: DB00861
+    links:
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: CAUSES
+        source: GO:0006954
+        target: MESH:D010146    
+    multigraph: true
+    nodes:
+    -   id: MESH:D004061
+        label: Drug
+        name: diflunisal
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: biological process
+        name: inflammatory response 
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain         
+    reference: https://go.drugbank.com/drugs/DB00861
+-   directed: true
+    graph:
+        disease: Chronic pain
+        disease_mesh: MESH:D059350
+        drug: diflunisal
+        drug_mesh: MESH:D004061
+        drugbank: DB00861
+    links:
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D004061
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: CAUSES
+        source: GO:0006954
+        target: MESH:D059350   
+    multigraph: true
+    nodes:
+    -   id: MESH:D004061
+        label: Drug
+        name: diflunisal
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: biological process
+        name: inflammatory response 
+    -   id: MESH:D059350
+        label: Disease
+        name: Chronic pain        
+    reference: https://go.drugbank.com/drugs/DB00861
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: polythiazide
+        drug_mesh: MESH:D011139
+        drugbank: DB01324
+    links:
+    -   key: negatively regulates
+        source: MESH:D011139
+        target: UniProt:P55017
+    -   key: participates in
+        source: UniProt:P55017
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: affects risk for
+        source: GO:0003092
+        target: MESH:D006973   
+    multigraph: true
+    nodes:
+    -   id: MESH:D011139
+        label: Drug
+        name: polythiazide
+    -   id: UniProt:P55017
+        label: Protein
+        name: Solute carrier family 12 member 3
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: renal water retention
+    -   id: MESH:D006973
+        label: disease
+        name:  Hypertensive disorder    
+    reference: https://go.drugbank.com/drugs/DB01324#BE0000419 https://pubmed.ncbi.nlm.nih.gov/12668589/
+-   directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    comment: potentially non-efficacious https://pubmed.ncbi.nlm.nih.gov/26615034/
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:P50148 
+    -   key: positively regulates
+        source: UniProt:P50148 
+        target: UniProt:P19838      
+    -   key: positively regulates
+        source: UniProt:P19838  
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:10239
+    -   key: causes
+        source: NCBITaxon:10239
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:P50148 
+        label: protein
+        name: Guanine nucleotide-binding protein G(q) subunit alpha
+    -   id: UniProt:P19838 
+        label: protein
+        name: Nuclear factor NF-kappa-B p105 subunit 
+    -   id: GO:0006954
+        label: biological_process 
+        name: inflammatory response
+    -   id: NCBITaxon:10239
+        label: OrganismTaxon
+        name: Viruses
+    -   id: MESH:D003139
+        label: disease
+        name: Common cold
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442 https://en.wikipedia.org/wiki/Common_cold#cite_note-13
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:P50148 
+    -   key: positively regulates
+        source: UniProt:P50148 
+        target: UniProt:P19838      
+    -   key: positively regulates
+        source: UniProt:P19838  
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0000969
+    -   key: loccurs in
+        source: HP:0000969
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:P50148 
+        label: protein
+        name: Guanine nucleotide-binding protein G(q) subunit alpha
+    -   id: UniProt:P19838 
+        label: protein
+        name: Nuclear factor NF-kappa-B p105 subunit 
+    -   id: GO:0006954
+        label: biological_process 
+        name: inflammatory response
+    -   id: HP:0000969
+        label: PhenotypicFeature
+        name: Edema
+    -   id: MESH:D003233
+        label: Disease
+        name:  Allergic conjunctivitis  
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442 https://pubmed.ncbi.nlm.nih.gov/19476049/ 
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:P50148 
+    -   key: positively regulates
+        source: UniProt:P50148 
+        target: UniProt:P19838          
+    -   key: positively regulates
+        source: UniProt:P19838 
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0000004
+    -   key: affected_by
+        source: UBERON:0000004
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:P50148 
+        label: protein
+        name: Guanine nucleotide-binding protein G(q) subunit alpha
+    -   id: UniProt:P19838 
+        label: protein
+        name: Nuclear factor NF-kappa-B p105 subunit 
+    -   id: GO:0006954
+        label: biological_process 
+        name: inflammatory response
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   id: MESH:D006255
+        label: disease
+        name:  Seasonal allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442 https://pubmed.ncbi.nlm.nih.gov/14561186/
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: molecularly interacts with
+        source: MESH:D006632
+        target: CL:0000540     
+    -   key: located in
+        source: CL:0000540
+        target: UBERON:0000004
+    -   key: affected_by
+        source: UBERON:0000004
+        target: UBERON:0001645
+    -   key: contributes to
+        source: UBERON:0001645
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: CL:0000540
+        label: Cell
+        name: neuron
+        alt_ids: MESH:D009474
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   id: UBERON:0001645
+        label: GrossAnatomicalStructure
+        name: trigeminal nerve
+        alt_ids: MESH:D014276
+    -   id: MESH:D012912
+        label: Disease
+        name:  Sneezing
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442 https://en.wikipedia.org/wiki/Sneeze 
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:P50148 
+    -   key: positively regulates
+        source: UniProt:P50148 
+        target: UniProt:P19838      
+    -   key: positively regulates
+        source: UniProt:P19838  
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0000004
+    -   key: affected_by
+        source: UBERON:0000004
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:P50148 
+        label: protein
+        name: Guanine nucleotide-binding protein G(q) subunit alpha
+    -   id: UniProt:P19838 
+        label: protein
+        name: Nuclear factor NF-kappa-B p105 subunit 
+    -   id: GO:0006954
+        label: biological_process 
+        name: inflammatory response
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   id: MESH:D065631
+        label: disease
+        name:  Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442 https://pubmed.ncbi.nlm.nih.gov/14561186/
+-   directed: true
+    graph:
+        disease: Dysmenorrhea
+        disease_mesh: MESH:D004412
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: expressed in
+        source: UniProt:P35367
+        target: CL:0000198
+    -   key: contributes to
+        source: CL:0000198
+        target: GO:0019233       
+    -   key: occurs in
+        source: GO:0019233
+        target: MESH:D004412
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: CL:0000198
+        label: Cell
+        name: Nociceptors
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D004412
+        label: disease
+        name:  Dysmenorrhea
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442 https://pubmed.ncbi.nlm.nih.gov/31046146/
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: increases abundance of
+        source: MESH:D006632
+        target: MESH:D013373       
+    -   key: participates in
+        source: MESH:D013373
+        target: MESH:D020078
+    -   key: contributes to
+        source: MESH:D020078
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: MESH:D013373 
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: MESH:D020078
+        label: Disease
+        name: Neurogenic Inflammation
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis       
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3764847/
+-   directed: true
+    graph:
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0043117
+    -   key: positively correlated with
+        source: GO:0043117
+        target: HP:0000969
+    -   key: occurs in
+        source: HP:0000969
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: positive regulation of vascular permeability
+    -   id: HP:0000969
+        label: PhenotypicFeature
+        name: Edema
+    -   id: MESH:D014581
+        label: disease
+        name:  Urticaria
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442  https://pubmed.ncbi.nlm.nih.gov/25539676/
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: mepyramine
+        drug_mesh: MESH:D011738
+        drugbank: DB06691
+    links:
+    -   key: negatively regulates
+        source: MESH:D011738
+        target: UniProt:P35367
+    -   key: molecularly interacts with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: CL:0000197
+    -   key: contributes to
+        source: CL:0000197
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:D011738
+        label: drug
+        name: mepyramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: CL:0000197
+        label: Cell
+        name: Sensory Receptor Cell
+    -   id: MESH:D011537
+        label: disease
+        name:  Itching of skin
+    reference: https://go.drugbank.com/drugs/DB06691#BE0000442  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2519061/
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: azilsartan medoxomil
+        drug_mesh: MESH:C521273,MESH:C557413
+        drugbank: DB08822
+    links:
+    -   key: negatively regulates
+        source: MESH:C521273,MESH:C557413
+        target: UniProt:P30556
+    -   key: moleculary interacts with
+        source: UniProt:P30556
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: causes
+        source: MESH:D014661
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:C521273,MESH:C557413
+        label: drug
+        name: azilsartan medoxomil
+    -   id: UniProt:P30556
+        label: Protein
+        name: Type-1 angiotensin II receptor
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: MESH:D014661
+        label: disease
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: disease
+        name:  Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB08822#BE0000062
+-   directed: true
+    graph:
+        disease: Multiple sclerosis
+        disease_mesh: MESH:D009103
+        drug: teriflunomide
+        drug_mesh: MESH:C527525
+        drugbank: DB08880
+    links:
+    -   key: negatively regulates
+        source: MESH:C527525
+        target: UniProt:Q02127
+    -   key: participates in
+        source: UniProt:Q02127
+        target: GO:0006221
+    -   key: participates in
+        source: GO:0006221
+        target: GO:0050671
+    -   key: located in
+        source: GO:0050671
+        target: UBERON:0001017
+    -   key: affected by
+        source: UBERON:0001017
+        target: GO:0006954
+    -   key: contributes to 
+        source: GO:0006954
+        target: GO:0048681
+    -   key: contributes to 
+        source: GO:0048681
+        target: MESH:D009103
+    multigraph: true
+    nodes:
+    -   id: MESH:C527525
+        label: drug
+        name: teriflunomide
+    -   id: UniProt:Q02127
+        label: Protein
+        name: Dihydroorotate dehydrogenase (quinone), mitochondrial
+    -   id: GO:0006221
+        label: BiologicalProcess
+        name: pyrimidine nucleotide biosynthetic process 
+    -   id: GO:0050671
+        label: BiologicalProcess
+        name: positive regulation of lymphocyte proliferation
+    -   id: UBERON:0001017
+        label: GrossAnatomicalStructure
+        name: central nervous system
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: GO:0048681
+        label: BiologicalProcess
+        name: negative regulation of axon regeneration
+    -   id: MESH:D009103
+        label: disease
+        name:  Multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB08880#BE0000382 https://pubmed.ncbi.nlm.nih.gov/24740824/
+-   directed: true
+    graph:
+        disease: Hereditary factor XIII A subunit deficiency
+        disease_mesh: MESH:C567691
+        drug: catridecacog
+        drug_mesh: 
+        drugbank: DB09310
+    links:
+    -   key: molecularly interacts with
+        source: DB09310
+        target: UniProt:P05160
+    -   key: molecularly interacts with
+        source: UniProt:P05160
+        target: MESH:D002118
+    -   key: positively regulates
+        source: MESH:D002118
+        target: UniProt:P00488
+    -   key: disrupted by
+        source: UniProt:P00488
+        target: MESH:C567691
+    multigraph: true
+    nodes:
+    -   id: DB09310
+        label: drug
+        name: catridecacog
+    -   id: UniProt:P05160
+        label: Protein
+        name: Coagulation factor XIII B chain
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: UniProt:P00488
+        label: Protein
+        name: Coagulation factor XIII A chain
+    -   id: MESH:C567691
+        label: Disease
+        name: Hereditary factor XIII A subunit deficiency
+    reference: https://go.drugbank.com/drugs/DB09310
+-   directed: true
+    graph:
+        disease: Cobalamin deficiency
+        disease_mesh: MESH:D014806
+        drug: cyanocobalamin
+        drug_mesh: 
+        drugbank: DB00115
+    links:
+    -   key: moleculary interacts with
+        source: DB00115
+        target: UniProt:Q99707
+    -   key: moleculary interacts with
+        source: DB00115
+        target: UniProt:P22033
+    -   key: participates in
+        source: UniProt:Q99707
+        target: GO:0046105
+    -   key: moleculary interacts with
+        source: UniProt:P22033
+        target: CHEBI:16625
+    -   key: participates in
+        source: GO:0046105
+        target: GO:0090592
+    -   key: positively correlated with
+        source: CHEBI:16625
+        target: HP:0002912
+    -   key: part of
+        source: GO:0090592
+        target: GO:0051301
+    -   key: causes
+        source: HP:0002912
+        target: HP:0000707
+    -   key: negatively correlated with
+        source: GO:0051301
+        target: HP:0020060
+    -   key: occurs in
+        source: HP:0000707
+        target: MESH:D014806
+    -   key: occurs in
+        source: HP:0020060
+        target: HP:0001889
+    -   key: occurs in
+        source: HP:0001889
+        target: MESH:D014806
+    multigraph: true
+    nodes:
+    -   id: DB00115
+        label: drug
+        name: cyanocobalamin
+    -   id: UniProt:Q99707
+        label: Protein
+        name: methionine synthase
+    -   id: UniProt:P22033
+        label: Protein
+        name: Methylmalonyl-CoA mutase, mitochondrial
+    -   id: GO:0046105
+        label: BiologicalProcess
+        name: thymidine biosynthetic process
+    -   id: CHEBI:16625
+        label: ChemicalSubstance
+        name: methylmalonyl-CoA
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: HP:0002912
+        label: PhenotypicFeature
+        name: Methylmalonic acidemia
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: HP:0000707
+        label: PhenotypicFeature
+        name: Abnormality of the nervous system
+    -   id: HP:0020060
+        label: PhenotypicFeature
+        name: Decreased red blood cell count
+    -   id: MESH:D014806
+        label: disease
+        name: Cobalamin deficiency
+    -   id: HP:0001889
+        label: PhenotypicFeature
+        name: Megaloblastic anemia
+    reference: https://go.drugbank.com/drugs/DB00115#BE0000777 https://pubmed.ncbi.nlm.nih.gov/28660890/ https://en.wikipedia.org/wiki/Methylmalonic_acidemia#Neurologic_effects 
+-   directed: true
+    graph:
+        disease: Vitamin deficiency
+        disease_mesh: MESH:D001361
+        drug: cyanocobalamin
+        drug_mesh: 
+        drugbank: DB00115
+    links:
+    -   key: moleculary interacts with
+        source: DB00115
+        target: UniProt:Q99707
+    -   key: moleculary interacts with
+        source: DB00115
+        target: UniProt:P22033
+    -   key: participates in
+        source: UniProt:Q99707
+        target: GO:0046105
+    -   key: moleculary interacts with
+        source: UniProt:P22033
+        target: CHEBI:16625
+    -   key: participates in
+        source: GO:0046105
+        target: GO:0090592
+    -   key: positively correlated with
+        source: CHEBI:16625
+        target: HP:0002912
+    -   key: part of
+        source: GO:0090592
+        target: GO:0051301
+    -   key: causes
+        source: HP:0002912
+        target: HP:0000707
+    -   key: negatively correlated with
+        source: GO:0051301
+        target: HP:0020060
+    -   key: occurs in
+        source: HP:0000707
+        target: MESH:D001361
+    -   key: occurs in
+        source: HP:0020060
+        target: HP:0001889
+    -   key: occurs in
+        source: HP:0001889
+        target: MESH:D001361
+    multigraph: true
+    nodes:
+    -   id: DB00115
+        label: drug
+        name: cyanocobalamin
+    -   id: UniProt:Q99707
+        label: Protein
+        name: methionine synthase
+    -   id: UniProt:P22033
+        label: Protein
+        name: Methylmalonyl-CoA mutase, mitochondrial
+    -   id: GO:0046105
+        label: BiologicalProcess
+        name: thymidine biosynthetic process
+    -   id: CHEBI:16625
+        label: ChemicalSubstance
+        name: methylmalonyl-CoA
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: HP:0002912
+        label: PhenotypicFeature
+        name: Methylmalonic acidemia
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: HP:0000707
+        label: PhenotypicFeature
+        name: Abnormality of the nervous system
+    -   id: HP:0020060
+        label: PhenotypicFeature
+        name: Decreased red blood cell count
+    -   id: MESH:D001361
+        label: disease
+        name: Vitamin deficiency
+    -   id: HP:0001889
+        label: PhenotypicFeature
+        name: Megaloblastic anemia
+    reference: https://go.drugbank.com/drugs/DB00115#BE0000777 https://pubmed.ncbi.nlm.nih.gov/28660890/ https://en.wikipedia.org/wiki/Methylmalonic_acidemia#Neurologic_effects 
+-   directed: true
+    graph:
+        disease: Pernicious anemia
+        disease_mesh: MESH:D000752
+        drug: cyanocobalamin
+        drug_mesh: 
+        drugbank: DB00115
+    links:
+    -   key: moleculary interacts with
+        source: DB00115
+        target: UniProt:Q99707
+    -   key: participates in
+        source: UniProt:Q99707
+        target: GO:0046105
+    -   key: participates in
+        source: GO:0046105
+        target: GO:0090592
+    -   key: part of
+        source:  GO:0090592
+        target: GO:0051301
+    -   key: negatively correlated with
+        source: GO:0051301
+        target: HP:0020060
+    -   key: occurs in
+        source: HP:0020060
+        target: MESH:D000752
+    multigraph: true
+    nodes:
+    -   id: DB00115
+        label: drug
+        name: cyanocobalamin
+    -   id: UniProt:Q99707
+        label: Protein
+        name: methionine synthase 
+    -   id: GO:0046105
+        label: BiologicalProcess
+        name: thymidine biosynthetic process
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: HP:0020060
+        label: BiologicalProcess
+        name: Decreased red blood cell count
+    -   id: MESH:D000752
+        label: disease
+        name: Pernicious anemia
+    reference: https://go.drugbank.com/drugs/DB00115#BE0000777 https://pubmed.ncbi.nlm.nih.gov/28660890/
+-   directed: true
+    graph:
+        disease: Iron deficiency anemia
+        disease_mesh: MESH:D018798
+        drug: cyanocobalamin
+        drug_mesh: 
+        drugbank: DB00115
+    links:
+    -   key: negatively correlated with
+        source: DB00115
+        target: MESH:D014806
+    -   key: correlated with
+        source: MESH:D014806
+        target: MESH:D008286
+    -   key: negatively correlated with
+        source: MESH:D008286
+        target: GO:005507
+    -   key: negatively correlated with
+        source:  GO:005507
+        target: MESH:D018798
+    multigraph: true
+    nodes:
+    -   id: DB00115
+        label: drug
+        name: cyanocobalamin
+    -   id: MESH:D014806
+        label: disease
+        name: Vitamin B 12 Deficiency
+    -   id: MESH:D008286
+        label: disease
+        name: Malabsorption Syndromes 
+    -   id: GO:005507
+        label: BiologicalProcess
+        name: iron ion homeostasis
+    -   id: MESH:D018798
+        label: disease
+        name: Iron deficiency anemia
+    reference: https://go.drugbank.com/drugs/DB00115#BE0000777 https://en.wikipedia.org/wiki/Iron-deficiency_anemia
+-   directed: true
+    graph:
+        disease: Spasticity
+        disease_mesh: MESH:D009128
+        drug: chlorphenesin carbamate
+        drug_mesh: MESH:D002743,MESH:C015071
+        drugbank: DB00856
+    comment: Withdrawn for treatment of spasticity in most developed countries https://en.wikipedia.org/wiki/Chlorphenesin_carbamate 
+    links:
+    -   key: causes
+        source: MESH:D002743,MESH:C015071
+        target: GO:0090075
+    -   key: negatively correlated with
+        source: GO:0090075
+        target: MESH:D009128
+    multigraph: true
+    nodes:
+    -   id: MESH:D002743,MESH:C015071
+        label: drug
+        name: chlorphenesin carbamate
+    -   id: GO:0090075
+        label: BiologicalProcess
+        name: relaxation of muscle
+    -   id: MESH:D009128
+        label: disease
+        name: Spasticity
+    reference: https://go.drugbank.com/drugs/DB14656 https://www.ebi.ac.uk/chebi/chebiOntology.do?chebiId=CHEBI:3643
+-   directed: true
+    graph:
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: formoterol
+        drug_mesh: MESH:D000068759
+        drugbank: DB00983
+    links:
+    -   key: moleculary interacts with
+        source: MESH:D000068759
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: GO:0008294
+    -   key: positively regulates
+        source: GO:0008294
+        target: GO:0006171
+    -   key: positively correlated with
+        source: GO:0006171
+        target: GO:0044557
+    -   key: located in
+        source: GO:0044557
+        target: UBERON:0002185
+    -   key: affected by
+        source: UBERON:0002185
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068759
+        label: Drug
+        name: formoterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0008294
+        label: BiologicalProcess
+        name: calcium- and calmodulin-responsive adenylate cyclase activity
+    -   id: GO:0006171
+        label: BiologicalProcess
+        name:  cAMP biosynthetic process
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
+    -   id: MESH:D011656
+        label: disease
+        name: Pulmonary emphysema
+    reference: https://go.drugbank.com/drugs/DB00983#BE0000694 https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease#Bronchodilators
+-   directed: true
+    graph:
+        disease: Acromegaly
+        disease_mesh: MESH:D000172
+        drug: bromocriptine
+        drug_mesh: MESH:D001971
+        drugbank: DB01200
+    links:
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P14416
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P35462
+    -   key: moleculary interacts with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: moleculary interacts with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D004298
+        target: GO:1902722
+    -   key: positively correlated with
+        source: GO:1902722
+        target: MESH:D010911
+    -   key: causes
+        source: MESH:D010911
+        target: MESH:D000172
+    multigraph: true
+    nodes:
+    -   id: MESH:D001971
+        label: drug
+        name: bromocriptine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor 
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: GO:1902722
+        label: BiologicalProcess
+        name: positive regulation of prolactin secretion 
+    -   id: MESH:D010911
+        label: disease
+        name: Pituitary Neoplasms
+    -   id: MESH:D000172
+        label: disease
+        name: Acromegaly
+    reference: https://go.drugbank.com/drugs/DB01200#BE0000581 https://en.wikipedia.org/wiki/Acromegaly#Causes
+-   directed: true
+    graph:
+        disease: Postencephalitic parkinsonism
+        disease_mesh: MESH:D010301
+        drug: bromocriptine
+        drug_mesh: MESH:D001971
+        drugbank: DB01200
+    links:
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P14416
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P35462
+    -   key: moleculary interacts with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: moleculary interacts with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: located in 
+        source: MESH:D004298
+        target: UBERON:0035999
+    -   key: located in 
+        source: UBERON:0035999
+        target: UBERON:0002038
+    -   key: participates in
+        source: UBERON:0002038
+        target: UBERON:0014169
+    -   key: affected by
+        source: UBERON:0014169
+        target: MESH:D010301
+    multigraph: true
+    nodes:
+    -   id: MESH:D001971
+        label: drug
+        name: bromocriptine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor 
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: UBERON:0035999
+        label: GrossAnatomicalStructure
+        name: dopaminergic cell groups
+    -   id: UBERON:0002038
+        label: GrossAnatomicalStructure
+        name: substantia nigra
+    -   id: UBERON:0014169
+        label: GrossAnatomicalStructure
+        name: nigrostriatal tract
+    -   id: MESH:D010301
+        label: disease
+        name: Postencephalitic parkinsonism
+    reference: https://go.drugbank.com/drugs/DB01200#BE000058 https://en.wikipedia.org/wiki/Postencephalitic_parkinsonism#:~:text=the%20free%20encyclopedia-,Postencephalitic%20parkinsonism,degeneration%20leads%20to%20clinical%20parkinsonism
+-   directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: bromocriptine
+        drug_mesh: MESH:D001971
+        drugbank: DB01200
+    links:
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P14416
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P35462
+    -   key: moleculary interacts with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: moleculary interacts with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: located in 
+        source: MESH:D004298
+        target: UBERON:0035999
+    -   key: located in 
+        source: UBERON:0035999
+        target: UBERON:0002038
+    -   key: participates in
+        source: UBERON:0002038
+        target: UBERON:0014169
+    -   key: affected by
+        source: UBERON:0014169
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:D001971
+        label: drug
+        name: bromocriptine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor 
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: UBERON:0035999
+        label: GrossAnatomicalStructure
+        name: dopaminergic cell groups
+    -   id: UBERON:0002038
+        label: GrossAnatomicalStructure
+        name: substantia nigra
+    -   id: UBERON:0014169
+        label: GrossAnatomicalStructure
+        name: nigrostriatal tract
+    -   id: MESH:D010300
+        label: disease
+        name: Parkinson's disease
+    reference: https://go.drugbank.com/drugs/DB01200#BE000058 https://en.wikipedia.org/wiki/Parkinson%27s_disease
+-   directed: true
+    graph:
+        disease: Hyperprolactinemia
+        disease_mesh: MESH:D006966
+        drug: bromocriptine
+        drug_mesh: MESH:D001971
+        drugbank: DB01200
+    links:
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P14416
+    -   key: moleculary interacts with
+        source: MESH:D001971
+        target: UniProt:P35462
+    -   key: moleculary interacts with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: moleculary interacts with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D004298
+        target: GO:1902722
+    -   key: positivley correlated with 
+        source: GO:1902722
+        target: MESH:D006966
+    multigraph: true
+    nodes:
+    -   id: MESH:D001971
+        label: drug
+        name: bromocriptine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor 
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: GO:1902722
+        label: BiologicalProcess
+        name: positive regulation of prolactin secretion
+    -   id: MESH:D006966
+        label: disease
+        name: Hyperprolactinemia
+    reference: https://go.drugbank.com/drugs/DB01200#BE0000581
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB01211
+    links:
+    -   key: moleculary interacts with
+        source: MESH:C040934,MESH:D017291
+        target: MESH:D012338
+    -   key: moleculary interacts with
+        source: MESH:D012338
+        target: UniProt:P0A7J6
+    -   key: participates in
+        source: UniProt:P0A7J6
+        target: GO:0045727
+    -   key: part of
+        source: GO:0045727
+        target: GO:0051301
+    -   key: occurs in 
+        source: GO:0051301
+        target: NCBITaxon:1280
+    -   key: occurs in 
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C040934,MESH:D017291
+        label: drug
+        name: clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:P0A7J6
+        label: Protein
+        name: 50S ribosomal protein L10
+    -   id: GO:0045727
+        label: BiologicalProcess
+        name: positive regulation of translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/polypeptides/P0A7J6 https://en.wikipedia.org/wiki/Clarithromycin#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB01211
+    links:
+    -   key: moleculary interacts with
+        source: MESH:C040934,MESH:D017291
+        target: MESH:D012338
+    -   key: moleculary interacts with
+        source: MESH:D012338
+        target: UniProt:P0A7J6
+    -   key: participates in
+        source: UniProt:P0A7J6
+        target: GO:0045727
+    -   key: part of
+        source: GO:0045727
+        target: GO:0051301
+    -   key: occurs in 
+        source: GO:0051301
+        target: NCBITaxon:1314 
+    -   key: occurs in 
+        source: NCBITaxon:1314 
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:C040934,MESH:D017291
+        label: drug
+        name: clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:P0A7J6
+        label: Protein
+        name: 50S ribosomal protein L10
+    -   id: GO:0045727
+        label: BiologicalProcess
+        name: positive regulation of translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1314 
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/polypeptides/P0A7J6 https://en.wikipedia.org/wiki/Streptococcus_pyogenes
+-   directed: true
+    graph:
+        disease: Chlamydial pneumonia
+        disease_mesh: MESH:D061387
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB01211
+    links:
+    -   key: moleculary interacts with
+        source: MESH:C040934,MESH:D017291
+        target: MESH:D012338
+    -   key: moleculary interacts with
+        source: MESH:D012338
+        target: UniProt:P0A7J6
+    -   key: participates in
+        source: UniProt:P0A7J6
+        target: GO:0045727
+    -   key: part of
+        source: GO:0045727
+        target: GO:0051301
+    -   key: occurs in 
+        source: GO:0051301
+        target: NCBITaxon:83558
+    -   key: occurs in 
+        source: NCBITaxon:83558
+        target: MESH:D061387
+    multigraph: true
+    nodes:
+    -   id: MESH:C040934,MESH:D017291
+        label: drug
+        name: clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:P0A7J6
+        label: Protein
+        name: 50S ribosomal protein L10
+    -   id: GO:0045727
+        label: BiologicalProcess
+        name: positive regulation of translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:83558
+        label: OrganismTaxon
+        name: Chlamydia pneumoniae
+    -   id: MESH:D061387
+        label: disease
+        name: Chlamydial pneumonia
+    reference: https://go.drugbank.com/polypeptides/P0A7J6 https://www.ncbi.nlm.nih.gov/books/NBK560874/
+-   directed: true
+    graph:
+        disease: Pneumonia due to Mycoplasma pneumoniae
+        disease_mesh: MESH:D011019
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB01211
+    links:
+    -   key: moleculary interacts with
+        source: MESH:C040934,MESH:D017291
+        target: MESH:D012338
+    -   key: moleculary interacts with
+        source: MESH:D012338
+        target: UniProt:P0A7J6
+    -   key: participates in
+        source: UniProt:P0A7J6
+        target: GO:0045727
+    -   key: part of
+        source: GO:0045727
+        target: GO:0051301
+    -   key: occurs in 
+        source: GO:0051301
+        target: NCBITaxon:2104 
+    -   key: occurs in 
+        source: NCBITaxon:2104 
+        target: MESH:D011019
+    multigraph: true
+    nodes:
+    -   id: MESH:C040934,MESH:D017291
+        label: drug
+        name: clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:P0A7J6
+        label: Protein
+        name: 50S ribosomal protein L10
+    -   id: GO:0045727
+        label: BiologicalProcess
+        name: positive regulation of translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:2104 
+        label: OrganismTaxon
+        name: Mycoplasma pneumoniae
+    -   id: MESH:D011019
+        label: disease
+        name: Pneumonia due to Mycoplasma pneumoniae
+    reference: https://go.drugbank.com/polypeptides/P0A7J6 https://en.wikipedia.org/wiki/Mycoplasma_pneumoniae
+-   directed: true
+    graph:
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB01211
+    links:
+    -   key: moleculary interacts with
+        source: MESH:C040934,MESH:D017291
+        target: MESH:D012338
+    -   key: moleculary interacts with
+        source: MESH:D012338
+        target: UniProt:P0A7J6
+    -   key: participates in
+        source: UniProt:P0A7J6
+        target: GO:0045727
+    -   key: part of
+        source: GO:0045727
+        target: GO:0051301
+    -   key: occurs in 
+        source: GO:0051301
+        target: NCBITaxon:1313
+    -   key: occurs in 
+        source: NCBITaxon:1313
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:C040934,MESH:D017291
+        label: drug
+        name: clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:P0A7J6
+        label: Protein
+        name: 50S ribosomal protein L10
+    -   id: GO:0045727
+        label: BiologicalProcess
+        name: positive regulation of translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D018410
+        label: disease
+        name: Bacterial pneumonia
+    reference: https://go.drugbank.com/polypeptides/P0A7J6 https://en.wikipedia.org/wiki/Bacterial_pneumonia
+-   directed: true
+    graph:
+        disease: Pneumococcal pneumonia
+        disease_mesh: MESH:D011018
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB01211
+    links:
+    -   key: moleculary interacts with
+        source: MESH:C040934,MESH:D017291
+        target: MESH:D012338
+    -   key: moleculary interacts with
+        source: MESH:D012338
+        target: UniProt:P0A7J6
+    -   key: participates in
+        source: UniProt:P0A7J6
+        target: GO:0045727
+    -   key: part of
+        source: GO:0045727
+        target: GO:0051301
+    -   key: occurs in 
+        source: GO:0051301
+        target: NCBITaxon:1313
+    -   key: occurs in 
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C040934,MESH:D017291
+        label: drug
+        name: clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:P0A7J6
+        label: Protein
+        name: 50S ribosomal protein L10
+    -   id: GO:0045727
+        label: BiologicalProcess
+        name: positive regulation of translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae 
+    -   id: MESH:D011018
+        label: disease
+        name: Pneumococcal pneumonia
+    reference: https://go.drugbank.com/polypeptides/P0A7J6 https://en.wikipedia.org/wiki/Pneumococcal_pneumonia#:~:text=Pneumococcal%20pneumonia%20is%20a%20type,common%20types%20of%20pneumococcal%20infection.
+-   directed: true
+    graph:
+        disease: Anorexia nervosa
+        disease_mesh: MESH:D000856
+        drug: clortermine
+        drug_mesh: 
+        drugbank: DB01527
+    comment: clortermine is an anorectic drug, contraindicated for Anorexia nervosa
+    reference: https://pubmed.ncbi.nlm.nih.gov/4606535/ https://pubchem.ncbi.nlm.nih.gov/compound/Clortermine#section=Toxicity
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: methenamine
+        drug_mesh: MESH:C023055,MESH:D008709,MESH:C011481
+        drugbank: DB06799
+    links:
+    -   key: produces
+        source: MESH:C023055,MESH:D008709,MESH:C011481
+        target: MESH:D005557
+    -   key: causes
+        source: MESH:D005557
+        target: GO:0030164
+    -   key: occurs in
+        source: GO:0030164
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:C023055,MESH:D008709,MESH:C011481
+        label: drug
+        name: methenamine
+    -   id: MESH:D005557
+        label: ChemicalSubstance
+        name: Formaldehyde
+    -   id: GO:0030164
+        label: BiologicalProcess
+        name: protein denaturation
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D014552
+        label: disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB06799 https://en.wikipedia.org/wiki/Urinary_tract_infection
+-   directed: true
+    graph:
+        disease: Hyperphosphatemia
+        disease_mesh: MESH:D054559
+        drug: ferric citrate
+        drug_mesh: MESH:C025314
+        drugbank: DB09162
+    links:
+    -   key: increases abundance of
+        source: MESH:C025314
+        target: CHEBI:29034
+    -   key: moleculary interacts with
+        source: CHEBI:29034
+        target: CHEBI:18367
+    -   key: positively correlated with
+        source: CHEBI:18367
+        target: MESH:D054559
+    multigraph: true
+    nodes:
+    -   id: MESH:C025314
+        label: drug
+        name: ferric citrate
+    -   id: CHEBI:29034
+        label: ChemicalSubstance
+        name: iron(3+) 
+    -   id: CHEBI:18367
+        label: ChemicalSubstance
+        name: phosphate(3−) 
+    -   id: MESH:D054559
+        label: disease
+        name: Hyperphosphatemia
+    reference: https://go.drugbank.com/drugs/DB14520
+-   directed: true
+    graph:
+        disease: Peripheral T-cell lymphoma
+        disease_mesh: MESH:D016411
+        drug: mogamulizumab
+        drug_mesh: MESH:C549035
+        drugbank: DB12498
+    links:
+    -   key: moleculary interacts with
+        source: MESH:C549035
+        target: UniProt:P51679
+    -   key: positively regulates
+        source: UniProt:P51679
+        target: GO:0038152
+    -   key: positively regulates
+        source: GO:0038152
+        target: GO:0042098
+    -   key: positively correlated with
+        source: GO:0042098
+        target: MESH:D016411
+    multigraph: true
+    nodes:
+    -   id: MESH:C549035
+        label: drug
+        name: mogamulizumab
+    -   id: UniProt:P51679
+        label: protein
+        name: C-C chemokine receptor type 4
+    -   id: GO:0038152
+        label: BiologicalProcess
+        name: C-C chemokine receptor CCR4 signaling pathway
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: MESH:D016411
+        label: Disease
+        name: Peripheral T-cell lymphoma
+    reference: https://go.drugbank.com/drugs/DB12498#BE0009787
+
