@@ -6329,3 +6329,856 @@
         label: Disease
         name: Peripheral T-cell lymphoma
     reference: https://go.drugbank.com/drugs/DB12498#BE0009787
+- directed: true
+  graph:
+    disease: Chronic hepatitis C
+    disease_mesh: 'MESH:D019698'
+    drug: peginterferon alfa-2a
+    drug_mesh: 'MESH:C100416'
+    drugbank: DB00008
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:C100416'
+        target: 'UniProt:P48551'
+      - key: INVOLVED_IN
+        source: 'UniProt:P48551'
+        target: 'GO:0007259'
+      - key: INCREASES
+        source: 'GO:0007259'
+        target: 'GO:0010467'
+      - key: ENABLES
+        source: 'GO:0010467'
+        target: 'GO:0051607'
+      - key: PART OF
+        source: 'GO:0051607'
+        target: 'REACT:R-HSA-1169410'
+      - key: DISRUPTS
+        source: 'REACT:R-HSA-1169410'
+        target: 'GO:0016032'
+      - key: IN TAXON
+        source: 'GO:0016032'
+        target: 'NCBI:txid11103'
+      - key: CAUSES
+        source: 'NCBI:txid11103'
+        target: 'MESH:D019698'
+    multigraph: true
+    nodes:
+      - id: 'MESH:C100416'
+        label: Drug
+        name: peginterferon alfa-2a
+      - id: 'UniProt:P48551'
+        label: Protein
+        name: Interferon alpha/beta receptor 2
+      - id: 'GO:0007259'
+        label: BiologicalProcess
+        name: receptor signaling pathway via JAK-STAT
+      - id: 'GO:0010467'
+        label: BiologicalProcess
+        name: gene expression
+      - id: 'GO:0051607'
+        label: BiologicalProcess
+        name: defense response to virus
+      - id: 'REACT:R-HSA-1169410'
+        label: Pathway
+        name: Antiviral mechanism by IFN-stimulated genes
+      - id: 'GO:0016032'
+        label: BiologicalProcess
+        name: viral process
+      - id: 'NCBI:txid11103'
+        label: OrganismTaxon
+        name: Hepacivirus C
+      - id: 'MESH:D019698'
+        label: Disease
+        name: Chronic hepatitis C
+- directed: true
+  graph:
+    disease: Chronic hepatitis C
+    disease_mesh: 'MESH:D019698'
+    drug: peginterferon alfa-2a
+    drug_mesh: 'MESH:C100416'
+    drugbank: DB00008
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:C100416'
+        target: 'UniProt:P17181'
+      - key: INVOLVED_IN
+        source: 'UniProt:P17181'
+        target: 'GO:0007259'
+      - key: INCREASES
+        source: 'GO:0007259'
+        target: 'GO:0010467'
+      - key: ENABLES
+        source: 'GO:0010467'
+        target: 'GO:0051607'
+      - key: PART OF
+        source: 'GO:0051607'
+        target: 'REACT:R-HSA-1169410'
+      - key: DISRUPTS
+        source: 'REACT:R-HSA-1169410'
+        target: 'GO:0016032'
+      - key: IN TAXON
+        source: 'GO:0016032'
+        target: 'NCBI:txid11103'
+      - key: CAUSES
+        source: 'NCBI:txid11103'
+        target: 'MESH:D019698'
+    multigraph: true
+    nodes:
+      - id: 'MESH:C100416'
+        label: Drug
+        name: peginterferon alfa-2a
+      - id: 'UniProt:P17181'
+        label: Protein
+        name: Interferon alpha/beta receptor 1
+      - id: 'GO:0007259'
+        label: BiologicalProcess
+        name: receptor signaling pathway via JAK-STAT
+      - id: 'GO:0010467'
+        label: BiologicalProcess
+        name: gene expression
+      - id: 'GO:0051607'
+        label: BiologicalProcess
+        name: defense response to virus
+      - id: 'REACT:R-HSA-1169410'
+        label: Pathway
+        name: Antiviral mechanism by IFN-stimulated genes
+      - id: 'GO:0016032'
+        label: Biological process
+        name: viral process
+      - id: 'NCBI:txid11103'
+        label: OrganismTaxon
+        name: Hepacivirus C
+      - id: 'MESH:D019698'
+        label: Disease
+        name: Chronic hepatitis C
+- directed: true
+  graph:
+    disease: Migraine
+    disease_mesh: 'MESH:D008881'
+    drug: eletriptan
+    drug_mesh: 'MESH:C115647'
+    drugbank: DB00216
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:C115647'
+        target: 'UniProt:P28221'
+      - key: POSITIVELY REGULATES
+        source: 'UniProt:P28221'
+        target: 'GO:0004993'
+      - key: ENABLES
+        source: 'GO:0004993'
+        target: 'GO:0042310'
+      - key: AMELIORATES
+        source: 'GO:0042310'
+        target: 'MESH:D008881'
+    multigraph: true
+    nodes:
+      - id: 'MESH:C115647'
+        label: Drug
+        name: eletriptan
+      - id: 'UniProt:P28221'
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1D
+      - id: 'GO:0004993'
+        label: MolecularFunction
+        name: G protein-coupled serotonin receptor activity'
+      - id: 'GO:0042310'
+        label: BiologicalProcess
+        name: vasoconstriction
+      - id: 'MESH:D008881'
+        label: Disease
+        name: Migraine
+- directed: true
+  graph:
+    disease: Migraine
+    disease_mesh: 'MESH:D008881'
+    drug: eletriptan
+    drug_mesh: 'MESH:C115647'
+    drugbank: DB00216
+  links:
+    - key: POSITIVELY REGULATES
+      source: 'MESH:C115647'
+      target: 'UniProt:P28222'
+    - key: POSITIVELY REGULATES
+      source: 'UniProt:P28222'
+      target: 'GO:0004993'
+    - key: ENABLES
+      source: 'GO:0004993'
+      target: 'GO:0042310'
+    - key: AMELIORATES
+      source: 'GO:0042310'
+      target: 'MESH:D008881'
+  multigraph: true
+  nodes:
+    - id: 'MESH:C115647'
+      label: Drug
+      name: eletriptan
+    - id: 'UniProt:P28222'
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1B
+    - id: 'GO:0004993'
+      label: MolecularFunction
+      name: G protein-coupled serotonin receptor activity'
+    - id: 'GO:0042310'
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: 'MESH:D008881'
+      label: Disease
+      name: Migraine
+- directed: true
+  graph:
+    disease: Migraine
+    disease_mesh: 'MESH:D008881'
+    drug: eletriptan
+    drug_mesh: 'MESH:C115647'
+    drugbank: DB00216
+  links:
+    - key: POSITIVELY REGULATES
+      source: 'MESH:C115647'
+      target: 'UniProt:P28223'
+    - key: POSITIVELY REGULATES
+      source: 'UniProt:P28223'
+      target: 'GO:0004993'
+    - key: ENABLES
+      source: 'GO:0004993'
+      target: 'GO:0042310'
+    - key: AMELIORATES
+      source: 'GO:0042310'
+      target: 'MESH:D008881'
+  multigraph: true
+  nodes:
+    - id: 'MESH:C115647'
+      label: Drug
+      name: eletriptan
+    - id: 'UniProt:P28223'
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1F
+    - id: 'GO:0004993'
+      label: MolecularFunction
+      name: G protein-coupled serotonin receptor activity'
+    - id: 'GO:0042310'
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: 'MESH:D008881'
+      label: Disease
+      name: Migraine
+- directed: true
+  graph:
+    disease: Migraine
+    disease_mesh: 'MESH:D008881'
+    drug: eletriptan
+    drug_mesh: 'MESH:C115647'
+    drugbank: DB00216
+  links:
+    - key: POSITIVELY REGULATES
+      source: 'MESH:C115647'
+      target: 'UniProt:P08908'
+    - key: POSITIVELY REGULATES
+      source: 'UniProt:P08908'
+      target: 'GO:0004993'
+    - key: ENABLES
+      source: 'GO:0004993'
+      target: 'GO:0042310'
+    - key: AMELIORATES
+      source: 'GO:0042310'
+      target: 'MESH:D008881'
+  multigraph: true
+  nodes:
+    - id: 'MESH:C115647'
+      label: Drug
+      name: eletriptan
+    - id: 'UniProt:P08908'
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1A
+    - id: 'GO:0004993'
+      label: MolecularFunction
+      name: G protein-coupled serotonin receptor activity'
+    - id: 'GO:0042310'
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: 'MESH:D008881'
+      label: Disease
+      name: Migraine
+- directed: true
+  graph:
+    disease: Infection due to Staphylococcus aureus
+    disease_mesh: 'MESH:D013203'
+    drug: nafcillin
+    drug_mesh: 'MESH:D009254'
+    drugbank: DB00607
+  links:
+    - key: NEGATIVELY REGULATES
+      source: 'MESH:D009254'
+      target: 'UniProt:P0A3M6'
+    - key: ENABLES
+      source: 'UniProt:P0A3M6'
+      target: 'GO:0071972'
+    - key: INVOLVED_IN
+      source: 'GO:0071972'
+      target: 'GO:0018104'
+    - key: AFFECTS
+      source: 'GO:0018104'
+      target: 'GO:0031504'
+    - key: IN TAXON
+      source: 'GO:0031504'
+      target: 'NCBI:txid1279'
+    - key: CAUSES
+      source: 'NCBI:txid1279'
+      target: 'MESH:D013203'
+  multigraph: true
+  nodes:
+    - id: 'MESH:D009254'
+      label: Drug
+      name: nafcillin
+    - id: 'UniProt:P0A3M6'
+      label: Protein
+      name: Penicillin-binding protein 2B
+    - id: 'GO:0071972'
+      label: MolecularActivity
+      name: 'peptidoglycan L,D-transpeptidase activity'
+    - id: 'GO:0018104'
+      label: BiologicalProcess
+      name: peptidoglycan-protein cross-linking
+    - id: 'GO:0031504'
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall organization
+    - id: 'NCBI:txid1279'
+      label: OrganismTaxon
+      name: Staphylococcus
+    - id: 'MESH:D013203'
+      label: Disease
+      name: Infection due to Staphylococcus aureus
+- directed: true
+  graph:
+    disease: Infection due to Staphylococcus aureus
+    disease_mesh: 'MESH:D013203'
+    drug: naftili
+    drug_mesh: 'MESH:D009254'
+    drugbank: DB00607
+  links:
+    - key: NEGATIVELY REGULATES
+      source: 'MESH:D009254'
+      target: 'UniProt:Q8DR59'
+    - key: ENABLES
+      source: 'UniProt:Q8DR59'
+      target: 'GO:0071972'
+    - key: INVOLVED_IN
+      source: 'GO:0071972'
+      target: 'GO:0018104'
+    - key: AFFECTS
+      source: 'GO:0018104'
+      target: 'GO:0031504'
+    - key: IN TAXON
+      source: 'GO:0031504'
+      target: 'NCBI:txid1279'
+    - key: CAUSES
+      source: 'NCBI:txid1279'
+      target: 'MESH:D013203'
+  multigraph: true
+  nodes:
+    - id: 'MESH:D009254'
+      label: Drug
+      name: naftili
+    - id: 'UniProt:Q8DR59'
+      label: Protein
+      name: Penicillin-binding protein 1A
+    - id: 'GO:0071972'
+      label: MolecularActivity
+      name: 'peptidoglycan L,D-transpeptidase activity'
+    - id: 'GO:0018104'
+      label: BiologicalProcess
+      name: peptidoglycan-protein cross-linking
+    - id: 'GO:0031504'
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall organization
+    - id: 'NCBI:txid1279'
+      label: OrganismTaxon
+      name: Staphylococcus
+    - id: 'MESH:D013203'
+      label: Disease
+      name: Infection due to Staphylococcus aureus
+- directed: true
+  graph:
+    disease: Staphylococcal pneumonia
+    disease_mesh: 'MESH:D011023'
+    drug: nafcillin
+    drug_mesh: 'MESH:D009254'
+    drugbank: DB00607
+  links:
+    - key: NEGATIVELY REGULATES
+      source: 'MESH:D009254'
+      target: 'UniProt:P0A3M6'
+    - key: ENABLES
+      source: 'UniProt:P0A3M6'
+      target: 'GO:0071972'
+    - key: INVOLVED_IN
+      source: 'GO:0071972'
+      target: 'GO:0018104'
+    - key: AFFECTS
+      source: 'GO:0018104'
+      target: 'GO:0031504'
+    - key: IN TAXON
+      source: 'GO:0031504'
+      target: 'NCBI:txid1279'
+    - key: CAUSES
+      source: 'NCBI:txid1279'
+      target: 'MESH:D011023'
+  multigraph: true
+  nodes:
+    - id: 'MESH:D009254'
+      label: Drug
+      name: nafcillin
+    - id: 'UniProt:P0A3M6'
+      label: Protein
+      name: Penicillin-binding protein 2B
+    - id: 'GO:0071972'
+      label: MolecularActivity
+      name: 'peptidoglycan L,D-transpeptidase activity'
+    - id: 'GO:0018104'
+      label: BiologicalProcess
+      name: peptidoglycan-protein cross-linking
+    - id: 'GO:0031504'
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall organization
+    - id: 'NCBI:txid1279'
+      label: OrganismTaxon
+      name: Staphylococcus
+    - id: 'MESH:D011023'
+      label: Disease
+      name: Staphylococcal pneumonia
+- directed: true
+  graph:
+    disease: Staphylococcal pneumonia
+    disease_mesh: 'MESH:D011023'
+    drug: nafcillin
+    drug_mesh: 'MESH:D009254'
+    drugbank: DB00607
+    links:
+      - key: NEGATIVELY REGULATES
+        source: 'MESH:D009254'
+        target: 'UniProt:Q8DR59'
+      - key: ENABLES
+        source: 'UniProt:Q8DR59'
+        target: 'GO:0071972'
+      - key: INVOLVED_IN
+        source: 'GO:0071972'
+        target: 'GO:0018104'
+      - key: AFFECTS
+        source: 'GO:0018104'
+        target: 'GO:0031504'
+      - key: IN TAXON
+        source: 'GO:0031504'
+        target: 'NCBI:txid1279'
+      - key: CAUSES
+        source: 'NCBI:txid1279'
+        target: 'MESH:D011023'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D009254'
+        label: Drug
+        name: nafcillin
+      - id: 'UniProt:Q8DR59'
+        label: Protein
+        name: Penicillin-binding protein 1A
+      - id: 'GO:0071972'
+        label: MolecularActivity
+        name: 'peptidoglycan L,D-transpeptidase activity'
+      - id: 'GO:0018104'
+        label: BiologicalProcess
+        name: peptidoglycan-protein cross-linking
+      - id: 'GO:0031504'
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall organization
+      - id: 'NCBI:txid1279'
+        label: OrganismTaxon
+        name: Staphylococcus
+      - id: 'MESH:D011023'
+        label: Disease
+        name: Staphylococcal pneumonia
+- directed: true
+  graph:
+    disease: Pulmonary emphysema
+    disease_mesh: 'MESH:D011656'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P07550'
+      - key: INVOLVED_IN
+        source: 'UniProt:P07550'
+        target: 'GO:0007190'
+      - key: INVOLVED_IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: CAUSES
+        source: 'GO:0006171'
+        target: 'GO:0044557'
+      - key: AMELIORATES
+        source: 'GO:0044557'
+        target: 'MESH:D011656'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P07550'
+        label: Protein
+        name: Beta-2 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0044557'
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+      - id: 'MESH:D011656'
+        label: Disease
+        name: Pulmonary emphysema
+- directed: true
+  graph:
+    disease: Pulmonary emphysema
+    disease_mesh: 'MESH:D011656'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P13945'
+      - key: INVOLVED_IN
+        source: 'UniProt:P13945'
+        target: 'GO:0007190'
+      - key: INVOLVED_IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: CAUSES
+        source: 'GO:0006171'
+        target: 'GO:0044557'
+      - key: AMELIORATES
+        source: 'GO:0044557'
+        target: 'MESH:D011656'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P13945'
+        label: Protein
+        name: Beta-3 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0044557'
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+      - id: 'MESH:D011656'
+        label: Disease
+        name: Pulmonary emphysema
+- directed: true
+  graph:
+    disease: Itching of skin
+    disease_mesh: 'MESH:D011537'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P07550'
+      - key: INVOLVED IN
+        source: 'UniProt:P07550'
+        target: 'GO:0007190'
+      - key: INVOLVED IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: PREVENTS
+        source: 'GO:0006171'
+        target: 'GO:0097279'
+      - key: CAUSES
+        source: 'GO:0097279'
+        target: 'MESH:D011537'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P07550'
+        label: Protein
+        name: Beta-2 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0097279'
+        label: BiologicalProcess
+        name: histamine secretion mediated by IgE immunoglobulin
+      - id: 'MESH:D011537'
+        label: Disease
+        name: Itching of skin
+- directed: true
+  graph:
+    disease: Itching of skin
+    disease_mesh: 'MESH:D011537'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P13945'
+      - key: INVOLVED IN
+        source: 'UniProt:P13945'
+        target: 'GO:0007190'
+      - key: INVOLVED IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: PREVENTS
+        source: 'GO:0006171'
+        target: 'GO:0097279'
+      - key: CAUSES
+        source: 'GO:0097279'
+        target: 'MESH:D011537'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P13945'
+        label: Protein
+        name: Beta-3 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0097279'
+        label: BiologicalProcess
+        name: histamine secretion mediated by IgE immunoglobulin
+      - id: 'MESH:D011537'
+        label: Disease
+        name: Itching of skin
+- directed: true
+  graph:
+    disease: Asthma
+    disease_mesh: 'MESH:D001249'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P07550'
+      - key: INVOLVED IN
+        source: 'UniProt:P07550'
+        target: 'GO:0007190'
+      - key: INVOLVED IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: CAUSES
+        source: 'GO:0006171'
+        target: 'GO:0044557'
+      - key: AMELIORATES
+        source: 'GO:0044557'
+        target: 'MESH:D001249'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P07550'
+        label: Protein
+        name: Beta-2 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0044557'
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+      - id: 'MESH:D001249'
+        label: Disease
+        name: Asthma
+- directed: true
+  graph:
+    disease: Asthma
+    disease_mesh: 'MESH:D001249'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P13945'
+      - key: INVOLVED IN
+        source: 'UniProt:P13945'
+        target: 'GO:0007190'
+      - key: INVOLVED IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: CAUSES
+        source: 'GO:0006171'
+        target: 'GO:0044557'
+      - key: AMELIORATES
+        source: 'GO:0044557'
+        target: 'MESH:D001249'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P13945'
+        label: Protein
+        name: Beta-3 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0044557'
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+      - id: 'MESH:D001249'
+        label: Disease
+        name: Asthma
+- directed: true
+  graph:
+    disease: Bronchitis
+    disease_mesh: 'MESH:D001991'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P07550'
+      - key: INVOLVED IN
+        source: 'UniProt:P07550'
+        target: 'GO:0007190'
+      - key: INVOLVED IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: CAUSES
+        source: 'GO:0006171'
+        target: 'GO:0044557'
+      - key: AMELIORATES
+        source: 'GO:0044557'
+        target: 'MESH:D001991'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P07550'
+        label: Protein
+        name: Beta-2 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0044557'
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+      - id: 'MESH:D001991'
+        label: Disease
+        name: Bronchitis
+- directed: true
+  graph:
+    disease: Bronchitis
+    disease_mesh: 'MESH:D001991'
+    drug: terbutaline
+    drug_mesh: 'MESH:D013726'
+    drugbank: DB00871
+    links:
+      - key: POSITIVELY REGULATES
+        source: 'MESH:D013726'
+        target: 'UniProt:P13945'
+      - key: INVOLVED IN
+        source: 'UniProt:P13945'
+        target: 'GO:0007190'
+      - key: INVOLVED IN
+        source: 'GO:0007190'
+        target: 'GO:0006171'
+      - key: CAUSES
+        source: 'GO:0006171'
+        target: 'GO:0044557'
+      - key: AMELIORATES
+        source: 'GO:0044557'
+        target: 'MESH:D001991'
+    multigraph: true
+    nodes:
+      - id: 'MESH:D013726'
+        label: Drug
+        name: terbutaline
+      - id: 'UniProt:P13945'
+        label: Protein
+        name: Beta-3 adrenergic receptor
+      - id: 'GO:0007190'
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+      - id: 'GO:0006171'
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+      - id: 'GO:0044557'
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+      - id: 'MESH:D001991'
+        label: Disease
+        name: Bronchitis
+- directed: true
+  graph:
+    disease: Candidemia
+    disease_mesh: MESH:D058387
+    drug: micafungin
+    drug_mesh: MESH:C121905
+    drugbank: DB01141
+    links:
+    -   key: NEGATIVELY REGULATES
+        source: MESH:C121905
+        target: UniProt:A2QLK4
+    -   key: NEGATIVELY CORRELATED WITH
+        source: UniProt:A2QLK4  
+        target: GO:0060636
+    -   key: DECREASES SYNTHESIS OF
+        source: GO:0060636
+        target: GO:0030445
+    -   key: IN_TAXON
+        source: GO:0030445
+        target: NCBI:txid4751
+    -   key: CAUSES
+        source: NCBI:txid4751
+        target: MESH:D058387
+    multigraph: true
+    nodes: 
+    -   id: MESH:C121905
+        label: Drug
+        name: micafungin
+    -   id: UniProt:A2QLK4
+        label: Protein
+        name: 1,3-beta-glucan synthase component FKS1
+    -   id: GO:0060636
+        label: BiologicalProcess
+        name: negative regulation of (1->3)-beta-D-glucan biosynthetic process
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: NCBI:txid4751   
+        label: OrganismTaxon
+        name: Candida
+    -   id: MESH:D058387
+        label: Disease
+        name: Candidemia
