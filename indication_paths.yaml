@@ -4216,7 +4216,7 @@
     -   key: contributes to
         source: MESH:D011453
         target: GO:0006954
-    -   key: Causes
+    -   key: causes
         source: GO:0006954
         target: MESH:D014605
     multigraph: true
@@ -4293,7 +4293,7 @@
     -   key: contributes to
         source: MESH:D011453
         target: GO:0006954
-    -   key: Causes
+    -   key: causes
         source: GO:0006954
         target: MESH:D003233
     multigraph: true
@@ -4370,7 +4370,7 @@
     -   key: contributes to
         source: MESH:D011453
         target: GO:0006954
-    -   key: Causes
+    -   key: causes
         source: GO:0006954
         target: MESH:D007500
     multigraph: true
@@ -4426,7 +4426,7 @@
     -   key: contributes to
         source: MESH:D011453
         target: GO:0006954
-    -   key: Causes
+    -   key: causes
         source: GO:0006954
         target: MESH:D015863
     multigraph: true
@@ -4473,7 +4473,7 @@
     -   key: participates in
         source: CL:0000092
         target: GO:0045453
-    -   key: Causes
+    -   key: causes
         source: GO:0045453
         target: MESH:D015663
     multigraph: true
@@ -4511,7 +4511,7 @@
     -   key: participates in
         source: CL:0000092
         target: GO:0045453
-    -   key: Causes
+    -   key: causes
         source: GO:0045453
         target: MESH:D010001
     multigraph: true
@@ -4555,7 +4555,7 @@
     -   key: participates in
         source: MESH:D011453
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D010146
     -   key: occurs in
@@ -4608,7 +4608,7 @@
     -   key: participates in
         source: MESH:D011453
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D010146
     -   key: occurs in
@@ -4661,7 +4661,7 @@
     -   key: participates in
         source: MESH:D011453
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D010146
     multigraph: true
@@ -4708,7 +4708,7 @@
     -   key: participates in
         source: MESH:D011453
         target: GO:0006954
-    -   key: CAUSES
+    -   key: causes
         source: GO:0006954
         target: MESH:D059350
     multigraph: true
@@ -6058,7 +6058,7 @@
         drug_mesh: MESH:C040934,MESH:D017291
         drugbank: DB:DB01211
     links:
-    -   key: negatively regulates
+    -   key: "negatively\_regulates"
         source: MESH:C040934,MESH:D017291
         target: MESH:D012338
     -   key: positively correlated with
@@ -6108,7 +6108,7 @@
         drug_mesh: MESH:C040934,MESH:D017291
         drugbank: DB:DB01211
     links:
-    -   key: negatively regulates
+    -   key: "negatively\_regulates"
         source: MESH:C040934,MESH:D017291
         target: MESH:D012338
     -   key: positively correlated with
@@ -6158,7 +6158,7 @@
         drug_mesh: MESH:C040934,MESH:D017291
         drugbank: DB:DB01211
     links:
-    -   key: negatively regulates
+    -   key: "negatively\_regulates"
         source: MESH:C040934,MESH:D017291
         target: MESH:D012338
     -   key: positively correlated with
@@ -6340,7 +6340,7 @@
     -   key: positively regulates
         source: MESH:D008914
         target: UniProt:P48048
-    -   key: moleculary interacts with 
+    -   key: moleculary interacts with
         source: UniProt:P48048
         target: CHEBI:29103
     -   key: contributes to
@@ -6351,9 +6351,9 @@
         target: GO:0007204
     -   key: contributes to
         source: GO:0007204
-        target: GO:0045907 
+        target: GO:0045907
     -   key: contributes to
-        source: GO:0045907 
+        source: GO:0045907
         target: MESH:D006973
     multigraph: true
     nodes:
@@ -6365,7 +6365,7 @@
         name: ATP-sensitive inward rectifier potassium channel 1
     -   id: CHEBI:29103
         label: ChemicalSubstance
-        name: potassium(1+) 
+        name: potassium(1+)
     -   id: GO:0060081
         label: BiologicalProcess
         name: membrane hyperpolarization
@@ -6396,7 +6396,7 @@
     -   key: positively regulates
         source: R-HSA-5684996
         target: GO:0043066
-    -   key: moleculary interacts with 
+    -   key: moleculary interacts with
         source: UniProt:P48048
         target: CHEBI:29103
     -   key: located in
@@ -6410,15 +6410,15 @@
         target: MESH:D000505
     -   key: negatively regulates
         source: GO:0060081
-        target: GO:0007204 
+        target: GO:0007204
     -   key: negatively correlated with
-        target: GO:0007204 
-        source: GO:0042311
+        source: GO:0007204
+        target: GO:0042311
     -   key: positively regulates
         source: GO:0042311
-        target: GO:0008015 
+        target: GO:0008015
     -   key: positively correlated with
-        source: GO:0008015 
+        source: GO:0008015
         target: GO:0042640
     -   key: negatively correlated with
         source: GO:0042640
@@ -6434,7 +6434,7 @@
     -   id: UniProt:P48048
         label: Protein
         name: ATP-sensitive inward rectifier potassium channel 1
-    -   id: GO:0043066 
+    -   id: GO:0043066
         label: BiologicalProcess
         name: negative regulation of apoptotic process
     -   id: CHEBI:29103
@@ -6461,12 +6461,13 @@
     -   id: GO:0042640
         label: BiologicalProcess
         name: hair growth
-    reference: https://go.drugbank.com/drugs/DB00350 https://pubmed.ncbi.nlm.nih.gov/8251426/ https://en.wikipedia.org/wiki/Minoxidil#Mechanism_of_action
+    reference: https://go.drugbank.com/drugs/DB00350 https://pubmed.ncbi.nlm.nih.gov/8251426/
+        https://en.wikipedia.org/wiki/Minoxidil#Mechanism_of_action
 -   directed: true
     graph:
         disease: Parkinson's disease
         disease_mesh: MESH:D010300
-        drug: pramipexole 
+        drug: pramipexole
         drug_mesh: MESH:C061333
         drugbank: DB:DB00413
     links:
@@ -6475,7 +6476,7 @@
         target: UniProt:P14416
     -   key: positively regulates
         source: MESH:C061333
-        target: UniProt:P35462 
+        target: UniProt:P35462
     -   key: positively regulates
         source: MESH:C061333
         target: UniProt:P21917
@@ -6483,15 +6484,15 @@
         source: UniProt:P14416
         target: MESH:D004298
     -   key: positively correlated with
-        source: UniProt:P35462 
+        source: UniProt:P35462
         target: MESH:D004298
     -   key: positively correlated with
         source: UniProt:P21917
         target: MESH:D004298
-    -   key: located in 
+    -   key: located in
         source: MESH:D004298
         target: UBERON:0035999
-    -   key: located in 
+    -   key: located in
         source: UBERON:0035999
         target: UBERON:0002038
     -   key: part of
@@ -6504,16 +6505,16 @@
     nodes:
     -   id: MESH:C061333
         label: Drug
-        name: pramipexole 
+        name: pramipexole
     -   id: UniProt:P14416
         label: Protein
-        name: Dopamine D2 receptor 
-    -   id: UniProt:P35462 
+        name: Dopamine D2 receptor
+    -   id: UniProt:P35462
         label: Protein
-        name: Dopamine D3 receptor 
-    -   id: UniProt:P21917 
+        name: Dopamine D3 receptor
+    -   id: UniProt:P21917
         label: Protein
-        name: Dopamine D4 receptor 
+        name: Dopamine D4 receptor
     -   id: MESH:D004298
         label: ChemicalSubstance
         name: dopamine
@@ -6525,7 +6526,7 @@
         name: substantia nigra
     -   id: UBERON:0014169
         label: GrossAnatomicalStructure
-        name: nigrostriatal tract 
+        name: nigrostriatal tract
     -   id: MESH:D010300
         label: Disease
         name: Parkinson's disease
@@ -6534,7 +6535,7 @@
     graph:
         disease: Restless legs
         disease_mesh: MESH:D012148
-        drug: pramipexole 
+        drug: pramipexole
         drug_mesh: MESH:C061333
         drugbank: DB:DB00413
     links:
@@ -6543,7 +6544,7 @@
         target: UniProt:P14416
     -   key: positively regulates
         source: MESH:C061333
-        target: UniProt:P35462 
+        target: UniProt:P35462
     -   key: positively regulates
         source: MESH:C061333
         target: UniProt:P21917
@@ -6551,12 +6552,12 @@
         source: UniProt:P14416
         target: MESH:D004298
     -   key: positively correlated with
-        source: UniProt:P35462 
+        source: UniProt:P35462
         target: MESH:D004298
     -   key: positively correlated with
         source: UniProt:P21917
         target: MESH:D004298
-    -   key: part of
+    -   key: participates in
         source: MESH:D004298
         target: GO:0061527
     -   key: negatively correlated with
@@ -6566,16 +6567,16 @@
     nodes:
     -   id: MESH:C061333
         label: Drug
-        name: pramipexole 
+        name: pramipexole
     -   id: UniProt:P14416
         label: Protein
-        name: Dopamine D2 receptor 
-    -   id: UniProt:P35462 
+        name: Dopamine D2 receptor
+    -   id: UniProt:P35462
         label: Protein
-        name: Dopamine D3 receptor 
-    -   id: UniProt:P21917 
+        name: Dopamine D3 receptor
+    -   id: UniProt:P21917
         label: Protein
-        name: Dopamine D4 receptor 
+        name: Dopamine D4 receptor
     -   id: MESH:D004298
         label: ChemicalSubstance
         name: dopamine
@@ -6635,7 +6636,7 @@
     -   key: contributes to
         source: MESH:D000450
         target: GO:0070294
-    -   key: positively correlated with
+    -   key: "positively\_correlated\_with"
         source: GO:0070294
         target: GO:0003092
     -   key: contributes to
@@ -6654,7 +6655,7 @@
         name: aldosterone
     -   id: GO:0070294
         label: BiologicalProcess
-        name: renal sodium ion absorption
+        name: "renal\_sodium\_ion\_absorption"
     -   id: GO:0003092
         label: BiologicalProcess
         name: renal water retention
@@ -6679,7 +6680,7 @@
     -   key: contributes to
         source: MESH:D000450
         target: GO:0070294
-    -   key: positively correlated with
+    -   key: "positively\_correlated\_with"
         source: GO:0070294
         target: GO:0003092
     -   key: contributes to
@@ -6698,7 +6699,7 @@
         name: aldosterone
     -   id: GO:0070294
         label: BiologicalProcess
-        name: renal sodium ion absorption
+        name: "renal\_sodium\_ion\_absorption"
     -   id: GO:0003092
         label: BiologicalProcess
         name: renal water retention
@@ -6723,7 +6724,7 @@
     -   key: contributes to
         source: MESH:D000450
         target: GO:0070294
-    -   key: positively correlated with
+    -   key: "positively\_correlated\_with"
         source: GO:0070294
         target: GO:0003092
     -   key: contributes to
@@ -6742,7 +6743,7 @@
         name: aldosterone
     -   id: GO:0070294
         label: BiologicalProcess
-        name: renal sodium ion absorption
+        name: "renal\_sodium\_ion\_absorption"
     -   id: GO:0003092
         label: BiologicalProcess
         name: renal water retention
@@ -6766,14 +6767,14 @@
         target: UniProt:P0A7J6
     -   key: part of
         source: UniProt:P0A7J6
-        target: GO:0005840 
+        target: GO:0005840
     -   key: participates in
-        source: GO:0005840 
+        source: GO:0005840
         target: GO:0045727
     -   key: part of
         source: GO:0045727
         target: GO:0051301
-    -   key: occurs in 
+    -   key: occurs in
         source: GO:0051301
         target: NCBITaxon:1301
     -   key: causes
@@ -6782,11 +6783,11 @@
     multigraph: true
     nodes:
     -   id: MESH:D000069349
-        label: linezolid
-        name: Drug
+        label: Drug
+        name: linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
-        name: RNA, Ribosomal, 23S 
+        name: RNA, Ribosomal, 23S
     -   id: UniProt:P0A7J6
         label: Protein
         name: 50S ribosomal protein L10
@@ -6822,27 +6823,27 @@
         target: UniProt:P0A7J6
     -   key: part of
         source: UniProt:P0A7J6
-        target: GO:0005840 
+        target: GO:0005840
     -   key: participates in
-        source: GO:0005840 
+        source: GO:0005840
         target: GO:0045727
     -   key: part of
         source: GO:0045727
         target: GO:0051301
-    -   key: occurs in 
+    -   key: occurs in
         source: GO:0051301
-        target: NCBITaxon:1314 
+        target: NCBITaxon:1314
     -   key: causes
-        source: NCBITaxon:1314 
+        source: NCBITaxon:1314
         target: MESH:D013290
     multigraph: true
     nodes:
     -   id: MESH:D000069349
-        label: linezolid
-        name: Drug
+        label: Drug
+        name: linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
-        name: RNA, Ribosomal, 23S 
+        name: RNA, Ribosomal, 23S
     -   id: UniProt:P0A7J6
         label: Protein
         name: 50S ribosomal protein L10
@@ -6855,7 +6856,7 @@
     -   id: GO:0051301
         label: BiologicalProcess
         name: cell division
-    -   id: NCBITaxon:1314 
+    -   id: NCBITaxon:1314
         label: OrganismTaxon
         name: Streptococcus pyogenes
     -   id: MESH:D013290
@@ -6878,14 +6879,14 @@
         target: UniProt:P0A7J6
     -   key: part of
         source: UniProt:P0A7J6
-        target: GO:0005840 
+        target: GO:0005840
     -   key: participates in
-        source: GO:0005840 
+        source: GO:0005840
         target: GO:0045727
     -   key: part of
         source: GO:0045727
         target: GO:0051301
-    -   key: occurs in 
+    -   key: occurs in
         source: GO:0051301
         target: NCBITaxon:1280
     -   key: causes
@@ -6894,11 +6895,11 @@
     multigraph: true
     nodes:
     -   id: MESH:D000069349
-        label: linezolid
-        name: Drug
+        label: Drug
+        name: linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
-        name: RNA, Ribosomal, 23S 
+        name: RNA, Ribosomal, 23S
     -   id: UniProt:P0A7J6
         label: Protein
         name: 50S ribosomal protein L10
@@ -6934,14 +6935,14 @@
         target: UniProt:P0A7J6
     -   key: part of
         source: UniProt:P0A7J6
-        target: GO:0005840 
+        target: GO:0005840
     -   key: participates in
-        source: GO:0005840 
+        source: GO:0005840
         target: GO:0045727
     -   key: part of
         source: GO:0045727
         target: GO:0051301
-    -   key: occurs in 
+    -   key: occurs in
         source: GO:0051301
         target: NCBITaxon:1280
     -   key: causes
@@ -6950,11 +6951,11 @@
     multigraph: true
     nodes:
     -   id: MESH:D000069349
-        label: linezolid
-        name: Drug
+        label: Drug
+        name: linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
-        name: RNA, Ribosomal, 23S 
+        name: RNA, Ribosomal, 23S
     -   id: UniProt:P0A7J6
         label: Protein
         name: 50S ribosomal protein L10
@@ -6994,11 +6995,11 @@
     -   key: positively correlated with
         source: GO:0009273
         target: GO:0051301
-    -   key: occurs in 
+    -   key: occurs in
         source: GO:0051301
-        target: NCBITaxon:562 
+        target: NCBITaxon:562
     -   key: positively correlated with
-        source: NCBITaxon:562 
+        source: NCBITaxon:562
         target: MESH:D059413
     multigraph: true
     nodes:
@@ -7021,7 +7022,7 @@
         label: OrganismTaxon
         name: Escherichia coli
     -   id: MESH:D059413
-        label: disease
+        label: Disease
         name: Infectious disease of abdomen
     reference: https://go.drugbank.com/drugs/DB00760#BE0000744 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3049134/
 -   directed: true
@@ -7034,27 +7035,27 @@
     links:
     -   key: negatively regulates
         source: MESH:C059500
-        target: UniProt:P59676 
+        target: UniProt:P59676
     -   key: negatively regulates
         source: MESH:C059500
         target: UniProt:P0A0Z5
     -   key: positively regulates
         source: UniProt:P59676
-        target: GO:0009252 
+        target: GO:0009252
     -   key: positively regulates
         source: UniProt:P0A0Z5
-        target: GO:0009252 
+        target: GO:0009252
     -   key: positively regulates
-        source: GO:0009252 
+        source: GO:0009252
         target: GO:0009273
     -   key: positively correlated with
         source: GO:0009273
-        target: GO:0051301 
-    -   key: occurs in 
-        source: GO:0051301 
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
         target: NCBITaxon:1313
-    -   key: occurs in 
-        source: GO:0051301 
+    -   key: occurs in
+        source: GO:0051301
         target: NCBITaxon:487
     -   key: positively correlated with
         source: NCBITaxon:1313
@@ -7067,7 +7068,7 @@
     -   id: MESH:C059500
         label: Drug
         name: meropenem
-    -   id: UniProt:P59676 
+    -   id: UniProt:P59676
         label: Protein
         name: Penicillin-binding protein 2X (Streptococcus pneumoniae)
     -   id: UniProt:P0A0Z5
@@ -7079,12 +7080,12 @@
     -   id: GO:0009273
         label: BiologicalProcess
         name: peptidoglycan-based cell wall biogenesis
-    -   id: GO:0051301 
+    -   id: GO:0051301
         label: BiologicalProcess
         name: cell division
     -   id: NCBITaxon:1313
         label: OrganismTaxon
-        name: Streptococcus pneumoniae 
+        name: Streptococcus pneumoniae
     -   id: NCBITaxon:487
         label: OrganismTaxon
         name: Neisseria meningitidis
@@ -7112,11 +7113,11 @@
     -   key: positively correlated with
         source: GO:0009273
         target: GO:0051301
-    -   key: occurs in 
+    -   key: occurs in
         source: GO:0051301
-        target: NCBITaxon:562 
+        target: NCBITaxon:562
     -   key: positively correlated with
-        source: NCBITaxon:562 
+        source: NCBITaxon:562
         target: MESH:D018784
     multigraph: true
     nodes:
@@ -7155,15 +7156,15 @@
         target: UniProt:P0A0Z5
     -   key: positively regulates
         source: UniProt:P0A0Z5
-        target: GO:0009252 
+        target: GO:0009252
     -   key: positively regulates
-        source: GO:0009252 
+        source: GO:0009252
         target: GO:0009273
     -   key: positively correlated with
         source: GO:0009273
-        target: GO:0051301 
-    -   key: occurs in 
-        source: GO:0051301 
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
         target: NCBITaxon:487
     -   key: positively correlated with
         source: NCBITaxon:487
@@ -7182,7 +7183,7 @@
     -   id: GO:0009273
         label: BiologicalProcess
         name: peptidoglycan-based cell wall biogenesis
-    -   id: GO:0051301 
+    -   id: GO:0051301
         label: BiologicalProcess
         name: cell division
     -   id: NCBITaxon:487
@@ -7202,18 +7203,18 @@
     links:
     -   key: negatively regulates
         source: MESH:C059500
-        target: UniProt:P59676 
+        target: UniProt:P59676
     -   key: positively regulates
         source: UniProt:P59676
         target: GO:0009252
     -   key: positively regulates
-        source: GO:0009252 
+        source: GO:0009252
         target: GO:0009273
     -   key: positively correlated with
         source: GO:0009273
-        target: GO:0051301 
-    -   key: occurs in 
-        source: GO:0051301 
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
         target: NCBITaxon:1313
     -   key: positively correlated with
         source: NCBITaxon:1313
@@ -7223,7 +7224,7 @@
     -   id: MESH:C059500
         label: Drug
         name: meropenem
-    -   id: UniProt:P59676 
+    -   id: UniProt:P59676
         label: Protein
         name: Penicillin-binding protein 2X (Streptococcus pneumoniae)
     -   id: GO:0009252
@@ -7232,12 +7233,12 @@
     -   id: GO:0009273
         label: BiologicalProcess
         name: peptidoglycan-based cell wall biogenesis
-    -   id: GO:0051301 
+    -   id: GO:0051301
         label: BiologicalProcess
         name: cell division
     -   id: NCBITaxon:1313
         label: OrganismTaxon
-        name: Streptococcus pneumoniae 
+        name: Streptococcus pneumoniae
     -   id: MESH:D008586
         label: Disease
         name: Pneumococcal meningitis
@@ -7246,7 +7247,7 @@
     graph:
         disease: Status epilepticus
         disease_mesh: MESH:D013226
-        drug: amobarbital 
+        drug: amobarbital
         drug_mesh: MESH:D000654
         drugbank: DB:DB01351
     links:
@@ -7285,9 +7286,9 @@
         target: GO:0060081
     -   key: negatively regulates
         source: GO:0060081
-        target: GO:0019228 
+        target: GO:0019228
     -   key: contributes to
-        source: GO:0019228 
+        source: GO:0019228
         target: GO:0050806
     -   key: positively correlated with
         source: GO:0050806
@@ -7296,7 +7297,7 @@
     nodes:
     -   id: MESH:D000654
         label: Drug
-        name: amobarbital 
+        name: amobarbital
     -   id: UniProt:P14867
         label: Protein
         name: Gamma-aminobutyric acid receptor subunit alpha-1
@@ -7318,7 +7319,7 @@
     -   id: GO:0060081
         label: BiologicalProcess
         name: membrane hyperpolarization
-    -   id: GO:0019228 
+    -   id: GO:0019228
         label: BiologicalProcess
         name: neuronal action potential
     -   id: GO:0050806
@@ -7332,7 +7333,7 @@
     graph:
         disease: Epilepsy
         disease_mesh: MESH:D004827
-        drug: amobarbital 
+        drug: amobarbital
         drug_mesh: MESH:D000654
         drugbank: DB:DB01351
     links:
@@ -7371,9 +7372,9 @@
         target: GO:0060081
     -   key: negatively regulates
         source: GO:0060081
-        target: GO:0019228 
+        target: GO:0019228
     -   key: contributes to
-        source: GO:0019228 
+        source: GO:0019228
         target: GO:0050806
     -   key: positively correlated with
         source: GO:0050806
@@ -7382,7 +7383,7 @@
     nodes:
     -   id: MESH:D000654
         label: Drug
-        name: amobarbital 
+        name: amobarbital
     -   id: UniProt:P14867
         label: Protein
         name: Gamma-aminobutyric acid receptor subunit alpha-1
@@ -7404,7 +7405,7 @@
     -   id: GO:0060081
         label: BiologicalProcess
         name: membrane hyperpolarization
-    -   id: GO:0019228 
+    -   id: GO:0019228
         label: BiologicalProcess
         name: neuronal action potential
     -   id: GO:0050806
@@ -7447,7 +7448,7 @@
         name: fenproporex
     -   id: MESH:D000661
         label: ChemicalSubstance
-        name: Amphetamine 
+        name: Amphetamine
     -   id: GO:0004936
         label: MolecularActivity
         name: alpha-adrenergic receptor activity
@@ -7474,12 +7475,12 @@
         target: UniProt:P27487
     -   key: negatively regulates
         source: UniProt:P27487
-        target: CHEBI:80270 
+        target: CHEBI:80270
     -   key: positively regulates
-        source: CHEBI:80270 
+        source: CHEBI:80270
         target: GO:0030073
     -   key: negatively regulates
-        source: CHEBI:80270 
+        source: CHEBI:80270
         target: GO:0070091
     -   key: negatively regulates
         source: GO:0030073
@@ -7488,7 +7489,7 @@
         source: GO:0070091
         target: HP:0003074
     -   key: positively correlated with
-        source:  HP:0003074
+        source: HP:0003074
         target: MESH:D003924
     multigraph: true
     nodes:
@@ -7527,7 +7528,7 @@
         target: GO:0006915
     -   key: positively regulates
         source: MESH:C555622,MESH:C094854
-        target: GO:0008285 
+        target: GO:0008285
     -   key: negatively correlated with
         source: GO:0006915
         target: MESH:D007889
