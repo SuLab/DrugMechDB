@@ -34,8 +34,14 @@
     -   key: decreases activity of
         source: MESH:D000068877
         target: UniProt:P10721
+    -   key: decreases activity of
+        source: MESH:D000068877
+        target: UniProt:P16234
     -   key: positively regulates
         source: UniProt:P10721
+        target: GO:0008283
+    -   key: positively regulates
+        source: UniProt:P16234
         target: GO:0008283
     -   key: causes
         source: GO:0008283
@@ -48,34 +54,6 @@
     -   id: UniProt:P10721
         label: Protein
         name: c-Kit
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cellular proliferation
-    -   id: MESH:D034721
-        label: Disease
-        name: Systemic mast cell disease
--   directed: true
-    graph:
-        disease: Systemic mast cell disease
-        disease_mesh: MESH:D034721
-        drug: imatinib
-        drug_mesh: MESH:D000068877
-        drugbank: DB:DB00619
-    links:
-    -   key: decreases activity of
-        source: MESH:D000068877
-        target: UniProt:P16234
-    -   key: positively regulates
-        source: UniProt:P16234
-        target: GO:0008283
-    -   key: causes
-        source: GO:0008283
-        target: MESH:D034721
-    multigraph: true
-    nodes:
-    -   id: MESH:D000068877
-        label: Drug
-        name: imatinib
     -   id: UniProt:P16234
         label: Protein
         name: Pdgf
@@ -93,37 +71,24 @@
         drug_mesh: MESH:D000082
         drugbank: DB:DB00316
     links:
-    -   key: negatively regulates
-        source: MESH:D000082
-        target: REACT:R-HSA-2162123
-    -   key: affects risk for
-        source: REACT:R-HSA-2162123
-        target: MESH:D010146
-    multigraph: true
-    nodes:
-    -   id: MESH:D000082
-        label: Drug
-        name: acetaminophen
-    -   id: REACT:R-HSA-2162123
-        label: Pathway
-        name: cycloxygenaze pathways
-    -   id: MESH:D010146
-        label: Disease
-        name: Pain
--   directed: true
-    graph:
-        disease: Pain
-        disease_mesh: MESH:D010146
-        drug: acetaminophen
-        drug_mesh: MESH:D000082
-        drugbank: DB:DB00316
-    links:
     -   key: decreases activity of
         source: MESH:D000082
         target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: negatively regulates
+        source: MESH:D000082
+        target: REACT:R-HSA-2162123
     -   key: increases abundance of
         source: UniProt:P23219
         target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: affects risk for
+        source: REACT:R-HSA-2162123
+        target: MESH:D010146
     -   key: causes
         source: MESH:D011453
         target: MESH:D010146
@@ -135,37 +100,12 @@
     -   id: UniProt:P23219
         label: Protein
         name: Cox-1
-    -   id: MESH:D011453
-        label: ChemicalSubstance
-        name: Prostaglandins
-    -   id: MESH:D010146
-        label: Disease
-        name: Pain
--   directed: true
-    graph:
-        disease: Pain
-        disease_mesh: MESH:D010146
-        drug: acetaminophen
-        drug_mesh: MESH:D000082
-        drugbank: DB:DB00316
-    links:
-    -   key: decreases activity of
-        source: MESH:D000082
-        target: UniProt:P35354
-    -   key: increases abundance of
-        source: UniProt:P35354
-        target: MESH:D011453
-    -   key: causes
-        source: MESH:D011453
-        target: MESH:D010146
-    multigraph: true
-    nodes:
-    -   id: MESH:D000082
-        label: Drug
-        name: acetaminophen
     -   id: UniProt:P35354
         label: Protein
         name: Cox-2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: cycloxygenaze pathways
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -220,8 +160,14 @@
     -   key: decreases activity of
         source: MESH:D001241
         target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D001241
+        target: UniProt:P35354
     -   key: increases abundance of
         source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
         target: MESH:D011453
     -   key: causes
         source: MESH:D011453
@@ -234,34 +180,6 @@
     -   id: UniProt:P23219
         label: Protein
         name: Cox-1
-    -   id: MESH:D011453
-        label: ChemicalSubstance
-        name: Prostaglandins
-    -   id: MESH:D010146
-        label: Disease
-        name: Pain
--   directed: true
-    graph:
-        disease: Pain
-        disease_mesh: MESH:D010146
-        drug: acetylsalicylic acid
-        drug_mesh: MESH:D001241
-        drugbank: DB:DB00945
-    links:
-    -   key: decreases activity of
-        source: MESH:D001241
-        target: UniProt:P35354
-    -   key: increases abundance of
-        source: UniProt:P35354
-        target: MESH:D011453
-    -   key: causes
-        source: MESH:D011453
-        target: MESH:D010146
-    multigraph: true
-    nodes:
-    -   id: MESH:D001241
-        label: Drug
-        name: acetylsalicylic acid
     -   id: UniProt:P35354
         label: Protein
         name: Cox-2
@@ -285,6 +203,9 @@
     -   key: participates in
         source: UniProt:P23219
         target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P23219
+        target: GO:0007596
     -   key: has output
         source: REACT:R-HSA-2162123
         target: MESH:D013928
@@ -311,37 +232,6 @@
     -   id: GO:0007596
         label: BiologicalProcess
         name: Platelet Activiation / Blood Coagulation
-    -   id: MESH:D013927
-        label: Disease
-        name: Thrombosis
--   directed: true
-    graph:
-        disease: Thrombosis
-        disease_mesh: MESH:D013927
-        drug: acetylsalicylic acid
-        drug_mesh: MESH:D001241
-        drugbank: DB:DB00945
-    links:
-    -   key: decreases activity of
-        source: MESH:D001241
-        target: UniProt:P23219
-    -   key: participates in
-        source: UniProt:P23219
-        target: GO:0007596
-    -   key: causes
-        source: GO:0007596
-        target: MESH:D013927
-    multigraph: true
-    nodes:
-    -   id: MESH:D001241
-        label: Drug
-        name: acetylsalicylic acid
-    -   id: UniProt:P23219
-        label: Protein
-        name: COX
-    -   id: GO:0007596
-        label: BiologicalProcess
-        name: Blood Coagulation
     -   id: MESH:D013927
         label: Disease
         name: Thrombosis
@@ -393,11 +283,20 @@
     -   key: decreases activity of
         source: MESH:D009643
         target: UniProt:P43702
+    -   key: negatively regulates
+        source: MESH:D009643
+        target: GO:0003746
     -   key: participates in
         source: UniProt:P43702
         target: GO:0006260
+    -   key: precedes
+        source: GO:0003746
+        target: GO:0006412
     -   key: occurs in
         source: GO:0006260
+        target: NCBITaxon:622
+    -   key: occurs in
+        source: GO:0006412
         target: NCBITaxon:622
     -   key: causes
         source: NCBITaxon:622
@@ -410,43 +309,12 @@
     -   id: UniProt:P43702
         label: Protein
         name: topoisomerases II, IV
-    -   id: GO:0006260
-        label: BiologicalProcess
-        name: Bactierial DNA Replication
-    -   id: NCBITaxon:622
-        label: OrganismTaxon
-        name: Shigella dysenteriae
-    -   id: MESH:D004405
-        label: Disease
-        name: Shigellosis
--   directed: true
-    graph:
-        disease: Shigellosis
-        disease_mesh: MESH:D004405
-        drug: norfloxacin
-        drug_mesh: MESH:D009643
-        drugbank: DB:DB01059
-    links:
-    -   key: negatively regulates
-        source: MESH:D009643
-        target: GO:0003746
-    -   key: precedes
-        source: GO:0003746
-        target: GO:0006412
-    -   key: occurs in
-        source: GO:0006412
-        target: NCBITaxon:622
-    -   key: causes
-        source: NCBITaxon:622
-        target: MESH:D004405
-    multigraph: true
-    nodes:
-    -   id: MESH:D009643
-        label: Drug
-        name: norfloxacin
     -   id: GO:0003746
         label: MolecularActivity
         name: Translocation of EF-G
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bactierial DNA Replication
     -   id: GO:0006412
         label: BiologicalProcess
         name: Bacterial Protein Synthesis
@@ -464,126 +332,39 @@
         drug_mesh: MESH:D003348
         drugbank: DB:DB01380
     links:
+    -   key: increases activity of
+        source: MESH:D003348
+        target: UniProt:P04150
     -   key: increases abundance of
         source: MESH:D003348
         target: UniProt:P04083
-    -   key: negatively regulates
-        source: UniProt:P04083
-        target: REACT:R-HSA-2162123
-    -   key: participates in
-        source: REACT:R-HSA-2162123
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: MESH:D007634
-    multigraph: true
-    nodes:
-    -   id: MESH:D003348
-        label: Drug
-        name: cortisone acetate
-    -   id: UniProt:P04083
-        label: Protein
-        name: lipocortin-1
-    -   id: REACT:R-HSA-2162123
-        label: Pathway
-        name: Prostaglandin Synthesis
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammation
-    -   id: MESH:D007634
-        label: Disease
-        name: Keratitis
--   directed: true
-    graph:
-        disease: Keratitis
-        disease_mesh: MESH:D007634
-        drug: cortisone acetate
-        drug_mesh: MESH:D003348
-        drugbank: DB:DB01380
-    links:
     -   key: decreases abundance of
         source: MESH:D003348
         target: UniProt:P23219
     -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: increases abundance of
         source: UniProt:P23219
         target: MESH:D011453
-    -   key: participates in
-        source: MESH:D011453
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: MESH:D007634
-    multigraph: true
-    nodes:
-    -   id: MESH:D003348
-        label: Drug
-        name: cortisone acetate
-    -   id: UniProt:P23219
-        label: Protein
-        name: COX Genes
-    -   id: MESH:D011453
-        label: ChemicalSubstance
-        name: Prostaglandins
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammation
-    -   id: MESH:D007634
-        label: Disease
-        name: Keratitis
--   directed: true
-    graph:
-        disease: Keratitis
-        disease_mesh: MESH:D007634
-        drug: cortisone acetate
-        drug_mesh: MESH:D003348
-        drugbank: DB:DB01380
-    links:
-    -   key: increases abundance of
-        source: MESH:D003348
-        target: UniProt:P04083
     -   key: negatively regulates
         source: UniProt:P04083
         target: GO:0050900
-    -   key: positively regulates
-        source: GO:0050900
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: MESH:D007634
-    multigraph: true
-    nodes:
-    -   id: MESH:D003348
-        label: Drug
-        name: cortisone acetate
-    -   id: UniProt:P04083
-        label: Protein
-        name: lipocortin-1
-    -   id: GO:0050900
-        label: BiologicalProcess
-        name: Immune Cell Funciton
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammation
-    -   id: MESH:D007634
-        label: Disease
-        name: Keratitis
--   directed: true
-    graph:
-        disease: Keratitis
-        disease_mesh: MESH:D007634
-        drug: cortisone acetate
-        drug_mesh: MESH:D003348
-        drugbank: DB:DB01380
-    links:
-    -   key: increases activity of
-        source: MESH:D003348
-        target: UniProt:P04150
-    -   key: increases abundance of
-        source: UniProt:P04150
-        target: UniProt:P04083
     -   key: negatively regulates
         source: UniProt:P04083
         target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0050900
+        target: GO:0006954
     -   key: positively regulates
         source: REACT:R-HSA-2162123
         target: GO:0006954
@@ -598,55 +379,21 @@
     -   id: UniProt:P04150
         label: Protein
         name: Glucocorticoid receptor
+    -   id: UniProt:P23219
+        label: Protein
+        name: COX Genes
     -   id: UniProt:P04083
         label: Protein
-        name: Annexin A1
+        name: lipocortin-1
     -   id: REACT:R-HSA-2162123
         label: Pathway
         name: Prostaglandin Synthesis
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammation
-    -   id: MESH:D007634
-        label: Disease
-        name: Keratitis
--   directed: true
-    graph:
-        disease: Keratitis
-        disease_mesh: MESH:D007634
-        drug: cortisone acetate
-        drug_mesh: MESH:D003348
-        drugbank: DB:DB01380
-    links:
-    -   key: increases activity of
-        source: MESH:D003348
-        target: UniProt:P04150
-    -   key: decreases abundance of
-        source: UniProt:P04150
-        target: UniProt:P23219
-    -   key: increases abundance of
-        source: UniProt:P23219
-        target: MESH:D011453
-    -   key: participates in
-        source: MESH:D011453
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: MESH:D007634
-    multigraph: true
-    nodes:
-    -   id: MESH:D003348
-        label: Drug
-        name: cortisone acetate
-    -   id: UniProt:P04150
-        label: Protein
-        name: Glucocorticoid receptor
-    -   id: UniProt:P23219
-        label: Protein
-        name: COX genes
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
+    -   id: GO:0050900
+        label: BiologicalProcess
+        name: Immune Cell Funciton
     -   id: GO:0006954
         label: BiologicalProcess
         name: Inflammation
@@ -738,8 +485,14 @@
     -   key: decreases activity of
         source: MESH:D003707
         target: UniProt:P0A7S3
+    -   key: decreases activity of
+        source: MESH:D003707
+        target: UniProt:P0A7J3
     -   key: participates in
         source: UniProt:P0A7S3
+        target: GO:0006412
+    -   key: participates in
+        source: UniProt:P0A7J3
         target: GO:0006412
     -   key: occurs in
         source: GO:0006412
@@ -755,40 +508,6 @@
     -   id: UniProt:P0A7S3
         label: Protein
         name: 30S Ribosomal Subunit
-    -   id: GO:0006412
-        label: BiologicalProcess
-        name: Bacterial Translation
-    -   id: NCBITaxon:786
-        label: OrganismTaxon
-        name: Rickettsia akari
-    -   id: MESH:D000073605
-        label: Disease
-        name: Rickettsialpox
--   directed: true
-    graph:
-        disease: Rickettsialpox
-        disease_mesh: MESH:D000073605
-        drug: demeclocycline
-        drug_mesh: MESH:D003707
-        drugbank: DB:DB00618
-    links:
-    -   key: decreases activity of
-        source: MESH:D003707
-        target: UniProt:P0A7J3
-    -   key: participates in
-        source: UniProt:P0A7J3
-        target: GO:0006412
-    -   key: occurs in
-        source: GO:0006412
-        target: NCBITaxon:786
-    -   key: causes
-        source: NCBITaxon:786
-        target: MESH:D000073605
-    multigraph: true
-    nodes:
-    -   id: MESH:D003707
-        label: Drug
-        name: demeclocycline
     -   id: UniProt:P0A7J3
         label: Protein
         name: 50S Ribosomal Subunit
@@ -849,8 +568,14 @@
     -   key: decreases activity of
         source: MESH:C106856
         target: UniProt:P0C1U9
+    -   key: decreases activity of
+        source: MESH:C106856
+        target: UniProt:P20831
     -   key: participates in
         source: UniProt:P0C1U9
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P20831
         target: GO:0006260
     -   key: occurs in
         source: GO:0006260
@@ -866,40 +591,6 @@
     -   id: UniProt:P0C1U9
         label: Protein
         name: Topoisomeraze 4
-    -   id: GO:0006260
-        label: BiologicalProcess
-        name: Bacterial DNA replication
-    -   id: NCBITaxon:1280
-        label: OrganismTaxon
-        name: Staphylococcus aureus
-    -   id: MESH:D011023
-        label: Disease
-        name: Staphylococcal pneumonia
--   directed: true
-    graph:
-        disease: Staphylococcal pneumonia
-        disease_mesh: MESH:D011023
-        drug: alatrofloxacin
-        drug_mesh: MESH:C106856
-        drugbank: DB:DB09335
-    links:
-    -   key: decreases activity of
-        source: MESH:C106856
-        target: UniProt:P20831
-    -   key: participates in
-        source: UniProt:P20831
-        target: GO:0006260
-    -   key: occurs in
-        source: GO:0006260
-        target: NCBITaxon:1280
-    -   key: causes
-        source: NCBITaxon:1280
-        target: MESH:D011023
-    multigraph: true
-    nodes:
-    -   id: MESH:C106856
-        label: Drug
-        name: alatrofloxacin
     -   id: UniProt:P20831
         label: Protein
         name: DNA gyrase
@@ -1284,8 +975,14 @@
     -   key: decreases abundance of
         source: UniProt:P04150
         target: UniProt:P47712
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P22301
     -   key: positively regulates
         source: UniProt:P47712
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P22301
         target: GO:0006954
     -   key: causes
         source: GO:0006954
@@ -1301,40 +998,6 @@
     -   id: UniProt:P47712
         label: Protein
         name: Phospholipase A2
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammation
-    -   id: MESH:D001991
-        label: Disease
-        name: Bronchitis
--   directed: true
-    graph:
-        disease: Bronchitis
-        disease_mesh: MESH:D001991
-        drug: fluticasone propionate
-        drug_mesh: MESH:D000068298
-        drugbank: DB:DB00588
-    links:
-    -   key: increases activity of
-        source: MESH:D000068298
-        target: UniProt:P04150
-    -   key: increases abundance of
-        source: UniProt:P04150
-        target: UniProt:P22301
-    -   key: negatively regulates
-        source: UniProt:P22301
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: MESH:D001991
-    multigraph: true
-    nodes:
-    -   id: MESH:D000068298
-        label: Drug
-        name: fluticasone propionate
-    -   id: UniProt:P04150
-        label: Protein
-        name: Glucocorticoid receptor
     -   id: UniProt:P22301
         label: Protein
         name: IL-10
@@ -1355,11 +1018,20 @@
     -   key: decreases activity of
         source: MESH:D005476
         target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:D005476
+        target: UniProt:P21728
     -   key: positively regulates
         source: UniProt:P14416
         target: GO:0030252
+    -   key: increases abundance of
+        source: UniProt:P21728
+        target: MESH:D010907
     -   key: positively correlated with
         source: GO:0030252
+        target: MESH:D012559
+    -   key: manifestation of
+        source: MESH:D010907
         target: MESH:D012559
     multigraph: true
     nodes:
@@ -1369,37 +1041,12 @@
     -   id: UniProt:P14416
         label: Protein
         name: D(2) dopamine receptor
-    -   id: GO:0030252
-        label: BiologicalProcess
-        name: growth hormone secretion
-    -   id: MESH:D012559
-        label: Disease
-        name: Schizophrenia
--   directed: true
-    graph:
-        disease: Schizophrenia
-        disease_mesh: MESH:D012559
-        drug: fluphenazine
-        drug_mesh: MESH:D005476
-        drugbank: DB:DB00623
-    links:
-    -   key: decreases activity of
-        source: MESH:D005476
-        target: UniProt:P21728
-    -   key: increases abundance of
-        source: UniProt:P21728
-        target: MESH:D010907
-    -   key: manifestation of
-        source: MESH:D010907
-        target: MESH:D012559
-    multigraph: true
-    nodes:
-    -   id: MESH:D005476
-        label: Drug
-        name: fluphenazine
     -   id: UniProt:P21728
         label: Protein
         name: dopaminaergeinc receptors
+    -   id: GO:0030252
+        label: BiologicalProcess
+        name: growth hormone secretion
     -   id: MESH:D010907
         label: ChemicalSubstance
         name: hypophyseal hormones
@@ -2039,11 +1686,47 @@
         drug_mesh: MESH:D008914
         drugbank: DB:DB00350
     links:
+    -   key: positively regulates
+        source: MESH:D008914
+        target: R-HSA-5684996
     -   key: produces
         source: MESH:D008914
         target: CL:0000346
+    -   key: positively regulates
+        source: MESH:D008914
+        target: UniProt:P48048
     -   key: negatively correlated with
         source: CL:0000346
+        target: MESH:D000505
+    -   key: positively regulates
+        source: R-HSA-5684996
+        target: GO:0043066
+    -   key: moleculary interacts with
+        source: UniProt:P48048
+        target: CHEBI:29103
+    -   key: located in
+        source: GO:0043066
+        target: CL:0002559
+    -   key: contributes to
+        source: CHEBI:29103
+        target: GO:0060081
+    -   key: affected by
+        source: CL:0002559
+        target: MESH:D000505
+    -   key: negatively regulates
+        source: GO:0060081
+        target: GO:0007204
+    -   key: negatively correlated with
+        source: GO:0007204
+        target: GO:0042311
+    -   key: positively regulates
+        source: GO:0042311
+        target: GO:0008015
+    -   key: positively correlated with
+        source: GO:0008015
+        target: GO:0042640
+    -   key: negatively correlated with
+        source: GO:0042640
         target: MESH:D000505
     multigraph: true
     nodes:
@@ -2053,6 +1736,36 @@
     -   id: CL:0000346
         label: Cell
         name: dermal papillary cells
+    -   id: R-HSA-5684996
+        label: Pathway
+        name: ERK1/ERK2 pathway
+    -   id: UniProt:P48048
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 1
+    -   id: GO:0043066
+        label: BiologicalProcess
+        name: negative regulation of apoptotic process
+    -   id: CHEBI:29103
+        label: ChemicalSubstance
+        name: potassium(1+)
+    -   id: CL:0002559
+        label: Cell
+        name: hair follicle cell
+    -   id: GO:0060081
+        label: BiologicalProcess
+        name: membrane hyperpolarization
+    -   id: GO:0007204
+        label: BiologicalProcess
+        name: positive regulation of cytosolic calcium ion concentration
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: blood circulation
+    -   id: GO:0042640
+        label: BiologicalProcess
+        name: hair growth
     -   id: MESH:D000505
         label: Disease
         name: androgenic alopecia
@@ -2064,17 +1777,35 @@
         drug_mesh: MESH:D008914
         drugbank: DB:DB00350
     links:
+    -   key: positively regulates
+        source: MESH:D008914
+        target: UniProt:P48048
     -   key: increases activity of
         source: MESH:D008914
         target: UniProt:P48048
+    -   key: moleculary interacts with
+        source: UniProt:P48048
+        target: CHEBI:29103
     -   key: participates in
         source: UniProt:P48048
         target: GO:0042311
+    -   key: contributes to
+        source: CHEBI:29103
+        target: GO:0060081
     -   key: negatively regulates
         source: GO:0042311
         target: GO:0008217
+    -   key: negatively regulates
+        source: GO:0060081
+        target: GO:0007204
     -   key: positively correlated with
         source: GO:0008217
+        target: MESH:D006973
+    -   key: contributes to
+        source: GO:0007204
+        target: GO:0045907
+    -   key: contributes to
+        source: GO:0045907
         target: MESH:D006973
     multigraph: true
     nodes:
@@ -2084,12 +1815,24 @@
     -   id: UniProt:P48048
         label: Protein
         name: ATP-sensitive inward rectifier potassium channel 1
+    -   id: CHEBI:29103
+        label: ChemicalSubstance
+        name: potassium(1+)
     -   id: GO:0042311
         label: BiologicalProcess
         name: Vasodilation
+    -   id: GO:0060081
+        label: BiologicalProcess
+        name: membrane hyperpolarization
     -   id: GO:0008217
         label: BiologicalProcess
         name: Blood Pressure
+    -   id: GO:0007204
+        label: BiologicalProcess
+        name: positive regulation of cytosolic calcium ion concentration
+    -   id: GO:0045907
+        label: BiologicalProcess
+        name: positive regulation of vasoconstriction
     -   id: MESH:D006973
         label: Disease
         name: Hypertension
@@ -2553,6 +2296,9 @@
         drugbank: DB:DB01527
     links:
     -   key: treats
+        source: DB:DB01527
+        target: MESH:D000856
+    -   key: contraindicated for
         source: DB:DB01527
         target: MESH:D000856
     multigraph: true
@@ -6200,27 +5946,6 @@
         label: Disease
         name: Pneumococcal pneumonia
     reference: https://go.drugbank.com/polypeptides/P0A7J6 https://en.wikipedia.org/wiki/Pneumococcal_pneumonia#:~:text=Pneumococcal%20pneumonia%20is%20a%20type,common%20types%20of%20pneumococcal%20infection.
--   comment: clortermine is an anorectic drug, contraindicated for Anorexia nervosa
-    directed: true
-    graph:
-        disease: Anorexia nervosa
-        disease_mesh: MESH:D000856
-        drug: clortermine
-        drug_mesh: null
-        drugbank: DB:DB01527
-    links:
-    -   key: contraindicated for
-        source: DB:DB01527
-        target: MESH:D000856
-    multigraph: true
-    nodes:
-    -   id: DB:DB01527
-        label: Drug
-        name: clortermine
-    -   id: MESH:D000856
-        label: Disease
-        name: Anorexia nervosa
-    reference: https://pubmed.ncbi.nlm.nih.gov/4606535/ https://pubchem.ncbi.nlm.nih.gov/compound/Clortermine#section=Toxicity
 -   directed: true
     graph:
         disease: Urinary tract infectious disease
@@ -6329,140 +6054,6 @@
         label: Disease
         name: Peripheral T-cell lymphoma
     reference: https://go.drugbank.com/drugs/DB12498#BE0009787
--   directed: true
-    graph:
-        disease: Hypertensive disorder
-        disease_mesh: MESH:D006973
-        drug: minoxidil
-        drug_mesh: MESH:D008914
-        drugbank: DB:DB00350
-    links:
-    -   key: positively regulates
-        source: MESH:D008914
-        target: UniProt:P48048
-    -   key: moleculary interacts with
-        source: UniProt:P48048
-        target: CHEBI:29103
-    -   key: contributes to
-        source: CHEBI:29103
-        target: GO:0060081
-    -   key: negatively regulates
-        source: GO:0060081
-        target: GO:0007204
-    -   key: contributes to
-        source: GO:0007204
-        target: GO:0045907
-    -   key: contributes to
-        source: GO:0045907
-        target: MESH:D006973
-    multigraph: true
-    nodes:
-    -   id: MESH:D008914
-        label: Drug
-        name: minoxidil
-    -   id: UniProt:P48048
-        label: Protein
-        name: ATP-sensitive inward rectifier potassium channel 1
-    -   id: CHEBI:29103
-        label: ChemicalSubstance
-        name: potassium(1+)
-    -   id: GO:0060081
-        label: BiologicalProcess
-        name: membrane hyperpolarization
-    -   id: GO:0007204
-        label: BiologicalProcess
-        name: positive regulation of cytosolic calcium ion concentration
-    -   id: GO:0045907
-        label: BiologicalProcess
-        name: positive regulation of vasoconstriction
-    -   id: MESH:D006973
-        label: Disease
-        name: Hypertensive disorder
-    reference: https://go.drugbank.com/drugs/DB00350 https://pubmed.ncbi.nlm.nih.gov/8251426/
--   directed: true
-    graph:
-        disease: Alopecia
-        disease_mesh: MESH:D000505
-        drug: minoxidil
-        drug_mesh: MESH:D008914
-        drugbank: DB:DB00350
-    links:
-    -   key: positively regulates
-        source: MESH:D008914
-        target: R-HSA-5684996
-    -   key: positively regulates
-        source: MESH:D008914
-        target: UniProt:P48048
-    -   key: positively regulates
-        source: R-HSA-5684996
-        target: GO:0043066
-    -   key: moleculary interacts with
-        source: UniProt:P48048
-        target: CHEBI:29103
-    -   key: located in
-        source: GO:0043066
-        target: CL:0002559
-    -   key: contributes to
-        source: CHEBI:29103
-        target: GO:0060081
-    -   key: affected by
-        source: CL:0002559
-        target: MESH:D000505
-    -   key: negatively regulates
-        source: GO:0060081
-        target: GO:0007204
-    -   key: negatively correlated with
-        source: GO:0007204
-        target: GO:0042311
-    -   key: positively regulates
-        source: GO:0042311
-        target: GO:0008015
-    -   key: positively correlated with
-        source: GO:0008015
-        target: GO:0042640
-    -   key: negatively correlated with
-        source: GO:0042640
-        target: MESH:D000505
-    multigraph: true
-    nodes:
-    -   id: MESH:D008914
-        label: Drug
-        name: minoxidil
-    -   id: R-HSA-5684996
-        label: Pathway
-        name: ERK1/ERK2 pathway
-    -   id: UniProt:P48048
-        label: Protein
-        name: ATP-sensitive inward rectifier potassium channel 1
-    -   id: GO:0043066
-        label: BiologicalProcess
-        name: negative regulation of apoptotic process
-    -   id: CHEBI:29103
-        label: ChemicalSubstance
-        name: potassium(1+)
-    -   id: CL:0002559
-        label: Cell
-        name: hair follicle cell
-    -   id: GO:0060081
-        label: BiologicalProcess
-        name: membrane hyperpolarization
-    -   id: MESH:D000505
-        label: Disease
-        name: Alopecia
-    -   id: GO:0007204
-        label: BiologicalProcess
-        name: positive regulation of cytosolic calcium ion concentration
-    -   id: GO:0042311
-        label: BiologicalProcess
-        name: vasodilation
-    -   id: GO:0008015
-        label: BiologicalProcess
-        name: blood circulation
-    -   id: GO:0042640
-        label: BiologicalProcess
-        name: hair growth
-    reference: https://go.drugbank.com/drugs/DB00350 https://pubmed.ncbi.nlm.nih.gov/8251426/
-        https://en.wikipedia.org/wiki/Minoxidil#Mechanism_of_action
 -   directed: true
     graph:
         disease: Parkinson's disease
