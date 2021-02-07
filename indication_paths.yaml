@@ -8256,3 +8256,1235 @@
         label: Disease
         name: Malignant tumor of ovary
     reference: https://pubchem.ncbi.nlm.nih.gov/compound/Belotecan-hydrochloride https://en.wikipedia.org/wiki/Belotecan
+-   directed: true
+    graph:
+        disease: Endometriosis
+        disease_mesh: MESH:D004715
+        drug: leuprorelin
+        drug_mesh: MESH:D016729,MESH:C493311
+        drugbank: DB:DB00007
+    links:
+    -   key: increases activity of
+        source: MESH:D016729,MESH:C493311
+        target: UniProt:P30968
+    -   key: positively regulates
+        source: UniProt:P30968 
+        target: GO:0005183
+    -   key: regulates
+        source: GO:0005183
+        target: GO:0006703
+    -   key: positively correlated with
+        source: GO:0006703
+        target: MESH:D004715
+    multigraph: true
+    nodes:
+    -   id: MESH:D016729,MESH:C493311
+        label: Drug
+        name: leuprorelin
+    -   id: UniProt:P30968
+        label: Protein
+        name: Gonadotropin-releasing hormone receptor
+    -   id: GO:0005183
+        label: BiologicalProcess
+        name: gonadotropin hormone-releasing hormone activity
+    -   id: GO:0006703
+        label: estrogen biosynthetic process
+        name: BiologicalProcess
+    -   id: MESH:D004715
+        label: Disease
+        name: Endometriosis
+    reference: https://go.drugbank.com/drugs/DB00007 https://en.wikipedia.org/wiki/Endometriosis
+-   directed: true
+    graph:
+        disease: Precocious puberty
+        disease_mesh: MESH:D011629
+        drug: leuprorelin
+        drug_mesh: MESH:D016729,MESH:C493311
+        drugbank: DB:DB00007
+    links:
+    -   key: increases activity of
+        source: MESH:D016729,MESH:C493311
+        target: UniProt:P30968
+    -   key: positively regulates
+        source: UniProt:P30968 
+        target: GO:0005183
+    -   key: regulates
+        source: GO:0005183
+        target: GO:0006703 
+    -   key: regulates
+        source: GO:0005183
+        target: GO:0006702
+    -   key: regulates
+        source: GO:0005183
+        target: GO:0006701
+    -   key: positively correlated with
+        source: GO:0006703 
+        target: MESH:D011629
+    -   key: positively correlated with
+        source: GO:0006702
+        target: MESH:D011629
+    -   key: positively correlated with
+        source: GO:0006701
+        target: MESH:D011629
+    multigraph: true
+    nodes:
+    -   id: MESH:D016729,MESH:C493311
+        label: Drug
+        name: leuprorelin
+    -   id: UniProt:P30968
+        label: Protein
+        name: Gonadotropin-releasing hormone receptor
+    -   id: GO:0005183
+        label: BiologicalProcess
+        name: gonadotropin hormone-releasing hormone activity
+    -   id: GO:0006703
+        label: BiologicalProcess
+        name: estrogen biosynthetic process
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: androgen biosynthetic process
+    -   id: GO:0006701
+        label: BiologicalProcess
+        name: progesterone biosynthetic process
+    -   id: MESH:D011629
+        label: Disease
+        name: Precocious puberty
+    reference: https://go.drugbank.com/drugs/DB00007 https://en.wikipedia.org/wiki/Precocious_puberty
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:C057619
+        drug: glimepiride
+        drug_mesh: MESH:C057619
+        drugbank: DB:DB00222
+    links:
+    -   key: decreases activity of
+        source: MESH:C057619
+        target: UniProt:Q14654
+    -   key: decreases activity of
+        source: MESH:C057619
+        target: UniProt:P48048
+    -   key: positively regulates
+        source: UniProt:Q14654
+        target: GO:0051899
+    -   key: positively regulates
+        source: UniProt:P48048
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0070509 
+    -   key: located in 
+        source: GO:0070509 
+        target: CL:0000169
+    -   key: positively correlated with
+        source: CL:0000169
+        target: GO:0030073
+    -   key: negatively correlated with
+        source: GO:0030073
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C057619
+        label: Drug
+        name: glimepiride
+    -   id: UniProt:Q14654
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 11
+    -   id: UniProt:P48048
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 1
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: membrane depolarization
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: transmembrane calcium influx
+    -   id: CL:0000169
+        label: Cell
+        name: pancreatic beta cell
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: insulin secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB00222
+-   directed: true
+    graph:
+        disease: Dermatitis herpetiformis
+        disease_mesh: MESH:D003874
+        drug: dapsone
+        drug_mesh: MESH:D003622
+        drugbank: DB:DB00250
+    links:
+    -   key: negatively regulates
+        source: MESH:D003622
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D003874
+    multigraph: true
+    nodes:
+    -   id: MESH:D003622
+        label: Drug
+        name: dapsone
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003874
+        label: Disease
+        name: Dermatitis herpetiformis
+    reference: https://go.drugbank.com/drugs/DB00250 https://en.wikipedia.org/wiki/Dermatitis_herpetiformis
+-   directed: true
+    graph:
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: dapsone
+        drug_mesh: MESH:D003622
+        drugbank: DB:DB00250
+    links:
+    -   key: decreases activity of
+        source: MESH:D003622
+        target: UniProt:A0A2B7ICU0
+    -   key: positively regulates
+        source: UniProt:A0A2B7ICU0
+        target: GO:0046654
+    -   key: positively regulates
+        source: GO:0046654
+        target: GO:0009113
+    -   key: positively regulates
+        source: GO:0009113
+        target: GO:0071897
+    -   key: part of
+        source: GO:0071897
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1747
+    -   key: causes
+        source: NCBITaxon:1747
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:D003622
+        label: Drug
+        name: dapsone
+    -   id: UniProt:A0A2B7ICU0
+        label: Protein
+        name: Dihydropteroate synthase (Cutibacterium acnes)
+    -   id: GO:0046654
+        label: BiologicalProcess
+        name: tetrahydrofolate biosynthetic process
+    -   id: GO:0009113
+        label: BiologicalProcess
+        name: purine nucleobase biosynthetic process 
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1747
+        label: OrganismTaxon
+        name: Cutibacterium acnes
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: https://go.drugbank.com/drugs/DB00250  https://en.wikipedia.org/wiki/Acne https://pubmed.ncbi.nlm.nih.gov/24310318/
+-   directed: true
+    graph:
+        disease: Leprosy
+        disease_mesh: MESH:D007918
+        drug: dapsone
+        drug_mesh: MESH:D003622
+        drugbank: DB:DB00250
+    links:
+    -   key: decreases activity of
+        source: MESH:D003622
+        target: UniProt:P0C0X1
+    -   key: positively regulates
+        source: UniProt:P0C0X1
+        target: GO:0046654
+    -   key: positively regulates
+        source: GO:0046654
+        target: GO:0009113
+    -   key: positively regulates
+        source: GO:0009113
+        target: GO:0071897
+    -   key: part of
+        source: GO:0071897
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1769
+    -   key: causes
+        source: NCBITaxon:1769
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:D003622
+        label: Drug
+        name: dapsone
+    -   id: UniProt:P0C0X1
+        label: Protein
+        name: Dihydropteroate synthase (Mycobacterium leprae)
+    -   id: GO:0046654
+        label: BiologicalProcess
+        name: tetrahydrofolate biosynthetic process
+    -   id: GO:0009113
+        label: BiologicalProcess
+        name: purine nucleobase biosynthetic process 
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1769
+        label: OrganismTaxon
+        name: Mycobacterium leprae
+    -   id: MESH:D007918
+        label: Disease
+        name: Leprosy
+    reference: https://go.drugbank.com/drugs/DB00250 https://en.wikipedia.org/wiki/Leprosy
+-   directed: true
+    graph:
+        disease: Leprosy
+        disease_mesh: MESH:D007918
+        drug: dapsone
+        drug_mesh: MESH:D003622
+        drugbank: DB:DB00250
+    links:
+    -   key: decreases activity of
+        source: MESH:D003622
+        target: UniProt:A0A0F4ER22
+    -   key: positively regulates
+        source: UniProt:A0A0F4ER22
+        target: GO:0046654
+    -   key: positively regulates
+        source: GO:0046654
+        target: GO:0009113
+    -   key: positively regulates
+        source: GO:0009113
+        target: GO:0071897
+    -   key: part of
+        source: GO:0071897
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:480418
+    -   key: causes
+        source: NCBITaxon:480418
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:D003622
+        label: Drug
+        name: dapsone
+    -   id: UniProt:A0A0F4ER22
+        label: Protein
+        name: Dihydropteroate synthase (Mycobacterium lepromatosis)
+    -   id: GO:0046654
+        label: BiologicalProcess
+        name: tetrahydrofolate biosynthetic process
+    -   id: GO:0009113
+        label: BiologicalProcess
+        name: purine nucleobase biosynthetic process 
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:480418
+        label: OrganismTaxon
+        name: Mycobacterium lepromatosis
+    -   id: MESH:D007918
+        label: Disease
+        name: Leprosy
+    reference: https://go.drugbank.com/drugs/DB00250 https://en.wikipedia.org/wiki/Leprosy
+-   directed: true
+    graph:
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: ipratropium
+        drug_mesh: MESH:D009241
+        drugbank: DB:DB00332
+    links:
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: UniProt:P11229
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P08172
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P20309
+    -   key: participates in
+        source: UniProt:P11229
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P08172
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939 
+    -   key: located in
+        source: GO:0006939 
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D009241
+        label: Drug
+        name: ipratropium
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: Uniprot:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: Uniprot:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus 
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference: https://go.drugbank.com/drugs/DB00332#BE0000092  https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease
+-   directed: true
+    graph:
+        disease: Chronic obstructive lung disease
+        disease_mesh: MESH:D029424
+        drug: ipratropium
+        drug_mesh: MESH:D009241
+        drugbank: DB:DB00332
+    links:
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: UniProt:P11229
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P08172
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P20309
+    -   key: participates in
+        source: UniProt:P11229
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P08172
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939 
+    -   key: located in
+        source: GO:0006939 
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D029424
+    multigraph: true
+    nodes:
+    -   id: MESH:D009241
+        label: Drug
+        name: ipratropium
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: Uniprot:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: Uniprot:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus 
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D029424
+        label: Disease
+        name: Chronic obstructive lung disease
+    reference: https://go.drugbank.com/drugs/DB00332#BE0000092  https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: ipratropium
+        drug_mesh: MESH:D009241
+        drugbank: DB:DB00332
+    links:
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: UniProt:P11229
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P08172
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P20309
+    -   key: participates in
+        source: UniProt:P11229
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P08172
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939 
+    -   key: located in
+        source: GO:0006939 
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D009241
+        label: Drug
+        name: ipratropium
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: Uniprot:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: Uniprot:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus 
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00332#BE0000092 https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   directed: true
+    graph:
+        disease: Bronchospasm
+        disease_mesh: MESH:D001986
+        drug: ipratropium
+        drug_mesh: MESH:D009241
+        drugbank: DB:DB00332
+    links:
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: UniProt:P11229
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P08172
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P20309
+    -   key: participates in
+        source: UniProt:P11229
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P08172
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939 
+    -   key: located in
+        source: GO:0006939 
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001986
+    multigraph: true
+    nodes:
+    -   id: MESH:D009241
+        label: Drug
+        name: ipratropium
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: Uniprot:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: Uniprot:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus 
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: Bronchospasm
+        label: Disease
+        name: MESH:D001986
+    reference: https://go.drugbank.com/drugs/DB00332#BE0000092
+-   directed: true
+    graph:
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: ipratropium
+        drug_mesh: MESH:D009241
+        drugbank: DB:DB00332
+    links:
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: UniProt:P11229
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P08172
+    -   key: decreases activity of
+        source: MESH:D009241
+        target: Uniprot:P20309
+    -   key: participates in
+        source: UniProt:P11229
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P08172
+        target: GO:1905144
+    -   key: participates in
+        source: Uniprot:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939 
+    -   key: located in
+        source: GO:0006939 
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:D009241
+        label: Drug
+        name: ipratropium
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: Uniprot:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: Uniprot:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus 
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference: https://go.drugbank.com/drugs/DB00332#BE0000092 https://en.wikipedia.org/wiki/Bronchitis
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: loxapine
+        drug_mesh: MESH:D008152
+        drugbank: DB:DB00408
+    links:
+    -   key: decreases activity of
+        source: MESH:D008152
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:D008152
+        target: UniProt:P28223 
+    -   key: participates in
+        source: UniProt:P14416
+        target: GO:1903350
+    -   key: participates in
+        source: UniProt:P28223
+        target: GO:1904014
+    -   key: correlated with
+        source: GO:1903350
+        target: MESH:D012559
+    -   key: correlated with
+        source: GO:1904014
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: MESH:D008152
+        label: Drug
+        name: loxapine
+    -   id: UniProt:P28223 
+        label: Protein
+        name: Dopamine D2 receptor 
+    -   id: UniProt:P28223 
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: GO:1903350
+        label: BiologicalProcess
+        name: response to dopamine
+    -   id: GO:1904014
+        label: BiologicalProcess
+        name: response to serotonin
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB00408#BE0000756 https://pubmed.ncbi.nlm.nih.gov/27189524/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255483/
+-   directed: true
+    graph:
+        disease: Bipolar disorder
+        disease_mesh: MESH:D001714
+        drug: loxapine
+        drug_mesh: MESH:D008152
+        drugbank: DB:DB00408
+    links:
+    -   key: decreases activity of
+        source: MESH:D008152
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:D008152
+        target: UniProt:P28223 
+    -   key: participates in
+        source: UniProt:P14416
+        target: GO:1903350
+    -   key: participates in
+        source: UniProt:P28223
+        target: GO:1904014
+    -   key: correlated with
+        source: GO:1903350
+        target: MESH:D012559
+    -   key: correlated with
+        source: GO:1904014
+        target: MESH:D001714
+    multigraph: true
+    nodes:
+    -   id: MESH:D008152
+        label: Drug
+        name: loxapine
+    -   id: UniProt:P28223 
+        label: Protein
+        name: Dopamine D2 receptor 
+    -   id: UniProt:P28223 
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: GO:1903350
+        label: BiologicalProcess
+        name: response to dopamine
+    -   id: GO:1904014
+        label: BiologicalProcess
+        name: response to serotonin
+    -   id: MESH:D001714
+        label: Disease
+        name: Bipolar disorder
+    reference: https://go.drugbank.com/drugs/DB00408#BE0000756 https://en.wikipedia.org/wiki/Bipolar_disorder
+-   directed: true
+    graph:
+        disease: Malignant tumor of stomach
+        disease_mesh: MESH:D013274
+        drug: capecitabine
+        drug_mesh: MESH:D000069287
+        drugbank: DB:DB00544,DB:DB01101
+    links:
+    -   key: produces
+        source: MESH:D000069287
+        target: MESH:D005472
+    -   key: decreases activity of
+        source: MESH:D005472
+        target: UniProt:P04818
+    -   key: negatively regulates
+        source: MESH:D005472
+        target: GO:0090592
+    -   key: negatively regulates
+        source: MESH:D005472
+        target: GO:0032774
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: CHEBI:63528
+    -   key: part of
+        source: GO:0090592
+        target: GO:0008283 
+    -   key: part of
+        source: GO:0032774
+        target: GO:0008283 
+    -   key: participates in
+        source: CHEBI:63528
+        target: GO:0090592
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D013274
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069287
+        label: Drug
+        name: Capecitabine
+    -   id: MESH:D005472
+        label: ChemicalSubstance
+        name: Fluorouracil
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0032774
+        label: BiologicalProcess
+        name: RNA biosynthetic process
+    -   id: CHEBI:63528
+        label: ChemicalSubstance
+        name: Thymidine monophosphate
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D013274
+        label: Disease
+        name: Malignant tumor of stomach
+    reference: https://go.drugbank.com/drugs/DB01101#BE0000324 https://en.wikipedia.org/wiki/Stomach_cancer
+-   directed: true
+    graph:
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: oxaprozin
+        drug_mesh: MESH:C008729
+        drugbank: DB:DB00991
+    links:
+    -   key: decreases activity of
+        source: MESH:C008729
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C008729
+        target: UniProt:P35354
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D010003
+    multigraph: true
+    nodes:
+    -   id: MESH:C008729
+        label: Drug
+        name: oxaprozin
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference: https://go.drugbank.com/drugs/DB00991#BE0000017
+-   directed: true
+    graph:
+        disease: Juvenile rheumatoid arthritis
+        disease_mesh: MESH:D001171
+        drug: oxaprozin
+        drug_mesh: MESH:C008729
+        drugbank: DB:DB00991
+    links:
+    -   key: decreases activity of
+        source: MESH:C008729
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C008729
+        target: UniProt:P35354
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D001171
+    multigraph: true
+    nodes:
+    -   id: MESH:C008729
+        label: Drug
+        name: oxaprozin
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D001171
+        label: Disease
+        name: Juvenile rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB00991#BE0000017
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: oxaprozin
+        drug_mesh: MESH:C008729
+        drugbank: DB:DB00991
+    links:
+    -   key: decreases activity of
+        source: MESH:C008729
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C008729
+        target: UniProt:P35354
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C008729
+        label: Drug
+        name: oxaprozin
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB00991#BE0000017
+-   directed: true
+    graph:
+        disease: Gilles de la Tourette's syndrome
+        disease_mesh: MESH:D005879
+        drug: pimozide
+        drug_mesh: MESH:D010868
+        drugbank: DB:DB01100
+    links:
+    -   key: decreases activity of
+        source: MESH:D010868
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:D010868
+        target: UniProt:P35462
+    -   key: participates in
+        source: UniProt:P14416
+        target: GO:1903350
+    -   key: participates in
+        source: UniProt:P35462
+        target: GO:1903350
+    -   key: positively correlated with
+        source: GO:1903350
+        target: MESH:D005879
+    multigraph: true
+    nodes:
+    -   id: MESH:D010868
+        label: Drug
+        name: pimozide
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id:  GO:1903350
+        label: BiologicalProcess
+        name: response to dopamine
+    -   id: MESH:D005879
+        label: Disease
+        name: Gilles de la Tourette's syndrome
+    reference: https://go.drugbank.com/drugs/DB01100 https://en.wikipedia.org/wiki/Tourette_syndrome
+-   directed: true
+    graph:
+        disease: Dyspareunia
+        disease_mesh: MESH:D004414
+        drug: prasterone
+        drug_mesh: MESH:D003687
+        drugbank: DB:DB01708
+    links:
+    -   key: treats
+        source: MESH:D003687
+        target: MESH:D004414
+    multigraph: true
+    nodes:
+    -   id: MESH:D003687
+        label: Drug
+        name: prasterone
+    -   id: MESH:D004414
+        label: Disease
+        name: Dyspareunia
+    reference: https://go.drugbank.com/drugs/DB01708  https://en.wikipedia.org/wiki/Dyspareunia
+-   directed: true
+    graph:
+        disease: Systemic lupus erythematosus
+        disease_mesh: MESH:D008180
+        drug: prasterone
+        drug_mesh: MESH:D003687
+        drugbank: DB:DB01708
+    links:
+    -   key: treats
+        source: MESH:D003687
+        target: MESH:D008180
+    multigraph: true
+    nodes:
+    -   id: MESH:D003687
+        label: Drug
+        name: prasterone
+    -   id: MESH:D008180
+        label: Disease
+        name: Systemic lupus erythematosus
+    reference: https://go.drugbank.com/drugs/DB01708 
+-   directed: true
+    graph:
+        disease: Acute intermittent porphyria
+        disease_mesh: MESH:D017118
+        drug: hemin
+        drug_mesh: MESH:C048849,MESH:D006427
+        drugbank: DB:DB03404
+    links:
+    -   key: treats
+        source: MESH:C048849,MESH:D006427
+        target: MESH:D017118
+    multigraph: true
+    nodes:
+    -   id: MESH:C048849,MESH:D006427
+        label: Drug
+        name: hemin
+    -   id: MESH:D017118
+        label: Disease
+        name: Acute intermittent porphyria
+    reference: https://go.drugbank.com/drugs/DB03404
+-   directed: true
+    graph:
+        disease: Chronic myeloid leukemia
+        disease_mesh: MESH:D015464
+        drug: omacetaxine mepesuccinate
+        drug_mesh: MESH:C001652
+        drugbank: DB:DB04865
+    links:
+    -   key: decreases activity of
+        source: MESH:C001652
+        target: UniProt:P39023
+    -   key: participates in
+        source: UniProt:P39023
+        target: GO:0006412
+    -   key: increases abundance of
+        source: GO:0006412
+        target: UniProt:A9UF02
+    -   key: causes
+        source: UniProt:A9UF02
+        target: MESH:D015464
+    multigraph: true
+    nodes:
+    -   id: MESH:C001652
+        label: Drug
+        name: omacetaxine mepesuccinate
+    -   id: UniProt:P39023
+        label: Protein
+        name: 60S ribosomal protein L3
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: translation
+    -   id: UniProt:A9UF02
+        label: Protein
+        name: BCR/ABL protein-tyrosine kinase
+    -   id: MESH:D015464
+        label: Disease
+        name: Chronic myeloid leukemia 
+    reference: https://go.drugbank.com/drugs/DB04865#BE0003833 https://pubmed.ncbi.nlm.nih.gov/24501394/
+-   directed: true
+    graph:
+        disease: Inhalational anthrax
+        disease_mesh: MESH:C571912
+        drug: raxibacumab
+        drug_mesh: MESH:C542124
+        drugbank: DBDB08902
+    links:
+    -   key: decreases activity of
+        source: MESH:C542124
+        target: UniProt:P13423
+    -   key: produced by
+        source: UniProt:P13423
+        target: NCBITaxon:1392
+    -   key: causes
+        source: NCBITaxon:1392
+        target: MESH:C571912
+    multigraph: true
+    nodes:
+    -   id: MESH:C542124
+        label: Drug
+        name: raxibacumab
+    -   id: UniProt:P13423
+        label: Protein
+        name: Protective antigen
+    -   id: NCBITaxon:1392 
+        label: OrganismTaxon
+        name: Bacillus anthracis
+    -   id: MESH:C571912
+        label: Disease
+        name: Inhalational anthrax
+    reference: https://en.wikipedia.org/wiki/Anthrax https://go.drugbank.com/drugs/DB08902
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: anagliptin
+        drug_mesh: MESH:C583175
+        drugbank: DB:DB12417
+    links:
+    -   key: decreases activity of
+        source: MESH:C583175
+        target: UniProt:P27487
+    -   key: decreases abundance of
+        source: UniProt:P27487
+        target: CHEBI:80270
+    -   key: positively regulates
+        source: CHEBI:80270
+        target: GO:0030073
+    -   key: negatively regulates
+        source: CHEBI:80270
+        target: GO:0070091
+    -   key: negatively regulates
+        source: GO:0030073
+        target: HP:0003074
+    -   key: positively correlated with
+        source: GO:0070091
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C583175
+        label: Drug
+        name: anagliptin
+    -   id: UniProt:P27487
+        label: Protein
+        name: Dipeptidyl peptidase 4
+    -   id: CHEBI:80270
+        label: ChemicalSubstance
+        name: Glucagon-like peptide 1
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: insulin secretion
+    -   id: GO:0070091
+        label: BiologicalProcess
+        name: glucagon secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB12417 https://en.wikipedia.org/wiki/Anagliptin https://en.wikipedia.org/wiki/Type_2_diabetes
