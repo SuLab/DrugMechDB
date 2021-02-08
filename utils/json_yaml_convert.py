@@ -80,7 +80,7 @@ if __name__ == "__main__":
         outname = outname + '.yaml'
 
     elif in_yaml and not outname.endswith('.json'):
-        outname = outname = '.json'
+        outname = outname + '.json'
 
     if in_json:
         G = read_json(filename)
