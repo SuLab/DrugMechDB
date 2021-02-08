@@ -530,9 +530,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D000658
-        target: UniProt:P71707
+        target: TIGR:02074
     -   key: participates in
-        source: UniProt:P71707
+        source: TIGR:02074
         target: GO:0009252
     -   key: occurs in
         source: GO:0009252
@@ -545,9 +545,9 @@
     -   id: MESH:D000658
         label: Drug
         name: amoxicillin
-    -   id: UniProt:P71707
-        label: Protein
-        name: Penicillin-binding protein 1A
+    -   id: TIGR:02074
+        label: Protein family
+        name: Penicillin-binding proteins 1A
     -   id: GO:0009252
         label: BiologicalProcess
         name: Peptidoglycan Biosyntheic Process
@@ -693,9 +693,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D002442
-        target: UniProt:Q8DR59
+        target: TIGR:02074
     -   key: participates in
-        source: UniProt:Q8DR59
+        source: TIGR:02074
         target: GO:0009252
     -   key: occurs in
         source: GO:0009252
@@ -708,9 +708,9 @@
     -   id: MESH:D002442
         label: Drug
         name: ceftazidime
-    -   id: UniProt:Q8DR59
-        label: Protein
-        name: Penicillin-binding proteins
+    -   id: TIGR:02074
+        label: Protein family
+        name: Penicillin-binding protein 1A
     -   id: GO:0009252
         label: BiologicalProcess
         name: Bacterial Cell Wall Synthesis
@@ -1403,9 +1403,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D015296
-        target: UniProt:P71707
+        target: TIGR:02074
     -   key: participates in
-        source: UniProt:P71707
+        source: TIGR:02074
         target: GO:0009252
     -   key: occurs in
         source: GO:0009252
@@ -1418,8 +1418,8 @@
     -   id: MESH:D015296
         label: Drug
         name: ceftizoxime
-    -   id: UniProt:P71707
-        label: Protein
+    -   id: TIGR:02074
+        label: Protein family
         name: Penicillin-binding protein 1A
     -   id: GO:0009252
         label: BiologicalProcess
@@ -6624,34 +6624,72 @@
         drug_mesh: MESH:C059500
         drugbank: DB:DB00760
     links:
-    -   key: negatively regulates
+    -   key: decreases activity of
         source: MESH:C059500
-        target: UniProt:P59676
-    -   key: negatively regulates
-        source: MESH:C059500
-        target: UniProt:P0A0Z5
+        target: UniProt:Q8DR59 
     -   key: positively regulates
-        source: UniProt:P59676
-        target: GO:0009252
+        source: UniProt:Q8DR59
+        target: GO:0009252 
     -   key: positively regulates
-        source: UniProt:P0A0Z5
-        target: GO:0009252
-    -   key: positively regulates
-        source: GO:0009252
+        source: GO:0009252 
         target: GO:0009273
-    -   key: positively correlated with
+    -   key: part of
         source: GO:0009273
-        target: GO:0051301
-    -   key: occurs in
-        source: GO:0051301
+        target: GO:0051301 
+    -   key: occurs in 
+        source: GO:0051301 
         target: NCBITaxon:1313
-    -   key: occurs in
-        source: GO:0051301
-        target: NCBITaxon:487
-    -   key: positively correlated with
+    -   key: causes
         source: NCBITaxon:1313
         target: MESH:D016920
-    -   key: positively correlated with
+    multigraph: true
+    nodes:
+    -   id: MESH:C059500
+        label: Drug
+        name: meropenem
+    -   id: UniProt:Q8DR59 
+        label: Protein
+        name: Penicillin-binding protein 1A (Streptococcus pneumoniae)
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: peptidoglycan biosynthetic process
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301 
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae 
+    -   id: MESH:D016920
+        label: Disease
+        name: Bacterial meningitis
+    reference: https://go.drugbank.com/drugs/DB00760#BE0000744 https://en.wikipedia.org/wiki/Meningitis#Bacterial
+-   directed: true
+    graph:
+        disease: Bacterial meningitis
+        disease_mesh: MESH:D016920
+        drug: meropenem
+        drug_mesh: MESH:C059500
+        drugbank: DB:DB00760
+    links:
+    -   key: decreases activity of
+        source: MESH:C059500
+        target: UniProt:P0A0Z5 
+    -   key: positively regulates
+        source: UniProt:P0A0Z5
+        target: GO:0009252 
+    -   key: positively regulates
+        source: GO:0009252 
+        target: GO:0009273
+    -   key: part of
+        source: GO:0009273
+        target: GO:0051301 
+    -   key: occurs in 
+        source: GO:0051301 
+        target: NCBITaxon:487
+    -   key: causes
         source: NCBITaxon:487
         target: MESH:D016920
     multigraph: true
@@ -6659,27 +6697,21 @@
     -   id: MESH:C059500
         label: Drug
         name: meropenem
-    -   id: UniProt:P59676
-        label: Protein
-        name: Penicillin-binding protein 2X (Streptococcus pneumoniae)
     -   id: UniProt:P0A0Z5
         label: Protein
-        name: Penicillin-binding protein 1A (Neisseria meningitidis)
+        name:  Penicillin-binding protein 1A (Neisseria meningitidis)
     -   id: GO:0009252
         label: BiologicalProcess
         name: peptidoglycan biosynthetic process
     -   id: GO:0009273
         label: BiologicalProcess
         name: peptidoglycan-based cell wall biogenesis
-    -   id: GO:0051301
+    -   id: GO:0051301 
         label: BiologicalProcess
         name: cell division
-    -   id: NCBITaxon:1313
-        label: OrganismTaxon
-        name: Streptococcus pneumoniae
     -   id: NCBITaxon:487
         label: OrganismTaxon
-        name: Neisseria meningitidis
+        name: Neisseria meningitidis 
     -   id: MESH:D016920
         label: Disease
         name: Bacterial meningitis
