@@ -23,7 +23,7 @@ bl_map = pd.read_csv('utils/dmdb_to_bl_map.csv')
 
 BL_NODES = bl_map[['start_bl', 'end_bl']].stack().unique().tolist()
 BL_PREDS = pd.read_csv('utils/biolink_preds.txt', header=None)[0].str.replace('_', ' ').tolist() +\
-           ['positively regulates', 'negatively regulates']
+           ['regulates', 'positively regulates', 'negatively regulates']
 
 def validate_dict_keys(to_val, req_keys, msg=''):
     for req_key in req_keys:
