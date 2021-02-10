@@ -5,7 +5,7 @@ import pandas as pd
 import networkx as nx
 from collections import defaultdict
 
-from utils.test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
+from test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
 
 
 # Define some globals for use in this script
