@@ -3794,14 +3794,14 @@
         disease_mesh: MESH:D014010
         drug: acrisorcin
         drug_mesh: MESH:D000585, MESH:D006604
-        drugbank: DB:, DB11254
+        drugbank: DB:DB11254
     links:
     -   key: treats
-        source: MESH:D000585, MESH:D006604
+        source: DB:DB11254
         target: MESH:D014010
     multigraph: true
     nodes:
-    -   id: MESH:D000585, MESH:D006604
+    -   id: DB:DB11254
         label: Drug
         name: acrisorcin
     -   id: MESH:D014010
@@ -4655,7 +4655,7 @@
     -   key: located in
         source: GO:0006954
         target: UBERON:0000004
-    -   key: affected_by
+    -   key: affected by
         source: UBERON:0000004
         target: MESH:D006255
     multigraph: true
@@ -4763,7 +4763,7 @@
     -   key: located in
         source: GO:0006954
         target: UBERON:0000004
-    -   key: affected_by
+    -   key: affected by
         source: UBERON:0000004
         target: MESH:D065631
     multigraph: true
@@ -4972,7 +4972,7 @@
         drugbank: DB:DB08822
     links:
     -   key: negatively regulates
-        source: MESH:C521273,MESH:C557413
+        source: DB:DB08822
         target: UniProt:P30556
     -   key: positively correlated with
         source: UniProt:P30556
@@ -4985,7 +4985,7 @@
         target: MESH:D006973
     multigraph: true
     nodes:
-    -   id: MESH:C521273,MESH:C557413
+    -   id: DB:DB08822
         label: Drug
         name: azilsartan medoxomil
     -   id: UniProt:P30556
@@ -5361,14 +5361,14 @@
         drugbank: DB:DB00856
     links:
     -   key: causes
-        source: MESH:D002743,MESH:C015071
+        source: DB:DB00856
         target: GO:0090075
     -   key: negatively correlated with
         source: GO:0090075
         target: MESH:D009128
     multigraph: true
     nodes:
-    -   id: MESH:D002743,MESH:C015071
+    -   id: DB:DB00856
         label: Drug
         name: chlorphenesin carbamate
     -   id: GO:0090075
@@ -5655,7 +5655,7 @@
         drugbank: DB:DB01211
     links:
     -   key: negatively regulates
-        source: MESH:C040934,MESH:D017291
+        source: DB:DB01211
         target: MESH:D012338
     -   key: positively correlated with
         source: MESH:D012338
@@ -5674,7 +5674,7 @@
         target: MESH:D013203
     multigraph: true
     nodes:
-    -   id: MESH:C040934,MESH:D017291
+    -   id: DB:DB01211
         label: Drug
         name: clarithromycin
     -   id: MESH:D012338
@@ -5705,7 +5705,7 @@
         drugbank: DB:DB01211
     links:
     -   key: negatively regulates
-        source: MESH:C040934,MESH:D017291
+        source: DB:DB01211
         target: MESH:D012338
     -   key: positively correlated with
         source: MESH:D012338
@@ -5724,7 +5724,7 @@
         target: MESH:D013290
     multigraph: true
     nodes:
-    -   id: MESH:C040934,MESH:D017291
+    -   id: DB:DB01211
         label: Drug
         name: clarithromycin
     -   id: MESH:D012338
@@ -5755,7 +5755,7 @@
         drugbank: DB:DB01211
     links:
     -   key: negatively regulates
-        source: MESH:C040934,MESH:D017291
+        source: DB:DB01211
         target: MESH:D012338
     -   key: positively correlated with
         source: MESH:D012338
@@ -5774,7 +5774,7 @@
         target: MESH:D061387
     multigraph: true
     nodes:
-    -   id: MESH:C040934,MESH:D017291
+    -   id: DB:DB01211
         label: Drug
         name: clarithromycin
     -   id: MESH:D012338
@@ -5805,7 +5805,7 @@
         drugbank: DB:DB01211
     links:
     -   key: negatively regulates
-        source: MESH:C040934,MESH:D017291
+        source: DB:DB01211
         target: MESH:D012338
     -   key: positively correlated with
         source: MESH:D012338
@@ -5824,7 +5824,7 @@
         target: MESH:D011019
     multigraph: true
     nodes:
-    -   id: MESH:C040934,MESH:D017291
+    -   id: DB:DB01211
         label: Drug
         name: clarithromycin
     -   id: MESH:D012338
@@ -5855,7 +5855,7 @@
         drugbank: DB:DB01211
     links:
     -   key: negatively regulates
-        source: MESH:C040934,MESH:D017291
+        source: DB:DB01211
         target: MESH:D012338
     -   key: positively correlated with
         source: MESH:D012338
@@ -5874,7 +5874,7 @@
         target: MESH:D018410
     multigraph: true
     nodes:
-    -   id: MESH:C040934,MESH:D017291
+    -   id: DB:DB01211
         label: Drug
         name: clarithromycin
     -   id: MESH:D012338
@@ -5905,7 +5905,7 @@
         drugbank: DB:DB01211
     links:
     -   key: negatively regulates
-        source: MESH:C040934,MESH:D017291
+        source: DB:DB01211
         target: MESH:D012338
     -   key: positively correlated with
         source: MESH:D012338
@@ -5924,7 +5924,7 @@
         target: MESH:D011018
     multigraph: true
     nodes:
-    -   id: MESH:C040934,MESH:D017291
+    -   id: DB:DB01211
         label: Drug
         name: clarithromycin
     -   id: MESH:D012338
@@ -5955,7 +5955,7 @@
         drugbank: DB:DB06799
     links:
     -   key: produces
-        source: MESH:C023055,MESH:D008709,MESH:C011481
+        source: DB:DB06799
         target: MESH:D005557
     -   key: causes
         source: MESH:D005557
@@ -5968,7 +5968,7 @@
         target: MESH:D014552
     multigraph: true
     nodes:
-    -   id: MESH:C023055,MESH:D008709,MESH:C011481
+    -   id: DB:DB06799
         label: Drug
         name: methenamine
     -   id: MESH:D005557
@@ -7147,10 +7147,10 @@
         drugbank: DB:DB08867
     links:
     -   key: positively regulates
-        source: MESH:C555622,MESH:C094854
+        source: DB:DB08867
         target: GO:0006915
     -   key: positively regulates
-        source: MESH:C555622,MESH:C094854
+        source: DB:DB08867
         target: GO:0008285
     -   key: negatively correlated with
         source: GO:0006915
@@ -7160,7 +7160,7 @@
         target: MESH:D007889
     multigraph: true
     nodes:
-    -   id: MESH:C555622,MESH:C094854
+    -   id: DB:DB08867
         label: Drug
         name: ulipristal
     -   id: GO:0006915
@@ -8128,22 +8128,22 @@
         drug_mesh: MESH:C547076
         drugbank: DB:DB05352
     links:
-    -   key: INCREASES STABILITY OF
+    -   key: increases stability of
         source: MESH:C547076
         target: UniProt:P02766
-    -   key: ENABLES
+    -   key: enables
         source: UniProt:P02766
         target: GO:0042802
     -   key: causes
         source: GO:0042802
         target: GO:0051262
-    -   key: DISRUPTED BY
+    -   key: disrupted by
         source: GO:0051262
         target: GO:0043243
     -   key: correlated with
         source: GO:0043243
         target: GO:1903333
-    -   key: EXACERBATES
+    -   key: exacerbates
         source: GO:1903333
         target: GO:1990000
     -   key: causes
@@ -8187,7 +8187,7 @@
     -   key: decreases activity of
         source: MESH:C116963
         target: UniProt:P11387
-    -   key: ENABLES
+    -   key: enables
         source: UniProt:P11387
         target: GO:0003697
     -   key: negatively correlated with
@@ -8243,7 +8243,7 @@
     -   key: decreases activity of
         source: MESH:C116963
         target: UniProt:P11387
-    -   key: ENABLES
+    -   key: enables
         source: UniProt:P11387
         target: GO:0003697
     -   key: negatively correlated with
@@ -8299,7 +8299,7 @@
     -   key: decreases uptake of
         source: MESH:D000661
         target: UniProt:Q01959
-    -   key: induces
+    -   key: causes
         source: UniProt:Q01959
         target: MESH:D004298
     -   key: located in
@@ -8343,7 +8343,7 @@
     -   key: decreases uptake of
         source: MESH:D000661
         target: UniProt:P23975
-    -   key: induces
+    -   key: causes
         source: UniProt:P23975
         target: MESH:D009638
     -   key: located in
@@ -8387,7 +8387,7 @@
     -   key: decreases uptake of
         source: MESH:D000661
         target: UniProt:Q05940
-    -   key: increases
+    -   key: increases abundance of
         source: UniProt:Q05940
         target: MESH:D018377
     -   key: located in
@@ -8424,11 +8424,11 @@
     links:
     -   key: decreases activity of
         source: MESH:D000661
-        target: Protein
+        target: InterPro:IPR001613
     -   key: located in
-        source: Protein
+        source: InterPro:IPR001613
         target: GO:0005739
-    -   key: increases
+    -   key: increases abundance of
         source: GO:0005739
         target: MESH:D018377
     -   key: treats
@@ -8439,8 +8439,8 @@
     -   id: MESH:D000661
         label: Drug
         name: amfetamine
-    -   id: Protein
-        label: Protein
+    -   id: InterPro:IPR001613
+        label: GeneFamily
         name: monoamine oxidase
     -   id: GO:0005739
         label: CellularComponent
@@ -8463,13 +8463,13 @@
     -   key: decreases uptake of
         source: MESH:D000661
         target: UniProt:Q05940
-    -   key: increases
+    -   key: increases abundance of
         source: UniProt:Q05940
         target: MESH:D018377
     -   key: located in
         source: MESH:D018377
         target: GO:0045202
-    -   key: reduced in
+    -   key: negatively correlated with
         source: GO:0045202
         target: MESH:D001289
     multigraph: true
@@ -8500,9 +8500,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D000661
-        target: Protein
+        target: InterPro:IPR001613
     -   key: located in
-        source: Protein
+        source: InterPro:IPR001613
         target: GO:0005739
     -   key: increases abundance of
         source: GO:0005739
@@ -8515,7 +8515,7 @@
     -   id: MESH:D000661
         label: Drug
         name: amfetamine
-    -   id: Protein
+    -   id: InterPro:IPR001613
         label: Protein
         name: monoamine oxidase
     -   id: GO:0005739
@@ -9475,7 +9475,7 @@
         drugbank: DB:DB00007
     links:
     -   key: increases activity of
-        source: MESH:D016729,MESH:C493311
+        source: DB:DB00007
         target: UniProt:P30968
     -   key: positively regulates
         source: UniProt:P30968
@@ -9488,7 +9488,7 @@
         target: MESH:D004715
     multigraph: true
     nodes:
-    -   id: MESH:D016729,MESH:C493311
+    -   id: DB:DB00007
         label: Drug
         name: leuprorelin
     -   id: UniProt:P30968
@@ -9513,7 +9513,7 @@
         drugbank: DB:DB00007
     links:
     -   key: increases activity of
-        source: MESH:D016729,MESH:C493311
+        source: DB:DB00007
         target: UniProt:P30968
     -   key: positively regulates
         source: UniProt:P30968
@@ -9538,7 +9538,7 @@
         target: MESH:D011629
     multigraph: true
     nodes:
-    -   id: MESH:D016729,MESH:C493311
+    -   id: DB:DB00007
         label: Drug
         name: leuprorelin
     -   id: UniProt:P30968
@@ -9833,18 +9833,18 @@
         target: UniProt:P11229
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P08172
+        target: UniProt:P08172
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P20309
+        target: UniProt:P20309
     -   key: participates in
         source: UniProt:P11229
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P08172
+        source: UniProt:P08172
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P20309
+        source: UniProt:P20309
         target: GO:1905144
     -   key: positively regulates
         source: GO:1905144
@@ -9866,10 +9866,10 @@
     -   id: UniProt:P11229
         label: Protein
         name: Muscarinic acetylcholine receptor M1
-    -   id: Uniprot:P08172
+    -   id: UniProt:P08172
         label: Protein
         name: Muscarinic acetylcholine receptor M2
-    -   id: Uniprot:P20309
+    -   id: UniProt:P20309
         label: Protein
         name: Muscarinic acetylcholine receptor M3
     -   id: GO:1905144
@@ -9901,18 +9901,18 @@
         target: UniProt:P11229
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P08172
+        target: UniProt:P08172
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P20309
+        target: UniProt:P20309
     -   key: participates in
         source: UniProt:P11229
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P08172
+        source: UniProt:P08172
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P20309
+        source: UniProt:P20309
         target: GO:1905144
     -   key: positively regulates
         source: GO:1905144
@@ -9934,10 +9934,10 @@
     -   id: UniProt:P11229
         label: Protein
         name: Muscarinic acetylcholine receptor M1
-    -   id: Uniprot:P08172
+    -   id: UniProt:P08172
         label: Protein
         name: Muscarinic acetylcholine receptor M2
-    -   id: Uniprot:P20309
+    -   id: UniProt:P20309
         label: Protein
         name: Muscarinic acetylcholine receptor M3
     -   id: GO:1905144
@@ -9969,18 +9969,18 @@
         target: UniProt:P11229
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P08172
+        target: UniProt:P08172
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P20309
+        target: UniProt:P20309
     -   key: participates in
         source: UniProt:P11229
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P08172
+        source: UniProt:P08172
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P20309
+        source: UniProt:P20309
         target: GO:1905144
     -   key: positively regulates
         source: GO:1905144
@@ -10002,10 +10002,10 @@
     -   id: UniProt:P11229
         label: Protein
         name: Muscarinic acetylcholine receptor M1
-    -   id: Uniprot:P08172
+    -   id: UniProt:P08172
         label: Protein
         name: Muscarinic acetylcholine receptor M2
-    -   id: Uniprot:P20309
+    -   id: UniProt:P20309
         label: Protein
         name: Muscarinic acetylcholine receptor M3
     -   id: GO:1905144
@@ -10037,18 +10037,18 @@
         target: UniProt:P11229
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P08172
+        target: UniProt:P08172
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P20309
+        target: UniProt:P20309
     -   key: participates in
         source: UniProt:P11229
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P08172
+        source: UniProt:P08172
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P20309
+        source: UniProt:P20309
         target: GO:1905144
     -   key: positively regulates
         source: GO:1905144
@@ -10070,10 +10070,10 @@
     -   id: UniProt:P11229
         label: Protein
         name: Muscarinic acetylcholine receptor M1
-    -   id: Uniprot:P08172
+    -   id: UniProt:P08172
         label: Protein
         name: Muscarinic acetylcholine receptor M2
-    -   id: Uniprot:P20309
+    -   id: UniProt:P20309
         label: Protein
         name: Muscarinic acetylcholine receptor M3
     -   id: GO:1905144
@@ -10105,18 +10105,18 @@
         target: UniProt:P11229
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P08172
+        target: UniProt:P08172
     -   key: decreases activity of
         source: MESH:D009241
-        target: Uniprot:P20309
+        target: UniProt:P20309
     -   key: participates in
         source: UniProt:P11229
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P08172
+        source: UniProt:P08172
         target: GO:1905144
     -   key: participates in
-        source: Uniprot:P20309
+        source: UniProt:P20309
         target: GO:1905144
     -   key: positively regulates
         source: GO:1905144
@@ -10138,10 +10138,10 @@
     -   id: UniProt:P11229
         label: Protein
         name: Muscarinic acetylcholine receptor M1
-    -   id: Uniprot:P08172
+    -   id: UniProt:P08172
         label: Protein
         name: Muscarinic acetylcholine receptor M2
-    -   id: Uniprot:P20309
+    -   id: UniProt:P20309
         label: Protein
         name: Muscarinic acetylcholine receptor M3
     -   id: GO:1905144
@@ -10953,7 +10953,7 @@
     -   key: positively regulates
         source: UniProt:P00439
         target: GO:0004505
-    -   key: decreases the abundance of
+    -   key: decreases abundance of
         source: GO:0004505
         target: CHEBI:28044
     -   key: positively correlated with
@@ -10985,7 +10985,7 @@
         drug_mesh: MESH:D001414
         drugbank: DB:DB00626
     links:
-    -   key: reduces abundance of
+    -   key: decreases abundance of
         source: MESH:D001414
         target: CHEBI:17047
     -   key: participates in
@@ -11696,8 +11696,8 @@
         disease: Obesity
         disease_mesh: MESH:D009765
         drug: phendimetrazine
-        drug_mesh: DB:DB01579
-        drugbank: MESH:C100294
+        drug_mesh: MESH:C100294
+        drugbank: DB:DB01579
     links:
     -   key: increases activity of
         source: MESH:C100294
@@ -11734,8 +11734,8 @@
         disease: Obesity
         disease_mesh: MESH:D009765
         drug: phendimetrazine
-        drug_mesh: MESH:C100294
-        drugbank: DB:DB01579
+        drug_mesh: DB:DB01579
+        drugbank: MESH:C100294
     links:
     -   key: negatively regulates
         source: MESH:C100294
@@ -11778,8 +11778,8 @@
         disease: Obesity
         disease_mesh: MESH:D009765
         drug: phendimetrazine
-        drug_mesh: MESH:C100294
-        drugbank: DB:DB01579
+        drug_mesh: DB:DB01579
+        drugbank: MESH:C100294
     links:
     -   key: increases activity of
         source: MESH:C100294
@@ -11816,8 +11816,8 @@
         disease: Absence seizure
         disease_mesh: MESH:D004832
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: decreases activity of
         source: MESH:D014635
@@ -11866,8 +11866,8 @@
         disease: Absence seizure
         disease_mesh: MESH:D004832
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: molecularly interacts with
         source: MESH:D014635
@@ -11894,7 +11894,7 @@
         name: valproic acid
     -   id: UniProt:P36507
         label: Protein
-        name: mitogen-activated protein kinase (MEK) 
+        name: mitogen-activated protein kinase (MEK)
     -   id: UniProt:P28482
         label: Protein
         name: Extracellular Signal-Regulated Kinase
@@ -11916,8 +11916,8 @@
         disease: Absence seizure
         disease_mesh: MESH:D004832
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: molecularly interacts with
         source: MESH:D014635
@@ -11944,7 +11944,7 @@
         name: valproic acid
     -   id: UniProt:P36507
         label: Protein
-        name: mitogen-activated protein kinase (MEK) 
+        name: mitogen-activated protein kinase (MEK)
     -   id: UniProt:P28482
         label: Protein
         name: Extracellular Signal-Regulated Kinase
@@ -11966,8 +11966,8 @@
         disease: Absence seizure
         disease_mesh: MESH:D004832
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: molecularly interacts with
         source: MESH:D014635
@@ -11997,7 +11997,7 @@
         name: valproic acid
     -   id: UniProt:P36507
         label: Protein
-        name: mitogen-activated protein kinase (MEK) 
+        name: mitogen-activated protein kinase (MEK)
     -   id: UniProt:P28482
         label: Protein
         name: Extracellular Signal-Regulated Kinase
@@ -12022,17 +12022,17 @@
         disease: Bipolar disorder
         disease_mesh: MESH:D001714
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: decreases activity of
         source: MESH:D014635
         target: InterPro:IPR002587
     -   key: decreases activity of
         source: InterPro:IPR002587
-        target: UniProt: P29218
+        target: UniProt:P29218
     -   key: decreases abundance of
-        source: UniProt: P29218
+        source: UniProt:P29218
         target: MESH:D007294
     -   key: correlated with
         source: MESH:D007294
@@ -12045,7 +12045,7 @@
     -   id: InterPro:IPR002587
         label: GeneFamily
         name: myo-inositol-1-phophate synthetase
-    -   id: UniProt: P29218
+    -   id: UniProt:P29218
         label: Protein
         name: inositol monophosphatase
     -   id: MESH:D007294
@@ -12060,8 +12060,8 @@
         disease: Bipolar disorder
         disease_mesh: MESH:D001714
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: negatively regulates
         source: MESH:D014635
@@ -12088,7 +12088,7 @@
         name: Myristoylated alanine-rich C kinase substrate
     -   id: UniProt:P17252
         label: Protein
-        name: protein kinase C (PKC)-α
+        name: Protein kinase C alpha type
     -   id: UBERON:0001870
         label: GrossAnatomicalStructure
         name: frontal cortex
@@ -12104,8 +12104,8 @@
         disease: Bipolar disorder
         disease_mesh: MESH:D001714
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: negatively regulates
         source: MESH:D014635
@@ -12132,7 +12132,7 @@
         name: Myristoylated alanine-rich C kinase substrate
     -   id: UniProt:Q02156
         label: Protein
-        name: protein kinase C (PKC)-ε
+        name: "protein kinase C (PKC)-\u03B5"
     -   id: UBERON:0001870
         label: GrossAnatomicalStructure
         name: frontal cortex
@@ -12148,8 +12148,8 @@
         disease: Epilepsy
         disease_mesh: MESH:D004827
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: negatively regulates
         source: MESH:D014635
@@ -12168,11 +12168,11 @@
     -   id: MESH:D014635
         label: Drug
         name: valproic acid
-    -   id: REACT:R-HSA-211976
+    -   alt_ids:
+        - KEGG:M00100
+        id: REACT:R-HSA-211976
         label: Pathway
         name: sterol metabolism
-        alt_ids:
-        - KEGG:M00100
     -   id: MESH:D008560
         label: BiologicalProcess
         name: membrane fluidity
@@ -12188,8 +12188,8 @@
         disease: Epilepsy
         disease_mesh: MESH:D004827
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: negatively regulates
         source: MESH:D014635
@@ -12208,11 +12208,11 @@
     -   id: MESH:D014635
         label: Drug
         name: valproic acid
-    -   id: REACT:R-HSA-556833
+    -   alt_ids:
+        - KEGG:M00561
+        id: REACT:R-HSA-556833
         label: Pathway
         name: glycerolipids metabolism
-        alt_ids:
-        - KEGG:M00561
     -   id: MESH:D008560
         label: BiologicalProcess
         name: membrane fluidity
@@ -12228,8 +12228,8 @@
         disease: Epilepsy
         disease_mesh: MESH:D004827
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: decreases activity of
         source: MESH:D014635
@@ -12253,7 +12253,7 @@
         name: valproic acid
     -   id: UniProt:Q9UKV0
         label: Protein
-        name: histone deactylase (HDAC) 
+        name: histone deactylase (HDAC)
     -   id: GO:0045893
         label: BiologicalProcess
         name: gene transcription
@@ -12272,8 +12272,8 @@
         disease: Absence seizure
         disease_mesh: MESH:D004832
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: decreases activity of
         source: MESH:D014635
@@ -12294,7 +12294,7 @@
         name: valproic acid
     -   id: UniProt:Q9UKV0
         label: Protein
-        name: histone deactylase (HDAC) 
+        name: histone deactylase (HDAC)
     -   id: GO:0045893
         label: BiologicalProcess
         name: gene transcription
@@ -12310,8 +12310,8 @@
         disease: migraine
         disease_mesh: MESH:D008881
         drug: valproic acid
-        drug_mesh: DB:DB00313
-        drugbank: MESH:D014635
+        drug_mesh: MESH:D014635
+        drugbank: DB:DB00313
     links:
     -   key: decreases activity of
         source: MESH:D014635
@@ -12354,8 +12354,8 @@
         disease: Human immunodeficiency virus infection
         disease_mesh: MESH:D015658
         drug: zidovudine
-        drug_mesh: DB:DB00495
-        drugbank: MESH:D015215
+        drug_mesh: MESH:D015215
+        drugbank: DB:DB00495
     links:
     -   key: increases abundance of
         source: MESH:D015215
@@ -12398,8 +12398,8 @@
         disease: Opioid dependence
         disease_mesh: MESH:D009293
         drug: levomethadyl acetate
-        drug_mesh: DB:DB01227
-        drugbank: NULL
+        drug_mesh: null
+        drugbank: DB:DB01227
     links:
     -   key: increases activity of
         source: DB:DB01227
@@ -12436,8 +12436,8 @@
         disease: Open-angle glaucoma
         disease_mesh: MESH:D005902
         drug: levobunolol
-        drug_mesh: DB:DB01210
-        drugbank: MESH:D002040
+        drug_mesh: MESH:D002040
+        drugbank: DB:DB01210
     links:
     -   key: decreases activity of
         source: MESH:D002040
@@ -12486,8 +12486,8 @@
         disease: Open-angle glaucoma
         disease_mesh: MESH:D005902
         drug: levobunolol
-        drug_mesh: DB:DB01210
-        drugbank: MESH:D002040
+        drug_mesh: MESH:D002040
+        drugbank: DB:DB01210
     links:
     -   key: decreases activity of
         source: MESH:D002040
@@ -12536,8 +12536,8 @@
         disease: Ocular hypertension
         disease_mesh: MESH:D009798
         drug: levobunolol
-        drug_mesh: DB:DB01210
-        drugbank: MESH:D002040
+        drug_mesh: MESH:D002040
+        drugbank: DB:DB01210
     links:
     -   key: decreases activity of
         source: MESH:D002040
@@ -12586,8 +12586,8 @@
         disease: Ocular hypertension
         disease_mesh: MESH:D009798
         drug: levobunolol
-        drug_mesh: DB:DB01210
-        drugbank: MESH:D002040
+        drug_mesh: MESH:D002040
+        drugbank: DB:DB01210
     links:
     -   key: decreases activity of
         source: MESH:D002040
@@ -12636,8 +12636,8 @@
         disease: Bacterial conjunctivitis
         disease_mesh: MESH:D003234
         drug: gramicidin
-        drug_mesh: DB:DB00027
-        drugbank: MESH:D006096
+        drug_mesh: MESH:D006096
+        drugbank: DB:DB00027
     links:
     -   key: causes
         source: MESH:D006096
@@ -12704,8 +12704,8 @@
         disease: Acute coronary syndrome
         disease_mesh: MESH:D054058
         drug: clopidogrel
-        drug_mesh: DB:DB00758
-        drugbank: NULL
+        drug_mesh: null
+        drugbank: DB:DB00758
     links:
     -   key: enabled by
         source: DB:DB00758
@@ -12721,9 +12721,9 @@
         target: MESH:D000244
     -   key: decreases activity of
         source: MESH:D000244
-        target: ComplexPortal:CPX-1799
+        target: PR:000028445
     -   key: prevents
-        source: ComplexPortal:CPX-1799
+        source: PR:000028445
         target: GO:0070527
     -   key: correlated with
         source: GO:0070527
@@ -12738,15 +12738,15 @@
         name: carboxylesterase-1
     -   id: UniProt:Q9H244
         label: Protein
-        name:  P2Y12 receptor
+        name: P2Y12 receptor
     -   id: CL:0000233
         label: Cell
         name: platelet
     -   id: MESH:D000244
         label: ChemicalSubstance
         name: ADP
-    -   id: ComplexPortal:CPX-1799
-        label: Complexes
+    -   id: PR:000028445
+        label: MacromolecularComplex
         name: glycoprotein GPIIb/IIIa complex
     -   id: GO:0070527
         label: BiologicalProcess
@@ -12760,8 +12760,8 @@
         disease: Cerebral embolism
         disease_mesh: MESH:D020766
         drug: clopidogrel
-        drug_mesh: DB:DB00758
-        drugbank: NULL
+        drug_mesh: null
+        drugbank: DB:DB00758
     links:
     -   key: enabled by
         source: DB:DB00758
@@ -12777,9 +12777,9 @@
         target: MESH:D000244
     -   key: decreases activity of
         source: MESH:D000244
-        target: ComplexPortal:CPX-1799
+        target: PR:000028445
     -   key: prevents
-        source: ComplexPortal:CPX-1799
+        source: PR:000028445
         target: GO:0070527
     -   key: causes
         source: GO:0070527
@@ -12794,15 +12794,15 @@
         name: carboxylesterase-1
     -   id: UniProt:Q9H244
         label: Protein
-        name:  P2Y12 receptor
+        name: P2Y12 receptor
     -   id: CL:0000233
         label: Cell
         name: platelet
     -   id: MESH:D000244
         label: ChemicalSubstance
         name: ADP
-    -   id: ComplexPortal:CPX-1799
-        label: Complexes
+    -   id: PR:000028445
+        label: MacromolecularComplex
         name: glycoprotein GPIIb/IIIa complex
     -   id: GO:0070527
         label: BiologicalProcess
@@ -12816,8 +12816,8 @@
         disease: Chronic hepatitis C
         disease_mesh: MESH:D019698
         drug: boceprevir
-        drug_mesh: DB:DB08873
-        drugbank: MESH:C512204
+        drug_mesh: MESH:C512204
+        drugbank: DB:DB08873
     links:
     -   key: decreases activity of
         source: MESH:C512204
@@ -12854,8 +12854,8 @@
         disease: Prader-Willi syndrome
         disease_mesh: MESH:D011218
         drug: carbetocin
-        drug_mesh: DB:DB01282
-        drugbank: MESH:C020731
+        drug_mesh: MESH:C020731
+        drugbank: DB:DB01282
     links:
     -   key: treats
         source: MESH:C020731
@@ -12874,8 +12874,8 @@
         disease: postpartum hemorrhage
         disease_mesh: MESH:D006473
         drug: carbetocin
-        drug_mesh: DB:DB01282
-        drugbank: MESH:C020731
+        drug_mesh: MESH:C020731
+        drugbank: DB:DB01282
     links:
     -   key: increases activity of
         source: MESH:C020731
@@ -12918,8 +12918,8 @@
         disease: Gonorrhea
         disease_mesh: MESH:D006069
         drug: cefixime
-        drug_mesh: DB:DB00671
-        drugbank: MESH:D020682
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
     links:
     -   key: molecularly interacts with
         source: MESH:D020682
@@ -12980,8 +12980,8 @@
         disease: Tonsillitis
         disease_mesh: MESH:D014069
         drug: cefixime
-        drug_mesh: DB:DB00671
-        drugbank: MESH:D020682
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
     links:
     -   key: molecularly interacts with
         source: MESH:D020682
@@ -13042,8 +13042,8 @@
         disease: Streptococcus pyogenes infection
         disease_mesh: MESH:D013290
         drug: cefixime
-        drug_mesh: DB:DB00671
-        drugbank: MESH:D020682
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
     links:
     -   key: molecularly interacts with
         source: MESH:D020682
@@ -13104,8 +13104,8 @@
         disease: Bronchitis
         disease_mesh: MESH:D001991
         drug: cefixime
-        drug_mesh: DB:DB00671
-        drugbank: MESH:D020682
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
     links:
     -   key: molecularly interacts with
         source: MESH:D020682
@@ -13166,8 +13166,8 @@
         disease: Urinary tract infectious disease
         disease_mesh: MESH:D014552
         drug: cefixime
-        drug_mesh: DB:DB00671
-        drugbank: MESH:D020682
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
     links:
     -   key: molecularly interacts with
         source: MESH:D020682
@@ -13228,8 +13228,8 @@
         disease: Pharyngitis
         disease_mesh: MESH:D010612
         drug: cefixime
-        drug_mesh: DB:DB00671
-        drugbank: MESH:D020682
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
     links:
     -   key: molecularly interacts with
         source: MESH:D020682
@@ -13290,8 +13290,8 @@
         disease: Upper respiratory infection
         disease_mesh: MESH:D012141
         drug: cefixime
-        drug_mesh: DB:DB00671
-        drugbank: MESH:D020682
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
     links:
     -   key: molecularly interacts with
         source: MESH:D020682
@@ -13352,8 +13352,8 @@
         disease: Seasonal allergic rhinitis
         disease_mesh: MESH:D006255
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13378,8 +13378,8 @@
         disease: Seasonal allergic rhinitis
         disease_mesh: MESH:D006255
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13404,8 +13404,8 @@
         disease: Urticaria
         disease_mesh: MESH:D014581
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13430,8 +13430,8 @@
         disease: Urticaria
         disease_mesh: MESH:D014581
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13456,8 +13456,8 @@
         disease: Itching of skin
         disease_mesh: MESH:D011537
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13482,8 +13482,8 @@
         disease: Itching of skin
         disease_mesh: MESH:D011537
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13508,8 +13508,8 @@
         disease: Allergic conjunctivitis
         disease_mesh: MESH:D003233
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13534,8 +13534,8 @@
         disease: Allergic conjunctivitis
         disease_mesh: MESH:D003233
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13560,8 +13560,8 @@
         disease: Vasomotor rhinitis
         disease_mesh: MESH:D012223
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13586,8 +13586,8 @@
         disease: Vasomotor rhinitis
         disease_mesh: MESH:D012223
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13612,8 +13612,8 @@
         disease: Allergic rhinitis
         disease_mesh: MESH:D065631
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
@@ -13632,14 +13632,14 @@
     -   id: MESH:D065631
         label: Disease
         name: Allergic rhinitis
-    reference: https://go.drugbank.com/drugs/DB00835#mechanismofaction        
+    reference: https://go.drugbank.com/drugs/DB00835#mechanismofaction
 -   directed: true
     graph:
         disease: Allergic rhinitis
         disease_mesh: MESH:D065631
         drug: brompheniramine
-        drug_mesh: DB:DB00835
-        drugbank: MESH:D001977
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
     links:
     -   key: decreases activity of
         source: MESH:D001977
