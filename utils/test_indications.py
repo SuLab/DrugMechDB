@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import networkx as nx
 
-indications = nx.read_yaml('indication_paths.yaml')
+#indications = nx.read_yaml('indication_paths.yaml')
 
 ALLOWED_CURIS = {'CHEBI',
  'CL',
@@ -10,9 +10,9 @@ ALLOWED_CURIS = {'CHEBI',
  'GO',
  'HP',
  'InterPro',
+ 'PR',
  'MESH',
  'NCBITaxon',
- 'Protein',
  'REACT',
  'TIGR',
  'UBERON',
@@ -21,7 +21,8 @@ ALLOWED_CURIS = {'CHEBI',
 
 bl_map = pd.read_csv('utils/dmdb_to_bl_map.csv')
 
-BL_NODES = bl_map[['start_bl', 'end_bl']].stack().unique().tolist()
+BL_NODES = bl_map[['start_bl', 'end_bl']].stack().unique().tolist() +\
+           ['MacromolecularComplex']
 BL_PREDS = pd.read_csv('utils/biolink_preds.txt', header=None)[0].str.replace('_', ' ').tolist() +\
            ['regulates', 'positively regulates', 'negatively regulates']
 
@@ -193,7 +194,7 @@ class PathTester:
         self.test_biolink_nodes()
         self.test_biolink_predicates()
 
-@pytest.mark.parametrize('path', indications)
+@pytest.mark.parametrize('path', nx.read_yaml('indication_paths.yaml'))
 def test_paths(path):
     test_path = PathTester(path)
     test_path.run_tests(environment='pytest')

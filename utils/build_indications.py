@@ -3,6 +3,7 @@ import string
 import simplejson
 import pandas as pd
 import networkx as nx
+from itertools import chain
 from collections import defaultdict
 
 from test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
@@ -276,7 +277,12 @@ def update_predicate(old_pred, new_pred, indications):
 def run_tests_fix_and_write(inname='indication_paths.yaml', outname='test_out.yaml'):
 
 
-    indications = nx.read_yaml(inname)
+    try:
+        indications = nx.read_yaml(inname)
+    except:
+        print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
+        return
+
     common_curi_problems = [('Uniprot', 'UniProt')]
 
     errors = []
@@ -316,6 +322,7 @@ def run_tests_fix_and_write(inname='indication_paths.yaml', outname='test_out.ya
         try:
             test_path.run_identifier_tests()
         except AssertionError as ae:
+            ## Seen many cases of 'id' and 'name' swaps...
             for j, node in enumerate(path['nodes']):
                 indications[i]['nodes'][j] = fix_node_val_swaps(node)
 
