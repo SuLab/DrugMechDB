@@ -1536,9 +1536,9 @@
         target: InterPro:IPR028809
     -   key: participates in
         source: InterPro:IPR028809
-        target: 'GO:0019233 '
+        target: GO:0019233
     -   key: causes
-        source: 'GO:0019233 '
+        source: GO:0019233
         target: MESH:D010146
     multigraph: true
     nodes:
@@ -1548,7 +1548,7 @@
     -   id: InterPro:IPR028809
         label: GeneFamily
         name: Neuronal Voltage gated sodium channels
-    -   id: 'GO:0019233 '
+    -   id: GO:0019233
         label: BiologicalProcess
         name: Sensory perception of pain
     -   id: MESH:D010146
@@ -2966,9 +2966,9 @@
         target: UniProt:O43497
     -   key: participates in
         source: UniProt:O43497
-        target: 'GO:0007268 '
+        target: GO:0007268
     -   key: positively correlated with
-        source: 'GO:0007268 '
+        source: GO:0007268
         target: MESH:D004832
     multigraph: true
     nodes:
@@ -2978,7 +2978,7 @@
     -   id: UniProt:O43497
         label: Protein
         name: voltage dependent T-type calcium channel subunit alpha-1G
-    -   id: 'GO:0007268 '
+    -   id: GO:0007268
         label: BiologicalProcess
         name: corticothalamic transmission
     -   id: MESH:D004832
@@ -3060,7 +3060,7 @@
         name: Hypophosphatasia
 -   directed: true
     graph:
-        disease: 'Secondary malignant neoplasm of female breast '
+        disease: Secondary malignant neoplasm of female breast
         disease_mesh: MESH:D001943
         drug: aminoglutethimide
         drug_mesh: MESH:D000616
@@ -3270,7 +3270,7 @@
         name: Anxiety disorders
 -   directed: true
     graph:
-        disease: 'Typhoid fever '
+        disease: Typhoid fever
         disease_mesh: MESH:D014435
         drug: chloramphenicol succinate
         drug_mesh: MESH:C026016
@@ -7303,7 +7303,7 @@
         name: 5-hydroxytryptamine receptor 1D
     -   id: GO:0004993
         label: MolecularActivity
-        name: G protein-coupled serotonin receptor activity'
+        name: G protein-coupled serotonin receptor activity
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
@@ -7341,7 +7341,7 @@
         name: 5-hydroxytryptamine receptor 1B
     -   id: GO:0004993
         label: MolecularActivity
-        name: G protein-coupled serotonin receptor activity'
+        name: G protein-coupled serotonin receptor activity
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
@@ -7379,7 +7379,7 @@
         name: 5-hydroxytryptamine receptor 1F
     -   id: GO:0004993
         label: MolecularActivity
-        name: G protein-coupled serotonin receptor activity'
+        name: G protein-coupled serotonin receptor activity
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
@@ -7417,7 +7417,7 @@
         name: 5-hydroxytryptamine receptor 1A
     -   id: GO:0004993
         label: MolecularActivity
-        name: G protein-coupled serotonin receptor activity'
+        name: G protein-coupled serotonin receptor activity
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
@@ -13659,2039 +13659,142 @@
         label: Disease
         name: Allergic rhinitis
     reference: https://go.drugbank.com/drugs/DB00835#mechanismofaction
-- directed: true
-  graph:
-    disease: Allergic rhinitis
-    disease_mesh: MESH:D065631
-    drug: mizolastine
-    drug_mesh: MESH:C076170
-    drugbank: DB12523
-  links:
-    - key: decreases activity of
-      source: MESH:C076170
-      target: UniProt:P35367
-    - key: positively regulates
-      source: UniProt:P35367
-      target: GO:0004969
-    - key: participates in
-      source: GO:0004969
-      target: GO:0071420
-    - key: positively correlated with
-      source: GO:0071420
-      target: GO:0006954
-    - key: causes
-      source: GO:0006954
-      target: MESH:D065631
-  multigraph: true
-  nodes:
-    - id: MESH:C076170
-      label: Drug
-      name: mizolastine
-    - id: UniProt:P35367
-      label: Protein
-      name: Histamine H1 receptor
-    - id: GO:0004969
-      label: MolecularActivity
-      name: histamine receptor activity
-    - id: GO:0071420
-      label: BiologicalProcess
-      name: cellular response to histamine
-    - id: GO:0006954
-      label: BiologicalProcess
-      name: inflammatory response
-    - id: MESH:D065631
-      label: Disease
-      name: Allergic rhinitis
-  reference: 'https://en.wikipedia.org/wiki/Mizolastine''https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines'
-- directed: true
-  graph:
-    disease: Peptic ulcer
-    disease_mesh: MESH:D010437
-    drug: carbenoxolone
-    drug_mesh: MESH:D002229
-    drugbank: DB02329
-  links:
-    - key: negatively regulates
-      source: MESH:D002229
-      target: UniProt:P28845
-    - key: negatively regulates
-      source: MESH:D002229
-      target: UniProt:P15428
-    - key: positively regulates
-      source: UniProt:P28845
-      target: GO:0016491
-    - key: positively regulates
-      source: UniProt:P15428
-      target: GO:0016616
-    - key: decreases the abundance of
-      source: GO:0016491
-      target: MESH:D011453
-    - key: positively regulates
-      source: GO:0016616
-      target: MESH:D011453
-    - key: positively correlated with
-      source: MESH:D011453
-      target: GO:0070254
-    - key: positively correlated with
-      source: MESH:D011453
-      target: GO:0008283
-    - key: negatively correlated with
-      source: MESH:D011453
-      target: GO:0001696
-    - key: negatively correlated with
-      source: GO:0070254
-      target: MESH:D010437
-    - key: negatively correlated with
-      source: GO:0008283
-      target: MESH:D010437
-    - key: positively correlated with
-      source: GO:0001696
-      target: MESH:D010437
-  multigraph: true
-  nodes:
-    - id: MESH:D002229
-      label: Drug
-      name: carbenoxolone
-    - id: UniProt:P28845
-      label: Protein
-      name: Corticosteroid 11-beta-dehydrogenase isozyme 1
-    - id: UniProt:P15428
-      label: Protein
-      name: 15-hydroxyprostaglandin dehydrogenase [NAD(+)]
-    - id: GO:0016491
-      label: MolecularActivity
-      name: oxidoreductase activity
-    - id: GO:0016616
-      label: MolecularActivity
-      name: oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
-    - id: MESH:D011453
-      label: ChemicalSubstance
-      name: Prostaglandins
-    - id: GO:0070254
-      label: BiologicalProcess
-      name: mucus secretion
-    - id: GO:0008283
-      label: BiologicalProcess
-      name: cell population proliferation
-    - id: GO:0001696
-      label: BiologicalProcess
-      name: gastric acid secretion
-    - id: MESH:D010437
-      label: Disease
-      name: Peptic ulcer
-  reference: 'https://gut.bmj.com/content/11/4/344''https://www.sciencedirect.com/science/article/abs/pii/0039128X94900914''https://scholar.googleusercontent.com/scholar?q=cache:A3Q9QZ97ZyAJ:scholar.google.com/&hl=en&as_sdt=0,5''https://www.kegg.jp/entry/D01899''http://www.oeso.org/OESO/books/Vol_3_Eso_Mucosa/Articles/ART088.HTML''https://europepmc.org/article/MED/30117204''https://pubmed.ncbi.nlm.nih.gov/2864318/''https://pubmed.ncbi.nlm.nih.gov/780088/''https://en.wikipedia.org/wiki/Carbenoxolone''https://en.wikipedia.org/wiki/Enoxolone#Mechanism_of_action''https://go.drugbank.com/drugs/DB02329#mechanism-of-action'
-- directed: true
-  graph:
-    disease: Perennial allergic rhinitis
-    disease_mesh: MESH:D012221
-    drug: mizolastine
-    drug_mesh: MESH:C076170
-    drugbank: DB12523
-  links:
-    - key: decreases activity of
-      source: MESH:C076170
-      target: UniProt:P35367
-    - key: positively regulates
-      source: UniProt:P35367
-      target: GO:0004969
-    - key: participates in
-      source: GO:0004969
-      target: GO:0071420
-    - key: positively correlated with
-      source: GO:0071420
-      target: GO:0006954
-    - key: causes
-      source: GO:0006954
-      target: MESH:D012221
-  multigraph: true
-  nodes:
-    - id: MESH:C076170
-      label: Drug
-      name: mizolastine
-    - id: UniProt:P35367
-      label: Protein
-      name: Histamine H1 receptor
-    - id: GO:0004969
-      label: MolecularActivity
-      name: histamine receptor activity
-    - id: GO:0071420
-      label: BiologicalProcess
-      name: cellular response to histamine
-    - id: GO:0006954
-      label: BiologicalProcess
-      name: inflammatory response
-    - id: MESH:D012221
-      label: Disease
-      name: Perennial allergic rhinitis
-  reference: 'https://en.wikipedia.org/wiki/Mizolastine''https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines'
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: negatively regulates
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P05093
-    - key: negatively regulates
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P26439
-    - key: negatively regulates
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P14060
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006704
-    - key: positively correlated with
-      source: GO:0006704
-      target: HP:0030088
-    - key: positively correlated with
-      source: GO:0006702
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P05093
-      label: Protein
-      name: Steroid 17-alpha-hydroxylase/17,20 lyase
-    - id: UniProt:P26439
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
-    - id: UniProt:P14060
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
-    - id: GO:0006702
-      label: BiologicalProcess
-      name: androgen biosynthetic process
-    - id: GO:0006704
-      label: BiologicalProcess
-      name: glucocorticoid biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://go.drugbank.com/drugs/DB05812#mechanism-of-action''https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://clincancerres.aacrjournals.org/content/19/13/3353'
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P15538
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08686
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P05177
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P11712
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08684
-    - key: positively regulates
-      source: UniProt:P15538
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P08686
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P05177
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P11712
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P08684
-      target: GO:0008203
-    - key: positively correlated with
-      source: GO:0008203
-      target: GO:0061370
-    - key: positively correlated with
-      source: GO:0061370
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P15538
-      label: Protein
-      name: Cytochrome P450 11B1, mitochondrial
-    - id: UniProt:P08686
-      label: Protein
-      name: Steroid 21-hydroxylase
-    - id: UniProt:P05177
-      label: Protein
-      name: Cytochrome P450 1A2
-    - id: UniProt:P11712
-      label: Protein
-      name: Cytochrome P450 2C9
-    - id: UniProt:P08684
-      label: Protein
-      name: Cytochrome P450 3A4
-    - id: GO:0008203
-      label: BiologicalProcess
-      name: cholesterol metabolic process
-    - id: GO:0061370
-      label: BiologicalProcess
-      name: testosterone biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://www.kegg.jp/entry/D09701''https://en.wikipedia.org/wiki/21-Hydroxylase#Function'
-  comments: In addition to inhibiting UniProt:P05093 (the main target according to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also inhibits all these cytochrome P450s and can be useful in treating castration-resistant prostate cancers.
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P15538
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08686
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P05177
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P11712
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08684
-    - key: positively regulates
-      source: UniProt:P15538
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P08686
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P05177
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P11712
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P08684
-      target: GO:0006704
-    - key: positively correlated with
-      source: GO:0006704
-      target: GO:0061370
-    - key: positively correlated with
-      source: GO:0061370
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P15538
-      label: Protein
-      name: Cytochrome P450 11B1, mitochondrial
-    - id: UniProt:P08686
-      label: Protein
-      name: Steroid 21-hydroxylase
-    - id: UniProt:P05177
-      label: Protein
-      name: Cytochrome P450 1A2
-    - id: UniProt:P11712
-      label: Protein
-      name: Cytochrome P450 2C9
-    - id: UniProt:P08684
-      label: Protein
-      name: Cytochrome P450 3A4
-    - id: GO:0006704
-      label: BiologicalProcess
-      name: glucocorticoid biosynthetic process
-    - id: GO:0061370
-      label: BiologicalProcess
-      name: testosterone biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://www.kegg.jp/entry/D09701''https://en.wikipedia.org/wiki/21-Hydroxylase#Function'
-  comments: In addition to inhibiting UniProt:P05093 (the main target according to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also inhibits all these cytochrome P450s and can be useful in treating castration-resistant prostate cancers.
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P10275
-    - key: positively regulates
-      source: UniProt:P10275
-      target: GO:0060769
-    - key: positively correlated with
-      source: GO:0060769
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P10275
-      label: Protein
-      name: Androgen receptor
-    - id: GO:0060769
-      label: BiologicalProcess
-      name: positive regulation of epithelial cell proliferation involved in prostate gland development
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://en.wikipedia.org/wiki/Androgen_receptor#Mechanism_of_action''https://en.wikipedia.org/wiki/Androgen_deprivation_therapy#Methods_based_on_drugs https://www.kegg.jp/entry/D09701'
-  comments: In addition to inhibiting UniProt:P05093 (the main target according to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also acts as a partial antagonist of the androgen receptor (UniProt:P10275)
-- directed: true
-  graph:
-    disease: Tear film insufficiency
-    disease_mesh: 'MESH:D015352'
-    drug: terbutaline
-    drug_mesh: 'MESH:D013726'
-    drugbank: 'DB:DB00871'
-  links:
-    - key: positively regulates
-      source: 'MESH:D013726'
-      target: 'UniProt:P13945'
-    - key: positively regulates
-      source: 'MESH:D013726'
-      target: 'UniProt:P07550'
-    - key: positively correlated with
-      source: 'UniProt:P13945'
-      target: 'GO:0050728'
-    - key: positively correlated with
-      source: 'UniProt:P07550'
-      target: 'GO:0050728'
-    - key: negatively correlated with
-      source: 'GO:0050728'
-      target: 'MESH:D015352'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D013726'
-      label: Drug
-      name: terbutaline
-    - id: 'UniProt:P13945'
-      label: Protein
-      name: Beta-3 adrenergic receptor
-    - id: 'UniProt:P07550'
-      label: Protein
-      name: Beta-2 adrenergic receptor
-    - id: 'GO:0050728'
-      label: BiologicalProcess
-      name: negative regulation of inflammatory response
-    - id: 'MESH:D015352'
-      label: Disease
-      name: Tear film insufficiency
-  reference: 'https://go.drugbank.com/drugs/DB00871#mechanism-of-action''https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5345890/''https://europepmc.org/article/MED/23360156'
-  comments: DrugBank has this drug as a beta 1 antagonist but data elsewhere does not seem to support the anatagonism role (e.g. https://www.drugs.com/pro/terbutaline.html#s-34090-1, https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1760 https://www.genome.jp/dbget-bin/www_bget?cpd:C07129)
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: derives into
-      source: MESH:D000069501,MESH:C089740
-      target: MESH:C000600172
-    - key: negatively regulates
-      source: MESH:C000600172
-      target: UniProt:P05093
-    - key: negatively regulates
-      source: MESH:C000600172
-      target: UniProt:P26439
-    - key: negatively regulates
-      source: MESH:C000600172
-      target: UniProt:P14060
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006704
-    - key: positively correlated with
-      source: GO:0006704
-      target: HP:0030088
-    - key: positively correlated with
-      source: GO:0006702
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: MESH:C000600172
-      label: Drug
-      name: delta4-abiraterone
-    - id: UniProt:P05093
-      label: Protein
-      name: Steroid 17-alpha-hydroxylase/17,20 lyase
-    - id: UniProt:P26439
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
-    - id: UniProt:P14060
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
-    - id: GO:0006702
-      label: BiologicalProcess
-      name: androgen biosynthetic process
-    - id: GO:0006704
-      label: BiologicalProcess
-      name: glucocorticoid biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://en.wikipedia.org/wiki/%CE%944-Abiraterone''https://www.nature.com/articles/nrurol.2016.101''https://www.medchemexpress.com/D4-abiraterone.html'
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: derives into
-      source: MESH:D000069501,MESH:C089740
-      target: MESH:C000600172
-    - key: decreases activity
-      source: MESH:C000600172
-      target: UniProt:P18405
-    - key: decreases activity
-      source: MESH:C000600172
-      target: UniProt:P31213
-    - key: decreases activity
-      source: MESH:C000600172
-      target: UniProt:Q9H8P0
-    - key: positively regulates
-      source: UniProt:P18405
-      target: GO:0033764
-    - key: positively regulates
-      source: UniProt:P31213
-      target: GO:0033764
-    - key: positively regulates
-      source: UniProt:Q9H8P0
-      target: GO:0033764
-    - key: produces
-      source: GO:0033764
-      target: CHEBI:16330
-    - key: positively correlated with
-      source: CHEBI:16330
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: MESH:C000600172
-      label: Drug
-      name: delta4-abiraterone
-    - id: UniProt:P18405
-      label: Protein
-      name: 3-oxo-5-alpha-steroid 4-dehydrogenase 1
-    - id: UniProt:P31213
-      label: Protein
-      name: 3-oxo-5-alpha-steroid 4-dehydrogenase 2
-    - id: UniProt:Q9H8P0
-      label: Protein
-      name: Polyprenol reductase
-    - id: GO:0033764
-      label: MolecularActivity
-      name: steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
-    - id: CHEBI:16330
-      label: ChemicalSubstance
-      name: 17β-hydroxy-5α-androstan-3-one
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://en.wikipedia.org/wiki/%CE%944-Abiraterone''https://www.nature.com/articles/nrurol.2016.101''https://www.medchemexpress.com/D4-abiraterone.html''https://en.wikipedia.org/wiki/Dihydrotestosterone#Biological_function' 'https://en.wikipedia.org/wiki/5%CE%B1-Reductase'
-- directed: true
-  graph:
-    disease: Allergic rhinitis
-    disease_mesh: MESH:D065631
-    drug: mizolastine
-    drug_mesh: MESH:C076170
-    drugbank: DB12523
-  links:
-    - key: decreases activity of
-      source: MESH:C076170
-      target: UniProt:P35367
-    - key: positively regulates
-      source: UniProt:P35367
-      target: GO:0004969
-    - key: participates in
-      source: GO:0004969
-      target: GO:0071420
-    - key: positively correlated with
-      source: GO:0071420
-      target: GO:0006954
-    - key: causes
-      source: GO:0006954
-      target: MESH:D065631
-  multigraph: true
-  nodes:
-    - id: MESH:C076170
-      label: Drug
-      name: mizolastine
-    - id: UniProt:P35367
-      label: Protein
-      name: Histamine H1 receptor
-    - id: GO:0004969
-      label: MolecularActivity
-      name: histamine receptor activity
-    - id: GO:0071420
-      label: BiologicalProcess
-      name: cellular response to histamine
-    - id: GO:0006954
-      label: BiologicalProcess
-      name: inflammatory response
-    - id: MESH:D065631
-      label: Disease
-      name: Allergic rhinitis
-  reference: 'https://en.wikipedia.org/wiki/Mizolastine''https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines'
-- directed: true
-  graph:
-    disease: Peptic ulcer
-    disease_mesh: MESH:D010437
-    drug: carbenoxolone
-    drug_mesh: MESH:D002229
-    drugbank: DB02329
-  links:
-    - key: negatively regulates
-      source: MESH:D002229
-      target: UniProt:P28845
-    - key: negatively regulates
-      source: MESH:D002229
-      target: UniProt:P15428
-    - key: positively regulates
-      source: UniProt:P28845
-      target: GO:0016491
-    - key: positively regulates
-      source: UniProt:P15428
-      target: GO:0016616
-    - key: decreases the abundance of
-      source: GO:0016491
-      target: MESH:D011453
-    - key: positively regulates
-      source: GO:0016616
-      target: MESH:D011453
-    - key: positively correlated with
-      source: MESH:D011453
-      target: GO:0070254
-    - key: positively correlated with
-      source: MESH:D011453
-      target: GO:0008283
-    - key: negatively correlated with
-      source: MESH:D011453
-      target: GO:0001696
-    - key: negatively correlated with
-      source: GO:0070254
-      target: MESH:D010437
-    - key: negatively correlated with
-      source: GO:0008283
-      target: MESH:D010437
-    - key: positively correlated with
-      source: GO:0001696
-      target: MESH:D010437
-  multigraph: true
-  nodes:
-    - id: MESH:D002229
-      label: Drug
-      name: carbenoxolone
-    - id: UniProt:P28845
-      label: Protein
-      name: Corticosteroid 11-beta-dehydrogenase isozyme 1
-    - id: UniProt:P15428
-      label: Protein
-      name: 15-hydroxyprostaglandin dehydrogenase [NAD(+)]
-    - id: GO:0016491
-      label: MolecularActivity
-      name: oxidoreductase activity
-    - id: GO:0016616
-      label: MolecularActivity
-      name: oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
-    - id: MESH:D011453
-      label: ChemicalSubstance
-      name: Prostaglandins
-    - id: GO:0070254
-      label: BiologicalProcess
-      name: mucus secretion
-    - id: GO:0008283
-      label: BiologicalProcess
-      name: cell population proliferation
-    - id: GO:0001696
-      label: BiologicalProcess
-      name: gastric acid secretion
-    - id: MESH:D010437
-      label: Disease
-      name: Peptic ulcer
-  reference: 'https://gut.bmj.com/content/11/4/344''https://www.sciencedirect.com/science/article/abs/pii/0039128X94900914''https://scholar.googleusercontent.com/scholar?q=cache:A3Q9QZ97ZyAJ:scholar.google.com/&hl=en&as_sdt=0,5''https://www.kegg.jp/entry/D01899''http://www.oeso.org/OESO/books/Vol_3_Eso_Mucosa/Articles/ART088.HTML''https://europepmc.org/article/MED/30117204''https://pubmed.ncbi.nlm.nih.gov/2864318/''https://pubmed.ncbi.nlm.nih.gov/780088/''https://en.wikipedia.org/wiki/Carbenoxolone''https://en.wikipedia.org/wiki/Enoxolone#Mechanism_of_action''https://go.drugbank.com/drugs/DB02329#mechanism-of-action'
-- directed: true
-  graph:
-    disease: Perennial allergic rhinitis
-    disease_mesh: MESH:D012221
-    drug: mizolastine
-    drug_mesh: MESH:C076170
-    drugbank: DB12523
-  links:
-    - key: decreases activity of
-      source: MESH:C076170
-      target: UniProt:P35367
-    - key: positively regulates
-      source: UniProt:P35367
-      target: GO:0004969
-    - key: participates in
-      source: GO:0004969
-      target: GO:0071420
-    - key: positively correlated with
-      source: GO:0071420
-      target: GO:0006954
-    - key: causes
-      source: GO:0006954
-      target: MESH:D012221
-  multigraph: true
-  nodes:
-    - id: MESH:C076170
-      label: Drug
-      name: mizolastine
-    - id: UniProt:P35367
-      label: Protein
-      name: Histamine H1 receptor
-    - id: GO:0004969
-      label: MolecularActivity
-      name: histamine receptor activity
-    - id: GO:0071420
-      label: BiologicalProcess
-      name: cellular response to histamine
-    - id: GO:0006954
-      label: BiologicalProcess
-      name: inflammatory response
-    - id: MESH:D012221
-      label: Disease
-      name: Perennial allergic rhinitis
-  reference: 'https://en.wikipedia.org/wiki/Mizolastine''https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines'
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: negatively regulates
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P05093
-    - key: negatively regulates
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P26439
-    - key: negatively regulates
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P14060
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006704
-    - key: positively correlated with
-      source: GO:0006704
-      target: HP:0030088
-    - key: positively correlated with
-      source: GO:0006702
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P05093
-      label: Protein
-      name: Steroid 17-alpha-hydroxylase/17,20 lyase
-    - id: UniProt:P26439
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
-    - id: UniProt:P14060
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
-    - id: GO:0006702
-      label: BiologicalProcess
-      name: androgen biosynthetic process
-    - id: GO:0006704
-      label: BiologicalProcess
-      name: glucocorticoid biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://go.drugbank.com/drugs/DB05812#mechanism-of-action''https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://clincancerres.aacrjournals.org/content/19/13/3353'
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P15538
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08686
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P05177
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P11712
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08684
-    - key: positively regulates
-      source: UniProt:P15538
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P08686
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P05177
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P11712
-      target: GO:0008203
-    - key: positively regulates
-      source: UniProt:P08684
-      target: GO:0008203
-    - key: positively correlated with
-      source: GO:0008203
-      target: GO:0061370
-    - key: positively correlated with
-      source: GO:0061370
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P15538
-      label: Protein
-      name: Cytochrome P450 11B1, mitochondrial
-    - id: UniProt:P08686
-      label: Protein
-      name: Steroid 21-hydroxylase
-    - id: UniProt:P05177
-      label: Protein
-      name: Cytochrome P450 1A2
-    - id: UniProt:P11712
-      label: Protein
-      name: Cytochrome P450 2C9
-    - id: UniProt:P08684
-      label: Protein
-      name: Cytochrome P450 3A4
-    - id: GO:0008203
-      label: BiologicalProcess
-      name: cholesterol metabolic process
-    - id: GO:0061370
-      label: BiologicalProcess
-      name: testosterone biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://www.kegg.jp/entry/D09701''https://en.wikipedia.org/wiki/21-Hydroxylase#Function'
-  comments: In addition to inhibiting UniProt:P05093 (the main target according to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also inhibits all these cytochrome P450s and can be useful in treating castration-resistant prostate cancers.
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P15538
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08686
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P05177
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P11712
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P08684
-    - key: positively regulates
-      source: UniProt:P15538
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P08686
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P05177
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P11712
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P08684
-      target: GO:0006704
-    - key: positively correlated with
-      source: GO:0006704
-      target: GO:0061370
-    - key: positively correlated with
-      source: GO:0061370
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P15538
-      label: Protein
-      name: Cytochrome P450 11B1, mitochondrial
-    - id: UniProt:P08686
-      label: Protein
-      name: Steroid 21-hydroxylase
-    - id: UniProt:P05177
-      label: Protein
-      name: Cytochrome P450 1A2
-    - id: UniProt:P11712
-      label: Protein
-      name: Cytochrome P450 2C9
-    - id: UniProt:P08684
-      label: Protein
-      name: Cytochrome P450 3A4
-    - id: GO:0006704
-      label: BiologicalProcess
-      name: glucocorticoid biosynthetic process
-    - id: GO:0061370
-      label: BiologicalProcess
-      name: testosterone biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://www.kegg.jp/entry/D09701''https://en.wikipedia.org/wiki/21-Hydroxylase#Function'
-  comments: In addition to inhibiting UniProt:P05093 (the main target according to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also inhibits all these cytochrome P450s and can be useful in treating castration-resistant prostate cancers.
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: decreases activity
-      source: MESH:D000069501,MESH:C089740
-      target: UniProt:P10275
-    - key: positively regulates
-      source: UniProt:P10275
-      target: GO:0060769
-    - key: positively correlated with
-      source: GO:0060769
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: UniProt:P10275
-      label: Protein
-      name: Androgen receptor
-    - id: GO:0060769
-      label: BiologicalProcess
-      name: positive regulation of epithelial cell proliferation involved in prostate gland development
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://en.wikipedia.org/wiki/Androgen_receptor#Mechanism_of_action''https://en.wikipedia.org/wiki/Androgen_deprivation_therapy#Methods_based_on_drugs https://www.kegg.jp/entry/D09701'
-  comments: In addition to inhibiting UniProt:P05093 (the main target according to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also acts as a partial antagonist of the androgen receptor (UniProt:P10275)
-- directed: true
-  graph:
-    disease: Tear film insufficiency
-    disease_mesh: 'MESH:D015352'
-    drug: terbutaline
-    drug_mesh: 'MESH:D013726'
-    drugbank: 'DB:DB00871'
-  links:
-    - key: positively regulates
-      source: 'MESH:D013726'
-      target: 'UniProt:P13945'
-    - key: positively regulates
-      source: 'MESH:D013726'
-      target: 'UniProt:P07550'
-    - key: positively correlated with
-      source: 'UniProt:P13945'
-      target: 'GO:0050728'
-    - key: positively correlated with
-      source: 'UniProt:P07550'
-      target: 'GO:0050728'
-    - key: negatively correlated with
-      source: 'GO:0050728'
-      target: 'MESH:D015352'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D013726'
-      label: Drug
-      name: terbutaline
-    - id: 'UniProt:P13945'
-      label: Protein
-      name: Beta-3 adrenergic receptor
-    - id: 'UniProt:P07550'
-      label: Protein
-      name: Beta-2 adrenergic receptor
-    - id: 'GO:0050728'
-      label: BiologicalProcess
-      name: negative regulation of inflammatory response
-    - id: 'MESH:D015352'
-      label: Disease
-      name: Tear film insufficiency
-  reference: 'https://go.drugbank.com/drugs/DB00871#mechanism-of-action''https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5345890/''https://europepmc.org/article/MED/23360156'
-  comments: DrugBank has this drug as a beta 1 antagonist but data elsewhere does not seem to support the anatagonism role (e.g. https://www.drugs.com/pro/terbutaline.html#s-34090-1, https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1760 https://www.genome.jp/dbget-bin/www_bget?cpd:C07129)
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: derives into
-      source: MESH:D000069501,MESH:C089740
-      target: MESH:C000600172
-    - key: negatively regulates
-      source: MESH:C000600172
-      target: UniProt:P05093
-    - key: negatively regulates
-      source: MESH:C000600172
-      target: UniProt:P26439
-    - key: negatively regulates
-      source: MESH:C000600172
-      target: UniProt:P14060
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006702
-    - key: positively regulates
-      source: UniProt:P05093
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P26439
-      target: GO:0006704
-    - key: positively regulates
-      source: UniProt:P14060
-      target: GO:0006704
-    - key: positively correlated with
-      source: GO:0006704
-      target: HP:0030088
-    - key: positively correlated with
-      source: GO:0006702
-      target: HP:0030088
-    - key: positively correlated with
-      source: HP:0030088
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: MESH:C000600172
-      label: Drug
-      name: delta4-abiraterone
-    - id: UniProt:P05093
-      label: Protein
-      name: Steroid 17-alpha-hydroxylase/17,20 lyase
-    - id: UniProt:P26439
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
-    - id: UniProt:P14060
-      label: Protein
-      name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
-    - id: GO:0006702
-      label: BiologicalProcess
-      name: androgen biosynthetic process
-    - id: GO:0006704
-      label: BiologicalProcess
-      name: glucocorticoid biosynthetic process
-    - id: HP:0030088
-      label: PhenotypicFeature
-      name: Increased serum testosterone level
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://en.wikipedia.org/wiki/%CE%944-Abiraterone''https://www.nature.com/articles/nrurol.2016.101''https://www.medchemexpress.com/D4-abiraterone.html'
-- directed: true
-  graph:
-    disease: Malignant tumor of prostate
-    disease_mesh: MESH:D011471
-    drug: abiraterone acetate
-    drug_mesh: MESH:D000069501,MESH:C089740
-    drugbank: DB05812
-  links:
-    - key: derives into
-      source: MESH:D000069501,MESH:C089740
-      target: MESH:C000600172
-    - key: decreases activity
-      source: MESH:C000600172
-      target: UniProt:P18405
-    - key: decreases activity
-      source: MESH:C000600172
-      target: UniProt:P31213
-    - key: decreases activity
-      source: MESH:C000600172
-      target: UniProt:Q9H8P0
-    - key: positively regulates
-      source: UniProt:P18405
-      target: GO:0033764
-    - key: positively regulates
-      source: UniProt:P31213
-      target: GO:0033764
-    - key: positively regulates
-      source: UniProt:Q9H8P0
-      target: GO:0033764
-    - key: produces
-      source: GO:0033764
-      target: CHEBI:16330
-    - key: positively correlated with
-      source: CHEBI:16330
-      target: MESH:D011471
-  multigraph: true
-  nodes:
-    - id: MESH:D000069501,MESH:C089740
-      label: Drug
-      name: abiraterone acetate
-    - id: MESH:C000600172
-      label: Drug
-      name: delta4-abiraterone
-    - id: UniProt:P18405
-      label: Protein
-      name: 3-oxo-5-alpha-steroid 4-dehydrogenase 1
-    - id: UniProt:P31213
-      label: Protein
-      name: 3-oxo-5-alpha-steroid 4-dehydrogenase 2
-    - id: UniProt:Q9H8P0
-      label: Protein
-      name: Polyprenol reductase
-    - id: GO:0033764
-      label: MolecularActivity
-      name: steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
-    - id: CHEBI:16330
-      label: ChemicalSubstance
-      name: 17β-hydroxy-5α-androstan-3-one
-    - id: MESH:D011471
-      label: Disease
-      name: Malignant tumor of prostate
-  reference: 'https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology''https://en.wikipedia.org/wiki/%CE%944-Abiraterone''https://www.nature.com/articles/nrurol.2016.101''https://www.medchemexpress.com/D4-abiraterone.html''https://en.wikipedia.org/wiki/Dihydrotestosterone#Biological_function' 'https://en.wikipedia.org/wiki/5%CE%B1-Reductase'
-- directed: true
-  graph:
-    disease: Influenza
-    disease_mesh: 'MESH:D007251'
-    drug: oseltamivir
-    drug_mesh: 'MESH:C535162,MESH:C403132,MESH:D053139'
-    drugbank: 'DB:DB00198'
-  links:
-    - key: negatively regulates
-      source: 'MESH:C535162,MESH:C403132,MESH:D053139'
-      target: 'UniProt:P11485'
-    - key: positively regulates
-      source: 'UniProt:P11485'
-      target: 'GO:0004308'
-    - key: positively correlated with
-      source: 'GO:0004308'
-      target: 'GO:0140374'
-    - key: in taxon
-      source: 'GO:0140374'
-      target: 'NCBITaxon:380985'
-    - key: causes
-      source: 'NCBITaxon:380985'
-      target: 'MESH:D007251'
-  multigraph: true
-  nodes:
-    - id: 'MESH:C535162,MESH:C403132,MESH:D053139'
-      label: Drug
-      name: Oseltamivir
-    - id: 'UniProt:P11485'
-      label: Protein
-      name: Neuraminidase
-    - id: 'GO:0004308'
-      label: BiologicalProcess
-      name: exo-alpha-sialidase activity
-    - id: 'GO:0140374'
-      label: BiologicalProcess
-      name: viral budding from plasma membrane
-    - id: 'NCBITaxon:380985'
-      label: OrganismTaxon
-      name: Influenza A virus (A/Chile/1/1983(H1N1))
-    - id: 'MESH:D007251'
-      label: Disease
-      name: Influenza
-  reference: 'https://go.drugbank.com/drugs/DB00198#mechanism-of-action''https://en.wikipedia.org/wiki/Oseltamivir#Mechanism_of_action'
-- directed: true
-  graph:
-    disease: Panic disorder
-    disease_mesh: 'MESH:D016584'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:P31645'
-    - key: positively regulates
-      source: 'UniProt:P31645'
-      target: 'GO:0051610'
-    - key: positively correlated with
-      source: 'GO:0051610'
-      target: 'MESH:D016584'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:P31645'
-      label: Protein
-      name: Sodium-dependent serotonin transporter
-    - id: 'GO:0051610'
-      label: BiologicalProcess
-      name: serotonin uptake
-    - id: 'MESH:D016584'
-      label: Disease
-      name: Panic disorder
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Panic_disorder#Medication'
-- directed: true
-  graph:
-    disease: Panic disorder
-    disease_mesh: 'MESH:D016584'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:P23975'
-    - key: positively regulates
-      source: 'UniProt:P23975'
-      target: 'GO:0051620'
-    - key: positively correlated with
-      source: 'GO:0051620'
-      target: 'MESH:D016584'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:P23975'
-      label: Protein
-      name: Sodium-dependent noradrenaline transporter
-    - id: 'GO:0051620'
-      label: BiologicalProcess
-      name: norepinephrine uptake
-    - id: 'MESH:D016584'
-      label: Disease
-      name: Panic disorder
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Panic_disorder#Medication'
-- directed: true
-  graph:
-    disease: Social phobia
-    disease_mesh: 'MESH:D000072861'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:P31645'
-    - key: positively regulates
-      source: 'UniProt:P31645'
-      target: 'GO:0051610'
-    - key: positively correlated with
-      source: 'GO:0051610'
-      target: 'MESH:D000072861'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:P31645'
-      label: Protein
-      name: Sodium-dependent serotonin transporter
-    - id: 'GO:0051610'
-      label: BiologicalProcess
-      name: serotonin uptake
-    - id: 'MESH:D000072861'
-      label: Disease
-      name: Social phobia
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Social_anxiety_disorder#SSRIs'
-- directed: true
-  graph:
-    disease: Social phobia
-    disease_mesh: 'MESH:D000072861'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:P23975'
-    - key: positively regulates
-      source: 'UniProt:P23975'
-      target: 'GO:0051620'
-    - key: positively correlated with
-      source: 'GO:0051620'
-      target: 'MESH:D000072861'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:P23975'
-      label: Protein
-      name: Sodium-dependent noradrenaline transporter
-    - id: 'GO:0051620'
-      label: BiologicalProcess
-      name: norepinephrine uptake
-    - id: 'MESH:D000072861'
-      label: Disease
-      name: Social phobia
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Social_anxiety_disorder#Other_drugs'
-- directed: true
-  graph:
-    disease: Social phobia
-    disease_mesh: 'MESH:D000072861'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:Q01959'
-    - key: positively regulates
-      source: 'UniProt:Q01959'
-      target: 'GO:0090494'
-    - key: positively correlated with
-      source: 'GO:0090494'
-      target: 'MESH:D000072861'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:Q01959'
-      label: Protein
-      name: Sodium-dependent dopamine transporter
-    - id: 'GO:0090494'
-      label: BiologicalProcess
-      name: dopamine uptake
-    - id: 'MESH:D000072861'
-      label: Disease
-      name: Social phobia
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Social_anxiety_disorder#Neurotransmitters'
-- directed: true
-  graph:
-    disease: Major depressive disorder
-    disease_mesh: 'MESH:D003865'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:P31645'
-    - key: positively regulates
-      source: 'UniProt:P31645'
-      target: 'GO:0051610'
-    - key: positively correlated with
-      source: 'GO:0051610'
-      target: 'MESH:D003865'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:P31645'
-      label: Protein
-      name: Sodium-dependent serotonin transporter
-    - id: 'GO:0051610'
-      label: BiologicalProcess
-      name: serotonin uptake
-    - id: 'MESH:D003865'
-      label: Disease
-      name: Major depressive disorder
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Major_depressive_disorder#Antidepressants'
-- directed: true
-  graph:
-    disease: Major depressive disorder
-    disease_mesh: 'MESH:D003865'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:P23975'
-    - key: positively regulates
-      source: 'UniProt:P23975'
-      target: 'GO:0051620'
-    - key: positively correlated with
-      source: 'GO:0051620'
-      target: 'MESH:D003865'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:P23975'
-      label: Protein
-      name: Sodium-dependent noradrenaline transporter
-    - id: 'GO:0051620'
-      label: BiologicalProcess
-      name: norepinephrine uptake
-    - id: 'MESH:D003865'
-      label: Disease
-      name: Major depressive disorder
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Major_depressive_disorder#Antidepressants'
-- directed: true
-  graph:
-    disease: Major depressive disorder
-    disease_mesh: 'MESH:D003865'
-    drug: venlafaxine
-    drug_mesh: 'MESH:D000069470'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000069470'
-      target: 'UniProt:Q01959'
-    - key: positively regulates
-      source: 'UniProt:Q01959'
-      target: 'GO:0090494'
-    - key: positively correlated with
-      source: 'GO:0090494'
-      target: 'MESH:D003865'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000069470'
-      label: Drug
-      name: venlafaxine
-    - id: 'UniProt:Q01959'
-      label: Protein
-      name: Sodium-dependent dopamine transporter
-    - id: 'GO:0090494'
-      label: BiologicalProcess
-      name: dopamine uptake
-    - id: 'MESH:D003865'
-      label: Disease
-      name: Major depressive disorder
-  reference: 'https://go.drugbank.com/drugs/DB00285#mechanism-of-action''https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action''https://en.wikipedia.org/wiki/Major_depressive_disorder#Pathophysiology'
-- directed: true
-  graph:
-    disease: Malignant tumor of ovary
-    disease_mesh: 'MESH:D010051'
-    drug: gemcitabine
-    drug_mesh: 'MESH:C056507'
-    drugbank: DB12459
-  links:
-    - key: negatively regulates
-      source: 'MESH:C056507'
-      target: 'UniProt:P04818'
-    - key: negatively regulates
-      source: 'MESH:C056507'
-      target: 'UniProt:P30085'
-    - key: negatively regulates
-      source: 'MESH:C056507'
-      target: 'UniProt:P23921'
-    - key: positively regulates
-      source: 'UniProt:P04818'
-      target: 'GO:0006235'
-    - key: positively regulates
-      source: 'UniProt:P30085'
-      target: 'GO:0006225'
-    - key: positively regulates
-      source: 'UniProt:P23921'
-      target: 'GO:0061731'
-    - key: positively correlated with
-      source: 'GO:0006235'
-      target: 'GO:1904860'
-    - key: positively correlated with
-      source: 'GO:0006225'
-      target: 'GO:1904860'
-    - key: positively correlated with
-      source: 'GO:0061731'
-      target: 'GO:1904860'
-    - key: positively correlated with
-      source: 'GO:1904860'
-      target: 'MESH:D010051'
-  multigraph: true
-  nodes:
-    - id: 'MESH:C056507'
-      label: Drug
-      name: gemcitabine
-    - id: 'UniProt:P04818'
-      label: Protein
-      name: Thymidylate synthase
-    - id: 'UniProt:P30085'
-      label: Protein
-      name: UMP-CMP kinase
-    - id: 'UniProt:P23921'
-      label: Protein
-      name: Ribonucleoside-diphosphate reductase large subunit
-    - id: 'GO:0006235'
-      label: BiologicalProcess
-      name: 'dTTP biosynthetic process'
-    - id: 'GO:0006225'
-      label: BiologicalProcess
-      name: 'UDP biosynthetic process'
-    - id: 'GO:0061731'
-      label: MolecularActivity
-      name: 'ribonucleoside-diphosphate reductase activity'
-    - id: 'GO:1904860'
-      label: BiologicalProcess
-      name: 'DNA synthesis involved in mitotic DNA replication'
-    - id: 'MESH:D010051'
-      label: Disease
-      name: Malignant tumor of ovary
-  reference: 'https://go.drugbank.com/drugs/DB00441#mechanism-of-action''https://europepmc.org/article/med/7481842'
-- directed: true
-  graph:
-    disease: Non-small cell lung cancer
-    disease_mesh: 'MESH:D002289'
-    drug: gemcitabine
-    drug_mesh: 'MESH:C056507'
-    drugbank: DB12459
-  links:
-    - key: negatively regulates
-      source: 'MESH:C056507'
-      target: 'UniProt:P04818'
-    - key: negatively regulates
-      source: 'MESH:C056507'
-      target: 'UniProt:P30085'
-    - key: negatively regulates
-      source: 'MESH:C056507'
-      target: 'UniProt:P23921'
-    - key: positively regulates
-      source: 'UniProt:P04818'
-      target: 'GO:0006235'
-    - key: positively regulates
-      source: 'UniProt:P30085'
-      target: 'GO:0006225'
-    - key: positively regulates
-      source: 'UniProt:P23921'
-      target: 'GO:0061731'
-    - key: positively correlated with
-      source: 'GO:0006235'
-      target: 'GO:1904860'
-    - key: positively correlated with
-      source: 'GO:0006225'
-      target: 'GO:1904860'
-    - key: positively correlated with
-      source: 'GO:0061731'
-      target: 'GO:1904860'
-    - key: positively correlated with
-      source: 'GO:1904860'
-      target: 'MESH:D002289'
-  multigraph: true
-  nodes:
-    - id: 'MESH:C056507'
-      label: Drug
-      name: gemcitabine
-    - id: 'UniProt:P04818'
-      label: Protein
-      name: Thymidylate synthase
-    - id: 'UniProt:P30085'
-      label: Protein
-      name: UMP-CMP kinase
-    - id: 'UniProt:P23921'
-      label: Protein
-      name: Ribonucleoside-diphosphate reductase large subunit
-    - id: 'GO:0006235'
-      label: BiologicalProcess
-      name: 'dTTP biosynthetic process'
-    - id: 'GO:0006225'
-      label: BiologicalProcess
-      name: 'UDP biosynthetic process'
-    - id: 'GO:0061731'
-      label: MolecularActivity
-      name: 'ribonucleoside-diphosphate reductase activity'
-    - id: 'GO:1904860'
-      label: BiologicalProcess
-      name: 'DNA synthesis involved in mitotic DNA replication'
-    - id: 'MESH:D002289'
-      label: Disease
-      name: Non-small cell lung cancer
-  reference: 'https://go.drugbank.com/drugs/DB00441#mechanism-of-action''https://europepmc.org/article/med/7481842'
-- directed: true
-  graph:
-    disease: Depressive disorder
-    disease_mesh: 'MESH:D003866'
-    drug: amoxapine
-    drug_mesh: 'MESH:D000657'
-    drugbank: 'DB:DB00543'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000657'
-      target: 'UniProt:P31645'
-    - key: positively regulates
-      source: 'UniProt:P31645'
-      target: 'GO:0051610'
-    - key: positively correlated with
-      source: 'GO:0051610'
-      target: 'MESH:D003866'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000657'
-      label: Drug
-      name: amoxapine
-    - id: 'UniProt:P31645'
-      label: Protein
-      name: Sodium-dependent serotonin transporter
-    - id: 'GO:0051610'
-      label: BiologicalProcess
-      name: serotonin uptake
-    - id: 'MESH:D003866'
-      label: Disease
-      name: Depressive disorder
-  reference: 'https://go.drugbank.com/drugs/DB00543#mechanism-of-action''https://en.wikipedia.org/wiki/Amoxapine#Pharmacology'
-- directed: true
-  graph:
-    disease: Depressive disorder
-    disease_mesh: 'MESH:D003866'
-    drug: amoxapine
-    drug_mesh: 'MESH:D000657'
-    drugbank: 'DB:DB00285'
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000657'
-      target: 'UniProt:P23975'
-    - key: positively regulates
-      source: 'UniProt:P23975'
-      target: 'GO:0051620'
-    - key: positively correlated with
-      source: 'GO:0051620'
-      target: 'MESH:D003866'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000657'
-      label: Drug
-      name: amoxapine
-    - id: 'UniProt:P23975'
-      label: Protein
-      name: Sodium-dependent noradrenaline transporter
-    - id: 'GO:0051620'
-      label: BiologicalProcess
-      name: norepinephrine uptake
-    - id: 'MESH:D003866'
-      label: Disease
-      name: Depressive disorder
-  reference: 'https://go.drugbank.com/drugs/DB00543#mechanism-of-action''https://en.wikipedia.org/wiki/Amoxapine#Pharmacology'
-- directed: true
-  graph:
-    disease: Depressive disorder
-    disease_mesh: 'MESH:D003866'
-    drug: amoxapine
-    drug_mesh: 'MESH:D000657'
-    drugbank: 'DB:DB00543'
-  links:
-    - key: decreases activity of
-      source: 'MESH:D000657'
-      target: 'UniProt:P21728'
-    - key: positively regulates
-      source: UniProt:P21728
-      target: GO:0051584
-    - key: positively correlated with
-      source: GO:0051584
-      target: MESH:D003866
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000657'
-      label: Drug
-      name: amoxapine
-    - id: 'UniProt:P21728'
-      label: Protein
-      name: D(1A) dopamine receptor
-    - id: 'GO:0051584'
-      label: BiologicalProcess
-      name: regulation of dopamine uptake involved in synaptic transmission
-    - id: 'MESH:D003866'
-      label: Disease
-      name: Depressive disorder
-  reference: 'https://go.drugbank.com/drugs/DB00543#mechanism-of-action''https://en.wikipedia.org/wiki/Dopamine_receptor#D1-like_family''https://pubmed.ncbi.nlm.nih.gov/9347388/''https://pubmed.ncbi.nlm.nih.gov/2698268/ https://en.wikipedia.org/wiki/Amineptine#Pharmacology'
-- directed: true
-  graph:
-    disease: Asthma
-    disease_mesh: 'MESH:D001249'
-    drug: tulobuterol
-    drug_mesh: 'MESH:C010809'
-    drugbank: 'DB12248'
-  links:
-    - key: positively regulates
-      source: 'MESH:C010809'
-      target: 'UniProt:P07550'
-    - key: participates in
-      source: 'UniProt:P07550'
-      target: 'GO:0007190'
-    - key: positively regulates
-      source: 'GO:0007190'
-      target: 'GO:0006171'
-    - key: precedes
-      source: 'GO:0006171'
-      target: 'GO:0044557'
-    - key: negatively correlated with
-      source: 'GO:0044557'
-      target: 'MESH:D001249'
-  multigraph: true
-  nodes:
-    - id: 'MESH:C010809'
-      label: Drug
-      name: tulobuterol
-    - id: 'UniProt:P07550'
-      label: Protein
-      name: Beta-2 adrenergic receptor
-    - id: 'GO:0007190'
-      label: BiologicalProcess
-      name: activation of adenylate cyclase activity
-    - id: 'GO:0006171'
-      label: BiologicalProcess
-      name: cAMP biosynthetic process
-    - id: 'GO:0044557'
-      label: BiologicalProcess
-      name: relaxation of smooth muscle
-    - id: 'MESH:D001249'
-      label: Disease
-      name: Asthma
-  reference: 'https://go.drugbank.com/drugs/DB12248#mechanism-of-action''https://pubchem.ncbi.nlm.nih.gov/compound/tulobuterol#section=Pharmacology-and-Biochemistry''https://www.chemm.nlm.nih.gov/countermeasure_albuterol.htm#eb'
-- directed: true
-  graph:
-    disease: Pulmonary emphysema
-    disease_mesh: 'MESH:D011656'
-    drug: tulobuterol
-    drug_mesh: 'MESH:C010809'
-    drugbank: 'DB12248'
-  links:
-    - key: positively regulates
-      source: 'MESH:C010809'
-      target: 'UniProt:P07550'
-    - key: participates in
-      source: 'UniProt:P07550'
-      target: 'GO:0007190'
-    - key: positively regulates
-      source: 'GO:0007190'
-      target: 'GO:0006171'
-    - key: precedes
-      source: 'GO:0006171'
-      target: 'GO:0044557'
-    - key: negatively correlated with
-      source: 'GO:0044557'
-      target: 'MESH:D011656'
-  multigraph: true
-  nodes:
-    - id: 'MESH:C010809'
-      label: Drug
-      name: tulobuterol
-    - id: 'UniProt:P07550'
-      label: Protein
-      name: Beta-2 adrenergic receptor
-    - id: 'GO:0007190'
-      label: BiologicalProcess
-      name: activation of adenylate cyclase activity
-    - id: 'GO:0006171'
-      label: BiologicalProcess
-      name: cAMP biosynthetic process
-    - id: 'GO:0044557'
-      label: BiologicalProcess
-      name: relaxation of smooth muscle
-    - id: 'MESH:D011656'
-      label: Disease
-      name: Pulmonary emphysema
-  reference: 'https://go.drugbank.com/drugs/DB12248#mechanism-of-action''https://pubchem.ncbi.nlm.nih.gov/compound/tulobuterol#section=Pharmacology-and-Biochemistry''https://www.chemm.nlm.nih.gov/countermeasure_albuterol.htm#eb'
-- directed: true
-  graph:
-    disease: Human immunodeficiency virus infection
-    disease_mesh: 'MESH:D015658'
-    drug: raltegravir
-    drug_mesh: 'MESH:D000068898'
-    drugbank: DB06817
-  links:
-    - key: negatively regulates
-      source: 'MESH:D000068898'
-      target: 'UniProt:Q7ZJM1'
-    - key: positively regulates
-      source: 'UniProt:Q7ZJM1'
-      target: 'GO:0044823'
-    - key: in taxon
-      source: 'GO:0044823'
-      target: 'NCBITaxon:11676'
-    - key: causes
-      source: 'NCBITaxon:11676'
-      target: 'MESH:D015658'
-  multigraph: true
-  nodes:
-    - id: 'MESH:D000068898'
-      label: Drug
-      name: raltegravir
-    - id: 'UniProt:Q7ZJM1'
-      label: Protein
-      name: Integrase
-    - id: 'GO:0044823'
-      label: MolecularActivity
-      name: retroviral integrase activity
-    - id: 'NCBITaxon:11676'
-      label: OrganismTaxon
-      name: Human immunodeficiency virus 1
-    - id: 'MESH:D015658'
-      label: Disease
-      name: Human immunodeficiency virus infection
-reference: 'https://go.drugbank.com/drugs/DB06817#mechanism-of-action''https://en.wikipedia.org/wiki/Raltegravir#Mechanism_of_action'
-- directed: true
-  graph:
-    disease: Allergic rhinitis
-    disease_mesh: MESH:D065631
-    drug: rupatadine
-    drug_mesh: MESH:C103639
-    drugbank: DB11614
-  links:
-    - key: decreases activity of
-      source: MESH:C103639
-      target: UniProt:P35367
-    - key: decreases activity of
-      source: MESH:C103639
-      target: UniProt:P25105
-    - key: positively correlated with
-      source: UniProt:P35367
-      target: GO:0043117
-    - key: positively correlated with
-      source: UniProt:P25105
-      target: GO:0043312
-    - key: participates in
-      source: GO:0043117
-      target: GO:0006954
-    - key: participates in
-      source: GO:0043312
-      target: GO:0006954
-    - key: positively correlated with
-      source: GO:0006954
-      target: MESH:D065631
-  multigraph: true
-  nodes:
-    - id: MESH:C103639
-      label: Drug
-      name: rupatadine
-    - id: UniProt:P35367
-      label: Protein
-      name: Histamine H1 receptor
-    - id: UniProt:P25105
-      label: Protein
-      name: Platelet-activating factor receptor
-    - id: GO:0043117
-      label: BiologicalProcess
-      name: positive regulation of vascular permeability
-    - id: GO:0043312
-      label: BiologicalProcess
-      name: neutrophil degranulation
-    - id: GO:0006954
-      label: BiologicalProcess
-      name: inflammatory response
-    - id: MESH:D065631
-      label: Disease
-      name: Allergic rhinitis
-  reference: 'https://go.drugbank.com/drugs/DB11614#mechanism-of-action''https://en.wikipedia.org/wiki/Rupatadine#Mechanism_of_action'
-- directed: true
-  graph:
-    disease: Urticaria
-    disease_mesh: MESH:D014581
-    drug: rupatadine
-    drug_mesh: MESH:C103639
-    drugbank: DB11614
-  links:
-    - key: decreases activity of
-      source: MESH:C103639
-      target: UniProt:P35367
-    - key: decreases activity of
-      source: MESH:C103639
-      target: UniProt:P25105
-    - key: positively correlated with
-      source: UniProt:P35367
-      target: GO:0043117
-    - key: positively correlated with
-      source: UniProt:P25105
-      target: GO:0043312
-    - key: participates in
-      source: GO:0043117
-      target: GO:0006954
-    - key: participates in
-      source: GO:0043312
-      target: GO:0006954
-    - key: positively correlated with
-      source: GO:0006954
-      target: MESH:D014581
-  multigraph: true
-  nodes:
-    - id: MESH:C103639
-      label: Drug
-      name: rupatadine
-    - id: UniProt:P35367
-      label: Protein
-      name: Histamine H1 receptor
-    - id: UniProt:P25105
-      label: Protein
-      name: Platelet-activating factor receptor
-    - id: GO:0043117
-      label: BiologicalProcess
-      name: positive regulation of vascular permeability
-    - id: GO:0043312
-      label: BiologicalProcess
-      name: neutrophil degranulation
-    - id: GO:0006954
-      label: BiologicalProcess
-      name: inflammatory response
-    - id: MESH:D014581
-      label: Disease
-      name: Urticaria
-  reference: 'https://go.drugbank.com/drugs/DB11614#mechanism-of-action''https://en.wikipedia.org/wiki/Rupatadine#Mechanism_of_action'
-- directed: true
-  graph:
-    disease: Disorder of the urea cycle metabolism
-    disease_mesh: 'MESH:D056806'
-    drug: glycerol phenylbutyrate
-    drug_mesh: 'MESH:C570223'
-    drugbank: DB08909
-  links:
-    - key: derives into
-      source: 'MESH:C570223'
-      target: 'CHEBI:75316'
-    - key: derives into
-      source: 'CHEBI:75316'
-      target: 'MESH:D010648'
-    - key: molecularly interacts with
-      source: 'MESH:D010648'
-      target: 'CHEBI:28300'
-    - key: produces
-      source: 'CHEBI:28300'
-      target: 'CHEBI:17884'
-    - key: negatively correlated with
-      source: 'CHEBI:17884'
-      target: 'MESH:D056806'
-  multigraph: true
-  nodes:
-    - id: 'MESH:C570223'
-      label: Drug
-      name: glycerol phenylbutyrate
-    - id: 'CHEBI:75316'
-      label: ChemicalSubstance
-      name: sodium phenylbutyrate
-    - id: 'MESH:D010648'
-      label: ChemicalSubstance
-      name: Phenylacetates
-    - id: 'CHEBI:28300'
-      label: ChemicalSubstance
-      name: glutamine
-    - id: 'CHEBI:17884'
-      label: ChemicalSubstance
-      name: N2-phenylacetyl-L-glutamine
-    - id: 'MESH:D056806'
-      label: Disease
-      name: Disorder of the urea cycle metabolism
-  reference: 'https://go.drugbank.com/drugs/DB08909#mechanism-of-action''https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=900e7dc0-9afe-4f50-80de-90567bb78519''https://en.wikipedia.org/wiki/Sodium_phenylbutyrate#Pharmacology'
-=======
+-   directed: true
+    graph:
+        disease: Malignant tumor of ovary
+        disease_mesh: MESH:D010051
+        drug: gemcitabine
+        drug_mesh: MESH:C056507
+        drugbank: DB:DB12459
+    links:
+    -   key: negatively regulates
+        source: MESH:C056507
+        target: UniProt:P04818
+    -   key: negatively regulates
+        source: MESH:C056507
+        target: UniProt:P30085
+    -   key: negatively regulates
+        source: MESH:C056507
+        target: UniProt:P23921
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: GO:0006235
+    -   key: positively regulates
+        source: UniProt:P30085
+        target: GO:0006225
+    -   key: positively regulates
+        source: UniProt:P23921
+        target: GO:0061731
+    -   key: positively correlated with
+        source: GO:0006235
+        target: GO:1904860
+    -   key: positively correlated with
+        source: GO:0006225
+        target: GO:1904860
+    -   key: positively correlated with
+        source: GO:0061731
+        target: GO:1904860
+    -   key: positively correlated with
+        source: GO:1904860
+        target: MESH:D010051
+    multigraph: true
+    nodes:
+    -   id: MESH:C056507
+        label: Drug
+        name: gemcitabine
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: UniProt:P30085
+        label: Protein
+        name: UMP-CMP kinase
+    -   id: UniProt:P23921
+        label: Protein
+        name: Ribonucleoside-diphosphate reductase large subunit
+    -   id: GO:0006235
+        label: BiologicalProcess
+        name: dTTP biosynthetic process
+    -   id: GO:0006225
+        label: BiologicalProcess
+        name: UDP biosynthetic process
+    -   id: GO:0061731
+        label: MolecularActivity
+        name: ribonucleoside-diphosphate reductase activity
+    -   id: GO:1904860
+        label: BiologicalProcess
+        name: DNA synthesis involved in mitotic DNA replication
+    -   id: MESH:D010051
+        label: Disease
+        name: Malignant tumor of ovary
+    reference: https://go.drugbank.com/drugs/DB00441#mechanism-of-action https://europepmc.org/article/med/7481842
+-   directed: true
+    graph:
+        disease: Non-small cell lung cancer
+        disease_mesh: MESH:D002289
+        drug: gemcitabine
+        drug_mesh: MESH:C056507
+        drugbank: DB:DB12459
+    links:
+    -   key: negatively regulates
+        source: MESH:C056507
+        target: UniProt:P04818
+    -   key: negatively regulates
+        source: MESH:C056507
+        target: UniProt:P30085
+    -   key: negatively regulates
+        source: MESH:C056507
+        target: UniProt:P23921
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: GO:0006235
+    -   key: positively regulates
+        source: UniProt:P30085
+        target: GO:0006225
+    -   key: positively regulates
+        source: UniProt:P23921
+        target: GO:0061731
+    -   key: positively correlated with
+        source: GO:0006235
+        target: GO:1904860
+    -   key: positively correlated with
+        source: GO:0006225
+        target: GO:1904860
+    -   key: positively correlated with
+        source: GO:0061731
+        target: GO:1904860
+    -   key: positively correlated with
+        source: GO:1904860
+        target: MESH:D002289
+    multigraph: true
+    nodes:
+    -   id: MESH:C056507
+        label: Drug
+        name: gemcitabine
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: UniProt:P30085
+        label: Protein
+        name: UMP-CMP kinase
+    -   id: UniProt:P23921
+        label: Protein
+        name: Ribonucleoside-diphosphate reductase large subunit
+    -   id: GO:0006235
+        label: BiologicalProcess
+        name: dTTP biosynthetic process
+    -   id: GO:0006225
+        label: BiologicalProcess
+        name: UDP biosynthetic process
+    -   id: GO:0061731
+        label: MolecularActivity
+        name: ribonucleoside-diphosphate reductase activity
+    -   id: GO:1904860
+        label: BiologicalProcess
+        name: DNA synthesis involved in mitotic DNA replication
+    -   id: MESH:D002289
+        label: Disease
+        name: Non-small cell lung cancer
+    reference: https://go.drugbank.com/drugs/DB00441#mechanism-of-action https://europepmc.org/article/med/7481842
 -   directed: true
     graph:
         disease: Hypertensive disorder
@@ -18148,3 +16251,1966 @@ reference: 'https://go.drugbank.com/drugs/DB06817#mechanism-of-action''https://e
         label: Disease
         name: Bacterial Skin Diseases
     reference: https://go.drugbank.com/drugs/DB11943 https://en.wikipedia.org/wiki/Cellulitis
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: mizolastine
+        drug_mesh: MESH:C076170
+        drugbank: DB:DB12523
+    links:
+    -   key: decreases activity of
+        source: MESH:C076170
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C076170
+        label: Drug
+        name: mizolastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://en.wikipedia.org/wiki/Mizolastine https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: carbenoxolone
+        drug_mesh: MESH:D002229
+        drugbank: DB:DB02329
+    links:
+    -   key: negatively regulates
+        source: MESH:D002229
+        target: UniProt:P28845
+    -   key: negatively regulates
+        source: MESH:D002229
+        target: UniProt:P15428
+    -   key: positively regulates
+        source: UniProt:P28845
+        target: GO:0016491
+    -   key: positively regulates
+        source: UniProt:P15428
+        target: GO:0016616
+    -   key: decreases abundance of
+        source: GO:0016491
+        target: MESH:D011453
+    -   key: positively regulates
+        source: GO:0016616
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0070254
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0008283
+    -   key: negatively correlated with
+        source: MESH:D011453
+        target: GO:0001696
+    -   key: negatively correlated with
+        source: GO:0070254
+        target: MESH:D010437
+    -   key: negatively correlated with
+        source: GO:0008283
+        target: MESH:D010437
+    -   key: positively correlated with
+        source: GO:0001696
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:D002229
+        label: Drug
+        name: carbenoxolone
+    -   id: UniProt:P28845
+        label: Protein
+        name: Corticosteroid 11-beta-dehydrogenase isozyme 1
+    -   id: UniProt:P15428
+        label: Protein
+        name: 15-hydroxyprostaglandin dehydrogenase [NAD(+)]
+    -   id: GO:0016491
+        label: MolecularActivity
+        name: oxidoreductase activity
+    -   id: GO:0016616
+        label: MolecularActivity
+        name: oxidoreductase activity, acting on the CH-OH group of donors, NAD or
+            NADP as acceptor
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0070254
+        label: BiologicalProcess
+        name: mucus secretion
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference: https://gut.bmj.com/content/11/4/344 https://www.sciencedirect.com/science/article/abs/pii/0039128X94900914
+        https://scholar.googleusercontent.com/scholar?q=cache:A3Q9QZ97ZyAJ:scholar.google.com/&hl=en&as_sdt=0,5
+        https://www.kegg.jp/entry/D01899 http://www.oeso.org/OESO/books/Vol_3_Eso_Mucosa/Articles/ART088.HTML
+        https://europepmc.org/article/MED/30117204 https://pubmed.ncbi.nlm.nih.gov/2864318/
+        https://pubmed.ncbi.nlm.nih.gov/780088/ https://en.wikipedia.org/wiki/Carbenoxolone
+        https://en.wikipedia.org/wiki/Enoxolone#Mechanism_of_action https://go.drugbank.com/drugs/DB02329#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Perennial allergic rhinitis
+        disease_mesh: MESH:D012221
+        drug: mizolastine
+        drug_mesh: MESH:C076170
+        drugbank: DB:DB12523
+    links:
+    -   key: decreases activity of
+        source: MESH:C076170
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012221
+    multigraph: true
+    nodes:
+    -   id: MESH:C076170
+        label: Drug
+        name: mizolastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012221
+        label: Disease
+        name: Perennial allergic rhinitis
+    reference: https://en.wikipedia.org/wiki/Mizolastine https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: negatively regulates
+        source: DB:DB05812
+        target: UniProt:P05093
+    -   key: negatively regulates
+        source: DB:DB05812
+        target: UniProt:P26439
+    -   key: negatively regulates
+        source: DB:DB05812
+        target: UniProt:P14060
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006704
+    -   key: positively correlated with
+        source: GO:0006704
+        target: HP:0030088
+    -   key: positively correlated with
+        source: GO:0006702
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P05093
+        label: Protein
+        name: Steroid 17-alpha-hydroxylase/17,20 lyase
+    -   id: UniProt:P26439
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
+    -   id: UniProt:P14060
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: androgen biosynthetic process
+    -   id: GO:0006704
+        label: BiologicalProcess
+        name: glucocorticoid biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://go.drugbank.com/drugs/DB05812#mechanism-of-action https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology
+        https://clincancerres.aacrjournals.org/content/19/13/3353
+-   comments: In addition to inhibiting UniProt:P05093 (the main target according
+        to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone
+        also inhibits all these cytochrome P450s and can be useful in treating castration-resistant
+        prostate cancers.
+    directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P15538
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08686
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P05177
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P11712
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08684
+    -   key: positively regulates
+        source: UniProt:P15538
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P08686
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P05177
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P11712
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P08684
+        target: GO:0008203
+    -   key: positively correlated with
+        source: GO:0008203
+        target: GO:0061370
+    -   key: positively correlated with
+        source: GO:0061370
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P15538
+        label: Protein
+        name: Cytochrome P450 11B1, mitochondrial
+    -   id: UniProt:P08686
+        label: Protein
+        name: Steroid 21-hydroxylase
+    -   id: UniProt:P05177
+        label: Protein
+        name: Cytochrome P450 1A2
+    -   id: UniProt:P11712
+        label: Protein
+        name: Cytochrome P450 2C9
+    -   id: UniProt:P08684
+        label: Protein
+        name: Cytochrome P450 3A4
+    -   id: GO:0008203
+        label: BiologicalProcess
+        name: cholesterol metabolic process
+    -   id: GO:0061370
+        label: BiologicalProcess
+        name: testosterone biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://www.kegg.jp/entry/D09701
+        https://en.wikipedia.org/wiki/21-Hydroxylase#Function
+-   comments: In addition to inhibiting UniProt:P05093 (the main target according
+        to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone
+        also inhibits all these cytochrome P450s and can be useful in treating castration-resistant
+        prostate cancers.
+    directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P15538
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08686
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P05177
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P11712
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08684
+    -   key: positively regulates
+        source: UniProt:P15538
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P08686
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P05177
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P11712
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P08684
+        target: GO:0006704
+    -   key: positively correlated with
+        source: GO:0006704
+        target: GO:0061370
+    -   key: positively correlated with
+        source: GO:0061370
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P15538
+        label: Protein
+        name: Cytochrome P450 11B1, mitochondrial
+    -   id: UniProt:P08686
+        label: Protein
+        name: Steroid 21-hydroxylase
+    -   id: UniProt:P05177
+        label: Protein
+        name: Cytochrome P450 1A2
+    -   id: UniProt:P11712
+        label: Protein
+        name: Cytochrome P450 2C9
+    -   id: UniProt:P08684
+        label: Protein
+        name: Cytochrome P450 3A4
+    -   id: GO:0006704
+        label: BiologicalProcess
+        name: glucocorticoid biosynthetic process
+    -   id: GO:0061370
+        label: BiologicalProcess
+        name: testosterone biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://www.kegg.jp/entry/D09701
+        https://en.wikipedia.org/wiki/21-Hydroxylase#Function
+-   comments: In addition to inhibiting UniProt:P05093 (the main target according
+        to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone
+        also acts as a partial antagonist of the androgen receptor (UniProt:P10275)
+    directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P10275
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0060769
+    -   key: positively correlated with
+        source: GO:0060769
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0060769
+        label: BiologicalProcess
+        name: positive regulation of epithelial cell proliferation involved in prostate
+            gland development
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://en.wikipedia.org/wiki/Androgen_receptor#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Androgen_deprivation_therapy#Methods_based_on_drugs
+        https://www.kegg.jp/entry/D09701
+-   comments: DrugBank has this drug as a beta 1 antagonist but data elsewhere does
+        not seem to support the anatagonism role (e.g. https://www.drugs.com/pro/terbutaline.html#s-34090-1,
+        https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1760 https://www.genome.jp/dbget-bin/www_bget?cpd:C07129)
+    directed: true
+    graph:
+        disease: Tear film insufficiency
+        disease_mesh: MESH:D015352
+        drug: terbutaline
+        drug_mesh: MESH:D013726
+        drugbank: DB:DB00871
+    links:
+    -   key: positively regulates
+        source: MESH:D013726
+        target: UniProt:P13945
+    -   key: positively regulates
+        source: MESH:D013726
+        target: UniProt:P07550
+    -   key: positively correlated with
+        source: UniProt:P13945
+        target: GO:0050728
+    -   key: positively correlated with
+        source: UniProt:P07550
+        target: GO:0050728
+    -   key: negatively correlated with
+        source: GO:0050728
+        target: MESH:D015352
+    multigraph: true
+    nodes:
+    -   id: MESH:D013726
+        label: Drug
+        name: terbutaline
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0050728
+        label: BiologicalProcess
+        name: negative regulation of inflammatory response
+    -   id: MESH:D015352
+        label: Disease
+        name: Tear film insufficiency
+    reference: https://go.drugbank.com/drugs/DB00871#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5345890/
+        https://europepmc.org/article/MED/23360156
+-   directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: derives into
+        source: DB:DB05812
+        target: MESH:C000600172
+    -   key: negatively regulates
+        source: MESH:C000600172
+        target: UniProt:P05093
+    -   key: negatively regulates
+        source: MESH:C000600172
+        target: UniProt:P26439
+    -   key: negatively regulates
+        source: MESH:C000600172
+        target: UniProt:P14060
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006704
+    -   key: positively correlated with
+        source: GO:0006704
+        target: HP:0030088
+    -   key: positively correlated with
+        source: GO:0006702
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: MESH:C000600172
+        label: Drug
+        name: delta4-abiraterone
+    -   id: UniProt:P05093
+        label: Protein
+        name: Steroid 17-alpha-hydroxylase/17,20 lyase
+    -   id: UniProt:P26439
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
+    -   id: UniProt:P14060
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: androgen biosynthetic process
+    -   id: GO:0006704
+        label: BiologicalProcess
+        name: glucocorticoid biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://en.wikipedia.org/wiki/%CE%944-Abiraterone
+        https://www.nature.com/articles/nrurol.2016.101 https://www.medchemexpress.com/D4-abiraterone.html
+-   directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: derives into
+        source: DB:DB05812
+        target: MESH:C000600172
+    -   key: decreases activity of
+        source: MESH:C000600172
+        target: UniProt:P18405
+    -   key: decreases activity of
+        source: MESH:C000600172
+        target: UniProt:P31213
+    -   key: decreases activity of
+        source: MESH:C000600172
+        target: UniProt:Q9H8P0
+    -   key: positively regulates
+        source: UniProt:P18405
+        target: GO:0033764
+    -   key: positively regulates
+        source: UniProt:P31213
+        target: GO:0033764
+    -   key: positively regulates
+        source: UniProt:Q9H8P0
+        target: GO:0033764
+    -   key: produces
+        source: GO:0033764
+        target: CHEBI:16330
+    -   key: positively correlated with
+        source: CHEBI:16330
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: MESH:C000600172
+        label: Drug
+        name: delta4-abiraterone
+    -   id: UniProt:P18405
+        label: Protein
+        name: 3-oxo-5-alpha-steroid 4-dehydrogenase 1
+    -   id: UniProt:P31213
+        label: Protein
+        name: 3-oxo-5-alpha-steroid 4-dehydrogenase 2
+    -   id: UniProt:Q9H8P0
+        label: Protein
+        name: Polyprenol reductase
+    -   id: GO:0033764
+        label: MolecularActivity
+        name: steroid dehydrogenase activity, acting on the CH-OH group of donors,
+            NAD or NADP as acceptor
+    -   id: CHEBI:16330
+        label: ChemicalSubstance
+        name: "17\u03B2-hydroxy-5\u03B1-androstan-3-one"
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://en.wikipedia.org/wiki/%CE%944-Abiraterone
+        https://www.nature.com/articles/nrurol.2016.101 https://www.medchemexpress.com/D4-abiraterone.html
+        https://en.wikipedia.org/wiki/Dihydrotestosterone#Biological_function https://en.wikipedia.org/wiki/5%CE%B1-Reductase
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: mizolastine
+        drug_mesh: MESH:C076170
+        drugbank: DB:DB12523
+    links:
+    -   key: decreases activity of
+        source: MESH:C076170
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C076170
+        label: Drug
+        name: mizolastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://en.wikipedia.org/wiki/Mizolastine https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: carbenoxolone
+        drug_mesh: MESH:D002229
+        drugbank: DB:DB02329
+    links:
+    -   key: negatively regulates
+        source: MESH:D002229
+        target: UniProt:P28845
+    -   key: negatively regulates
+        source: MESH:D002229
+        target: UniProt:P15428
+    -   key: positively regulates
+        source: UniProt:P28845
+        target: GO:0016491
+    -   key: positively regulates
+        source: UniProt:P15428
+        target: GO:0016616
+    -   key: decreases abundance of
+        source: GO:0016491
+        target: MESH:D011453
+    -   key: positively regulates
+        source: GO:0016616
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0070254
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0008283
+    -   key: negatively correlated with
+        source: MESH:D011453
+        target: GO:0001696
+    -   key: negatively correlated with
+        source: GO:0070254
+        target: MESH:D010437
+    -   key: negatively correlated with
+        source: GO:0008283
+        target: MESH:D010437
+    -   key: positively correlated with
+        source: GO:0001696
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:D002229
+        label: Drug
+        name: carbenoxolone
+    -   id: UniProt:P28845
+        label: Protein
+        name: Corticosteroid 11-beta-dehydrogenase isozyme 1
+    -   id: UniProt:P15428
+        label: Protein
+        name: 15-hydroxyprostaglandin dehydrogenase [NAD(+)]
+    -   id: GO:0016491
+        label: MolecularActivity
+        name: oxidoreductase activity
+    -   id: GO:0016616
+        label: MolecularActivity
+        name: oxidoreductase activity, acting on the CH-OH group of donors, NAD or
+            NADP as acceptor
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0070254
+        label: BiologicalProcess
+        name: mucus secretion
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference: https://gut.bmj.com/content/11/4/344 https://www.sciencedirect.com/science/article/abs/pii/0039128X94900914
+        https://scholar.googleusercontent.com/scholar?q=cache:A3Q9QZ97ZyAJ:scholar.google.com/&hl=en&as_sdt=0,5
+        https://www.kegg.jp/entry/D01899 http://www.oeso.org/OESO/books/Vol_3_Eso_Mucosa/Articles/ART088.HTML
+        https://europepmc.org/article/MED/30117204 https://pubmed.ncbi.nlm.nih.gov/2864318/
+        https://pubmed.ncbi.nlm.nih.gov/780088/ https://en.wikipedia.org/wiki/Carbenoxolone
+        https://en.wikipedia.org/wiki/Enoxolone#Mechanism_of_action https://go.drugbank.com/drugs/DB02329#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Perennial allergic rhinitis
+        disease_mesh: MESH:D012221
+        drug: mizolastine
+        drug_mesh: MESH:C076170
+        drugbank: DB:DB12523
+    links:
+    -   key: decreases activity of
+        source: MESH:C076170
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012221
+    multigraph: true
+    nodes:
+    -   id: MESH:C076170
+        label: Drug
+        name: mizolastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012221
+        label: Disease
+        name: Perennial allergic rhinitis
+    reference: https://en.wikipedia.org/wiki/Mizolastine https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: negatively regulates
+        source: DB:DB05812
+        target: UniProt:P05093
+    -   key: negatively regulates
+        source: DB:DB05812
+        target: UniProt:P26439
+    -   key: negatively regulates
+        source: DB:DB05812
+        target: UniProt:P14060
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006704
+    -   key: positively correlated with
+        source: GO:0006704
+        target: HP:0030088
+    -   key: positively correlated with
+        source: GO:0006702
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P05093
+        label: Protein
+        name: Steroid 17-alpha-hydroxylase/17,20 lyase
+    -   id: UniProt:P26439
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
+    -   id: UniProt:P14060
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: androgen biosynthetic process
+    -   id: GO:0006704
+        label: BiologicalProcess
+        name: glucocorticoid biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://go.drugbank.com/drugs/DB05812#mechanism-of-action https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology
+        https://clincancerres.aacrjournals.org/content/19/13/3353
+-   comments: In addition to inhibiting UniProt:P05093 (the main target according
+        to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone
+        also inhibits all these cytochrome P450s and can be useful in treating castration-resistant
+        prostate cancers.
+    directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P15538
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08686
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P05177
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P11712
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08684
+    -   key: positively regulates
+        source: UniProt:P15538
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P08686
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P05177
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P11712
+        target: GO:0008203
+    -   key: positively regulates
+        source: UniProt:P08684
+        target: GO:0008203
+    -   key: positively correlated with
+        source: GO:0008203
+        target: GO:0061370
+    -   key: positively correlated with
+        source: GO:0061370
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P15538
+        label: Protein
+        name: Cytochrome P450 11B1, mitochondrial
+    -   id: UniProt:P08686
+        label: Protein
+        name: Steroid 21-hydroxylase
+    -   id: UniProt:P05177
+        label: Protein
+        name: Cytochrome P450 1A2
+    -   id: UniProt:P11712
+        label: Protein
+        name: Cytochrome P450 2C9
+    -   id: UniProt:P08684
+        label: Protein
+        name: Cytochrome P450 3A4
+    -   id: GO:0008203
+        label: BiologicalProcess
+        name: cholesterol metabolic process
+    -   id: GO:0061370
+        label: BiologicalProcess
+        name: testosterone biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://www.kegg.jp/entry/D09701
+        https://en.wikipedia.org/wiki/21-Hydroxylase#Function
+-   comments: In addition to inhibiting UniProt:P05093 (the main target according
+        to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone
+        also inhibits all these cytochrome P450s and can be useful in treating castration-resistant
+        prostate cancers.
+    directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P15538
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08686
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P05177
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P11712
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P08684
+    -   key: positively regulates
+        source: UniProt:P15538
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P08686
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P05177
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P11712
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P08684
+        target: GO:0006704
+    -   key: positively correlated with
+        source: GO:0006704
+        target: GO:0061370
+    -   key: positively correlated with
+        source: GO:0061370
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P15538
+        label: Protein
+        name: Cytochrome P450 11B1, mitochondrial
+    -   id: UniProt:P08686
+        label: Protein
+        name: Steroid 21-hydroxylase
+    -   id: UniProt:P05177
+        label: Protein
+        name: Cytochrome P450 1A2
+    -   id: UniProt:P11712
+        label: Protein
+        name: Cytochrome P450 2C9
+    -   id: UniProt:P08684
+        label: Protein
+        name: Cytochrome P450 3A4
+    -   id: GO:0006704
+        label: BiologicalProcess
+        name: glucocorticoid biosynthetic process
+    -   id: GO:0061370
+        label: BiologicalProcess
+        name: testosterone biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://www.kegg.jp/entry/D09701
+        https://en.wikipedia.org/wiki/21-Hydroxylase#Function
+-   comments: In addition to inhibiting UniProt:P05093 (the main target according
+        to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone
+        also acts as a partial antagonist of the androgen receptor (UniProt:P10275)
+    directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: decreases activity of
+        source: DB:DB05812
+        target: UniProt:P10275
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0060769
+    -   key: positively correlated with
+        source: GO:0060769
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0060769
+        label: BiologicalProcess
+        name: positive regulation of epithelial cell proliferation involved in prostate
+            gland development
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://en.wikipedia.org/wiki/Androgen_receptor#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Androgen_deprivation_therapy#Methods_based_on_drugs
+        https://www.kegg.jp/entry/D09701
+-   comments: DrugBank has this drug as a beta 1 antagonist but data elsewhere does
+        not seem to support the anatagonism role (e.g. https://www.drugs.com/pro/terbutaline.html#s-34090-1,
+        https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1760 https://www.genome.jp/dbget-bin/www_bget?cpd:C07129)
+    directed: true
+    graph:
+        disease: Tear film insufficiency
+        disease_mesh: MESH:D015352
+        drug: terbutaline
+        drug_mesh: MESH:D013726
+        drugbank: DB:DB00871
+    links:
+    -   key: positively regulates
+        source: MESH:D013726
+        target: UniProt:P13945
+    -   key: positively regulates
+        source: MESH:D013726
+        target: UniProt:P07550
+    -   key: positively correlated with
+        source: UniProt:P13945
+        target: GO:0050728
+    -   key: positively correlated with
+        source: UniProt:P07550
+        target: GO:0050728
+    -   key: negatively correlated with
+        source: GO:0050728
+        target: MESH:D015352
+    multigraph: true
+    nodes:
+    -   id: MESH:D013726
+        label: Drug
+        name: terbutaline
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0050728
+        label: BiologicalProcess
+        name: negative regulation of inflammatory response
+    -   id: MESH:D015352
+        label: Disease
+        name: Tear film insufficiency
+    reference: https://go.drugbank.com/drugs/DB00871#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5345890/
+        https://europepmc.org/article/MED/23360156
+-   directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: derives into
+        source: DB:DB05812
+        target: MESH:C000600172
+    -   key: negatively regulates
+        source: MESH:C000600172
+        target: UniProt:P05093
+    -   key: negatively regulates
+        source: MESH:C000600172
+        target: UniProt:P26439
+    -   key: negatively regulates
+        source: MESH:C000600172
+        target: UniProt:P14060
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006702
+    -   key: positively regulates
+        source: UniProt:P05093
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P26439
+        target: GO:0006704
+    -   key: positively regulates
+        source: UniProt:P14060
+        target: GO:0006704
+    -   key: positively correlated with
+        source: GO:0006704
+        target: HP:0030088
+    -   key: positively correlated with
+        source: GO:0006702
+        target: HP:0030088
+    -   key: positively correlated with
+        source: HP:0030088
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: MESH:C000600172
+        label: Drug
+        name: delta4-abiraterone
+    -   id: UniProt:P05093
+        label: Protein
+        name: Steroid 17-alpha-hydroxylase/17,20 lyase
+    -   id: UniProt:P26439
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2
+    -   id: UniProt:P14060
+        label: Protein
+        name: 3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: androgen biosynthetic process
+    -   id: GO:0006704
+        label: BiologicalProcess
+        name: glucocorticoid biosynthetic process
+    -   id: HP:0030088
+        label: PhenotypicFeature
+        name: Increased serum testosterone level
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://en.wikipedia.org/wiki/%CE%944-Abiraterone
+        https://www.nature.com/articles/nrurol.2016.101 https://www.medchemexpress.com/D4-abiraterone.html
+-   directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: abiraterone acetate
+        drug_mesh: MESH:D000069501,MESH:C089740
+        drugbank: DB:DB05812
+    links:
+    -   key: derives into
+        source: DB:DB05812
+        target: MESH:C000600172
+    -   key: decreases activity of
+        source: MESH:C000600172
+        target: UniProt:P18405
+    -   key: decreases activity of
+        source: MESH:C000600172
+        target: UniProt:P31213
+    -   key: decreases activity of
+        source: MESH:C000600172
+        target: UniProt:Q9H8P0
+    -   key: positively regulates
+        source: UniProt:P18405
+        target: GO:0033764
+    -   key: positively regulates
+        source: UniProt:P31213
+        target: GO:0033764
+    -   key: positively regulates
+        source: UniProt:Q9H8P0
+        target: GO:0033764
+    -   key: produces
+        source: GO:0033764
+        target: CHEBI:16330
+    -   key: positively correlated with
+        source: CHEBI:16330
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB05812
+        label: Drug
+        name: abiraterone acetate
+    -   id: MESH:C000600172
+        label: Drug
+        name: delta4-abiraterone
+    -   id: UniProt:P18405
+        label: Protein
+        name: 3-oxo-5-alpha-steroid 4-dehydrogenase 1
+    -   id: UniProt:P31213
+        label: Protein
+        name: 3-oxo-5-alpha-steroid 4-dehydrogenase 2
+    -   id: UniProt:Q9H8P0
+        label: Protein
+        name: Polyprenol reductase
+    -   id: GO:0033764
+        label: MolecularActivity
+        name: steroid dehydrogenase activity, acting on the CH-OH group of donors,
+            NAD or NADP as acceptor
+    -   id: CHEBI:16330
+        label: ChemicalSubstance
+        name: "17\u03B2-hydroxy-5\u03B1-androstan-3-one"
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology https://en.wikipedia.org/wiki/%CE%944-Abiraterone
+        https://www.nature.com/articles/nrurol.2016.101 https://www.medchemexpress.com/D4-abiraterone.html
+        https://en.wikipedia.org/wiki/Dihydrotestosterone#Biological_function https://en.wikipedia.org/wiki/5%CE%B1-Reductase
+-   directed: true
+    graph:
+        disease: Influenza
+        disease_mesh: MESH:D007251
+        drug: oseltamivir
+        drug_mesh: MESH:C535162,MESH:C403132,MESH:D053139
+        drugbank: DB:DB00198
+    links:
+    -   key: negatively regulates
+        source: DB:DB00198
+        target: UniProt:P11485
+    -   key: positively regulates
+        source: UniProt:P11485
+        target: GO:0004308
+    -   key: positively correlated with
+        source: GO:0004308
+        target: GO:0140374
+    -   key: in taxon
+        source: GO:0140374
+        target: NCBITaxon:380985
+    -   key: causes
+        source: NCBITaxon:380985
+        target: MESH:D007251
+    multigraph: true
+    nodes:
+    -   id: DB:DB00198
+        label: Drug
+        name: Oseltamivir
+    -   id: UniProt:P11485
+        label: Protein
+        name: Neuraminidase
+    -   id: GO:0004308
+        label: BiologicalProcess
+        name: exo-alpha-sialidase activity
+    -   id: GO:0140374
+        label: BiologicalProcess
+        name: viral budding from plasma membrane
+    -   id: NCBITaxon:380985
+        label: OrganismTaxon
+        name: Influenza A virus (A/Chile/1/1983(H1N1))
+    -   id: MESH:D007251
+        label: Disease
+        name: Influenza
+    reference: https://go.drugbank.com/drugs/DB00198#mechanism-of-action https://en.wikipedia.org/wiki/Oseltamivir#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Panic disorder
+        disease_mesh: MESH:D016584
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: positively correlated with
+        source: GO:0051610
+        target: MESH:D016584
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: serotonin uptake
+    -   id: MESH:D016584
+        label: Disease
+        name: Panic disorder
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Panic_disorder#Medication
+-   directed: true
+    graph:
+        disease: Panic disorder
+        disease_mesh: MESH:D016584
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: positively correlated with
+        source: GO:0051620
+        target: MESH:D016584
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: norepinephrine uptake
+    -   id: MESH:D016584
+        label: Disease
+        name: Panic disorder
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Panic_disorder#Medication
+-   directed: true
+    graph:
+        disease: Social phobia
+        disease_mesh: MESH:D000072861
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: positively correlated with
+        source: GO:0051610
+        target: MESH:D000072861
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: serotonin uptake
+    -   id: MESH:D000072861
+        label: Disease
+        name: Social phobia
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Social_anxiety_disorder#SSRIs
+-   directed: true
+    graph:
+        disease: Social phobia
+        disease_mesh: MESH:D000072861
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: positively correlated with
+        source: GO:0051620
+        target: MESH:D000072861
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: norepinephrine uptake
+    -   id: MESH:D000072861
+        label: Disease
+        name: Social phobia
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Social_anxiety_disorder#Other_drugs
+-   directed: true
+    graph:
+        disease: Social phobia
+        disease_mesh: MESH:D000072861
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:Q01959
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0090494
+    -   key: positively correlated with
+        source: GO:0090494
+        target: MESH:D000072861
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0090494
+        label: BiologicalProcess
+        name: dopamine uptake
+    -   id: MESH:D000072861
+        label: Disease
+        name: Social phobia
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Social_anxiety_disorder#Neurotransmitters
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: positively correlated with
+        source: GO:0051610
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: serotonin uptake
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Major_depressive_disorder#Antidepressants
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: positively correlated with
+        source: GO:0051620
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: norepinephrine uptake
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Major_depressive_disorder#Antidepressants
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: venlafaxine
+        drug_mesh: MESH:D000069470
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069470
+        target: UniProt:Q01959
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0090494
+    -   key: positively correlated with
+        source: GO:0090494
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069470
+        label: Drug
+        name: venlafaxine
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0090494
+        label: BiologicalProcess
+        name: dopamine uptake
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00285#mechanism-of-action https://en.wikipedia.org/wiki/Venlafaxine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Major_depressive_disorder#Pathophysiology
+-   directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: amoxapine
+        drug_mesh: MESH:D000657
+        drugbank: DB:DB00543
+    links:
+    -   key: negatively regulates
+        source: MESH:D000657
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: positively correlated with
+        source: GO:0051610
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D000657
+        label: Drug
+        name: amoxapine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: serotonin uptake
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00543#mechanism-of-action https://en.wikipedia.org/wiki/Amoxapine#Pharmacology
+-   directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: amoxapine
+        drug_mesh: MESH:D000657
+        drugbank: DB:DB00285
+    links:
+    -   key: negatively regulates
+        source: MESH:D000657
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: positively correlated with
+        source: GO:0051620
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D000657
+        label: Drug
+        name: amoxapine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: norepinephrine uptake
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00543#mechanism-of-action https://en.wikipedia.org/wiki/Amoxapine#Pharmacology
+-   directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: amoxapine
+        drug_mesh: MESH:D000657
+        drugbank: DB:DB00543
+    links:
+    -   key: decreases activity of
+        source: MESH:D000657
+        target: UniProt:P21728
+    -   key: positively regulates
+        source: UniProt:P21728
+        target: GO:0051584
+    -   key: positively correlated with
+        source: GO:0051584
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D000657
+        label: Drug
+        name: amoxapine
+    -   id: UniProt:P21728
+        label: Protein
+        name: D(1A) dopamine receptor
+    -   id: GO:0051584
+        label: BiologicalProcess
+        name: regulation of dopamine uptake involved in synaptic transmission
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00543#mechanism-of-action https://en.wikipedia.org/wiki/Dopamine_receptor#D1-like_family
+        https://pubmed.ncbi.nlm.nih.gov/9347388/ https://pubmed.ncbi.nlm.nih.gov/2698268/
+        https://en.wikipedia.org/wiki/Amineptine#Pharmacology
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: tulobuterol
+        drug_mesh: MESH:C010809
+        drugbank: DB:DB12248
+    links:
+    -   key: positively regulates
+        source: MESH:C010809
+        target: UniProt:P07550
+    -   key: participates in
+        source: UniProt:P07550
+        target: GO:0007190
+    -   key: positively regulates
+        source: GO:0007190
+        target: GO:0006171
+    -   key: precedes
+        source: GO:0006171
+        target: GO:0044557
+    -   key: negatively correlated with
+        source: GO:0044557
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:C010809
+        label: Drug
+        name: tulobuterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0007190
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+    -   id: GO:0006171
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference: https://go.drugbank.com/drugs/DB12248#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/tulobuterol#section=Pharmacology-and-Biochemistry
+        https://www.chemm.nlm.nih.gov/countermeasure_albuterol.htm#eb
+-   directed: true
+    graph:
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: tulobuterol
+        drug_mesh: MESH:C010809
+        drugbank: DB:DB12248
+    links:
+    -   key: positively regulates
+        source: MESH:C010809
+        target: UniProt:P07550
+    -   key: participates in
+        source: UniProt:P07550
+        target: GO:0007190
+    -   key: positively regulates
+        source: GO:0007190
+        target: GO:0006171
+    -   key: precedes
+        source: GO:0006171
+        target: GO:0044557
+    -   key: negatively correlated with
+        source: GO:0044557
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:C010809
+        label: Drug
+        name: tulobuterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0007190
+        label: BiologicalProcess
+        name: activation of adenylate cyclase activity
+    -   id: GO:0006171
+        label: BiologicalProcess
+        name: cAMP biosynthetic process
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference: https://go.drugbank.com/drugs/DB12248#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/tulobuterol#section=Pharmacology-and-Biochemistry
+        https://www.chemm.nlm.nih.gov/countermeasure_albuterol.htm#eb
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: raltegravir
+        drug_mesh: MESH:D000068898
+        drugbank: DB:DB06817
+    links:
+    -   key: negatively regulates
+        source: MESH:D000068898
+        target: UniProt:Q7ZJM1
+    -   key: positively regulates
+        source: UniProt:Q7ZJM1
+        target: GO:0044823
+    -   key: in taxon
+        source: GO:0044823
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068898
+        label: Drug
+        name: raltegravir
+    -   id: UniProt:Q7ZJM1
+        label: Protein
+        name: Integrase
+    -   id: GO:0044823
+        label: MolecularActivity
+        name: retroviral integrase activity
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference: https://go.drugbank.com/drugs/DB06817#mechanism-of-action https://en.wikipedia.org/wiki/Raltegravir#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: rupatadine
+        drug_mesh: MESH:C103639
+        drugbank: DB:DB11614
+    links:
+    -   key: decreases activity of
+        source: MESH:C103639
+        target: UniProt:P35367
+    -   key: decreases activity of
+        source: MESH:C103639
+        target: UniProt:P25105
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: GO:0043117
+    -   key: positively correlated with
+        source: UniProt:P25105
+        target: GO:0043312
+    -   key: participates in
+        source: GO:0043117
+        target: GO:0006954
+    -   key: participates in
+        source: GO:0043312
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C103639
+        label: Drug
+        name: rupatadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P25105
+        label: Protein
+        name: Platelet-activating factor receptor
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: positive regulation of vascular permeability
+    -   id: GO:0043312
+        label: BiologicalProcess
+        name: neutrophil degranulation
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB11614#mechanism-of-action https://en.wikipedia.org/wiki/Rupatadine#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: rupatadine
+        drug_mesh: MESH:C103639
+        drugbank: DB:DB11614
+    links:
+    -   key: decreases activity of
+        source: MESH:C103639
+        target: UniProt:P35367
+    -   key: decreases activity of
+        source: MESH:C103639
+        target: UniProt:P25105
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: GO:0043117
+    -   key: positively correlated with
+        source: UniProt:P25105
+        target: GO:0043312
+    -   key: participates in
+        source: GO:0043117
+        target: GO:0006954
+    -   key: participates in
+        source: GO:0043312
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:C103639
+        label: Drug
+        name: rupatadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P25105
+        label: Protein
+        name: Platelet-activating factor receptor
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: positive regulation of vascular permeability
+    -   id: GO:0043312
+        label: BiologicalProcess
+        name: neutrophil degranulation
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference: https://go.drugbank.com/drugs/DB11614#mechanism-of-action https://en.wikipedia.org/wiki/Rupatadine#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Disorder of the urea cycle metabolism
+        disease_mesh: MESH:D056806
+        drug: glycerol phenylbutyrate
+        drug_mesh: MESH:C570223
+        drugbank: DB:DB08909
+    links:
+    -   key: derives into
+        source: MESH:C570223
+        target: CHEBI:75316
+    -   key: derives into
+        source: CHEBI:75316
+        target: MESH:D010648
+    -   key: molecularly interacts with
+        source: MESH:D010648
+        target: CHEBI:28300
+    -   key: produces
+        source: CHEBI:28300
+        target: CHEBI:17884
+    -   key: negatively correlated with
+        source: CHEBI:17884
+        target: MESH:D056806
+    multigraph: true
+    nodes:
+    -   id: MESH:C570223
+        label: Drug
+        name: glycerol phenylbutyrate
+    -   id: CHEBI:75316
+        label: ChemicalSubstance
+        name: sodium phenylbutyrate
+    -   id: MESH:D010648
+        label: ChemicalSubstance
+        name: Phenylacetates
+    -   id: CHEBI:28300
+        label: ChemicalSubstance
+        name: glutamine
+    -   id: CHEBI:17884
+        label: ChemicalSubstance
+        name: N2-phenylacetyl-L-glutamine
+    -   id: MESH:D056806
+        label: Disease
+        name: Disorder of the urea cycle metabolism
+    reference: https://go.drugbank.com/drugs/DB08909#mechanism-of-action https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=900e7dc0-9afe-4f50-80de-90567bb78519
+        https://en.wikipedia.org/wiki/Sodium_phenylbutyrate#Pharmacology
