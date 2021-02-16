@@ -274,14 +274,7 @@ def update_predicate(old_pred, new_pred, indications):
                 indications[i]['links'][j]['key'] = new_pred
 
 
-def run_tests_fix_and_write(inname='indication_paths.yaml', outname='test_out.yaml'):
-
-
-    try:
-        indications = nx.read_yaml(inname)
-    except:
-        print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
-        return
+def test_and_fix(indications):
 
     common_curi_problems = [('Uniprot', 'UniProt')]
 
@@ -381,7 +374,20 @@ def run_tests_fix_and_write(inname='indication_paths.yaml', outname='test_out.ya
         for error in errors:
             print(error,end='\n\n')
     else:
-        print('Build Successful')
+       print('Build Successful')
+       return indications
+
+
+def run_tests_fix_and_write(inname='indication_paths.yaml', outname='test_out.yaml'):
+
+    try:
+        indications = nx.read_yaml(inname)
+    except:
+        print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
+        return
+
+    indications = test_and_fix(indications)
+    if indications is not None:
         nx.write_yaml(indications, outname, indent=4)
 
 
