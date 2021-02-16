@@ -273,6 +273,14 @@ def update_predicate(old_pred, new_pred, indications):
             if link['key'] == old_pred:
                 indications[i]['links'][j]['key'] = new_pred
 
+def lower_keys(in_dict):
+    if type(in_dict) == list:
+        return [lower_keys(i) for i in in_dict]
+    elif type(in_dict) != dict:
+        return in_dict
+
+    return {k.lower() : lower_keys(v) for k, v in in_dict.items()}
+
 
 def test_and_fix(indications):
 
@@ -280,6 +288,9 @@ def test_and_fix(indications):
 
     errors = []
     to_remove = []
+
+    # Initial data key sanitization
+    indications = [lower_keys(path) for path in indications]
 
     # Run initial tests for Format
     for i, path in enumerate(indications):
