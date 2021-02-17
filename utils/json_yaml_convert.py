@@ -3,7 +3,7 @@ import argparse
 import simplejson
 
 
-def read_json(f_name):
+def read_json(filename):
     """
     Read the DrugMechDB paths from a .json file
 
@@ -28,7 +28,7 @@ def write_json(G, outname):
         simplejson.dump(G, fout, indent=2, ignore_nan=True)
 
 
-def read_yaml(f_name):
+def read_yaml(filename):
     """
     Read the DrugMechDB paths from a .yaml file
 
@@ -80,7 +80,7 @@ if __name__ == "__main__":
         outname = outname + '.yaml'
 
     elif in_yaml and not outname.endswith('.json'):
-        outname = outname = '.json'
+        outname = outname + '.json'
 
     if in_json:
         G = read_json(filename)
