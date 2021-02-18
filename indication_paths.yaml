@@ -312,9 +312,9 @@
     -   id: GO:0003746
         label: MolecularActivity
         name: Translocation of EF-G
-    -   id: GO:0006260
+    -   id: GO:0044787
         label: BiologicalProcess
-        name: Bactierial DNA Replication
+        name: bacterial-type DNA replication
     -   id: GO:0006412
         label: BiologicalProcess
         name: Bacterial Protein Synthesis
@@ -1688,7 +1688,7 @@
     links:
     -   key: positively regulates
         source: MESH:D008914
-        target: REACT:R-HSA-568499
+        target: REACT:R-HSA-5684996
     -   key: produces
         source: MESH:D008914
         target: CL:0000346
@@ -1698,26 +1698,23 @@
     -   key: negatively correlated with
         source: CL:0000346
         target: MESH:D000505
-    -   key: positively regulates
-        source: REACT:R-HSA-568499
+    -   key: contributes to
+        source: REACT:R-HSA-5684996
         target: GO:0043066
-    -   key: molecularly interacts with
+    -   key: participates in
         source: UniProt:P48048
-        target: CHEBI:29103
+        target: GO:0060081
     -   key: located in
         source: GO:0043066
         target: CL:0002559
-    -   key: contributes to
-        source: CHEBI:29103
-        target: GO:0060081
     -   key: affected by
         source: CL:0002559
         target: MESH:D000505
     -   key: negatively regulates
         source: GO:0060081
-        target: GO:0007204
+        target: GO:0070509
     -   key: negatively correlated with
-        source: GO:0007204
+        source: GO:0070509
         target: GO:0042311
     -   key: positively regulates
         source: GO:0042311
@@ -1736,7 +1733,7 @@
     -   id: CL:0000346
         label: Cell
         name: dermal papillary cells
-    -   id: REACT:R-HSA-568499
+    -   id: REACT:R-HSA-5684996
         label: Pathway
         name: ERK1/ERK2 pathway
     -   id: UniProt:P48048
@@ -1745,18 +1742,15 @@
     -   id: GO:0043066
         label: BiologicalProcess
         name: negative regulation of apoptotic process
-    -   id: CHEBI:29103
-        label: ChemicalSubstance
-        name: potassium(1+)
     -   id: CL:0002559
         label: Cell
         name: hair follicle cell
     -   id: GO:0060081
         label: BiologicalProcess
         name: membrane hyperpolarization
-    -   id: GO:0007204
+    -   id: GO:0070509
         label: BiologicalProcess
-        name: positive regulation of cytosolic calcium ion concentration
+        name: transmembrane calcium influx
     -   id: GO:0042311
         label: BiologicalProcess
         name: vasodilation
@@ -1777,32 +1771,26 @@
         drug_mesh: MESH:D008914
         drugbank: DB:DB00350
     links:
-    -   key: positively regulates
-        source: MESH:D008914
-        target: UniProt:P48048
     -   key: increases activity of
         source: MESH:D008914
         target: UniProt:P48048
-    -   key: molecularly interacts with
+    -   key: participates in
         source: UniProt:P48048
-        target: CHEBI:29103
+        target: GO:0060081
     -   key: participates in
         source: UniProt:P48048
         target: GO:0042311
-    -   key: contributes to
-        source: CHEBI:29103
-        target: GO:0060081
     -   key: negatively regulates
         source: GO:0042311
         target: GO:0008217
     -   key: negatively regulates
         source: GO:0060081
-        target: GO:0007204
+        target: GO:0070509
     -   key: positively correlated with
         source: GO:0008217
         target: MESH:D006973
     -   key: contributes to
-        source: GO:0007204
+        source: GO:0070509
         target: GO:0045907
     -   key: contributes to
         source: GO:0045907
@@ -1815,9 +1803,6 @@
     -   id: UniProt:P48048
         label: Protein
         name: ATP-sensitive inward rectifier potassium channel 1
-    -   id: CHEBI:29103
-        label: ChemicalSubstance
-        name: potassium(1+)
     -   id: GO:0042311
         label: BiologicalProcess
         name: Vasodilation
@@ -1827,9 +1812,9 @@
     -   id: GO:0008217
         label: BiologicalProcess
         name: Blood Pressure
-    -   id: GO:0007204
+    -   id: GO:0070509
         label: BiologicalProcess
-        name: positive regulation of cytosolic calcium ion concentration
+        name: transmembrane calcium influx
     -   id: GO:0045907
         label: BiologicalProcess
         name: positive regulation of vasoconstriction
@@ -5391,12 +5376,12 @@
         target: UniProt:P07550
     -   key: positively regulates
         source: UniProt:P07550
-        target: GO:0008294
-    -   key: positively regulates
-        source: GO:0008294
-        target: GO:0006171
+        target: UniProt:B7Z2C7 
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7 
+        target: CHEBI:17489
     -   key: positively correlated with
-        source: GO:0006171
+        source: CHEBI:17489
         target: GO:0044557
     -   key: located in
         source: GO:0044557
@@ -5412,12 +5397,12 @@
     -   id: UniProt:P07550
         label: Protein
         name: Beta-2 adrenergic receptor
-    -   id: GO:0008294
-        label: BiologicalProcess
-        name: calcium- and calmodulin-responsive adenylate cyclase activity
-    -   id: GO:0006171
-        label: BiologicalProcess
-        name: cAMP biosynthetic process
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
     -   id: GO:0044557
         label: BiologicalProcess
         name: relaxation of smooth muscle
@@ -9574,20 +9559,17 @@
     -   key: decreases activity of
         source: MESH:C057619
         target: UniProt:P48048
-    -   key: positively regulates
+    -   key: participates in
         source: UniProt:Q14654
-        target: GO:0051899
-    -   key: positively regulates
+        target: GO:0060081
+    -   key: participates in
         source: UniProt:P48048
-        target: GO:0051899
+        target: GO:0060081
+    -   key: negatively regulates
+        source: GO:0060081
+        target: GO:0070509 
     -   key: positively regulates
-        source: GO:0051899
-        target: GO:0070509
-    -   key: located in
-        source: GO:0070509
-        target: CL:0000169
-    -   key: positively correlated with
-        source: CL:0000169
+        source: GO:0070509 
         target: GO:0030073
     -   key: negatively correlated with
         source: GO:0030073
@@ -9606,15 +9588,12 @@
     -   id: UniProt:P48048
         label: Protein
         name: ATP-sensitive inward rectifier potassium channel 1
-    -   id: GO:0051899
+    -   id: GO:0060081
         label: BiologicalProcess
-        name: membrane depolarization
+        name: membrane hyperpolarization
     -   id: GO:0070509
         label: BiologicalProcess
         name: transmembrane calcium influx
-    -   id: CL:0000169
-        label: Cell
-        name: pancreatic beta cell
     -   id: GO:0030073
         label: BiologicalProcess
         name: insulin secretion
