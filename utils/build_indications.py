@@ -266,6 +266,21 @@ def fix_multi_drug(indications):
                 new_drug_id = path['graph']['drugbank']
                 update_id(mesh_drug_id, drugbank_id, indications)
 
+
+def fix_id_swap(indications):
+    for i, path in enumerate(indications):
+
+        mesh_drug_id = path['graph']['drug_mesh']
+        drugbank_id = path['graph']['drugbank']
+
+        # Make sure they're both present
+        if mesh_drug_id is not None and drugbank_id is not None:
+            # See if they're swapped
+            if mesh_drug_id.startswith('DB:') and drugbank_id.startswith('MESH:'):
+                indications[i]['graph']['drugbank'] = mesh_drug_id
+                indications[i]['graph']['drug_mesh'] = drugbank_id
+
+
 def update_predicate(old_pred, new_pred, indications):
 
     for i, path in enumerate(indications):
@@ -365,6 +380,7 @@ def test_and_fix(indications):
     prep_predicates(indications)
     convert_all_predicates(indications)
     fix_multi_drug(indications)
+    fix_id_swap(indications)
 
     for bad_curi, good_curi in common_curi_problems:
         update_curi(bad_curi, good_curi, indications)
