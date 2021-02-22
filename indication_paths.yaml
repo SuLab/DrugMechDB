@@ -312,9 +312,9 @@
     -   id: GO:0003746
         label: MolecularActivity
         name: Translocation of EF-G
-    -   id: GO:0044787
+    -   id: GO:0006260
         label: BiologicalProcess
-        name: bacterial-type DNA replication
+        name: Bacterial DNA replication
     -   id: GO:0006412
         label: BiologicalProcess
         name: Bacterial Protein Synthesis
@@ -5376,9 +5376,9 @@
         target: UniProt:P07550
     -   key: positively regulates
         source: UniProt:P07550
-        target: UniProt:B7Z2C7 
+        target: UniProt:B7Z2C7
     -   key: increases abundance of
-        source: UniProt:B7Z2C7 
+        source: UniProt:B7Z2C7
         target: CHEBI:17489
     -   key: positively correlated with
         source: CHEBI:17489
@@ -9567,9 +9567,9 @@
         target: GO:0060081
     -   key: negatively regulates
         source: GO:0060081
-        target: GO:0070509 
+        target: GO:0070509
     -   key: positively regulates
-        source: GO:0070509 
+        source: GO:0070509
         target: GO:0030073
     -   key: negatively correlated with
         source: GO:0030073
@@ -11713,8 +11713,8 @@
         disease: Obesity
         disease_mesh: MESH:D009765
         drug: phendimetrazine
-        drug_mesh: DB:DB01579
-        drugbank: MESH:C100294
+        drug_mesh: MESH:C100294
+        drugbank: DB:DB01579
     links:
     -   key: negatively regulates
         source: MESH:C100294
@@ -11757,8 +11757,8 @@
         disease: Obesity
         disease_mesh: MESH:D009765
         drug: phendimetrazine
-        drug_mesh: DB:DB01579
-        drugbank: MESH:C100294
+        drug_mesh: MESH:C100294
+        drugbank: DB:DB01579
     links:
     -   key: increases activity of
         source: MESH:C100294
@@ -19712,7 +19712,8 @@
     -   id: MESH:D010051
         label: Disease
         name: Malignant tumor of ovary
-    reference: https://en.wikipedia.org/wiki/Altretamine#Mechanism-   directed: true
+    reference: https://en.wikipedia.org/wiki/Altretamine#Mechanism
+-   directed: true
     graph:
         disease: Peptic ulcer
         disease_mesh: MESH:D010437
@@ -21614,13 +21615,13 @@
         label: Disease
         name: Pityriasis versicolor
     reference: https://go.drugbank.com/drugs/DB09321 https://pubmed.ncbi.nlm.nih.gov/30299956/
-    -   directed: true
+-   directed: true
     graph:
-        drug: avanafil
-        drugbank: DB:DB06237
-        drug_mesh: MESH:C553414
         disease: Impotence
         disease_mesh: MESH:D007172
+        drug: avanafil
+        drug_mesh: MESH:C553414
+        drugbank: DB:DB06237
     links:
     -   key: decreases activity of
         source: MESH:C553414
@@ -21666,11 +21667,11 @@
     reference: https://go.drugbank.com/drugs/DB06237#mechanismofaction
 -   directed: true
     graph:
-        drug: chlorhexidine
-        drugbank: DB:DB00878
-        drug_mesh: MESH:D002710
         disease: Gingivitis
         disease_mesh: MESH:D005891
+        drug: chlorhexidine
+        drug_mesh: MESH:D002710
+        drugbank: DB:DB00878
     links:
     -   key: disrupts
         source: MESH:D002710
@@ -21704,20 +21705,20 @@
     reference: https://go.drugbank.com/drugs/DB00878#mechanismofaction
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Atopic dermatitis
         disease_mesh: MESH:D003876
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: positively regulates
         source: MESH:D002990
         target: UniProt:P04150
     -   key: decreases activity of
         source: UniProt:P04150
-        target:  InterPro:IPR001211
+        target: InterPro:IPR001211
     -   key: decreases abundance of
-        source:  InterPro:IPR001211
+        source: InterPro:IPR001211
         target: MESH:D016718
     -   key: negatively regulates
         source: MESH:D016718
@@ -21733,7 +21734,7 @@
     -   id: UniProt:P04150
         label: Protein
         name: glucocorticoid receptor
-    -   id:  InterPro:IPR001211
+    -   id: InterPro:IPR001211
         label: GeneFamily
         name: phospholipase A2
     -   id: MESH:D016718
@@ -21746,14 +21747,13 @@
         label: Disease
         name: Atopic dermatitis
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
-
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Atopic dermatitis
         disease_mesh: MESH:D003876
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: increases activity of
         source: MESH:D002990
@@ -21777,7 +21777,7 @@
         name: interleukin-10
     -   id: InterPro:IPR000451
         label: GeneFamily
-        name: NF-Kappa B 
+        name: NF-Kappa B
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory process
@@ -21787,20 +21787,20 @@
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Contact dermatitis
         disease_mesh: MESH:D003877
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: positively regulates
         source: MESH:D002990
         target: UniProt:P04150
     -   key: decreases activity of
         source: UniProt:P04150
-        target:  InterPro:IPR001211
+        target: InterPro:IPR001211
     -   key: decreases abundance of
-        source:  InterPro:IPR001211
+        source: InterPro:IPR001211
         target: MESH:D016718
     -   key: negatively regulates
         source: MESH:D016718
@@ -21816,7 +21816,7 @@
     -   id: UniProt:P04150
         label: Protein
         name: glucocorticoid receptor
-    -   id:  InterPro:IPR001211
+    -   id: InterPro:IPR001211
         label: GeneFamily
         name: phospholipase A2
     -   id: MESH:D016718
@@ -21831,11 +21831,11 @@
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Contact dermatitis
         disease_mesh: MESH:D003877
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: increases activity of
         source: MESH:D002990
@@ -21859,7 +21859,7 @@
         name: interleukin-10
     -   id: InterPro:IPR000451
         label: GeneFamily
-        name: NF-Kappa B 
+        name: NF-Kappa B
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory process
@@ -21869,20 +21869,20 @@
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Seborrheic dermatitis
         disease_mesh: MESH:D012628
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: positively regulates
         source: MESH:D002990
         target: UniProt:P04150
     -   key: decreases activity of
         source: UniProt:P04150
-        target:  InterPro:IPR001211
+        target: InterPro:IPR001211
     -   key: decreases abundance of
-        source:  InterPro:IPR001211
+        source: InterPro:IPR001211
         target: MESH:D016718
     -   key: negatively regulates
         source: MESH:D016718
@@ -21898,7 +21898,7 @@
     -   id: UniProt:P04150
         label: Protein
         name: glucocorticoid receptor
-    -   id:  InterPro:IPR001211
+    -   id: InterPro:IPR001211
         label: GeneFamily
         name: phospholipase A2
     -   id: MESH:D016718
@@ -21911,14 +21911,13 @@
         label: Disease
         name: Seborrheic dermatitis
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
-
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Seborrheic dermatitis
         disease_mesh: MESH:D012628
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: increases activity of
         source: MESH:D002990
@@ -21942,7 +21941,7 @@
         name: interleukin-10
     -   id: InterPro:IPR000451
         label: GeneFamily
-        name: NF-Kappa B 
+        name: NF-Kappa B
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory process
@@ -21952,20 +21951,20 @@
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Dermatosis of scalp
         disease_mesh: MESH:D012536
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: positively regulates
         source: MESH:D002990
         target: UniProt:P04150
     -   key: decreases activity of
         source: UniProt:P04150
-        target:  InterPro:IPR001211
+        target: InterPro:IPR001211
     -   key: decreases abundance of
-        source:  InterPro:IPR001211
+        source: InterPro:IPR001211
         target: MESH:D016718
     -   key: negatively regulates
         source: MESH:D016718
@@ -21981,7 +21980,7 @@
     -   id: UniProt:P04150
         label: Protein
         name: glucocorticoid receptor
-    -   id:  InterPro:IPR001211
+    -   id: InterPro:IPR001211
         label: GeneFamily
         name: phospholipase A2
     -   id: MESH:D016718
@@ -21994,14 +21993,13 @@
         label: Disease
         name: Dermatosis of scalp
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
-
 -   directed: true
     graph:
-        drug: clobetasol propionate
-        drugbank: DB:DB11750
-        drug_mesh: MESH:D002990
         disease: Dermatosis of scalp
         disease_mesh: MESH:D012536
+        drug: clobetasol propionate
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
     links:
     -   key: increases activity of
         source: MESH:D002990
@@ -22025,7 +22023,7 @@
         name: interleukin-10
     -   id: InterPro:IPR000451
         label: GeneFamily
-        name: NF-Kappa B 
+        name: NF-Kappa B
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory process
@@ -22035,11 +22033,11 @@
     reference: https://go.drugbank.com/drugs/DB11750#mechanismofaction
 -   directed: true
     graph:
-        drug: crizotinib
-        drugbank: DB:DB08865
-        drug_mesh: MESH:C551994
         disease: Non-small cell lung cancer
         disease_mesh: MESH:D002289
+        drug: crizotinib
+        drug_mesh: MESH:C551994
+        drugbank: DB:DB08865
     links:
     -   key: decreases activity of
         source: MESH:C551994
@@ -22067,11 +22065,11 @@
     reference: https://go.drugbank.com/drugs/DB08865#mechanismofaction
 -   directed: true
     graph:
-        drug: crizotinib
-        drugbank: DB:DB08865
-        drug_mesh: MESH:C551994
         disease: Non-small cell lung cancer
         disease_mesh: MESH:D002289
+        drug: crizotinib
+        drug_mesh: MESH:C551994
+        drugbank: DB:DB08865
     links:
     -   key: decreases activity of
         source: MESH:C551994
@@ -22097,14 +22095,13 @@
         label: Disease
         name: Non-small cell lung cancer
     reference: https://go.drugbank.com/drugs/DB08865#mechanismofaction
-
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Asthma-chronic obstructive pulmonary disease overlap syndrome
         disease_mesh: MESH:D000080445
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22154,14 +22151,13 @@
         label: Disease
         name: Asthma-chronic obstructive pulmonary disease overlap syndrome
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
-
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Asthma-chronic obstructive pulmonary disease overlap syndrome
         disease_mesh: MESH:D000080445
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22213,11 +22209,11 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Chronic bronchitis
         disease_mesh: MESH:D029481
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22269,11 +22265,11 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Chronic bronchitis
         disease_mesh: MESH:D029481
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22325,67 +22321,67 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-      drug: diprophylline
-      drugbank: DB:DB00651
-      drug_mesh: MESH:D004400
-      disease: Bronchospasm
-      disease_mesh: MESH:D001986
-    links:
-    -   key: decreases activity of
-        source: MESH:D004400
-        target: InterPro:IPR043371
-    -   key: increases abundance of
-        source: InterPro:IPR043371
-        target: MESH:D000242
-    -   key: causes
-        source: MESH:D000242
-        target: GO:0097366
-    -   key: enables
-        source: GO:0097366
-        target: GO:0044557
-    -   key: located in
-        source: GO:0044557
-        target: UBERON:0002185
-    -   key: contributes to
-        source: UBERON:0002185
-        target: GO:0042311
-    -   key: treats
-        source: GO:0042311
-        target: MESH:D001986
-    multigraph: true
-    nodes:
-    -   id: MESH:D004400
-        label: Drug
-        name: diprophylline
-    -   id: InterPro:IPR043371
-        label: GeneFamily
-        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4
-    -   id: MESH:D000242
-        label: ChemicalSubstance
-        name: cyclic AMP
-    -   id: GO:0097366
-        label: BiologicalProcess
-        name: bronchodilation
-    -   id: GO:0044557
-        label: BiologicalProcess
-        name: relaxation of smooth muscle
-    -   id: UBERON:0002185
-        label: GrossAnatomicalStructure
-        name: bronchus
-    -   id: GO:0042311
-        label: BiologicalProcess
-        name: vasodilation
-    -   id: MESH:D001986
-        label: Disease
-        name: Bronchospasm
-    reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
--   directed: true
-    graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Bronchospasm
         disease_mesh: MESH:D001986
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: InterPro:IPR043371
+    -   key: increases abundance of
+        source: InterPro:IPR043371
+        target: MESH:D000242
+    -   key: causes
+        source: MESH:D000242
+        target: GO:0097366
+    -   key: enables
+        source: GO:0097366
+        target: GO:0044557
+    -   key: located in
+        source: GO:0044557
+        target: UBERON:0002185
+    -   key: contributes to
+        source: UBERON:0002185
+        target: GO:0042311
+    -   key: treats
+        source: GO:0042311
+        target: MESH:D001986
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: diprophylline
+    -   id: InterPro:IPR043371
+        label: GeneFamily
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: cyclic AMP
+    -   id: GO:0097366
+        label: BiologicalProcess
+        name: bronchodilation
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D001986
+        label: Disease
+        name: Bronchospasm
+    reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
+-   directed: true
+    graph:
+        disease: Bronchospasm
+        disease_mesh: MESH:D001986
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22437,11 +22433,11 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Pulmonary emphysema
         disease_mesh: MESH:D011656
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22493,11 +22489,11 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Pulmonary emphysema
         disease_mesh: MESH:D011656
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22549,11 +22545,11 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Asthma
         disease_mesh: MESH:D001249
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22605,11 +22601,11 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-        drug: diprophylline
-        drugbank: DB:DB00651
-        drug_mesh: MESH:D004400
         disease: Asthma
         disease_mesh: MESH:D001249
+        drug: diprophylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
     links:
     -   key: decreases activity of
         source: MESH:D004400
@@ -22661,11 +22657,11 @@
     reference: https://go.drugbank.com/drugs/DB00651#mechanismofaction
 -   directed: true
     graph:
-        drug: elbasvir
-        drugbank: DB:DB11574
-        drug_mesh: MESH:C000589335
         disease: Chronic hepatitis C
         disease_mesh: MESH:D019698
+        drug: elbasvir
+        drug_mesh: MESH:C000589335
+        drugbank: DB:DB11574
     links:
     -   key: decreases activity of
         source: MESH:C000589335
@@ -22697,14 +22693,13 @@
         label: Disease
         name: Chronic hepatitis C
     reference: https://go.drugbank.com/drugs/DB11574#mechanismofaction
-
 -   directed: true
     graph:
-        drug: elbasvir
-        drugbank: DB:DB11574
-        drug_mesh: MESH:C000589335
         disease: Chronic hepatitis C
         disease_mesh: MESH:D019698
+        drug: elbasvir
+        drug_mesh: MESH:C000589335
+        drugbank: DB:DB11574
     links:
     -   key: decreases activity of
         source: MESH:C000589335
@@ -22737,56 +22732,56 @@
         name: Chronic hepatitis C
     reference: https://go.drugbank.com/drugs/DB11574#mechanismofaction
 -   directed: true
-        graph:
-            drug: lenvatinib
-            drugbank: DB:DB09078
-            drug_mesh: MESH:C531958
-            disease: Papillary thyroid carcinoma
-            disease_mesh: MESH:D000077273
-        links:
-        -   key: decreases activity of
-            source: MESH:C531958
-            target: InterPro:IPR009135
-        -   key: negatively regulates
-            source: InterPro:IPR009135
-            target: GO:0001525
-        -   key: disrupts
-            source: GO:0001525
-            target: GO:0009987
-        -   key: located in
-            source: GO:0009987
-            target: CL:0001064
-        -   key: treats
-            source: CL:0001064
-            target: MESH:D000077273
-        multigraph: true
-        nodes:
-        -   id: MESH:C531958
-            label: Drug
-            name: lenvatinib
-        -   id: InterPro:IPR009135
-            label: GeneFamily
-            name: vascular endothelial growth factor receptor
-        -   id: GO:0001525
-            label: BiologicalProcess
-            name: angiogenesis
-        -   id: GO:0009987
-            label: BiologicalProcess
-            name: cellular processes
-        -   id: CL:0001064
-            label: Cell
-            name: cancer cell
-        -   id: MESH:D000077273
-            label: Disease
-            name: Papillary thyroid carcinoma
-        reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
--   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Papillary thyroid carcinoma
         disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: InterPro:IPR009135
+    -   key: negatively regulates
+        source: InterPro:IPR009135
+        target: GO:0001525
+    -   key: disrupts
+        source: GO:0001525
+        target: GO:0009987
+    -   key: located in
+        source: GO:0009987
+        target: CL:0001064
+    -   key: treats
+        source: CL:0001064
+        target: MESH:D000077273
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: InterPro:IPR009135
+        label: GeneFamily
+        name: vascular endothelial growth factor receptor
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: angiogenesis
+    -   id: GO:0009987
+        label: BiologicalProcess
+        name: cellular processes
+    -   id: CL:0001064
+        label: Cell
+        name: cancer cell
+    -   id: MESH:D000077273
+        label: Disease
+        name: Papillary thyroid carcinoma
+    reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
+-   directed: true
+    graph:
+        disease: Papillary thyroid carcinoma
+        disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -22820,11 +22815,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Papillary thyroid carcinoma
         disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -22858,11 +22853,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Papillary thyroid carcinoma
         disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -22896,11 +22891,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Papillary thyroid carcinoma
         disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -22934,11 +22929,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Follicular thyroid carcinoma
         disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -22978,11 +22973,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Follicular thyroid carcinoma
         disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23016,11 +23011,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Follicular thyroid carcinoma
         disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23054,11 +23049,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Follicular thyroid carcinoma
         disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23092,11 +23087,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Follicular thyroid carcinoma
         disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23130,11 +23125,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Renal cell carcinoma
         disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23174,11 +23169,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Renal cell carcinoma
         disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23212,11 +23207,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Renal cell carcinoma
         disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23250,11 +23245,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Renal cell carcinoma
         disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23288,11 +23283,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: lenvatinib
-        drugbank: DB:DB09078
-        drug_mesh: MESH:C531958
         disease: Renal cell carcinoma
         disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
     links:
     -   key: decreases activity of
         source: MESH:C531958
@@ -23326,11 +23321,11 @@
     reference: https://go.drugbank.com/drugs/DB09078#mechanismofaction
 -   directed: true
     graph:
-        drug: liraglutide
-        drugbank: DB:DB06655
-        drug_mesh: MESH:D000069450
         disease: Diabetes mellitus type 2
         disease_mesh: MESH:D003924
+        drug: liraglutide
+        drug_mesh: MESH:D000069450
+        drugbank: DB:DB06655
     links:
     -   key: increases activity of
         source: MESH:D000069450
@@ -23344,7 +23339,7 @@
     -   key: negatively regulates
         source: GO:0035773
         target: GO:0070093
-    -   key: causes
+    -   key: precedes
         source: GO:0070093
         target: GO:0120061
     -   key: decreases abundance of
@@ -23382,11 +23377,11 @@
     reference: https://go.drugbank.com/drugs/DB06655#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Psychotic disorder
         disease_mesh: MESH:D011618
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23420,11 +23415,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Psychotic disorder
         disease_mesh: MESH:D011618
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23458,11 +23453,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Psychotic disorder
         disease_mesh: MESH:D011618
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23496,11 +23491,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Psychotic disorder
         disease_mesh: MESH:D011618
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23534,11 +23529,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Psychotic disorder
         disease_mesh: MESH:D011618
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23572,11 +23567,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Vomiting
         disease_mesh: MESH:D014839
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23616,11 +23611,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Vomiting
         disease_mesh: MESH:D014839
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23654,11 +23649,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Vomiting
         disease_mesh: MESH:D014839
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23692,19 +23687,19 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Vomiting
         disease_mesh: MESH:D014839
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
         target: UniProt:P41595
     -   key: located in
-        source: UniProt:P41595
-        target: UBERON:0002162
         reference: DOI:10.3978/j.issn.2224-5820.2012.07.07
+        source: UniProt:P41595
+        target: UBERON:0002162
     -   key: negatively regulates
         source: UBERON:0002162
         target: UBERON:0001759
@@ -23737,11 +23732,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Nausea
         disease_mesh: MESH:D009325
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23781,11 +23776,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Nausea
         disease_mesh: MESH:D009325
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23819,11 +23814,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Nausea
         disease_mesh: MESH:D009325
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
@@ -23857,19 +23852,19 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: triflupromazine
-        drugbank: DB:DB00508
-        drug_mesh: MESH:D014273
         disease: Nausea
         disease_mesh: MESH:D009325
+        drug: triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
     links:
     -   key: decreases activity of
         source: MESH:D014273
         target: UniProt:P41595
     -   key: located in
+        reference: DOI:10.3978/j.issn.2224-5820.2012.07.07
         source: UniProt:P41595
         target: UBERON:0002162
-        reference: DOI:10.3978/j.issn.2224-5820.2012.07.07
     -   key: negatively regulates
         source: UBERON:0002162
         target: UBERON:0001759
@@ -23902,11 +23897,11 @@
     reference: https://go.drugbank.com/drugs/DB00508#mechanismofaction
 -   directed: true
     graph:
-        drug: crizotinib
-        drugbank: DB:DB08865
-        drug_mesh: MESH:C551994
         disease: Non-small cell lung cancer
         disease_mesh: MESH:D002289
+        drug: crizotinib
+        drug_mesh: MESH:C551994
+        drugbank: DB:DB08865
     links:
     -   key: decreases activity of
         source: MESH:C551994
