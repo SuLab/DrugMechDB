@@ -21615,3 +21615,1164 @@
         label: Disease
         name: Pityriasis versicolor
     reference: https://go.drugbank.com/drugs/DB09321 https://pubmed.ncbi.nlm.nih.gov/30299956/
+- directed: true
+  graph:
+    disease: Uveitis
+    disease_mesh: MESH:D014605
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: MESH:D011808
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: MESH:D011808
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:562
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014605
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: MESH:D011808
+      label: GeneFamily
+      name: Quinone Reductases
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014605
+      label: Disease
+      name: Uveitis
+  reference: https://go.drugbank.com/drugs/DB00781#mechanism-of-action https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    disease: Bacterial conjunctivitis
+    disease_mesh: MESH:D003234
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: MESH:D011808
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: MESH:D011808
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:1279
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:1279
+    - key: causes
+      source: NCBITaxon:1279
+      target: MESH:D003234
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: MESH:D011808
+      label: GeneFamily
+      name: Quinone Reductases
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:1279
+      label: OrganismTaxon
+      name: Staphylococcus sp
+    - id: MESH:D003234
+      label: Disease
+      name: Bacterial conjunctivitis
+  reference: https://go.drugbank.com/drugs/DB00781#mechanism-of-action https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    disease: Urinary tract infectious disease
+    disease_mesh: MESH:D014552
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: MESH:D011808
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: MESH:D011808
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:562
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: MESH:D011808
+      label: GeneFamily
+      name: Quinone Reductases
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary tract infectious disease
+  reference: https://go.drugbank.com/drugs/DB00781#mechanism-of-action https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    disease: Otitis externa
+    disease_mesh: MESH:D010032
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: MESH:D011808
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: MESH:D011808
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:2
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:2
+    - key: causes
+      source: NCBITaxon:2
+      target: MESH:D010032
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: MESH:D011808
+      label: GeneFamily
+      name: Quinone Reductases
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:2
+      label: OrganismTaxon
+      name: Bacteria
+    - id: MESH:D010032
+      label: Disease
+      name: Otitis externa
+  reference: https://go.drugbank.com/drugs/DB00781#mechanism-of-action https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    disease: Keratitis
+    disease_mesh: MESH:D007634
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: molecularly interacts with
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: MESH:D011808
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: MESH:D011808
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:1280
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D007634
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: MESH:D011808
+      label: GeneFamily
+      name: Quinone Reductases
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D007634
+      label: Disease
+      name: Keratitis
+  reference: https://go.drugbank.com/drugs/DB00781#mechanism-of-action https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    disease: Urinary tract infectious disease
+    disease_mesh: MESH:D014552
+    drug: fosfomycin
+    drug_mesh: MESH:D005578
+    drugbank: DB:DB00828
+  links:
+    - key: negatively regulates
+      source: MESH:D005578
+      target: UniProt:P0A749
+    - key: positively regulates
+      source: UniProt:P0A749
+      target: GO:0019277
+    - key: part of
+      source: GO:0019277
+      target: GO:0009274
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D005578
+      label: Drug
+      name: fosfomycin
+    - id: UniProt:P0A749
+      label: Protein
+      name: UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+    - id: GO:0019277
+      label: BiologicalProcess
+      name: UDP-N-acetylgalactosamine biosynthetic process
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: 'NCBITaxon:562'
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary tract infectious disease
+  reference: https://go.drugbank.com/drugs/DB00828#mechanism-of-action https://en.wikipedia.org/wiki/Fosfomycin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Parkinson's disease
+    disease_mesh: MESH:D010300
+    drug: entacapone
+    drug_mesh: MESH:C071192
+    drugbank: DB:DB00494
+  links:
+    - key: negatively regulates
+      source: MESH:C071192
+      target: UniProt:P21964
+    - key: positively regulates
+      source: UniProt:P21964
+      target: GO:0102084
+    - key: decreases abundance of
+      source: GO:0102084
+      target: CHEBI:15765
+    - key: positively correlated with
+      source: CHEBI:15765
+      target: GO:0001963
+    - key: negatively correlated with
+      source: GO:0001963
+      target: MESH:D010300
+  multigraph: true
+  nodes:
+    - id: MESH:C071192
+      label: Drug
+      name: entacapone
+    - id: UniProt:P21964
+      label: Protein
+      name: Catechol O-methyltransferase
+    - id: GO:0102084
+      label: MolecularActivity
+      name: L-dopa O-methyltransferase activity
+    - id: CHEBI:15765
+      label: ChemicalSubstance
+      name: L-dopa
+    - id: GO:0001963
+      label: BiologicalProcess
+      name: synaptic transmission, dopaminergic
+    - id: MESH:D010300
+      label: Disease
+      name: Parkinson's disease
+  reference: https://go.drugbank.com/drugs/DB00494#mechanism-of-action https://en.wikipedia.org/wiki/Entacapone#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Hypophosphatemia
+    disease_mesh: MESH:D017674
+    drug: calcitriol
+    drug_mesh: MESH:D002117
+    drugbank: DB:DB00136
+  links:
+    - key: increases activity of
+      source: MESH:D002117
+      target: UniProt:P11473
+    - key: positively regulates
+      source: UniProt:P11473
+      target: GO:0060558
+    - key: positively correlated with
+      source: GO:0060558
+      target: GO:0055074
+    - key: positively correlated with
+      source: GO:0055074
+      target: GO:0055062
+    - key: negatively correlated with
+      source: GO:0055062
+      target: MESH:D017674
+  multigraph: true
+  nodes:
+    - id: MESH:D002117
+      label: Drug
+      name: calcitriol
+    - id: UniProt:P11473
+      label: Protein
+      name: Vitamin D3 receptor
+    - id: GO:0060558
+      label: BiologicalProcess
+      name: regulation of calcidiol 1-monooxygenase activity
+    - id: GO:0055074
+      label: BiologicalProcess
+      name: calcium ion homeostasis
+    - id: GO:0055062
+      label: BiologicalProcess
+      name: phosphate ion homeostasis
+    - id: MESH:D017674
+      label: Disease
+      name: Hypophosphatemia
+  reference: https://en.wikipedia.org/wiki/Calcitriol#Mechanism_of_action https://pubmed.ncbi.nlm.nih.gov/23713873/ https://www.targetvalidation.org/evidence/ENSG00000111424/HP_0002148?view=sec:known_drug https://en.wikipedia.org/wiki/Hypophosphatemia#Causes https://go.drugbank.com/drugs/DB00136#description
+- directed: true
+  graph:
+    disease: Hypocalcemia
+    disease_mesh: MESH:D006996
+    drug: calcitriol
+    drug_mesh: MESH:D002117
+    drugbank: DB:DB00136
+  links:
+    - key: increases activity of
+      source: MESH:D002117
+      target: UniProt:P11473
+    - key: positively regulates
+      source: UniProt:P11473
+      target: GO:0060558
+    - key: positively correlated with
+      source: GO:0060558
+      target: GO:0055074
+    - key: negatively correlated with
+      source: GO:0055074
+      target: MESH:D006996
+  multigraph: true
+  nodes:
+    - id: MESH:D002117
+      label: Drug
+      name: calcitriol
+    - id: UniProt:P11473
+      label: Protein
+      name: Vitamin D3 receptor
+    - id: GO:0060558
+      label: BiologicalProcess
+      name: regulation of calcidiol 1-monooxygenase activity
+    - id: GO:0055074
+      label: BiologicalProcess
+      name: calcium ion homeostasis
+    - id: MESH:D006996
+      label: Disease
+      name: Hypocalcemia
+  reference: https://en.wikipedia.org/wiki/Calcitriol#Mechanism_of_action https://pubmed.ncbi.nlm.nih.gov/23713873/ https://www.targetvalidation.org/evidence/ENSG00000111424/HP_0002901?view=sec:known_drug https://go.drugbank.com/drugs/DB00136#description https://en.wikipedia.org/wiki/Hypocalcaemia#Management
+- directed: true
+  graph:
+    disease: Hypoparathyroidism
+    disease_mesh: MESH:D007011
+    drug: calcitriol
+    drug_mesh: MESH:D002117
+    drugbank: DB:DB00136
+  links:
+    - key: increases activity of
+      source: MESH:D002117
+      target: UniProt:P11473
+    - key: positively regulates
+      source: UniProt:P11473
+      target: GO:0060558
+    - key: positively correlated with
+      source: GO:0060558
+      target: GO:0055074
+    - key: negatively correlated with
+      source: GO:0055074
+      target: HP:0004363
+    - key: positively correlated with
+      source: HP:0004363
+      target: MESH:D007011
+  multigraph: true
+  nodes:
+    - id: MESH:D002117
+      label: Drug
+      name: calcitriol
+    - id: UniProt:P11473
+      label: Protein
+      name: Vitamin D3 receptor
+    - id: GO:0060558
+      label: BiologicalProcess
+      name: regulation of calcidiol 1-monooxygenase activity
+    - id: GO:0055074
+      label: BiologicalProcess
+      name: calcium ion homeostasis
+    - id: HP:0004363
+      label: PhenotypicFeature
+      name: Abnormal circulating calcium concentration
+    - id: MESH:D007011
+      label: Disease
+      name: Hypoparathyroidism
+  reference: https://en.wikipedia.org/wiki/Calcitriol#Mechanism_of_action https://pubmed.ncbi.nlm.nih.gov/23713873/ https://en.wikipedia.org/wiki/Hypoparathyroidism#Treatment https://go.drugbank.com/drugs/DB00136#description
+- directed: true
+  graph:
+    disease: Renal osteodystrophy
+    disease_mesh: MESH:D012080
+    drug: calcitriol
+    drug_mesh: MESH:D002117
+    drugbank: DB:DB00136
+  links:
+    - key: increases activity of
+      source: MESH:D002117
+      target: UniProt:P11473
+    - key: positively regulates
+      source: UniProt:P11473
+      target: GO:0060558
+    - key: positively correlated with
+      source: GO:0060558
+      target: GO:0055074
+    - key: negatively correlated with
+      source: GO:0055074
+      target: HP:0004363
+    - key: positively correlated with
+      source: HP:0004363
+      target: MESH:D012080
+  multigraph: true
+  nodes:
+    - id: MESH:D002117
+      label: Drug
+      name: calcitriol
+    - id: UniProt:P11473
+      label: Protein
+      name: Vitamin D3 receptor
+    - id: GO:0060558
+      label: BiologicalProcess
+      name: regulation of calcidiol 1-monooxygenase activity
+    - id: GO:0055074
+      label: BiologicalProcess
+      name: calcium ion homeostasis
+    - id: HP:0004363
+      label: PhenotypicFeature
+      name: Abnormal circulating calcium concentration
+    - id: MESH:D012080
+      label: Disease
+      name: Renal osteodystrophy
+  reference: https://en.wikipedia.org/wiki/Calcitriol#Mechanism_of_action https://pubmed.ncbi.nlm.nih.gov/23713873/ https://pubmed.ncbi.nlm.nih.gov/16970258/ https://go.drugbank.com/drugs/DB00136#description https://en.wikipedia.org/wiki/Renal_osteodystrophy#Pathogenesis
+- directed: true
+  graph:
+    disease: Vitamin B6 deficiency
+    disease_mesh: MESH:D026681
+    drug: pyridoxine
+    drug_mesh: MESH:D011736
+    drugbank: DB:DB00165
+  links:
+    - key: interacts with
+      source: MESH:D011736
+      target: UniProt:O00764
+    - key: positively regulates
+      source: UniProt:O00764
+      target: GO:0008478
+    - key: positively correlated with
+      source: GO:0008478
+      target: CHEBI:18405
+    - key: negatively correlated with
+      source: CHEBI:18405
+      target: MESH:D026681
+  multigraph: true
+  nodes:
+    - id: MESH:D011736
+      label: Drug
+      name: pyridoxine
+    - id: UniProt:O00764
+      label: Protein
+      name: Pyridoxal kinase
+    - id: GO:0008478
+      label: MolecularActivity
+      name: pyridoxal kinase activity
+    - id: CHEBI:18405
+      label: ChemicalSubstance
+      name: pyridoxal 5'-phosphate
+    - id: MESH:D026681
+      label: Disease
+      name: Vitamin B6 deficiency
+  reference: https://go.drugbank.com/drugs/DB00165#mechanism-of-action https://en.wikipedia.org/wiki/Pyridoxine
+- directed: true
+  graph:
+    disease: Depressive disorder
+    disease_mesh: MESH:D003866
+    drug: setiptiline
+    drug_mesh: MESH:C050605
+    drugbank: DB:DB09304
+  links:
+    - key: decreases activity of
+      source: MESH:C050605
+      target: UniProt:P08913
+    - key: decreases activity of
+      source: MESH:C050605
+      target: UniProt:P18089
+    - key: decreases activity of
+      source: MESH:C050605
+      target: UniProt:P18825
+    - key: participates in
+      source: UniProt:P08913
+      target: GO:0010700
+    - key: participates in
+      source: UniProt:P18089
+      target: GO:0010700
+    - key: participates in
+      source: UniProt:P18825
+      target: GO:0010700
+    - key: participates in
+      source: UniProt:P08913
+      target: GO:0032811
+    - key: participates in
+      source: UniProt:P18089
+      target: GO:0032811
+    - key: participates in
+      source: UniProt:P18825
+      target: GO:0032811
+    - key: positively correlated with
+      source: GO:0010700
+      target: MESH:D003866
+    - key: positively correlated with
+      source: GO:0032811
+      target: MESH:D003866
+  multigraph: true
+  nodes:
+    - id: MESH:C050605
+      label: Drug
+      name: setiptiline
+    - id: UniProt:P08913
+      label: Protein
+      name: Alpha-2A adrenergic receptor
+    - id: UniProt:P18089
+      label: Protein
+      name: Alpha-2B adrenergic receptor
+    - id: UniProt:P18825
+      label: Protein
+      name: Alpha-2C adrenergic receptor
+    - id: GO:0010700
+      label: BiologicalProcess
+      name: negative regulation of norepinephrine secretion
+    - id: GO:0032811
+      label: BiologicalProcess
+      name: negative regulation of epinephrine secretion
+    - id: MESH:D003866
+      label: Disease
+      name: Depressive disorder
+  reference: https://go.drugbank.com/drugs/DB09304#mechanism-of-action https://drugs.ncats.io/substance/7L38105Z6E#general
+  comments: Setiptiline is considered a weak inhibitor of norepinephrine reuptake but I could not find evidence for this drug modulating the (nore)epinephrine uptake by Q7RTT9 or P23975. These putative mechanism has been observed in vitro/model organisms studies and is on Wikipedia (https://en.wikipedia.org/wiki/Setiptiline#Pharmacodynamics) but not on DrugBank or ChEMBL for example.
+- directed: true
+  graph:
+    disease: Depressive disorder
+    disease_mesh: MESH:D003866
+    drug: setiptiline
+    drug_mesh: MESH:C050605
+    drugbank: DB:DB09304
+  links:
+    - key: decreases activity of
+      source: MESH:C050605
+      target: MESH:D011985
+    - key: negatively regulates
+      source: MESH:D011985
+      target: GO:0001820
+    - key: precedes
+      source: GO:0001820
+      target: GO:0099153
+    - key: negatively correlated with
+      source: GO:0099153
+      target: MESH:D003866
+  multigraph: true
+  nodes:
+    - id: MESH:C050605
+      label: Drug
+      name: setiptiline
+    - id: MESH:D011985
+      label: GeneFamily
+      name: Receptors, Serotonin
+    - id: GO:0001820
+      label: BiologicalProcess
+      name: serotonin secretion
+    - id: GO:0099153
+      label: BiologicalProcess
+      name: synaptic transmission, serotonergic
+    - id: MESH:D003866
+      label: Disease
+      name: Depressive disorder
+  reference: https://go.drugbank.com/drugs/DB09304#mechanism-of-action https://drugs.ncats.io/substance/7L38105Z6E#general
+- directed: true
+  graph:
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: carbachol
+    drug_mesh: MESH:D002217
+    drugbank: DB:DB00411
+  links:
+    - key: increases activity of
+      source: MESH:D002217
+      target: MESH:D011976
+    - key: participates in
+      source: MESH:D011976
+      target: REACT:R-HSA-390648
+    - key: positively correlated with
+      source: REACT:R-HSA-390648
+      target: GO:0045987
+    - key: causes
+      source: GO:0045987
+      target: HP:0000616
+    - key: negatively correlated with
+      source: HP:0000616
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D002217
+      label: Drug
+      name: carbachol
+    - id: MESH:D011976
+      label: GeneFamily
+      name: Receptors, Muscarinic
+    - id: REACT:R-HSA-390648
+      label: Pathway
+      name:  Muscarinic acetylcholine receptors
+    - id: GO:0045987
+      label: BiologicalProcess
+      name: positive regulation of smooth muscle contraction
+    - id: HP:0000616
+      label: PhenotypicFeature
+      name: Miosis
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference: https://go.drugbank.com/drugs/DB00411#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/2551#section=Pharmacology-and-Biochemistry https://en.wikipedia.org/wiki/Carbachol#Chemistry_and_pharmacology https://www.kegg.jp/entry/D00524
+- directed: true
+  graph:
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: carbachol
+    drug_mesh: MESH:D002217
+    drugbank: DB:DB00411
+  links:
+    - key: increases activity of
+      source: MESH:D002217
+      target: UniProt:Q15822
+    - key: positively regulates
+      source: UniProt:Q15822
+      target: GO:0022848
+    - key: located in
+      source: GO:0022848
+      target: GO:0031594
+    - key: positively correlated with
+      source: GO:0031594
+      target: HP:0000616
+    - key: negatively correlated with
+      source: HP:0000616
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D002217
+      label: Drug
+      name: carbachol
+    - id: UniProt:Q15822
+      label: Protein
+      name: Neuronal acetylcholine receptor subunit alpha-2
+    - id: GO:0022848
+      label: MolecularActivity
+      name:  acetylcholine-gated cation-selective channel activity
+    - id: GO:0031594
+      label: CellularComponent
+      name:  neuromuscular junction
+    - id: HP:0000616
+      label: PhenotypicFeature
+      name: Miosis
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference: https://go.drugbank.com/drugs/DB00411#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/2551#section=Pharmacology-and-Biochemistry https://en.wikipedia.org/wiki/Carbachol#Chemistry_and_pharmacology https://www.kegg.jp/entry/D00524
+- directed: true
+  graph:
+    disease: Acne vulgaris
+    disease_mesh: MESH:D000152
+    drug: tazarotene
+    drug_mesh: MESH:C086827
+    drugbank: DB:DB00799
+  links:
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P10276
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P28702
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P13631
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P10826
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: UniProt:P00533
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: UniProt:P00533
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: UniProt:P00533
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: UniProt:P00533
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: MESH:D053536
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: MESH:D053536
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: MESH:D053536
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: MESH:D053536
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: MESH:D053553
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: MESH:D053553
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: MESH:D053553
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: MESH:D053553
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: MESH:D020782
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: MESH:D020782
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: MESH:D020782
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: MESH:D020782
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: REACT:R-HSA-181438
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: REACT:R-HSA-181438
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: REACT:R-HSA-181438
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: REACT:R-HSA-181438
+    - key: positively correlated with
+      source: REACT:R-HSA-181438
+      target: GO:0006954
+    - key: positively correlated with
+      source: UniProt:P00533
+      target: GO:0006954
+    - key: positively correlated with
+      source: MESH:D053536
+      target: HP:0025249
+    - key: positively correlated with
+      source: MESH:D053553
+      target: HP:0025249
+    - key: positively correlated with
+      source: HP:0025249
+      target: MESH:D000152
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D000152
+    - key: positively correlated with
+      source: MESH:D020782
+      target: MESH:D000152
+  multigraph: true
+  nodes:
+    - id: MESH:C086827
+      label: Drug
+      name: tazarotene
+    - id: UniProt:P10276
+      label: Protein
+      name: Retinoic acid receptor alpha
+    - id: UniProt:P10826
+      label: Protein
+      name: Retinoic acid receptor beta
+    - id: UniProt:P28702
+      label: Protein
+      name: Retinoic acid receptor RXR-beta
+    - id: UniProt:P13631
+      label: Protein
+      name: Retinoic acid receptor gamma
+    - id: MESH:D053536
+      label: Protein
+      name: Keratin-16
+    - id: MESH:D053553
+      label: Protein
+      name: Keratin-6
+    - id: MESH:D020782
+      label: Protein
+      name: Matrix Metalloproteinases
+    - id: UniProt:P00533
+      label: Protein
+      name: Epidermal growth factor receptor
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: HP:0025249
+      label: PhenotypicFeature
+      name: Comedo
+    - id: REACT:R-HSA-181438
+      label: Pathway
+      name: Toll Like Receptor 2 (TLR2) Cascade
+    - id: MESH:D000152
+      label: Disease
+      name: Acne vulgaris
+  reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4043801/#__sec2title https://go.drugbank.com/drugs/DB00799#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/28585191/ https://europepmc.org/article/med/32100454
+- directed: true
+  graph:
+    disease: Psoriasis
+    disease_mesh: MESH:D011565
+    drug: tazarotene
+    drug_mesh: MESH:C086827
+    drugbank: DB:DB00799
+  links:
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P10276
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P28702
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P13631
+    - key: increases activity of
+      source: MESH:C086827
+      target: UniProt:P10826
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: GO:0043616
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: GO:0043616
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: GO:0043616
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: GO:0043616
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: MESH:D057705
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: MESH:D057705
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: MESH:D057705
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: MESH:D057705
+    - key: negatively correlated with
+      source: UniProt:P10276
+      target: MESH:D003873
+    - key: negatively correlated with
+      source: UniProt:P28702
+      target: MESH:D003873
+    - key: negatively correlated with
+      source: UniProt:P13631
+      target: MESH:D003873
+    - key: negatively correlated with
+      source: UniProt:P10826
+      target: MESH:D003873
+    - key: positively correlated with
+      source: MESH:D057705
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0043616
+      target: MESH:D011565
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D011565
+    - key: positively correlated with
+      source: MESH:D003873
+      target: MESH:D011565
+  multigraph: true
+  nodes:
+    - id: MESH:C086827
+      label: Drug
+      name: tazarotene
+    - id: UniProt:P10276
+      label: Protein
+      name: Retinoic acid receptor alpha
+    - id: UniProt:P10826
+      label: Protein
+      name: Retinoic acid receptor beta
+    - id: UniProt:P28702
+      label: Protein
+      name: Retinoic acid receptor RXR-beta
+    - id: UniProt:P13631
+      label: Protein
+      name: Retinoic acid receptor gamma
+    - id: MESH:D003873
+      label: PhenotypicFeature
+      name: Dermatitis, Exfoliative
+    - id: GO:0043616
+      label: BiologicalProcess
+      name: keratinocyte proliferation
+    - id: MESH:D057705
+      label: BiologicalProcess
+      name: Transendothelial Migration Pathway
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D011565
+      label: Disease
+      name: Psoriasis
+  reference: https://www.hindawi.com/journals/mi/2018/3067126/ https://go.drugbank.com/drugs/DB00799#mechanism-of-action
+  comments: MESH:D057705 refers to the movement of leukocytes (the term NCIT:C91439 would have been better suited here but could not be validated)
+- directed: true
+  graph:
+    disease: Infestation by Sarcoptes scabiei var hominis
+    disease_mesh: MESH:D012532
+    drug: permethrin
+    drug_mesh: MESH:D026023
+    drugbank: DB:DB04930
+  links:
+    - key: disrupts
+      source: MESH:D026023
+      target: UniProt:Q2VKV7
+    - key: positively regulates
+      source: UniProt:Q2VKV7
+      target: GO:1902305
+    - key: positively correlated with
+      source: GO:1902305
+      target: GO:0086009
+    - key: occurs in
+      source: GO:0086009
+      target: MESH:D001369
+    - key: in taxon
+      source: MESH:D001369
+      target: NCBITaxon:52283
+    - key: causes
+      source: NCBITaxon:52283
+      target: MESH:D012532
+  multigraph: true
+  nodes:
+    - id: MESH:D026023
+      label: Drug
+      name: permethrin
+    - id: UniProt:Q2VKV7
+      label: Protein
+      name: Sodium channel protein
+    - id: GO:1902305
+      label: BiologicalProcess
+      name: regulation of sodium ion transmembrane transport
+    - id: GO:0086009
+      label: BiologicalProcess
+      name: membrane repolarization
+    - id: MESH:D001369
+      label: Cell
+      name: Axons
+    - id: NCBITaxon:52283
+      label: OrganismTaxon
+      name: Sarcoptes scabiei
+    - id: MESH:D012532
+      label: Disease
+      name: Infestation by Sarcoptes scabiei var hominis
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1525/ https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4de55a80-67d6-42c0-a6fc-57b89400c5b3 https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2362985/ https://beta.targetvalidation.org/drug/CHEMBL1525 https://en.wikipedia.org/wiki/Permethrin#Pharmacokinetics https://en.wikipedia.org/wiki/Pyrethroid#Mode_of_action
+  comments: DrugBank has this drug modulating a human target/protein (https://go.drugbank.com/drugs/DB04930#mechanism-of-action) instead of the non-vertebrate proteome. Because humans (and other mammals) share similar ion channels this drug can have some toxic effects on the vertebrate host (e.g. https://pubmed.ncbi.nlm.nih.gov/11812616/)
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: perphenazine
+        drug_mesh: MESH:D010546
+        drugbank: DB:DB00850
+    links:
+    -   key: decreases activity of
+        source: MESH:D010546
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:D010546
+        target: UniProt:P21728
+    -   key: positively regulates
+        source: UniProt:P14416
+        target: GO:0014046
+    -   key: positively regulates
+        source: UniProt:P21728
+        target: GO:0014046
+    -   key: increases abundance of
+        source: GO:0014046
+        target: CHEBI:18243
+    -   key: located in
+        source: CHEBI:18243
+        target: UBERON:0001910
+    -   key: positively correlated with
+        source: UBERON:0001910
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: MESH:D010546
+        label: Drug
+        name: perphenazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: UniProt:P21728
+        label: Protein
+        name: D(1A) dopamine receptor
+    -   id: GO:0014046
+        label: BiologicalProcess
+        name: dopamine secretion
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: UBERON:0001910
+        label: GrossAnatomicalStructure
+        name: mesolimbic dopaminergic system
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB00850#mechanism-of-action https://en.wikipedia.org/wiki/Perphenazine https://en.wikipedia.org/wiki/Antipsychotic#Mechanism_of_action https://en.wikipedia.org/wiki/Mesolimbic_pathway#Relation_to_neurological_and_psychological_disorders
+    comments: this drug may bind to calmodulin therefore having an anti-neoplasmic effect (https://pubmed.ncbi.nlm.nih.gov/28062709/). For schizophrenia, the dopamine neurons are located in the mesolimbic dopaminergic system (BTO:0005591), which is a component pathway of the medial forebrain bundle (UBERON:0001910. See https://en.wikipedia.org/wiki/Medial_forebrain_bundle#Anatomy)
+    
