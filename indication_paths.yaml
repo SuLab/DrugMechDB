@@ -31433,3 +31433,50 @@
         label: Disease
         name: Respiratory tract infection
     reference: https://go.drugbank.com/drugs/DB05659
+-   directed: true
+    graph:
+        disease: Pneumonia due to Mycoplasma pneumoniae
+        disease_mesh: MESH:D011019
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P75352
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P22446
+    -   key: participates in
+        source: UniProt:P75352
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:P22446
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:2104
+    -   key: causes
+        source: NCBITaxon:2104
+        target: MESH:D011019
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:P75352
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Mycoplasma pneumoniae)
+    -   id: UniProt:P22446
+        label: Protein
+        name: DNA gyrase subunit A (Mycoplasma pneumoniae)
+    -   id: GO:0044787
+        label: Biological process
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:2104
+        label: OrganismTaxon
+        name: Mycoplasma pneumoniae
+    -   id: MESH:D011019
+        label: Disease
+        name: Pneumonia due to Mycoplasma pneumoniae
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
