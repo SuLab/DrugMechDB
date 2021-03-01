@@ -31480,3 +31480,144 @@
         label: Disease
         name: Pneumonia due to Mycoplasma pneumoniae
     reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus pneumoniae
+        disease_mesh: MESH:D011018
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P72525
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:Q8DPM2
+    -   key: participates in
+        source: UniProt:P72525
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q8DPM2
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:P72525
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Streptococcus pneumoniae)
+    -   id: UniProt:Q8DPM2
+        label: Protein
+        name: DNA gyrase subunit A (Streptococcus pneumoniae)
+    -   id: GO:0044787
+        label: Biological process
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
+    -   directed: true
+    graph:
+        disease: Chlamydial pneumonia
+        disease_mesh: MESH:D061387
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:Q9Z7I9
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:Q54A16
+    -   key: participates in
+        source: UniProt:Q9Z7I9
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q54A16
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:83558
+    -   key: causes
+        source: NCBITaxon:83558
+        target: MESH:D061387
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:Q9Z7I9
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Chlamydial pneumoniae)
+    -   id: UniProt:Q54A16
+        label: Protein
+        name: DNA gyrase subunit A (Chlamydial pneumoniae)
+    -   id: GO:0044787
+        label: Biological process
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:83558
+        label: OrganismTaxon
+        name: Chlamydial pneumoniae
+    -   id: MESH:D061387
+        label: Disease
+        name: Chlamydial pneumonia
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
+    -   directed: true
+    graph:
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P43702
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P43700
+    -   key: participates in
+        source: UniProt:P43702
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:P43700
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:727
+    -   key: causes
+        source: NCBITaxon:727
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:P43702
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Haemophilus influenzae)
+    -   id: UniProt:P43700
+        label: Protein
+        name: DNA gyrase subunit A (Haemophilus influenzae)
+    -   id: GO:0044787
+        label: Biological process
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:727
+        label: OrganismTaxon
+        name: Haemophilus influenzae
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
