@@ -31433,3 +31433,860 @@
         label: Disease
         name: Respiratory tract infection
     reference: https://go.drugbank.com/drugs/DB05659
+    -   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: anakinra
+        drug_mesh: MESH:D053590
+        drugbank: DB:DB00026
+    links:
+    -   key: decreases activity of
+        source: MESH:D053590
+        target: UniProt:P14778
+    -   key: participates in
+        source: UniProt:P14778
+        target: GO:0004908
+    -   key: positively regulates
+        source: GO:0004908
+        target: REACT:R-HSA-1592389
+    -   key: positively regulates
+        source: REACT:R-HSA-1592389
+        target: HP:0100773
+    -   key: occurs in
+        source: HP:0100773
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D053590
+        label: Drug
+        name: Anakinra
+    -   id: UniProt:P14778
+        label: Protein
+        name: Interleukin-1 receptor type 1
+    -   id: GO:0004908
+        label: MolecularActivity
+        name: Interleukin-1 receptor activity
+    -   id: REACT:R-HSA-1592389
+        label: Pathway
+        name: Activation of Matrix Metalloproteinases
+    -   id: HP:0100773
+        label: PhenotypicFeature
+        name: Cartilage destruction
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB00026#BE0000565 https://pubmed.ncbi.nlm.nih.gov/17027524/
+-   directed: true
+    graph:
+        disease: Cryopyrin associated periodic syndrome
+        disease_mesh: MESH:D056587
+        drug: anakinra
+        drug_mesh: MESH:D053590
+        drugbank: DB:DB00026
+    links:
+    -   key: decreases activity of
+        source: MESH:D053590
+        target: UniProt:P14778
+    -   key: participates in
+        source: UniProt:P14778
+        target: GO:0004908
+    -   key: positively regulates
+        source: GO:0004908
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D056587
+    multigraph: true
+    nodes:
+    -   id: MESH:D053590
+        label: Drug
+        name: Anakinra
+    -   id: UniProt:P14778
+        label: Protein
+        name: Interleukin-1 receptor type 1
+    -   id: GO:0004908
+        label: MolecularActivity
+        name: Interleukin-1 receptor activity
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D056587
+        label: Disease
+        name: Cryopyrin associated periodic syndrome
+    reference: https://go.drugbank.com/drugs/DB00026#BE0000565 https://en.wikipedia.org/wiki/Cryopyrin-associated_periodic_syndrome
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: infliximab
+        drug_mesh: MESH:D000069285
+        drugbank: DB:DB00065
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069285
+        target: UniProt:P01375
+    -   key: positively regulates
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069285
+        label: Drug
+        name: Infliximab
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB00065#BE0000704
+-   directed: true
+    graph:
+        disease: Ulcerative colitis
+        disease_mesh: MESH:D003093
+        drug: infliximab
+        drug_mesh: MESH:D000069285
+        drugbank: DB:DB00065
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069285
+        target: UniProt:P01375
+    -   key: positively regulates
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003093
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069285
+        label: Drug
+        name: Infliximab
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D003093
+        label: Disease
+        name: Ulcerative colitis
+    reference: https://go.drugbank.com/drugs/DB00065#BE0000704
+-   directed: true
+    graph:
+        disease: Crohn's disease
+        disease_mesh: MESH:D003424
+        drug: infliximab
+        drug_mesh: MESH:D000069285
+        drugbank: DB:DB00065
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069285
+        target: UniProt:P01375
+    -   key: positively regulates
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069285
+        label: Drug
+        name: Infliximab
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn's disease
+    reference: https://go.drugbank.com/drugs/DB00065#BE0000704
+-   directed: true
+    graph:
+        disease: Ankylosing spondylitis
+        disease_mesh: MESH:D013167
+        drug: infliximab
+        drug_mesh: MESH:D000069285
+        drugbank: DB:DB00065
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069285
+        target: UniProt:P01375
+    -   key: positively regulates
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D013167
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069285
+        label: Drug
+        name: Infliximab
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D013167
+        label: Disease
+        name: Ankylosing spondylitis
+    reference: https://go.drugbank.com/drugs/DB00065#BE0000704
+-   directed: true
+    graph:
+        disease: Psoriatic Arthritis
+        disease_mesh: MESH:D015535
+        drug: infliximab
+        drug_mesh: MESH:D000069285
+        drugbank: DB:DB00065
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069285
+        target: UniProt:P01375
+    -   key: positively regulates
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D015535
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069285
+        label: Drug
+        name: Infliximab
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D015535
+        label: Disease
+        name: Psoriatic Arthritis
+    reference: https://go.drugbank.com/drugs/DB00065#BE0000704
+-   comment: Methacarbamol is a skeletal muscle relaxant with an unknown mechanism of action
+    directed: true
+    graph:
+        disease: Spasticity
+        disease_mesh: MESH:D009128
+        drug: methocarbamol
+        drug_mesh: MESH:D008721
+        drugbank: DB:DB00423
+    links:
+    -   key: causes
+        source: MESH:D008721
+        target: GO:0090075
+    -   key: negatively correlated with
+        source: GO:0090075
+        target: MESH:D009128
+    multigraph: true
+    nodes:
+    -   id: MESH:D008721
+        label: Drug
+        name: Methacarbamol
+    -   id: GO:0090075
+        label: BiologicalProcess
+        name: Relaxation of muscle
+    -   id: MESH:D009128
+        label: Disease
+        name: Spasticity
+    reference: https://go.drugbank.com/drugs/DB00423
+-   directed: true
+    graph:
+        disease: Urge Incontinence
+        disease_mesh: MESH:D053202
+        drug: Darifenacin
+        drug_mesh: MESH:C101207
+        drugbank: DB:DB00496
+    links:
+    -   key: decreases activity of
+        source: MESH:C101207
+        target: UniProt:P20309
+    -   key: positively regulates
+        source: UniProt:P20309
+        target: GO:0014832
+    -   key: positively regulates
+        source: GO:0014832
+        target: GO:0060073
+    -   key: positively correlated with
+        source: GO:0060073
+        target: MESH:D053202
+    multigraph: true
+    nodes:
+    -   id: MESH:C101207
+        label: Drug
+        name: Darifenacin
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:0014832
+        label: BiologicalProcess
+        name: Urinary bladder smooth muscle contraction
+    -   id: GO:0060073
+        label: BiologicalProcess
+        name: Urination
+    -   id: MESH:D053202
+        label: Disease
+        name: Urge Incontinence
+    reference: https://go.drugbank.com/drugs/DB00496 https://en.wikipedia.org/wiki/Urinary_incontinence
+-   directed: true
+    graph:
+        disease: Primary cutaneous T-cell lymphoma
+        disease_mesh: MESH:D016410
+        drug: Desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: occurs in
+        source: GO:0006954
+        target: MESH:D016410
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D016410
+        label: Disease
+        name: Primary cutaneous T-cell lymphoma
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Cutaneous_T_cell_lymphoma
+-   directed: true
+    graph:
+        disease: Granuloma annulare
+        disease_mesh: MESH:D016460
+        drug: Desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D016460
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D016460
+        label: Disease
+        name: Granuloma annulare
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://pubmed.ncbi.nlm.nih.gov/29230666/
+-   directed: true
+    graph:
+        disease: Pruritus ani
+        disease_mesh: MESH:D011538
+        drug: desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D011538
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Skin itching
+    -   id: MESH:D011538
+        label: Disease
+        name: Pruritus ani
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Pruritus_ani
+-   directed: true
+    graph:
+        disease: Discoid lupus erythematosus
+        disease_mesh: MESH:D008179
+        drug: desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D008179
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D008179
+        label: Disease
+        name: Discoid lupus erythematosus
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Discoid_lupus_erythematosus
+-   directed: true
+    graph:
+        disease: Atopic dermatitis
+        disease_mesh: MESH:D003876
+        drug: desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D003876
+        label: Disease
+        name: Atopic dermatitis
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Atopic_dermatitis
+-   directed: true
+    graph:
+        disease: Lichen simplex chronicus
+        disease_mesh: MESH:D009450
+        drug: desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D009450
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Skin itching
+    -   id: MESH:D009450
+        label: Disease
+        name: Lichen simplex chronicus
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Lichen_simplex_chronicus
+-   directed: true
+    graph:
+        disease: Contact dermatitis
+        disease_mesh: MESH:D003877
+        drug: desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003877
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D003877
+        label: Disease
+        name: Contact dermatitis
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Contact_dermatitis
+-   directed: true
+    graph:
+        disease: Exanthem
+        disease_mesh: MESH:D005076
+        drug: desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D005076
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D005076
+        label: Disease
+        name: Exanthem
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Exanthem
+-   directed: true
+    graph:
+        disease: Seborrheic dermatitis
+        disease_mesh: MESH:D012628
+        drug: desoximetasone
+        drug_mesh: MESH:D003899
+        drugbank: DB:DB00547
+    links:
+    -   key: increases activity of
+        source: MESH:D003899
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: REACT:R-HSA-2162123
+    -   key: positively regulates
+        source: REACT:R-HSA-2162123
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012628
+    multigraph: true
+    nodes:
+    -   id: MESH:D003899
+        label: Drug
+        name: Desoximetasone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Prostaglandin Synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D012628
+        label: Disease
+        name: Seborrheic dermatitis
+    reference: https://go.drugbank.com/drugs/DB00547#BE0000794 https://en.wikipedia.org/wiki/Seborrhoeic_dermatitis
+-   directed: true
+    graph:
+        disease: Migraine
+        disease_mesh: MESH:D008881
+        drug: almotriptan
+        drug_mesh: MESH:C409045
+        drugbank: DB:DB00918
+    links:
+    -   key: increases activity of
+        source: MESH:C409045
+        target: UniProt:P28222
+    -   key: increases activity of
+        source: MESH:C409045
+        target: UniProt:P28221
+    -   key: positively regulates
+        source: UniProt:P28222
+        target: GO:0042310
+    -   key: negatively regulates
+        source: GO:0042310
+        target: MESH:D010146
+    -   key: positively correlated with
+        source: MESH:D010146
+        target: MESH:D008881
+    -   key: negatively regulates
+        source: UniProt:P28222
+        target: MESH:D020078
+    -   key: negatively regulates
+        source: UniProt:P28221
+        target: MESH:D020078
+    -   key: positively correlated with
+        source: MESH:D020078
+        target: MESH:D008881
+    -   key: decreases activity of
+        source: UniProt:P28222
+        target: UBERON:0001645
+    -   key: decreases activity of
+        source: UniProt:P28221
+        target: UBERON:0001645
+    -   key: participates in
+        source: UBERON:0001645
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: MESH:D008881
+    multigraph: true
+    nodes:
+    -   id: MESH:C409045
+        label: Drug
+        name: Almotriptan
+    -   id: UniProt:P28222
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1B
+    -   id: UniProt:P28221
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1D
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D020078
+        label: Disease
+        name: Neurogenic Inflammation
+    -   id: UBERON:0001645
+        label: GrossAnatomicalStructure
+        name: Trigeminal nerve
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D008881
+        label: Disease
+        name: Migraine
+    reference: https://go.drugbank.com/drugs/DB00918 https://pubmed.ncbi.nlm.nih.gov/16099727/ https://pubmed.ncbi.nlm.nih.gov/27312704/
+-   directed: true
+    graph:
+        disease: Onychomycosis due to dermatophyte
+        disease_mesh: MESH:D014009
+        drug: tavaborole
+        drug_mesh: MESH:C512998
+        drugbank: DB:DB09041
+    links:
+    -   key: decreases activity of
+        source: MESH:C512998
+        target: UniProt:Q9HGT2
+    -   key: positively regulates
+        source: UniProt:Q9HGT2
+        target: GO:0006412
+    -   key: occurs in
+        source: GO:0006412
+        target: NCBITaxon:5551 
+    -   key: causes
+        source: NCBITaxon:5551
+        target: MESH:D014009
+    multigraph: true
+    nodes:
+    -   id: MESH:C512998
+        label: Drug
+        name: Tavaborole
+    -   id: UniProt:Q9HGT2
+        label: Protein
+        name: Cytosolic leucyl-tRNA synthetase
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Protein biosynthesis
+    -   id: NCBITaxon:5551 
+        label: OrganismTaxon
+        name: Trichophyton rubrum
+    -   id: MESH:D014009
+        label: Disease
+        name: Onychomycosis due to dermatophyte
+    reference: https://go.drugbank.com/drugs/DB09041#BE0002395 https://en.wikipedia.org/wiki/Onychomycosis
