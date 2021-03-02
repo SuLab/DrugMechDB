@@ -52010,5 +52010,1685 @@
       }
     ],
     "reference": "https://go.drugbank.com/drugs/DB09041#BE0002395 https://en.wikipedia.org/wiki/Onychomycosis"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Ventricular premature beats",
+      "disease_mesh": "MESH:D018879",
+      "drug": "Acebutolol",
+      "drug_mesh": "MESH:D000070",
+      "drugbank": "DB:DB01193"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000070",
+        "target": "UniProt:P08588"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "UniProt:P08588",
+        "target": "HP:0001649"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "HP:0001649",
+        "target": "UniProt:P08588"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "UniProt:P08588",
+        "target": "HP:0000822"
+      },
+      {
+        "key": "ameliorates",
+        "source": "HP:0001649",
+        "target": "MESH:D018879"
+      },
+      {
+        "key": "ameliorates",
+        "source": "HP:0000822",
+        "target": "MESH:D018879"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000070",
+        "label": "Drug",
+        "name": "Acebutolol"
+      },
+      {
+        "id": "UniProt:P08588",
+        "label": "Protein",
+        "name": "Beta-1 adrenergic receptor"
+      },
+      {
+        "id": "HP:0001649",
+        "label": "PhenotypicFeature",
+        "name": "heart rate"
+      },
+      {
+        "id": "HP:0000822",
+        "label": "PhenotypicFeature",
+        "name": "blood pressure"
+      },
+      {
+        "id": "MESH:D018879",
+        "label": "Disease",
+        "name": "Ventricular premature beats"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01193#mechanismofaction https://en.wikipedia.org/wiki/Acebutolol"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Diabetes mellitus type 2",
+      "disease_mesh": "MESH:D003924",
+      "drug": "Acetohexamide",
+      "drug_mesh": "MESH:D000092",
+      "drugbank": "DB:DB00414"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D000092",
+        "target": "CL:0000169"
+      },
+      {
+        "key": "increases secretion of",
+        "source": "CL:0000169",
+        "target": "MESH:D007328"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D007328",
+        "target": "MESH:D001786"
+      },
+      {
+        "key": "ameliorates",
+        "source": "MESH:D001786",
+        "target": "MESH:D003924"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000092",
+        "label": "Drug",
+        "name": "Acetohexamide"
+      },
+      {
+        "id": "CL:0000169",
+        "label": "Cell",
+        "name": "pancreatic beta cells"
+      },
+      {
+        "id": "MESH:D007328",
+        "label": "ChemicalSubstance",
+        "name": "insulin"
+      },
+      {
+        "id": "MESH:D001786",
+        "label": "ChemicalSubstance",
+        "name": "blood sugar"
+      },
+      {
+        "id": "MESH:D003924",
+        "label": "Disease",
+        "name": "Diabetes mellitus type 2"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00414#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Open-angle glaucoma",
+      "disease_mesh": "MESH:D005902",
+      "drug": "Apraclonidine",
+      "drug_mesh": "MESH:C016986",
+      "drugbank": "DB:DB00964"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:C016986",
+        "target": "UniProt:P08913"
+      },
+      {
+        "key": "decreases synthesis of",
+        "source": "UniProt:P08913",
+        "target": "UBERON:0001796"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "UBERON:0001796",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P08913",
+        "target": "GO:0045907"
+      },
+      {
+        "key": "positively regulates",
+        "source": "GO:0045907",
+        "target": "HP:0012630"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "HP:0012630",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "ameliorates",
+        "source": "HP:0007906",
+        "target": "MESH:D005902"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C016986",
+        "label": "Drug",
+        "name": "Apraclonidine"
+      },
+      {
+        "id": "UniProt:P08913",
+        "label": "Protein",
+        "name": "alpha2 adrenergic receptor"
+      },
+      {
+        "id": "UBERON:0001796",
+        "label": "GrossAnatomicalStructure",
+        "name": "aqueous humor"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "intraocular pressure"
+      },
+      {
+        "id": "GO:0045907",
+        "label": "BiologicalProcess",
+        "name": "vasoconstriction"
+      },
+      {
+        "id": "HP:0012630",
+        "label": "PhenotypicFeature",
+        "name": "uveoscleral outflow"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "intraocular pressure"
+      },
+      {
+        "id": "MESH:D005902",
+        "label": "Disease",
+        "name": "Open-angle glaucoma"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00964#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Peripheral T-cell lymphoma",
+      "disease_mesh": "MESH:D016411",
+      "drug": "Belinostat",
+      "drug_mesh": "MESH:C487081",
+      "drugbank": "DB:DB05015"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C487081",
+        "target": "InterPro:IPR000286"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "InterPro:IPR000286",
+        "target": "GO:0070577"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "GO:0070577",
+        "target": "HP:0031377"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "InterPro:IPR000286",
+        "target": "GO:0070577"
+      },
+      {
+        "key": "causes",
+        "source": "GO:0070577",
+        "target": "GO:0071158"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "InterPro:IPR000286",
+        "target": "GO:0070577"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "GO:0070577",
+        "target": "GO:0001525"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "InterPro:IPR000286",
+        "target": "GO:0070577"
+      },
+      {
+        "key": "positively regulates",
+        "source": "GO:0070577",
+        "target": "GO:0006915"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0006915",
+        "target": "MESH:D016411"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0031377",
+        "target": "MESH:D016411"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0071158",
+        "target": "MESH:D016411"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0001525",
+        "target": "MESH:D016411"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C487081",
+        "label": "Drug",
+        "name": "Belinostat"
+      },
+      {
+        "id": "InterPro:IPR000286",
+        "label": "GeneFamily",
+        "name": "histone deacetylase"
+      },
+      {
+        "id": "GO:0070577",
+        "label": "ChemicalSubstance",
+        "name": "acetylated histones"
+      },
+      {
+        "id": "HP:0031377",
+        "label": "PhenotypicFeature",
+        "name": "tumor cell proliferation"
+      },
+      {
+        "id": "GO:0071158",
+        "label": "BiologicalProcess",
+        "name": "cell cycle arrest"
+      },
+      {
+        "id": "GO:0001525",
+        "label": "BiologicalProcess",
+        "name": "angiogenesis"
+      },
+      {
+        "id": "GO:0006915",
+        "label": "BiologicalProcess",
+        "name": "apoptosis"
+      },
+      {
+        "id": "MESH:D016411",
+        "label": "Disease",
+        "name": "Peripheral T-cell lymphoma"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB05015#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Falciparum malaria",
+      "disease_mesh": "MESH:D016778",
+      "drug": "Quinine",
+      "drug_mesh": "MESH:D011803",
+      "drugbank": "DB:DB00468"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D011803",
+        "target": "UniProt:Q3ZJJ7"
+      },
+      {
+        "key": "disrupts",
+        "reference": "https://doi.org/10.1016/S0014-5793(99)01260-0",
+        "source": "UniProt:Q3ZJJ7",
+        "target": "InterPro:IPR002338"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "InterPro:IPR002338",
+        "target": "MESH:D006418"
+      },
+      {
+        "key": "enables",
+        "source": "MESH:D006418",
+        "target": "GO:0008219"
+      },
+      {
+        "key": "in taxon",
+        "source": "GO:0008219",
+        "target": "NCBITaxon:5833"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:5833",
+        "target": "MESH:D016778"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D011803",
+        "label": "Drug",
+        "name": "Quinine"
+      },
+      {
+        "id": "UniProt:Q3ZJJ7",
+        "label": "Protein",
+        "name": "heme polymerase"
+      },
+      {
+        "id": "InterPro:IPR002338",
+        "label": "GeneFamily",
+        "name": "hemoglobin"
+      },
+      {
+        "id": "MESH:D006418",
+        "label": "ChemicalSubstance",
+        "name": "heme"
+      },
+      {
+        "id": "GO:0008219",
+        "label": "BiologicalProcess",
+        "name": "cell death"
+      },
+      {
+        "id": "NCBITaxon:5833",
+        "label": "OrganismTaxon",
+        "name": "Plasmodium falciparum"
+      },
+      {
+        "id": "MESH:D016778",
+        "label": "Disease",
+        "name": "Falciparum malaria"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00468#mechanismofaction https://en.wikipedia.org/wiki/Quinine#Mechanism_of_action"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Falciparum malaria",
+      "disease_mesh": "MESH:D016778",
+      "drug": "Quinine",
+      "drug_mesh": "MESH:D011803",
+      "drugbank": "DB:DB00468"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D011803",
+        "target": "GO:0071897"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "GO:0071897",
+        "target": "GO:0008219"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D011803",
+        "target": "GO:0006351"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "GO:0006351",
+        "target": "GO:0008219"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D011803",
+        "target": "GO:0006412"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "GO:0006412",
+        "target": "GO:0008219"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D011803",
+        "target": "REACT:R-HSA-70171"
+      },
+      {
+        "key": "enables",
+        "source": "REACT:R-HSA-70171",
+        "target": "GO:0008219"
+      },
+      {
+        "key": "in taxon",
+        "source": "GO:0008219",
+        "target": "NCBITaxon:5833"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:5833",
+        "target": "MESH:D016778"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D011803",
+        "label": "Drug",
+        "name": "Quinine"
+      },
+      {
+        "id": "GO:0071897",
+        "label": "BiologicalProcess",
+        "name": "DNA synthesis"
+      },
+      {
+        "id": "GO:0006351",
+        "label": "BiologicalProcess",
+        "name": "RNA synthesis"
+      },
+      {
+        "id": "GO:0006412",
+        "label": "BiologicalProcess",
+        "name": "protein synthesis"
+      },
+      {
+        "id": "REACT:R-HSA-70171",
+        "label": "Pathway",
+        "name": "glycolysis"
+      },
+      {
+        "id": "GO:0008219",
+        "label": "BiologicalProcess",
+        "name": "cell death"
+      },
+      {
+        "id": "NCBITaxon:5833",
+        "label": "OrganismTaxon",
+        "name": "Plasmodium falciparum"
+      },
+      {
+        "id": "MESH:D016778",
+        "label": "Disease",
+        "name": "Falciparum malaria"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00468#mechanismofaction https://en.wikipedia.org/wiki/Quinine#Mechanism_of_action"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypertensive disorder",
+      "disease_mesh": "MESH:D006973",
+      "drug": "Eplerenone",
+      "drug_mesh": null,
+      "drugbank": "DB:DB00700"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "DB:DB00700",
+        "target": "UniProt:P08235"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "UniProt:P08235",
+        "target": "UniProt:P00797"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "UniProt:P08235",
+        "target": "MESH:D000450"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "UniProt:P00797",
+        "target": "HP:0011104"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "MESH:D000450",
+        "target": "HP:0011104"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "HP:0011104",
+        "target": "HP:0004421"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "HP:0011104",
+        "target": "HP:0005117"
+      },
+      {
+        "key": "prevents",
+        "source": "HP:0004421",
+        "target": "MESH:D006973"
+      },
+      {
+        "key": "prevents",
+        "source": "HP:0005117",
+        "target": "MESH:D006973"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "DB:DB00700",
+        "label": "Drug",
+        "name": "Eplerenone"
+      },
+      {
+        "id": "UniProt:P08235",
+        "label": "Protein",
+        "name": "mineralocorticoid receptor"
+      },
+      {
+        "id": "UniProt:P00797",
+        "label": "Protein",
+        "name": "plasma renin"
+      },
+      {
+        "id": "MESH:D000450",
+        "label": "ChemicalSubstance",
+        "name": "serum aldosterone"
+      },
+      {
+        "id": "HP:0011104",
+        "label": "PhenotypicFeature",
+        "name": "blood volume"
+      },
+      {
+        "id": "HP:0005117",
+        "label": "PhenotypicFeature",
+        "name": "diastolic blood pressure"
+      },
+      {
+        "id": "HP:0004421",
+        "label": "PhenotypicFeature",
+        "name": "systolic blood pressure"
+      },
+      {
+        "id": "MESH:D006973",
+        "label": "Disease",
+        "name": "Hypertensive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00700#mechanismofaction https://en.wikipedia.org/wiki/Eplerenone DOI:10.1002/14651858.CD008996.pub2"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hyperuricemia",
+      "disease_mesh": "MESH:D033461",
+      "drug": "Febuxostat",
+      "drug_mesh": "MESH:D000069465",
+      "drugbank": "DB:DB04854"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000069465",
+        "target": "UniProt:P47989"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "UniProt:P47989",
+        "target": "MESH:D014527"
+      },
+      {
+        "key": "correlated with",
+        "source": "MESH:D014527",
+        "target": "MESH:D033461"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000069465",
+        "label": "Drug",
+        "name": "Febuxostat"
+      },
+      {
+        "id": "UniProt:P47989",
+        "label": "Protein",
+        "name": "Xanthine dehydrogenase/oxidase"
+      },
+      {
+        "id": "MESH:D014527",
+        "label": "ChemicalSubstance",
+        "name": "serum uric acid"
+      },
+      {
+        "id": "MESH:D033461",
+        "label": "Disease",
+        "name": "Hyperuricemia"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB04854#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Glucosylceramide beta-glucosidase deficiency",
+      "disease_mesh": "MESH:D005776",
+      "drug": "Imiglucerase",
+      "drug_mesh": "MESH:C090568",
+      "drugbank": "DB:DB00053"
+    },
+    "links": [
+      {
+        "key": "increases degradation of",
+        "source": "MESH:C090568",
+        "target": "MESH:D005963"
+      },
+      {
+        "key": "enables",
+        "source": "MESH:D005963",
+        "target": "REACT:R-HSA-556833"
+      },
+      {
+        "key": "prevents",
+        "source": "REACT:R-HSA-556833",
+        "target": "MESH:D005776"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C090568",
+        "label": "Drug",
+        "name": "Imiglucerase"
+      },
+      {
+        "id": "MESH:D005963",
+        "label": "ChemicalSubstance",
+        "name": "Glucocerebroside"
+      },
+      {
+        "id": "REACT:R-HSA-556833",
+        "label": "Pathway",
+        "name": "membrane lipid degradation"
+      },
+      {
+        "id": "MESH:D005776",
+        "label": "Disease",
+        "name": "Glucosylceramide beta-glucosidase deficiency"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00053#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Falciparum malaria",
+      "disease_mesh": "MESH:D016778",
+      "drug": "Proguanil",
+      "drug_mesh": "MESH:D002727",
+      "drugbank": "DB:DB01131"
+    },
+    "links": [
+      {
+        "key": "has metabolite",
+        "source": "MESH:D002727",
+        "target": "MESH:C026009"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C026009",
+        "target": "UniProt:P13922"
+      },
+      {
+        "key": "decreases synthesis of",
+        "source": "UniProt:P13922",
+        "target": "REACT:R-HSA-8956320"
+      },
+      {
+        "key": "disrupts",
+        "source": "REACT:R-HSA-8956320",
+        "target": "GO:0071897"
+      },
+      {
+        "key": "in taxon",
+        "source": "GO:0071897",
+        "target": "NCBITaxon:5833"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:5833",
+        "target": "MESH:D016778"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D002727",
+        "label": "Drug",
+        "name": "Proguanil"
+      },
+      {
+        "id": "MESH:C026009",
+        "label": "Drug",
+        "name": "Cycloguanil"
+      },
+      {
+        "id": "UniProt:P13922",
+        "label": "Protein",
+        "name": "Bifunctional dihydrofolate reductase-thymidylate synthase"
+      },
+      {
+        "id": "REACT:R-HSA-8956320",
+        "label": "Pathway",
+        "name": "purines and pyrimidines"
+      },
+      {
+        "id": "GO:0071897",
+        "label": "BiologicalProcess",
+        "name": "DNA synthesis"
+      },
+      {
+        "id": "NCBITaxon:5833",
+        "label": "OrganismTaxon",
+        "name": "Plasmodium falciparum"
+      },
+      {
+        "id": "MESH:D016778",
+        "label": "Disease",
+        "name": "Falciparum malaria"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01131#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Bacterial endocarditis",
+      "disease_mesh": "MESH:D004697",
+      "drug": "Cilastatin",
+      "drug_mesh": "MESH:D015377",
+      "drugbank": "DB:DB01597"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D015377",
+        "target": "UniProt:P16444"
+      },
+      {
+        "key": "disrupts",
+        "source": "UniProt:P16444",
+        "target": "DB:D015378"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "DB:D015378",
+        "target": "NCBITaxon:2"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:2",
+        "target": "MESH:D004697"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D015377",
+        "label": "Drug",
+        "name": "Cilastatin"
+      },
+      {
+        "id": "UniProt:P16444",
+        "label": "Protein",
+        "name": "Dipeptidase 1"
+      },
+      {
+        "id": "DB:D015378",
+        "label": "Drug",
+        "name": "Imipenem"
+      },
+      {
+        "id": "NCBITaxon:2",
+        "label": "OrganismTaxon",
+        "name": "Bacteria"
+      },
+      {
+        "id": "MESH:D004697",
+        "label": "Disease",
+        "name": "Bacterial endocarditis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01597#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Abdominal abscess",
+      "disease_mesh": "MESH:D018784",
+      "drug": "Cilastatin",
+      "drug_mesh": "MESH:D015377",
+      "drugbank": "DB:DB01597"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D015377",
+        "target": "UniProt:P16444"
+      },
+      {
+        "key": "disrupts",
+        "source": "UniProt:P16444",
+        "target": "DB:D015378"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "DB:D015378",
+        "target": "NCBITaxon:2"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:2",
+        "target": "MESH:D018784"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D015377",
+        "label": "Drug",
+        "name": "Cilastatin"
+      },
+      {
+        "id": "UniProt:P16444",
+        "label": "Protein",
+        "name": "Dipeptidase 1"
+      },
+      {
+        "id": "DB:D015378",
+        "label": "Drug",
+        "name": "Imipenem"
+      },
+      {
+        "id": "NCBITaxon:2",
+        "label": "OrganismTaxon",
+        "name": "Bacteria"
+      },
+      {
+        "id": "MESH:D018784",
+        "label": "Disease",
+        "name": "Abdominal abscess"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01597#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Infectious disease of abdomen",
+      "disease_mesh": "MESH:D059413",
+      "drug": "Cilastatin",
+      "drug_mesh": "MESH:D015377",
+      "drugbank": "DB:DB01597"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D015377",
+        "target": "UniProt:P16444"
+      },
+      {
+        "key": "disrupts",
+        "source": "UniProt:P16444",
+        "target": "DB:D015378"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "DB:D015378",
+        "target": "NCBITaxon:2"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:2",
+        "target": "MESH:D059413"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D015377",
+        "label": "Drug",
+        "name": "Cilastatin"
+      },
+      {
+        "id": "UniProt:P16444",
+        "label": "Protein",
+        "name": "Dipeptidase 1"
+      },
+      {
+        "id": "DB:D015378",
+        "label": "Drug",
+        "name": "Imipenem"
+      },
+      {
+        "id": "NCBITaxon:2",
+        "label": "OrganismTaxon",
+        "name": "Bacteria"
+      },
+      {
+        "id": "MESH:D059413",
+        "label": "Disease",
+        "name": "Infectious disease of abdomen"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01597#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Pneumonia due to Streptococcus",
+      "disease_mesh": "MESH:D011018",
+      "drug": "Cilastatin",
+      "drug_mesh": "MESH:D015377",
+      "drugbank": "DB:DB01597"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D015377",
+        "target": "UniProt:P16444"
+      },
+      {
+        "key": "disrupts",
+        "source": "UniProt:P16444",
+        "target": "DB:D015378"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "DB:D015378",
+        "target": "NCBITaxon:1313"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:1313",
+        "target": "MESH:D011018"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D015377",
+        "label": "Drug",
+        "name": "Cilastatin"
+      },
+      {
+        "id": "UniProt:P16444",
+        "label": "Protein",
+        "name": "Dipeptidase 1"
+      },
+      {
+        "id": "DB:D015378",
+        "label": "Drug",
+        "name": "Imipenem"
+      },
+      {
+        "id": "NCBITaxon:1313",
+        "label": "OrganismTaxon",
+        "name": "Streptococcus pneumoniae"
+      },
+      {
+        "id": "MESH:D011018",
+        "label": "Disease",
+        "name": "Pneumonia due to Streptococcus"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01597#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Bacterial pneumonia",
+      "disease_mesh": "MESH:D018410",
+      "drug": "Cilastatin",
+      "drug_mesh": "MESH:D015377",
+      "drugbank": "DB:DB01597"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D015377",
+        "target": "UniProt:P16444"
+      },
+      {
+        "key": "disrupts",
+        "source": "UniProt:P16444",
+        "target": "DB:D015378"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "DB:D015378",
+        "target": "NCBITaxon:2"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:2",
+        "target": "MESH:D018410"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D015377",
+        "label": "Drug",
+        "name": "Cilastatin"
+      },
+      {
+        "id": "UniProt:P16444",
+        "label": "Protein",
+        "name": "Dipeptidase 1"
+      },
+      {
+        "id": "DB:D015378",
+        "label": "Drug",
+        "name": "Imipenem"
+      },
+      {
+        "id": "NCBITaxon:2",
+        "label": "OrganismTaxon",
+        "name": "Bacteria"
+      },
+      {
+        "id": "MESH:D018410",
+        "label": "Disease",
+        "name": "Bacterial pneumonia"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01597#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Endometritis",
+      "disease_mesh": "MESH:D004716",
+      "drug": "Cilastatin",
+      "drug_mesh": "MESH:D015377",
+      "drugbank": "DB:DB01597"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D015377",
+        "target": "UniProt:P16444"
+      },
+      {
+        "key": "disrupts",
+        "source": "UniProt:P16444",
+        "target": "DB:D015378"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "DB:D015378",
+        "target": "NCBITaxon:2"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:2",
+        "target": "MESH:D004716"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D015377",
+        "label": "Drug",
+        "name": "Cilastatin"
+      },
+      {
+        "id": "UniProt:P16444",
+        "label": "Protein",
+        "name": "Dipeptidase 1"
+      },
+      {
+        "id": "DB:D015378",
+        "label": "Drug",
+        "name": "Imipenem"
+      },
+      {
+        "id": "NCBITaxon:2",
+        "label": "OrganismTaxon",
+        "name": "Bacteria"
+      },
+      {
+        "id": "MESH:D004716",
+        "label": "Disease",
+        "name": "Endometritis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01597#mechanismofaction"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypertensive disorder",
+      "disease_mesh": "MESH:D006973",
+      "drug": "Clonidine",
+      "drug_mesh": "MESH:D003000",
+      "drugbank": "DB:DB00575"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D003000",
+        "target": "UniProt:P08913"
+      },
+      {
+        "key": "coexists with",
+        "source": "UniProt:P08913",
+        "target": "InterPro:IPR001408"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "InterPro:IPR001408",
+        "target": "InterPro:IPR030672"
+      },
+      {
+        "key": "positively regulates",
+        "source": "InterPro:IPR030672",
+        "target": "GO:0099104"
+      },
+      {
+        "key": "causes",
+        "source": "GO:0099104",
+        "target": "GO:0060081"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "GO:0060081",
+        "target": "HP:0000822"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0000822",
+        "target": "MESH:D006973"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D003000",
+        "label": "Drug",
+        "name": "Clonidine"
+      },
+      {
+        "id": "UniProt:P08913",
+        "label": "Protein",
+        "name": "Alpha-2A adrenergic receptor"
+      },
+      {
+        "id": "InterPro:IPR001408",
+        "label": "GeneFamily",
+        "name": "Gi protein alpha subunit"
+      },
+      {
+        "id": "InterPro:IPR030672",
+        "label": "GeneFamily",
+        "name": "Adenylate cyclase"
+      },
+      {
+        "id": "GO:0099104",
+        "label": "MolecularActivity",
+        "name": "opening of a potassium channel"
+      },
+      {
+        "id": "GO:0060081",
+        "label": "BiologicalProcess",
+        "name": "hyperpolarization"
+      },
+      {
+        "id": "HP:0000822",
+        "label": "PhenotypicFeature",
+        "name": "blood pressure"
+      },
+      {
+        "id": "MESH:D006973",
+        "label": "Disease",
+        "name": "Hypertensive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00575#mechanismofaction https://en.wikipedia.org/wiki/Clonidine https://pubchem.ncbi.nlm.nih.gov/compound/Clonidine"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypertensive disorder",
+      "disease_mesh": "MESH:D006973",
+      "drug": "Clonidine",
+      "drug_mesh": "MESH:D003000",
+      "drugbank": "DB:DB00575"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D003000",
+        "target": "UniProt:P08913"
+      },
+      {
+        "key": "located in",
+        "source": "UniProt:P08913",
+        "target": "UBERON:0002298"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "UBERON:0002298",
+        "target": "GO:0003072"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "GO:0003072",
+        "target": "HP:0000822"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0000822",
+        "target": "MESH:D006973"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D003000",
+        "label": "Drug",
+        "name": "Clonidine"
+      },
+      {
+        "id": "UniProt:P08913",
+        "label": "Protein",
+        "name": "Alpha-2A adrenergic receptor"
+      },
+      {
+        "id": "UBERON:0002298",
+        "label": "GrossAnatomicalStructure",
+        "name": "Brain stem"
+      },
+      {
+        "id": "GO:0003072",
+        "label": "BiologicalProcess",
+        "name": "peripheral vascular resistance"
+      },
+      {
+        "id": "HP:0000822",
+        "label": "PhenotypicFeature",
+        "name": "blood pressure"
+      },
+      {
+        "id": "MESH:D006973",
+        "label": "Disease",
+        "name": "Hypertensive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00575#mechanismofaction https://en.wikipedia.org/wiki/Clonidine https://pubchem.ncbi.nlm.nih.gov/compound/Clonidine"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Attention deficit hyperactivity disorder",
+      "disease_mesh": "MESH:D001289",
+      "drug": "Clonidine",
+      "drug_mesh": "MESH:D003000",
+      "drugbank": "DB:DB00575"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D003000",
+        "target": "UniProt:P08913"
+      },
+      {
+        "key": "located in",
+        "source": "UniProt:P08913",
+        "target": "UBERON:0000451"
+      },
+      {
+        "key": "prevents",
+        "source": "UBERON:0000451",
+        "target": "GO:0048243"
+      },
+      {
+        "key": "disrupts",
+        "source": "GO:0048243",
+        "target": "HP:0007018"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0007018",
+        "target": "MESH:D001289"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D003000",
+        "label": "Drug",
+        "name": "Clonidine"
+      },
+      {
+        "id": "UniProt:P08913",
+        "label": "Protein",
+        "name": "Alpha-2A adrenergic receptor"
+      },
+      {
+        "id": "UBERON:0000451",
+        "label": "GrossAnatomicalStructure",
+        "name": "prefrontal cortex"
+      },
+      {
+        "id": "GO:0048243",
+        "label": "BiologicalProcess",
+        "name": "secretion of norepinephrine"
+      },
+      {
+        "id": "HP:0007018",
+        "label": "PhenotypicFeature",
+        "name": "irrelevant attention"
+      },
+      {
+        "id": "MESH:D001289",
+        "label": "Disease",
+        "name": "Attention deficit hyperactivity disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00575#mechanismofaction https://en.wikipedia.org/wiki/Clonidine https://pubchem.ncbi.nlm.nih.gov/compound/Clonidine"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Open-angle glaucoma",
+      "disease_mesh": "MESH:D005902",
+      "drug": "Clonidine",
+      "drug_mesh": "MESH:D003000",
+      "drugbank": "DB:DB00575"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D003000",
+        "target": "UniProt:P08913"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "UniProt:P08913",
+        "target": "GO:0003072"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "GO:0003072",
+        "target": "HP:0000822"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "HP:0000822",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0007906",
+        "target": "MESH:D005902"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D003000",
+        "label": "Drug",
+        "name": "Clonidine"
+      },
+      {
+        "id": "UniProt:P08913",
+        "label": "Protein",
+        "name": "Alpha-2A adrenergic receptor"
+      },
+      {
+        "id": "GO:0003072",
+        "label": "BiologicalProcess",
+        "name": "peripheral vascular resistance"
+      },
+      {
+        "id": "HP:0000822",
+        "label": "PhenotypicFeature",
+        "name": "blood pressure"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "intraocular pressure"
+      },
+      {
+        "id": "MESH:D005902",
+        "label": "Disease",
+        "name": "Open-angle glaucoma"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00575#mechanismofaction https://en.wikipedia.org/wiki/Clonidine https://pubchem.ncbi.nlm.nih.gov/compound/Clonidine"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypokalemia",
+      "disease_mesh": "MESH:D007008",
+      "drug": "Calcium chloride",
+      "drug_mesh": "MESH:D002122",
+      "drugbank": "DB:DB01164"
+    },
+    "links": [
+      {
+        "key": "treats",
+        "source": "MESH:D002122",
+        "target": "MESH:D007008"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D002122",
+        "label": "Drug",
+        "name": "Calcium chloride"
+      },
+      {
+        "id": "MESH:D007008",
+        "label": "Disease",
+        "name": "Hypokalemia"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01164#mechanismofaction https://www.aafp.org/afp/2015/0915/p487.html https://en.wikipedia.org/wiki/Hyperkalemia#:~:text=Calcium%20(calcium%20chloride%20or%20calcium,is%20elevated%20abnormally%20in%20hyperkalemia https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-dichloride#section=Pharmacology-and-Biochemistry"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hyperkalemia",
+      "disease_mesh": "MESH:D006947",
+      "drug": "Calcium chloride",
+      "drug_mesh": "MESH:D002122",
+      "drugbank": "DB:DB01164"
+    },
+    "links": [
+      {
+        "key": "regulates",
+        "source": "MESH:D002122",
+        "target": "GO:0030322"
+      },
+      {
+        "key": "positively regulates",
+        "source": "GO:0030322",
+        "target": "GO:0010460"
+      },
+      {
+        "key": "located in",
+        "source": "GO:0010460",
+        "target": "UBERON:0001133"
+      },
+      {
+        "key": "ameliorates",
+        "source": "UBERON:0001133",
+        "target": "MESH:D006947"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D002122",
+        "label": "Drug",
+        "name": "Calcium chloride"
+      },
+      {
+        "id": "GO:0030322",
+        "label": "BiologicalProcess",
+        "name": "stabilization of membrane potential"
+      },
+      {
+        "id": "GO:0010460",
+        "label": "BiologicalProcess",
+        "name": "heart rate"
+      },
+      {
+        "id": "UBERON:0001133",
+        "label": "GrossAnatomicalStructure",
+        "name": "cardiac muscle"
+      },
+      {
+        "id": "MESH:D006947",
+        "label": "Disease",
+        "name": "Hyperkalemia"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01164#mechanismofaction https://www.aafp.org/afp/2015/0915/p487.html https://en.wikipedia.org/wiki/Hyperkalemia#:~:text=Calcium%20(calcium%20chloride%20or%20calcium,is%20elevated%20abnormally%20in%20hyperkalemia https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-dichloride#section=Pharmacology-and-Biochemistry"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Cardiac arrest",
+      "disease_mesh": "MESH:D006323",
+      "drug": "Calcium chloride",
+      "drug_mesh": "MESH:D002122",
+      "drugbank": "DB:DB01164"
+    },
+    "links": [
+      {
+        "key": "positively regulates",
+        "source": "MESH:D002122",
+        "target": "GO:0060075"
+      },
+      {
+        "key": "located in",
+        "source": "GO:0060075",
+        "target": "UBERON:0001133"
+      },
+      {
+        "key": "correlated with",
+        "source": "UBERON:0001133",
+        "target": "MESH:D006323"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D002122",
+        "label": "Drug",
+        "name": "Calcium chloride"
+      },
+      {
+        "id": "GO:0060075",
+        "label": "BiologicalProcess",
+        "name": "resting membrane potential"
+      },
+      {
+        "id": "UBERON:0001133",
+        "label": "GrossAnatomicalStructure",
+        "name": "cardiac muscle"
+      },
+      {
+        "id": "MESH:D006323",
+        "label": "Disease",
+        "name": "Cardiac arrest"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01164#mechanismofaction https://www.aafp.org/afp/2015/0915/p487.html https://en.wikipedia.org/wiki/Hyperkalemia#:~:text=Calcium%20(calcium%20chloride%20or%20calcium,is%20elevated%20abnormally%20in%20hyperkalemia https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-dichloride#section=Pharmacology-and-Biochemistry"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypocalcemia",
+      "disease_mesh": "MESH:D006996",
+      "drug": "Calcium chloride",
+      "drug_mesh": "MESH:D002122",
+      "drugbank": "DB:DB01164"
+    },
+    "links": [
+      {
+        "key": "increases abundance of",
+        "source": "MESH:D002122",
+        "target": "MESH:D002118"
+      },
+      {
+        "key": "located in",
+        "source": "MESH:D002118",
+        "target": "UBERON:0001969"
+      },
+      {
+        "key": "ameliorates",
+        "source": "UBERON:0001969",
+        "target": "MESH:D006996"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D002122",
+        "label": "Drug",
+        "name": "Calcium chloride"
+      },
+      {
+        "id": "MESH:D002118",
+        "label": "ChemicalSubstance",
+        "name": "calcium"
+      },
+      {
+        "id": "UBERON:0001969",
+        "label": "GrossAnatomicalStructure",
+        "name": "blood plasma"
+      },
+      {
+        "id": "MESH:D006996",
+        "label": "Disease",
+        "name": "Hypocalcemia"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01164#mechanismofaction https://www.aafp.org/afp/2015/0915/p487.html https://en.wikipedia.org/wiki/Hyperkalemia#:~:text=Calcium%20(calcium%20chloride%20or%20calcium,is%20elevated%20abnormally%20in%20hyperkalemia https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-dichloride#section=Pharmacology-and-Biochemistry"
   }
 ]
