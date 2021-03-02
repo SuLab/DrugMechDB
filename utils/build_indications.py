@@ -6,8 +6,11 @@ import networkx as nx
 from itertools import chain
 from collections import defaultdict
 
-from test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
-
+# Multiple imports depending on if command line or import from script
+try:
+    from test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
+except ModuleNotFoundError:
+    from utils.test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
 
 # Define some globals for use in this script
 bl_map = pd.read_csv('utils/dmdb_to_bl_map.csv')
