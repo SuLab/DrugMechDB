@@ -1,1 +1,44 @@
-
+-   directed: true
+    graph:
+        disease: Keratitis
+        disease_mesh: MESH:D007634
+        drug: cortisone acetate
+        drug_mesh: MESH:D003348
+        drugbank: DB:DB01380
+    links:
+    -   key: increases activity of
+        source: MESH:D003348
+        target: UniProt:P04150
+    -   key: negatively regulates
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: located in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH: D007634
+    multigraph: true
+    nodes:
+    -   id: MESH:D003348
+        label: Drug
+        name: cortisone acetate
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P23219
+        label: Protein
+        name: COX genes
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D007634
+        label: Disease
+        name: Keratitis
+    reference: https://go.drugbank.com/drugs/DB01380#mechanism-of-action
