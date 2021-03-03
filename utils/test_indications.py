@@ -109,6 +109,15 @@ class PathTester:
         assert len(leaves) == 0, self.msg+'Internal node(s) {0!r:} are leaf nodes '.format(leaves) +\
                                  '(missing as a source or target)'
 
+    def test_graph_curis(self):
+        assert self.path['graph']['drugbank'] is None or self.path['graph']['drugbank'].startswith('DB:'),''+\
+                                                    '`drugbank` field does not cotain drugbank id'
+        assert self.path['graph']['drug_mesh'] is None or self.path['graph']['drug_mesh'].startswith('MESH:'), ''+\
+                                                    '`drug_mesh` field does not contain MESH id'
+        assert self.path['graph']['disease_mesh'] is None or self.path['graph']['disease_mesh'].startswith('MESH:'), ''+\
+                                                    '`disease_mesh` field does not cotain MESH id'
+
+
     def test_all_curis_present(self):
         for node in self.path['nodes']:
             assert node['id'].count(':') == 1, self.msg+'CURI missing in ID for Node: {0!r:}'.format(node)
@@ -189,6 +198,7 @@ class PathTester:
         self.test_all_links_connected()
 
     def run_data_model_tests(self):
+        self.test_graph_curis()
         self.test_all_curis_present()
         self.test_all_curis_allowed()
         self.test_biolink_nodes()
