@@ -415,7 +415,7 @@ def add_new_submission(inname='submission.yaml', outname='out.yaml'):
     except ScannerError as se:
         print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
         print(se)
-        sys.exit()
+        sys.exit(125)
 
     submission = test_and_fix(submission)
     if submission is not None:
