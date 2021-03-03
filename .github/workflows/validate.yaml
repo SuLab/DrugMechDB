@@ -48,9 +48,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: build new indications
-        run: |
-          python utils/build_indications.py
-          cat indication_paths.yaml out.yaml > indication_paths.yaml
+        run: python utils/build_indications.py
 
       - name: test new build with pytest
         if: ${{ success() }}

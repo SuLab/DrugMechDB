@@ -408,7 +408,7 @@ def test_and_fix(indications):
        print('Build Successful')
        return indications
 
-def add_new_submission(inname='submission.yaml', outname='out.yaml'):
+def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'):
 
     try:
         submission = nx.read_yaml(inname)
@@ -419,7 +419,9 @@ def add_new_submission(inname='submission.yaml', outname='out.yaml'):
 
     submission = test_and_fix(submission)
     if submission is not None:
-        nx.write_yaml(submission, outname, indent=4)
+        indications = nx.read_yaml('indication_paths.yaml')
+        out = indications + submission
+        nx.write_yaml(out, outname, indent=4)
     else:
         sys.exit(125)
 
