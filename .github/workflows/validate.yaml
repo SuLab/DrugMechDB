@@ -1,0 +1,70 @@
+name: Validate PR
+
+on:
+  pull_request_target:
+    branches:
+      - main
+    paths:
+      - 'submission.yaml'
+
+jobs:
+  validate:
+    name: Check that only valid files are part of PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR File List
+        run: |
+          URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/pulls/${{ github.event.pull_request.number }}/files"
+          FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+          if [ $FILES = "submission.yaml" ]; then
+            echo "Authorized Submission"
+          else
+            echo "Unauthorized Submission: Pull requests must only contain edits to 'submission.yaml'"
+            exit 125
+          fi
+
+      - name: Checkout Base
+        uses: actions/checkout@v2
+
+      - name: Checkout PR
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+
+      - name: Configure new submission
+        run: |
+          mv pr/submission.yaml submission.yaml
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: build new indications
+        run: |
+          python utils/build_indications.py
+          cat indication_paths.yaml out.yaml > indication_paths.yaml
+
+      - name: test new build with pytest
+        if: ${{ success() }}
+        run: |
+          pytest utils/test_indications.py
+
+      - name: Convert indications to json
+        if: ${{ success() }}
+        run: |
+          python utils/json_yaml_convert.py indication_paths.yaml
+
+      - name: Commit latest build
+        if: ${{ success() }}
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: "['indication_paths.yaml', 'indication_paths.json']"
+
