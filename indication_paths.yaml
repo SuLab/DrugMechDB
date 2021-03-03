@@ -35128,7 +35128,7 @@
         name: D-glucopyranose
     -   id: CHEBI:28061
         label: ChemicalSubstance
-        name: "\u03B1-D-galactose"
+        name: "α-D-galactose"
     -   id: GO:0050892
         label: BiologicalProcess
         name: intestinal absorption
@@ -35136,3 +35136,1103 @@
         label: Disease
         name: Lactose intolerance
     reference: https://go.drugbank.com/drugs/DB13761#mechanism-of-action
+    -   directed: true
+    graph:
+        disease: Premenstrual dysphoric disorder
+        disease_mesh: MESH:D065446
+        drug: Ethinylestradiol
+        drug_mesh: MESH:D004997
+        drugbank: DB:DB00977
+    links:
+    -   key: increases activity of
+        source: MESH:D004997
+        target: UniProt:P03372
+    -   key: participates in
+        source: UniProt:P03372
+        target: GO:0043627
+    -   key: increases abundance of
+        source: GO:0043627
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: MESH:D019964
+    -   key: positively correlated with
+        source: MESH:D019964
+        target: MESH:D065446
+    multigraph: true
+    nodes:
+    -   id: MESH:D004997
+        label: Drug
+        name: Ethinylestradiol
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor alpha
+    -   id: GO:0043627
+        label: BiologicalProcess
+        name: Response to estrogen
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D019964
+        label: Disease
+        name: Mood Disorders
+    -   id: MESH:D065446
+        label: Disease
+        name: Premenstrual dysphoric disorder
+    reference: https://go.drugbank.com/drugs/DB00977  https://pubmed.ncbi.nlm.nih.gov/29876339/ https://en.wikipedia.org/wiki/Premenstrual_dysphoric_disorder
+-   directed: true
+    graph:
+        disease: Menopausal flushing
+        disease_mesh: MESH:D019584
+        drug: Ethinylestradiol
+        drug_mesh: MESH:D004997
+        drugbank: DB:DB00977
+    links:
+    -   key: increases activity of
+        source: MESH:D004997
+        target: UniProt:P03372
+    -   key: participates in
+        source: UniProt:P03372
+        target: GO:0043627
+    -   key: treats
+        source: GO:0043627
+        target: MESH:D019584
+    multigraph: true
+    nodes:
+    -   id: MESH:D004997
+        label: Drug
+        name: Ethinylestradiol
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor alpha
+    -   id: GO:0043627
+        label: BiologicalProcess
+        name: Response to estrogen
+    -   id: MESH:D019584
+        label: Disease
+        name: Menopausal flushing
+    reference: https://go.drugbank.com/drugs/DB00977
+-   directed: true
+    graph:
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: Ethinylestradiol
+        drug_mesh: MESH:D004997
+        drugbank: DB:DB00977
+    links:
+    -   key: increases activity of
+        source: MESH:D004997
+        target: UniProt:P03372
+    -   key: participates in
+        source: UniProt:P03372
+        target: GO:0043627
+    -   key: negatively regulates
+        source: GO:0043627
+        target: CL:0000317
+    -   key: negatively regulates
+        source: GO:0043627
+        target: GO:0006702
+    -   key: positively correlated with
+        source: CL:0000317
+        target: MESH:D000152
+    -   key: increases abundance of
+        source: GO:0006702
+        target: MESH:D000728
+    -   key: contributes to
+        source: MESH:D000728
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:D004997
+        label: Drug
+        name: Ethinylestradiol
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor alpha
+    -   id: GO:0043627
+        label: BiologicalProcess
+        name: Response to estrogen
+    -   id: CL:0000317
+        label: Cell
+        name: Sebum secreting cell
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: Androgen synthesis
+    -   id: MESH:D000728
+        label: ChemicalSubstance
+        name: Androgens
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: https://go.drugbank.com/drugs/DB00977 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5015761/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5015761/
+-   directed: true
+    graph:
+        disease: Atrophic vaginitis
+        disease_mesh: MESH:D059268
+        drug: Ethinylestradiol
+        drug_mesh: MESH:D004997
+        drugbank: DB:DB00977
+    links:
+    -   key: increases activity of
+        source: MESH:D004997
+        target: UniProt:P03372
+    -   key: participates in
+        source: UniProt:P03372
+        target: GO:0043627
+    -   key: prevents
+        source: GO:0043627
+        target: MESH:D059268
+    multigraph: true
+    nodes:
+    -   id: MESH:D004997
+        label: Drug
+        name: Ethinylestradiol
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor alpha
+    -   id: GO:0043627
+        label: BiologicalProcess
+        name: Response to estrogen
+    -   id: MESH:D059268
+        label: Disease
+        name: Atrophic vaginitis
+    reference: https://go.drugbank.com/drugs/DB00977
+-   directed: true
+    graph:
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+        drug: Ethinylestradiol
+        drug_mesh: MESH:D004997
+        drugbank: DB:DB00977
+    links:
+    -   key: increases activity of
+        source: MESH:D004997
+        target: UniProt:P03372
+    -   key: participates in
+        source: UniProt:P03372
+        target: GO:0043627
+    -   key: negatively regulates
+        source: GO:0043627
+        target: CL:0000092
+    -   key: negatively regulates
+        source: GO:0043627
+        target: GO:0046849
+    -   key: contributes to
+        source: CL:0000092
+        target: GO:0045453
+    -   key: contributes to
+        source: GO:0046849
+        target: MESH:D015663
+    -   key: causes
+        source: GO:0045453
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:D004997
+        label: Drug
+        name: Ethinylestradiol
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor alpha
+    -   id: GO:0043627
+        label: BiologicalProcess
+        name: Response to estrogen
+    -   id: CL:0000092
+        label: Cell
+        name: Osteoclast
+    -   id: GO:0046849
+        label: BiologicalProcess
+        name: Bone remodeling
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone resorption
+    -   id: MESH:D015663
+        label: Disease
+        name: Postmenopausal osteoporosis
+    reference: https://go.drugbank.com/drugs/DB00977 https://pubmed.ncbi.nlm.nih.gov/22595550/
+-   comment: Only for treatment of mild haemophilia
+    directed: true
+    graph:
+        disease: Factor VIII Deficiency (Haemophilia A)
+        disease_mesh: MESH:D006467
+        drug: Vasopressin
+        drug_mesh: MESH:C016671
+        drugbank: DB:DB00067 
+    links:
+    -   key: increases abundance of
+        source: MESH:C016671
+        target: UniProt:P00451
+    -   key: disrupted by
+        source: UniProt:P00451
+        target: MESH:D006467
+    multigraph: true
+    nodes:
+    -   id: MESH:C016671
+        label: Drug
+        name: Vasopressin
+    -   id: UniProt:P00451
+        label: Protein
+        name: Coagulation factor VIII
+    -   id: MESH:D006467
+        label: Disease
+        name: Hereditary factor VIII deficiency disease
+    reference: https://pubmed.ncbi.nlm.nih.gov/18173690/ https://go.drugbank.com/drugs/DB00067 
+-   directed: true
+    graph:
+        disease: Nocturnal enuresis
+        disease_mesh: MESH:D053206
+        drug: Vasopressin
+        drug_mesh: MESH:C016671
+        drugbank: DB:DB00067 
+    links:
+    -   key: negatively regulates
+        source: MESH:C016671
+        target: GO:0035810
+    -   key: positively correlated with
+        source: GO:0035810
+        target: GO:0060073
+    -   key: manifestation of
+        source: GO:0060073
+        target: MESH:D053206
+    multigraph: true
+    nodes:
+    -   id: MESH:C016671
+        label: Drug
+        name: Vasopressin
+    -   id: GO:0035810
+        label: BiologicalProcess
+        name: Diuresis
+    -   id: GO:0060073
+        label: BiologicalProcess
+        name: Urination
+    -   id: MESH:D053206
+        label: Disease
+        name: Nocturnal enuresis
+    reference: https://go.drugbank.com/drugs/DB00067 https://en.wikipedia.org/wiki/Nocturnal_enuresis https://pubmed.ncbi.nlm.nih.gov/29123651/
+-   directed: true
+    graph:
+        disease: Von Willebrand disorder
+        disease_mesh: MESH:D014842
+        drug: Vasopressin
+        drug_mesh: MESH:C016671
+        drugbank: DB:DB00067 
+    links:
+    -   key: increases abundance of
+        source: MESH:C016671
+        target: UniProt:P04275
+    -   key: disrupted by
+        source: UniProt:P04275
+        target: MESH:D014842
+    multigraph: true
+    nodes:
+    -   id: MESH:C016671
+        label: Drug
+        name: Vasopressin
+    -   id: UniProt:P04275
+        label: Protein
+        name: Von Willebrand factor
+    -   id: MESH:D014842
+        label: Disease
+        name: Von Willebrand disorder
+    reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2599976/ https://go.drugbank.com/drugs/DB00067
+-   directed: true
+    graph:
+        disease: Impotence
+        disease_mesh: MESH:D007172
+        drug: Sildenafil
+        drug_mesh: MESH:D000068677
+        drugbank: DB:DB00203
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068677
+        target: UniProt:O76074
+    -   key: decreases abundance of
+        source: UniProt:O76074
+        target: CHEBI:16356
+    -   key: positively regulates
+        source: CHEBI:16356
+        target: GO:0044557
+    -   key: positively regulates
+        source: GO:0044557
+        target: GO:0008015
+    -   key: positively correlated with
+        source: GO:0008015
+        target: GO:0043084
+    -   key: negatively correlated with
+        source: GO:0043084
+        target: MESH:D007172
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068677
+        label: Drug
+        name: Sildenafil
+    -   id: UniProt:O76074
+        label: Protein
+        name: cGMP-specific 3',5'-cyclic phosphodiesterase
+    -   id: CHEBI:16356
+        label: ChemicalSubstance
+        name: 3',5'-cyclic GMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: GO:0043084
+        label: BiologicalProcess
+        name: Penile erection
+    -   id: MESH:D007172
+        label: Disease
+        name: Impotence
+    reference: https://go.drugbank.com/drugs/DB00203#BE0000182
+-   directed: true
+    graph:
+        disease: Pulmonary arterial hypertension
+        disease_mesh: MESH:D000081029
+        drug: Sildenafil
+        drug_mesh: MESH:D000068677
+        drugbank: DB:DB00203
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068677
+        target: UniProt:O76074
+    -   key: decreases abundance of
+        source: UniProt:O76074
+        target: CHEBI:16356
+    -   key: positively regulates
+        source: CHEBI:16356
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0042311
+    -   key: negatively regulates
+        source: GO:0042311
+        target: GO:0008217
+    -   key: positively correlated with
+        source: GO:0008217
+        target: MESH:D000081029
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068677
+        label: Drug
+        name: Sildenafil
+    -   id: UniProt:O76074
+        label: Protein
+        name: cGMP-specific 3',5'-cyclic phosphodiesterase
+    -   id: CHEBI:16356
+        label: ChemicalSubstance
+        name: 3',5'-cyclic GMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008217
+        label: BiologicalProcess
+        name: Blood pressure
+    -   id: MESH:D000081029
+        label: Disease
+        name: Pulmonary arterial hypertension
+    reference: https://go.drugbank.com/drugs/DB00203#BE0000182
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Miglitol
+        drug_mesh: MESH:C045621
+        drugbank: DB:DB00491
+    links:
+    -   key: decreases activity of
+        source: MESH:C045621
+        target: UniProt:O43451
+    -   key: decreases activity of
+        source: MESH:C045621
+        target: UniProt:P10253
+    -   key: decreases activity of
+        source: MESH:C045621
+        target: UniProt:Q14697
+    -   key: decreases activity of
+        source: MESH:C045621
+        target: UniProt:Q8TET4
+    -   key: positively regulates
+        source: UniProt:O43451
+        target: GO:0044245
+    -   key: positively regulates
+        source: UniProt:P10253
+        target: GO:0044245
+    -   key: positively regulates
+        source: UniProt:Q14697
+        target: GO:0044245
+    -   key: positively regulates
+        source: UniProt:Q8TET4
+        target: GO:0044245
+    -   key: positively regulates
+        source: GO:0044245
+        target: GO:0106001
+    -   key: positively regulates
+        source: GO:0106001
+        target: MESH:D001786
+    -   key: positively correlated with
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C045621
+        label: Drug
+        name: Miglitol
+    -   id: UniProt:O43451
+        label: Protein
+        name: Maltase-glucoamylase, intestinal
+    -   id: UniProt:P10253
+        label: Protein
+        name: Lysosomal alpha-glucosidase
+    -   id: UniProt:Q14697
+        label: Protein
+        name: Neutral alpha-glucosidase AB
+    -   id: UniProt:Q8TET4
+        label: Protein
+        name: Neutral alpha-glucosidase C
+    -   id: GO:0044245
+        label: BiologicalProcess
+        name: Polysaccharide digestion
+    -   id: GO:0106001
+        label: BiologicalProcess
+        name: Intestinal hexose absorption
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood Glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB00491
+-   comment: The mode of action of pentamidine is not fully understood
+    directed: true
+    graph:
+        disease: African trypanosomiasis
+        disease_mesh: MESH:D014353
+        drug: Pentamidine
+        drug_mesh: MESH:D010419
+        drugbank: DB:DB00738
+    links:
+    -   key: disrupts
+        source: MESH:D010419
+        target: MESH:D004247
+    -   key: negatively regulates
+        source: MESH:D010419
+        target: GO:0006412
+    -   key: occurs in
+        source: MESH:D004247
+        target:  NCBITaxon:5691
+    -   key: occurs in
+        source: GO:0006412
+        target: NCBITaxon:5691
+    -   key: causes
+        source: NCBITaxon:5691
+        target: MESH:D014353
+    multigraph: true
+    nodes:
+    -   id: MESH:D010419
+        label: Drug
+        name: Pentamidine
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA 
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Protein biosynthesis
+    -   id: NCBITaxon:5691
+        label: OrganismTaxon
+        name: Trypanosoma brucei
+    -   id: MESH:D014353
+        label: Disease
+        name: African trypanosomiasis
+    reference: https://go.drugbank.com/drugs/DB00738
+-   comment: Exactly how auranofin works is not well understood
+    directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: Auranofin
+        drug_mesh: MESH:D001310
+        drugbank: DB:DB00995
+    links:
+    -   key: decreases activity of
+        source: MESH:D001310
+        target: UniProt:O14920
+    -   key: negatively regulates
+        source: MESH:D001310
+        target: CL:0000235
+    -   key: positively regulates
+        source: UniProt:O14920
+        target: GO:0006955
+    -   key: participates in
+        source: CL:0000235
+        target: GO:0006955
+    -   key: positively correlated with
+        source: GO:0006955
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D001310
+        label: Drug
+        name: Auranofin
+    -   id: UniProt:O14920
+        label: Protein
+        name: Inhibitor of nuclear factor kappa-B kinase subunit beta
+    -   id: CL:0000235
+        label: Cell
+        name: Macrophage
+    -   id: GO:0006955
+        label: BiologicalProcess
+        name: Immune response
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://www.sciencedirect.com/topics/chemistry/auranofin https://go.drugbank.com/drugs/DB00995
+-   directed: true
+    graph:
+        disease: Herpes simplex dendritic keratitis
+        disease_mesh: MESH:D007635
+        drug: Ganciclovir
+        drug_mesh: MESH:D015774
+        drugbank: DB:DB01004
+    links:
+    -   key: disrupts
+        source: MESH:D015774
+        target: MESH:D004247
+    -   key: decreases activity of
+        source: MESH:D015774
+        target: UniProt:P04293
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0019079
+    -   key: positively regulates
+        source: UniProt:P04293
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:10298
+    -   key: causes
+        source: NCBITaxon:10298
+        target: MESH:D007635
+    multigraph: true
+    nodes:
+    -   id: MESH:D015774
+        label: Drug
+        name: Ganciclovir
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA 
+    -   id: UniProt:P04293
+        label: Protein
+        name: DNA polymerase catalytic subunit (Human herpesvirus 1)
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral genome replication
+    -   id: NCBITaxon:10298
+        label: OrganismTaxon
+        name: Human herpesvirus type 1
+    -   id: MESH:D007635
+        label: Disease
+        name: Herpes simplex dendritic keratitis
+    reference: https://go.drugbank.com/drugs/DB01004#BE0000308 https://en.wikipedia.org/wiki/Cytomegalovirus_retinitis
+-   directed: true
+    graph:
+        disease: Cytomegaloviral retinitis
+        disease_mesh: MESH:D007635
+        drug: Ganciclovir
+        drug_mesh: MESH:D015774
+        drugbank: DB:DB01004
+    links:
+    -   key: disrupts
+        source: MESH:D015774
+        target: MESH:D004247
+    -   key: decreases activity of
+        source: MESH:D015774
+        target: UniProt:P08546
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0019079
+    -   key: positively regulates
+        source: UniProt:P08546
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:10359
+    -   key: causes
+        source: NCBITaxon:10359
+        target: MESH:D007635
+    multigraph: true
+    nodes:
+    -   id: MESH:D015774
+        label: Drug
+        name: Ganciclovir
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA 
+    -   id: UniProt:P08546
+        label: Protein
+        name: DNA polymerase catalytic subunit (Human cytomegalovirus)
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral genome replication
+    -   id: NCBITaxon:10359
+        label: OrganismTaxon
+        name: Human cytomegalovirus
+    -   id: MESH:D007635
+        label: Disease
+        name: Cytomegaloviral retinitis
+    reference: https://go.drugbank.com/drugs/DB01004#BE0000308 https://en.wikipedia.org/wiki/Cytomegalovirus_retinitis
+-   directed: true
+    graph:
+        disease: Cardiac arrest
+        disease_mesh: MESH:D006323
+        drug: Isoprenaline
+        drug_mesh: MESH:D007545
+        drugbank: DB:DB01064
+    links:
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P08588
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P13945
+    -   key: increases activity of
+        source: UniProt:P08588
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P13945
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489 
+    -   key: positively regulates
+        source: CHEBI:17489 
+        target: GO:0086003
+    -   key: negatively correlated with
+        source: GO:0086003
+        target: MESH:D006323
+    multigraph: true
+    nodes:
+    -   id: MESH:D007545
+        label: Drug
+        name: Isoprenaline
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0086003
+        label: BiologicalProcess
+        name: Cardiac muscle cell contraction
+    -   id: MESH:D006323
+        label: Disease
+        name: Cardiac arrest
+    reference: https://go.drugbank.com/drugs/DB01064#BE0000172
+-   directed: true
+    graph:
+        disease: Atrioventricular block
+        disease_mesh: MESH:D054537
+        drug: Isoprenaline
+        drug_mesh: MESH:D007545
+        drugbank: DB:DB01064
+    links:
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P08588
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P13945
+    -   key: increases activity of
+        source: UniProt:P08588
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P13945
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489 
+    -   key: positively regulates
+        source: CHEBI:17489 
+        target: GO:0086003
+    -   key: negatively correlated with
+        source: GO:0086003
+        target: MESH:D054537
+    multigraph: true
+    nodes:
+    -   id: MESH:D007545
+        label: Drug
+        name: Isoprenaline
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0086003
+        label: BiologicalProcess
+        name: Cardiac muscle cell contraction
+    -   id: MESH:D054537
+        label: Disease
+        name: Atrioventricular block
+    reference: https://go.drugbank.com/drugs/DB01064#BE0000172 https://en.wikipedia.org/wiki/Atrioventricular_block
+-   directed: true
+    graph:
+        disease: Low cardiac output syndrome
+        disease_mesh: MESH:D002303
+        drug: Isoprenaline
+        drug_mesh: MESH:D007545
+        drugbank: DB:DB01064
+    links:
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P08588
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P13945
+    -   key: increases activity of
+        source: UniProt:P08588
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P13945
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489 
+    -   key: positively regulates
+        source: CHEBI:17489 
+        target: GO:0060047
+    -   key: negatively correlated with
+        source: GO:0060047
+        target: MESH:D002303
+    multigraph: true
+    nodes:
+    -   id: MESH:D007545
+        label: Drug
+        name: Isoprenaline
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0060047
+        label: BiologicalProcess
+        name: Heart contraction
+    -   id: MESH:D002303
+        label: Disease
+        name: Low cardiac output syndrome
+    reference: https://go.drugbank.com/drugs/DB01064#BE0000172
+-   directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: Isoprenaline
+        drug_mesh: MESH:D007545
+        drugbank: DB:DB01064
+    links:
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P08588
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P13945
+    -   key: increases activity of
+        source: UniProt:P08588
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P13945
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489 
+    -   key: positively regulates
+        source: CHEBI:17489 
+        target: GO:0044557
+    -   key: negatively correlated with
+        source: GO:0044557
+        target: HP:0002098
+    -   key: occurs in
+        source: HP:0002098
+        target: MESH:D003139
+    -   key: negatively regulates
+        source: UniProt:P07550
+        target: GO:0006954
+    -   key: occurs in
+        source: GO:0006954
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D007545
+        label: Drug
+        name: Isoprenaline
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Smooth muscle relaxation
+    -   id: HP:0002098
+        label: PhenotypicFeature
+        name: Breathing difficultie
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference: https://go.drugbank.com/drugs/DB01064#BE0000172 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904268/ 
+     https://pubmed.ncbi.nlm.nih.gov/33219396/
+-   directed: true
+    graph:
+        disease: Hypovolemic shock
+        disease_mesh: MESH:D012769
+        drug: Isoprenaline
+        drug_mesh: MESH:D007545
+        drugbank: DB:DB01064
+    links:
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P08588
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: MESH:D007545
+        target: UniProt:P13945
+    -   key: increases activity of
+        source: UniProt:P08588
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases activity of
+        source: UniProt:P13945
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489 
+    -   key: positively regulates
+        source: CHEBI:17489 
+        target: GO:0060047
+    -   key: negatively correlated with
+        source: GO:0060047
+        target: HP:0033532
+    -   key: positively correlated with
+        source: HP:0033532
+        target: MESH:D012769
+    multigraph: true
+    nodes:
+    -   id: MESH:D007545
+        label: Drug
+        name: Isoprenaline
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0060047
+        label: BiologicalProcess
+        name: Heart contraction
+    -   id: HP:0033532
+        label: PhenotypicFeature
+        name: Decreased cardiac output
+    -   id: MESH:D012769
+        label: Disease
+        name: Hypovolemic shock
+    reference: https://go.drugbank.com/drugs/DB01064#BE0000172
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Hemorrhage
+        disease_mesh: MESH:D006470
+        drug: Aprotinin
+        drug_mesh: MESH:D007611
+        drugbank: DB:DB06692
+    links:
+    -   key: decreases activity of
+        source: MESH:D007611
+        target: InterPro:IPR001254
+    -   key: positively regulates
+        source: InterPro:IPR001254
+        target: GO:0042730
+    -   key: positively correlated with
+        source: GO:0042730
+        target: MESH:D006470
+    multigraph: true
+    nodes:
+    -   id: MESH:D007611
+        label: Drug
+        name: Aprotinin
+    -   id:  InterPro:IPR001254
+        label: GeneFamily
+        name: Serine proteases, trypsin domain
+    -   id: GO:0042730
+        label: BiologicalProcess
+        name: Fibrinolysis
+    -   id: MESH:D006470
+        label: Disease
+        name: Hemorrhage
+    reference: https://en.wikipedia.org/wiki/Aprotinin https://go.drugbank.com/drugs/DB06692
+-   directed: true
+    graph:
+        disease: Angiofollicular lymph node hyperplasia
+        disease_mesh: MESH:D005871
+        drug: Siltuximab
+        drug_mesh: MESH:C504234
+        drugbank: DB:DB09036
+    links:
+    -   key: decreases activity of
+        source: MESH:C504234
+        target: UniProt:P05231
+    -   key: positively correlated with
+        source: UniProt:P05231
+        target: MESH:D005871
+    multigraph: true
+    nodes:
+    -   id: MESH:C504234
+        label: Drug
+        name: Siltuximab
+    -   id: UniProt:P05231
+        label: Protein
+        name: Interleukin-6
+    -   id: MESH:D005871
+        label: Disease
+        name: Angiofollicular lymph node hyperplasia
+    reference: https://go.drugbank.com/drugs/DB09036
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Talinolol
+        drug_mesh: MESH:C011550
+        drugbank: DB:DB11770
+    links:
+    -   key: decreases activity of
+        source: MESH:C011550
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: HP:0033533
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: positively regulates
+        source: GO:0042310
+        target: GO:0008217
+    -   key: positively correlated with
+        source: GO:0008217
+        target: MESH:D006973
+    -   key: positively correlated with
+        source: HP:0033533
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:C011550
+        label: Drug
+        name: Talinolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: HP:0033533
+        label: PhenotypicFeature
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:0008217
+        label: BiologicalProcess
+        name: Blood Pressure
+    -   id: Hypertensive disorder
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://pubchem.ncbi.nlm.nih.gov/compound/Talinolol#section=Pharmacology-and-Biochemistry
+     https://pubmed.ncbi.nlm.nih.gov/8829891/
+     
