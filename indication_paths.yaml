@@ -35136,7 +35136,7 @@
         label: Disease
         name: Lactose intolerance
     reference: https://go.drugbank.com/drugs/DB13761#mechanism-of-action
-    -   directed: true
+-   directed: true
     graph:
         disease: Premenstrual dysphoric disorder
         disease_mesh: MESH:D065446
@@ -35179,7 +35179,8 @@
     -   id: MESH:D065446
         label: Disease
         name: Premenstrual dysphoric disorder
-    reference: https://go.drugbank.com/drugs/DB00977  https://pubmed.ncbi.nlm.nih.gov/29876339/ https://en.wikipedia.org/wiki/Premenstrual_dysphoric_disorder
+    reference: https://go.drugbank.com/drugs/DB00977  https://pubmed.ncbi.nlm.nih.gov/29876339/
+        https://en.wikipedia.org/wiki/Premenstrual_dysphoric_disorder
 -   directed: true
     graph:
         disease: Menopausal flushing
@@ -35264,7 +35265,8 @@
     -   id: MESH:D000152
         label: Disease
         name: Acne vulgaris
-    reference: https://go.drugbank.com/drugs/DB00977 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5015761/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5015761/
+    reference: https://go.drugbank.com/drugs/DB00977 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5015761/
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5015761/
 -   directed: true
     graph:
         disease: Atrophic vaginitis
@@ -35357,7 +35359,7 @@
         disease_mesh: MESH:D006467
         drug: Vasopressin
         drug_mesh: MESH:C016671
-        drugbank: DB:DB00067 
+        drugbank: DB:DB00067
     links:
     -   key: increases abundance of
         source: MESH:C016671
@@ -35376,14 +35378,14 @@
     -   id: MESH:D006467
         label: Disease
         name: Hereditary factor VIII deficiency disease
-    reference: https://pubmed.ncbi.nlm.nih.gov/18173690/ https://go.drugbank.com/drugs/DB00067 
+    reference: https://pubmed.ncbi.nlm.nih.gov/18173690/ https://go.drugbank.com/drugs/DB00067
 -   directed: true
     graph:
         disease: Nocturnal enuresis
         disease_mesh: MESH:D053206
         drug: Vasopressin
         drug_mesh: MESH:C016671
-        drugbank: DB:DB00067 
+        drugbank: DB:DB00067
     links:
     -   key: negatively regulates
         source: MESH:C016671
@@ -35408,14 +35410,15 @@
     -   id: MESH:D053206
         label: Disease
         name: Nocturnal enuresis
-    reference: https://go.drugbank.com/drugs/DB00067 https://en.wikipedia.org/wiki/Nocturnal_enuresis https://pubmed.ncbi.nlm.nih.gov/29123651/
+    reference: https://go.drugbank.com/drugs/DB00067 https://en.wikipedia.org/wiki/Nocturnal_enuresis
+        https://pubmed.ncbi.nlm.nih.gov/29123651/
 -   directed: true
     graph:
         disease: Von Willebrand disorder
         disease_mesh: MESH:D014842
         drug: Vasopressin
         drug_mesh: MESH:C016671
-        drugbank: DB:DB00067 
+        drugbank: DB:DB00067
     links:
     -   key: increases abundance of
         source: MESH:C016671
@@ -35623,7 +35626,7 @@
         target: GO:0006412
     -   key: occurs in
         source: MESH:D004247
-        target:  NCBITaxon:5691
+        target: NCBITaxon:5691
     -   key: occurs in
         source: GO:0006412
         target: NCBITaxon:5691
@@ -35637,7 +35640,7 @@
         name: Pentamidine
     -   id: MESH:D004247
         label: ChemicalSubstance
-        name: DNA 
+        name: DNA
     -   id: GO:0006412
         label: BiologicalProcess
         name: Protein biosynthesis
@@ -35729,7 +35732,7 @@
         name: Ganciclovir
     -   id: MESH:D004247
         label: ChemicalSubstance
-        name: DNA 
+        name: DNA
     -   id: UniProt:P04293
         label: Protein
         name: DNA polymerase catalytic subunit (Human herpesvirus 1)
@@ -35746,7 +35749,7 @@
 -   directed: true
     graph:
         disease: Cytomegaloviral retinitis
-        disease_mesh: MESH:D007635
+        disease_mesh: MESH:D017726
         drug: Ganciclovir
         drug_mesh: MESH:D015774
         drugbank: DB:DB01004
@@ -35768,7 +35771,7 @@
         target: NCBITaxon:10359
     -   key: causes
         source: NCBITaxon:10359
-        target: MESH:D007635
+        target: MESH:D017726
     multigraph: true
     nodes:
     -   id: MESH:D015774
@@ -35776,7 +35779,7 @@
         name: Ganciclovir
     -   id: MESH:D004247
         label: ChemicalSubstance
-        name: DNA 
+        name: DNA
     -   id: UniProt:P08546
         label: Protein
         name: DNA polymerase catalytic subunit (Human cytomegalovirus)
@@ -35786,7 +35789,7 @@
     -   id: NCBITaxon:10359
         label: OrganismTaxon
         name: Human cytomegalovirus
-    -   id: MESH:D007635
+    -   id: MESH:D017726
         label: Disease
         name: Cytomegaloviral retinitis
     reference: https://go.drugbank.com/drugs/DB01004#BE0000308 https://en.wikipedia.org/wiki/Cytomegalovirus_retinitis
@@ -35818,9 +35821,9 @@
         target: UniProt:B7Z2C7
     -   key: increases abundance of
         source: UniProt:B7Z2C7
-        target: CHEBI:17489 
+        target: CHEBI:17489
     -   key: positively regulates
-        source: CHEBI:17489 
+        source: CHEBI:17489
         target: GO:0086003
     -   key: negatively correlated with
         source: GO:0086003
@@ -35880,9 +35883,9 @@
         target: UniProt:B7Z2C7
     -   key: increases abundance of
         source: UniProt:B7Z2C7
-        target: CHEBI:17489 
+        target: CHEBI:17489
     -   key: positively regulates
-        source: CHEBI:17489 
+        source: CHEBI:17489
         target: GO:0086003
     -   key: negatively correlated with
         source: GO:0086003
@@ -35942,9 +35945,9 @@
         target: UniProt:B7Z2C7
     -   key: increases abundance of
         source: UniProt:B7Z2C7
-        target: CHEBI:17489 
+        target: CHEBI:17489
     -   key: positively regulates
-        source: CHEBI:17489 
+        source: CHEBI:17489
         target: GO:0060047
     -   key: negatively correlated with
         source: GO:0060047
@@ -36004,9 +36007,9 @@
         target: UniProt:B7Z2C7
     -   key: increases abundance of
         source: UniProt:B7Z2C7
-        target: CHEBI:17489 
+        target: CHEBI:17489
     -   key: positively regulates
-        source: CHEBI:17489 
+        source: CHEBI:17489
         target: GO:0044557
     -   key: negatively correlated with
         source: GO:0044557
@@ -36052,8 +36055,8 @@
     -   id: MESH:D003139
         label: Disease
         name: Common cold
-    reference: https://go.drugbank.com/drugs/DB01064#BE0000172 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904268/ 
-     https://pubmed.ncbi.nlm.nih.gov/33219396/
+    reference: https://go.drugbank.com/drugs/DB01064#BE0000172 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904268/
+        https://pubmed.ncbi.nlm.nih.gov/33219396/
 -   directed: true
     graph:
         disease: Hypovolemic shock
@@ -36082,9 +36085,9 @@
         target: UniProt:B7Z2C7
     -   key: increases abundance of
         source: UniProt:B7Z2C7
-        target: CHEBI:17489 
+        target: CHEBI:17489
     -   key: positively regulates
-        source: CHEBI:17489 
+        source: CHEBI:17489
         target: GO:0060047
     -   key: negatively correlated with
         source: GO:0060047
@@ -36145,7 +36148,7 @@
     -   id: MESH:D007611
         label: Drug
         name: Aprotinin
-    -   id:  InterPro:IPR001254
+    -   id: InterPro:IPR001254
         label: GeneFamily
         name: Serine proteases, trypsin domain
     -   id: GO:0042730
@@ -36230,9 +36233,8 @@
     -   id: GO:0008217
         label: BiologicalProcess
         name: Blood Pressure
-    -   id: Hypertensive disorder
+    -   id: MESH:D006973
         label: Disease
         name: Hypertensive disorder
     reference: https://pubchem.ncbi.nlm.nih.gov/compound/Talinolol#section=Pharmacology-and-Biochemistry
-     https://pubmed.ncbi.nlm.nih.gov/8829891/
-     
+        https://pubmed.ncbi.nlm.nih.gov/8829891/
