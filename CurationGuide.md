@@ -322,6 +322,12 @@ use the Drugbank identifier instead.
 
 ## FAQ
 
+### How do I submit my new paths after curating them?
+
+See the [Submission Guide](SubmissionGuide.md) for detailed instructions
+for how to submit new paths and how to keep your fork synced to
+the base repository.
+
 ### Is there somewhere I can validate/visualize my path?
 
 Yes! We've added a jupyter notebook that can be used to visalize paths.
