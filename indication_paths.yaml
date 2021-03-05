@@ -35128,7 +35128,7 @@
         name: D-glucopyranose
     -   id: CHEBI:28061
         label: ChemicalSubstance
-        name: "α-D-galactose"
+        name: "\u03B1-D-galactose"
     -   id: GO:0050892
         label: BiologicalProcess
         name: intestinal absorption
@@ -36238,3 +36238,1055 @@
         name: Hypertensive disorder
     reference: https://pubchem.ncbi.nlm.nih.gov/compound/Talinolol#section=Pharmacology-and-Biochemistry
         https://pubmed.ncbi.nlm.nih.gov/8829891/
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Cyproheptadine
+        drug_mesh: MESH:D003533
+        drugbank: DB:DB00434
+    links:
+    -   key: decreases activity of
+        source: MESH:D003533
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UBERON:0035501
+    -   key: positively regulates
+        source: UBERON:0035501
+        target: GO:0070075
+    -   key: manifestation of
+        source: GO:0070075
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D003533
+        label: Drug
+        name: Cyproheptadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UBERON:0035501
+        label: GrossAnatomicalStructure
+        name: Free nerve ending
+    -   id: GO:0070075
+        label: BiologicalProcess
+        name: Tear secretion
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB00434 https://en.wikipedia.org/wiki/Allergic_conjunctivitis
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: Cyproheptadine
+        drug_mesh: MESH:D003533
+        drugbank: DB:DB00434
+    links:
+    -   key: negatively regulates
+        source: MESH:D003533
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: CL:0000197
+    -   key: contributes to
+        source: CL:0000197
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:D003533
+        label: Drug
+        name: Cyproheptadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: CL:0000197
+        label: Cell
+        name: Sensory Receptor Cell
+    -   id: MESH:D011537
+        label: Disease
+        name: Itching of skin
+    reference: https://go.drugbank.com/drugs/DB00434 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2519061/
+-   directed: true
+    graph:
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: Cyproheptadine
+        drug_mesh: MESH:D003533
+        drugbank: DB:DB00434
+    links:
+    -   key: decreases activity of
+        source: MESH:D003533
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:D003533
+        label: Drug
+        name: Cyproheptadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference: https://go.drugbank.com/drugs/DB00434 https://en.wikipedia.org/wiki/Hives
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: Cyproheptadine
+        drug_mesh: MESH:D003533
+        drugbank: DB:DB00434
+    links:
+    -   key: decreases activity of
+        source: MESH:D003533
+        target: UniProt:P35367
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0051381
+    -   key: positively regulates
+        source: GO:0051381
+        target: GO:0023041
+    -   key: located in
+        source: GO:0023041
+        target: UBERON:0000004
+    -   key: affected by
+        source: UBERON:0000004
+        target: UBERON:0001645
+    -   key: contributes to
+        source: UBERON:0001645
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:D003533
+        label: Drug
+        name: Cyproheptadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0051381
+        label: MolecularActivity
+        name: Histamine binding
+    -   id: GO:0023041
+        label: BiologicalProcess
+        name: neuronal signal transduction
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   alt_ids: MESH:D014276
+        id: UBERON:0001645
+        label: GrossAnatomicalStructure
+        name: Trigeminal nerve
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference: https://go.drugbank.com/drugs/DB00434 https://en.wikipedia.org/wiki/Sneeze
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Cyproheptadine
+        drug_mesh: MESH:D003533
+        drugbank: DB:DB00434
+    links:
+    -   key: negatively regulates
+        source: MESH:D003533
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0071159
+    -   key: positively regulates
+        source: GO:0071159
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0000004
+    -   key: affected by
+        source: UBERON:0000004
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D003533
+        label: Drug
+        name: Cyproheptadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071159
+        label: CellularComponent
+        name: NF-kappaB complex
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://pubmed.ncbi.nlm.nih.gov/14561186/ https://go.drugbank.com/drugs/DB00434
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Pindolol
+        drug_mesh: MESH:D010869
+        drugbank: DB:DB00960
+    links:
+    -   key: decreases activity of
+        source: MESH:D010869
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: HP:0033533
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: positively regulates
+        source: GO:0042310
+        target: GO:0008217
+    -   key: positively correlated with
+        source: GO:0008217
+        target: MESH:D006973
+    -   key: positively correlated with
+        source: HP:0033533
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D010869
+        label: Drug
+        name: Pindolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: HP:0033533
+        label: PhenotypicFeature
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:0008217
+        label: BiologicalProcess
+        name: Blood Pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://en.wikipedia.org/wiki/Beta-1_adrenergic_receptor https://go.drugbank.com/drugs/DB00960#BE0000694
+-   directed: true
+    graph:
+        disease: Mantle cell lymphoma
+        disease_mesh: MESH:D020522
+        drug: Bortezomib
+        drug_mesh: MESH:D000069286
+        drugbank: DB:DB00188
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069286
+        target: UniProt:P28074
+    -   key: decreases activity of
+        source: MESH:D000069286
+        target: UniProt:P20618
+    -   key: decreases activity of
+        source: MESH:D000069286
+        target: GO:0071159
+    -   key: participates in
+        source: UniProt:P28074
+        target: GO:0043161
+    -   key: participates in
+        source: UniProt:P20618
+        target: GO:0043161
+    -   key: negatively regulates
+        source: GO:0071159
+        target: GO:0006915
+    -   key: negatively regulates
+        source: GO:0043161
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D020522
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069286
+        label: Drug
+        name: Bortezomib
+    -   id: UniProt:P28074
+        label: Protein
+        name: Proteasome subunit beta type-5
+    -   id: UniProt:P20618
+        label: Protein
+        name: Proteasome subunit beta type-1
+    -   id: GO:0071159
+        label: CellularComponent
+        name: NF-kappaB complex
+    -   id: GO:0043161
+        label: BiologicalProcess
+        name: Proteasome-mediated ubiquitin-dependent protein catabolic process
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: MESH:D020522
+        label: Disease
+        name: Mantle cell lymphoma
+    reference: https://en.wikipedia.org/wiki/Bortezomib https://go.drugbank.com/drugs/DB00188
+-   directed: true
+    graph:
+        disease: Multiple myeloma
+        disease_mesh: MESH:D009101
+        drug: Bortezomib
+        drug_mesh: MESH:D000069286
+        drugbank: DB:DB00188
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069286
+        target: UniProt:P28074
+    -   key: decreases activity of
+        source: MESH:D000069286
+        target: UniProt:P20618
+    -   key: decreases activity of
+        source: MESH:D000069286
+        target: GO:0071159
+    -   key: participates in
+        source: UniProt:P28074
+        target: GO:0043161
+    -   key: participates in
+        source: UniProt:P20618
+        target: GO:0043161
+    -   key: negatively regulates
+        source: GO:0071159
+        target: GO:0006915
+    -   key: negatively regulates
+        source: GO:0043161
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D009101
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069286
+        label: Drug
+        name: Bortezomib
+    -   id: UniProt:P28074
+        label: Protein
+        name: Proteasome subunit beta type-5
+    -   id: UniProt:P20618
+        label: Protein
+        name: Proteasome subunit beta type-1
+    -   id: GO:0071159
+        label: CellularComponent
+        name: NF-kappaB complex
+    -   id: GO:0043161
+        label: BiologicalProcess
+        name: Proteasome-mediated ubiquitin-dependent protein catabolic process
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: MESH:D009101
+        label: Disease
+        name: Multiple myeloma
+    reference: https://en.wikipedia.org/wiki/Bortezomib https://go.drugbank.com/drugs/DB00188
+-   directed: true
+    graph:
+        disease: Malignant tumor of ovary
+        disease_mesh: MESH:D010051
+        drug: Melphalan
+        drug_mesh: MESH:D008558
+        drugbank: DB:DB01042
+    links:
+    -   key: disrupts
+        source: MESH:D008558
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0090592
+    -   key: part of
+        source: GO:0090592
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D010051
+    multigraph: true
+    nodes:
+    -   id: MESH:D008558
+        label: Drug
+        name: Melphalan
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D010051
+        label: Disease
+        name: Malignant tumor of ovary
+    reference: https://go.drugbank.com/drugs/DB01042
+-   directed: true
+    graph:
+        disease: Multiple myeloma
+        disease_mesh: MESH:D009101
+        drug: Melphalan
+        drug_mesh: MESH:D008558
+        drugbank: DB:DB01042
+    links:
+    -   key: disrupts
+        source: MESH:D008558
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0090592
+    -   key: part of
+        source: GO:0090592
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D009101
+    multigraph: true
+    nodes:
+    -   id: MESH:D008558
+        label: Drug
+        name: Melphalan
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D009101
+        label: Disease
+        name: Multiple myeloma
+    reference: https://go.drugbank.com/drugs/DB01042
+-   directed: true
+    graph:
+        disease: Hyperuricemia
+        disease_mesh: MESH:D033461
+        drug: Sulfinpyrazone
+        drug_mesh: MESH:D013442
+        drugbank: DB:DB01138
+    links:
+    -   key: decreases activity of
+        source: MESH:D013442
+        target: UniProt:Q96S37
+    -   key: negatively correlated with
+        source: UniProt:Q96S37
+        target: GO:0097744
+    -   key: negatively correlated with
+        source: GO:0097744
+        target: MESH:D033461
+    multigraph: true
+    nodes:
+    -   id: MESH:D013442
+        label: Drug
+        name: Sulfinpyrazone
+    -   id: UniProt:Q96S37
+        label: Protein
+        name: Solute carrier family 22 member 12
+    -   id: GO:0097744
+        label: BiologicalProcess
+        name: Urate salt excretion
+    -   id: MESH:D033461
+        label: Disease
+        name: Hyperuricemia
+    reference: https://go.drugbank.com/drugs/DB01138
+-   directed: true
+    graph:
+        disease: Backache
+        disease_mesh: MESH:D001416
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001416
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001416
+        label: Disease
+        name: Backache
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Bursitis
+        disease_mesh: MESH:D002062
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D002062
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D002062
+        label: Disease
+        name: Bursitis
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Joint pain
+        disease_mesh: MESH:D018771
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D018771
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D018771
+        label: Disease
+        name: Joint pain
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Synovitis
+        disease_mesh: MESH:D013585
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D013585
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D013585
+        label: Disease
+        name: Synovitis
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Dysmenorrhea
+        disease_mesh: MESH:D004412
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D004412
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D004412
+        label: Disease
+        name: Dysmenorrhea
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010003
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Fever
+        disease_mesh: MESH:D005334
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D005334
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D005334
+        label: Disease
+        name: Fever
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Headache disorder
+        disease_mesh: MESH:D020773
+        drug: Magnesium salicylate
+        drug_mesh: MESH:C496892
+        drugbank: DB:DB01397
+    links:
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C496892
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D020773
+    multigraph: true
+    nodes:
+    -   id: MESH:C496892
+        label: Drug
+        name: Magnesium salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cox-1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cox-2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D020773
+        label: Disease
+        name: Headache disorder
+    reference: https://go.drugbank.com/drugs/DB01397
+-   directed: true
+    graph:
+        disease: Vernal conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Lodoxamide
+        drug_mesh: MESH:C021702,MESH:C022028
+        drugbank: DB:DB06794
+    links:
+    -   key: negatively regulates
+        source: DB:DB06794
+        target: GO:0043303
+    -   key: positively regulates
+        source: GO:0043303
+        target: GO:0001821
+    -   key: positively regulates
+        source: GO:0001821
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: DB:DB06794
+        label: Drug
+        name: Lodoxamide
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: GO:0001821
+        label: BiologicalProcess
+        name: Histamine secretion
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Vernal conjunctivitis
+    reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201266/ https://go.drugbank.com/drugs/DB06794
+-   directed: true
+    graph:
+        disease: Constipation
+        disease_mesh: MESH:D003248
+        drug: Sodium phosphate
+        drug_mesh: MESH:C018279
+        drugbank: DB:DB09449
+    links:
+    -   key: positively regulates
+        source: MESH:C018279
+        target: GO:0120054
+    -   key: negatively correlated with
+        source: GO:0120054
+        target: MESH:D003248
+    multigraph: true
+    nodes:
+    -   id: MESH:C018279
+        label: Drug
+        name: Sodium phosphate
+    -   id: GO:0120054
+        label: BiologicalProcess
+        name: Intestinal motility
+    -   id: MESH:D003248
+        label: Disease
+        name: Constipation
+    reference: https://go.drugbank.com/drugs/DB09449
