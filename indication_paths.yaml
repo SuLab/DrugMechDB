@@ -38342,3 +38342,1265 @@
         label: Disease
         name: Constipation
     reference: https://go.drugbank.com/drugs/DB09449
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: Tenofovir disoproxil
+        drug_mesh: null
+        drugbank: DB:DB00300
+    links:
+    -   key: increases abundance of
+        source: DB:DB00300
+        target: MESH:D000068698
+    -   key: has metabolite
+        source: MESH:D000068698
+        target: MESH:C583447
+    -   key: decreases activity of
+        source: MESH:C583447
+        target: UniProt:Q72547
+    -   key: negatively regulates
+        source: UniProt:Q72547
+        target: GO:0006351
+    -   key: in taxon
+        source: GO:0006351
+        target: NCBITaxon:12721
+    -   key: causes
+        source: NCBITaxon:12721
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: DB:DB00300
+        label: Drug
+        name: Tenofovir disoproxil
+    -   id: MESH:D000068698
+        label: Drug
+        name: tenofovir
+    -   id: MESH:C583447
+        label: ChemicalSubstance
+        name: tenofovir diphosphate
+    -   id: UniProt:Q72547
+        label: Protein
+        name: HIV-1 reverse transcriptase
+    -   id: GO:0006351
+        label: BiologicalProcess
+        name: DNA transcription
+    -   id: NCBITaxon:12721
+        label: OrganismTaxon
+        name: Human immunodeficiency virus
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference: https://go.drugbank.com/drugs/DB00300#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Tenofovir-disoproxil#section=MeSH-Pharmacological-Classification
+        https://en.wikipedia.org/wiki/Tenofovir_disoproxil
+-   directed: true
+    graph:
+        disease: Chronic type B viral hepatitis
+        disease_mesh: MESH:D019694
+        drug: Tenofovir disoproxil
+        drug_mesh: null
+        drugbank: DB:DB00300
+    links:
+    -   key: increases abundance of
+        source: DB:DB00300
+        target: MESH:D000068698
+    -   key: has metabolite
+        source: MESH:D000068698
+        target: MESH:C583447
+    -   key: decreases activity of
+        source: MESH:C583447
+        target: UniProt:P24024
+    -   key: negatively regulates
+        source: UniProt:P24024
+        target: GO:0006260
+    -   key: in taxon
+        source: GO:0006260
+        target: NCBITaxon:10407
+    -   key: causes
+        source: NCBITaxon:10407
+        target: MESH:D019694
+    multigraph: true
+    nodes:
+    -   id: DB:DB00300
+        label: Drug
+        name: Tenofovir disoproxil
+    -   id: MESH:D000068698
+        label: Drug
+        name: tenofovir
+    -   id: MESH:C583447
+        label: ChemicalSubstance
+        name: tenofovir diphosphate
+    -   id: UniProt:P24024
+        label: Protein
+        name: Hepatitis B polymerase
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: NCBITaxon:10407
+        label: OrganismTaxon
+        name: Hepatitis B virus
+    -   id: MESH:D019694
+        label: Disease
+        name: Chronic type B viral hepatitis
+    reference: https://go.drugbank.com/drugs/DB00300#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Tenofovir-disoproxil#section=MeSH-Pharmacological-Classification
+        https://en.wikipedia.org/wiki/Tenofovir_disoproxil
+-   directed: true
+    graph:
+        disease: Condyloma acuminatum
+        disease_mesh: MESH:D003218
+        drug: Sinecatechins
+        drug_mesh: null
+        drugbank: DB:DB01266
+    links:
+    -   key: decreases activity of
+        source: DB:DB01266
+        target: UniProt:P19838
+    -   key: positively regulates
+        source: UniProt:P19838
+        target: GO:1900119
+    -   key: decreases activity of
+        source: DB:DB01266
+        target: InterPro:IPR001245
+    -   key: positively regulates
+        source: InterPro:IPR001245
+        target: GO:1900119
+    -   key: increases activity of
+        source: DB:DB01266
+        target: UniProt:P04637
+    -   key: positively regulates
+        source: UniProt:P04637
+        target: GO:1900119
+    -   key: increases activity of
+        source: DB:DB01266
+        target: UniProt:P06400
+    -   key: positively regulates
+        source: UniProt:P06400
+        target: GO:1900119
+    -   key: decreases activity of
+        source: DB:DB01266
+        target: InterPro:IPR000837
+    -   key: positively regulates
+        source: InterPro:IPR000837
+        target: GO:1900119
+    -   key: decreases activity of
+        source: DB:DB01266
+        target: InterPro:IPR003545
+    -   key: positively regulates
+        source: InterPro:IPR003545
+        target: GO:1900119
+    -   key: decreases activity of
+        source: DB:DB01266
+        target: UniProt:P03129
+    -   key: positively regulates
+        source: UniProt:P03129
+        target: GO:1900119
+    -   key: in taxon
+        source: GO:1900119
+        target: NCBITaxon:10566
+    -   key: causes
+        source: NCBITaxon:10566
+        target: MESH:D003218
+    multigraph: true
+    nodes:
+    -   id: DB:DB01266
+        label: Drug
+        name: Sinecatechins
+    -   id: UniProt:P19838
+        label: Protein
+        name: "Transcription factor NF-\u03BAB"
+    -   id: InterPro:IPR001245
+        label: GeneFamily
+        name: receptor tyrosine kinase
+    -   id: UniProt:P04637
+        label: Protein
+        name: tumor suppressor gene p53
+    -   id: InterPro:IPR000837
+        label: GeneFamily
+        name: Transcription factor Activator protein-1
+    -   id: InterPro:IPR003545
+        label: GeneFamily
+        name: telomerase
+    -   id: UniProt:P06400
+        label: Protein
+        name: tumor suppressor gene pRb
+    -   id: GO:1900119
+        label: BiologicalProcess
+        name: apoptosis
+    -   id: UniProt:P03129
+        label: Protein
+        name: HPV-E7 gene expression
+    -   id: NCBITaxon:10566
+        label: OrganismTaxon
+        name: Human papillomavirus
+    -   id: MESH:D003218
+        label: Disease
+        name: Condyloma acuminatum
+    reference: https://go.drugbank.com/drugs/DB01266#mechanismofaction https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4066610/
+        doi:10.4103/2589-0557.132415
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: Baricitinib
+        drug_mesh: MESH:C000596027
+        drugbank: DB:DB11817
+    links:
+    -   key: decreases activity of
+        source: MESH:C000596027
+        target: UniProt:P23458
+    -   key: decreases activity of
+        source: MESH:C000596027
+        target: UniProt:O60674
+    -   key: decreases activity of
+        source: MESH:C000596027
+        target: UniProt:P52333
+    -   key: decreases activity of
+        source: MESH:C000596027
+        target: UniProt:Q14289
+    -   key: positively regulates
+        source: UniProt:P23458
+        target: InterPro:IPR001217
+    -   key: positively regulates
+        source: UniProt:O60674
+        target: InterPro:IPR001217
+    -   key: positively regulates
+        source: UniProt:P52333
+        target: InterPro:IPR001217
+    -   key: positively regulates
+        source: UniProt:Q14289
+        target: InterPro:IPR001217
+    -   key: decreases abundance of
+        source: InterPro:IPR001217
+        target: MESH:D016207
+    -   key: prevents
+        source: MESH:D016207
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C000596027
+        label: Drug
+        name: Baricitinib
+    -   id: UniProt:P23458
+        label: Protein
+        name: Janus kinase 1
+    -   id: UniProt:O60674
+        label: Protein
+        name: Janus kinase 2
+    -   id: UniProt:P52333
+        label: Protein
+        name: Janus kinase 3
+    -   id: UniProt:Q14289
+        label: Protein
+        name: Tyrosine Kinase 2
+    -   id: InterPro:IPR001217
+        label: GeneFamily
+        name: signal transducers and activators of transcription (STATs)
+    -   id: MESH:D016207
+        label: ChemicalSubstance
+        name: inflammatory cytokines
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB11817#mechanismofaction
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Fimasartan
+        drug_mesh: MESH:C558933
+        drugbank: DB:DB09279
+    links:
+    -   key: increases activity of
+        source: MESH:C558933
+        target: InterPro:IPR001004
+    -   key: positively regulates
+        source: InterPro:IPR001004
+        target: GO:0048243
+    -   key: decreases activity of
+        source: MESH:C558933
+        target: UniProt:P30556
+    -   key: positively regulates
+        source: UniProt:P30556
+        target: GO:0048243
+    -   key: decreases activity of
+        source: GO:0048243
+        target: GO:0042310
+    -   key: decreases secretion of
+        source: MESH:C558933
+        target: MESH:D000450
+    -   key: increases response to
+        source: MESH:D000450
+        target: GO:0035819
+    -   key: decreases activity of
+        source: GO:0035819
+        target: HP:0011104
+    -   key: negatively regulates
+        source: GO:0042310
+        target: HP:0011104
+    -   key: negatively regulates
+        source: HP:0011104
+        target: GO:0045776
+    -   key: correlated with
+        source: GO:0045776
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:C558933
+        label: Drug
+        name: Fimasartan
+    -   id: InterPro:IPR001004
+        label: GeneFamily
+        name: "\u03B11-adrenergic receptors"
+    -   id: UniProt:P30556
+        label: Protein
+        name: Angiotensin II receptor type 1
+    -   id: GO:0048243
+        label: BiologicalProcess
+        name: noradrenaline release
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: vasoconstriction
+    -   id: MESH:D000450
+        label: ChemicalSubstance
+        name: aldosterone
+    -   id: GO:0035819
+        label: BiologicalProcess
+        name: natriuresis
+    -   id: HP:0011104
+        label: PhenotypicFeature
+        name: blood volume
+    -   id: GO:0045776
+        label: BiologicalProcess
+        name: blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB09279#mechanismofaction https://en.wikipedia.org/wiki/Fimasartan#:~:text=Fimasartan%20is%20a%20non%2Dpeptide,of%20hypertension%20and%20heart%20failure.
+-   directed: true
+    graph:
+        disease: Crohn's disease
+        disease_mesh: MESH:D003424
+        drug: Budesonide
+        drug_mesh: MESH:D019819
+        drugbank: DB:DB01222
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D019819
+        target: UniProt:P04150
+    -   key: negatively regulates
+        source: UniProt:P04150
+        target: REACT:R-HSA-177662
+    -   key: prevents
+        source: REACT:R-HSA-177662
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D019819
+        label: Drug
+        name: Budesonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: glucocorticoid receptor
+    -   id: REACT:R-HSA-177662
+        label: Pathway
+        name: NF-Kappa B pathway
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn's disease
+    reference: https://go.drugbank.com/drugs/DB01222#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Budesonide#section=Pharmacology
+        doi:10.1165/rcmb.2016-0068OC
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: Budesonide
+        drug_mesh: MESH:D019819
+        drugbank: DB:DB01222
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D019819
+        target: UniProt:P04150
+    -   key: negatively regulates
+        source: UniProt:P04150
+        target: REACT:R-HSA-177662
+    -   key: prevents
+        source: REACT:R-HSA-177662
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D019819
+        label: Drug
+        name: Budesonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: glucocorticoid receptor
+    -   id: REACT:R-HSA-177662
+        label: Pathway
+        name: NF-Kappa B pathway
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference: https://go.drugbank.com/drugs/DB01222#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Budesonide#section=Pharmacology
+        doi:10.1165/rcmb.2016-0068OC
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Budesonide
+        drug_mesh: MESH:D019819
+        drugbank: DB:DB01222
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D019819
+        target: UniProt:P04150
+    -   key: negatively regulates
+        source: UniProt:P04150
+        target: REACT:R-HSA-177662
+    -   key: prevents
+        source: REACT:R-HSA-177662
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D019819
+        label: Drug
+        name: Budesonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: glucocorticoid receptor
+    -   id: REACT:R-HSA-177662
+        label: Pathway
+        name: NF-Kappa B pathway
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB01222#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Budesonide#section=Pharmacology
+        doi:10.1165/rcmb.2016-0068OC
+-   directed: true
+    graph:
+        disease: Crohn's disease
+        disease_mesh: MESH:D003424
+        drug: Budesonide
+        drug_mesh: MESH:D019819
+        drugbank: DB:DB01222
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D019819
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: InterPro:IPR001211
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P22301
+    -   key: decreases activity of
+        source: UniProt:P22301
+        target: InterPro:IPR001211
+    -   key: prevents
+        source: InterPro:IPR001211
+        target: GO:0050482
+    -   key: negatively regulates
+        source: GO:0050482
+        target: GO:0019370
+    -   key: prevents
+        source: GO:0019370
+        target: GO:0006954
+    -   key: negatively regulates
+        source: GO:0050482
+        target: GO:0001516
+    -   key: prevents
+        source: GO:0001516
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D019819
+        label: Drug
+        name: Budesonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P22301
+        label: Protein
+        name: Interleukin 10
+    -   id: GO:0019370
+        label: Protein
+        name: leukotriene synthesis
+    -   id: InterPro:IPR001211
+        label: GeneFamily
+        name: phospholipase A2
+    -   id: GO:0050482
+        label: BiologicalProcess
+        name: arachidonic acid release
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn's disease
+    reference: https://go.drugbank.com/drugs/DB01222#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Budesonide#section=Pharmacology
+        doi:10.1165/rcmb.2016-0068OC
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: Budesonide
+        drug_mesh: MESH:D019819
+        drugbank: DB:DB01222
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D019819
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: InterPro:IPR001211
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P22301
+    -   key: decreases activity of
+        source: UniProt:P22301
+        target: InterPro:IPR001211
+    -   key: prevents
+        source: InterPro:IPR001211
+        target: GO:0050482
+    -   key: negatively regulates
+        source: GO:0050482
+        target: GO:0019370
+    -   key: prevents
+        source: GO:0019370
+        target: GO:0006954
+    -   key: negatively regulates
+        source: GO:0050482
+        target: GO:0001516
+    -   key: prevents
+        source: GO:0001516
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D019819
+        label: Drug
+        name: Budesonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P22301
+        label: Protein
+        name: Interleukin 10
+    -   id: GO:0019370
+        label: Protein
+        name: leukotriene synthesis
+    -   id: InterPro:IPR001211
+        label: GeneFamily
+        name: phospholipase A2
+    -   id: GO:0050482
+        label: BiologicalProcess
+        name: arachidonic acid release
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference: https://go.drugbank.com/drugs/DB01222#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Budesonide#section=Pharmacology
+        doi:10.1165/rcmb.2016-0068OC
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Budesonide
+        drug_mesh: MESH:D019819
+        drugbank: DB:DB01222
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D019819
+        target: UniProt:P04150
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: InterPro:IPR001211
+    -   key: increases abundance of
+        source: UniProt:P04150
+        target: UniProt:P22301
+    -   key: decreases activity of
+        source: UniProt:P22301
+        target: InterPro:IPR001211
+    -   key: prevents
+        source: InterPro:IPR001211
+        target: GO:0050482
+    -   key: negatively regulates
+        source: GO:0050482
+        target: GO:0019370
+    -   key: prevents
+        source: GO:0019370
+        target: GO:0006954
+    -   key: negatively regulates
+        source: GO:0050482
+        target: GO:0001516
+    -   key: prevents
+        source: GO:0001516
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D019819
+        label: Drug
+        name: Budesonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P22301
+        label: Protein
+        name: Interleukin 10
+    -   id: GO:0019370
+        label: Protein
+        name: leukotriene synthesis
+    -   id: InterPro:IPR001211
+        label: GeneFamily
+        name: phospholipase A2
+    -   id: GO:0050482
+        label: BiologicalProcess
+        name: arachidonic acid release
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB01222#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Budesonide#section=Pharmacology
+        doi:10.1165/rcmb.2016-0068OC
+-   directed: true
+    graph:
+        disease: Hypocalcemia
+        disease_mesh: MESH:D006996
+        drug: Calcium carbonate
+        drug_mesh: MESH:D002119
+        drugbank: DB:DB06724
+    links:
+    -   key: increases abundance of
+        source: MESH:D002119
+        target: MESH:D002118
+    -   key: contributes to
+        source: MESH:D002118
+        target: MESH:D006996
+    multigraph: true
+    nodes:
+    -   id: MESH:D002119
+        label: Drug
+        name: Calcium carbonate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: MESH:D006996
+        label: Disease
+        name: Hypocalcemia
+    reference: https://go.drugbank.com/drugs/DB06724#mechanismofaction
+-   directed: true
+    graph:
+        disease: Indigestion
+        disease_mesh: MESH:D004415
+        drug: Calcium carbonate
+        drug_mesh: MESH:D002119
+        drugbank: DB:DB06724
+    links:
+    -   key: decreases activity of
+        source: MESH:D002119
+        target: InterPro:IPR034162
+    -   key: prevents
+        source: InterPro:IPR034162
+        target: GO:0046717
+    -   key: decreases activity of
+        source: MESH:D002119
+        target: GO:0009268
+    -   key: prevents
+        source: GO:0009268
+        target: GO:0046717
+    -   key: decreases activity of
+        source: MESH:D002119
+        target: GO:0032310
+    -   key: prevents
+        source: GO:0032310
+        target: GO:0046717
+    -   key: decreases activity of
+        source: MESH:D002119
+        target: InterPro:IPR034162
+    -   key: prevents
+        source: InterPro:IPR034162
+        target: GO:0046717
+    -   key: causes
+        source: GO:0046717
+        target: MESH:D004415
+    multigraph: true
+    nodes:
+    -   id: MESH:D002119
+        label: Drug
+        name: Calcium carbonate
+    -   id: InterPro:IPR034162
+        label: GeneFamily
+        name: Pepsin
+    -   id: GO:0009268
+        label: BiologicalProcess
+        name: Response to pH
+    -   id: GO:0032310
+        label: BiologicalProcess
+        name: Prostaglandin secretion
+    -   id: GO:0046717
+        label: BiologicalProcess
+        name: Acid secretion
+    -   id: MESH:D004415
+        label: Disease
+        name: Indigestion
+    reference: https://go.drugbank.com/drugs/DB06724#mechanismofaction
+-   directed: true
+    graph:
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: increases activity of
+        source: MESH:C052018
+        target: UniProt:Q04707
+    -   key: negatively regulates
+        source: UniProt:Q04707
+        target: GO:0042546
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: negatively regulates
+        source: MESH:C052018
+        target: GO:0018104
+    -   key: contributes to
+        source: GO:0018104
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:1313
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: UniProt:Q04707
+        label: Protein
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Upper respiratory infection
+        disease_mesh: MESH:D012141
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: increases activity of
+        source: MESH:C052018
+        target: UniProt:P45299
+    -   key: negatively regulates
+        source: UniProt:P45299
+        target: GO:0042546
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: negatively regulates
+        source: MESH:C052018
+        target: GO:0018104
+    -   key: contributes to
+        source: GO:0018104
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:727
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:727
+    -   key: causes
+        source: NCBITaxon:727
+        target: MESH:D012141
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: UniProt:P45299
+        label: Protein
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:727
+        label: OrganismTaxon
+        name: Haemophilus influenzae
+    -   id: MESH:D012141
+        label: Disease
+        name: Upper respiratory infection
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR001460
+    -   key: negatively regulates
+        source: InterPro:IPR001460
+        target: GO:0042546
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: negatively regulates
+        source: MESH:C052018
+        target: GO:0018104
+    -   key: contributes to
+        source: GO:0018104
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:1314
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Tonsillitis
+        disease_mesh: MESH:D014069
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR001460
+    -   key: negatively regulates
+        source: InterPro:IPR001460
+        target: GO:0042546
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: negatively regulates
+        source: MESH:C052018
+        target: GO:0018104
+    -   key: contributes to
+        source: GO:0018104
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:1314
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D014069
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D014069
+        label: Disease
+        name: Tonsillitis
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: increases activity of
+        source: MESH:C052018
+        target: UniProt:Q53613
+    -   key: negatively regulates
+        source: UniProt:Q53613
+        target: GO:0042546
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: negatively regulates
+        source: MESH:C052018
+        target: GO:0018104
+    -   key: contributes to
+        source: GO:0018104
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:1280
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: UniProt:Q53613
+        label: Protein
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: Citalopram
+        drug_mesh: MESH:D015283
+        drugbank: DB:DB00215
+    links:
+    -   key: decreases activity of
+        source: MESH:D015283
+        target: UniProt:P31645
+    -   key: negatively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: located in
+        source: GO:0051610
+        target: GO:0043083
+    -   key: correlated with
+        source: GO:0043083
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D015283
+        label: Drug
+        name: Citalopram
+    -   id: UniProt:P31645
+        label: Protein
+        name: Solute carrier family 6 member 4, SLC6A4
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: GO:0043083
+        label: CellularComponent
+        name: Synaptic cleft
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00215#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Citalopram#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: Citalopram
+        drug_mesh: MESH:D015283
+        drugbank: DB:DB00215
+    links:
+    -   key: decreases activity of
+        source: MESH:D015283
+        target: UniProt:P31645
+    -   key: negatively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: located in
+        source: GO:0051610
+        target: GO:0043083
+    -   key: correlated with
+        source: GO:0043083
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D015283
+        label: Drug
+        name: Citalopram
+    -   id: UniProt:P31645
+        label: Protein
+        name: Solute carrier family 6 member 4, SLC6A4
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: GO:0043083
+        label: CellularComponent
+        name: Synaptic cleft
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00215#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Citalopram#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Nisoldipine
+        drug_mesh: MESH:D015737
+        drugbank: DB:DB00401
+    links:
+    -   key: decreases activity of
+        source: MESH:D015737
+        target: InterPro:IPR031649
+    -   key: decreases abundance of
+        source: InterPro:IPR031649
+        target: MESH:D002118
+    -   key: negatively regulates
+        source: MESH:D002118
+        target: GO:0006939
+    -   key: precedes
+        source: GO:0006939
+        target: GO:0042311
+    -   key: prevents
+        source: GO:0042311
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D015737
+        label: Drug
+        name: Nisoldipine
+    -   id: InterPro:IPR031649
+        label: GeneFamily
+        name: L-type calcium channels
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB00401#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Nisoldipine#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Schizoaffective disorder
+        disease_mesh: MESH:D011618
+        drug: Paliperidone
+        drug_mesh: null
+        drugbank: DB:DB01267
+    links:
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P35348
+    -   key: positively regulates
+        source: UniProt:P35348
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P28223
+    -   key: positively regulates
+        source: UniProt:P28223
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: UniProt:P14416
+        target: REACT:R-HSA-162582
+    -   key: correlated with
+        source: REACT:R-HSA-162582
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: DB:DB01267
+        label: Drug
+        name: Paliperidone
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha 1 adrenergic receptor
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha 2 adrenergic receptor
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: REACT:R-HSA-162582
+        label: Pathway
+        name: Signal transduction
+    -   id: MESH:D011618
+        label: Disease
+        name: Schizoaffective disorder
+    reference: https://go.drugbank.com/drugs/DB01267#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Paliperidone
