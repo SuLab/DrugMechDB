@@ -5,12 +5,13 @@ import pandas as pd
 import networkx as nx
 from itertools import chain
 from collections import defaultdict
+from yaml.scanner import ScannerError
 
 # Multiple imports depending on if command line or import from script
 try:
-    from test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
+    from pathtester import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
 except ModuleNotFoundError:
-    from utils.test_indications import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
+    from utils.pathtester import PathTester, ALLOWED_CURIS, BL_NODES, BL_PREDS
 
 # Define some globals for use in this script
 bl_map = pd.read_csv('utils/dmdb_to_bl_map.csv')
@@ -407,20 +408,24 @@ def test_and_fix(indications):
        print('Build Successful')
        return indications
 
-
-def run_tests_fix_and_write(inname='indication_paths.yaml', outname='test_out.yaml'):
+def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'):
 
     try:
-        indications = nx.read_yaml(inname)
-    except:
+        submission = nx.read_yaml(inname)
+    except ScannerError as se:
         print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
-        return
+        print(se)
+        sys.exit(125)
 
-    indications = test_and_fix(indications)
-    if indications is not None:
-        nx.write_yaml(indications, outname, indent=4)
+    submission = test_and_fix(submission)
+    if submission is not None:
+        indications = nx.read_yaml('indication_paths.yaml')
+        out = indications + submission
+        nx.write_yaml(out, outname, indent=4)
+    else:
+        sys.exit(125)
 
 
 if __name__ == '__main__':
-    run_tests_fix_and_write()
+    add_new_submission()
 
