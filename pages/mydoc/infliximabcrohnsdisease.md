@@ -5,7 +5,7 @@ permalink: infliximabcrohnsdisease.html
 toc: false 
 ---
 
-{% include image.html file="infliximabcrohnsdisease.png" alt="infliximabcrohnsdisease" %}![Path Visualization](/images/infliximabcrohnsdisease.png)
+{% include image.html file="infliximabcrohnsdisease.png" alt="infliximabcrohnsdisease" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Crohn'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB00065#mechanism-of-action){:target="_blank"}

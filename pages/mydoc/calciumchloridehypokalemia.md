@@ -5,7 +5,7 @@ permalink: calciumchloridehypokalemia.html
 toc: false 
 ---
 
-{% include image.html file="calciumchloridehypokalemia.png" alt="calciumchloridehypokalemia" %}![Path Visualization](/images/calciumchloridehypokalemia.png)
+{% include image.html file="calciumchloridehypokalemia.png" alt="calciumchloridehypokalemia" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Calcium Chloride | TREATS | Hypokalemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB01164#mechanism-of-action){:target="_blank"}

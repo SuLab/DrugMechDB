@@ -5,7 +5,7 @@ permalink: lopinavirhumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="lopinavirhumanimmunodeficiencyvirusinfection.png" alt="lopinavirhumanimmunodeficiencyvirusinfection" %}![Path Visualization](/images/lopinavirhumanimmunodeficiencyvirusinfection.png)
+{% include image.html file="lopinavirhumanimmunodeficiencyvirusinfection.png" alt="lopinavirhumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Human Immunodeficiency Virus 1 | CAUSES | Human Immunodeficiency Virus Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01601#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01601#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01601#mechanism-of-action](https://go.drugbank.com/drugs/DB01601#mechanism-of-action){:target="_blank"}

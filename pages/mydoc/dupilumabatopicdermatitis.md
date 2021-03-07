@@ -5,7 +5,7 @@ permalink: dupilumabatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="dupilumabatopicdermatitis.png" alt="dupilumabatopicdermatitis" %}![Path Visualization](/images/dupilumabatopicdermatitis.png)
+{% include image.html file="dupilumabatopicdermatitis.png" alt="dupilumabatopicdermatitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Type 2 Immune Response | CONTRIBUTES TO | Atopic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12159#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12159#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12159#mechanism-of-action](https://go.drugbank.com/drugs/DB12159#mechanism-of-action){:target="_blank"}

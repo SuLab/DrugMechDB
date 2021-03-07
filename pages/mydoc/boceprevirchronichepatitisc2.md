@@ -5,7 +5,7 @@ permalink: boceprevirchronichepatitisc2.html
 toc: false 
 ---
 
-{% include image.html file="boceprevirchronichepatitisc2.png" alt="boceprevirchronichepatitisc2" %}![Path Visualization](/images/boceprevirchronichepatitisc2.png)
+{% include image.html file="boceprevirchronichepatitisc2.png" alt="boceprevirchronichepatitisc2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Hcv | TREATS | Chronic Hepatitis C |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08873#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08873#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08873#mechanism-of-action](https://go.drugbank.com/drugs/DB08873#mechanism-of-action){:target="_blank"}

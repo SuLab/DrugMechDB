@@ -5,7 +5,7 @@ permalink: polymyxinbotitisexterna.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinbotitisexterna.png" alt="polymyxinbotitisexterna" %}![Path Visualization](/images/polymyxinbotitisexterna.png)
+{% include image.html file="polymyxinbotitisexterna.png" alt="polymyxinbotitisexterna" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Bacteria | CAUSES | Otitis Externa |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB00781#mechanism-of-action){:target="_blank"}

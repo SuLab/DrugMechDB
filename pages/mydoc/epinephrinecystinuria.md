@@ -5,7 +5,7 @@ permalink: epinephrinecystinuria.html
 toc: false 
 ---
 
-{% include image.html file="epinephrinecystinuria.png" alt="epinephrinecystinuria" %}![Path Visualization](/images/epinephrinecystinuria.png)
+{% include image.html file="epinephrinecystinuria.png" alt="epinephrinecystinuria" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Cystine Crystalluria | POSITIVELY CORRELATED WITH | Cystinuria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06823#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06823#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06823#mechanism-of-action](https://go.drugbank.com/drugs/DB06823#mechanism-of-action){:target="_blank"}

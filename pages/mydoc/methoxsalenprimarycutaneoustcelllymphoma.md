@@ -5,7 +5,7 @@ permalink: methoxsalenprimarycutaneoustcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="methoxsalenprimarycutaneoustcelllymphoma.png" alt="methoxsalenprimarycutaneoustcelllymphoma" %}![Path Visualization](/images/methoxsalenprimarycutaneoustcelllymphoma.png)
+{% include image.html file="methoxsalenprimarycutaneoustcelllymphoma.png" alt="methoxsalenprimarycutaneoustcelllymphoma" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cell Population Proliferation | CAUSES | Primary Cutaneous T-Cell Lymphoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00553#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00553#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00553#mechanism-of-action](https://go.drugbank.com/drugs/DB00553#mechanism-of-action){:target="_blank"}

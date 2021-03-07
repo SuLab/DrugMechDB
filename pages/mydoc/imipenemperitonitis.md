@@ -5,7 +5,7 @@ permalink: imipenemperitonitis.html
 toc: false 
 ---
 
-{% include image.html file="imipenemperitonitis.png" alt="imipenemperitonitis" %}![Path Visualization](/images/imipenemperitonitis.png)
+{% include image.html file="imipenemperitonitis.png" alt="imipenemperitonitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Escherichia Coli | CAUSES | Peritonitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01598#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01598#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01598#mechanism-of-action](https://go.drugbank.com/drugs/DB01598#mechanism-of-action){:target="_blank"}

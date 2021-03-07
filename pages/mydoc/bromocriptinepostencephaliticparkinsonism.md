@@ -5,7 +5,7 @@ permalink: bromocriptinepostencephaliticparkinsonism.html
 toc: false 
 ---
 
-{% include image.html file="bromocriptinepostencephaliticparkinsonism.png" alt="bromocriptinepostencephaliticparkinsonism" %}![Path Visualization](/images/bromocriptinepostencephaliticparkinsonism.png)
+{% include image.html file="bromocriptinepostencephaliticparkinsonism.png" alt="bromocriptinepostencephaliticparkinsonism" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Nigrostriatal Tract | AFFECTED BY | Postencephalitic Parkinsonism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB01200#mechanism-of-action){:target="_blank"}

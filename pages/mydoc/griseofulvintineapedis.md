@@ -5,7 +5,7 @@ permalink: griseofulvintineapedis.html
 toc: false 
 ---
 
-{% include image.html file="griseofulvintineapedis.png" alt="griseofulvintineapedis" %}![Path Visualization](/images/griseofulvintineapedis.png)
+{% include image.html file="griseofulvintineapedis.png" alt="griseofulvintineapedis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Fungi | CAUSES | Tinea Pedis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00400#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00400#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00400#mechanism-of-action](https://go.drugbank.com/drugs/DB00400#mechanism-of-action){:target="_blank"}

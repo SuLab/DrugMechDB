@@ -5,7 +5,7 @@ permalink: carbenoxolonepepticulcer.html
 toc: false 
 ---
 
-{% include image.html file="carbenoxolonepepticulcer.png" alt="carbenoxolonepepticulcer" %}![Path Visualization](/images/carbenoxolonepepticulcer.png)
+{% include image.html file="carbenoxolonepepticulcer.png" alt="carbenoxolonepepticulcer" %}
 
 ## Concepts
 
@@ -43,4 +43,4 @@ toc: false
 | Gastric Acid Secretion | POSITIVELY CORRELATED WITH | Peptic Ulcer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB02329#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB02329#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB02329#mechanism-of-action](https://go.drugbank.com/drugs/DB02329#mechanism-of-action){:target="_blank"}

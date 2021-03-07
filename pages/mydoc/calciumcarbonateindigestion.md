@@ -5,7 +5,7 @@ permalink: calciumcarbonateindigestion.html
 toc: false 
 ---
 
-{% include image.html file="calciumcarbonateindigestion.png" alt="calciumcarbonateindigestion" %}![Path Visualization](/images/calciumcarbonateindigestion.png)
+{% include image.html file="calciumcarbonateindigestion.png" alt="calciumcarbonateindigestion" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Acid Secretion | CAUSES | Indigestion |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06724#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06724#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06724#mechanism-of-action](https://go.drugbank.com/drugs/DB06724#mechanism-of-action){:target="_blank"}

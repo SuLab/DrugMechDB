@@ -5,7 +5,7 @@ permalink: amfetamineattentiondeficithyperactivitydisorder2.html
 toc: false 
 ---
 
-{% include image.html file="amfetamineattentiondeficithyperactivitydisorder2.png" alt="amfetamineattentiondeficithyperactivitydisorder2" %}![Path Visualization](/images/amfetamineattentiondeficithyperactivitydisorder2.png)
+{% include image.html file="amfetamineattentiondeficithyperactivitydisorder2.png" alt="amfetamineattentiondeficithyperactivitydisorder2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Neurotransmitters | REGULATES | Attention Deficit Hyperactivity Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB00182#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: dapsonedermatitisherpetiformis.html
 toc: false 
 ---
 
-{% include image.html file="dapsonedermatitisherpetiformis.png" alt="dapsonedermatitisherpetiformis" %}![Path Visualization](/images/dapsonedermatitisherpetiformis.png)
+{% include image.html file="dapsonedermatitisherpetiformis.png" alt="dapsonedermatitisherpetiformis" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Dermatitis Herpetiformis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00250#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00250#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00250#mechanism-of-action](https://go.drugbank.com/drugs/DB00250#mechanism-of-action){:target="_blank"}

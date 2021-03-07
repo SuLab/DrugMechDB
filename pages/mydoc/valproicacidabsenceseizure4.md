@@ -5,7 +5,7 @@ permalink: valproicacidabsenceseizure4.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidabsenceseizure4.png" alt="valproicacidabsenceseizure4" %}![Path Visualization](/images/valproicacidabsenceseizure4.png)
+{% include image.html file="valproicacidabsenceseizure4.png" alt="valproicacidabsenceseizure4" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Brain-Derived Neurotrophic Factor (Bdnf) | PREVENTS | Absence Seizure |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

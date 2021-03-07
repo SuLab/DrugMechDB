@@ -5,7 +5,7 @@ permalink: levobunololocularhypertension.html
 toc: false 
 ---
 
-{% include image.html file="levobunololocularhypertension.png" alt="levobunololocularhypertension" %}![Path Visualization](/images/levobunololocularhypertension.png)
+{% include image.html file="levobunololocularhypertension.png" alt="levobunololocularhypertension" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Intraocular Pressure | CORRELATED WITH | Ocular Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01210#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01210#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01210#mechanism-of-action](https://go.drugbank.com/drugs/DB01210#mechanism-of-action){:target="_blank"}

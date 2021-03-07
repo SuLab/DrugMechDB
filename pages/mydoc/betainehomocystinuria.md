@@ -5,7 +5,7 @@ permalink: betainehomocystinuria.html
 toc: false 
 ---
 
-{% include image.html file="betainehomocystinuria.png" alt="betainehomocystinuria" %}![Path Visualization](/images/betainehomocystinuria.png)
+{% include image.html file="betainehomocystinuria.png" alt="betainehomocystinuria" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Homocysteine | POSITIVELY CORRELATED WITH | Homocystinuria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06756#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06756#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06756#mechanism-of-action](https://go.drugbank.com/drugs/DB06756#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: paliperidoneschizoaffectivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="paliperidoneschizoaffectivedisorder.png" alt="paliperidoneschizoaffectivedisorder" %}![Path Visualization](/images/paliperidoneschizoaffectivedisorder.png)
+{% include image.html file="paliperidoneschizoaffectivedisorder.png" alt="paliperidoneschizoaffectivedisorder" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Signal Transduction | CORRELATED WITH | Schizoaffective Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01267#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01267#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01267#mechanism-of-action](https://go.drugbank.com/drugs/DB01267#mechanism-of-action){:target="_blank"}

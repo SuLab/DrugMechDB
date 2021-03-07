@@ -5,7 +5,7 @@ permalink: bismuthsubsalicylatediarrhea2.html
 toc: false 
 ---
 
-{% include image.html file="bismuthsubsalicylatediarrhea2.png" alt="bismuthsubsalicylatediarrhea2" %}![Path Visualization](/images/bismuthsubsalicylatediarrhea2.png)
+{% include image.html file="bismuthsubsalicylatediarrhea2.png" alt="bismuthsubsalicylatediarrhea2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Intestine | TREATS | Diarrhea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01294#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01294#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01294#mechanism-of-action](https://go.drugbank.com/drugs/DB01294#mechanism-of-action){:target="_blank"}

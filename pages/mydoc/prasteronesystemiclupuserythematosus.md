@@ -5,7 +5,7 @@ permalink: prasteronesystemiclupuserythematosus.html
 toc: false 
 ---
 
-{% include image.html file="prasteronesystemiclupuserythematosus.png" alt="prasteronesystemiclupuserythematosus" %}![Path Visualization](/images/prasteronesystemiclupuserythematosus.png)
+{% include image.html file="prasteronesystemiclupuserythematosus.png" alt="prasteronesystemiclupuserythematosus" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Prasterone | TREATS | Systemic Lupus Erythematosus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01708#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01708#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01708#mechanism-of-action](https://go.drugbank.com/drugs/DB01708#mechanism-of-action){:target="_blank"}

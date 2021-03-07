@@ -5,7 +5,7 @@ permalink: asfotasealfahypophosphatasia.html
 toc: false 
 ---
 
-{% include image.html file="asfotasealfahypophosphatasia.png" alt="asfotasealfahypophosphatasia" %}![Path Visualization](/images/asfotasealfahypophosphatasia.png)
+{% include image.html file="asfotasealfahypophosphatasia.png" alt="asfotasealfahypophosphatasia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Reduced Bone Mineral Density | MANIFESTATION OF | Hypophosphatasia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09105#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09105#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09105#mechanism-of-action](https://go.drugbank.com/drugs/DB09105#mechanism-of-action){:target="_blank"}

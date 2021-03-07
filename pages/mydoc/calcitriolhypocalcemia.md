@@ -5,7 +5,7 @@ permalink: calcitriolhypocalcemia.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolhypocalcemia.png" alt="calcitriolhypocalcemia" %}![Path Visualization](/images/calcitriolhypocalcemia.png)
+{% include image.html file="calcitriolhypocalcemia.png" alt="calcitriolhypocalcemia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Calcium Ion Homeostasis | NEGATIVELY CORRELATED WITH | Hypocalcemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB00136#mechanism-of-action){:target="_blank"}

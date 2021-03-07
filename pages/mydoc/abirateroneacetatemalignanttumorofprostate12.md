@@ -5,7 +5,7 @@ permalink: abirateroneacetatemalignanttumorofprostate12.html
 toc: false 
 ---
 
-{% include image.html file="abirateroneacetatemalignanttumorofprostate12.png" alt="abirateroneacetatemalignanttumorofprostate12" %}![Path Visualization](/images/abirateroneacetatemalignanttumorofprostate12.png)
+{% include image.html file="abirateroneacetatemalignanttumorofprostate12.png" alt="abirateroneacetatemalignanttumorofprostate12" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | 17Β-Hydroxy-5Α-Androstan-3-One | POSITIVELY CORRELATED WITH | Malignant Tumor Of Prostate |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05812#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05812#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05812#mechanism-of-action](https://go.drugbank.com/drugs/DB05812#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: vasopressinfactorviiideficiencyhaemophiliaa.html
 toc: false 
 ---
 
-{% include image.html file="vasopressinfactorviiideficiencyhaemophiliaa.png" alt="vasopressinfactorviiideficiencyhaemophiliaa" %}![Path Visualization](/images/vasopressinfactorviiideficiencyhaemophiliaa.png)
+{% include image.html file="vasopressinfactorviiideficiencyhaemophiliaa.png" alt="vasopressinfactorviiideficiencyhaemophiliaa" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Coagulation Factor Viii | DISRUPTED BY | Hereditary Factor Viii Deficiency Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00067#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00067#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00067#mechanism-of-action](https://go.drugbank.com/drugs/DB00067#mechanism-of-action){:target="_blank"}

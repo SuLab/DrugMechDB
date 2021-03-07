@@ -5,7 +5,7 @@ permalink: hydrochlorothiazideedema.html
 toc: false 
 ---
 
-{% include image.html file="hydrochlorothiazideedema.png" alt="hydrochlorothiazideedema" %}![Path Visualization](/images/hydrochlorothiazideedema.png)
+{% include image.html file="hydrochlorothiazideedema.png" alt="hydrochlorothiazideedema" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Renal Water Retention | CONTRIBUTES TO | Edema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00999#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00999#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00999#mechanism-of-action](https://go.drugbank.com/drugs/DB00999#mechanism-of-action){:target="_blank"}

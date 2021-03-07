@@ -5,7 +5,7 @@ permalink: epinephrinelowbloodpressure.html
 toc: false 
 ---
 
-{% include image.html file="epinephrinelowbloodpressure.png" alt="epinephrinelowbloodpressure" %}![Path Visualization](/images/epinephrinelowbloodpressure.png)
+{% include image.html file="epinephrinelowbloodpressure.png" alt="epinephrinelowbloodpressure" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Increased Cardiac Output | POSITIVELY CORRELATED WITH | Low Blood Pressure |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB00668#mechanism-of-action){:target="_blank"}

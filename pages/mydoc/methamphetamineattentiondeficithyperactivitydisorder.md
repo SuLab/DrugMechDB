@@ -5,7 +5,7 @@ permalink: methamphetamineattentiondeficithyperactivitydisorder.html
 toc: false 
 ---
 
-{% include image.html file="methamphetamineattentiondeficithyperactivitydisorder.png" alt="methamphetamineattentiondeficithyperactivitydisorder" %}![Path Visualization](/images/methamphetamineattentiondeficithyperactivitydisorder.png)
+{% include image.html file="methamphetamineattentiondeficithyperactivitydisorder.png" alt="methamphetamineattentiondeficithyperactivitydisorder" %}
 
 ## Concepts
 
@@ -49,4 +49,4 @@ toc: false
 | Dopamine Secretion, Neurotransmission | DISRUPTED BY | Attention Deficit Hyperactivity Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01577#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01577#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01577#mechanism-of-action](https://go.drugbank.com/drugs/DB01577#mechanism-of-action){:target="_blank"}

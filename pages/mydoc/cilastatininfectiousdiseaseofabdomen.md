@@ -5,7 +5,7 @@ permalink: cilastatininfectiousdiseaseofabdomen.html
 toc: false 
 ---
 
-{% include image.html file="cilastatininfectiousdiseaseofabdomen.png" alt="cilastatininfectiousdiseaseofabdomen" %}![Path Visualization](/images/cilastatininfectiousdiseaseofabdomen.png)
+{% include image.html file="cilastatininfectiousdiseaseofabdomen.png" alt="cilastatininfectiousdiseaseofabdomen" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacteria | CAUSES | Infectious Disease Of Abdomen |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB01597#mechanism-of-action){:target="_blank"}

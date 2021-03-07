@@ -5,7 +5,7 @@ permalink: neomycinuveitis2.html
 toc: false 
 ---
 
-{% include image.html file="neomycinuveitis2.png" alt="neomycinuveitis2" %}![Path Visualization](/images/neomycinuveitis2.png)
+{% include image.html file="neomycinuveitis2.png" alt="neomycinuveitis2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Escherichia Coli | CAUSES | Uveitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB00994#mechanism-of-action){:target="_blank"}

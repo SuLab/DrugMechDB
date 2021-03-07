@@ -5,7 +5,7 @@ permalink: triflupromazinevomiting3.html
 toc: false 
 ---
 
-{% include image.html file="triflupromazinevomiting3.png" alt="triflupromazinevomiting3" %}![Path Visualization](/images/triflupromazinevomiting3.png)
+{% include image.html file="triflupromazinevomiting3.png" alt="triflupromazinevomiting3" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Gastric Acid Secretion | CORRELATED WITH | Vomitting |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB00508#mechanism-of-action){:target="_blank"}

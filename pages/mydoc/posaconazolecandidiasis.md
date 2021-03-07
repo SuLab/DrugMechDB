@@ -5,7 +5,7 @@ permalink: posaconazolecandidiasis.html
 toc: false 
 ---
 
-{% include image.html file="posaconazolecandidiasis.png" alt="posaconazolecandidiasis" %}![Path Visualization](/images/posaconazolecandidiasis.png)
+{% include image.html file="posaconazolecandidiasis.png" alt="posaconazolecandidiasis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Candida | CAUSES | Candidiasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB01263#mechanism-of-action){:target="_blank"}

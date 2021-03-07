@@ -5,7 +5,7 @@ permalink: ipratropiumpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumpulmonaryemphysema.png" alt="ipratropiumpulmonaryemphysema" %}![Path Visualization](/images/ipratropiumpulmonaryemphysema.png)
+{% include image.html file="ipratropiumpulmonaryemphysema.png" alt="ipratropiumpulmonaryemphysema" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Pulmonary Emphysema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB00332#mechanism-of-action){:target="_blank"}

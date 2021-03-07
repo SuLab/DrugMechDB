@@ -5,7 +5,7 @@ permalink: ceftazidimebacterialurinaryinfection.html
 toc: false 
 ---
 
-{% include image.html file="ceftazidimebacterialurinaryinfection.png" alt="ceftazidimebacterialurinaryinfection" %}![Path Visualization](/images/ceftazidimebacterialurinaryinfection.png)
+{% include image.html file="ceftazidimebacterialurinaryinfection.png" alt="ceftazidimebacterialurinaryinfection" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Escherichia Coli | CAUSES | Bacterial Urinary Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00438#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00438#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00438#mechanism-of-action](https://go.drugbank.com/drugs/DB00438#mechanism-of-action){:target="_blank"}

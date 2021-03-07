@@ -5,7 +5,7 @@ permalink: ribavirinrespiratorysyncytialvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="ribavirinrespiratorysyncytialvirusinfection.png" alt="ribavirinrespiratorysyncytialvirusinfection" %}![Path Visualization](/images/ribavirinrespiratorysyncytialvirusinfection.png)
+{% include image.html file="ribavirinrespiratorysyncytialvirusinfection.png" alt="ribavirinrespiratorysyncytialvirusinfection" %}
 
 ## Concepts
 
@@ -44,4 +44,4 @@ toc: false
 | Respiratory Syncytial Virus | CAUSES | Respiratory Syncytial Virus Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00811#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00811#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00811#mechanism-of-action](https://go.drugbank.com/drugs/DB00811#mechanism-of-action){:target="_blank"}

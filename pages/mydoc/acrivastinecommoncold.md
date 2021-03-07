@@ -5,7 +5,7 @@ permalink: acrivastinecommoncold.html
 toc: false 
 ---
 
-{% include image.html file="acrivastinecommoncold.png" alt="acrivastinecommoncold" %}![Path Visualization](/images/acrivastinecommoncold.png)
+{% include image.html file="acrivastinecommoncold.png" alt="acrivastinecommoncold" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Viruses | CAUSES | Common Cold |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB09488#mechanism-of-action){:target="_blank"}

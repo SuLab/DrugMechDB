@@ -5,7 +5,7 @@ permalink: oxaprozinjuvenilerheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="oxaprozinjuvenilerheumatoidarthritis.png" alt="oxaprozinjuvenilerheumatoidarthritis" %}![Path Visualization](/images/oxaprozinjuvenilerheumatoidarthritis.png)
+{% include image.html file="oxaprozinjuvenilerheumatoidarthritis.png" alt="oxaprozinjuvenilerheumatoidarthritis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pain | MANIFESTATION OF | Juvenile Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00991#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00991#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00991#mechanism-of-action](https://go.drugbank.com/drugs/DB00991#mechanism-of-action){:target="_blank"}

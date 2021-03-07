@@ -5,7 +5,7 @@ permalink: atomoxetineattentiondeficithyperactivitydisorder.html
 toc: false 
 ---
 
-{% include image.html file="atomoxetineattentiondeficithyperactivitydisorder.png" alt="atomoxetineattentiondeficithyperactivitydisorder" %}![Path Visualization](/images/atomoxetineattentiondeficithyperactivitydisorder.png)
+{% include image.html file="atomoxetineattentiondeficithyperactivitydisorder.png" alt="atomoxetineattentiondeficithyperactivitydisorder" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Norepinephrine Secretion, Neurotransmission | DISRUPTED BY | Attention Deficit Hyperactivity Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00289#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00289#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00289#mechanism-of-action](https://go.drugbank.com/drugs/DB00289#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: itraconazolefusariuminfection.html
 toc: false 
 ---
 
-{% include image.html file="itraconazolefusariuminfection.png" alt="itraconazolefusariuminfection" %}![Path Visualization](/images/itraconazolefusariuminfection.png)
+{% include image.html file="itraconazolefusariuminfection.png" alt="itraconazolefusariuminfection" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Fusarium | CAUSES | Fusarium Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB01167#mechanism-of-action){:target="_blank"}

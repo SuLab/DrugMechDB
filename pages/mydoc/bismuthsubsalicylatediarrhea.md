@@ -5,7 +5,7 @@ permalink: bismuthsubsalicylatediarrhea.html
 toc: false 
 ---
 
-{% include image.html file="bismuthsubsalicylatediarrhea.png" alt="bismuthsubsalicylatediarrhea" %}![Path Visualization](/images/bismuthsubsalicylatediarrhea.png)
+{% include image.html file="bismuthsubsalicylatediarrhea.png" alt="bismuthsubsalicylatediarrhea" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Intestine | PREVENTS | Diarrhea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01294#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01294#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01294#mechanism-of-action](https://go.drugbank.com/drugs/DB01294#mechanism-of-action){:target="_blank"}

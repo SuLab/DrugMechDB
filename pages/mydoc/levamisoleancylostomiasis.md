@@ -5,7 +5,7 @@ permalink: levamisoleancylostomiasis.html
 toc: false 
 ---
 
-{% include image.html file="levamisoleancylostomiasis.png" alt="levamisoleancylostomiasis" %}![Path Visualization](/images/levamisoleancylostomiasis.png)
+{% include image.html file="levamisoleancylostomiasis.png" alt="levamisoleancylostomiasis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Ancylostoma Duodenale | CAUSES | Ancylostomiasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00848#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00848#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00848#mechanism-of-action](https://go.drugbank.com/drugs/DB00848#mechanism-of-action){:target="_blank"}

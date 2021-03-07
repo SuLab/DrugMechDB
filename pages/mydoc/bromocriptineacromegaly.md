@@ -5,7 +5,7 @@ permalink: bromocriptineacromegaly.html
 toc: false 
 ---
 
-{% include image.html file="bromocriptineacromegaly.png" alt="bromocriptineacromegaly" %}![Path Visualization](/images/bromocriptineacromegaly.png)
+{% include image.html file="bromocriptineacromegaly.png" alt="bromocriptineacromegaly" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pituitary Neoplasms | CAUSES | Acromegaly |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB01200#mechanism-of-action){:target="_blank"}

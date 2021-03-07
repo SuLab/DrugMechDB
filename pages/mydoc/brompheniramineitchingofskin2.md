@@ -5,7 +5,7 @@ permalink: brompheniramineitchingofskin2.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineitchingofskin2.png" alt="brompheniramineitchingofskin2" %}![Path Visualization](/images/brompheniramineitchingofskin2.png)
+{% include image.html file="brompheniramineitchingofskin2.png" alt="brompheniramineitchingofskin2" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Myo-Inositol-1-Phophate Synthetase | TREATS | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

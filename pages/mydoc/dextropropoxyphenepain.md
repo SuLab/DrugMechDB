@@ -5,7 +5,7 @@ permalink: dextropropoxyphenepain.html
 toc: false 
 ---
 
-{% include image.html file="dextropropoxyphenepain.png" alt="dextropropoxyphenepain" %}![Path Visualization](/images/dextropropoxyphenepain.png)
+{% include image.html file="dextropropoxyphenepain.png" alt="dextropropoxyphenepain" %}
 
 ## Concepts
 
@@ -51,4 +51,4 @@ toc: false
 | Nociceptor | POSITIVELY CORRELATED WITH | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00647#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00647#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00647#mechanism-of-action](https://go.drugbank.com/drugs/DB00647#mechanism-of-action){:target="_blank"}

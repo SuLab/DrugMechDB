@@ -5,7 +5,7 @@ permalink: medrysoneiritis.html
 toc: false 
 ---
 
-{% include image.html file="medrysoneiritis.png" alt="medrysoneiritis" %}![Path Visualization](/images/medrysoneiritis.png)
+{% include image.html file="medrysoneiritis.png" alt="medrysoneiritis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Inflammatory Response | CAUSES | Iritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB00253#mechanism-of-action){:target="_blank"}

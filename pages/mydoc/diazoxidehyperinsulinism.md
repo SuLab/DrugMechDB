@@ -5,7 +5,7 @@ permalink: diazoxidehyperinsulinism.html
 toc: false 
 ---
 
-{% include image.html file="diazoxidehyperinsulinism.png" alt="diazoxidehyperinsulinism" %}![Path Visualization](/images/diazoxidehyperinsulinism.png)
+{% include image.html file="diazoxidehyperinsulinism.png" alt="diazoxidehyperinsulinism" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Insulin Secretion | CONTRIBUTES TO | Hyperinsulinism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01119#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01119#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01119#mechanism-of-action](https://go.drugbank.com/drugs/DB01119#mechanism-of-action){:target="_blank"}

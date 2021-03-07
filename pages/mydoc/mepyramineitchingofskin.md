@@ -5,7 +5,7 @@ permalink: mepyramineitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="mepyramineitchingofskin.png" alt="mepyramineitchingofskin" %}![Path Visualization](/images/mepyramineitchingofskin.png)
+{% include image.html file="mepyramineitchingofskin.png" alt="mepyramineitchingofskin" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Sensory Receptor Cell | CONTRIBUTES TO | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB06691#mechanism-of-action){:target="_blank"}

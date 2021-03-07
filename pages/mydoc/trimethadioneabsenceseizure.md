@@ -5,7 +5,7 @@ permalink: trimethadioneabsenceseizure.html
 toc: false 
 ---
 
-{% include image.html file="trimethadioneabsenceseizure.png" alt="trimethadioneabsenceseizure" %}![Path Visualization](/images/trimethadioneabsenceseizure.png)
+{% include image.html file="trimethadioneabsenceseizure.png" alt="trimethadioneabsenceseizure" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Corticothalamic Transmission | POSITIVELY CORRELATED WITH | Absence Seizure |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00347#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00347#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00347#mechanism-of-action](https://go.drugbank.com/drugs/DB00347#mechanism-of-action){:target="_blank"}

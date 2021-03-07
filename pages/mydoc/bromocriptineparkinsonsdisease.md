@@ -5,7 +5,7 @@ permalink: bromocriptineparkinsonsdisease.html
 toc: false 
 ---
 
-{% include image.html file="bromocriptineparkinsonsdisease.png" alt="bromocriptineparkinsonsdisease" %}![Path Visualization](/images/bromocriptineparkinsonsdisease.png)
+{% include image.html file="bromocriptineparkinsonsdisease.png" alt="bromocriptineparkinsonsdisease" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Nigrostriatal Tract | AFFECTED BY | Parkinson'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB01200#mechanism-of-action){:target="_blank"}

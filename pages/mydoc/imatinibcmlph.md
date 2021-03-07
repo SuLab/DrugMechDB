@@ -5,7 +5,7 @@ permalink: imatinibcmlph.html
 toc: false 
 ---
 
-{% include image.html file="imatinibcmlph.png" alt="imatinibcmlph" %}![Path Visualization](/images/imatinibcmlph.png)
+{% include image.html file="imatinibcmlph.png" alt="imatinibcmlph" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Bcr/Abl | CAUSES | Cml (Ph+) |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00619#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00619#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00619#mechanism-of-action](https://go.drugbank.com/drugs/DB00619#mechanism-of-action){:target="_blank"}

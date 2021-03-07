@@ -5,7 +5,7 @@ permalink: faropenemmedoxilrespiratorytractinfection.html
 toc: false 
 ---
 
-{% include image.html file="faropenemmedoxilrespiratorytractinfection.png" alt="faropenemmedoxilrespiratorytractinfection" %}![Path Visualization](/images/faropenemmedoxilrespiratorytractinfection.png)
+{% include image.html file="faropenemmedoxilrespiratorytractinfection.png" alt="faropenemmedoxilrespiratorytractinfection" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Bacteria | CAUSES | Respiratory Tract Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05659#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05659#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05659#mechanism-of-action](https://go.drugbank.com/drugs/DB05659#mechanism-of-action){:target="_blank"}

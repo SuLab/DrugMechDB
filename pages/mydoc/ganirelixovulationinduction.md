@@ -5,7 +5,7 @@ permalink: ganirelixovulationinduction.html
 toc: false 
 ---
 
-{% include image.html file="ganirelixovulationinduction.png" alt="ganirelixovulationinduction" %}![Path Visualization](/images/ganirelixovulationinduction.png)
+{% include image.html file="ganirelixovulationinduction.png" alt="ganirelixovulationinduction" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Gonadotropins | CAUSES | Ovulation Induction |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06785#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06785#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06785#mechanism-of-action](https://go.drugbank.com/drugs/DB06785#mechanism-of-action){:target="_blank"}

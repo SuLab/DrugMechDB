@@ -5,7 +5,7 @@ permalink: phendimetrazineobesity2.html
 toc: false 
 ---
 
-{% include image.html file="phendimetrazineobesity2.png" alt="phendimetrazineobesity2" %}![Path Visualization](/images/phendimetrazineobesity2.png)
+{% include image.html file="phendimetrazineobesity2.png" alt="phendimetrazineobesity2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Metabolic Process | PREVENTS | Obesity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01579#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01579#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01579#mechanism-of-action](https://go.drugbank.com/drugs/DB01579#mechanism-of-action){:target="_blank"}

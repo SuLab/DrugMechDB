@@ -5,7 +5,7 @@ permalink: oxaprozinosteoarthritis.html
 toc: false 
 ---
 
-{% include image.html file="oxaprozinosteoarthritis.png" alt="oxaprozinosteoarthritis" %}![Path Visualization](/images/oxaprozinosteoarthritis.png)
+{% include image.html file="oxaprozinosteoarthritis.png" alt="oxaprozinosteoarthritis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pain | MANIFESTATION OF | Osteoarthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00991#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00991#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00991#mechanism-of-action](https://go.drugbank.com/drugs/DB00991#mechanism-of-action){:target="_blank"}

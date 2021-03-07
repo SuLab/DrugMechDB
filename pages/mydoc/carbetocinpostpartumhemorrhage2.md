@@ -5,7 +5,7 @@ permalink: carbetocinpostpartumhemorrhage2.html
 toc: false 
 ---
 
-{% include image.html file="carbetocinpostpartumhemorrhage2.png" alt="carbetocinpostpartumhemorrhage2" %}![Path Visualization](/images/carbetocinpostpartumhemorrhage2.png)
+{% include image.html file="carbetocinpostpartumhemorrhage2.png" alt="carbetocinpostpartumhemorrhage2" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Uterine Smooth Muscle Relaxation | PREVENTS | Postpartum Hemorrhage |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01282#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01282#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01282#mechanism-of-action](https://go.drugbank.com/drugs/DB01282#mechanism-of-action){:target="_blank"}

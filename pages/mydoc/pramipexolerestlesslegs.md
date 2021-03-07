@@ -5,7 +5,7 @@ permalink: pramipexolerestlesslegs.html
 toc: false 
 ---
 
-{% include image.html file="pramipexolerestlesslegs.png" alt="pramipexolerestlesslegs" %}![Path Visualization](/images/pramipexolerestlesslegs.png)
+{% include image.html file="pramipexolerestlesslegs.png" alt="pramipexolerestlesslegs" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Dopamine Secretion, Neurotransmission | NEGATIVELY CORRELATED WITH | Restless Legs |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00413#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00413#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00413#mechanism-of-action](https://go.drugbank.com/drugs/DB00413#mechanism-of-action){:target="_blank"}

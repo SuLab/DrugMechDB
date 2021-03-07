@@ -5,7 +5,7 @@ permalink: ulipristaluterineleiomyoma.html
 toc: false 
 ---
 
-{% include image.html file="ulipristaluterineleiomyoma.png" alt="ulipristaluterineleiomyoma" %}![Path Visualization](/images/ulipristaluterineleiomyoma.png)
+{% include image.html file="ulipristaluterineleiomyoma.png" alt="ulipristaluterineleiomyoma" %}
 
 ## Concepts
 
@@ -29,4 +29,4 @@ toc: false
 | Down Regulation Of Cell Proliferation | NEGATIVELY CORRELATED WITH | Uterine Leiomyoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08867#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08867#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08867#mechanism-of-action](https://go.drugbank.com/drugs/DB08867#mechanism-of-action){:target="_blank"}

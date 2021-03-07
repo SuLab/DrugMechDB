@@ -5,7 +5,7 @@ permalink: cilastatinendometritis.html
 toc: false 
 ---
 
-{% include image.html file="cilastatinendometritis.png" alt="cilastatinendometritis" %}![Path Visualization](/images/cilastatinendometritis.png)
+{% include image.html file="cilastatinendometritis.png" alt="cilastatinendometritis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacteria | CAUSES | Endometritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB01597#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: prednicarbateatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbateatopicdermatitis.png" alt="prednicarbateatopicdermatitis" %}![Path Visualization](/images/prednicarbateatopicdermatitis.png)
+{% include image.html file="prednicarbateatopicdermatitis.png" alt="prednicarbateatopicdermatitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Atopic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB01130#mechanism-of-action){:target="_blank"}

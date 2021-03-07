@@ -5,7 +5,7 @@ permalink: acenocoumarolpulmonaryembolism.html
 toc: false 
 ---
 
-{% include image.html file="acenocoumarolpulmonaryembolism.png" alt="acenocoumarolpulmonaryembolism" %}![Path Visualization](/images/acenocoumarolpulmonaryembolism.png)
+{% include image.html file="acenocoumarolpulmonaryembolism.png" alt="acenocoumarolpulmonaryembolism" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Clotting Factor Synthesis | CORRELATED WITH | Pulmonary Embolism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01418#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01418#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01418#mechanism-of-action](https://go.drugbank.com/drugs/DB01418#mechanism-of-action){:target="_blank"}

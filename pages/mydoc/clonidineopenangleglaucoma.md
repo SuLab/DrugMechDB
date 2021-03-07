@@ -5,7 +5,7 @@ permalink: clonidineopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="clonidineopenangleglaucoma.png" alt="clonidineopenangleglaucoma" %}![Path Visualization](/images/clonidineopenangleglaucoma.png)
+{% include image.html file="clonidineopenangleglaucoma.png" alt="clonidineopenangleglaucoma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Intraocular Pressure | CORRELATED WITH | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00575#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00575#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00575#mechanism-of-action](https://go.drugbank.com/drugs/DB00575#mechanism-of-action){:target="_blank"}

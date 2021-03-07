@@ -5,7 +5,7 @@ permalink: brompheniramineurticaria2.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineurticaria2.png" alt="brompheniramineurticaria2" %}![Path Visualization](/images/brompheniramineurticaria2.png)
+{% include image.html file="brompheniramineurticaria2.png" alt="brompheniramineurticaria2" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | H1 Histamine Receptor | TREATS | Urticaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

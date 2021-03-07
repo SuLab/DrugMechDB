@@ -5,7 +5,7 @@ permalink: bosutinibblasticphaseofchronicmyeloidleukemia.html
 toc: false 
 ---
 
-{% include image.html file="bosutinibblasticphaseofchronicmyeloidleukemia.png" alt="bosutinibblasticphaseofchronicmyeloidleukemia" %}![Path Visualization](/images/bosutinibblasticphaseofchronicmyeloidleukemia.png)
+{% include image.html file="bosutinibblasticphaseofchronicmyeloidleukemia.png" alt="bosutinibblasticphaseofchronicmyeloidleukemia" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Bcr/Abl Protein-Tyrosine Kinase | CAUSES | Blastic Phase Of Chronic Myeloid Leukemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06616#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06616#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06616#mechanism-of-action](https://go.drugbank.com/drugs/DB06616#mechanism-of-action){:target="_blank"}

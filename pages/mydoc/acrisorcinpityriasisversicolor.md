@@ -5,7 +5,7 @@ permalink: acrisorcinpityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="acrisorcinpityriasisversicolor.png" alt="acrisorcinpityriasisversicolor" %}![Path Visualization](/images/acrisorcinpityriasisversicolor.png)
+{% include image.html file="acrisorcinpityriasisversicolor.png" alt="acrisorcinpityriasisversicolor" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Acrisorcin | TREATS | Pityriasis Versicolor |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11254#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11254#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11254#mechanism-of-action](https://go.drugbank.com/drugs/DB11254#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: aprotininhemorrhage.html
 toc: false 
 ---
 
-{% include image.html file="aprotininhemorrhage.png" alt="aprotininhemorrhage" %}![Path Visualization](/images/aprotininhemorrhage.png)
+{% include image.html file="aprotininhemorrhage.png" alt="aprotininhemorrhage" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Fibrinolysis | POSITIVELY CORRELATED WITH | Hemorrhage |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06692#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06692#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06692#mechanism-of-action](https://go.drugbank.com/drugs/DB06692#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: griseofulvinonychomycosisduetodermatophyte.html
 toc: false 
 ---
 
-{% include image.html file="griseofulvinonychomycosisduetodermatophyte.png" alt="griseofulvinonychomycosisduetodermatophyte" %}![Path Visualization](/images/griseofulvinonychomycosisduetodermatophyte.png)
+{% include image.html file="griseofulvinonychomycosisduetodermatophyte.png" alt="griseofulvinonychomycosisduetodermatophyte" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Fungi | CAUSES | Onychomycosis Due To Dermatophyte |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00400#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00400#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00400#mechanism-of-action](https://go.drugbank.com/drugs/DB00400#mechanism-of-action){:target="_blank"}

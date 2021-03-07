@@ -5,7 +5,7 @@ permalink: cefiximegonorrhea.html
 toc: false 
 ---
 
-{% include image.html file="cefiximegonorrhea.png" alt="cefiximegonorrhea" %}![Path Visualization](/images/cefiximegonorrhea.png)
+{% include image.html file="cefiximegonorrhea.png" alt="cefiximegonorrhea" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Neisseria Gonorrhoeae | CAUSES | Gonorrhea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

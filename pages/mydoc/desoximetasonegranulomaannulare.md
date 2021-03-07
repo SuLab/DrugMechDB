@@ -5,7 +5,7 @@ permalink: desoximetasonegranulomaannulare.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonegranulomaannulare.png" alt="desoximetasonegranulomaannulare" %}![Path Visualization](/images/desoximetasonegranulomaannulare.png)
+{% include image.html file="desoximetasonegranulomaannulare.png" alt="desoximetasonegranulomaannulare" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Granuloma Annulare |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB00547#mechanism-of-action){:target="_blank"}

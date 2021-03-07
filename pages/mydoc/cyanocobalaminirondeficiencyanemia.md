@@ -5,7 +5,7 @@ permalink: cyanocobalaminirondeficiencyanemia.html
 toc: false 
 ---
 
-{% include image.html file="cyanocobalaminirondeficiencyanemia.png" alt="cyanocobalaminirondeficiencyanemia" %}![Path Visualization](/images/cyanocobalaminirondeficiencyanemia.png)
+{% include image.html file="cyanocobalaminirondeficiencyanemia.png" alt="cyanocobalaminirondeficiencyanemia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Iron Ion Homeostasis | NEGATIVELY CORRELATED WITH | Iron Deficiency Anemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00115#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00115#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00115#mechanism-of-action](https://go.drugbank.com/drugs/DB00115#mechanism-of-action){:target="_blank"}

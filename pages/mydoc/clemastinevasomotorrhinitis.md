@@ -5,7 +5,7 @@ permalink: clemastinevasomotorrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="clemastinevasomotorrhinitis.png" alt="clemastinevasomotorrhinitis" %}![Path Visualization](/images/clemastinevasomotorrhinitis.png)
+{% include image.html file="clemastinevasomotorrhinitis.png" alt="clemastinevasomotorrhinitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Positive Regulation Of Vasoconstriction | NEGATIVELY CORRELATED WITH | Vasomotor Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB00283#mechanism-of-action){:target="_blank"}

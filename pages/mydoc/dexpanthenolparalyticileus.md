@@ -5,7 +5,7 @@ permalink: dexpanthenolparalyticileus.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenolparalyticileus.png" alt="dexpanthenolparalyticileus" %}![Path Visualization](/images/dexpanthenolparalyticileus.png)
+{% include image.html file="dexpanthenolparalyticileus.png" alt="dexpanthenolparalyticileus" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Epithelium | TREATS | Paralytic Ileus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB09357#mechanism-of-action){:target="_blank"}

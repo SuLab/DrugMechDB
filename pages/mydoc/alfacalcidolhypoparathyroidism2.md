@@ -5,7 +5,7 @@ permalink: alfacalcidolhypoparathyroidism2.html
 toc: false 
 ---
 
-{% include image.html file="alfacalcidolhypoparathyroidism2.png" alt="alfacalcidolhypoparathyroidism2" %}![Path Visualization](/images/alfacalcidolhypoparathyroidism2.png)
+{% include image.html file="alfacalcidolhypoparathyroidism2.png" alt="alfacalcidolhypoparathyroidism2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Calcium | TREATS | Hypoparathyroidism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01436#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01436#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01436#mechanism-of-action](https://go.drugbank.com/drugs/DB01436#mechanism-of-action){:target="_blank"}

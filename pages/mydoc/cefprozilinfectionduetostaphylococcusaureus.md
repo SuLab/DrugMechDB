@@ -5,7 +5,7 @@ permalink: cefprozilinfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="cefprozilinfectionduetostaphylococcusaureus.png" alt="cefprozilinfectionduetostaphylococcusaureus" %}![Path Visualization](/images/cefprozilinfectionduetostaphylococcusaureus.png)
+{% include image.html file="cefprozilinfectionduetostaphylococcusaureus.png" alt="cefprozilinfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Infection Due To Staphylococcus Aureus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB01150#mechanism-of-action){:target="_blank"}

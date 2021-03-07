@@ -5,7 +5,7 @@ permalink: bismuthsubsalicylateindigestion.html
 toc: false 
 ---
 
-{% include image.html file="bismuthsubsalicylateindigestion.png" alt="bismuthsubsalicylateindigestion" %}![Path Visualization](/images/bismuthsubsalicylateindigestion.png)
+{% include image.html file="bismuthsubsalicylateindigestion.png" alt="bismuthsubsalicylateindigestion" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Bacterial Infection | CORRELATED WITH | Indigesion |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01294#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01294#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01294#mechanism-of-action](https://go.drugbank.com/drugs/DB01294#mechanism-of-action){:target="_blank"}

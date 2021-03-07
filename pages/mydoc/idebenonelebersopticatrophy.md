@@ -5,7 +5,7 @@ permalink: idebenonelebersopticatrophy.html
 toc: false 
 ---
 
-{% include image.html file="idebenonelebersopticatrophy.png" alt="idebenonelebersopticatrophy" %}![Path Visualization](/images/idebenonelebersopticatrophy.png)
+{% include image.html file="idebenonelebersopticatrophy.png" alt="idebenonelebersopticatrophy" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Mitochondrial Respiratory Chain Complex I | DISRUPTED BY | Leber'S Optic Atrophy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09081#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09081#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09081#mechanism-of-action](https://go.drugbank.com/drugs/DB09081#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: pimozidetourettesdisorder.html
 toc: false 
 ---
 
-{% include image.html file="pimozidetourettesdisorder.png" alt="pimozidetourettesdisorder" %}![Path Visualization](/images/pimozidetourettesdisorder.png)
+{% include image.html file="pimozidetourettesdisorder.png" alt="pimozidetourettesdisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Tics | MANIFESTATION OF | Tourette’S Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01100#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01100#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01100#mechanism-of-action](https://go.drugbank.com/drugs/DB01100#mechanism-of-action){:target="_blank"}

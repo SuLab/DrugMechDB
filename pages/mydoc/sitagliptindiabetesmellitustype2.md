@@ -5,7 +5,7 @@ permalink: sitagliptindiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="sitagliptindiabetesmellitustype2.png" alt="sitagliptindiabetesmellitustype2" %}![Path Visualization](/images/sitagliptindiabetesmellitustype2.png)
+{% include image.html file="sitagliptindiabetesmellitustype2.png" alt="sitagliptindiabetesmellitustype2" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Insulin Secretion | NEGATIVELY CORRELATED WITH | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01261#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01261#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01261#mechanism-of-action](https://go.drugbank.com/drugs/DB01261#mechanism-of-action){:target="_blank"}

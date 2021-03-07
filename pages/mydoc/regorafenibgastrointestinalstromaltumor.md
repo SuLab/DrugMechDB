@@ -5,7 +5,7 @@ permalink: regorafenibgastrointestinalstromaltumor.html
 toc: false 
 ---
 
-{% include image.html file="regorafenibgastrointestinalstromaltumor.png" alt="regorafenibgastrointestinalstromaltumor" %}![Path Visualization](/images/regorafenibgastrointestinalstromaltumor.png)
+{% include image.html file="regorafenibgastrointestinalstromaltumor.png" alt="regorafenibgastrointestinalstromaltumor" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Positive Regulation Of Cell Population Proliferation | CAUSES | Gastrointestinal Stromal Tumor |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08896#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08896#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08896#mechanism-of-action](https://go.drugbank.com/drugs/DB08896#mechanism-of-action){:target="_blank"}

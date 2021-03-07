@@ -5,7 +5,7 @@ permalink: infliximabulcerativecolitis.html
 toc: false 
 ---
 
-{% include image.html file="infliximabulcerativecolitis.png" alt="infliximabulcerativecolitis" %}![Path Visualization](/images/infliximabulcerativecolitis.png)
+{% include image.html file="infliximabulcerativecolitis.png" alt="infliximabulcerativecolitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Ulcerative Colitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB00065#mechanism-of-action){:target="_blank"}

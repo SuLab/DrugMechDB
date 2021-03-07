@@ -5,7 +5,7 @@ permalink: micafungincandidemia.html
 toc: false 
 ---
 
-{% include image.html file="micafungincandidemia.png" alt="micafungincandidemia" %}![Path Visualization](/images/micafungincandidemia.png)
+{% include image.html file="micafungincandidemia.png" alt="micafungincandidemia" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Candida | CAUSES | Candidemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01141#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01141#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01141#mechanism-of-action](https://go.drugbank.com/drugs/DB01141#mechanism-of-action){:target="_blank"}

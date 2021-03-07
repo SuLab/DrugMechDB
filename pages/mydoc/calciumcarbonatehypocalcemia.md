@@ -5,7 +5,7 @@ permalink: calciumcarbonatehypocalcemia.html
 toc: false 
 ---
 
-{% include image.html file="calciumcarbonatehypocalcemia.png" alt="calciumcarbonatehypocalcemia" %}![Path Visualization](/images/calciumcarbonatehypocalcemia.png)
+{% include image.html file="calciumcarbonatehypocalcemia.png" alt="calciumcarbonatehypocalcemia" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Calcium | CONTRIBUTES TO | Hypocalcemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06724#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06724#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06724#mechanism-of-action](https://go.drugbank.com/drugs/DB06724#mechanism-of-action){:target="_blank"}

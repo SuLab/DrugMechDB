@@ -5,7 +5,7 @@ permalink: cyanocobalaminperniciousanemia.html
 toc: false 
 ---
 
-{% include image.html file="cyanocobalaminperniciousanemia.png" alt="cyanocobalaminperniciousanemia" %}![Path Visualization](/images/cyanocobalaminperniciousanemia.png)
+{% include image.html file="cyanocobalaminperniciousanemia.png" alt="cyanocobalaminperniciousanemia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Decreased Red Blood Cell Count | POSITIVELY CORRELATED WITH | Pernicious Anemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00115#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00115#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00115#mechanism-of-action](https://go.drugbank.com/drugs/DB00115#mechanism-of-action){:target="_blank"}

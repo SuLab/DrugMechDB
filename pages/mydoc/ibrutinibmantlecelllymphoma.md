@@ -5,7 +5,7 @@ permalink: ibrutinibmantlecelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="ibrutinibmantlecelllymphoma.png" alt="ibrutinibmantlecelllymphoma" %}![Path Visualization](/images/ibrutinibmantlecelllymphoma.png)
+{% include image.html file="ibrutinibmantlecelllymphoma.png" alt="ibrutinibmantlecelllymphoma" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Apoptotic Process | NEGATIVELY CORRELATED WITH | Mantle Cell Lymphoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09053#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09053#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09053#mechanism-of-action](https://go.drugbank.com/drugs/DB09053#mechanism-of-action){:target="_blank"}

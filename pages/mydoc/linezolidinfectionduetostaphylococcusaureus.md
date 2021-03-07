@@ -5,7 +5,7 @@ permalink: linezolidinfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="linezolidinfectionduetostaphylococcusaureus.png" alt="linezolidinfectionduetostaphylococcusaureus" %}![Path Visualization](/images/linezolidinfectionduetostaphylococcusaureus.png)
+{% include image.html file="linezolidinfectionduetostaphylococcusaureus.png" alt="linezolidinfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Infection Due To Staphylococcus Aureus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB00601#mechanism-of-action){:target="_blank"}

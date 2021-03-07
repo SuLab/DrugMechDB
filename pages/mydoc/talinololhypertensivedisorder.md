@@ -5,7 +5,7 @@ permalink: talinololhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="talinololhypertensivedisorder.png" alt="talinololhypertensivedisorder" %}![Path Visualization](/images/talinololhypertensivedisorder.png)
+{% include image.html file="talinololhypertensivedisorder.png" alt="talinololhypertensivedisorder" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Increased Cardiac Output | POSITIVELY CORRELATED WITH | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11770#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11770#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11770#mechanism-of-action](https://go.drugbank.com/drugs/DB11770#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: zidovudinehumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="zidovudinehumanimmunodeficiencyvirusinfection.png" alt="zidovudinehumanimmunodeficiencyvirusinfection" %}![Path Visualization](/images/zidovudinehumanimmunodeficiencyvirusinfection.png)
+{% include image.html file="zidovudinehumanimmunodeficiencyvirusinfection.png" alt="zidovudinehumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Hiv | CAUSES | Human Immunodeficiency Virus Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00495#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00495#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00495#mechanism-of-action](https://go.drugbank.com/drugs/DB00495#mechanism-of-action){:target="_blank"}

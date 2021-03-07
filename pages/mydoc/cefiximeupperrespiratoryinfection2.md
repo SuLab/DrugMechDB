@@ -5,7 +5,7 @@ permalink: cefiximeupperrespiratoryinfection2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximeupperrespiratoryinfection2.png" alt="cefiximeupperrespiratoryinfection2" %}![Path Visualization](/images/cefiximeupperrespiratoryinfection2.png)
+{% include image.html file="cefiximeupperrespiratoryinfection2.png" alt="cefiximeupperrespiratoryinfection2" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cell Death | TREATS | Upper Respiratory Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

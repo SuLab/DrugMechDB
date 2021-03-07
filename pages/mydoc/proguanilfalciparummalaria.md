@@ -5,7 +5,7 @@ permalink: proguanilfalciparummalaria.html
 toc: false 
 ---
 
-{% include image.html file="proguanilfalciparummalaria.png" alt="proguanilfalciparummalaria" %}![Path Visualization](/images/proguanilfalciparummalaria.png)
+{% include image.html file="proguanilfalciparummalaria.png" alt="proguanilfalciparummalaria" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Plasmodium Falciparum | CAUSES | Falciparum Malaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01131#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01131#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01131#mechanism-of-action](https://go.drugbank.com/drugs/DB01131#mechanism-of-action){:target="_blank"}

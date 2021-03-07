@@ -5,7 +5,7 @@ permalink: loracarbefupperrespiratoryinfection.html
 toc: false 
 ---
 
-{% include image.html file="loracarbefupperrespiratoryinfection.png" alt="loracarbefupperrespiratoryinfection" %}![Path Visualization](/images/loracarbefupperrespiratoryinfection.png)
+{% include image.html file="loracarbefupperrespiratoryinfection.png" alt="loracarbefupperrespiratoryinfection" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Haemophilus Influenzae | CAUSES | Upper Respiratory Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB00447#mechanism-of-action){:target="_blank"}

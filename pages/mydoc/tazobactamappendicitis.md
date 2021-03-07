@@ -5,7 +5,7 @@ permalink: tazobactamappendicitis.html
 toc: false 
 ---
 
-{% include image.html file="tazobactamappendicitis.png" alt="tazobactamappendicitis" %}![Path Visualization](/images/tazobactamappendicitis.png)
+{% include image.html file="tazobactamappendicitis.png" alt="tazobactamappendicitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Mycobacterium | CAUSES | Appendicitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB01606#mechanism-of-action){:target="_blank"}

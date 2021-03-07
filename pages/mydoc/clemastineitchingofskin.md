@@ -5,7 +5,7 @@ permalink: clemastineitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="clemastineitchingofskin.png" alt="clemastineitchingofskin" %}![Path Visualization](/images/clemastineitchingofskin.png)
+{% include image.html file="clemastineitchingofskin.png" alt="clemastineitchingofskin" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Response | CAUSES | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB00283#mechanism-of-action){:target="_blank"}

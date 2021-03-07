@@ -5,7 +5,7 @@ permalink: lenvatinibpapillarythyroidcarcinoma4.html
 toc: false 
 ---
 
-{% include image.html file="lenvatinibpapillarythyroidcarcinoma4.png" alt="lenvatinibpapillarythyroidcarcinoma4" %}![Path Visualization](/images/lenvatinibpapillarythyroidcarcinoma4.png)
+{% include image.html file="lenvatinibpapillarythyroidcarcinoma4.png" alt="lenvatinibpapillarythyroidcarcinoma4" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cancer Cell | PARTICIPATES IN | Papillary Thyroid Carcinoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09078#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09078#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09078#mechanism-of-action](https://go.drugbank.com/drugs/DB09078#mechanism-of-action){:target="_blank"}

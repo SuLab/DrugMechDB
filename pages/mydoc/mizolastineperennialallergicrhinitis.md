@@ -5,7 +5,7 @@ permalink: mizolastineperennialallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="mizolastineperennialallergicrhinitis.png" alt="mizolastineperennialallergicrhinitis" %}![Path Visualization](/images/mizolastineperennialallergicrhinitis.png)
+{% include image.html file="mizolastineperennialallergicrhinitis.png" alt="mizolastineperennialallergicrhinitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Response | CAUSES | Perennial Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12523#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12523#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12523#mechanism-of-action](https://go.drugbank.com/drugs/DB12523#mechanism-of-action){:target="_blank"}

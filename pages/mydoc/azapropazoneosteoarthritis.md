@@ -5,7 +5,7 @@ permalink: azapropazoneosteoarthritis.html
 toc: false 
 ---
 
-{% include image.html file="azapropazoneosteoarthritis.png" alt="azapropazoneosteoarthritis" %}![Path Visualization](/images/azapropazoneosteoarthritis.png)
+{% include image.html file="azapropazoneosteoarthritis.png" alt="azapropazoneosteoarthritis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pain | MANIFESTATION OF | Osteoarthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}

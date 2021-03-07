@@ -5,7 +5,7 @@ permalink: mepyraminedysmenorrhea.html
 toc: false 
 ---
 
-{% include image.html file="mepyraminedysmenorrhea.png" alt="mepyraminedysmenorrhea" %}![Path Visualization](/images/mepyraminedysmenorrhea.png)
+{% include image.html file="mepyraminedysmenorrhea.png" alt="mepyraminedysmenorrhea" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Sensory Perception Of Pain | OCCURS IN | Dysmenorrhea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB06691#mechanism-of-action){:target="_blank"}

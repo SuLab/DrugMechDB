@@ -5,7 +5,7 @@ permalink: estradiolacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html file="estradiolacnevulgaris.png" alt="estradiolacnevulgaris" %}![Path Visualization](/images/estradiolacnevulgaris.png)
+{% include image.html file="estradiolacnevulgaris.png" alt="estradiolacnevulgaris" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Androgens | CONTRIBUTES TO | Acne Vulgaris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB00783#mechanism-of-action){:target="_blank"}

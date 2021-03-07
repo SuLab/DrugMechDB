@@ -5,7 +5,7 @@ permalink: anagliptindiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="anagliptindiabetesmellitustype2.png" alt="anagliptindiabetesmellitustype2" %}![Path Visualization](/images/anagliptindiabetesmellitustype2.png)
+{% include image.html file="anagliptindiabetesmellitustype2.png" alt="anagliptindiabetesmellitustype2" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Hyperglycemia | MANIFESTATION OF | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12417#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12417#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12417#mechanism-of-action](https://go.drugbank.com/drugs/DB12417#mechanism-of-action){:target="_blank"}

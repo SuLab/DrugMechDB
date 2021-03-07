@@ -5,7 +5,7 @@ permalink: limaprostthromboangiitisobliterans.html
 toc: false 
 ---
 
-{% include image.html file="limaprostthromboangiitisobliterans.png" alt="limaprostthromboangiitisobliterans" %}![Path Visualization](/images/limaprostthromboangiitisobliterans.png)
+{% include image.html file="limaprostthromboangiitisobliterans.png" alt="limaprostthromboangiitisobliterans" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Vasoconstriction | POSITIVELY CORRELATED WITH | Thromboangiitis Obliterans |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09211#mechanism-of-action](https://go.drugbank.com/drugs/DB09211#mechanism-of-action){:target="_blank"}

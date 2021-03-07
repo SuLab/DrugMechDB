@@ -5,7 +5,7 @@ permalink: pioglitazonediabetesmellitustype22.html
 toc: false 
 ---
 
-{% include image.html file="pioglitazonediabetesmellitustype22.png" alt="pioglitazonediabetesmellitustype22" %}![Path Visualization](/images/pioglitazonediabetesmellitustype22.png)
+{% include image.html file="pioglitazonediabetesmellitustype22.png" alt="pioglitazonediabetesmellitustype22" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Blood Glucose | CORRELATED WITH | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01132#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01132#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01132#mechanism-of-action](https://go.drugbank.com/drugs/DB01132#mechanism-of-action){:target="_blank"}

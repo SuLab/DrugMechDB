@@ -5,7 +5,7 @@ permalink: fusidicacidanthrax.html
 toc: false 
 ---
 
-{% include image.html file="fusidicacidanthrax.png" alt="fusidicacidanthrax" %}![Path Visualization](/images/fusidicacidanthrax.png)
+{% include image.html file="fusidicacidanthrax.png" alt="fusidicacidanthrax" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacillus Anthracis | CAUSES | Anthrax |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB02703#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB02703#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB02703#mechanism-of-action](https://go.drugbank.com/drugs/DB02703#mechanism-of-action){:target="_blank"}

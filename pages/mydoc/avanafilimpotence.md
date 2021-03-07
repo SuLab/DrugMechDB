@@ -5,7 +5,7 @@ permalink: avanafilimpotence.html
 toc: false 
 ---
 
-{% include image.html file="avanafilimpotence.png" alt="avanafilimpotence" %}![Path Visualization](/images/avanafilimpotence.png)
+{% include image.html file="avanafilimpotence.png" alt="avanafilimpotence" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Corpus Cavernosum Penis | PARTICIPATES IN | Impotence |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06237#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06237#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06237#mechanism-of-action](https://go.drugbank.com/drugs/DB06237#mechanism-of-action){:target="_blank"}

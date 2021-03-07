@@ -5,7 +5,7 @@ permalink: brompheniramineseasonalallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineseasonalallergicrhinitis.png" alt="brompheniramineseasonalallergicrhinitis" %}![Path Visualization](/images/brompheniramineseasonalallergicrhinitis.png)
+{% include image.html file="brompheniramineseasonalallergicrhinitis.png" alt="brompheniramineseasonalallergicrhinitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vascular Permeability | CORRELATED WITH | Seasonal Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

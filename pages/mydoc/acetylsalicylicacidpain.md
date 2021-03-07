@@ -5,7 +5,7 @@ permalink: acetylsalicylicacidpain.html
 toc: false 
 ---
 
-{% include image.html file="acetylsalicylicacidpain.png" alt="acetylsalicylicacidpain" %}![Path Visualization](/images/acetylsalicylicacidpain.png)
+{% include image.html file="acetylsalicylicacidpain.png" alt="acetylsalicylicacidpain" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Prostaglandins | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00945#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00945#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00945#mechanism-of-action](https://go.drugbank.com/drugs/DB00945#mechanism-of-action){:target="_blank"}

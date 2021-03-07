@@ -5,7 +5,7 @@ permalink: loracarbeftonsillitis.html
 toc: false 
 ---
 
-{% include image.html file="loracarbeftonsillitis.png" alt="loracarbeftonsillitis" %}![Path Visualization](/images/loracarbeftonsillitis.png)
+{% include image.html file="loracarbeftonsillitis.png" alt="loracarbeftonsillitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Tonsillitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB00447#mechanism-of-action){:target="_blank"}

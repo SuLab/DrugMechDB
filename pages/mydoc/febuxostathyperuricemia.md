@@ -5,7 +5,7 @@ permalink: febuxostathyperuricemia.html
 toc: false 
 ---
 
-{% include image.html file="febuxostathyperuricemia.png" alt="febuxostathyperuricemia" %}![Path Visualization](/images/febuxostathyperuricemia.png)
+{% include image.html file="febuxostathyperuricemia.png" alt="febuxostathyperuricemia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Serum Uric Acid | CORRELATED WITH | Hyperuricemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04854#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04854#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04854#mechanism-of-action](https://go.drugbank.com/drugs/DB04854#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: raxibacumabinhalationalanthrax.html
 toc: false 
 ---
 
-{% include image.html file="raxibacumabinhalationalanthrax.png" alt="raxibacumabinhalationalanthrax" %}![Path Visualization](/images/raxibacumabinhalationalanthrax.png)
+{% include image.html file="raxibacumabinhalationalanthrax.png" alt="raxibacumabinhalationalanthrax" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Bacillus Anthracis | CAUSES | Inhalational Anthrax |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DBDB08902#mechanism-of-action](https://go.drugbank.com/drugs/DB:DBDB08902#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DBDB08902#mechanism-of-action](https://go.drugbank.com/drugs/DBDB08902#mechanism-of-action){:target="_blank"}

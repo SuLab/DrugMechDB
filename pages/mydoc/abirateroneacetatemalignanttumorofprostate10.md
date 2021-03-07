@@ -5,7 +5,7 @@ permalink: abirateroneacetatemalignanttumorofprostate10.html
 toc: false 
 ---
 
-{% include image.html file="abirateroneacetatemalignanttumorofprostate10.png" alt="abirateroneacetatemalignanttumorofprostate10" %}![Path Visualization](/images/abirateroneacetatemalignanttumorofprostate10.png)
+{% include image.html file="abirateroneacetatemalignanttumorofprostate10.png" alt="abirateroneacetatemalignanttumorofprostate10" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Positive Regulation Of Epithelial Cell Proliferation Involved In Prostate Gland Development | POSITIVELY CORRELATED WITH | Malignant Tumor Of Prostate |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05812#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05812#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05812#mechanism-of-action](https://go.drugbank.com/drugs/DB05812#mechanism-of-action){:target="_blank"}

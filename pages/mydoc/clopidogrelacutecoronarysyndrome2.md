@@ -5,7 +5,7 @@ permalink: clopidogrelacutecoronarysyndrome2.html
 toc: false 
 ---
 
-{% include image.html file="clopidogrelacutecoronarysyndrome2.png" alt="clopidogrelacutecoronarysyndrome2" %}![Path Visualization](/images/clopidogrelacutecoronarysyndrome2.png)
+{% include image.html file="clopidogrelacutecoronarysyndrome2.png" alt="clopidogrelacutecoronarysyndrome2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Platelet Aggregation | CORRELATED WITH | Acute Coronary Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00758#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00758#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00758#mechanism-of-action](https://go.drugbank.com/drugs/DB00758#mechanism-of-action){:target="_blank"}

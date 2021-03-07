@@ -5,7 +5,7 @@ permalink: oxytocinpostpartumhemorrhage.html
 toc: false 
 ---
 
-{% include image.html file="oxytocinpostpartumhemorrhage.png" alt="oxytocinpostpartumhemorrhage" %}![Path Visualization](/images/oxytocinpostpartumhemorrhage.png)
+{% include image.html file="oxytocinpostpartumhemorrhage.png" alt="oxytocinpostpartumhemorrhage" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Uterine Smooth Muscle Contraction | NEGATIVELY CORRELATED WITH | Postpartum Hemorrhage |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00107#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00107#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00107#mechanism-of-action](https://go.drugbank.com/drugs/DB00107#mechanism-of-action){:target="_blank"}

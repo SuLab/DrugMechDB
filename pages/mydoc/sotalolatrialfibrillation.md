@@ -5,7 +5,7 @@ permalink: sotalolatrialfibrillation.html
 toc: false 
 ---
 
-{% include image.html file="sotalolatrialfibrillation.png" alt="sotalolatrialfibrillation" %}![Path Visualization](/images/sotalolatrialfibrillation.png)
+{% include image.html file="sotalolatrialfibrillation.png" alt="sotalolatrialfibrillation" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Ionotropic Effect | CAUSED BY | Atrial Fibrillation |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00489#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00489#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00489#mechanism-of-action](https://go.drugbank.com/drugs/DB00489#mechanism-of-action){:target="_blank"}

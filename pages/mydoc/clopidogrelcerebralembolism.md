@@ -5,7 +5,7 @@ permalink: clopidogrelcerebralembolism.html
 toc: false 
 ---
 
-{% include image.html file="clopidogrelcerebralembolism.png" alt="clopidogrelcerebralembolism" %}![Path Visualization](/images/clopidogrelcerebralembolism.png)
+{% include image.html file="clopidogrelcerebralembolism.png" alt="clopidogrelcerebralembolism" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Platelet Aggregation | CAUSES | Cerebral Embolism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00758#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00758#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00758#mechanism-of-action](https://go.drugbank.com/drugs/DB00758#mechanism-of-action){:target="_blank"}

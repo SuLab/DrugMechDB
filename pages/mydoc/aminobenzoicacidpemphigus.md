@@ -5,7 +5,7 @@ permalink: aminobenzoicacidpemphigus.html
 toc: false 
 ---
 
-{% include image.html file="aminobenzoicacidpemphigus.png" alt="aminobenzoicacidpemphigus" %}![Path Visualization](/images/aminobenzoicacidpemphigus.png)
+{% include image.html file="aminobenzoicacidpemphigus.png" alt="aminobenzoicacidpemphigus" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Aminobenzoic Acid | TREATS | Pemphigus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB02362#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB02362#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB02362#mechanism-of-action](https://go.drugbank.com/drugs/DB02362#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: cilastatinpneumoniaduetostreptococcus.html
 toc: false 
 ---
 
-{% include image.html file="cilastatinpneumoniaduetostreptococcus.png" alt="cilastatinpneumoniaduetostreptococcus" %}![Path Visualization](/images/cilastatinpneumoniaduetostreptococcus.png)
+{% include image.html file="cilastatinpneumoniaduetostreptococcus.png" alt="cilastatinpneumoniaduetostreptococcus" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Streptococcus Pneumoniae | CAUSES | Pneumonia Due To Streptococcus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB01597#mechanism-of-action){:target="_blank"}

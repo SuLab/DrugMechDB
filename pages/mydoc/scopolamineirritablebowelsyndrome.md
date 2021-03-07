@@ -5,7 +5,7 @@ permalink: scopolamineirritablebowelsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="scopolamineirritablebowelsyndrome.png" alt="scopolamineirritablebowelsyndrome" %}![Path Visualization](/images/scopolamineirritablebowelsyndrome.png)
+{% include image.html file="scopolamineirritablebowelsyndrome.png" alt="scopolamineirritablebowelsyndrome" %}
 
 ## Concepts
 
@@ -45,4 +45,4 @@ toc: false
 | Defecation | OCCURS IN | Irritable Bowel Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

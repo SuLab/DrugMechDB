@@ -5,7 +5,7 @@ permalink: zincoxidepruritusani.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidepruritusani.png" alt="zincoxidepruritusani" %}![Path Visualization](/images/zincoxidepruritusani.png)
+{% include image.html file="zincoxidepruritusani.png" alt="zincoxidepruritusani" %}
 
 ## Concepts
 
@@ -29,4 +29,4 @@ toc: false
 | Inflammation | CONTRIBUTES TO | Pruritus Ani |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB09321#mechanism-of-action){:target="_blank"}

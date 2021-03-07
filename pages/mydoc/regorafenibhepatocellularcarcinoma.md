@@ -5,7 +5,7 @@ permalink: regorafenibhepatocellularcarcinoma.html
 toc: false 
 ---
 
-{% include image.html file="regorafenibhepatocellularcarcinoma.png" alt="regorafenibhepatocellularcarcinoma" %}![Path Visualization](/images/regorafenibhepatocellularcarcinoma.png)
+{% include image.html file="regorafenibhepatocellularcarcinoma.png" alt="regorafenibhepatocellularcarcinoma" %}
 
 ## Concepts
 
@@ -48,4 +48,4 @@ toc: false
 | Positive Regulation Of Angiogenesis | CAUSES | Hepatocellular Carcinoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08896#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08896#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08896#mechanism-of-action](https://go.drugbank.com/drugs/DB08896#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: brompheniraminevasomotorrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="brompheniraminevasomotorrhinitis.png" alt="brompheniraminevasomotorrhinitis" %}![Path Visualization](/images/brompheniraminevasomotorrhinitis.png)
+{% include image.html file="brompheniraminevasomotorrhinitis.png" alt="brompheniraminevasomotorrhinitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vascular Permeability | CORRELATED WITH | Vasomotor Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

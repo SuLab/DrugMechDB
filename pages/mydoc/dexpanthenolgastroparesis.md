@@ -5,7 +5,7 @@ permalink: dexpanthenolgastroparesis.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenolgastroparesis.png" alt="dexpanthenolgastroparesis" %}![Path Visualization](/images/dexpanthenolgastroparesis.png)
+{% include image.html file="dexpanthenolgastroparesis.png" alt="dexpanthenolgastroparesis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Epithelium | TREATS | Gastroparesis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB09357#mechanism-of-action){:target="_blank"}

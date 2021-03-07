@@ -5,7 +5,7 @@ permalink: brompheniramineitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineitchingofskin.png" alt="brompheniramineitchingofskin" %}![Path Visualization](/images/brompheniramineitchingofskin.png)
+{% include image.html file="brompheniramineitchingofskin.png" alt="brompheniramineitchingofskin" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vascular Permeability | CORRELATED WITH | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

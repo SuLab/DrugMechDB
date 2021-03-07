@@ -5,7 +5,7 @@ permalink: halcinonidedermatosis.html
 toc: false 
 ---
 
-{% include image.html file="halcinonidedermatosis.png" alt="halcinonidedermatosis" %}![Path Visualization](/images/halcinonidedermatosis.png)
+{% include image.html file="halcinonidedermatosis.png" alt="halcinonidedermatosis" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Inflammatory Signalling | CAUSES | Dermatosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06786#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06786#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06786#mechanism-of-action](https://go.drugbank.com/drugs/DB06786#mechanism-of-action){:target="_blank"}

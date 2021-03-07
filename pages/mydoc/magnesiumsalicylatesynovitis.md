@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatesynovitis.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatesynovitis.png" alt="magnesiumsalicylatesynovitis" %}![Path Visualization](/images/magnesiumsalicylatesynovitis.png)
+{% include image.html file="magnesiumsalicylatesynovitis.png" alt="magnesiumsalicylatesynovitis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Synovitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB01397#mechanism-of-action){:target="_blank"}

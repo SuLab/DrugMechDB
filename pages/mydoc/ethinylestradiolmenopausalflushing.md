@@ -5,7 +5,7 @@ permalink: ethinylestradiolmenopausalflushing.html
 toc: false 
 ---
 
-{% include image.html file="ethinylestradiolmenopausalflushing.png" alt="ethinylestradiolmenopausalflushing" %}![Path Visualization](/images/ethinylestradiolmenopausalflushing.png)
+{% include image.html file="ethinylestradiolmenopausalflushing.png" alt="ethinylestradiolmenopausalflushing" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Response To Estrogen | TREATS | Menopausal Flushing |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00977#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00977#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00977#mechanism-of-action](https://go.drugbank.com/drugs/DB00977#mechanism-of-action){:target="_blank"}

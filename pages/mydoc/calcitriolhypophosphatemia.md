@@ -5,7 +5,7 @@ permalink: calcitriolhypophosphatemia.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolhypophosphatemia.png" alt="calcitriolhypophosphatemia" %}![Path Visualization](/images/calcitriolhypophosphatemia.png)
+{% include image.html file="calcitriolhypophosphatemia.png" alt="calcitriolhypophosphatemia" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Phosphate Ion Homeostasis | NEGATIVELY CORRELATED WITH | Hypophosphatemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB00136#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: sapropterinclassicalphenylketonuria.html
 toc: false 
 ---
 
-{% include image.html file="sapropterinclassicalphenylketonuria.png" alt="sapropterinclassicalphenylketonuria" %}![Path Visualization](/images/sapropterinclassicalphenylketonuria.png)
+{% include image.html file="sapropterinclassicalphenylketonuria.png" alt="sapropterinclassicalphenylketonuria" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Phenylalanine | POSITIVELY CORRELATED WITH | Classical Phenylketonuria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00360#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00360#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00360#mechanism-of-action](https://go.drugbank.com/drugs/DB00360#mechanism-of-action){:target="_blank"}

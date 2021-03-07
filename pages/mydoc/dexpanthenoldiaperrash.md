@@ -5,7 +5,7 @@ permalink: dexpanthenoldiaperrash.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenoldiaperrash.png" alt="dexpanthenoldiaperrash" %}![Path Visualization](/images/dexpanthenoldiaperrash.png)
+{% include image.html file="dexpanthenoldiaperrash.png" alt="dexpanthenoldiaperrash" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Re-Epithelialization | TREATS | Diaper Rash |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB09357#mechanism-of-action){:target="_blank"}

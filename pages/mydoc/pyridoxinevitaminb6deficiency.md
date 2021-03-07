@@ -5,7 +5,7 @@ permalink: pyridoxinevitaminb6deficiency.html
 toc: false 
 ---
 
-{% include image.html file="pyridoxinevitaminb6deficiency.png" alt="pyridoxinevitaminb6deficiency" %}![Path Visualization](/images/pyridoxinevitaminb6deficiency.png)
+{% include image.html file="pyridoxinevitaminb6deficiency.png" alt="pyridoxinevitaminb6deficiency" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Pyridoxal 5'-Phosphate | NEGATIVELY CORRELATED WITH | Vitamin B6 Deficiency |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00165#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00165#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00165#mechanism-of-action](https://go.drugbank.com/drugs/DB00165#mechanism-of-action){:target="_blank"}

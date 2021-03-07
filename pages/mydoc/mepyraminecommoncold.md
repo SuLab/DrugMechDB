@@ -5,7 +5,7 @@ permalink: mepyraminecommoncold.html
 toc: false 
 ---
 
-{% include image.html file="mepyraminecommoncold.png" alt="mepyraminecommoncold" %}![Path Visualization](/images/mepyraminecommoncold.png)
+{% include image.html file="mepyraminecommoncold.png" alt="mepyraminecommoncold" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Viruses | CAUSES | Common Cold |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB06691#mechanism-of-action){:target="_blank"}

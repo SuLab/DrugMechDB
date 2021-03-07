@@ -5,7 +5,7 @@ permalink: saxagliptindiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="saxagliptindiabetesmellitustype2.png" alt="saxagliptindiabetesmellitustype2" %}![Path Visualization](/images/saxagliptindiabetesmellitustype2.png)
+{% include image.html file="saxagliptindiabetesmellitustype2.png" alt="saxagliptindiabetesmellitustype2" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Hyperglycemia | POSITIVELY CORRELATED WITH | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06335#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06335#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06335#mechanism-of-action](https://go.drugbank.com/drugs/DB06335#mechanism-of-action){:target="_blank"}

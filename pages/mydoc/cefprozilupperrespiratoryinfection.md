@@ -5,7 +5,7 @@ permalink: cefprozilupperrespiratoryinfection.html
 toc: false 
 ---
 
-{% include image.html file="cefprozilupperrespiratoryinfection.png" alt="cefprozilupperrespiratoryinfection" %}![Path Visualization](/images/cefprozilupperrespiratoryinfection.png)
+{% include image.html file="cefprozilupperrespiratoryinfection.png" alt="cefprozilupperrespiratoryinfection" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Haemophilus Influenzae | CAUSES | Upper Respiratory Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB01150#mechanism-of-action){:target="_blank"}

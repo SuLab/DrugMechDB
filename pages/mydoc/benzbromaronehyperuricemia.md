@@ -5,7 +5,7 @@ permalink: benzbromaronehyperuricemia.html
 toc: false 
 ---
 
-{% include image.html file="benzbromaronehyperuricemia.png" alt="benzbromaronehyperuricemia" %}![Path Visualization](/images/benzbromaronehyperuricemia.png)
+{% include image.html file="benzbromaronehyperuricemia.png" alt="benzbromaronehyperuricemia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Urate Salt Excretion | NEGATIVELY CORRELATED WITH | Hyperuricemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12319#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12319#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12319#mechanism-of-action](https://go.drugbank.com/drugs/DB12319#mechanism-of-action){:target="_blank"}

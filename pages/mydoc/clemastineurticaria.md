@@ -5,7 +5,7 @@ permalink: clemastineurticaria.html
 toc: false 
 ---
 
-{% include image.html file="clemastineurticaria.png" alt="clemastineurticaria" %}![Path Visualization](/images/clemastineurticaria.png)
+{% include image.html file="clemastineurticaria.png" alt="clemastineurticaria" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Response | CAUSES | Urticaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB00283#mechanism-of-action){:target="_blank"}

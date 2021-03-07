@@ -5,7 +5,7 @@ permalink: terbutalineitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="terbutalineitchingofskin.png" alt="terbutalineitchingofskin" %}![Path Visualization](/images/terbutalineitchingofskin.png)
+{% include image.html file="terbutalineitchingofskin.png" alt="terbutalineitchingofskin" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Histamine Secretion Mediated By Ige Immunoglobulin | CAUSES | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB00871#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: tirofibanacutecoronarysyndrome.html
 toc: false 
 ---
 
-{% include image.html file="tirofibanacutecoronarysyndrome.png" alt="tirofibanacutecoronarysyndrome" %}![Path Visualization](/images/tirofibanacutecoronarysyndrome.png)
+{% include image.html file="tirofibanacutecoronarysyndrome.png" alt="tirofibanacutecoronarysyndrome" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Platelet Aggregation | CORRELATED WITH | Acute Coronary Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00775#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00775#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00775#mechanism-of-action](https://go.drugbank.com/drugs/DB00775#mechanism-of-action){:target="_blank"}

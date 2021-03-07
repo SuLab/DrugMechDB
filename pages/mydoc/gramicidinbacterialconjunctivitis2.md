@@ -5,7 +5,7 @@ permalink: gramicidinbacterialconjunctivitis2.html
 toc: false 
 ---
 
-{% include image.html file="gramicidinbacterialconjunctivitis2.png" alt="gramicidinbacterialconjunctivitis2" %}![Path Visualization](/images/gramicidinbacterialconjunctivitis2.png)
+{% include image.html file="gramicidinbacterialconjunctivitis2.png" alt="gramicidinbacterialconjunctivitis2" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Cell Death | TREATS | Bacterial Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00027#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00027#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00027#mechanism-of-action](https://go.drugbank.com/drugs/DB00027#mechanism-of-action){:target="_blank"}

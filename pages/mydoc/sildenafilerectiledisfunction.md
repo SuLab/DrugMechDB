@@ -5,7 +5,7 @@ permalink: sildenafilerectiledisfunction.html
 toc: false 
 ---
 
-{% include image.html file="sildenafilerectiledisfunction.png" alt="sildenafilerectiledisfunction" %}![Path Visualization](/images/sildenafilerectiledisfunction.png)
+{% include image.html file="sildenafilerectiledisfunction.png" alt="sildenafilerectiledisfunction" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vasodilation | NEGATIVELY CORRELATED WITH | Erectile Disfunction |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00203#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00203#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00203#mechanism-of-action](https://go.drugbank.com/drugs/DB00203#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: formoterolpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html file="formoterolpulmonaryemphysema.png" alt="formoterolpulmonaryemphysema" %}![Path Visualization](/images/formoterolpulmonaryemphysema.png)
+{% include image.html file="formoterolpulmonaryemphysema.png" alt="formoterolpulmonaryemphysema" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Bronchus | AFFECTED BY | Pulmonary Emphysema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00983#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00983#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00983#mechanism-of-action](https://go.drugbank.com/drugs/DB00983#mechanism-of-action){:target="_blank"}

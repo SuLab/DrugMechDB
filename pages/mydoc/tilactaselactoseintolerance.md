@@ -5,7 +5,7 @@ permalink: tilactaselactoseintolerance.html
 toc: false 
 ---
 
-{% include image.html file="tilactaselactoseintolerance.png" alt="tilactaselactoseintolerance" %}![Path Visualization](/images/tilactaselactoseintolerance.png)
+{% include image.html file="tilactaselactoseintolerance.png" alt="tilactaselactoseintolerance" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Intestinal Absorption | DISRUPTED BY | Lactose Intolerance |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB13761#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB13761#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB13761#mechanism-of-action](https://go.drugbank.com/drugs/DB13761#mechanism-of-action){:target="_blank"}

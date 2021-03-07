@@ -5,7 +5,7 @@ permalink: pindololhypertensivedisorder2.html
 toc: false 
 ---
 
-{% include image.html file="pindololhypertensivedisorder2.png" alt="pindololhypertensivedisorder2" %}![Path Visualization](/images/pindololhypertensivedisorder2.png)
+{% include image.html file="pindololhypertensivedisorder2.png" alt="pindololhypertensivedisorder2" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Increased Cardiac Output | POSITIVELY CORRELATED WITH | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00960#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00960#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00960#mechanism-of-action](https://go.drugbank.com/drugs/DB00960#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: levobunololopenangleglaucoma3.html
 toc: false 
 ---
 
-{% include image.html file="levobunololopenangleglaucoma3.png" alt="levobunololopenangleglaucoma3" %}![Path Visualization](/images/levobunololopenangleglaucoma3.png)
+{% include image.html file="levobunololopenangleglaucoma3.png" alt="levobunololopenangleglaucoma3" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Intraocular Pressure | TREATS | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01210#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01210#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01210#mechanism-of-action](https://go.drugbank.com/drugs/DB01210#mechanism-of-action){:target="_blank"}

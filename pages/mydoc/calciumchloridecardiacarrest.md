@@ -5,7 +5,7 @@ permalink: calciumchloridecardiacarrest.html
 toc: false 
 ---
 
-{% include image.html file="calciumchloridecardiacarrest.png" alt="calciumchloridecardiacarrest" %}![Path Visualization](/images/calciumchloridecardiacarrest.png)
+{% include image.html file="calciumchloridecardiacarrest.png" alt="calciumchloridecardiacarrest" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Cardiac Muscle | CORRELATED WITH | Cardiac Arrest |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB01164#mechanism-of-action){:target="_blank"}

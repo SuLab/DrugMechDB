@@ -5,7 +5,7 @@ permalink: levofloxacinpyelonephritis.html
 toc: false 
 ---
 
-{% include image.html file="levofloxacinpyelonephritis.png" alt="levofloxacinpyelonephritis" %}![Path Visualization](/images/levofloxacinpyelonephritis.png)
+{% include image.html file="levofloxacinpyelonephritis.png" alt="levofloxacinpyelonephritis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | E. Coli | CAUSES | Pyelonephritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01137#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01137#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01137#mechanism-of-action](https://go.drugbank.com/drugs/DB01137#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: amoxapinedepressivedisorder3.html
 toc: false 
 ---
 
-{% include image.html file="amoxapinedepressivedisorder3.png" alt="amoxapinedepressivedisorder3" %}![Path Visualization](/images/amoxapinedepressivedisorder3.png)
+{% include image.html file="amoxapinedepressivedisorder3.png" alt="amoxapinedepressivedisorder3" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Regulation Of Dopamine Uptake Involved In Synaptic Transmission | POSITIVELY CORRELATED WITH | Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00543#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00543#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00543#mechanism-of-action](https://go.drugbank.com/drugs/DB00543#mechanism-of-action){:target="_blank"}

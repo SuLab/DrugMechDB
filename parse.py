@@ -106,10 +106,7 @@ def generate_path_pages():
 
         if os.path.exists("images/" + outfile_name + ".png"):
             os.remove("images/" + outfile_name + ".png")
-        try:
-            plt.savefig("images/" + outfile_name + ".png")
-        except:
-            print("ValueError on " + outfile_name)
+        plt.savefig("images/" + outfile_name + ".png")
 
         plt.close(fig=None)
         ax.clear()
@@ -126,9 +123,8 @@ def generate_path_pages():
                 output=output, title=path_title, permalink=outfile_name)
 
             output.write('{% include image.html file="' + outfile_name + '.png" alt="' +
-                         outfile_name + '" %}')
-            output.write("![Path Visualization](/images/" +
-                         outfile_name + ".png)\n\n")
+                         outfile_name + '" %}\n\n')
+
             output.write("## Concepts\n\n")
             output.write("|------------|------|---------|\n")
             output.write("| Identifier | Name | Type    |\n")
@@ -151,7 +147,7 @@ def generate_path_pages():
             if 'drugbank' in path["graph"]:  # generate drugbank url if available
                 if path["graph"]['drugbank'] is not None:
                     url = ("https://go.drugbank.com/drugs/" +
-                           path['graph']['drugbank'] +
+                           path['graph']['drugbank'].split(':', 1)[1] +
                            "#mechanism-of-action")
                     output.write("\nReference: [" + url + "](" + url +
                                  "){:target=\"_blank\"}")

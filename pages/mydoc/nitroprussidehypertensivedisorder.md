@@ -5,7 +5,7 @@ permalink: nitroprussidehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="nitroprussidehypertensivedisorder.png" alt="nitroprussidehypertensivedisorder" %}![Path Visualization](/images/nitroprussidehypertensivedisorder.png)
+{% include image.html file="nitroprussidehypertensivedisorder.png" alt="nitroprussidehypertensivedisorder" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Blood Pressure | POSITIVELY CORRELATED WITH | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00325#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00325#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00325#mechanism-of-action](https://go.drugbank.com/drugs/DB00325#mechanism-of-action){:target="_blank"}

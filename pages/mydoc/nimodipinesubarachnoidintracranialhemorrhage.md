@@ -5,7 +5,7 @@ permalink: nimodipinesubarachnoidintracranialhemorrhage.html
 toc: false 
 ---
 
-{% include image.html file="nimodipinesubarachnoidintracranialhemorrhage.png" alt="nimodipinesubarachnoidintracranialhemorrhage" %}![Path Visualization](/images/nimodipinesubarachnoidintracranialhemorrhage.png)
+{% include image.html file="nimodipinesubarachnoidintracranialhemorrhage.png" alt="nimodipinesubarachnoidintracranialhemorrhage" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Blood Pressure | POSITIVELY CORRELATED WITH | Subarachnoid Intracranial Hemorrhage |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00393#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00393#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00393#mechanism-of-action](https://go.drugbank.com/drugs/DB00393#mechanism-of-action){:target="_blank"}

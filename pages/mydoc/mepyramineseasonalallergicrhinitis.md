@@ -5,7 +5,7 @@ permalink: mepyramineseasonalallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="mepyramineseasonalallergicrhinitis.png" alt="mepyramineseasonalallergicrhinitis" %}![Path Visualization](/images/mepyramineseasonalallergicrhinitis.png)
+{% include image.html file="mepyramineseasonalallergicrhinitis.png" alt="mepyramineseasonalallergicrhinitis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Nose | AFFECTED BY | Seasonal Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB06691#mechanism-of-action){:target="_blank"}

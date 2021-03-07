@@ -5,7 +5,7 @@ permalink: clobetasolpropionatecontactdermatitis2.html
 toc: false 
 ---
 
-{% include image.html file="clobetasolpropionatecontactdermatitis2.png" alt="clobetasolpropionatecontactdermatitis2" %}![Path Visualization](/images/clobetasolpropionatecontactdermatitis2.png)
+{% include image.html file="clobetasolpropionatecontactdermatitis2.png" alt="clobetasolpropionatecontactdermatitis2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammatory Process | CORRELATED WITH | Contact Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB11750#mechanism-of-action){:target="_blank"}

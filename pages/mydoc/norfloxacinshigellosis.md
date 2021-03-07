@@ -5,7 +5,7 @@ permalink: norfloxacinshigellosis.html
 toc: false 
 ---
 
-{% include image.html file="norfloxacinshigellosis.png" alt="norfloxacinshigellosis" %}![Path Visualization](/images/norfloxacinshigellosis.png)
+{% include image.html file="norfloxacinshigellosis.png" alt="norfloxacinshigellosis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Shigella Dysenteriae | CAUSES | Shigellosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01059#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01059#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01059#mechanism-of-action](https://go.drugbank.com/drugs/DB01059#mechanism-of-action){:target="_blank"}

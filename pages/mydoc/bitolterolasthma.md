@@ -5,7 +5,7 @@ permalink: bitolterolasthma.html
 toc: false 
 ---
 
-{% include image.html file="bitolterolasthma.png" alt="bitolterolasthma" %}![Path Visualization](/images/bitolterolasthma.png)
+{% include image.html file="bitolterolasthma.png" alt="bitolterolasthma" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Inflammatory Response | CAUSES | Asthma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00901#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00901#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00901#mechanism-of-action](https://go.drugbank.com/drugs/DB00901#mechanism-of-action){:target="_blank"}

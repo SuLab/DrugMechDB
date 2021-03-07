@@ -5,7 +5,7 @@ permalink: medrysoneuveitis.html
 toc: false 
 ---
 
-{% include image.html file="medrysoneuveitis.png" alt="medrysoneuveitis" %}![Path Visualization](/images/medrysoneuveitis.png)
+{% include image.html file="medrysoneuveitis.png" alt="medrysoneuveitis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Inflammatory Response | CAUSES | Uveitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB00253#mechanism-of-action){:target="_blank"}

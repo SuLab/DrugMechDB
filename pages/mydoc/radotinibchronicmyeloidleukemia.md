@@ -5,7 +5,7 @@ permalink: radotinibchronicmyeloidleukemia.html
 toc: false 
 ---
 
-{% include image.html file="radotinibchronicmyeloidleukemia.png" alt="radotinibchronicmyeloidleukemia" %}![Path Visualization](/images/radotinibchronicmyeloidleukemia.png)
+{% include image.html file="radotinibchronicmyeloidleukemia.png" alt="radotinibchronicmyeloidleukemia" %}
 
 ## Concepts
 
@@ -51,4 +51,4 @@ toc: false
 | Cell Population Proliferation | POSITIVELY CORRELATED WITH | Chronic Myeloid Leukemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12323#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12323#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12323#mechanism-of-action](https://go.drugbank.com/drugs/DB12323#mechanism-of-action){:target="_blank"}

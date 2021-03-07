@@ -5,7 +5,7 @@ permalink: amfetamineobesity2.html
 toc: false 
 ---
 
-{% include image.html file="amfetamineobesity2.png" alt="amfetamineobesity2" %}![Path Visualization](/images/amfetamineobesity2.png)
+{% include image.html file="amfetamineobesity2.png" alt="amfetamineobesity2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Appetite | CORRELATED WITH | Obesity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB00182#mechanism-of-action){:target="_blank"}

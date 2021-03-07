@@ -5,7 +5,7 @@ permalink: prednicarbateseborrheicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbateseborrheicdermatitis.png" alt="prednicarbateseborrheicdermatitis" %}![Path Visualization](/images/prednicarbateseborrheicdermatitis.png)
+{% include image.html file="prednicarbateseborrheicdermatitis.png" alt="prednicarbateseborrheicdermatitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Seborrheic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB01130#mechanism-of-action){:target="_blank"}

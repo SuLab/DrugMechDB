@@ -5,7 +5,7 @@ permalink: delafloxacinbacterialskindiseases.html
 toc: false 
 ---
 
-{% include image.html file="delafloxacinbacterialskindiseases.png" alt="delafloxacinbacterialskindiseases" %}![Path Visualization](/images/delafloxacinbacterialskindiseases.png)
+{% include image.html file="delafloxacinbacterialskindiseases.png" alt="delafloxacinbacterialskindiseases" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Bacterial Skin Diseases |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11943#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11943#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11943#mechanism-of-action](https://go.drugbank.com/drugs/DB11943#mechanism-of-action){:target="_blank"}

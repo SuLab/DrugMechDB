@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatefever2.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatefever2.png" alt="magnesiumsalicylatefever2" %}![Path Visualization](/images/magnesiumsalicylatefever2.png)
+{% include image.html file="magnesiumsalicylatefever2.png" alt="magnesiumsalicylatefever2" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Fever |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB01397#mechanism-of-action){:target="_blank"}

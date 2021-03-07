@@ -5,7 +5,7 @@ permalink: loxapinebipolardisorder.html
 toc: false 
 ---
 
-{% include image.html file="loxapinebipolardisorder.png" alt="loxapinebipolardisorder" %}![Path Visualization](/images/loxapinebipolardisorder.png)
+{% include image.html file="loxapinebipolardisorder.png" alt="loxapinebipolardisorder" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Response To Serotonin | CORRELATED WITH | Bipolar Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00408#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00408#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00408#mechanism-of-action](https://go.drugbank.com/drugs/DB00408#mechanism-of-action){:target="_blank"}

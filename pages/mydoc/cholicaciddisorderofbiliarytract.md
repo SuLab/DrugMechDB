@@ -5,7 +5,7 @@ permalink: cholicaciddisorderofbiliarytract.html
 toc: false 
 ---
 
-{% include image.html file="cholicaciddisorderofbiliarytract.png" alt="cholicaciddisorderofbiliarytract" %}![Path Visualization](/images/cholicaciddisorderofbiliarytract.png)
+{% include image.html file="cholicaciddisorderofbiliarytract.png" alt="cholicaciddisorderofbiliarytract" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Hepatobiliary System | AFFECTED BY | Disorder Of Biliary Tract |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB02659#mechanism-of-action){:target="_blank"}

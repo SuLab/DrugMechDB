@@ -5,7 +5,7 @@ permalink: zincoxideproctitis.html
 toc: false 
 ---
 
-{% include image.html file="zincoxideproctitis.png" alt="zincoxideproctitis" %}![Path Visualization](/images/zincoxideproctitis.png)
+{% include image.html file="zincoxideproctitis.png" alt="zincoxideproctitis" %}
 
 ## Concepts
 
@@ -29,4 +29,4 @@ toc: false
 | Inflammation | OCCURS IN | Proctitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB09321#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: glutethimideinsomnia.html
 toc: false 
 ---
 
-{% include image.html file="glutethimideinsomnia.png" alt="glutethimideinsomnia" %}![Path Visualization](/images/glutethimideinsomnia.png)
+{% include image.html file="glutethimideinsomnia.png" alt="glutethimideinsomnia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Inhibitory Synapse Assembly | CORRELATED WITH | Insomnia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01437#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01437#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01437#mechanism-of-action](https://go.drugbank.com/drugs/DB01437#mechanism-of-action){:target="_blank"}

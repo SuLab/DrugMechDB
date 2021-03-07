@@ -5,7 +5,7 @@ permalink: eribulinliposarcoma.html
 toc: false 
 ---
 
-{% include image.html file="eribulinliposarcoma.png" alt="eribulinliposarcoma" %}![Path Visualization](/images/eribulinliposarcoma.png)
+{% include image.html file="eribulinliposarcoma.png" alt="eribulinliposarcoma" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Apoptotic Process | POSITIVELY CORRELATED WITH | Liposarcoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08871#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08871#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08871#mechanism-of-action](https://go.drugbank.com/drugs/DB08871#mechanism-of-action){:target="_blank"}

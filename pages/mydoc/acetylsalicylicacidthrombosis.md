@@ -5,7 +5,7 @@ permalink: acetylsalicylicacidthrombosis.html
 toc: false 
 ---
 
-{% include image.html file="acetylsalicylicacidthrombosis.png" alt="acetylsalicylicacidthrombosis" %}![Path Visualization](/images/acetylsalicylicacidthrombosis.png)
+{% include image.html file="acetylsalicylicacidthrombosis.png" alt="acetylsalicylicacidthrombosis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Platelet Activiation / Blood Coagulation | CAUSES | Thrombosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00945#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00945#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00945#mechanism-of-action](https://go.drugbank.com/drugs/DB00945#mechanism-of-action){:target="_blank"}

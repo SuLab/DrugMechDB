@@ -5,7 +5,7 @@ permalink: scopolaminecommoncold.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminecommoncold.png" alt="scopolaminecommoncold" %}![Path Visualization](/images/scopolaminecommoncold.png)
+{% include image.html file="scopolaminecommoncold.png" alt="scopolaminecommoncold" %}
 
 ## Concepts
 
@@ -44,4 +44,4 @@ toc: false
 | Nasal Mucus | OCCURS IN | Common Cold |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

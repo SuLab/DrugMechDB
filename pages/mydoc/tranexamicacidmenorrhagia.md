@@ -5,7 +5,7 @@ permalink: tranexamicacidmenorrhagia.html
 toc: false 
 ---
 
-{% include image.html file="tranexamicacidmenorrhagia.png" alt="tranexamicacidmenorrhagia" %}![Path Visualization](/images/tranexamicacidmenorrhagia.png)
+{% include image.html file="tranexamicacidmenorrhagia.png" alt="tranexamicacidmenorrhagia" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Abnormal Bleeding | POSITIVELY CORRELATED WITH | Menorrhagia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00302#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00302#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00302#mechanism-of-action](https://go.drugbank.com/drugs/DB00302#mechanism-of-action){:target="_blank"}

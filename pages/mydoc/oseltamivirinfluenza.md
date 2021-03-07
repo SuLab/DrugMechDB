@@ -5,7 +5,7 @@ permalink: oseltamivirinfluenza.html
 toc: false 
 ---
 
-{% include image.html file="oseltamivirinfluenza.png" alt="oseltamivirinfluenza" %}![Path Visualization](/images/oseltamivirinfluenza.png)
+{% include image.html file="oseltamivirinfluenza.png" alt="oseltamivirinfluenza" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Influenza A Virus (A/Chile/1/1983(H1N1)) | CAUSES | Influenza |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00198#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00198#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00198#mechanism-of-action](https://go.drugbank.com/drugs/DB00198#mechanism-of-action){:target="_blank"}

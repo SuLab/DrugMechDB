@@ -5,7 +5,7 @@ permalink: minoxidilhypertension.html
 toc: false 
 ---
 
-{% include image.html file="minoxidilhypertension.png" alt="minoxidilhypertension" %}![Path Visualization](/images/minoxidilhypertension.png)
+{% include image.html file="minoxidilhypertension.png" alt="minoxidilhypertension" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Positive Regulation Of Vasoconstriction | CONTRIBUTES TO | Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00350#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00350#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00350#mechanism-of-action](https://go.drugbank.com/drugs/DB00350#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: infliximabpsoriaticarthritis.html
 toc: false 
 ---
 
-{% include image.html file="infliximabpsoriaticarthritis.png" alt="infliximabpsoriaticarthritis" %}![Path Visualization](/images/infliximabpsoriaticarthritis.png)
+{% include image.html file="infliximabpsoriaticarthritis.png" alt="infliximabpsoriaticarthritis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Psoriatic Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB00065#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: prednicarbateprimarycutaneoustcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbateprimarycutaneoustcelllymphoma.png" alt="prednicarbateprimarycutaneoustcelllymphoma" %}![Path Visualization](/images/prednicarbateprimarycutaneoustcelllymphoma.png)
+{% include image.html file="prednicarbateprimarycutaneoustcelllymphoma.png" alt="prednicarbateprimarycutaneoustcelllymphoma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | OCCURS IN | Primary Cutaneous T-Cell Lymphoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB01130#mechanism-of-action){:target="_blank"}

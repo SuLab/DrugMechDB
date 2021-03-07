@@ -5,7 +5,7 @@ permalink: brompheniramineurticaria.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineurticaria.png" alt="brompheniramineurticaria" %}![Path Visualization](/images/brompheniramineurticaria.png)
+{% include image.html file="brompheniramineurticaria.png" alt="brompheniramineurticaria" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vascular Permeability | CORRELATED WITH | Urticaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

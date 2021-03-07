@@ -5,7 +5,7 @@ permalink: fenproporexobesity.html
 toc: false 
 ---
 
-{% include image.html file="fenproporexobesity.png" alt="fenproporexobesity" %}![Path Visualization](/images/fenproporexobesity.png)
+{% include image.html file="fenproporexobesity.png" alt="fenproporexobesity" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Appetite Stimulation | POSITIVELY CORRELATED WITH | Obesity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01550#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01550#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01550#mechanism-of-action](https://go.drugbank.com/drugs/DB01550#mechanism-of-action){:target="_blank"}

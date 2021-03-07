@@ -5,7 +5,7 @@ permalink: epinephrineopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="epinephrineopenangleglaucoma.png" alt="epinephrineopenangleglaucoma" %}![Path Visualization](/images/epinephrineopenangleglaucoma.png)
+{% include image.html file="epinephrineopenangleglaucoma.png" alt="epinephrineopenangleglaucoma" %}
 
 ## Concepts
 
@@ -45,4 +45,4 @@ toc: false
 | Ocular Hypertension | POSITIVELY CORRELATED WITH | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB00668#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: ciclopiroxpityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxpityriasisversicolor.png" alt="ciclopiroxpityriasisversicolor" %}![Path Visualization](/images/ciclopiroxpityriasisversicolor.png)
+{% include image.html file="ciclopiroxpityriasisversicolor.png" alt="ciclopiroxpityriasisversicolor" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Malassezia Globosa | CAUSES | Pityriasis Versicolor |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB01188#mechanism-of-action){:target="_blank"}

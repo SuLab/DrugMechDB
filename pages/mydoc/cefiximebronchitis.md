@@ -5,7 +5,7 @@ permalink: cefiximebronchitis.html
 toc: false 
 ---
 
-{% include image.html file="cefiximebronchitis.png" alt="cefiximebronchitis" %}![Path Visualization](/images/cefiximebronchitis.png)
+{% include image.html file="cefiximebronchitis.png" alt="cefiximebronchitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pneumoniae | CAUSES | Bronchitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

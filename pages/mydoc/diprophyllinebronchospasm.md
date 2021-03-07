@@ -5,7 +5,7 @@ permalink: diprophyllinebronchospasm.html
 toc: false 
 ---
 
-{% include image.html file="diprophyllinebronchospasm.png" alt="diprophyllinebronchospasm" %}![Path Visualization](/images/diprophyllinebronchospasm.png)
+{% include image.html file="diprophyllinebronchospasm.png" alt="diprophyllinebronchospasm" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Vasodilation | CORRELATED WITH | Bronchospasm |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB00651#mechanism-of-action){:target="_blank"}

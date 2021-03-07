@@ -5,7 +5,7 @@ permalink: triflupromazinevomiting.html
 toc: false 
 ---
 
-{% include image.html file="triflupromazinevomiting.png" alt="triflupromazinevomiting" %}![Path Visualization](/images/triflupromazinevomiting.png)
+{% include image.html file="triflupromazinevomiting.png" alt="triflupromazinevomiting" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Gastrointestinal Tract | PREVENTS | Vomitting |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB00508#mechanism-of-action){:target="_blank"}

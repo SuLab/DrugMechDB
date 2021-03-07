@@ -5,7 +5,7 @@ permalink: meropenemabdominalabscess.html
 toc: false 
 ---
 
-{% include image.html file="meropenemabdominalabscess.png" alt="meropenemabdominalabscess" %}![Path Visualization](/images/meropenemabdominalabscess.png)
+{% include image.html file="meropenemabdominalabscess.png" alt="meropenemabdominalabscess" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Escherichia Coli | POSITIVELY CORRELATED WITH | Abdominal Abscess |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB00760#mechanism-of-action){:target="_blank"}

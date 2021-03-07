@@ -5,7 +5,7 @@ permalink: sildenafilimpotence.html
 toc: false 
 ---
 
-{% include image.html file="sildenafilimpotence.png" alt="sildenafilimpotence" %}![Path Visualization](/images/sildenafilimpotence.png)
+{% include image.html file="sildenafilimpotence.png" alt="sildenafilimpotence" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Penile Erection | NEGATIVELY CORRELATED WITH | Impotence |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00203#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00203#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00203#mechanism-of-action](https://go.drugbank.com/drugs/DB00203#mechanism-of-action){:target="_blank"}

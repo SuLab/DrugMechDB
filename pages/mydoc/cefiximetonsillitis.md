@@ -5,7 +5,7 @@ permalink: cefiximetonsillitis.html
 toc: false 
 ---
 
-{% include image.html file="cefiximetonsillitis.png" alt="cefiximetonsillitis" %}![Path Visualization](/images/cefiximetonsillitis.png)
+{% include image.html file="cefiximetonsillitis.png" alt="cefiximetonsillitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Tonsillitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

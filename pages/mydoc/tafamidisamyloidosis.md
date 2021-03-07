@@ -5,7 +5,7 @@ permalink: tafamidisamyloidosis.html
 toc: false 
 ---
 
-{% include image.html file="tafamidisamyloidosis.png" alt="tafamidisamyloidosis" %}![Path Visualization](/images/tafamidisamyloidosis.png)
+{% include image.html file="tafamidisamyloidosis.png" alt="tafamidisamyloidosis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Amyloid Fibril Formation | CAUSES | Amyloidosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05352#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05352#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05352#mechanism-of-action](https://go.drugbank.com/drugs/DB05352#mechanism-of-action){:target="_blank"}

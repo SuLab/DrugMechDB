@@ -5,7 +5,7 @@ permalink: polymyxinbkeratitis.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinbkeratitis.png" alt="polymyxinbkeratitis" %}![Path Visualization](/images/polymyxinbkeratitis.png)
+{% include image.html file="polymyxinbkeratitis.png" alt="polymyxinbkeratitis" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Keratitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB00781#mechanism-of-action){:target="_blank"}

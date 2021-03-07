@@ -5,7 +5,7 @@ permalink: acrivastineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="acrivastineallergicrhinitis.png" alt="acrivastineallergicrhinitis" %}![Path Visualization](/images/acrivastineallergicrhinitis.png)
+{% include image.html file="acrivastineallergicrhinitis.png" alt="acrivastineallergicrhinitis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Nasopharynx Cavity | AFFECTED BY | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB09488#mechanism-of-action){:target="_blank"}

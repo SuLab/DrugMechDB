@@ -5,7 +5,7 @@ permalink: mogamulizumabperipheraltcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="mogamulizumabperipheraltcelllymphoma.png" alt="mogamulizumabperipheraltcelllymphoma" %}![Path Visualization](/images/mogamulizumabperipheraltcelllymphoma.png)
+{% include image.html file="mogamulizumabperipheraltcelllymphoma.png" alt="mogamulizumabperipheraltcelllymphoma" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | T Cell Proliferation | POSITIVELY CORRELATED WITH | Peripheral T-Cell Lymphoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12498#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12498#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12498#mechanism-of-action](https://go.drugbank.com/drugs/DB12498#mechanism-of-action){:target="_blank"}

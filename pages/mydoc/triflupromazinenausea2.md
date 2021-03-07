@@ -5,7 +5,7 @@ permalink: triflupromazinenausea2.html
 toc: false 
 ---
 
-{% include image.html file="triflupromazinenausea2.png" alt="triflupromazinenausea2" %}![Path Visualization](/images/triflupromazinenausea2.png)
+{% include image.html file="triflupromazinenausea2.png" alt="triflupromazinenausea2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Gastric Acid Secretion | CORRELATED WITH | Nausea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB00508#mechanism-of-action){:target="_blank"}

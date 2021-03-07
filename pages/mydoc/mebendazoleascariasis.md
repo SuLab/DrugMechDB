@@ -5,7 +5,7 @@ permalink: mebendazoleascariasis.html
 toc: false 
 ---
 
-{% include image.html file="mebendazoleascariasis.png" alt="mebendazoleascariasis" %}![Path Visualization](/images/mebendazoleascariasis.png)
+{% include image.html file="mebendazoleascariasis.png" alt="mebendazoleascariasis" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Ascaris Lumbricoides | CAUSES | Ascariasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00643#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00643#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00643#mechanism-of-action](https://go.drugbank.com/drugs/DB00643#mechanism-of-action){:target="_blank"}

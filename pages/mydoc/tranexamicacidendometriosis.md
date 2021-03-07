@@ -5,7 +5,7 @@ permalink: tranexamicacidendometriosis.html
 toc: false 
 ---
 
-{% include image.html file="tranexamicacidendometriosis.png" alt="tranexamicacidendometriosis" %}![Path Visualization](/images/tranexamicacidendometriosis.png)
+{% include image.html file="tranexamicacidendometriosis.png" alt="tranexamicacidendometriosis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Abnormal Bleeding | POSITIVELY CORRELATED WITH | Endometriosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00302#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00302#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00302#mechanism-of-action](https://go.drugbank.com/drugs/DB00302#mechanism-of-action){:target="_blank"}

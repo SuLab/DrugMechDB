@@ -5,7 +5,7 @@ permalink: phendimetrazineobesity4.html
 toc: false 
 ---
 
-{% include image.html file="phendimetrazineobesity4.png" alt="phendimetrazineobesity4" %}![Path Visualization](/images/phendimetrazineobesity4.png)
+{% include image.html file="phendimetrazineobesity4.png" alt="phendimetrazineobesity4" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Blood Pressure | CORRELATED WITH | Obesity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01579#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01579#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01579#mechanism-of-action](https://go.drugbank.com/drugs/DB01579#mechanism-of-action){:target="_blank"}

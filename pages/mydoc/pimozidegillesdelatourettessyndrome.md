@@ -5,7 +5,7 @@ permalink: pimozidegillesdelatourettessyndrome.html
 toc: false 
 ---
 
-{% include image.html file="pimozidegillesdelatourettessyndrome.png" alt="pimozidegillesdelatourettessyndrome" %}![Path Visualization](/images/pimozidegillesdelatourettessyndrome.png)
+{% include image.html file="pimozidegillesdelatourettessyndrome.png" alt="pimozidegillesdelatourettessyndrome" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Response To Dopamine | POSITIVELY CORRELATED WITH | Gilles De La Tourette'S Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01100#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01100#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01100#mechanism-of-action](https://go.drugbank.com/drugs/DB01100#mechanism-of-action){:target="_blank"}

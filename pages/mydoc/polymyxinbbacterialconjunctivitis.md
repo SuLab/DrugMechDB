@@ -5,7 +5,7 @@ permalink: polymyxinbbacterialconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinbbacterialconjunctivitis.png" alt="polymyxinbbacterialconjunctivitis" %}![Path Visualization](/images/polymyxinbbacterialconjunctivitis.png)
+{% include image.html file="polymyxinbbacterialconjunctivitis.png" alt="polymyxinbbacterialconjunctivitis" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Staphylococcus Sp | CAUSES | Bacterial Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB00781#mechanism-of-action){:target="_blank"}

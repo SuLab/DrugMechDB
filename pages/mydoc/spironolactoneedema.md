@@ -5,7 +5,7 @@ permalink: spironolactoneedema.html
 toc: false 
 ---
 
-{% include image.html file="spironolactoneedema.png" alt="spironolactoneedema" %}![Path Visualization](/images/spironolactoneedema.png)
+{% include image.html file="spironolactoneedema.png" alt="spironolactoneedema" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Renal Water Retention | CONTRIBUTES TO | Edema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB00421#mechanism-of-action){:target="_blank"}

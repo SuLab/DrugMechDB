@@ -5,7 +5,7 @@ permalink: dapsoneacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html file="dapsoneacnevulgaris.png" alt="dapsoneacnevulgaris" %}![Path Visualization](/images/dapsoneacnevulgaris.png)
+{% include image.html file="dapsoneacnevulgaris.png" alt="dapsoneacnevulgaris" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Cutibacterium Acnes | CAUSES | Acne Vulgaris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00250#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00250#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00250#mechanism-of-action](https://go.drugbank.com/drugs/DB00250#mechanism-of-action){:target="_blank"}

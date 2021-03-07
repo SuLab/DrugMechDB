@@ -5,7 +5,7 @@ permalink: bitolterolbronchiectasis.html
 toc: false 
 ---
 
-{% include image.html file="bitolterolbronchiectasis.png" alt="bitolterolbronchiectasis" %}![Path Visualization](/images/bitolterolbronchiectasis.png)
+{% include image.html file="bitolterolbronchiectasis.png" alt="bitolterolbronchiectasis" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Inflammatory Response | CAUSES | Bronchiectasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00901#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00901#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00901#mechanism-of-action](https://go.drugbank.com/drugs/DB00901#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: zidovudinehumanimmunodeficiencyvirusinfection2.html
 toc: false 
 ---
 
-{% include image.html file="zidovudinehumanimmunodeficiencyvirusinfection2.png" alt="zidovudinehumanimmunodeficiencyvirusinfection2" %}![Path Visualization](/images/zidovudinehumanimmunodeficiencyvirusinfection2.png)
+{% include image.html file="zidovudinehumanimmunodeficiencyvirusinfection2.png" alt="zidovudinehumanimmunodeficiencyvirusinfection2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Viral Dna Replication | CAUSES | Human Immunodeficiency Virus Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00495#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00495#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00495#mechanism-of-action](https://go.drugbank.com/drugs/DB00495#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: mepyramineallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="mepyramineallergicconjunctivitis.png" alt="mepyramineallergicconjunctivitis" %}![Path Visualization](/images/mepyramineallergicconjunctivitis.png)
+{% include image.html file="mepyramineallergicconjunctivitis.png" alt="mepyramineallergicconjunctivitis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Edema | OCCURS IN | Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB06691#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: darifenacinurgeincontinence.html
 toc: false 
 ---
 
-{% include image.html file="darifenacinurgeincontinence.png" alt="darifenacinurgeincontinence" %}![Path Visualization](/images/darifenacinurgeincontinence.png)
+{% include image.html file="darifenacinurgeincontinence.png" alt="darifenacinurgeincontinence" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Urination | POSITIVELY CORRELATED WITH | Urge Incontinence |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00496#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00496#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00496#mechanism-of-action](https://go.drugbank.com/drugs/DB00496#mechanism-of-action){:target="_blank"}

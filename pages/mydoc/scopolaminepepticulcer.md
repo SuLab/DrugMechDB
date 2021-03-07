@@ -5,7 +5,7 @@ permalink: scopolaminepepticulcer.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminepepticulcer.png" alt="scopolaminepepticulcer" %}![Path Visualization](/images/scopolaminepepticulcer.png)
+{% include image.html file="scopolaminepepticulcer.png" alt="scopolaminepepticulcer" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Gastric Acid | CONTRIBUTES TO | Peptic Ulcer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

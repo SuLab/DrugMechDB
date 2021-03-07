@@ -5,7 +5,7 @@ permalink: isoprenalinecardiacarrest.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalinecardiacarrest.png" alt="isoprenalinecardiacarrest" %}![Path Visualization](/images/isoprenalinecardiacarrest.png)
+{% include image.html file="isoprenalinecardiacarrest.png" alt="isoprenalinecardiacarrest" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cardiac Muscle Cell Contraction | NEGATIVELY CORRELATED WITH | Cardiac Arrest |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB01064#mechanism-of-action){:target="_blank"}

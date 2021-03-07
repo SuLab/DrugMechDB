@@ -5,7 +5,7 @@ permalink: melphalanmalignanttumorofovary2.html
 toc: false 
 ---
 
-{% include image.html file="melphalanmalignanttumorofovary2.png" alt="melphalanmalignanttumorofovary2" %}![Path Visualization](/images/melphalanmalignanttumorofovary2.png)
+{% include image.html file="melphalanmalignanttumorofovary2.png" alt="melphalanmalignanttumorofovary2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cell Population Proliferation | POSITIVELY CORRELATED WITH | Malignant Tumor Of Ovary |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01042#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01042#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01042#mechanism-of-action](https://go.drugbank.com/drugs/DB01042#mechanism-of-action){:target="_blank"}

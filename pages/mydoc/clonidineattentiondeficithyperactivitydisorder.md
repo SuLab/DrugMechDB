@@ -5,7 +5,7 @@ permalink: clonidineattentiondeficithyperactivitydisorder.html
 toc: false 
 ---
 
-{% include image.html file="clonidineattentiondeficithyperactivitydisorder.png" alt="clonidineattentiondeficithyperactivitydisorder" %}![Path Visualization](/images/clonidineattentiondeficithyperactivitydisorder.png)
+{% include image.html file="clonidineattentiondeficithyperactivitydisorder.png" alt="clonidineattentiondeficithyperactivitydisorder" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Irrelevant Attention | CORRELATED WITH | Attention Deficit Hyperactivity Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00575#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00575#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00575#mechanism-of-action](https://go.drugbank.com/drugs/DB00575#mechanism-of-action){:target="_blank"}

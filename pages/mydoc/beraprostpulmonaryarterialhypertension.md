@@ -5,7 +5,7 @@ permalink: beraprostpulmonaryarterialhypertension.html
 toc: false 
 ---
 
-{% include image.html file="beraprostpulmonaryarterialhypertension.png" alt="beraprostpulmonaryarterialhypertension" %}![Path Visualization](/images/beraprostpulmonaryarterialhypertension.png)
+{% include image.html file="beraprostpulmonaryarterialhypertension.png" alt="beraprostpulmonaryarterialhypertension" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Relaxation Of Smooth Muscle | NEGATIVELY CORRELATED WITH | Pulmonary Arterial Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05229#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05229#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05229#mechanism-of-action](https://go.drugbank.com/drugs/DB05229#mechanism-of-action){:target="_blank"}

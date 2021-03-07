@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatedysmenorrhea.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatedysmenorrhea.png" alt="magnesiumsalicylatedysmenorrhea" %}![Path Visualization](/images/magnesiumsalicylatedysmenorrhea.png)
+{% include image.html file="magnesiumsalicylatedysmenorrhea.png" alt="magnesiumsalicylatedysmenorrhea" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pain | MANIFESTATION OF | Dysmenorrhea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB01397#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: itraconazoleaspergillosis.html
 toc: false 
 ---
 
-{% include image.html file="itraconazoleaspergillosis.png" alt="itraconazoleaspergillosis" %}![Path Visualization](/images/itraconazoleaspergillosis.png)
+{% include image.html file="itraconazoleaspergillosis.png" alt="itraconazoleaspergillosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Aspergillus Spp | CAUSES | Aspergillosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB01167#mechanism-of-action){:target="_blank"}

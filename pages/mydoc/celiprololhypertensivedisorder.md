@@ -5,7 +5,7 @@ permalink: celiprololhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="celiprololhypertensivedisorder.png" alt="celiprololhypertensivedisorder" %}![Path Visualization](/images/celiprololhypertensivedisorder.png)
+{% include image.html file="celiprololhypertensivedisorder.png" alt="celiprololhypertensivedisorder" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Blood Pressure | CAUSES | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04846#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04846#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04846#mechanism-of-action](https://go.drugbank.com/drugs/DB04846#mechanism-of-action){:target="_blank"}

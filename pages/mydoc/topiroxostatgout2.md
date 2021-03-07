@@ -5,7 +5,7 @@ permalink: topiroxostatgout2.html
 toc: false 
 ---
 
-{% include image.html file="topiroxostatgout2.png" alt="topiroxostatgout2" %}![Path Visualization](/images/topiroxostatgout2.png)
+{% include image.html file="topiroxostatgout2.png" alt="topiroxostatgout2" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Uric Acid | CORRELATED WITH | Gout |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01685#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01685#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01685#mechanism-of-action](https://go.drugbank.com/drugs/DB01685#mechanism-of-action){:target="_blank"}

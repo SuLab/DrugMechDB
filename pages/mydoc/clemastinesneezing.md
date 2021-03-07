@@ -5,7 +5,7 @@ permalink: clemastinesneezing.html
 toc: false 
 ---
 
-{% include image.html file="clemastinesneezing.png" alt="clemastinesneezing" %}![Path Visualization](/images/clemastinesneezing.png)
+{% include image.html file="clemastinesneezing.png" alt="clemastinesneezing" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Response | CAUSES | Sneezing |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB00283#mechanism-of-action){:target="_blank"}

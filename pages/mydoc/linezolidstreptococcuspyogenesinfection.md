@@ -5,7 +5,7 @@ permalink: linezolidstreptococcuspyogenesinfection.html
 toc: false 
 ---
 
-{% include image.html file="linezolidstreptococcuspyogenesinfection.png" alt="linezolidstreptococcuspyogenesinfection" %}![Path Visualization](/images/linezolidstreptococcuspyogenesinfection.png)
+{% include image.html file="linezolidstreptococcuspyogenesinfection.png" alt="linezolidstreptococcuspyogenesinfection" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Streptococcus Pyogenes Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB00601#mechanism-of-action){:target="_blank"}

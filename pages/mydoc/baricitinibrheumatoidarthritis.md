@@ -5,7 +5,7 @@ permalink: baricitinibrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="baricitinibrheumatoidarthritis.png" alt="baricitinibrheumatoidarthritis" %}![Path Visualization](/images/baricitinibrheumatoidarthritis.png)
+{% include image.html file="baricitinibrheumatoidarthritis.png" alt="baricitinibrheumatoidarthritis" %}
 
 ## Concepts
 
@@ -41,4 +41,4 @@ toc: false
 | Inflammatory Response | CONTRIBUTES TO | Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11817#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11817#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11817#mechanism-of-action](https://go.drugbank.com/drugs/DB11817#mechanism-of-action){:target="_blank"}

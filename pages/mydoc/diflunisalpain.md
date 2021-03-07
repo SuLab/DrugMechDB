@@ -5,7 +5,7 @@ permalink: diflunisalpain.html
 toc: false 
 ---
 
-{% include image.html file="diflunisalpain.png" alt="diflunisalpain" %}![Path Visualization](/images/diflunisalpain.png)
+{% include image.html file="diflunisalpain.png" alt="diflunisalpain" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00861#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00861#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00861#mechanism-of-action](https://go.drugbank.com/drugs/DB00861#mechanism-of-action){:target="_blank"}

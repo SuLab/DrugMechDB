@@ -5,7 +5,7 @@ permalink: prednisolonesarcoidosis.html
 toc: false 
 ---
 
-{% include image.html file="prednisolonesarcoidosis.png" alt="prednisolonesarcoidosis" %}![Path Visualization](/images/prednisolonesarcoidosis.png)
+{% include image.html file="prednisolonesarcoidosis.png" alt="prednisolonesarcoidosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation Signaling | CAUSES | Sarcoidosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00860#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00860#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00860#mechanism-of-action](https://go.drugbank.com/drugs/DB00860#mechanism-of-action){:target="_blank"}

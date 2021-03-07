@@ -5,7 +5,7 @@ permalink: heminacuteintermittentporphyria.html
 toc: false 
 ---
 
-{% include image.html file="heminacuteintermittentporphyria.png" alt="heminacuteintermittentporphyria" %}![Path Visualization](/images/heminacuteintermittentporphyria.png)
+{% include image.html file="heminacuteintermittentporphyria.png" alt="heminacuteintermittentporphyria" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Porpholobilinogen | MANIFESTATION OF | Acute Intermittent Porphyria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB03404#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB03404#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB03404#mechanism-of-action](https://go.drugbank.com/drugs/DB03404#mechanism-of-action){:target="_blank"}

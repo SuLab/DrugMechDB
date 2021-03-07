@@ -5,7 +5,7 @@ permalink: melphalanmultiplemyeloma2.html
 toc: false 
 ---
 
-{% include image.html file="melphalanmultiplemyeloma2.png" alt="melphalanmultiplemyeloma2" %}![Path Visualization](/images/melphalanmultiplemyeloma2.png)
+{% include image.html file="melphalanmultiplemyeloma2.png" alt="melphalanmultiplemyeloma2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cell Population Proliferation | POSITIVELY CORRELATED WITH | Multiple Myeloma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01042#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01042#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01042#mechanism-of-action](https://go.drugbank.com/drugs/DB01042#mechanism-of-action){:target="_blank"}

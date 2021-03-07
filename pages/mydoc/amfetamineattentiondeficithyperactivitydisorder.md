@@ -5,7 +5,7 @@ permalink: amfetamineattentiondeficithyperactivitydisorder.html
 toc: false 
 ---
 
-{% include image.html file="amfetamineattentiondeficithyperactivitydisorder.png" alt="amfetamineattentiondeficithyperactivitydisorder" %}![Path Visualization](/images/amfetamineattentiondeficithyperactivitydisorder.png)
+{% include image.html file="amfetamineattentiondeficithyperactivitydisorder.png" alt="amfetamineattentiondeficithyperactivitydisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Synapse | NEGATIVELY CORRELATED WITH | Attention Deficit Hyperactivity Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB00182#mechanism-of-action){:target="_blank"}

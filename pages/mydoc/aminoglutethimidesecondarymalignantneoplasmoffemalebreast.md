@@ -5,7 +5,7 @@ permalink: aminoglutethimidesecondarymalignantneoplasmoffemalebreast.html
 toc: false 
 ---
 
-{% include image.html file="aminoglutethimidesecondarymalignantneoplasmoffemalebreast.png" alt="aminoglutethimidesecondarymalignantneoplasmoffemalebreast" %}![Path Visualization](/images/aminoglutethimidesecondarymalignantneoplasmoffemalebreast.png)
+{% include image.html file="aminoglutethimidesecondarymalignantneoplasmoffemalebreast.png" alt="aminoglutethimidesecondarymalignantneoplasmoffemalebreast" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cell Proliferation | POSITIVELY CORRELATED WITH | Secondary Malignant Neoplasm Of Female Breast |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00357#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00357#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00357#mechanism-of-action](https://go.drugbank.com/drugs/DB00357#mechanism-of-action){:target="_blank"}

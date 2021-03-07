@@ -5,7 +5,7 @@ permalink: amfetamineattentiondeficithyperactivitydisorder5.html
 toc: false 
 ---
 
-{% include image.html file="amfetamineattentiondeficithyperactivitydisorder5.png" alt="amfetamineattentiondeficithyperactivitydisorder5" %}![Path Visualization](/images/amfetamineattentiondeficithyperactivitydisorder5.png)
+{% include image.html file="amfetamineattentiondeficithyperactivitydisorder5.png" alt="amfetamineattentiondeficithyperactivitydisorder5" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Depression | CORRELATED WITH | Attention Deficit Hyperactivity Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB00182#mechanism-of-action){:target="_blank"}

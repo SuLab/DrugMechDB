@@ -5,7 +5,7 @@ permalink: carmofurcovid19.html
 toc: false 
 ---
 
-{% include image.html file="carmofurcovid19.png" alt="carmofurcovid19" %}![Path Visualization](/images/carmofurcovid19.png)
+{% include image.html file="carmofurcovid19.png" alt="carmofurcovid19" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Sars-Cov-2 Main Protease | TREATS | Covid-19 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09010#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09010#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09010#mechanism-of-action](https://go.drugbank.com/drugs/DB09010#mechanism-of-action){:target="_blank"}

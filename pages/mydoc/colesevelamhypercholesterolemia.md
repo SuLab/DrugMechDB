@@ -5,7 +5,7 @@ permalink: colesevelamhypercholesterolemia.html
 toc: false 
 ---
 
-{% include image.html file="colesevelamhypercholesterolemia.png" alt="colesevelamhypercholesterolemia" %}![Path Visualization](/images/colesevelamhypercholesterolemia.png)
+{% include image.html file="colesevelamhypercholesterolemia.png" alt="colesevelamhypercholesterolemia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Cholesterol | POSITIVELY CORRELATED WITH | Hypercholesterolemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00930#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00930#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00930#mechanism-of-action](https://go.drugbank.com/drugs/DB00930#mechanism-of-action){:target="_blank"}

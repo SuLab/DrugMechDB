@@ -5,7 +5,7 @@ permalink: crisaboroleatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="crisaboroleatopicdermatitis.png" alt="crisaboroleatopicdermatitis" %}![Path Visualization](/images/crisaboroleatopicdermatitis.png)
+{% include image.html file="crisaboroleatopicdermatitis.png" alt="crisaboroleatopicdermatitis" %}
 
 ## Concepts
 
@@ -60,4 +60,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Atopic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05219#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05219#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05219#mechanism-of-action](https://go.drugbank.com/drugs/DB05219#mechanism-of-action){:target="_blank"}

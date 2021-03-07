@@ -5,7 +5,7 @@ permalink: apraclonidineopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="apraclonidineopenangleglaucoma.png" alt="apraclonidineopenangleglaucoma" %}![Path Visualization](/images/apraclonidineopenangleglaucoma.png)
+{% include image.html file="apraclonidineopenangleglaucoma.png" alt="apraclonidineopenangleglaucoma" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Intraocular Pressure | AMELIORATES | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00964#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00964#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00964#mechanism-of-action](https://go.drugbank.com/drugs/DB00964#mechanism-of-action){:target="_blank"}

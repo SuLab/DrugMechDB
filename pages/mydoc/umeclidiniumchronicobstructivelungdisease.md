@@ -5,7 +5,7 @@ permalink: umeclidiniumchronicobstructivelungdisease.html
 toc: false 
 ---
 
-{% include image.html file="umeclidiniumchronicobstructivelungdisease.png" alt="umeclidiniumchronicobstructivelungdisease" %}![Path Visualization](/images/umeclidiniumchronicobstructivelungdisease.png)
+{% include image.html file="umeclidiniumchronicobstructivelungdisease.png" alt="umeclidiniumchronicobstructivelungdisease" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Inflammatory Response | CAUSES | Chronic Obstructive Lung Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09076#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09076#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09076#mechanism-of-action](https://go.drugbank.com/drugs/DB09076#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: carbamazepinelennoxgastautsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepinelennoxgastautsyndrome.png" alt="carbamazepinelennoxgastautsyndrome" %}![Path Visualization](/images/carbamazepinelennoxgastautsyndrome.png)
+{% include image.html file="carbamazepinelennoxgastautsyndrome.png" alt="carbamazepinelennoxgastautsyndrome" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Positive Regulation Of Synaptic Transmission | POSITIVELY CORRELATED WITH | Lennox-Gastaut Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB00564#mechanism-of-action){:target="_blank"}

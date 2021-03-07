@@ -5,7 +5,7 @@ permalink: abirateroneacetatemalignanttumorofprostate3.html
 toc: false 
 ---
 
-{% include image.html file="abirateroneacetatemalignanttumorofprostate3.png" alt="abirateroneacetatemalignanttumorofprostate3" %}![Path Visualization](/images/abirateroneacetatemalignanttumorofprostate3.png)
+{% include image.html file="abirateroneacetatemalignanttumorofprostate3.png" alt="abirateroneacetatemalignanttumorofprostate3" %}
 
 ## Concepts
 
@@ -44,4 +44,4 @@ toc: false
 | Increased Serum Testosterone Level | POSITIVELY CORRELATED WITH | Malignant Tumor Of Prostate |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05812#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05812#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05812#mechanism-of-action](https://go.drugbank.com/drugs/DB05812#mechanism-of-action){:target="_blank"}

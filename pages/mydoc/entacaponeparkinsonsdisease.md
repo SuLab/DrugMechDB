@@ -5,7 +5,7 @@ permalink: entacaponeparkinsonsdisease.html
 toc: false 
 ---
 
-{% include image.html file="entacaponeparkinsonsdisease.png" alt="entacaponeparkinsonsdisease" %}![Path Visualization](/images/entacaponeparkinsonsdisease.png)
+{% include image.html file="entacaponeparkinsonsdisease.png" alt="entacaponeparkinsonsdisease" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Synaptic Transmission, Dopaminergic | NEGATIVELY CORRELATED WITH | Parkinson'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00494#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00494#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00494#mechanism-of-action](https://go.drugbank.com/drugs/DB00494#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: demexiptilinedepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="demexiptilinedepressivedisorder.png" alt="demexiptilinedepressivedisorder" %}![Path Visualization](/images/demexiptilinedepressivedisorder.png)
+{% include image.html file="demexiptilinedepressivedisorder.png" alt="demexiptilinedepressivedisorder" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Depression | CORRELATED WITH | Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08998#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08998#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08998#mechanism-of-action](https://go.drugbank.com/drugs/DB08998#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: butorphanolpain.html
 toc: false 
 ---
 
-{% include image.html file="butorphanolpain.png" alt="butorphanolpain" %}![Path Visualization](/images/butorphanolpain.png)
+{% include image.html file="butorphanolpain.png" alt="butorphanolpain" %}
 
 ## Concepts
 
@@ -54,4 +54,4 @@ toc: false
 | Nociceptor | POSITIVELY CORRELATED WITH | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00611#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00611#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00611#mechanism-of-action](https://go.drugbank.com/drugs/DB00611#mechanism-of-action){:target="_blank"}

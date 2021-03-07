@@ -5,7 +5,7 @@ permalink: ibudilastasthma.html
 toc: false 
 ---
 
-{% include image.html file="ibudilastasthma.png" alt="ibudilastasthma" %}![Path Visualization](/images/ibudilastasthma.png)
+{% include image.html file="ibudilastasthma.png" alt="ibudilastasthma" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Relaxation Of Smooth Muscle | NEGATIVELY CORRELATED WITH | Asthma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05266#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05266#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05266#mechanism-of-action](https://go.drugbank.com/drugs/DB05266#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: brompheniramineseasonalallergicrhinitis3.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineseasonalallergicrhinitis3.png" alt="brompheniramineseasonalallergicrhinitis3" %}![Path Visualization](/images/brompheniramineseasonalallergicrhinitis3.png)
+{% include image.html file="brompheniramineseasonalallergicrhinitis3.png" alt="brompheniramineseasonalallergicrhinitis3" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Muscarinic Acetylcholine Receptor | TREATS | Seasonal Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

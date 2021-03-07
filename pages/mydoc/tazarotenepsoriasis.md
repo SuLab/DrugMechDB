@@ -5,7 +5,7 @@ permalink: tazarotenepsoriasis.html
 toc: false 
 ---
 
-{% include image.html file="tazarotenepsoriasis.png" alt="tazarotenepsoriasis" %}![Path Visualization](/images/tazarotenepsoriasis.png)
+{% include image.html file="tazarotenepsoriasis.png" alt="tazarotenepsoriasis" %}
 
 ## Concepts
 
@@ -51,4 +51,4 @@ toc: false
 | Dermatitis, Exfoliative | POSITIVELY CORRELATED WITH | Psoriasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00799#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00799#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00799#mechanism-of-action](https://go.drugbank.com/drugs/DB00799#mechanism-of-action){:target="_blank"}

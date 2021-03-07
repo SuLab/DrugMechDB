@@ -5,7 +5,7 @@ permalink: diprophyllinepulmonaryemphysema2.html
 toc: false 
 ---
 
-{% include image.html file="diprophyllinepulmonaryemphysema2.png" alt="diprophyllinepulmonaryemphysema2" %}![Path Visualization](/images/diprophyllinepulmonaryemphysema2.png)
+{% include image.html file="diprophyllinepulmonaryemphysema2.png" alt="diprophyllinepulmonaryemphysema2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Vasodilation | CORRELATED WITH | Pulmonary Emphysema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB00651#mechanism-of-action){:target="_blank"}

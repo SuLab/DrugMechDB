@@ -5,7 +5,7 @@ permalink: fentanylpain.html
 toc: false 
 ---
 
-{% include image.html file="fentanylpain.png" alt="fentanylpain" %}![Path Visualization](/images/fentanylpain.png)
+{% include image.html file="fentanylpain.png" alt="fentanylpain" %}
 
 ## Concepts
 
@@ -51,4 +51,4 @@ toc: false
 | Nociceptor | POSITIVELY CORRELATED WITH | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00813#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00813#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00813#mechanism-of-action](https://go.drugbank.com/drugs/DB00813#mechanism-of-action){:target="_blank"}

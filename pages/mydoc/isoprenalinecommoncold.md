@@ -5,7 +5,7 @@ permalink: isoprenalinecommoncold.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalinecommoncold.png" alt="isoprenalinecommoncold" %}![Path Visualization](/images/isoprenalinecommoncold.png)
+{% include image.html file="isoprenalinecommoncold.png" alt="isoprenalinecommoncold" %}
 
 ## Concepts
 
@@ -43,4 +43,4 @@ toc: false
 | Inflammatory Response | OCCURS IN | Common Cold |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB01064#mechanism-of-action){:target="_blank"}

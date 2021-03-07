@@ -5,7 +5,7 @@ permalink: zincoxidepityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidepityriasisversicolor.png" alt="zincoxidepityriasisversicolor" %}![Path Visualization](/images/zincoxidepityriasisversicolor.png)
+{% include image.html file="zincoxidepityriasisversicolor.png" alt="zincoxidepityriasisversicolor" %}
 
 ## Concepts
 
@@ -29,4 +29,4 @@ toc: false
 | Inflammation | OCCURS IN | Pityriasis Versicolor |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB09321#mechanism-of-action){:target="_blank"}

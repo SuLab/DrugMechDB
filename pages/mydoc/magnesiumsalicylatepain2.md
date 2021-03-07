@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatepain2.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatepain2.png" alt="magnesiumsalicylatepain2" %}![Path Visualization](/images/magnesiumsalicylatepain2.png)
+{% include image.html file="magnesiumsalicylatepain2.png" alt="magnesiumsalicylatepain2" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB01397#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: tazobactamnosocomialpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="tazobactamnosocomialpneumonia.png" alt="tazobactamnosocomialpneumonia" %}![Path Visualization](/images/tazobactamnosocomialpneumonia.png)
+{% include image.html file="tazobactamnosocomialpneumonia.png" alt="tazobactamnosocomialpneumonia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Salmonella Enterica Subsp. Enterica Serovar Typhi | CAUSES | Nosocomial Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB01606#mechanism-of-action){:target="_blank"}

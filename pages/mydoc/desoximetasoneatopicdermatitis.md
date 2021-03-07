@@ -5,7 +5,7 @@ permalink: desoximetasoneatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasoneatopicdermatitis.png" alt="desoximetasoneatopicdermatitis" %}![Path Visualization](/images/desoximetasoneatopicdermatitis.png)
+{% include image.html file="desoximetasoneatopicdermatitis.png" alt="desoximetasoneatopicdermatitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Atopic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB00547#mechanism-of-action){:target="_blank"}

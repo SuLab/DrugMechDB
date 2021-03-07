@@ -5,7 +5,7 @@ permalink: lodoxamidevernalconjunctivitis2.html
 toc: false 
 ---
 
-{% include image.html file="lodoxamidevernalconjunctivitis2.png" alt="lodoxamidevernalconjunctivitis2" %}![Path Visualization](/images/lodoxamidevernalconjunctivitis2.png)
+{% include image.html file="lodoxamidevernalconjunctivitis2.png" alt="lodoxamidevernalconjunctivitis2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammatory Response | CAUSES | Vernal Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06794#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06794#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06794#mechanism-of-action](https://go.drugbank.com/drugs/DB06794#mechanism-of-action){:target="_blank"}

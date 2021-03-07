@@ -5,7 +5,7 @@ permalink: neomycinhepaticencephalopathy.html
 toc: false 
 ---
 
-{% include image.html file="neomycinhepaticencephalopathy.png" alt="neomycinhepaticencephalopathy" %}![Path Visualization](/images/neomycinhepaticencephalopathy.png)
+{% include image.html file="neomycinhepaticencephalopathy.png" alt="neomycinhepaticencephalopathy" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Hyperammonemia | CAUSES | Hepatic Encephalopathy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB00994#mechanism-of-action){:target="_blank"}

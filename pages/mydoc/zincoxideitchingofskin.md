@@ -5,7 +5,7 @@ permalink: zincoxideitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="zincoxideitchingofskin.png" alt="zincoxideitchingofskin" %}![Path Visualization](/images/zincoxideitchingofskin.png)
+{% include image.html file="zincoxideitchingofskin.png" alt="zincoxideitchingofskin" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Histamine Secretion | CONTRIBUTES TO | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB09321#mechanism-of-action){:target="_blank"}

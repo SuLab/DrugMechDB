@@ -5,7 +5,7 @@ permalink: fluticasonepropionatebronchitis.html
 toc: false 
 ---
 
-{% include image.html file="fluticasonepropionatebronchitis.png" alt="fluticasonepropionatebronchitis" %}![Path Visualization](/images/fluticasonepropionatebronchitis.png)
+{% include image.html file="fluticasonepropionatebronchitis.png" alt="fluticasonepropionatebronchitis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammation | CAUSES | Bronchitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00588#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00588#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00588#mechanism-of-action](https://go.drugbank.com/drugs/DB00588#mechanism-of-action){:target="_blank"}

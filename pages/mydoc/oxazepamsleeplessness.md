@@ -5,7 +5,7 @@ permalink: oxazepamsleeplessness.html
 toc: false 
 ---
 
-{% include image.html file="oxazepamsleeplessness.png" alt="oxazepamsleeplessness" %}![Path Visualization](/images/oxazepamsleeplessness.png)
+{% include image.html file="oxazepamsleeplessness.png" alt="oxazepamsleeplessness" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Sleeplessness | MANIFESTATION OF | Anxiety |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00842#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00842#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00842#mechanism-of-action](https://go.drugbank.com/drugs/DB00842#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: polymyxinburinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinburinarytractinfectiousdisease.png" alt="polymyxinburinarytractinfectiousdisease" %}![Path Visualization](/images/polymyxinburinarytractinfectiousdisease.png)
+{% include image.html file="polymyxinburinarytractinfectiousdisease.png" alt="polymyxinburinarytractinfectiousdisease" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Escherichia Coli | CAUSES | Urinary Tract Infectious Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00781#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00781#mechanism-of-action](https://go.drugbank.com/drugs/DB00781#mechanism-of-action){:target="_blank"}

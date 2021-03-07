@@ -5,7 +5,7 @@ permalink: elbasvirchronichepatitisc.html
 toc: false 
 ---
 
-{% include image.html file="elbasvirchronichepatitisc.png" alt="elbasvirchronichepatitisc" %}![Path Visualization](/images/elbasvirchronichepatitisc.png)
+{% include image.html file="elbasvirchronichepatitisc.png" alt="elbasvirchronichepatitisc" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Hepatitis C Virus | CAUSES | Chronic Hepatitis C |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11574#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11574#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11574#mechanism-of-action](https://go.drugbank.com/drugs/DB11574#mechanism-of-action){:target="_blank"}

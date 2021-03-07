@@ -5,7 +5,7 @@ permalink: sodiumphosphateconstipation2.html
 toc: false 
 ---
 
-{% include image.html file="sodiumphosphateconstipation2.png" alt="sodiumphosphateconstipation2" %}![Path Visualization](/images/sodiumphosphateconstipation2.png)
+{% include image.html file="sodiumphosphateconstipation2.png" alt="sodiumphosphateconstipation2" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Intestinal Motility | NEGATIVELY CORRELATED WITH | Constipation |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09449#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09449#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09449#mechanism-of-action](https://go.drugbank.com/drugs/DB09449#mechanism-of-action){:target="_blank"}

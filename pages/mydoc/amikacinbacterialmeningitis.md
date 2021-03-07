@@ -5,7 +5,7 @@ permalink: amikacinbacterialmeningitis.html
 toc: false 
 ---
 
-{% include image.html file="amikacinbacterialmeningitis.png" alt="amikacinbacterialmeningitis" %}![Path Visualization](/images/amikacinbacterialmeningitis.png)
+{% include image.html file="amikacinbacterialmeningitis.png" alt="amikacinbacterialmeningitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacteria | CAUSES | Bacterial Meningitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00479#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00479#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00479#mechanism-of-action](https://go.drugbank.com/drugs/DB00479#mechanism-of-action){:target="_blank"}

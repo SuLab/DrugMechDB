@@ -5,7 +5,7 @@ permalink: cinnarizinemotionsickness.html
 toc: false 
 ---
 
-{% include image.html file="cinnarizinemotionsickness.png" alt="cinnarizinemotionsickness" %}![Path Visualization](/images/cinnarizinemotionsickness.png)
+{% include image.html file="cinnarizinemotionsickness.png" alt="cinnarizinemotionsickness" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Muscarinic Acetylcholine Receptor | TREATS | Motion Sickness |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00568#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00568#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00568#mechanism-of-action](https://go.drugbank.com/drugs/DB00568#mechanism-of-action){:target="_blank"}

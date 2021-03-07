@@ -5,7 +5,7 @@ permalink: belinostatperipheraltcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="belinostatperipheraltcelllymphoma.png" alt="belinostatperipheraltcelllymphoma" %}![Path Visualization](/images/belinostatperipheraltcelllymphoma.png)
+{% include image.html file="belinostatperipheraltcelllymphoma.png" alt="belinostatperipheraltcelllymphoma" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Angiogenesis | CORRELATED WITH | Peripheral T-Cell Lymphoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB05015#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB05015#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB05015#mechanism-of-action](https://go.drugbank.com/drugs/DB05015#mechanism-of-action){:target="_blank"}

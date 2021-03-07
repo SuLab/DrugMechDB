@@ -5,7 +5,7 @@ permalink: teriflunomidemultiplesclerosis.html
 toc: false 
 ---
 
-{% include image.html file="teriflunomidemultiplesclerosis.png" alt="teriflunomidemultiplesclerosis" %}![Path Visualization](/images/teriflunomidemultiplesclerosis.png)
+{% include image.html file="teriflunomidemultiplesclerosis.png" alt="teriflunomidemultiplesclerosis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Negative Regulation Of Axon Regeneration | CONTRIBUTES TO | Multiple Sclerosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08880#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08880#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08880#mechanism-of-action](https://go.drugbank.com/drugs/DB08880#mechanism-of-action){:target="_blank"}

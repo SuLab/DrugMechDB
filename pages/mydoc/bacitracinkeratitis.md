@@ -5,7 +5,7 @@ permalink: bacitracinkeratitis.html
 toc: false 
 ---
 
-{% include image.html file="bacitracinkeratitis.png" alt="bacitracinkeratitis" %}![Path Visualization](/images/bacitracinkeratitis.png)
+{% include image.html file="bacitracinkeratitis.png" alt="bacitracinkeratitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Keratitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00626#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00626#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00626#mechanism-of-action](https://go.drugbank.com/drugs/DB00626#mechanism-of-action){:target="_blank"}

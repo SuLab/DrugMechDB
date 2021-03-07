@@ -5,7 +5,7 @@ permalink: eplerenonehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="eplerenonehypertensivedisorder.png" alt="eplerenonehypertensivedisorder" %}![Path Visualization](/images/eplerenonehypertensivedisorder.png)
+{% include image.html file="eplerenonehypertensivedisorder.png" alt="eplerenonehypertensivedisorder" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Diastolic Blood Pressure | PREVENTS | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00700#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00700#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00700#mechanism-of-action](https://go.drugbank.com/drugs/DB00700#mechanism-of-action){:target="_blank"}

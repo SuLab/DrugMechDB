@@ -5,7 +5,7 @@ permalink: fimasartanhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="fimasartanhypertensivedisorder.png" alt="fimasartanhypertensivedisorder" %}![Path Visualization](/images/fimasartanhypertensivedisorder.png)
+{% include image.html file="fimasartanhypertensivedisorder.png" alt="fimasartanhypertensivedisorder" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Blood Pressure | CORRELATED WITH | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09279#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09279#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09279#mechanism-of-action](https://go.drugbank.com/drugs/DB09279#mechanism-of-action){:target="_blank"}

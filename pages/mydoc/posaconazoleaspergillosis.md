@@ -5,7 +5,7 @@ permalink: posaconazoleaspergillosis.html
 toc: false 
 ---
 
-{% include image.html file="posaconazoleaspergillosis.png" alt="posaconazoleaspergillosis" %}![Path Visualization](/images/posaconazoleaspergillosis.png)
+{% include image.html file="posaconazoleaspergillosis.png" alt="posaconazoleaspergillosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Aspergillus | CAUSES | Aspergillosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB01263#mechanism-of-action){:target="_blank"}

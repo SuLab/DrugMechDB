@@ -5,7 +5,7 @@ permalink: fesoterodineurgeincontinence.html
 toc: false 
 ---
 
-{% include image.html file="fesoterodineurgeincontinence.png" alt="fesoterodineurgeincontinence" %}![Path Visualization](/images/fesoterodineurgeincontinence.png)
+{% include image.html file="fesoterodineurgeincontinence.png" alt="fesoterodineurgeincontinence" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Urination | POSITIVELY CORRELATED WITH | Urge Incontinence |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06702#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06702#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06702#mechanism-of-action](https://go.drugbank.com/drugs/DB06702#mechanism-of-action){:target="_blank"}

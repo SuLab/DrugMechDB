@@ -5,7 +5,7 @@ permalink: ipratropiumallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumallergicrhinitis.png" alt="ipratropiumallergicrhinitis" %}![Path Visualization](/images/ipratropiumallergicrhinitis.png)
+{% include image.html file="ipratropiumallergicrhinitis.png" alt="ipratropiumallergicrhinitis" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB00332#mechanism-of-action){:target="_blank"}

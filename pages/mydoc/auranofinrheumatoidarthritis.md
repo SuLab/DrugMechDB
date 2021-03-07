@@ -5,7 +5,7 @@ permalink: auranofinrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="auranofinrheumatoidarthritis.png" alt="auranofinrheumatoidarthritis" %}![Path Visualization](/images/auranofinrheumatoidarthritis.png)
+{% include image.html file="auranofinrheumatoidarthritis.png" alt="auranofinrheumatoidarthritis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammation | CAUSES | Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00995#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00995#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00995#mechanism-of-action](https://go.drugbank.com/drugs/DB00995#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatebackache.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatebackache.png" alt="magnesiumsalicylatebackache" %}![Path Visualization](/images/magnesiumsalicylatebackache.png)
+{% include image.html file="magnesiumsalicylatebackache.png" alt="magnesiumsalicylatebackache" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Backache |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB01397#mechanism-of-action){:target="_blank"}

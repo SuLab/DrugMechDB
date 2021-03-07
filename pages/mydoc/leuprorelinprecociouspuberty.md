@@ -5,7 +5,7 @@ permalink: leuprorelinprecociouspuberty.html
 toc: false 
 ---
 
-{% include image.html file="leuprorelinprecociouspuberty.png" alt="leuprorelinprecociouspuberty" %}![Path Visualization](/images/leuprorelinprecociouspuberty.png)
+{% include image.html file="leuprorelinprecociouspuberty.png" alt="leuprorelinprecociouspuberty" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Progesterone Biosynthetic Process | POSITIVELY CORRELATED WITH | Precocious Puberty |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00007#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00007#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00007#mechanism-of-action](https://go.drugbank.com/drugs/DB00007#mechanism-of-action){:target="_blank"}

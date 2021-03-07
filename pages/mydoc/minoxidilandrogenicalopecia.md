@@ -5,7 +5,7 @@ permalink: minoxidilandrogenicalopecia.html
 toc: false 
 ---
 
-{% include image.html file="minoxidilandrogenicalopecia.png" alt="minoxidilandrogenicalopecia" %}![Path Visualization](/images/minoxidilandrogenicalopecia.png)
+{% include image.html file="minoxidilandrogenicalopecia.png" alt="minoxidilandrogenicalopecia" %}
 
 ## Concepts
 
@@ -46,4 +46,4 @@ toc: false
 | Hair Growth | NEGATIVELY CORRELATED WITH | Androgenic Alopecia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00350#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00350#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00350#mechanism-of-action](https://go.drugbank.com/drugs/DB00350#mechanism-of-action){:target="_blank"}

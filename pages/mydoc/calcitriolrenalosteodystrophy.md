@@ -5,7 +5,7 @@ permalink: calcitriolrenalosteodystrophy.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolrenalosteodystrophy.png" alt="calcitriolrenalosteodystrophy" %}![Path Visualization](/images/calcitriolrenalosteodystrophy.png)
+{% include image.html file="calcitriolrenalosteodystrophy.png" alt="calcitriolrenalosteodystrophy" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Abnormal Circulating Calcium Concentration | POSITIVELY CORRELATED WITH | Renal Osteodystrophy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB00136#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: ciclopiroxseborrheicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxseborrheicdermatitis.png" alt="ciclopiroxseborrheicdermatitis" %}![Path Visualization](/images/ciclopiroxseborrheicdermatitis.png)
+{% include image.html file="ciclopiroxseborrheicdermatitis.png" alt="ciclopiroxseborrheicdermatitis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Malassezia | CAUSES | Seborrheic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB01188#mechanism-of-action){:target="_blank"}

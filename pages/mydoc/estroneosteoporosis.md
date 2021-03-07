@@ -5,7 +5,7 @@ permalink: estroneosteoporosis.html
 toc: false 
 ---
 
-{% include image.html file="estroneosteoporosis.png" alt="estroneosteoporosis" %}![Path Visualization](/images/estroneosteoporosis.png)
+{% include image.html file="estroneosteoporosis.png" alt="estroneosteoporosis" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Estrogen | TREATS | Osteoporosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00655#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00655#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00655#mechanism-of-action](https://go.drugbank.com/drugs/DB00655#mechanism-of-action){:target="_blank"}

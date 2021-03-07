@@ -5,7 +5,7 @@ permalink: chlorphenesincarbamatespasticity.html
 toc: false 
 ---
 
-{% include image.html file="chlorphenesincarbamatespasticity.png" alt="chlorphenesincarbamatespasticity" %}![Path Visualization](/images/chlorphenesincarbamatespasticity.png)
+{% include image.html file="chlorphenesincarbamatespasticity.png" alt="chlorphenesincarbamatespasticity" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Relaxation Of Muscle | NEGATIVELY CORRELATED WITH | Spasticity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00856#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00856#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00856#mechanism-of-action](https://go.drugbank.com/drugs/DB00856#mechanism-of-action){:target="_blank"}

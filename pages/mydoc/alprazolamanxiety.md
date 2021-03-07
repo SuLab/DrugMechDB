@@ -5,7 +5,7 @@ permalink: alprazolamanxiety.html
 toc: false 
 ---
 
-{% include image.html file="alprazolamanxiety.png" alt="alprazolamanxiety" %}![Path Visualization](/images/alprazolamanxiety.png)
+{% include image.html file="alprazolamanxiety.png" alt="alprazolamanxiety" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Action Potential | ACTIVELY INVOLVED IN | Anxiety |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00404#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00404#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00404#mechanism-of-action](https://go.drugbank.com/drugs/DB00404#mechanism-of-action){:target="_blank"}

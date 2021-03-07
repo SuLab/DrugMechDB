@@ -5,7 +5,7 @@ permalink: epinephrineopenangleglaucoma3.html
 toc: false 
 ---
 
-{% include image.html file="epinephrineopenangleglaucoma3.png" alt="epinephrineopenangleglaucoma3" %}![Path Visualization](/images/epinephrineopenangleglaucoma3.png)
+{% include image.html file="epinephrineopenangleglaucoma3.png" alt="epinephrineopenangleglaucoma3" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Retinal Ganglion Cell | DISRUPTED BY | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB00668#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: tazobactambacterialpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="tazobactambacterialpneumonia.png" alt="tazobactambacterialpneumonia" %}![Path Visualization](/images/tazobactambacterialpneumonia.png)
+{% include image.html file="tazobactambacterialpneumonia.png" alt="tazobactambacterialpneumonia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Escherichia Coli | CAUSES | Bacterial Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB01606#mechanism-of-action){:target="_blank"}

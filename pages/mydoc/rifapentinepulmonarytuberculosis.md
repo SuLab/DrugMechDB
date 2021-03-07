@@ -5,7 +5,7 @@ permalink: rifapentinepulmonarytuberculosis.html
 toc: false 
 ---
 
-{% include image.html file="rifapentinepulmonarytuberculosis.png" alt="rifapentinepulmonarytuberculosis" %}![Path Visualization](/images/rifapentinepulmonarytuberculosis.png)
+{% include image.html file="rifapentinepulmonarytuberculosis.png" alt="rifapentinepulmonarytuberculosis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Mycobacterium Tuberculosis Infection | CAUSES | Pulmonary Tuberculosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01201#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01201#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01201#mechanism-of-action](https://go.drugbank.com/drugs/DB01201#mechanism-of-action){:target="_blank"}

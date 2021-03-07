@@ -5,7 +5,7 @@ permalink: vasopressinnocturnalenuresis.html
 toc: false 
 ---
 
-{% include image.html file="vasopressinnocturnalenuresis.png" alt="vasopressinnocturnalenuresis" %}![Path Visualization](/images/vasopressinnocturnalenuresis.png)
+{% include image.html file="vasopressinnocturnalenuresis.png" alt="vasopressinnocturnalenuresis" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Urination | MANIFESTATION OF | Nocturnal Enuresis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00067#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00067#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00067#mechanism-of-action](https://go.drugbank.com/drugs/DB00067#mechanism-of-action){:target="_blank"}

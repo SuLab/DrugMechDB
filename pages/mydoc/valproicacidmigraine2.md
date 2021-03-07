@@ -5,7 +5,7 @@ permalink: valproicacidmigraine2.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidmigraine2.png" alt="valproicacidmigraine2" %}![Path Visualization](/images/valproicacidmigraine2.png)
+{% include image.html file="valproicacidmigraine2.png" alt="valproicacidmigraine2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Prostaglandins Production | PREVENTS | Migraine |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: benzbromaronegout.html
 toc: false 
 ---
 
-{% include image.html file="benzbromaronegout.png" alt="benzbromaronegout" %}![Path Visualization](/images/benzbromaronegout.png)
+{% include image.html file="benzbromaronegout.png" alt="benzbromaronegout" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Urate Salt Excretion | NEGATIVELY CORRELATED WITH | Gout |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12319#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12319#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12319#mechanism-of-action](https://go.drugbank.com/drugs/DB12319#mechanism-of-action){:target="_blank"}

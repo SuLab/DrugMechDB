@@ -5,7 +5,7 @@ permalink: brompheniramineallergicrhinitis2.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineallergicrhinitis2.png" alt="brompheniramineallergicrhinitis2" %}![Path Visualization](/images/brompheniramineallergicrhinitis2.png)
+{% include image.html file="brompheniramineallergicrhinitis2.png" alt="brompheniramineallergicrhinitis2" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | H1 Histamine Receptor | TREATS | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

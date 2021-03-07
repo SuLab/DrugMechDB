@@ -5,7 +5,7 @@ permalink: thonzoniumotitisexterna.html
 toc: false 
 ---
 
-{% include image.html file="thonzoniumotitisexterna.png" alt="thonzoniumotitisexterna" %}![Path Visualization](/images/thonzoniumotitisexterna.png)
+{% include image.html file="thonzoniumotitisexterna.png" alt="thonzoniumotitisexterna" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Candida Albicans | CAUSES | Otitis Externa |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09552#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09552#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09552#mechanism-of-action](https://go.drugbank.com/drugs/DB09552#mechanism-of-action){:target="_blank"}

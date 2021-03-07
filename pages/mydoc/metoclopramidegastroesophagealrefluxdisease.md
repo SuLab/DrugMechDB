@@ -5,7 +5,7 @@ permalink: metoclopramidegastroesophagealrefluxdisease.html
 toc: false 
 ---
 
-{% include image.html file="metoclopramidegastroesophagealrefluxdisease.png" alt="metoclopramidegastroesophagealrefluxdisease" %}![Path Visualization](/images/metoclopramidegastroesophagealrefluxdisease.png)
+{% include image.html file="metoclopramidegastroesophagealrefluxdisease.png" alt="metoclopramidegastroesophagealrefluxdisease" %}
 
 ## Concepts
 
@@ -41,4 +41,4 @@ toc: false
 | Gastric Emptying | NEGATIVELY CORRELATED WITH | Gastroesophageal Reflux Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01233#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01233#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01233#mechanism-of-action](https://go.drugbank.com/drugs/DB01233#mechanism-of-action){:target="_blank"}

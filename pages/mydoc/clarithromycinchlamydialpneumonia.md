@@ -5,7 +5,7 @@ permalink: clarithromycinchlamydialpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinchlamydialpneumonia.png" alt="clarithromycinchlamydialpneumonia" %}![Path Visualization](/images/clarithromycinchlamydialpneumonia.png)
+{% include image.html file="clarithromycinchlamydialpneumonia.png" alt="clarithromycinchlamydialpneumonia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Chlamydia Pneumoniae | OCCURS IN | Chlamydial Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB01211#mechanism-of-action){:target="_blank"}

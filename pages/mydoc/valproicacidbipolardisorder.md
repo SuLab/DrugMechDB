@@ -5,7 +5,7 @@ permalink: valproicacidbipolardisorder.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidbipolardisorder.png" alt="valproicacidbipolardisorder" %}![Path Visualization](/images/valproicacidbipolardisorder.png)
+{% include image.html file="valproicacidbipolardisorder.png" alt="valproicacidbipolardisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inositol | CORRELATED WITH | Bipolar Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: terbutalineasthma.html
 toc: false 
 ---
 
-{% include image.html file="terbutalineasthma.png" alt="terbutalineasthma" %}![Path Visualization](/images/terbutalineasthma.png)
+{% include image.html file="terbutalineasthma.png" alt="terbutalineasthma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Relaxation Of Smooth Muscle | NEGATIVELY CORRELATED WITH | Asthma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB00871#mechanism-of-action){:target="_blank"}

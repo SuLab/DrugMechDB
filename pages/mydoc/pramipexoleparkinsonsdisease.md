@@ -5,7 +5,7 @@ permalink: pramipexoleparkinsonsdisease.html
 toc: false 
 ---
 
-{% include image.html file="pramipexoleparkinsonsdisease.png" alt="pramipexoleparkinsonsdisease" %}![Path Visualization](/images/pramipexoleparkinsonsdisease.png)
+{% include image.html file="pramipexoleparkinsonsdisease.png" alt="pramipexoleparkinsonsdisease" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Nigrostriatal Tract | AFFECTED BY | Parkinson'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00413#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00413#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00413#mechanism-of-action](https://go.drugbank.com/drugs/DB00413#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: imatinibsystemicmastcelldisease.html
 toc: false 
 ---
 
-{% include image.html file="imatinibsystemicmastcelldisease.png" alt="imatinibsystemicmastcelldisease" %}![Path Visualization](/images/imatinibsystemicmastcelldisease.png)
+{% include image.html file="imatinibsystemicmastcelldisease.png" alt="imatinibsystemicmastcelldisease" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Cellular Proliferation | CAUSES | Systemic Mast Cell Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00619#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00619#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00619#mechanism-of-action](https://go.drugbank.com/drugs/DB00619#mechanism-of-action){:target="_blank"}

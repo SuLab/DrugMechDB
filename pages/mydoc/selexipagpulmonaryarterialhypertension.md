@@ -5,7 +5,7 @@ permalink: selexipagpulmonaryarterialhypertension.html
 toc: false 
 ---
 
-{% include image.html file="selexipagpulmonaryarterialhypertension.png" alt="selexipagpulmonaryarterialhypertension" %}![Path Visualization](/images/selexipagpulmonaryarterialhypertension.png)
+{% include image.html file="selexipagpulmonaryarterialhypertension.png" alt="selexipagpulmonaryarterialhypertension" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Blood Pressure | POSITIVELY CORRELATED WITH | Pulmonary Arterial Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11362#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11362#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11362#mechanism-of-action](https://go.drugbank.com/drugs/DB11362#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: bitolterolpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html file="bitolterolpulmonaryemphysema.png" alt="bitolterolpulmonaryemphysema" %}![Path Visualization](/images/bitolterolpulmonaryemphysema.png)
+{% include image.html file="bitolterolpulmonaryemphysema.png" alt="bitolterolpulmonaryemphysema" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Inflammatory Response | CAUSES | Pulmonary Emphysema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00901#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00901#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00901#mechanism-of-action](https://go.drugbank.com/drugs/DB00901#mechanism-of-action){:target="_blank"}

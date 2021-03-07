@@ -5,7 +5,7 @@ permalink: anakinracryopyrinassociatedperiodicsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="anakinracryopyrinassociatedperiodicsyndrome.png" alt="anakinracryopyrinassociatedperiodicsyndrome" %}![Path Visualization](/images/anakinracryopyrinassociatedperiodicsyndrome.png)
+{% include image.html file="anakinracryopyrinassociatedperiodicsyndrome.png" alt="anakinracryopyrinassociatedperiodicsyndrome" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Cryopyrin Associated Periodic Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00026#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00026#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00026#mechanism-of-action](https://go.drugbank.com/drugs/DB00026#mechanism-of-action){:target="_blank"}

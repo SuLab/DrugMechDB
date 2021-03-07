@@ -5,7 +5,7 @@ permalink: demeclocyclinerickettsialpox.html
 toc: false 
 ---
 
-{% include image.html file="demeclocyclinerickettsialpox.png" alt="demeclocyclinerickettsialpox" %}![Path Visualization](/images/demeclocyclinerickettsialpox.png)
+{% include image.html file="demeclocyclinerickettsialpox.png" alt="demeclocyclinerickettsialpox" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Rickettsia Akari | CAUSES | Rickettsialpox |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00618#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00618#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00618#mechanism-of-action](https://go.drugbank.com/drugs/DB00618#mechanism-of-action){:target="_blank"}

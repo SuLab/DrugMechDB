@@ -5,7 +5,7 @@ permalink: clemastineallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="clemastineallergicconjunctivitis.png" alt="clemastineallergicconjunctivitis" %}![Path Visualization](/images/clemastineallergicconjunctivitis.png)
+{% include image.html file="clemastineallergicconjunctivitis.png" alt="clemastineallergicconjunctivitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Response | CAUSES | Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00283#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00283#mechanism-of-action](https://go.drugbank.com/drugs/DB00283#mechanism-of-action){:target="_blank"}

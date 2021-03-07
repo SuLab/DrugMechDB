@@ -5,7 +5,7 @@ permalink: cyproheptadineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadineallergicrhinitis.png" alt="cyproheptadineallergicrhinitis" %}![Path Visualization](/images/cyproheptadineallergicrhinitis.png)
+{% include image.html file="cyproheptadineallergicrhinitis.png" alt="cyproheptadineallergicrhinitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Nose | AFFECTED BY | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB00434#mechanism-of-action){:target="_blank"}

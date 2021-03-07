@@ -5,7 +5,7 @@ permalink: sinecatechinscondylomaacuminatum.html
 toc: false 
 ---
 
-{% include image.html file="sinecatechinscondylomaacuminatum.png" alt="sinecatechinscondylomaacuminatum" %}![Path Visualization](/images/sinecatechinscondylomaacuminatum.png)
+{% include image.html file="sinecatechinscondylomaacuminatum.png" alt="sinecatechinscondylomaacuminatum" %}
 
 ## Concepts
 
@@ -48,4 +48,4 @@ toc: false
 | Human Papillomavirus | CAUSES | Condyloma Acuminatum |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01266#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01266#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01266#mechanism-of-action](https://go.drugbank.com/drugs/DB01266#mechanism-of-action){:target="_blank"}

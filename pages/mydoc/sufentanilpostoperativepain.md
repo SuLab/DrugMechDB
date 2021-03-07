@@ -5,7 +5,7 @@ permalink: sufentanilpostoperativepain.html
 toc: false 
 ---
 
-{% include image.html file="sufentanilpostoperativepain.png" alt="sufentanilpostoperativepain" %}![Path Visualization](/images/sufentanilpostoperativepain.png)
+{% include image.html file="sufentanilpostoperativepain.png" alt="sufentanilpostoperativepain" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Membrane Hyperpolarization | AMELIORATES | Postoperative Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00708#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00708#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00708#mechanism-of-action](https://go.drugbank.com/drugs/DB00708#mechanism-of-action){:target="_blank"}

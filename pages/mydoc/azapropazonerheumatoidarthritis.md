@@ -5,7 +5,7 @@ permalink: azapropazonerheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="azapropazonerheumatoidarthritis.png" alt="azapropazonerheumatoidarthritis" %}![Path Visualization](/images/azapropazonerheumatoidarthritis.png)
+{% include image.html file="azapropazonerheumatoidarthritis.png" alt="azapropazonerheumatoidarthritis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammation | CAUSES | Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}

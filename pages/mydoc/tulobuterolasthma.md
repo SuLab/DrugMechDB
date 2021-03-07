@@ -5,7 +5,7 @@ permalink: tulobuterolasthma.html
 toc: false 
 ---
 
-{% include image.html file="tulobuterolasthma.png" alt="tulobuterolasthma" %}![Path Visualization](/images/tulobuterolasthma.png)
+{% include image.html file="tulobuterolasthma.png" alt="tulobuterolasthma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Relaxation Of Smooth Muscle | NEGATIVELY CORRELATED WITH | Asthma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12248#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12248#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12248#mechanism-of-action](https://go.drugbank.com/drugs/DB12248#mechanism-of-action){:target="_blank"}

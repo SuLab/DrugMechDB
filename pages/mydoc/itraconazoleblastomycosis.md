@@ -5,7 +5,7 @@ permalink: itraconazoleblastomycosis.html
 toc: false 
 ---
 
-{% include image.html file="itraconazoleblastomycosis.png" alt="itraconazoleblastomycosis" %}![Path Visualization](/images/itraconazoleblastomycosis.png)
+{% include image.html file="itraconazoleblastomycosis.png" alt="itraconazoleblastomycosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Blastomyces Dermatitidis | CAUSES | Blastomycosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB01167#mechanism-of-action){:target="_blank"}

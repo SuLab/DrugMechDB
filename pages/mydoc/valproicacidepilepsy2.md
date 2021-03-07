@@ -5,7 +5,7 @@ permalink: valproicacidepilepsy2.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidepilepsy2.png" alt="valproicacidepilepsy2" %}![Path Visualization](/images/valproicacidepilepsy2.png)
+{% include image.html file="valproicacidepilepsy2.png" alt="valproicacidepilepsy2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Action Potential Threshold | CORRELATED WITH | Epilepsy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

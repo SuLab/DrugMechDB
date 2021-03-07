@@ -5,7 +5,7 @@ permalink: sildenafilpulmonaryarterialhypertension.html
 toc: false 
 ---
 
-{% include image.html file="sildenafilpulmonaryarterialhypertension.png" alt="sildenafilpulmonaryarterialhypertension" %}![Path Visualization](/images/sildenafilpulmonaryarterialhypertension.png)
+{% include image.html file="sildenafilpulmonaryarterialhypertension.png" alt="sildenafilpulmonaryarterialhypertension" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Blood Pressure | POSITIVELY CORRELATED WITH | Pulmonary Arterial Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00203#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00203#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00203#mechanism-of-action](https://go.drugbank.com/drugs/DB00203#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: cefiximeurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="cefiximeurinarytractinfectiousdisease.png" alt="cefiximeurinarytractinfectiousdisease" %}![Path Visualization](/images/cefiximeurinarytractinfectiousdisease.png)
+{% include image.html file="cefiximeurinarytractinfectiousdisease.png" alt="cefiximeurinarytractinfectiousdisease" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Escherichia Coli | CAUSES | Urinary Tract Infectious Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

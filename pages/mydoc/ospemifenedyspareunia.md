@@ -5,7 +5,7 @@ permalink: ospemifenedyspareunia.html
 toc: false 
 ---
 
-{% include image.html file="ospemifenedyspareunia.png" alt="ospemifenedyspareunia" %}![Path Visualization](/images/ospemifenedyspareunia.png)
+{% include image.html file="ospemifenedyspareunia.png" alt="ospemifenedyspareunia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Postmenopausal Atrophic Vaginitis | CONTRIBUTES TO | Dyspareunia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04938#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04938#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04938#mechanism-of-action](https://go.drugbank.com/drugs/DB04938#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: cyproheptadinesneezing.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadinesneezing.png" alt="cyproheptadinesneezing" %}![Path Visualization](/images/cyproheptadinesneezing.png)
+{% include image.html file="cyproheptadinesneezing.png" alt="cyproheptadinesneezing" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Trigeminal Nerve | CONTRIBUTES TO | Sneezing |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB00434#mechanism-of-action){:target="_blank"}

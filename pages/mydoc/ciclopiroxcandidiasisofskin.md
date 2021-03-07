@@ -5,7 +5,7 @@ permalink: ciclopiroxcandidiasisofskin.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxcandidiasisofskin.png" alt="ciclopiroxcandidiasisofskin" %}![Path Visualization](/images/ciclopiroxcandidiasisofskin.png)
+{% include image.html file="ciclopiroxcandidiasisofskin.png" alt="ciclopiroxcandidiasisofskin" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Candida | CAUSES | Candidiasis Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB01188#mechanism-of-action){:target="_blank"}

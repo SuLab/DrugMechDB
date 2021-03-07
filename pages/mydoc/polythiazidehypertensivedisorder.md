@@ -5,7 +5,7 @@ permalink: polythiazidehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="polythiazidehypertensivedisorder.png" alt="polythiazidehypertensivedisorder" %}![Path Visualization](/images/polythiazidehypertensivedisorder.png)
+{% include image.html file="polythiazidehypertensivedisorder.png" alt="polythiazidehypertensivedisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Renal Water Retention | AFFECTS RISK FOR | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01324#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01324#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01324#mechanism-of-action](https://go.drugbank.com/drugs/DB01324#mechanism-of-action){:target="_blank"}

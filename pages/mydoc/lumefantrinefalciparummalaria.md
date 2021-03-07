@@ -5,7 +5,7 @@ permalink: lumefantrinefalciparummalaria.html
 toc: false 
 ---
 
-{% include image.html file="lumefantrinefalciparummalaria.png" alt="lumefantrinefalciparummalaria" %}![Path Visualization](/images/lumefantrinefalciparummalaria.png)
+{% include image.html file="lumefantrinefalciparummalaria.png" alt="lumefantrinefalciparummalaria" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Plasmodium Falciparum | CAUSES | Falciparum Malaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06708#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06708#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06708#mechanism-of-action](https://go.drugbank.com/drugs/DB06708#mechanism-of-action){:target="_blank"}

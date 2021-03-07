@@ -5,7 +5,7 @@ permalink: tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.png" alt="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection" %}![Path Visualization](/images/tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.png)
+{% include image.html file="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.png" alt="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Human Immunodeficiency Virus | CAUSES | Human Immunodeficiency Virus Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00300#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00300#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00300#mechanism-of-action](https://go.drugbank.com/drugs/DB00300#mechanism-of-action){:target="_blank"}

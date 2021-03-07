@@ -5,7 +5,7 @@ permalink: cinnarizinenausea.html
 toc: false 
 ---
 
-{% include image.html file="cinnarizinenausea.png" alt="cinnarizinenausea" %}![Path Visualization](/images/cinnarizinenausea.png)
+{% include image.html file="cinnarizinenausea.png" alt="cinnarizinenausea" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Muscarinic Acetylcholine Receptor | TREATS | Nausea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00568#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00568#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00568#mechanism-of-action](https://go.drugbank.com/drugs/DB00568#mechanism-of-action){:target="_blank"}

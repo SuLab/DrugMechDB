@@ -5,7 +5,7 @@ permalink: cholicacidcerebrotendinousxanthomatosis.html
 toc: false 
 ---
 
-{% include image.html file="cholicacidcerebrotendinousxanthomatosis.png" alt="cholicacidcerebrotendinousxanthomatosis" %}![Path Visualization](/images/cholicacidcerebrotendinousxanthomatosis.png)
+{% include image.html file="cholicacidcerebrotendinousxanthomatosis.png" alt="cholicacidcerebrotendinousxanthomatosis" %}
 
 ## Concepts
 
@@ -29,4 +29,4 @@ toc: false
 | Cholestanol | CONTRIBUTES TO | Cerebrotendinous Xanthomatosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB02659#mechanism-of-action){:target="_blank"}

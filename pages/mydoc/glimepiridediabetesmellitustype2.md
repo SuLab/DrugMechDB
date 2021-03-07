@@ -5,7 +5,7 @@ permalink: glimepiridediabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="glimepiridediabetesmellitustype2.png" alt="glimepiridediabetesmellitustype2" %}![Path Visualization](/images/glimepiridediabetesmellitustype2.png)
+{% include image.html file="glimepiridediabetesmellitustype2.png" alt="glimepiridediabetesmellitustype2" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Hyperglycemia | MANIFESTATION OF | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00222#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00222#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00222#mechanism-of-action](https://go.drugbank.com/drugs/DB00222#mechanism-of-action){:target="_blank"}

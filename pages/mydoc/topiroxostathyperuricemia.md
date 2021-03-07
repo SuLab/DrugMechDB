@@ -5,7 +5,7 @@ permalink: topiroxostathyperuricemia.html
 toc: false 
 ---
 
-{% include image.html file="topiroxostathyperuricemia.png" alt="topiroxostathyperuricemia" %}![Path Visualization](/images/topiroxostathyperuricemia.png)
+{% include image.html file="topiroxostathyperuricemia.png" alt="topiroxostathyperuricemia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Uric Acid | CORRELATED WITH | Hyperurcemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01685#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01685#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01685#mechanism-of-action](https://go.drugbank.com/drugs/DB01685#mechanism-of-action){:target="_blank"}

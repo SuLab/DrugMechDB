@@ -5,7 +5,7 @@ permalink: leuprorelinendometriosis.html
 toc: false 
 ---
 
-{% include image.html file="leuprorelinendometriosis.png" alt="leuprorelinendometriosis" %}![Path Visualization](/images/leuprorelinendometriosis.png)
+{% include image.html file="leuprorelinendometriosis.png" alt="leuprorelinendometriosis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Estrogen Biosynthetic Process | POSITIVELY CORRELATED WITH | Endometriosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00007#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00007#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00007#mechanism-of-action](https://go.drugbank.com/drugs/DB00007#mechanism-of-action){:target="_blank"}

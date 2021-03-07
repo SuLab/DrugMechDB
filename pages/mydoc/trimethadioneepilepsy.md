@@ -5,7 +5,7 @@ permalink: trimethadioneepilepsy.html
 toc: false 
 ---
 
-{% include image.html file="trimethadioneepilepsy.png" alt="trimethadioneepilepsy" %}![Path Visualization](/images/trimethadioneepilepsy.png)
+{% include image.html file="trimethadioneepilepsy.png" alt="trimethadioneepilepsy" %}
 
 ## Concepts
 
@@ -41,4 +41,4 @@ toc: false
 | Response To Anticonvulsant | NEGATIVELY CORRELATED WITH | Epilepsy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00347#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00347#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00347#mechanism-of-action](https://go.drugbank.com/drugs/DB00347#mechanism-of-action){:target="_blank"}

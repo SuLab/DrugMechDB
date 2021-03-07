@@ -5,7 +5,7 @@ permalink: itraconazolehistoplasmosis.html
 toc: false 
 ---
 
-{% include image.html file="itraconazolehistoplasmosis.png" alt="itraconazolehistoplasmosis" %}![Path Visualization](/images/itraconazolehistoplasmosis.png)
+{% include image.html file="itraconazolehistoplasmosis.png" alt="itraconazolehistoplasmosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Histoplasma Capsulatum | CAUSES | Histoplasmosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB01167#mechanism-of-action){:target="_blank"}

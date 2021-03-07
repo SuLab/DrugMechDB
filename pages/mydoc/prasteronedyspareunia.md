@@ -5,7 +5,7 @@ permalink: prasteronedyspareunia.html
 toc: false 
 ---
 
-{% include image.html file="prasteronedyspareunia.png" alt="prasteronedyspareunia" %}![Path Visualization](/images/prasteronedyspareunia.png)
+{% include image.html file="prasteronedyspareunia.png" alt="prasteronedyspareunia" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Prasterone | TREATS | Dyspareunia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01708#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01708#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01708#mechanism-of-action](https://go.drugbank.com/drugs/DB01708#mechanism-of-action){:target="_blank"}

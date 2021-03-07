@@ -5,7 +5,7 @@ permalink: ipratropiumbronchospasm.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumbronchospasm.png" alt="ipratropiumbronchospasm" %}![Path Visualization](/images/ipratropiumbronchospasm.png)
+{% include image.html file="ipratropiumbronchospasm.png" alt="ipratropiumbronchospasm" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Bronchospasm |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB00332#mechanism-of-action){:target="_blank"}

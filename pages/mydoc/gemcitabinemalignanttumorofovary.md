@@ -5,7 +5,7 @@ permalink: gemcitabinemalignanttumorofovary.html
 toc: false 
 ---
 
-{% include image.html file="gemcitabinemalignanttumorofovary.png" alt="gemcitabinemalignanttumorofovary" %}![Path Visualization](/images/gemcitabinemalignanttumorofovary.png)
+{% include image.html file="gemcitabinemalignanttumorofovary.png" alt="gemcitabinemalignanttumorofovary" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Dna Synthesis Involved In Mitotic Dna Replication | POSITIVELY CORRELATED WITH | Malignant Tumor Of Ovary |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB12459#mechanism-of-action){:target="_blank"}

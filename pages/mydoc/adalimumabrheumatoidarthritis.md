@@ -5,7 +5,7 @@ permalink: adalimumabrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabrheumatoidarthritis.png" alt="adalimumabrheumatoidarthritis" %}![Path Visualization](/images/adalimumabrheumatoidarthritis.png)
+{% include image.html file="adalimumabrheumatoidarthritis.png" alt="adalimumabrheumatoidarthritis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB00051#mechanism-of-action){:target="_blank"}

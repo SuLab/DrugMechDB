@@ -5,7 +5,7 @@ permalink: diprophyllinechronicbronchitis2.html
 toc: false 
 ---
 
-{% include image.html file="diprophyllinechronicbronchitis2.png" alt="diprophyllinechronicbronchitis2" %}![Path Visualization](/images/diprophyllinechronicbronchitis2.png)
+{% include image.html file="diprophyllinechronicbronchitis2.png" alt="diprophyllinechronicbronchitis2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Vasodilation | CORRELATED WITH | Chronic Bronchitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB00651#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: propylthiouracilhyperthyroidism.html
 toc: false 
 ---
 
-{% include image.html file="propylthiouracilhyperthyroidism.png" alt="propylthiouracilhyperthyroidism" %}![Path Visualization](/images/propylthiouracilhyperthyroidism.png)
+{% include image.html file="propylthiouracilhyperthyroidism.png" alt="propylthiouracilhyperthyroidism" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Thyroid Hormone Generation | POSITIVELY CORRELATED WITH | Hyperthyroidism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00550#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00550#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00550#mechanism-of-action](https://go.drugbank.com/drugs/DB00550#mechanism-of-action){:target="_blank"}

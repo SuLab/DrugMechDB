@@ -5,7 +5,7 @@ permalink: infliximabrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="infliximabrheumatoidarthritis.png" alt="infliximabrheumatoidarthritis" %}![Path Visualization](/images/infliximabrheumatoidarthritis.png)
+{% include image.html file="infliximabrheumatoidarthritis.png" alt="infliximabrheumatoidarthritis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00065#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00065#mechanism-of-action](https://go.drugbank.com/drugs/DB00065#mechanism-of-action){:target="_blank"}

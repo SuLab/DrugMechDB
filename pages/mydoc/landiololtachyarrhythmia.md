@@ -5,7 +5,7 @@ permalink: landiololtachyarrhythmia.html
 toc: false 
 ---
 
-{% include image.html file="landiololtachyarrhythmia.png" alt="landiololtachyarrhythmia" %}![Path Visualization](/images/landiololtachyarrhythmia.png)
+{% include image.html file="landiololtachyarrhythmia.png" alt="landiololtachyarrhythmia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Positive Regulation Of Heart Contraction | CAUSES | Tachyarrhythmia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12212#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12212#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12212#mechanism-of-action](https://go.drugbank.com/drugs/DB12212#mechanism-of-action){:target="_blank"}

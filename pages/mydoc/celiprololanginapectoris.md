@@ -5,7 +5,7 @@ permalink: celiprololanginapectoris.html
 toc: false 
 ---
 
-{% include image.html file="celiprololanginapectoris.png" alt="celiprololanginapectoris" %}![Path Visualization](/images/celiprololanginapectoris.png)
+{% include image.html file="celiprololanginapectoris.png" alt="celiprololanginapectoris" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Blood Pressure | TREATS | Angina Pectoris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04846#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04846#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04846#mechanism-of-action](https://go.drugbank.com/drugs/DB04846#mechanism-of-action){:target="_blank"}

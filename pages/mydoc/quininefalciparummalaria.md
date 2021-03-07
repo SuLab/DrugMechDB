@@ -5,7 +5,7 @@ permalink: quininefalciparummalaria.html
 toc: false 
 ---
 
-{% include image.html file="quininefalciparummalaria.png" alt="quininefalciparummalaria" %}![Path Visualization](/images/quininefalciparummalaria.png)
+{% include image.html file="quininefalciparummalaria.png" alt="quininefalciparummalaria" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Plasmodium Falciparum | CAUSES | Falciparum Malaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00468#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00468#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00468#mechanism-of-action](https://go.drugbank.com/drugs/DB00468#mechanism-of-action){:target="_blank"}

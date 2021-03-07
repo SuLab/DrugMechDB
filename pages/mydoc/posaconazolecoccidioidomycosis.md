@@ -5,7 +5,7 @@ permalink: posaconazolecoccidioidomycosis.html
 toc: false 
 ---
 
-{% include image.html file="posaconazolecoccidioidomycosis.png" alt="posaconazolecoccidioidomycosis" %}![Path Visualization](/images/posaconazolecoccidioidomycosis.png)
+{% include image.html file="posaconazolecoccidioidomycosis.png" alt="posaconazolecoccidioidomycosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Coccidioides Immitis | CAUSES | Coccidioidomycosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB01263#mechanism-of-action){:target="_blank"}

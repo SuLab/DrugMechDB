@@ -5,7 +5,7 @@ permalink: cefiximepharyngitis2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximepharyngitis2.png" alt="cefiximepharyngitis2" %}![Path Visualization](/images/cefiximepharyngitis2.png)
+{% include image.html file="cefiximepharyngitis2.png" alt="cefiximepharyngitis2" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cell Death | TREATS | Pharyngitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

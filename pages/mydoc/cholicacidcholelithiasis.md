@@ -5,7 +5,7 @@ permalink: cholicacidcholelithiasis.html
 toc: false 
 ---
 
-{% include image.html file="cholicacidcholelithiasis.png" alt="cholicacidcholelithiasis" %}![Path Visualization](/images/cholicacidcholelithiasis.png)
+{% include image.html file="cholicacidcholelithiasis.png" alt="cholicacidcholelithiasis" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Cholic Acid | TREATS | Cholelithiasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB02659#mechanism-of-action){:target="_blank"}

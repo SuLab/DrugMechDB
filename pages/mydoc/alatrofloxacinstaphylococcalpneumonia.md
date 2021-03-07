@@ -5,7 +5,7 @@ permalink: alatrofloxacinstaphylococcalpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="alatrofloxacinstaphylococcalpneumonia.png" alt="alatrofloxacinstaphylococcalpneumonia" %}![Path Visualization](/images/alatrofloxacinstaphylococcalpneumonia.png)
+{% include image.html file="alatrofloxacinstaphylococcalpneumonia.png" alt="alatrofloxacinstaphylococcalpneumonia" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Staphylococcal Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09335#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09335#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09335#mechanism-of-action](https://go.drugbank.com/drugs/DB09335#mechanism-of-action){:target="_blank"}

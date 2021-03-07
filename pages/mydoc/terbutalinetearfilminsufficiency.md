@@ -5,7 +5,7 @@ permalink: terbutalinetearfilminsufficiency.html
 toc: false 
 ---
 
-{% include image.html file="terbutalinetearfilminsufficiency.png" alt="terbutalinetearfilminsufficiency" %}![Path Visualization](/images/terbutalinetearfilminsufficiency.png)
+{% include image.html file="terbutalinetearfilminsufficiency.png" alt="terbutalinetearfilminsufficiency" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Negative Regulation Of Inflammatory Response | NEGATIVELY CORRELATED WITH | Tear Film Insufficiency |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB00871#mechanism-of-action){:target="_blank"}

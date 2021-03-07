@@ -5,7 +5,7 @@ permalink: alendronicacidpostmenopausalosteoporosis.html
 toc: false 
 ---
 
-{% include image.html file="alendronicacidpostmenopausalosteoporosis.png" alt="alendronicacidpostmenopausalosteoporosis" %}![Path Visualization](/images/alendronicacidpostmenopausalosteoporosis.png)
+{% include image.html file="alendronicacidpostmenopausalosteoporosis.png" alt="alendronicacidpostmenopausalosteoporosis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bone Resorption | CAUSES | Postmenopausal Osteoporosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00630#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00630#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00630#mechanism-of-action](https://go.drugbank.com/drugs/DB00630#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: azilsartanmedoxomilhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="azilsartanmedoxomilhypertensivedisorder.png" alt="azilsartanmedoxomilhypertensivedisorder" %}![Path Visualization](/images/azilsartanmedoxomilhypertensivedisorder.png)
+{% include image.html file="azilsartanmedoxomilhypertensivedisorder.png" alt="azilsartanmedoxomilhypertensivedisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vasoconstriction | CAUSES | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08822#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08822#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08822#mechanism-of-action](https://go.drugbank.com/drugs/DB08822#mechanism-of-action){:target="_blank"}

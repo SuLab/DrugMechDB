@@ -5,7 +5,7 @@ permalink: lidocainepain.html
 toc: false 
 ---
 
-{% include image.html file="lidocainepain.png" alt="lidocainepain" %}![Path Visualization](/images/lidocainepain.png)
+{% include image.html file="lidocainepain.png" alt="lidocainepain" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Sensory Perception Of Pain | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00281#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00281#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00281#mechanism-of-action](https://go.drugbank.com/drugs/DB00281#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: spironolactonehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="spironolactonehypertensivedisorder.png" alt="spironolactonehypertensivedisorder" %}![Path Visualization](/images/spironolactonehypertensivedisorder.png)
+{% include image.html file="spironolactonehypertensivedisorder.png" alt="spironolactonehypertensivedisorder" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Renal Water Retention | CONTRIBUTES TO | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB00421#mechanism-of-action){:target="_blank"}

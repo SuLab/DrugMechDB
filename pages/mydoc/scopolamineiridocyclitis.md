@@ -5,7 +5,7 @@ permalink: scopolamineiridocyclitis.html
 toc: false 
 ---
 
-{% include image.html file="scopolamineiridocyclitis.png" alt="scopolamineiridocyclitis" %}![Path Visualization](/images/scopolamineiridocyclitis.png)
+{% include image.html file="scopolamineiridocyclitis.png" alt="scopolamineiridocyclitis" %}
 
 ## Concepts
 
@@ -46,4 +46,4 @@ toc: false
 | Pain | MANIFESTATION OF | Iridocyclitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

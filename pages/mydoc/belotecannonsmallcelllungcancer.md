@@ -5,7 +5,7 @@ permalink: belotecannonsmallcelllungcancer.html
 toc: false 
 ---
 
-{% include image.html file="belotecannonsmallcelllungcancer.png" alt="belotecannonsmallcelllungcancer" %}![Path Visualization](/images/belotecannonsmallcelllungcancer.png)
+{% include image.html file="belotecannonsmallcelllungcancer.png" alt="belotecannonsmallcelllungcancer" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Apoptotic Process | TREATS | Non-Small Cell Lung Cancer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB12459#mechanism-of-action){:target="_blank"}

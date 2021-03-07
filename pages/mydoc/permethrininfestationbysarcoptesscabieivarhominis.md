@@ -5,7 +5,7 @@ permalink: permethrininfestationbysarcoptesscabieivarhominis.html
 toc: false 
 ---
 
-{% include image.html file="permethrininfestationbysarcoptesscabieivarhominis.png" alt="permethrininfestationbysarcoptesscabieivarhominis" %}![Path Visualization](/images/permethrininfestationbysarcoptesscabieivarhominis.png)
+{% include image.html file="permethrininfestationbysarcoptesscabieivarhominis.png" alt="permethrininfestationbysarcoptesscabieivarhominis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Sarcoptes Scabiei | CAUSES | Infestation By Sarcoptes Scabiei Var Hominis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04930#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04930#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04930#mechanism-of-action](https://go.drugbank.com/drugs/DB04930#mechanism-of-action){:target="_blank"}

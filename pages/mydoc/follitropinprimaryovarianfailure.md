@@ -5,7 +5,7 @@ permalink: follitropinprimaryovarianfailure.html
 toc: false 
 ---
 
-{% include image.html file="follitropinprimaryovarianfailure.png" alt="follitropinprimaryovarianfailure" %}![Path Visualization](/images/follitropinprimaryovarianfailure.png)
+{% include image.html file="follitropinprimaryovarianfailure.png" alt="follitropinprimaryovarianfailure" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Ovulation | NEGATIVELY CORRELATED WITH | Primary Ovarian Failure |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00066#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00066#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00066#mechanism-of-action](https://go.drugbank.com/drugs/DB00066#mechanism-of-action){:target="_blank"}

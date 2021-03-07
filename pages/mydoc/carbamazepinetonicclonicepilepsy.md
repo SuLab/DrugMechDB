@@ -5,7 +5,7 @@ permalink: carbamazepinetonicclonicepilepsy.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepinetonicclonicepilepsy.png" alt="carbamazepinetonicclonicepilepsy" %}![Path Visualization](/images/carbamazepinetonicclonicepilepsy.png)
+{% include image.html file="carbamazepinetonicclonicepilepsy.png" alt="carbamazepinetonicclonicepilepsy" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Positive Regulation Of Synaptic Transmission | POSITIVELY CORRELATED WITH | Tonic-Clonic Epilepsy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB00564#mechanism-of-action){:target="_blank"}

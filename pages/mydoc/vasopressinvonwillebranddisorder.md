@@ -5,7 +5,7 @@ permalink: vasopressinvonwillebranddisorder.html
 toc: false 
 ---
 
-{% include image.html file="vasopressinvonwillebranddisorder.png" alt="vasopressinvonwillebranddisorder" %}![Path Visualization](/images/vasopressinvonwillebranddisorder.png)
+{% include image.html file="vasopressinvonwillebranddisorder.png" alt="vasopressinvonwillebranddisorder" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Von Willebrand Factor | DISRUPTED BY | Von Willebrand Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00067#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00067#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00067#mechanism-of-action](https://go.drugbank.com/drugs/DB00067#mechanism-of-action){:target="_blank"}

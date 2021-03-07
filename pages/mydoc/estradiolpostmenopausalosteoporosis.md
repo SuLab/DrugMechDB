@@ -5,7 +5,7 @@ permalink: estradiolpostmenopausalosteoporosis.html
 toc: false 
 ---
 
-{% include image.html file="estradiolpostmenopausalosteoporosis.png" alt="estradiolpostmenopausalosteoporosis" %}![Path Visualization](/images/estradiolpostmenopausalosteoporosis.png)
+{% include image.html file="estradiolpostmenopausalosteoporosis.png" alt="estradiolpostmenopausalosteoporosis" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Bone Resorption | CAUSES | Postmenopausal Osteoporosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB00783#mechanism-of-action){:target="_blank"}

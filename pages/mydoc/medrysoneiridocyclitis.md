@@ -5,7 +5,7 @@ permalink: medrysoneiridocyclitis.html
 toc: false 
 ---
 
-{% include image.html file="medrysoneiridocyclitis.png" alt="medrysoneiridocyclitis" %}![Path Visualization](/images/medrysoneiridocyclitis.png)
+{% include image.html file="medrysoneiridocyclitis.png" alt="medrysoneiridocyclitis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Inflammatory Response | CAUSES | Iridocyclitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB00253#mechanism-of-action){:target="_blank"}

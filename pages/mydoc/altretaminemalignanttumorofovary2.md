@@ -5,7 +5,7 @@ permalink: altretaminemalignanttumorofovary2.html
 toc: false 
 ---
 
-{% include image.html file="altretaminemalignanttumorofovary2.png" alt="altretaminemalignanttumorofovary2" %}![Path Visualization](/images/altretaminemalignanttumorofovary2.png)
+{% include image.html file="altretaminemalignanttumorofovary2.png" alt="altretaminemalignanttumorofovary2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Tumor Cells | CAUSES | Malignant Tumor Of Ovary |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00488#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00488#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00488#mechanism-of-action](https://go.drugbank.com/drugs/DB00488#mechanism-of-action){:target="_blank"}

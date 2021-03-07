@@ -5,7 +5,7 @@ permalink: scopolaminemotionsickness.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminemotionsickness.png" alt="scopolaminemotionsickness" %}![Path Visualization](/images/scopolaminemotionsickness.png)
+{% include image.html file="scopolaminemotionsickness.png" alt="scopolaminemotionsickness" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Nausea And Vomiting | OCCURS IN | Motion Sickness |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

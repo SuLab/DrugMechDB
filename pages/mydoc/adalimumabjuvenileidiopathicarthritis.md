@@ -5,7 +5,7 @@ permalink: adalimumabjuvenileidiopathicarthritis.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabjuvenileidiopathicarthritis.png" alt="adalimumabjuvenileidiopathicarthritis" %}![Path Visualization](/images/adalimumabjuvenileidiopathicarthritis.png)
+{% include image.html file="adalimumabjuvenileidiopathicarthritis.png" alt="adalimumabjuvenileidiopathicarthritis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Juvenile Idiopathic Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB00051#mechanism-of-action){:target="_blank"}

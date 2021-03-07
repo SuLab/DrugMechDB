@@ -5,7 +5,7 @@ permalink: alprazolampanicdisorder.html
 toc: false 
 ---
 
-{% include image.html file="alprazolampanicdisorder.png" alt="alprazolampanicdisorder" %}![Path Visualization](/images/alprazolampanicdisorder.png)
+{% include image.html file="alprazolampanicdisorder.png" alt="alprazolampanicdisorder" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Action Potential | ACTIVELY INVOLVED IN | Panic Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00404#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00404#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00404#mechanism-of-action](https://go.drugbank.com/drugs/DB00404#mechanism-of-action){:target="_blank"}

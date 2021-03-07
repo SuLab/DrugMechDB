@@ -5,7 +5,7 @@ permalink: buprenorphinechronicpain2.html
 toc: false 
 ---
 
-{% include image.html file="buprenorphinechronicpain2.png" alt="buprenorphinechronicpain2" %}![Path Visualization](/images/buprenorphinechronicpain2.png)
+{% include image.html file="buprenorphinechronicpain2.png" alt="buprenorphinechronicpain2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Analgesic Effects | AMELIORATES | Chronic Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00921#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00921#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00921#mechanism-of-action](https://go.drugbank.com/drugs/DB00921#mechanism-of-action){:target="_blank"}

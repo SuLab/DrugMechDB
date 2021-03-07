@@ -5,7 +5,7 @@ permalink: ziprasidoneschizophrenia.html
 toc: false 
 ---
 
-{% include image.html file="ziprasidoneschizophrenia.png" alt="ziprasidoneschizophrenia" %}![Path Visualization](/images/ziprasidoneschizophrenia.png)
+{% include image.html file="ziprasidoneschizophrenia.png" alt="ziprasidoneschizophrenia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Behavior | MANIFESTATION OF | Schizophrenia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00246#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00246#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00246#mechanism-of-action](https://go.drugbank.com/drugs/DB00246#mechanism-of-action){:target="_blank"}

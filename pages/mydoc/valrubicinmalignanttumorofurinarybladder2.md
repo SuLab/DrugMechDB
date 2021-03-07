@@ -5,7 +5,7 @@ permalink: valrubicinmalignanttumorofurinarybladder2.html
 toc: false 
 ---
 
-{% include image.html file="valrubicinmalignanttumorofurinarybladder2.png" alt="valrubicinmalignanttumorofurinarybladder2" %}![Path Visualization](/images/valrubicinmalignanttumorofurinarybladder2.png)
+{% include image.html file="valrubicinmalignanttumorofurinarybladder2.png" alt="valrubicinmalignanttumorofurinarybladder2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Tumor Cell | CORRELATED WITH | Malignant Tumor Of Urinary Bladder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00385#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00385#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00385#mechanism-of-action](https://go.drugbank.com/drugs/DB00385#mechanism-of-action){:target="_blank"}

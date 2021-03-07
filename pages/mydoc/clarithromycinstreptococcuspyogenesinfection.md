@@ -5,7 +5,7 @@ permalink: clarithromycinstreptococcuspyogenesinfection.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinstreptococcuspyogenesinfection.png" alt="clarithromycinstreptococcuspyogenesinfection" %}![Path Visualization](/images/clarithromycinstreptococcuspyogenesinfection.png)
+{% include image.html file="clarithromycinstreptococcuspyogenesinfection.png" alt="clarithromycinstreptococcuspyogenesinfection" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pyogenes | OCCURS IN | Streptococcus Pyogenes Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB01211#mechanism-of-action){:target="_blank"}

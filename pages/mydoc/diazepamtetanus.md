@@ -5,7 +5,7 @@ permalink: diazepamtetanus.html
 toc: false 
 ---
 
-{% include image.html file="diazepamtetanus.png" alt="diazepamtetanus" %}![Path Visualization](/images/diazepamtetanus.png)
+{% include image.html file="diazepamtetanus.png" alt="diazepamtetanus" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Muscle Spasticity | MANIFESTATION OF | Tetanus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB00829#mechanism-of-action){:target="_blank"}

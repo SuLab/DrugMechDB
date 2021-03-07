@@ -5,7 +5,7 @@ permalink: tenofovirdisoproxilchronictypebviralhepatitis.html
 toc: false 
 ---
 
-{% include image.html file="tenofovirdisoproxilchronictypebviralhepatitis.png" alt="tenofovirdisoproxilchronictypebviralhepatitis" %}![Path Visualization](/images/tenofovirdisoproxilchronictypebviralhepatitis.png)
+{% include image.html file="tenofovirdisoproxilchronictypebviralhepatitis.png" alt="tenofovirdisoproxilchronictypebviralhepatitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Hepatitis B Virus | CAUSES | Chronic Type B Viral Hepatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00300#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00300#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00300#mechanism-of-action](https://go.drugbank.com/drugs/DB00300#mechanism-of-action){:target="_blank"}

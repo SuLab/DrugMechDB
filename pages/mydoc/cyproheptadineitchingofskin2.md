@@ -5,7 +5,7 @@ permalink: cyproheptadineitchingofskin2.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadineitchingofskin2.png" alt="cyproheptadineitchingofskin2" %}![Path Visualization](/images/cyproheptadineitchingofskin2.png)
+{% include image.html file="cyproheptadineitchingofskin2.png" alt="cyproheptadineitchingofskin2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Sensory Receptor Cell | CONTRIBUTES TO | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB00434#mechanism-of-action){:target="_blank"}

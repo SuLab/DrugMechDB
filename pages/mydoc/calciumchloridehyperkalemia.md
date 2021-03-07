@@ -5,7 +5,7 @@ permalink: calciumchloridehyperkalemia.html
 toc: false 
 ---
 
-{% include image.html file="calciumchloridehyperkalemia.png" alt="calciumchloridehyperkalemia" %}![Path Visualization](/images/calciumchloridehyperkalemia.png)
+{% include image.html file="calciumchloridehyperkalemia.png" alt="calciumchloridehyperkalemia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cardiac Muscle | AMELIORATES | Hyperkalemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB01164#mechanism-of-action){:target="_blank"}

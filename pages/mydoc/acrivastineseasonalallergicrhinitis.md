@@ -5,7 +5,7 @@ permalink: acrivastineseasonalallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="acrivastineseasonalallergicrhinitis.png" alt="acrivastineseasonalallergicrhinitis" %}![Path Visualization](/images/acrivastineseasonalallergicrhinitis.png)
+{% include image.html file="acrivastineseasonalallergicrhinitis.png" alt="acrivastineseasonalallergicrhinitis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Nasopharynx Cavity | AFFECTED BY | Seasonal Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB09488#mechanism-of-action){:target="_blank"}

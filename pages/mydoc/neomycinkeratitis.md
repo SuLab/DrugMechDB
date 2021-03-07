@@ -5,7 +5,7 @@ permalink: neomycinkeratitis.html
 toc: false 
 ---
 
-{% include image.html file="neomycinkeratitis.png" alt="neomycinkeratitis" %}![Path Visualization](/images/neomycinkeratitis.png)
+{% include image.html file="neomycinkeratitis.png" alt="neomycinkeratitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Keratitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB00994#mechanism-of-action){:target="_blank"}

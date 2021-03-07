@@ -5,7 +5,7 @@ permalink: adalimumabpsoriasiswitharthropathy.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabpsoriasiswitharthropathy.png" alt="adalimumabpsoriasiswitharthropathy" %}![Path Visualization](/images/adalimumabpsoriasiswitharthropathy.png)
+{% include image.html file="adalimumabpsoriasiswitharthropathy.png" alt="adalimumabpsoriasiswitharthropathy" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Psoriasis With Arthropathy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB00051#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: carbetocinpostpartumhemorrhage.html
 toc: false 
 ---
 
-{% include image.html file="carbetocinpostpartumhemorrhage.png" alt="carbetocinpostpartumhemorrhage" %}![Path Visualization](/images/carbetocinpostpartumhemorrhage.png)
+{% include image.html file="carbetocinpostpartumhemorrhage.png" alt="carbetocinpostpartumhemorrhage" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Contractions | PREVENTS | Postpartum Hemorrhage |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01282#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01282#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01282#mechanism-of-action](https://go.drugbank.com/drugs/DB01282#mechanism-of-action){:target="_blank"}

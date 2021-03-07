@@ -5,7 +5,7 @@ permalink: diazepamepilepsy.html
 toc: false 
 ---
 
-{% include image.html file="diazepamepilepsy.png" alt="diazepamepilepsy" %}![Path Visualization](/images/diazepamepilepsy.png)
+{% include image.html file="diazepamepilepsy.png" alt="diazepamepilepsy" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Glutamate Secretion, Neurotransmission | POSITIVELY CORRELATED WITH | Epilepsy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB00829#mechanism-of-action){:target="_blank"}

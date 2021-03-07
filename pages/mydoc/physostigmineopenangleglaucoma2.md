@@ -5,7 +5,7 @@ permalink: physostigmineopenangleglaucoma2.html
 toc: false 
 ---
 
-{% include image.html file="physostigmineopenangleglaucoma2.png" alt="physostigmineopenangleglaucoma2" %}![Path Visualization](/images/physostigmineopenangleglaucoma2.png)
+{% include image.html file="physostigmineopenangleglaucoma2.png" alt="physostigmineopenangleglaucoma2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Muscarinic Acetylcholine Receptors | TREATS | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00981#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00981#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00981#mechanism-of-action](https://go.drugbank.com/drugs/DB00981#mechanism-of-action){:target="_blank"}

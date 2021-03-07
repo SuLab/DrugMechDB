@@ -5,7 +5,7 @@ permalink: methenamineurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="methenamineurinarytractinfectiousdisease.png" alt="methenamineurinarytractinfectiousdisease" %}![Path Visualization](/images/methenamineurinarytractinfectiousdisease.png)
+{% include image.html file="methenamineurinarytractinfectiousdisease.png" alt="methenamineurinarytractinfectiousdisease" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacteria | CAUSES | Urinary Tract Infectious Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06799#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06799#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06799#mechanism-of-action](https://go.drugbank.com/drugs/DB06799#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: diazepamstatusepilepticus.html
 toc: false 
 ---
 
-{% include image.html file="diazepamstatusepilepticus.png" alt="diazepamstatusepilepticus" %}![Path Visualization](/images/diazepamstatusepilepticus.png)
+{% include image.html file="diazepamstatusepilepticus.png" alt="diazepamstatusepilepticus" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Glutamate Secretion, Neurotransmission | POSITIVELY CORRELATED WITH | Status Epilepticus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB00829#mechanism-of-action){:target="_blank"}

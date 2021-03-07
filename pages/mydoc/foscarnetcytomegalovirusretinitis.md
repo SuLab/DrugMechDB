@@ -5,7 +5,7 @@ permalink: foscarnetcytomegalovirusretinitis.html
 toc: false 
 ---
 
-{% include image.html file="foscarnetcytomegalovirusretinitis.png" alt="foscarnetcytomegalovirusretinitis" %}![Path Visualization](/images/foscarnetcytomegalovirusretinitis.png)
+{% include image.html file="foscarnetcytomegalovirusretinitis.png" alt="foscarnetcytomegalovirusretinitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cytomegalovirus | CAUSES | Cytomegalovirus Retinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00529#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00529#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00529#mechanism-of-action](https://go.drugbank.com/drugs/DB00529#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: cisplatinovariancancer.html
 toc: false 
 ---
 
-{% include image.html file="cisplatinovariancancer.png" alt="cisplatinovariancancer" %}![Path Visualization](/images/cisplatinovariancancer.png)
+{% include image.html file="cisplatinovariancancer.png" alt="cisplatinovariancancer" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Cell Population Proliferation | POSITIVELY CORRELATED WITH | Ovarian Cancer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00515#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00515#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00515#mechanism-of-action](https://go.drugbank.com/drugs/DB00515#mechanism-of-action){:target="_blank"}

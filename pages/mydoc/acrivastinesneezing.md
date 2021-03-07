@@ -5,7 +5,7 @@ permalink: acrivastinesneezing.html
 toc: false 
 ---
 
-{% include image.html file="acrivastinesneezing.png" alt="acrivastinesneezing" %}![Path Visualization](/images/acrivastinesneezing.png)
+{% include image.html file="acrivastinesneezing.png" alt="acrivastinesneezing" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Trigeminal Nerve | CONTRIBUTES TO | Sneezing |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB09488#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: ganciclovirherpessimplexdendritickeratitis.html
 toc: false 
 ---
 
-{% include image.html file="ganciclovirherpessimplexdendritickeratitis.png" alt="ganciclovirherpessimplexdendritickeratitis" %}![Path Visualization](/images/ganciclovirherpessimplexdendritickeratitis.png)
+{% include image.html file="ganciclovirherpessimplexdendritickeratitis.png" alt="ganciclovirherpessimplexdendritickeratitis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Human Herpesvirus Type 1 | CAUSES | Herpes Simplex Dendritic Keratitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01004#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01004#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01004#mechanism-of-action](https://go.drugbank.com/drugs/DB01004#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: isoprenalineatrioventricularblock.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalineatrioventricularblock.png" alt="isoprenalineatrioventricularblock" %}![Path Visualization](/images/isoprenalineatrioventricularblock.png)
+{% include image.html file="isoprenalineatrioventricularblock.png" alt="isoprenalineatrioventricularblock" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cardiac Muscle Cell Contraction | NEGATIVELY CORRELATED WITH | Atrioventricular Block |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB01064#mechanism-of-action){:target="_blank"}

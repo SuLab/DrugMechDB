@@ -5,7 +5,7 @@ permalink: perphenazineschizophrenia.html
 toc: false 
 ---
 
-{% include image.html file="perphenazineschizophrenia.png" alt="perphenazineschizophrenia" %}![Path Visualization](/images/perphenazineschizophrenia.png)
+{% include image.html file="perphenazineschizophrenia.png" alt="perphenazineschizophrenia" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Medial Forebrain Bundle | POSITIVELY CORRELATED WITH | Schizophrenia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00850#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00850#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00850#mechanism-of-action](https://go.drugbank.com/drugs/DB00850#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: desoximetasonediscoidlupuserythematosus.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonediscoidlupuserythematosus.png" alt="desoximetasonediscoidlupuserythematosus" %}![Path Visualization](/images/desoximetasonediscoidlupuserythematosus.png)
+{% include image.html file="desoximetasonediscoidlupuserythematosus.png" alt="desoximetasonediscoidlupuserythematosus" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Discoid Lupus Erythematosus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB00547#mechanism-of-action){:target="_blank"}

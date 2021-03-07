@@ -5,7 +5,7 @@ permalink: cholicacidconstipation.html
 toc: false 
 ---
 
-{% include image.html file="cholicacidconstipation.png" alt="cholicacidconstipation" %}![Path Visualization](/images/cholicacidconstipation.png)
+{% include image.html file="cholicacidconstipation.png" alt="cholicacidconstipation" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Peristalsis | NEGATIVELY CORRELATED WITH | Constipation |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB02659#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB02659#mechanism-of-action){:target="_blank"}

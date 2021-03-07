@@ -5,7 +5,7 @@ permalink: meropeneminfectiousdiseaseofabdomen.html
 toc: false 
 ---
 
-{% include image.html file="meropeneminfectiousdiseaseofabdomen.png" alt="meropeneminfectiousdiseaseofabdomen" %}![Path Visualization](/images/meropeneminfectiousdiseaseofabdomen.png)
+{% include image.html file="meropeneminfectiousdiseaseofabdomen.png" alt="meropeneminfectiousdiseaseofabdomen" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Escherichia Coli | POSITIVELY CORRELATED WITH | Infectious Disease Of Abdomen |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB00760#mechanism-of-action){:target="_blank"}

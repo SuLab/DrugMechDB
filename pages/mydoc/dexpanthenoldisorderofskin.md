@@ -5,7 +5,7 @@ permalink: dexpanthenoldisorderofskin.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenoldisorderofskin.png" alt="dexpanthenoldisorderofskin" %}![Path Visualization](/images/dexpanthenoldisorderofskin.png)
+{% include image.html file="dexpanthenoldisorderofskin.png" alt="dexpanthenoldisorderofskin" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Re-Epithelialization | TREATS | Skin Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB09357#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: gramicidinbacterialconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="gramicidinbacterialconjunctivitis.png" alt="gramicidinbacterialconjunctivitis" %}![Path Visualization](/images/gramicidinbacterialconjunctivitis.png)
+{% include image.html file="gramicidinbacterialconjunctivitis.png" alt="gramicidinbacterialconjunctivitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Bacteria | CAUSES | Bacterial Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00027#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00027#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00027#mechanism-of-action](https://go.drugbank.com/drugs/DB00027#mechanism-of-action){:target="_blank"}

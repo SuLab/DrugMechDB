@@ -5,7 +5,7 @@ permalink: estradiolpremenstrualdysphoricdisorder.html
 toc: false 
 ---
 
-{% include image.html file="estradiolpremenstrualdysphoricdisorder.png" alt="estradiolpremenstrualdysphoricdisorder" %}![Path Visualization](/images/estradiolpremenstrualdysphoricdisorder.png)
+{% include image.html file="estradiolpremenstrualdysphoricdisorder.png" alt="estradiolpremenstrualdysphoricdisorder" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Mood Disorders | POSITIVELY CORRELATED WITH | Premenstrual Dysphoric Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB00783#mechanism-of-action){:target="_blank"}

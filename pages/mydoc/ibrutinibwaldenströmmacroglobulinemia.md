@@ -5,7 +5,7 @@ permalink: ibrutinibwaldenströmmacroglobulinemia.html
 toc: false 
 ---
 
-{% include image.html file="ibrutinibwaldenströmmacroglobulinemia.png" alt="ibrutinibwaldenströmmacroglobulinemia" %}![Path Visualization](/images/ibrutinibwaldenströmmacroglobulinemia.png)
+{% include image.html file="ibrutinibwaldenströmmacroglobulinemia.png" alt="ibrutinibwaldenströmmacroglobulinemia" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Apoptotic Process | NEGATIVELY CORRELATED WITH | Waldenström Macroglobulinemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09053#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09053#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09053#mechanism-of-action](https://go.drugbank.com/drugs/DB09053#mechanism-of-action){:target="_blank"}

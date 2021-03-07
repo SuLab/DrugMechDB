@@ -5,7 +5,7 @@ permalink: catridecacoghereditaryfactorxiiiasubunitdeficiency.html
 toc: false 
 ---
 
-{% include image.html file="catridecacoghereditaryfactorxiiiasubunitdeficiency.png" alt="catridecacoghereditaryfactorxiiiasubunitdeficiency" %}![Path Visualization](/images/catridecacoghereditaryfactorxiiiasubunitdeficiency.png)
+{% include image.html file="catridecacoghereditaryfactorxiiiasubunitdeficiency.png" alt="catridecacoghereditaryfactorxiiiasubunitdeficiency" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Coagulation Factor Xiii A Chain | DISRUPTED BY | Hereditary Factor Xiii A Subunit Deficiency |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09310#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09310#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09310#mechanism-of-action](https://go.drugbank.com/drugs/DB09310#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: spironolactoneascites.html
 toc: false 
 ---
 
-{% include image.html file="spironolactoneascites.png" alt="spironolactoneascites" %}![Path Visualization](/images/spironolactoneascites.png)
+{% include image.html file="spironolactoneascites.png" alt="spironolactoneascites" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Renal Water Retention | CONTRIBUTES TO | Ascites |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB00421#mechanism-of-action){:target="_blank"}

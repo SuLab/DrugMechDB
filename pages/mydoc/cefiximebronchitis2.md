@@ -5,7 +5,7 @@ permalink: cefiximebronchitis2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximebronchitis2.png" alt="cefiximebronchitis2" %}![Path Visualization](/images/cefiximebronchitis2.png)
+{% include image.html file="cefiximebronchitis2.png" alt="cefiximebronchitis2" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cell Death | TREATS | Bronchitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

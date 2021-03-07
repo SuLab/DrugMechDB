@@ -5,7 +5,7 @@ permalink: almotriptanmigraine.html
 toc: false 
 ---
 
-{% include image.html file="almotriptanmigraine.png" alt="almotriptanmigraine" %}![Path Visualization](/images/almotriptanmigraine.png)
+{% include image.html file="almotriptanmigraine.png" alt="almotriptanmigraine" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Sensory Perception Of Pain | POSITIVELY CORRELATED WITH | Migraine |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00918#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00918#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00918#mechanism-of-action](https://go.drugbank.com/drugs/DB00918#mechanism-of-action){:target="_blank"}

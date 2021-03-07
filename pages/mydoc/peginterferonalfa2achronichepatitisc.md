@@ -5,7 +5,7 @@ permalink: peginterferonalfa2achronichepatitisc.html
 toc: false 
 ---
 
-{% include image.html file="peginterferonalfa2achronichepatitisc.png" alt="peginterferonalfa2achronichepatitisc" %}![Path Visualization](/images/peginterferonalfa2achronichepatitisc.png)
+{% include image.html file="peginterferonalfa2achronichepatitisc.png" alt="peginterferonalfa2achronichepatitisc" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Hepacivirus C | CAUSES | Chronic Hepatitis C |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00008#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00008#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00008#mechanism-of-action](https://go.drugbank.com/drugs/DB00008#mechanism-of-action){:target="_blank"}

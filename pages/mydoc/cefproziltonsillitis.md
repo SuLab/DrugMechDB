@@ -5,7 +5,7 @@ permalink: cefproziltonsillitis.html
 toc: false 
 ---
 
-{% include image.html file="cefproziltonsillitis.png" alt="cefproziltonsillitis" %}![Path Visualization](/images/cefproziltonsillitis.png)
+{% include image.html file="cefproziltonsillitis.png" alt="cefproziltonsillitis" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Tonsillitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB01150#mechanism-of-action){:target="_blank"}

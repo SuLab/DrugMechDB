@@ -5,7 +5,7 @@ permalink: clortermineanorexianervosa.html
 toc: false 
 ---
 
-{% include image.html file="clortermineanorexianervosa.png" alt="clortermineanorexianervosa" %}![Path Visualization](/images/clortermineanorexianervosa.png)
+{% include image.html file="clortermineanorexianervosa.png" alt="clortermineanorexianervosa" %}
 
 ## Concepts
 
@@ -25,4 +25,4 @@ toc: false
 | Clortermine | CONTRAINDICATED FOR | Anorexia Nervosa |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01527#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01527#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01527#mechanism-of-action](https://go.drugbank.com/drugs/DB01527#mechanism-of-action){:target="_blank"}

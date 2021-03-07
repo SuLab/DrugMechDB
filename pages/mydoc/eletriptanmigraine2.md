@@ -5,7 +5,7 @@ permalink: eletriptanmigraine2.html
 toc: false 
 ---
 
-{% include image.html file="eletriptanmigraine2.png" alt="eletriptanmigraine2" %}![Path Visualization](/images/eletriptanmigraine2.png)
+{% include image.html file="eletriptanmigraine2.png" alt="eletriptanmigraine2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vasoconstriction | NEGATIVELY CORRELATED WITH | Migraine |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00216#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00216#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00216#mechanism-of-action](https://go.drugbank.com/drugs/DB00216#mechanism-of-action){:target="_blank"}

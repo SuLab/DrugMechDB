@@ -5,7 +5,7 @@ permalink: spironolactonealdosteronism.html
 toc: false 
 ---
 
-{% include image.html file="spironolactonealdosteronism.png" alt="spironolactonealdosteronism" %}![Path Visualization](/images/spironolactonealdosteronism.png)
+{% include image.html file="spironolactonealdosteronism.png" alt="spironolactonealdosteronism" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Aldosterone | CONTRIBUTES TO | Aldosteronism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00421#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00421#mechanism-of-action](https://go.drugbank.com/drugs/DB00421#mechanism-of-action){:target="_blank"}

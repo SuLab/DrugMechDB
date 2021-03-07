@@ -5,7 +5,7 @@ permalink: pentamidineafricantrypanosomiasis.html
 toc: false 
 ---
 
-{% include image.html file="pentamidineafricantrypanosomiasis.png" alt="pentamidineafricantrypanosomiasis" %}![Path Visualization](/images/pentamidineafricantrypanosomiasis.png)
+{% include image.html file="pentamidineafricantrypanosomiasis.png" alt="pentamidineafricantrypanosomiasis" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Trypanosoma Brucei | CAUSES | African Trypanosomiasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00738#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00738#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00738#mechanism-of-action](https://go.drugbank.com/drugs/DB00738#mechanism-of-action){:target="_blank"}

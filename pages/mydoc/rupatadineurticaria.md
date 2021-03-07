@@ -5,7 +5,7 @@ permalink: rupatadineurticaria.html
 toc: false 
 ---
 
-{% include image.html file="rupatadineurticaria.png" alt="rupatadineurticaria" %}![Path Visualization](/images/rupatadineurticaria.png)
+{% include image.html file="rupatadineurticaria.png" alt="rupatadineurticaria" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Urticaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11614#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11614#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11614#mechanism-of-action](https://go.drugbank.com/drugs/DB11614#mechanism-of-action){:target="_blank"}

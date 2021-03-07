@@ -5,7 +5,7 @@ permalink: ribavirinchronichepatitisc.html
 toc: false 
 ---
 
-{% include image.html file="ribavirinchronichepatitisc.png" alt="ribavirinchronichepatitisc" %}![Path Visualization](/images/ribavirinchronichepatitisc.png)
+{% include image.html file="ribavirinchronichepatitisc.png" alt="ribavirinchronichepatitisc" %}
 
 ## Concepts
 
@@ -44,4 +44,4 @@ toc: false
 | Hepacivirus C | CAUSES | Chronic Hepatitis C |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00811#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00811#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00811#mechanism-of-action](https://go.drugbank.com/drugs/DB00811#mechanism-of-action){:target="_blank"}

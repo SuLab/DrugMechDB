@@ -5,7 +5,7 @@ permalink: lafutidinegastroesophagealreflux.html
 toc: false 
 ---
 
-{% include image.html file="lafutidinegastroesophagealreflux.png" alt="lafutidinegastroesophagealreflux" %}![Path Visualization](/images/lafutidinegastroesophagealreflux.png)
+{% include image.html file="lafutidinegastroesophagealreflux.png" alt="lafutidinegastroesophagealreflux" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Gastric Acid Secretion | POSITIVELY CORRELATED WITH | Gastroesophageal Reflux |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12770#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12770#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12770#mechanism-of-action](https://go.drugbank.com/drugs/DB12770#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: ganciclovircytomegaloviralretinitis.html
 toc: false 
 ---
 
-{% include image.html file="ganciclovircytomegaloviralretinitis.png" alt="ganciclovircytomegaloviralretinitis" %}![Path Visualization](/images/ganciclovircytomegaloviralretinitis.png)
+{% include image.html file="ganciclovircytomegaloviralretinitis.png" alt="ganciclovircytomegaloviralretinitis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Human Cytomegalovirus | CAUSES | Cytomegaloviral Retinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01004#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01004#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01004#mechanism-of-action](https://go.drugbank.com/drugs/DB01004#mechanism-of-action){:target="_blank"}

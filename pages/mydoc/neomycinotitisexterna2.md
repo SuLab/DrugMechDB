@@ -5,7 +5,7 @@ permalink: neomycinotitisexterna2.html
 toc: false 
 ---
 
-{% include image.html file="neomycinotitisexterna2.png" alt="neomycinotitisexterna2" %}![Path Visualization](/images/neomycinotitisexterna2.png)
+{% include image.html file="neomycinotitisexterna2.png" alt="neomycinotitisexterna2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Bacteria | CAUSES | Otitis Externa |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB00994#mechanism-of-action){:target="_blank"}

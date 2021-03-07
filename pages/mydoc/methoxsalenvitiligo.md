@@ -5,7 +5,7 @@ permalink: methoxsalenvitiligo.html
 toc: false 
 ---
 
-{% include image.html file="methoxsalenvitiligo.png" alt="methoxsalenvitiligo" %}![Path Visualization](/images/methoxsalenvitiligo.png)
+{% include image.html file="methoxsalenvitiligo.png" alt="methoxsalenvitiligo" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Pigmentation | NEGATIVELY CORRELATED WITH | Vitiligo |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00553#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00553#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00553#mechanism-of-action](https://go.drugbank.com/drugs/DB00553#mechanism-of-action){:target="_blank"}

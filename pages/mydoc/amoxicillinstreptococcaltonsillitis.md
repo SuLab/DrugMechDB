@@ -5,7 +5,7 @@ permalink: amoxicillinstreptococcaltonsillitis.html
 toc: false 
 ---
 
-{% include image.html file="amoxicillinstreptococcaltonsillitis.png" alt="amoxicillinstreptococcaltonsillitis" %}![Path Visualization](/images/amoxicillinstreptococcaltonsillitis.png)
+{% include image.html file="amoxicillinstreptococcaltonsillitis.png" alt="amoxicillinstreptococcaltonsillitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Streptococcal Tonsillitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01060#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01060#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01060#mechanism-of-action](https://go.drugbank.com/drugs/DB01060#mechanism-of-action){:target="_blank"}

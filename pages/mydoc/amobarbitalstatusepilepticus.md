@@ -5,7 +5,7 @@ permalink: amobarbitalstatusepilepticus.html
 toc: false 
 ---
 
-{% include image.html file="amobarbitalstatusepilepticus.png" alt="amobarbitalstatusepilepticus" %}![Path Visualization](/images/amobarbitalstatusepilepticus.png)
+{% include image.html file="amobarbitalstatusepilepticus.png" alt="amobarbitalstatusepilepticus" %}
 
 ## Concepts
 
@@ -46,4 +46,4 @@ toc: false
 | Positive Regulation Of Synaptic Transmission | POSITIVELY CORRELATED WITH | Status Epilepticus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01351#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01351#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01351#mechanism-of-action](https://go.drugbank.com/drugs/DB01351#mechanism-of-action){:target="_blank"}

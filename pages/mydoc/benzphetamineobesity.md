@@ -5,7 +5,7 @@ permalink: benzphetamineobesity.html
 toc: false 
 ---
 
-{% include image.html file="benzphetamineobesity.png" alt="benzphetamineobesity" %}![Path Visualization](/images/benzphetamineobesity.png)
+{% include image.html file="benzphetamineobesity.png" alt="benzphetamineobesity" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Appetite Stimulation | POSITIVELY CORRELATED WITH | Obesity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00865#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00865#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00865#mechanism-of-action](https://go.drugbank.com/drugs/DB00865#mechanism-of-action){:target="_blank"}

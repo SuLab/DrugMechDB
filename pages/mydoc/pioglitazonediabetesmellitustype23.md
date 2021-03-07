@@ -5,7 +5,7 @@ permalink: pioglitazonediabetesmellitustype23.html
 toc: false 
 ---
 
-{% include image.html file="pioglitazonediabetesmellitustype23.png" alt="pioglitazonediabetesmellitustype23" %}![Path Visualization](/images/pioglitazonediabetesmellitustype23.png)
+{% include image.html file="pioglitazonediabetesmellitustype23.png" alt="pioglitazonediabetesmellitustype23" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Glycated Hemoglobin | CORRELATED WITH | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01132#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01132#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01132#mechanism-of-action](https://go.drugbank.com/drugs/DB01132#mechanism-of-action){:target="_blank"}

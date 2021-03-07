@@ -5,7 +5,7 @@ permalink: cefiximepharyngitis.html
 toc: false 
 ---
 
-{% include image.html file="cefiximepharyngitis.png" alt="cefiximepharyngitis" %}![Path Visualization](/images/cefiximepharyngitis.png)
+{% include image.html file="cefiximepharyngitis.png" alt="cefiximepharyngitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Pharyngitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

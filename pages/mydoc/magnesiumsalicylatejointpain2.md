@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatejointpain2.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatejointpain2.png" alt="magnesiumsalicylatejointpain2" %}![Path Visualization](/images/magnesiumsalicylatejointpain2.png)
+{% include image.html file="magnesiumsalicylatejointpain2.png" alt="magnesiumsalicylatejointpain2" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Joint Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB01397#mechanism-of-action){:target="_blank"}

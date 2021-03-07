@@ -5,7 +5,7 @@ permalink: floctafenineacutepain.html
 toc: false 
 ---
 
-{% include image.html file="floctafenineacutepain.png" alt="floctafenineacutepain" %}![Path Visualization](/images/floctafenineacutepain.png)
+{% include image.html file="floctafenineacutepain.png" alt="floctafenineacutepain" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Acute Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08976#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08976#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08976#mechanism-of-action](https://go.drugbank.com/drugs/DB08976#mechanism-of-action){:target="_blank"}

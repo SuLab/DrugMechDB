@@ -5,7 +5,7 @@ permalink: buprenorphineopioiddependence.html
 toc: false 
 ---
 
-{% include image.html file="buprenorphineopioiddependence.png" alt="buprenorphineopioiddependence" %}![Path Visualization](/images/buprenorphineopioiddependence.png)
+{% include image.html file="buprenorphineopioiddependence.png" alt="buprenorphineopioiddependence" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Opioid Addiction | AMELIORATES | Opioid Dependence |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00921#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00921#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00921#mechanism-of-action](https://go.drugbank.com/drugs/DB00921#mechanism-of-action){:target="_blank"}

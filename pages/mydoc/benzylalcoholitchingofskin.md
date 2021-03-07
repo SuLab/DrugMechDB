@@ -5,7 +5,7 @@ permalink: benzylalcoholitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="benzylalcoholitchingofskin.png" alt="benzylalcoholitchingofskin" %}![Path Visualization](/images/benzylalcoholitchingofskin.png)
+{% include image.html file="benzylalcoholitchingofskin.png" alt="benzylalcoholitchingofskin" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Sarcoptes Scabiei | CAUSES | Itching Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06770#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06770#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06770#mechanism-of-action](https://go.drugbank.com/drugs/DB06770#mechanism-of-action){:target="_blank"}

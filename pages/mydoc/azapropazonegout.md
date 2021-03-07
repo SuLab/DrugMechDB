@@ -5,7 +5,7 @@ permalink: azapropazonegout.html
 toc: false 
 ---
 
-{% include image.html file="azapropazonegout.png" alt="azapropazonegout" %}![Path Visualization](/images/azapropazonegout.png)
+{% include image.html file="azapropazonegout.png" alt="azapropazonegout" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pain | MANIFESTATION OF | Gout |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}

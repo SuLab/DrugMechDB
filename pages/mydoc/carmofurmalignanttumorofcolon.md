@@ -5,7 +5,7 @@ permalink: carmofurmalignanttumorofcolon.html
 toc: false 
 ---
 
-{% include image.html file="carmofurmalignanttumorofcolon.png" alt="carmofurmalignanttumorofcolon" %}![Path Visualization](/images/carmofurmalignanttumorofcolon.png)
+{% include image.html file="carmofurmalignanttumorofcolon.png" alt="carmofurmalignanttumorofcolon" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Cell Survival | CORRELATED WITH | Colon Cancer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09010#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09010#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09010#mechanism-of-action](https://go.drugbank.com/drugs/DB09010#mechanism-of-action){:target="_blank"}

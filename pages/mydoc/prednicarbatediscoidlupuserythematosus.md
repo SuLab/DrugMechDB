@@ -5,7 +5,7 @@ permalink: prednicarbatediscoidlupuserythematosus.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbatediscoidlupuserythematosus.png" alt="prednicarbatediscoidlupuserythematosus" %}![Path Visualization](/images/prednicarbatediscoidlupuserythematosus.png)
+{% include image.html file="prednicarbatediscoidlupuserythematosus.png" alt="prednicarbatediscoidlupuserythematosus" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Discoid Lupus Erythematosus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB01130#mechanism-of-action){:target="_blank"}

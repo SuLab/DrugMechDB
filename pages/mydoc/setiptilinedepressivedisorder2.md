@@ -5,7 +5,7 @@ permalink: setiptilinedepressivedisorder2.html
 toc: false 
 ---
 
-{% include image.html file="setiptilinedepressivedisorder2.png" alt="setiptilinedepressivedisorder2" %}![Path Visualization](/images/setiptilinedepressivedisorder2.png)
+{% include image.html file="setiptilinedepressivedisorder2.png" alt="setiptilinedepressivedisorder2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Synaptic Transmission, Serotonergic | NEGATIVELY CORRELATED WITH | Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09304#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09304#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09304#mechanism-of-action](https://go.drugbank.com/drugs/DB09304#mechanism-of-action){:target="_blank"}

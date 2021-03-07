@@ -5,7 +5,7 @@ permalink: ferriccitratehyperphosphatemia.html
 toc: false 
 ---
 
-{% include image.html file="ferriccitratehyperphosphatemia.png" alt="ferriccitratehyperphosphatemia" %}![Path Visualization](/images/ferriccitratehyperphosphatemia.png)
+{% include image.html file="ferriccitratehyperphosphatemia.png" alt="ferriccitratehyperphosphatemia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Phosphate(3−) | POSITIVELY CORRELATED WITH | Hyperphosphatemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09162#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09162#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09162#mechanism-of-action](https://go.drugbank.com/drugs/DB09162#mechanism-of-action){:target="_blank"}

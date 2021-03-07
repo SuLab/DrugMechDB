@@ -5,7 +5,7 @@ permalink: estroneacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html file="estroneacnevulgaris.png" alt="estroneacnevulgaris" %}![Path Visualization](/images/estroneacnevulgaris.png)
+{% include image.html file="estroneacnevulgaris.png" alt="estroneacnevulgaris" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Sebum | TREATS | Acne Vulgaris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00655#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00655#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00655#mechanism-of-action](https://go.drugbank.com/drugs/DB00655#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: diflunisalchronicpain.html
 toc: false 
 ---
 
-{% include image.html file="diflunisalchronicpain.png" alt="diflunisalchronicpain" %}![Path Visualization](/images/diflunisalchronicpain.png)
+{% include image.html file="diflunisalchronicpain.png" alt="diflunisalchronicpain" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Chronic Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00861#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00861#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00861#mechanism-of-action](https://go.drugbank.com/drugs/DB00861#mechanism-of-action){:target="_blank"}

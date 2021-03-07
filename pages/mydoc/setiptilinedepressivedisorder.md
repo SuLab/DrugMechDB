@@ -5,7 +5,7 @@ permalink: setiptilinedepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="setiptilinedepressivedisorder.png" alt="setiptilinedepressivedisorder" %}![Path Visualization](/images/setiptilinedepressivedisorder.png)
+{% include image.html file="setiptilinedepressivedisorder.png" alt="setiptilinedepressivedisorder" %}
 
 ## Concepts
 
@@ -39,4 +39,4 @@ toc: false
 | Negative Regulation Of Epinephrine Secretion | POSITIVELY CORRELATED WITH | Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09304#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09304#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09304#mechanism-of-action](https://go.drugbank.com/drugs/DB09304#mechanism-of-action){:target="_blank"}

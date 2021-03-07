@@ -5,7 +5,7 @@ permalink: bortezomibmultiplemyeloma2.html
 toc: false 
 ---
 
-{% include image.html file="bortezomibmultiplemyeloma2.png" alt="bortezomibmultiplemyeloma2" %}![Path Visualization](/images/bortezomibmultiplemyeloma2.png)
+{% include image.html file="bortezomibmultiplemyeloma2.png" alt="bortezomibmultiplemyeloma2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Apoptotic Process | NEGATIVELY CORRELATED WITH | Multiple Myeloma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00188#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00188#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00188#mechanism-of-action](https://go.drugbank.com/drugs/DB00188#mechanism-of-action){:target="_blank"}

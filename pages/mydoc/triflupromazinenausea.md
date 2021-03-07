@@ -5,7 +5,7 @@ permalink: triflupromazinenausea.html
 toc: false 
 ---
 
-{% include image.html file="triflupromazinenausea.png" alt="triflupromazinenausea" %}![Path Visualization](/images/triflupromazinenausea.png)
+{% include image.html file="triflupromazinenausea.png" alt="triflupromazinenausea" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Gastrointestinal Tract | PREVENTS | Nausea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB00508#mechanism-of-action){:target="_blank"}

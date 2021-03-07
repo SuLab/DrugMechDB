@@ -5,7 +5,7 @@ permalink: amfetaminenarcolepsy2.html
 toc: false 
 ---
 
-{% include image.html file="amfetaminenarcolepsy2.png" alt="amfetaminenarcolepsy2" %}![Path Visualization](/images/amfetaminenarcolepsy2.png)
+{% include image.html file="amfetaminenarcolepsy2.png" alt="amfetaminenarcolepsy2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Neurotransmitters | TREATS | Narcolepsy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00182#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00182#mechanism-of-action](https://go.drugbank.com/drugs/DB00182#mechanism-of-action){:target="_blank"}

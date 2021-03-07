@@ -5,7 +5,7 @@ permalink: cilazaprilhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="cilazaprilhypertensivedisorder.png" alt="cilazaprilhypertensivedisorder" %}![Path Visualization](/images/cilazaprilhypertensivedisorder.png)
+{% include image.html file="cilazaprilhypertensivedisorder.png" alt="cilazaprilhypertensivedisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vasoconstriction | CONTRIBUTES TO | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01340#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01340#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01340#mechanism-of-action](https://go.drugbank.com/drugs/DB01340#mechanism-of-action){:target="_blank"}

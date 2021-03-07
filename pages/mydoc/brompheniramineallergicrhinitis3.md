@@ -5,7 +5,7 @@ permalink: brompheniramineallergicrhinitis3.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineallergicrhinitis3.png" alt="brompheniramineallergicrhinitis3" %}![Path Visualization](/images/brompheniramineallergicrhinitis3.png)
+{% include image.html file="brompheniramineallergicrhinitis3.png" alt="brompheniramineallergicrhinitis3" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Muscarinic Acetylcholine Receptor | TREATS | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

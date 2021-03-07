@@ -5,7 +5,7 @@ permalink: griseofulvintineacapitis.html
 toc: false 
 ---
 
-{% include image.html file="griseofulvintineacapitis.png" alt="griseofulvintineacapitis" %}![Path Visualization](/images/griseofulvintineacapitis.png)
+{% include image.html file="griseofulvintineacapitis.png" alt="griseofulvintineacapitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Fungi | CAUSES | Tinea Capitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00400#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00400#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00400#mechanism-of-action](https://go.drugbank.com/drugs/DB00400#mechanism-of-action){:target="_blank"}

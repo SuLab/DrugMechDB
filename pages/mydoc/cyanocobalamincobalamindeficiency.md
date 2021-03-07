@@ -5,7 +5,7 @@ permalink: cyanocobalamincobalamindeficiency.html
 toc: false 
 ---
 
-{% include image.html file="cyanocobalamincobalamindeficiency.png" alt="cyanocobalamincobalamindeficiency" %}![Path Visualization](/images/cyanocobalamincobalamindeficiency.png)
+{% include image.html file="cyanocobalamincobalamindeficiency.png" alt="cyanocobalamincobalamindeficiency" %}
 
 ## Concepts
 
@@ -45,4 +45,4 @@ toc: false
 | Megaloblastic Anemia | POSITIVELY CORRELATED WITH | Cobalamin Deficiency |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00115#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00115#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00115#mechanism-of-action](https://go.drugbank.com/drugs/DB00115#mechanism-of-action){:target="_blank"}

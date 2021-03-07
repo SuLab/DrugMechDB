@@ -5,7 +5,7 @@ permalink: cefprozilstreptococcuspyogenesinfection.html
 toc: false 
 ---
 
-{% include image.html file="cefprozilstreptococcuspyogenesinfection.png" alt="cefprozilstreptococcuspyogenesinfection" %}![Path Visualization](/images/cefprozilstreptococcuspyogenesinfection.png)
+{% include image.html file="cefprozilstreptococcuspyogenesinfection.png" alt="cefprozilstreptococcuspyogenesinfection" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Streptococcus Pyogenes Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB01150#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: neomycinurinarytractinfectiousdisease2.html
 toc: false 
 ---
 
-{% include image.html file="neomycinurinarytractinfectiousdisease2.png" alt="neomycinurinarytractinfectiousdisease2" %}![Path Visualization](/images/neomycinurinarytractinfectiousdisease2.png)
+{% include image.html file="neomycinurinarytractinfectiousdisease2.png" alt="neomycinurinarytractinfectiousdisease2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Escherichia Coli | CAUSES | Urinary Tract Infectious Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00994#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00994#mechanism-of-action](https://go.drugbank.com/drugs/DB00994#mechanism-of-action){:target="_blank"}

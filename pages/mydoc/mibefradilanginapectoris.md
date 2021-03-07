@@ -5,7 +5,7 @@ permalink: mibefradilanginapectoris.html
 toc: false 
 ---
 
-{% include image.html file="mibefradilanginapectoris.png" alt="mibefradilanginapectoris" %}![Path Visualization](/images/mibefradilanginapectoris.png)
+{% include image.html file="mibefradilanginapectoris.png" alt="mibefradilanginapectoris" %}
 
 ## Concepts
 
@@ -50,4 +50,4 @@ toc: false
 | Blood Circulation | NEGATIVELY CORRELATED WITH | Angina Pectoris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01388#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01388#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01388#mechanism-of-action](https://go.drugbank.com/drugs/DB01388#mechanism-of-action){:target="_blank"}

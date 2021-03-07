@@ -5,7 +5,7 @@ permalink: papaverineperipheralvasculardisease.html
 toc: false 
 ---
 
-{% include image.html file="papaverineperipheralvasculardisease.png" alt="papaverineperipheralvasculardisease" %}![Path Visualization](/images/papaverineperipheralvasculardisease.png)
+{% include image.html file="papaverineperipheralvasculardisease.png" alt="papaverineperipheralvasculardisease" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Smooth Muscle | PREVENTS | Peripheral Vascular Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01113#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01113#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01113#mechanism-of-action](https://go.drugbank.com/drugs/DB01113#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: fosfomycinurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="fosfomycinurinarytractinfectiousdisease.png" alt="fosfomycinurinarytractinfectiousdisease" %}![Path Visualization](/images/fosfomycinurinarytractinfectiousdisease.png)
+{% include image.html file="fosfomycinurinarytractinfectiousdisease.png" alt="fosfomycinurinarytractinfectiousdisease" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Escherichia Coli | CAUSES | Urinary Tract Infectious Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00828#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00828#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00828#mechanism-of-action](https://go.drugbank.com/drugs/DB00828#mechanism-of-action){:target="_blank"}

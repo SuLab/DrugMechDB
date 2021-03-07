@@ -5,7 +5,7 @@ permalink: acetohexamidediabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="acetohexamidediabetesmellitustype2.png" alt="acetohexamidediabetesmellitustype2" %}![Path Visualization](/images/acetohexamidediabetesmellitustype2.png)
+{% include image.html file="acetohexamidediabetesmellitustype2.png" alt="acetohexamidediabetesmellitustype2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Blood Sugar | AMELIORATES | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00414#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00414#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00414#mechanism-of-action](https://go.drugbank.com/drugs/DB00414#mechanism-of-action){:target="_blank"}

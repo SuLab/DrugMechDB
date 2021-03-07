@@ -5,7 +5,7 @@ permalink: cefiximestreptococcuspyogenesinfection.html
 toc: false 
 ---
 
-{% include image.html file="cefiximestreptococcuspyogenesinfection.png" alt="cefiximestreptococcuspyogenesinfection" %}![Path Visualization](/images/cefiximestreptococcuspyogenesinfection.png)
+{% include image.html file="cefiximestreptococcuspyogenesinfection.png" alt="cefiximestreptococcuspyogenesinfection" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pyogenes | CAUSES | Streptococcus Pyogenes Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

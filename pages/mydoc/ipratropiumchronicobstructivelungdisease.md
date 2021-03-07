@@ -5,7 +5,7 @@ permalink: ipratropiumchronicobstructivelungdisease.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumchronicobstructivelungdisease.png" alt="ipratropiumchronicobstructivelungdisease" %}![Path Visualization](/images/ipratropiumchronicobstructivelungdisease.png)
+{% include image.html file="ipratropiumchronicobstructivelungdisease.png" alt="ipratropiumchronicobstructivelungdisease" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Chronic Obstructive Lung Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00332#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00332#mechanism-of-action](https://go.drugbank.com/drugs/DB00332#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: prednicarbatepruritusani.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbatepruritusani.png" alt="prednicarbatepruritusani" %}![Path Visualization](/images/prednicarbatepruritusani.png)
+{% include image.html file="prednicarbatepruritusani.png" alt="prednicarbatepruritusani" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Skin Itching | MANIFESTATION OF | Pruritus Ani |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01130#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01130#mechanism-of-action](https://go.drugbank.com/drugs/DB01130#mechanism-of-action){:target="_blank"}

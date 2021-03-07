@@ -5,7 +5,7 @@ permalink: venlafaxinepanicdisorder2.html
 toc: false 
 ---
 
-{% include image.html file="venlafaxinepanicdisorder2.png" alt="venlafaxinepanicdisorder2" %}![Path Visualization](/images/venlafaxinepanicdisorder2.png)
+{% include image.html file="venlafaxinepanicdisorder2.png" alt="venlafaxinepanicdisorder2" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Norepinephrine Uptake | POSITIVELY CORRELATED WITH | Panic Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB00285#mechanism-of-action){:target="_blank"}

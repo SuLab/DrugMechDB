@@ -5,7 +5,7 @@ permalink: lenvatinibfollicularthyroidcarcinoma4.html
 toc: false 
 ---
 
-{% include image.html file="lenvatinibfollicularthyroidcarcinoma4.png" alt="lenvatinibfollicularthyroidcarcinoma4" %}![Path Visualization](/images/lenvatinibfollicularthyroidcarcinoma4.png)
+{% include image.html file="lenvatinibfollicularthyroidcarcinoma4.png" alt="lenvatinibfollicularthyroidcarcinoma4" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cancer Cell | PARTICIPATES IN | Follicular Thyroid Carcinoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09078#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09078#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09078#mechanism-of-action](https://go.drugbank.com/drugs/DB09078#mechanism-of-action){:target="_blank"}

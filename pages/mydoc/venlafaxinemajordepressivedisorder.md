@@ -5,7 +5,7 @@ permalink: venlafaxinemajordepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="venlafaxinemajordepressivedisorder.png" alt="venlafaxinemajordepressivedisorder" %}![Path Visualization](/images/venlafaxinemajordepressivedisorder.png)
+{% include image.html file="venlafaxinemajordepressivedisorder.png" alt="venlafaxinemajordepressivedisorder" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Serotonin Uptake | POSITIVELY CORRELATED WITH | Major Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB00285#mechanism-of-action){:target="_blank"}

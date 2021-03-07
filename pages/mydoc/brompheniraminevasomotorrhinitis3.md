@@ -5,7 +5,7 @@ permalink: brompheniraminevasomotorrhinitis3.html
 toc: false 
 ---
 
-{% include image.html file="brompheniraminevasomotorrhinitis3.png" alt="brompheniraminevasomotorrhinitis3" %}![Path Visualization](/images/brompheniraminevasomotorrhinitis3.png)
+{% include image.html file="brompheniraminevasomotorrhinitis3.png" alt="brompheniraminevasomotorrhinitis3" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Muscarinic Acetylcholine Receptor | TREATS | Vasomotor Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

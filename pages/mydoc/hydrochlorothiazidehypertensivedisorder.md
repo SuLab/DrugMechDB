@@ -5,7 +5,7 @@ permalink: hydrochlorothiazidehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="hydrochlorothiazidehypertensivedisorder.png" alt="hydrochlorothiazidehypertensivedisorder" %}![Path Visualization](/images/hydrochlorothiazidehypertensivedisorder.png)
+{% include image.html file="hydrochlorothiazidehypertensivedisorder.png" alt="hydrochlorothiazidehypertensivedisorder" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Up Regulation Of Blood Pressure | AFFECTS RISK FOR | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00999#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00999#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00999#mechanism-of-action](https://go.drugbank.com/drugs/DB00999#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: isoprenalinehypovolemicshock.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalinehypovolemicshock.png" alt="isoprenalinehypovolemicshock" %}![Path Visualization](/images/isoprenalinehypovolemicshock.png)
+{% include image.html file="isoprenalinehypovolemicshock.png" alt="isoprenalinehypovolemicshock" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Decreased Cardiac Output | POSITIVELY CORRELATED WITH | Hypovolemic Shock |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB01064#mechanism-of-action){:target="_blank"}

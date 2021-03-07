@@ -5,7 +5,7 @@ permalink: vigabatrinwestsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="vigabatrinwestsyndrome.png" alt="vigabatrinwestsyndrome" %}![Path Visualization](/images/vigabatrinwestsyndrome.png)
+{% include image.html file="vigabatrinwestsyndrome.png" alt="vigabatrinwestsyndrome" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Central Nervous System | TREATS | West Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01080#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01080#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01080#mechanism-of-action](https://go.drugbank.com/drugs/DB01080#mechanism-of-action){:target="_blank"}

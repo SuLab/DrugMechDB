@@ -5,7 +5,7 @@ permalink: sibutramineobesity2.html
 toc: false 
 ---
 
-{% include image.html file="sibutramineobesity2.png" alt="sibutramineobesity2" %}![Path Visualization](/images/sibutramineobesity2.png)
+{% include image.html file="sibutramineobesity2.png" alt="sibutramineobesity2" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Appetite | TREATS | Obesity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01105#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01105#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01105#mechanism-of-action](https://go.drugbank.com/drugs/DB01105#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: metronidazolebacterialsepticemia.html
 toc: false 
 ---
 
-{% include image.html file="metronidazolebacterialsepticemia.png" alt="metronidazolebacterialsepticemia" %}![Path Visualization](/images/metronidazolebacterialsepticemia.png)
+{% include image.html file="metronidazolebacterialsepticemia.png" alt="metronidazolebacterialsepticemia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacteria | CAUSES | Bacterial Septicemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00916#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00916#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00916#mechanism-of-action](https://go.drugbank.com/drugs/DB00916#mechanism-of-action){:target="_blank"}

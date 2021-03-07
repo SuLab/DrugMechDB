@@ -5,7 +5,7 @@ permalink: clonidinehypertensivedisorder2.html
 toc: false 
 ---
 
-{% include image.html file="clonidinehypertensivedisorder2.png" alt="clonidinehypertensivedisorder2" %}![Path Visualization](/images/clonidinehypertensivedisorder2.png)
+{% include image.html file="clonidinehypertensivedisorder2.png" alt="clonidinehypertensivedisorder2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Blood Pressure | CORRELATED WITH | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00575#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00575#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00575#mechanism-of-action](https://go.drugbank.com/drugs/DB00575#mechanism-of-action){:target="_blank"}

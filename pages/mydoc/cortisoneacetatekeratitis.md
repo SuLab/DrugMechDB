@@ -5,7 +5,7 @@ permalink: cortisoneacetatekeratitis.html
 toc: false 
 ---
 
-{% include image.html file="cortisoneacetatekeratitis.png" alt="cortisoneacetatekeratitis" %}![Path Visualization](/images/cortisoneacetatekeratitis.png)
+{% include image.html file="cortisoneacetatekeratitis.png" alt="cortisoneacetatekeratitis" %}
 
 ## Concepts
 
@@ -43,4 +43,4 @@ toc: false
 | Inflammation | CAUSES | Keratitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01380#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01380#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01380#mechanism-of-action](https://go.drugbank.com/drugs/DB01380#mechanism-of-action){:target="_blank"}

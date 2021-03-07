@@ -5,7 +5,7 @@ permalink: nisoldipinehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="nisoldipinehypertensivedisorder.png" alt="nisoldipinehypertensivedisorder" %}![Path Visualization](/images/nisoldipinehypertensivedisorder.png)
+{% include image.html file="nisoldipinehypertensivedisorder.png" alt="nisoldipinehypertensivedisorder" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Vasodilation | PREVENTS | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00401#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00401#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00401#mechanism-of-action](https://go.drugbank.com/drugs/DB00401#mechanism-of-action){:target="_blank"}

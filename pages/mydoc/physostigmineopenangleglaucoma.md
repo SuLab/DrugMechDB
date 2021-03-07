@@ -5,7 +5,7 @@ permalink: physostigmineopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="physostigmineopenangleglaucoma.png" alt="physostigmineopenangleglaucoma" %}![Path Visualization](/images/physostigmineopenangleglaucoma.png)
+{% include image.html file="physostigmineopenangleglaucoma.png" alt="physostigmineopenangleglaucoma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Nicotinic Acetylcholine Receptors | TREATS | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00981#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00981#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00981#mechanism-of-action](https://go.drugbank.com/drugs/DB00981#mechanism-of-action){:target="_blank"}

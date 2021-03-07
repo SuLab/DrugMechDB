@@ -5,7 +5,7 @@ permalink: anastrozolehormonereceptorpositivemalignantneoplasmofbreast.html
 toc: false 
 ---
 
-{% include image.html file="anastrozolehormonereceptorpositivemalignantneoplasmofbreast.png" alt="anastrozolehormonereceptorpositivemalignantneoplasmofbreast" %}![Path Visualization](/images/anastrozolehormonereceptorpositivemalignantneoplasmofbreast.png)
+{% include image.html file="anastrozolehormonereceptorpositivemalignantneoplasmofbreast.png" alt="anastrozolehormonereceptorpositivemalignantneoplasmofbreast" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Esterogne Receptor Activity | CORRELATED WITH | Hormone Receptor Positive Malignant Neoplasm Of Breast |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01217#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01217#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01217#mechanism-of-action](https://go.drugbank.com/drugs/DB01217#mechanism-of-action){:target="_blank"}

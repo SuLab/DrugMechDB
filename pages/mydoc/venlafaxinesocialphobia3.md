@@ -5,7 +5,7 @@ permalink: venlafaxinesocialphobia3.html
 toc: false 
 ---
 
-{% include image.html file="venlafaxinesocialphobia3.png" alt="venlafaxinesocialphobia3" %}![Path Visualization](/images/venlafaxinesocialphobia3.png)
+{% include image.html file="venlafaxinesocialphobia3.png" alt="venlafaxinesocialphobia3" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Dopamine Uptake | POSITIVELY CORRELATED WITH | Social Phobia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB00285#mechanism-of-action){:target="_blank"}

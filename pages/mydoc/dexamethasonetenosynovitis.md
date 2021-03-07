@@ -5,7 +5,7 @@ permalink: dexamethasonetenosynovitis.html
 toc: false 
 ---
 
-{% include image.html file="dexamethasonetenosynovitis.png" alt="dexamethasonetenosynovitis" %}![Path Visualization](/images/dexamethasonetenosynovitis.png)
+{% include image.html file="dexamethasonetenosynovitis.png" alt="dexamethasonetenosynovitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Tenosynovitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01234#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01234#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01234#mechanism-of-action](https://go.drugbank.com/drugs/DB01234#mechanism-of-action){:target="_blank"}

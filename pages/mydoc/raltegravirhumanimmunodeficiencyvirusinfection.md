@@ -5,7 +5,7 @@ permalink: raltegravirhumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="raltegravirhumanimmunodeficiencyvirusinfection.png" alt="raltegravirhumanimmunodeficiencyvirusinfection" %}![Path Visualization](/images/raltegravirhumanimmunodeficiencyvirusinfection.png)
+{% include image.html file="raltegravirhumanimmunodeficiencyvirusinfection.png" alt="raltegravirhumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Human Immunodeficiency Virus 1 | CAUSES | Human Immunodeficiency Virus Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06817#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06817#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06817#mechanism-of-action](https://go.drugbank.com/drugs/DB06817#mechanism-of-action){:target="_blank"}

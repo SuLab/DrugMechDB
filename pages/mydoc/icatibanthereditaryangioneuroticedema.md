@@ -5,7 +5,7 @@ permalink: icatibanthereditaryangioneuroticedema.html
 toc: false 
 ---
 
-{% include image.html file="icatibanthereditaryangioneuroticedema.png" alt="icatibanthereditaryangioneuroticedema" %}![Path Visualization](/images/icatibanthereditaryangioneuroticedema.png)
+{% include image.html file="icatibanthereditaryangioneuroticedema.png" alt="icatibanthereditaryangioneuroticedema" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Edema | MANIFESTATION OF | Hereditary Angioneurotic Edema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06196#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06196#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06196#mechanism-of-action](https://go.drugbank.com/drugs/DB06196#mechanism-of-action){:target="_blank"}

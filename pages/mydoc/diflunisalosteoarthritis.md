@@ -5,7 +5,7 @@ permalink: diflunisalosteoarthritis.html
 toc: false 
 ---
 
-{% include image.html file="diflunisalosteoarthritis.png" alt="diflunisalosteoarthritis" %}![Path Visualization](/images/diflunisalosteoarthritis.png)
+{% include image.html file="diflunisalosteoarthritis.png" alt="diflunisalosteoarthritis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pain | OCCURS IN | Osteoarthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00861#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00861#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00861#mechanism-of-action](https://go.drugbank.com/drugs/DB00861#mechanism-of-action){:target="_blank"}

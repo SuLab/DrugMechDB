@@ -5,7 +5,7 @@ permalink: budesonidecrohnsdisease2.html
 toc: false 
 ---
 
-{% include image.html file="budesonidecrohnsdisease2.png" alt="budesonidecrohnsdisease2" %}![Path Visualization](/images/budesonidecrohnsdisease2.png)
+{% include image.html file="budesonidecrohnsdisease2.png" alt="budesonidecrohnsdisease2" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Inflammation | CORRELATED WITH | Crohn'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01222#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01222#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01222#mechanism-of-action](https://go.drugbank.com/drugs/DB01222#mechanism-of-action){:target="_blank"}

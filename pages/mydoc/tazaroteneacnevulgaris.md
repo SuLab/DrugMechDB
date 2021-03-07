@@ -5,7 +5,7 @@ permalink: tazaroteneacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html file="tazaroteneacnevulgaris.png" alt="tazaroteneacnevulgaris" %}![Path Visualization](/images/tazaroteneacnevulgaris.png)
+{% include image.html file="tazaroteneacnevulgaris.png" alt="tazaroteneacnevulgaris" %}
 
 ## Concepts
 
@@ -65,4 +65,4 @@ toc: false
 | Matrix Metalloproteinases | POSITIVELY CORRELATED WITH | Acne Vulgaris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00799#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00799#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00799#mechanism-of-action](https://go.drugbank.com/drugs/DB00799#mechanism-of-action){:target="_blank"}

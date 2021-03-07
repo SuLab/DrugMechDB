@@ -5,7 +5,7 @@ permalink: citaloprammajordepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="citaloprammajordepressivedisorder.png" alt="citaloprammajordepressivedisorder" %}![Path Visualization](/images/citaloprammajordepressivedisorder.png)
+{% include image.html file="citaloprammajordepressivedisorder.png" alt="citaloprammajordepressivedisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Synaptic Cleft | CORRELATED WITH | Major Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00215#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00215#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00215#mechanism-of-action](https://go.drugbank.com/drugs/DB00215#mechanism-of-action){:target="_blank"}

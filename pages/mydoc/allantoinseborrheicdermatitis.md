@@ -5,7 +5,7 @@ permalink: allantoinseborrheicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="allantoinseborrheicdermatitis.png" alt="allantoinseborrheicdermatitis" %}![Path Visualization](/images/allantoinseborrheicdermatitis.png)
+{% include image.html file="allantoinseborrheicdermatitis.png" alt="allantoinseborrheicdermatitis" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Fibroblast Proliferation | PREVENTS | Seborrheic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11100#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11100#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11100#mechanism-of-action](https://go.drugbank.com/drugs/DB11100#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: oxyphencycliminepepticulcer.html
 toc: false 
 ---
 
-{% include image.html file="oxyphencycliminepepticulcer.png" alt="oxyphencycliminepepticulcer" %}![Path Visualization](/images/oxyphencycliminepepticulcer.png)
+{% include image.html file="oxyphencycliminepepticulcer.png" alt="oxyphencycliminepepticulcer" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Gastric Acid | CONTRIBUTES TO | Peptic Ulcer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00383#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00383#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00383#mechanism-of-action](https://go.drugbank.com/drugs/DB00383#mechanism-of-action){:target="_blank"}

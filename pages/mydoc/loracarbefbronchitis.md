@@ -5,7 +5,7 @@ permalink: loracarbefbronchitis.html
 toc: false 
 ---
 
-{% include image.html file="loracarbefbronchitis.png" alt="loracarbefbronchitis" %}![Path Visualization](/images/loracarbefbronchitis.png)
+{% include image.html file="loracarbefbronchitis.png" alt="loracarbefbronchitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Moraxella Catarrhalis | CAUSES | Bronchitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB00447#mechanism-of-action){:target="_blank"}

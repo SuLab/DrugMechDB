@@ -5,7 +5,7 @@ permalink: clobetasolpropionateseborrheicdermatitis2.html
 toc: false 
 ---
 
-{% include image.html file="clobetasolpropionateseborrheicdermatitis2.png" alt="clobetasolpropionateseborrheicdermatitis2" %}![Path Visualization](/images/clobetasolpropionateseborrheicdermatitis2.png)
+{% include image.html file="clobetasolpropionateseborrheicdermatitis2.png" alt="clobetasolpropionateseborrheicdermatitis2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammatory Process | CORRELATED WITH | Seborrheic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB11750#mechanism-of-action){:target="_blank"}

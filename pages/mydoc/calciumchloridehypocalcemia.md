@@ -5,7 +5,7 @@ permalink: calciumchloridehypocalcemia.html
 toc: false 
 ---
 
-{% include image.html file="calciumchloridehypocalcemia.png" alt="calciumchloridehypocalcemia" %}![Path Visualization](/images/calciumchloridehypocalcemia.png)
+{% include image.html file="calciumchloridehypocalcemia.png" alt="calciumchloridehypocalcemia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Blood Plasma | AMELIORATES | Hypocalcemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01164#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01164#mechanism-of-action](https://go.drugbank.com/drugs/DB01164#mechanism-of-action){:target="_blank"}

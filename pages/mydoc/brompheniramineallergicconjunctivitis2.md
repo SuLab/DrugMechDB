@@ -5,7 +5,7 @@ permalink: brompheniramineallergicconjunctivitis2.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineallergicconjunctivitis2.png" alt="brompheniramineallergicconjunctivitis2" %}![Path Visualization](/images/brompheniramineallergicconjunctivitis2.png)
+{% include image.html file="brompheniramineallergicconjunctivitis2.png" alt="brompheniramineallergicconjunctivitis2" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | H1 Histamine Receptor | TREATS | Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: valganciclovircmvinfection.html
 toc: false 
 ---
 
-{% include image.html file="valganciclovircmvinfection.png" alt="valganciclovircmvinfection" %}![Path Visualization](/images/valganciclovircmvinfection.png)
+{% include image.html file="valganciclovircmvinfection.png" alt="valganciclovircmvinfection" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cytomegalovirus | CAUSES | Cmv Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01610#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01610#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01610#mechanism-of-action](https://go.drugbank.com/drugs/DB01610#mechanism-of-action){:target="_blank"}

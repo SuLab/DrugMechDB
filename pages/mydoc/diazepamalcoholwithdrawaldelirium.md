@@ -5,7 +5,7 @@ permalink: diazepamalcoholwithdrawaldelirium.html
 toc: false 
 ---
 
-{% include image.html file="diazepamalcoholwithdrawaldelirium.png" alt="diazepamalcoholwithdrawaldelirium" %}![Path Visualization](/images/diazepamalcoholwithdrawaldelirium.png)
+{% include image.html file="diazepamalcoholwithdrawaldelirium.png" alt="diazepamalcoholwithdrawaldelirium" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Seizures | MANIFESTATION OF | Alcohol Withdrawal Delirium |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB00829#mechanism-of-action){:target="_blank"}

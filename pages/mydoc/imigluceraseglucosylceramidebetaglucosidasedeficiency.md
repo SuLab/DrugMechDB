@@ -5,7 +5,7 @@ permalink: imigluceraseglucosylceramidebetaglucosidasedeficiency.html
 toc: false 
 ---
 
-{% include image.html file="imigluceraseglucosylceramidebetaglucosidasedeficiency.png" alt="imigluceraseglucosylceramidebetaglucosidasedeficiency" %}![Path Visualization](/images/imigluceraseglucosylceramidebetaglucosidasedeficiency.png)
+{% include image.html file="imigluceraseglucosylceramidebetaglucosidasedeficiency.png" alt="imigluceraseglucosylceramidebetaglucosidasedeficiency" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Membrane Lipid Degradation | PREVENTS | Glucosylceramide Beta-Glucosidase Deficiency |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00053#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00053#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00053#mechanism-of-action](https://go.drugbank.com/drugs/DB00053#mechanism-of-action){:target="_blank"}

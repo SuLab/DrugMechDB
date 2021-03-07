@@ -5,7 +5,7 @@ permalink: calcitriolhypoparathyroidism.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolhypoparathyroidism.png" alt="calcitriolhypoparathyroidism" %}![Path Visualization](/images/calcitriolhypoparathyroidism.png)
+{% include image.html file="calcitriolhypoparathyroidism.png" alt="calcitriolhypoparathyroidism" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Abnormal Circulating Calcium Concentration | POSITIVELY CORRELATED WITH | Hypoparathyroidism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00136#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00136#mechanism-of-action](https://go.drugbank.com/drugs/DB00136#mechanism-of-action){:target="_blank"}

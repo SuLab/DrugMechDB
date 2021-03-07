@@ -5,7 +5,7 @@ permalink: calciumglubionatehypocalcemia.html
 toc: false 
 ---
 
-{% include image.html file="calciumglubionatehypocalcemia.png" alt="calciumglubionatehypocalcemia" %}![Path Visualization](/images/calciumglubionatehypocalcemia.png)
+{% include image.html file="calciumglubionatehypocalcemia.png" alt="calciumglubionatehypocalcemia" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Calcium Ion | PREVENTS | Hypocalcemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB13142#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB13142#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB13142#mechanism-of-action](https://go.drugbank.com/drugs/DB13142#mechanism-of-action){:target="_blank"}

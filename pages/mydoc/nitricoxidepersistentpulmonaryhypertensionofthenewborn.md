@@ -5,7 +5,7 @@ permalink: nitricoxidepersistentpulmonaryhypertensionofthenewborn.html
 toc: false 
 ---
 
-{% include image.html file="nitricoxidepersistentpulmonaryhypertensionofthenewborn.png" alt="nitricoxidepersistentpulmonaryhypertensionofthenewborn" %}![Path Visualization](/images/nitricoxidepersistentpulmonaryhypertensionofthenewborn.png)
+{% include image.html file="nitricoxidepersistentpulmonaryhypertensionofthenewborn.png" alt="nitricoxidepersistentpulmonaryhypertensionofthenewborn" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Lung | CAUSES | Persistent Pulmonary Hypertension Of The Newborn |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00435#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00435#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00435#mechanism-of-action](https://go.drugbank.com/drugs/DB00435#mechanism-of-action){:target="_blank"}

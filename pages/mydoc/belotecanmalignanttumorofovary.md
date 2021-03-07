@@ -5,7 +5,7 @@ permalink: belotecanmalignanttumorofovary.html
 toc: false 
 ---
 
-{% include image.html file="belotecanmalignanttumorofovary.png" alt="belotecanmalignanttumorofovary" %}![Path Visualization](/images/belotecanmalignanttumorofovary.png)
+{% include image.html file="belotecanmalignanttumorofovary.png" alt="belotecanmalignanttumorofovary" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Apoptotic Process | NEGATIVELY CORRELATED WITH | Malignant Tumor Of Ovary |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB12459#mechanism-of-action){:target="_blank"}

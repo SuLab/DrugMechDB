@@ -5,7 +5,7 @@ permalink: scopolaminemydriasis.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminemydriasis.png" alt="scopolaminemydriasis" %}![Path Visualization](/images/scopolaminemydriasis.png)
+{% include image.html file="scopolaminemydriasis.png" alt="scopolaminemydriasis" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Dilated Pupil | MANIFESTATION OF | Mydriasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

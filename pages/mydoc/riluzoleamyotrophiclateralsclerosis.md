@@ -5,7 +5,7 @@ permalink: riluzoleamyotrophiclateralsclerosis.html
 toc: false 
 ---
 
-{% include image.html file="riluzoleamyotrophiclateralsclerosis.png" alt="riluzoleamyotrophiclateralsclerosis" %}![Path Visualization](/images/riluzoleamyotrophiclateralsclerosis.png)
+{% include image.html file="riluzoleamyotrophiclateralsclerosis.png" alt="riluzoleamyotrophiclateralsclerosis" %}
 
 ## Concepts
 
@@ -41,4 +41,4 @@ toc: false
 | Neuronal Cell Death | OCCURS IN | Amyotrophic Lateral Sclerosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00740#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00740#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00740#mechanism-of-action](https://go.drugbank.com/drugs/DB00740#mechanism-of-action){:target="_blank"}

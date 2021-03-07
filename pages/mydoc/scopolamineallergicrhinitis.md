@@ -5,7 +5,7 @@ permalink: scopolamineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="scopolamineallergicrhinitis.png" alt="scopolamineallergicrhinitis" %}![Path Visualization](/images/scopolamineallergicrhinitis.png)
+{% include image.html file="scopolamineallergicrhinitis.png" alt="scopolamineallergicrhinitis" %}
 
 ## Concepts
 
@@ -44,4 +44,4 @@ toc: false
 | Nasal Mucus | OCCURS IN | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

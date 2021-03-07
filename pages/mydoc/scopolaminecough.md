@@ -5,7 +5,7 @@ permalink: scopolaminecough.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminecough.png" alt="scopolaminecough" %}![Path Visualization](/images/scopolaminecough.png)
+{% include image.html file="scopolaminecough.png" alt="scopolaminecough" %}
 
 ## Concepts
 
@@ -44,4 +44,4 @@ toc: false
 | Asthma | POSITIVELY CORRELATED WITH | Cough |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: nebivololhypertensivedisorder3.html
 toc: false 
 ---
 
-{% include image.html file="nebivololhypertensivedisorder3.png" alt="nebivololhypertensivedisorder3" %}![Path Visualization](/images/nebivololhypertensivedisorder3.png)
+{% include image.html file="nebivololhypertensivedisorder3.png" alt="nebivololhypertensivedisorder3" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Cardiac Output | PREVENTS | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04861#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04861#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04861#mechanism-of-action](https://go.drugbank.com/drugs/DB04861#mechanism-of-action){:target="_blank"}

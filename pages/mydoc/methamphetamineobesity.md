@@ -5,7 +5,7 @@ permalink: methamphetamineobesity.html
 toc: false 
 ---
 
-{% include image.html file="methamphetamineobesity.png" alt="methamphetamineobesity" %}![Path Visualization](/images/methamphetamineobesity.png)
+{% include image.html file="methamphetamineobesity.png" alt="methamphetamineobesity" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Appetite Stimulation | POSITIVELY CORRELATED WITH | Obesity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01577#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01577#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01577#mechanism-of-action](https://go.drugbank.com/drugs/DB01577#mechanism-of-action){:target="_blank"}

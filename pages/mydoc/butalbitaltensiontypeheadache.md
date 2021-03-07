@@ -5,7 +5,7 @@ permalink: butalbitaltensiontypeheadache.html
 toc: false 
 ---
 
-{% include image.html file="butalbitaltensiontypeheadache.png" alt="butalbitaltensiontypeheadache" %}![Path Visualization](/images/butalbitaltensiontypeheadache.png)
+{% include image.html file="butalbitaltensiontypeheadache.png" alt="butalbitaltensiontypeheadache" %}
 
 ## Concepts
 
@@ -46,4 +46,4 @@ toc: false
 | Positive Regulation Of Synaptic Transmission | POSITIVELY CORRELATED WITH | Tension-Type Headache |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00241#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00241#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00241#mechanism-of-action](https://go.drugbank.com/drugs/DB00241#mechanism-of-action){:target="_blank"}

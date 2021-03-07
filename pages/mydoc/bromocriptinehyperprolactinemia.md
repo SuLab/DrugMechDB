@@ -5,7 +5,7 @@ permalink: bromocriptinehyperprolactinemia.html
 toc: false 
 ---
 
-{% include image.html file="bromocriptinehyperprolactinemia.png" alt="bromocriptinehyperprolactinemia" %}![Path Visualization](/images/bromocriptinehyperprolactinemia.png)
+{% include image.html file="bromocriptinehyperprolactinemia.png" alt="bromocriptinehyperprolactinemia" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Positive Regulation Of Prolactin Secretion | POSITIVELY CORRELATED WITH | Hyperprolactinemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01200#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01200#mechanism-of-action](https://go.drugbank.com/drugs/DB01200#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: itraconazolecandidemia.html
 toc: false 
 ---
 
-{% include image.html file="itraconazolecandidemia.png" alt="itraconazolecandidemia" %}![Path Visualization](/images/itraconazolecandidemia.png)
+{% include image.html file="itraconazolecandidemia.png" alt="itraconazolecandidemia" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Candida Spp | CAUSES | Candidemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB01167#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: nafcillinstaphylococcalpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="nafcillinstaphylococcalpneumonia.png" alt="nafcillinstaphylococcalpneumonia" %}![Path Visualization](/images/nafcillinstaphylococcalpneumonia.png)
+{% include image.html file="nafcillinstaphylococcalpneumonia.png" alt="nafcillinstaphylococcalpneumonia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Staphylococcus | CAUSES | Staphylococcal Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00607#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00607#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00607#mechanism-of-action](https://go.drugbank.com/drugs/DB00607#mechanism-of-action){:target="_blank"}

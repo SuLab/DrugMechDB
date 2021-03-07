@@ -5,7 +5,7 @@ permalink: cyproheptadineurticaria.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadineurticaria.png" alt="cyproheptadineurticaria" %}![Path Visualization](/images/cyproheptadineurticaria.png)
+{% include image.html file="cyproheptadineurticaria.png" alt="cyproheptadineurticaria" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Response | CAUSES | Urticaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB00434#mechanism-of-action){:target="_blank"}

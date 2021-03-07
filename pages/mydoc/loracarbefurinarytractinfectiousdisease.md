@@ -5,7 +5,7 @@ permalink: loracarbefurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="loracarbefurinarytractinfectiousdisease.png" alt="loracarbefurinarytractinfectiousdisease" %}![Path Visualization](/images/loracarbefurinarytractinfectiousdisease.png)
+{% include image.html file="loracarbefurinarytractinfectiousdisease.png" alt="loracarbefurinarytractinfectiousdisease" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Escherichia Coli | CAUSES | Urinary Tract Infectious Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00447#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00447#mechanism-of-action](https://go.drugbank.com/drugs/DB00447#mechanism-of-action){:target="_blank"}

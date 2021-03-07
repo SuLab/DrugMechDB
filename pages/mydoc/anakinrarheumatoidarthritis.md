@@ -5,7 +5,7 @@ permalink: anakinrarheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="anakinrarheumatoidarthritis.png" alt="anakinrarheumatoidarthritis" %}![Path Visualization](/images/anakinrarheumatoidarthritis.png)
+{% include image.html file="anakinrarheumatoidarthritis.png" alt="anakinrarheumatoidarthritis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Cartilage Destruction | OCCURS IN | Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00026#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00026#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00026#mechanism-of-action](https://go.drugbank.com/drugs/DB00026#mechanism-of-action){:target="_blank"}

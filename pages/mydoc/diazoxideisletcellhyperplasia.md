@@ -5,7 +5,7 @@ permalink: diazoxideisletcellhyperplasia.html
 toc: false 
 ---
 
-{% include image.html file="diazoxideisletcellhyperplasia.png" alt="diazoxideisletcellhyperplasia" %}![Path Visualization](/images/diazoxideisletcellhyperplasia.png)
+{% include image.html file="diazoxideisletcellhyperplasia.png" alt="diazoxideisletcellhyperplasia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Hyperinsulinism | MANIFESTATION OF | Islet Cell Hyperplasia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01119#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01119#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01119#mechanism-of-action](https://go.drugbank.com/drugs/DB01119#mechanism-of-action){:target="_blank"}

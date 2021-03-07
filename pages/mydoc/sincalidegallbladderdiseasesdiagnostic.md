@@ -5,7 +5,7 @@ permalink: sincalidegallbladderdiseasesdiagnostic.html
 toc: false 
 ---
 
-{% include image.html file="sincalidegallbladderdiseasesdiagnostic.png" alt="sincalidegallbladderdiseasesdiagnostic" %}![Path Visualization](/images/sincalidegallbladderdiseasesdiagnostic.png)
+{% include image.html file="sincalidegallbladderdiseasesdiagnostic.png" alt="sincalidegallbladderdiseasesdiagnostic" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Bile Acid Secretion | NEGATIVELY CORRELATED WITH | Gallbladder Diseases (Diagnostic) |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09142#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09142#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09142#mechanism-of-action](https://go.drugbank.com/drugs/DB09142#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: diazepammusclespasticity.html
 toc: false 
 ---
 
-{% include image.html file="diazepammusclespasticity.png" alt="diazepammusclespasticity" %}![Path Visualization](/images/diazepammusclespasticity.png)
+{% include image.html file="diazepammusclespasticity.png" alt="diazepammusclespasticity" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Relaxation Of Muscle | NEGATIVELY CORRELATED WITH | Muscle Spasticity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00829#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00829#mechanism-of-action](https://go.drugbank.com/drugs/DB00829#mechanism-of-action){:target="_blank"}

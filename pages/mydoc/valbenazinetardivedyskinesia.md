@@ -5,7 +5,7 @@ permalink: valbenazinetardivedyskinesia.html
 toc: false 
 ---
 
-{% include image.html file="valbenazinetardivedyskinesia.png" alt="valbenazinetardivedyskinesia" %}![Path Visualization](/images/valbenazinetardivedyskinesia.png)
+{% include image.html file="valbenazinetardivedyskinesia.png" alt="valbenazinetardivedyskinesia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Dopamine Neurotransmitter Release Cycle | POSITIVELY CORRELATED WITH | Tardive Dyskinesia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11915#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11915#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11915#mechanism-of-action](https://go.drugbank.com/drugs/DB11915#mechanism-of-action){:target="_blank"}

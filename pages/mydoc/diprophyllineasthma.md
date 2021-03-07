@@ -5,7 +5,7 @@ permalink: diprophyllineasthma.html
 toc: false 
 ---
 
-{% include image.html file="diprophyllineasthma.png" alt="diprophyllineasthma" %}![Path Visualization](/images/diprophyllineasthma.png)
+{% include image.html file="diprophyllineasthma.png" alt="diprophyllineasthma" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Vasodilation | CORRELATED WITH | Asthma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB00651#mechanism-of-action){:target="_blank"}

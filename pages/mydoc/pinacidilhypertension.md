@@ -5,7 +5,7 @@ permalink: pinacidilhypertension.html
 toc: false 
 ---
 
-{% include image.html file="pinacidilhypertension.png" alt="pinacidilhypertension" %}![Path Visualization](/images/pinacidilhypertension.png)
+{% include image.html file="pinacidilhypertension.png" alt="pinacidilhypertension" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Negative Regulation Of Blood Pressure | PREVENTS | Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06762#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06762#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06762#mechanism-of-action](https://go.drugbank.com/drugs/DB06762#mechanism-of-action){:target="_blank"}

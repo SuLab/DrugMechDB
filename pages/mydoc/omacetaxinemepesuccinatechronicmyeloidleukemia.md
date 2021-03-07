@@ -5,7 +5,7 @@ permalink: omacetaxinemepesuccinatechronicmyeloidleukemia.html
 toc: false 
 ---
 
-{% include image.html file="omacetaxinemepesuccinatechronicmyeloidleukemia.png" alt="omacetaxinemepesuccinatechronicmyeloidleukemia" %}![Path Visualization](/images/omacetaxinemepesuccinatechronicmyeloidleukemia.png)
+{% include image.html file="omacetaxinemepesuccinatechronicmyeloidleukemia.png" alt="omacetaxinemepesuccinatechronicmyeloidleukemia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bcr/Abl Protein-Tyrosine Kinase | CAUSES | Chronic Myeloid Leukemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04865#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04865#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04865#mechanism-of-action](https://go.drugbank.com/drugs/DB04865#mechanism-of-action){:target="_blank"}

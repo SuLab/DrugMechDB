@@ -5,7 +5,7 @@ permalink: desoximetasoneexanthem.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasoneexanthem.png" alt="desoximetasoneexanthem" %}![Path Visualization](/images/desoximetasoneexanthem.png)
+{% include image.html file="desoximetasoneexanthem.png" alt="desoximetasoneexanthem" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | CAUSES | Exanthem |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB00547#mechanism-of-action){:target="_blank"}

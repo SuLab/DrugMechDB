@@ -5,7 +5,7 @@ permalink: itraconazoleinvasivepulmonaryaspergillosis.html
 toc: false 
 ---
 
-{% include image.html file="itraconazoleinvasivepulmonaryaspergillosis.png" alt="itraconazoleinvasivepulmonaryaspergillosis" %}![Path Visualization](/images/itraconazoleinvasivepulmonaryaspergillosis.png)
+{% include image.html file="itraconazoleinvasivepulmonaryaspergillosis.png" alt="itraconazoleinvasivepulmonaryaspergillosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Aspergillus Spp | CAUSES | Invasive Pulmonary Aspergillosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01167#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01167#mechanism-of-action](https://go.drugbank.com/drugs/DB01167#mechanism-of-action){:target="_blank"}

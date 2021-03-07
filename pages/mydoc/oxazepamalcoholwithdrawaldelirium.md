@@ -5,7 +5,7 @@ permalink: oxazepamalcoholwithdrawaldelirium.html
 toc: false 
 ---
 
-{% include image.html file="oxazepamalcoholwithdrawaldelirium.png" alt="oxazepamalcoholwithdrawaldelirium" %}![Path Visualization](/images/oxazepamalcoholwithdrawaldelirium.png)
+{% include image.html file="oxazepamalcoholwithdrawaldelirium.png" alt="oxazepamalcoholwithdrawaldelirium" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Seizures | MANIFESTATION OF | Alcohol Withdrawal Delirium |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00842#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00842#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00842#mechanism-of-action](https://go.drugbank.com/drugs/DB00842#mechanism-of-action){:target="_blank"}

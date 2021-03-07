@@ -5,7 +5,7 @@ permalink: sulfinpyrazonehyperuricemia.html
 toc: false 
 ---
 
-{% include image.html file="sulfinpyrazonehyperuricemia.png" alt="sulfinpyrazonehyperuricemia" %}![Path Visualization](/images/sulfinpyrazonehyperuricemia.png)
+{% include image.html file="sulfinpyrazonehyperuricemia.png" alt="sulfinpyrazonehyperuricemia" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Urate Salt Excretion | NEGATIVELY CORRELATED WITH | Hyperuricemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01138#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01138#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01138#mechanism-of-action](https://go.drugbank.com/drugs/DB01138#mechanism-of-action){:target="_blank"}

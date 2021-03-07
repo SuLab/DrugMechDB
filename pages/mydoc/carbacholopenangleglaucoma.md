@@ -5,7 +5,7 @@ permalink: carbacholopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="carbacholopenangleglaucoma.png" alt="carbacholopenangleglaucoma" %}![Path Visualization](/images/carbacholopenangleglaucoma.png)
+{% include image.html file="carbacholopenangleglaucoma.png" alt="carbacholopenangleglaucoma" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Ocular Hypertension | POSITIVELY CORRELATED WITH | Open-Angle Glaucoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00411#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00411#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00411#mechanism-of-action](https://go.drugbank.com/drugs/DB00411#mechanism-of-action){:target="_blank"}

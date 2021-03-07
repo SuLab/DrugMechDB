@@ -5,7 +5,7 @@ permalink: budesonideallergicrhinitis2.html
 toc: false 
 ---
 
-{% include image.html file="budesonideallergicrhinitis2.png" alt="budesonideallergicrhinitis2" %}![Path Visualization](/images/budesonideallergicrhinitis2.png)
+{% include image.html file="budesonideallergicrhinitis2.png" alt="budesonideallergicrhinitis2" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Inflammation | CORRELATED WITH | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01222#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01222#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01222#mechanism-of-action](https://go.drugbank.com/drugs/DB01222#mechanism-of-action){:target="_blank"}

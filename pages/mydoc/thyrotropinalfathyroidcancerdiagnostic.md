@@ -5,7 +5,7 @@ permalink: thyrotropinalfathyroidcancerdiagnostic.html
 toc: false 
 ---
 
-{% include image.html file="thyrotropinalfathyroidcancerdiagnostic.png" alt="thyrotropinalfathyroidcancerdiagnostic" %}![Path Visualization](/images/thyrotropinalfathyroidcancerdiagnostic.png)
+{% include image.html file="thyrotropinalfathyroidcancerdiagnostic.png" alt="thyrotropinalfathyroidcancerdiagnostic" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Thyroid | LOCATION OF | Thyroid Cancer (Diagnostic) |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00024#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00024#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00024#mechanism-of-action](https://go.drugbank.com/drugs/DB00024#mechanism-of-action){:target="_blank"}

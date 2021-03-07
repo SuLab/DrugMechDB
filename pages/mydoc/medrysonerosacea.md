@@ -5,7 +5,7 @@ permalink: medrysonerosacea.html
 toc: false 
 ---
 
-{% include image.html file="medrysonerosacea.png" alt="medrysonerosacea" %}![Path Visualization](/images/medrysonerosacea.png)
+{% include image.html file="medrysonerosacea.png" alt="medrysonerosacea" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Medrysone | TREATS | Rosacea |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB00253#mechanism-of-action){:target="_blank"}

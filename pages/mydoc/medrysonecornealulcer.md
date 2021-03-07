@@ -5,7 +5,7 @@ permalink: medrysonecornealulcer.html
 toc: false 
 ---
 
-{% include image.html file="medrysonecornealulcer.png" alt="medrysonecornealulcer" %}![Path Visualization](/images/medrysonecornealulcer.png)
+{% include image.html file="medrysonecornealulcer.png" alt="medrysonecornealulcer" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Medrysone | TREATS | Corneal Ulcer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00253#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB00253#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: cefiximeupperrespiratoryinfection.html
 toc: false 
 ---
 
-{% include image.html file="cefiximeupperrespiratoryinfection.png" alt="cefiximeupperrespiratoryinfection" %}![Path Visualization](/images/cefiximeupperrespiratoryinfection.png)
+{% include image.html file="cefiximeupperrespiratoryinfection.png" alt="cefiximeupperrespiratoryinfection" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Haemophilus Influenzae | CAUSES | Upper Respiratory Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

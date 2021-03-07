@@ -5,7 +5,7 @@ permalink: clobetasolpropionateatopicdermatitis2.html
 toc: false 
 ---
 
-{% include image.html file="clobetasolpropionateatopicdermatitis2.png" alt="clobetasolpropionateatopicdermatitis2" %}![Path Visualization](/images/clobetasolpropionateatopicdermatitis2.png)
+{% include image.html file="clobetasolpropionateatopicdermatitis2.png" alt="clobetasolpropionateatopicdermatitis2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammatory Process | CORRELATED WITH | Atopic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB11750#mechanism-of-action){:target="_blank"}

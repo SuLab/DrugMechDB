@@ -5,7 +5,7 @@ permalink: cefiximeurinarytractinfectiousdisease2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximeurinarytractinfectiousdisease2.png" alt="cefiximeurinarytractinfectiousdisease2" %}![Path Visualization](/images/cefiximeurinarytractinfectiousdisease2.png)
+{% include image.html file="cefiximeurinarytractinfectiousdisease2.png" alt="cefiximeurinarytractinfectiousdisease2" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cell Death | TREATS | Urinary Tract Infectious Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

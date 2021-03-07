@@ -5,7 +5,7 @@ permalink: posaconazolemycetoma.html
 toc: false 
 ---
 
-{% include image.html file="posaconazolemycetoma.png" alt="posaconazolemycetoma" %}![Path Visualization](/images/posaconazolemycetoma.png)
+{% include image.html file="posaconazolemycetoma.png" alt="posaconazolemycetoma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Madurella Mycetomatis | CAUSES | Mycetoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB01263#mechanism-of-action){:target="_blank"}

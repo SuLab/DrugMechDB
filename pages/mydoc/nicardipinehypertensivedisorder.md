@@ -5,7 +5,7 @@ permalink: nicardipinehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="nicardipinehypertensivedisorder.png" alt="nicardipinehypertensivedisorder" %}![Path Visualization](/images/nicardipinehypertensivedisorder.png)
+{% include image.html file="nicardipinehypertensivedisorder.png" alt="nicardipinehypertensivedisorder" %}
 
 ## Concepts
 
@@ -41,4 +41,4 @@ toc: false
 | Blood Pressure | POSITIVELY CORRELATED WITH | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00622#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00622#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00622#mechanism-of-action](https://go.drugbank.com/drugs/DB00622#mechanism-of-action){:target="_blank"}

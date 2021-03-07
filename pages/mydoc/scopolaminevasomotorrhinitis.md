@@ -5,7 +5,7 @@ permalink: scopolaminevasomotorrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminevasomotorrhinitis.png" alt="scopolaminevasomotorrhinitis" %}![Path Visualization](/images/scopolaminevasomotorrhinitis.png)
+{% include image.html file="scopolaminevasomotorrhinitis.png" alt="scopolaminevasomotorrhinitis" %}
 
 ## Concepts
 
@@ -44,4 +44,4 @@ toc: false
 | Nasal Mucus | OCCURS IN | Vasomotor Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

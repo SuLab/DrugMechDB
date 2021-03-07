@@ -5,7 +5,7 @@ permalink: acrivastineallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="acrivastineallergicconjunctivitis.png" alt="acrivastineallergicconjunctivitis" %}![Path Visualization](/images/acrivastineallergicconjunctivitis.png)
+{% include image.html file="acrivastineallergicconjunctivitis.png" alt="acrivastineallergicconjunctivitis" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Edema | MANIFESTATION OF | Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09488#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09488#mechanism-of-action](https://go.drugbank.com/drugs/DB09488#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: glycerolphenylbutyratedisorderoftheureacyclemetabolism.html
 toc: false 
 ---
 
-{% include image.html file="glycerolphenylbutyratedisorderoftheureacyclemetabolism.png" alt="glycerolphenylbutyratedisorderoftheureacyclemetabolism" %}![Path Visualization](/images/glycerolphenylbutyratedisorderoftheureacyclemetabolism.png)
+{% include image.html file="glycerolphenylbutyratedisorderoftheureacyclemetabolism.png" alt="glycerolphenylbutyratedisorderoftheureacyclemetabolism" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | N2-Phenylacetyl-L-Glutamine | NEGATIVELY CORRELATED WITH | Disorder Of The Urea Cycle Metabolism |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08909#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08909#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08909#mechanism-of-action](https://go.drugbank.com/drugs/DB08909#mechanism-of-action){:target="_blank"}

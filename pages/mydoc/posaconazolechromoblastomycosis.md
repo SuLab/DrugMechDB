@@ -5,7 +5,7 @@ permalink: posaconazolechromoblastomycosis.html
 toc: false 
 ---
 
-{% include image.html file="posaconazolechromoblastomycosis.png" alt="posaconazolechromoblastomycosis" %}![Path Visualization](/images/posaconazolechromoblastomycosis.png)
+{% include image.html file="posaconazolechromoblastomycosis.png" alt="posaconazolechromoblastomycosis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Fungi | CAUSES | Chromoblastomycosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB01263#mechanism-of-action){:target="_blank"}

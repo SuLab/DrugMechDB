@@ -5,7 +5,7 @@ permalink: dapsoneleprosy.html
 toc: false 
 ---
 
-{% include image.html file="dapsoneleprosy.png" alt="dapsoneleprosy" %}![Path Visualization](/images/dapsoneleprosy.png)
+{% include image.html file="dapsoneleprosy.png" alt="dapsoneleprosy" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Mycobacterium Leprae | CAUSES | Leprosy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00250#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00250#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00250#mechanism-of-action](https://go.drugbank.com/drugs/DB00250#mechanism-of-action){:target="_blank"}

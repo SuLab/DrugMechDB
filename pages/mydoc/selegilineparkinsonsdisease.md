@@ -5,7 +5,7 @@ permalink: selegilineparkinsonsdisease.html
 toc: false 
 ---
 
-{% include image.html file="selegilineparkinsonsdisease.png" alt="selegilineparkinsonsdisease" %}![Path Visualization](/images/selegilineparkinsonsdisease.png)
+{% include image.html file="selegilineparkinsonsdisease.png" alt="selegilineparkinsonsdisease" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Synaptic Transmission, Dopaminergic | NEGATIVELY CORRELATED WITH | Parkinson'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01037#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01037#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01037#mechanism-of-action](https://go.drugbank.com/drugs/DB01037#mechanism-of-action){:target="_blank"}

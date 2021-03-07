@@ -5,7 +5,7 @@ permalink: isoprenalinelowcardiacoutputsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalinelowcardiacoutputsyndrome.png" alt="isoprenalinelowcardiacoutputsyndrome" %}![Path Visualization](/images/isoprenalinelowcardiacoutputsyndrome.png)
+{% include image.html file="isoprenalinelowcardiacoutputsyndrome.png" alt="isoprenalinelowcardiacoutputsyndrome" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Heart Contraction | NEGATIVELY CORRELATED WITH | Low Cardiac Output Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01064#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01064#mechanism-of-action](https://go.drugbank.com/drugs/DB01064#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: clarithromycinbacterialpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinbacterialpneumonia.png" alt="clarithromycinbacterialpneumonia" %}![Path Visualization](/images/clarithromycinbacterialpneumonia.png)
+{% include image.html file="clarithromycinbacterialpneumonia.png" alt="clarithromycinbacterialpneumonia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pneumoniae | OCCURS IN | Bacterial Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB01211#mechanism-of-action){:target="_blank"}

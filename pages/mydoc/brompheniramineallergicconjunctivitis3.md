@@ -5,7 +5,7 @@ permalink: brompheniramineallergicconjunctivitis3.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineallergicconjunctivitis3.png" alt="brompheniramineallergicconjunctivitis3" %}![Path Visualization](/images/brompheniramineallergicconjunctivitis3.png)
+{% include image.html file="brompheniramineallergicconjunctivitis3.png" alt="brompheniramineallergicconjunctivitis3" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Muscarinic Acetylcholine Receptor | TREATS | Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

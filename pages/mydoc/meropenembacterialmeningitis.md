@@ -5,7 +5,7 @@ permalink: meropenembacterialmeningitis.html
 toc: false 
 ---
 
-{% include image.html file="meropenembacterialmeningitis.png" alt="meropenembacterialmeningitis" %}![Path Visualization](/images/meropenembacterialmeningitis.png)
+{% include image.html file="meropenembacterialmeningitis.png" alt="meropenembacterialmeningitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pneumoniae | CAUSES | Bacterial Meningitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB00760#mechanism-of-action){:target="_blank"}

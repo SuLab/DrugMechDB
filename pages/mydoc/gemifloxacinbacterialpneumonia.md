@@ -5,7 +5,7 @@ permalink: gemifloxacinbacterialpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="gemifloxacinbacterialpneumonia.png" alt="gemifloxacinbacterialpneumonia" %}![Path Visualization](/images/gemifloxacinbacterialpneumonia.png)
+{% include image.html file="gemifloxacinbacterialpneumonia.png" alt="gemifloxacinbacterialpneumonia" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Streptococcus Pneumoniae | CAUSES | Bacterial Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01155#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01155#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01155#mechanism-of-action](https://go.drugbank.com/drugs/DB01155#mechanism-of-action){:target="_blank"}

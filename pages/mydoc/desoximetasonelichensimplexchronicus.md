@@ -5,7 +5,7 @@ permalink: desoximetasonelichensimplexchronicus.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonelichensimplexchronicus.png" alt="desoximetasonelichensimplexchronicus" %}![Path Visualization](/images/desoximetasonelichensimplexchronicus.png)
+{% include image.html file="desoximetasonelichensimplexchronicus.png" alt="desoximetasonelichensimplexchronicus" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Skin Itching | MANIFESTATION OF | Lichen Simplex Chronicus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB00547#mechanism-of-action){:target="_blank"}

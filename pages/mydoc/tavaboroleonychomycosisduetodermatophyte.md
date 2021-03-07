@@ -5,7 +5,7 @@ permalink: tavaboroleonychomycosisduetodermatophyte.html
 toc: false 
 ---
 
-{% include image.html file="tavaboroleonychomycosisduetodermatophyte.png" alt="tavaboroleonychomycosisduetodermatophyte" %}![Path Visualization](/images/tavaboroleonychomycosisduetodermatophyte.png)
+{% include image.html file="tavaboroleonychomycosisduetodermatophyte.png" alt="tavaboroleonychomycosisduetodermatophyte" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Trichophyton Rubrum | CAUSES | Onychomycosis Due To Dermatophyte |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09041#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09041#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09041#mechanism-of-action](https://go.drugbank.com/drugs/DB09041#mechanism-of-action){:target="_blank"}

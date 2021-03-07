@@ -5,7 +5,7 @@ permalink: zincoxidecandidiasisofskin.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidecandidiasisofskin.png" alt="zincoxidecandidiasisofskin" %}![Path Visualization](/images/zincoxidecandidiasisofskin.png)
+{% include image.html file="zincoxidecandidiasisofskin.png" alt="zincoxidecandidiasisofskin" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Fungi | CAUSES | Candidiasis Of Skin |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB09321#mechanism-of-action){:target="_blank"}

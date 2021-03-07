@@ -5,7 +5,7 @@ permalink: amoxapinedepressivedisorder2.html
 toc: false 
 ---
 
-{% include image.html file="amoxapinedepressivedisorder2.png" alt="amoxapinedepressivedisorder2" %}![Path Visualization](/images/amoxapinedepressivedisorder2.png)
+{% include image.html file="amoxapinedepressivedisorder2.png" alt="amoxapinedepressivedisorder2" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Norepinephrine Uptake | POSITIVELY CORRELATED WITH | Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00285#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00285#mechanism-of-action](https://go.drugbank.com/drugs/DB00285#mechanism-of-action){:target="_blank"}

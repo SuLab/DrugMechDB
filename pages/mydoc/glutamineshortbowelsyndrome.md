@@ -5,7 +5,7 @@ permalink: glutamineshortbowelsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="glutamineshortbowelsyndrome.png" alt="glutamineshortbowelsyndrome" %}![Path Visualization](/images/glutamineshortbowelsyndrome.png)
+{% include image.html file="glutamineshortbowelsyndrome.png" alt="glutamineshortbowelsyndrome" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Intestinal Nutrient Absorption | NEGATIVELY CORRELATED WITH | Short Bowel Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00130#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00130#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00130#mechanism-of-action](https://go.drugbank.com/drugs/DB00130#mechanism-of-action){:target="_blank"}

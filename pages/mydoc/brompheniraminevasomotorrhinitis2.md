@@ -5,7 +5,7 @@ permalink: brompheniraminevasomotorrhinitis2.html
 toc: false 
 ---
 
-{% include image.html file="brompheniraminevasomotorrhinitis2.png" alt="brompheniraminevasomotorrhinitis2" %}![Path Visualization](/images/brompheniraminevasomotorrhinitis2.png)
+{% include image.html file="brompheniraminevasomotorrhinitis2.png" alt="brompheniraminevasomotorrhinitis2" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | H1 Histamine Receptor | TREATS | Vasomotor Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

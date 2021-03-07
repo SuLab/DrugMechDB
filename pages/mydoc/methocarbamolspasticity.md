@@ -5,7 +5,7 @@ permalink: methocarbamolspasticity.html
 toc: false 
 ---
 
-{% include image.html file="methocarbamolspasticity.png" alt="methocarbamolspasticity" %}![Path Visualization](/images/methocarbamolspasticity.png)
+{% include image.html file="methocarbamolspasticity.png" alt="methocarbamolspasticity" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Relaxation Of Muscle | NEGATIVELY CORRELATED WITH | Spasticity |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00423#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00423#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00423#mechanism-of-action](https://go.drugbank.com/drugs/DB00423#mechanism-of-action){:target="_blank"}

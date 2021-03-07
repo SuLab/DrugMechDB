@@ -5,7 +5,7 @@ permalink: irbesartanhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="irbesartanhypertensivedisorder.png" alt="irbesartanhypertensivedisorder" %}![Path Visualization](/images/irbesartanhypertensivedisorder.png)
+{% include image.html file="irbesartanhypertensivedisorder.png" alt="irbesartanhypertensivedisorder" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Up Regulation Of Blood Pressure | AFFECTS RISK FOR | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01029#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01029#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01029#mechanism-of-action](https://go.drugbank.com/drugs/DB01029#mechanism-of-action){:target="_blank"}

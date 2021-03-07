@@ -5,7 +5,7 @@ permalink: crizotinibnonsmallcelllungcancer.html
 toc: false 
 ---
 
-{% include image.html file="crizotinibnonsmallcelllungcancer.png" alt="crizotinibnonsmallcelllungcancer" %}![Path Visualization](/images/crizotinibnonsmallcelllungcancer.png)
+{% include image.html file="crizotinibnonsmallcelllungcancer.png" alt="crizotinibnonsmallcelllungcancer" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Proliferation Of Cells | CONTRIBUTES TO | Non-Small Cell Lung Cancer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08865#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08865#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08865#mechanism-of-action](https://go.drugbank.com/drugs/DB08865#mechanism-of-action){:target="_blank"}

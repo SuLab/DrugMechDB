@@ -5,7 +5,7 @@ permalink: adalimumabulcerativecolitis.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabulcerativecolitis.png" alt="adalimumabulcerativecolitis" %}![Path Visualization](/images/adalimumabulcerativecolitis.png)
+{% include image.html file="adalimumabulcerativecolitis.png" alt="adalimumabulcerativecolitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Ulcerative Colitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB00051#mechanism-of-action){:target="_blank"}

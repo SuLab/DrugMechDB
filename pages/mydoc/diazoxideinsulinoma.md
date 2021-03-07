@@ -5,7 +5,7 @@ permalink: diazoxideinsulinoma.html
 toc: false 
 ---
 
-{% include image.html file="diazoxideinsulinoma.png" alt="diazoxideinsulinoma" %}![Path Visualization](/images/diazoxideinsulinoma.png)
+{% include image.html file="diazoxideinsulinoma.png" alt="diazoxideinsulinoma" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Hyperinsulinism | MANIFESTATION OF | Insulinoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01119#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01119#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01119#mechanism-of-action](https://go.drugbank.com/drugs/DB01119#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: tinoridinepain.html
 toc: false 
 ---
 
-{% include image.html file="tinoridinepain.png" alt="tinoridinepain" %}![Path Visualization](/images/tinoridinepain.png)
+{% include image.html file="tinoridinepain.png" alt="tinoridinepain" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Prostaglandin Synthesis | TREATS | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB13001#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB13001#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB13001#mechanism-of-action](https://go.drugbank.com/drugs/DB13001#mechanism-of-action){:target="_blank"}

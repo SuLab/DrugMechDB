@@ -5,7 +5,7 @@ permalink: chlortalidoneedema.html
 toc: false 
 ---
 
-{% include image.html file="chlortalidoneedema.png" alt="chlortalidoneedema" %}![Path Visualization](/images/chlortalidoneedema.png)
+{% include image.html file="chlortalidoneedema.png" alt="chlortalidoneedema" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Abnormality Of Blood Volume Homeostasis | CONTRIBUTES TO | Edema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00310#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00310#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00310#mechanism-of-action](https://go.drugbank.com/drugs/DB00310#mechanism-of-action){:target="_blank"}

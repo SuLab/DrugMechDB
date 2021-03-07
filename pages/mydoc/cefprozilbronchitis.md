@@ -5,7 +5,7 @@ permalink: cefprozilbronchitis.html
 toc: false 
 ---
 
-{% include image.html file="cefprozilbronchitis.png" alt="cefprozilbronchitis" %}![Path Visualization](/images/cefprozilbronchitis.png)
+{% include image.html file="cefprozilbronchitis.png" alt="cefprozilbronchitis" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Streptococcus Pneumoniae | CAUSES | Bronchitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01150#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01150#mechanism-of-action](https://go.drugbank.com/drugs/DB01150#mechanism-of-action){:target="_blank"}

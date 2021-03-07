@@ -5,7 +5,7 @@ permalink: loxapineschizophrenia.html
 toc: false 
 ---
 
-{% include image.html file="loxapineschizophrenia.png" alt="loxapineschizophrenia" %}![Path Visualization](/images/loxapineschizophrenia.png)
+{% include image.html file="loxapineschizophrenia.png" alt="loxapineschizophrenia" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Response To Serotonin | CORRELATED WITH | Schizophrenia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00408#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00408#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00408#mechanism-of-action](https://go.drugbank.com/drugs/DB00408#mechanism-of-action){:target="_blank"}

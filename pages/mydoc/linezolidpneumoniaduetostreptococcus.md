@@ -5,7 +5,7 @@ permalink: linezolidpneumoniaduetostreptococcus.html
 toc: false 
 ---
 
-{% include image.html file="linezolidpneumoniaduetostreptococcus.png" alt="linezolidpneumoniaduetostreptococcus" %}![Path Visualization](/images/linezolidpneumoniaduetostreptococcus.png)
+{% include image.html file="linezolidpneumoniaduetostreptococcus.png" alt="linezolidpneumoniaduetostreptococcus" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Streptococcus | CAUSES | Pneumonia Due To Streptococcus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB00601#mechanism-of-action){:target="_blank"}

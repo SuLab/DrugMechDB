@@ -5,7 +5,7 @@ permalink: bortezomibmantlecelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="bortezomibmantlecelllymphoma.png" alt="bortezomibmantlecelllymphoma" %}![Path Visualization](/images/bortezomibmantlecelllymphoma.png)
+{% include image.html file="bortezomibmantlecelllymphoma.png" alt="bortezomibmantlecelllymphoma" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Apoptotic Process | NEGATIVELY CORRELATED WITH | Mantle Cell Lymphoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00188#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00188#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00188#mechanism-of-action](https://go.drugbank.com/drugs/DB00188#mechanism-of-action){:target="_blank"}

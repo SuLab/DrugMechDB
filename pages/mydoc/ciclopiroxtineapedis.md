@@ -5,7 +5,7 @@ permalink: ciclopiroxtineapedis.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxtineapedis.png" alt="ciclopiroxtineapedis" %}![Path Visualization](/images/ciclopiroxtineapedis.png)
+{% include image.html file="ciclopiroxtineapedis.png" alt="ciclopiroxtineapedis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Fungi | CAUSES | Tinea Pedis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01188#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01188#mechanism-of-action](https://go.drugbank.com/drugs/DB01188#mechanism-of-action){:target="_blank"}

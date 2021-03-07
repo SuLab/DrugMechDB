@@ -5,7 +5,7 @@ permalink: valproicacidbipolardisorder2.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidbipolardisorder2.png" alt="valproicacidbipolardisorder2" %}![Path Visualization](/images/valproicacidbipolardisorder2.png)
+{% include image.html file="valproicacidbipolardisorder2.png" alt="valproicacidbipolardisorder2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Synaptic Remodeling | TREATS | Bipolar Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

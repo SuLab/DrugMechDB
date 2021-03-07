@@ -5,7 +5,7 @@ permalink: brompheniramineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineallergicrhinitis.png" alt="brompheniramineallergicrhinitis" %}![Path Visualization](/images/brompheniramineallergicrhinitis.png)
+{% include image.html file="brompheniramineallergicrhinitis.png" alt="brompheniramineallergicrhinitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Vascular Permeability | CORRELATED WITH | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

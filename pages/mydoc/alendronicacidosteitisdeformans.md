@@ -5,7 +5,7 @@ permalink: alendronicacidosteitisdeformans.html
 toc: false 
 ---
 
-{% include image.html file="alendronicacidosteitisdeformans.png" alt="alendronicacidosteitisdeformans" %}![Path Visualization](/images/alendronicacidosteitisdeformans.png)
+{% include image.html file="alendronicacidosteitisdeformans.png" alt="alendronicacidosteitisdeformans" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bone Resorption | CAUSES | Osteitis Deformans |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00630#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00630#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00630#mechanism-of-action](https://go.drugbank.com/drugs/DB00630#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: clarithromycinacutemaxillarysinusitis.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinacutemaxillarysinusitis.png" alt="clarithromycinacutemaxillarysinusitis" %}![Path Visualization](/images/clarithromycinacutemaxillarysinusitis.png)
+{% include image.html file="clarithromycinacutemaxillarysinusitis.png" alt="clarithromycinacutemaxillarysinusitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Haemophilus Influenzae | CAUSES | Acute Maxillary Sinusitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB01211#mechanism-of-action){:target="_blank"}

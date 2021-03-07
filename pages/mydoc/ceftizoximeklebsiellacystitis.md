@@ -5,7 +5,7 @@ permalink: ceftizoximeklebsiellacystitis.html
 toc: false 
 ---
 
-{% include image.html file="ceftizoximeklebsiellacystitis.png" alt="ceftizoximeklebsiellacystitis" %}![Path Visualization](/images/ceftizoximeklebsiellacystitis.png)
+{% include image.html file="ceftizoximeklebsiellacystitis.png" alt="ceftizoximeklebsiellacystitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Klebsiella Pneumoniae | CAUSES | Klebsiella Cystitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01332#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01332#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01332#mechanism-of-action](https://go.drugbank.com/drugs/DB01332#mechanism-of-action){:target="_blank"}

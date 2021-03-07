@@ -5,7 +5,7 @@ permalink: cefiximetonsillitis2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximetonsillitis2.png" alt="cefiximetonsillitis2" %}![Path Visualization](/images/cefiximetonsillitis2.png)
+{% include image.html file="cefiximetonsillitis2.png" alt="cefiximetonsillitis2" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cell Death | TREATS | Tonsillitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00671#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00671#mechanism-of-action](https://go.drugbank.com/drugs/DB00671#mechanism-of-action){:target="_blank"}

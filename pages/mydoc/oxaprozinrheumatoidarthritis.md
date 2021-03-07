@@ -5,7 +5,7 @@ permalink: oxaprozinrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="oxaprozinrheumatoidarthritis.png" alt="oxaprozinrheumatoidarthritis" %}![Path Visualization](/images/oxaprozinrheumatoidarthritis.png)
+{% include image.html file="oxaprozinrheumatoidarthritis.png" alt="oxaprozinrheumatoidarthritis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Pain | MANIFESTATION OF | Rheumatoid Arthritis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00991#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00991#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00991#mechanism-of-action](https://go.drugbank.com/drugs/DB00991#mechanism-of-action){:target="_blank"}

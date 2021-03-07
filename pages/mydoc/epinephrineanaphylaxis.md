@@ -5,7 +5,7 @@ permalink: epinephrineanaphylaxis.html
 toc: false 
 ---
 
-{% include image.html file="epinephrineanaphylaxis.png" alt="epinephrineanaphylaxis" %}![Path Visualization](/images/epinephrineanaphylaxis.png)
+{% include image.html file="epinephrineanaphylaxis.png" alt="epinephrineanaphylaxis" %}
 
 ## Concepts
 
@@ -53,4 +53,4 @@ toc: false
 | Smooth Muscle Contraction | POSITIVELY CORRELATED WITH | Anaphylaxis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00668#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB00668#mechanism-of-action){:target="_blank"}

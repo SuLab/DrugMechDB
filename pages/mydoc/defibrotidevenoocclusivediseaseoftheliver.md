@@ -5,7 +5,7 @@ permalink: defibrotidevenoocclusivediseaseoftheliver.html
 toc: false 
 ---
 
-{% include image.html file="defibrotidevenoocclusivediseaseoftheliver.png" alt="defibrotidevenoocclusivediseaseoftheliver" %}![Path Visualization](/images/defibrotidevenoocclusivediseaseoftheliver.png)
+{% include image.html file="defibrotidevenoocclusivediseaseoftheliver.png" alt="defibrotidevenoocclusivediseaseoftheliver" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Platelet Aggregation | CORRELATED WITH | Veno-Occlusive Disease Of The Liver |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04932#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04932#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04932#mechanism-of-action](https://go.drugbank.com/drugs/DB04932#mechanism-of-action){:target="_blank"}

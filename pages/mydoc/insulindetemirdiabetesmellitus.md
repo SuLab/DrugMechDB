@@ -5,7 +5,7 @@ permalink: insulindetemirdiabetesmellitus.html
 toc: false 
 ---
 
-{% include image.html file="insulindetemirdiabetesmellitus.png" alt="insulindetemirdiabetesmellitus" %}![Path Visualization](/images/insulindetemirdiabetesmellitus.png)
+{% include image.html file="insulindetemirdiabetesmellitus.png" alt="insulindetemirdiabetesmellitus" %}
 
 ## Concepts
 
@@ -37,4 +37,4 @@ toc: false
 | Glucose Import | NEGATIVELY CORRELATED WITH | Diabetes Mellitus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01307#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01307#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01307#mechanism-of-action](https://go.drugbank.com/drugs/DB01307#mechanism-of-action){:target="_blank"}

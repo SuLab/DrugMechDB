@@ -5,7 +5,7 @@ permalink: mizolastineallergicrhinitis2.html
 toc: false 
 ---
 
-{% include image.html file="mizolastineallergicrhinitis2.png" alt="mizolastineallergicrhinitis2" %}![Path Visualization](/images/mizolastineallergicrhinitis2.png)
+{% include image.html file="mizolastineallergicrhinitis2.png" alt="mizolastineallergicrhinitis2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Response | CAUSES | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12523#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12523#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12523#mechanism-of-action](https://go.drugbank.com/drugs/DB12523#mechanism-of-action){:target="_blank"}

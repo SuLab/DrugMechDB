@@ -5,7 +5,7 @@ permalink: tazobactaminfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="tazobactaminfectionduetostaphylococcusaureus.png" alt="tazobactaminfectionduetostaphylococcusaureus" %}![Path Visualization](/images/tazobactaminfectionduetostaphylococcusaureus.png)
+{% include image.html file="tazobactaminfectionduetostaphylococcusaureus.png" alt="tazobactaminfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Infection Due To Staphylococcus Aureus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB01606#mechanism-of-action){:target="_blank"}

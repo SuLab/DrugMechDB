@@ -5,7 +5,7 @@ permalink: valproicacidabsenceseizure5.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidabsenceseizure5.png" alt="valproicacidabsenceseizure5" %}![Path Visualization](/images/valproicacidabsenceseizure5.png)
+{% include image.html file="valproicacidabsenceseizure5.png" alt="valproicacidabsenceseizure5" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Gabaergic Neurotransmission | TREATS | Absence Seizure |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

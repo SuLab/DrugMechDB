@@ -5,7 +5,7 @@ permalink: capecitabinemalignanttumorofstomach.html
 toc: false 
 ---
 
-{% include image.html file="capecitabinemalignanttumorofstomach.png" alt="capecitabinemalignanttumorofstomach" %}![Path Visualization](/images/capecitabinemalignanttumorofstomach.png)
+{% include image.html file="capecitabinemalignanttumorofstomach.png" alt="capecitabinemalignanttumorofstomach" %}
 
 ## Concepts
 
@@ -38,4 +38,4 @@ toc: false
 | Cell Population Proliferation | POSITIVELY CORRELATED WITH | Malignant Tumor Of Stomach |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00544,DB:DB01101#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00544,DB:DB01101#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00544,DB:DB01101#mechanism-of-action](https://go.drugbank.com/drugs/DB00544,DB:DB01101#mechanism-of-action){:target="_blank"}

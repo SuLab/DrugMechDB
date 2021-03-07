@@ -5,7 +5,7 @@ permalink: liraglutidediabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="liraglutidediabetesmellitustype2.png" alt="liraglutidediabetesmellitustype2" %}![Path Visualization](/images/liraglutidediabetesmellitustype2.png)
+{% include image.html file="liraglutidediabetesmellitustype2.png" alt="liraglutidediabetesmellitustype2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Blood Sugar | CORRELATED WITH | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06655#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06655#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06655#mechanism-of-action](https://go.drugbank.com/drugs/DB06655#mechanism-of-action){:target="_blank"}

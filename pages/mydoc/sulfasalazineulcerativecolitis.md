@@ -5,7 +5,7 @@ permalink: sulfasalazineulcerativecolitis.html
 toc: false 
 ---
 
-{% include image.html file="sulfasalazineulcerativecolitis.png" alt="sulfasalazineulcerativecolitis" %}![Path Visualization](/images/sulfasalazineulcerativecolitis.png)
+{% include image.html file="sulfasalazineulcerativecolitis.png" alt="sulfasalazineulcerativecolitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Ulcerative Colitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00795#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00795#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00795#mechanism-of-action](https://go.drugbank.com/drugs/DB00795#mechanism-of-action){:target="_blank"}

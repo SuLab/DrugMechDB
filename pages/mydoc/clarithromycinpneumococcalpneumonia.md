@@ -5,7 +5,7 @@ permalink: clarithromycinpneumococcalpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinpneumococcalpneumonia.png" alt="clarithromycinpneumococcalpneumonia" %}![Path Visualization](/images/clarithromycinpneumococcalpneumonia.png)
+{% include image.html file="clarithromycinpneumococcalpneumonia.png" alt="clarithromycinpneumococcalpneumonia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Streptococcus Pneumoniae | OCCURS IN | Pneumococcal Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB01211#mechanism-of-action){:target="_blank"}

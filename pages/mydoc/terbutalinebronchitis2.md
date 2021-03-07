@@ -5,7 +5,7 @@ permalink: terbutalinebronchitis2.html
 toc: false 
 ---
 
-{% include image.html file="terbutalinebronchitis2.png" alt="terbutalinebronchitis2" %}![Path Visualization](/images/terbutalinebronchitis2.png)
+{% include image.html file="terbutalinebronchitis2.png" alt="terbutalinebronchitis2" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Relaxation Of Smooth Muscle | NEGATIVELY CORRELATED WITH | Bronchitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00871#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB00871#mechanism-of-action){:target="_blank"}

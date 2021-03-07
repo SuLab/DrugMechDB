@@ -5,7 +5,7 @@ permalink: acetaminophenpain.html
 toc: false 
 ---
 
-{% include image.html file="acetaminophenpain.png" alt="acetaminophenpain" %}![Path Visualization](/images/acetaminophenpain.png)
+{% include image.html file="acetaminophenpain.png" alt="acetaminophenpain" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Prostaglandins | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00316#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00316#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00316#mechanism-of-action](https://go.drugbank.com/drugs/DB00316#mechanism-of-action){:target="_blank"}

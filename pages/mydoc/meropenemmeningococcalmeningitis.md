@@ -5,7 +5,7 @@ permalink: meropenemmeningococcalmeningitis.html
 toc: false 
 ---
 
-{% include image.html file="meropenemmeningococcalmeningitis.png" alt="meropenemmeningococcalmeningitis" %}![Path Visualization](/images/meropenemmeningococcalmeningitis.png)
+{% include image.html file="meropenemmeningococcalmeningitis.png" alt="meropenemmeningococcalmeningitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Neisseria Meningitidis | POSITIVELY CORRELATED WITH | Meningococcal Meningitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00760#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00760#mechanism-of-action](https://go.drugbank.com/drugs/DB00760#mechanism-of-action){:target="_blank"}

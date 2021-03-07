@@ -5,7 +5,7 @@ permalink: defibrotidevenoocclusivediseaseoftheliver3.html
 toc: false 
 ---
 
-{% include image.html file="defibrotidevenoocclusivediseaseoftheliver3.png" alt="defibrotidevenoocclusivediseaseoftheliver3" %}![Path Visualization](/images/defibrotidevenoocclusivediseaseoftheliver3.png)
+{% include image.html file="defibrotidevenoocclusivediseaseoftheliver3.png" alt="defibrotidevenoocclusivediseaseoftheliver3" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Blood Flow | TREATS | Veno-Occlusive Disease Of The Liver |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04932#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04932#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04932#mechanism-of-action](https://go.drugbank.com/drugs/DB04932#mechanism-of-action){:target="_blank"}

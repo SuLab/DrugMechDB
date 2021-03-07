@@ -5,7 +5,7 @@ permalink: primaquinevivaxmalaria.html
 toc: false 
 ---
 
-{% include image.html file="primaquinevivaxmalaria.png" alt="primaquinevivaxmalaria" %}![Path Visualization](/images/primaquinevivaxmalaria.png)
+{% include image.html file="primaquinevivaxmalaria.png" alt="primaquinevivaxmalaria" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Plasmodium Vivax | CAUSES | Vivax Malaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01087#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01087#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01087#mechanism-of-action](https://go.drugbank.com/drugs/DB01087#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: valproicacidabsenceseizure2.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidabsenceseizure2.png" alt="valproicacidabsenceseizure2" %}![Path Visualization](/images/valproicacidabsenceseizure2.png)
+{% include image.html file="valproicacidabsenceseizure2.png" alt="valproicacidabsenceseizure2" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Neurogenesis | PREVENTS | Absence Seizure |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

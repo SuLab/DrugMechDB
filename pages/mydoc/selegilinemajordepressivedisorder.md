@@ -5,7 +5,7 @@ permalink: selegilinemajordepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="selegilinemajordepressivedisorder.png" alt="selegilinemajordepressivedisorder" %}![Path Visualization](/images/selegilinemajordepressivedisorder.png)
+{% include image.html file="selegilinemajordepressivedisorder.png" alt="selegilinemajordepressivedisorder" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Synaptic Transmission, Noradrenergic | NEGATIVELY CORRELATED WITH | Major Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01037#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01037#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01037#mechanism-of-action](https://go.drugbank.com/drugs/DB01037#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: nicardipineanginapectoris.html
 toc: false 
 ---
 
-{% include image.html file="nicardipineanginapectoris.png" alt="nicardipineanginapectoris" %}![Path Visualization](/images/nicardipineanginapectoris.png)
+{% include image.html file="nicardipineanginapectoris.png" alt="nicardipineanginapectoris" %}
 
 ## Concepts
 
@@ -41,4 +41,4 @@ toc: false
 | Blood Circulation | NEGATIVELY CORRELATED WITH | Angina Pectoris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00622#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00622#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00622#mechanism-of-action](https://go.drugbank.com/drugs/DB00622#mechanism-of-action){:target="_blank"}

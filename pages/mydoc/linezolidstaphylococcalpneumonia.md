@@ -5,7 +5,7 @@ permalink: linezolidstaphylococcalpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="linezolidstaphylococcalpneumonia.png" alt="linezolidstaphylococcalpneumonia" %}![Path Visualization](/images/linezolidstaphylococcalpneumonia.png)
+{% include image.html file="linezolidstaphylococcalpneumonia.png" alt="linezolidstaphylococcalpneumonia" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Staphylococcus Aureus | CAUSES | Staphylococcal Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00601#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00601#mechanism-of-action](https://go.drugbank.com/drugs/DB00601#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: nitricoxidepulmonaryhypertension.html
 toc: false 
 ---
 
-{% include image.html file="nitricoxidepulmonaryhypertension.png" alt="nitricoxidepulmonaryhypertension" %}![Path Visualization](/images/nitricoxidepulmonaryhypertension.png)
+{% include image.html file="nitricoxidepulmonaryhypertension.png" alt="nitricoxidepulmonaryhypertension" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Lung | PREVENTS | Pulmonary Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00435#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00435#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00435#mechanism-of-action](https://go.drugbank.com/drugs/DB00435#mechanism-of-action){:target="_blank"}

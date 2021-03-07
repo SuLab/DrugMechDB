@@ -5,7 +5,7 @@ permalink: alfacalcidolrenalosteodystrophy2.html
 toc: false 
 ---
 
-{% include image.html file="alfacalcidolrenalosteodystrophy2.png" alt="alfacalcidolrenalosteodystrophy2" %}![Path Visualization](/images/alfacalcidolrenalosteodystrophy2.png)
+{% include image.html file="alfacalcidolrenalosteodystrophy2.png" alt="alfacalcidolrenalosteodystrophy2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Calcium | TREATS | Renal Osteodystrophy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01436#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01436#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01436#mechanism-of-action](https://go.drugbank.com/drugs/DB01436#mechanism-of-action){:target="_blank"}

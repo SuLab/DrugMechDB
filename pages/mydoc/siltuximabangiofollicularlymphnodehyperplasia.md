@@ -5,7 +5,7 @@ permalink: siltuximabangiofollicularlymphnodehyperplasia.html
 toc: false 
 ---
 
-{% include image.html file="siltuximabangiofollicularlymphnodehyperplasia.png" alt="siltuximabangiofollicularlymphnodehyperplasia" %}![Path Visualization](/images/siltuximabangiofollicularlymphnodehyperplasia.png)
+{% include image.html file="siltuximabangiofollicularlymphnodehyperplasia.png" alt="siltuximabangiofollicularlymphnodehyperplasia" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Interleukin-6 | POSITIVELY CORRELATED WITH | Angiofollicular Lymph Node Hyperplasia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09036#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09036#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09036#mechanism-of-action](https://go.drugbank.com/drugs/DB09036#mechanism-of-action){:target="_blank"}

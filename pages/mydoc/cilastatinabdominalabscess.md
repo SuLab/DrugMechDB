@@ -5,7 +5,7 @@ permalink: cilastatinabdominalabscess.html
 toc: false 
 ---
 
-{% include image.html file="cilastatinabdominalabscess.png" alt="cilastatinabdominalabscess" %}![Path Visualization](/images/cilastatinabdominalabscess.png)
+{% include image.html file="cilastatinabdominalabscess.png" alt="cilastatinabdominalabscess" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacteria | CAUSES | Abdominal Abscess |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01597#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01597#mechanism-of-action](https://go.drugbank.com/drugs/DB01597#mechanism-of-action){:target="_blank"}

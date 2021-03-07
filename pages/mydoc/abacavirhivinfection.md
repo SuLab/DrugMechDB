@@ -5,7 +5,7 @@ permalink: abacavirhivinfection.html
 toc: false 
 ---
 
-{% include image.html file="abacavirhivinfection.png" alt="abacavirhivinfection" %}![Path Visualization](/images/abacavirhivinfection.png)
+{% include image.html file="abacavirhivinfection.png" alt="abacavirhivinfection" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Viral Dna Replication | CAUSES | Hiv Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01048#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01048#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01048#mechanism-of-action](https://go.drugbank.com/drugs/DB01048#mechanism-of-action){:target="_blank"}

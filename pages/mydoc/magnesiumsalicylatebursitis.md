@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatebursitis.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatebursitis.png" alt="magnesiumsalicylatebursitis" %}![Path Visualization](/images/magnesiumsalicylatebursitis.png)
+{% include image.html file="magnesiumsalicylatebursitis.png" alt="magnesiumsalicylatebursitis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammatory Response | CAUSES | Bursitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01397#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01397#mechanism-of-action](https://go.drugbank.com/drugs/DB01397#mechanism-of-action){:target="_blank"}

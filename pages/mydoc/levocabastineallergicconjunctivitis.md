@@ -5,7 +5,7 @@ permalink: levocabastineallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="levocabastineallergicconjunctivitis.png" alt="levocabastineallergicconjunctivitis" %}![Path Visualization](/images/levocabastineallergicconjunctivitis.png)
+{% include image.html file="levocabastineallergicconjunctivitis.png" alt="levocabastineallergicconjunctivitis" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Response To Histamine | CAUSES | Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01106#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01106#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01106#mechanism-of-action](https://go.drugbank.com/drugs/DB01106#mechanism-of-action){:target="_blank"}

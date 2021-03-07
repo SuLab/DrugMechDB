@@ -5,7 +5,7 @@ permalink: chlorhexidinegingivitis.html
 toc: false 
 ---
 
-{% include image.html file="chlorhexidinegingivitis.png" alt="chlorhexidinegingivitis" %}![Path Visualization](/images/chlorhexidinegingivitis.png)
+{% include image.html file="chlorhexidinegingivitis.png" alt="chlorhexidinegingivitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Bacteria | CAUSES | Gingivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00878#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00878#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00878#mechanism-of-action](https://go.drugbank.com/drugs/DB00878#mechanism-of-action){:target="_blank"}

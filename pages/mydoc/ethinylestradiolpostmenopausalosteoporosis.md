@@ -5,7 +5,7 @@ permalink: ethinylestradiolpostmenopausalosteoporosis.html
 toc: false 
 ---
 
-{% include image.html file="ethinylestradiolpostmenopausalosteoporosis.png" alt="ethinylestradiolpostmenopausalosteoporosis" %}![Path Visualization](/images/ethinylestradiolpostmenopausalosteoporosis.png)
+{% include image.html file="ethinylestradiolpostmenopausalosteoporosis.png" alt="ethinylestradiolpostmenopausalosteoporosis" %}
 
 ## Concepts
 
@@ -35,4 +35,4 @@ toc: false
 | Bone Resorption | CAUSES | Postmenopausal Osteoporosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00977#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00977#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00977#mechanism-of-action](https://go.drugbank.com/drugs/DB00977#mechanism-of-action){:target="_blank"}

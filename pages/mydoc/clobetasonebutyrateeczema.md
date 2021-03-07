@@ -5,7 +5,7 @@ permalink: clobetasonebutyrateeczema.html
 toc: false 
 ---
 
-{% include image.html file="clobetasonebutyrateeczema.png" alt="clobetasonebutyrateeczema" %}![Path Visualization](/images/clobetasonebutyrateeczema.png)
+{% include image.html file="clobetasonebutyrateeczema.png" alt="clobetasonebutyrateeczema" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Vascular Permeability | CONTRIBUTES TO | Eczema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB13158#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB13158#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB13158#mechanism-of-action](https://go.drugbank.com/drugs/DB13158#mechanism-of-action){:target="_blank"}

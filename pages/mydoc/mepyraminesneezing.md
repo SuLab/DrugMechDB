@@ -5,7 +5,7 @@ permalink: mepyraminesneezing.html
 toc: false 
 ---
 
-{% include image.html file="mepyraminesneezing.png" alt="mepyraminesneezing" %}![Path Visualization](/images/mepyraminesneezing.png)
+{% include image.html file="mepyraminesneezing.png" alt="mepyraminesneezing" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Trigeminal Nerve | CONTRIBUTES TO | Sneezing |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06691#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB06691#mechanism-of-action){:target="_blank"}

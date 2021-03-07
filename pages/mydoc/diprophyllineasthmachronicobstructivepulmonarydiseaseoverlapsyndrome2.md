@@ -5,7 +5,7 @@ permalink: diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome2
 toc: false 
 ---
 
-{% include image.html file="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome2.png" alt="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome2" %}![Path Visualization](/images/diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome2.png)
+{% include image.html file="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome2.png" alt="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome2" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Vasodilation | CORRELATED WITH | Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00651#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00651#mechanism-of-action](https://go.drugbank.com/drugs/DB00651#mechanism-of-action){:target="_blank"}

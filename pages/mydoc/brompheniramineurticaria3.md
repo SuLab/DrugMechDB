@@ -5,7 +5,7 @@ permalink: brompheniramineurticaria3.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineurticaria3.png" alt="brompheniramineurticaria3" %}![Path Visualization](/images/brompheniramineurticaria3.png)
+{% include image.html file="brompheniramineurticaria3.png" alt="brompheniramineurticaria3" %}
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Muscarinic Acetylcholine Receptor | TREATS | Urticaria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00835#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00835#mechanism-of-action](https://go.drugbank.com/drugs/DB00835#mechanism-of-action){:target="_blank"}

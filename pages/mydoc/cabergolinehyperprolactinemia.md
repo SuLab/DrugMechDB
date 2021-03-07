@@ -5,7 +5,7 @@ permalink: cabergolinehyperprolactinemia.html
 toc: false 
 ---
 
-{% include image.html file="cabergolinehyperprolactinemia.png" alt="cabergolinehyperprolactinemia" %}![Path Visualization](/images/cabergolinehyperprolactinemia.png)
+{% include image.html file="cabergolinehyperprolactinemia.png" alt="cabergolinehyperprolactinemia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Positive Regulation Of Prolactin Secretion | CAUSES | Hyperprolactinemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00248#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00248#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00248#mechanism-of-action](https://go.drugbank.com/drugs/DB00248#mechanism-of-action){:target="_blank"}

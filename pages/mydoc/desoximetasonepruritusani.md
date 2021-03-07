@@ -5,7 +5,7 @@ permalink: desoximetasonepruritusani.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonepruritusani.png" alt="desoximetasonepruritusani" %}![Path Visualization](/images/desoximetasonepruritusani.png)
+{% include image.html file="desoximetasonepruritusani.png" alt="desoximetasonepruritusani" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Skin Itching | MANIFESTATION OF | Pruritus Ani |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB00547#mechanism-of-action){:target="_blank"}

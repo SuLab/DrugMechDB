@@ -5,7 +5,7 @@ permalink: budesonideasthma.html
 toc: false 
 ---
 
-{% include image.html file="budesonideasthma.png" alt="budesonideasthma" %}![Path Visualization](/images/budesonideasthma.png)
+{% include image.html file="budesonideasthma.png" alt="budesonideasthma" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CORRELATED WITH | Asthma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01222#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01222#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01222#mechanism-of-action](https://go.drugbank.com/drugs/DB01222#mechanism-of-action){:target="_blank"}

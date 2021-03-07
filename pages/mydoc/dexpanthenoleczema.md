@@ -5,7 +5,7 @@ permalink: dexpanthenoleczema.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenoleczema.png" alt="dexpanthenoleczema" %}![Path Visualization](/images/dexpanthenoleczema.png)
+{% include image.html file="dexpanthenoleczema.png" alt="dexpanthenoleczema" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Re-Epithelialization | TREATS | Eczema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09357#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09357#mechanism-of-action](https://go.drugbank.com/drugs/DB09357#mechanism-of-action){:target="_blank"}

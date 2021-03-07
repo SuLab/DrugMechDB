@@ -5,7 +5,7 @@ permalink: carbetocinpraderwillisyndrome.html
 toc: false 
 ---
 
-{% include image.html file="carbetocinpraderwillisyndrome.png" alt="carbetocinpraderwillisyndrome" %}![Path Visualization](/images/carbetocinpraderwillisyndrome.png)
+{% include image.html file="carbetocinpraderwillisyndrome.png" alt="carbetocinpraderwillisyndrome" %}
 
 ## Concepts
 
@@ -24,4 +24,4 @@ toc: false
 | Carbetocin | TREATS | Prader-Willi Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01282#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01282#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01282#mechanism-of-action](https://go.drugbank.com/drugs/DB01282#mechanism-of-action){:target="_blank"}

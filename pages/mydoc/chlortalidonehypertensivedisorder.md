@@ -5,7 +5,7 @@ permalink: chlortalidonehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="chlortalidonehypertensivedisorder.png" alt="chlortalidonehypertensivedisorder" %}![Path Visualization](/images/chlortalidonehypertensivedisorder.png)
+{% include image.html file="chlortalidonehypertensivedisorder.png" alt="chlortalidonehypertensivedisorder" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Up Regulation Of Blood Pressure | AFFECTS RISK FOR | Hypertensive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00310#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00310#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00310#mechanism-of-action](https://go.drugbank.com/drugs/DB00310#mechanism-of-action){:target="_blank"}

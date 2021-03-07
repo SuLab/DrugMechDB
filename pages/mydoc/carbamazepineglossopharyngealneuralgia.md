@@ -5,7 +5,7 @@ permalink: carbamazepineglossopharyngealneuralgia.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepineglossopharyngealneuralgia.png" alt="carbamazepineglossopharyngealneuralgia" %}![Path Visualization](/images/carbamazepineglossopharyngealneuralgia.png)
+{% include image.html file="carbamazepineglossopharyngealneuralgia.png" alt="carbamazepineglossopharyngealneuralgia" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Positive Regulation Of Sensory Perception Of Pain | CAUSES | Glossopharyngeal Neuralgia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB00564#mechanism-of-action){:target="_blank"}

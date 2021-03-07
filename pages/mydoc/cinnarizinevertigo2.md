@@ -5,7 +5,7 @@ permalink: cinnarizinevertigo2.html
 toc: false 
 ---
 
-{% include image.html file="cinnarizinevertigo2.png" alt="cinnarizinevertigo2" %}![Path Visualization](/images/cinnarizinevertigo2.png)
+{% include image.html file="cinnarizinevertigo2.png" alt="cinnarizinevertigo2" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Vascular Smooth Muscle Contraction | TREATS | Vertigo |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00568#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00568#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00568#mechanism-of-action](https://go.drugbank.com/drugs/DB00568#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: propylthiouracilthyrotoxiccrisis.html
 toc: false 
 ---
 
-{% include image.html file="propylthiouracilthyrotoxiccrisis.png" alt="propylthiouracilthyrotoxiccrisis" %}![Path Visualization](/images/propylthiouracilthyrotoxiccrisis.png)
+{% include image.html file="propylthiouracilthyrotoxiccrisis.png" alt="propylthiouracilthyrotoxiccrisis" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Thyroid Hormone Generation | POSITIVELY CORRELATED WITH | Thyrotoxic Crisis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00550#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00550#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00550#mechanism-of-action](https://go.drugbank.com/drugs/DB00550#mechanism-of-action){:target="_blank"}

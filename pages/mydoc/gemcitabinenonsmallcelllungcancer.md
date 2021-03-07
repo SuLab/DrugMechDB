@@ -5,7 +5,7 @@ permalink: gemcitabinenonsmallcelllungcancer.html
 toc: false 
 ---
 
-{% include image.html file="gemcitabinenonsmallcelllungcancer.png" alt="gemcitabinenonsmallcelllungcancer" %}![Path Visualization](/images/gemcitabinenonsmallcelllungcancer.png)
+{% include image.html file="gemcitabinenonsmallcelllungcancer.png" alt="gemcitabinenonsmallcelllungcancer" %}
 
 ## Concepts
 
@@ -40,4 +40,4 @@ toc: false
 | Dna Synthesis Involved In Mitotic Dna Replication | POSITIVELY CORRELATED WITH | Non-Small Cell Lung Cancer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12459#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12459#mechanism-of-action](https://go.drugbank.com/drugs/DB12459#mechanism-of-action){:target="_blank"}

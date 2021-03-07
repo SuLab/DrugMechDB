@@ -5,7 +5,7 @@ permalink: clobetasonebutyrateatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="clobetasonebutyrateatopicdermatitis.png" alt="clobetasonebutyrateatopicdermatitis" %}![Path Visualization](/images/clobetasonebutyrateatopicdermatitis.png)
+{% include image.html file="clobetasonebutyrateatopicdermatitis.png" alt="clobetasonebutyrateatopicdermatitis" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Vascular Permeability | CONTRIBUTES TO | Atopic Dermatitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB13158#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB13158#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB13158#mechanism-of-action](https://go.drugbank.com/drugs/DB13158#mechanism-of-action){:target="_blank"}

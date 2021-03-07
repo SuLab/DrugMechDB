@@ -5,7 +5,7 @@ permalink: carbamazepineepilepsy.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepineepilepsy.png" alt="carbamazepineepilepsy" %}![Path Visualization](/images/carbamazepineepilepsy.png)
+{% include image.html file="carbamazepineepilepsy.png" alt="carbamazepineepilepsy" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Positive Regulation Of Synaptic Transmission | POSITIVELY CORRELATED WITH | Epilepsy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00564#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00564#mechanism-of-action](https://go.drugbank.com/drugs/DB00564#mechanism-of-action){:target="_blank"}

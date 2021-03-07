@@ -5,7 +5,7 @@ permalink: lenvatinibrenalcellcarcinoma.html
 toc: false 
 ---
 
-{% include image.html file="lenvatinibrenalcellcarcinoma.png" alt="lenvatinibrenalcellcarcinoma" %}![Path Visualization](/images/lenvatinibrenalcellcarcinoma.png)
+{% include image.html file="lenvatinibrenalcellcarcinoma.png" alt="lenvatinibrenalcellcarcinoma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Cancer Cell | PARTICIPATES IN | Renal Cell Carcinoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09078#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09078#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09078#mechanism-of-action](https://go.drugbank.com/drugs/DB09078#mechanism-of-action){:target="_blank"}

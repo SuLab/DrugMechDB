@@ -5,7 +5,7 @@ permalink: cyproheptadineallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadineallergicconjunctivitis.png" alt="cyproheptadineallergicconjunctivitis" %}![Path Visualization](/images/cyproheptadineallergicconjunctivitis.png)
+{% include image.html file="cyproheptadineallergicconjunctivitis.png" alt="cyproheptadineallergicconjunctivitis" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Tear Secretion | MANIFESTATION OF | Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00434#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00434#mechanism-of-action](https://go.drugbank.com/drugs/DB00434#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: buprenorphinechronicpain.html
 toc: false 
 ---
 
-{% include image.html file="buprenorphinechronicpain.png" alt="buprenorphinechronicpain" %}![Path Visualization](/images/buprenorphinechronicpain.png)
+{% include image.html file="buprenorphinechronicpain.png" alt="buprenorphinechronicpain" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Membrane Hyperpolarization | AMELIORATES | Chronic Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00921#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00921#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00921#mechanism-of-action](https://go.drugbank.com/drugs/DB00921#mechanism-of-action){:target="_blank"}

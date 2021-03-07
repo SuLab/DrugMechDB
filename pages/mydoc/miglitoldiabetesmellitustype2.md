@@ -5,7 +5,7 @@ permalink: miglitoldiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="miglitoldiabetesmellitustype2.png" alt="miglitoldiabetesmellitustype2" %}![Path Visualization](/images/miglitoldiabetesmellitustype2.png)
+{% include image.html file="miglitoldiabetesmellitustype2.png" alt="miglitoldiabetesmellitustype2" %}
 
 ## Concepts
 
@@ -41,4 +41,4 @@ toc: false
 | Blood Glucose | POSITIVELY CORRELATED WITH | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00491#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00491#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00491#mechanism-of-action](https://go.drugbank.com/drugs/DB00491#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: tazobactamabdominalabscess.html
 toc: false 
 ---
 
-{% include image.html file="tazobactamabdominalabscess.png" alt="tazobactamabdominalabscess" %}![Path Visualization](/images/tazobactamabdominalabscess.png)
+{% include image.html file="tazobactamabdominalabscess.png" alt="tazobactamabdominalabscess" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Escherichia Coli | CAUSES | Abdominal Abscess |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01606#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01606#mechanism-of-action](https://go.drugbank.com/drugs/DB01606#mechanism-of-action){:target="_blank"}

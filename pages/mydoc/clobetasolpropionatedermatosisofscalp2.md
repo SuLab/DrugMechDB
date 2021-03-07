@@ -5,7 +5,7 @@ permalink: clobetasolpropionatedermatosisofscalp2.html
 toc: false 
 ---
 
-{% include image.html file="clobetasolpropionatedermatosisofscalp2.png" alt="clobetasolpropionatedermatosisofscalp2" %}![Path Visualization](/images/clobetasolpropionatedermatosisofscalp2.png)
+{% include image.html file="clobetasolpropionatedermatosisofscalp2.png" alt="clobetasolpropionatedermatosisofscalp2" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammatory Process | CORRELATED WITH | Dermatosis Of Scalp |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11750#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB11750#mechanism-of-action](https://go.drugbank.com/drugs/DB11750#mechanism-of-action){:target="_blank"}

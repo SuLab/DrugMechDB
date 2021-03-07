@@ -5,7 +5,7 @@ permalink: zincoxidediaperrash.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidediaperrash.png" alt="zincoxidediaperrash" %}![Path Visualization](/images/zincoxidediaperrash.png)
+{% include image.html file="zincoxidediaperrash.png" alt="zincoxidediaperrash" %}
 
 ## Concepts
 
@@ -29,4 +29,4 @@ toc: false
 | Inflammation | OCCURS IN | Diaper Rash |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09321#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB09321#mechanism-of-action](https://go.drugbank.com/drugs/DB09321#mechanism-of-action){:target="_blank"}

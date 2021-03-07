@@ -5,7 +5,7 @@ permalink: tulobuterolpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html file="tulobuterolpulmonaryemphysema.png" alt="tulobuterolpulmonaryemphysema" %}![Path Visualization](/images/tulobuterolpulmonaryemphysema.png)
+{% include image.html file="tulobuterolpulmonaryemphysema.png" alt="tulobuterolpulmonaryemphysema" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Relaxation Of Smooth Muscle | NEGATIVELY CORRELATED WITH | Pulmonary Emphysema |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB12248#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12248#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB12248#mechanism-of-action](https://go.drugbank.com/drugs/DB12248#mechanism-of-action){:target="_blank"}

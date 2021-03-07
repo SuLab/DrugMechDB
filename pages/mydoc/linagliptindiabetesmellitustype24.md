@@ -5,7 +5,7 @@ permalink: linagliptindiabetesmellitustype24.html
 toc: false 
 ---
 
-{% include image.html file="linagliptindiabetesmellitustype24.png" alt="linagliptindiabetesmellitustype24" %}![Path Visualization](/images/linagliptindiabetesmellitustype24.png)
+{% include image.html file="linagliptindiabetesmellitustype24.png" alt="linagliptindiabetesmellitustype24" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Glucose | TREATS | Diabetes Mellitus Type 2 |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB08882#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08882#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB08882#mechanism-of-action](https://go.drugbank.com/drugs/DB08882#mechanism-of-action){:target="_blank"}

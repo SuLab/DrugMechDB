@@ -5,7 +5,7 @@ permalink: valproicacidmigraine.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidmigraine.png" alt="valproicacidmigraine" %}![Path Visualization](/images/valproicacidmigraine.png)
+{% include image.html file="valproicacidmigraine.png" alt="valproicacidmigraine" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammatory Prostaglandins Production | TREATS | Migraine |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00313#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00313#mechanism-of-action](https://go.drugbank.com/drugs/DB00313#mechanism-of-action){:target="_blank"}

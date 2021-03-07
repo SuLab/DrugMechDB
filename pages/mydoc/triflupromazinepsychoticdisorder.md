@@ -5,7 +5,7 @@ permalink: triflupromazinepsychoticdisorder.html
 toc: false 
 ---
 
-{% include image.html file="triflupromazinepsychoticdisorder.png" alt="triflupromazinepsychoticdisorder" %}![Path Visualization](/images/triflupromazinepsychoticdisorder.png)
+{% include image.html file="triflupromazinepsychoticdisorder.png" alt="triflupromazinepsychoticdisorder" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Violent Behavior | CORRELATED WITH | Psychotic Disorders |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00508#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00508#mechanism-of-action](https://go.drugbank.com/drugs/DB00508#mechanism-of-action){:target="_blank"}

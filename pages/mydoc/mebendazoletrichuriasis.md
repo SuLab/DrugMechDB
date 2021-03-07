@@ -5,7 +5,7 @@ permalink: mebendazoletrichuriasis.html
 toc: false 
 ---
 
-{% include image.html file="mebendazoletrichuriasis.png" alt="mebendazoletrichuriasis" %}![Path Visualization](/images/mebendazoletrichuriasis.png)
+{% include image.html file="mebendazoletrichuriasis.png" alt="mebendazoletrichuriasis" %}
 
 ## Concepts
 
@@ -42,4 +42,4 @@ toc: false
 | Trichuris Trichiura | CAUSES | Trichuriasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00643#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00643#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00643#mechanism-of-action](https://go.drugbank.com/drugs/DB00643#mechanism-of-action){:target="_blank"}

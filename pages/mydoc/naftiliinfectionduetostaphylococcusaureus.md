@@ -5,7 +5,7 @@ permalink: naftiliinfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="naftiliinfectionduetostaphylococcusaureus.png" alt="naftiliinfectionduetostaphylococcusaureus" %}![Path Visualization](/images/naftiliinfectionduetostaphylococcusaureus.png)
+{% include image.html file="naftiliinfectionduetostaphylococcusaureus.png" alt="naftiliinfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Staphylococcus | CAUSES | Infection Due To Staphylococcus Aureus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00607#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00607#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00607#mechanism-of-action](https://go.drugbank.com/drugs/DB00607#mechanism-of-action){:target="_blank"}

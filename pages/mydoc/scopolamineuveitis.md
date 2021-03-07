@@ -5,7 +5,7 @@ permalink: scopolamineuveitis.html
 toc: false 
 ---
 
-{% include image.html file="scopolamineuveitis.png" alt="scopolamineuveitis" %}![Path Visualization](/images/scopolamineuveitis.png)
+{% include image.html file="scopolamineuveitis.png" alt="scopolamineuveitis" %}
 
 ## Concepts
 
@@ -46,4 +46,4 @@ toc: false
 | Pain | MANIFESTATION OF | Uveitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00747#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

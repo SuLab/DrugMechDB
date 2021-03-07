@@ -5,7 +5,7 @@ permalink: estradiolmenopausalflushing.html
 toc: false 
 ---
 
-{% include image.html file="estradiolmenopausalflushing.png" alt="estradiolmenopausalflushing" %}![Path Visualization](/images/estradiolmenopausalflushing.png)
+{% include image.html file="estradiolmenopausalflushing.png" alt="estradiolmenopausalflushing" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Response To Estrogen | TREATS | Menopausal Flushing |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB00783#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: bepridilanginapectoris.html
 toc: false 
 ---
 
-{% include image.html file="bepridilanginapectoris.png" alt="bepridilanginapectoris" %}![Path Visualization](/images/bepridilanginapectoris.png)
+{% include image.html file="bepridilanginapectoris.png" alt="bepridilanginapectoris" %}
 
 ## Concepts
 
@@ -43,4 +43,4 @@ toc: false
 | Myocardial Ischemia | POSITIVELY CORRELATED WITH | Angina Pectoris |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01244#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01244#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01244#mechanism-of-action](https://go.drugbank.com/drugs/DB01244#mechanism-of-action){:target="_blank"}

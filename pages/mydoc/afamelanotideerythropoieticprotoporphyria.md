@@ -5,7 +5,7 @@ permalink: afamelanotideerythropoieticprotoporphyria.html
 toc: false 
 ---
 
-{% include image.html file="afamelanotideerythropoieticprotoporphyria.png" alt="afamelanotideerythropoieticprotoporphyria" %}![Path Visualization](/images/afamelanotideerythropoieticprotoporphyria.png)
+{% include image.html file="afamelanotideerythropoieticprotoporphyria.png" alt="afamelanotideerythropoieticprotoporphyria" %}
 
 ## Concepts
 
@@ -36,4 +36,4 @@ toc: false
 | Protoporphyrin Ix | MANIFESTATION OF | Erythropoietic Protoporphyria |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB04931#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB04931#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB04931#mechanism-of-action](https://go.drugbank.com/drugs/DB04931#mechanism-of-action){:target="_blank"}

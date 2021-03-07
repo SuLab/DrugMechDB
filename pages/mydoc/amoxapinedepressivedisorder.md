@@ -5,7 +5,7 @@ permalink: amoxapinedepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="amoxapinedepressivedisorder.png" alt="amoxapinedepressivedisorder" %}![Path Visualization](/images/amoxapinedepressivedisorder.png)
+{% include image.html file="amoxapinedepressivedisorder.png" alt="amoxapinedepressivedisorder" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Serotonin Uptake | POSITIVELY CORRELATED WITH | Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00543#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00543#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00543#mechanism-of-action](https://go.drugbank.com/drugs/DB00543#mechanism-of-action){:target="_blank"}

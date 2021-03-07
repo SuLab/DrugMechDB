@@ -5,7 +5,7 @@ permalink: adalimumabankylosingspondylitis.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabankylosingspondylitis.png" alt="adalimumabankylosingspondylitis" %}![Path Visualization](/images/adalimumabankylosingspondylitis.png)
+{% include image.html file="adalimumabankylosingspondylitis.png" alt="adalimumabankylosingspondylitis" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Ankylosing Spondylitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB00051#mechanism-of-action){:target="_blank"}

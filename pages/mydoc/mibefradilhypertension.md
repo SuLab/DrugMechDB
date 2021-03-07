@@ -5,7 +5,7 @@ permalink: mibefradilhypertension.html
 toc: false 
 ---
 
-{% include image.html file="mibefradilhypertension.png" alt="mibefradilhypertension" %}![Path Visualization](/images/mibefradilhypertension.png)
+{% include image.html file="mibefradilhypertension.png" alt="mibefradilhypertension" %}
 
 ## Concepts
 
@@ -50,4 +50,4 @@ toc: false
 | Blood Pressure | POSITIVELY CORRELATED WITH | Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01388#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01388#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01388#mechanism-of-action](https://go.drugbank.com/drugs/DB01388#mechanism-of-action){:target="_blank"}

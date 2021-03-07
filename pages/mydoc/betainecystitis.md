@@ -5,7 +5,7 @@ permalink: betainecystitis.html
 toc: false 
 ---
 
-{% include image.html file="betainecystitis.png" alt="betainecystitis" %}![Path Visualization](/images/betainecystitis.png)
+{% include image.html file="betainecystitis.png" alt="betainecystitis" %}
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Bacteriuria | POSITIVELY CORRELATED WITH | Cystitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB06756#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB06756#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB06756#mechanism-of-action](https://go.drugbank.com/drugs/DB06756#mechanism-of-action){:target="_blank"}

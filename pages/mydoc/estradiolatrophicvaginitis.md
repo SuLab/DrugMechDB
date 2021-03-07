@@ -5,7 +5,7 @@ permalink: estradiolatrophicvaginitis.html
 toc: false 
 ---
 
-{% include image.html file="estradiolatrophicvaginitis.png" alt="estradiolatrophicvaginitis" %}![Path Visualization](/images/estradiolatrophicvaginitis.png)
+{% include image.html file="estradiolatrophicvaginitis.png" alt="estradiolatrophicvaginitis" %}
 
 ## Concepts
 
@@ -31,4 +31,4 @@ toc: false
 | Response To Estrogen | PREVENTS | Atrophic Vaginitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00783#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00783#mechanism-of-action](https://go.drugbank.com/drugs/DB00783#mechanism-of-action){:target="_blank"}

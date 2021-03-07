@@ -5,7 +5,7 @@ permalink: adalimumabhidradenitissuppurativa.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabhidradenitissuppurativa.png" alt="adalimumabhidradenitissuppurativa" %}![Path Visualization](/images/adalimumabhidradenitissuppurativa.png)
+{% include image.html file="adalimumabhidradenitissuppurativa.png" alt="adalimumabhidradenitissuppurativa" %}
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Hidradenitis Suppurativa |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00051#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00051#mechanism-of-action](https://go.drugbank.com/drugs/DB00051#mechanism-of-action){:target="_blank"}

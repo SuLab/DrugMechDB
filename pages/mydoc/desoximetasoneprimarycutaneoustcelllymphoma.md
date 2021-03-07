@@ -5,7 +5,7 @@ permalink: desoximetasoneprimarycutaneoustcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasoneprimarycutaneoustcelllymphoma.png" alt="desoximetasoneprimarycutaneoustcelllymphoma" %}![Path Visualization](/images/desoximetasoneprimarycutaneoustcelllymphoma.png)
+{% include image.html file="desoximetasoneprimarycutaneoustcelllymphoma.png" alt="desoximetasoneprimarycutaneoustcelllymphoma" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Inflammation | OCCURS IN | Primary Cutaneous T-Cell Lymphoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00547#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB00547#mechanism-of-action](https://go.drugbank.com/drugs/DB00547#mechanism-of-action){:target="_blank"}

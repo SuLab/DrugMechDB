@@ -5,7 +5,7 @@ permalink: clarithromycinpneumoniaduetomycoplasmapneumoniae.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinpneumoniaduetomycoplasmapneumoniae.png" alt="clarithromycinpneumoniaduetomycoplasmapneumoniae" %}![Path Visualization](/images/clarithromycinpneumoniaduetomycoplasmapneumoniae.png)
+{% include image.html file="clarithromycinpneumoniaduetomycoplasmapneumoniae.png" alt="clarithromycinpneumoniaduetomycoplasmapneumoniae" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Mycoplasma Pneumoniae | OCCURS IN | Pneumonia Due To Mycoplasma Pneumoniae |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB01211#mechanism-of-action){:target="_blank"}

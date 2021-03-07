@@ -5,7 +5,7 @@ permalink: clarithromycininfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycininfectionduetostaphylococcusaureus.png" alt="clarithromycininfectionduetostaphylococcusaureus" %}![Path Visualization](/images/clarithromycininfectionduetostaphylococcusaureus.png)
+{% include image.html file="clarithromycininfectionduetostaphylococcusaureus.png" alt="clarithromycininfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Staphylococcus Aureus | OCCURS IN | Infection Due To Staphylococcus Aureus |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01211#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01211#mechanism-of-action](https://go.drugbank.com/drugs/DB01211#mechanism-of-action){:target="_blank"}

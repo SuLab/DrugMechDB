@@ -5,7 +5,7 @@ permalink: acebutololventricularprematurebeats.html
 toc: false 
 ---
 
-{% include image.html file="acebutololventricularprematurebeats.png" alt="acebutololventricularprematurebeats" %}![Path Visualization](/images/acebutololventricularprematurebeats.png)
+{% include image.html file="acebutololventricularprematurebeats.png" alt="acebutololventricularprematurebeats" %}
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Blood Pressure | AMELIORATES | Ventricular Premature Beats |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01193#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01193#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01193#mechanism-of-action](https://go.drugbank.com/drugs/DB01193#mechanism-of-action){:target="_blank"}

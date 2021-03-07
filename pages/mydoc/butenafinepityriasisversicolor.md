@@ -5,7 +5,7 @@ permalink: butenafinepityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="butenafinepityriasisversicolor.png" alt="butenafinepityriasisversicolor" %}![Path Visualization](/images/butenafinepityriasisversicolor.png)
+{% include image.html file="butenafinepityriasisversicolor.png" alt="butenafinepityriasisversicolor" %}
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Malassezia Globosa | CAUSES | Pityriasis Versicolor |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB01091#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01091#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB01091#mechanism-of-action](https://go.drugbank.com/drugs/DB01091#mechanism-of-action){:target="_blank"}

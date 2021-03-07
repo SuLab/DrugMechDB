@@ -5,7 +5,7 @@ permalink: azapropazoneankylosingspondylitis.html
 toc: false 
 ---
 
-{% include image.html file="azapropazoneankylosingspondylitis.png" alt="azapropazoneankylosingspondylitis" %}![Path Visualization](/images/azapropazoneankylosingspondylitis.png)
+{% include image.html file="azapropazoneankylosingspondylitis.png" alt="azapropazoneankylosingspondylitis" %}
 
 ## Concepts
 
@@ -33,4 +33,4 @@ toc: false
 | Inflammation | CAUSES | Ankylosing Spondylitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB07402#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}
