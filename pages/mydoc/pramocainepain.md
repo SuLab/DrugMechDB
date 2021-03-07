@@ -5,7 +5,7 @@ permalink: pramocainepain.html
 toc: false 
 ---
 
-![Path Visualization](/images/pramocainepain.png)
+{% include image.html file="pramocainepain.png" alt="pramocainepain" %}![Path Visualization](/images/pramocainepain.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Neuronal Action Potential Transmission | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB09345#mechanism-of-action](https://go.drugbank.com/drugs/DB09345#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB09345#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09345#mechanism-of-action){:target="_blank"}

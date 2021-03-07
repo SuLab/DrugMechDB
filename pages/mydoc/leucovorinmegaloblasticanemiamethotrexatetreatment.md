@@ -5,7 +5,7 @@ permalink: leucovorinmegaloblasticanemiamethotrexatetreatment.html
 toc: false 
 ---
 
-![Path Visualization](/images/leucovorinmegaloblasticanemiamethotrexatetreatment.png)
+{% include image.html file="leucovorinmegaloblasticanemiamethotrexatetreatment.png" alt="leucovorinmegaloblasticanemiamethotrexatetreatment" %}![Path Visualization](/images/leucovorinmegaloblasticanemiamethotrexatetreatment.png)
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Folic Acid | PREVENTS | Megaloblastic Anemia (Methotrexate Treatment) |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00650#mechanism-of-action](https://go.drugbank.com/drugs/DB00650#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00650#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00650#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: norethisteronemenorrhagia.html
 toc: false 
 ---
 
-![Path Visualization](/images/norethisteronemenorrhagia.png)
+{% include image.html file="norethisteronemenorrhagia.png" alt="norethisteronemenorrhagia" %}![Path Visualization](/images/norethisteronemenorrhagia.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Luteinizing Hormone Secretion | CORRELATED WITH | Menorrhagia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00717#mechanism-of-action](https://go.drugbank.com/drugs/DB00717#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00717#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00717#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: trimethadioneabsenceseizure.html
 toc: false 
 ---
 
-![Path Visualization](/images/trimethadioneabsenceseizure.png)
+{% include image.html file="trimethadioneabsenceseizure.png" alt="trimethadioneabsenceseizure" %}![Path Visualization](/images/trimethadioneabsenceseizure.png)
 
 ## Concepts
 
@@ -14,7 +14,7 @@ toc: false
 |------------|------|---------|
 | MESH:D014293 | trimethadione | Drug |
 | UniProt:O43497 | voltage dependent T-type calcium channel subunit alpha-1G | Protein |
-| GO:0007268  | corticothalamic transmission | BiologicalProcess |
+| GO:0007268 | corticothalamic transmission | BiologicalProcess |
 | MESH:D004832 | Absence seizure | Disease |
 |------------|------|---------|
 
@@ -28,4 +28,4 @@ toc: false
 | Corticothalamic Transmission | POSITIVELY CORRELATED WITH | Absence Seizure |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00347#mechanism-of-action](https://go.drugbank.com/drugs/DB00347#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00347#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00347#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: apalutamidenonmetastaticprostatecancer.html
 toc: false 
 ---
 
-![Path Visualization](/images/apalutamidenonmetastaticprostatecancer.png)
+{% include image.html file="apalutamidenonmetastaticprostatecancer.png" alt="apalutamidenonmetastaticprostatecancer" %}![Path Visualization](/images/apalutamidenonmetastaticprostatecancer.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cell Proliferation | POSITIVELY CORRELATED WITH | Nonmetastatic Prostate Cancer |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB11901#mechanism-of-action](https://go.drugbank.com/drugs/DB11901#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB11901#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11901#mechanism-of-action){:target="_blank"}

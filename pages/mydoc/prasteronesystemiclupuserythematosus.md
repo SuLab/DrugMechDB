@@ -1,0 +1,27 @@
+---
+title: "prasterone - Systemic lupus erythematosus"
+sidebar: mydoc_sidebar
+permalink: prasteronesystemiclupuserythematosus.html
+toc: false 
+---
+
+{% include image.html file="prasteronesystemiclupuserythematosus.png" alt="prasteronesystemiclupuserythematosus" %}![Path Visualization](/images/prasteronesystemiclupuserythematosus.png)
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D003687 | prasterone | Drug |
+| MESH:D008180 | Systemic lupus erythematosus | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Prasterone | TREATS | Systemic Lupus Erythematosus |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB:DB01708#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01708#mechanism-of-action){:target="_blank"}

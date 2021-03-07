@@ -5,7 +5,7 @@ permalink: terfenadineallergicskindisorders.html
 toc: false 
 ---
 
-![Path Visualization](/images/terfenadineallergicskindisorders.png)
+{% include image.html file="terfenadineallergicskindisorders.png" alt="terfenadineallergicskindisorders" %}![Path Visualization](/images/terfenadineallergicskindisorders.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Edema | MANIFESTATION OF | Allergic Skin Disorders |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00342#mechanism-of-action](https://go.drugbank.com/drugs/DB00342#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00342#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00342#mechanism-of-action){:target="_blank"}

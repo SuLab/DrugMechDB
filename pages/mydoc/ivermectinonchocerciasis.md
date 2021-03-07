@@ -5,7 +5,7 @@ permalink: ivermectinonchocerciasis.html
 toc: false 
 ---
 
-![Path Visualization](/images/ivermectinonchocerciasis.png)
+{% include image.html file="ivermectinonchocerciasis.png" alt="ivermectinonchocerciasis" %}![Path Visualization](/images/ivermectinonchocerciasis.png)
 
 ## Concepts
 
@@ -34,4 +34,4 @@ toc: false
 | Onchocerca Volvulus | CAUSES | Onchocerciasis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00602#mechanism-of-action](https://go.drugbank.com/drugs/DB00602#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00602#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00602#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: duloxetinemajordepressivedisorder.html
 toc: false 
 ---
 
-![Path Visualization](/images/duloxetinemajordepressivedisorder.png)
+{% include image.html file="duloxetinemajordepressivedisorder.png" alt="duloxetinemajordepressivedisorder" %}![Path Visualization](/images/duloxetinemajordepressivedisorder.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Neuronal Serotonin Reuptake | CAUSES | Major Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00476#mechanism-of-action](https://go.drugbank.com/drugs/DB00476#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00476#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00476#mechanism-of-action){:target="_blank"}

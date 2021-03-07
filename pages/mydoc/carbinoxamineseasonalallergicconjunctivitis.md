@@ -5,7 +5,7 @@ permalink: carbinoxamineseasonalallergicconjunctivitis.html
 toc: false 
 ---
 
-![Path Visualization](/images/carbinoxamineseasonalallergicconjunctivitis.png)
+{% include image.html file="carbinoxamineseasonalallergicconjunctivitis.png" alt="carbinoxamineseasonalallergicconjunctivitis" %}![Path Visualization](/images/carbinoxamineseasonalallergicconjunctivitis.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Histamine Response | CAUSES | Seasonal Allergic Conjunctivitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00748#mechanism-of-action](https://go.drugbank.com/drugs/DB00748#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00748#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00748#mechanism-of-action){:target="_blank"}

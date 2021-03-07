@@ -5,7 +5,7 @@ permalink: chlorhexidineperiodontitis.html
 toc: false 
 ---
 
-![Path Visualization](/images/chlorhexidineperiodontitis.png)
+{% include image.html file="chlorhexidineperiodontitis.png" alt="chlorhexidineperiodontitis" %}![Path Visualization](/images/chlorhexidineperiodontitis.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Porphyromonas Gingivalis | CAUSES | Periodontitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00878#mechanism-of-action](https://go.drugbank.com/drugs/DB00878#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00878#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00878#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: trichloroaceticacidcondylomaacuminatum.html
 toc: false 
 ---
 
-![Path Visualization](/images/trichloroaceticacidcondylomaacuminatum.png)
+{% include image.html file="trichloroaceticacidcondylomaacuminatum.png" alt="trichloroaceticacidcondylomaacuminatum" %}![Path Visualization](/images/trichloroaceticacidcondylomaacuminatum.png)
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Necrotic Cell Death | PREVENTS | Condyloma Acuminatum |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB11152#mechanism-of-action](https://go.drugbank.com/drugs/DB11152#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB11152#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11152#mechanism-of-action){:target="_blank"}

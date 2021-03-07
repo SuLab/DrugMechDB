@@ -5,7 +5,7 @@ permalink: avelumabmerkelcellcarcinoma.html
 toc: false 
 ---
 
-![Path Visualization](/images/avelumabmerkelcellcarcinoma.png)
+{% include image.html file="avelumabmerkelcellcarcinoma.png" alt="avelumabmerkelcellcarcinoma" %}![Path Visualization](/images/avelumabmerkelcellcarcinoma.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Cell Proliferation | POSITIVELY CORRELATED WITH | Merkel Cell Carcinoma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB11945#mechanism-of-action](https://go.drugbank.com/drugs/DB11945#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB11945#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11945#mechanism-of-action){:target="_blank"}

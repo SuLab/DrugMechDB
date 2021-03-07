@@ -5,7 +5,7 @@ permalink: triamcinolonediacetatecrohnsdisease.html
 toc: false 
 ---
 
-![Path Visualization](/images/triamcinolonediacetatecrohnsdisease.png)
+{% include image.html file="triamcinolonediacetatecrohnsdisease.png" alt="triamcinolonediacetatecrohnsdisease" %}![Path Visualization](/images/triamcinolonediacetatecrohnsdisease.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | POSITIVELY CORRELATED WITH | Crohn'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00620#mechanism-of-action](https://go.drugbank.com/drugs/DB00620#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00620#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00620#mechanism-of-action){:target="_blank"}

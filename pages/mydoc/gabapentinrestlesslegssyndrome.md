@@ -5,7 +5,7 @@ permalink: gabapentinrestlesslegssyndrome.html
 toc: false 
 ---
 
-![Path Visualization](/images/gabapentinrestlesslegssyndrome.png)
+{% include image.html file="gabapentinrestlesslegssyndrome.png" alt="gabapentinrestlesslegssyndrome" %}![Path Visualization](/images/gabapentinrestlesslegssyndrome.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Muscle Contraction | NEGATIVELY CORRELATED WITH | Restless Legs Syndrome |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00996#mechanism-of-action](https://go.drugbank.com/drugs/DB00996#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00996#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00996#mechanism-of-action){:target="_blank"}

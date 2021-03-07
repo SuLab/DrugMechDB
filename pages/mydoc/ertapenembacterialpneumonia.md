@@ -5,7 +5,7 @@ permalink: ertapenembacterialpneumonia.html
 toc: false 
 ---
 
-![Path Visualization](/images/ertapenembacterialpneumonia.png)
+{% include image.html file="ertapenembacterialpneumonia.png" alt="ertapenembacterialpneumonia" %}![Path Visualization](/images/ertapenembacterialpneumonia.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Haemophilus Influenzae | CAUSES | Bacterial Pneumonia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00303#mechanism-of-action](https://go.drugbank.com/drugs/DB00303#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00303#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00303#mechanism-of-action){:target="_blank"}

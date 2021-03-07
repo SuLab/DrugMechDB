@@ -5,7 +5,7 @@ permalink: cobicistathivinfection.html
 toc: false 
 ---
 
-![Path Visualization](/images/cobicistathivinfection.png)
+{% include image.html file="cobicistathivinfection.png" alt="cobicistathivinfection" %}![Path Visualization](/images/cobicistathivinfection.png)
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Viral Assembly | CAUSES | Hiv Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB09065#mechanism-of-action](https://go.drugbank.com/drugs/DB09065#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB09065#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09065#mechanism-of-action){:target="_blank"}

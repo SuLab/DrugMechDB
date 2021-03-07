@@ -5,7 +5,7 @@ permalink: antazolinevasomotorrhinitis.html
 toc: false 
 ---
 
-![Path Visualization](/images/antazolinevasomotorrhinitis.png)
+{% include image.html file="antazolinevasomotorrhinitis.png" alt="antazolinevasomotorrhinitis" %}![Path Visualization](/images/antazolinevasomotorrhinitis.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Histamine Response | CAUSES | Vasomotor Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB08799#mechanism-of-action](https://go.drugbank.com/drugs/DB08799#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB08799#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08799#mechanism-of-action){:target="_blank"}

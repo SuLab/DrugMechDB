@@ -5,7 +5,7 @@ permalink: protriptylinemajordepressivedisorder.html
 toc: false 
 ---
 
-![Path Visualization](/images/protriptylinemajordepressivedisorder.png)
+{% include image.html file="protriptylinemajordepressivedisorder.png" alt="protriptylinemajordepressivedisorder" %}![Path Visualization](/images/protriptylinemajordepressivedisorder.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Neuronal Activation | NEGATIVELY CORRELATED WITH | Major Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00344#mechanism-of-action](https://go.drugbank.com/drugs/DB00344#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00344#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00344#mechanism-of-action){:target="_blank"}

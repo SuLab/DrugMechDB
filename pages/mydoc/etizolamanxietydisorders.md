@@ -5,7 +5,7 @@ permalink: etizolamanxietydisorders.html
 toc: false 
 ---
 
-![Path Visualization](/images/etizolamanxietydisorders.png)
+{% include image.html file="etizolamanxietydisorders.png" alt="etizolamanxietydisorders" %}![Path Visualization](/images/etizolamanxietydisorders.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Gaba-A Receptor Activity | CORRELATED WITH | Anxiety Disorders |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB09166#mechanism-of-action](https://go.drugbank.com/drugs/DB09166#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB09166#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09166#mechanism-of-action){:target="_blank"}

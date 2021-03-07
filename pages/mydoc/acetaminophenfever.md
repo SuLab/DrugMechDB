@@ -5,7 +5,7 @@ permalink: acetaminophenfever.html
 toc: false 
 ---
 
-![Path Visualization](/images/acetaminophenfever.png)
+{% include image.html file="acetaminophenfever.png" alt="acetaminophenfever" %}![Path Visualization](/images/acetaminophenfever.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Temperature Homeostasis | NEGATIVELY CORRELATED WITH | Fever |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00316#mechanism-of-action](https://go.drugbank.com/drugs/DB00316#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00316#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00316#mechanism-of-action){:target="_blank"}

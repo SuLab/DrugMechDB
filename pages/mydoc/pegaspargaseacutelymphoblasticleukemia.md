@@ -5,7 +5,7 @@ permalink: pegaspargaseacutelymphoblasticleukemia.html
 toc: false 
 ---
 
-![Path Visualization](/images/pegaspargaseacutelymphoblasticleukemia.png)
+{% include image.html file="pegaspargaseacutelymphoblasticleukemia.png" alt="pegaspargaseacutelymphoblasticleukemia" %}![Path Visualization](/images/pegaspargaseacutelymphoblasticleukemia.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Cellular Proliferation | CAUSES | Acute Lymphoblastic Leukemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00059#mechanism-of-action](https://go.drugbank.com/drugs/DB00059#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00059#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00059#mechanism-of-action){:target="_blank"}

@@ -36,30 +36,31 @@ text were then normalized to a concept type (Drug, Protein, Pathway, etc) and re
 determined from the source. Finally concepts were mapped to an identifier depending on the concept type according to
 the following table:
 
-|Concept Type | Identifier Source|
-|-------------|------------------|
-|Anatomy      | UBERON           |
-|BiologicalProcess | GO, (MESH)  |
-|Cell Type    | CL               |
-|Cellular Component | GO         |
-|Compound     | MESH, CHEBI      |
-|Compound Class | MESH, CHEBI    |
-|Disease      | MESH             |
-|Drug         | MESH, DrugBank   |
-|Molecular Function | GO         |
-|Pathway      | REACT            |
-|Phenotype    | HP               |
-|Protein      | UniProt          |
-|Protein Family | InterPro       |
-|Taxon        | NCBITaxon        |
+|Concept Type                                                    | Identifier Source    |
+|-----------------------------------------------------------------------------------------------------|--------------------------|
+|[BiologicalProcess](https://biolink.github.io/biolink-model/docs/BiologicalProcess.html)  |  [GO](http://geneontology.org/)  |
+|[Cell](https://biolink.github.io/biolink-model/docs/Cell.html)  |  [CL](http://www.obofoundry.org/ontology/cl.html) |
+|[CellularComponent](https://biolink.github.io/biolink-model/docs/CellularComponent.html)  |  [GO](http://geneontology.org/)  |
+|[ChemicalSubstance](https://biolink.github.io/biolink-model/docs/ChemicalSubstance.html)  |  [MESH](https://meshb.nlm.nih.gov/), [CHEBI](https://www.ebi.ac.uk/chebi/) |
+|[Disease](https://biolink.github.io/biolink-model/docs/Disease.html)  |  [MESH](https://meshb.nlm.nih.gov/)  |
+|[Drug](https://biolink.github.io/biolink-model/docs/Drug.html)  |  [MESH](https://meshb.nlm.nih.gov/), [DrugBank](https://go.drugbank.com/) |
+|[GeneFamily](https://biolink.github.io/biolink-model/docs/GeneFamily.html)  |  [InterPro](https://www.ebi.ac.uk/interpro/) |
+|[GrossAnatomicalStructure](https://biolink.github.io/biolink-model/docs/GrossAnatomicalStructure.html)  |  [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon)  |
+|[MacromolecularComplex](https://biolink.github.io/biolink-model/docs/MacromolecularComplexMixin.html)  |  [PR](https://www.ebi.ac.uk/ols/ontologies/pr)  |
+|[MolecularActivity](https://biolink.github.io/biolink-model/docs/MolecularActivity.html)  |  [GO](http://geneontology.org/)  |
+|[OrganismTaxon](https://biolink.github.io/biolink-model/docs/OrganismTaxon.html)  |  [NCBITaxon](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)  |
+|[Pathway](https://biolink.github.io/biolink-model/docs/Pathway.html)  |  [REACT](https://reactome.org/)  |
+|[PhenotypicFeature](https://biolink.github.io/biolink-model/docs/PhenotypicFeature.html)  |  [HP](https://hpo.jax.org/app/)  |
+|[Protein](https://biolink.github.io/biolink-model/docs/Protein.html)  |  [UniProt](https://www.uniprot.org/)  |
 
 
 ## Contributing
 
 If you would like to contribute your own curated mechanistic paths, please do so by making pull requests
-with edits to the file `indication_paths.yaml`.
+with edits to the file `submission.yaml`.
 
-See the [Curation Guide](CurationGuide.md) for more information about contributions.
+See the [Curation Guide](CurationGuide.md) for more information about contributions and [Submission Guide](SubmissionGuide.md) for
+detailed submission instructions.
 
 ### Path formatting
 

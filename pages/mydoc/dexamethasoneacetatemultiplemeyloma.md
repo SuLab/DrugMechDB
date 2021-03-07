@@ -5,7 +5,7 @@ permalink: dexamethasoneacetatemultiplemeyloma.html
 toc: false 
 ---
 
-![Path Visualization](/images/dexamethasoneacetatemultiplemeyloma.png)
+{% include image.html file="dexamethasoneacetatemultiplemeyloma.png" alt="dexamethasoneacetatemultiplemeyloma" %}![Path Visualization](/images/dexamethasoneacetatemultiplemeyloma.png)
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | Leukotriene Biosysntesis | CORRELATED WITH | Multiple Meyloma |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB14649#mechanism-of-action](https://go.drugbank.com/drugs/DB14649#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB14649#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB14649#mechanism-of-action){:target="_blank"}

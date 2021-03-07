@@ -1,11 +1,11 @@
 ---
-title: "chloramphenicol succinate - Typhoid fever "
+title: "chloramphenicol succinate - Typhoid fever"
 sidebar: mydoc_sidebar
 permalink: chloramphenicolsuccinatetyphoidfever.html
 toc: false 
 ---
 
-![Path Visualization](/images/chloramphenicolsuccinatetyphoidfever.png)
+{% include image.html file="chloramphenicolsuccinatetyphoidfever.png" alt="chloramphenicolsuccinatetyphoidfever" %}![Path Visualization](/images/chloramphenicolsuccinatetyphoidfever.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Salmonella Typhi | CAUSES | Typhoid Fever |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB07565#mechanism-of-action](https://go.drugbank.com/drugs/DB07565#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB07565#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB07565#mechanism-of-action){:target="_blank"}

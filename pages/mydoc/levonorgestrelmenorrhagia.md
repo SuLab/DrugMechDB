@@ -5,7 +5,7 @@ permalink: levonorgestrelmenorrhagia.html
 toc: false 
 ---
 
-![Path Visualization](/images/levonorgestrelmenorrhagia.png)
+{% include image.html file="levonorgestrelmenorrhagia.png" alt="levonorgestrelmenorrhagia" %}![Path Visualization](/images/levonorgestrelmenorrhagia.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Luteinizing Hormone Secretion | CORRELATED WITH | Menorrhagia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00367#mechanism-of-action](https://go.drugbank.com/drugs/DB00367#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00367#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00367#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: metolazonehypertension.html
 toc: false 
 ---
 
-![Path Visualization](/images/metolazonehypertension.png)
+{% include image.html file="metolazonehypertension.png" alt="metolazonehypertension" %}![Path Visualization](/images/metolazonehypertension.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Sodium Ion Homeostasis | NEGATIVELY CORRELATED WITH | Hypertension |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00524#mechanism-of-action](https://go.drugbank.com/drugs/DB00524#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00524#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00524#mechanism-of-action){:target="_blank"}

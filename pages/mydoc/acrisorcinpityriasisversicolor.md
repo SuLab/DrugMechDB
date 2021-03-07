@@ -5,14 +5,14 @@ permalink: acrisorcinpityriasisversicolor.html
 toc: false 
 ---
 
-![Path Visualization](/images/acrisorcinpityriasisversicolor.png)
+{% include image.html file="acrisorcinpityriasisversicolor.png" alt="acrisorcinpityriasisversicolor" %}![Path Visualization](/images/acrisorcinpityriasisversicolor.png)
 
 ## Concepts
 
 |------------|------|---------|
 | Identifier | Name | Type    |
 |------------|------|---------|
-| MESH:D000585, MESH:D006604 | acrisorcin | Drug |
+| DB:DB11254 | acrisorcin | Drug |
 | MESH:D014010 | Pityriasis versicolor | Disease |
 |------------|------|---------|
 
@@ -24,4 +24,4 @@ toc: false
 | Acrisorcin | TREATS | Pityriasis Versicolor |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/, DB11254#mechanism-of-action](https://go.drugbank.com/drugs/, DB11254#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB11254#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11254#mechanism-of-action){:target="_blank"}

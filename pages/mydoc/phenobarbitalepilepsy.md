@@ -5,7 +5,7 @@ permalink: phenobarbitalepilepsy.html
 toc: false 
 ---
 
-![Path Visualization](/images/phenobarbitalepilepsy.png)
+{% include image.html file="phenobarbitalepilepsy.png" alt="phenobarbitalepilepsy" %}![Path Visualization](/images/phenobarbitalepilepsy.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Synaptic Signaling | NEGATIVELY CORRELATED WITH | Epilepsy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB01174#mechanism-of-action](https://go.drugbank.com/drugs/DB01174#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB01174#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01174#mechanism-of-action){:target="_blank"}

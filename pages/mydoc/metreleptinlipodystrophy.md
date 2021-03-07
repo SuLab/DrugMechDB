@@ -5,7 +5,7 @@ permalink: metreleptinlipodystrophy.html
 toc: false 
 ---
 
-![Path Visualization](/images/metreleptinlipodystrophy.png)
+{% include image.html file="metreleptinlipodystrophy.png" alt="metreleptinlipodystrophy" %}![Path Visualization](/images/metreleptinlipodystrophy.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Adipogenesis | NEGATIVELY CORRELATED WITH | Lipodystrophy |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB09046#mechanism-of-action](https://go.drugbank.com/drugs/DB09046#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB09046#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB09046#mechanism-of-action){:target="_blank"}

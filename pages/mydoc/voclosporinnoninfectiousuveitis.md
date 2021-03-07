@@ -5,7 +5,7 @@ permalink: voclosporinnoninfectiousuveitis.html
 toc: false 
 ---
 
-![Path Visualization](/images/voclosporinnoninfectiousuveitis.png)
+{% include image.html file="voclosporinnoninfectiousuveitis.png" alt="voclosporinnoninfectiousuveitis" %}![Path Visualization](/images/voclosporinnoninfectiousuveitis.png)
 
 ## Concepts
 
@@ -32,4 +32,4 @@ toc: false
 | T-Cell | CAUSES | Noninfectious Uveitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB11693#mechanism-of-action](https://go.drugbank.com/drugs/DB11693#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB11693#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB11693#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: ceftizoximeklebsiellacystitis.html
 toc: false 
 ---
 
-![Path Visualization](/images/ceftizoximeklebsiellacystitis.png)
+{% include image.html file="ceftizoximeklebsiellacystitis.png" alt="ceftizoximeklebsiellacystitis" %}![Path Visualization](/images/ceftizoximeklebsiellacystitis.png)
 
 ## Concepts
 
@@ -13,7 +13,7 @@ toc: false
 | Identifier | Name | Type    |
 |------------|------|---------|
 | MESH:D015296 | ceftizoxime | Drug |
-| UniProt:P71707 | Penicillin-binding protein 1A | Protein |
+| TIGR:02074 | Penicillin-binding protein 1A | GeneFamily |
 | GO:0009252 | Bacterial Cell Wall Synthesis | BiologicalProcess |
 | NCBITaxon:573 | Klebsiella pneumoniae | OrganismTaxon |
 | MESH:D007710 | Klebsiella cystitis | Disease |
@@ -30,4 +30,4 @@ toc: false
 | Klebsiella Pneumoniae | CAUSES | Klebsiella Cystitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB01332#mechanism-of-action](https://go.drugbank.com/drugs/DB01332#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB01332#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01332#mechanism-of-action){:target="_blank"}

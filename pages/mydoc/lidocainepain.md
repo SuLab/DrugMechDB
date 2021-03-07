@@ -5,7 +5,7 @@ permalink: lidocainepain.html
 toc: false 
 ---
 
-![Path Visualization](/images/lidocainepain.png)
+{% include image.html file="lidocainepain.png" alt="lidocainepain" %}![Path Visualization](/images/lidocainepain.png)
 
 ## Concepts
 
@@ -14,7 +14,7 @@ toc: false
 |------------|------|---------|
 | MESH:D008012 | lidocaine | Drug |
 | InterPro:IPR028809 | Neuronal Voltage gated sodium channels | GeneFamily |
-| GO:0019233  | Sensory perception of pain | BiologicalProcess |
+| GO:0019233 | Sensory perception of pain | BiologicalProcess |
 | MESH:D010146 | Pain | Disease |
 |------------|------|---------|
 
@@ -28,4 +28,4 @@ toc: false
 | Sensory Perception Of Pain | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00281#mechanism-of-action](https://go.drugbank.com/drugs/DB00281#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00281#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00281#mechanism-of-action){:target="_blank"}

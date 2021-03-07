@@ -5,7 +5,7 @@ permalink: tramadolpain.html
 toc: false 
 ---
 
-![Path Visualization](/images/tramadolpain.png)
+{% include image.html file="tramadolpain.png" alt="tramadolpain" %}![Path Visualization](/images/tramadolpain.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Sensory Perception | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00193#mechanism-of-action](https://go.drugbank.com/drugs/DB00193#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00193#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00193#mechanism-of-action){:target="_blank"}

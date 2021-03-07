@@ -5,7 +5,7 @@ permalink: naproxenpain.html
 toc: false 
 ---
 
-![Path Visualization](/images/naproxenpain.png)
+{% include image.html file="naproxenpain.png" alt="naproxenpain" %}![Path Visualization](/images/naproxenpain.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00788#mechanism-of-action](https://go.drugbank.com/drugs/DB00788#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00788#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00788#mechanism-of-action){:target="_blank"}

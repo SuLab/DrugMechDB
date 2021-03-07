@@ -5,7 +5,7 @@ permalink: posaconazolefungalinfection.html
 toc: false 
 ---
 
-![Path Visualization](/images/posaconazolefungalinfection.png)
+{% include image.html file="posaconazolefungalinfection.png" alt="posaconazolefungalinfection" %}![Path Visualization](/images/posaconazolefungalinfection.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Fungal Cell Membrane | CORRELATED WITH | Fungal Infection |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB01263#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01263#mechanism-of-action){:target="_blank"}

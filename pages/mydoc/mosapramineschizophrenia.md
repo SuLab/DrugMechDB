@@ -5,7 +5,7 @@ permalink: mosapramineschizophrenia.html
 toc: false 
 ---
 
-![Path Visualization](/images/mosapramineschizophrenia.png)
+{% include image.html file="mosapramineschizophrenia.png" alt="mosapramineschizophrenia" %}![Path Visualization](/images/mosapramineschizophrenia.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Dopamine Pathway | AFFECTS RISK FOR | Schizophrenia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB13676#mechanism-of-action](https://go.drugbank.com/drugs/DB13676#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB13676#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB13676#mechanism-of-action){:target="_blank"}

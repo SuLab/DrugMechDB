@@ -5,7 +5,7 @@ permalink: fomepizolemethanolpoisoning.html
 toc: false 
 ---
 
-![Path Visualization](/images/fomepizolemethanolpoisoning.png)
+{% include image.html file="fomepizolemethanolpoisoning.png" alt="fomepizolemethanolpoisoning" %}![Path Visualization](/images/fomepizolemethanolpoisoning.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Formic Acid | CAUSES | Methanol Poisoning |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB01213#mechanism-of-action](https://go.drugbank.com/drugs/DB01213#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB01213#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01213#mechanism-of-action){:target="_blank"}

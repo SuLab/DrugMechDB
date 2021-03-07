@@ -5,7 +5,7 @@ permalink: oxymetazolinenasalcongestion.html
 toc: false 
 ---
 
-![Path Visualization](/images/oxymetazolinenasalcongestion.png)
+{% include image.html file="oxymetazolinenasalcongestion.png" alt="oxymetazolinenasalcongestion" %}![Path Visualization](/images/oxymetazolinenasalcongestion.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Vasoconstriction | PREVENTS | Nasal Congestion |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00935#mechanism-of-action](https://go.drugbank.com/drugs/DB00935#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00935#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00935#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: betamethasonecrohnsdisease.html
 toc: false 
 ---
 
-![Path Visualization](/images/betamethasonecrohnsdisease.png)
+{% include image.html file="betamethasonecrohnsdisease.png" alt="betamethasonecrohnsdisease" %}![Path Visualization](/images/betamethasonecrohnsdisease.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Inflammation | POSITIVELY CORRELATED WITH | Crohn'S Disease |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00443#mechanism-of-action](https://go.drugbank.com/drugs/DB00443#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00443#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00443#mechanism-of-action){:target="_blank"}

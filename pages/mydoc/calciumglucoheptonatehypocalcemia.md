@@ -5,7 +5,7 @@ permalink: calciumglucoheptonatehypocalcemia.html
 toc: false 
 ---
 
-![Path Visualization](/images/calciumglucoheptonatehypocalcemia.png)
+{% include image.html file="calciumglucoheptonatehypocalcemia.png" alt="calciumglucoheptonatehypocalcemia" %}![Path Visualization](/images/calciumglucoheptonatehypocalcemia.png)
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Calcium Ion | PREVENTS | Hypocalcemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00326#mechanism-of-action](https://go.drugbank.com/drugs/DB00326#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00326#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00326#mechanism-of-action){:target="_blank"}

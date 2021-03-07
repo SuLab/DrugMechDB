@@ -5,7 +5,7 @@ permalink: acetylsalicylicacidthrombosis.html
 toc: false 
 ---
 
-![Path Visualization](/images/acetylsalicylicacidthrombosis.png)
+{% include image.html file="acetylsalicylicacidthrombosis.png" alt="acetylsalicylicacidthrombosis" %}![Path Visualization](/images/acetylsalicylicacidthrombosis.png)
 
 ## Concepts
 
@@ -27,9 +27,10 @@ toc: false
 |---------|-----------|---------|
 | Acetylsalicylic Acid | DECREASES ACTIVITY OF | Cox |
 | Cox | PARTICIPATES IN | Synthesis Of Prostaglandins And Thromboxanes |
+| Cox | PARTICIPATES IN | Platelet Activiation / Blood Coagulation |
 | Synthesis Of Prostaglandins And Thromboxanes | HAS OUTPUT | Thromboxane A2 |
 | Thromboxane A2 | PARTICIPATES IN | Platelet Activiation / Blood Coagulation |
 | Platelet Activiation / Blood Coagulation | CAUSES | Thrombosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00945#mechanism-of-action](https://go.drugbank.com/drugs/DB00945#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00945#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00945#mechanism-of-action){:target="_blank"}

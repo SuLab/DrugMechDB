@@ -5,7 +5,7 @@ permalink: erythromycinlisteriosis.html
 toc: false 
 ---
 
-![Path Visualization](/images/erythromycinlisteriosis.png)
+{% include image.html file="erythromycinlisteriosis.png" alt="erythromycinlisteriosis" %}![Path Visualization](/images/erythromycinlisteriosis.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Listeria Spp. | CAUSES | Listeriosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00199#mechanism-of-action](https://go.drugbank.com/drugs/DB00199#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00199#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00199#mechanism-of-action){:target="_blank"}

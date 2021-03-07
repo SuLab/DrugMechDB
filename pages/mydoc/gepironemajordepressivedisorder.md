@@ -5,7 +5,7 @@ permalink: gepironemajordepressivedisorder.html
 toc: false 
 ---
 
-![Path Visualization](/images/gepironemajordepressivedisorder.png)
+{% include image.html file="gepironemajordepressivedisorder.png" alt="gepironemajordepressivedisorder" %}![Path Visualization](/images/gepironemajordepressivedisorder.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Regulation Of Behavior | NEGATIVELY CORRELATED WITH | Major Depressive Disorder |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB12184#mechanism-of-action](https://go.drugbank.com/drugs/DB12184#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB12184#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12184#mechanism-of-action){:target="_blank"}

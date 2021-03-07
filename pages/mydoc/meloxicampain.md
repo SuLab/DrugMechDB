@@ -5,7 +5,7 @@ permalink: meloxicampain.html
 toc: false 
 ---
 
-![Path Visualization](/images/meloxicampain.png)
+{% include image.html file="meloxicampain.png" alt="meloxicampain" %}![Path Visualization](/images/meloxicampain.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Pain Receptors | CAUSES | Pain |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00814#mechanism-of-action](https://go.drugbank.com/drugs/DB00814#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00814#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00814#mechanism-of-action){:target="_blank"}

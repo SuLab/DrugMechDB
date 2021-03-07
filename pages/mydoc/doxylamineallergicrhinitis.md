@@ -5,7 +5,7 @@ permalink: doxylamineallergicrhinitis.html
 toc: false 
 ---
 
-![Path Visualization](/images/doxylamineallergicrhinitis.png)
+{% include image.html file="doxylamineallergicrhinitis.png" alt="doxylamineallergicrhinitis" %}![Path Visualization](/images/doxylamineallergicrhinitis.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Histamine Response | CAUSES | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00366#mechanism-of-action](https://go.drugbank.com/drugs/DB00366#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00366#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00366#mechanism-of-action){:target="_blank"}

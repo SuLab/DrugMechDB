@@ -5,7 +5,7 @@ permalink: norfloxacinshigellosis.html
 toc: false 
 ---
 
-![Path Visualization](/images/norfloxacinshigellosis.png)
+{% include image.html file="norfloxacinshigellosis.png" alt="norfloxacinshigellosis" %}![Path Visualization](/images/norfloxacinshigellosis.png)
 
 ## Concepts
 
@@ -14,7 +14,9 @@ toc: false
 |------------|------|---------|
 | MESH:D009643 | norfloxacin | Drug |
 | UniProt:P43702 | topoisomerases II, IV | Protein |
-| GO:0006260 | Bactierial DNA Replication | BiologicalProcess |
+| GO:0003746 | Translocation of EF-G | MolecularActivity |
+| GO:0006260 | Bacterial DNA replication | BiologicalProcess |
+| GO:0006412 | Bacterial Protein Synthesis | BiologicalProcess |
 | NCBITaxon:622 | Shigella dysenteriae | OrganismTaxon |
 | MESH:D004405 | Shigellosis | Disease |
 |------------|------|---------|
@@ -25,9 +27,12 @@ toc: false
 | Subject | Predicate | Object  |
 |---------|-----------|---------|
 | Norfloxacin | DECREASES ACTIVITY OF | Topoisomerases Ii, Iv |
-| Topoisomerases Ii, Iv | PARTICIPATES IN | Bactierial Dna Replication |
-| Bactierial Dna Replication | OCCURS IN | Shigella Dysenteriae |
+| Norfloxacin | NEGATIVELY REGULATES | Translocation Of Ef-G |
+| Topoisomerases Ii, Iv | PARTICIPATES IN | Bacterial Dna Replication |
+| Translocation Of Ef-G | PRECEDES | Bacterial Protein Synthesis |
+| Bacterial Dna Replication | OCCURS IN | Shigella Dysenteriae |
+| Bacterial Protein Synthesis | OCCURS IN | Shigella Dysenteriae |
 | Shigella Dysenteriae | CAUSES | Shigellosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB01059#mechanism-of-action](https://go.drugbank.com/drugs/DB01059#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB01059#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01059#mechanism-of-action){:target="_blank"}

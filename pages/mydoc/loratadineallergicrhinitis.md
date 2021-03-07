@@ -5,7 +5,7 @@ permalink: loratadineallergicrhinitis.html
 toc: false 
 ---
 
-![Path Visualization](/images/loratadineallergicrhinitis.png)
+{% include image.html file="loratadineallergicrhinitis.png" alt="loratadineallergicrhinitis" %}![Path Visualization](/images/loratadineallergicrhinitis.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Histamine Response | CAUSES | Allergic Rhinitis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00455#mechanism-of-action](https://go.drugbank.com/drugs/DB00455#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00455#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00455#mechanism-of-action){:target="_blank"}

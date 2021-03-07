@@ -5,7 +5,7 @@ permalink: dimethylfumaratemultiplesclerosis.html
 toc: false 
 ---
 
-![Path Visualization](/images/dimethylfumaratemultiplesclerosis.png)
+{% include image.html file="dimethylfumaratemultiplesclerosis.png" alt="dimethylfumaratemultiplesclerosis" %}![Path Visualization](/images/dimethylfumaratemultiplesclerosis.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Oxidative Stress | CORRELATED WITH | Multiple Sclerosis |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB08908#mechanism-of-action](https://go.drugbank.com/drugs/DB08908#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB08908#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB08908#mechanism-of-action){:target="_blank"}

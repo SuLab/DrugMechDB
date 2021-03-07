@@ -5,7 +5,7 @@ permalink: vinpocetinedementia.html
 toc: false 
 ---
 
-![Path Visualization](/images/vinpocetinedementia.png)
+{% include image.html file="vinpocetinedementia.png" alt="vinpocetinedementia" %}![Path Visualization](/images/vinpocetinedementia.png)
 
 ## Concepts
 
@@ -28,4 +28,4 @@ toc: false
 | Neuronal Cell Body | CORRELATED WITH | Dementia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB12131#mechanism-of-action](https://go.drugbank.com/drugs/DB12131#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB12131#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB12131#mechanism-of-action){:target="_blank"}

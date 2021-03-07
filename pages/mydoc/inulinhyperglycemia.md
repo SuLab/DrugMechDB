@@ -5,7 +5,7 @@ permalink: inulinhyperglycemia.html
 toc: false 
 ---
 
-![Path Visualization](/images/inulinhyperglycemia.png)
+{% include image.html file="inulinhyperglycemia.png" alt="inulinhyperglycemia" %}![Path Visualization](/images/inulinhyperglycemia.png)
 
 ## Concepts
 
@@ -26,4 +26,4 @@ toc: false
 | Negative Regulation Of Appetite | PREVENTS | Hyperglycemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB00638#mechanism-of-action](https://go.drugbank.com/drugs/DB00638#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB00638#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB00638#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: glipizidehyperglycemia.html
 toc: false 
 ---
 
-![Path Visualization](/images/glipizidehyperglycemia.png)
+{% include image.html file="glipizidehyperglycemia.png" alt="glipizidehyperglycemia" %}![Path Visualization](/images/glipizidehyperglycemia.png)
 
 ## Concepts
 
@@ -30,4 +30,4 @@ toc: false
 | Insulin | PREVENTS | Hyperglycemia |
 |---------|-----------|---------|
 
-Reference: [https://go.drugbank.com/drugs/DB01067#mechanism-of-action](https://go.drugbank.com/drugs/DB01067#mechanism-of-action){:target="_blank"}
+Reference: [https://go.drugbank.com/drugs/DB:DB01067#mechanism-of-action](https://go.drugbank.com/drugs/DB:DB01067#mechanism-of-action){:target="_blank"}

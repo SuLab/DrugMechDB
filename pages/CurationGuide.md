@@ -188,6 +188,7 @@ from one of these sources cannot be found for a concept, identifiers listed on t
 |[Drug](https://biolink.github.io/biolink-model/docs/Drug.html)  |  [MESH](https://meshb.nlm.nih.gov/), [DrugBank](https://go.drugbank.com/) |
 |[GeneFamily](https://biolink.github.io/biolink-model/docs/GeneFamily.html)  |  [InterPro](https://www.ebi.ac.uk/interpro/) |
 |[GrossAnatomicalStructure](https://biolink.github.io/biolink-model/docs/GrossAnatomicalStructure.html)  |  [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon)  |
+|[MacromolecularComplex](https://biolink.github.io/biolink-model/docs/MacromolecularComplexMixin.html)  |  [PR](https://www.ebi.ac.uk/ols/ontologies/pr)  |
 |[MolecularActivity](https://biolink.github.io/biolink-model/docs/MolecularActivity.html)  |  [GO](http://geneontology.org/)  |
 |[OrganismTaxon](https://biolink.github.io/biolink-model/docs/OrganismTaxon.html)  |  [NCBITaxon](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi)  |
 |[Pathway](https://biolink.github.io/biolink-model/docs/Pathway.html)  |  [REACT](https://reactome.org/)  |
@@ -242,8 +243,124 @@ The predicates currently found within DrugMechDB are as follows:
 [treats](https://biolink.github.io/biolink-model/docs/treats.html)  
 
 
+## Helpful hints for generating paths
+
+Finding the 'best' set of relationships that describe a drug's action can be a subjective task. Free-text descriptions of a Drug's
+mechanism may present information in a way that differs from the ideal path representation. Some editorialization is required
+to produce the best path. The following are examples of editorialization that may need to be performed: changing the order of
+interactions to better reflect cause and effect, removing extraneous interactions or information, capturing multiple related
+concepts in a single all-encompassing concept.
+
+Here are some general guidelines to help produce the highest quality paths:
+
+- **Paths should generally begin with a Drug to Protein target interaction** Most drugs act through interaction
+(either activation or inhibition) or a Protein, however there can be exceptions to this rule. Sometimes the exact protein target
+is not known, but rather a class or family of proteins can be used. There may be cases where no known protein or class of
+proteins are targeted, but the drug is instead known to affect some pathway or process. Finally there are also instances when
+a drug acts through a means other than interacting with a protein target, like in the case of supplementation for a deficiency.
+
+- **Predicates in paths should include a direction of influence wherever possible** For example if a Drug is known
+to "bind" a protein, the term `molecularly_interacts_with` could be used to describe this relationship, however, this excludes
+crucial information as to the nature of this "binding". Does it bind as an allosteric inhibitor? In this case `decreases activity of`
+would be a better predicate choice. Is it binding as a receptor agonist? Then `increases activity of` is an appropriate choice.
+Along the same line of reasoning, predicates like `regulates` should almost never be used in favor of `positively regulates` and
+`negatively regulates`. Only in cases where either the direction of influence is unknown, or potentially both directions
+simultaneously, should `regulates` be chosen. Similarly, predicates beginning with the word `affects` should be avoided
+in favor of their `increases` and `decreases` counterparts.
+
+- **Paths should be approximately 3 to 7 links in length** In branching paths, this means the longest branch, rather than
+the total number of links.  Paths with 2 links is really only enough for a Drug-to-Target-to-Disease relationship, and doesn't generally
+provide enough context as to how or why that Target is important to the Disease process. At the other extreme, once moving to 8 links
+and beyond, there may be too much detail provided that could be better abstracted through the use of other terms. For example, a
+chain of several Protein and Compound interactions could potentially be represented as a Pathway or a Biological Process instead.
+
+- **Keep directed influence out of Nodes as much as possible** Some nodes, specifically Biological Process Gene Ontology
+terms, can have a directed influence as a part of the node itself. For example, the GO Term "Positive regulation of vasoconstriction"
+(GO:0045907) is a valid term, and a child term of the GO Term "vasoconstriction" (GO:0045907). However a link with "Protein X -
+participates in - positive regulation of vasoconstriction" is less expressive in the actions of that protein and better represented
+by using the base term with a directed predicate "Protein X - positively regulates - vasoconstriction".
+
+- **Try to provide as much disease context as possible** Several diseases may be treated by the same drug through the
+same Drug-Target interaction. In these cases, while it is OK to use similar paths, care should be taken to try to capture any
+differences specific to the Disease in the indication that can help differentiate it from the Drug's other indications.
+
+- **Paths should be logically consistent** “Treats” is a negative relationship. If a Drug treats a disease or symptoms, it is reducing
+their overall effect. If we walk one by one down each link in a path and stop at each concept to ask "is this concept increasing or
+decreasing due to the application of this drug" by the time we reach the Disease, the answer should be "decreasing".  In mathematical
+terms, If all of the relationships in a path are relationships of influence (+1 for increases or -1 for decreases), the product of their
+directions (e.g. the overall direction of influence of the path) should be negative. If the overall direction is positive, the path is
+essentially saying that the Drug is contraindicated for the disease.
+
+
+Again, these are not hard fast rules and there will always be exceptions. However, these are a good starting point in an attempt
+to produce the highest quality paths possible.
+
+
+## Curating from GitHub Issues Indication Lists
+
+We have provided in the Issues section of this repository, lists of indications that we would like curated. The Drug-Disease pairs
+as well as their mapped identifiers come from [DrugCentral](https://drugcentral.org/) and therefore may contain some
+inconsistencies. The following issues may come up in the pool of indications and here are some potential solutions.
+
+- **The drug has been withdrawn** That's OK, at one point it was used for this indications and it would be good to have the
+drug's mechanistic details catalogued. In this instance please include a comment for the path that includes the word 'withdrawn'.
+
+- **The drug is actually contraindicated for the disease** In this case, if possible, a path with mechanism of the
+ contraindication would be something that could potentially be curated. Also, please provide a comment for the path that includes
+ the word 'contraindication'.
+ 
+ - **There is no information under any (reasonable) source for this indication** This happens. Some drugs just work
+ without a large amount of scientific description of the mechanism of action. In  this case please provide a single-link path that
+ essentially consists of a "Drug treats Disease" path that will serve as an indicator to future curators that someone has
+ attemped to curate this path.
+
+- **The Drug has Multiple MESH IDs** These Identifiers come directly from DrugCentral. It may be that the Drug product
+is a mixture of multiple compounds, therefore multiple are provided, however it may also be that one is wrong. In these cases,
+if there is still only one Drugbank identifier, please use the Drugbank ID as the main identifier for the Drug in the paths.
+
+- **The Identifier for the Drug or Disease is incorrect** Again these are sourced from DrugCentral and
+there may be some mistakes. If you encounter a mistake during curation, please feel free to provide the correct external identifier
+in your completed YAML.
+
+- **A Drug or Disease identifier is missing** All provided indications should have both a Drugbank ID for the Drug and a
+MESH ID for the disease. If the MESH ID is missing for the drug, that means that none were mapped from DrugCentral, so please
+use the Drugbank identifier instead.
+
 ## FAQ
 
-TBD
+### How do I submit my new paths after curating them?
 
+See the [Submission Guide](SubmissionGuide.md) for detailed instructions
+for how to submit new paths and how to keep your fork synced to
+the base repository.
+
+### Is there somewhere I can validate/visualize my path?
+
+Yes! We've added a jupyter notebook that can be used to visalize paths.
+It can be executed by following [this link to Google CoLab](https://colab.research.google.com/github/SuLab/DrugMechDB/blob/master/path_visualization.ipynb).
+
+To run this code, copy paste your YAML code for **one** path into cell
+number 2 and then  click `Runtime>Run all` and the CoLab notebook
+will run the requred code to produce a picture of your graph.
+
+### I don't see Gene listed on the node types
+
+Yes, that is intentional. We are trying to think of these paths in terms of the direct interactions
+between molecular entities. Because of this, we prefer relationships to and from the gene
+product form (usually Protein) for these entities. If you come across a path where you think
+the only only interaction is through a gene (i.e. a Regulatory gene that is never expressed)
+let us know and we can consider adding Gene as a concept for this specific instance. However,
+Protein (or other gene product) is almost always going to be the appropriate concept type.
+
+### Is case sensitivity important?
+
+Case sensitivity is important only in Node Names.  In all other fields, case sensitivity will be normalized
+to the standard within `indication_paths.yaml` after new additions are submitted via pull request.
+
+### What should I annotate for General Bacterial Infections? UniProt identifiers are species specific!
+
+In this case there are two options. 1. Choose a specific species and annotate a path that goes through the
+proteins of that species and that species as *a* cause of the general bacterial infection. 2. Use the family of
+proteins from a source like InterPro that are involved within this mechanism. Choice 1 is generally preferred to
+choice 2, but either are fine.
 
