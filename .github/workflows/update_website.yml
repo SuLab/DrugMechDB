@@ -26,7 +26,7 @@ jobs:
           pip install -U PyYAML
 
       - name: Generate new documentation
-        run: parse.py
+        run: python3 parse.py
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
