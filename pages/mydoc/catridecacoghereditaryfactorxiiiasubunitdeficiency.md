@@ -5,7 +5,7 @@ permalink: catridecacoghereditaryfactorxiiiasubunitdeficiency.html
 toc: false 
 ---
 
-{% include image.html file="catridecacoghereditaryfactorxiiiasubunitdeficiency.png" alt="catridecacoghereditaryfactorxiiiasubunitdeficiency" %}
+{% include image.html url="images/catridecacoghereditaryfactorxiiiasubunitdeficiency.png" file="catridecacoghereditaryfactorxiiiasubunitdeficiency.png" alt="catridecacoghereditaryfactorxiiiasubunitdeficiency" %}
 
 ## Concepts
 

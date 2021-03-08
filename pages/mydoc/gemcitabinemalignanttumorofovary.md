@@ -5,7 +5,7 @@ permalink: gemcitabinemalignanttumorofovary.html
 toc: false 
 ---
 
-{% include image.html file="gemcitabinemalignanttumorofovary.png" alt="gemcitabinemalignanttumorofovary" %}
+{% include image.html url="images/gemcitabinemalignanttumorofovary.png" file="gemcitabinemalignanttumorofovary.png" alt="gemcitabinemalignanttumorofovary" %}
 
 ## Concepts
 

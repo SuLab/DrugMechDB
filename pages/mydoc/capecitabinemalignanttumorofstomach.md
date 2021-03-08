@@ -5,7 +5,7 @@ permalink: capecitabinemalignanttumorofstomach.html
 toc: false 
 ---
 
-{% include image.html file="capecitabinemalignanttumorofstomach.png" alt="capecitabinemalignanttumorofstomach" %}
+{% include image.html url="images/capecitabinemalignanttumorofstomach.png" file="capecitabinemalignanttumorofstomach.png" alt="capecitabinemalignanttumorofstomach" %}
 
 ## Concepts
 

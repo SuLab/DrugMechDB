@@ -5,7 +5,7 @@ permalink: fluticasonepropionatebronchitis.html
 toc: false 
 ---
 
-{% include image.html file="fluticasonepropionatebronchitis.png" alt="fluticasonepropionatebronchitis" %}
+{% include image.html url="images/fluticasonepropionatebronchitis.png" file="fluticasonepropionatebronchitis.png" alt="fluticasonepropionatebronchitis" %}
 
 ## Concepts
 

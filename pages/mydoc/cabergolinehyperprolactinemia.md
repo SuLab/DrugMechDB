@@ -5,7 +5,7 @@ permalink: cabergolinehyperprolactinemia.html
 toc: false 
 ---
 
-{% include image.html file="cabergolinehyperprolactinemia.png" alt="cabergolinehyperprolactinemia" %}
+{% include image.html url="images/cabergolinehyperprolactinemia.png" file="cabergolinehyperprolactinemia.png" alt="cabergolinehyperprolactinemia" %}
 
 ## Concepts
 

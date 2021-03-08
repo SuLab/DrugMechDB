@@ -5,7 +5,7 @@ permalink: pentamidineafricantrypanosomiasis.html
 toc: false 
 ---
 
-{% include image.html file="pentamidineafricantrypanosomiasis.png" alt="pentamidineafricantrypanosomiasis" %}
+{% include image.html url="images/pentamidineafricantrypanosomiasis.png" file="pentamidineafricantrypanosomiasis.png" alt="pentamidineafricantrypanosomiasis" %}
 
 ## Concepts
 
@@ -30,5 +30,7 @@ toc: false
 | Protein Biosynthesis | OCCURS IN | Trypanosoma Brucei |
 | Trypanosoma Brucei | CAUSES | African Trypanosomiasis |
 |---------|-----------|---------|
+
+Comment: The mode of action of pentamidine is not fully understood
 
 Reference: [https://go.drugbank.com/drugs/DB00738#mechanism-of-action](https://go.drugbank.com/drugs/DB00738#mechanism-of-action){:target="_blank"}

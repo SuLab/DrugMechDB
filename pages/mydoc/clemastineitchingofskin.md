@@ -5,7 +5,7 @@ permalink: clemastineitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="clemastineitchingofskin.png" alt="clemastineitchingofskin" %}
+{% include image.html url="images/clemastineitchingofskin.png" file="clemastineitchingofskin.png" alt="clemastineitchingofskin" %}
 
 ## Concepts
 

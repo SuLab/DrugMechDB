@@ -5,7 +5,7 @@ permalink: amikacinbacterialmeningitis.html
 toc: false 
 ---
 
-{% include image.html file="amikacinbacterialmeningitis.png" alt="amikacinbacterialmeningitis" %}
+{% include image.html url="images/amikacinbacterialmeningitis.png" file="amikacinbacterialmeningitis.png" alt="amikacinbacterialmeningitis" %}
 
 ## Concepts
 

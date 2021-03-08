@@ -5,7 +5,7 @@ permalink: cilastatinbacterialendocarditis.html
 toc: false 
 ---
 
-{% include image.html file="cilastatinbacterialendocarditis.png" alt="cilastatinbacterialendocarditis" %}
+{% include image.html url="images/cilastatinbacterialendocarditis.png" file="cilastatinbacterialendocarditis.png" alt="cilastatinbacterialendocarditis" %}
 
 ## Concepts
 

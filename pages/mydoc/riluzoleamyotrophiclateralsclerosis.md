@@ -5,7 +5,7 @@ permalink: riluzoleamyotrophiclateralsclerosis.html
 toc: false 
 ---
 
-{% include image.html file="riluzoleamyotrophiclateralsclerosis.png" alt="riluzoleamyotrophiclateralsclerosis" %}
+{% include image.html url="images/riluzoleamyotrophiclateralsclerosis.png" file="riluzoleamyotrophiclateralsclerosis.png" alt="riluzoleamyotrophiclateralsclerosis" %}
 
 ## Concepts
 

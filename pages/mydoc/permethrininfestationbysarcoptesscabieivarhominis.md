@@ -5,7 +5,7 @@ permalink: permethrininfestationbysarcoptesscabieivarhominis.html
 toc: false 
 ---
 
-{% include image.html file="permethrininfestationbysarcoptesscabieivarhominis.png" alt="permethrininfestationbysarcoptesscabieivarhominis" %}
+{% include image.html url="images/permethrininfestationbysarcoptesscabieivarhominis.png" file="permethrininfestationbysarcoptesscabieivarhominis.png" alt="permethrininfestationbysarcoptesscabieivarhominis" %}
 
 ## Concepts
 
@@ -33,5 +33,7 @@ toc: false
 | Axons | IN TAXON | Sarcoptes Scabiei |
 | Sarcoptes Scabiei | CAUSES | Infestation By Sarcoptes Scabiei Var Hominis |
 |---------|-----------|---------|
+
+Comment: DrugBank has this drug modulating a human target/protein (https://go.drugbank.com/drugs/DB04930#mechanism-of-action) instead of the non-vertebrate proteome. Because humans (and other mammals) share similar ion channels this drug can have some toxic effects on the vertebrate host (e.g. [https://pubmed.ncbi.nlm.nih.gov/11812616/)](https://pubmed.ncbi.nlm.nih.gov/11812616/))
 
 Reference: [https://go.drugbank.com/drugs/DB04930#mechanism-of-action](https://go.drugbank.com/drugs/DB04930#mechanism-of-action){:target="_blank"}

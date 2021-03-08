@@ -5,7 +5,7 @@ permalink: sulfasalazineulcerativecolitis.html
 toc: false 
 ---
 
-{% include image.html file="sulfasalazineulcerativecolitis.png" alt="sulfasalazineulcerativecolitis" %}
+{% include image.html url="images/sulfasalazineulcerativecolitis.png" file="sulfasalazineulcerativecolitis.png" alt="sulfasalazineulcerativecolitis" %}
 
 ## Concepts
 

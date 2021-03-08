@@ -5,7 +5,7 @@ permalink: diloxanidefuroateamebiasis.html
 toc: false 
 ---
 
-{% include image.html file="diloxanidefuroateamebiasis.png" alt="diloxanidefuroateamebiasis" %}
+{% include image.html url="images/diloxanidefuroateamebiasis.png" file="diloxanidefuroateamebiasis.png" alt="diloxanidefuroateamebiasis" %}
 
 ## Concepts
 
@@ -23,5 +23,7 @@ toc: false
 |---------|-----------|---------|
 | Diloxanide Furoate | TREATS | Amebiasis |
 |---------|-----------|---------|
+
+Comment: Mechanism of action of diloxanide is unknown
 
 Reference: [https://go.drugbank.com/drugs/DB08792#mechanism-of-action](https://go.drugbank.com/drugs/DB08792#mechanism-of-action){:target="_blank"}

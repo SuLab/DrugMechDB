@@ -5,7 +5,7 @@ permalink: scopolamineiridocyclitis.html
 toc: false 
 ---
 
-{% include image.html file="scopolamineiridocyclitis.png" alt="scopolamineiridocyclitis" %}
+{% include image.html url="images/scopolamineiridocyclitis.png" file="scopolamineiridocyclitis.png" alt="scopolamineiridocyclitis" %}
 
 ## Concepts
 

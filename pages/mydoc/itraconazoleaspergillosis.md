@@ -5,7 +5,7 @@ permalink: itraconazoleaspergillosis.html
 toc: false 
 ---
 
-{% include image.html file="itraconazoleaspergillosis.png" alt="itraconazoleaspergillosis" %}
+{% include image.html url="images/itraconazoleaspergillosis.png" file="itraconazoleaspergillosis.png" alt="itraconazoleaspergillosis" %}
 
 ## Concepts
 

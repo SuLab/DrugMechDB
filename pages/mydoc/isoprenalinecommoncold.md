@@ -5,7 +5,7 @@ permalink: isoprenalinecommoncold.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalinecommoncold.png" alt="isoprenalinecommoncold" %}
+{% include image.html url="images/isoprenalinecommoncold.png" file="isoprenalinecommoncold.png" alt="isoprenalinecommoncold" %}
 
 ## Concepts
 

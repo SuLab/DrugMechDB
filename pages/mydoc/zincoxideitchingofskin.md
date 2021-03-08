@@ -5,7 +5,7 @@ permalink: zincoxideitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="zincoxideitchingofskin.png" alt="zincoxideitchingofskin" %}
+{% include image.html url="images/zincoxideitchingofskin.png" file="zincoxideitchingofskin.png" alt="zincoxideitchingofskin" %}
 
 ## Concepts
 

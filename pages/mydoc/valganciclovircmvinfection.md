@@ -5,7 +5,7 @@ permalink: valganciclovircmvinfection.html
 toc: false 
 ---
 
-{% include image.html file="valganciclovircmvinfection.png" alt="valganciclovircmvinfection" %}
+{% include image.html url="images/valganciclovircmvinfection.png" file="valganciclovircmvinfection.png" alt="valganciclovircmvinfection" %}
 
 ## Concepts
 

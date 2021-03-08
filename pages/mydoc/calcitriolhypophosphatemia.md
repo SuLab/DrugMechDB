@@ -5,7 +5,7 @@ permalink: calcitriolhypophosphatemia.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolhypophosphatemia.png" alt="calcitriolhypophosphatemia" %}
+{% include image.html url="images/calcitriolhypophosphatemia.png" file="calcitriolhypophosphatemia.png" alt="calcitriolhypophosphatemia" %}
 
 ## Concepts
 

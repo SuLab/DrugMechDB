@@ -5,7 +5,7 @@ permalink: calcitriolhypoparathyroidism.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolhypoparathyroidism.png" alt="calcitriolhypoparathyroidism" %}
+{% include image.html url="images/calcitriolhypoparathyroidism.png" file="calcitriolhypoparathyroidism.png" alt="calcitriolhypoparathyroidism" %}
 
 ## Concepts
 

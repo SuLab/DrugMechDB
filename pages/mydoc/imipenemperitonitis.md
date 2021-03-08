@@ -5,7 +5,7 @@ permalink: imipenemperitonitis.html
 toc: false 
 ---
 
-{% include image.html file="imipenemperitonitis.png" alt="imipenemperitonitis" %}
+{% include image.html url="images/imipenemperitonitis.png" file="imipenemperitonitis.png" alt="imipenemperitonitis" %}
 
 ## Concepts
 

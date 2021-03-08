@@ -5,7 +5,7 @@ permalink: pimozidetourettesdisorder.html
 toc: false 
 ---
 
-{% include image.html file="pimozidetourettesdisorder.png" alt="pimozidetourettesdisorder" %}
+{% include image.html url="images/pimozidetourettesdisorder.png" file="pimozidetourettesdisorder.png" alt="pimozidetourettesdisorder" %}
 
 ## Concepts
 

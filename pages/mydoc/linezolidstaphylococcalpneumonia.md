@@ -5,7 +5,7 @@ permalink: linezolidstaphylococcalpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="linezolidstaphylococcalpneumonia.png" alt="linezolidstaphylococcalpneumonia" %}
+{% include image.html url="images/linezolidstaphylococcalpneumonia.png" file="linezolidstaphylococcalpneumonia.png" alt="linezolidstaphylococcalpneumonia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: terbutalinetearfilminsufficiency.html
 toc: false 
 ---
 
-{% include image.html file="terbutalinetearfilminsufficiency.png" alt="terbutalinetearfilminsufficiency" %}
+{% include image.html url="images/terbutalinetearfilminsufficiency.png" file="terbutalinetearfilminsufficiency.png" alt="terbutalinetearfilminsufficiency" %}
 
 ## Concepts
 
@@ -30,5 +30,7 @@ toc: false
 | Beta-2 Adrenergic Receptor | POSITIVELY CORRELATED WITH | Negative Regulation Of Inflammatory Response |
 | Negative Regulation Of Inflammatory Response | NEGATIVELY CORRELATED WITH | Tear Film Insufficiency |
 |---------|-----------|---------|
+
+Comment: DrugBank has this drug as a beta 1 antagonist but data elsewhere does not seem to support the anatagonism role (e.g. [https://www.drugs.com/pro/terbutaline.html#s-34090-1,](https://www.drugs.com/pro/terbutaline.html#s-34090-1,) [https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1760](https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1760) [https://www.genome.jp/dbget-bin/www_bget?cpd:C07129)](https://www.genome.jp/dbget-bin/www_bget?cpd:C07129))
 
 Reference: [https://go.drugbank.com/drugs/DB00871#mechanism-of-action](https://go.drugbank.com/drugs/DB00871#mechanism-of-action){:target="_blank"}

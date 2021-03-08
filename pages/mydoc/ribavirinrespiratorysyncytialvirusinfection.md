@@ -5,7 +5,7 @@ permalink: ribavirinrespiratorysyncytialvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="ribavirinrespiratorysyncytialvirusinfection.png" alt="ribavirinrespiratorysyncytialvirusinfection" %}
+{% include image.html url="images/ribavirinrespiratorysyncytialvirusinfection.png" file="ribavirinrespiratorysyncytialvirusinfection.png" alt="ribavirinrespiratorysyncytialvirusinfection" %}
 
 ## Concepts
 

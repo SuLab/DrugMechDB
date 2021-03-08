@@ -5,7 +5,7 @@ permalink: alendronicacidosteitisdeformans.html
 toc: false 
 ---
 
-{% include image.html file="alendronicacidosteitisdeformans.png" alt="alendronicacidosteitisdeformans" %}
+{% include image.html url="images/alendronicacidosteitisdeformans.png" file="alendronicacidosteitisdeformans.png" alt="alendronicacidosteitisdeformans" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: ferriccitratehyperphosphatemia.html
 toc: false 
 ---
 
-{% include image.html file="ferriccitratehyperphosphatemia.png" alt="ferriccitratehyperphosphatemia" %}
+{% include image.html url="images/ferriccitratehyperphosphatemia.png" file="ferriccitratehyperphosphatemia.png" alt="ferriccitratehyperphosphatemia" %}
 
 ## Concepts
 

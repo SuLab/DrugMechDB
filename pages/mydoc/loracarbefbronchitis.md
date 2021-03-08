@@ -5,7 +5,7 @@ permalink: loracarbefbronchitis.html
 toc: false 
 ---
 
-{% include image.html file="loracarbefbronchitis.png" alt="loracarbefbronchitis" %}
+{% include image.html url="images/loracarbefbronchitis.png" file="loracarbefbronchitis.png" alt="loracarbefbronchitis" %}
 
 ## Concepts
 

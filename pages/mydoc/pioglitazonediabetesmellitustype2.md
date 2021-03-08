@@ -5,7 +5,7 @@ permalink: pioglitazonediabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="pioglitazonediabetesmellitustype2.png" alt="pioglitazonediabetesmellitustype2" %}
+{% include image.html url="images/pioglitazonediabetesmellitustype2.png" file="pioglitazonediabetesmellitustype2.png" alt="pioglitazonediabetesmellitustype2" %}
 
 ## Concepts
 

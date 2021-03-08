@@ -5,7 +5,7 @@ permalink: ibudilastasthma.html
 toc: false 
 ---
 
-{% include image.html file="ibudilastasthma.png" alt="ibudilastasthma" %}
+{% include image.html url="images/ibudilastasthma.png" file="ibudilastasthma.png" alt="ibudilastasthma" %}
 
 ## Concepts
 

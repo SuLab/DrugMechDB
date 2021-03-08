@@ -5,7 +5,7 @@ permalink: faropenemmedoxilbacterialinfectionofskin.html
 toc: false 
 ---
 
-{% include image.html file="faropenemmedoxilbacterialinfectionofskin.png" alt="faropenemmedoxilbacterialinfectionofskin" %}
+{% include image.html url="images/faropenemmedoxilbacterialinfectionofskin.png" file="faropenemmedoxilbacterialinfectionofskin.png" alt="faropenemmedoxilbacterialinfectionofskin" %}
 
 ## Concepts
 

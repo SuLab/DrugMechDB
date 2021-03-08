@@ -5,7 +5,7 @@ permalink: prasteronedyspareunia.html
 toc: false 
 ---
 
-{% include image.html file="prasteronedyspareunia.png" alt="prasteronedyspareunia" %}
+{% include image.html url="images/prasteronedyspareunia.png" file="prasteronedyspareunia.png" alt="prasteronedyspareunia" %}
 
 ## Concepts
 

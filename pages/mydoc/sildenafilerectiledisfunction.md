@@ -5,7 +5,7 @@ permalink: sildenafilerectiledisfunction.html
 toc: false 
 ---
 
-{% include image.html file="sildenafilerectiledisfunction.png" alt="sildenafilerectiledisfunction" %}
+{% include image.html url="images/sildenafilerectiledisfunction.png" file="sildenafilerectiledisfunction.png" alt="sildenafilerectiledisfunction" %}
 
 ## Concepts
 

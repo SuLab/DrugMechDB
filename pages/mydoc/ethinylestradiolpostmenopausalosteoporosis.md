@@ -5,7 +5,7 @@ permalink: ethinylestradiolpostmenopausalosteoporosis.html
 toc: false 
 ---
 
-{% include image.html file="ethinylestradiolpostmenopausalosteoporosis.png" alt="ethinylestradiolpostmenopausalosteoporosis" %}
+{% include image.html url="images/ethinylestradiolpostmenopausalosteoporosis.png" file="ethinylestradiolpostmenopausalosteoporosis.png" alt="ethinylestradiolpostmenopausalosteoporosis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: diflunisalchronicpain.html
 toc: false 
 ---
 
-{% include image.html file="diflunisalchronicpain.png" alt="diflunisalchronicpain" %}
+{% include image.html url="images/diflunisalchronicpain.png" file="diflunisalchronicpain.png" alt="diflunisalchronicpain" %}
 
 ## Concepts
 

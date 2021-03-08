@@ -5,7 +5,7 @@ permalink: desoximetasonepruritusani.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonepruritusani.png" alt="desoximetasonepruritusani" %}
+{% include image.html url="images/desoximetasonepruritusani.png" file="desoximetasonepruritusani.png" alt="desoximetasonepruritusani" %}
 
 ## Concepts
 

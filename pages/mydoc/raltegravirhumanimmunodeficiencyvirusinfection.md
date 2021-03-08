@@ -5,7 +5,7 @@ permalink: raltegravirhumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="raltegravirhumanimmunodeficiencyvirusinfection.png" alt="raltegravirhumanimmunodeficiencyvirusinfection" %}
+{% include image.html url="images/raltegravirhumanimmunodeficiencyvirusinfection.png" file="raltegravirhumanimmunodeficiencyvirusinfection.png" alt="raltegravirhumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 

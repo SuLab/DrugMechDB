@@ -5,7 +5,7 @@ permalink: infliximabrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="infliximabrheumatoidarthritis.png" alt="infliximabrheumatoidarthritis" %}
+{% include image.html url="images/infliximabrheumatoidarthritis.png" file="infliximabrheumatoidarthritis.png" alt="infliximabrheumatoidarthritis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: regorafenibhepatocellularcarcinoma.html
 toc: false 
 ---
 
-{% include image.html file="regorafenibhepatocellularcarcinoma.png" alt="regorafenibhepatocellularcarcinoma" %}
+{% include image.html url="images/regorafenibhepatocellularcarcinoma.png" file="regorafenibhepatocellularcarcinoma.png" alt="regorafenibhepatocellularcarcinoma" %}
 
 ## Concepts
 

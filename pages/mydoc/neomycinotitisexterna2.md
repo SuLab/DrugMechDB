@@ -5,7 +5,7 @@ permalink: neomycinotitisexterna2.html
 toc: false 
 ---
 
-{% include image.html file="neomycinotitisexterna2.png" alt="neomycinotitisexterna2" %}
+{% include image.html url="images/neomycinotitisexterna2.png" file="neomycinotitisexterna2.png" alt="neomycinotitisexterna2" %}
 
 ## Concepts
 

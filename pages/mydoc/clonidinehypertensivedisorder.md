@@ -5,7 +5,7 @@ permalink: clonidinehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="clonidinehypertensivedisorder.png" alt="clonidinehypertensivedisorder" %}
+{% include image.html url="images/clonidinehypertensivedisorder.png" file="clonidinehypertensivedisorder.png" alt="clonidinehypertensivedisorder" %}
 
 ## Concepts
 

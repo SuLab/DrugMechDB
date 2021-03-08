@@ -5,7 +5,7 @@ permalink: infliximabulcerativecolitis.html
 toc: false 
 ---
 
-{% include image.html file="infliximabulcerativecolitis.png" alt="infliximabulcerativecolitis" %}
+{% include image.html url="images/infliximabulcerativecolitis.png" file="infliximabulcerativecolitis.png" alt="infliximabulcerativecolitis" %}
 
 ## Concepts
 

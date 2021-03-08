@@ -5,7 +5,7 @@ permalink: raxibacumabinhalationalanthrax.html
 toc: false 
 ---
 
-{% include image.html file="raxibacumabinhalationalanthrax.png" alt="raxibacumabinhalationalanthrax" %}
+{% include image.html url="images/raxibacumabinhalationalanthrax.png" file="raxibacumabinhalationalanthrax.png" alt="raxibacumabinhalationalanthrax" %}
 
 ## Concepts
 

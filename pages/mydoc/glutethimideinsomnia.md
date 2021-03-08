@@ -5,7 +5,7 @@ permalink: glutethimideinsomnia.html
 toc: false 
 ---
 
-{% include image.html file="glutethimideinsomnia.png" alt="glutethimideinsomnia" %}
+{% include image.html url="images/glutethimideinsomnia.png" file="glutethimideinsomnia.png" alt="glutethimideinsomnia" %}
 
 ## Concepts
 

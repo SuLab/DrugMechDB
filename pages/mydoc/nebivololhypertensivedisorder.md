@@ -5,7 +5,7 @@ permalink: nebivololhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="nebivololhypertensivedisorder.png" alt="nebivololhypertensivedisorder" %}
+{% include image.html url="images/nebivololhypertensivedisorder.png" file="nebivololhypertensivedisorder.png" alt="nebivololhypertensivedisorder" %}
 
 ## Concepts
 

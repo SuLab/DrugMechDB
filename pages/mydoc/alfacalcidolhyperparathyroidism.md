@@ -5,7 +5,7 @@ permalink: alfacalcidolhyperparathyroidism.html
 toc: false 
 ---
 
-{% include image.html file="alfacalcidolhyperparathyroidism.png" alt="alfacalcidolhyperparathyroidism" %}
+{% include image.html url="images/alfacalcidolhyperparathyroidism.png" file="alfacalcidolhyperparathyroidism.png" alt="alfacalcidolhyperparathyroidism" %}
 
 ## Concepts
 

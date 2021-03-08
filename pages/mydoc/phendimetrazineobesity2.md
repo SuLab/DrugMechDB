@@ -5,7 +5,7 @@ permalink: phendimetrazineobesity2.html
 toc: false 
 ---
 
-{% include image.html file="phendimetrazineobesity2.png" alt="phendimetrazineobesity2" %}
+{% include image.html url="images/phendimetrazineobesity2.png" file="phendimetrazineobesity2.png" alt="phendimetrazineobesity2" %}
 
 ## Concepts
 

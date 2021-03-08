@@ -5,7 +5,7 @@ permalink: idebenonelebersopticatrophy.html
 toc: false 
 ---
 
-{% include image.html file="idebenonelebersopticatrophy.png" alt="idebenonelebersopticatrophy" %}
+{% include image.html url="images/idebenonelebersopticatrophy.png" file="idebenonelebersopticatrophy.png" alt="idebenonelebersopticatrophy" %}
 
 ## Concepts
 

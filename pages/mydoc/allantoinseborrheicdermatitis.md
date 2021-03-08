@@ -5,7 +5,7 @@ permalink: allantoinseborrheicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="allantoinseborrheicdermatitis.png" alt="allantoinseborrheicdermatitis" %}
+{% include image.html url="images/allantoinseborrheicdermatitis.png" file="allantoinseborrheicdermatitis.png" alt="allantoinseborrheicdermatitis" %}
 
 ## Concepts
 

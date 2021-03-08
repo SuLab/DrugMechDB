@@ -5,7 +5,7 @@ permalink: crisaboroleatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="crisaboroleatopicdermatitis.png" alt="crisaboroleatopicdermatitis" %}
+{% include image.html url="images/crisaboroleatopicdermatitis.png" file="crisaboroleatopicdermatitis.png" alt="crisaboroleatopicdermatitis" %}
 
 ## Concepts
 

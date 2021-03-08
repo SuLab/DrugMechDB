@@ -5,7 +5,7 @@ permalink: tazanolastallergicconjuctivitis.html
 toc: false 
 ---
 
-{% include image.html file="tazanolastallergicconjuctivitis.png" alt="tazanolastallergicconjuctivitis" %}
+{% include image.html url="images/tazanolastallergicconjuctivitis.png" file="tazanolastallergicconjuctivitis.png" alt="tazanolastallergicconjuctivitis" %}
 
 ## Concepts
 

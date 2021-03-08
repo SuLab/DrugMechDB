@@ -5,7 +5,7 @@ permalink: calciumchloridehypocalcemia.html
 toc: false 
 ---
 
-{% include image.html file="calciumchloridehypocalcemia.png" alt="calciumchloridehypocalcemia" %}
+{% include image.html url="images/calciumchloridehypocalcemia.png" file="calciumchloridehypocalcemia.png" alt="calciumchloridehypocalcemia" %}
 
 ## Concepts
 

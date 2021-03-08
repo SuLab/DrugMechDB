@@ -5,7 +5,7 @@ permalink: levocabastineallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="levocabastineallergicconjunctivitis.png" alt="levocabastineallergicconjunctivitis" %}
+{% include image.html url="images/levocabastineallergicconjunctivitis.png" file="levocabastineallergicconjunctivitis.png" alt="levocabastineallergicconjunctivitis" %}
 
 ## Concepts
 

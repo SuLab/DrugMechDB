@@ -5,7 +5,7 @@ permalink: bortezomibmultiplemyeloma.html
 toc: false 
 ---
 
-{% include image.html file="bortezomibmultiplemyeloma.png" alt="bortezomibmultiplemyeloma" %}
+{% include image.html url="images/bortezomibmultiplemyeloma.png" file="bortezomibmultiplemyeloma.png" alt="bortezomibmultiplemyeloma" %}
 
 ## Concepts
 

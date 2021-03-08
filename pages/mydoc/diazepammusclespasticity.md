@@ -5,7 +5,7 @@ permalink: diazepammusclespasticity.html
 toc: false 
 ---
 
-{% include image.html file="diazepammusclespasticity.png" alt="diazepammusclespasticity" %}
+{% include image.html url="images/diazepammusclespasticity.png" file="diazepammusclespasticity.png" alt="diazepammusclespasticity" %}
 
 ## Concepts
 

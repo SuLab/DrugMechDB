@@ -5,7 +5,7 @@ permalink: cefproziltonsillitis.html
 toc: false 
 ---
 
-{% include image.html file="cefproziltonsillitis.png" alt="cefproziltonsillitis" %}
+{% include image.html url="images/cefproziltonsillitis.png" file="cefproziltonsillitis.png" alt="cefproziltonsillitis" %}
 
 ## Concepts
 

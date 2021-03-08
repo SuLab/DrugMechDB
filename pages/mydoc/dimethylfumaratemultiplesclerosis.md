@@ -5,7 +5,7 @@ permalink: dimethylfumaratemultiplesclerosis.html
 toc: false 
 ---
 
-{% include image.html file="dimethylfumaratemultiplesclerosis.png" alt="dimethylfumaratemultiplesclerosis" %}
+{% include image.html url="images/dimethylfumaratemultiplesclerosis.png" file="dimethylfumaratemultiplesclerosis.png" alt="dimethylfumaratemultiplesclerosis" %}
 
 ## Concepts
 

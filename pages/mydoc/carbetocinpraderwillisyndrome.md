@@ -5,7 +5,7 @@ permalink: carbetocinpraderwillisyndrome.html
 toc: false 
 ---
 
-{% include image.html file="carbetocinpraderwillisyndrome.png" alt="carbetocinpraderwillisyndrome" %}
+{% include image.html url="images/carbetocinpraderwillisyndrome.png" file="carbetocinpraderwillisyndrome.png" alt="carbetocinpraderwillisyndrome" %}
 
 ## Concepts
 

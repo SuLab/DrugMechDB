@@ -5,7 +5,7 @@ permalink: meropenembacterialmeningitis.html
 toc: false 
 ---
 
-{% include image.html file="meropenembacterialmeningitis.png" alt="meropenembacterialmeningitis" %}
+{% include image.html url="images/meropenembacterialmeningitis.png" file="meropenembacterialmeningitis.png" alt="meropenembacterialmeningitis" %}
 
 ## Concepts
 

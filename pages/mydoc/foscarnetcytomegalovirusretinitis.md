@@ -5,7 +5,7 @@ permalink: foscarnetcytomegalovirusretinitis.html
 toc: false 
 ---
 
-{% include image.html file="foscarnetcytomegalovirusretinitis.png" alt="foscarnetcytomegalovirusretinitis" %}
+{% include image.html url="images/foscarnetcytomegalovirusretinitis.png" file="foscarnetcytomegalovirusretinitis.png" alt="foscarnetcytomegalovirusretinitis" %}
 
 ## Concepts
 

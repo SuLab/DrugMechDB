@@ -5,7 +5,7 @@ permalink: itraconazoleinvasivepulmonaryaspergillosis.html
 toc: false 
 ---
 
-{% include image.html file="itraconazoleinvasivepulmonaryaspergillosis.png" alt="itraconazoleinvasivepulmonaryaspergillosis" %}
+{% include image.html url="images/itraconazoleinvasivepulmonaryaspergillosis.png" file="itraconazoleinvasivepulmonaryaspergillosis.png" alt="itraconazoleinvasivepulmonaryaspergillosis" %}
 
 ## Concepts
 

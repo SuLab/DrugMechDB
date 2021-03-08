@@ -5,7 +5,7 @@ permalink: fosfomycinurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="fosfomycinurinarytractinfectiousdisease.png" alt="fosfomycinurinarytractinfectiousdisease" %}
+{% include image.html url="images/fosfomycinurinarytractinfectiousdisease.png" file="fosfomycinurinarytractinfectiousdisease.png" alt="fosfomycinurinarytractinfectiousdisease" %}
 
 ## Concepts
 

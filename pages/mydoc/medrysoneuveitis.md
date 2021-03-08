@@ -5,7 +5,7 @@ permalink: medrysoneuveitis.html
 toc: false 
 ---
 
-{% include image.html file="medrysoneuveitis.png" alt="medrysoneuveitis" %}
+{% include image.html url="images/medrysoneuveitis.png" file="medrysoneuveitis.png" alt="medrysoneuveitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: colesevelamhypercholesterolemia.html
 toc: false 
 ---
 
-{% include image.html file="colesevelamhypercholesterolemia.png" alt="colesevelamhypercholesterolemia" %}
+{% include image.html url="images/colesevelamhypercholesterolemia.png" file="colesevelamhypercholesterolemia.png" alt="colesevelamhypercholesterolemia" %}
 
 ## Concepts
 

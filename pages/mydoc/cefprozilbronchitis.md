@@ -5,7 +5,7 @@ permalink: cefprozilbronchitis.html
 toc: false 
 ---
 
-{% include image.html file="cefprozilbronchitis.png" alt="cefprozilbronchitis" %}
+{% include image.html url="images/cefprozilbronchitis.png" file="cefprozilbronchitis.png" alt="cefprozilbronchitis" %}
 
 ## Concepts
 

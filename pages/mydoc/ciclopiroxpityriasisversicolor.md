@@ -5,7 +5,7 @@ permalink: ciclopiroxpityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxpityriasisversicolor.png" alt="ciclopiroxpityriasisversicolor" %}
+{% include image.html url="images/ciclopiroxpityriasisversicolor.png" file="ciclopiroxpityriasisversicolor.png" alt="ciclopiroxpityriasisversicolor" %}
 
 ## Concepts
 

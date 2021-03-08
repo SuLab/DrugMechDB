@@ -5,7 +5,7 @@ permalink: naftiliinfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="naftiliinfectionduetostaphylococcusaureus.png" alt="naftiliinfectionduetostaphylococcusaureus" %}
+{% include image.html url="images/naftiliinfectionduetostaphylococcusaureus.png" file="naftiliinfectionduetostaphylococcusaureus.png" alt="naftiliinfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 

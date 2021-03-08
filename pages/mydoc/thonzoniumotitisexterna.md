@@ -5,7 +5,7 @@ permalink: thonzoniumotitisexterna.html
 toc: false 
 ---
 
-{% include image.html file="thonzoniumotitisexterna.png" alt="thonzoniumotitisexterna" %}
+{% include image.html url="images/thonzoniumotitisexterna.png" file="thonzoniumotitisexterna.png" alt="thonzoniumotitisexterna" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: triflupromazinepsychoticdisorder4.html
 toc: false 
 ---
 
-{% include image.html file="triflupromazinepsychoticdisorder4.png" alt="triflupromazinepsychoticdisorder4" %}
+{% include image.html url="images/triflupromazinepsychoticdisorder4.png" file="triflupromazinepsychoticdisorder4.png" alt="triflupromazinepsychoticdisorder4" %}
 
 ## Concepts
 

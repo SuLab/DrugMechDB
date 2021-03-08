@@ -5,7 +5,7 @@ permalink: tulobuterolasthma.html
 toc: false 
 ---
 
-{% include image.html file="tulobuterolasthma.png" alt="tulobuterolasthma" %}
+{% include image.html url="images/tulobuterolasthma.png" file="tulobuterolasthma.png" alt="tulobuterolasthma" %}
 
 ## Concepts
 

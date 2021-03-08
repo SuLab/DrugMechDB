@@ -5,7 +5,7 @@ permalink: auranofinrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="auranofinrheumatoidarthritis.png" alt="auranofinrheumatoidarthritis" %}
+{% include image.html url="images/auranofinrheumatoidarthritis.png" file="auranofinrheumatoidarthritis.png" alt="auranofinrheumatoidarthritis" %}
 
 ## Concepts
 
@@ -32,5 +32,7 @@ toc: false
 | Immune Response | POSITIVELY CORRELATED WITH | Inflammation |
 | Inflammation | CAUSES | Rheumatoid Arthritis |
 |---------|-----------|---------|
+
+Comment: Exactly how auranofin works is not well understood
 
 Reference: [https://go.drugbank.com/drugs/DB00995#mechanism-of-action](https://go.drugbank.com/drugs/DB00995#mechanism-of-action){:target="_blank"}

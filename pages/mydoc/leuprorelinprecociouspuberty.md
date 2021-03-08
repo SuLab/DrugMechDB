@@ -5,7 +5,7 @@ permalink: leuprorelinprecociouspuberty.html
 toc: false 
 ---
 
-{% include image.html file="leuprorelinprecociouspuberty.png" alt="leuprorelinprecociouspuberty" %}
+{% include image.html url="images/leuprorelinprecociouspuberty.png" file="leuprorelinprecociouspuberty.png" alt="leuprorelinprecociouspuberty" %}
 
 ## Concepts
 

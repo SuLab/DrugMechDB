@@ -122,7 +122,8 @@ def generate_path_pages():
             generate_md_header(
                 output=output, title=path_title, permalink=outfile_name)
 
-            output.write('{% include image.html file="' + outfile_name + '.png" alt="' +
+            output.write('{% include image.html url="images/' + outfile_name + '.png" ' +
+                         'file="' + outfile_name + '.png" alt="' +
                          outfile_name + '" %}\n\n')
 
             output.write("## Concepts\n\n")
@@ -143,6 +144,11 @@ def generate_path_pages():
                              + edge["key"].upper() + " | "
                              + edge_lookup[edge["target"]].split('\n')[0].title() + " |\n")
             output.write("|---------|-----------|---------|\n")
+
+            if 'comment' in path:  # Display Comment if available
+                if path["comment"] is not None:
+                    comment = add_md_hyperlink(path["comment"])
+                    output.write("\nComment: " + comment + "\n")
 
             if 'drugbank' in path["graph"]:  # generate drugbank url if available
                 if path["graph"]['drugbank'] is not None:
@@ -187,6 +193,20 @@ def generate_path_pages():
         output.write("<div class=\"datatable-end\"></div>\n")
     return drug_sidebar_data, disease_sidebar_data
 
+
+def add_md_hyperlink(text):
+    # Split across spaces to separate words
+    text_split = text.split(' ')
+    out_text = []
+
+    # check each word to see if it's a hyperlink
+    # (current logic is very basic, just checks for http)
+    for word in text_split:
+        if word.startswith('http'):
+            out_text.append('['+ word +'](' + word + ')')
+        else:
+            out_text.append(word)
+    return ' '.join(out_text)
 
 def generate_sidebar(drug_sidebar_data, disease_sidebar_data):
     restart_sidebar()

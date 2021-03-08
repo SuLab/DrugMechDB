@@ -5,7 +5,7 @@ permalink: irbesartandiabeticnephropathies.html
 toc: false 
 ---
 
-{% include image.html file="irbesartandiabeticnephropathies.png" alt="irbesartandiabeticnephropathies" %}
+{% include image.html url="images/irbesartandiabeticnephropathies.png" file="irbesartandiabeticnephropathies.png" alt="irbesartandiabeticnephropathies" %}
 
 ## Concepts
 

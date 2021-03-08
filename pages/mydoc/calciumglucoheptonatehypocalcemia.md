@@ -5,7 +5,7 @@ permalink: calciumglucoheptonatehypocalcemia.html
 toc: false 
 ---
 
-{% include image.html file="calciumglucoheptonatehypocalcemia.png" alt="calciumglucoheptonatehypocalcemia" %}
+{% include image.html url="images/calciumglucoheptonatehypocalcemia.png" file="calciumglucoheptonatehypocalcemia.png" alt="calciumglucoheptonatehypocalcemia" %}
 
 ## Concepts
 

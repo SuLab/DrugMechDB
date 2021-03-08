@@ -5,7 +5,7 @@ permalink: siltuximabangiofollicularlymphnodehyperplasia.html
 toc: false 
 ---
 
-{% include image.html file="siltuximabangiofollicularlymphnodehyperplasia.png" alt="siltuximabangiofollicularlymphnodehyperplasia" %}
+{% include image.html url="images/siltuximabangiofollicularlymphnodehyperplasia.png" file="siltuximabangiofollicularlymphnodehyperplasia.png" alt="siltuximabangiofollicularlymphnodehyperplasia" %}
 
 ## Concepts
 

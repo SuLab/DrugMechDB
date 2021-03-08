@@ -5,7 +5,7 @@ permalink: boceprevirchronichepatitisc.html
 toc: false 
 ---
 
-{% include image.html file="boceprevirchronichepatitisc.png" alt="boceprevirchronichepatitisc" %}
+{% include image.html url="images/boceprevirchronichepatitisc.png" file="boceprevirchronichepatitisc.png" alt="boceprevirchronichepatitisc" %}
 
 ## Concepts
 

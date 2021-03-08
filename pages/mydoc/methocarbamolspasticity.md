@@ -5,7 +5,7 @@ permalink: methocarbamolspasticity.html
 toc: false 
 ---
 
-{% include image.html file="methocarbamolspasticity.png" alt="methocarbamolspasticity" %}
+{% include image.html url="images/methocarbamolspasticity.png" file="methocarbamolspasticity.png" alt="methocarbamolspasticity" %}
 
 ## Concepts
 
@@ -25,5 +25,7 @@ toc: false
 | Methacarbamol | CAUSES | Relaxation Of Muscle |
 | Relaxation Of Muscle | NEGATIVELY CORRELATED WITH | Spasticity |
 |---------|-----------|---------|
+
+Comment: Methacarbamol is a skeletal muscle relaxant with an unknown mechanism of action
 
 Reference: [https://go.drugbank.com/drugs/DB00423#mechanism-of-action](https://go.drugbank.com/drugs/DB00423#mechanism-of-action){:target="_blank"}

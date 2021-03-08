@@ -5,7 +5,7 @@ permalink: chlortalidonehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="chlortalidonehypertensivedisorder.png" alt="chlortalidonehypertensivedisorder" %}
+{% include image.html url="images/chlortalidonehypertensivedisorder.png" file="chlortalidonehypertensivedisorder.png" alt="chlortalidonehypertensivedisorder" %}
 
 ## Concepts
 

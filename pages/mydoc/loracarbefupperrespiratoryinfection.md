@@ -5,7 +5,7 @@ permalink: loracarbefupperrespiratoryinfection.html
 toc: false 
 ---
 
-{% include image.html file="loracarbefupperrespiratoryinfection.png" alt="loracarbefupperrespiratoryinfection" %}
+{% include image.html url="images/loracarbefupperrespiratoryinfection.png" file="loracarbefupperrespiratoryinfection.png" alt="loracarbefupperrespiratoryinfection" %}
 
 ## Concepts
 

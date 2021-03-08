@@ -5,7 +5,7 @@ permalink: mibefradilanginapectoris.html
 toc: false 
 ---
 
-{% include image.html file="mibefradilanginapectoris.png" alt="mibefradilanginapectoris" %}
+{% include image.html url="images/mibefradilanginapectoris.png" file="mibefradilanginapectoris.png" alt="mibefradilanginapectoris" %}
 
 ## Concepts
 
@@ -49,5 +49,7 @@ toc: false
 | Positive Regulation Of Vasoconstriction | NEGATIVELY REGULATES | Blood Circulation |
 | Blood Circulation | NEGATIVELY CORRELATED WITH | Angina Pectoris |
 |---------|-----------|---------|
+
+Comment: Mibefradil was withdrawn from the market in 1998 because of potentially harmful interactions with other drugs
 
 Reference: [https://go.drugbank.com/drugs/DB01388#mechanism-of-action](https://go.drugbank.com/drugs/DB01388#mechanism-of-action){:target="_blank"}

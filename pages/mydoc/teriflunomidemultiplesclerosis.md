@@ -5,7 +5,7 @@ permalink: teriflunomidemultiplesclerosis.html
 toc: false 
 ---
 
-{% include image.html file="teriflunomidemultiplesclerosis.png" alt="teriflunomidemultiplesclerosis" %}
+{% include image.html url="images/teriflunomidemultiplesclerosis.png" file="teriflunomidemultiplesclerosis.png" alt="teriflunomidemultiplesclerosis" %}
 
 ## Concepts
 

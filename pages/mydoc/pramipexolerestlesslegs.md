@@ -5,7 +5,7 @@ permalink: pramipexolerestlesslegs.html
 toc: false 
 ---
 
-{% include image.html file="pramipexolerestlesslegs.png" alt="pramipexolerestlesslegs" %}
+{% include image.html url="images/pramipexolerestlesslegs.png" file="pramipexolerestlesslegs.png" alt="pramipexolerestlesslegs" %}
 
 ## Concepts
 

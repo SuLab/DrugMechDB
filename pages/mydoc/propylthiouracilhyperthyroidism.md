@@ -5,7 +5,7 @@ permalink: propylthiouracilhyperthyroidism.html
 toc: false 
 ---
 
-{% include image.html file="propylthiouracilhyperthyroidism.png" alt="propylthiouracilhyperthyroidism" %}
+{% include image.html url="images/propylthiouracilhyperthyroidism.png" file="propylthiouracilhyperthyroidism.png" alt="propylthiouracilhyperthyroidism" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: meloxicampain.html
 toc: false 
 ---
 
-{% include image.html file="meloxicampain.png" alt="meloxicampain" %}
+{% include image.html url="images/meloxicampain.png" file="meloxicampain.png" alt="meloxicampain" %}
 
 ## Concepts
 

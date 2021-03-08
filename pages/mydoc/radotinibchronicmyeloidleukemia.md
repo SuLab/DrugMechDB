@@ -5,7 +5,7 @@ permalink: radotinibchronicmyeloidleukemia.html
 toc: false 
 ---
 
-{% include image.html file="radotinibchronicmyeloidleukemia.png" alt="radotinibchronicmyeloidleukemia" %}
+{% include image.html url="images/radotinibchronicmyeloidleukemia.png" file="radotinibchronicmyeloidleukemia.png" alt="radotinibchronicmyeloidleukemia" %}
 
 ## Concepts
 

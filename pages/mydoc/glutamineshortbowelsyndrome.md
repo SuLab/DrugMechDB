@@ -5,7 +5,7 @@ permalink: glutamineshortbowelsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="glutamineshortbowelsyndrome.png" alt="glutamineshortbowelsyndrome" %}
+{% include image.html url="images/glutamineshortbowelsyndrome.png" file="glutamineshortbowelsyndrome.png" alt="glutamineshortbowelsyndrome" %}
 
 ## Concepts
 

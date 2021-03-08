@@ -5,7 +5,7 @@ permalink: fusidicacidanthrax.html
 toc: false 
 ---
 
-{% include image.html file="fusidicacidanthrax.png" alt="fusidicacidanthrax" %}
+{% include image.html url="images/fusidicacidanthrax.png" file="fusidicacidanthrax.png" alt="fusidicacidanthrax" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: bortezomibmantlecelllymphoma2.html
 toc: false 
 ---
 
-{% include image.html file="bortezomibmantlecelllymphoma2.png" alt="bortezomibmantlecelllymphoma2" %}
+{% include image.html url="images/bortezomibmantlecelllymphoma2.png" file="bortezomibmantlecelllymphoma2.png" alt="bortezomibmantlecelllymphoma2" %}
 
 ## Concepts
 

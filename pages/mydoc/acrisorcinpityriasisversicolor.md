@@ -5,7 +5,7 @@ permalink: acrisorcinpityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="acrisorcinpityriasisversicolor.png" alt="acrisorcinpityriasisversicolor" %}
+{% include image.html url="images/acrisorcinpityriasisversicolor.png" file="acrisorcinpityriasisversicolor.png" alt="acrisorcinpityriasisversicolor" %}
 
 ## Concepts
 

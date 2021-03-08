@@ -5,7 +5,7 @@ permalink: metolazonehypertension.html
 toc: false 
 ---
 
-{% include image.html file="metolazonehypertension.png" alt="metolazonehypertension" %}
+{% include image.html url="images/metolazonehypertension.png" file="metolazonehypertension.png" alt="metolazonehypertension" %}
 
 ## Concepts
 

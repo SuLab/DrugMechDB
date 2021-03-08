@@ -5,7 +5,7 @@ permalink: chlorphenesincarbamatespasticity.html
 toc: false 
 ---
 
-{% include image.html file="chlorphenesincarbamatespasticity.png" alt="chlorphenesincarbamatespasticity" %}
+{% include image.html url="images/chlorphenesincarbamatespasticity.png" file="chlorphenesincarbamatespasticity.png" alt="chlorphenesincarbamatespasticity" %}
 
 ## Concepts
 
@@ -25,5 +25,7 @@ toc: false
 | Chlorphenesin Carbamate | CAUSES | Relaxation Of Muscle |
 | Relaxation Of Muscle | NEGATIVELY CORRELATED WITH | Spasticity |
 |---------|-----------|---------|
+
+Comment: Withdrawn for treatment of spasticity in most developed countries [https://en.wikipedia.org/wiki/Chlorphenesin_carbamate](https://en.wikipedia.org/wiki/Chlorphenesin_carbamate)
 
 Reference: [https://go.drugbank.com/drugs/DB00856#mechanism-of-action](https://go.drugbank.com/drugs/DB00856#mechanism-of-action){:target="_blank"}

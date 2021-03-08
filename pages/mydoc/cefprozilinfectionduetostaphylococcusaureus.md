@@ -5,7 +5,7 @@ permalink: cefprozilinfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="cefprozilinfectionduetostaphylococcusaureus.png" alt="cefprozilinfectionduetostaphylococcusaureus" %}
+{% include image.html url="images/cefprozilinfectionduetostaphylococcusaureus.png" file="cefprozilinfectionduetostaphylococcusaureus.png" alt="cefprozilinfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: rupatadineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="rupatadineallergicrhinitis.png" alt="rupatadineallergicrhinitis" %}
+{% include image.html url="images/rupatadineallergicrhinitis.png" file="rupatadineallergicrhinitis.png" alt="rupatadineallergicrhinitis" %}
 
 ## Concepts
 

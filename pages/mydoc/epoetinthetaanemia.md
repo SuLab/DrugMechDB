@@ -5,7 +5,7 @@ permalink: epoetinthetaanemia.html
 toc: false 
 ---
 
-{% include image.html file="epoetinthetaanemia.png" alt="epoetinthetaanemia" %}
+{% include image.html url="images/epoetinthetaanemia.png" file="epoetinthetaanemia.png" alt="epoetinthetaanemia" %}
 
 ## Concepts
 

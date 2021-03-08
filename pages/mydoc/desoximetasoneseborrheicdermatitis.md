@@ -5,7 +5,7 @@ permalink: desoximetasoneseborrheicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasoneseborrheicdermatitis.png" alt="desoximetasoneseborrheicdermatitis" %}
+{% include image.html url="images/desoximetasoneseborrheicdermatitis.png" file="desoximetasoneseborrheicdermatitis.png" alt="desoximetasoneseborrheicdermatitis" %}
 
 ## Concepts
 

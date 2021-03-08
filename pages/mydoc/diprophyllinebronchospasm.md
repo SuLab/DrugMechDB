@@ -5,7 +5,7 @@ permalink: diprophyllinebronchospasm.html
 toc: false 
 ---
 
-{% include image.html file="diprophyllinebronchospasm.png" alt="diprophyllinebronchospasm" %}
+{% include image.html url="images/diprophyllinebronchospasm.png" file="diprophyllinebronchospasm.png" alt="diprophyllinebronchospasm" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: primaquinevivaxmalaria.html
 toc: false 
 ---
 
-{% include image.html file="primaquinevivaxmalaria.png" alt="primaquinevivaxmalaria" %}
+{% include image.html url="images/primaquinevivaxmalaria.png" file="primaquinevivaxmalaria.png" alt="primaquinevivaxmalaria" %}
 
 ## Concepts
 
@@ -29,5 +29,7 @@ toc: false
 | Mitochondrial Atp Synthesis Coupled Electron Transport | OCCURS IN | Plasmodium Vivax |
 | Plasmodium Vivax | CAUSES | Vivax Malaria |
 |---------|-----------|---------|
+
+Comment: Primaquine's mechanism of action is not well understood
 
 Reference: [https://go.drugbank.com/drugs/DB01087#mechanism-of-action](https://go.drugbank.com/drugs/DB01087#mechanism-of-action){:target="_blank"}

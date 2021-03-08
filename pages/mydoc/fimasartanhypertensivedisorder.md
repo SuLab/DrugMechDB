@@ -5,7 +5,7 @@ permalink: fimasartanhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="fimasartanhypertensivedisorder.png" alt="fimasartanhypertensivedisorder" %}
+{% include image.html url="images/fimasartanhypertensivedisorder.png" file="fimasartanhypertensivedisorder.png" alt="fimasartanhypertensivedisorder" %}
 
 ## Concepts
 

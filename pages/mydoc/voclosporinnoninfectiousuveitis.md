@@ -5,7 +5,7 @@ permalink: voclosporinnoninfectiousuveitis.html
 toc: false 
 ---
 
-{% include image.html file="voclosporinnoninfectiousuveitis.png" alt="voclosporinnoninfectiousuveitis" %}
+{% include image.html url="images/voclosporinnoninfectiousuveitis.png" file="voclosporinnoninfectiousuveitis.png" alt="voclosporinnoninfectiousuveitis" %}
 
 ## Concepts
 

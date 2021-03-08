@@ -5,7 +5,7 @@ permalink: quininefalciparummalaria2.html
 toc: false 
 ---
 
-{% include image.html file="quininefalciparummalaria2.png" alt="quininefalciparummalaria2" %}
+{% include image.html url="images/quininefalciparummalaria2.png" file="quininefalciparummalaria2.png" alt="quininefalciparummalaria2" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: pimozidegillesdelatourettessyndrome.html
 toc: false 
 ---
 
-{% include image.html file="pimozidegillesdelatourettessyndrome.png" alt="pimozidegillesdelatourettessyndrome" %}
+{% include image.html url="images/pimozidegillesdelatourettessyndrome.png" file="pimozidegillesdelatourettessyndrome.png" alt="pimozidegillesdelatourettessyndrome" %}
 
 ## Concepts
 

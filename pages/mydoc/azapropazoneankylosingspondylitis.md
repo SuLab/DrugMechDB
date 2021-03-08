@@ -5,7 +5,7 @@ permalink: azapropazoneankylosingspondylitis.html
 toc: false 
 ---
 
-{% include image.html file="azapropazoneankylosingspondylitis.png" alt="azapropazoneankylosingspondylitis" %}
+{% include image.html url="images/azapropazoneankylosingspondylitis.png" file="azapropazoneankylosingspondylitis.png" alt="azapropazoneankylosingspondylitis" %}
 
 ## Concepts
 
@@ -32,5 +32,7 @@ toc: false
 | Prostaglandins | POSITIVELY CORRELATED WITH | Inflammation |
 | Inflammation | CAUSES | Ankylosing Spondylitis |
 |---------|-----------|---------|
+
+Comment: Withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}

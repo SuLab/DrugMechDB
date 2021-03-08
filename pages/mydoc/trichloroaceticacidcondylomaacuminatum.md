@@ -5,7 +5,7 @@ permalink: trichloroaceticacidcondylomaacuminatum.html
 toc: false 
 ---
 
-{% include image.html file="trichloroaceticacidcondylomaacuminatum.png" alt="trichloroaceticacidcondylomaacuminatum" %}
+{% include image.html url="images/trichloroaceticacidcondylomaacuminatum.png" file="trichloroaceticacidcondylomaacuminatum.png" alt="trichloroaceticacidcondylomaacuminatum" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: carbamazepinesimplepartialseizure.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepinesimplepartialseizure.png" alt="carbamazepinesimplepartialseizure" %}
+{% include image.html url="images/carbamazepinesimplepartialseizure.png" file="carbamazepinesimplepartialseizure.png" alt="carbamazepinesimplepartialseizure" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: apraclonidineopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="apraclonidineopenangleglaucoma.png" alt="apraclonidineopenangleglaucoma" %}
+{% include image.html url="images/apraclonidineopenangleglaucoma.png" file="apraclonidineopenangleglaucoma.png" alt="apraclonidineopenangleglaucoma" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: spironolactonehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="spironolactonehypertensivedisorder.png" alt="spironolactonehypertensivedisorder" %}
+{% include image.html url="images/spironolactonehypertensivedisorder.png" file="spironolactonehypertensivedisorder.png" alt="spironolactonehypertensivedisorder" %}
 
 ## Concepts
 

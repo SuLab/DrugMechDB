@@ -5,7 +5,7 @@ permalink: bismuthsubsalicylateindigestion.html
 toc: false 
 ---
 
-{% include image.html file="bismuthsubsalicylateindigestion.png" alt="bismuthsubsalicylateindigestion" %}
+{% include image.html url="images/bismuthsubsalicylateindigestion.png" file="bismuthsubsalicylateindigestion.png" alt="bismuthsubsalicylateindigestion" %}
 
 ## Concepts
 

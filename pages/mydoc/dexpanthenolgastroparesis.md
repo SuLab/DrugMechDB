@@ -5,7 +5,7 @@ permalink: dexpanthenolgastroparesis.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenolgastroparesis.png" alt="dexpanthenolgastroparesis" %}
+{% include image.html url="images/dexpanthenolgastroparesis.png" file="dexpanthenolgastroparesis.png" alt="dexpanthenolgastroparesis" %}
 
 ## Concepts
 

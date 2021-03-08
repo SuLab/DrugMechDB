@@ -5,7 +5,7 @@ permalink: brompheniramineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineallergicrhinitis.png" alt="brompheniramineallergicrhinitis" %}
+{% include image.html url="images/brompheniramineallergicrhinitis.png" file="brompheniramineallergicrhinitis.png" alt="brompheniramineallergicrhinitis" %}
 
 ## Concepts
 

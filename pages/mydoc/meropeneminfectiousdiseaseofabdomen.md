@@ -5,7 +5,7 @@ permalink: meropeneminfectiousdiseaseofabdomen.html
 toc: false 
 ---
 
-{% include image.html file="meropeneminfectiousdiseaseofabdomen.png" alt="meropeneminfectiousdiseaseofabdomen" %}
+{% include image.html url="images/meropeneminfectiousdiseaseofabdomen.png" file="meropeneminfectiousdiseaseofabdomen.png" alt="meropeneminfectiousdiseaseofabdomen" %}
 
 ## Concepts
 

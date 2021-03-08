@@ -5,7 +5,7 @@ permalink: dextropropoxyphenepain.html
 toc: false 
 ---
 
-{% include image.html file="dextropropoxyphenepain.png" alt="dextropropoxyphenepain" %}
+{% include image.html url="images/dextropropoxyphenepain.png" file="dextropropoxyphenepain.png" alt="dextropropoxyphenepain" %}
 
 ## Concepts
 

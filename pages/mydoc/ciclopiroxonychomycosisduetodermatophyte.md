@@ -5,7 +5,7 @@ permalink: ciclopiroxonychomycosisduetodermatophyte.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxonychomycosisduetodermatophyte.png" alt="ciclopiroxonychomycosisduetodermatophyte" %}
+{% include image.html url="images/ciclopiroxonychomycosisduetodermatophyte.png" file="ciclopiroxonychomycosisduetodermatophyte.png" alt="ciclopiroxonychomycosisduetodermatophyte" %}
 
 ## Concepts
 

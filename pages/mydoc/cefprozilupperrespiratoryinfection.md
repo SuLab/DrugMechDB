@@ -5,7 +5,7 @@ permalink: cefprozilupperrespiratoryinfection.html
 toc: false 
 ---
 
-{% include image.html file="cefprozilupperrespiratoryinfection.png" alt="cefprozilupperrespiratoryinfection" %}
+{% include image.html url="images/cefprozilupperrespiratoryinfection.png" file="cefprozilupperrespiratoryinfection.png" alt="cefprozilupperrespiratoryinfection" %}
 
 ## Concepts
 

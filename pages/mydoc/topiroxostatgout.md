@@ -5,7 +5,7 @@ permalink: topiroxostatgout.html
 toc: false 
 ---
 
-{% include image.html file="topiroxostatgout.png" alt="topiroxostatgout" %}
+{% include image.html url="images/topiroxostatgout.png" file="topiroxostatgout.png" alt="topiroxostatgout" %}
 
 ## Concepts
 

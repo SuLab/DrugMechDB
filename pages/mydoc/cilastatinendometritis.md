@@ -5,7 +5,7 @@ permalink: cilastatinendometritis.html
 toc: false 
 ---
 
-{% include image.html file="cilastatinendometritis.png" alt="cilastatinendometritis" %}
+{% include image.html url="images/cilastatinendometritis.png" file="cilastatinendometritis.png" alt="cilastatinendometritis" %}
 
 ## Concepts
 

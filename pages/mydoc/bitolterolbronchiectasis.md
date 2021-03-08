@@ -5,7 +5,7 @@ permalink: bitolterolbronchiectasis.html
 toc: false 
 ---
 
-{% include image.html file="bitolterolbronchiectasis.png" alt="bitolterolbronchiectasis" %}
+{% include image.html url="images/bitolterolbronchiectasis.png" file="bitolterolbronchiectasis.png" alt="bitolterolbronchiectasis" %}
 
 ## Concepts
 

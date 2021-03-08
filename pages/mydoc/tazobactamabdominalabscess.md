@@ -5,7 +5,7 @@ permalink: tazobactamabdominalabscess.html
 toc: false 
 ---
 
-{% include image.html file="tazobactamabdominalabscess.png" alt="tazobactamabdominalabscess" %}
+{% include image.html url="images/tazobactamabdominalabscess.png" file="tazobactamabdominalabscess.png" alt="tazobactamabdominalabscess" %}
 
 ## Concepts
 

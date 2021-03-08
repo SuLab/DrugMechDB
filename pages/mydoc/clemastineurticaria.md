@@ -5,7 +5,7 @@ permalink: clemastineurticaria.html
 toc: false 
 ---
 
-{% include image.html file="clemastineurticaria.png" alt="clemastineurticaria" %}
+{% include image.html url="images/clemastineurticaria.png" file="clemastineurticaria.png" alt="clemastineurticaria" %}
 
 ## Concepts
 

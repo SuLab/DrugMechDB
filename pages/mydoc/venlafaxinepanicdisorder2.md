@@ -5,7 +5,7 @@ permalink: venlafaxinepanicdisorder2.html
 toc: false 
 ---
 
-{% include image.html file="venlafaxinepanicdisorder2.png" alt="venlafaxinepanicdisorder2" %}
+{% include image.html url="images/venlafaxinepanicdisorder2.png" file="venlafaxinepanicdisorder2.png" alt="venlafaxinepanicdisorder2" %}
 
 ## Concepts
 

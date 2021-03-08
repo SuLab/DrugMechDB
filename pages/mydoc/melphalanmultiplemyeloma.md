@@ -5,7 +5,7 @@ permalink: melphalanmultiplemyeloma.html
 toc: false 
 ---
 
-{% include image.html file="melphalanmultiplemyeloma.png" alt="melphalanmultiplemyeloma" %}
+{% include image.html url="images/melphalanmultiplemyeloma.png" file="melphalanmultiplemyeloma.png" alt="melphalanmultiplemyeloma" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: levofloxacinpyelonephritis.html
 toc: false 
 ---
 
-{% include image.html file="levofloxacinpyelonephritis.png" alt="levofloxacinpyelonephritis" %}
+{% include image.html url="images/levofloxacinpyelonephritis.png" file="levofloxacinpyelonephritis.png" alt="levofloxacinpyelonephritis" %}
 
 ## Concepts
 

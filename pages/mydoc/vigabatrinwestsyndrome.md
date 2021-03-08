@@ -5,7 +5,7 @@ permalink: vigabatrinwestsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="vigabatrinwestsyndrome.png" alt="vigabatrinwestsyndrome" %}
+{% include image.html url="images/vigabatrinwestsyndrome.png" file="vigabatrinwestsyndrome.png" alt="vigabatrinwestsyndrome" %}
 
 ## Concepts
 

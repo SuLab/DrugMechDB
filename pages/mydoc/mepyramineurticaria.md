@@ -5,7 +5,7 @@ permalink: mepyramineurticaria.html
 toc: false 
 ---
 
-{% include image.html file="mepyramineurticaria.png" alt="mepyramineurticaria" %}
+{% include image.html url="images/mepyramineurticaria.png" file="mepyramineurticaria.png" alt="mepyramineurticaria" %}
 
 ## Concepts
 

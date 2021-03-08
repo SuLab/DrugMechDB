@@ -5,7 +5,7 @@ permalink: nitricoxidepersistentpulmonaryhypertensionofthenewborn.html
 toc: false 
 ---
 
-{% include image.html file="nitricoxidepersistentpulmonaryhypertensionofthenewborn.png" alt="nitricoxidepersistentpulmonaryhypertensionofthenewborn" %}
+{% include image.html url="images/nitricoxidepersistentpulmonaryhypertensionofthenewborn.png" file="nitricoxidepersistentpulmonaryhypertensionofthenewborn.png" alt="nitricoxidepersistentpulmonaryhypertensionofthenewborn" %}
 
 ## Concepts
 

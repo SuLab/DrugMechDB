@@ -5,7 +5,7 @@ permalink: zincoxidehemorrhoids.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidehemorrhoids.png" alt="zincoxidehemorrhoids" %}
+{% include image.html url="images/zincoxidehemorrhoids.png" file="zincoxidehemorrhoids.png" alt="zincoxidehemorrhoids" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: cefiximebronchitis.html
 toc: false 
 ---
 
-{% include image.html file="cefiximebronchitis.png" alt="cefiximebronchitis" %}
+{% include image.html url="images/cefiximebronchitis.png" file="cefiximebronchitis.png" alt="cefiximebronchitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: griseofulvintineapedis.html
 toc: false 
 ---
 
-{% include image.html file="griseofulvintineapedis.png" alt="griseofulvintineapedis" %}
+{% include image.html url="images/griseofulvintineapedis.png" file="griseofulvintineapedis.png" alt="griseofulvintineapedis" %}
 
 ## Concepts
 

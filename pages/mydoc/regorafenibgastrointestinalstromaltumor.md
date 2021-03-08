@@ -5,7 +5,7 @@ permalink: regorafenibgastrointestinalstromaltumor.html
 toc: false 
 ---
 
-{% include image.html file="regorafenibgastrointestinalstromaltumor.png" alt="regorafenibgastrointestinalstromaltumor" %}
+{% include image.html url="images/regorafenibgastrointestinalstromaltumor.png" file="regorafenibgastrointestinalstromaltumor.png" alt="regorafenibgastrointestinalstromaltumor" %}
 
 ## Concepts
 

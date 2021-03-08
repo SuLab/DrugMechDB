@@ -5,7 +5,7 @@ permalink: hydrochlorothiazidehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="hydrochlorothiazidehypertensivedisorder.png" alt="hydrochlorothiazidehypertensivedisorder" %}
+{% include image.html url="images/hydrochlorothiazidehypertensivedisorder.png" file="hydrochlorothiazidehypertensivedisorder.png" alt="hydrochlorothiazidehypertensivedisorder" %}
 
 ## Concepts
 

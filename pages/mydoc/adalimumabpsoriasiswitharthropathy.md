@@ -5,7 +5,7 @@ permalink: adalimumabpsoriasiswitharthropathy.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabpsoriasiswitharthropathy.png" alt="adalimumabpsoriasiswitharthropathy" %}
+{% include image.html url="images/adalimumabpsoriasiswitharthropathy.png" file="adalimumabpsoriasiswitharthropathy.png" alt="adalimumabpsoriasiswitharthropathy" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: zincoxidetineapedis.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidetineapedis.png" alt="zincoxidetineapedis" %}
+{% include image.html url="images/zincoxidetineapedis.png" file="zincoxidetineapedis.png" alt="zincoxidetineapedis" %}
 
 ## Concepts
 

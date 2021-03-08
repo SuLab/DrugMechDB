@@ -5,7 +5,7 @@ permalink: carbamazepinelennoxgastautsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepinelennoxgastautsyndrome.png" alt="carbamazepinelennoxgastautsyndrome" %}
+{% include image.html url="images/carbamazepinelennoxgastautsyndrome.png" file="carbamazepinelennoxgastautsyndrome.png" alt="carbamazepinelennoxgastautsyndrome" %}
 
 ## Concepts
 

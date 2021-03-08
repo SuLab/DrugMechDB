@@ -5,7 +5,7 @@ permalink: budesonideasthma2.html
 toc: false 
 ---
 
-{% include image.html file="budesonideasthma2.png" alt="budesonideasthma2" %}
+{% include image.html url="images/budesonideasthma2.png" file="budesonideasthma2.png" alt="budesonideasthma2" %}
 
 ## Concepts
 

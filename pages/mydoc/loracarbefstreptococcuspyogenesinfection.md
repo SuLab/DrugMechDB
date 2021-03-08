@@ -5,7 +5,7 @@ permalink: loracarbefstreptococcuspyogenesinfection.html
 toc: false 
 ---
 
-{% include image.html file="loracarbefstreptococcuspyogenesinfection.png" alt="loracarbefstreptococcuspyogenesinfection" %}
+{% include image.html url="images/loracarbefstreptococcuspyogenesinfection.png" file="loracarbefstreptococcuspyogenesinfection.png" alt="loracarbefstreptococcuspyogenesinfection" %}
 
 ## Concepts
 

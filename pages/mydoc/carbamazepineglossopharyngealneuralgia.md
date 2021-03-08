@@ -5,7 +5,7 @@ permalink: carbamazepineglossopharyngealneuralgia.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepineglossopharyngealneuralgia.png" alt="carbamazepineglossopharyngealneuralgia" %}
+{% include image.html url="images/carbamazepineglossopharyngealneuralgia.png" file="carbamazepineglossopharyngealneuralgia.png" alt="carbamazepineglossopharyngealneuralgia" %}
 
 ## Concepts
 

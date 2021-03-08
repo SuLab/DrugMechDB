@@ -5,7 +5,7 @@ permalink: chlorhexidineperiodontitis.html
 toc: false 
 ---
 
-{% include image.html file="chlorhexidineperiodontitis.png" alt="chlorhexidineperiodontitis" %}
+{% include image.html url="images/chlorhexidineperiodontitis.png" file="chlorhexidineperiodontitis.png" alt="chlorhexidineperiodontitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: glycerolphenylbutyratedisorderoftheureacyclemetabolism.html
 toc: false 
 ---
 
-{% include image.html file="glycerolphenylbutyratedisorderoftheureacyclemetabolism.png" alt="glycerolphenylbutyratedisorderoftheureacyclemetabolism" %}
+{% include image.html url="images/glycerolphenylbutyratedisorderoftheureacyclemetabolism.png" file="glycerolphenylbutyratedisorderoftheureacyclemetabolism.png" alt="glycerolphenylbutyratedisorderoftheureacyclemetabolism" %}
 
 ## Concepts
 

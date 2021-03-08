@@ -5,7 +5,7 @@ permalink: sitagliptindiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="sitagliptindiabetesmellitustype2.png" alt="sitagliptindiabetesmellitustype2" %}
+{% include image.html url="images/sitagliptindiabetesmellitustype2.png" file="sitagliptindiabetesmellitustype2.png" alt="sitagliptindiabetesmellitustype2" %}
 
 ## Concepts
 

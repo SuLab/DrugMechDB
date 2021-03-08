@@ -5,7 +5,7 @@ permalink: zincoxidepityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidepityriasisversicolor.png" alt="zincoxidepityriasisversicolor" %}
+{% include image.html url="images/zincoxidepityriasisversicolor.png" file="zincoxidepityriasisversicolor.png" alt="zincoxidepityriasisversicolor" %}
 
 ## Concepts
 

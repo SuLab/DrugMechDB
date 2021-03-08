@@ -5,7 +5,7 @@ permalink: prednicarbatecontactdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbatecontactdermatitis.png" alt="prednicarbatecontactdermatitis" %}
+{% include image.html url="images/prednicarbatecontactdermatitis.png" file="prednicarbatecontactdermatitis.png" alt="prednicarbatecontactdermatitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: valproicacidabsenceseizure6.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidabsenceseizure6.png" alt="valproicacidabsenceseizure6" %}
+{% include image.html url="images/valproicacidabsenceseizure6.png" file="valproicacidabsenceseizure6.png" alt="valproicacidabsenceseizure6" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: prednicarbateskinrash.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbateskinrash.png" alt="prednicarbateskinrash" %}
+{% include image.html url="images/prednicarbateskinrash.png" file="prednicarbateskinrash.png" alt="prednicarbateskinrash" %}
 
 ## Concepts
 

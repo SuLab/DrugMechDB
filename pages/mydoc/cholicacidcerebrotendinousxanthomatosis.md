@@ -5,7 +5,7 @@ permalink: cholicacidcerebrotendinousxanthomatosis.html
 toc: false 
 ---
 
-{% include image.html file="cholicacidcerebrotendinousxanthomatosis.png" alt="cholicacidcerebrotendinousxanthomatosis" %}
+{% include image.html url="images/cholicacidcerebrotendinousxanthomatosis.png" file="cholicacidcerebrotendinousxanthomatosis.png" alt="cholicacidcerebrotendinousxanthomatosis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: venlafaxinemajordepressivedisorder2.html
 toc: false 
 ---
 
-{% include image.html file="venlafaxinemajordepressivedisorder2.png" alt="venlafaxinemajordepressivedisorder2" %}
+{% include image.html url="images/venlafaxinemajordepressivedisorder2.png" file="venlafaxinemajordepressivedisorder2.png" alt="venlafaxinemajordepressivedisorder2" %}
 
 ## Concepts
 

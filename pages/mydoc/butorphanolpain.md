@@ -5,7 +5,7 @@ permalink: butorphanolpain.html
 toc: false 
 ---
 
-{% include image.html file="butorphanolpain.png" alt="butorphanolpain" %}
+{% include image.html url="images/butorphanolpain.png" file="butorphanolpain.png" alt="butorphanolpain" %}
 
 ## Concepts
 

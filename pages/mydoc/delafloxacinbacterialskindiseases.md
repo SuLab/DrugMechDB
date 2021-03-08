@@ -5,7 +5,7 @@ permalink: delafloxacinbacterialskindiseases.html
 toc: false 
 ---
 
-{% include image.html file="delafloxacinbacterialskindiseases.png" alt="delafloxacinbacterialskindiseases" %}
+{% include image.html url="images/delafloxacinbacterialskindiseases.png" file="delafloxacinbacterialskindiseases.png" alt="delafloxacinbacterialskindiseases" %}
 
 ## Concepts
 

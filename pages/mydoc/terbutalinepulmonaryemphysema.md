@@ -5,7 +5,7 @@ permalink: terbutalinepulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html file="terbutalinepulmonaryemphysema.png" alt="terbutalinepulmonaryemphysema" %}
+{% include image.html url="images/terbutalinepulmonaryemphysema.png" file="terbutalinepulmonaryemphysema.png" alt="terbutalinepulmonaryemphysema" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: gramicidinbacterialconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="gramicidinbacterialconjunctivitis.png" alt="gramicidinbacterialconjunctivitis" %}
+{% include image.html url="images/gramicidinbacterialconjunctivitis.png" file="gramicidinbacterialconjunctivitis.png" alt="gramicidinbacterialconjunctivitis" %}
 
 ## Concepts
 

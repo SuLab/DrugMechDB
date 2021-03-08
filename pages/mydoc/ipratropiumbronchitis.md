@@ -5,7 +5,7 @@ permalink: ipratropiumbronchitis.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumbronchitis.png" alt="ipratropiumbronchitis" %}
+{% include image.html url="images/ipratropiumbronchitis.png" file="ipratropiumbronchitis.png" alt="ipratropiumbronchitis" %}
 
 ## Concepts
 

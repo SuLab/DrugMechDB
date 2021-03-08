@@ -5,7 +5,7 @@ permalink: terbutalineasthma.html
 toc: false 
 ---
 
-{% include image.html file="terbutalineasthma.png" alt="terbutalineasthma" %}
+{% include image.html url="images/terbutalineasthma.png" file="terbutalineasthma.png" alt="terbutalineasthma" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: lenvatinibpapillarythyroidcarcinoma3.html
 toc: false 
 ---
 
-{% include image.html file="lenvatinibpapillarythyroidcarcinoma3.png" alt="lenvatinibpapillarythyroidcarcinoma3" %}
+{% include image.html url="images/lenvatinibpapillarythyroidcarcinoma3.png" file="lenvatinibpapillarythyroidcarcinoma3.png" alt="lenvatinibpapillarythyroidcarcinoma3" %}
 
 ## Concepts
 

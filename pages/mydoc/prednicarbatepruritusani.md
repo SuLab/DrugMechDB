@@ -5,7 +5,7 @@ permalink: prednicarbatepruritusani.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbatepruritusani.png" alt="prednicarbatepruritusani" %}
+{% include image.html url="images/prednicarbatepruritusani.png" file="prednicarbatepruritusani.png" alt="prednicarbatepruritusani" %}
 
 ## Concepts
 

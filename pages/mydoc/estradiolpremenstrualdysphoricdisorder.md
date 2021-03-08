@@ -5,7 +5,7 @@ permalink: estradiolpremenstrualdysphoricdisorder.html
 toc: false 
 ---
 
-{% include image.html file="estradiolpremenstrualdysphoricdisorder.png" alt="estradiolpremenstrualdysphoricdisorder" %}
+{% include image.html url="images/estradiolpremenstrualdysphoricdisorder.png" file="estradiolpremenstrualdysphoricdisorder.png" alt="estradiolpremenstrualdysphoricdisorder" %}
 
 ## Concepts
 

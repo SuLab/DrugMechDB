@@ -5,7 +5,7 @@ permalink: tazobactamappendicitis.html
 toc: false 
 ---
 
-{% include image.html file="tazobactamappendicitis.png" alt="tazobactamappendicitis" %}
+{% include image.html url="images/tazobactamappendicitis.png" file="tazobactamappendicitis.png" alt="tazobactamappendicitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: calciumchloridecardiacarrest.html
 toc: false 
 ---
 
-{% include image.html file="calciumchloridecardiacarrest.png" alt="calciumchloridecardiacarrest" %}
+{% include image.html url="images/calciumchloridecardiacarrest.png" file="calciumchloridecardiacarrest.png" alt="calciumchloridecardiacarrest" %}
 
 ## Concepts
 

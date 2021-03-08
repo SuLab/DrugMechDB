@@ -5,7 +5,7 @@ permalink: tazobactamnosocomialpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="tazobactamnosocomialpneumonia.png" alt="tazobactamnosocomialpneumonia" %}
+{% include image.html url="images/tazobactamnosocomialpneumonia.png" file="tazobactamnosocomialpneumonia.png" alt="tazobactamnosocomialpneumonia" %}
 
 ## Concepts
 

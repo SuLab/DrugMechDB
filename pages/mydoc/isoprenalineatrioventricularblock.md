@@ -5,7 +5,7 @@ permalink: isoprenalineatrioventricularblock.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalineatrioventricularblock.png" alt="isoprenalineatrioventricularblock" %}
+{% include image.html url="images/isoprenalineatrioventricularblock.png" file="isoprenalineatrioventricularblock.png" alt="isoprenalineatrioventricularblock" %}
 
 ## Concepts
 

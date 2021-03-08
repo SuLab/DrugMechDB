@@ -5,7 +5,7 @@ permalink: dupilumabatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="dupilumabatopicdermatitis.png" alt="dupilumabatopicdermatitis" %}
+{% include image.html url="images/dupilumabatopicdermatitis.png" file="dupilumabatopicdermatitis.png" alt="dupilumabatopicdermatitis" %}
 
 ## Concepts
 

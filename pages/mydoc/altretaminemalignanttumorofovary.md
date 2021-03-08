@@ -5,7 +5,7 @@ permalink: altretaminemalignanttumorofovary.html
 toc: false 
 ---
 
-{% include image.html file="altretaminemalignanttumorofovary.png" alt="altretaminemalignanttumorofovary" %}
+{% include image.html url="images/altretaminemalignanttumorofovary.png" file="altretaminemalignanttumorofovary.png" alt="altretaminemalignanttumorofovary" %}
 
 ## Concepts
 

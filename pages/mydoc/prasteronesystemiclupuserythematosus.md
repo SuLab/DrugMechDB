@@ -5,7 +5,7 @@ permalink: prasteronesystemiclupuserythematosus.html
 toc: false 
 ---
 
-{% include image.html file="prasteronesystemiclupuserythematosus.png" alt="prasteronesystemiclupuserythematosus" %}
+{% include image.html url="images/prasteronesystemiclupuserythematosus.png" file="prasteronesystemiclupuserythematosus.png" alt="prasteronesystemiclupuserythematosus" %}
 
 ## Concepts
 

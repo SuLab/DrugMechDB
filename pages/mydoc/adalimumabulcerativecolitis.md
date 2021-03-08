@@ -5,7 +5,7 @@ permalink: adalimumabulcerativecolitis.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabulcerativecolitis.png" alt="adalimumabulcerativecolitis" %}
+{% include image.html url="images/adalimumabulcerativecolitis.png" file="adalimumabulcerativecolitis.png" alt="adalimumabulcerativecolitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: atomoxetineattentiondeficithyperactivitydisorder.html
 toc: false 
 ---
 
-{% include image.html file="atomoxetineattentiondeficithyperactivitydisorder.png" alt="atomoxetineattentiondeficithyperactivitydisorder" %}
+{% include image.html url="images/atomoxetineattentiondeficithyperactivitydisorder.png" file="atomoxetineattentiondeficithyperactivitydisorder.png" alt="atomoxetineattentiondeficithyperactivitydisorder" %}
 
 ## Concepts
 

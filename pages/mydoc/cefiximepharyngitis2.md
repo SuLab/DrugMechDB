@@ -5,7 +5,7 @@ permalink: cefiximepharyngitis2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximepharyngitis2.png" alt="cefiximepharyngitis2" %}
+{% include image.html url="images/cefiximepharyngitis2.png" file="cefiximepharyngitis2.png" alt="cefiximepharyngitis2" %}
 
 ## Concepts
 

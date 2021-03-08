@@ -5,7 +5,7 @@ permalink: alendronicacidpostmenopausalosteoporosis.html
 toc: false 
 ---
 
-{% include image.html file="alendronicacidpostmenopausalosteoporosis.png" alt="alendronicacidpostmenopausalosteoporosis" %}
+{% include image.html url="images/alendronicacidpostmenopausalosteoporosis.png" file="alendronicacidpostmenopausalosteoporosis.png" alt="alendronicacidpostmenopausalosteoporosis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: cilastatinpneumoniaduetostreptococcus.html
 toc: false 
 ---
 
-{% include image.html file="cilastatinpneumoniaduetostreptococcus.png" alt="cilastatinpneumoniaduetostreptococcus" %}
+{% include image.html url="images/cilastatinpneumoniaduetostreptococcus.png" file="cilastatinpneumoniaduetostreptococcus.png" alt="cilastatinpneumoniaduetostreptococcus" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: medrysonecornealulcer.html
 toc: false 
 ---
 
-{% include image.html file="medrysonecornealulcer.png" alt="medrysonecornealulcer" %}
+{% include image.html url="images/medrysonecornealulcer.png" file="medrysonecornealulcer.png" alt="medrysonecornealulcer" %}
 
 ## Concepts
 
@@ -23,5 +23,7 @@ toc: false
 |---------|-----------|---------|
 | Medrysone | TREATS | Corneal Ulcer |
 |---------|-----------|---------|
+
+Comment: Contraindicated
 
 Reference: [https://go.drugbank.com/drugs/DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB00253#mechanism-of-action){:target="_blank"}

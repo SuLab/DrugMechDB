@@ -5,7 +5,7 @@ permalink: cefiximestreptococcuspyogenesinfection2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximestreptococcuspyogenesinfection2.png" alt="cefiximestreptococcuspyogenesinfection2" %}
+{% include image.html url="images/cefiximestreptococcuspyogenesinfection2.png" file="cefiximestreptococcuspyogenesinfection2.png" alt="cefiximestreptococcuspyogenesinfection2" %}
 
 ## Concepts
 

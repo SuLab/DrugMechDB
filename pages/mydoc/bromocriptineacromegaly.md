@@ -5,7 +5,7 @@ permalink: bromocriptineacromegaly.html
 toc: false 
 ---
 
-{% include image.html file="bromocriptineacromegaly.png" alt="bromocriptineacromegaly" %}
+{% include image.html url="images/bromocriptineacromegaly.png" file="bromocriptineacromegaly.png" alt="bromocriptineacromegaly" %}
 
 ## Concepts
 

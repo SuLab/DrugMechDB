@@ -5,7 +5,7 @@ permalink: dexpanthenolparalyticileus.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenolparalyticileus.png" alt="dexpanthenolparalyticileus" %}
+{% include image.html url="images/dexpanthenolparalyticileus.png" file="dexpanthenolparalyticileus.png" alt="dexpanthenolparalyticileus" %}
 
 ## Concepts
 

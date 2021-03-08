@@ -5,7 +5,7 @@ permalink: belotecanmalignanttumorofovary.html
 toc: false 
 ---
 
-{% include image.html file="belotecanmalignanttumorofovary.png" alt="belotecanmalignanttumorofovary" %}
+{% include image.html url="images/belotecanmalignanttumorofovary.png" file="belotecanmalignanttumorofovary.png" alt="belotecanmalignanttumorofovary" %}
 
 ## Concepts
 

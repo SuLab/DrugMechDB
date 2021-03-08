@@ -5,7 +5,7 @@ permalink: gemcitabinenonsmallcelllungcancer.html
 toc: false 
 ---
 
-{% include image.html file="gemcitabinenonsmallcelllungcancer.png" alt="gemcitabinenonsmallcelllungcancer" %}
+{% include image.html url="images/gemcitabinenonsmallcelllungcancer.png" file="gemcitabinenonsmallcelllungcancer.png" alt="gemcitabinenonsmallcelllungcancer" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: amoxicillinstreptococcaltonsillitis.html
 toc: false 
 ---
 
-{% include image.html file="amoxicillinstreptococcaltonsillitis.png" alt="amoxicillinstreptococcaltonsillitis" %}
+{% include image.html url="images/amoxicillinstreptococcaltonsillitis.png" file="amoxicillinstreptococcaltonsillitis.png" alt="amoxicillinstreptococcaltonsillitis" %}
 
 ## Concepts
 

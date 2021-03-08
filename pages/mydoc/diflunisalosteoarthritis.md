@@ -5,7 +5,7 @@ permalink: diflunisalosteoarthritis.html
 toc: false 
 ---
 
-{% include image.html file="diflunisalosteoarthritis.png" alt="diflunisalosteoarthritis" %}
+{% include image.html url="images/diflunisalosteoarthritis.png" file="diflunisalosteoarthritis.png" alt="diflunisalosteoarthritis" %}
 
 ## Concepts
 

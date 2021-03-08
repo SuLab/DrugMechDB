@@ -5,7 +5,7 @@ permalink: chlorhexidinegingivitis.html
 toc: false 
 ---
 
-{% include image.html file="chlorhexidinegingivitis.png" alt="chlorhexidinegingivitis" %}
+{% include image.html url="images/chlorhexidinegingivitis.png" file="chlorhexidinegingivitis.png" alt="chlorhexidinegingivitis" %}
 
 ## Concepts
 

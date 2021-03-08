@@ -5,7 +5,7 @@ permalink: butenafinetineapedis.html
 toc: false 
 ---
 
-{% include image.html file="butenafinetineapedis.png" alt="butenafinetineapedis" %}
+{% include image.html url="images/butenafinetineapedis.png" file="butenafinetineapedis.png" alt="butenafinetineapedis" %}
 
 ## Concepts
 

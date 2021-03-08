@@ -5,7 +5,7 @@ permalink: floctafenineacutepain.html
 toc: false 
 ---
 
-{% include image.html file="floctafenineacutepain.png" alt="floctafenineacutepain" %}
+{% include image.html url="images/floctafenineacutepain.png" file="floctafenineacutepain.png" alt="floctafenineacutepain" %}
 
 ## Concepts
 

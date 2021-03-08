@@ -5,7 +5,7 @@ permalink: cilastatininfectiousdiseaseofabdomen.html
 toc: false 
 ---
 
-{% include image.html file="cilastatininfectiousdiseaseofabdomen.png" alt="cilastatininfectiousdiseaseofabdomen" %}
+{% include image.html url="images/cilastatininfectiousdiseaseofabdomen.png" file="cilastatininfectiousdiseaseofabdomen.png" alt="cilastatininfectiousdiseaseofabdomen" %}
 
 ## Concepts
 

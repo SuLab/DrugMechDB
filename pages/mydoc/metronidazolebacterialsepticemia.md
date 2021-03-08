@@ -5,7 +5,7 @@ permalink: metronidazolebacterialsepticemia.html
 toc: false 
 ---
 
-{% include image.html file="metronidazolebacterialsepticemia.png" alt="metronidazolebacterialsepticemia" %}
+{% include image.html url="images/metronidazolebacterialsepticemia.png" file="metronidazolebacterialsepticemia.png" alt="metronidazolebacterialsepticemia" %}
 
 ## Concepts
 

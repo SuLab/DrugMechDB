@@ -5,7 +5,7 @@ permalink: gemifloxacinbacterialpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="gemifloxacinbacterialpneumonia.png" alt="gemifloxacinbacterialpneumonia" %}
+{% include image.html url="images/gemifloxacinbacterialpneumonia.png" file="gemifloxacinbacterialpneumonia.png" alt="gemifloxacinbacterialpneumonia" %}
 
 ## Concepts
 

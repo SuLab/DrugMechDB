@@ -5,7 +5,7 @@ permalink: pindololhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="pindololhypertensivedisorder.png" alt="pindololhypertensivedisorder" %}
+{% include image.html url="images/pindololhypertensivedisorder.png" file="pindololhypertensivedisorder.png" alt="pindololhypertensivedisorder" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: mizolastineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="mizolastineallergicrhinitis.png" alt="mizolastineallergicrhinitis" %}
+{% include image.html url="images/mizolastineallergicrhinitis.png" file="mizolastineallergicrhinitis.png" alt="mizolastineallergicrhinitis" %}
 
 ## Concepts
 

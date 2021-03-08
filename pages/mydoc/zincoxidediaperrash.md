@@ -5,7 +5,7 @@ permalink: zincoxidediaperrash.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidediaperrash.png" alt="zincoxidediaperrash" %}
+{% include image.html url="images/zincoxidediaperrash.png" file="zincoxidediaperrash.png" alt="zincoxidediaperrash" %}
 
 ## Concepts
 

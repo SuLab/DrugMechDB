@@ -5,7 +5,7 @@ permalink: neomycinuveitis.html
 toc: false 
 ---
 
-{% include image.html file="neomycinuveitis.png" alt="neomycinuveitis" %}
+{% include image.html url="images/neomycinuveitis.png" file="neomycinuveitis.png" alt="neomycinuveitis" %}
 
 ## Concepts
 

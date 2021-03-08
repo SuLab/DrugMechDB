@@ -5,7 +5,7 @@ permalink: thyrotropinalfathyroidcancerdiagnostic.html
 toc: false 
 ---
 
-{% include image.html file="thyrotropinalfathyroidcancerdiagnostic.png" alt="thyrotropinalfathyroidcancerdiagnostic" %}
+{% include image.html url="images/thyrotropinalfathyroidcancerdiagnostic.png" file="thyrotropinalfathyroidcancerdiagnostic.png" alt="thyrotropinalfathyroidcancerdiagnostic" %}
 
 ## Concepts
 

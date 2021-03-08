@@ -5,7 +5,7 @@ permalink: tafamidisamyloidosis.html
 toc: false 
 ---
 
-{% include image.html file="tafamidisamyloidosis.png" alt="tafamidisamyloidosis" %}
+{% include image.html url="images/tafamidisamyloidosis.png" file="tafamidisamyloidosis.png" alt="tafamidisamyloidosis" %}
 
 ## Concepts
 
@@ -35,5 +35,7 @@ toc: false
 | Negative Regulation Of Protein Folding | EXACERBATES | Amyloid Fibril Formation |
 | Amyloid Fibril Formation | CAUSES | Amyloidosis |
 |---------|-----------|---------|
+
+Comment: both Tafamidis and tafamidis meglumine (FX-1006A, which is drugbank:DB05352) are benzoxazole derivatives (https://go.drugbank.com/drugs/DB11644#description)
 
 Reference: [https://go.drugbank.com/drugs/DB05352#mechanism-of-action](https://go.drugbank.com/drugs/DB05352#mechanism-of-action){:target="_blank"}

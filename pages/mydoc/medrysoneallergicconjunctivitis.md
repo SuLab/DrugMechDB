@@ -5,7 +5,7 @@ permalink: medrysoneallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="medrysoneallergicconjunctivitis.png" alt="medrysoneallergicconjunctivitis" %}
+{% include image.html url="images/medrysoneallergicconjunctivitis.png" file="medrysoneallergicconjunctivitis.png" alt="medrysoneallergicconjunctivitis" %}
 
 ## Concepts
 

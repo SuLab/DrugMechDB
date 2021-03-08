@@ -5,7 +5,7 @@ permalink: mebendazoleascariasis.html
 toc: false 
 ---
 
-{% include image.html file="mebendazoleascariasis.png" alt="mebendazoleascariasis" %}
+{% include image.html url="images/mebendazoleascariasis.png" file="mebendazoleascariasis.png" alt="mebendazoleascariasis" %}
 
 ## Concepts
 

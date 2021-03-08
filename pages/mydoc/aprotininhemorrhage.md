@@ -5,7 +5,7 @@ permalink: aprotininhemorrhage.html
 toc: false 
 ---
 
-{% include image.html file="aprotininhemorrhage.png" alt="aprotininhemorrhage" %}
+{% include image.html url="images/aprotininhemorrhage.png" file="aprotininhemorrhage.png" alt="aprotininhemorrhage" %}
 
 ## Concepts
 
@@ -27,5 +27,7 @@ toc: false
 | Serine Proteases, Trypsin Domain | POSITIVELY REGULATES | Fibrinolysis |
 | Fibrinolysis | POSITIVELY CORRELATED WITH | Hemorrhage |
 |---------|-----------|---------|
+
+Comment: Withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB06692#mechanism-of-action](https://go.drugbank.com/drugs/DB06692#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: oxyphencycliminepepticulcer.html
 toc: false 
 ---
 
-{% include image.html file="oxyphencycliminepepticulcer.png" alt="oxyphencycliminepepticulcer" %}
+{% include image.html url="images/oxyphencycliminepepticulcer.png" file="oxyphencycliminepepticulcer.png" alt="oxyphencycliminepepticulcer" %}
 
 ## Concepts
 

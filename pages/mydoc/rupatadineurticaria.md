@@ -5,7 +5,7 @@ permalink: rupatadineurticaria.html
 toc: false 
 ---
 
-{% include image.html file="rupatadineurticaria.png" alt="rupatadineurticaria" %}
+{% include image.html url="images/rupatadineurticaria.png" file="rupatadineurticaria.png" alt="rupatadineurticaria" %}
 
 ## Concepts
 

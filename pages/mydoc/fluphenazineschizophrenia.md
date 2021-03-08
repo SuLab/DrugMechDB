@@ -5,7 +5,7 @@ permalink: fluphenazineschizophrenia.html
 toc: false 
 ---
 
-{% include image.html file="fluphenazineschizophrenia.png" alt="fluphenazineschizophrenia" %}
+{% include image.html url="images/fluphenazineschizophrenia.png" file="fluphenazineschizophrenia.png" alt="fluphenazineschizophrenia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: afamelanotideerythropoieticprotoporphyria.html
 toc: false 
 ---
 
-{% include image.html file="afamelanotideerythropoieticprotoporphyria.png" alt="afamelanotideerythropoieticprotoporphyria" %}
+{% include image.html url="images/afamelanotideerythropoieticprotoporphyria.png" file="afamelanotideerythropoieticprotoporphyria.png" alt="afamelanotideerythropoieticprotoporphyria" %}
 
 ## Concepts
 

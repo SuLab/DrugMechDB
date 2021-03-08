@@ -5,7 +5,7 @@ permalink: levamisoleancylostomiasis.html
 toc: false 
 ---
 
-{% include image.html file="levamisoleancylostomiasis.png" alt="levamisoleancylostomiasis" %}
+{% include image.html url="images/levamisoleancylostomiasis.png" file="levamisoleancylostomiasis.png" alt="levamisoleancylostomiasis" %}
 
 ## Concepts
 
@@ -34,5 +34,7 @@ toc: false
 | Reproductive Process | OCCURS IN | Ancylostoma Duodenale |
 | Ancylostoma Duodenale | CAUSES | Ancylostomiasis |
 |---------|-----------|---------|
+
+Comment: Withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB00848#mechanism-of-action](https://go.drugbank.com/drugs/DB00848#mechanism-of-action){:target="_blank"}

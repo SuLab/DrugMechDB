@@ -5,7 +5,7 @@ permalink: prednicarbatediscoidlupuserythematosus.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbatediscoidlupuserythematosus.png" alt="prednicarbatediscoidlupuserythematosus" %}
+{% include image.html url="images/prednicarbatediscoidlupuserythematosus.png" file="prednicarbatediscoidlupuserythematosus.png" alt="prednicarbatediscoidlupuserythematosus" %}
 
 ## Concepts
 

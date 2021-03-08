@@ -5,7 +5,7 @@ permalink: tavaboroleonychomycosisduetodermatophyte.html
 toc: false 
 ---
 
-{% include image.html file="tavaboroleonychomycosisduetodermatophyte.png" alt="tavaboroleonychomycosisduetodermatophyte" %}
+{% include image.html url="images/tavaboroleonychomycosisduetodermatophyte.png" file="tavaboroleonychomycosisduetodermatophyte.png" alt="tavaboroleonychomycosisduetodermatophyte" %}
 
 ## Concepts
 

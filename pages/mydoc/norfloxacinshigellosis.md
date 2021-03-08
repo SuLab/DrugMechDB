@@ -5,7 +5,7 @@ permalink: norfloxacinshigellosis.html
 toc: false 
 ---
 
-{% include image.html file="norfloxacinshigellosis.png" alt="norfloxacinshigellosis" %}
+{% include image.html url="images/norfloxacinshigellosis.png" file="norfloxacinshigellosis.png" alt="norfloxacinshigellosis" %}
 
 ## Concepts
 

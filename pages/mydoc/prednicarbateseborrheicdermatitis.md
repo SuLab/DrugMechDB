@@ -5,7 +5,7 @@ permalink: prednicarbateseborrheicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbateseborrheicdermatitis.png" alt="prednicarbateseborrheicdermatitis" %}
+{% include image.html url="images/prednicarbateseborrheicdermatitis.png" file="prednicarbateseborrheicdermatitis.png" alt="prednicarbateseborrheicdermatitis" %}
 
 ## Concepts
 

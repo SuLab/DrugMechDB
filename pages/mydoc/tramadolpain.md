@@ -5,7 +5,7 @@ permalink: tramadolpain.html
 toc: false 
 ---
 
-{% include image.html file="tramadolpain.png" alt="tramadolpain" %}
+{% include image.html url="images/tramadolpain.png" file="tramadolpain.png" alt="tramadolpain" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: heminacuteintermittentporphyria.html
 toc: false 
 ---
 
-{% include image.html file="heminacuteintermittentporphyria.png" alt="heminacuteintermittentporphyria" %}
+{% include image.html url="images/heminacuteintermittentporphyria.png" file="heminacuteintermittentporphyria.png" alt="heminacuteintermittentporphyria" %}
 
 ## Concepts
 

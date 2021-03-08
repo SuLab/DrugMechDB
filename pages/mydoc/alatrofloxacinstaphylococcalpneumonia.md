@@ -5,7 +5,7 @@ permalink: alatrofloxacinstaphylococcalpneumonia.html
 toc: false 
 ---
 
-{% include image.html file="alatrofloxacinstaphylococcalpneumonia.png" alt="alatrofloxacinstaphylococcalpneumonia" %}
+{% include image.html url="images/alatrofloxacinstaphylococcalpneumonia.png" file="alatrofloxacinstaphylococcalpneumonia.png" alt="alatrofloxacinstaphylococcalpneumonia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: scopolaminecough.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminecough.png" alt="scopolaminecough" %}
+{% include image.html url="images/scopolaminecough.png" file="scopolaminecough.png" alt="scopolaminecough" %}
 
 ## Concepts
 
@@ -43,5 +43,7 @@ toc: false
 | Bronchoconstriction | POSITIVELY CORRELATED WITH | Asthma |
 | Asthma | POSITIVELY CORRELATED WITH | Cough |
 |---------|-----------|---------|
+
+Comment: Scopolamine is only valid for a treatment of cough related to asthma
 
 Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

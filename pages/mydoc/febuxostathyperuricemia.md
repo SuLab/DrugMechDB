@@ -5,7 +5,7 @@ permalink: febuxostathyperuricemia.html
 toc: false 
 ---
 
-{% include image.html file="febuxostathyperuricemia.png" alt="febuxostathyperuricemia" %}
+{% include image.html url="images/febuxostathyperuricemia.png" file="febuxostathyperuricemia.png" alt="febuxostathyperuricemia" %}
 
 ## Concepts
 

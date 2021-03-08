@@ -5,7 +5,7 @@ permalink: diprophyllinepulmonaryemphysema2.html
 toc: false 
 ---
 
-{% include image.html file="diprophyllinepulmonaryemphysema2.png" alt="diprophyllinepulmonaryemphysema2" %}
+{% include image.html url="images/diprophyllinepulmonaryemphysema2.png" file="diprophyllinepulmonaryemphysema2.png" alt="diprophyllinepulmonaryemphysema2" %}
 
 ## Concepts
 

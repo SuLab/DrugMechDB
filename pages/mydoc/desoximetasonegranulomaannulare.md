@@ -5,7 +5,7 @@ permalink: desoximetasonegranulomaannulare.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonegranulomaannulare.png" alt="desoximetasonegranulomaannulare" %}
+{% include image.html url="images/desoximetasonegranulomaannulare.png" file="desoximetasonegranulomaannulare.png" alt="desoximetasonegranulomaannulare" %}
 
 ## Concepts
 

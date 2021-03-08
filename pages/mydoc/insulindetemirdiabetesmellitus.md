@@ -5,7 +5,7 @@ permalink: insulindetemirdiabetesmellitus.html
 toc: false 
 ---
 
-{% include image.html file="insulindetemirdiabetesmellitus.png" alt="insulindetemirdiabetesmellitus" %}
+{% include image.html url="images/insulindetemirdiabetesmellitus.png" file="insulindetemirdiabetesmellitus.png" alt="insulindetemirdiabetesmellitus" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: halcinonidedermatosis.html
 toc: false 
 ---
 
-{% include image.html file="halcinonidedermatosis.png" alt="halcinonidedermatosis" %}
+{% include image.html url="images/halcinonidedermatosis.png" file="halcinonidedermatosis.png" alt="halcinonidedermatosis" %}
 
 ## Concepts
 
