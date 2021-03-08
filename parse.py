@@ -147,8 +147,8 @@ def generate_path_pages():
 
             if 'comment' in path:  # Display Comment if available
                 if path["comment"] is not None:
-                    url = path["commnet"]
-                    output.write("\nComment: " + Comment + "](" + url +
+                    comment = path["comment"]
+                    output.write("\Comment: " + comment + "](" + url +
                                  "){:target=\"_blank\"}")
             
             if 'drugbank' in path["graph"]:  # generate drugbank url if available
