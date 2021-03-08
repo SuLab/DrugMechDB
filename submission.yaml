@@ -1,1 +1,1597 @@
-
+- directed: true
+  graph:
+    disease: Respiratory syncytial virus infection
+    disease_mesh: MESH:D018357
+    drug: palivizumab
+    drug_mesh: MESH:D000069455
+    drugbank: DB:DB00110
+  links:
+    - key: negatively regulates
+      source: MESH:D000069455
+      target: UniProt:P13843
+    - key: positively regulates
+      source: UniProt:P13843
+      target: GO:0019064
+    - key: positively regulates
+      source: UniProt:P13843
+      target: GO:0046718
+    - key: in taxon
+      source: GO:0046718
+      target: NCBITaxon:12814
+    - key: in taxon
+      source: GO:0019064
+      target: NCBITaxon:12814
+    - key: causes
+      source: NCBITaxon:12814
+      target: MESH:D018357
+  multigraph: true
+  nodes:
+    - id: MESH:D000069455
+      label: Drug
+      name: palivizumab
+    - id: UniProt:P13843
+      label: Protein
+      name: Fusion glycoprotein F0
+    - id: GO:0019064
+      label: BiologicalProcess
+      name: fusion of virus membrane with host plasma membrane
+    - id: GO:0046718
+      label: BiologicalProcess
+      name: viral entry into host cell
+    - id: NCBITaxon:12814
+      label: OrganismTaxon
+      name: Respiratory syncytial virus
+    - id: MESH:D018357
+      label: Disease
+      name: Respiratory syncytial virus infection
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201586/ https://go.drugbank.com/drugs/DB00110#BE0000686 https://en.wikipedia.org/wiki/Respiratory_syncytial_virus#Immunoprophylaxis https://en.wikipedia.org/wiki/Palivizumab
+  comments: This drug seems to be used for prophylaxis only because of its high cost and limited efficacy (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7096974/#CR20). It's believed to elicit an antibody-dependent cell-mediated cytotoxicity activity in vivo ()https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000855/.
+- directed: true
+  graph:
+    disease: Sinusitis
+    disease_mesh: MESH:D012852
+    drug: meticillin
+    drug_mesh: MESH:D008712
+    drugbank: DB:DB01603
+  links:
+    - key: negatively regulates
+      source: MESH:D008712
+      target: UniProt:P0A3M6
+    - key: negatively regulates
+      source: MESH:D008712
+      target: UniProt:Q8DR59
+    - key: positively regulates
+      source: UniProt:P0A3M6
+      target: GO:0071972
+    - key: positively regulates
+      source: UniProt:Q8DR59
+      target: GO:0008955
+    - key: positively correlated with
+      source: GO:0071972
+      target: GO:0018104
+    - key: positively correlated with
+      source: GO:0008955
+      target: GO:0018104
+    - key: positively correlated with
+      source: GO:0018104
+      target: GO:0031504
+    - key: in taxon
+      source: GO:0031504
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D012852
+  multigraph: true
+  nodes:
+    - id: MESH:D008712
+      label: Drug
+      name: meticillin
+    - id: UniProt:Q8DR59
+      label: Protein
+      name: Penicillin-binding protein 1A
+    - id: UniProt:P0A3M6
+      label: Protein
+      name: Penicillin-binding protein 2B
+    - id: GO:0071972
+      label: MolecularActivity
+      name: peptidoglycan L,D-transpeptidase activity
+    - id: GO:0008955
+      label: MolecularActivity
+      name: peptidoglycan glycosyltransferase activity
+    - id: GO:0018104
+      label: BiologicalProcess
+      name: peptidoglycan-protein cross-linking
+    - id: GO:0031504
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall organization
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D012852
+      label: Disease
+      name: Sinusitis
+  reference: https://go.drugbank.com/drugs/DB01603#mechanism-of-action https://en.wikipedia.org/wiki/Sinusitis#Acute https://en.wikipedia.org/wiki/Methicillin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Staphylococcal pneumonia
+    disease_mesh: MESH:D011023
+    drug: meticillin
+    drug_mesh: MESH:D008712
+    drugbank: DB:DB01603
+  links:
+    - key: negatively regulates
+      source: MESH:D008712
+      target: UniProt:P0A3M6
+    - key: negatively regulates
+      source: MESH:D008712
+      target: UniProt:Q8DR59
+    - key: positively regulates
+      source: UniProt:P0A3M6
+      target: GO:0071972
+    - key: positively regulates
+      source: UniProt:Q8DR59
+      target: GO:0008955
+    - key: positively correlated with
+      source: GO:0071972
+      target: GO:0018104
+    - key: positively correlated with
+      source: GO:0008955
+      target: GO:0018104
+    - key: positively correlated with
+      source: GO:0018104
+      target: GO:0031504
+    - key: in taxon
+      source: GO:0031504
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D011023
+  multigraph: true
+  nodes:
+    - id: MESH:D008712
+      label: Drug
+      name: meticillin
+    - id: UniProt:Q8DR59
+      label: Protein
+      name: Penicillin-binding protein 1A
+    - id: UniProt:P0A3M6
+      label: Protein
+      name: Penicillin-binding protein 2B
+    - id: GO:0071972
+      label: MolecularActivity
+      name: peptidoglycan L,D-transpeptidase activity
+    - id: GO:0008955
+      label: MolecularActivity
+      name: peptidoglycan glycosyltransferase activity
+    - id: GO:0018104
+      label: BiologicalProcess
+      name: peptidoglycan-protein cross-linking
+    - id: GO:0031504
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall organization
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D011023
+      label: Disease
+      name: Staphylococcal pneumonia
+  reference: https://go.drugbank.com/drugs/DB01603#mechanism-of-action https://en.wikipedia.org/wiki/Methicillin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Infectious disease of abdomen
+    disease_mesh: MESH:D059413
+    drug: avibactam
+    drug_mesh: MESH:C543519
+    drugbank: DB:DB09060
+  links:
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P0A9Z7
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P0AD63
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P62593
+    - key: positively regulates
+      source: UniProt:P0A9Z7
+      target: GO:0008800
+    - key: positively regulates
+      source: UniProt:P0AD63
+      target: GO:0008800
+    - key: positively regulates
+      source: UniProt:P62593
+      target: GO:0008800
+    - key: in taxon
+      source: GO:0008800
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D059413
+  multigraph: true
+  nodes:
+    - id: MESH:C543519
+      label: Drug
+      name: avibactam
+    - id: UniProt:P0A9Z7
+      label: Protein
+      name: Beta-lactamase SHV-2
+    - id: UniProt:P0AD63
+      label: Protein
+      name: Beta-lactamase SHV-1
+    - id: UniProt:P62593
+      label: Protein
+      name: Beta-lactamase TEM
+    - id: GO:0008800
+      label: MolecularActivity
+      name: beta-lactamase activity
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D059413
+      label: Disease
+      name: Infectious disease of abdomen
+  reference: https://go.drugbank.com/drugs/DB09060#mechanism-of-action
+  comments: This antibiotic inhbits beta-lactamases, enzymes that break antibiotics and therefore provide resistance to ampicillin and related beta-lacam antibiotics. Avibactam therefore is useful to treat infections caused by bacteria that are multi-resistant to β-lactam antibiotics.
+- directed: true
+  graph:
+    disease: Infectious disease of abdomen
+    disease_mesh: MESH:D059413
+    drug: avibactam
+    drug_mesh: MESH:C543519
+    drugbank: DB:DB09060
+  links:
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P0AD64
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:Q9F663
+    - key: positively regulates
+      source: UniProt:P0AD64
+      target: GO:0008800
+    - key: positively regulates
+      source: UniProt:Q9F663
+      target: GO:0008800
+    - key: in taxon
+      source: GO:0008800
+      target: NCBITaxon:573
+    - key: causes
+      source: NCBITaxon:573
+      target: MESH:D059413
+  multigraph: true
+  nodes:
+    - id: MESH:C543519
+      label: Drug
+      name: avibactam
+    - id: UniProt:Q9F663
+      label: Protein
+      name: Carbapenem-hydrolyzing beta-lactamase KPC
+    - id: UniProt:P0AD64
+      label: Protein
+      name: Beta-lactamase SHV-1
+    - id: GO:0008800
+      label: MolecularActivity
+      name: beta-lactamase activity
+    - id: NCBITaxon:573
+      label: OrganismTaxon
+      name: Klebsiella pneumoniae
+    - id: MESH:D059413
+      label: Disease
+      name: Infectious disease of abdomen
+  reference: https://go.drugbank.com/drugs/DB09060#mechanism-of-action
+  comments: This antibiotic inhbits beta-lactamases, enzymes that break antibiotics and therefore provide resistance to ampicillin and related beta-lacam antibiotics. Avibactam therefore is useful to treat infections caused by bacteria that are multi-resistant to β-lactam antibiotics.
+- directed: true
+  graph:
+    disease: Infectious disease of abdomen
+    disease_mesh: MESH:D059413
+    drug: avibactam
+    drug_mesh: MESH:C543519
+    drugbank: DB:DB09060
+  links:
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P05364
+    - key: positively regulates
+      source: UniProt:P05364
+      target: GO:0008800
+    - key: in taxon
+      source: GO:0008800
+      target: NCBITaxon:550
+    - key: causes
+      source: NCBITaxon:550
+      target: MESH:D059413
+  multigraph: true
+  nodes:
+    - id: MESH:C543519
+      label: Drug
+      name: avibactam
+    - id: UniProt:P05364
+      label: Protein
+      name: Beta-lactamase
+    - id: GO:0008800
+      label: MolecularActivity
+      name: beta-lactamase activity
+    - id: NCBITaxon:550
+      label: OrganismTaxon
+      name: Enterobacter cloacae
+    - id: MESH:D059413
+      label: Disease
+      name: Infectious disease of abdomen
+  reference: https://go.drugbank.com/drugs/DB09060#mechanism-of-action
+  comments: This antibiotic inhbits beta-lactamases, enzymes that break antibiotics and therefore provide resistance to ampicillin and related beta-lacam antibiotics. Avibactam therefore is useful to treat infections caused by bacteria that are multi-resistant to β-lactam antibiotics.
+- directed: true
+  graph:
+    disease: Infectious disease of abdomen
+    disease_mesh: MESH:D059413
+    drug: avibactam
+    drug_mesh: MESH:C543519
+    drugbank: DB:DB09060
+  links:
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P37321
+    - key: positively regulates
+      source: UniProt:P37321
+      target: GO:0008800
+    - key: in taxon
+      source: GO:0008800
+      target: NCBITaxon:287
+    - key: causes
+      source: NCBITaxon:287
+      target: MESH:D059413
+  multigraph: true
+  nodes:
+    - id: MESH:C543519
+      label: Drug
+      name: avibactam
+    - id: UniProt:P37321
+      label: Protein
+      name: Extended-spectrum beta-lactamase PER-1
+    - id: GO:0008800
+      label: MolecularActivity
+      name: beta-lactamase activity
+    - id: NCBITaxon:287
+      label: OrganismTaxon
+      name: Pseudomonas aeruginosa
+    - id: MESH:D059413
+      label: Disease
+      name: Infectious disease of abdomen
+  reference: https://go.drugbank.com/drugs/DB09060#mechanism-of-action
+  comments: This antibiotic inhbits beta-lactamases, enzymes that break antibiotics and therefore provide resistance to ampicillin and related beta-lacam antibiotics. Avibactam therefore is useful to treat infections caused by bacteria that are multi-resistant to β-lactam antibiotics.
+- directed: true
+  graph:
+    disease: Pyelonephritis
+    disease_mesh: MESH:D011704
+    drug: avibactam
+    drug_mesh: MESH:C543519
+    drugbank: DB:DB09060
+  links:
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P0A9Z7
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P0AD63
+    - key: negatively regulates
+      source: MESH:C543519
+      target: UniProt:P62593
+    - key: positively regulates
+      source: UniProt:P0A9Z7
+      target: GO:0008800
+    - key: positively regulates
+      source: UniProt:P0AD63
+      target: GO:0008800
+    - key: positively regulates
+      source: UniProt:P62593
+      target: GO:0008800
+    - key: in taxon
+      source: GO:0008800
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D011704
+  multigraph: true
+  nodes:
+    - id: MESH:C543519
+      label: Drug
+      name: avibactam
+    - id: UniProt:P0A9Z7
+      label: Protein
+      name: Beta-lactamase SHV-2
+    - id: UniProt:P0AD63
+      label: Protein
+      name: Beta-lactamase SHV-1
+    - id: UniProt:P62593
+      label: Protein
+      name: Beta-lactamase TEM
+    - id: GO:0008800
+      label: MolecularActivity
+      name: beta-lactamase activity
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D011704
+      label: Disease
+      name: Pyelonephritis
+  reference: https://go.drugbank.com/drugs/DB09060#mechanism-of-action
+  comments: This antibiotic inhbits beta-lactamases, enzymes that break antibiotics and therefore provide resistance to ampicillin and related beta-lacam antibiotics. Avibactam therefore is useful to treat infections caused by bacteria that are multi-resistant to β-lactam antibiotics. The majority of cases of pyelonephritis are caused by E.coli (https://en.wikipedia.org/wiki/Pyelonephritis#Causes), hence using this species in the indication path here.
+- directed: true
+  graph:
+    disease: Chronic hepatitis C
+    disease_mesh: MESH:D019698
+    drug: beclabuvir
+    drug_mesh: MESH:C587012
+    drugbank: DB:DB12225
+  links:
+    - key: negatively regulates
+      source: MESH:C587012
+      target: UniProt:P27958
+    - key: positively regulates
+      source: UniProt:P27958
+      target: GO:0039694
+    - key: in taxon
+      source: GO:0039694
+      target: NCBITaxon:63746
+    - key: causes
+      source: NCBITaxon:63746
+      target: MESH:D019698
+  multigraph: true
+  nodes:
+    - id: MESH:C587012
+      label: Drug
+      name: beclabuvir
+    - id: UniProt:P27958
+      label: Protein
+      name: Genome polyprotein
+    - id: GO:0039694
+      label: BiologicalProcess
+      name: viral RNA genome replication
+    - id: NCBITaxon:63746
+      label: OrganismTaxon
+      name: Hepatitis C virus (isolate H77)
+    - id: MESH:D019698
+      label: Disease
+      name: Chronic hepatitis C
+  reference: https://en.wikipedia.org/wiki/Beclabuvir https://pubchem.ncbi.nlm.nih.gov/compound/56934415#section=Pharmacology-and-Biochemistry https://www.kegg.jp/entry/D10610 https://en.wikipedia.org/wiki/Hepatitis_C_virus#Molecular_biology
+  comments: No mechanism of action available either in DrugBank (https://go.drugbank.com/drugs/DB12225#mechanism-of-action) or ChEMBL (https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3126842/) as per 02032021.
+- directed: true
+  graph:
+    disease: Gout
+    disease_mesh: MESH:D006073
+    drug: pegloticase
+    drug_mesh: MESH:C031545
+    drugbank: DB:DB09208
+  links:
+    - key: decreases abundance of
+      source: MESH:C031545
+      target: CHEBI:27226
+    - key: negatively correlated with
+      source: CHEBI:27226
+      target: CHEBI:18072
+    - key: negatively correlated with
+      source: CHEBI:18072
+      target: CHEBI:15676
+    - key: negatively correlated with
+      source: CHEBI:15676
+      target: MESH:D006073
+  multigraph: true
+  nodes:
+    - id: MESH:C031545
+      label: Drug
+      name: pegloticase
+    - id: CHEBI:27226
+      label: ChemicalSubstance
+      name: uric acid
+    - id: CHEBI:18072
+      label: ChemicalSubstance
+      name: 5-hydroxyisouric acid
+    - id: CHEBI:15676
+      label: ChemicalSubstance
+      name: allantoin
+    - id: MESH:D006073
+      label: Disease
+      name: Gout
+  reference: https://go.drugbank.com/drugs/DB09208#mechanism-of-action https://en.wikipedia.org/wiki/Pegloticase#Mechanism_of_action
+  comments: This drug converts uric acid into allantoin, therefore it clears uric acid from the blood (whose elevated levels can lead to gout).
+- directed: true
+  graph:
+    disease: Major depressive disorder
+    disease_mesh: MESH:D003865
+    drug: vilazodone
+    drug_mesh: MESH:D000069503
+    drugbank: DB:DB06684
+  links:
+    - key: negatively regulates
+      source: MESH:D000069503
+      target: UniProt:P31645
+    - key: positively regulates
+      source: UniProt:P31645
+      target: GO:0051610
+    - key: positively correlated with
+      source: GO:0051610
+      target: MESH:D003865
+  multigraph: true
+  nodes:
+    - id: MESH:D000069503
+      label: Drug
+      name: vilazodone
+    - id: UniProt:P31645
+      label: Protein
+      name: Sodium-dependent serotonin transporter
+    - id: GO:0051610
+      label: BiologicalProcess
+      name: serotonin uptake
+    - id: MESH:D003865
+      label: Disease
+      name: Major depressive disorder
+  reference: https://go.drugbank.com/drugs/DB06684#mechanism-of-action https://go.drugbank.com/drugs/DB06684#BE0000749
+- directed: true
+  graph:
+    disease: Major depressive disorder
+    disease_mesh: MESH:D003865
+    drug: vilazodone
+    drug_mesh: MESH:D000069503
+    drugbank: DB:DB06684
+  links:
+    - key: negatively regulates
+      source: MESH:D000069503
+      target: UniProt:P08908
+    - key: positively regulates
+      source: UniProt:P08908
+      target: GO:0014062
+    - key: negatively correlated with
+      source: GO:0014062
+      target: MESH:D003865
+  multigraph: true
+  nodes:
+    - id: MESH:D000069503
+      label: Drug
+      name: vilazodone
+    - id: UniProt:P08908
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1A
+    - id: GO:0014062
+      label: BiologicalProcess
+      name: regulation of serotonin secretion
+    - id: MESH:D003865
+      label: Disease
+      name: Major depressive disorder
+  reference: https://go.drugbank.com/drugs/DB06684#mechanism-of-action https://go.drugbank.com/drugs/DB06684#BE0000291 https://en.wikipedia.org/wiki/5-HT1A_receptor https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841022/ https://en.wikipedia.org/wiki/5-HT1A_receptor#cite_note-pmid2883013-21 https://pubmed.ncbi.nlm.nih.gov/12559651/
+  comments: this drug is a partial agonist at postsynaptic 5-HT1A receptors (https://en.wikipedia.org/wiki/5-HT1A_receptor#Partial_agonists) and are sometimes used in low doses as augmentations to SSRIs (https://en.wikipedia.org/wiki/5-HT1A_receptor#Neuromodulation)
+- directed: true
+  graph:
+    disease: Ascorbic acid deficiency
+    disease_mesh: MESH:D001206
+    drug: Rutin
+    drug_mesh: MESH:D012431
+    drugbank: DB:DB01698
+  links:
+    - key: increases activity of
+      source: MESH:D012431
+      target: CHEBI:21241
+    - key: positively correlated with
+      source: CHEBI:21241
+      target: MESH:D001205
+    - key: negatively correlated with
+      source: MESH:D001205
+      target: MESH:D001206
+  multigraph: true
+  nodes:
+    - id: MESH:D012431
+      label: Drug
+      name: Rutin
+    - id: CHEBI:21241
+      label: ChemicalSubstance
+      name: vitamin C
+    - id: MESH:D001205
+      label: ChemicalSubstance
+      name: Ascorbic Acid
+    - id: MESH:D001206
+      label: Disease
+      name: Ascorbic acid deficiency
+  reference: https://en.wikipedia.org/wiki/Vitamin_C#Significance https://en.wikipedia.org/wiki/Rutin
+  comments: the drug name available in the original group_26.xls file was Rutoside (one of the synonyms of Rutin, which is the canonical name in DrugBank). Its mechanism of action is not well reported. Some sources have it as an aid to enhance the action of vitamin C (https://www.drugs.com/mtm/rutin.html), whereas others describe rutin (aka vitamin P) acting as a "sparing factor, which slows the oxidation of vitamin C" into dehydroascorbic acid (https://en.wikipedia.org/wiki/Dehydroascorbic_acid).
+- directed: true
+  graph:
+    disease: Secondary hyperparathyroidism
+    disease_mesh: MESH:D006962
+    drug: etelcalcetide
+    drug_mesh: MESH:C583569
+    drugbank: DB:DB12865
+  links:
+    - key: increases activity of
+      source: MESH:C583569
+      target: UniProt:P41180
+    - key: positively regulates
+      source: UniProt:P41180
+      target: GO:0055074
+    - key: negatively correlated with
+      source: GO:0055074
+      target: HP:0002901
+    - key: positively correlated with
+      source: HP:0002901
+      target: HP:0003165
+    - key: positively correlated with
+      source: HP:0003165
+      target: MESH:D006962
+  multigraph: true
+  nodes:
+    - id: MESH:C583569
+      label: Drug
+      name: etelcalcetide
+    - id: UniProt:P41180
+      label: Protein
+      name: Extracellular calcium-sensing receptor
+    - id: GO:0055074
+      label: BiologicalProcess
+      name: calcium ion homeostasis
+    - id: HP:0002901
+      label: PhenotypicFeature
+      name: An abnormally decreased calcium concentration in the blood
+    - id: HP:0003165
+      label: PhenotypicFeature
+      name: Elevated circulating parathyroid hormone level
+    - id: MESH:D006962
+      label: Disease
+      name: Secondary hyperparathyroidism
+  reference: https://go.drugbank.com/drugs/DB12865#mechanism-of-action https://en.wikipedia.org/wiki/Parathyroid_hormone#Disorders https://en.wikipedia.org/wiki/Secondary_hyperparathyroidism#Cause https://en.wikipedia.org/wiki/Etelcalcetide#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Intermittent claudication
+    disease_mesh: MESH:D007383
+    drug: cilostazol
+    drug_mesh: MESH:C045645
+    drugbank: DB:DB01166
+  links:
+    - key: negatively regulates
+      source: MESH:C045645
+      target: UniProt:Q14432
+    - key: positively regulates
+      source: UniProt:Q14432
+      target: GO:0004115
+    - key: decreases abundance of
+      source: GO:0004115
+      target: CHEBI:17489
+    - key: increases activity of
+      source: CHEBI:17489
+      target: MESH:D017868
+    - key: positively correlated with
+      source: MESH:D017868
+      target: GO:0042311
+    - key: negatively correlated with
+      source: MESH:D017868
+      target: GO:0070527
+    - key: negatively correlated with
+      source: GO:0042311
+      target: MESH:D007383
+    - key: positively correlated with
+      source: GO:0070527
+      target: MESH:D007383
+  multigraph: true
+  nodes:
+    - id: MESH:C045645
+      label: Drug
+      name: cilostazol
+    - id: UniProt:Q14432
+      label: Protein
+      name: cGMP-inhibited 3',5'-cyclic phosphodiesterase A
+    - id: GO:0004115
+      label: MolecularActivity
+      name: 3',5'-cyclic-AMP phosphodiesterase activity
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D017868
+      label: GeneFamily
+      name: Cyclic AMP-Dependent Protein Kinases
+    - id: GO:0070527
+      label: BiologicalProcess
+      name: platelet aggregation
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D007383
+      label: Disease
+      name: Intermittent claudication
+  reference: https://go.drugbank.com/drugs/DB01166#mechanism-of-action https://en.wikipedia.org/wiki/Cilostazol#Mechanism https://www.sciencedirect.com/science/article/pii/S1078588402917958 https://www.jvascsurg.org/article/0741-5214(86)90027-3/fulltext
+- directed: true
+  graph:
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: dichlorphenamide
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB01144
+  links:
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00915
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00918
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P07451
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P22748
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P43166
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:O43570
+    - key: positively regulates
+      source: UniProt:P00915
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P00918
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P07451
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P22748
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P43166
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:O43570
+      target: GO:0015701
+    - key: increases abundance of
+      source: GO:0015701
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: dichlorphenamide
+    - id: UniProt:P00915
+      label: Protein
+      name: Carbonic anhydrase 1
+    - id: UniProt:P00918
+      label: Protein
+      name: Carbonic anhydrase 2
+    - id: UniProt:P07451
+      label: Protein
+      name: Carbonic anhydrase 3
+    - id: UniProt:P22748
+      label: Protein
+      name: Carbonic anhydrase 4
+    - id: UniProt:P43166
+      label: Protein
+      name: Carbonic anhydrase 7
+    - id: UniProt:O43570
+      label: Protein
+      name: Carbonic anhydrase 12
+    - id: GO:0015701
+      label: BiologicalProcess
+      name: bicarbonate transport
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference: https://go.drugbank.com/drugs/DB01144#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL17/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://en.wikipedia.org/wiki/Glaucoma#Medication https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0 https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
+- directed: true
+  graph:
+    disease: Alzheimer's disease
+    disease_mesh: MESH:D000544
+    drug: acetylcarnitine
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB08842
+  links:
+    - key: positively regulates
+      source: MESH:D004005
+      target: GO:0007271
+    - key: positively correlated with
+      source: GO:0007271
+      target: GO:0014055
+    - key: negatively correlated with
+      source: GO:0014055
+      target: MESH:D000544
+    - key: positively regulates
+      source: MESH:D004005
+      target: GO:0035249
+    - key: positively correlated with
+      source: GO:0035249
+      target: GO:0061535
+    - key: correlated with
+      source: GO:0061535
+      target: MESH:D000544
+    - key: increases activity of
+      source: MESH:D004005
+      target: GO:0005947
+    - key: positively regulates
+      source: GO:0005947
+      target: GO:0006979
+    - key: correlated with
+      source: GO:0006979
+      target: GO:0150076
+    - key: positively correlated with
+      source: GO:0150076
+      target: MESH:D000544
+    - key: increases activity of
+      source: MESH:D004005
+      target: GO:0004129
+    - key: positively regulates
+      source: GO:0004129
+      target: GO:0006979
+    - key: correlated with
+      source: GO:0006979
+      target: GO:0150076
+    - key: positively correlated with
+      source: GO:0150076
+      target: MESH:D000544
+    - key: decreases abundance of
+      source: MESH:D004005
+      target: MESH:D005609
+    - key: positively correlated with
+      source: MESH:D005609
+      target: MESH:D018384
+    - key: positively correlated with
+      source: MESH:D018384
+      target: GO:0150076
+    - key: positively correlated with
+      source: GO:0150076
+      target: MESH:D000544
+    - key: increases expression of
+      source: MESH:D004005
+      target: MESH:D017475
+    - key: positively correlated with
+      source: MESH:D017475
+      target: GO:0007613
+    - key: negatively correlated with
+      source: GO:0007613
+      target: HP:0002354
+    - key: positively correlated with
+      source: HP:0002354
+      target: MESH:D000544
+    - key: positively correlated with
+      source: MESH:D004005
+      target: GO:0018393
+    - key: occurs in
+      source: GO:0018393
+      target: MESH:D016229
+    - key: contributes to
+      source: MESH:D016229
+      target: MESH:D058225
+    - key: positively correlated with
+      source: MESH:D058225
+      target: MESH:D000544
+    - key: positively correlated with
+      source: MESH:D004005
+      target: GO:0018393
+    - key: occurs in
+      source: GO:0018393
+      target: MESH:D016875
+    - key: contributes to
+      source: MESH:D016875
+      target: MESH:D016874
+    - key: positively correlated with
+      source: MESH:D016874
+      target: MESH:D000544
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: acetylcarnitine
+    - id: GO:0007271
+      label: BiologicalProcess
+      name: synaptic transmission, cholinergic
+    - id: GO:0014055
+      label: BiologicalProcess
+      name: acetylcholine secretion, neurotransmission (BP)
+    - id: GO:0035249
+      label: BiologicalProcess
+      name: synaptic transmission, glutamatergic
+    - id: GO:0061535
+      label: BiologicalProcess
+      name: glutamate secretion, neurotransmission (BP)
+    - id: GO:0005947
+      label: CellularComponent
+      name: mitochondrial alpha-ketoglutarate dehydrogenase complex
+    - id: GO:0004129
+      label: MolecularActivity
+      name: cytochrome-c oxidase activity
+    - id: GO:0006979
+      label: BiologicalProcess
+      name: response to oxidative stress
+    - id: GO:0150076
+      label: BiologicalProcess
+      name: neuroinflammatory response
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: MESH:D018384
+      label: BiologicalProcess
+      name: Oxidative stress
+    - id: MESH:D017475
+      label: GeneFamily
+      name: Receptors, Nerve Growth Factor
+    - id: GO:0007613
+      label: BiologicalProcess
+      name: memory
+    - id: HP:0002354
+      label: PhenotypicFeature
+      name: Memory impairment
+    - id: GO:0018393
+      label: BiologicalProcess
+      name: peptidyl-lysine acetylation
+    - id: MESH:D016875
+      label: Protein
+      name: tau Proteins
+    - id: MESH:D016874
+      label: PhenotypicFeature
+      name: Neurofibrillary Tangles
+    - id: MESH:D016229
+      label: Protein
+      name: Amyloid beta-Peptides
+    - id: MESH:D058225
+      label: Protein
+      name: Plaque, Amyloid
+    - id: MESH:D000544
+      label: Disease
+      name: Alzheimer's disease
+      alt_ids:
+         - MESH:C566998
+  reference: https://go.drugbank.com/drugs/DB08842#mechanism-of-action https://www.nature.com/articles/4000805 https://en.wikipedia.org/wiki/Acetylcarnitine https://pubmed.ncbi.nlm.nih.gov/16273023/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5791143/ https://en.wikipedia.org/wiki/Alzheimer%27s_disease#Causes https://pubmed.ncbi.nlm.nih.gov/8937831/ https://pubmed.ncbi.nlm.nih.gov/22729864/ https://pubmed.ncbi.nlm.nih.gov/10381209/ https://en.wikipedia.org/wiki/Oxoglutarate_dehydrogenase_complex#Pathology
+- directed: true
+  graph:
+    disease: Edema
+    disease_mesh: MESH:D004487
+    drug: ethacrynic acid
+    drug_mesh: MESH:D004976
+    drugbank: DB:DB00903
+  links:
+    - key: negatively regulates
+      source: MESH:D004976
+      target: UniProt:Q13621
+    - key: positively regulates
+      source: UniProt:Q13621
+      target: GO:0008511
+    - key: negatively correlated with
+      source: GO:0008511
+      target: GO:0036359
+    - key: negatively correlated with
+      source: GO:0008511
+      target: GO:0035812
+    - key: positively correlated with
+      source: GO:0036359
+      target: MESH:D004231
+    - key: positively correlated with
+      source: GO:0035812
+      target: MESH:D004231
+    - key: negatively correlated with
+      source: MESH:D004231
+      target: MESH:D004487
+  multigraph: true
+  nodes:
+    - id: MESH:D004976
+      label: Drug
+      name: ethacrynic acid
+    - id: UniProt:Q13621
+      label: Protein
+      name: Solute carrier family 12 member 1
+    - id: GO:0008511
+      label: MolecularActivity
+      name: sodium:potassium:chloride symporter activity
+    - id: GO:0035812
+      label: BiologicalProcess
+      name: renal sodium excretion
+    - id: GO:0036359
+      label: BiologicalProcess
+      name: renal potassium excretion
+    - id: MESH:D004231
+      label: BiologicalProcess
+      name: Diuresis
+    - id: MESH:D004487
+      label: Disease
+      name: Edema
+  reference: https://en.wikipedia.org/wiki/Etacrynic_acid#Mechanism_of_action https://en.wikipedia.org/wiki/Loop_diuretic#Mechanism_of_action https://en.wikipedia.org/wiki/Na-K-Cl_cotransporter#NKCC2 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL456/ https://go.drugbank.com/drugs/DB00903#BE0000502 https://en.wikipedia.org/wiki/Diuretic#High_ceiling/loop_diuretic
+- directed: true
+  graph:
+    disease: Thrombocytopenic disorder
+    disease_mesh: MESH:D013921
+    drug: oprelvekin
+    drug_mesh: MESH:C105308
+    drugbank: DB:DB00038
+  links:
+    - key: increases activity of
+      source: MESH:C105308
+      target: UniProt:Q14626
+    - key: positively regulates
+      source: UniProt:Q14626
+      target: GO:0004921
+    - key: positively regulates
+      source: UniProt:Q14626
+      target: GO:0035726
+    - key: positively regulates
+      source: GO:0004921
+      target: GO:0030220
+    - key: positively regulates
+      source: GO:0035726
+      target: GO:0030220
+    - key: negatively correlated with
+      source: GO:0030220
+      target: MESH:D013921
+  multigraph: true
+  nodes:
+    - id: MESH:C105308
+      label: Drug
+      name: oprelvekin
+    - id: UniProt:Q14626
+      label: Protein
+      name: Interleukin-11 receptor subunit alpha
+    - id: GO:0004921
+      label: MolecularActivity
+      name: interleukin-11 receptor activity
+    - id: GO:0035726
+      label: BiologicalProcess
+      name: common myeloid progenitor cell proliferation
+    - id: GO:0030220
+      label: BiologicalProcess
+      name: platelet formation
+    - id: MESH:D013921
+      label: Disease
+      name: Thrombocytopenic disorder
+  reference: https://go.drugbank.com/drugs/DB00038#mechanism-of-action https://en.wikipedia.org/wiki/Oprelvekin
+- directed: true
+  graph:
+    disease: Thrombocytopenic disorder
+    disease_mesh: MESH:D013921
+    drug: oprelvekin
+    drug_mesh: MESH:C105308
+    drugbank: DB:DB00038
+  links:
+    - key: increases activity of
+      source: MESH:C105308
+      target: UniProt:Q14626
+    - key: positively regulates
+      source: UniProt:Q14626
+      target: GO:0004921
+    - key: positively correlated with
+      source: GO:0004921
+      target: GO:0035726
+    - key: positively correlated with
+      source: GO:0035726
+      target: MESH:D034061
+    - key: negatively correlated with
+      source: MESH:D034061
+      target: MESH:D013921
+  multigraph: true
+  nodes:
+    - id: MESH:C105308
+      label: Drug
+      name: oprelvekin
+    - id: UniProt:Q14626
+      label: Protein
+      name: Interleukin-11 receptor subunit alpha
+    - id: GO:0004921
+      label: MolecularActivity
+      name: interleukin-11 receptor activity
+    - id: GO:0035726
+      label: BiologicalProcess
+      name: common myeloid progenitor cell proliferation
+    - id: MESH:D034061
+      label: BiologicalProcess
+      name: Thrombopoiesis
+    - id: MESH:D013921
+      label: Disease
+      name: Thrombocytopenic disorder
+  reference: https://go.drugbank.com/drugs/DB00038#mechanism-of-action https://en.wikipedia.org/wiki/Oprelvekin
+- directed: true
+  graph:
+    disease: Venous varices
+    disease_mesh: MESH:D014648
+    drug: sodium tetradecyl sulfate
+    drug_mesh: MESH:D012981
+    drugbank: DB:DB00464
+  links:
+    - key: negatively regulates
+      source: MESH:D012981
+      target: UniProt:P04070
+    - key: negatively regulates
+      source: MESH:D012981
+      target: UniProt:P07225
+    - key: negatively regulates
+      source: UniProt:P04070
+      target: GO:0007596
+    - key: negatively regulates
+      source: UniProt:P07225
+      target: GO:0007596
+    - key: negatively regulates
+      source: UniProt:P04070
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D005355
+    - key: positively correlated with
+      source: GO:0007596
+      target: MESH:D020246
+    - key: positively correlated with
+      source: MESH:D020246
+      target: MESH:D014648
+    - key: negatively correlated with
+      source: MESH:D005355
+      target: MESH:D014648
+  multigraph: true
+  nodes:
+    - id: MESH:D012981
+      label: Drug
+      name: sodium tetradecyl sulfate
+    - id: UniProt:P04070
+      label: Protein
+      name: Vitamin K-dependent protein C
+    - id: UniProt:P07225
+      label: Protein
+      name: Vitamin K-dependent protein S
+    - id: GO:0007596
+      label: BiologicalProcess
+      name: blood coagulation
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D005355
+      label: PhenotypicFeature
+      name: Fibrosis
+    - id: MESH:D020246
+      label: PhenotypicFeature
+      name: Venous Thrombosis
+    - id: MESH:D014648
+      label: Disease
+      name: Venous varices
+  reference: https://go.drugbank.com/drugs/DB00464#mechanism-of-action https://en.wikipedia.org/wiki/Oprelvekin
+  comments: this drug is a type of sclerosing solution (MESH:D012597) and causes obliteration of the vessels (or veins) as part of a treatment called Sclerotherapy (MESH:D015911)
+- directed: true
+  graph:
+    disease: Vascular Diseases
+    disease_mesh: MESH:D014652
+    drug: tolazoline
+    drug_mesh: MESH:D014043
+    drugbank: DB:DB00797
+  links:
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P35348
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P08913
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P18089
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P18825
+    - key: participates in
+      source: UniProt:P35348
+      target: REACT:R-HSA-416476
+    - key: participates in
+      source: UniProt:P35348
+      target: REACT:R-HSA-416482
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418597
+    - key: positively regulates
+      source: REACT:R-HSA-416476
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-416482
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-418594
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-418597
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: MESH:D014652
+  multigraph: true
+  nodes:
+    - id: MESH:D014043
+      label: Drug
+      name: tolazoline
+    - id: UniProt:P35348
+      label: Protein
+      name: Alpha-1A adrenergic receptor
+    - id: UniProt:P08913
+      label: Protein
+      name: Alpha-2A adrenergic receptor
+    - id: UniProt:P18089
+      label: Protein
+      name: Alpha-2B adrenergic receptor
+    - id: UniProt:P18825
+      label: Protein
+      name: Alpha-2C adrenergic receptor
+    - id: REACT:R-HSA-416476
+      label: Pathway
+      name: G alpha (q) signalling events
+    - id: REACT:R-HSA-416482
+      label: Pathway
+      name: G alpha (12/13) signalling events
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: REACT:R-HSA-418597
+      label: Pathway
+      name: G alpha (z) signalling events
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: MESH:D014652
+      label: Disease
+      name: Vascular Diseases
+  reference: https://go.drugbank.com/drugs/DB00797#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL770/
+  comments: MESH:D014652 was initially denoted as Disorder of blood vessel in the original xls file but the name on the MESH website, Vascular Diseases, is the one used here for our annotation.
+- directed: true
+  graph:
+    disease: Vascular Diseases
+    disease_mesh: MESH:D014652
+    drug: tolazoline
+    drug_mesh: MESH:D014043
+    drugbank: DB:DB00797
+  links:
+    - key: positively regulates
+      source: MESH:D014043
+      target: UniProt:P35367
+    - key: positively regulates
+      source: MESH:D014043
+      target: UniProt:P25021
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0042311
+    - key: positively regulates
+      source: UniProt:P25021
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: MESH:D014652
+  multigraph: true
+  nodes:
+    - id: MESH:D014043
+      label: Drug
+      name: tolazoline
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: UniProt:P25021
+      label: Protein
+      name: Histamine H2 receptor
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D014652
+      label: Disease
+      name: Vascular Diseases
+  reference: https://go.drugbank.com/drugs/DB00797#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL770/ https://www.ajol.info/index.php/njps/article/view/120209/109692
+  comments: MESH:D014652 was initially denoted as Disorder of blood vessel in the original xls file but the name on the MESH website, Vascular Diseases, is the one used here for our annotation.
+- directed: true
+  graph:
+    disease: Cerebrovascular disease
+    disease_mesh: MESH:D002561
+    drug: tolazoline
+    drug_mesh: MESH:D014043
+    drugbank: DB:DB00797
+  links:
+    - key: positively regulates
+      source: MESH:D014043
+      target: UniProt:P35367
+    - key: positively regulates
+      source: MESH:D014043
+      target: UniProt:P25021
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0042311
+    - key: positively regulates
+      source: UniProt:P25021
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: MESH:D002561
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P35348
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P08913
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P18089
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P18825
+    - key: participates in
+      source: UniProt:P35348
+      target: REACT:R-HSA-416476
+    - key: participates in
+      source: UniProt:P35348
+      target: REACT:R-HSA-416482
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418597
+    - key: positively regulates
+      source: REACT:R-HSA-416476
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-416482
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-418594
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-418597
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: MESH:D002561
+  multigraph: true
+  nodes:
+    - id: MESH:D014043
+      label: Drug
+      name: tolazoline
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: UniProt:P25021
+      label: Protein
+      name: Histamine H2 receptor
+    - id: UniProt:P35348
+      label: Protein
+      name: Alpha-1A adrenergic receptor
+    - id: UniProt:P08913
+      label: Protein
+      name: Alpha-2A adrenergic receptor
+    - id: UniProt:P18089
+      label: Protein
+      name: Alpha-2B adrenergic receptor
+    - id: UniProt:P18825
+      label: Protein
+      name: Alpha-2C adrenergic receptor
+    - id: REACT:R-HSA-416476
+      label: Pathway
+      name: G alpha (q) signalling events
+    - id: REACT:R-HSA-416482
+      label: Pathway
+      name: G alpha (12/13) signalling events
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: REACT:R-HSA-418597
+      label: Pathway
+      name: G alpha (z) signalling events
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D002561
+      label: Disease
+      name: Cerebrovascular disease
+  reference: https://go.drugbank.com/drugs/DB00797#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL770/ https://en.wikipedia.org/wiki/Cerebrovascular_disease#Treatment
+- directed: true
+  graph:
+    disease: Persistent pulmonary hypertension of the newborn
+    disease_mesh: MESH:D010547
+    drug: tolazoline
+    drug_mesh: MESH:D014043
+    drugbank: DB:DB00797
+  links:
+    - key: positively regulates
+      source: MESH:D014043
+      target: UniProt:P35367
+    - key: positively regulates
+      source: MESH:D014043
+      target: UniProt:P25021
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0042311
+    - key: positively regulates
+      source: UniProt:P25021
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: MESH:D010547
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P35348
+    - key: negatively regulates
+      source: MESH:D014043
+      target: UniProt:P08913
+    - key: participates in
+      source: UniProt:P35348
+      target: REACT:R-HSA-416476
+    - key: participates in
+      source: UniProt:P35348
+      target: REACT:R-HSA-416482
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418597
+    - key: positively regulates
+      source: REACT:R-HSA-416476
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-416482
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-418594
+      target: GO:0042310
+    - key: positively regulates
+      source: REACT:R-HSA-418597
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: MESH:D010547
+  multigraph: true
+  nodes:
+    - id: MESH:D014043
+      label: Drug
+      name: tolazoline
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: UniProt:P25021
+      label: Protein
+      name: Histamine H2 receptor
+    - id: UniProt:P35348
+      label: Protein
+      name: Alpha-1A adrenergic receptor
+    - id: UniProt:P08913
+      label: Protein
+      name: Alpha-2A adrenergic receptor
+    - id: REACT:R-HSA-416476
+      label: Pathway
+      name: G alpha (q) signalling events
+    - id: REACT:R-HSA-416482
+      label: Pathway
+      name: G alpha (12/13) signalling events
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: REACT:R-HSA-418597
+      label: Pathway
+      name: G alpha (z) signalling events
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D010547
+      label: Disease
+      name: Persistent pulmonary hypertension of the newborn
+  reference: https://go.drugbank.com/drugs/DB00797#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL770/ https://en.wikipedia.org/wiki/Persistent_fetal_circulation#Treatment
+- directed: true
+  graph:
+    disease: Angle-closure glaucoma
+    disease_mesh: MESH:D015812
+    drug: dichlorphenamide
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB01144
+  links:
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00915
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00918
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P07451
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P22748
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P43166
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:O43570
+    - key: positively regulates
+      source: UniProt:P00915
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P00918
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P07451
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P22748
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P43166
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:O43570
+      target: GO:0015701
+    - key: increases abundance of
+      source: GO:0015701
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D015812
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: dichlorphenamide
+    - id: UniProt:P00915
+      label: Protein
+      name: Carbonic anhydrase 1
+    - id: UniProt:P00918
+      label: Protein
+      name: Carbonic anhydrase 2
+    - id: UniProt:P07451
+      label: Protein
+      name: Carbonic anhydrase 3
+    - id: UniProt:P22748
+      label: Protein
+      name: Carbonic anhydrase 4
+    - id: UniProt:P43166
+      label: Protein
+      name: Carbonic anhydrase 7
+    - id: UniProt:O43570
+      label: Protein
+      name: Carbonic anhydrase 12
+    - id: GO:0015701
+      label: BiologicalProcess
+      name: bicarbonate transport
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D015812
+      label: Disease
+      name: Angle-closure glaucoma
+  reference: https://go.drugbank.com/drugs/DB01144#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL17/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://en.wikipedia.org/wiki/Glaucoma#Medication https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0 https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
