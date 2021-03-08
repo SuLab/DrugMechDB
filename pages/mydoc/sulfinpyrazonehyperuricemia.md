@@ -5,7 +5,7 @@ permalink: sulfinpyrazonehyperuricemia.html
 toc: false 
 ---
 
-{% include image.html url="sulfinpyrazonehyperuricemia.png" file="sulfinpyrazonehyperuricemia.png" alt="sulfinpyrazonehyperuricemia" %}
+{% include image.html url="images/sulfinpyrazonehyperuricemia.png" file="sulfinpyrazonehyperuricemia.png" alt="sulfinpyrazonehyperuricemia" %}
 
 ## Concepts
 

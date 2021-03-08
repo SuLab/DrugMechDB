@@ -5,7 +5,7 @@ permalink: levobunololopenangleglaucoma2.html
 toc: false 
 ---
 
-{% include image.html url="levobunololopenangleglaucoma2.png" file="levobunololopenangleglaucoma2.png" alt="levobunololopenangleglaucoma2" %}
+{% include image.html url="images/levobunololopenangleglaucoma2.png" file="levobunololopenangleglaucoma2.png" alt="levobunololopenangleglaucoma2" %}
 
 ## Concepts
 

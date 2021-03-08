@@ -5,7 +5,7 @@ permalink: auranofinrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html url="auranofinrheumatoidarthritis.png" file="auranofinrheumatoidarthritis.png" alt="auranofinrheumatoidarthritis" %}
+{% include image.html url="images/auranofinrheumatoidarthritis.png" file="auranofinrheumatoidarthritis.png" alt="auranofinrheumatoidarthritis" %}
 
 ## Concepts
 

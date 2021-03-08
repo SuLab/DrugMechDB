@@ -5,7 +5,7 @@ permalink: estroneacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html url="estroneacnevulgaris.png" file="estroneacnevulgaris.png" alt="estroneacnevulgaris" %}
+{% include image.html url="images/estroneacnevulgaris.png" file="estroneacnevulgaris.png" alt="estroneacnevulgaris" %}
 
 ## Concepts
 

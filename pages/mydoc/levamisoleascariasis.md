@@ -5,7 +5,7 @@ permalink: levamisoleascariasis.html
 toc: false 
 ---
 
-{% include image.html url="levamisoleascariasis.png" file="levamisoleascariasis.png" alt="levamisoleascariasis" %}
+{% include image.html url="images/levamisoleascariasis.png" file="levamisoleascariasis.png" alt="levamisoleascariasis" %}
 
 ## Concepts
 

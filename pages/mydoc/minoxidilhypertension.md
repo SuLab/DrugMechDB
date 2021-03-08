@@ -5,7 +5,7 @@ permalink: minoxidilhypertension.html
 toc: false 
 ---
 
-{% include image.html url="minoxidilhypertension.png" file="minoxidilhypertension.png" alt="minoxidilhypertension" %}
+{% include image.html url="images/minoxidilhypertension.png" file="minoxidilhypertension.png" alt="minoxidilhypertension" %}
 
 ## Concepts
 

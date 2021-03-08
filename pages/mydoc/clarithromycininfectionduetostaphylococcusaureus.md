@@ -5,7 +5,7 @@ permalink: clarithromycininfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html url="clarithromycininfectionduetostaphylococcusaureus.png" file="clarithromycininfectionduetostaphylococcusaureus.png" alt="clarithromycininfectionduetostaphylococcusaureus" %}
+{% include image.html url="images/clarithromycininfectionduetostaphylococcusaureus.png" file="clarithromycininfectionduetostaphylococcusaureus.png" alt="clarithromycininfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: magnesiumsalicylateheadachedisorder2.html
 toc: false 
 ---
 
-{% include image.html url="magnesiumsalicylateheadachedisorder2.png" file="magnesiumsalicylateheadachedisorder2.png" alt="magnesiumsalicylateheadachedisorder2" %}
+{% include image.html url="images/magnesiumsalicylateheadachedisorder2.png" file="magnesiumsalicylateheadachedisorder2.png" alt="magnesiumsalicylateheadachedisorder2" %}
 
 ## Concepts
 

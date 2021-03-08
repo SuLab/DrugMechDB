@@ -5,7 +5,7 @@ permalink: aminobenzoicacidpemphigus.html
 toc: false 
 ---
 
-{% include image.html url="aminobenzoicacidpemphigus.png" file="aminobenzoicacidpemphigus.png" alt="aminobenzoicacidpemphigus" %}
+{% include image.html url="images/aminobenzoicacidpemphigus.png" file="aminobenzoicacidpemphigus.png" alt="aminobenzoicacidpemphigus" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: methocarbamolspasticity.html
 toc: false 
 ---
 
-{% include image.html url="methocarbamolspasticity.png" file="methocarbamolspasticity.png" alt="methocarbamolspasticity" %}
+{% include image.html url="images/methocarbamolspasticity.png" file="methocarbamolspasticity.png" alt="methocarbamolspasticity" %}
 
 ## Concepts
 

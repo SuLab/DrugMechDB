@@ -5,7 +5,7 @@ permalink: estradiolpostmenopausalosteoporosis.html
 toc: false 
 ---
 
-{% include image.html url="estradiolpostmenopausalosteoporosis.png" file="estradiolpostmenopausalosteoporosis.png" alt="estradiolpostmenopausalosteoporosis" %}
+{% include image.html url="images/estradiolpostmenopausalosteoporosis.png" file="estradiolpostmenopausalosteoporosis.png" alt="estradiolpostmenopausalosteoporosis" %}
 
 ## Concepts
 

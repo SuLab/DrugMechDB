@@ -5,7 +5,7 @@ permalink: umeclidiniumchronicobstructivelungdisease.html
 toc: false 
 ---
 
-{% include image.html url="umeclidiniumchronicobstructivelungdisease.png" file="umeclidiniumchronicobstructivelungdisease.png" alt="umeclidiniumchronicobstructivelungdisease" %}
+{% include image.html url="images/umeclidiniumchronicobstructivelungdisease.png" file="umeclidiniumchronicobstructivelungdisease.png" alt="umeclidiniumchronicobstructivelungdisease" %}
 
 ## Concepts
 

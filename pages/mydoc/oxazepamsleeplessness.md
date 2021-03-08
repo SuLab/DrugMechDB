@@ -5,7 +5,7 @@ permalink: oxazepamsleeplessness.html
 toc: false 
 ---
 
-{% include image.html url="oxazepamsleeplessness.png" file="oxazepamsleeplessness.png" alt="oxazepamsleeplessness" %}
+{% include image.html url="images/oxazepamsleeplessness.png" file="oxazepamsleeplessness.png" alt="oxazepamsleeplessness" %}
 
 ## Concepts
 

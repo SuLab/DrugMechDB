@@ -5,7 +5,7 @@ permalink: anakinrarheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html url="anakinrarheumatoidarthritis.png" file="anakinrarheumatoidarthritis.png" alt="anakinrarheumatoidarthritis" %}
+{% include image.html url="images/anakinrarheumatoidarthritis.png" file="anakinrarheumatoidarthritis.png" alt="anakinrarheumatoidarthritis" %}
 
 ## Concepts
 

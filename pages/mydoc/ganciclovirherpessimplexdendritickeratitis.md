@@ -5,7 +5,7 @@ permalink: ganciclovirherpessimplexdendritickeratitis.html
 toc: false 
 ---
 
-{% include image.html url="ganciclovirherpessimplexdendritickeratitis.png" file="ganciclovirherpessimplexdendritickeratitis.png" alt="ganciclovirherpessimplexdendritickeratitis" %}
+{% include image.html url="images/ganciclovirherpessimplexdendritickeratitis.png" file="ganciclovirherpessimplexdendritickeratitis.png" alt="ganciclovirherpessimplexdendritickeratitis" %}
 
 ## Concepts
 

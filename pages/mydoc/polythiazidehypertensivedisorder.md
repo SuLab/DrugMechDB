@@ -5,7 +5,7 @@ permalink: polythiazidehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html url="polythiazidehypertensivedisorder.png" file="polythiazidehypertensivedisorder.png" alt="polythiazidehypertensivedisorder" %}
+{% include image.html url="images/polythiazidehypertensivedisorder.png" file="polythiazidehypertensivedisorder.png" alt="polythiazidehypertensivedisorder" %}
 
 ## Concepts
 

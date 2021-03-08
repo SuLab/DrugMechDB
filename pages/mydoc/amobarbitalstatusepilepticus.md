@@ -5,7 +5,7 @@ permalink: amobarbitalstatusepilepticus.html
 toc: false 
 ---
 
-{% include image.html url="amobarbitalstatusepilepticus.png" file="amobarbitalstatusepilepticus.png" alt="amobarbitalstatusepilepticus" %}
+{% include image.html url="images/amobarbitalstatusepilepticus.png" file="amobarbitalstatusepilepticus.png" alt="amobarbitalstatusepilepticus" %}
 
 ## Concepts
 

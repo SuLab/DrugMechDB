@@ -5,7 +5,7 @@ permalink: crizotinibnonsmallcelllungcancer3.html
 toc: false 
 ---
 
-{% include image.html url="crizotinibnonsmallcelllungcancer3.png" file="crizotinibnonsmallcelllungcancer3.png" alt="crizotinibnonsmallcelllungcancer3" %}
+{% include image.html url="images/crizotinibnonsmallcelllungcancer3.png" file="crizotinibnonsmallcelllungcancer3.png" alt="crizotinibnonsmallcelllungcancer3" %}
 
 ## Concepts
 

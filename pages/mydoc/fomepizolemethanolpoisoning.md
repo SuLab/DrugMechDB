@@ -5,7 +5,7 @@ permalink: fomepizolemethanolpoisoning.html
 toc: false 
 ---
 
-{% include image.html url="fomepizolemethanolpoisoning.png" file="fomepizolemethanolpoisoning.png" alt="fomepizolemethanolpoisoning" %}
+{% include image.html url="images/fomepizolemethanolpoisoning.png" file="fomepizolemethanolpoisoning.png" alt="fomepizolemethanolpoisoning" %}
 
 ## Concepts
 

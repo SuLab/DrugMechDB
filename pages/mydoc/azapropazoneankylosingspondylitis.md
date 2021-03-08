@@ -5,7 +5,7 @@ permalink: azapropazoneankylosingspondylitis.html
 toc: false 
 ---
 
-{% include image.html url="azapropazoneankylosingspondylitis.png" file="azapropazoneankylosingspondylitis.png" alt="azapropazoneankylosingspondylitis" %}
+{% include image.html url="images/azapropazoneankylosingspondylitis.png" file="azapropazoneankylosingspondylitis.png" alt="azapropazoneankylosingspondylitis" %}
 
 ## Concepts
 

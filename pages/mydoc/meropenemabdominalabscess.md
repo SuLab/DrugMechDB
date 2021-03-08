@@ -5,7 +5,7 @@ permalink: meropenemabdominalabscess.html
 toc: false 
 ---
 
-{% include image.html url="meropenemabdominalabscess.png" file="meropenemabdominalabscess.png" alt="meropenemabdominalabscess" %}
+{% include image.html url="images/meropenemabdominalabscess.png" file="meropenemabdominalabscess.png" alt="meropenemabdominalabscess" %}
 
 ## Concepts
 

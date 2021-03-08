@@ -5,7 +5,7 @@ permalink: nafcillinstaphylococcalpneumonia.html
 toc: false 
 ---
 
-{% include image.html url="nafcillinstaphylococcalpneumonia.png" file="nafcillinstaphylococcalpneumonia.png" alt="nafcillinstaphylococcalpneumonia" %}
+{% include image.html url="images/nafcillinstaphylococcalpneumonia.png" file="nafcillinstaphylococcalpneumonia.png" alt="nafcillinstaphylococcalpneumonia" %}
 
 ## Concepts
 

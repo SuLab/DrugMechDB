@@ -5,7 +5,7 @@ permalink: chloramphenicolsuccinatetyphoidfever.html
 toc: false 
 ---
 
-{% include image.html url="chloramphenicolsuccinatetyphoidfever.png" file="chloramphenicolsuccinatetyphoidfever.png" alt="chloramphenicolsuccinatetyphoidfever" %}
+{% include image.html url="images/chloramphenicolsuccinatetyphoidfever.png" file="chloramphenicolsuccinatetyphoidfever.png" alt="chloramphenicolsuccinatetyphoidfever" %}
 
 ## Concepts
 

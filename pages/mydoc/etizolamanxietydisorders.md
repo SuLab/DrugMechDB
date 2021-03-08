@@ -5,7 +5,7 @@ permalink: etizolamanxietydisorders.html
 toc: false 
 ---
 
-{% include image.html url="etizolamanxietydisorders.png" file="etizolamanxietydisorders.png" alt="etizolamanxietydisorders" %}
+{% include image.html url="images/etizolamanxietydisorders.png" file="etizolamanxietydisorders.png" alt="etizolamanxietydisorders" %}
 
 ## Concepts
 

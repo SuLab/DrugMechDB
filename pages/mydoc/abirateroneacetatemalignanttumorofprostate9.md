@@ -5,7 +5,7 @@ permalink: abirateroneacetatemalignanttumorofprostate9.html
 toc: false 
 ---
 
-{% include image.html url="abirateroneacetatemalignanttumorofprostate9.png" file="abirateroneacetatemalignanttumorofprostate9.png" alt="abirateroneacetatemalignanttumorofprostate9" %}
+{% include image.html url="images/abirateroneacetatemalignanttumorofprostate9.png" file="abirateroneacetatemalignanttumorofprostate9.png" alt="abirateroneacetatemalignanttumorofprostate9" %}
 
 ## Concepts
 
@@ -44,6 +44,6 @@ toc: false
 | Increased Serum Testosterone Level | POSITIVELY CORRELATED WITH | Malignant Tumor Of Prostate |
 |---------|-----------|---------|
 
-Comment: In addition to inhibiting UniProt:P05093 (the main target according to https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also inhibits all these cytochrome P450s and can be useful in treating castration-resistant prostate cancers.
+Comment: In addition to inhibiting UniProt:P05093 (the main target according to [https://go.drugbank.com/drugs/DB05812#mechanism-of-action),](https://go.drugbank.com/drugs/DB05812#mechanism-of-action),) abiraterone also inhibits all these cytochrome P450s and can be useful in treating castration-resistant prostate cancers.
 
 Reference: [https://go.drugbank.com/drugs/DB05812#mechanism-of-action](https://go.drugbank.com/drugs/DB05812#mechanism-of-action){:target="_blank"}

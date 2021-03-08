@@ -5,7 +5,7 @@ permalink: neomycinhepaticencephalopathy.html
 toc: false 
 ---
 
-{% include image.html url="neomycinhepaticencephalopathy.png" file="neomycinhepaticencephalopathy.png" alt="neomycinhepaticencephalopathy" %}
+{% include image.html url="images/neomycinhepaticencephalopathy.png" file="neomycinhepaticencephalopathy.png" alt="neomycinhepaticencephalopathy" %}
 
 ## Concepts
 

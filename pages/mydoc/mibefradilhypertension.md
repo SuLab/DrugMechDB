@@ -5,7 +5,7 @@ permalink: mibefradilhypertension.html
 toc: false 
 ---
 
-{% include image.html url="mibefradilhypertension.png" file="mibefradilhypertension.png" alt="mibefradilhypertension" %}
+{% include image.html url="images/mibefradilhypertension.png" file="mibefradilhypertension.png" alt="mibefradilhypertension" %}
 
 ## Concepts
 

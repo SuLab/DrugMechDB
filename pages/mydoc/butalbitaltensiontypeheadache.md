@@ -5,7 +5,7 @@ permalink: butalbitaltensiontypeheadache.html
 toc: false 
 ---
 
-{% include image.html url="butalbitaltensiontypeheadache.png" file="butalbitaltensiontypeheadache.png" alt="butalbitaltensiontypeheadache" %}
+{% include image.html url="images/butalbitaltensiontypeheadache.png" file="butalbitaltensiontypeheadache.png" alt="butalbitaltensiontypeheadache" %}
 
 ## Concepts
 

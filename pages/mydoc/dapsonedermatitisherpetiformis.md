@@ -5,7 +5,7 @@ permalink: dapsonedermatitisherpetiformis.html
 toc: false 
 ---
 
-{% include image.html url="dapsonedermatitisherpetiformis.png" file="dapsonedermatitisherpetiformis.png" alt="dapsonedermatitisherpetiformis" %}
+{% include image.html url="images/dapsonedermatitisherpetiformis.png" file="dapsonedermatitisherpetiformis.png" alt="dapsonedermatitisherpetiformis" %}
 
 ## Concepts
 

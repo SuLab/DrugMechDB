@@ -5,7 +5,7 @@ permalink: erythromycinlisteriosis.html
 toc: false 
 ---
 
-{% include image.html url="erythromycinlisteriosis.png" file="erythromycinlisteriosis.png" alt="erythromycinlisteriosis" %}
+{% include image.html url="images/erythromycinlisteriosis.png" file="erythromycinlisteriosis.png" alt="erythromycinlisteriosis" %}
 
 ## Concepts
 

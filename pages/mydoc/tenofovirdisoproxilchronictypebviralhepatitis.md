@@ -5,7 +5,7 @@ permalink: tenofovirdisoproxilchronictypebviralhepatitis.html
 toc: false 
 ---
 
-{% include image.html url="tenofovirdisoproxilchronictypebviralhepatitis.png" file="tenofovirdisoproxilchronictypebviralhepatitis.png" alt="tenofovirdisoproxilchronictypebviralhepatitis" %}
+{% include image.html url="images/tenofovirdisoproxilchronictypebviralhepatitis.png" file="tenofovirdisoproxilchronictypebviralhepatitis.png" alt="tenofovirdisoproxilchronictypebviralhepatitis" %}
 
 ## Concepts
 

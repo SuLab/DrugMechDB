@@ -5,7 +5,7 @@ permalink: itraconazoleblastomycosis.html
 toc: false 
 ---
 
-{% include image.html url="itraconazoleblastomycosis.png" file="itraconazoleblastomycosis.png" alt="itraconazoleblastomycosis" %}
+{% include image.html url="images/itraconazoleblastomycosis.png" file="itraconazoleblastomycosis.png" alt="itraconazoleblastomycosis" %}
 
 ## Concepts
 

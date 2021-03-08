@@ -5,7 +5,7 @@ permalink: papaverineperipheralvasculardisease.html
 toc: false 
 ---
 
-{% include image.html url="papaverineperipheralvasculardisease.png" file="papaverineperipheralvasculardisease.png" alt="papaverineperipheralvasculardisease" %}
+{% include image.html url="images/papaverineperipheralvasculardisease.png" file="papaverineperipheralvasculardisease.png" alt="papaverineperipheralvasculardisease" %}
 
 ## Concepts
 

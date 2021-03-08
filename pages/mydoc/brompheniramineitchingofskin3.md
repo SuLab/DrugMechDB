@@ -5,7 +5,7 @@ permalink: brompheniramineitchingofskin3.html
 toc: false 
 ---
 
-{% include image.html url="brompheniramineitchingofskin3.png" file="brompheniramineitchingofskin3.png" alt="brompheniramineitchingofskin3" %}
+{% include image.html url="images/brompheniramineitchingofskin3.png" file="brompheniramineitchingofskin3.png" alt="brompheniramineitchingofskin3" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: baricitinibrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html url="baricitinibrheumatoidarthritis.png" file="baricitinibrheumatoidarthritis.png" alt="baricitinibrheumatoidarthritis" %}
+{% include image.html url="images/baricitinibrheumatoidarthritis.png" file="baricitinibrheumatoidarthritis.png" alt="baricitinibrheumatoidarthritis" %}
 
 ## Concepts
 

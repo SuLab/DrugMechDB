@@ -5,7 +5,7 @@ permalink: acetylsalicylicacidpain.html
 toc: false 
 ---
 
-{% include image.html url="acetylsalicylicacidpain.png" file="acetylsalicylicacidpain.png" alt="acetylsalicylicacidpain" %}
+{% include image.html url="images/acetylsalicylicacidpain.png" file="acetylsalicylicacidpain.png" alt="acetylsalicylicacidpain" %}
 
 ## Concepts
 

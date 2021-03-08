@@ -5,7 +5,7 @@ permalink: cholicaciddisorderofbiliarytract.html
 toc: false 
 ---
 
-{% include image.html url="cholicaciddisorderofbiliarytract.png" file="cholicaciddisorderofbiliarytract.png" alt="cholicaciddisorderofbiliarytract" %}
+{% include image.html url="images/cholicaciddisorderofbiliarytract.png" file="cholicaciddisorderofbiliarytract.png" alt="cholicaciddisorderofbiliarytract" %}
 
 ## Concepts
 

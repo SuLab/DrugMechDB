@@ -5,7 +5,7 @@ permalink: ethinylestradiolatrophicvaginitis.html
 toc: false 
 ---
 
-{% include image.html url="ethinylestradiolatrophicvaginitis.png" file="ethinylestradiolatrophicvaginitis.png" alt="ethinylestradiolatrophicvaginitis" %}
+{% include image.html url="images/ethinylestradiolatrophicvaginitis.png" file="ethinylestradiolatrophicvaginitis.png" alt="ethinylestradiolatrophicvaginitis" %}
 
 ## Concepts
 

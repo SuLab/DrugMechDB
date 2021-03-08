@@ -5,7 +5,7 @@ permalink: clobetasolpropionateseborrheicdermatitis2.html
 toc: false 
 ---
 
-{% include image.html url="clobetasolpropionateseborrheicdermatitis2.png" file="clobetasolpropionateseborrheicdermatitis2.png" alt="clobetasolpropionateseborrheicdermatitis2" %}
+{% include image.html url="images/clobetasolpropionateseborrheicdermatitis2.png" file="clobetasolpropionateseborrheicdermatitis2.png" alt="clobetasolpropionateseborrheicdermatitis2" %}
 
 ## Concepts
 

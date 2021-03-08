@@ -5,7 +5,7 @@ permalink: adalimumabjuvenileidiopathicarthritis.html
 toc: false 
 ---
 
-{% include image.html url="adalimumabjuvenileidiopathicarthritis.png" file="adalimumabjuvenileidiopathicarthritis.png" alt="adalimumabjuvenileidiopathicarthritis" %}
+{% include image.html url="images/adalimumabjuvenileidiopathicarthritis.png" file="adalimumabjuvenileidiopathicarthritis.png" alt="adalimumabjuvenileidiopathicarthritis" %}
 
 ## Concepts
 

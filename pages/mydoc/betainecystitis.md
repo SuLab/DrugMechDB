@@ -5,7 +5,7 @@ permalink: betainecystitis.html
 toc: false 
 ---
 
-{% include image.html url="betainecystitis.png" file="betainecystitis.png" alt="betainecystitis" %}
+{% include image.html url="images/betainecystitis.png" file="betainecystitis.png" alt="betainecystitis" %}
 
 ## Concepts
 
@@ -28,6 +28,6 @@ toc: false
 | Bacteriuria | POSITIVELY CORRELATED WITH | Cystitis |
 |---------|-----------|---------|
 
-Comment: Betaine is not a standard treatment for cystitis https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895837/
+Comment: Betaine is not a standard treatment for cystitis [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895837/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895837/)
 
 Reference: [https://go.drugbank.com/drugs/DB06756#mechanism-of-action](https://go.drugbank.com/drugs/DB06756#mechanism-of-action){:target="_blank"}

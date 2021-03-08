@@ -5,7 +5,7 @@ permalink: bitolterolpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html url="bitolterolpulmonaryemphysema.png" file="bitolterolpulmonaryemphysema.png" alt="bitolterolpulmonaryemphysema" %}
+{% include image.html url="images/bitolterolpulmonaryemphysema.png" file="bitolterolpulmonaryemphysema.png" alt="bitolterolpulmonaryemphysema" %}
 
 ## Concepts
 

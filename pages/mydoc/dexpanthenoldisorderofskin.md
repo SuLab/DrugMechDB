@@ -5,7 +5,7 @@ permalink: dexpanthenoldisorderofskin.html
 toc: false 
 ---
 
-{% include image.html url="dexpanthenoldisorderofskin.png" file="dexpanthenoldisorderofskin.png" alt="dexpanthenoldisorderofskin" %}
+{% include image.html url="images/dexpanthenoldisorderofskin.png" file="dexpanthenoldisorderofskin.png" alt="dexpanthenoldisorderofskin" %}
 
 ## Concepts
 

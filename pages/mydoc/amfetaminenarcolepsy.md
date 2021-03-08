@@ -5,7 +5,7 @@ permalink: amfetaminenarcolepsy.html
 toc: false 
 ---
 
-{% include image.html url="amfetaminenarcolepsy.png" file="amfetaminenarcolepsy.png" alt="amfetaminenarcolepsy" %}
+{% include image.html url="images/amfetaminenarcolepsy.png" file="amfetaminenarcolepsy.png" alt="amfetaminenarcolepsy" %}
 
 ## Concepts
 

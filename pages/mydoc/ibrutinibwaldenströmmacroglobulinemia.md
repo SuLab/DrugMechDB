@@ -5,7 +5,7 @@ permalink: ibrutinibwaldenströmmacroglobulinemia.html
 toc: false 
 ---
 
-{% include image.html url="ibrutinibwaldenströmmacroglobulinemia.png" file="ibrutinibwaldenströmmacroglobulinemia.png" alt="ibrutinibwaldenströmmacroglobulinemia" %}
+{% include image.html url="images/ibrutinibwaldenströmmacroglobulinemia.png" file="ibrutinibwaldenströmmacroglobulinemia.png" alt="ibrutinibwaldenströmmacroglobulinemia" %}
 
 ## Concepts
 

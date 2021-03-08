@@ -5,7 +5,7 @@ permalink: acetylsalicylicacidthrombosis.html
 toc: false 
 ---
 
-{% include image.html url="acetylsalicylicacidthrombosis.png" file="acetylsalicylicacidthrombosis.png" alt="acetylsalicylicacidthrombosis" %}
+{% include image.html url="images/acetylsalicylicacidthrombosis.png" file="acetylsalicylicacidthrombosis.png" alt="acetylsalicylicacidthrombosis" %}
 
 ## Concepts
 

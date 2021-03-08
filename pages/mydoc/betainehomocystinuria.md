@@ -5,7 +5,7 @@ permalink: betainehomocystinuria.html
 toc: false 
 ---
 
-{% include image.html url="betainehomocystinuria.png" file="betainehomocystinuria.png" alt="betainehomocystinuria" %}
+{% include image.html url="images/betainehomocystinuria.png" file="betainehomocystinuria.png" alt="betainehomocystinuria" %}
 
 ## Concepts
 

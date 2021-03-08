@@ -5,7 +5,7 @@ permalink: bacitracinkeratitis.html
 toc: false 
 ---
 
-{% include image.html url="bacitracinkeratitis.png" file="bacitracinkeratitis.png" alt="bacitracinkeratitis" %}
+{% include image.html url="images/bacitracinkeratitis.png" file="bacitracinkeratitis.png" alt="bacitracinkeratitis" %}
 
 ## Concepts
 

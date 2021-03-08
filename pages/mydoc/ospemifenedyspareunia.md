@@ -5,7 +5,7 @@ permalink: ospemifenedyspareunia.html
 toc: false 
 ---
 
-{% include image.html url="ospemifenedyspareunia.png" file="ospemifenedyspareunia.png" alt="ospemifenedyspareunia" %}
+{% include image.html url="images/ospemifenedyspareunia.png" file="ospemifenedyspareunia.png" alt="ospemifenedyspareunia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: ibrutinibmantlecelllymphoma.html
 toc: false 
 ---
 
-{% include image.html url="ibrutinibmantlecelllymphoma.png" file="ibrutinibmantlecelllymphoma.png" alt="ibrutinibmantlecelllymphoma" %}
+{% include image.html url="images/ibrutinibmantlecelllymphoma.png" file="ibrutinibmantlecelllymphoma.png" alt="ibrutinibmantlecelllymphoma" %}
 
 ## Concepts
 

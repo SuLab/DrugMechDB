@@ -5,7 +5,7 @@ permalink: acrivastineseasonalallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html url="acrivastineseasonalallergicrhinitis.png" file="acrivastineseasonalallergicrhinitis.png" alt="acrivastineseasonalallergicrhinitis" %}
+{% include image.html url="images/acrivastineseasonalallergicrhinitis.png" file="acrivastineseasonalallergicrhinitis.png" alt="acrivastineseasonalallergicrhinitis" %}
 
 ## Concepts
 

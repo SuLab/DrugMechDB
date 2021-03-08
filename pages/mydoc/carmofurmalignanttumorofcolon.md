@@ -5,7 +5,7 @@ permalink: carmofurmalignanttumorofcolon.html
 toc: false 
 ---
 
-{% include image.html url="carmofurmalignanttumorofcolon.png" file="carmofurmalignanttumorofcolon.png" alt="carmofurmalignanttumorofcolon" %}
+{% include image.html url="images/carmofurmalignanttumorofcolon.png" file="carmofurmalignanttumorofcolon.png" alt="carmofurmalignanttumorofcolon" %}
 
 ## Concepts
 

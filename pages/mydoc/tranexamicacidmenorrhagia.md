@@ -5,7 +5,7 @@ permalink: tranexamicacidmenorrhagia.html
 toc: false 
 ---
 
-{% include image.html url="tranexamicacidmenorrhagia.png" file="tranexamicacidmenorrhagia.png" alt="tranexamicacidmenorrhagia" %}
+{% include image.html url="images/tranexamicacidmenorrhagia.png" file="tranexamicacidmenorrhagia.png" alt="tranexamicacidmenorrhagia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: budesonideallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html url="budesonideallergicrhinitis.png" file="budesonideallergicrhinitis.png" alt="budesonideallergicrhinitis" %}
+{% include image.html url="images/budesonideallergicrhinitis.png" file="budesonideallergicrhinitis.png" alt="budesonideallergicrhinitis" %}
 
 ## Concepts
 

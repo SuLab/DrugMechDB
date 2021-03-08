@@ -5,7 +5,7 @@ permalink: cefiximeurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html url="cefiximeurinarytractinfectiousdisease.png" file="cefiximeurinarytractinfectiousdisease.png" alt="cefiximeurinarytractinfectiousdisease" %}
+{% include image.html url="images/cefiximeurinarytractinfectiousdisease.png" file="cefiximeurinarytractinfectiousdisease.png" alt="cefiximeurinarytractinfectiousdisease" %}
 
 ## Concepts
 

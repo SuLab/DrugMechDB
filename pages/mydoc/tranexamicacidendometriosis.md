@@ -5,7 +5,7 @@ permalink: tranexamicacidendometriosis.html
 toc: false 
 ---
 
-{% include image.html url="tranexamicacidendometriosis.png" file="tranexamicacidendometriosis.png" alt="tranexamicacidendometriosis" %}
+{% include image.html url="images/tranexamicacidendometriosis.png" file="tranexamicacidendometriosis.png" alt="tranexamicacidendometriosis" %}
 
 ## Concepts
 

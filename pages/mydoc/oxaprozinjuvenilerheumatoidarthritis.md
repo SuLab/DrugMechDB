@@ -5,7 +5,7 @@ permalink: oxaprozinjuvenilerheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html url="oxaprozinjuvenilerheumatoidarthritis.png" file="oxaprozinjuvenilerheumatoidarthritis.png" alt="oxaprozinjuvenilerheumatoidarthritis" %}
+{% include image.html url="images/oxaprozinjuvenilerheumatoidarthritis.png" file="oxaprozinjuvenilerheumatoidarthritis.png" alt="oxaprozinjuvenilerheumatoidarthritis" %}
 
 ## Concepts
 

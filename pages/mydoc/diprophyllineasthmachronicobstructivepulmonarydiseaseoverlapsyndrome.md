@@ -5,7 +5,7 @@ permalink: diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome.
 toc: false 
 ---
 
-{% include image.html url="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome.png" file="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome.png" alt="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome" %}
+{% include image.html url="images/diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome.png" file="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome.png" alt="diprophyllineasthmachronicobstructivepulmonarydiseaseoverlapsyndrome" %}
 
 ## Concepts
 

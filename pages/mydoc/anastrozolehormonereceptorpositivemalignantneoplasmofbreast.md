@@ -5,7 +5,7 @@ permalink: anastrozolehormonereceptorpositivemalignantneoplasmofbreast.html
 toc: false 
 ---
 
-{% include image.html url="anastrozolehormonereceptorpositivemalignantneoplasmofbreast.png" file="anastrozolehormonereceptorpositivemalignantneoplasmofbreast.png" alt="anastrozolehormonereceptorpositivemalignantneoplasmofbreast" %}
+{% include image.html url="images/anastrozolehormonereceptorpositivemalignantneoplasmofbreast.png" file="anastrozolehormonereceptorpositivemalignantneoplasmofbreast.png" alt="anastrozolehormonereceptorpositivemalignantneoplasmofbreast" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: scopolamineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html url="scopolamineallergicrhinitis.png" file="scopolamineallergicrhinitis.png" alt="scopolamineallergicrhinitis" %}
+{% include image.html url="images/scopolamineallergicrhinitis.png" file="scopolamineallergicrhinitis.png" alt="scopolamineallergicrhinitis" %}
 
 ## Concepts
 

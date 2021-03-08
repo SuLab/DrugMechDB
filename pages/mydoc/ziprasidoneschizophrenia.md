@@ -5,7 +5,7 @@ permalink: ziprasidoneschizophrenia.html
 toc: false 
 ---
 
-{% include image.html url="ziprasidoneschizophrenia.png" file="ziprasidoneschizophrenia.png" alt="ziprasidoneschizophrenia" %}
+{% include image.html url="images/ziprasidoneschizophrenia.png" file="ziprasidoneschizophrenia.png" alt="ziprasidoneschizophrenia" %}
 
 ## Concepts
 

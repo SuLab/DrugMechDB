@@ -5,7 +5,7 @@ permalink: carbenoxolonepepticulcer2.html
 toc: false 
 ---
 
-{% include image.html url="carbenoxolonepepticulcer2.png" file="carbenoxolonepepticulcer2.png" alt="carbenoxolonepepticulcer2" %}
+{% include image.html url="images/carbenoxolonepepticulcer2.png" file="carbenoxolonepepticulcer2.png" alt="carbenoxolonepepticulcer2" %}
 
 ## Concepts
 

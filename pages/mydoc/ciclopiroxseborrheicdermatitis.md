@@ -5,7 +5,7 @@ permalink: ciclopiroxseborrheicdermatitis.html
 toc: false 
 ---
 
-{% include image.html url="ciclopiroxseborrheicdermatitis.png" file="ciclopiroxseborrheicdermatitis.png" alt="ciclopiroxseborrheicdermatitis" %}
+{% include image.html url="images/ciclopiroxseborrheicdermatitis.png" file="ciclopiroxseborrheicdermatitis.png" alt="ciclopiroxseborrheicdermatitis" %}
 
 ## Concepts
 

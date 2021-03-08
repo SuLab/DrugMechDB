@@ -5,7 +5,7 @@ permalink: ertapenembacterialpneumonia.html
 toc: false 
 ---
 
-{% include image.html url="ertapenembacterialpneumonia.png" file="ertapenembacterialpneumonia.png" alt="ertapenembacterialpneumonia" %}
+{% include image.html url="images/ertapenembacterialpneumonia.png" file="ertapenembacterialpneumonia.png" alt="ertapenembacterialpneumonia" %}
 
 ## Concepts
 

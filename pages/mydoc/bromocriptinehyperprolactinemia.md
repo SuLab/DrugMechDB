@@ -5,7 +5,7 @@ permalink: bromocriptinehyperprolactinemia.html
 toc: false 
 ---
 
-{% include image.html url="bromocriptinehyperprolactinemia.png" file="bromocriptinehyperprolactinemia.png" alt="bromocriptinehyperprolactinemia" %}
+{% include image.html url="images/bromocriptinehyperprolactinemia.png" file="bromocriptinehyperprolactinemia.png" alt="bromocriptinehyperprolactinemia" %}
 
 ## Concepts
 

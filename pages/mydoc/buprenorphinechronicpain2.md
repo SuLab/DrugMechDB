@@ -5,7 +5,7 @@ permalink: buprenorphinechronicpain2.html
 toc: false 
 ---
 
-{% include image.html url="buprenorphinechronicpain2.png" file="buprenorphinechronicpain2.png" alt="buprenorphinechronicpain2" %}
+{% include image.html url="images/buprenorphinechronicpain2.png" file="buprenorphinechronicpain2.png" alt="buprenorphinechronicpain2" %}
 
 ## Concepts
 

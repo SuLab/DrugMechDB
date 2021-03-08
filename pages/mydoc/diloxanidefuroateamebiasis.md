@@ -5,7 +5,7 @@ permalink: diloxanidefuroateamebiasis.html
 toc: false 
 ---
 
-{% include image.html url="diloxanidefuroateamebiasis.png" file="diloxanidefuroateamebiasis.png" alt="diloxanidefuroateamebiasis" %}
+{% include image.html url="images/diloxanidefuroateamebiasis.png" file="diloxanidefuroateamebiasis.png" alt="diloxanidefuroateamebiasis" %}
 
 ## Concepts
 

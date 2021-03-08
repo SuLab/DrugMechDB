@@ -5,7 +5,7 @@ permalink: perphenazineschizophrenia.html
 toc: false 
 ---
 
-{% include image.html url="perphenazineschizophrenia.png" file="perphenazineschizophrenia.png" alt="perphenazineschizophrenia" %}
+{% include image.html url="images/perphenazineschizophrenia.png" file="perphenazineschizophrenia.png" alt="perphenazineschizophrenia" %}
 
 ## Concepts
 
@@ -35,6 +35,6 @@ toc: false
 | Medial Forebrain Bundle | POSITIVELY CORRELATED WITH | Schizophrenia |
 |---------|-----------|---------|
 
-Comment: this drug may bind to calmodulin therefore having an anti-neoplasmic effect (https://pubmed.ncbi.nlm.nih.gov/28062709/). For schizophrenia, the dopamine neurons are located in the mesolimbic dopaminergic system (BTO:0005591), which is a component pathway of the medial forebrain bundle (UBERON:0001910. See https://en.wikipedia.org/wiki/Medial_forebrain_bundle#Anatomy)
+Comment: this drug may bind to calmodulin therefore having an anti-neoplasmic effect (https://pubmed.ncbi.nlm.nih.gov/28062709/). For schizophrenia, the dopamine neurons are located in the mesolimbic dopaminergic system (BTO:0005591), which is a component pathway of the medial forebrain bundle (UBERON:0001910. See [https://en.wikipedia.org/wiki/Medial_forebrain_bundle#Anatomy)](https://en.wikipedia.org/wiki/Medial_forebrain_bundle#Anatomy))
 
 Reference: [https://go.drugbank.com/drugs/DB00850#mechanism-of-action](https://go.drugbank.com/drugs/DB00850#mechanism-of-action){:target="_blank"}

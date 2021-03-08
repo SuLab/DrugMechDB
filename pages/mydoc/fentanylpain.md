@@ -5,7 +5,7 @@ permalink: fentanylpain.html
 toc: false 
 ---
 
-{% include image.html url="fentanylpain.png" file="fentanylpain.png" alt="fentanylpain" %}
+{% include image.html url="images/fentanylpain.png" file="fentanylpain.png" alt="fentanylpain" %}
 
 ## Concepts
 

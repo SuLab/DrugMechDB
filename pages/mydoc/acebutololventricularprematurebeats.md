@@ -5,7 +5,7 @@ permalink: acebutololventricularprematurebeats.html
 toc: false 
 ---
 
-{% include image.html url="acebutololventricularprematurebeats.png" file="acebutololventricularprematurebeats.png" alt="acebutololventricularprematurebeats" %}
+{% include image.html url="images/acebutololventricularprematurebeats.png" file="acebutololventricularprematurebeats.png" alt="acebutololventricularprematurebeats" %}
 
 ## Concepts
 

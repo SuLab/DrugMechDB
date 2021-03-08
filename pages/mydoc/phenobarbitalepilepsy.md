@@ -5,7 +5,7 @@ permalink: phenobarbitalepilepsy.html
 toc: false 
 ---
 
-{% include image.html url="phenobarbitalepilepsy.png" file="phenobarbitalepilepsy.png" alt="phenobarbitalepilepsy" %}
+{% include image.html url="images/phenobarbitalepilepsy.png" file="phenobarbitalepilepsy.png" alt="phenobarbitalepilepsy" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: ulipristaluterineleiomyoma.html
 toc: false 
 ---
 
-{% include image.html url="ulipristaluterineleiomyoma.png" file="ulipristaluterineleiomyoma.png" alt="ulipristaluterineleiomyoma" %}
+{% include image.html url="images/ulipristaluterineleiomyoma.png" file="ulipristaluterineleiomyoma.png" alt="ulipristaluterineleiomyoma" %}
 
 ## Concepts
 

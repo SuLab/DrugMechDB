@@ -5,7 +5,7 @@ permalink: triamcinolonediacetatecrohnsdisease.html
 toc: false 
 ---
 
-{% include image.html url="triamcinolonediacetatecrohnsdisease.png" file="triamcinolonediacetatecrohnsdisease.png" alt="triamcinolonediacetatecrohnsdisease" %}
+{% include image.html url="images/triamcinolonediacetatecrohnsdisease.png" file="triamcinolonediacetatecrohnsdisease.png" alt="triamcinolonediacetatecrohnsdisease" %}
 
 ## Concepts
 

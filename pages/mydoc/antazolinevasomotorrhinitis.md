@@ -5,7 +5,7 @@ permalink: antazolinevasomotorrhinitis.html
 toc: false 
 ---
 
-{% include image.html url="antazolinevasomotorrhinitis.png" file="antazolinevasomotorrhinitis.png" alt="antazolinevasomotorrhinitis" %}
+{% include image.html url="images/antazolinevasomotorrhinitis.png" file="antazolinevasomotorrhinitis.png" alt="antazolinevasomotorrhinitis" %}
 
 ## Concepts
 

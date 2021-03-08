@@ -5,7 +5,7 @@ permalink: setiptilinedepressivedisorder2.html
 toc: false 
 ---
 
-{% include image.html url="setiptilinedepressivedisorder2.png" file="setiptilinedepressivedisorder2.png" alt="setiptilinedepressivedisorder2" %}
+{% include image.html url="images/setiptilinedepressivedisorder2.png" file="setiptilinedepressivedisorder2.png" alt="setiptilinedepressivedisorder2" %}
 
 ## Concepts
 

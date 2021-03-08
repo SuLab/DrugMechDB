@@ -5,7 +5,7 @@ permalink: ribavirinchronichepatitisc.html
 toc: false 
 ---
 
-{% include image.html url="ribavirinchronichepatitisc.png" file="ribavirinchronichepatitisc.png" alt="ribavirinchronichepatitisc" %}
+{% include image.html url="images/ribavirinchronichepatitisc.png" file="ribavirinchronichepatitisc.png" alt="ribavirinchronichepatitisc" %}
 
 ## Concepts
 

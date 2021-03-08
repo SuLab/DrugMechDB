@@ -5,7 +5,7 @@ permalink: azapropazonegout.html
 toc: false 
 ---
 
-{% include image.html url="azapropazonegout.png" file="azapropazonegout.png" alt="azapropazonegout" %}
+{% include image.html url="images/azapropazonegout.png" file="azapropazonegout.png" alt="azapropazonegout" %}
 
 ## Concepts
 

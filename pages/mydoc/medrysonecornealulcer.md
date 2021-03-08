@@ -5,7 +5,7 @@ permalink: medrysonecornealulcer.html
 toc: false 
 ---
 
-{% include image.html url="medrysonecornealulcer.png" file="medrysonecornealulcer.png" alt="medrysonecornealulcer" %}
+{% include image.html url="images/medrysonecornealulcer.png" file="medrysonecornealulcer.png" alt="medrysonecornealulcer" %}
 
 ## Concepts
 

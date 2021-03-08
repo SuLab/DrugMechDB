@@ -5,7 +5,7 @@ permalink: scopolaminemydriasis.html
 toc: false 
 ---
 
-{% include image.html url="scopolaminemydriasis.png" file="scopolaminemydriasis.png" alt="scopolaminemydriasis" %}
+{% include image.html url="images/scopolaminemydriasis.png" file="scopolaminemydriasis.png" alt="scopolaminemydriasis" %}
 
 ## Concepts
 

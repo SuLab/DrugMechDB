@@ -5,7 +5,7 @@ permalink: medrysoneiridocyclitis.html
 toc: false 
 ---
 
-{% include image.html url="medrysoneiridocyclitis.png" file="medrysoneiridocyclitis.png" alt="medrysoneiridocyclitis" %}
+{% include image.html url="images/medrysoneiridocyclitis.png" file="medrysoneiridocyclitis.png" alt="medrysoneiridocyclitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: tazarotenepsoriasis.html
 toc: false 
 ---
 
-{% include image.html url="tazarotenepsoriasis.png" file="tazarotenepsoriasis.png" alt="tazarotenepsoriasis" %}
+{% include image.html url="images/tazarotenepsoriasis.png" file="tazarotenepsoriasis.png" alt="tazarotenepsoriasis" %}
 
 ## Concepts
 

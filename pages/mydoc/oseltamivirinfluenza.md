@@ -5,7 +5,7 @@ permalink: oseltamivirinfluenza.html
 toc: false 
 ---
 
-{% include image.html url="oseltamivirinfluenza.png" file="oseltamivirinfluenza.png" alt="oseltamivirinfluenza" %}
+{% include image.html url="images/oseltamivirinfluenza.png" file="oseltamivirinfluenza.png" alt="oseltamivirinfluenza" %}
 
 ## Concepts
 

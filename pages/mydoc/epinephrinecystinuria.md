@@ -5,7 +5,7 @@ permalink: epinephrinecystinuria.html
 toc: false 
 ---
 
-{% include image.html url="epinephrinecystinuria.png" file="epinephrinecystinuria.png" alt="epinephrinecystinuria" %}
+{% include image.html url="images/epinephrinecystinuria.png" file="epinephrinecystinuria.png" alt="epinephrinecystinuria" %}
 
 ## Concepts
 

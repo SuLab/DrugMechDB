@@ -5,7 +5,7 @@ permalink: elbasvirchronichepatitisc2.html
 toc: false 
 ---
 
-{% include image.html url="elbasvirchronichepatitisc2.png" file="elbasvirchronichepatitisc2.png" alt="elbasvirchronichepatitisc2" %}
+{% include image.html url="images/elbasvirchronichepatitisc2.png" file="elbasvirchronichepatitisc2.png" alt="elbasvirchronichepatitisc2" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: sildenafilpulmonaryarterialhypertension.html
 toc: false 
 ---
 
-{% include image.html url="sildenafilpulmonaryarterialhypertension.png" file="sildenafilpulmonaryarterialhypertension.png" alt="sildenafilpulmonaryarterialhypertension" %}
+{% include image.html url="images/sildenafilpulmonaryarterialhypertension.png" file="sildenafilpulmonaryarterialhypertension.png" alt="sildenafilpulmonaryarterialhypertension" %}
 
 ## Concepts
 

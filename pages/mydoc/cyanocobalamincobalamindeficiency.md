@@ -5,7 +5,7 @@ permalink: cyanocobalamincobalamindeficiency.html
 toc: false 
 ---
 
-{% include image.html url="cyanocobalamincobalamindeficiency.png" file="cyanocobalamincobalamindeficiency.png" alt="cyanocobalamincobalamindeficiency" %}
+{% include image.html url="images/cyanocobalamincobalamindeficiency.png" file="cyanocobalamincobalamindeficiency.png" alt="cyanocobalamincobalamindeficiency" %}
 
 ## Concepts
 

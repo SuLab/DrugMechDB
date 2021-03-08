@@ -5,7 +5,7 @@ permalink: dexpanthenoleczema.html
 toc: false 
 ---
 
-{% include image.html url="dexpanthenoleczema.png" file="dexpanthenoleczema.png" alt="dexpanthenoleczema" %}
+{% include image.html url="images/dexpanthenoleczema.png" file="dexpanthenoleczema.png" alt="dexpanthenoleczema" %}
 
 ## Concepts
 

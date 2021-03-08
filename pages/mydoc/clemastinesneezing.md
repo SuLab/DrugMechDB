@@ -5,7 +5,7 @@ permalink: clemastinesneezing.html
 toc: false 
 ---
 
-{% include image.html url="clemastinesneezing.png" file="clemastinesneezing.png" alt="clemastinesneezing" %}
+{% include image.html url="images/clemastinesneezing.png" file="clemastinesneezing.png" alt="clemastinesneezing" %}
 
 ## Concepts
 

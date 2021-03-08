@@ -5,7 +5,7 @@ permalink: zincoxidecandidiasisofskin.html
 toc: false 
 ---
 
-{% include image.html url="zincoxidecandidiasisofskin.png" file="zincoxidecandidiasisofskin.png" alt="zincoxidecandidiasisofskin" %}
+{% include image.html url="images/zincoxidecandidiasisofskin.png" file="zincoxidecandidiasisofskin.png" alt="zincoxidecandidiasisofskin" %}
 
 ## Concepts
 

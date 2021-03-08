@@ -5,7 +5,7 @@ permalink: cinnarizinenausea.html
 toc: false 
 ---
 
-{% include image.html url="cinnarizinenausea.png" file="cinnarizinenausea.png" alt="cinnarizinenausea" %}
+{% include image.html url="images/cinnarizinenausea.png" file="cinnarizinenausea.png" alt="cinnarizinenausea" %}
 
 ## Concepts
 

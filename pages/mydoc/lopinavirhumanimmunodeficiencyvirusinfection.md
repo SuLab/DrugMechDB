@@ -5,7 +5,7 @@ permalink: lopinavirhumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html url="lopinavirhumanimmunodeficiencyvirusinfection.png" file="lopinavirhumanimmunodeficiencyvirusinfection.png" alt="lopinavirhumanimmunodeficiencyvirusinfection" %}
+{% include image.html url="images/lopinavirhumanimmunodeficiencyvirusinfection.png" file="lopinavirhumanimmunodeficiencyvirusinfection.png" alt="lopinavirhumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 

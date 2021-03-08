@@ -5,7 +5,7 @@ permalink: primaquinevivaxmalaria.html
 toc: false 
 ---
 
-{% include image.html url="primaquinevivaxmalaria.png" file="primaquinevivaxmalaria.png" alt="primaquinevivaxmalaria" %}
+{% include image.html url="images/primaquinevivaxmalaria.png" file="primaquinevivaxmalaria.png" alt="primaquinevivaxmalaria" %}
 
 ## Concepts
 

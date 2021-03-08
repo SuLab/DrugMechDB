@@ -5,7 +5,7 @@ permalink: pinacidilhypertension.html
 toc: false 
 ---
 
-{% include image.html url="pinacidilhypertension.png" file="pinacidilhypertension.png" alt="pinacidilhypertension" %}
+{% include image.html url="images/pinacidilhypertension.png" file="pinacidilhypertension.png" alt="pinacidilhypertension" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: minoxidilandrogenicalopecia.html
 toc: false 
 ---
 
-{% include image.html url="minoxidilandrogenicalopecia.png" file="minoxidilandrogenicalopecia.png" alt="minoxidilandrogenicalopecia" %}
+{% include image.html url="images/minoxidilandrogenicalopecia.png" file="minoxidilandrogenicalopecia.png" alt="minoxidilandrogenicalopecia" %}
 
 ## Concepts
 

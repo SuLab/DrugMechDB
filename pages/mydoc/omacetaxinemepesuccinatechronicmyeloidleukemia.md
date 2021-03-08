@@ -5,7 +5,7 @@ permalink: omacetaxinemepesuccinatechronicmyeloidleukemia.html
 toc: false 
 ---
 
-{% include image.html url="omacetaxinemepesuccinatechronicmyeloidleukemia.png" file="omacetaxinemepesuccinatechronicmyeloidleukemia.png" alt="omacetaxinemepesuccinatechronicmyeloidleukemia" %}
+{% include image.html url="images/omacetaxinemepesuccinatechronicmyeloidleukemia.png" file="omacetaxinemepesuccinatechronicmyeloidleukemia.png" alt="omacetaxinemepesuccinatechronicmyeloidleukemia" %}
 
 ## Concepts
 

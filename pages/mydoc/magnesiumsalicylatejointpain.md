@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatejointpain.html
 toc: false 
 ---
 
-{% include image.html url="magnesiumsalicylatejointpain.png" file="magnesiumsalicylatejointpain.png" alt="magnesiumsalicylatejointpain" %}
+{% include image.html url="images/magnesiumsalicylatejointpain.png" file="magnesiumsalicylatejointpain.png" alt="magnesiumsalicylatejointpain" %}
 
 ## Concepts
 

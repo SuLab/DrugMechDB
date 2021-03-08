@@ -5,7 +5,7 @@ permalink: belotecannonsmallcelllungcancer.html
 toc: false 
 ---
 
-{% include image.html url="belotecannonsmallcelllungcancer.png" file="belotecannonsmallcelllungcancer.png" alt="belotecannonsmallcelllungcancer" %}
+{% include image.html url="images/belotecannonsmallcelllungcancer.png" file="belotecannonsmallcelllungcancer.png" alt="belotecannonsmallcelllungcancer" %}
 
 ## Concepts
 

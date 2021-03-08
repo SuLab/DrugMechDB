@@ -5,7 +5,7 @@ permalink: selexipagpulmonaryarterialhypertension.html
 toc: false 
 ---
 
-{% include image.html url="selexipagpulmonaryarterialhypertension.png" file="selexipagpulmonaryarterialhypertension.png" alt="selexipagpulmonaryarterialhypertension" %}
+{% include image.html url="images/selexipagpulmonaryarterialhypertension.png" file="selexipagpulmonaryarterialhypertension.png" alt="selexipagpulmonaryarterialhypertension" %}
 
 ## Concepts
 

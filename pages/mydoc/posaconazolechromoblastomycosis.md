@@ -5,7 +5,7 @@ permalink: posaconazolechromoblastomycosis.html
 toc: false 
 ---
 
-{% include image.html url="posaconazolechromoblastomycosis.png" file="posaconazolechromoblastomycosis.png" alt="posaconazolechromoblastomycosis" %}
+{% include image.html url="images/posaconazolechromoblastomycosis.png" file="posaconazolechromoblastomycosis.png" alt="posaconazolechromoblastomycosis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: selegilineparkinsonsdisease.html
 toc: false 
 ---
 
-{% include image.html url="selegilineparkinsonsdisease.png" file="selegilineparkinsonsdisease.png" alt="selegilineparkinsonsdisease" %}
+{% include image.html url="images/selegilineparkinsonsdisease.png" file="selegilineparkinsonsdisease.png" alt="selegilineparkinsonsdisease" %}
 
 ## Concepts
 

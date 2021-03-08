@@ -5,7 +5,7 @@ permalink: mepyraminedysmenorrhea.html
 toc: false 
 ---
 
-{% include image.html url="mepyraminedysmenorrhea.png" file="mepyraminedysmenorrhea.png" alt="mepyraminedysmenorrhea" %}
+{% include image.html url="images/mepyraminedysmenorrhea.png" file="mepyraminedysmenorrhea.png" alt="mepyraminedysmenorrhea" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: lidocainepain.html
 toc: false 
 ---
 
-{% include image.html url="lidocainepain.png" file="lidocainepain.png" alt="lidocainepain" %}
+{% include image.html url="images/lidocainepain.png" file="lidocainepain.png" alt="lidocainepain" %}
 
 ## Concepts
 

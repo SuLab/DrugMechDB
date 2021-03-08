@@ -5,7 +5,7 @@ permalink: itraconazolehistoplasmosis.html
 toc: false 
 ---
 
-{% include image.html url="itraconazolehistoplasmosis.png" file="itraconazolehistoplasmosis.png" alt="itraconazolehistoplasmosis" %}
+{% include image.html url="images/itraconazolehistoplasmosis.png" file="itraconazolehistoplasmosis.png" alt="itraconazolehistoplasmosis" %}
 
 ## Concepts
 

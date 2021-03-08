@@ -5,7 +5,7 @@ permalink: trimethadioneabsenceseizure.html
 toc: false 
 ---
 
-{% include image.html url="trimethadioneabsenceseizure.png" file="trimethadioneabsenceseizure.png" alt="trimethadioneabsenceseizure" %}
+{% include image.html url="images/trimethadioneabsenceseizure.png" file="trimethadioneabsenceseizure.png" alt="trimethadioneabsenceseizure" %}
 
 ## Concepts
 

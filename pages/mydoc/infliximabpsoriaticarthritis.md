@@ -5,7 +5,7 @@ permalink: infliximabpsoriaticarthritis.html
 toc: false 
 ---
 
-{% include image.html url="infliximabpsoriaticarthritis.png" file="infliximabpsoriaticarthritis.png" alt="infliximabpsoriaticarthritis" %}
+{% include image.html url="images/infliximabpsoriaticarthritis.png" file="infliximabpsoriaticarthritis.png" alt="infliximabpsoriaticarthritis" %}
 
 ## Concepts
 

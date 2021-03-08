@@ -5,7 +5,7 @@ permalink: celiprololhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html url="celiprololhypertensivedisorder.png" file="celiprololhypertensivedisorder.png" alt="celiprololhypertensivedisorder" %}
+{% include image.html url="images/celiprololhypertensivedisorder.png" file="celiprololhypertensivedisorder.png" alt="celiprololhypertensivedisorder" %}
 
 ## Concepts
 

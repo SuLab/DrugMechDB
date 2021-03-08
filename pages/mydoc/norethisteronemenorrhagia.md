@@ -5,7 +5,7 @@ permalink: norethisteronemenorrhagia.html
 toc: false 
 ---
 
-{% include image.html url="norethisteronemenorrhagia.png" file="norethisteronemenorrhagia.png" alt="norethisteronemenorrhagia" %}
+{% include image.html url="images/norethisteronemenorrhagia.png" file="norethisteronemenorrhagia.png" alt="norethisteronemenorrhagia" %}
 
 ## Concepts
 

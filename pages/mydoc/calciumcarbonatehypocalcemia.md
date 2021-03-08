@@ -5,7 +5,7 @@ permalink: calciumcarbonatehypocalcemia.html
 toc: false 
 ---
 
-{% include image.html url="calciumcarbonatehypocalcemia.png" file="calciumcarbonatehypocalcemia.png" alt="calciumcarbonatehypocalcemia" %}
+{% include image.html url="images/calciumcarbonatehypocalcemia.png" file="calciumcarbonatehypocalcemia.png" alt="calciumcarbonatehypocalcemia" %}
 
 ## Concepts
 

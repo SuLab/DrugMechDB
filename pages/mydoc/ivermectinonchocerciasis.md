@@ -5,7 +5,7 @@ permalink: ivermectinonchocerciasis.html
 toc: false 
 ---
 
-{% include image.html url="ivermectinonchocerciasis.png" file="ivermectinonchocerciasis.png" alt="ivermectinonchocerciasis" %}
+{% include image.html url="images/ivermectinonchocerciasis.png" file="ivermectinonchocerciasis.png" alt="ivermectinonchocerciasis" %}
 
 ## Concepts
 

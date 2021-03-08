@@ -5,7 +5,7 @@ permalink: spironolactoneedema.html
 toc: false 
 ---
 
-{% include image.html url="spironolactoneedema.png" file="spironolactoneedema.png" alt="spironolactoneedema" %}
+{% include image.html url="images/spironolactoneedema.png" file="spironolactoneedema.png" alt="spironolactoneedema" %}
 
 ## Concepts
 

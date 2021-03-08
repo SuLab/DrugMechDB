@@ -5,7 +5,7 @@ permalink: alprazolamanxiety.html
 toc: false 
 ---
 
-{% include image.html url="alprazolamanxiety.png" file="alprazolamanxiety.png" alt="alprazolamanxiety" %}
+{% include image.html url="images/alprazolamanxiety.png" file="alprazolamanxiety.png" alt="alprazolamanxiety" %}
 
 ## Concepts
 

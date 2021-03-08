@@ -5,7 +5,7 @@ permalink: avanafilimpotence.html
 toc: false 
 ---
 
-{% include image.html url="avanafilimpotence.png" file="avanafilimpotence.png" alt="avanafilimpotence" %}
+{% include image.html url="images/avanafilimpotence.png" file="avanafilimpotence.png" alt="avanafilimpotence" %}
 
 ## Concepts
 

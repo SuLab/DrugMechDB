@@ -5,7 +5,7 @@ permalink: carbamazepineepilepsy.html
 toc: false 
 ---
 
-{% include image.html url="carbamazepineepilepsy.png" file="carbamazepineepilepsy.png" alt="carbamazepineepilepsy" %}
+{% include image.html url="images/carbamazepineepilepsy.png" file="carbamazepineepilepsy.png" alt="carbamazepineepilepsy" %}
 
 ## Concepts
 

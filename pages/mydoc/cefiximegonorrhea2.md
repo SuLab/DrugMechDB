@@ -5,7 +5,7 @@ permalink: cefiximegonorrhea2.html
 toc: false 
 ---
 
-{% include image.html url="cefiximegonorrhea2.png" file="cefiximegonorrhea2.png" alt="cefiximegonorrhea2" %}
+{% include image.html url="images/cefiximegonorrhea2.png" file="cefiximegonorrhea2.png" alt="cefiximegonorrhea2" %}
 
 ## Concepts
 

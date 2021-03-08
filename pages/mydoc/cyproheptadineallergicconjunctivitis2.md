@@ -5,7 +5,7 @@ permalink: cyproheptadineallergicconjunctivitis2.html
 toc: false 
 ---
 
-{% include image.html url="cyproheptadineallergicconjunctivitis2.png" file="cyproheptadineallergicconjunctivitis2.png" alt="cyproheptadineallergicconjunctivitis2" %}
+{% include image.html url="images/cyproheptadineallergicconjunctivitis2.png" file="cyproheptadineallergicconjunctivitis2.png" alt="cyproheptadineallergicconjunctivitis2" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: dexamethasoneacetatemultiplemeyloma.html
 toc: false 
 ---
 
-{% include image.html url="dexamethasoneacetatemultiplemeyloma.png" file="dexamethasoneacetatemultiplemeyloma.png" alt="dexamethasoneacetatemultiplemeyloma" %}
+{% include image.html url="images/dexamethasoneacetatemultiplemeyloma.png" file="dexamethasoneacetatemultiplemeyloma.png" alt="dexamethasoneacetatemultiplemeyloma" %}
 
 ## Concepts
 

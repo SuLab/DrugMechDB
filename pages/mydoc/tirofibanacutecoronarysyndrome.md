@@ -5,7 +5,7 @@ permalink: tirofibanacutecoronarysyndrome.html
 toc: false 
 ---
 
-{% include image.html url="tirofibanacutecoronarysyndrome.png" file="tirofibanacutecoronarysyndrome.png" alt="tirofibanacutecoronarysyndrome" %}
+{% include image.html url="images/tirofibanacutecoronarysyndrome.png" file="tirofibanacutecoronarysyndrome.png" alt="tirofibanacutecoronarysyndrome" %}
 
 ## Concepts
 

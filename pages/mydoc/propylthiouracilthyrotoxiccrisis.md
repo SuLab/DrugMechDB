@@ -5,7 +5,7 @@ permalink: propylthiouracilthyrotoxiccrisis.html
 toc: false 
 ---
 
-{% include image.html url="propylthiouracilthyrotoxiccrisis.png" file="propylthiouracilthyrotoxiccrisis.png" alt="propylthiouracilthyrotoxiccrisis" %}
+{% include image.html url="images/propylthiouracilthyrotoxiccrisis.png" file="propylthiouracilthyrotoxiccrisis.png" alt="propylthiouracilthyrotoxiccrisis" %}
 
 ## Concepts
 

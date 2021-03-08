@@ -5,7 +5,7 @@ permalink: ganciclovircytomegaloviralretinitis.html
 toc: false 
 ---
 
-{% include image.html url="ganciclovircytomegaloviralretinitis.png" file="ganciclovircytomegaloviralretinitis.png" alt="ganciclovircytomegaloviralretinitis" %}
+{% include image.html url="images/ganciclovircytomegaloviralretinitis.png" file="ganciclovircytomegaloviralretinitis.png" alt="ganciclovircytomegaloviralretinitis" %}
 
 ## Concepts
 

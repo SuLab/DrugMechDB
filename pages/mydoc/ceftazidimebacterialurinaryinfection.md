@@ -5,7 +5,7 @@ permalink: ceftazidimebacterialurinaryinfection.html
 toc: false 
 ---
 
-{% include image.html url="ceftazidimebacterialurinaryinfection.png" file="ceftazidimebacterialurinaryinfection.png" alt="ceftazidimebacterialurinaryinfection" %}
+{% include image.html url="images/ceftazidimebacterialurinaryinfection.png" file="ceftazidimebacterialurinaryinfection.png" alt="ceftazidimebacterialurinaryinfection" %}
 
 ## Concepts
 

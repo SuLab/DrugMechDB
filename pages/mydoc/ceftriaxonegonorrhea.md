@@ -5,7 +5,7 @@ permalink: ceftriaxonegonorrhea.html
 toc: false 
 ---
 
-{% include image.html url="ceftriaxonegonorrhea.png" file="ceftriaxonegonorrhea.png" alt="ceftriaxonegonorrhea" %}
+{% include image.html url="images/ceftriaxonegonorrhea.png" file="ceftriaxonegonorrhea.png" alt="ceftriaxonegonorrhea" %}
 
 ## Concepts
 

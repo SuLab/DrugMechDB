@@ -5,7 +5,7 @@ permalink: carmofurcovid19.html
 toc: false 
 ---
 
-{% include image.html url="carmofurcovid19.png" file="carmofurcovid19.png" alt="carmofurcovid19" %}
+{% include image.html url="images/carmofurcovid19.png" file="carmofurcovid19.png" alt="carmofurcovid19" %}
 
 ## Concepts
 

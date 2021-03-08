@@ -5,7 +5,7 @@ permalink: bosutinibblasticphaseofchronicmyeloidleukemia.html
 toc: false 
 ---
 
-{% include image.html url="bosutinibblasticphaseofchronicmyeloidleukemia.png" file="bosutinibblasticphaseofchronicmyeloidleukemia.png" alt="bosutinibblasticphaseofchronicmyeloidleukemia" %}
+{% include image.html url="images/bosutinibblasticphaseofchronicmyeloidleukemia.png" file="bosutinibblasticphaseofchronicmyeloidleukemia.png" alt="bosutinibblasticphaseofchronicmyeloidleukemia" %}
 
 ## Concepts
 

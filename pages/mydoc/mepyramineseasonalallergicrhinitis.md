@@ -5,7 +5,7 @@ permalink: mepyramineseasonalallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html url="mepyramineseasonalallergicrhinitis.png" file="mepyramineseasonalallergicrhinitis.png" alt="mepyramineseasonalallergicrhinitis" %}
+{% include image.html url="images/mepyramineseasonalallergicrhinitis.png" file="mepyramineseasonalallergicrhinitis.png" alt="mepyramineseasonalallergicrhinitis" %}
 
 ## Concepts
 

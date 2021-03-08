@@ -5,7 +5,7 @@ permalink: demexiptilinedepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html url="demexiptilinedepressivedisorder.png" file="demexiptilinedepressivedisorder.png" alt="demexiptilinedepressivedisorder" %}
+{% include image.html url="images/demexiptilinedepressivedisorder.png" file="demexiptilinedepressivedisorder.png" alt="demexiptilinedepressivedisorder" %}
 
 ## Concepts
 

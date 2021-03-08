@@ -5,7 +5,7 @@ permalink: loracarbefpneumonia.html
 toc: false 
 ---
 
-{% include image.html url="loracarbefpneumonia.png" file="loracarbefpneumonia.png" alt="loracarbefpneumonia" %}
+{% include image.html url="images/loracarbefpneumonia.png" file="loracarbefpneumonia.png" alt="loracarbefpneumonia" %}
 
 ## Concepts
 

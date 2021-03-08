@@ -5,7 +5,7 @@ permalink: ganirelixovulationinduction.html
 toc: false 
 ---
 
-{% include image.html url="ganirelixovulationinduction.png" file="ganirelixovulationinduction.png" alt="ganirelixovulationinduction" %}
+{% include image.html url="images/ganirelixovulationinduction.png" file="ganirelixovulationinduction.png" alt="ganirelixovulationinduction" %}
 
 ## Concepts
 

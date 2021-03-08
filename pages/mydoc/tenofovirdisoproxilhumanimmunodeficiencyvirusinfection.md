@@ -5,7 +5,7 @@ permalink: tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html url="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.png" file="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.png" alt="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection" %}
+{% include image.html url="images/tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.png" file="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection.png" alt="tenofovirdisoproxilhumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 

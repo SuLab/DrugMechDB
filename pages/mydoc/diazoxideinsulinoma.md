@@ -5,7 +5,7 @@ permalink: diazoxideinsulinoma.html
 toc: false 
 ---
 
-{% include image.html url="diazoxideinsulinoma.png" file="diazoxideinsulinoma.png" alt="diazoxideinsulinoma" %}
+{% include image.html url="images/diazoxideinsulinoma.png" file="diazoxideinsulinoma.png" alt="diazoxideinsulinoma" %}
 
 ## Concepts
 

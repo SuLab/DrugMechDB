@@ -5,7 +5,7 @@ permalink: polymyxinbuveitis.html
 toc: false 
 ---
 
-{% include image.html url="polymyxinbuveitis.png" file="polymyxinbuveitis.png" alt="polymyxinbuveitis" %}
+{% include image.html url="images/polymyxinbuveitis.png" file="polymyxinbuveitis.png" alt="polymyxinbuveitis" %}
 
 ## Concepts
 

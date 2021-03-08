@@ -5,7 +5,7 @@ permalink: naproxenpain.html
 toc: false 
 ---
 
-{% include image.html url="naproxenpain.png" file="naproxenpain.png" alt="naproxenpain" %}
+{% include image.html url="images/naproxenpain.png" file="naproxenpain.png" alt="naproxenpain" %}
 
 ## Concepts
 

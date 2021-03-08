@@ -5,7 +5,7 @@ permalink: follitropinprimaryovarianfailure.html
 toc: false 
 ---
 
-{% include image.html url="follitropinprimaryovarianfailure.png" file="follitropinprimaryovarianfailure.png" alt="follitropinprimaryovarianfailure" %}
+{% include image.html url="images/follitropinprimaryovarianfailure.png" file="follitropinprimaryovarianfailure.png" alt="follitropinprimaryovarianfailure" %}
 
 ## Concepts
 

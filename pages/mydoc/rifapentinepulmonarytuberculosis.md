@@ -5,7 +5,7 @@ permalink: rifapentinepulmonarytuberculosis.html
 toc: false 
 ---
 
-{% include image.html url="rifapentinepulmonarytuberculosis.png" file="rifapentinepulmonarytuberculosis.png" alt="rifapentinepulmonarytuberculosis" %}
+{% include image.html url="images/rifapentinepulmonarytuberculosis.png" file="rifapentinepulmonarytuberculosis.png" alt="rifapentinepulmonarytuberculosis" %}
 
 ## Concepts
 

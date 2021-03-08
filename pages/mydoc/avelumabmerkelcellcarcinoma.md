@@ -5,7 +5,7 @@ permalink: avelumabmerkelcellcarcinoma.html
 toc: false 
 ---
 
-{% include image.html url="avelumabmerkelcellcarcinoma.png" file="avelumabmerkelcellcarcinoma.png" alt="avelumabmerkelcellcarcinoma" %}
+{% include image.html url="images/avelumabmerkelcellcarcinoma.png" file="avelumabmerkelcellcarcinoma.png" alt="avelumabmerkelcellcarcinoma" %}
 
 ## Concepts
 

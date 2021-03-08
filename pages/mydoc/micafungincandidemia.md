@@ -5,7 +5,7 @@ permalink: micafungincandidemia.html
 toc: false 
 ---
 
-{% include image.html url="micafungincandidemia.png" file="micafungincandidemia.png" alt="micafungincandidemia" %}
+{% include image.html url="images/micafungincandidemia.png" file="micafungincandidemia.png" alt="micafungincandidemia" %}
 
 ## Concepts
 

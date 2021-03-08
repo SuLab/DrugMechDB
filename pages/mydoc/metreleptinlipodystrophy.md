@@ -5,7 +5,7 @@ permalink: metreleptinlipodystrophy.html
 toc: false 
 ---
 
-{% include image.html url="metreleptinlipodystrophy.png" file="metreleptinlipodystrophy.png" alt="metreleptinlipodystrophy" %}
+{% include image.html url="images/metreleptinlipodystrophy.png" file="metreleptinlipodystrophy.png" alt="metreleptinlipodystrophy" %}
 
 ## Concepts
 

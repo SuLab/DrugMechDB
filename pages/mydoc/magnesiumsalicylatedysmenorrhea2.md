@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatedysmenorrhea2.html
 toc: false 
 ---
 
-{% include image.html url="magnesiumsalicylatedysmenorrhea2.png" file="magnesiumsalicylatedysmenorrhea2.png" alt="magnesiumsalicylatedysmenorrhea2" %}
+{% include image.html url="images/magnesiumsalicylatedysmenorrhea2.png" file="magnesiumsalicylatedysmenorrhea2.png" alt="magnesiumsalicylatedysmenorrhea2" %}
 
 ## Concepts
 

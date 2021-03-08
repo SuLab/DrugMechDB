@@ -5,7 +5,7 @@ permalink: levomethadylacetateopioiddependence2.html
 toc: false 
 ---
 
-{% include image.html url="levomethadylacetateopioiddependence2.png" file="levomethadylacetateopioiddependence2.png" alt="levomethadylacetateopioiddependence2" %}
+{% include image.html url="images/levomethadylacetateopioiddependence2.png" file="levomethadylacetateopioiddependence2.png" alt="levomethadylacetateopioiddependence2" %}
 
 ## Concepts
 

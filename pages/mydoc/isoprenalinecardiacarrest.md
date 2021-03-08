@@ -5,7 +5,7 @@ permalink: isoprenalinecardiacarrest.html
 toc: false 
 ---
 
-{% include image.html url="isoprenalinecardiacarrest.png" file="isoprenalinecardiacarrest.png" alt="isoprenalinecardiacarrest" %}
+{% include image.html url="images/isoprenalinecardiacarrest.png" file="isoprenalinecardiacarrest.png" alt="isoprenalinecardiacarrest" %}
 
 ## Concepts
 

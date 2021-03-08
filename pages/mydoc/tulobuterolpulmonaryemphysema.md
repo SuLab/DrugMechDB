@@ -5,7 +5,7 @@ permalink: tulobuterolpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html url="tulobuterolpulmonaryemphysema.png" file="tulobuterolpulmonaryemphysema.png" alt="tulobuterolpulmonaryemphysema" %}
+{% include image.html url="images/tulobuterolpulmonaryemphysema.png" file="tulobuterolpulmonaryemphysema.png" alt="tulobuterolpulmonaryemphysema" %}
 
 ## Concepts
 

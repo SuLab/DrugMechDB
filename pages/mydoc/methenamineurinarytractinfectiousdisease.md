@@ -5,7 +5,7 @@ permalink: methenamineurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html url="methenamineurinarytractinfectiousdisease.png" file="methenamineurinarytractinfectiousdisease.png" alt="methenamineurinarytractinfectiousdisease" %}
+{% include image.html url="images/methenamineurinarytractinfectiousdisease.png" file="methenamineurinarytractinfectiousdisease.png" alt="methenamineurinarytractinfectiousdisease" %}
 
 ## Concepts
 

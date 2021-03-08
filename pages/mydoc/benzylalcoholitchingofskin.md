@@ -5,7 +5,7 @@ permalink: benzylalcoholitchingofskin.html
 toc: false 
 ---
 
-{% include image.html url="benzylalcoholitchingofskin.png" file="benzylalcoholitchingofskin.png" alt="benzylalcoholitchingofskin" %}
+{% include image.html url="images/benzylalcoholitchingofskin.png" file="benzylalcoholitchingofskin.png" alt="benzylalcoholitchingofskin" %}
 
 ## Concepts
 

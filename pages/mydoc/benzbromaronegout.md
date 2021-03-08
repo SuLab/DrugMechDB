@@ -5,7 +5,7 @@ permalink: benzbromaronegout.html
 toc: false 
 ---
 
-{% include image.html url="benzbromaronegout.png" file="benzbromaronegout.png" alt="benzbromaronegout" %}
+{% include image.html url="images/benzbromaronegout.png" file="benzbromaronegout.png" alt="benzbromaronegout" %}
 
 ## Concepts
 

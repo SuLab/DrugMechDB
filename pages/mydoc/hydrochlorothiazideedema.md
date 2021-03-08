@@ -5,7 +5,7 @@ permalink: hydrochlorothiazideedema.html
 toc: false 
 ---
 
-{% include image.html url="hydrochlorothiazideedema.png" file="hydrochlorothiazideedema.png" alt="hydrochlorothiazideedema" %}
+{% include image.html url="images/hydrochlorothiazideedema.png" file="hydrochlorothiazideedema.png" alt="hydrochlorothiazideedema" %}
 
 ## Concepts
 

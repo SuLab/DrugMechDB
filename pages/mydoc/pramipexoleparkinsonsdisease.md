@@ -5,7 +5,7 @@ permalink: pramipexoleparkinsonsdisease.html
 toc: false 
 ---
 
-{% include image.html url="pramipexoleparkinsonsdisease.png" file="pramipexoleparkinsonsdisease.png" alt="pramipexoleparkinsonsdisease" %}
+{% include image.html url="images/pramipexoleparkinsonsdisease.png" file="pramipexoleparkinsonsdisease.png" alt="pramipexoleparkinsonsdisease" %}
 
 ## Concepts
 

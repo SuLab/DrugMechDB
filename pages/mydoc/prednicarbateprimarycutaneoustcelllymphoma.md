@@ -5,7 +5,7 @@ permalink: prednicarbateprimarycutaneoustcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html url="prednicarbateprimarycutaneoustcelllymphoma.png" file="prednicarbateprimarycutaneoustcelllymphoma.png" alt="prednicarbateprimarycutaneoustcelllymphoma" %}
+{% include image.html url="images/prednicarbateprimarycutaneoustcelllymphoma.png" file="prednicarbateprimarycutaneoustcelllymphoma.png" alt="prednicarbateprimarycutaneoustcelllymphoma" %}
 
 ## Concepts
 

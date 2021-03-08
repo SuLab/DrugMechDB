@@ -5,7 +5,7 @@ permalink: melphalanmalignanttumorofovary.html
 toc: false 
 ---
 
-{% include image.html url="melphalanmalignanttumorofovary.png" file="melphalanmalignanttumorofovary.png" alt="melphalanmalignanttumorofovary" %}
+{% include image.html url="images/melphalanmalignanttumorofovary.png" file="melphalanmalignanttumorofovary.png" alt="melphalanmalignanttumorofovary" %}
 
 ## Concepts
 

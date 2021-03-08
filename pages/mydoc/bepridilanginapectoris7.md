@@ -5,7 +5,7 @@ permalink: bepridilanginapectoris7.html
 toc: false 
 ---
 
-{% include image.html url="bepridilanginapectoris7.png" file="bepridilanginapectoris7.png" alt="bepridilanginapectoris7" %}
+{% include image.html url="images/bepridilanginapectoris7.png" file="bepridilanginapectoris7.png" alt="bepridilanginapectoris7" %}
 
 ## Concepts
 

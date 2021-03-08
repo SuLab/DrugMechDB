@@ -5,7 +5,7 @@ permalink: terfenadineallergicskindisorders.html
 toc: false 
 ---
 
-{% include image.html url="terfenadineallergicskindisorders.png" file="terfenadineallergicskindisorders.png" alt="terfenadineallergicskindisorders" %}
+{% include image.html url="images/terfenadineallergicskindisorders.png" file="terfenadineallergicskindisorders.png" alt="terfenadineallergicskindisorders" %}
 
 ## Concepts
 

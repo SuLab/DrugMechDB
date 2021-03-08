@@ -5,7 +5,7 @@ permalink: scopolaminepepticulcer.html
 toc: false 
 ---
 
-{% include image.html url="scopolaminepepticulcer.png" file="scopolaminepepticulcer.png" alt="scopolaminepepticulcer" %}
+{% include image.html url="images/scopolaminepepticulcer.png" file="scopolaminepepticulcer.png" alt="scopolaminepepticulcer" %}
 
 ## Concepts
 

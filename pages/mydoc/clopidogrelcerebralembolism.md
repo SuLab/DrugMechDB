@@ -5,7 +5,7 @@ permalink: clopidogrelcerebralembolism.html
 toc: false 
 ---
 
-{% include image.html url="clopidogrelcerebralembolism.png" file="clopidogrelcerebralembolism.png" alt="clopidogrelcerebralembolism" %}
+{% include image.html url="images/clopidogrelcerebralembolism.png" file="clopidogrelcerebralembolism.png" alt="clopidogrelcerebralembolism" %}
 
 ## Concepts
 

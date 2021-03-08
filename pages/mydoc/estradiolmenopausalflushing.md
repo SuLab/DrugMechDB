@@ -5,7 +5,7 @@ permalink: estradiolmenopausalflushing.html
 toc: false 
 ---
 
-{% include image.html url="estradiolmenopausalflushing.png" file="estradiolmenopausalflushing.png" alt="estradiolmenopausalflushing" %}
+{% include image.html url="images/estradiolmenopausalflushing.png" file="estradiolmenopausalflushing.png" alt="estradiolmenopausalflushing" %}
 
 ## Concepts
 

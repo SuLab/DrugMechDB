@@ -5,7 +5,7 @@ permalink: clortermineanorexianervosa.html
 toc: false 
 ---
 
-{% include image.html url="clortermineanorexianervosa.png" file="clortermineanorexianervosa.png" alt="clortermineanorexianervosa" %}
+{% include image.html url="images/clortermineanorexianervosa.png" file="clortermineanorexianervosa.png" alt="clortermineanorexianervosa" %}
 
 ## Concepts
 

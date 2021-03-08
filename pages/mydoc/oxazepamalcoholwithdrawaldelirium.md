@@ -5,7 +5,7 @@ permalink: oxazepamalcoholwithdrawaldelirium.html
 toc: false 
 ---
 
-{% include image.html url="oxazepamalcoholwithdrawaldelirium.png" file="oxazepamalcoholwithdrawaldelirium.png" alt="oxazepamalcoholwithdrawaldelirium" %}
+{% include image.html url="images/oxazepamalcoholwithdrawaldelirium.png" file="oxazepamalcoholwithdrawaldelirium.png" alt="oxazepamalcoholwithdrawaldelirium" %}
 
 ## Concepts
 

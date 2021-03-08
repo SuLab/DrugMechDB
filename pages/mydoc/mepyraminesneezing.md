@@ -5,7 +5,7 @@ permalink: mepyraminesneezing.html
 toc: false 
 ---
 
-{% include image.html url="mepyraminesneezing.png" file="mepyraminesneezing.png" alt="mepyraminesneezing" %}
+{% include image.html url="images/mepyraminesneezing.png" file="mepyraminesneezing.png" alt="mepyraminesneezing" %}
 
 ## Concepts
 

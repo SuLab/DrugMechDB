@@ -5,7 +5,7 @@ permalink: terguridepulmonaryhypertension.html
 toc: false 
 ---
 
-{% include image.html url="terguridepulmonaryhypertension.png" file="terguridepulmonaryhypertension.png" alt="terguridepulmonaryhypertension" %}
+{% include image.html url="images/terguridepulmonaryhypertension.png" file="terguridepulmonaryhypertension.png" alt="terguridepulmonaryhypertension" %}
 
 ## Concepts
 

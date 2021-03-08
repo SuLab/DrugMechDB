@@ -5,7 +5,7 @@ permalink: adalimumabrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html url="adalimumabrheumatoidarthritis.png" file="adalimumabrheumatoidarthritis.png" alt="adalimumabrheumatoidarthritis" %}
+{% include image.html url="images/adalimumabrheumatoidarthritis.png" file="adalimumabrheumatoidarthritis.png" alt="adalimumabrheumatoidarthritis" %}
 
 ## Concepts
 

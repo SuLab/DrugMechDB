@@ -5,7 +5,7 @@ permalink: miglitoldiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html url="miglitoldiabetesmellitustype2.png" file="miglitoldiabetesmellitustype2.png" alt="miglitoldiabetesmellitustype2" %}
+{% include image.html url="images/miglitoldiabetesmellitustype2.png" file="miglitoldiabetesmellitustype2.png" alt="miglitoldiabetesmellitustype2" %}
 
 ## Concepts
 

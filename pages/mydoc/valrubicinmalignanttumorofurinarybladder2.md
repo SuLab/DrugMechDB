@@ -5,7 +5,7 @@ permalink: valrubicinmalignanttumorofurinarybladder2.html
 toc: false 
 ---
 
-{% include image.html url="valrubicinmalignanttumorofurinarybladder2.png" file="valrubicinmalignanttumorofurinarybladder2.png" alt="valrubicinmalignanttumorofurinarybladder2" %}
+{% include image.html url="images/valrubicinmalignanttumorofurinarybladder2.png" file="valrubicinmalignanttumorofurinarybladder2.png" alt="valrubicinmalignanttumorofurinarybladder2" %}
 
 ## Concepts
 

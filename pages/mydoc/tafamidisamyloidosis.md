@@ -5,7 +5,7 @@ permalink: tafamidisamyloidosis.html
 toc: false 
 ---
 
-{% include image.html url="tafamidisamyloidosis.png" file="tafamidisamyloidosis.png" alt="tafamidisamyloidosis" %}
+{% include image.html url="images/tafamidisamyloidosis.png" file="tafamidisamyloidosis.png" alt="tafamidisamyloidosis" %}
 
 ## Concepts
 

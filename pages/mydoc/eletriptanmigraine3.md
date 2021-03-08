@@ -5,7 +5,7 @@ permalink: eletriptanmigraine3.html
 toc: false 
 ---
 
-{% include image.html url="eletriptanmigraine3.png" file="eletriptanmigraine3.png" alt="eletriptanmigraine3" %}
+{% include image.html url="images/eletriptanmigraine3.png" file="eletriptanmigraine3.png" alt="eletriptanmigraine3" %}
 
 ## Concepts
 

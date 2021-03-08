@@ -5,7 +5,7 @@ permalink: dexamethasonetenosynovitis.html
 toc: false 
 ---
 
-{% include image.html url="dexamethasonetenosynovitis.png" file="dexamethasonetenosynovitis.png" alt="dexamethasonetenosynovitis" %}
+{% include image.html url="images/dexamethasonetenosynovitis.png" file="dexamethasonetenosynovitis.png" alt="dexamethasonetenosynovitis" %}
 
 ## Concepts
 

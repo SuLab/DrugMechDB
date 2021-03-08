@@ -5,7 +5,7 @@ permalink: ceftizoximeklebsiellacystitis.html
 toc: false 
 ---
 
-{% include image.html url="ceftizoximeklebsiellacystitis.png" file="ceftizoximeklebsiellacystitis.png" alt="ceftizoximeklebsiellacystitis" %}
+{% include image.html url="images/ceftizoximeklebsiellacystitis.png" file="ceftizoximeklebsiellacystitis.png" alt="ceftizoximeklebsiellacystitis" %}
 
 ## Concepts
 

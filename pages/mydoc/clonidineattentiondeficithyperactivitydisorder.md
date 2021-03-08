@@ -5,7 +5,7 @@ permalink: clonidineattentiondeficithyperactivitydisorder.html
 toc: false 
 ---
 
-{% include image.html url="clonidineattentiondeficithyperactivitydisorder.png" file="clonidineattentiondeficithyperactivitydisorder.png" alt="clonidineattentiondeficithyperactivitydisorder" %}
+{% include image.html url="images/clonidineattentiondeficithyperactivitydisorder.png" file="clonidineattentiondeficithyperactivitydisorder.png" alt="clonidineattentiondeficithyperactivitydisorder" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: carbetocinpostpartumhemorrhage.html
 toc: false 
 ---
 
-{% include image.html url="carbetocinpostpartumhemorrhage.png" file="carbetocinpostpartumhemorrhage.png" alt="carbetocinpostpartumhemorrhage" %}
+{% include image.html url="images/carbetocinpostpartumhemorrhage.png" file="carbetocinpostpartumhemorrhage.png" alt="carbetocinpostpartumhemorrhage" %}
 
 ## Concepts
 

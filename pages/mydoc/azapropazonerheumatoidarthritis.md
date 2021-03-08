@@ -5,7 +5,7 @@ permalink: azapropazonerheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html url="azapropazonerheumatoidarthritis.png" file="azapropazonerheumatoidarthritis.png" alt="azapropazonerheumatoidarthritis" %}
+{% include image.html url="images/azapropazonerheumatoidarthritis.png" file="azapropazonerheumatoidarthritis.png" alt="azapropazonerheumatoidarthritis" %}
 
 ## Concepts
 

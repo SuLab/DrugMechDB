@@ -5,7 +5,7 @@ permalink: valbenazinetardivedyskinesia.html
 toc: false 
 ---
 
-{% include image.html url="valbenazinetardivedyskinesia.png" file="valbenazinetardivedyskinesia.png" alt="valbenazinetardivedyskinesia" %}
+{% include image.html url="images/valbenazinetardivedyskinesia.png" file="valbenazinetardivedyskinesia.png" alt="valbenazinetardivedyskinesia" %}
 
 ## Concepts
 

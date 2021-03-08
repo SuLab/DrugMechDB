@@ -5,7 +5,7 @@ permalink: sibutramineobesity2.html
 toc: false 
 ---
 
-{% include image.html url="sibutramineobesity2.png" file="sibutramineobesity2.png" alt="sibutramineobesity2" %}
+{% include image.html url="images/sibutramineobesity2.png" file="sibutramineobesity2.png" alt="sibutramineobesity2" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: benzbromaronehyperuricemia.html
 toc: false 
 ---
 
-{% include image.html url="benzbromaronehyperuricemia.png" file="benzbromaronehyperuricemia.png" alt="benzbromaronehyperuricemia" %}
+{% include image.html url="images/benzbromaronehyperuricemia.png" file="benzbromaronehyperuricemia.png" alt="benzbromaronehyperuricemia" %}
 
 ## Concepts
 

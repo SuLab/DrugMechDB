@@ -5,7 +5,7 @@ permalink: estronesulphateatrophicvaginitis.html
 toc: false 
 ---
 
-{% include image.html url="estronesulphateatrophicvaginitis.png" file="estronesulphateatrophicvaginitis.png" alt="estronesulphateatrophicvaginitis" %}
+{% include image.html url="images/estronesulphateatrophicvaginitis.png" file="estronesulphateatrophicvaginitis.png" alt="estronesulphateatrophicvaginitis" %}
 
 ## Concepts
 

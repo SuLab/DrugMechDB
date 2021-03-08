@@ -5,7 +5,7 @@ permalink: metformindiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html url="metformindiabetesmellitustype2.png" file="metformindiabetesmellitustype2.png" alt="metformindiabetesmellitustype2" %}
+{% include image.html url="images/metformindiabetesmellitustype2.png" file="metformindiabetesmellitustype2.png" alt="metformindiabetesmellitustype2" %}
 
 ## Concepts
 

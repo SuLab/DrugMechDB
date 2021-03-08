@@ -5,7 +5,7 @@ permalink: epinephrinelowbloodpressure.html
 toc: false 
 ---
 
-{% include image.html url="epinephrinelowbloodpressure.png" file="epinephrinelowbloodpressure.png" alt="epinephrinelowbloodpressure" %}
+{% include image.html url="images/epinephrinelowbloodpressure.png" file="epinephrinelowbloodpressure.png" alt="epinephrinelowbloodpressure" %}
 
 ## Concepts
 

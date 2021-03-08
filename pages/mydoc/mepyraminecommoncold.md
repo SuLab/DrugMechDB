@@ -5,7 +5,7 @@ permalink: mepyraminecommoncold.html
 toc: false 
 ---
 
-{% include image.html url="mepyraminecommoncold.png" file="mepyraminecommoncold.png" alt="mepyraminecommoncold" %}
+{% include image.html url="images/mepyraminecommoncold.png" file="mepyraminecommoncold.png" alt="mepyraminecommoncold" %}
 
 ## Concepts
 
@@ -36,6 +36,6 @@ toc: false
 | Viruses | CAUSES | Common Cold |
 |---------|-----------|---------|
 
-Comment: potentially non-efficacious https://pubmed.ncbi.nlm.nih.gov/26615034/
+Comment: potentially non-efficacious [https://pubmed.ncbi.nlm.nih.gov/26615034/](https://pubmed.ncbi.nlm.nih.gov/26615034/)
 
 Reference: [https://go.drugbank.com/drugs/DB06691#mechanism-of-action](https://go.drugbank.com/drugs/DB06691#mechanism-of-action){:target="_blank"}

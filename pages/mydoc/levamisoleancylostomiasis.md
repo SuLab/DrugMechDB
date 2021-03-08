@@ -5,7 +5,7 @@ permalink: levamisoleancylostomiasis.html
 toc: false 
 ---
 
-{% include image.html url="levamisoleancylostomiasis.png" file="levamisoleancylostomiasis.png" alt="levamisoleancylostomiasis" %}
+{% include image.html url="images/levamisoleancylostomiasis.png" file="levamisoleancylostomiasis.png" alt="levamisoleancylostomiasis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: faropenemmedoxilrespiratorytractinfection.html
 toc: false 
 ---
 
-{% include image.html url="faropenemmedoxilrespiratorytractinfection.png" file="faropenemmedoxilrespiratorytractinfection.png" alt="faropenemmedoxilrespiratorytractinfection" %}
+{% include image.html url="images/faropenemmedoxilrespiratorytractinfection.png" file="faropenemmedoxilrespiratorytractinfection.png" alt="faropenemmedoxilrespiratorytractinfection" %}
 
 ## Concepts
 

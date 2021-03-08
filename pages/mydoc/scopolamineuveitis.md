@@ -5,7 +5,7 @@ permalink: scopolamineuveitis.html
 toc: false 
 ---
 
-{% include image.html url="scopolamineuveitis.png" file="scopolamineuveitis.png" alt="scopolamineuveitis" %}
+{% include image.html url="images/scopolamineuveitis.png" file="scopolamineuveitis.png" alt="scopolamineuveitis" %}
 
 ## Concepts
 

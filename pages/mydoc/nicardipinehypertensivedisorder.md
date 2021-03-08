@@ -5,7 +5,7 @@ permalink: nicardipinehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html url="nicardipinehypertensivedisorder.png" file="nicardipinehypertensivedisorder.png" alt="nicardipinehypertensivedisorder" %}
+{% include image.html url="images/nicardipinehypertensivedisorder.png" file="nicardipinehypertensivedisorder.png" alt="nicardipinehypertensivedisorder" %}
 
 ## Concepts
 

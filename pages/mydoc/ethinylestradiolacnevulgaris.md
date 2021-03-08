@@ -5,7 +5,7 @@ permalink: ethinylestradiolacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html url="ethinylestradiolacnevulgaris.png" file="ethinylestradiolacnevulgaris.png" alt="ethinylestradiolacnevulgaris" %}
+{% include image.html url="images/ethinylestradiolacnevulgaris.png" file="ethinylestradiolacnevulgaris.png" alt="ethinylestradiolacnevulgaris" %}
 
 ## Concepts
 

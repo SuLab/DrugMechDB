@@ -5,7 +5,7 @@ permalink: liraglutidediabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html url="liraglutidediabetesmellitustype2.png" file="liraglutidediabetesmellitustype2.png" alt="liraglutidediabetesmellitustype2" %}
+{% include image.html url="images/liraglutidediabetesmellitustype2.png" file="liraglutidediabetesmellitustype2.png" alt="liraglutidediabetesmellitustype2" %}
 
 ## Concepts
 

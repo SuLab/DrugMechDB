@@ -5,7 +5,7 @@ permalink: eplerenonehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html url="eplerenonehypertensivedisorder.png" file="eplerenonehypertensivedisorder.png" alt="eplerenonehypertensivedisorder" %}
+{% include image.html url="images/eplerenonehypertensivedisorder.png" file="eplerenonehypertensivedisorder.png" alt="eplerenonehypertensivedisorder" %}
 
 ## Concepts
 

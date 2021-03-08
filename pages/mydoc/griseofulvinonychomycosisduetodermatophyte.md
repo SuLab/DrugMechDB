@@ -5,7 +5,7 @@ permalink: griseofulvinonychomycosisduetodermatophyte.html
 toc: false 
 ---
 
-{% include image.html url="griseofulvinonychomycosisduetodermatophyte.png" file="griseofulvinonychomycosisduetodermatophyte.png" alt="griseofulvinonychomycosisduetodermatophyte" %}
+{% include image.html url="images/griseofulvinonychomycosisduetodermatophyte.png" file="griseofulvinonychomycosisduetodermatophyte.png" alt="griseofulvinonychomycosisduetodermatophyte" %}
 
 ## Concepts
 

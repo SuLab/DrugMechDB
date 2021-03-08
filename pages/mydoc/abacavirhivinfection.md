@@ -5,7 +5,7 @@ permalink: abacavirhivinfection.html
 toc: false 
 ---
 
-{% include image.html url="abacavirhivinfection.png" file="abacavirhivinfection.png" alt="abacavirhivinfection" %}
+{% include image.html url="images/abacavirhivinfection.png" file="abacavirhivinfection.png" alt="abacavirhivinfection" %}
 
 ## Concepts
 

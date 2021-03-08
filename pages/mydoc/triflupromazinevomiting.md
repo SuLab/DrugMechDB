@@ -5,7 +5,7 @@ permalink: triflupromazinevomiting.html
 toc: false 
 ---
 
-{% include image.html url="triflupromazinevomiting.png" file="triflupromazinevomiting.png" alt="triflupromazinevomiting" %}
+{% include image.html url="images/triflupromazinevomiting.png" file="triflupromazinevomiting.png" alt="triflupromazinevomiting" %}
 
 ## Concepts
 

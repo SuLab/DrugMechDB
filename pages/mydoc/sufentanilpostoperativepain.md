@@ -5,7 +5,7 @@ permalink: sufentanilpostoperativepain.html
 toc: false 
 ---
 
-{% include image.html url="sufentanilpostoperativepain.png" file="sufentanilpostoperativepain.png" alt="sufentanilpostoperativepain" %}
+{% include image.html url="images/sufentanilpostoperativepain.png" file="sufentanilpostoperativepain.png" alt="sufentanilpostoperativepain" %}
 
 ## Concepts
 

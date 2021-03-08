@@ -5,7 +5,7 @@ permalink: diprophyllinechronicbronchitis2.html
 toc: false 
 ---
 
-{% include image.html url="diprophyllinechronicbronchitis2.png" file="diprophyllinechronicbronchitis2.png" alt="diprophyllinechronicbronchitis2" %}
+{% include image.html url="images/diprophyllinechronicbronchitis2.png" file="diprophyllinechronicbronchitis2.png" alt="diprophyllinechronicbronchitis2" %}
 
 ## Concepts
 

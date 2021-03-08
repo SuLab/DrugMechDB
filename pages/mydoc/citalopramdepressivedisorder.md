@@ -5,7 +5,7 @@ permalink: citalopramdepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html url="citalopramdepressivedisorder.png" file="citalopramdepressivedisorder.png" alt="citalopramdepressivedisorder" %}
+{% include image.html url="images/citalopramdepressivedisorder.png" file="citalopramdepressivedisorder.png" alt="citalopramdepressivedisorder" %}
 
 ## Concepts
 

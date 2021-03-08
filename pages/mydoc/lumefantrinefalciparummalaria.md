@@ -5,7 +5,7 @@ permalink: lumefantrinefalciparummalaria.html
 toc: false 
 ---
 
-{% include image.html url="lumefantrinefalciparummalaria.png" file="lumefantrinefalciparummalaria.png" alt="lumefantrinefalciparummalaria" %}
+{% include image.html url="images/lumefantrinefalciparummalaria.png" file="lumefantrinefalciparummalaria.png" alt="lumefantrinefalciparummalaria" %}
 
 ## Concepts
 

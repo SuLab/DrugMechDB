@@ -5,7 +5,7 @@ permalink: loxapineschizophrenia.html
 toc: false 
 ---
 
-{% include image.html url="loxapineschizophrenia.png" file="loxapineschizophrenia.png" alt="loxapineschizophrenia" %}
+{% include image.html url="images/loxapineschizophrenia.png" file="loxapineschizophrenia.png" alt="loxapineschizophrenia" %}
 
 ## Concepts
 

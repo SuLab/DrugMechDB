@@ -5,7 +5,7 @@ permalink: vasopressinfactorviiideficiencyhaemophiliaa.html
 toc: false 
 ---
 
-{% include image.html url="vasopressinfactorviiideficiencyhaemophiliaa.png" file="vasopressinfactorviiideficiencyhaemophiliaa.png" alt="vasopressinfactorviiideficiencyhaemophiliaa" %}
+{% include image.html url="images/vasopressinfactorviiideficiencyhaemophiliaa.png" file="vasopressinfactorviiideficiencyhaemophiliaa.png" alt="vasopressinfactorviiideficiencyhaemophiliaa" %}
 
 ## Concepts
 

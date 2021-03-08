@@ -5,7 +5,7 @@ permalink: medrysonerosacea.html
 toc: false 
 ---
 
-{% include image.html url="medrysonerosacea.png" file="medrysonerosacea.png" alt="medrysonerosacea" %}
+{% include image.html url="images/medrysonerosacea.png" file="medrysonerosacea.png" alt="medrysonerosacea" %}
 
 ## Concepts
 

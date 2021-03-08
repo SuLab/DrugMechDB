@@ -5,7 +5,7 @@ permalink: itraconazolecandidemia.html
 toc: false 
 ---
 
-{% include image.html url="itraconazolecandidemia.png" file="itraconazolecandidemia.png" alt="itraconazolecandidemia" %}
+{% include image.html url="images/itraconazolecandidemia.png" file="itraconazolecandidemia.png" alt="itraconazolecandidemia" %}
 
 ## Concepts
 

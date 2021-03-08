@@ -5,7 +5,7 @@ permalink: pentamidineafricantrypanosomiasis.html
 toc: false 
 ---
 
-{% include image.html url="pentamidineafricantrypanosomiasis.png" file="pentamidineafricantrypanosomiasis.png" alt="pentamidineafricantrypanosomiasis" %}
+{% include image.html url="images/pentamidineafricantrypanosomiasis.png" file="pentamidineafricantrypanosomiasis.png" alt="pentamidineafricantrypanosomiasis" %}
 
 ## Concepts
 

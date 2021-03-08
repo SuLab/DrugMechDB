@@ -5,7 +5,7 @@ permalink: acetohexamidediabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html url="acetohexamidediabetesmellitustype2.png" file="acetohexamidediabetesmellitustype2.png" alt="acetohexamidediabetesmellitustype2" %}
+{% include image.html url="images/acetohexamidediabetesmellitustype2.png" file="acetohexamidediabetesmellitustype2.png" alt="acetohexamidediabetesmellitustype2" %}
 
 ## Concepts
 

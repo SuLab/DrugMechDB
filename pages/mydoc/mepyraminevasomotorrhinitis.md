@@ -5,7 +5,7 @@ permalink: mepyraminevasomotorrhinitis.html
 toc: false 
 ---
 
-{% include image.html url="mepyraminevasomotorrhinitis.png" file="mepyraminevasomotorrhinitis.png" alt="mepyraminevasomotorrhinitis" %}
+{% include image.html url="images/mepyraminevasomotorrhinitis.png" file="mepyraminevasomotorrhinitis.png" alt="mepyraminevasomotorrhinitis" %}
 
 ## Concepts
 

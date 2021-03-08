@@ -5,7 +5,7 @@ permalink: loracarbefpneumoniaduetostreptococcus.html
 toc: false 
 ---
 
-{% include image.html url="loracarbefpneumoniaduetostreptococcus.png" file="loracarbefpneumoniaduetostreptococcus.png" alt="loracarbefpneumoniaduetostreptococcus" %}
+{% include image.html url="images/loracarbefpneumoniaduetostreptococcus.png" file="loracarbefpneumoniaduetostreptococcus.png" alt="loracarbefpneumoniaduetostreptococcus" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: adalimumabankylosingspondylitis.html
 toc: false 
 ---
 
-{% include image.html url="adalimumabankylosingspondylitis.png" file="adalimumabankylosingspondylitis.png" alt="adalimumabankylosingspondylitis" %}
+{% include image.html url="images/adalimumabankylosingspondylitis.png" file="adalimumabankylosingspondylitis.png" alt="adalimumabankylosingspondylitis" %}
 
 ## Concepts
 

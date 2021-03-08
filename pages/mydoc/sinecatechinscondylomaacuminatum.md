@@ -5,7 +5,7 @@ permalink: sinecatechinscondylomaacuminatum.html
 toc: false 
 ---
 
-{% include image.html url="sinecatechinscondylomaacuminatum.png" file="sinecatechinscondylomaacuminatum.png" alt="sinecatechinscondylomaacuminatum" %}
+{% include image.html url="images/sinecatechinscondylomaacuminatum.png" file="sinecatechinscondylomaacuminatum.png" alt="sinecatechinscondylomaacuminatum" %}
 
 ## Concepts
 
