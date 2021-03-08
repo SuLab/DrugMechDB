@@ -5,7 +5,7 @@ permalink: posaconazoleaspergillosis.html
 toc: false 
 ---
 
-{% include image.html file="posaconazoleaspergillosis.png" alt="posaconazoleaspergillosis" %}
+{% include image.html url="posaconazoleaspergillosis.png" file="posaconazoleaspergillosis.png" alt="posaconazoleaspergillosis" %}
 
 ## Concepts
 

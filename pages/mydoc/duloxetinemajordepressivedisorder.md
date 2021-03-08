@@ -5,7 +5,7 @@ permalink: duloxetinemajordepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="duloxetinemajordepressivedisorder.png" alt="duloxetinemajordepressivedisorder" %}
+{% include image.html url="duloxetinemajordepressivedisorder.png" file="duloxetinemajordepressivedisorder.png" alt="duloxetinemajordepressivedisorder" %}
 
 ## Concepts
 

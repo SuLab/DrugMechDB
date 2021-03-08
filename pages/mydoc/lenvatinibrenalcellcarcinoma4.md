@@ -5,7 +5,7 @@ permalink: lenvatinibrenalcellcarcinoma4.html
 toc: false 
 ---
 
-{% include image.html file="lenvatinibrenalcellcarcinoma4.png" alt="lenvatinibrenalcellcarcinoma4" %}
+{% include image.html url="lenvatinibrenalcellcarcinoma4.png" file="lenvatinibrenalcellcarcinoma4.png" alt="lenvatinibrenalcellcarcinoma4" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatesynovitis2.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatesynovitis2.png" alt="magnesiumsalicylatesynovitis2" %}
+{% include image.html url="magnesiumsalicylatesynovitis2.png" file="magnesiumsalicylatesynovitis2.png" alt="magnesiumsalicylatesynovitis2" %}
 
 ## Concepts
 

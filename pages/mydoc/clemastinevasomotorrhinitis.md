@@ -5,7 +5,7 @@ permalink: clemastinevasomotorrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="clemastinevasomotorrhinitis.png" alt="clemastinevasomotorrhinitis" %}
+{% include image.html url="clemastinevasomotorrhinitis.png" file="clemastinevasomotorrhinitis.png" alt="clemastinevasomotorrhinitis" %}
 
 ## Concepts
 

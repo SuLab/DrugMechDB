@@ -5,7 +5,7 @@ permalink: scopolamineirritablebowelsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="scopolamineirritablebowelsyndrome.png" alt="scopolamineirritablebowelsyndrome" %}
+{% include image.html url="scopolamineirritablebowelsyndrome.png" file="scopolamineirritablebowelsyndrome.png" alt="scopolamineirritablebowelsyndrome" %}
 
 ## Concepts
 

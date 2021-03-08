@@ -5,7 +5,7 @@ permalink: ciclopiroxtineapedis.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxtineapedis.png" alt="ciclopiroxtineapedis" %}
+{% include image.html url="ciclopiroxtineapedis.png" file="ciclopiroxtineapedis.png" alt="ciclopiroxtineapedis" %}
 
 ## Concepts
 

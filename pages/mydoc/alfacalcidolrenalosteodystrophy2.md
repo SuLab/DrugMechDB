@@ -5,7 +5,7 @@ permalink: alfacalcidolrenalosteodystrophy2.html
 toc: false 
 ---
 
-{% include image.html file="alfacalcidolrenalosteodystrophy2.png" alt="alfacalcidolrenalosteodystrophy2" %}
+{% include image.html url="alfacalcidolrenalosteodystrophy2.png" file="alfacalcidolrenalosteodystrophy2.png" alt="alfacalcidolrenalosteodystrophy2" %}
 
 ## Concepts
 

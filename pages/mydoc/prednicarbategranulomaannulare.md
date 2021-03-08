@@ -5,7 +5,7 @@ permalink: prednicarbategranulomaannulare.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbategranulomaannulare.png" alt="prednicarbategranulomaannulare" %}
+{% include image.html url="prednicarbategranulomaannulare.png" file="prednicarbategranulomaannulare.png" alt="prednicarbategranulomaannulare" %}
 
 ## Concepts
 

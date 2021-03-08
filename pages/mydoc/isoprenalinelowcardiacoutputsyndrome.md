@@ -5,7 +5,7 @@ permalink: isoprenalinelowcardiacoutputsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalinelowcardiacoutputsyndrome.png" alt="isoprenalinelowcardiacoutputsyndrome" %}
+{% include image.html url="isoprenalinelowcardiacoutputsyndrome.png" file="isoprenalinelowcardiacoutputsyndrome.png" alt="isoprenalinelowcardiacoutputsyndrome" %}
 
 ## Concepts
 

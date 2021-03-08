@@ -5,7 +5,7 @@ permalink: mosapramineschizophrenia.html
 toc: false 
 ---
 
-{% include image.html file="mosapramineschizophrenia.png" alt="mosapramineschizophrenia" %}
+{% include image.html url="mosapramineschizophrenia.png" file="mosapramineschizophrenia.png" alt="mosapramineschizophrenia" %}
 
 ## Concepts
 

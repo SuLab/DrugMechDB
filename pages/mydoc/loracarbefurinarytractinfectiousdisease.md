@@ -5,7 +5,7 @@ permalink: loracarbefurinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="loracarbefurinarytractinfectiousdisease.png" alt="loracarbefurinarytractinfectiousdisease" %}
+{% include image.html url="loracarbefurinarytractinfectiousdisease.png" file="loracarbefurinarytractinfectiousdisease.png" alt="loracarbefurinarytractinfectiousdisease" %}
 
 ## Concepts
 

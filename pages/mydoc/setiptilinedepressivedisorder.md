@@ -5,7 +5,7 @@ permalink: setiptilinedepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="setiptilinedepressivedisorder.png" alt="setiptilinedepressivedisorder" %}
+{% include image.html url="setiptilinedepressivedisorder.png" file="setiptilinedepressivedisorder.png" alt="setiptilinedepressivedisorder" %}
 
 ## Concepts
 
@@ -38,5 +38,7 @@ toc: false
 | Negative Regulation Of Norepinephrine Secretion | POSITIVELY CORRELATED WITH | Depressive Disorder |
 | Negative Regulation Of Epinephrine Secretion | POSITIVELY CORRELATED WITH | Depressive Disorder |
 |---------|-----------|---------|
+
+Comment: Setiptiline is considered a weak inhibitor of norepinephrine reuptake but I could not find evidence for this drug modulating the (nore)epinephrine uptake by Q7RTT9 or P23975. These putative mechanism has been observed in vitro/model organisms studies and is on Wikipedia (https://en.wikipedia.org/wiki/Setiptiline#Pharmacodynamics) but not on DrugBank or ChEMBL for example.
 
 Reference: [https://go.drugbank.com/drugs/DB09304#mechanism-of-action](https://go.drugbank.com/drugs/DB09304#mechanism-of-action){:target="_blank"}

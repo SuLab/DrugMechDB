@@ -5,7 +5,7 @@ permalink: protriptylinemajordepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="protriptylinemajordepressivedisorder.png" alt="protriptylinemajordepressivedisorder" %}
+{% include image.html url="protriptylinemajordepressivedisorder.png" file="protriptylinemajordepressivedisorder.png" alt="protriptylinemajordepressivedisorder" %}
 
 ## Concepts
 

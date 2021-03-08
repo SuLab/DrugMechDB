@@ -5,7 +5,7 @@ permalink: acetaminophenfever.html
 toc: false 
 ---
 
-{% include image.html file="acetaminophenfever.png" alt="acetaminophenfever" %}
+{% include image.html url="acetaminophenfever.png" file="acetaminophenfever.png" alt="acetaminophenfever" %}
 
 ## Concepts
 

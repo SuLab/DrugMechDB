@@ -5,7 +5,7 @@ permalink: bitolterolasthma.html
 toc: false 
 ---
 
-{% include image.html file="bitolterolasthma.png" alt="bitolterolasthma" %}
+{% include image.html url="bitolterolasthma.png" file="bitolterolasthma.png" alt="bitolterolasthma" %}
 
 ## Concepts
 

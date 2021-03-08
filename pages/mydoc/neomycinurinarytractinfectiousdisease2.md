@@ -5,7 +5,7 @@ permalink: neomycinurinarytractinfectiousdisease2.html
 toc: false 
 ---
 
-{% include image.html file="neomycinurinarytractinfectiousdisease2.png" alt="neomycinurinarytractinfectiousdisease2" %}
+{% include image.html url="neomycinurinarytractinfectiousdisease2.png" file="neomycinurinarytractinfectiousdisease2.png" alt="neomycinurinarytractinfectiousdisease2" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: beraprostpulmonaryarterialhypertension.html
 toc: false 
 ---
 
-{% include image.html file="beraprostpulmonaryarterialhypertension.png" alt="beraprostpulmonaryarterialhypertension" %}
+{% include image.html url="beraprostpulmonaryarterialhypertension.png" file="beraprostpulmonaryarterialhypertension.png" alt="beraprostpulmonaryarterialhypertension" %}
 
 ## Concepts
 

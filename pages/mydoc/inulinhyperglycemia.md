@@ -5,7 +5,7 @@ permalink: inulinhyperglycemia.html
 toc: false 
 ---
 
-{% include image.html file="inulinhyperglycemia.png" alt="inulinhyperglycemia" %}
+{% include image.html url="inulinhyperglycemia.png" file="inulinhyperglycemia.png" alt="inulinhyperglycemia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: vinpocetinedementia.html
 toc: false 
 ---
 
-{% include image.html file="vinpocetinedementia.png" alt="vinpocetinedementia" %}
+{% include image.html url="vinpocetinedementia.png" file="vinpocetinedementia.png" alt="vinpocetinedementia" %}
 
 ## Concepts
 

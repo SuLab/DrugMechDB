@@ -5,7 +5,7 @@ permalink: bromocriptinepostencephaliticparkinsonism.html
 toc: false 
 ---
 
-{% include image.html file="bromocriptinepostencephaliticparkinsonism.png" alt="bromocriptinepostencephaliticparkinsonism" %}
+{% include image.html url="bromocriptinepostencephaliticparkinsonism.png" file="bromocriptinepostencephaliticparkinsonism.png" alt="bromocriptinepostencephaliticparkinsonism" %}
 
 ## Concepts
 

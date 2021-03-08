@@ -5,7 +5,7 @@ permalink: desoximetasoneexanthem.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasoneexanthem.png" alt="desoximetasoneexanthem" %}
+{% include image.html url="desoximetasoneexanthem.png" file="desoximetasoneexanthem.png" alt="desoximetasoneexanthem" %}
 
 ## Concepts
 

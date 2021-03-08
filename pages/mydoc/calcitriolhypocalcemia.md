@@ -5,7 +5,7 @@ permalink: calcitriolhypocalcemia.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolhypocalcemia.png" alt="calcitriolhypocalcemia" %}
+{% include image.html url="calcitriolhypocalcemia.png" file="calcitriolhypocalcemia.png" alt="calcitriolhypocalcemia" %}
 
 ## Concepts
 

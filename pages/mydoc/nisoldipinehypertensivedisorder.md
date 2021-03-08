@@ -5,7 +5,7 @@ permalink: nisoldipinehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="nisoldipinehypertensivedisorder.png" alt="nisoldipinehypertensivedisorder" %}
+{% include image.html url="nisoldipinehypertensivedisorder.png" file="nisoldipinehypertensivedisorder.png" alt="nisoldipinehypertensivedisorder" %}
 
 ## Concepts
 

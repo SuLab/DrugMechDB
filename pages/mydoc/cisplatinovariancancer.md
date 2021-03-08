@@ -5,7 +5,7 @@ permalink: cisplatinovariancancer.html
 toc: false 
 ---
 
-{% include image.html file="cisplatinovariancancer.png" alt="cisplatinovariancancer" %}
+{% include image.html url="cisplatinovariancancer.png" file="cisplatinovariancancer.png" alt="cisplatinovariancancer" %}
 
 ## Concepts
 

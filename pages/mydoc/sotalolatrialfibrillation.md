@@ -5,7 +5,7 @@ permalink: sotalolatrialfibrillation.html
 toc: false 
 ---
 
-{% include image.html file="sotalolatrialfibrillation.png" alt="sotalolatrialfibrillation" %}
+{% include image.html url="sotalolatrialfibrillation.png" file="sotalolatrialfibrillation.png" alt="sotalolatrialfibrillation" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: acenocoumarolpulmonaryembolism.html
 toc: false 
 ---
 
-{% include image.html file="acenocoumarolpulmonaryembolism.png" alt="acenocoumarolpulmonaryembolism" %}
+{% include image.html url="acenocoumarolpulmonaryembolism.png" file="acenocoumarolpulmonaryembolism.png" alt="acenocoumarolpulmonaryembolism" %}
 
 ## Concepts
 

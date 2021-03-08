@@ -5,7 +5,7 @@ permalink: bepridilanginapectoris8.html
 toc: false 
 ---
 
-{% include image.html file="bepridilanginapectoris8.png" alt="bepridilanginapectoris8" %}
+{% include image.html url="bepridilanginapectoris8.png" file="bepridilanginapectoris8.png" alt="bepridilanginapectoris8" %}
 
 ## Concepts
 
@@ -34,5 +34,7 @@ toc: false
 | Regulation Of Cardiac Muscle Contraction | NEGATIVELY CORRELATED WITH | Myocardial Ischemia |
 | Myocardial Ischemia | POSITIVELY CORRELATED WITH | Angina Pectoris |
 |---------|-----------|---------|
+
+Comment: This drug does not interact directly with the catalytic site of PDE1 but interact at the level of calmodulin binding sites (https://en.wikipedia.org/wiki/PDE1#Inhibitors_and_their_function)
 
 Reference: [https://go.drugbank.com/drugs/DB01244#mechanism-of-action](https://go.drugbank.com/drugs/DB01244#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: ciclopiroxcandidiasisofskin.html
 toc: false 
 ---
 
-{% include image.html file="ciclopiroxcandidiasisofskin.png" alt="ciclopiroxcandidiasisofskin" %}
+{% include image.html url="ciclopiroxcandidiasisofskin.png" file="ciclopiroxcandidiasisofskin.png" alt="ciclopiroxcandidiasisofskin" %}
 
 ## Concepts
 

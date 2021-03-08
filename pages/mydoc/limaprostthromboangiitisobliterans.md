@@ -5,7 +5,7 @@ permalink: limaprostthromboangiitisobliterans.html
 toc: false 
 ---
 
-{% include image.html file="limaprostthromboangiitisobliterans.png" alt="limaprostthromboangiitisobliterans" %}
+{% include image.html url="limaprostthromboangiitisobliterans.png" file="limaprostthromboangiitisobliterans.png" alt="limaprostthromboangiitisobliterans" %}
 
 ## Concepts
 

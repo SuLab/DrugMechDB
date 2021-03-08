@@ -5,7 +5,7 @@ permalink: zincoxidepruritusani.html
 toc: false 
 ---
 
-{% include image.html file="zincoxidepruritusani.png" alt="zincoxidepruritusani" %}
+{% include image.html url="zincoxidepruritusani.png" file="zincoxidepruritusani.png" alt="zincoxidepruritusani" %}
 
 ## Concepts
 

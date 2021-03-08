@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatebursitis2.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatebursitis2.png" alt="magnesiumsalicylatebursitis2" %}
+{% include image.html url="magnesiumsalicylatebursitis2.png" file="magnesiumsalicylatebursitis2.png" alt="magnesiumsalicylatebursitis2" %}
 
 ## Concepts
 

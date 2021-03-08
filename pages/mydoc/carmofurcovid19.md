@@ -5,7 +5,7 @@ permalink: carmofurcovid19.html
 toc: false 
 ---
 
-{% include image.html file="carmofurcovid19.png" alt="carmofurcovid19" %}
+{% include image.html url="carmofurcovid19.png" file="carmofurcovid19.png" alt="carmofurcovid19" %}
 
 ## Concepts
 
@@ -25,5 +25,7 @@ toc: false
 | Carmofur | DECREASES ACTIVITY OF | Sars-Cov-2 Main Protease |
 | Sars-Cov-2 Main Protease | TREATS | Covid-19 |
 |---------|-----------|---------|
+
+Comment: withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB09010#mechanism-of-action](https://go.drugbank.com/drugs/DB09010#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: levonorgestrelmenorrhagia.html
 toc: false 
 ---
 
-{% include image.html file="levonorgestrelmenorrhagia.png" alt="levonorgestrelmenorrhagia" %}
+{% include image.html url="levonorgestrelmenorrhagia.png" file="levonorgestrelmenorrhagia.png" alt="levonorgestrelmenorrhagia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: loracarbeftonsillitis.html
 toc: false 
 ---
 
-{% include image.html file="loracarbeftonsillitis.png" alt="loracarbeftonsillitis" %}
+{% include image.html url="loracarbeftonsillitis.png" file="loracarbeftonsillitis.png" alt="loracarbeftonsillitis" %}
 
 ## Concepts
 

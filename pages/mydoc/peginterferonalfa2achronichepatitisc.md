@@ -5,7 +5,7 @@ permalink: peginterferonalfa2achronichepatitisc.html
 toc: false 
 ---
 
-{% include image.html file="peginterferonalfa2achronichepatitisc.png" alt="peginterferonalfa2achronichepatitisc" %}
+{% include image.html url="peginterferonalfa2achronichepatitisc.png" file="peginterferonalfa2achronichepatitisc.png" alt="peginterferonalfa2achronichepatitisc" %}
 
 ## Concepts
 

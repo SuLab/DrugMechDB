@@ -5,7 +5,7 @@ permalink: prednisolonesarcoidosis.html
 toc: false 
 ---
 
-{% include image.html file="prednisolonesarcoidosis.png" alt="prednisolonesarcoidosis" %}
+{% include image.html url="prednisolonesarcoidosis.png" file="prednisolonesarcoidosis.png" alt="prednisolonesarcoidosis" %}
 
 ## Concepts
 

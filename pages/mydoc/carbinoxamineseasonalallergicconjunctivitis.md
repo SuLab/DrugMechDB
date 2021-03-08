@@ -5,7 +5,7 @@ permalink: carbinoxamineseasonalallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="carbinoxamineseasonalallergicconjunctivitis.png" alt="carbinoxamineseasonalallergicconjunctivitis" %}
+{% include image.html url="carbinoxamineseasonalallergicconjunctivitis.png" file="carbinoxamineseasonalallergicconjunctivitis.png" alt="carbinoxamineseasonalallergicconjunctivitis" %}
 
 ## Concepts
 

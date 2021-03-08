@@ -5,7 +5,7 @@ permalink: medrysonerosacea.html
 toc: false 
 ---
 
-{% include image.html file="medrysonerosacea.png" alt="medrysonerosacea" %}
+{% include image.html url="medrysonerosacea.png" file="medrysonerosacea.png" alt="medrysonerosacea" %}
 
 ## Concepts
 
@@ -23,5 +23,7 @@ toc: false
 |---------|-----------|---------|
 | Medrysone | TREATS | Rosacea |
 |---------|-----------|---------|
+
+Comment: Contraindicated; steroids can cause Rosacea
 
 Reference: [https://go.drugbank.com/drugs/DB00253#mechanism-of-action](https://go.drugbank.com/drugs/DB00253#mechanism-of-action){:target="_blank"}

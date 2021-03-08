@@ -5,7 +5,7 @@ permalink: estradiolatrophicvaginitis.html
 toc: false 
 ---
 
-{% include image.html file="estradiolatrophicvaginitis.png" alt="estradiolatrophicvaginitis" %}
+{% include image.html url="estradiolatrophicvaginitis.png" file="estradiolatrophicvaginitis.png" alt="estradiolatrophicvaginitis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: butenafinepityriasisversicolor.html
 toc: false 
 ---
 
-{% include image.html file="butenafinepityriasisversicolor.png" alt="butenafinepityriasisversicolor" %}
+{% include image.html url="butenafinepityriasisversicolor.png" file="butenafinepityriasisversicolor.png" alt="butenafinepityriasisversicolor" %}
 
 ## Concepts
 

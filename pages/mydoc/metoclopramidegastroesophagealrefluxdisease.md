@@ -5,7 +5,7 @@ permalink: metoclopramidegastroesophagealrefluxdisease.html
 toc: false 
 ---
 
-{% include image.html file="metoclopramidegastroesophagealrefluxdisease.png" alt="metoclopramidegastroesophagealrefluxdisease" %}
+{% include image.html url="metoclopramidegastroesophagealrefluxdisease.png" file="metoclopramidegastroesophagealrefluxdisease.png" alt="metoclopramidegastroesophagealrefluxdisease" %}
 
 ## Concepts
 

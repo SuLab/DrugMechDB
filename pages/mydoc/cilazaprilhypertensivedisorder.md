@@ -5,7 +5,7 @@ permalink: cilazaprilhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="cilazaprilhypertensivedisorder.png" alt="cilazaprilhypertensivedisorder" %}
+{% include image.html url="cilazaprilhypertensivedisorder.png" file="cilazaprilhypertensivedisorder.png" alt="cilazaprilhypertensivedisorder" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: diazoxidehyperinsulinism.html
 toc: false 
 ---
 
-{% include image.html file="diazoxidehyperinsulinism.png" alt="diazoxidehyperinsulinism" %}
+{% include image.html url="diazoxidehyperinsulinism.png" file="diazoxidehyperinsulinism.png" alt="diazoxidehyperinsulinism" %}
 
 ## Concepts
 

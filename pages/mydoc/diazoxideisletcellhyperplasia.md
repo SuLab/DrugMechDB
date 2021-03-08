@@ -5,7 +5,7 @@ permalink: diazoxideisletcellhyperplasia.html
 toc: false 
 ---
 
-{% include image.html file="diazoxideisletcellhyperplasia.png" alt="diazoxideisletcellhyperplasia" %}
+{% include image.html url="diazoxideisletcellhyperplasia.png" file="diazoxideisletcellhyperplasia.png" alt="diazoxideisletcellhyperplasia" %}
 
 ## Concepts
 

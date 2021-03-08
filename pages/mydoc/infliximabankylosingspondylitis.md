@@ -5,7 +5,7 @@ permalink: infliximabankylosingspondylitis.html
 toc: false 
 ---
 
-{% include image.html file="infliximabankylosingspondylitis.png" alt="infliximabankylosingspondylitis" %}
+{% include image.html url="infliximabankylosingspondylitis.png" file="infliximabankylosingspondylitis.png" alt="infliximabankylosingspondylitis" %}
 
 ## Concepts
 

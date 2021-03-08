@@ -5,7 +5,7 @@ permalink: diazepamalcoholwithdrawaldelirium.html
 toc: false 
 ---
 
-{% include image.html file="diazepamalcoholwithdrawaldelirium.png" alt="diazepamalcoholwithdrawaldelirium" %}
+{% include image.html url="diazepamalcoholwithdrawaldelirium.png" file="diazepamalcoholwithdrawaldelirium.png" alt="diazepamalcoholwithdrawaldelirium" %}
 
 ## Concepts
 

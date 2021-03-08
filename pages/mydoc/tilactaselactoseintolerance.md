@@ -5,7 +5,7 @@ permalink: tilactaselactoseintolerance.html
 toc: false 
 ---
 
-{% include image.html file="tilactaselactoseintolerance.png" alt="tilactaselactoseintolerance" %}
+{% include image.html url="tilactaselactoseintolerance.png" file="tilactaselactoseintolerance.png" alt="tilactaselactoseintolerance" %}
 
 ## Concepts
 

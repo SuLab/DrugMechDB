@@ -5,7 +5,7 @@ permalink: zincoxideproctitis.html
 toc: false 
 ---
 
-{% include image.html file="zincoxideproctitis.png" alt="zincoxideproctitis" %}
+{% include image.html url="zincoxideproctitis.png" file="zincoxideproctitis.png" alt="zincoxideproctitis" %}
 
 ## Concepts
 

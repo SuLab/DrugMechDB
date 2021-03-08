@@ -5,7 +5,7 @@ permalink: ipratropiumpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumpulmonaryemphysema.png" alt="ipratropiumpulmonaryemphysema" %}
+{% include image.html url="ipratropiumpulmonaryemphysema.png" file="ipratropiumpulmonaryemphysema.png" alt="ipratropiumpulmonaryemphysema" %}
 
 ## Concepts
 

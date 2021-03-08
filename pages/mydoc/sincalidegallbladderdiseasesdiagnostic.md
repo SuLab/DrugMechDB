@@ -5,7 +5,7 @@ permalink: sincalidegallbladderdiseasesdiagnostic.html
 toc: false 
 ---
 
-{% include image.html file="sincalidegallbladderdiseasesdiagnostic.png" alt="sincalidegallbladderdiseasesdiagnostic" %}
+{% include image.html url="sincalidegallbladderdiseasesdiagnostic.png" file="sincalidegallbladderdiseasesdiagnostic.png" alt="sincalidegallbladderdiseasesdiagnostic" %}
 
 ## Concepts
 

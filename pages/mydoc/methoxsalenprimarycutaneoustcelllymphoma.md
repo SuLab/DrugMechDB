@@ -5,7 +5,7 @@ permalink: methoxsalenprimarycutaneoustcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="methoxsalenprimarycutaneoustcelllymphoma.png" alt="methoxsalenprimarycutaneoustcelllymphoma" %}
+{% include image.html url="methoxsalenprimarycutaneoustcelllymphoma.png" file="methoxsalenprimarycutaneoustcelllymphoma.png" alt="methoxsalenprimarycutaneoustcelllymphoma" %}
 
 ## Concepts
 

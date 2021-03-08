@@ -5,7 +5,7 @@ permalink: clobetasonebutyrateeczema.html
 toc: false 
 ---
 
-{% include image.html file="clobetasonebutyrateeczema.png" alt="clobetasonebutyrateeczema" %}
+{% include image.html url="clobetasonebutyrateeczema.png" file="clobetasonebutyrateeczema.png" alt="clobetasonebutyrateeczema" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: desoximetasonediscoidlupuserythematosus.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonediscoidlupuserythematosus.png" alt="desoximetasonediscoidlupuserythematosus" %}
+{% include image.html url="desoximetasonediscoidlupuserythematosus.png" file="desoximetasonediscoidlupuserythematosus.png" alt="desoximetasonediscoidlupuserythematosus" %}
 
 ## Concepts
 

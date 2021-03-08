@@ -5,7 +5,7 @@ permalink: oxytocinpostpartumhemorrhage.html
 toc: false 
 ---
 
-{% include image.html file="oxytocinpostpartumhemorrhage.png" alt="oxytocinpostpartumhemorrhage" %}
+{% include image.html url="oxytocinpostpartumhemorrhage.png" file="oxytocinpostpartumhemorrhage.png" alt="oxytocinpostpartumhemorrhage" %}
 
 ## Concepts
 

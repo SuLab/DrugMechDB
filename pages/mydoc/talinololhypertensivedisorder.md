@@ -5,7 +5,7 @@ permalink: talinololhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="talinololhypertensivedisorder.png" alt="talinololhypertensivedisorder" %}
+{% include image.html url="talinololhypertensivedisorder.png" file="talinololhypertensivedisorder.png" alt="talinololhypertensivedisorder" %}
 
 ## Concepts
 

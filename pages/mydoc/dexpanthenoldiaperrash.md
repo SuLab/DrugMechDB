@@ -5,7 +5,7 @@ permalink: dexpanthenoldiaperrash.html
 toc: false 
 ---
 
-{% include image.html file="dexpanthenoldiaperrash.png" alt="dexpanthenoldiaperrash" %}
+{% include image.html url="dexpanthenoldiaperrash.png" file="dexpanthenoldiaperrash.png" alt="dexpanthenoldiaperrash" %}
 
 ## Concepts
 

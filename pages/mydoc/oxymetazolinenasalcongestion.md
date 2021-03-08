@@ -5,7 +5,7 @@ permalink: oxymetazolinenasalcongestion.html
 toc: false 
 ---
 
-{% include image.html file="oxymetazolinenasalcongestion.png" alt="oxymetazolinenasalcongestion" %}
+{% include image.html url="oxymetazolinenasalcongestion.png" file="oxymetazolinenasalcongestion.png" alt="oxymetazolinenasalcongestion" %}
 
 ## Concepts
 

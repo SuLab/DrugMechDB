@@ -5,7 +5,7 @@ permalink: mogamulizumabperipheraltcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="mogamulizumabperipheraltcelllymphoma.png" alt="mogamulizumabperipheraltcelllymphoma" %}
+{% include image.html url="mogamulizumabperipheraltcelllymphoma.png" file="mogamulizumabperipheraltcelllymphoma.png" alt="mogamulizumabperipheraltcelllymphoma" %}
 
 ## Concepts
 

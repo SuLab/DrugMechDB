@@ -5,7 +5,7 @@ permalink: magnesiumsalicylaterheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylaterheumatoidarthritis.png" alt="magnesiumsalicylaterheumatoidarthritis" %}
+{% include image.html url="magnesiumsalicylaterheumatoidarthritis.png" file="magnesiumsalicylaterheumatoidarthritis.png" alt="magnesiumsalicylaterheumatoidarthritis" %}
 
 ## Concepts
 

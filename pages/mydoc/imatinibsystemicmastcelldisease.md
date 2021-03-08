@@ -5,7 +5,7 @@ permalink: imatinibsystemicmastcelldisease.html
 toc: false 
 ---
 
-{% include image.html file="imatinibsystemicmastcelldisease.png" alt="imatinibsystemicmastcelldisease" %}
+{% include image.html url="imatinibsystemicmastcelldisease.png" file="imatinibsystemicmastcelldisease.png" alt="imatinibsystemicmastcelldisease" %}
 
 ## Concepts
 

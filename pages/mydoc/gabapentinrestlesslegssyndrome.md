@@ -5,7 +5,7 @@ permalink: gabapentinrestlesslegssyndrome.html
 toc: false 
 ---
 
-{% include image.html file="gabapentinrestlesslegssyndrome.png" alt="gabapentinrestlesslegssyndrome" %}
+{% include image.html url="gabapentinrestlesslegssyndrome.png" file="gabapentinrestlesslegssyndrome.png" alt="gabapentinrestlesslegssyndrome" %}
 
 ## Concepts
 

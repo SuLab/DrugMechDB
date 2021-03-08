@@ -5,7 +5,7 @@ permalink: diazepamtetanus.html
 toc: false 
 ---
 
-{% include image.html file="diazepamtetanus.png" alt="diazepamtetanus" %}
+{% include image.html url="diazepamtetanus.png" file="diazepamtetanus.png" alt="diazepamtetanus" %}
 
 ## Concepts
 

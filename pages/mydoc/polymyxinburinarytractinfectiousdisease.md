@@ -5,7 +5,7 @@ permalink: polymyxinburinarytractinfectiousdisease.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinburinarytractinfectiousdisease.png" alt="polymyxinburinarytractinfectiousdisease" %}
+{% include image.html url="polymyxinburinarytractinfectiousdisease.png" file="polymyxinburinarytractinfectiousdisease.png" alt="polymyxinburinarytractinfectiousdisease" %}
 
 ## Concepts
 

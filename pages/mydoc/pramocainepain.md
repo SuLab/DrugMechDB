@@ -5,7 +5,7 @@ permalink: pramocainepain.html
 toc: false 
 ---
 
-{% include image.html file="pramocainepain.png" alt="pramocainepain" %}
+{% include image.html url="pramocainepain.png" file="pramocainepain.png" alt="pramocainepain" %}
 
 ## Concepts
 

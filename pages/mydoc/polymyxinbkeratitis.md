@@ -5,7 +5,7 @@ permalink: polymyxinbkeratitis.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinbkeratitis.png" alt="polymyxinbkeratitis" %}
+{% include image.html url="polymyxinbkeratitis.png" file="polymyxinbkeratitis.png" alt="polymyxinbkeratitis" %}
 
 ## Concepts
 

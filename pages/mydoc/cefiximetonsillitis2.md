@@ -5,7 +5,7 @@ permalink: cefiximetonsillitis2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximetonsillitis2.png" alt="cefiximetonsillitis2" %}
+{% include image.html url="cefiximetonsillitis2.png" file="cefiximetonsillitis2.png" alt="cefiximetonsillitis2" %}
 
 ## Concepts
 

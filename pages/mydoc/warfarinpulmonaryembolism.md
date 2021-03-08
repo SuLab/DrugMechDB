@@ -5,7 +5,7 @@ permalink: warfarinpulmonaryembolism.html
 toc: false 
 ---
 
-{% include image.html file="warfarinpulmonaryembolism.png" alt="warfarinpulmonaryembolism" %}
+{% include image.html url="warfarinpulmonaryembolism.png" file="warfarinpulmonaryembolism.png" alt="warfarinpulmonaryembolism" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: cyproheptadineitchingofskin2.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadineitchingofskin2.png" alt="cyproheptadineitchingofskin2" %}
+{% include image.html url="cyproheptadineitchingofskin2.png" file="cyproheptadineitchingofskin2.png" alt="cyproheptadineitchingofskin2" %}
 
 ## Concepts
 

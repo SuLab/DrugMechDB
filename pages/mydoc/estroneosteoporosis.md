@@ -5,7 +5,7 @@ permalink: estroneosteoporosis.html
 toc: false 
 ---
 
-{% include image.html file="estroneosteoporosis.png" alt="estroneosteoporosis" %}
+{% include image.html url="estroneosteoporosis.png" file="estroneosteoporosis.png" alt="estroneosteoporosis" %}
 
 ## Concepts
 

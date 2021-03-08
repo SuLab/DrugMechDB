@@ -5,7 +5,7 @@ permalink: buprenorphineopioiddependence2.html
 toc: false 
 ---
 
-{% include image.html file="buprenorphineopioiddependence2.png" alt="buprenorphineopioiddependence2" %}
+{% include image.html url="buprenorphineopioiddependence2.png" file="buprenorphineopioiddependence2.png" alt="buprenorphineopioiddependence2" %}
 
 ## Concepts
 

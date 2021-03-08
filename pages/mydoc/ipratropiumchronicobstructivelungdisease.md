@@ -5,7 +5,7 @@ permalink: ipratropiumchronicobstructivelungdisease.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumchronicobstructivelungdisease.png" alt="ipratropiumchronicobstructivelungdisease" %}
+{% include image.html url="ipratropiumchronicobstructivelungdisease.png" file="ipratropiumchronicobstructivelungdisease.png" alt="ipratropiumchronicobstructivelungdisease" %}
 
 ## Concepts
 

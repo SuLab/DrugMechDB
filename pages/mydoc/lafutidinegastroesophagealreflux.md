@@ -5,7 +5,7 @@ permalink: lafutidinegastroesophagealreflux.html
 toc: false 
 ---
 
-{% include image.html file="lafutidinegastroesophagealreflux.png" alt="lafutidinegastroesophagealreflux" %}
+{% include image.html url="lafutidinegastroesophagealreflux.png" file="lafutidinegastroesophagealreflux.png" alt="lafutidinegastroesophagealreflux" %}
 
 ## Concepts
 

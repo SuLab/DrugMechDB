@@ -5,7 +5,7 @@ permalink: landiololtachyarrhythmia.html
 toc: false 
 ---
 
-{% include image.html file="landiololtachyarrhythmia.png" alt="landiololtachyarrhythmia" %}
+{% include image.html url="landiololtachyarrhythmia.png" file="landiololtachyarrhythmia.png" alt="landiololtachyarrhythmia" %}
 
 ## Concepts
 

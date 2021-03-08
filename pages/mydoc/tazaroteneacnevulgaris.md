@@ -5,7 +5,7 @@ permalink: tazaroteneacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html file="tazaroteneacnevulgaris.png" alt="tazaroteneacnevulgaris" %}
+{% include image.html url="tazaroteneacnevulgaris.png" file="tazaroteneacnevulgaris.png" alt="tazaroteneacnevulgaris" %}
 
 ## Concepts
 

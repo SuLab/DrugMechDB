@@ -5,7 +5,7 @@ permalink: lumefantrinefalciparummalaria.html
 toc: false 
 ---
 
-{% include image.html file="lumefantrinefalciparummalaria.png" alt="lumefantrinefalciparummalaria" %}
+{% include image.html url="lumefantrinefalciparummalaria.png" file="lumefantrinefalciparummalaria.png" alt="lumefantrinefalciparummalaria" %}
 
 ## Concepts
 
@@ -31,5 +31,7 @@ toc: false
 | Heme | DISRUPTS | Plasmodium Falciparum |
 | Plasmodium Falciparum | CAUSES | Falciparum Malaria |
 |---------|-----------|---------|
+
+Comment: exact MoA is unknown
 
 Reference: [https://go.drugbank.com/drugs/DB06708#mechanism-of-action](https://go.drugbank.com/drugs/DB06708#mechanism-of-action){:target="_blank"}

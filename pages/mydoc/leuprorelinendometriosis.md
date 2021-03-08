@@ -5,7 +5,7 @@ permalink: leuprorelinendometriosis.html
 toc: false 
 ---
 
-{% include image.html file="leuprorelinendometriosis.png" alt="leuprorelinendometriosis" %}
+{% include image.html url="leuprorelinendometriosis.png" file="leuprorelinendometriosis.png" alt="leuprorelinendometriosis" %}
 
 ## Concepts
 

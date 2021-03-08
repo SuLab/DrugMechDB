@@ -5,7 +5,7 @@ permalink: adalimumabcrohnsdisease.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabcrohnsdisease.png" alt="adalimumabcrohnsdisease" %}
+{% include image.html url="adalimumabcrohnsdisease.png" file="adalimumabcrohnsdisease.png" alt="adalimumabcrohnsdisease" %}
 
 ## Concepts
 

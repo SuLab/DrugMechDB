@@ -5,7 +5,7 @@ permalink: necitumumabnonsmallcelllungcancer.html
 toc: false 
 ---
 
-{% include image.html file="necitumumabnonsmallcelllungcancer.png" alt="necitumumabnonsmallcelllungcancer" %}
+{% include image.html url="necitumumabnonsmallcelllungcancer.png" file="necitumumabnonsmallcelllungcancer.png" alt="necitumumabnonsmallcelllungcancer" %}
 
 ## Concepts
 

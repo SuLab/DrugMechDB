@@ -5,7 +5,7 @@ permalink: zincoxideexanthema.html
 toc: false 
 ---
 
-{% include image.html file="zincoxideexanthema.png" alt="zincoxideexanthema" %}
+{% include image.html url="zincoxideexanthema.png" file="zincoxideexanthema.png" alt="zincoxideexanthema" %}
 
 ## Concepts
 

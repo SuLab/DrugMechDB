@@ -5,7 +5,7 @@ permalink: glimepiridediabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="glimepiridediabetesmellitustype2.png" alt="glimepiridediabetesmellitustype2" %}
+{% include image.html url="glimepiridediabetesmellitustype2.png" file="glimepiridediabetesmellitustype2.png" alt="glimepiridediabetesmellitustype2" %}
 
 ## Concepts
 

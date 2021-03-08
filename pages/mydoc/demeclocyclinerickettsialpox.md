@@ -5,7 +5,7 @@ permalink: demeclocyclinerickettsialpox.html
 toc: false 
 ---
 
-{% include image.html file="demeclocyclinerickettsialpox.png" alt="demeclocyclinerickettsialpox" %}
+{% include image.html url="demeclocyclinerickettsialpox.png" file="demeclocyclinerickettsialpox.png" alt="demeclocyclinerickettsialpox" %}
 
 ## Concepts
 

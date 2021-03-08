@@ -5,7 +5,7 @@ permalink: vasopressinvonwillebranddisorder.html
 toc: false 
 ---
 
-{% include image.html file="vasopressinvonwillebranddisorder.png" alt="vasopressinvonwillebranddisorder" %}
+{% include image.html url="vasopressinvonwillebranddisorder.png" file="vasopressinvonwillebranddisorder.png" alt="vasopressinvonwillebranddisorder" %}
 
 ## Concepts
 

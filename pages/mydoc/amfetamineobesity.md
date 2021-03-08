@@ -5,7 +5,7 @@ permalink: amfetamineobesity.html
 toc: false 
 ---
 
-{% include image.html file="amfetamineobesity.png" alt="amfetamineobesity" %}
+{% include image.html url="amfetamineobesity.png" file="amfetamineobesity.png" alt="amfetamineobesity" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: dapsoneleprosy.html
 toc: false 
 ---
 
-{% include image.html file="dapsoneleprosy.png" alt="dapsoneleprosy" %}
+{% include image.html url="dapsoneleprosy.png" file="dapsoneleprosy.png" alt="dapsoneleprosy" %}
 
 ## Concepts
 

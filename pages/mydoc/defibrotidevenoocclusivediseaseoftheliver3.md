@@ -5,7 +5,7 @@ permalink: defibrotidevenoocclusivediseaseoftheliver3.html
 toc: false 
 ---
 
-{% include image.html file="defibrotidevenoocclusivediseaseoftheliver3.png" alt="defibrotidevenoocclusivediseaseoftheliver3" %}
+{% include image.html url="defibrotidevenoocclusivediseaseoftheliver3.png" file="defibrotidevenoocclusivediseaseoftheliver3.png" alt="defibrotidevenoocclusivediseaseoftheliver3" %}
 
 ## Concepts
 

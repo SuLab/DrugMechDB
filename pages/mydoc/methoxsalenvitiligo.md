@@ -5,7 +5,7 @@ permalink: methoxsalenvitiligo.html
 toc: false 
 ---
 
-{% include image.html file="methoxsalenvitiligo.png" alt="methoxsalenvitiligo" %}
+{% include image.html url="methoxsalenvitiligo.png" file="methoxsalenvitiligo.png" alt="methoxsalenvitiligo" %}
 
 ## Concepts
 

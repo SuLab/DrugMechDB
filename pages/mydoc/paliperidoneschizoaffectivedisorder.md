@@ -5,7 +5,7 @@ permalink: paliperidoneschizoaffectivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="paliperidoneschizoaffectivedisorder.png" alt="paliperidoneschizoaffectivedisorder" %}
+{% include image.html url="paliperidoneschizoaffectivedisorder.png" file="paliperidoneschizoaffectivedisorder.png" alt="paliperidoneschizoaffectivedisorder" %}
 
 ## Concepts
 

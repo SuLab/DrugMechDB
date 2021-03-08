@@ -5,7 +5,7 @@ permalink: celiprololanginapectoris.html
 toc: false 
 ---
 
-{% include image.html file="celiprololanginapectoris.png" alt="celiprololanginapectoris" %}
+{% include image.html url="celiprololanginapectoris.png" file="celiprololanginapectoris.png" alt="celiprololanginapectoris" %}
 
 ## Concepts
 

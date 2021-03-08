@@ -5,7 +5,7 @@ permalink: clarithromycinstreptococcuspyogenesinfection.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinstreptococcuspyogenesinfection.png" alt="clarithromycinstreptococcuspyogenesinfection" %}
+{% include image.html url="clarithromycinstreptococcuspyogenesinfection.png" file="clarithromycinstreptococcuspyogenesinfection.png" alt="clarithromycinstreptococcuspyogenesinfection" %}
 
 ## Concepts
 

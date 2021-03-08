@@ -5,7 +5,7 @@ permalink: linezolidstreptococcuspyogenesinfection.html
 toc: false 
 ---
 
-{% include image.html file="linezolidstreptococcuspyogenesinfection.png" alt="linezolidstreptococcuspyogenesinfection" %}
+{% include image.html url="linezolidstreptococcuspyogenesinfection.png" file="linezolidstreptococcuspyogenesinfection.png" alt="linezolidstreptococcuspyogenesinfection" %}
 
 ## Concepts
 

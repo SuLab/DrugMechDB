@@ -5,7 +5,7 @@ permalink: topiroxostathyperuricemia.html
 toc: false 
 ---
 
-{% include image.html file="topiroxostathyperuricemia.png" alt="topiroxostathyperuricemia" %}
+{% include image.html url="topiroxostathyperuricemia.png" file="topiroxostathyperuricemia.png" alt="topiroxostathyperuricemia" %}
 
 ## Concepts
 

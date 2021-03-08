@@ -5,7 +5,7 @@ permalink: zidovudinehumanimmunodeficiencyvirusinfection.html
 toc: false 
 ---
 
-{% include image.html file="zidovudinehumanimmunodeficiencyvirusinfection.png" alt="zidovudinehumanimmunodeficiencyvirusinfection" %}
+{% include image.html url="zidovudinehumanimmunodeficiencyvirusinfection.png" file="zidovudinehumanimmunodeficiencyvirusinfection.png" alt="zidovudinehumanimmunodeficiencyvirusinfection" %}
 
 ## Concepts
 

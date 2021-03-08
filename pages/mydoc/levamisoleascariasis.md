@@ -5,7 +5,7 @@ permalink: levamisoleascariasis.html
 toc: false 
 ---
 
-{% include image.html file="levamisoleascariasis.png" alt="levamisoleascariasis" %}
+{% include image.html url="levamisoleascariasis.png" file="levamisoleascariasis.png" alt="levamisoleascariasis" %}
 
 ## Concepts
 
@@ -34,5 +34,7 @@ toc: false
 | Reproductive Process | OCCURS IN | Ascaris Lumbricoides |
 | Ascaris Lumbricoides | CAUSES | Ascariasis |
 |---------|-----------|---------|
+
+Comment: Withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB00848#mechanism-of-action](https://go.drugbank.com/drugs/DB00848#mechanism-of-action){:target="_blank"}

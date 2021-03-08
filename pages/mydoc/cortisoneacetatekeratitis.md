@@ -5,7 +5,7 @@ permalink: cortisoneacetatekeratitis.html
 toc: false 
 ---
 
-{% include image.html file="cortisoneacetatekeratitis.png" alt="cortisoneacetatekeratitis" %}
+{% include image.html url="cortisoneacetatekeratitis.png" file="cortisoneacetatekeratitis.png" alt="cortisoneacetatekeratitis" %}
 
 ## Concepts
 

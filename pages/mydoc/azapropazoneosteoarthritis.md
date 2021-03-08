@@ -5,7 +5,7 @@ permalink: azapropazoneosteoarthritis.html
 toc: false 
 ---
 
-{% include image.html file="azapropazoneosteoarthritis.png" alt="azapropazoneosteoarthritis" %}
+{% include image.html url="azapropazoneosteoarthritis.png" file="azapropazoneosteoarthritis.png" alt="azapropazoneosteoarthritis" %}
 
 ## Concepts
 
@@ -34,5 +34,7 @@ toc: false
 | Inflammation | CAUSES | Pain |
 | Pain | MANIFESTATION OF | Osteoarthritis |
 |---------|-----------|---------|
+
+Comment: Withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}

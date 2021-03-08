@@ -5,7 +5,7 @@ permalink: imigluceraseglucosylceramidebetaglucosidasedeficiency.html
 toc: false 
 ---
 
-{% include image.html file="imigluceraseglucosylceramidebetaglucosidasedeficiency.png" alt="imigluceraseglucosylceramidebetaglucosidasedeficiency" %}
+{% include image.html url="imigluceraseglucosylceramidebetaglucosidasedeficiency.png" file="imigluceraseglucosylceramidebetaglucosidasedeficiency.png" alt="imigluceraseglucosylceramidebetaglucosidasedeficiency" %}
 
 ## Concepts
 

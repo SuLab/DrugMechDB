@@ -5,7 +5,7 @@ permalink: itraconazolefusariuminfection.html
 toc: false 
 ---
 
-{% include image.html file="itraconazolefusariuminfection.png" alt="itraconazolefusariuminfection" %}
+{% include image.html url="itraconazolefusariuminfection.png" file="itraconazolefusariuminfection.png" alt="itraconazolefusariuminfection" %}
 
 ## Concepts
 

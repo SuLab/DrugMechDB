@@ -5,7 +5,7 @@ permalink: diflunisalrheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="diflunisalrheumatoidarthritis.png" alt="diflunisalrheumatoidarthritis" %}
+{% include image.html url="diflunisalrheumatoidarthritis.png" file="diflunisalrheumatoidarthritis.png" alt="diflunisalrheumatoidarthritis" %}
 
 ## Concepts
 

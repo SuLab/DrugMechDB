@@ -5,7 +5,7 @@ permalink: clopidogrelacutecoronarysyndrome.html
 toc: false 
 ---
 
-{% include image.html file="clopidogrelacutecoronarysyndrome.png" alt="clopidogrelacutecoronarysyndrome" %}
+{% include image.html url="clopidogrelacutecoronarysyndrome.png" file="clopidogrelacutecoronarysyndrome.png" alt="clopidogrelacutecoronarysyndrome" %}
 
 ## Concepts
 

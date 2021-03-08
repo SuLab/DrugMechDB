@@ -5,7 +5,7 @@ permalink: mebendazoletrichuriasis.html
 toc: false 
 ---
 
-{% include image.html file="mebendazoletrichuriasis.png" alt="mebendazoletrichuriasis" %}
+{% include image.html url="mebendazoletrichuriasis.png" file="mebendazoletrichuriasis.png" alt="mebendazoletrichuriasis" %}
 
 ## Concepts
 

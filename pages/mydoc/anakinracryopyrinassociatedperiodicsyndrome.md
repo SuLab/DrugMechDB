@@ -5,7 +5,7 @@ permalink: anakinracryopyrinassociatedperiodicsyndrome.html
 toc: false 
 ---
 
-{% include image.html file="anakinracryopyrinassociatedperiodicsyndrome.png" alt="anakinracryopyrinassociatedperiodicsyndrome" %}
+{% include image.html url="anakinracryopyrinassociatedperiodicsyndrome.png" file="anakinracryopyrinassociatedperiodicsyndrome.png" alt="anakinracryopyrinassociatedperiodicsyndrome" %}
 
 ## Concepts
 

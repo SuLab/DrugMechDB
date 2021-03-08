@@ -5,7 +5,7 @@ permalink: clobetasolpropionatecontactdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="clobetasolpropionatecontactdermatitis.png" alt="clobetasolpropionatecontactdermatitis" %}
+{% include image.html url="clobetasolpropionatecontactdermatitis.png" file="clobetasolpropionatecontactdermatitis.png" alt="clobetasolpropionatecontactdermatitis" %}
 
 ## Concepts
 

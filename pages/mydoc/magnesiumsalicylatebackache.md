@@ -5,7 +5,7 @@ permalink: magnesiumsalicylatebackache.html
 toc: false 
 ---
 
-{% include image.html file="magnesiumsalicylatebackache.png" alt="magnesiumsalicylatebackache" %}
+{% include image.html url="magnesiumsalicylatebackache.png" file="magnesiumsalicylatebackache.png" alt="magnesiumsalicylatebackache" %}
 
 ## Concepts
 

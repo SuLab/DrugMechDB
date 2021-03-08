@@ -5,7 +5,7 @@ permalink: desoximetasoneprimarycutaneoustcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasoneprimarycutaneoustcelllymphoma.png" alt="desoximetasoneprimarycutaneoustcelllymphoma" %}
+{% include image.html url="desoximetasoneprimarycutaneoustcelllymphoma.png" file="desoximetasoneprimarycutaneoustcelllymphoma.png" alt="desoximetasoneprimarycutaneoustcelllymphoma" %}
 
 ## Concepts
 

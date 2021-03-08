@@ -5,7 +5,7 @@ permalink: posaconazolemycetoma.html
 toc: false 
 ---
 
-{% include image.html file="posaconazolemycetoma.png" alt="posaconazolemycetoma" %}
+{% include image.html url="posaconazolemycetoma.png" file="posaconazolemycetoma.png" alt="posaconazolemycetoma" %}
 
 ## Concepts
 

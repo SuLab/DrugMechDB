@@ -5,7 +5,7 @@ permalink: bismuthsubsalicylatediarrhea2.html
 toc: false 
 ---
 
-{% include image.html file="bismuthsubsalicylatediarrhea2.png" alt="bismuthsubsalicylatediarrhea2" %}
+{% include image.html url="bismuthsubsalicylatediarrhea2.png" file="bismuthsubsalicylatediarrhea2.png" alt="bismuthsubsalicylatediarrhea2" %}
 
 ## Concepts
 

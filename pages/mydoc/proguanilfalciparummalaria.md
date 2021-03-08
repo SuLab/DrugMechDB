@@ -5,7 +5,7 @@ permalink: proguanilfalciparummalaria.html
 toc: false 
 ---
 
-{% include image.html file="proguanilfalciparummalaria.png" alt="proguanilfalciparummalaria" %}
+{% include image.html url="proguanilfalciparummalaria.png" file="proguanilfalciparummalaria.png" alt="proguanilfalciparummalaria" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: irbesartanhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="irbesartanhypertensivedisorder.png" alt="irbesartanhypertensivedisorder" %}
+{% include image.html url="irbesartanhypertensivedisorder.png" file="irbesartanhypertensivedisorder.png" alt="irbesartanhypertensivedisorder" %}
 
 ## Concepts
 

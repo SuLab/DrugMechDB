@@ -5,7 +5,7 @@ permalink: carbacholopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="carbacholopenangleglaucoma.png" alt="carbacholopenangleglaucoma" %}
+{% include image.html url="carbacholopenangleglaucoma.png" file="carbacholopenangleglaucoma.png" alt="carbacholopenangleglaucoma" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: nimodipinesubarachnoidintracranialhemorrhage.html
 toc: false 
 ---
 
-{% include image.html file="nimodipinesubarachnoidintracranialhemorrhage.png" alt="nimodipinesubarachnoidintracranialhemorrhage" %}
+{% include image.html url="nimodipinesubarachnoidintracranialhemorrhage.png" file="nimodipinesubarachnoidintracranialhemorrhage.png" alt="nimodipinesubarachnoidintracranialhemorrhage" %}
 
 ## Concepts
 

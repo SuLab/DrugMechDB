@@ -5,7 +5,7 @@ permalink: aminoglutethimidesecondarymalignantneoplasmoffemalebreast.html
 toc: false 
 ---
 
-{% include image.html file="aminoglutethimidesecondarymalignantneoplasmoffemalebreast.png" alt="aminoglutethimidesecondarymalignantneoplasmoffemalebreast" %}
+{% include image.html url="aminoglutethimidesecondarymalignantneoplasmoffemalebreast.png" file="aminoglutethimidesecondarymalignantneoplasmoffemalebreast.png" alt="aminoglutethimidesecondarymalignantneoplasmoffemalebreast" %}
 
 ## Concepts
 

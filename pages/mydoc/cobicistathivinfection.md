@@ -5,7 +5,7 @@ permalink: cobicistathivinfection.html
 toc: false 
 ---
 
-{% include image.html file="cobicistathivinfection.png" alt="cobicistathivinfection" %}
+{% include image.html url="cobicistathivinfection.png" file="cobicistathivinfection.png" alt="cobicistathivinfection" %}
 
 ## Concepts
 

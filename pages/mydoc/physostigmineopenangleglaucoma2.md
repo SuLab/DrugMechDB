@@ -5,7 +5,7 @@ permalink: physostigmineopenangleglaucoma2.html
 toc: false 
 ---
 
-{% include image.html file="physostigmineopenangleglaucoma2.png" alt="physostigmineopenangleglaucoma2" %}
+{% include image.html url="physostigmineopenangleglaucoma2.png" file="physostigmineopenangleglaucoma2.png" alt="physostigmineopenangleglaucoma2" %}
 
 ## Concepts
 

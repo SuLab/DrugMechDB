@@ -5,7 +5,7 @@ permalink: cefiximeupperrespiratoryinfection2.html
 toc: false 
 ---
 
-{% include image.html file="cefiximeupperrespiratoryinfection2.png" alt="cefiximeupperrespiratoryinfection2" %}
+{% include image.html url="cefiximeupperrespiratoryinfection2.png" file="cefiximeupperrespiratoryinfection2.png" alt="cefiximeupperrespiratoryinfection2" %}
 
 ## Concepts
 

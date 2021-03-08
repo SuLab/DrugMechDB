@@ -5,7 +5,7 @@ permalink: loxapinebipolardisorder.html
 toc: false 
 ---
 
-{% include image.html file="loxapinebipolardisorder.png" alt="loxapinebipolardisorder" %}
+{% include image.html url="loxapinebipolardisorder.png" file="loxapinebipolardisorder.png" alt="loxapinebipolardisorder" %}
 
 ## Concepts
 

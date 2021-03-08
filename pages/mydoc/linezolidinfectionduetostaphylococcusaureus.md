@@ -5,7 +5,7 @@ permalink: linezolidinfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="linezolidinfectionduetostaphylococcusaureus.png" alt="linezolidinfectionduetostaphylococcusaureus" %}
+{% include image.html url="linezolidinfectionduetostaphylococcusaureus.png" file="linezolidinfectionduetostaphylococcusaureus.png" alt="linezolidinfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 

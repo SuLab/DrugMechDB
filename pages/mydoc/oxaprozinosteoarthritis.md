@@ -5,7 +5,7 @@ permalink: oxaprozinosteoarthritis.html
 toc: false 
 ---
 
-{% include image.html file="oxaprozinosteoarthritis.png" alt="oxaprozinosteoarthritis" %}
+{% include image.html url="oxaprozinosteoarthritis.png" file="oxaprozinosteoarthritis.png" alt="oxaprozinosteoarthritis" %}
 
 ## Concepts
 

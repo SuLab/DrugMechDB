@@ -5,7 +5,7 @@ permalink: alprazolampanicdisorder.html
 toc: false 
 ---
 
-{% include image.html file="alprazolampanicdisorder.png" alt="alprazolampanicdisorder" %}
+{% include image.html url="alprazolampanicdisorder.png" file="alprazolampanicdisorder.png" alt="alprazolampanicdisorder" %}
 
 ## Concepts
 

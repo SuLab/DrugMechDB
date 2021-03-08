@@ -5,7 +5,7 @@ permalink: loratadineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="loratadineallergicrhinitis.png" alt="loratadineallergicrhinitis" %}
+{% include image.html url="loratadineallergicrhinitis.png" file="loratadineallergicrhinitis.png" alt="loratadineallergicrhinitis" %}
 
 ## Concepts
 

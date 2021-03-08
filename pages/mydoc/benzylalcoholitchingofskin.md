@@ -5,7 +5,7 @@ permalink: benzylalcoholitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="benzylalcoholitchingofskin.png" alt="benzylalcoholitchingofskin" %}
+{% include image.html url="benzylalcoholitchingofskin.png" file="benzylalcoholitchingofskin.png" alt="benzylalcoholitchingofskin" %}
 
 ## Concepts
 
@@ -25,5 +25,7 @@ toc: false
 | Benzyl Alcohol | DECREASES ABUNDANCE OF | Sarcoptes Scabiei |
 | Sarcoptes Scabiei | CAUSES | Itching Of Skin |
 |---------|-----------|---------|
+
+Comment: Effective only for skin itching related to scabies
 
 Reference: [https://go.drugbank.com/drugs/DB06770#mechanism-of-action](https://go.drugbank.com/drugs/DB06770#mechanism-of-action){:target="_blank"}

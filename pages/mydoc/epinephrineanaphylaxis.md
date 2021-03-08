@@ -5,7 +5,7 @@ permalink: epinephrineanaphylaxis.html
 toc: false 
 ---
 
-{% include image.html file="epinephrineanaphylaxis.png" alt="epinephrineanaphylaxis" %}
+{% include image.html url="epinephrineanaphylaxis.png" file="epinephrineanaphylaxis.png" alt="epinephrineanaphylaxis" %}
 
 ## Concepts
 

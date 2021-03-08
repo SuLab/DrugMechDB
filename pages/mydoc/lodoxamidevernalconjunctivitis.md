@@ -5,7 +5,7 @@ permalink: lodoxamidevernalconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="lodoxamidevernalconjunctivitis.png" alt="lodoxamidevernalconjunctivitis" %}
+{% include image.html url="lodoxamidevernalconjunctivitis.png" file="lodoxamidevernalconjunctivitis.png" alt="lodoxamidevernalconjunctivitis" %}
 
 ## Concepts
 

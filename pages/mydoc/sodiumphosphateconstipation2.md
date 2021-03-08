@@ -5,7 +5,7 @@ permalink: sodiumphosphateconstipation2.html
 toc: false 
 ---
 
-{% include image.html file="sodiumphosphateconstipation2.png" alt="sodiumphosphateconstipation2" %}
+{% include image.html url="sodiumphosphateconstipation2.png" file="sodiumphosphateconstipation2.png" alt="sodiumphosphateconstipation2" %}
 
 ## Concepts
 

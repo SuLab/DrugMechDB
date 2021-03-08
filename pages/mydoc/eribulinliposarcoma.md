@@ -5,7 +5,7 @@ permalink: eribulinliposarcoma.html
 toc: false 
 ---
 
-{% include image.html file="eribulinliposarcoma.png" alt="eribulinliposarcoma" %}
+{% include image.html url="eribulinliposarcoma.png" file="eribulinliposarcoma.png" alt="eribulinliposarcoma" %}
 
 ## Concepts
 

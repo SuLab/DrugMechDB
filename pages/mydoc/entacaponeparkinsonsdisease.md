@@ -5,7 +5,7 @@ permalink: entacaponeparkinsonsdisease.html
 toc: false 
 ---
 
-{% include image.html file="entacaponeparkinsonsdisease.png" alt="entacaponeparkinsonsdisease" %}
+{% include image.html url="entacaponeparkinsonsdisease.png" file="entacaponeparkinsonsdisease.png" alt="entacaponeparkinsonsdisease" %}
 
 ## Concepts
 

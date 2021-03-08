@@ -5,7 +5,7 @@ permalink: azapropazonegout.html
 toc: false 
 ---
 
-{% include image.html file="azapropazonegout.png" alt="azapropazonegout" %}
+{% include image.html url="azapropazonegout.png" file="azapropazonegout.png" alt="azapropazonegout" %}
 
 ## Concepts
 
@@ -34,5 +34,7 @@ toc: false
 | Inflammation | CAUSES | Pain |
 | Pain | MANIFESTATION OF | Gout |
 |---------|-----------|---------|
+
+Comment: Withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}

@@ -5,7 +5,7 @@ permalink: linagliptindiabetesmellitustype23.html
 toc: false 
 ---
 
-{% include image.html file="linagliptindiabetesmellitustype23.png" alt="linagliptindiabetesmellitustype23" %}
+{% include image.html url="linagliptindiabetesmellitustype23.png" file="linagliptindiabetesmellitustype23.png" alt="linagliptindiabetesmellitustype23" %}
 
 ## Concepts
 

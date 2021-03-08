@@ -5,7 +5,7 @@ permalink: amfetamineattentiondeficithyperactivitydisorder3.html
 toc: false 
 ---
 
-{% include image.html file="amfetamineattentiondeficithyperactivitydisorder3.png" alt="amfetamineattentiondeficithyperactivitydisorder3" %}
+{% include image.html url="amfetamineattentiondeficithyperactivitydisorder3.png" file="amfetamineattentiondeficithyperactivitydisorder3.png" alt="amfetamineattentiondeficithyperactivitydisorder3" %}
 
 ## Concepts
 

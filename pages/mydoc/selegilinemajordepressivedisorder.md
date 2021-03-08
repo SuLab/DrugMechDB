@@ -5,7 +5,7 @@ permalink: selegilinemajordepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="selegilinemajordepressivedisorder.png" alt="selegilinemajordepressivedisorder" %}
+{% include image.html url="selegilinemajordepressivedisorder.png" file="selegilinemajordepressivedisorder.png" alt="selegilinemajordepressivedisorder" %}
 
 ## Concepts
 

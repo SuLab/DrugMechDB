@@ -5,7 +5,7 @@ permalink: brompheniraminevasomotorrhinitis2.html
 toc: false 
 ---
 
-{% include image.html file="brompheniraminevasomotorrhinitis2.png" alt="brompheniraminevasomotorrhinitis2" %}
+{% include image.html url="brompheniraminevasomotorrhinitis2.png" file="brompheniraminevasomotorrhinitis2.png" alt="brompheniraminevasomotorrhinitis2" %}
 
 ## Concepts
 

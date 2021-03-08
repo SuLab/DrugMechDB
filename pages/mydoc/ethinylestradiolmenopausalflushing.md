@@ -5,7 +5,7 @@ permalink: ethinylestradiolmenopausalflushing.html
 toc: false 
 ---
 
-{% include image.html file="ethinylestradiolmenopausalflushing.png" alt="ethinylestradiolmenopausalflushing" %}
+{% include image.html url="ethinylestradiolmenopausalflushing.png" file="ethinylestradiolmenopausalflushing.png" alt="ethinylestradiolmenopausalflushing" %}
 
 ## Concepts
 

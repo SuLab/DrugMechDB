@@ -5,7 +5,7 @@ permalink: ipratropiumallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="ipratropiumallergicrhinitis.png" alt="ipratropiumallergicrhinitis" %}
+{% include image.html url="ipratropiumallergicrhinitis.png" file="ipratropiumallergicrhinitis.png" alt="ipratropiumallergicrhinitis" %}
 
 ## Concepts
 

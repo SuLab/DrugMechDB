@@ -5,7 +5,7 @@ permalink: carmofurmalignanttumorofcolon.html
 toc: false 
 ---
 
-{% include image.html file="carmofurmalignanttumorofcolon.png" alt="carmofurmalignanttumorofcolon" %}
+{% include image.html url="carmofurmalignanttumorofcolon.png" file="carmofurmalignanttumorofcolon.png" alt="carmofurmalignanttumorofcolon" %}
 
 ## Concepts
 
@@ -27,5 +27,7 @@ toc: false
 | Acid Ceramidase | DISRUPTS | Cell Survival |
 | Cell Survival | CORRELATED WITH | Colon Cancer |
 |---------|-----------|---------|
+
+Comment: withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB09010#mechanism-of-action](https://go.drugbank.com/drugs/DB09010#mechanism-of-action){:target="_blank"}

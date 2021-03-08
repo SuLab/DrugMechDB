@@ -5,7 +5,7 @@ permalink: azapropazonerheumatoidarthritis.html
 toc: false 
 ---
 
-{% include image.html file="azapropazonerheumatoidarthritis.png" alt="azapropazonerheumatoidarthritis" %}
+{% include image.html url="azapropazonerheumatoidarthritis.png" file="azapropazonerheumatoidarthritis.png" alt="azapropazonerheumatoidarthritis" %}
 
 ## Concepts
 
@@ -32,5 +32,7 @@ toc: false
 | Prostaglandins | POSITIVELY CORRELATED WITH | Inflammation |
 | Inflammation | CAUSES | Rheumatoid Arthritis |
 |---------|-----------|---------|
+
+Comment: Withdrawn
 
 Reference: [https://go.drugbank.com/drugs/DB07402#mechanism-of-action](https://go.drugbank.com/drugs/DB07402#mechanism-of-action){:target="_blank"}

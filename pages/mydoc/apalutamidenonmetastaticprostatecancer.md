@@ -5,7 +5,7 @@ permalink: apalutamidenonmetastaticprostatecancer.html
 toc: false 
 ---
 
-{% include image.html file="apalutamidenonmetastaticprostatecancer.png" alt="apalutamidenonmetastaticprostatecancer" %}
+{% include image.html url="apalutamidenonmetastaticprostatecancer.png" file="apalutamidenonmetastaticprostatecancer.png" alt="apalutamidenonmetastaticprostatecancer" %}
 
 ## Concepts
 

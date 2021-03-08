@@ -5,7 +5,7 @@ permalink: epinephrineopenangleglaucoma3.html
 toc: false 
 ---
 
-{% include image.html file="epinephrineopenangleglaucoma3.png" alt="epinephrineopenangleglaucoma3" %}
+{% include image.html url="epinephrineopenangleglaucoma3.png" file="epinephrineopenangleglaucoma3.png" alt="epinephrineopenangleglaucoma3" %}
 
 ## Concepts
 

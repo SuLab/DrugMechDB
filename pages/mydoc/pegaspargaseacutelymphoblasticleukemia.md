@@ -5,7 +5,7 @@ permalink: pegaspargaseacutelymphoblasticleukemia.html
 toc: false 
 ---
 
-{% include image.html file="pegaspargaseacutelymphoblasticleukemia.png" alt="pegaspargaseacutelymphoblasticleukemia" %}
+{% include image.html url="pegaspargaseacutelymphoblasticleukemia.png" file="pegaspargaseacutelymphoblasticleukemia.png" alt="pegaspargaseacutelymphoblasticleukemia" %}
 
 ## Concepts
 

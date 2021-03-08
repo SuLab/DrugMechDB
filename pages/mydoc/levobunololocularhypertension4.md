@@ -5,7 +5,7 @@ permalink: levobunololocularhypertension4.html
 toc: false 
 ---
 
-{% include image.html file="levobunololocularhypertension4.png" alt="levobunololocularhypertension4" %}
+{% include image.html url="levobunololocularhypertension4.png" file="levobunololocularhypertension4.png" alt="levobunololocularhypertension4" %}
 
 ## Concepts
 

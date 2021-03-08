@@ -5,7 +5,7 @@ permalink: vasopressinfactorviiideficiencyhaemophiliaa.html
 toc: false 
 ---
 
-{% include image.html file="vasopressinfactorviiideficiencyhaemophiliaa.png" alt="vasopressinfactorviiideficiencyhaemophiliaa" %}
+{% include image.html url="vasopressinfactorviiideficiencyhaemophiliaa.png" file="vasopressinfactorviiideficiencyhaemophiliaa.png" alt="vasopressinfactorviiideficiencyhaemophiliaa" %}
 
 ## Concepts
 
@@ -25,5 +25,7 @@ toc: false
 | Vasopressin | INCREASES ABUNDANCE OF | Coagulation Factor Viii |
 | Coagulation Factor Viii | DISRUPTED BY | Hereditary Factor Viii Deficiency Disease |
 |---------|-----------|---------|
+
+Comment: Only for treatment of mild haemophilia
 
 Reference: [https://go.drugbank.com/drugs/DB00067#mechanism-of-action](https://go.drugbank.com/drugs/DB00067#mechanism-of-action){:target="_blank"}

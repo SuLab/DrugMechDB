@@ -5,7 +5,7 @@ permalink: saxagliptindiabetesmellitustype2.html
 toc: false 
 ---
 
-{% include image.html file="saxagliptindiabetesmellitustype2.png" alt="saxagliptindiabetesmellitustype2" %}
+{% include image.html url="saxagliptindiabetesmellitustype2.png" file="saxagliptindiabetesmellitustype2.png" alt="saxagliptindiabetesmellitustype2" %}
 
 ## Concepts
 

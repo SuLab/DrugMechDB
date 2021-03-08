@@ -5,7 +5,7 @@ permalink: polymyxinbotitisexterna.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinbotitisexterna.png" alt="polymyxinbotitisexterna" %}
+{% include image.html url="polymyxinbotitisexterna.png" file="polymyxinbotitisexterna.png" alt="polymyxinbotitisexterna" %}
 
 ## Concepts
 

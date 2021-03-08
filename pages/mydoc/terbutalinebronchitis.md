@@ -5,7 +5,7 @@ permalink: terbutalinebronchitis.html
 toc: false 
 ---
 
-{% include image.html file="terbutalinebronchitis.png" alt="terbutalinebronchitis" %}
+{% include image.html url="terbutalinebronchitis.png" file="terbutalinebronchitis.png" alt="terbutalinebronchitis" %}
 
 ## Concepts
 

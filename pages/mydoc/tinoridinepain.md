@@ -5,7 +5,7 @@ permalink: tinoridinepain.html
 toc: false 
 ---
 
-{% include image.html file="tinoridinepain.png" alt="tinoridinepain" %}
+{% include image.html url="tinoridinepain.png" file="tinoridinepain.png" alt="tinoridinepain" %}
 
 ## Concepts
 

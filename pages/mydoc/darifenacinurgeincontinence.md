@@ -5,7 +5,7 @@ permalink: darifenacinurgeincontinence.html
 toc: false 
 ---
 
-{% include image.html file="darifenacinurgeincontinence.png" alt="darifenacinurgeincontinence" %}
+{% include image.html url="darifenacinurgeincontinence.png" file="darifenacinurgeincontinence.png" alt="darifenacinurgeincontinence" %}
 
 ## Concepts
 

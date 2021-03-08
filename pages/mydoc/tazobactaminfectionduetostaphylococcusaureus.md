@@ -5,7 +5,7 @@ permalink: tazobactaminfectionduetostaphylococcusaureus.html
 toc: false 
 ---
 
-{% include image.html file="tazobactaminfectionduetostaphylococcusaureus.png" alt="tazobactaminfectionduetostaphylococcusaureus" %}
+{% include image.html url="tazobactaminfectionduetostaphylococcusaureus.png" file="tazobactaminfectionduetostaphylococcusaureus.png" alt="tazobactaminfectionduetostaphylococcusaureus" %}
 
 ## Concepts
 

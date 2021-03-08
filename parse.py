@@ -121,7 +121,7 @@ def generate_path_pages():
             # required header for format
             generate_md_header(
                 output=output, title=path_title, permalink=outfile_name)
-            
+
             output.write('{% include image.html url="' + outfile_name + '.png" ' +
                          'file="' + outfile_name + '.png" alt="' +
                          outfile_name + '" %}\n\n')
@@ -148,9 +148,8 @@ def generate_path_pages():
             if 'comment' in path:  # Display Comment if available
                 if path["comment"] is not None:
                     comment = path["comment"]
-                    output.write("\Comment: " + comment + "](" + url +
-                                 "){:target=\"_blank\"}")
-            
+                    output.write("\nComment: " + comment + "\n")
+
             if 'drugbank' in path["graph"]:  # generate drugbank url if available
                 if path["graph"]['drugbank'] is not None:
                     url = ("https://go.drugbank.com/drugs/" +

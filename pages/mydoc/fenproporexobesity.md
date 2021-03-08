@@ -5,7 +5,7 @@ permalink: fenproporexobesity.html
 toc: false 
 ---
 
-{% include image.html file="fenproporexobesity.png" alt="fenproporexobesity" %}
+{% include image.html url="fenproporexobesity.png" file="fenproporexobesity.png" alt="fenproporexobesity" %}
 
 ## Concepts
 

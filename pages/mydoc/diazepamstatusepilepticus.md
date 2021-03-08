@@ -5,7 +5,7 @@ permalink: diazepamstatusepilepticus.html
 toc: false 
 ---
 
-{% include image.html file="diazepamstatusepilepticus.png" alt="diazepamstatusepilepticus" %}
+{% include image.html url="diazepamstatusepilepticus.png" file="diazepamstatusepilepticus.png" alt="diazepamstatusepilepticus" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: sapropterinclassicalphenylketonuria.html
 toc: false 
 ---
 
-{% include image.html file="sapropterinclassicalphenylketonuria.png" alt="sapropterinclassicalphenylketonuria" %}
+{% include image.html url="sapropterinclassicalphenylketonuria.png" file="sapropterinclassicalphenylketonuria.png" alt="sapropterinclassicalphenylketonuria" %}
 
 ## Concepts
 

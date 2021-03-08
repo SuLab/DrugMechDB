@@ -5,7 +5,7 @@ permalink: belinostatperipheraltcelllymphoma.html
 toc: false 
 ---
 
-{% include image.html file="belinostatperipheraltcelllymphoma.png" alt="belinostatperipheraltcelllymphoma" %}
+{% include image.html url="belinostatperipheraltcelllymphoma.png" file="belinostatperipheraltcelllymphoma.png" alt="belinostatperipheraltcelllymphoma" %}
 
 ## Concepts
 

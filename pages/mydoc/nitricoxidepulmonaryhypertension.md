@@ -5,7 +5,7 @@ permalink: nitricoxidepulmonaryhypertension.html
 toc: false 
 ---
 
-{% include image.html file="nitricoxidepulmonaryhypertension.png" alt="nitricoxidepulmonaryhypertension" %}
+{% include image.html url="nitricoxidepulmonaryhypertension.png" file="nitricoxidepulmonaryhypertension.png" alt="nitricoxidepulmonaryhypertension" %}
 
 ## Concepts
 

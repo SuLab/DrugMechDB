@@ -5,7 +5,7 @@ permalink: ethinylestradiolpremenstrualdysphoricdisorder.html
 toc: false 
 ---
 
-{% include image.html file="ethinylestradiolpremenstrualdysphoricdisorder.png" alt="ethinylestradiolpremenstrualdysphoricdisorder" %}
+{% include image.html url="ethinylestradiolpremenstrualdysphoricdisorder.png" file="ethinylestradiolpremenstrualdysphoricdisorder.png" alt="ethinylestradiolpremenstrualdysphoricdisorder" %}
 
 ## Concepts
 

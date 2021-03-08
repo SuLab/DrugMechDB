@@ -5,7 +5,7 @@ permalink: clonidineopenangleglaucoma.html
 toc: false 
 ---
 
-{% include image.html file="clonidineopenangleglaucoma.png" alt="clonidineopenangleglaucoma" %}
+{% include image.html url="clonidineopenangleglaucoma.png" file="clonidineopenangleglaucoma.png" alt="clonidineopenangleglaucoma" %}
 
 ## Concepts
 

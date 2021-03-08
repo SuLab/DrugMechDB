@@ -5,7 +5,7 @@ permalink: fesoterodineurgeincontinence.html
 toc: false 
 ---
 
-{% include image.html file="fesoterodineurgeincontinence.png" alt="fesoterodineurgeincontinence" %}
+{% include image.html url="fesoterodineurgeincontinence.png" file="fesoterodineurgeincontinence.png" alt="fesoterodineurgeincontinence" %}
 
 ## Concepts
 

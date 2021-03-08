@@ -5,7 +5,7 @@ permalink: scopolaminecommoncold.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminecommoncold.png" alt="scopolaminecommoncold" %}
+{% include image.html url="scopolaminecommoncold.png" file="scopolaminecommoncold.png" alt="scopolaminecommoncold" %}
 
 ## Concepts
 

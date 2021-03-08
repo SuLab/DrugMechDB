@@ -5,7 +5,7 @@ permalink: terbutalineitchingofskin.html
 toc: false 
 ---
 
-{% include image.html file="terbutalineitchingofskin.png" alt="terbutalineitchingofskin" %}
+{% include image.html url="terbutalineitchingofskin.png" file="terbutalineitchingofskin.png" alt="terbutalineitchingofskin" %}
 
 ## Concepts
 

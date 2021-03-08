@@ -5,7 +5,7 @@ permalink: calcitriolrenalosteodystrophy.html
 toc: false 
 ---
 
-{% include image.html file="calcitriolrenalosteodystrophy.png" alt="calcitriolrenalosteodystrophy" %}
+{% include image.html url="calcitriolrenalosteodystrophy.png" file="calcitriolrenalosteodystrophy.png" alt="calcitriolrenalosteodystrophy" %}
 
 ## Concepts
 

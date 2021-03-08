@@ -5,7 +5,7 @@ permalink: brompheniramineallergicconjunctivitis3.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineallergicconjunctivitis3.png" alt="brompheniramineallergicconjunctivitis3" %}
+{% include image.html url="brompheniramineallergicconjunctivitis3.png" file="brompheniramineallergicconjunctivitis3.png" alt="brompheniramineallergicconjunctivitis3" %}
 
 ## Concepts
 

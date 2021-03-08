@@ -5,7 +5,7 @@ permalink: cyanocobalaminperniciousanemia.html
 toc: false 
 ---
 
-{% include image.html file="cyanocobalaminperniciousanemia.png" alt="cyanocobalaminperniciousanemia" %}
+{% include image.html url="cyanocobalaminperniciousanemia.png" file="cyanocobalaminperniciousanemia.png" alt="cyanocobalaminperniciousanemia" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: diazepamepilepsy.html
 toc: false 
 ---
 
-{% include image.html file="diazepamepilepsy.png" alt="diazepamepilepsy" %}
+{% include image.html url="diazepamepilepsy.png" file="diazepamepilepsy.png" alt="diazepamepilepsy" %}
 
 ## Concepts
 

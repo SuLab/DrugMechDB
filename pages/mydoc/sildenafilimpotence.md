@@ -5,7 +5,7 @@ permalink: sildenafilimpotence.html
 toc: false 
 ---
 
-{% include image.html file="sildenafilimpotence.png" alt="sildenafilimpotence" %}
+{% include image.html url="sildenafilimpotence.png" file="sildenafilimpotence.png" alt="sildenafilimpotence" %}
 
 ## Concepts
 

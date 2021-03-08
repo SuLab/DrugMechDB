@@ -5,7 +5,7 @@ permalink: polymyxinbbacterialconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="polymyxinbbacterialconjunctivitis.png" alt="polymyxinbbacterialconjunctivitis" %}
+{% include image.html url="polymyxinbbacterialconjunctivitis.png" file="polymyxinbbacterialconjunctivitis.png" alt="polymyxinbbacterialconjunctivitis" %}
 
 ## Concepts
 

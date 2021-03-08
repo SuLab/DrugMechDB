@@ -5,7 +5,7 @@ permalink: pyridoxinevitaminb6deficiency.html
 toc: false 
 ---
 
-{% include image.html file="pyridoxinevitaminb6deficiency.png" alt="pyridoxinevitaminb6deficiency" %}
+{% include image.html url="pyridoxinevitaminb6deficiency.png" file="pyridoxinevitaminb6deficiency.png" alt="pyridoxinevitaminb6deficiency" %}
 
 ## Concepts
 

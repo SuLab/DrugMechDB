@@ -5,7 +5,7 @@ permalink: imatinibcmlph.html
 toc: false 
 ---
 
-{% include image.html file="imatinibcmlph.png" alt="imatinibcmlph" %}
+{% include image.html url="imatinibcmlph.png" file="imatinibcmlph.png" alt="imatinibcmlph" %}
 
 ## Concepts
 

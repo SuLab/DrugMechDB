@@ -5,7 +5,7 @@ permalink: scopolaminemydriasis.html
 toc: false 
 ---
 
-{% include image.html file="scopolaminemydriasis.png" alt="scopolaminemydriasis" %}
+{% include image.html url="scopolaminemydriasis.png" file="scopolaminemydriasis.png" alt="scopolaminemydriasis" %}
 
 ## Concepts
 
@@ -41,5 +41,7 @@ toc: false
 | Response To Acetylcholine | NEGATIVELY CORRELATED WITH | Dilated Pupil |
 | Dilated Pupil | MANIFESTATION OF | Mydriasis |
 |---------|-----------|---------|
+
+Comment: Contraindication
 
 Reference: [https://go.drugbank.com/drugs/DB00747#mechanism-of-action](https://go.drugbank.com/drugs/DB00747#mechanism-of-action){:target="_blank"}

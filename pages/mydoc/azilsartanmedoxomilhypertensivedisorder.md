@@ -5,7 +5,7 @@ permalink: azilsartanmedoxomilhypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="azilsartanmedoxomilhypertensivedisorder.png" alt="azilsartanmedoxomilhypertensivedisorder" %}
+{% include image.html url="azilsartanmedoxomilhypertensivedisorder.png" file="azilsartanmedoxomilhypertensivedisorder.png" alt="azilsartanmedoxomilhypertensivedisorder" %}
 
 ## Concepts
 

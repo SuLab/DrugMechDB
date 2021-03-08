@@ -5,7 +5,7 @@ permalink: formoterolpulmonaryemphysema.html
 toc: false 
 ---
 
-{% include image.html file="formoterolpulmonaryemphysema.png" alt="formoterolpulmonaryemphysema" %}
+{% include image.html url="formoterolpulmonaryemphysema.png" file="formoterolpulmonaryemphysema.png" alt="formoterolpulmonaryemphysema" %}
 
 ## Concepts
 

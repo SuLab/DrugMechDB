@@ -5,7 +5,7 @@ permalink: calciumcarbonateindigestion.html
 toc: false 
 ---
 
-{% include image.html file="calciumcarbonateindigestion.png" alt="calciumcarbonateindigestion" %}
+{% include image.html url="calciumcarbonateindigestion.png" file="calciumcarbonateindigestion.png" alt="calciumcarbonateindigestion" %}
 
 ## Concepts
 

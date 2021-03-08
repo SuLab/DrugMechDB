@@ -5,7 +5,7 @@ permalink: isoprenalinehypovolemicshock.html
 toc: false 
 ---
 
-{% include image.html file="isoprenalinehypovolemicshock.png" alt="isoprenalinehypovolemicshock" %}
+{% include image.html url="isoprenalinehypovolemicshock.png" file="isoprenalinehypovolemicshock.png" alt="isoprenalinehypovolemicshock" %}
 
 ## Concepts
 

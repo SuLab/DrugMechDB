@@ -5,7 +5,7 @@ permalink: cyproheptadineurticaria2.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadineurticaria2.png" alt="cyproheptadineurticaria2" %}
+{% include image.html url="cyproheptadineurticaria2.png" file="cyproheptadineurticaria2.png" alt="cyproheptadineurticaria2" %}
 
 ## Concepts
 

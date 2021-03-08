@@ -5,7 +5,7 @@ permalink: betamethasonecrohnsdisease.html
 toc: false 
 ---
 
-{% include image.html file="betamethasonecrohnsdisease.png" alt="betamethasonecrohnsdisease" %}
+{% include image.html url="betamethasonecrohnsdisease.png" file="betamethasonecrohnsdisease.png" alt="betamethasonecrohnsdisease" %}
 
 ## Concepts
 

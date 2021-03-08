@@ -5,7 +5,7 @@ permalink: amoxapinedepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="amoxapinedepressivedisorder.png" alt="amoxapinedepressivedisorder" %}
+{% include image.html url="amoxapinedepressivedisorder.png" file="amoxapinedepressivedisorder.png" alt="amoxapinedepressivedisorder" %}
 
 ## Concepts
 

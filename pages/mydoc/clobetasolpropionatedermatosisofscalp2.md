@@ -5,7 +5,7 @@ permalink: clobetasolpropionatedermatosisofscalp2.html
 toc: false 
 ---
 
-{% include image.html file="clobetasolpropionatedermatosisofscalp2.png" alt="clobetasolpropionatedermatosisofscalp2" %}
+{% include image.html url="clobetasolpropionatedermatosisofscalp2.png" file="clobetasolpropionatedermatosisofscalp2.png" alt="clobetasolpropionatedermatosisofscalp2" %}
 
 ## Concepts
 

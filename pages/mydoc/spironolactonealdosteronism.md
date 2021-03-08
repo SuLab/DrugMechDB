@@ -5,7 +5,7 @@ permalink: spironolactonealdosteronism.html
 toc: false 
 ---
 
-{% include image.html file="spironolactonealdosteronism.png" alt="spironolactonealdosteronism" %}
+{% include image.html url="spironolactonealdosteronism.png" file="spironolactonealdosteronism.png" alt="spironolactonealdosteronism" %}
 
 ## Concepts
 

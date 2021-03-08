@@ -5,7 +5,7 @@ permalink: tazarotenepsoriasis.html
 toc: false 
 ---
 
-{% include image.html file="tazarotenepsoriasis.png" alt="tazarotenepsoriasis" %}
+{% include image.html url="tazarotenepsoriasis.png" file="tazarotenepsoriasis.png" alt="tazarotenepsoriasis" %}
 
 ## Concepts
 
@@ -50,5 +50,7 @@ toc: false
 | Inflammatory Response | POSITIVELY CORRELATED WITH | Psoriasis |
 | Dermatitis, Exfoliative | POSITIVELY CORRELATED WITH | Psoriasis |
 |---------|-----------|---------|
+
+Comment: MESH:D057705 refers to the movement of leukocytes (the term NCIT:C91439 would have been better suited here but could not be validated)
 
 Reference: [https://go.drugbank.com/drugs/DB00799#mechanism-of-action](https://go.drugbank.com/drugs/DB00799#mechanism-of-action){:target="_blank"}

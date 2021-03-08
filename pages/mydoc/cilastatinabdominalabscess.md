@@ -5,7 +5,7 @@ permalink: cilastatinabdominalabscess.html
 toc: false 
 ---
 
-{% include image.html file="cilastatinabdominalabscess.png" alt="cilastatinabdominalabscess" %}
+{% include image.html url="cilastatinabdominalabscess.png" file="cilastatinabdominalabscess.png" alt="cilastatinabdominalabscess" %}
 
 ## Concepts
 

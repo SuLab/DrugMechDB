@@ -5,7 +5,7 @@ permalink: cholicacidcholelithiasis.html
 toc: false 
 ---
 
-{% include image.html file="cholicacidcholelithiasis.png" alt="cholicacidcholelithiasis" %}
+{% include image.html url="cholicacidcholelithiasis.png" file="cholicacidcholelithiasis.png" alt="cholicacidcholelithiasis" %}
 
 ## Concepts
 
@@ -23,5 +23,7 @@ toc: false
 |---------|-----------|---------|
 | Cholic Acid | TREATS | Cholelithiasis |
 |---------|-----------|---------|
+
+Comment: Cholic acid is not a common treatment for Cholelithiasis https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3348960/
 
 Reference: [https://go.drugbank.com/drugs/DB02659#mechanism-of-action](https://go.drugbank.com/drugs/DB02659#mechanism-of-action){:target="_blank"}

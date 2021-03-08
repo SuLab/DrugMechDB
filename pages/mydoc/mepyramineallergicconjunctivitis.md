@@ -5,7 +5,7 @@ permalink: mepyramineallergicconjunctivitis.html
 toc: false 
 ---
 
-{% include image.html file="mepyramineallergicconjunctivitis.png" alt="mepyramineallergicconjunctivitis" %}
+{% include image.html url="mepyramineallergicconjunctivitis.png" file="mepyramineallergicconjunctivitis.png" alt="mepyramineallergicconjunctivitis" %}
 
 ## Concepts
 

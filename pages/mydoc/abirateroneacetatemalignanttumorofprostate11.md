@@ -5,7 +5,7 @@ permalink: abirateroneacetatemalignanttumorofprostate11.html
 toc: false 
 ---
 
-{% include image.html file="abirateroneacetatemalignanttumorofprostate11.png" alt="abirateroneacetatemalignanttumorofprostate11" %}
+{% include image.html url="abirateroneacetatemalignanttumorofprostate11.png" file="abirateroneacetatemalignanttumorofprostate11.png" alt="abirateroneacetatemalignanttumorofprostate11" %}
 
 ## Concepts
 

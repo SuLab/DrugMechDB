@@ -5,7 +5,7 @@ permalink: adalimumabhidradenitissuppurativa.html
 toc: false 
 ---
 
-{% include image.html file="adalimumabhidradenitissuppurativa.png" alt="adalimumabhidradenitissuppurativa" %}
+{% include image.html url="adalimumabhidradenitissuppurativa.png" file="adalimumabhidradenitissuppurativa.png" alt="adalimumabhidradenitissuppurativa" %}
 
 ## Concepts
 

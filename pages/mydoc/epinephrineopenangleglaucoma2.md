@@ -5,7 +5,7 @@ permalink: epinephrineopenangleglaucoma2.html
 toc: false 
 ---
 
-{% include image.html file="epinephrineopenangleglaucoma2.png" alt="epinephrineopenangleglaucoma2" %}
+{% include image.html url="epinephrineopenangleglaucoma2.png" file="epinephrineopenangleglaucoma2.png" alt="epinephrineopenangleglaucoma2" %}
 
 ## Concepts
 
@@ -40,5 +40,7 @@ toc: false
 | Aqueous Humor | POSITIVELY CORRELATED WITH | Ocular Hypertension |
 | Ocular Hypertension | POSITIVELY CORRELATED WITH | Open-Angle Glaucoma |
 |---------|-----------|---------|
+
+Comment: DrugBank (https://go.drugbank.com/drugs/DB00668) has this drug modulating beta receptors but not for glaucoma. For this indication, the ligand should be an antagonist (and epinephrine is an agonist instead)
 
 Reference: [https://go.drugbank.com/drugs/DB00668#mechanism-of-action](https://go.drugbank.com/drugs/DB00668#mechanism-of-action){:target="_blank"}

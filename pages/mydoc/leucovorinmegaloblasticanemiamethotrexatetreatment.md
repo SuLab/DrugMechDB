@@ -5,7 +5,7 @@ permalink: leucovorinmegaloblasticanemiamethotrexatetreatment.html
 toc: false 
 ---
 
-{% include image.html file="leucovorinmegaloblasticanemiamethotrexatetreatment.png" alt="leucovorinmegaloblasticanemiamethotrexatetreatment" %}
+{% include image.html url="leucovorinmegaloblasticanemiamethotrexatetreatment.png" file="leucovorinmegaloblasticanemiamethotrexatetreatment.png" alt="leucovorinmegaloblasticanemiamethotrexatetreatment" %}
 
 ## Concepts
 

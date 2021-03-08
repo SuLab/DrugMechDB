@@ -5,7 +5,7 @@ permalink: carbamazepinetrigeminalneuralgia.html
 toc: false 
 ---
 
-{% include image.html file="carbamazepinetrigeminalneuralgia.png" alt="carbamazepinetrigeminalneuralgia" %}
+{% include image.html url="carbamazepinetrigeminalneuralgia.png" file="carbamazepinetrigeminalneuralgia.png" alt="carbamazepinetrigeminalneuralgia" %}
 
 ## Concepts
 

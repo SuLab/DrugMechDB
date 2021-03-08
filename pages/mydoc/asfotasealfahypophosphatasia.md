@@ -5,7 +5,7 @@ permalink: asfotasealfahypophosphatasia.html
 toc: false 
 ---
 
-{% include image.html file="asfotasealfahypophosphatasia.png" alt="asfotasealfahypophosphatasia" %}
+{% include image.html url="asfotasealfahypophosphatasia.png" file="asfotasealfahypophosphatasia.png" alt="asfotasealfahypophosphatasia" %}
 
 ## Concepts
 

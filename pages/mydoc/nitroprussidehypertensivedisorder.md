@@ -5,7 +5,7 @@ permalink: nitroprussidehypertensivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="nitroprussidehypertensivedisorder.png" alt="nitroprussidehypertensivedisorder" %}
+{% include image.html url="nitroprussidehypertensivedisorder.png" file="nitroprussidehypertensivedisorder.png" alt="nitroprussidehypertensivedisorder" %}
 
 ## Concepts
 

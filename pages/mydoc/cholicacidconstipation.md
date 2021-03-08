@@ -5,7 +5,7 @@ permalink: cholicacidconstipation.html
 toc: false 
 ---
 
-{% include image.html file="cholicacidconstipation.png" alt="cholicacidconstipation" %}
+{% include image.html url="cholicacidconstipation.png" file="cholicacidconstipation.png" alt="cholicacidconstipation" %}
 
 ## Concepts
 

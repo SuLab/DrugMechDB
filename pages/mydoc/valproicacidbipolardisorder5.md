@@ -5,7 +5,7 @@ permalink: valproicacidbipolardisorder5.html
 toc: false 
 ---
 
-{% include image.html file="valproicacidbipolardisorder5.png" alt="valproicacidbipolardisorder5" %}
+{% include image.html url="valproicacidbipolardisorder5.png" file="valproicacidbipolardisorder5.png" alt="valproicacidbipolardisorder5" %}
 
 ## Concepts
 

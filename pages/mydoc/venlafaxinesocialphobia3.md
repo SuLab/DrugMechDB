@@ -5,7 +5,7 @@ permalink: venlafaxinesocialphobia3.html
 toc: false 
 ---
 
-{% include image.html file="venlafaxinesocialphobia3.png" alt="venlafaxinesocialphobia3" %}
+{% include image.html url="venlafaxinesocialphobia3.png" file="venlafaxinesocialphobia3.png" alt="venlafaxinesocialphobia3" %}
 
 ## Concepts
 

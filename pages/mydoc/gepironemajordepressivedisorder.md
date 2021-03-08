@@ -5,7 +5,7 @@ permalink: gepironemajordepressivedisorder.html
 toc: false 
 ---
 
-{% include image.html file="gepironemajordepressivedisorder.png" alt="gepironemajordepressivedisorder" %}
+{% include image.html url="gepironemajordepressivedisorder.png" file="gepironemajordepressivedisorder.png" alt="gepironemajordepressivedisorder" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: desoximetasonecontactdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonecontactdermatitis.png" alt="desoximetasonecontactdermatitis" %}
+{% include image.html url="desoximetasonecontactdermatitis.png" file="desoximetasonecontactdermatitis.png" alt="desoximetasonecontactdermatitis" %}
 
 ## Concepts
 

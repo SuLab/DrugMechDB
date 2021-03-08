@@ -5,7 +5,7 @@ permalink: infliximabcrohnsdisease.html
 toc: false 
 ---
 
-{% include image.html file="infliximabcrohnsdisease.png" alt="infliximabcrohnsdisease" %}
+{% include image.html url="infliximabcrohnsdisease.png" file="infliximabcrohnsdisease.png" alt="infliximabcrohnsdisease" %}
 
 ## Concepts
 

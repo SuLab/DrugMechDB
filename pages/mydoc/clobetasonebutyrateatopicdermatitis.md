@@ -5,7 +5,7 @@ permalink: clobetasonebutyrateatopicdermatitis.html
 toc: false 
 ---
 
-{% include image.html file="clobetasonebutyrateatopicdermatitis.png" alt="clobetasonebutyrateatopicdermatitis" %}
+{% include image.html url="clobetasonebutyrateatopicdermatitis.png" file="clobetasonebutyrateatopicdermatitis.png" alt="clobetasonebutyrateatopicdermatitis" %}
 
 ## Concepts
 

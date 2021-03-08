@@ -5,7 +5,7 @@ permalink: brompheniramineurticaria3.html
 toc: false 
 ---
 
-{% include image.html file="brompheniramineurticaria3.png" alt="brompheniramineurticaria3" %}
+{% include image.html url="brompheniramineurticaria3.png" file="brompheniramineurticaria3.png" alt="brompheniramineurticaria3" %}
 
 ## Concepts
 

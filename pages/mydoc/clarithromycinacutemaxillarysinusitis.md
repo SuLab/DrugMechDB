@@ -5,7 +5,7 @@ permalink: clarithromycinacutemaxillarysinusitis.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinacutemaxillarysinusitis.png" alt="clarithromycinacutemaxillarysinusitis" %}
+{% include image.html url="clarithromycinacutemaxillarysinusitis.png" file="clarithromycinacutemaxillarysinusitis.png" alt="clarithromycinacutemaxillarysinusitis" %}
 
 ## Concepts
 

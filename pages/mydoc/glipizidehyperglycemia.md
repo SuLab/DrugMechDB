@@ -5,7 +5,7 @@ permalink: glipizidehyperglycemia.html
 toc: false 
 ---
 
-{% include image.html file="glipizidehyperglycemia.png" alt="glipizidehyperglycemia" %}
+{% include image.html url="glipizidehyperglycemia.png" file="glipizidehyperglycemia.png" alt="glipizidehyperglycemia" %}
 
 ## Concepts
 

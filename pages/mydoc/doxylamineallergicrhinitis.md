@@ -5,7 +5,7 @@ permalink: doxylamineallergicrhinitis.html
 toc: false 
 ---
 
-{% include image.html file="doxylamineallergicrhinitis.png" alt="doxylamineallergicrhinitis" %}
+{% include image.html url="doxylamineallergicrhinitis.png" file="doxylamineallergicrhinitis.png" alt="doxylamineallergicrhinitis" %}
 
 ## Concepts
 

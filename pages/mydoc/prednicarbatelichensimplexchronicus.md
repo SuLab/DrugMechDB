@@ -5,7 +5,7 @@ permalink: prednicarbatelichensimplexchronicus.html
 toc: false 
 ---
 
-{% include image.html file="prednicarbatelichensimplexchronicus.png" alt="prednicarbatelichensimplexchronicus" %}
+{% include image.html url="prednicarbatelichensimplexchronicus.png" file="prednicarbatelichensimplexchronicus.png" alt="prednicarbatelichensimplexchronicus" %}
 
 ## Concepts
 

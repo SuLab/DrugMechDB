@@ -5,7 +5,7 @@ permalink: nicardipineanginapectoris.html
 toc: false 
 ---
 
-{% include image.html file="nicardipineanginapectoris.png" alt="nicardipineanginapectoris" %}
+{% include image.html url="nicardipineanginapectoris.png" file="nicardipineanginapectoris.png" alt="nicardipineanginapectoris" %}
 
 ## Concepts
 

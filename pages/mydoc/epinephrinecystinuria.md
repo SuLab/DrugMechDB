@@ -5,7 +5,7 @@ permalink: epinephrinecystinuria.html
 toc: false 
 ---
 
-{% include image.html file="epinephrinecystinuria.png" alt="epinephrinecystinuria" %}
+{% include image.html url="epinephrinecystinuria.png" file="epinephrinecystinuria.png" alt="epinephrinecystinuria" %}
 
 ## Concepts
 
@@ -30,5 +30,7 @@ toc: false
 | Urolithiasis | POSITIVELY CORRELATED WITH | Cystinuria |
 | Cystine Crystalluria | POSITIVELY CORRELATED WITH | Cystinuria |
 |---------|-----------|---------|
+
+Comment: Tiopronin is a cystine depleting agent (MESH:D065104). Please note that NCIT has a more specific term to the MESH term used in this path (D052878 for Urolithiasis). The NCIT ID (not listed in the path visualiser) is NCIT:C123244.
 
 Reference: [https://go.drugbank.com/drugs/DB06823#mechanism-of-action](https://go.drugbank.com/drugs/DB06823#mechanism-of-action){:target="_blank"}

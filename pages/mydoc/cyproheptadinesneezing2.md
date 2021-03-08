@@ -5,7 +5,7 @@ permalink: cyproheptadinesneezing2.html
 toc: false 
 ---
 
-{% include image.html file="cyproheptadinesneezing2.png" alt="cyproheptadinesneezing2" %}
+{% include image.html url="cyproheptadinesneezing2.png" file="cyproheptadinesneezing2.png" alt="cyproheptadinesneezing2" %}
 
 ## Concepts
 

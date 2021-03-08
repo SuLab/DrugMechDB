@@ -5,7 +5,7 @@ permalink: icatibanthereditaryangioneuroticedema.html
 toc: false 
 ---
 
-{% include image.html file="icatibanthereditaryangioneuroticedema.png" alt="icatibanthereditaryangioneuroticedema" %}
+{% include image.html url="icatibanthereditaryangioneuroticedema.png" file="icatibanthereditaryangioneuroticedema.png" alt="icatibanthereditaryangioneuroticedema" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: dapsoneacnevulgaris.html
 toc: false 
 ---
 
-{% include image.html file="dapsoneacnevulgaris.png" alt="dapsoneacnevulgaris" %}
+{% include image.html url="dapsoneacnevulgaris.png" file="dapsoneacnevulgaris.png" alt="dapsoneacnevulgaris" %}
 
 ## Concepts
 

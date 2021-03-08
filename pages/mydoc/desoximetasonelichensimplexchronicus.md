@@ -5,7 +5,7 @@ permalink: desoximetasonelichensimplexchronicus.html
 toc: false 
 ---
 
-{% include image.html file="desoximetasonelichensimplexchronicus.png" alt="desoximetasonelichensimplexchronicus" %}
+{% include image.html url="desoximetasonelichensimplexchronicus.png" file="desoximetasonelichensimplexchronicus.png" alt="desoximetasonelichensimplexchronicus" %}
 
 ## Concepts
 

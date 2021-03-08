@@ -5,7 +5,7 @@ permalink: clarithromycinpneumoniaduetomycoplasmapneumoniae.html
 toc: false 
 ---
 
-{% include image.html file="clarithromycinpneumoniaduetomycoplasmapneumoniae.png" alt="clarithromycinpneumoniaduetomycoplasmapneumoniae" %}
+{% include image.html url="clarithromycinpneumoniaduetomycoplasmapneumoniae.png" file="clarithromycinpneumoniaduetomycoplasmapneumoniae.png" alt="clarithromycinpneumoniaduetomycoplasmapneumoniae" %}
 
 ## Concepts
 

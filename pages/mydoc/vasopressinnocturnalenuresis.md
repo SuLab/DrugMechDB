@@ -5,7 +5,7 @@ permalink: vasopressinnocturnalenuresis.html
 toc: false 
 ---
 
-{% include image.html file="vasopressinnocturnalenuresis.png" alt="vasopressinnocturnalenuresis" %}
+{% include image.html url="vasopressinnocturnalenuresis.png" file="vasopressinnocturnalenuresis.png" alt="vasopressinnocturnalenuresis" %}
 
 ## Concepts
 

@@ -5,7 +5,7 @@ permalink: chlortalidoneedema.html
 toc: false 
 ---
 
-{% include image.html file="chlortalidoneedema.png" alt="chlortalidoneedema" %}
+{% include image.html url="chlortalidoneedema.png" file="chlortalidoneedema.png" alt="chlortalidoneedema" %}
 
 ## Concepts
 
