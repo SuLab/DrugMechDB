@@ -1,0 +1,34 @@
+name: Update Website
+
+on:
+  push
+
+jobs:
+  generate_pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Python enviornment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Set up build enviornment
+        run: |
+          pip install matplotlib
+          pip install networkx
+          pip install numpy
+          pip install pandas
+          pip install git+https://github.com/mmayers12/path_plots
+          pip install -U PyYAML
+
+      - name: Generate new documentation
+        run: python3 parse.py
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: 'pages/\*.md images/\*.png'
