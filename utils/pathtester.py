@@ -9,7 +9,7 @@ ALLOWED_CURIS = {'CHEBI',
  'HP',
  'InterPro',
  'PR',
- 'Pfam'
+ 'Pfam',
  'MESH',
  'NCBITaxon',
  'REACT',
