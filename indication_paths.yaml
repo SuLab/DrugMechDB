@@ -41259,3 +41259,1415 @@
         https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://en.wikipedia.org/wiki/Glaucoma#Medication
         https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0
         https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
+-   comments: This drug is fungistatic at concetrations up to 20 mcg/mL, and is fungicidal
+        in vitro when used at higher concentrations. Also please note that MESH:D002181
+        was initially denoted as Candidal vulvovaginitis in the original xls file
+        but the name on the MESH website, which is Candidiasis, Vulvovaginal, is the
+        one used here for our annotation.
+    directed: true
+    graph:
+        disease: Candidiasis, Vulvovaginal
+        disease_mesh: MESH:D002181
+        drug: clotrimazole
+        drug_mesh: MESH:D003022
+        drugbank: DB:DB00257
+    links:
+    -   key: negatively regulates
+        source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D002181
+    multigraph: true
+    nodes:
+    -   id: MESH:D003022
+        label: Drug
+        name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D002181
+        label: Disease
+        name: Candidiasis, Vulvovaginal
+    reference: https://go.drugbank.com/drugs/DB00257#BE0000233 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
+        https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
+-   comments: Diaper rash can be caused by different factors, including fungus, when
+        it's known as diaper candidiasis. If a fungal origin is identified, the treatment
+        is based on antifungals (e.g. clotrimazole). Therefore the original cause
+        must be determined first as the treatments vary (https://en.wikipedia.org/wiki/Irritant_diaper_dermatitis#Secondary_infections).
+    directed: true
+    graph:
+        disease: Diaper rash
+        disease_mesh: MESH:D003963
+        drug: clotrimazole
+        drug_mesh: MESH:D003022
+        drugbank: DB:DB00257
+    links:
+    -   key: negatively regulates
+        source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D003963
+    multigraph: true
+    nodes:
+    -   id: MESH:D003022
+        label: Drug
+        name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D003963
+        label: Disease
+        name: Diaper rash
+    reference: https://go.drugbank.com/drugs/DB00257#BE0000233 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
+        https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
+-   comments: MESH:D002179 was initially denoted as Candidiasis of skin in the original
+        xls file but the name on the MESH website, which is Candidiasis, Cutaneous,
+        is the one used here for our annotation.
+    directed: true
+    graph:
+        disease: Candidiasis, Cutaneous
+        disease_mesh: MESH:D002179
+        drug: clotrimazole
+        drug_mesh: MESH:D003022
+        drugbank: DB:DB00257
+    links:
+    -   key: negatively regulates
+        source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D002179
+    multigraph: true
+    nodes:
+    -   id: MESH:D003022
+        label: Drug
+        name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D002179
+        label: Disease
+        name: Candidiasis, Cutaneous
+    reference: https://go.drugbank.com/drugs/DB00257#BE0000233 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
+        https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
+-   comments: MESH:D002180 was initially denoted as Candidiasis of mouth in the original
+        xls file but the name on the MESH website, which is Candidiasis, Oral, is
+        the one used here for our annotation.
+    directed: true
+    graph:
+        disease: Candidiasis, Oral
+        disease_mesh: MESH:D002180
+        drug: clotrimazole
+        drug_mesh: MESH:D003022
+        drugbank: DB:DB00257
+    links:
+    -   key: negatively regulates
+        source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D002180
+    multigraph: true
+    nodes:
+    -   id: MESH:D003022
+        label: Drug
+        name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D002180
+        label: Disease
+        name: Candidiasis, Oral
+    reference: https://go.drugbank.com/drugs/DB00257#BE0000233 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
+        https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
+-   directed: true
+    graph:
+        disease: Tinea pedis
+        disease_mesh: MESH:D014008
+        drug: clotrimazole
+        drug_mesh: MESH:D003022
+        drugbank: DB:DB00257
+    links:
+    -   key: negatively regulates
+        source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D014008
+    multigraph: true
+    nodes:
+    -   id: MESH:D003022
+        label: Drug
+        name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D014008
+        label: Disease
+        name: Tinea pedis
+    reference: https://go.drugbank.com/drugs/DB00257#BE0000233 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
+        https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
+-   comments: MESH:D014010 was initially denoted as Pityriasis versicolor in the original
+        xls file but the name on the MESH website, Tinea Versicolor, is the one used
+        here for our annotation.
+    directed: true
+    graph:
+        disease: Tinea Versicolor
+        disease_mesh: MESH:D014010
+        drug: clotrimazole
+        drug_mesh: MESH:D003022
+        drugbank: DB:DB00257
+    links:
+    -   key: negatively regulates
+        source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D014010
+    multigraph: true
+    nodes:
+    -   id: MESH:D003022
+        label: Drug
+        name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D014010
+        label: Disease
+        name: Tinea Versicolor
+    reference: https://go.drugbank.com/drugs/DB00257#BE0000233 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
+        https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
+-   comments: MESH:D016780 was initially denoted as Falciparum malaria in the original
+        xls file but the name on the MESH website is Malaria, Falciparum, which is
+        the name used here for our annotation. Also note that heme and hematin are
+        related substances resulting from the parasite hemoglobin catabolism. Heme
+        is bound to iron whereas hematin is the hydroxide counterpart of heme. Both
+        are cytotoxic.
+    directed: true
+    graph:
+        disease: Malaria, Falciparum
+        disease_mesh: MESH:D016778
+        drug: Artesunate
+        drug_mesh: MESH:D000077332
+        drugbank: DB:DB09274
+    links:
+    -   key: negatively regulates
+        source: MESH:D000077332
+        target: UniProt:P04926
+    -   key: decreases abundance of
+        source: UniProt:P04926
+        target: MESH:D006427
+    -   key: in taxon
+        source: MESH:D006427
+        target: NCBITaxon:5833
+    -   key: causes
+        source: NCBITaxon:5833
+        target: MESH:D016778
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C111789
+        id: MESH:D000077332
+        label: Drug
+        name: Artesunate
+    -   id: UniProt:P04926
+        label: Protein
+        name: Malaria protein EXP-1
+    -   alt_ids:
+        - MESH:D006418
+        id: MESH:D006427
+        label: ChemicalSubstance
+        name: Hemin
+    -   id: NCBITaxon:5833
+        label: OrganismTaxon
+        name: Plasmodium falciparum
+    -   id: MESH:D016778
+        label: Disease
+        name: Malaria, Falciparum
+    reference: https://go.drugbank.com/drugs/DB09274#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/6917864#section=Pharmacology-and-Biochemistry
+-   comments: MESH:D016780 was initially denoted as Vivax malaria in the original
+        xls file but the name on the MESH website, Malaria, Vivax, is the one used
+        here for our annotation. Also note that heme and hematin are related substances
+        resulting from the parasite hemoglobin catabolism. Heme is bound to iron and
+        hematin is the hydroxide counterpart of heme. Both are cytotoxic to the parasite.
+    directed: true
+    graph:
+        disease: Malaria, Vivax
+        disease_mesh: MESH:D016780
+        drug: Artesunate
+        drug_mesh: MESH:D000077332
+        drugbank: DB:DB09274
+    links:
+    -   key: negatively regulates
+        source: MESH:D000077332
+        target: Pfam:PF06589
+    -   key: decreases abundance of
+        source: Pfam:PF06589
+        target: MESH:D006427
+    -   key: in taxon
+        source: MESH:D006427
+        target: NCBITaxon:5855
+    -   key: causes
+        source: NCBITaxon:5855
+        target: MESH:D016780
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C111789
+        id: MESH:D000077332
+        label: Drug
+        name: Artesunate
+    -   id: Pfam:PF06589
+        label: GeneFamily
+        name: Circumsporozoite-related antigen (CRA)
+    -   id: MESH:D006427
+        label: ChemicalSubstance
+        name: Hemin
+    -   id: NCBITaxon:5855
+        label: OrganismTaxon
+        name: Plasmodium vivax
+    -   id: MESH:D016780
+        label: Disease
+        name: Malaria, Vivax
+    reference: https://go.drugbank.com/drugs/DB09274#pharmacodynamics https://pubchem.ncbi.nlm.nih.gov/compound/6917864#section=Pharmacology-and-Biochemistry
+-   comments: ABT-267 is also known as ombitasvir (see Other names at https://en.wikipedia.org/wiki/Ombitasvir).
+    directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: ABT-267
+        drug_mesh: MESH:C586094
+        drugbank: DB:DB09296
+    links:
+    -   key: negatively regulates
+        source: MESH:C586094
+        target: UniProt:Q5L478
+    -   key: molecularly interacts with
+        source: UniProt:Q5L478
+        target: MESH:C000618292
+    -   key: increases abundance of
+        source: MESH:C000618292
+        target: MESH:C037178
+    -   key: positively correlated with
+        source: MESH:C037178
+        target: MESH:D002784
+    -   key: located in
+        source: MESH:D002784
+        target: MESH:D000086969
+    -   key: location of
+        source: MESH:D000086969
+        target: GO:0039694
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0003968
+    -   key: positively regulates
+        source: GO:0003968
+        target: GO:0039694
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0004197
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0004252
+    -   key: positively correlated with
+        source: GO:0004197
+        target: MESH:D014779
+    -   key: positively correlated with
+        source: GO:0004252
+        target: MESH:D014779
+    -   key: positively correlated with
+        source: MESH:D014779
+        target: MESH:D019065
+    -   key: in taxon
+        source: GO:0039694
+        target: NCBITaxon:11103
+    -   key: in taxon
+        source: MESH:D019065
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C586094
+        label: Drug
+        name: ABT-267
+    -   id: UniProt:Q5L478
+        label: Protein
+        name: Nonstructural protein 5A
+    -   id: GO:0003968
+        label: MolecularActivity
+        name: RNA-directed 5'-3' RNA polymerase activity
+    -   id: GO:0039694
+        label: BiologicalProcess
+        name: viral RNA genome replication
+    -   id: MESH:C000618292
+        label: Protein
+        name: PI4KIIIalpha protein, human
+    -   id: MESH:C037178
+        label: ChemicalSubstance
+        name: phosphatidylinositol 4-phosphate
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D000086969
+        label: CellularComponent
+        name: Viral Replication Compartments
+    -   id: GO:0004197
+        label: MolecularActivity
+        name: cysteine-type endopeptidase activity
+    -   id: GO:0004252
+        label: MolecularActivity
+        name: serine-type endopeptidase activity
+    -   id: MESH:D014779
+        label: BiologicalProcess
+        name: Virus Replication
+    -   id: MESH:D019065
+        label: BiologicalProcess
+        name: Virus Assembly
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference: https://go.drugbank.com/drugs/DB09296#mechanism-of-action https://en.wikipedia.org/wiki/Discovery_and_development_of_NS5A_inhibitors#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Discovery_and_development_of_NS5A_inhibitors#Function
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246218/ https://www.ncbi.nlm.nih.gov/books/NBK1623/
+-   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
+        myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
+        This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
+        Note the original drug to curate for this disease was inositol but there is
+        no evidence for it to be used as treatment unless it's bound to nicotinic
+        acid to form inositol hexanicotinate).
+    directed: true
+    graph:
+        disease: Hypoalphalipoproteinemia
+        disease_mesh: MESH:D052456
+        drug: Inositol Niacinate
+        drug_mesh: MESH:C005193
+        drugbank: DB:DB08949
+    links:
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:P49019
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:Q8TDS4
+    -   key: participates in
+        source: UniProt:P49019
+        target: REACT:R-HSA-418594
+    -   key: participates in
+        source: UniProt:Q8TDS4
+        target: REACT:R-HSA-418594
+    -   key: negatively regulates
+        source: REACT:R-HSA-418594
+        target: GO:0016042
+    -   key: decreases abundance of
+        source: GO:0016042
+        target: MESH:D014280
+    -   key: negatively correlated with
+        source: MESH:D014280
+        target: MESH:D008075
+    -   key: negatively correlated with
+        source: MESH:D008075
+        target: MESH:D052456
+    multigraph: true
+    nodes:
+    -   id: MESH:C005193
+        label: Drug
+        name: Inositol Niacinate
+    -   id: UniProt:P49019
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 3
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: GO:0016042
+        label: BiologicalProcess
+        name: lipid catabolic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D008075
+        label: ChemicalSubstance
+        name: Lipoproteins, HDL
+    -   id: MESH:D052456
+        label: Disease
+        name: Hypoalphalipoproteinemia
+    reference: https://go.drugbank.com/drugs/DB08949#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/15083592/
+        https://www.sciencedirect.com/science/article/pii/B978032329738700037X https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
+        https://en.wikipedia.org/wiki/Triglyceride#Role_in_disease
+-   comments: This disease was named Mixed hyperlipidemia in the original file for
+        curation but it's known as Hyperlipidemia, Familial Combined in MESH. Note
+        there does not seem to be any evidence supporting this drug indication (e.g.
+        https://en.wikipedia.org/wiki/Combined_hyperlipidemia#Treatment), so this
+        path is hypothetic and based on the disease phenotype (i.e increased LDL and
+        triglyceride concentrations). Other commonly used names for this drug are
+        inositol nicotinate (CHEBI:50134), myo inositol hexanicotinate (CHEBI:31699)
+        and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
+        This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
+        Note the original drug to curate for this disease was inositol but there is
+        no evidence for it to be used as treatment unless it's bound to nicotinic
+        acid to form inositol hexanicotinate.
+    directed: true
+    graph:
+        disease: Hyperlipidemia, Familial Combined
+        disease_mesh: MESH:D006950
+        drug: Inositol Niacinate
+        drug_mesh: MESH:C005193
+        drugbank: DB:DB08949
+    links:
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:P49019
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:Q8TDS4
+    -   key: participates in
+        source: UniProt:P49019
+        target: REACT:R-HSA-418594
+    -   key: participates in
+        source: UniProt:Q8TDS4
+        target: REACT:R-HSA-418594
+    -   key: negatively regulates
+        source: REACT:R-HSA-418594
+        target: GO:0016042
+    -   key: decreases abundance of
+        source: GO:0016042
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:C032607
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D008078
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:C032607
+        target: MESH:D006950
+    -   key: positively correlated with
+        source: MESH:D008078
+        target: MESH:D006950
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:C005193
+        label: Drug
+        name: Inositol Niacinate
+    -   id: UniProt:P49019
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 3
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: GO:0016042
+        label: BiologicalProcess
+        name: lipid catabolic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:C032607
+        label: ChemicalSubstance
+        name: low density lipoprotein triglyceride
+    -   id: MESH:D008078
+        label: ChemicalSubstance
+        name: Cholesterol, LDL
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006950
+        label: Disease
+        name: Hyperlipidemia, Familial Combined
+    reference: https://go.drugbank.com/drugs/DB08949#mechanism-of-action https://en.wikipedia.org/wiki/Triglyceride#Role_in_disease
+        https://pubmed.ncbi.nlm.nih.gov/15083592/ https://www.sciencedirect.com/science/article/pii/B978032329738700037X
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
+-   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
+        myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
+        This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
+        Note the original drug to curate for this disease was inositol but there is
+        no evidence for it to be used as treatment unless it's bound to nicotinic
+        acid to form inositol hexanicotinate.
+    directed: true
+    graph:
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+        drug: Inositol Niacinate
+        drug_mesh: MESH:C005193
+        drugbank: DB:DB08949
+    links:
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:P49019
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:Q8TDS4
+    -   key: participates in
+        source: UniProt:P49019
+        target: REACT:R-HSA-418594
+    -   key: participates in
+        source: UniProt:Q8TDS4
+        target: REACT:R-HSA-418594
+    -   key: negatively regulates
+        source: REACT:R-HSA-418594
+        target: GO:0016042
+    -   key: decreases abundance of
+        source: GO:0016042
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: MESH:C005193
+        label: Drug
+        name: Inositol Niacinate
+    -   id: UniProt:P49019
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 3
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: GO:0016042
+        label: BiologicalProcess
+        name: lipid catabolic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference: https://go.drugbank.com/drugs/DB08949#mechanism-of-action https://en.wikipedia.org/wiki/Hypertriglyceridemia#Treatment
+        https://en.wikipedia.org/wiki/Triglyceride#Role_in_disease https://pubmed.ncbi.nlm.nih.gov/15083592/
+        https://www.sciencedirect.com/science/article/pii/B978032329738700037X https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
+-   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
+        myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
+        This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
+        Note the original drug to curate for this disease was inositol but there is
+        no evidence for it to be used as treatment unless it's bound to nicotinic
+        acid to form inositol hexanicotinate.
+    directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: Inositol Niacinate
+        drug_mesh: MESH:C005193
+        drugbank: DB:DB08949
+    links:
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:P49019
+    -   key: increases activity of
+        source: MESH:C005193
+        target: UniProt:Q8TDS4
+    -   key: participates in
+        source: UniProt:P49019
+        target: REACT:R-HSA-418594
+    -   key: participates in
+        source: UniProt:Q8TDS4
+        target: REACT:R-HSA-418594
+    -   key: negatively regulates
+        source: REACT:R-HSA-418594
+        target: GO:0016042
+    -   key: decreases abundance of
+        source: GO:0016042
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:C032607
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D008078
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:C032607
+        target: MESH:D006937
+    -   key: positively correlated with
+        source: MESH:D008078
+        target: MESH:D006937
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:C005193
+        label: Drug
+        name: Inositol Niacinate
+    -   id: UniProt:P49019
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 3
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: GO:0016042
+        label: BiologicalProcess
+        name: lipid catabolic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:C032607
+        label: ChemicalSubstance
+        name: low density lipoprotein triglyceride
+    -   id: MESH:D008078
+        label: ChemicalSubstance
+        name: Cholesterol, LDL
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference: https://go.drugbank.com/drugs/DB08949#mechanism-of-action https://en.wikipedia.org/wiki/Hypercholesterolemia#Medication
+        https://pubmed.ncbi.nlm.nih.gov/15083592/ https://www.sciencedirect.com/science/article/pii/B978032329738700037X
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
+-   comments: MESH:D015451 can also be denoted as Chronic lymphoid leukemia.
+    directed: true
+    graph:
+        disease: Leukemia, Lymphocytic, Chronic, B-Cell
+        disease_mesh: MESH:D015451
+        drug: venetoclax
+        drug_mesh: MESH:C579720
+        drugbank: DB:DB11581
+    links:
+    -   key: negatively regulates
+        source: MESH:C579720
+        target: UniProt:P10415
+    -   key: negatively regulates
+        source: UniProt:P10415
+        target: GO:0097190
+    -   key: negatively correlated with
+        source: GO:0097190
+        target: MESH:D015451
+    multigraph: true
+    nodes:
+    -   id: MESH:C579720
+        label: Drug
+        name: venetoclax
+    -   id: UniProt:P10415
+        label: Protein
+        name: Apoptosis regulator Bcl-2
+    -   id: GO:0097190
+        label: BiologicalProcess
+        name: apoptotic signaling pathway
+    -   id: MESH:D015451
+        label: Disease
+        name: Leukemia, Lymphocytic, Chronic, B-Cell
+    reference: https://go.drugbank.com/drugs/DB11581#mechanism-of-action https://en.wikipedia.org/wiki/Bcl-2#Venetoclax_(ABT-199)
+-   comments: FDA has withdrawn the approval for marketing this drug as per its cardiovascular
+        side-effects.
+    directed: true
+    graph:
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: dexfenfluramine
+        drug_mesh: MESH:D020372
+        drugbank: DB:DB01191
+    links:
+    -   key: negatively regulates
+        source: MESH:D020372
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: positively correlated with
+        source: GO:0051610
+        target: MESH:D001066
+    -   key: positively correlated with
+        source: MESH:D001066
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:D020372
+        label: Drug
+        name: dexfenfluramine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: serotonin uptake
+    -   id: MESH:D001066
+        label: PhenotypicFeature
+        name: Appetite
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference: https://go.drugbank.com/drugs/DB01191#mechanism-of-action https://en.wikipedia.org/wiki/Dexfenfluramine
+-   comments: FDA has withdrawn the approval for marketing this drug as per its cardiovascular
+        side-effects.
+    directed: true
+    graph:
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: dexfenfluramine
+        drug_mesh: MESH:D020372
+        drugbank: DB:DB01191
+    links:
+    -   key: positively regulates
+        source: MESH:D020372
+        target: UniProt:P28335
+    -   key: participates in
+        source: UniProt:P28335
+        target: REACT:R-HSA-416476
+    -   key: positively regulates
+        source: REACT:R-HSA-416476
+        target: GO:0007631
+    -   key: positively regulates
+        source: REACT:R-HSA-416476
+        target: GO:0032098
+    -   key: positively correlated with
+        source: GO:0007631
+        target: MESH:D009765
+    -   key: negatively correlated with
+        source: GO:0032098
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:D020372
+        label: Drug
+        name: dexfenfluramine
+    -   id: UniProt:P28335
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2C
+    -   id: REACT:R-HSA-416476
+        label: BiologicalProcess
+        name: G alpha (q) signalling events
+    -   id: GO:0007631
+        label: BiologicalProcess
+        name: feeding behavior
+    -   id: GO:0032098
+        label: BiologicalProcess
+        name: regulation of appetite
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference: https://go.drugbank.com/drugs/DB01191#mechanism-of-action https://en.wikipedia.org/wiki/5-HT2C_receptor_agonist#Obesity
+        https://en.wikipedia.org/wiki/5-HT2C_receptor_agonist#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: ketoprofen
+        drug_mesh: MESH:D007660
+        drugbank: DB:DB01009
+    links:
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P23219
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0005059
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: HP:0005059
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D007660
+        label: Drug
+        name: ketoprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: HP:0005059
+        label: PhenotypicFeature
+        name: Joint pain/Joint inflammation
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB01009#mechanism-of-action https://en.wikipedia.org/wiki/Ketoprofen#Mechanism
+        https://en.wikipedia.org/wiki/Rheumatoid_arthritis#Anti-inflammatory_and_analgesic_agents
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: ketoprofen
+        drug_mesh: MESH:D007660
+        drugbank: DB:DB01009
+    links:
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P25024
+    -   key: positively regulates
+        source: UniProt:P25024
+        target: GO:0030593
+    -   key: positively regulates
+        source: UniProt:P25024
+        target: GO:0002407
+    -   key: positively correlated with
+        source: GO:0030593
+        target: MESH:D020556
+    -   key: positively correlated with
+        source: MESH:D020556
+        target: HP:0005059
+    -   key: positively correlated with
+        source: MESH:D020556
+        target: HP:0001386
+    -   key: positively correlated with
+        source: GO:0002407
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: HP:0005059
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D007660
+        label: Drug
+        name: ketoprofen
+    -   id: UniProt:P25024
+        label: Protein
+        name: C-X-C chemokine receptor type 1
+    -   id: GO:0030593
+        label: BiologicalProcess
+        name: neutrophil chemotaxis
+    -   id: GO:0002407
+        label: BiologicalProcess
+        name: dendritic cell chemotaxis
+    -   id: HP:0005059
+        label: PhenotypicFeature
+        name: Joint pain/Joint inflammation
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D020556
+        label: BiologicalProcess
+        name: Neutrophil Infiltration
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB01009#BE0003552 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943798/
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: ketoprofen
+        drug_mesh: MESH:D007660
+        drugbank: DB:DB01009
+    links:
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P23219
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:D007660
+        label: Drug
+        name: ketoprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference: https://go.drugbank.com/drugs/DB01009 https://en.wikipedia.org/wiki/Analgesic#COX-2_inhibitors
+-   directed: true
+    graph:
+        disease: Dysmenorrhea
+        disease_mesh: MESH:D004412
+        drug: ketoprofen
+        drug_mesh: MESH:D007660
+        drugbank: DB:DB01009
+    links:
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P23219
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: MESH:D014590
+    -   key: positively correlated with
+        source: MESH:D014590
+        target: MESH:D004412
+    multigraph: true
+    nodes:
+    -   id: MESH:D007660
+        label: Drug
+        name: ketoprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D014590
+        label: PhenotypicFeature
+        name: Uterine Contraction
+    -   id: MESH:D004412
+        label: Disease
+        name: Dysmenorrhea
+    reference: https://go.drugbank.com/drugs/DB01009 https://www.aafp.org/afp/1999/0801/p489.html
+-   comments: In contrast to rheumatoid arthritis, in osteoarthritis the joints do
+        not become hot or red.  (https://en.wikipedia.org/wiki/Osteoarthritis#cite_note-NIH2015-1)
+    directed: true
+    graph:
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: ketoprofen
+        drug_mesh: MESH:D007660
+        drugbank: DB:DB01009
+    links:
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P23219
+    -   key: negatively regulates
+        source: MESH:D007660
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0002829
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D010003
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D010003
+    multigraph: true
+    nodes:
+    -   id: MESH:D007660
+        label: Drug
+        name: ketoprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference: https://go.drugbank.com/drugs/DB01009
+-   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
+        myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
+        This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
+        Note the original drug to curate for this disease was inositol but there is
+        no evidence for it to be used as treatment unless it's bound to nicotinic
+        acid to form inositol hexanicotinate.??
+    directed: true
+    graph:
+        disease: Pellagra
+        disease_mesh: MESH:D010383
+        drug: Inositol Niacinate
+        drug_mesh: MESH:C005193
+        drugbank: DB:DB08949
+    links:
+    -   key: increases abundance of
+        source: MESH:C005193
+        target: CHEBI:15940
+    -   key: increases abundance of
+        source: CHEBI:15940
+        target: CHEBI:17154
+    -   key: negatively correlated with
+        source: CHEBI:17154
+        target: HP:0100497
+    -   key: positively correlated with
+        source: HP:0100497
+        target: MESH:D010383
+    multigraph: true
+    nodes:
+    -   id: MESH:C005193
+        label: Drug
+        name: Inositol Niacinate
+    -   id: CHEBI:15940
+        label: ChemicalSubstance
+        name: nicotinic acid
+    -   id: CHEBI:17154
+        label: ChemicalSubstance
+        name: nicotinamide
+    -   id: HP:0100497
+        label: PhenotypicFeature
+        name: Vitamin B3 deficiency
+    -   id: MESH:D010383
+        label: Disease
+        name: Pellagra
+    reference: https://go.drugbank.com/drugs/DB08949#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/3720#section=Drug-and-Medication-Information
+        https://en.wikipedia.org/wiki/Pellagra#Treatment https://en.wikipedia.org/wiki/Nicotinamide
+        https://en.wikipedia.org/wiki/Nicotinamide#Niacin_deficiency https://onlinelibrary.wiley.com/doi/epdf/10.1002/jppr.1250
+-   directed: true
+    graph:
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: Adapalene
+        drug_mesh: MESH:D000068816
+        drugbank: DB:DB00257
+    links:
+    -   key: positively regulates
+        source: MESH:D000068816
+        target: MESH:D018168
+    -   key: negatively regulates
+        source: MESH:D018168
+        target: GO:0031424
+    -   key: increases abundance of
+        source: GO:0031424
+        target: HP:0025249
+    -   key: positively correlated with
+        source: HP:0025249
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068816
+        label: Drug
+        name: Adapalene
+    -   id: MESH:D018168
+        label: GeneFamily
+        name: Receptors, Retinoic Acid
+    -   id: GO:0031424
+        label: BiologicalProcess
+        name: keratinization
+    -   id: HP:0025249
+        label: PhenotypicFeature
+        name: Comedo
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: https://go.drugbank.com/drugs/DB00210#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2374937/
+        https://en.wikipedia.org/wiki/Adapalene#Pharmacodynamics https://pubmed.ncbi.nlm.nih.gov/19929446/
+-   directed: true
+    graph:
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: Adapalene
+        drug_mesh: MESH:D000068816
+        drugbank: DB:DB00257
+    links:
+    -   key: negatively regulates
+        source: MESH:D000068816
+        target: UniProt:O60603
+    -   key: positively regulates
+        source: UniProt:O60603
+        target: UniProt:P05412
+    -   key: positively correlated with
+        source: UniProt:P05412
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:1747
+    -   key: positively correlated with
+        source: NCBITaxon:1747
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068816
+        label: Drug
+        name: Adapalene
+    -   id: UniProt:O60603
+        label: Protein
+        name: Toll-like receptor 2
+    -   id: UniProt:P05412
+        label: Protein
+        name: Transcription factor AP-1
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: NCBITaxon:1747
+        label: OrganismTaxon
+        name: Cutibacterium acnes
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: https://go.drugbank.com/drugs/DB00210#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2374937/
+        https://en.wikipedia.org/wiki/Adapalene#Pharmacodynamics https://pubmed.ncbi.nlm.nih.gov/19929446/
