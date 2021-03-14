@@ -42671,3 +42671,1134 @@
         name: Acne vulgaris
     reference: https://go.drugbank.com/drugs/DB00210#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2374937/
         https://en.wikipedia.org/wiki/Adapalene#Pharmacodynamics https://pubmed.ncbi.nlm.nih.gov/19929446/
+-   directed: true
+    graph:
+        disease: Malignant tumor of stomach
+        disease_mesh: MESH:D013274
+        drug: Tegafur
+        drug_mesh: MESH:D005641
+        drugbank: DB:DB09256
+    links:
+    -   key: increases activity of
+        source: MESH:D005641
+        target: InterPro:IPR001128
+    -   key: increases abundance of
+        source: InterPro:IPR001128
+        target: MESH:D005472
+    -   key: has metabolite
+        source: MESH:D005472
+        target: MESH:D005468
+    -   key: has metabolite
+        source: MESH:D005472
+        target: MESH:C025635
+    -   key: negatively regulates
+        source: MESH:C025635
+        target: GO:0032774
+    -   key: negatively regulates
+        source: MESH:C025635
+        target: GO:0006412
+    -   key: decreases activity of
+        source: MESH:D005468
+        target: UniProt:P04818
+    -   key: negatively regulates
+        source: UniProt:P04818
+        target: GO:0071897
+    -   key: located in
+        source: GO:0071897
+        target: CL:0001063
+    -   key: located in
+        source: GO:0032774
+        target: CL:0001063
+    -   key: located in
+        source: GO:0006412
+        target: CL:0001063
+    -   key: contributes to
+        source: CL:0001063
+        target: MESH:D013274
+    multigraph: true
+    nodes:
+    -   id: MESH:D005641
+        label: Drug
+        name: Tegafur
+    -   id: InterPro:IPR001128
+        label: GeneFamily
+        name: cytochrome P-450
+    -   id: MESH:D005472
+        label: ChemicalSubstance
+        name: 5-fluorouracil
+    -   id: MESH:D005468
+        label: ChemicalSubstance
+        name: 5-fluoro-2-deoxyuridine monophosphate
+    -   id: MESH:C025635
+        label: ChemicalSubstance
+        name: 5-fluorouridine triphosphate
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA synthesis
+    -   id: GO:0032774
+        label: BiologicalProcess
+        name: RNA synthesis
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Protein synthesis
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cell
+    -   id: MESH:D013274
+        label: Disease
+        name: Malignant tumor of stomach
+    reference: https://go.drugbank.com/drugs/DB09256#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Tegafur#section=Mechanism-of-Action
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: Paliperidone
+        drug_mesh: null
+        drugbank: DB:DB01267
+    links:
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P35348
+    -   key: positively regulates
+        source: UniProt:P35348
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P28223
+    -   key: positively regulates
+        source: UniProt:P28223
+        target: REACT:R-HSA-162582
+    -   key: decreases activity of
+        source: DB:DB01267
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: UniProt:P14416
+        target: REACT:R-HSA-162582
+    -   key: correlated with
+        source: REACT:R-HSA-162582
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: DB:DB01267
+        label: Drug
+        name: Paliperidone
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha 1 adrenergic receptor
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha 2 adrenergic receptor
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: REACT:R-HSA-162582
+        label: Pathway
+        name: Signal transduction
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB01267#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Paliperidone
+-   directed: true
+    graph:
+        disease: Bruxism (teeth grinding)
+        disease_mesh: MESH:D002012
+        drug: Tandospirone
+        drug_mesh: MESH:C055267
+        drugbank: DB:DB12833
+    links:
+    -   key: increases activity of
+        source: MESH:C055267
+        target: UniProt:P08908
+    -   key: negatively regulates
+        source: UniProt:P08908
+        target: HP:0000739
+    -   key: correlated with
+        source: HP:0000739
+        target: MESH:D002012
+    multigraph: true
+    nodes:
+    -   id: MESH:C055267
+        label: Drug
+        name: Tandospirone
+    -   id: UniProt:P08908
+        label: Protein
+        name: 5-HT1A receptor
+    -   id: HP:0000739
+        label: PhenotypicFeature
+        name: Anxiety
+    -   id: MESH:D002012
+        label: Disease
+        name: Bruxism
+    reference: https://go.drugbank.com/drugs/DB12833#mechanismofaction
+-   directed: true
+    graph:
+        disease: Non-small cell lung cancer
+        disease_mesh: MESH:D002289
+        drug: Nintedanib
+        drug_mesh: MESH:C530716
+        drugbank: DB:DB09079
+    links:
+    -   key: decreases activity of
+        source: MESH:C530716
+        target: InterPro:IPR009135
+    -   key: negatively regulates
+        source: InterPro:IPR009135
+        target: REACT:R-HSA-194138
+    -   key: participates in
+        source: REACT:R-HSA-194138
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:C530716
+        target: InterPro:IPR016248
+    -   key: negatively regulates
+        source: InterPro:IPR016248
+        target: REACT:R-HSA-190236
+    -   key: participates in
+        source: REACT:R-HSA-190236
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:C530716
+        target: InterPro:IPR006782
+    -   key: negatively regulates
+        source: InterPro:IPR006782
+        target: REACT:R-HSA-186797
+    -   key: participates in
+        source: REACT:R-HSA-186797
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:C530716
+        target: UniProt:P36888
+    -   key: negatively regulates
+        source: UniProt:P36888
+        target: REACT:R-HSA-9607240
+    -   key: participates in
+        source: REACT:R-HSA-9607240
+        target: GO:0001525
+    -   key: prevents
+        source: GO:0001525
+        target: GO:0008283
+    -   key: contributes to
+        source: GO:0008283
+        target: MESH:D002289
+    multigraph: true
+    nodes:
+    -   id: MESH:C530716
+        label: Drug
+        name: Nintedanib
+    -   id: InterPro:IPR009135
+        label: GeneFamily
+        name: Vascular endothelial growth factor receptor
+    -   id: REACT:R-HSA-194138
+        label: Pathway
+        name: Signaling by VEGF
+    -   id: UniProt:P36888
+        label: Protein
+        name: fms like tyrosine kinase 3 (FLT-3)
+    -   id: REACT:R-HSA-9607240
+        label: Pathway
+        name: FLT3 Signaling
+    -   id: InterPro:IPR006782
+        label: GeneFamily
+        name: Platelet-derived growth factor receptor
+    -   id: REACT:R-HSA-186797
+        label: Pathway
+        name: Signaling by PDGF
+    -   id: InterPro:IPR016248
+        label: GeneFamily
+        name: Fibroblast growth factor receptor
+    -   id: REACT:R-HSA-190236
+        label: Pathway
+        name: Signaling by FGFR
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: Angiogenesis
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell proliferation
+    -   id: MESH:D002289
+        label: Disease
+        name: Non-small cell lung cancer
+    reference: https://go.drugbank.com/drugs/DB09079#mechanismofaction https://en.wikipedia.org/wiki/Nintedanib
+        doi:10.1183/09031936.00174914
+-   directed: true
+    graph:
+        disease: Hamman-Rich syndrome
+        disease_mesh: MESH:D000080203
+        drug: Nintedanib
+        drug_mesh: MESH:C530716
+        drugbank: DB:DB09079
+    links:
+    -   key: decreases activity of
+        source: MESH:C530716
+        target: UniProt:P12931
+    -   key: negatively regulates
+        source: UniProt:P12931
+        target: REACT:R-HSA-9006927
+    -   key: decreases activity of
+        source: MESH:C530716
+        target: UniProt:P06239
+    -   key: negatively regulates
+        source: UniProt:P06239
+        target: REACT:R-HSA-9006927
+    -   key: decreases activity of
+        source: MESH:C530716
+        target: UniProt:P07948
+    -   key: negatively regulates
+        source: UniProt:P07948
+        target: REACT:R-HSA-9006927
+    -   key: prevents
+        source: REACT:R-HSA-9006927
+        target: HP:0006530
+    -   key: correlated with
+        source: HP:0006530
+        target: MESH:D000080203
+    multigraph: true
+    nodes:
+    -   id: MESH:C530716
+        label: Drug
+        name: Nintedanib
+    -   id: UniProt:P12931
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase Src
+    -   id: UniProt:P07948
+        label: Protein
+        name: Tyrosine-protein kinase Lyn
+    -   id: UniProt:P06239
+        label: Protein
+        name: Tyrosine-protein kinase Lck
+    -   id: REACT:R-HSA-9006927
+        label: Pathway
+        name: Signaling by Non-Receptor Tyrosine Kinases
+    -   id: HP:0006530
+        label: PhenotypicFeature
+        name: lung fibrosis
+    -   id: MESH:D000080203
+        label: Disease
+        name: Hamman-Rich syndrome
+    reference: https://go.drugbank.com/drugs/DB09079#mechanismofaction https://en.wikipedia.org/wiki/Nintedanib
+        doi:10.1183/09031936.00174914
+-   directed: true
+    graph:
+        disease: Inhalational anthrax
+        disease_mesh: MESH:C571912
+        drug: Obiltoxaximab
+        drug_mesh: MESH:C000611266
+        drugbank: DB:DB05336
+    links:
+    -   key: molecularly interacts with
+        source: MESH:C000611266
+        target: InterPro:IPR027439
+    -   key: part of
+        source: InterPro:IPR027439
+        target: MESH:C030325
+    -   key: prevents
+        source: MESH:C030325
+        target: GO:0035635
+    -   key: in taxon
+        source: GO:0035635
+        target: NCBITaxon:1392
+    -   key: causes
+        source: NCBITaxon:1392
+        target: MESH:C571912
+    multigraph: true
+    nodes:
+    -   id: MESH:C000611266
+        label: Drug
+        name: Obiltoxaximab
+    -   id: InterPro:IPR027439
+        label: GeneFamily
+        name: Protective Antigen
+    -   id: MESH:C030325
+        label: ChemicalSubstance
+        name: Anthrax toxin
+    -   id: GO:0035635
+        label: BiologicalProcess
+        name: Entry of bacterium into host cell
+    -   id: NCBITaxon:1392
+        label: OrganismTaxon
+        name: Bacillus anthracis
+    -   id: MESH:C571912
+        label: Disease
+        name: Inhalational anthrax
+    reference: https://go.drugbank.com/drugs/DB05336#mechanismofaction
+-   directed: true
+    graph:
+        disease: Thrombocytopenic disorder
+        disease_mesh: MESH:D013921
+        drug: Lusutrombopag
+        drug_mesh: MESH:C000611387
+        drugbank: DB:DB13125
+    links:
+    -   key: increases activity of
+        source: MESH:C000611387
+        target: UniProt:P40238
+    -   key: positively regulates
+        source: UniProt:P40238
+        target: GO:0007259
+    -   key: enables
+        source: GO:0007259
+        target: MESH:D034061
+    -   key: expressed in
+        source: MESH:D034061
+        target: CL:0000556
+    -   key: increases activity of
+        source: CL:0000556
+        target: GO:0008283
+    -   key: increases abundance of
+        source: GO:0008283
+        target: HP:0001873
+    -   key: increases activity of
+        source: CL:0000556
+        target: GO:0030154
+    -   key: increases abundance of
+        source: GO:0030154
+        target: HP:0001873
+    -   key: manifestation of
+        source: HP:0001873
+        target: MESH:D013921
+    multigraph: true
+    nodes:
+    -   id: MESH:C000611387
+        label: Drug
+        name: Lusutrombopag
+    -   id: UniProt:P40238
+        label: Protein
+        name: thrombopoietin receptor
+    -   id: GO:0007259
+        label: BiologicalProcess
+        name: Receptor signaling pathway via JAK-STAT
+    -   id: MESH:D034061
+        label: BiologicalProcess
+        name: Thrombocytopoiesis
+    -   id: CL:0000556
+        label: Cell
+        name: Megakaryocytes
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: GO:0030154
+        label: BiologicalProcess
+        name: Cell differentiation
+    -   id: HP:0001873
+        label: PhenotypicFeature
+        name: Platelet counts
+    -   id: MESH:D013921
+        label: Disease
+        name: Thrombocytopenic disorder
+    reference: https://go.drugbank.com/drugs/DB13125#mechanismofaction
+-   directed: true
+    graph:
+        disease: Respiratory distress syndrome in the newborn
+        disease_mesh: MESH:D012127
+        drug: Lucinactant
+        drug_mesh: MESH:C502722
+        drugbank: DB:DB04897
+    links:
+    -   key: chemically similar to
+        source: MESH:C502722
+        target: UniProt:P07988
+    -   key: decreases activity of
+        source: UniProt:P07988
+        target: GO:0050828
+    -   key: located in
+        source: GO:0050828
+        target: UBERON:0002299
+    -   key: increases activity of
+        source: UBERON:0002299
+        target: GO:0043576
+    -   key: correlated with
+        source: GO:0043576
+        target: MESH:D012127
+    multigraph: true
+    nodes:
+    -   id: MESH:C502722
+        label: Drug
+        name: Lucinactant
+    -   id: UniProt:P07988
+        label: Protein
+        name: Surfactant protein B (SP-B)
+    -   id: GO:0050828
+        label: BiologicalProcess
+        name: Surface tension at the air-liquid interface
+    -   id: UBERON:0002299
+        label: GrossAnatomicalStructure
+        name: Alveolus of lung
+    -   id: GO:0043576
+        label: BiologicalProcess
+        name: Respiratory gaseous exchange
+    -   id: MESH:D012127
+        label: Disease
+        name: Respiratory distress syndrome in the newborn
+    reference: https://go.drugbank.com/drugs/DB04897#mechanismofaction
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Levocabastine
+        drug_mesh: MESH:C047340
+        drugbank: DB:DB01106
+    links:
+    -   key: decreases activity of
+        source: MESH:C047340
+        target: UniProt:P35367
+    -   key: prevents
+        source: UniProt:P35367
+        target: GO:0051381
+    -   key: decreases response to
+        source: GO:0051381
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C047340
+        label: Drug
+        name: Levocabastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1-receptor
+    -   id: GO:0051381
+        label: BiologicalProcess
+        name: Histamine binding
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Itching
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB01106#mechanismofaction
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Levocabastine
+        drug_mesh: MESH:C047340
+        drugbank: DB:DB01106
+    links:
+    -   key: increases activity of
+        source: MESH:C047340
+        target: UniProt:O95665
+    -   key: decreases response to
+        source: UniProt:O95665
+        target: HP:0012531
+    -   key: correlated with
+        source: HP:0012531
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C047340
+        label: Drug
+        name: Levocabastine
+    -   id: UniProt:O95665
+        label: Protein
+        name: Neurotensin receptor type 2
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB01106#mechanismofaction
+-   directed: true
+    graph:
+        disease: Absence seizure
+        disease_mesh: MESH:D004832
+        drug: Ethosuximide
+        drug_mesh: MESH:D005013
+        drugbank: DB:DB00593
+    links:
+    -   key: positively regulates
+        source: MESH:D005013
+        target: UniProt:O43497
+    -   key: increases transport of
+        source: UniProt:O43497
+        target: MESH:D002118
+    -   key: decreases activity of
+        source: MESH:D002118
+        target: GO:0099608
+    -   key: located in
+        source: GO:0099608
+        target: UBERON:0000955
+    -   key: prevents
+        source: UBERON:0000955
+        target: MESH:D004832
+    multigraph: true
+    nodes:
+    -   id: MESH:D005013
+        label: Drug
+        name: Ethosuximide
+    -   id: UniProt:O43497
+        label: Protein
+        name: T-type voltage sensitive calcium channels
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium ions
+    -   id: GO:0099608
+        label: BiologicalProcess
+        name: Regulation of action potential firing pattern
+    -   id: UBERON:0000955
+        label: GrossAnatomicalStructure
+        name: Brain
+    -   id: MESH:D004832
+        label: Disease
+        name: Absence seizure
+    reference: https://go.drugbank.com/drugs/DB00593#mechanismofaction doi:10.1111/j.1527-3458.2007.00009.x
+        https://pubchem.ncbi.nlm.nih.gov/compound/Ethosuximide#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Absence seizure
+        disease_mesh: MESH:D004832
+        drug: Ethosuximide
+        drug_mesh: MESH:D005013
+        drugbank: DB:DB00593
+    links:
+    -   key: decreases activity of
+        source: MESH:D005013
+        target: GO:0005228
+    -   key: increases transport of
+        source: GO:0005228
+        target: MESH:D009569
+    -   key: decreases activity of
+        source: MESH:D005013
+        target: GO:0015269
+    -   key: increases transport of
+        source: GO:0015269
+        target: MESH:D009569
+    -   key: positively regulates
+        source: MESH:D009569
+        target: GO:0042747
+    -   key: prevents
+        source: GO:0042747
+        target: MESH:D004832
+    multigraph: true
+    nodes:
+    -   id: MESH:D005013
+        label: Drug
+        name: Ethosuximide
+    -   id: GO:0005228
+        label: MolecularActivity
+        name: Intracellular sodium activated potassium channel activity
+    -   id: GO:0015269
+        label: MolecularActivity
+        name: Calcium-activated potassium channel activity
+    -   id: MESH:D009569
+        label: ChemicalSubstance
+        name: Nitric oxide
+    -   id: GO:0042747
+        label: BiologicalProcess
+        name: Paradoxical sleep
+    -   id: MESH:D004832
+        label: Disease
+        name: Absence seizure
+    reference: https://go.drugbank.com/drugs/DB00593#mechanismofaction doi:10.1111/j.1527-3458.2007.00009.x
+        https://pubchem.ncbi.nlm.nih.gov/compound/Ethosuximide#section=Pharmacology-and-Biochemistry
+-   comment: Empagliflozin is used in combination with proper diet and exercise
+    directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Empagliflozin
+        drug_mesh: MESH:C570240
+        drugbank: DB:DB09038
+    links:
+    -   key: decreases activity of
+        source: MESH:C570240
+        target: UniProt:P31639
+    -   key: negatively regulates
+        source: UniProt:P31639
+        target: GO:0035623
+    -   key: has phenotype
+        source: GO:0035623
+        target: HP:0003076
+    -   key: decreases abundance of
+        source: HP:0003076
+        target: MESH:D001786
+    -   key: correlated with
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C570240
+        label: Drug
+        name: Empagliflozin
+    -   id: UniProt:P31639
+        label: Protein
+        name: Sodium/glucose cotransporter 2
+    -   id: GO:0035623
+        label: BiologicalProcess
+        name: Renal glucose absorption
+    -   id: HP:0003076
+        label: PhenotypicFeature
+        name: Glycosuria
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood Glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB09038#mechanismofaction
+-   directed: true
+    graph:
+        disease: Duodenal ulcer disease
+        disease_mesh: MESH:D004381
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0051381
+    -   key: negatively regulates
+        source: GO:0051381
+        target: GO:0001696
+    -   key: contributes to
+        source: GO:0001696
+        target: MESH:D004381
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0051381
+        label: BiologicalProcess
+        name: Histamine binding
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D004381
+        label: Disease
+        name: Duodenal ulcer disease
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Gastric ulcer
+        disease_mesh: MESH:D013276
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0051381
+    -   key: negatively regulates
+        source: GO:0051381
+        target: GO:0001696
+    -   key: contributes to
+        source: GO:0001696
+        target: MESH:D013276
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0051381
+        label: BiologicalProcess
+        name: Histamine binding
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D013276
+        label: Disease
+        name: Gastric ulcer
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Zollinger-Ellison syndrome
+        disease_mesh: MESH:D015043
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0034776
+    -   key: negatively regulates
+        source: GO:0034776
+        target: InterPro:IPR000072
+    -   key: correlated with
+        source: InterPro:IPR000072
+        target: MESH:D015043
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0034776
+        label: BiologicalProcess
+        name: Response to histamine
+    -   id: InterPro:IPR000072
+        label: GeneFamily
+        name: Vascular endothelial growth factor (VEGF)
+    -   id: MESH:D015043
+        label: Disease
+        name: Zollinger-Ellison syndrome
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Multiple endocrine adenomas
+        disease_mesh: MESH:D009377
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0034776
+    -   key: negatively regulates
+        source: GO:0034776
+        target: InterPro:IPR000072
+    -   key: correlated with
+        source: InterPro:IPR000072
+        target: MESH:D009377
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0034776
+        label: BiologicalProcess
+        name: Response to histamine
+    -   id: InterPro:IPR000072
+        label: GeneFamily
+        name: Vascular endothelial growth factor (VEGF)
+    -   id: MESH:D009377
+        label: Disease
+        name: Multiple endocrine adenomas
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Indigestion
+        disease_mesh: MESH:D004415
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0051381
+    -   key: negatively regulates
+        source: GO:0051381
+        target: GO:0001696
+    -   key: contributes to
+        source: GO:0001696
+        target: MESH:D004415
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0051381
+        label: BiologicalProcess
+        name: Histamine binding
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D004415
+        label: Disease
+        name: Indigestion
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Gastroesophageal reflux disease
+        disease_mesh: MESH:D005764
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0051381
+    -   key: negatively regulates
+        source: GO:0051381
+        target: GO:0001696
+    -   key: contributes to
+        source: GO:0001696
+        target: MESH:D005764
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0051381
+        label: BiologicalProcess
+        name: Histamine binding
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Heartburn
+        disease_mesh: MESH:D006356
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0051381
+    -   key: negatively regulates
+        source: GO:0051381
+        target: GO:0001696
+    -   key: contributes to
+        source: GO:0001696
+        target: MESH:D006356
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0051381
+        label: BiologicalProcess
+        name: Histamine binding
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   comment: Cimetidine has a role in treating the symptoms of systemic mastocytosis
+    directed: true
+    graph:
+        disease: Systemic mast cell disease
+        disease_mesh: MESH:D034721
+        drug: Cimetidine
+        drug_mesh: MESH:D002927
+        drugbank: DB:DB00501
+    links:
+    -   key: decreases activity of
+        source: MESH:D002927
+        target: UniProt:P25021
+    -   key: prevents
+        source: UniProt:P25021
+        target: GO:0001821
+    -   key: located in
+        source: GO:0001821
+        target: CL:0000097
+    -   key: correlated with
+        source: CL:0000097
+        target: MESH:D034721
+    multigraph: true
+    nodes:
+    -   id: MESH:D002927
+        label: Drug
+        name: Cimetidine
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0001821
+        label: BiologicalProcess
+        name: Histamine secretion
+    -   id: CL:0000097
+        label: Cell
+        name: Mast cell
+    -   id: MESH:D034721
+        label: Disease
+        name: Systemic mast cell disease
+    reference: https://go.drugbank.com/drugs/DB00501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Cimetidine#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Opioid dependence
+        disease_mesh: MESH:D009293
+        drug: Naloxone
+        drug_mesh: MESH:D009270
+        drugbank: DB:DB01183
+    links:
+    -   key: decreases activity of
+        source: MESH:D009270
+        target: UniProt:P41143
+    -   key: negatively regulates
+        source: UniProt:P41143
+        target: InterPro:IPR000276
+    -   key: decreases activity of
+        source: MESH:D009270
+        target: UniProt:P35372
+    -   key: negatively regulates
+        source: UniProt:P35372
+        target: InterPro:IPR000276
+    -   key: decreases activity of
+        source: MESH:D009270
+        target: UniProt:P41145
+    -   key: negatively regulates
+        source: UniProt:P41145
+        target: InterPro:IPR000276
+    -   key: decreases activity of
+        source: InterPro:IPR000276
+        target: InterPro:IPR000274
+    -   key: decreases abundance of
+        source: InterPro:IPR000274
+        target: MESH:D000242
+    -   key: causes
+        source: MESH:D000242
+        target: MESH:D013375
+    -   key: correlated with
+        source: MESH:D013375
+        target: MESH:D009293
+    multigraph: true
+    nodes:
+    -   id: MESH:D009270
+        label: Drug
+        name: Naloxone
+    -   id: UniProt:P35372
+        label: Protein
+        name: Mu-type opioid receptor
+    -   id: UniProt:P41143
+        label: Protein
+        name: Delta-type opioid receptor
+    -   id: UniProt:P41145
+        label: Protein
+        name: Kappa-type opioid receptor
+    -   id: InterPro:IPR000276
+        label: GeneFamily
+        name: G-Protein coupled receptor
+    -   id: InterPro:IPR000274
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: cAMP levels
+    -   id: MESH:D013375
+        label: Disease
+        name: Withdrawal symptoms
+    -   id: MESH:D009293
+        label: Disease
+        name: Opioid dependence
+    reference: https://go.drugbank.com/drugs/DB01183#mechanismofaction DOI:10.18773/austprescr/1996.063
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999180/
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: Naloxone
+        drug_mesh: MESH:D009270
+        drugbank: DB:DB01183
+    links:
+    -   key: decreases activity of
+        source: MESH:D009270
+        target: UniProt:P41143
+    -   key: negatively regulates
+        source: UniProt:P41143
+        target: InterPro:IPR000276
+    -   key: decreases activity of
+        source: MESH:D009270
+        target: UniProt:P35372
+    -   key: negatively regulates
+        source: UniProt:P35372
+        target: InterPro:IPR000276
+    -   key: decreases activity of
+        source: MESH:D009270
+        target: UniProt:P41145
+    -   key: negatively regulates
+        source: UniProt:P41145
+        target: InterPro:IPR000276
+    -   key: decreases activity of
+        source: InterPro:IPR000276
+        target: InterPro:IPR000274
+    -   key: decreases abundance of
+        source: InterPro:IPR000274
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0048265
+    -   key: caused by
+        source: GO:0048265
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:D009270
+        label: Drug
+        name: Naloxone
+    -   id: UniProt:P35372
+        label: Protein
+        name: Mu-type opioid receptor
+    -   id: UniProt:P41143
+        label: Protein
+        name: Delta-type opioid receptor
+    -   id: UniProt:P41145
+        label: Protein
+        name: Kappa-type opioid receptor
+    -   id: InterPro:IPR000276
+        label: GeneFamily
+        name: G-Protein coupled receptor
+    -   id: InterPro:IPR000274
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: cAMP levels
+    -   id: GO:0048265
+        label: BiologicalProcess
+        name: Response to pain
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference: https://go.drugbank.com/drugs/DB01183#mechanismofaction DOI:10.18773/austprescr/1996.063
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3999180/
