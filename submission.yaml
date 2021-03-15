@@ -1,1 +1,978 @@
-
+-   directed: true
+    graph:
+        disease: Pneumonia due to Mycoplasma pneumoniae
+        disease_mesh: MESH:D011019
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P75352
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P22446
+    -   key: participates in
+        source: UniProt:P75352
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:P22446
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:2104
+    -   key: causes
+        source: NCBITaxon:2104
+        target: MESH:D011019
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:P75352
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Mycoplasma pneumoniae)
+    -   id: UniProt:P22446
+        label: Protein
+        name: DNA gyrase subunit A (Mycoplasma pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:2104
+        label: OrganismTaxon
+        name: Mycoplasma pneumoniae
+    -   id: MESH:D011019
+        label: Disease
+        name: Pneumonia due to Mycoplasma pneumoniae
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P72525
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:Q8DPM2
+    -   key: participates in
+        source: UniProt:P72525
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q8DPM2
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:P72525
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Streptococcus pneumoniae)
+    -   id: UniProt:Q8DPM2
+        label: Protein
+        name: DNA gyrase subunit A (Streptococcus pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Mycoplasma pneumoniae
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Chlamydial pneumonia
+        disease_mesh: MESH:D061387
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:Q9Z7I9
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:Q54A16
+    -   key: participates in
+        source: UniProt:Q9Z7I9
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q54A16
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:83558
+    -   key: causes
+        source: NCBITaxon:83558
+        target: MESH:D061387
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:Q9Z7I9
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Chlamydial pneumoniae)
+    -   id: UniProt:Q54A16
+        label: Protein
+        name: DNA gyrase subunit A (Chlamydial pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:83558
+        label: OrganismTaxon
+        name: Chlamydial pneumoniae
+    -   id: MESH:D061387
+        label: Disease
+        name: Chlamydial pneumonia
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: Sparfloxacin
+        drug_mesh: MESH:C061363
+        drugbank: DB:DB01208
+    links:
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P43702
+    -   key: decreases activity of
+        source: MESH:C061363
+        target: UniProt:P43700
+    -   key: participates in
+        source: UniProt:P43702
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:P43700
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:727
+    -   key: causes
+        source: NCBITaxon:727
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:C061363
+        label: Drug
+        name: Sparfloxacin
+    -   id: UniProt:P43702
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Haemophilus influenzae)
+    -   id: UniProt:P43700
+        label: Protein
+        name: DNA gyrase subunit A (Haemophilus influenzae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: bacterial-type DNA replication
+    -   id: NCBITaxon:727
+        label: OrganismTaxon
+        name: Haemophilus influenzae
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference: https://go.drugbank.com/drugs/DB01208#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Spasticity
+        disease_mesh: MESH:D009128
+        drug: dantrolene
+        drug_mesh: MESH:D003620
+        drugbank: DB:DB01219
+    links:
+    -   key: negatively regulates
+        source: MESH:D003620
+        target: UniProt:P21817
+    -   key: part of
+        source: UniProt:P21817
+        target: GO:1990425
+    -   key: participates in
+        source: GO:1990425
+        target: GO:0005219
+    -   key: participates in
+        source: GO:0005219
+        target: GO:0032470
+    -   key: participates in
+        source: GO:0032470
+        target: GO:0006936
+    -   key: regulates
+        source: GO:0006936
+        target: MESH:D009128
+    multigraph: true
+    nodes:
+    -   id: MESH:D003620
+        label: Drug
+        name: Dantrolene
+    -   id: UniProt:P21817
+        label: Protein
+        name: Ryanodine receptor 1
+    -   id: GO:1990425
+        label: CellularComponent
+        name: Ryanodine receptor complex
+    -   id: GO:0005219
+        label: MolecularActivity
+        name: ryanodine-sensitive calcium-release channel activity
+    -   id: GO:0032470
+        label: BiologicalProcess
+        name: positive regulation of endoplasmic reticulum calcium ion concentration
+    -   id: GO:0006936
+        label: BiologicalProcess
+        name: muscle contraction
+    -   id: MESH:D009128
+        label: Disease
+        name: Spasticity
+    reference: https://go.drugbank.com/drugs/DB01219#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Malignant hyperthermia
+        disease_mesh: MESH:C535694
+        drug: dantrolene
+        drug_mesh: MESH:D003620
+        drugbank: DB:DB01219
+    links:
+    -   key: negatively regulates
+        source: MESH:D003620
+        target: UniProt:P21817
+    -   key: part of
+        source: UniProt:P21817
+        target: GO:1990425
+    -   key: participates in
+        source: GO:1990425
+        target: GO:0005219
+    -   key: participates in
+        source: GO:0005219
+        target: GO:0032470
+    -   key: participates in
+        source: GO:0032470
+        target: GO:0006936
+    -   key: regulates
+        source: GO:0006936
+        target: MESH:C535694
+    multigraph: true
+    nodes:
+    -   id: MESH:D003620
+        label: Drug
+        name: Dantrolene
+    -   id: UniProt:P21817
+        label: Protein
+        name: Ryanodine receptor 1
+    -   id: GO:1990425
+        label: CellularComponent
+        name: Ryanodine receptor complex
+    -   id: GO:0005219
+        label: MolecularActivity
+        name: ryanodine-sensitive calcium-release channel activity
+    -   id: GO:0032470
+        label: BiologicalProcess
+        name: positive regulation of endoplasmic reticulum calcium ion concentration
+    -   id: GO:0006936
+        label: BiologicalProcess
+        name: muscle contraction
+    -   id: MESH:C535694
+        label: Disease
+        name: Malignant hyperthermia
+    reference: https://go.drugbank.com/drugs/DB01219#mechanism-of-action https://en.wikipedia.org/wiki/Malignant_hyperthermia#Disease_mechanism
+-   directed: true
+    graph:
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: alimemazine
+        drug_mesh: MESH:D014291,MESH:C031242
+        drugbank: DB:DB01246
+    links:
+    -   key: negatively regulates
+        source: DB:DB01246
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0043117
+    -   key: positively correlated with
+        source: GO:0043117
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: DB:DB01246
+        label: Drug
+        name: alimemazine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: positive regulation of vascular permeability
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference: https://go.drugbank.com/drugs/DB01246#BE0000442 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6751347/
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: alimemazine
+        drug_mesh: MESH:D014291,MESH:C031242
+        drugbank: DB:DB01246
+    links:
+    -   key: negatively regulates
+        source: DB:DB01246
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: DB:DB01246
+        label: Drug
+        name: alimemazine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference: https://go.drugbank.com/drugs/DB01246#BE0000442
+-   directed: true
+    graph:
+        disease: Angioedema
+        disease_mesh: MESH:D000799
+        drug: alimemazine
+        drug_mesh: MESH:D014291,MESH:C031242
+        drugbank: DB:DB01246
+    links:
+    -   key: negatively regulates
+        source: DB:DB01246
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0043117
+    -   key: positively correlated with
+        source: GO:0043117
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D000799
+    multigraph: true
+    nodes:
+    -   id: DB:DB01246
+        label: Drug
+        name: alimemazine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: positive regulation of vascular permeability
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D000799
+        label: Disease
+        name: Angioedema
+    reference: https://go.drugbank.com/drugs/DB01246#BE0000442
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: alimemazine
+        drug_mesh: MESH:D014291,MESH:C031242
+        drugbank: DB:DB01246
+    links:
+    -   key: negatively regulates
+        source: DB:DB01246
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: DB:DB01246
+        label: Drug
+        name: alimemazine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB01246#BE0000442
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: alimemazine
+        drug_mesh: MESH:D014291,MESH:C031242
+        drugbank: DB:DB01246
+    links:
+    -   key: negatively regulates
+        source: DB:DB01246
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: DB:DB01246
+        label: Drug
+        name: alimemazine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D011537
+        label: Disease
+        name: Itching of skin
+    reference: https://go.drugbank.com/drugs/DB01246#BE0000442
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: alimemazine
+        drug_mesh: MESH:D014291,MESH:C031242
+        drugbank: DB:DB01246
+    links:
+    -   key: negatively regulates
+        source: DB:DB01246
+        target: UniProt:P35367
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0034776
+    -   key: causes
+        source: GO:0034776
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: DB:DB01246
+        label: Drug
+        name: alimemazine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0034776
+        label: BiologicalProcess
+        name: histamine response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic Rhinitis
+    reference: https://go.drugbank.com/drugs/DB01246#BE0000442
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefepime
+        drug_mesh: MESH:C043266
+        drugbank: DB:DB01413
+    links:
+    -   key: negatively regulates
+        source: MESH:C043266
+        target: UniProt:Q54906
+    -   key: positively regulates
+        source: UniProt:Q54906
+        target: GO:0071972   
+    -   key: participates in
+        source: GO:0071972
+        target: GO:0018104
+    -   key: correlated with
+        source: GO:0018104
+        target: GO:0031504
+    -   key: in taxon
+        source: GO:0031504
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:C043266
+        label: Drug
+        name: Cefepime
+    -   id: UniProt:Q54906
+        label: Protein
+        name: Penicillin-binding protein (Streptococcus pyogenes)
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: peptidoglycan-protein cross-linking
+    -   id: GO:0031504
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall organization
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01413#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Infectious disease of abdomen
+        disease_mesh: MESH:D059413
+        drug: Cefepime
+        drug_mesh: MESH:C043266
+        drugbank: DB:DB01413
+    links:
+    -   key: negatively regulates
+        source: MESH:C043266
+        target: UniProt:P0AD65
+    -   key: positively regulates
+        source: UniProt:P0AD65
+        target: GO:0071972   
+    -   key: participates in
+        source: GO:0071972
+        target: GO:0018104
+    -   key: correlated with
+        source: GO:0018104
+        target: GO:0031504
+    -   key: in taxon
+        source: GO:0031504
+        target: NCBITaxon:562
+    -   key: positively correlated with
+        source: NCBITaxon:562
+        target: MESH:D059413
+    multigraph: true
+    nodes:
+    -   id: MESH:C043266
+        label: Drug
+        name: Cefepime
+    -   id: UniProt:P0AD65
+        label: Protein
+        name: Penicillin-binding protein 2 (Escherichia coli)
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: peptidoglycan-protein cross-linking
+    -   id: GO:0031504
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall organization
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D059413
+        label: Disease
+        name: Infectious disease of abdomen
+    reference: https://go.drugbank.com/drugs/DB01413#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3049134/
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefepime
+        drug_mesh: MESH:C043266
+        drugbank: DB:DB01413
+    links:
+    -   key: negatively regulates
+        source: MESH:C043266
+        target: UniProt:P0AD65
+    -   key: positively regulates
+        source: UniProt:P0AD65
+        target: GO:0071972   
+    -   key: participates in
+        source: GO:0071972
+        target: GO:0018104
+    -   key: correlated with
+        source: GO:0018104
+        target: GO:0031504
+    -   key: in taxon
+        source: GO:0031504
+        target: NCBITaxon:1313
+    -   key: positively correlated with
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C043266
+        label: Drug
+        name: Cefepime
+    -   id: UniProt:P0AD65
+        label: Protein
+        name: Penicillin-binding protein 2 (Streptococcus pneumoniae)
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: peptidoglycan-protein cross-linking
+    -   id: GO:0031504
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall organization
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01413#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefepime
+        drug_mesh: MESH:C043266
+        drugbank: DB:DB01413
+    links:
+    -   key: negatively regulates
+        source: MESH:C043266
+        target: UniProt:Q53725
+    -   key: positively regulates
+        source: UniProt:Q53725
+        target: GO:0071972   
+    -   key: participates in
+        source: GO:0071972
+        target: GO:0018104
+    -   key: correlated with
+        source: GO:0018104
+        target: GO:0031504
+    -   key: in taxon
+        source: GO:0031504
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C043266
+        label: Drug
+        name: Cefepime
+    -   id: UniProt:Q53725
+        label: Protein
+        name: Cell division protein FtsI (Staphylococcus aureus)
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: peptidoglycan-protein cross-linking
+    -   id: GO:0031504
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall organization
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01413#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: Cefepime
+        drug_mesh: MESH:C043266
+        drugbank: DB:DB01413
+    links:
+    -   key: negatively regulates
+        source: MESH:C043266
+        target: UniProt:P0A3M6
+    -   key: positively regulates
+        source: UniProt:P0A3M6
+        target: GO:0071972   
+    -   key: participates in
+        source: GO:0071972
+        target: GO:0018104
+    -   key: correlated with
+        source: GO:0018104
+        target: GO:0031504
+    -   key: in taxon
+        source: GO:0031504
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:C043266
+        label: Drug
+        name: Cefepime
+    -   id: UniProt:P0A3M6
+        label: Protein
+        name: Penicillin-binding protein 2B 
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: peptidoglycan-protein cross-linking
+    -   id: GO:0031504
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall organization
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference: https://go.drugbank.com/drugs/DB01413#mechanism-of-action
+-   directed: true
+    graph:
+        disease: Premature ejaculation
+        disease_mesh: MESH:D061686
+        drug: dapoxetine
+        drug_mesh: MESH:C080598
+        drugbank: DB:DB04884
+    links:
+    -   key: decreases activity of
+        source: MESH:C080598
+        target: UniProt:P31645
+    -   key: participates in
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: increases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: prevents
+        source: MESH:D012701
+        target: MESH:D061686
+    multigraph: true
+    nodes:
+    -   id: MESH:C080598
+        label: Drug
+        name: dapoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: sodium dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Neuronal serotonin reuptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D061686
+        label: Disease
+        name: Premature ejaculation
+    reference: https://go.drugbank.com/drugs/DB04884#mechanism-of-action  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1936309/ https://pubmed.ncbi.nlm.nih.gov/19557098/ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2695237/
+-   directed: true
+    graph:
+        disease: Precocious puberty
+        disease_mesh: MESH:D011629
+        drug: Histrelin
+        drug_mesh: MESH:C029256
+        drugbank: DB:DB06788
+    links:
+    -   key: increases activity of
+        source: MESH:C029256
+        target: UniProt:P30968
+    -   key: positively regulates
+        source: UniProt:P30968
+        target: GO:0005183
+    -   key: regulates
+        source: GO:0005183
+        target: GO:0006703
+    -   key: regulates
+        source: GO:0005183
+        target: GO:0006702
+    -   key: regulates
+        source: GO:0005183
+        target: GO:0006701
+    -   key: positively correlated with
+        source: GO:0006703
+        target: MESH:D011629
+    -   key: positively correlated with
+        source: GO:0006702
+        target: MESH:D011629
+    -   key: positively correlated with
+        source: GO:0006701
+        target: MESH:D011629
+    multigraph: true
+    nodes:
+    -   id: MESH:C029256
+        label: Drug
+        name: Histrelin
+    -   id: UniProt:P30968
+        label: Protein
+        name: Gonadotropin-releasing hormone receptor
+    -   id: GO:0005183
+        label: BiologicalProcess
+        name: gonadotropin hormone-releasing hormone activity
+    -   id: GO:0006703
+        label: BiologicalProcess
+        name: estrogen biosynthetic process
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: androgen biosynthetic process
+    -   id: GO:0006701
+        label: BiologicalProcess
+        name: progesterone biosynthetic process
+    -   id: MESH:D011629
+        label: Disease
+        name: Precocious puberty
+    reference: https://go.drugbank.com/drugs/DB06788#mechanism-of-action https://en.wikipedia.org/wiki/Precocious_puberty https://en.wikipedia.org/wiki/Histrelin
+-   directed: true
+    graph:
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: Befunolol
+        drug_mesh: MESH:C006034
+        drugbank: DB:DB09013
+    links:
+    -   key: decreases activity of
+        source: MESH:C006034
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: MESH:C006034
+        target: UniProt:P07550
+    -   key: regulates
+        source: UniProt:P08588
+        target: HP:0007906
+    -   key: regulates
+        source: UniProt:P07550
+        target: HP:0007906
+    -   key: treats
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:C006034
+        label: Drug
+        name: Befunolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: intraocular pressure
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference: https://go.drugbank.com/drugs/DB09013 https://pubmed.ncbi.nlm.nih.gov/12480285/ https://pubmed.ncbi.nlm.nih.gov/37605/
+-   directed: true
+    graph:
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: Befunolol
+        drug_mesh: MESH:C006034
+        drugbank: DB:DB09013
+    links:
+    -   key: decreases activity of
+        source: MESH:C006034
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: MESH:C006034
+        target: UniProt:P07550
+    -   key: regulates
+        source: UniProt:P08588
+        target: HP:0007906
+    -   key: regulates
+        source: UniProt:P07550
+        target: HP:0007906
+    -   key: treats
+        source: HP:0007906
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:C006034
+        label: Drug
+        name: Befunolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: intraocular pressure
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference: https://go.drugbank.com/drugs/DB09013 https://pubmed.ncbi.nlm.nih.gov/12480285/ https://pubmed.ncbi.nlm.nih.gov/37605/
