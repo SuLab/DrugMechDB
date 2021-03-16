@@ -1,1 +1,1079 @@
-
+-   comment: Aminosalicylic acid is often administered in association with isoniazid
+    directed: true
+    graph:
+        disease: Pulmonary tuberculosis
+        disease_mesh: MESH:D014397
+        drug: Aminosalicylic acid
+        drug_mesh: MESH:D010131
+        drugbank: DB:DB00233
+    links:
+    -   key: decreases activity of
+        source: MESH:D010131
+        target: InterPro:IPR001796
+    -   key: positively regulates
+        source: InterPro:IPR001796
+        target: GO:0071897
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:1773
+    -   key: causes
+        source: NCBITaxon:1773
+        target: MESH:D014397
+    multigraph: true
+    nodes:
+    -   id: MESH:D010131
+        label: Drug
+        name: Aminosalicylic acid
+    -   id: InterPro:IPR001796
+        label: GeneFamily
+        name:  Dihydrofolate reductase domain
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1773
+        label: OrganismTaxon
+        name: Mycobacterium tuberculosis
+    -   id: MESH:D014397
+        label: Disease
+        name: Pulmonary tuberculosis
+    reference: https://go.drugbank.com/drugs/DB00233 https://en.wikipedia.org/wiki/4-Aminosalicylic_acid#Pharmacology
+-   directed: true
+    graph:
+        disease: Aspiration pneumonia
+        disease_mesh: MESH:D011015
+        drug: Azlocillin
+        drug_mesh: MESH:D001390
+        drugbank: DB:DB01061
+    links:
+    -   key: decreases activity of
+        source: MESH:D001390
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D011015
+    multigraph: true
+    nodes:
+    -   id: MESH:D001390
+        label: Drug
+        name: Azlocillin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D011015
+        label: Disease
+        name: Aspiration pneumonia
+    reference: https://go.drugbank.com/drugs/DB01061 https://en.wikipedia.org/wiki/Aspiration_pneumonia
+-   directed: true
+    graph:
+        disease: Bacterial infection due to Serratia
+        disease_mesh: MESH:D016868
+        drug: Azlocillin
+        drug_mesh: MESH:D001390
+        drugbank: DB:DB01061
+    links:
+    -   key: decreases activity of
+        source: MESH:D001390
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:615
+    -   key: causes
+        source: NCBITaxon:615
+        target: MESH:D016868
+    multigraph: true
+    nodes:
+    -   id: MESH:D001390
+        label: Drug
+        name: Azlocillin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:615
+        label: OrganismTaxon
+        name: Serratia marcescens
+    -   id: MESH:D016868
+        label: Disease
+        name: Bacterial infection due to Serratia
+    reference: https://go.drugbank.com/drugs/DB01061
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Azlocillin
+        drug_mesh: MESH:D001390
+        drugbank: DB:DB01061
+    links:
+    -   key: decreases activity of
+        source: MESH:D001390
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D001390
+        label: Drug
+        name: Azlocillin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB01061 https://en.wikipedia.org/wiki/Urinary_tract_infection
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cloxacillin
+        drug_mesh: MESH:D003023
+        drugbank: DB:DB01147
+    links:
+    -   key: decreases activity of
+        source: MESH:D003023
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:280
+    -   key: causes
+        source: NCBITaxon:280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D003023
+        label: Drug
+        name: Cloxacillin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01147
+-   directed: true
+    graph:
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: Cloxacillin
+        drug_mesh: MESH:D003023
+        drugbank: DB:DB01147
+    links:
+    -   key: decreases activity of
+        source: MESH:D003023
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:280
+    -   key: causes
+        source: NCBITaxon:280
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:D003023
+        label: Drug
+        name: Cloxacillin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference: https://go.drugbank.com/drugs/DB01147
+-   directed: true
+    graph:
+        disease: Pharyngitis
+        disease_mesh: MESH:D010612
+        drug: Cloxacillin
+        drug_mesh: MESH:D003023
+        drugbank: DB:DB01147
+    links:
+    -   key: decreases activity of
+        source: MESH:D003023
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D010612
+    multigraph: true
+    nodes:
+    -   id: MESH:D003023
+        label: Drug
+        name: Cloxacillin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D010612
+        label: Disease
+        name: Pharyngitis
+    reference: https://go.drugbank.com/drugs/DB01147 https://en.wikipedia.org/wiki/Pharyngitis#Bacterial
+-   directed: true
+    graph:
+        disease: Sinusitis
+        disease_mesh: MESH:D012852
+        drug: Cloxacillin
+        drug_mesh: MESH:D003023
+        drugbank: DB:DB01147
+    links:
+    -   key: decreases activity of
+        source: MESH:D003023
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D012852
+    multigraph: true
+    nodes:
+    -   id: MESH:D003023
+        label: Drug
+        name: Cloxacillin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D012852
+        label: Disease
+        name: Sinusitis
+    reference: https://go.drugbank.com/drugs/DB01147 https://en.wikipedia.org/wiki/Sinusitis#Causes
+-   directed: true
+    graph:
+        disease: Fever
+        disease_mesh: MESH:D005334
+        drug: Choline magnesium trisalicylate
+        drug_mesh: MESH:C017959
+        drugbank: DB:DB01401
+    links:
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D005334
+    multigraph: true
+    nodes:
+    -   id: MESH:C017959
+        label: Drug
+        name: Choline magnesium trisalicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D005334
+        label: Disease
+        name: Fever
+    reference: https://go.drugbank.com/drugs/DB01401
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: Choline magnesium trisalicylate
+        drug_mesh: MESH:C017959
+        drugbank: DB:DB01401
+    links:
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0006954
+        target: HP:0002829
+    -   key: positively regulates
+        source: GO:0006954
+        target: HP:0001386
+    -   key: manifestation of
+        source: HP:0002829
+        target: MESH:D001172
+    -   key: manifestation of
+        source: HP:0001386
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C017959
+        label: Drug
+        name: Choline magnesium trisalicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://go.drugbank.com/drugs/DB01401
+-   directed: true
+    graph:
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: Choline magnesium trisalicylate
+        drug_mesh: MESH:C017959
+        drugbank: DB:DB01401
+    links:
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0006954
+        target: HP:0002829
+    -   key: positively regulates
+        source: GO:0006954
+        target: HP:0001386
+    -   key: manifestation of
+        source: HP:0002829
+        target: MESH:D010003
+    -   key: manifestation of
+        source: HP:0001386
+        target: MESH:D010003
+    multigraph: true
+    nodes:
+    -   id: MESH:C017959
+        label: Drug
+        name: Choline magnesium trisalicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference: https://go.drugbank.com/drugs/DB01401
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: Choline magnesium trisalicylate
+        drug_mesh: MESH:C017959
+        drugbank: DB:DB01401
+    links:
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C017959
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:C017959
+        label: Drug
+        name: Choline magnesium trisalicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference: https://go.drugbank.com/drugs/DB01401
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Diabetic complication
+        disease_mesh: MESH:D048909
+        drug: Tolrestat
+        drug_mesh: MESH:C040550
+        drugbank: DB:DB02383
+    links:
+    -   key: decreases activity of
+        source: MESH:C040550
+        target: UniProt:P15121
+    -   key: increases abundance of
+        source: UniProt:P15121
+        target: MESH:D013012
+    -   key: causes
+        source: MESH:D013012
+        target: GO:0006970
+    -   key: positively correlated with
+        source: GO:0006970
+        target: HP:0000518
+    -   key: manifestation of
+        source: HP:0000518
+        target: MESH:D048909
+    multigraph: true
+    nodes:
+    -   id: MESH:C040550
+        label: Drug
+        name: Tolrestat
+    -   id: UniProt:P15121
+        label: Protein
+        name: Aldose reductase
+    -   id: MESH:D013012
+        label: ChemicalSubstance
+        name: Sorbitol
+    -   id: GO:0006970
+        label: BiologicalProcess
+        name: Response to osmotic stress
+    -   id: HP:0000518
+        label: PhenotypicFeature
+        name: Cataract
+    -   id: MESH:D048909
+        label: Disease
+        name: Diabetic complication
+    reference: https://go.drugbank.com/drugs/DB02383 https://en.wikipedia.org/wiki/Aldose_reductase_inhibitor
+-   directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: Dexlansoprazole
+        drug_mesh: MESH:D064748
+        drugbank: DB:DB05351
+    links:
+    -   key: decreases activity of
+        source: MESH:D064748
+        target: UniProt:P20648
+    -   key: decreases activity of
+        source: MESH:D064748
+        target: UniProt:P51164
+    -   key: positively regulates
+        source: UniProt:P20648
+        target: GO:0001696
+    -   key: positively regulates
+        source: UniProt:P51164
+        target: GO:0001696
+    -   key: increases abundance of
+        source: GO:0001696
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:D064748
+        label: Drug
+        name: Dexlansoprazole
+    -   id: UniProt:P20648
+        label: Protein
+        name: Potassium-transporting ATPase alpha chain 1
+    -   id: UniProt:P51164
+        label: Protein
+        name: Potassium-transporting ATPase subunit beta
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference: https://go.drugbank.com/drugs/DB05351#BE0000349
+-   directed: true
+    graph:
+        disease: Gastroesophageal reflux disease
+        disease_mesh: MESH:D005764
+        drug: Dexlansoprazole
+        drug_mesh: MESH:D064748
+        drugbank: DB:DB05351
+    links:
+    -   key: decreases activity of
+        source: MESH:D064748
+        target: UniProt:P20648
+    -   key: decreases activity of
+        source: MESH:D064748
+        target: UniProt:P51164
+    -   key: positively regulates
+        source: UniProt:P20648
+        target: GO:0001696
+    -   key: positively regulates
+        source: UniProt:P51164
+        target: GO:0001696
+    -   key: increases abundance of
+        source: GO:0001696
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D005764
+    multigraph: true
+    nodes:
+    -   id: MESH:D064748
+        label: Drug
+        name: Dexlansoprazole
+    -   id: UniProt:P20648
+        label: Protein
+        name: Potassium-transporting ATPase alpha chain 1
+    -   id: UniProt:P51164
+        label: Protein
+        name: Potassium-transporting ATPase subunit beta
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    reference: https://go.drugbank.com/drugs/DB05351#BE0000349
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: Telaprevir
+        drug_mesh: MESH:C486464
+        drugbank: DB:DB05521
+    links:
+    -   key: decreases activity of
+        source: MESH:C486464
+        target: UniProt:B0B3C9
+    -   key: positively regulates
+        source: UniProt:B0B3C9
+        target: GO:0039694
+    -   key: capable of
+        source: UniProt:B0B3C9
+        target: GO:0008236
+    -   key: in taxon
+        source: GO:0039694
+        target: NCBITaxon:11103
+    -   key: in taxon
+        source: GO:0008236
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C486464
+        label: Drug
+        name: Telaprevir
+    -   id: UniProt:B0B3C9
+        label: Protein
+        name: Genome polyprotein
+    -   id: GO:0039694
+        label: BiologicalProcess
+        name: Viral RNA genome replication
+    -   id: GO:0008236
+        label: MolecularActivity
+        name: Serine-type peptidase activity
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference: https://go.drugbank.com/drugs/DB05521
+-   directed: true
+    graph:
+        disease: Postherpetic neuralgia
+        disease_mesh: MESH:D051474
+        drug: Capsaicin
+        drug_mesh: MESH:D002211
+        drugbank: DB:DB06774
+    links:
+    -   key: increases activity of
+        source: MESH:D002211
+        target: UniProt:Q8NER1
+    -   key: decreases abundance of
+        source: MESH:D002211
+        target: MESH:D013373
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: GO:0070509
+    -   key: positively correlated with
+        source: MESH:D013373
+        target: MESH:D010146
+    -   key: disrupts
+        source: GO:0070509
+        target: GO:0005739
+    -   key: located in
+        source: GO:0005739
+        target: CL:0000198
+    -   key: positively regulates
+        source: CL:0000198
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D051474
+    multigraph: true
+    nodes:
+    -   id: MESH:D002211
+        label: Drug
+        name: Capsaicin
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0005739
+        label: CellularComponent
+        name: Mitochondrion
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D051474
+        label: Disease
+        name: Postherpetic neuralgia
+    reference: https://go.drugbank.com/drugs/DB06774#BE0001023 https://pubmed.ncbi.nlm.nih.gov/21852280/
+-   directed: true
+    graph:
+        disease: Neuralgia
+        disease_mesh: MESH:D009437
+        drug: Capsaicin
+        drug_mesh: MESH:D002211
+        drugbank: DB:DB06774
+    links:
+    -   key: increases activity of
+        source: MESH:D002211
+        target: UniProt:Q8NER1
+    -   key: decreases abundance of
+        source: MESH:D002211
+        target: MESH:D013373
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: GO:0070509
+    -   key: positively correlated with
+        source: MESH:D013373
+        target: MESH:D010146
+    -   key: disrupts
+        source: GO:0070509
+        target: GO:0005739
+    -   key: located in
+        source: GO:0005739
+        target: CL:0000198
+    -   key: positively regulates
+        source: CL:0000198
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D009437
+    multigraph: true
+    nodes:
+    -   id: MESH:D002211
+        label: Drug
+        name: Capsaicin
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0005739
+        label: CellularComponent
+        name: Mitochondrion
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D009437
+        label: Disease
+        name: Neuralgia
+    reference: https://go.drugbank.com/drugs/DB06774#BE0001023 https://pubmed.ncbi.nlm.nih.gov/21852280/
+-   directed: true
+    graph:
+        disease: Backache
+        disease_mesh: MESH:D001416
+        drug: Capsaicin
+        drug_mesh: MESH:D002211
+        drugbank: DB:DB06774
+    links:
+    -   key: increases activity of
+        source: MESH:D002211
+        target: UniProt:Q8NER1
+    -   key: decreases abundance of
+        source: MESH:D002211
+        target: MESH:D013373
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: GO:0070509
+    -   key: positively correlated with
+        source: MESH:D013373
+        target: MESH:D010146
+    -   key: disrupts
+        source: GO:0070509
+        target: GO:0005739
+    -   key: located in
+        source: GO:0005739
+        target: CL:0000198
+    -   key: positively regulates
+        source: CL:0000198
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D001416
+    multigraph: true
+    nodes:
+    -   id: MESH:D002211
+        label: Drug
+        name: Capsaicin
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0005739
+        label: CellularComponent
+        name: Mitochondrion
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D001416
+        label: Disease
+        name: Backache
+    reference: https://go.drugbank.com/drugs/DB06774#BE0001023 https://pubmed.ncbi.nlm.nih.gov/21852280/
+-   directed: true
+    graph:
+        disease: Onychomycosis due to dermatophyte
+        disease_mesh: MESH:D014009
+        drug: Efinaconazole
+        drug_mesh: MESH:C431707
+        drugbank: DB:DB09040
+    links:
+    -   key: decreases activity of
+        source: MESH:C431707
+        target: UniProt:P50859
+    -   key: positively regulates 
+        source: UniProt:P50859
+        target: GO:0006696
+    -   key: increases abundance of
+        source: GO:0006696
+        target: MESH:D004875
+    -   key: participates in
+        source: MESH:D004875
+        target: GO:0042546
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:5551
+    -   key: causes
+        source: NCBITaxon:5551
+        target: MESH:D014009
+    multigraph: true
+    nodes:
+    -   id: MESH:C431707
+        label: Drug
+        name: Efinaconazole
+    -   id: UniProt:P50859
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: Ergosterol biosynthetic process
+    -   id: MESH:D004875
+        label: ChemicalSubstance
+        name: Ergosterol
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: NCBITaxon:5551
+        label: OrganismTaxon
+        name: Trichophyton rubrum
+    -   id: MESH:D014009
+        label: Disease
+        name: Onychomycosis due to dermatophyte
+    reference: https://go.drugbank.com/drugs/DB09040#BE0000690 https://en.wikipedia.org/wiki/Onychomycosis#Dermatophytes
+-   directed: true
+    graph:
+        disease: Acquired factor VIII deficiency disease
+        disease_mesh: MESH:C536392
+        drug: Susoctocog alfa
+        drug_mesh: Null
+        drugbank: DB:DB11606
+    links:
+    -   key: participates in
+        source: DB:DB11606
+        target: GO:0007596
+    -   key: negatively correlated with
+        source: GO:0007596
+        target: MESH:C536392
+    multigraph: true
+    nodes:
+    -   id: DB:DB11606
+        label: Drug
+        name: Susoctocog alfa
+    -   id: GO:0007596
+        label: BiologicalProcess
+        name: Blood coagulation
+    -   id: MESH:C536392
+        label: Disease
+        name: Acquired factor VIII deficiency disease
+    reference: https://go.drugbank.com/drugs/DB11606
+-   directed: true
+    graph:
+        disease: Hereditary factor VIII deficiency disease
+        disease_mesh: MESH:D006467
+        drug: Efmoroctocog alfa
+        drug_mesh: MESH:C587014
+        drugbank: DB:DB11607
+    links:
+    -   key: participates in
+        source: MESH:C587014
+        target: GO:0007596
+    -   key: negatively correlated with
+        source: GO:0007596
+        target: MESH:D006467
+    multigraph: true
+    nodes:
+    -   id: MESH:C587014
+        label: Drug
+        name: Efmoroctocog alfa
+    -   id: GO:0007596
+        label: BiologicalProcess
+        name: Blood coagulation
+    -   id: MESH:D006467
+        label: Disease
+        name: Hereditary factor VIII deficiency disease
+    reference: https://go.drugbank.com/drugs/DB11607
