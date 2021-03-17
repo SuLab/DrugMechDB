@@ -1,0 +1,36 @@
+---
+title: "oprelvekin - Thrombocytopenic disorder"
+sidebar: mydoc_sidebar
+permalink: oprelvekinthrombocytopenicdisorder.html
+toc: false 
+---
+
+{% include image.html url="images/oprelvekinthrombocytopenicdisorder.png" file="oprelvekinthrombocytopenicdisorder.png" alt="oprelvekinthrombocytopenicdisorder" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:C105308 | oprelvekin | Drug |
+| UniProt:Q14626 | Interleukin-11 receptor subunit alpha | Protein |
+| GO:0004921 | interleukin-11 receptor activity | MolecularActivity |
+| GO:0035726 | common myeloid progenitor cell proliferation | BiologicalProcess |
+| GO:0030220 | platelet formation | BiologicalProcess |
+| MESH:D013921 | Thrombocytopenic disorder | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Oprelvekin | INCREASES ACTIVITY OF | Interleukin-11 Receptor Subunit Alpha |
+| Interleukin-11 Receptor Subunit Alpha | POSITIVELY REGULATES | Interleukin-11 Receptor Activity |
+| Interleukin-11 Receptor Subunit Alpha | POSITIVELY REGULATES | Common Myeloid Progenitor Cell Proliferation |
+| Interleukin-11 Receptor Activity | POSITIVELY REGULATES | Platelet Formation |
+| Common Myeloid Progenitor Cell Proliferation | POSITIVELY REGULATES | Platelet Formation |
+| Platelet Formation | NEGATIVELY CORRELATED WITH | Thrombocytopenic Disorder |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB00038#mechanism-of-action](https://go.drugbank.com/drugs/DB00038#mechanism-of-action){:target="_blank"}

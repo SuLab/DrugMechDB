@@ -1,0 +1,42 @@
+---
+title: "meticillin - Staphylococcal pneumonia"
+sidebar: mydoc_sidebar
+permalink: meticillinstaphylococcalpneumonia.html
+toc: false 
+---
+
+{% include image.html url="images/meticillinstaphylococcalpneumonia.png" file="meticillinstaphylococcalpneumonia.png" alt="meticillinstaphylococcalpneumonia" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D008712 | meticillin | Drug |
+| UniProt:Q8DR59 | Penicillin-binding protein 1A | Protein |
+| UniProt:P0A3M6 | Penicillin-binding protein 2B | Protein |
+| GO:0071972 | peptidoglycan L,D-transpeptidase activity | MolecularActivity |
+| GO:0008955 | peptidoglycan glycosyltransferase activity | MolecularActivity |
+| GO:0018104 | peptidoglycan-protein cross-linking | BiologicalProcess |
+| GO:0031504 | peptidoglycan-based cell wall organization | BiologicalProcess |
+| NCBITaxon:1313 | Streptococcus pneumoniae | OrganismTaxon |
+| MESH:D011023 | Staphylococcal pneumonia | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Meticillin | NEGATIVELY REGULATES | Penicillin-Binding Protein 2B |
+| Meticillin | NEGATIVELY REGULATES | Penicillin-Binding Protein 1A |
+| Penicillin-Binding Protein 2B | POSITIVELY REGULATES | Peptidoglycan L,D-Transpeptidase Activity |
+| Penicillin-Binding Protein 1A | POSITIVELY REGULATES | Peptidoglycan Glycosyltransferase Activity |
+| Peptidoglycan L,D-Transpeptidase Activity | POSITIVELY CORRELATED WITH | Peptidoglycan-Protein Cross-Linking |
+| Peptidoglycan Glycosyltransferase Activity | POSITIVELY CORRELATED WITH | Peptidoglycan-Protein Cross-Linking |
+| Peptidoglycan-Protein Cross-Linking | POSITIVELY CORRELATED WITH | Peptidoglycan-Based Cell Wall Organization |
+| Peptidoglycan-Based Cell Wall Organization | IN TAXON | Streptococcus Pneumoniae |
+| Streptococcus Pneumoniae | CAUSES | Staphylococcal Pneumonia |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB01603#mechanism-of-action](https://go.drugbank.com/drugs/DB01603#mechanism-of-action){:target="_blank"}
