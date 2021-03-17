@@ -1,0 +1,36 @@
+---
+title: "Sparfloxacin - Pneumonia due to Mycoplasma pneumoniae"
+sidebar: mydoc_sidebar
+permalink: sparfloxacinpneumoniaduetomycoplasmapneumoniae.html
+toc: false 
+---
+
+{% include image.html url="images/sparfloxacinpneumoniaduetomycoplasmapneumoniae.png" file="sparfloxacinpneumoniaduetomycoplasmapneumoniae.png" alt="sparfloxacinpneumoniaduetomycoplasmapneumoniae" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:C061363 | Sparfloxacin | Drug |
+| UniProt:P75352 | DNA topoisomerase 4 subunit A (Mycoplasma pneumoniae) | Protein |
+| UniProt:P22446 | DNA gyrase subunit A (Mycoplasma pneumoniae) | Protein |
+| GO:0044787 | bacterial-type DNA replication | BiologicalProcess |
+| NCBITaxon:2104 | Mycoplasma pneumoniae | OrganismTaxon |
+| MESH:D011019 | Pneumonia due to Mycoplasma pneumoniae | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Sparfloxacin | DECREASES ACTIVITY OF | Dna Topoisomerase 4 Subunit A (Mycoplasma Pneumoniae) |
+| Sparfloxacin | DECREASES ACTIVITY OF | Dna Gyrase Subunit A (Mycoplasma Pneumoniae) |
+| Dna Topoisomerase 4 Subunit A (Mycoplasma Pneumoniae) | PARTICIPATES IN | Bacterial-Type Dna Replication |
+| Dna Gyrase Subunit A (Mycoplasma Pneumoniae) | PARTICIPATES IN | Bacterial-Type Dna Replication |
+| Bacterial-Type Dna Replication | OCCURS IN | Mycoplasma Pneumoniae |
+| Mycoplasma Pneumoniae | CAUSES | Pneumonia Due To Mycoplasma Pneumoniae |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB01208#mechanism-of-action](https://go.drugbank.com/drugs/DB01208#mechanism-of-action){:target="_blank"}
