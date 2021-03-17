@@ -1,0 +1,37 @@
+---
+title: "Cefepime - Streptococcus pyogenes infection"
+sidebar: mydoc_sidebar
+permalink: cefepimestreptococcuspyogenesinfection.html
+toc: false 
+---
+
+{% include image.html url="images/cefepimestreptococcuspyogenesinfection.png" file="cefepimestreptococcuspyogenesinfection.png" alt="cefepimestreptococcuspyogenesinfection" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:C043266 | Cefepime | Drug |
+| UniProt:Q54906 | Penicillin-binding protein (Streptococcus pyogenes) | Protein |
+| GO:0071972 | peptidoglycan L,D-transpeptidase activity | MolecularActivity |
+| GO:0018104 | peptidoglycan-protein cross-linking | BiologicalProcess |
+| GO:0031504 | peptidoglycan-based cell wall organization | BiologicalProcess |
+| NCBITaxon:1314 | Streptococcus pyogenes | OrganismTaxon |
+| MESH:D013290 | Streptococcus pyogenes infection | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Cefepime | NEGATIVELY REGULATES | Penicillin-Binding Protein (Streptococcus Pyogenes) |
+| Penicillin-Binding Protein (Streptococcus Pyogenes) | POSITIVELY REGULATES | Peptidoglycan L,D-Transpeptidase Activity |
+| Peptidoglycan L,D-Transpeptidase Activity | PARTICIPATES IN | Peptidoglycan-Protein Cross-Linking |
+| Peptidoglycan-Protein Cross-Linking | CORRELATED WITH | Peptidoglycan-Based Cell Wall Organization |
+| Peptidoglycan-Based Cell Wall Organization | IN TAXON | Streptococcus Pyogenes |
+| Streptococcus Pyogenes | CAUSES | Streptococcus Pyogenes Infection |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB01413#mechanism-of-action](https://go.drugbank.com/drugs/DB01413#mechanism-of-action){:target="_blank"}

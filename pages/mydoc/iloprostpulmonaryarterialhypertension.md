@@ -1,0 +1,47 @@
+---
+title: "iloprost - Pulmonary arterial hypertension"
+sidebar: mydoc_sidebar
+permalink: iloprostpulmonaryarterialhypertension.html
+toc: false 
+---
+
+{% include image.html url="images/iloprostpulmonaryarterialhypertension.png" file="iloprostpulmonaryarterialhypertension.png" alt="iloprostpulmonaryarterialhypertension" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D016285 | iloprost | Drug |
+| UniProt:P43119 | Prostacyclin receptor | Protein |
+| UniProt:P34995 | Prostaglandin E2 receptor EP1 subtype | Protein |
+| UniProt:P43116 | Prostaglandin E2 receptor EP2 subtype | Protein |
+| UniProt:P35408 | Prostaglandin E2 receptor EP4 subtype | Protein |
+| UniProt:Q9Y5Y4 | Prostaglandin D2 receptor 2 | Protein |
+| MESH:D002118 | Calcium | ChemicalSubstance |
+| GO:0044557 | relaxation of smooth muscle | BiologicalProcess |
+| GO:0042311 | vasodilation | BiologicalProcess |
+| MESH:D000081029 | Pulmonary arterial hypertension | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Iloprost | INCREASES ACTIVITY OF | Prostacyclin Receptor |
+| Iloprost | INCREASES ACTIVITY OF | Prostaglandin E2 Receptor Ep1 Subtype |
+| Iloprost | INCREASES ACTIVITY OF | Prostaglandin E2 Receptor Ep2 Subtype |
+| Iloprost | INCREASES ACTIVITY OF | Prostaglandin E2 Receptor Ep4 Subtype |
+| Iloprost | INCREASES ACTIVITY OF | Prostaglandin D2 Receptor 2 |
+| Prostaglandin E2 Receptor Ep1 Subtype | DECREASES ABUNDANCE OF | Calcium |
+| Prostaglandin E2 Receptor Ep2 Subtype | DECREASES ABUNDANCE OF | Calcium |
+| Prostaglandin D2 Receptor 2 | DECREASES ABUNDANCE OF | Calcium |
+| Prostaglandin E2 Receptor Ep4 Subtype | DECREASES ABUNDANCE OF | Calcium |
+| Prostacyclin Receptor | DECREASES ABUNDANCE OF | Calcium |
+| Calcium | NEGATIVELY CORRELATED WITH | Relaxation Of Smooth Muscle |
+| Relaxation Of Smooth Muscle | POSITIVELY CORRELATED WITH | Vasodilation |
+| Vasodilation | NEGATIVELY CORRELATED WITH | Pulmonary Arterial Hypertension |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB01088#mechanism-of-action](https://go.drugbank.com/drugs/DB01088#mechanism-of-action){:target="_blank"}
