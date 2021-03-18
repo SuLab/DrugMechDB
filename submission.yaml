@@ -1,1 +1,1104 @@
-
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: Dexbrompheniramine
+        drug_mesh: MESH:C015121
+        drugbank: DB:DB00405
+    links:
+    -   key: decreases activity of
+        source: MESH:C015121
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: REACT:R-HSA-388396
+    -   key: increases activity of
+        source: REACT:R-HSA-388396
+        target: UniProt:P19838
+    -   key: positively regulates
+        source: UniProt:P19838
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0010061
+    -   key: affected by
+        source: UBERON:0010061
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:C015121
+        label: Drug
+        name: Dexbrompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: REACT:R-HSA-388396
+        label: Pathway
+        name: GPCR downstream signalling
+    -   id: UniProt:P19838
+        label: Protein
+        name: Nuclear factor NF-kappa-B p105 subunit
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: UBERON:0010061
+        label: GrossAnatomicalStructure
+        name: Nasopharynx cavity
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00405
+-   directed: true
+    graph:
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: Dexbrompheniramine
+        drug_mesh: MESH:C015121
+        drugbank: DB:DB00405
+    links:
+    -   key: decreases activity of
+        source: MESH:C015121
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:C015121
+        label: Drug
+        name: Dexbrompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference: https://go.drugbank.com/drugs/DB00405 https://en.wikipedia.org/wiki/Hives
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: Dexbrompheniramine
+        drug_mesh: MESH:C015121
+        drugbank: DB:DB00405
+    links:
+    -   key: negatively regulates
+        source: MESH:C015121
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: CL:0000197
+    -   key: contributes to
+        source: CL:0000197
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:C015121
+        label: Drug
+        name: Dexbrompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: CL:0000197
+        label: Cell
+        name: Sensory Receptor Cell
+    -   id: MESH:D011537
+        label: Disease
+        name: Itching of skin
+    reference: https://go.drugbank.com/drugs/DB00405 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2519061/
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: Dexbrompheniramine
+        drug_mesh: MESH:C015121
+        drugbank: DB:DB00405
+    links:
+    -   key: negatively regulates
+        source: MESH:C015121
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: increases abundance of
+        source: MESH:D006632
+        target: MESH:D013373
+    -   key: participates in
+        source: MESH:D013373
+        target: MESH:D020078
+    -   key: contributes to
+        source: MESH:D020078
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:C015121
+        label: Drug
+        name: Dexbrompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: MESH:D020078
+        label: Disease
+        name: Neurogenic Inflammation
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference: https://go.drugbank.com/drugs/DB00405 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3764847/
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: Dexbrompheniramine
+        drug_mesh: MESH:C015121
+        drugbank: DB:DB00405
+    links:
+    -   key: decreases activity of
+        source: MESH:C015121
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: REACT:R-HSA-388396
+    -   key: increases activity of
+        source: REACT:R-HSA-388396
+        target: UniProt:P19838
+    -   key: positively regulates
+        source: UniProt:P19838
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0010061
+    -   key: affected by
+        source: UBERON:0010061
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:C015121
+        label: Drug
+        name: Dexbrompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: REACT:R-HSA-388396
+        label: Pathway
+        name: GPCR downstream signalling
+    -   id: UniProt:P19838
+        label: Protein
+        name: Nuclear factor NF-kappa-B p105 subunit
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: UBERON:0010061
+        label: GrossAnatomicalStructure
+        name: Nasopharynx cavity
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00405
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Dexbrompheniramine
+        drug_mesh: MESH:C015121
+        drugbank: DB:DB00405
+    links:
+    -   key: decreases activity of
+        source: MESH:C015121
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UBERON:0035501
+    -   key: positively regulates
+        source: UBERON:0035501
+        target: GO:0070075
+    -   key: manifestation of
+        source: GO:0070075
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C015121
+        label: Drug
+        name: Dexbrompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UBERON:0035501
+        label: GrossAnatomicalStructure
+        name: Free nerve ending
+    -   id: GO:0070075
+        label: BiologicalProcess
+        name: Tear secretion
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB00405
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Epinastine
+        drug_mesh: MESH:C053090
+        drugbank: DB:DB00751
+    links:
+    -   key: decreases activity of
+        source: MESH:C053090
+        target: UniProt:P35367
+    -   key: decreases activity of
+        source: MESH:C053090
+        target: UniProt:P25021
+    -   key: negatively regulates
+        source: MESH:C053090
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively correlated with
+        source: UniProt:P25021
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UBERON:0035501
+    -   key: positively regulates
+        source: UBERON:0035501
+        target: GO:0070075
+    -   key: manifestation of
+        source: GO:0070075
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C053090
+        label: Drug
+        name: Epinastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UBERON:0035501
+        label: GrossAnatomicalStructure
+        name: Free nerve ending
+    -   id: GO:0070075
+        label: BiologicalProcess
+        name: Tear secretion
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB00751#BE0000112
+-   directed: true
+    graph:
+        disease: Basal Ganglia Diseases
+        disease_mesh: MESH:D001480
+        drug: Amantadine
+        drug_mesh: MESH:D000547
+        drugbank: DB:DB00915
+    links:
+    -   key: increases activity of
+        source: MESH:D000547
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: negatively correlated with
+        source: GO:0061527
+        target: MESH:D001480
+    multigraph: true
+    nodes:
+    -   id: MESH:D000547
+        label: Drug
+        name: Amantadine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D001480
+        label: Disease
+        name: Basal Ganglia Diseases
+    reference: https://go.drugbank.com/drugs/DB00915#BE0000756 https://en.wikipedia.org/wiki/Basal_ganglia_disease
+-   directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: Amantadine
+        drug_mesh: MESH:D000547
+        drugbank: DB:DB00915
+    links:
+    -   key: increases activity of
+        source: MESH:D000547
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: occurs in
+        source: GO:0061527
+        target: UBERON:0002038
+    -   key: disrupted by
+        source: UBERON:0002038
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:D000547
+        label: Drug
+        name: Amantadine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: UBERON:0002038
+        label: GrossAnatomicalStructure
+        name: Substantia nigra
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference: https://go.drugbank.com/drugs/DB00915#BE0000756 https://en.wikipedia.org/wiki/Parkinson%27s_disease
+-   directed: true
+    graph:
+        disease: Parkinsonian Disorders
+        disease_mesh: MESH:D020734
+        drug: Amantadine
+        drug_mesh: MESH:D000547
+        drugbank: DB:DB00915
+    links:
+    -   key: increases activity of
+        source: MESH:D000547
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: negatively correlated with
+        source: GO:0061527
+        target: MESH:D020734
+    multigraph: true
+    nodes:
+    -   id: MESH:D000547
+        label: Drug
+        name: Amantadine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D020734
+        label: Disease
+        name: Parkinsonian Disorders
+    reference: https://go.drugbank.com/drugs/DB00915#BE0000756 https://en.wikipedia.org/wiki/Parkinsonism
+     https://en.wikipedia.org/wiki/Dementia_with_Lewy_bodies#Causes
+-   directed: true
+    graph:
+        disease: Postencephalitic parkinsonism
+        disease_mesh: MESH:D010301
+        drug: Amantadine
+        drug_mesh: MESH:D000547
+        drugbank: DB:DB00915
+    links:
+    -   key: increases activity of
+        source: MESH:D000547
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: occurs in
+        source: GO:0061527
+        target: UBERON:0002038
+    -   key: disrupted by
+        source: UBERON:0002038
+        target: MESH:D010301
+    multigraph: true
+    nodes:
+    -   id: MESH:D000547
+        label: Drug
+        name: Amantadine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: UBERON:0002038
+        label: GrossAnatomicalStructure
+        name: Substantia nigra
+    -   id: MESH:D010301
+        label: Disease
+        name: Postencephalitic parkinsonism
+    reference: https://go.drugbank.com/drugs/DB00915#BE0000756 https://en.wikipedia.org/wiki/Postencephalitic_parkinsonism
+-   directed: true
+    graph:
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: Emedastine
+        drug_mesh: MESH:C043345
+        drugbank: DB:DB01084
+    links:
+    -   key: decreases activity of
+        source: MESH:C043345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:C043345
+        label: Drug
+        name: Emedastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference: https://go.drugbank.com/drugs/DB01084 https://en.wikipedia.org/wiki/Hives
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: Emedastine
+        drug_mesh: MESH:C043345
+        drugbank: DB:DB01084
+    links:
+    -   key: negatively regulates
+        source: MESH:C043345
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: CL:0000197
+    -   key: contributes to
+        source: CL:0000197
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:C043345
+        label: Drug
+        name: Emedastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: CL:0000197
+        label: Cell
+        name: Sensory Receptor Cell
+    -   id: MESH:D011537
+        label: Disease
+        name: Itching of skin
+    reference: https://go.drugbank.com/drugs/DB01084 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2519061/
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Emedastine
+        drug_mesh: MESH:C043345
+        drugbank: DB:DB01084
+    links:
+    -   key: decreases activity of
+        source: MESH:C043345
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UBERON:0035501
+    -   key: positively regulates
+        source: UBERON:0035501
+        target: GO:0070075
+    -   key: manifestation of
+        source: GO:0070075
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C043345
+        label: Drug
+        name: Emedastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UBERON:0035501
+        label: GrossAnatomicalStructure
+        name: Free nerve ending
+    -   id: GO:0070075
+        label: BiologicalProcess
+        name: Tear secretion
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB01084
+-   comment: For use as a diagnostic aid in the screening of patients presumed to have adrenocortical insufficiency.
+     Please note tetracosactide does not significantly increase plasma cortisol concentration in patients with primary or secondary adrenocortical insufficiency.
+    directed: true
+    graph:
+        disease: Adrenal cortical hypofunction
+        disease_mesh: MESH:D000309
+        drug: Tetracosactide
+        drug_mesh: MESH:D003366
+        drugbank: DB:DB01284
+    links:
+    -   key: increases activity of
+        source: MESH:D003366
+        target: UniProt:Q01718
+    -   key: positively regulates
+        source: UniProt:Q01718
+        target: REACT:R-HSA-170660
+    -   key: positively regulates
+        source: REACT:R-HSA-170660
+        target: GO:0006694
+    -   key: increases abundance of
+        source: GO:0006694
+        target: MESH:D000305
+    -   key: negatively correlated with
+        source: MESH:D000305
+        target: MESH:D000309
+    multigraph: true
+    nodes:
+    -   id: MESH:D003366
+        label: Drug
+        name: Tetracosactide
+    -   id: UniProt:Q01718
+        label: Protein
+        name: Adrenocorticotropic hormone receptor
+    -   id: REACT:R-HSA-170660
+        label: Pathway
+        name: Adenylate cyclase activating pathway
+    -   id: GO:0006694
+        label: BiologicalProcess
+        name: Steroid biosynthetic process
+    -   id: MESH:D000305
+        label: ChemicalSubstance
+        name: Adrenal Cortex Hormones
+    -   id: MESH:D000309
+        label: Disease
+        name: Adrenal cortical hypofunction
+    reference: https://go.drugbank.com/drugs/DB01284#BE0000848 https://en.wikipedia.org/wiki/Adrenocorticotropic_hormone#Function
+     https://en.wikipedia.org/wiki/ACTH_stimulation_test
+-   comment: Illicit, Withdrawn. Please note that amineptine selectively inhibits the reuptake of dopamine and to a lesser extent norepinephrine.
+    directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: Amineptine
+        drug_mesh: MESH:C011597
+        drugbank: DB:DB04836
+    links:
+    -   key: decreases activity of
+        source: MESH:C011597
+        target: UniProt:P23975
+    -   key: decreases activity of
+        source: MESH:C011597
+        target: UniProt:Q01959
+    -   key: positively regulates
+        source: MESH:C011597
+        target: GO:0061527
+    -   key: participates in
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: participates in
+        source: UniProt:Q01959
+        target: GO:0051583
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051583
+        target: MESH:D004298
+    -   key: participates in
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: negatively correlated with
+        source: GO:0061533
+        target: MESH:D003866
+    -   key: negatively correlated with
+        source: GO:0061527
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:C011597
+        label: Drug
+        name: Amineptine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Noradrenaline uptake
+    -   id: GO:0051583
+        label: BiologicalProcess
+        name: Dopamine uptake involved in synaptic transmission
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Noradrenaline
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://go.drugbank.com/drugs/DB04836 https://en.wikipedia.org/wiki/Amineptine#Pharmacology
+-   directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: Mepenzolate
+        drug_mesh: MESH:C005101
+        drugbank: DB:DB04843
+    links:
+    -   key: decreases activity of
+        source: MESH:C005101
+        target: UniProt:P20309
+    -   key: decreases activity of
+        source: MESH:C005101
+        target: UniProt:P11229
+    -   key: participates in
+        source: UniProt:P11229
+        target: GO:0001699
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:0001699
+    -   key: increases abundance of
+        source: GO:0001699
+        target: MESH:D005744
+    -   key: contributes to
+        source: MESH:D005744
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:C005101
+        label: Drug
+        name: Mepenzolate
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0001699
+        label: BiologicalProcess
+        name: Acetylcholine-induced gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric acid
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference: https://go.drugbank.com/drugs/DB04843#BE0000092
+-   directed: true
+    graph:
+        disease: Gastric ulcer
+        disease_mesh: MESH:D013276
+        drug: Mepenzolate
+        drug_mesh: MESH:C005101
+        drugbank: DB:DB04843
+    links:
+    -   key: decreases activity of
+        source: MESH:C005101
+        target: UniProt:P20309
+    -   key: decreases activity of
+        source: MESH:C005101
+        target: UniProt:P11229
+    -   key: participates in
+        source: UniProt:P11229
+        target: GO:0001699
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:0001699
+    -   key: increases abundance of
+        source: GO:0001699
+        target: MESH:D005744
+    -   key: contributes to
+        source: MESH:D005744
+        target: MESH:D013276
+    multigraph: true
+    nodes:
+    -   id: MESH:C005101
+        label: Drug
+        name: Mepenzolate
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0001699
+        label: BiologicalProcess
+        name: Acetylcholine-induced gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric acid
+    -   id: MESH:D013276
+        label: Disease
+        name: Gastric ulcer
+    reference: https://go.drugbank.com/drugs/DB04843#BE0000092
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: bepotastine
+        drug_mesh: MESH:C511534,MESH:C108476
+        drugbank: DB:DB04890
+    links:
+    -   key: decreases activity of
+        source: DB:DB04890
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: DB:DB04890
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UBERON:0035501
+    -   key: positively regulates
+        source: UBERON:0035501
+        target: GO:0070075
+    -   key: manifestation of
+        source: GO:0070075
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: DB:DB04890
+        label: Drug
+        name: Bepotastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UBERON:0035501
+        label: GrossAnatomicalStructure
+        name: Free nerve ending
+    -   id: GO:0070075
+        label: BiologicalProcess
+        name: Tear secretion
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB04890#BE0000442
+-   comment: Please note that the mechanism by which peginterferon beta-1a exerts its effects in patients with multiple sclerosis is not fully known.
+     Although DrugBank states that Peginterferon beta-1a is an Interferon alpha/beta receptor 1 downregulator, there is an evidence in the literature showing that
+      Peginterferon beta-1a is in fact Interferon alpha/beta receptor 1 activator https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4303928/
+    directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: Peginterferon beta-1a
+        drug_mesh: MESH:C428112
+        drugbank: DB:DB09122
+    links:
+    -   key: increases activity of
+        source: MESH:C428112
+        target: UniProt:P17181
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0042100
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0050798
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0019882
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0042100
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0050798
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0019882
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:C428112
+        label: Drug
+        name: Peginterferon beta-1a
+    -   id: UniProt:P17181
+        label: Protein
+        name: Interferon alpha/beta receptor 1
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0042100
+        label: BiologicalProcess
+        name: B cell proliferation
+    -   id: GO:0050798
+        label: BiologicalProcess
+        name: Activated T cell proliferation
+    -   id: GO:0019882
+        label: BiologicalProcess
+        name: Antigen processing and presentation
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB09122
+       https://pubmed.ncbi.nlm.nih.gov/28638705/ https://pubmed.ncbi.nlm.nih.gov/17562848/
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: Brexpiprazole
+        drug_mesh: MESH:C000591922
+        drugbank: DB:DB09128
+    links:
+    -   key: regulates
+        source: MESH:C000591922
+        target: UniProt:P08908
+    -   key: regulates
+        source: MESH:C000591922
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:C000591922
+        target: UniProt:P28223
+    -   key: positively correlated with
+        source: UniProt:P08908
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P28223
+        target: HP:0000716
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: manifestation of
+        source: HP:0000716
+        target: MESH:D003865
+    -   key: disrupted by
+        source: GO:0060096
+        target: MESH:D003865
+    -   key: disrupted by
+        source: GO:0061527
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:C000591922
+        label: Drug
+        name: Brexpiprazole
+    -   id: UniProt:P08908
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1A
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: HP:0000716
+        label: PhenotypicFeature
+        name: Depressivity
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference: https://go.drugbank.com/drugs/DB09128#BE0000291 https://en.wikipedia.org/wiki/Major_depressive_disorder
+      https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5716179/
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: Brexpiprazole
+        drug_mesh: MESH:C000591922
+        drugbank: DB:DB09128
+    links:
+    -   key: regulates
+        source: MESH:C000591922
+        target: UniProt:P08908
+    -   key: regulates
+        source: MESH:C000591922
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:C000591922
+        target: UniProt:P28223
+    -   key: positively correlated with
+        source: UniProt:P08908
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P28223
+        target: HP:0000716
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: manifestation of
+        source: HP:0000716
+        target: MESH:D012559
+    -   key: disrupted by
+        source: GO:0060096
+        target: MESH:D012559
+    -   key: disrupted by
+        source: GO:0061527
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: MESH:C000591922
+        label: Drug
+        name: Brexpiprazole
+    -   id: UniProt:P08908
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1A
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: HP:0000716
+        label: PhenotypicFeature
+        name: Depressivity
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB09128#BE0000291 https://en.wikipedia.org/wiki/Schizophrenia
