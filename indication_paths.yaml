@@ -53473,3 +53473,3189 @@
         label: Disease
         name: Congestive heart failure
     reference: https://go.drugbank.com/drugs/DB09477#BE0000221 https://en.wikipedia.org/wiki/Heart_failure
+-   directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: Interferon beta-1a
+        drug_mesh: MESH:D000068556
+        drugbank: DB:DB00060
+    links:
+    -   key: increases activity of
+        source: MESH:D000068556
+        target: UniProt:P17181
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0042100
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0050798
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0019882
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0042100
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0050798
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0019882
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068556
+        label: Drug
+        name: Interferon beta-1a
+    -   id: UniProt:P17181
+        label: Protein
+        name: Interferon alpha/beta receptor 1
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0042100
+        label: BiologicalProcess
+        name: B cell proliferation
+    -   id: GO:0050798
+        label: BiologicalProcess
+        name: Activated T cell proliferation
+    -   id: GO:0019882
+        label: BiologicalProcess
+        name: Antigen processing and presentation
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB00060 https://pubmed.ncbi.nlm.nih.gov/28638705/
+        https://pubmed.ncbi.nlm.nih.gov/17562848/
+-   directed: true
+    graph:
+        disease: Vitamin A deficiency
+        disease_mesh: MESH:D014802
+        drug: Retinol
+        drug_mesh: MESH:D014801
+        drugbank: DB:DB00162
+    links:
+    -   key: positively correlated with
+        source: MESH:D014801
+        target: GO:0016063
+    -   key: positively regulates
+        source: MESH:D014801
+        target: GO:0042098
+    -   key: increases abundance of
+        source: GO:0016063
+        target: UniProt:P08100
+    -   key: participates in
+        source: UniProt:P08100
+        target: GO:0007603
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002456
+    -   key: negatively correlated with
+        source: GO:0007603
+        target: HP:0000662
+    -   key: negatively correlated with
+        source: GO:0002456
+        target: MESH:D014802
+    -   key: manifestation of
+        source: HP:0000662
+        target: MESH:D014802
+    multigraph: true
+    nodes:
+    -   id: MESH:D014801
+        label: Drug
+        name: Retinol
+    -   id: GO:0016063
+        label: BiologicalProcess
+        name: Rhodopsin biosynthetic process
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: UniProt:P08100
+        label: Protein
+        name: Rhodopsin
+    -   id: GO:0002456
+        label: BiologicalProcess
+        name: T cell mediated immunity
+    -   id: GO:0007603
+        label: BiologicalProcess
+        name: Phototransduction, visible light
+    -   id: HP:0000662
+        label: PhenotypicFeature
+        name: Nyctalopia
+    -   id: MESH:D014802
+        label: Disease
+        name: Vitamin A deficiency
+    reference: https://go.drugbank.com/drugs/DB00162 https://en.wikipedia.org/wiki/Vitamin_A_deficiency#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Vitamin deficiency
+        disease_mesh: MESH:D001361
+        drug: Retinol
+        drug_mesh: MESH:D014801
+        drugbank: DB:DB00162
+    links:
+    -   key: positively correlated with
+        source: MESH:D014801
+        target: GO:0016063
+    -   key: positively regulates
+        source: MESH:D014801
+        target: GO:0042098
+    -   key: increases abundance of
+        source: GO:0016063
+        target: UniProt:P08100
+    -   key: participates in
+        source: UniProt:P08100
+        target: GO:0007603
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002456
+    -   key: negatively correlated with
+        source: GO:0007603
+        target: HP:0000662
+    -   key: negatively correlated with
+        source: GO:0002456
+        target: MESH:D001361
+    -   key: manifestation of
+        source: HP:0000662
+        target: MESH:D001361
+    multigraph: true
+    nodes:
+    -   id: MESH:D014801
+        label: Drug
+        name: Retinol
+    -   id: GO:0016063
+        label: BiologicalProcess
+        name: Rhodopsin biosynthetic process
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: UniProt:P08100
+        label: Protein
+        name: Rhodopsin
+    -   id: GO:0002456
+        label: BiologicalProcess
+        name: T cell mediated immunity
+    -   id: GO:0007603
+        label: BiologicalProcess
+        name: Phototransduction, visible light
+    -   id: HP:0000662
+        label: PhenotypicFeature
+        name: Nyctalopia
+    -   id: MESH:D001361
+        label: Disease
+        name: Vitamin deficiency
+    reference: https://go.drugbank.com/drugs/DB00162 https://en.wikipedia.org/wiki/Vitamin_A_deficiency#Signs_and_symptoms
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Amebic liver abscess
+        disease_mesh: MESH:D008101
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5759
+    -   key: causes
+        source: NCBITaxon:5759
+        target: MESH:D008101
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5759
+        label: OrganismTaxon
+        name: Entamoeba histolytica
+    -   id: MESH:D008101
+        label: Disease
+        name: Amebic liver abscess
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Amoebic_liver_abscess
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Bacterial vaginosis
+        disease_mesh: MESH:D016585
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D016585
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D016585
+        label: Disease
+        name: Bacterial vaginosis
+    reference: https://go.drugbank.com/drugs/DB00911
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Infection by Trichomonas
+        disease_mesh: MESH:D014245
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5722
+    -   key: causes
+        source: NCBITaxon:5722
+        target: MESH:D014245
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5722
+        label: OrganismTaxon
+        name: Trichomonas vaginalis
+    -   id: MESH:D014245
+        label: Disease
+        name: Infection by Trichomonas
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Trichomoniasis#Treatment
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Giardiasis
+        disease_mesh: MESH:D005873
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5741
+    -   key: causes
+        source: NCBITaxon:5741
+        target: MESH:D005873
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5741
+        label: OrganismTaxon
+        name: Giardia intestinalis
+    -   id: MESH:D005873
+        label: Disease
+        name: Giardiasis
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Giardiasis
+-   directed: true
+    graph:
+        disease: Falciparum malaria
+        disease_mesh: MESH:D016778
+        drug: Atovaquone
+        drug_mesh: MESH:D053626
+        drugbank: DB:DB01117
+    links:
+    -   key: decreases activity of
+        source: MESH:D053626
+        target: UniProt:Q02768
+    -   key: decreases activity of
+        source: MESH:D053626
+        target: UniProt:Q08210
+    -   key: positively regulates
+        source: UniProt:Q02768
+        target: GO:0042773
+    -   key: positively regulates
+        source: UniProt:Q08210
+        target: GO:0019856
+    -   key: in taxon
+        source: GO:0042773
+        target: NCBITaxon:5833
+    -   key: in taxon
+        source: GO:0019856
+        target: NCBITaxon:5833
+    -   key: causes
+        source: NCBITaxon:5833
+        target: MESH:D016778
+    multigraph: true
+    nodes:
+    -   id: MESH:D053626
+        label: Drug
+        name: Atovaquone
+    -   id: UniProt:Q02768
+        label: Protein
+        name: Cytochrome b (Plasmodium falciparum)
+    -   id: UniProt:Q08210
+        label: Protein
+        name: Dihydroorotate dehydrogenase (quinone), mitochondrial
+    -   id: GO:0042773
+        label: BiologicalProcess
+        name: ATP synthesis coupled electron transport
+    -   id: GO:0019856
+        label: BiologicalProcess
+        name: Pyrimidine nucleobase biosynthetic process
+    -   id: NCBITaxon:5833
+        label: OrganismTaxon
+        name: Plasmodium falciparum
+    -   id: MESH:D016778
+        label: Disease
+        name: Falciparum malaria
+    reference: https://go.drugbank.com/drugs/DB01117#BE0004428
+-   directed: true
+    graph:
+        disease: Bacterial endocarditis
+        disease_mesh: MESH:D004697
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D004697
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D004697
+        label: Disease
+        name: Bacterial endocarditis
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Infective_endocarditis#Cause
+-   directed: true
+    graph:
+        disease: Rhinoscleroma
+        disease_mesh: MESH:D012226
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:39831
+    -   key: causes
+        source: NCBITaxon:39831
+        target: MESH:D012226
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:39831
+        label: OrganismTaxon
+        name: Klebsiella pneumoniae subsp. rhinoscleromatis
+    -   id: MESH:D012226
+        label: Disease
+        name: Rhinoscleroma
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Rhinoscleroma
+-   directed: true
+    graph:
+        disease: Infection due to Escherichia coli
+        disease_mesh: MESH:D004927
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D004927
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D004927
+        label: Disease
+        name: Infection due to Escherichia coli
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1279
+    -   key: causes
+        source: NCBITaxon:1279
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1279
+        label: OrganismTaxon
+        name: Staphylococcus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Pneumonia#Cause
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB01139
+-   comment: Propylene glycol helps create an ocular shield, allowing for epithelial
+        repair.
+    directed: true
+    graph:
+        disease: Dry Eye Syndromes
+        disease_mesh: MESH:D015352
+        drug: Propylene glycol
+        drug_mesh: MESH:D019946
+        drugbank: DB:DB01839
+    links:
+    -   key: positively correlated with
+        source: MESH:D019946
+        target: GO:0010669
+    -   key: negatively correlated with
+        source: GO:0010669
+        target: MESH:D015352
+    multigraph: true
+    nodes:
+    -   id: MESH:D019946
+        label: Drug
+        name: Propylene glycol
+    -   id: GO:0010669
+        label: BiologicalProcess
+        name: Epithelial structure maintenance
+    -   id: MESH:D015352
+        label: Disease
+        name: Dry Eye Syndromes
+    reference: https://go.drugbank.com/drugs/DB01839#BE0002565 https://en.wikipedia.org/wiki/Dry_eye_syndrome
+-   directed: true
+    graph:
+        disease: Chronic non-neuropathic Gaucher's disease
+        disease_mesh: MESH:D005776
+        drug: Velaglucerase alfa
+        drug_mesh: null
+        drugbank: DB:DB06720
+    links:
+    -   key: decreases abundance of
+        source: DB:DB06720
+        target: MESH:D005963
+    -   key: causes
+        source: MESH:D005963
+        target: MESH:D005776
+    multigraph: true
+    nodes:
+    -   id: DB:DB06720
+        label: Drug
+        name: Velaglucerase alfa
+    -   id: MESH:D005963
+        label: ChemicalSubstance
+        name: Glucosylceramides
+    -   id: MESH:D005776
+        label: Disease
+        name: Chronic non-neuropathic Gaucher's disease
+    reference: https://en.wikipedia.org/wiki/Gaucher%27s_disease https://go.drugbank.com/drugs/DB06720
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Dulaglutide
+        drug_mesh: MESH:C555680
+        drugbank: DB:DB09045
+    links:
+    -   key: increases activity of
+        source: MESH:C555680
+        target: UniProt:P43220
+    -   key: positively correlated with
+        source: UniProt:P43220
+        target: CHEBI:80270
+    -   key: positively regulates
+        source: CHEBI:80270
+        target: GO:0030073
+    -   key: negatively regulates
+        source: CHEBI:80270
+        target: GO:0070091
+    -   key: negatively regulates
+        source: GO:0030073
+        target: HP:0003074
+    -   key: positively correlated with
+        source: GO:0070091
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C555680
+        label: Drug
+        name: Dulaglutide
+    -   id: UniProt:P43220
+        label: Protein
+        name: Glucagon-like peptide 1 receptor
+    -   id: CHEBI:80270
+        label: ChemicalSubstance
+        name: Glucagon-like peptide 1
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: GO:0070091
+        label: BiologicalProcess
+        name: Glucagon secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB09045#BE0000857 https://en.wikipedia.org/wiki/Glucagon-like_peptide-1
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Enalaprilat
+        drug_mesh: MESH:D015773
+        drugbank: DB:DB09477
+    links:
+    -   key: decreases activity of
+        source: MESH:D015773
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: contributes to
+        source: GO:0003092
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: MESH:D006973
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: contributes to
+        source: MESH:D014661
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D015773
+        label: Drug
+        name: Enalaprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: Renal water retention
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB09477#BE0000221
+-   directed: true
+    graph:
+        disease: Congestive heart failure
+        disease_mesh: MESH:D006333
+        drug: Enalaprilat
+        drug_mesh: MESH:D015773
+        drugbank: DB:DB09477
+    links:
+    -   key: decreases activity of
+        source: MESH:D015773
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: HP:0000822
+    -   key: contributes to
+        source: MESH:D014661
+        target: HP:0000822
+    -   key: affects risk for
+        source: HP:0000822
+        target: MESH:D006333
+    multigraph: true
+    nodes:
+    -   id: MESH:D015773
+        label: Drug
+        name: Enalaprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D006333
+        label: Disease
+        name: Congestive heart failure
+    reference: https://go.drugbank.com/drugs/DB09477#BE0000221 https://en.wikipedia.org/wiki/Heart_failure
+-   directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: Interferon beta-1a
+        drug_mesh: MESH:D000068556
+        drugbank: DB:DB00060
+    links:
+    -   key: increases activity of
+        source: MESH:D000068556
+        target: UniProt:P17181
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0042100
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0050798
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0019882
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0042100
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0050798
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0019882
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068556
+        label: Drug
+        name: Interferon beta-1a
+    -   id: UniProt:P17181
+        label: Protein
+        name: Interferon alpha/beta receptor 1
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0042100
+        label: BiologicalProcess
+        name: B cell proliferation
+    -   id: GO:0050798
+        label: BiologicalProcess
+        name: Activated T cell proliferation
+    -   id: GO:0019882
+        label: BiologicalProcess
+        name: Antigen processing and presentation
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB00060 https://pubmed.ncbi.nlm.nih.gov/28638705/
+        https://pubmed.ncbi.nlm.nih.gov/17562848/
+-   directed: true
+    graph:
+        disease: Vitamin A deficiency
+        disease_mesh: MESH:D014802
+        drug: Retinol
+        drug_mesh: MESH:D014801
+        drugbank: DB:DB00162
+    links:
+    -   key: positively correlated with
+        source: MESH:D014801
+        target: GO:0016063
+    -   key: positively regulates
+        source: MESH:D014801
+        target: GO:0042098
+    -   key: increases abundance of
+        source: GO:0016063
+        target: UniProt:P08100
+    -   key: participates in
+        source: UniProt:P08100
+        target: GO:0007603
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002456
+    -   key: negatively correlated with
+        source: GO:0007603
+        target: HP:0000662
+    -   key: negatively correlated with
+        source: GO:0002456
+        target: MESH:D014802
+    -   key: manifestation of
+        source: HP:0000662
+        target: MESH:D014802
+    multigraph: true
+    nodes:
+    -   id: MESH:D014801
+        label: Drug
+        name: Retinol
+    -   id: GO:0016063
+        label: BiologicalProcess
+        name: Rhodopsin biosynthetic process
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: UniProt:P08100
+        label: Protein
+        name: Rhodopsin
+    -   id: GO:0002456
+        label: BiologicalProcess
+        name: T cell mediated immunity
+    -   id: GO:0007603
+        label: BiologicalProcess
+        name: Phototransduction, visible light
+    -   id: HP:0000662
+        label: PhenotypicFeature
+        name: Nyctalopia
+    -   id: MESH:D014802
+        label: Disease
+        name: Vitamin A deficiency
+    reference: https://go.drugbank.com/drugs/DB00162 https://en.wikipedia.org/wiki/Vitamin_A_deficiency#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Vitamin deficiency
+        disease_mesh: MESH:D001361
+        drug: Retinol
+        drug_mesh: MESH:D014801
+        drugbank: DB:DB00162
+    links:
+    -   key: positively correlated with
+        source: MESH:D014801
+        target: GO:0016063
+    -   key: positively regulates
+        source: MESH:D014801
+        target: GO:0042098
+    -   key: increases abundance of
+        source: GO:0016063
+        target: UniProt:P08100
+    -   key: participates in
+        source: UniProt:P08100
+        target: GO:0007603
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002456
+    -   key: negatively correlated with
+        source: GO:0007603
+        target: HP:0000662
+    -   key: negatively correlated with
+        source: GO:0002456
+        target: MESH:D001361
+    -   key: manifestation of
+        source: HP:0000662
+        target: MESH:D001361
+    multigraph: true
+    nodes:
+    -   id: MESH:D014801
+        label: Drug
+        name: Retinol
+    -   id: GO:0016063
+        label: BiologicalProcess
+        name: Rhodopsin biosynthetic process
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: UniProt:P08100
+        label: Protein
+        name: Rhodopsin
+    -   id: GO:0002456
+        label: BiologicalProcess
+        name: T cell mediated immunity
+    -   id: GO:0007603
+        label: BiologicalProcess
+        name: Phototransduction, visible light
+    -   id: HP:0000662
+        label: PhenotypicFeature
+        name: Nyctalopia
+    -   id: MESH:D001361
+        label: Disease
+        name: Vitamin deficiency
+    reference: https://go.drugbank.com/drugs/DB00162 https://en.wikipedia.org/wiki/Vitamin_A_deficiency#Signs_and_symptoms
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Amebic liver abscess
+        disease_mesh: MESH:D008101
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5759
+    -   key: causes
+        source: NCBITaxon:5759
+        target: MESH:D008101
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5759
+        label: OrganismTaxon
+        name: Entamoeba histolytica
+    -   id: MESH:D008101
+        label: Disease
+        name: Amebic liver abscess
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Amoebic_liver_abscess
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Bacterial vaginosis
+        disease_mesh: MESH:D016585
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D016585
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D016585
+        label: Disease
+        name: Bacterial vaginosis
+    reference: https://go.drugbank.com/drugs/DB00911
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Infection by Trichomonas
+        disease_mesh: MESH:D014245
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5722
+    -   key: causes
+        source: NCBITaxon:5722
+        target: MESH:D014245
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5722
+        label: OrganismTaxon
+        name: Trichomonas vaginalis
+    -   id: MESH:D014245
+        label: Disease
+        name: Infection by Trichomonas
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Trichomoniasis#Treatment
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Giardiasis
+        disease_mesh: MESH:D005873
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5741
+    -   key: causes
+        source: NCBITaxon:5741
+        target: MESH:D005873
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5741
+        label: OrganismTaxon
+        name: Giardia intestinalis
+    -   id: MESH:D005873
+        label: Disease
+        name: Giardiasis
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Giardiasis
+-   directed: true
+    graph:
+        disease: Falciparum malaria
+        disease_mesh: MESH:D016778
+        drug: Atovaquone
+        drug_mesh: MESH:D053626
+        drugbank: DB:DB01117
+    links:
+    -   key: decreases activity of
+        source: MESH:D053626
+        target: UniProt:Q02768
+    -   key: decreases activity of
+        source: MESH:D053626
+        target: UniProt:Q08210
+    -   key: positively regulates
+        source: UniProt:Q02768
+        target: GO:0042773
+    -   key: positively regulates
+        source: UniProt:Q08210
+        target: GO:0019856
+    -   key: in taxon
+        source: GO:0042773
+        target: NCBITaxon:5833
+    -   key: in taxon
+        source: GO:0019856
+        target: NCBITaxon:5833
+    -   key: causes
+        source: NCBITaxon:5833
+        target: MESH:D016778
+    multigraph: true
+    nodes:
+    -   id: MESH:D053626
+        label: Drug
+        name: Atovaquone
+    -   id: UniProt:Q02768
+        label: Protein
+        name: Cytochrome b (Plasmodium falciparum)
+    -   id: UniProt:Q08210
+        label: Protein
+        name: Dihydroorotate dehydrogenase (quinone), mitochondrial
+    -   id: GO:0042773
+        label: BiologicalProcess
+        name: ATP synthesis coupled electron transport
+    -   id: GO:0019856
+        label: BiologicalProcess
+        name: Pyrimidine nucleobase biosynthetic process
+    -   id: NCBITaxon:5833
+        label: OrganismTaxon
+        name: Plasmodium falciparum
+    -   id: MESH:D016778
+        label: Disease
+        name: Falciparum malaria
+    reference: https://go.drugbank.com/drugs/DB01117#BE0004428
+-   directed: true
+    graph:
+        disease: Bacterial endocarditis
+        disease_mesh: MESH:D004697
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D004697
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D004697
+        label: Disease
+        name: Bacterial endocarditis
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Infective_endocarditis#Cause
+-   directed: true
+    graph:
+        disease: Rhinoscleroma
+        disease_mesh: MESH:D012226
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:39831
+    -   key: causes
+        source: NCBITaxon:39831
+        target: MESH:D012226
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:39831
+        label: OrganismTaxon
+        name: Klebsiella pneumoniae subsp. rhinoscleromatis
+    -   id: MESH:D012226
+        label: Disease
+        name: Rhinoscleroma
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Rhinoscleroma
+-   directed: true
+    graph:
+        disease: Infection due to Escherichia coli
+        disease_mesh: MESH:D004927
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D004927
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D004927
+        label: Disease
+        name: Infection due to Escherichia coli
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1279
+    -   key: causes
+        source: NCBITaxon:1279
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1279
+        label: OrganismTaxon
+        name: Staphylococcus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Pneumonia#Cause
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB01139
+-   comment: Propylene glycol helps create an ocular shield, allowing for epithelial
+        repair.
+    directed: true
+    graph:
+        disease: Dry Eye Syndromes
+        disease_mesh: MESH:D015352
+        drug: Propylene glycol
+        drug_mesh: MESH:D019946
+        drugbank: DB:DB01839
+    links:
+    -   key: positively correlated with
+        source: MESH:D019946
+        target: GO:0010669
+    -   key: negatively correlated with
+        source: GO:0010669
+        target: MESH:D015352
+    multigraph: true
+    nodes:
+    -   id: MESH:D019946
+        label: Drug
+        name: Propylene glycol
+    -   id: GO:0010669
+        label: BiologicalProcess
+        name: Epithelial structure maintenance
+    -   id: MESH:D015352
+        label: Disease
+        name: Dry Eye Syndromes
+    reference: https://go.drugbank.com/drugs/DB01839#BE0002565 https://en.wikipedia.org/wiki/Dry_eye_syndrome
+-   directed: true
+    graph:
+        disease: Chronic non-neuropathic Gaucher's disease
+        disease_mesh: MESH:D005776
+        drug: Velaglucerase alfa
+        drug_mesh: null
+        drugbank: DB:DB06720
+    links:
+    -   key: decreases abundance of
+        source: DB:DB06720
+        target: MESH:D005963
+    -   key: causes
+        source: MESH:D005963
+        target: MESH:D005776
+    multigraph: true
+    nodes:
+    -   id: DB:DB06720
+        label: Drug
+        name: Velaglucerase alfa
+    -   id: MESH:D005963
+        label: ChemicalSubstance
+        name: Glucosylceramides
+    -   id: MESH:D005776
+        label: Disease
+        name: Chronic non-neuropathic Gaucher's disease
+    reference: https://en.wikipedia.org/wiki/Gaucher%27s_disease https://go.drugbank.com/drugs/DB06720
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Dulaglutide
+        drug_mesh: MESH:C555680
+        drugbank: DB:DB09045
+    links:
+    -   key: increases activity of
+        source: MESH:C555680
+        target: UniProt:P43220
+    -   key: positively correlated with
+        source: UniProt:P43220
+        target: CHEBI:80270
+    -   key: positively regulates
+        source: CHEBI:80270
+        target: GO:0030073
+    -   key: negatively regulates
+        source: CHEBI:80270
+        target: GO:0070091
+    -   key: negatively regulates
+        source: GO:0030073
+        target: HP:0003074
+    -   key: positively correlated with
+        source: GO:0070091
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C555680
+        label: Drug
+        name: Dulaglutide
+    -   id: UniProt:P43220
+        label: Protein
+        name: Glucagon-like peptide 1 receptor
+    -   id: CHEBI:80270
+        label: ChemicalSubstance
+        name: Glucagon-like peptide 1
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: GO:0070091
+        label: BiologicalProcess
+        name: Glucagon secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB09045#BE0000857 https://en.wikipedia.org/wiki/Glucagon-like_peptide-1
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Enalaprilat
+        drug_mesh: MESH:D015773
+        drugbank: DB:DB09477
+    links:
+    -   key: decreases activity of
+        source: MESH:D015773
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: contributes to
+        source: GO:0003092
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: MESH:D006973
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: contributes to
+        source: MESH:D014661
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D015773
+        label: Drug
+        name: Enalaprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: Renal water retention
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB09477#BE0000221
+-   directed: true
+    graph:
+        disease: Congestive heart failure
+        disease_mesh: MESH:D006333
+        drug: Enalaprilat
+        drug_mesh: MESH:D015773
+        drugbank: DB:DB09477
+    links:
+    -   key: decreases activity of
+        source: MESH:D015773
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: HP:0000822
+    -   key: contributes to
+        source: MESH:D014661
+        target: HP:0000822
+    -   key: affects risk for
+        source: HP:0000822
+        target: MESH:D006333
+    multigraph: true
+    nodes:
+    -   id: MESH:D015773
+        label: Drug
+        name: Enalaprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D006333
+        label: Disease
+        name: Congestive heart failure
+    reference: https://go.drugbank.com/drugs/DB09477#BE0000221 https://en.wikipedia.org/wiki/Heart_failure
+-   directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: Interferon beta-1a
+        drug_mesh: MESH:D000068556
+        drugbank: DB:DB00060
+    links:
+    -   key: increases activity of
+        source: MESH:D000068556
+        target: UniProt:P17181
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0042100
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0050798
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0019882
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0042100
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0050798
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0019882
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068556
+        label: Drug
+        name: Interferon beta-1a
+    -   id: UniProt:P17181
+        label: Protein
+        name: Interferon alpha/beta receptor 1
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0042100
+        label: BiologicalProcess
+        name: B cell proliferation
+    -   id: GO:0050798
+        label: BiologicalProcess
+        name: Activated T cell proliferation
+    -   id: GO:0019882
+        label: BiologicalProcess
+        name: Antigen processing and presentation
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB00060 https://pubmed.ncbi.nlm.nih.gov/28638705/
+        https://pubmed.ncbi.nlm.nih.gov/17562848/
+-   directed: true
+    graph:
+        disease: Vitamin A deficiency
+        disease_mesh: MESH:D014802
+        drug: Retinol
+        drug_mesh: MESH:D014801
+        drugbank: DB:DB00162
+    links:
+    -   key: positively correlated with
+        source: MESH:D014801
+        target: GO:0016063
+    -   key: positively regulates
+        source: MESH:D014801
+        target: GO:0042098
+    -   key: increases abundance of
+        source: GO:0016063
+        target: UniProt:P08100
+    -   key: participates in
+        source: UniProt:P08100
+        target: GO:0007603
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002456
+    -   key: negatively correlated with
+        source: GO:0007603
+        target: HP:0000662
+    -   key: negatively correlated with
+        source: GO:0002456
+        target: MESH:D014802
+    -   key: manifestation of
+        source: HP:0000662
+        target: MESH:D014802
+    multigraph: true
+    nodes:
+    -   id: MESH:D014801
+        label: Drug
+        name: Retinol
+    -   id: GO:0016063
+        label: BiologicalProcess
+        name: Rhodopsin biosynthetic process
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: UniProt:P08100
+        label: Protein
+        name: Rhodopsin
+    -   id: GO:0002456
+        label: BiologicalProcess
+        name: T cell mediated immunity
+    -   id: GO:0007603
+        label: BiologicalProcess
+        name: Phototransduction, visible light
+    -   id: HP:0000662
+        label: PhenotypicFeature
+        name: Nyctalopia
+    -   id: MESH:D014802
+        label: Disease
+        name: Vitamin A deficiency
+    reference: https://go.drugbank.com/drugs/DB00162 https://en.wikipedia.org/wiki/Vitamin_A_deficiency#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Vitamin deficiency
+        disease_mesh: MESH:D001361
+        drug: Retinol
+        drug_mesh: MESH:D014801
+        drugbank: DB:DB00162
+    links:
+    -   key: positively correlated with
+        source: MESH:D014801
+        target: GO:0016063
+    -   key: positively regulates
+        source: MESH:D014801
+        target: GO:0042098
+    -   key: increases abundance of
+        source: GO:0016063
+        target: UniProt:P08100
+    -   key: participates in
+        source: UniProt:P08100
+        target: GO:0007603
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002456
+    -   key: negatively correlated with
+        source: GO:0007603
+        target: HP:0000662
+    -   key: negatively correlated with
+        source: GO:0002456
+        target: MESH:D001361
+    -   key: manifestation of
+        source: HP:0000662
+        target: MESH:D001361
+    multigraph: true
+    nodes:
+    -   id: MESH:D014801
+        label: Drug
+        name: Retinol
+    -   id: GO:0016063
+        label: BiologicalProcess
+        name: Rhodopsin biosynthetic process
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: UniProt:P08100
+        label: Protein
+        name: Rhodopsin
+    -   id: GO:0002456
+        label: BiologicalProcess
+        name: T cell mediated immunity
+    -   id: GO:0007603
+        label: BiologicalProcess
+        name: Phototransduction, visible light
+    -   id: HP:0000662
+        label: PhenotypicFeature
+        name: Nyctalopia
+    -   id: MESH:D001361
+        label: Disease
+        name: Vitamin deficiency
+    reference: https://go.drugbank.com/drugs/DB00162 https://en.wikipedia.org/wiki/Vitamin_A_deficiency#Signs_and_symptoms
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Amebic liver abscess
+        disease_mesh: MESH:D008101
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5759
+    -   key: causes
+        source: NCBITaxon:5759
+        target: MESH:D008101
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5759
+        label: OrganismTaxon
+        name: Entamoeba histolytica
+    -   id: MESH:D008101
+        label: Disease
+        name: Amebic liver abscess
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Amoebic_liver_abscess
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Bacterial vaginosis
+        disease_mesh: MESH:D016585
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D016585
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D016585
+        label: Disease
+        name: Bacterial vaginosis
+    reference: https://go.drugbank.com/drugs/DB00911
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Infection by Trichomonas
+        disease_mesh: MESH:D014245
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5722
+    -   key: causes
+        source: NCBITaxon:5722
+        target: MESH:D014245
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5722
+        label: OrganismTaxon
+        name: Trichomonas vaginalis
+    -   id: MESH:D014245
+        label: Disease
+        name: Infection by Trichomonas
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Trichomoniasis#Treatment
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Giardiasis
+        disease_mesh: MESH:D005873
+        drug: Tinidazole
+        drug_mesh: MESH:D014011
+        drugbank: DB:DB00911
+    links:
+    -   key: positively regulates
+        source: MESH:D014011
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5741
+    -   key: causes
+        source: NCBITaxon:5741
+        target: MESH:D005873
+    multigraph: true
+    nodes:
+    -   id: MESH:D014011
+        label: Drug
+        name: Tinidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5741
+        label: OrganismTaxon
+        name: Giardia intestinalis
+    -   id: MESH:D005873
+        label: Disease
+        name: Giardiasis
+    reference: https://go.drugbank.com/drugs/DB00911 https://en.wikipedia.org/wiki/Giardiasis
+-   directed: true
+    graph:
+        disease: Falciparum malaria
+        disease_mesh: MESH:D016778
+        drug: Atovaquone
+        drug_mesh: MESH:D053626
+        drugbank: DB:DB01117
+    links:
+    -   key: decreases activity of
+        source: MESH:D053626
+        target: UniProt:Q02768
+    -   key: decreases activity of
+        source: MESH:D053626
+        target: UniProt:Q08210
+    -   key: positively regulates
+        source: UniProt:Q02768
+        target: GO:0042773
+    -   key: positively regulates
+        source: UniProt:Q08210
+        target: GO:0019856
+    -   key: in taxon
+        source: GO:0042773
+        target: NCBITaxon:5833
+    -   key: in taxon
+        source: GO:0019856
+        target: NCBITaxon:5833
+    -   key: causes
+        source: NCBITaxon:5833
+        target: MESH:D016778
+    multigraph: true
+    nodes:
+    -   id: MESH:D053626
+        label: Drug
+        name: Atovaquone
+    -   id: UniProt:Q02768
+        label: Protein
+        name: Cytochrome b (Plasmodium falciparum)
+    -   id: UniProt:Q08210
+        label: Protein
+        name: Dihydroorotate dehydrogenase (quinone), mitochondrial
+    -   id: GO:0042773
+        label: BiologicalProcess
+        name: ATP synthesis coupled electron transport
+    -   id: GO:0019856
+        label: BiologicalProcess
+        name: Pyrimidine nucleobase biosynthetic process
+    -   id: NCBITaxon:5833
+        label: OrganismTaxon
+        name: Plasmodium falciparum
+    -   id: MESH:D016778
+        label: Disease
+        name: Falciparum malaria
+    reference: https://go.drugbank.com/drugs/DB01117#BE0004428
+-   directed: true
+    graph:
+        disease: Bacterial endocarditis
+        disease_mesh: MESH:D004697
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D004697
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D004697
+        label: Disease
+        name: Bacterial endocarditis
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Infective_endocarditis#Cause
+-   directed: true
+    graph:
+        disease: Rhinoscleroma
+        disease_mesh: MESH:D012226
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:39831
+    -   key: causes
+        source: NCBITaxon:39831
+        target: MESH:D012226
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:39831
+        label: OrganismTaxon
+        name: Klebsiella pneumoniae subsp. rhinoscleromatis
+    -   id: MESH:D012226
+        label: Disease
+        name: Rhinoscleroma
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Rhinoscleroma
+-   directed: true
+    graph:
+        disease: Infection due to Escherichia coli
+        disease_mesh: MESH:D004927
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D004927
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D004927
+        label: Disease
+        name: Infection due to Escherichia coli
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1279
+    -   key: causes
+        source: NCBITaxon:1279
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1279
+        label: OrganismTaxon
+        name: Staphylococcus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Pneumonia#Cause
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01139 https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01139
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Cefapirin
+        drug_mesh: MESH:D002514
+        drugbank: DB:DB01139
+    links:
+    -   key: decreases activity of
+        source: MESH:D002514
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D002514
+        label: Drug
+        name: Cefapirin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB01139
+-   comment: Propylene glycol helps create an ocular shield, allowing for epithelial
+        repair.
+    directed: true
+    graph:
+        disease: Dry Eye Syndromes
+        disease_mesh: MESH:D015352
+        drug: Propylene glycol
+        drug_mesh: MESH:D019946
+        drugbank: DB:DB01839
+    links:
+    -   key: positively correlated with
+        source: MESH:D019946
+        target: GO:0010669
+    -   key: negatively correlated with
+        source: GO:0010669
+        target: MESH:D015352
+    multigraph: true
+    nodes:
+    -   id: MESH:D019946
+        label: Drug
+        name: Propylene glycol
+    -   id: GO:0010669
+        label: BiologicalProcess
+        name: Epithelial structure maintenance
+    -   id: MESH:D015352
+        label: Disease
+        name: Dry Eye Syndromes
+    reference: https://go.drugbank.com/drugs/DB01839#BE0002565 https://en.wikipedia.org/wiki/Dry_eye_syndrome
+-   directed: true
+    graph:
+        disease: Chronic non-neuropathic Gaucher's disease
+        disease_mesh: MESH:D005776
+        drug: Velaglucerase alfa
+        drug_mesh: null
+        drugbank: DB:DB06720
+    links:
+    -   key: decreases abundance of
+        source: DB:DB06720
+        target: MESH:D005963
+    -   key: causes
+        source: MESH:D005963
+        target: MESH:D005776
+    multigraph: true
+    nodes:
+    -   id: DB:DB06720
+        label: Drug
+        name: Velaglucerase alfa
+    -   id: MESH:D005963
+        label: ChemicalSubstance
+        name: Glucosylceramides
+    -   id: MESH:D005776
+        label: Disease
+        name: Chronic non-neuropathic Gaucher's disease
+    reference: https://en.wikipedia.org/wiki/Gaucher%27s_disease https://go.drugbank.com/drugs/DB06720
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Dulaglutide
+        drug_mesh: MESH:C555680
+        drugbank: DB:DB09045
+    links:
+    -   key: increases activity of
+        source: MESH:C555680
+        target: UniProt:P43220
+    -   key: positively correlated with
+        source: UniProt:P43220
+        target: CHEBI:80270
+    -   key: positively regulates
+        source: CHEBI:80270
+        target: GO:0030073
+    -   key: negatively regulates
+        source: CHEBI:80270
+        target: GO:0070091
+    -   key: negatively regulates
+        source: GO:0030073
+        target: HP:0003074
+    -   key: positively correlated with
+        source: GO:0070091
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C555680
+        label: Drug
+        name: Dulaglutide
+    -   id: UniProt:P43220
+        label: Protein
+        name: Glucagon-like peptide 1 receptor
+    -   id: CHEBI:80270
+        label: ChemicalSubstance
+        name: Glucagon-like peptide 1
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: GO:0070091
+        label: BiologicalProcess
+        name: Glucagon secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB09045#BE0000857 https://en.wikipedia.org/wiki/Glucagon-like_peptide-1
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Enalaprilat
+        drug_mesh: MESH:D015773
+        drugbank: DB:DB09477
+    links:
+    -   key: decreases activity of
+        source: MESH:D015773
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: contributes to
+        source: GO:0003092
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: MESH:D006973
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: contributes to
+        source: MESH:D014661
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D015773
+        label: Drug
+        name: Enalaprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: Renal water retention
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB09477#BE0000221
+-   directed: true
+    graph:
+        disease: Congestive heart failure
+        disease_mesh: MESH:D006333
+        drug: Enalaprilat
+        drug_mesh: MESH:D015773
+        drugbank: DB:DB09477
+    links:
+    -   key: decreases activity of
+        source: MESH:D015773
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: HP:0000822
+    -   key: contributes to
+        source: MESH:D014661
+        target: HP:0000822
+    -   key: affects risk for
+        source: HP:0000822
+        target: MESH:D006333
+    multigraph: true
+    nodes:
+    -   id: MESH:D015773
+        label: Drug
+        name: Enalaprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D006333
+        label: Disease
+        name: Congestive heart failure
+    reference: https://go.drugbank.com/drugs/DB09477#BE0000221 https://en.wikipedia.org/wiki/Heart_failure
