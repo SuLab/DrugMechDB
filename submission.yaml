@@ -1,1 +1,1211 @@
+- directed: true
+  graph:
+    disease: Pellagra
+    disease_mesh: MESH:D010383
+    drug: nicotinamide
+    drug_mesh: MESH:D009536
+    drugbank: DB:DB02701
+  links:
+    - key: correlated with
+      source: MESH:D009536
+      target: CHEBI:15940
+    - key: negatively correlated with
+      source: CHEBI:15940
+      target: HP:0100497
+    - key: positively correlated with
+      source: HP:0100497
+      target: MESH:D010383
+  multigraph: true
+  nodes:
+    - id: MESH:D009536
+      label: Drug
+      name: nicotinamide
+    - id: CHEBI:15940
+      label: ChemicalSubstance
+      name: nicotinic acid
+    - id: HP:0100497
+      label: PhenotypicFeature
+      name: Vitamin B3 deficiency
+    - id: MESH:D010383
+      label: Disease
+      name: Pellagra
+  reference: https://en.wikipedia.org/wiki/Nicotinamide https://en.wikipedia.org/wiki/Pellagra#Treatment
+- directed: true
+  graph:
+    disease: Acne vulgaris
+    disease_mesh: MESH:D000152
+    drug: nicotinamide
+    drug_mesh: MESH:D009536
+    drugbank: DB:DB02701
+  links:
+    - key: decreases activity of
+      source: MESH:D009536
+      target: REACT:R-HSA-181438
+    - key: part of
+      source: REACT:R-HSA-181438
+      target: GO:0006954
+    - key: caused by
+      source: GO:0006954
+      target: NCBITaxon:1747
+    - key: positively correlated with
+      source: NCBITaxon:1747
+      target: MESH:D000152
+    - key: decreases abundance of
+      source: MESH:D009536
+      target: UBERON:0001866
+    - key: positively correlated with
+      source: UBERON:0001866
+      target: HP:0025249
+    - key: positively correlated with
+      source: HP:0025249
+      target: MESH:D000152
+  multigraph: true
+  nodes:
+    - id: MESH:D009536
+      label: Drug
+      name: nicotinamide
+    - id: UBERON:0001866
+      label: GrossAnatomicalStructure
+      name: sebum
+    - id: HP:0025249
+      label: PhenotypicFeature
+      name: Comedo
+    - id: REACT:R-HSA-181438
+      label: Pathway
+      name: Toll Like Receptor 2 (TLR2) Cascade
+    - id: NCBITaxon:1747
+      label: OrganismTaxon
+      name: Cutibacterium acnes
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D000152
+      label: Disease
+      name: Acne vulgaris
+  reference: https://en.wikipedia.org/wiki/Nicotinamide#Acne
+- directed: true
+  graph:
+      disease: Schizophrenia
+      disease_mesh: MESH:D012559
+      drug: chlorprothixene
+      drug_mesh: MESH:D002749
+      drugbank: DB:DB01239
+  links:
+    -   key: decreases activity of
+        source: MESH:D002749
+        target: MESH:D011976
+    -   key: decreases activity of
+        source: MESH:D002749
+        target: MESH:D011976
+    -   key: decreases activity of
+        source: MESH:D002749
+        target: MESH:D011954
+    -   key: decreases activity of
+        source: MESH:D002749
+        target: MESH:D011985
+    -   key: positively regulates
+        source: MESH:D011976
+        target: GO:0007274
+    -   key: positively correlated with
+        source: GO:0007274
+        target: HP:0011442
+    -   key: caused by
+        source: HP:0011442
+        target: MESH:D014150
+    -   key: treats
+        source: MESH:D014150
+        target: MESH:D012559
+    -   key: positively regulates
+        source: MESH:D011985
+        target: GO:0014046
+    -   key: positively regulates
+        source: MESH:D011976
+        target: GO:0007213
+    -   key: positively correlated with
+        source: GO:0007213
+        target: MESH:D059290
+    -   key: positively regulates
+        source: MESH:D059290
+        target: GO:0014046
+    -   key: positively regulates
+        source: MESH:D011954
+        target: GO:0014046
+    -   key: increases abundance of
+        source: GO:0014046
+        target: CHEBI:18243
+    -   key: located in
+        source: CHEBI:18243
+        target: UBERON:0001910
+    -   key: positively correlated with
+        source: UBERON:0001910
+        target: MESH:D012559
+  multigraph: true
+  nodes:
+    -   id: MESH:D002749
+        label: Drug
+        name: chlorprothixene
+    -   id: MESH:D011976
+        label: GeneFamily
+        name: Receptors, Muscarinic
+    -   id: MESH:D011985
+        label: GeneFamily
+        name: Receptors, Serotonin
+    -   id: MESH:D011954
+        label: GeneFamily
+        name: Receptors, Dopamine
+    -   id: GO:0014046
+        label: BiologicalProcess
+        name: dopamine secretion
+    -   id: GO:0007274
+        label: BiologicalProcess
+        name: neuromuscular synaptic transmission
+    -   id: GO:0007213
+        label: BiologicalProcess
+        name: G protein-coupled acetylcholine receptor signaling pathway
+    -   id: HP:0011442
+        label: PhenotypicFeature
+        name: Abnormal central motor function
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: UBERON:0001910
+        label: GrossAnatomicalStructure
+        name: medial forebrain bundle
+    -   id: MESH:D059290
+        label: Cell
+        name: Dopaminergic Neurons
+    -   id: MESH:D014150
+        label: Drug
+        name: Antipsychotic Agents
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+  reference: https://go.drugbank.com/drugs/DB01239#mechanism-of-action https://go.drugbank.com/drugs/DB01239#BE0000092 https://www.targetvalidation.org/summary?drug=CHEMBL908 https://en.wikipedia.org/wiki/Antipsychotic#Mechanism_of_action https://en.wikipedia.org/wiki/Mesolimbic_pathway#Relation_to_neurological_and_psychological_disorders https://en.wikipedia.org/wiki/Schizophrenia#Medication
+  comments: Muscarinic receptor antagonists (also known as anticholinergics) seem to be used in patients with Schizophrenia to alleviate motor side effects caused by first-generation antipsychotics. However these antagonists do seem lead to cognitive dysfunction in healthy controls. So whether these muscarinic receptors should be positively or negatively regulated in schizophrenia is a matter of debate (see https://www.nature.com/articles/4001924 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3726271/). In addition, some suggest that that schizophrenia involves an overactivation of cholinergic neurons, which could provide cholinergic input to dopaminergic neurons. The dopamine neurons are located in the mesolimbic dopaminergic system (BTO:0005591), which is a component pathway of the medial forebrain bundle (UBERON:0001910). See https://en.wikipedia.org/wiki/Medial_forebrain_bundle#Anatomy for more details.
+- directed: true
+  graph:
+    disease: Peptic ulcer
+    disease_mesh: MESH:D010437
+    drug: ecabet
+    drug_mesh: MESH:C061681
+    drugbank: DB:DB02701
+  links:
+    - key: molecularly interacts with
+      source: MESH:C061681
+      target: MESH:C047874
+    - key: located in
+      source: MESH:C047874
+      target: MESH:D005753
+    - key: produces
+      source: MESH:D005753
+      target: MESH:D009093
+    - key: negatively correlated with
+      source: MESH:D009093
+      target: MESH:D010437
+    - key: positively correlated with
+      source: MESH:C061681
+      target: MESH:D010437
+    - key: negatively correlated with
+      source: MESH:C061681
+      target: GO:0070254
+    - key: negatively correlated with
+      source: GO:0070254
+      target: MESH:D010437
+    - key: molecularly interacts with
+      source: MESH:C061681
+      target: CHEBI:16412
+    - key: positively regulates
+      source: CHEBI:16412
+      target: REACT:R-HSA-166016
+    - key: positively correlated with
+      source: REACT:R-HSA-166016
+      target: GO:0006954
+    - key: located in
+      source: GO:0006954
+      target: UBERON:0001276
+    - key: location of
+      source: UBERON:0001276
+      target: MESH:D010437
+    - key: negatively regulates
+      source: MESH:C061681
+      target: InterPro:IPR017950
+    - key: positively regulates
+      source: InterPro:IPR017950
+      target: GO:0009039
+    - key: in taxon
+      source: GO:0009039
+      target: NCBITaxon:210
+    - key: causes
+      source: NCBITaxon:210
+      target: MESH:D010437
+  multigraph: true
+  nodes:
+    - id: MESH:C061681
+      label: Drug
+      name: ecabet
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: REACT:R-HSA-166016
+      label: Pathway
+      name: Toll Like Receptor 4 (TLR4) Cascade
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0070254
+      label: BiologicalProcess
+      name: mucus secretion
+    - id: UBERON:0001276
+      label: GrossAnatomicalStructure
+      name: epithelium of stomach
+    - id: InterPro:IPR017950
+      label: GeneFamily
+      name: Urease active site
+    - id: GO:0009039
+      label: MolecularActivity
+      name: urease activity
+    - id: NCBITaxon:210
+      label: OrganismTaxon
+      name: Helicobacter pylori
+    - id: MESH:C047874
+      label: GeneFamily
+      name: gastric mucus glycoproteins
+    - id: MESH:D009093
+      label: MacromolecularComplex
+      name: Mucus
+    - id: MESH:D005753
+      label: GrossAnatomicalStructure
+      name: Gastric Mucosa
+    - id: MESH:D010437
+      label: Disease
+      name: Peptic ulcer
+  reference: https://go.drugbank.com/drugs/DB05265#mechanism-of-action https://en.wikipedia.org/wiki/Peptic_ulcer_disease#H._pylori https://drugs.ncats.io/drug/2K02669KWP
+- directed: true
+  graph:
+    disease: Edema
+    disease_mesh: MESH:D004487
+    drug: chlorothiazide
+    drug_mesh: MESH:D002740
+    drugbank: DB:DB00880
+  links:
+    - key: decreases activity of
+      source: MESH:D002740
+      target: UniProt:P55017
+    - key: positively regulates
+      source: UniProt:P55017
+      target: GO:0015378
+    - key: participates in
+      source: GO:0015378
+      target: GO:0035812
+    - key: positively correlated with
+      source: GO:0035812
+      target: GO:0003092
+    - key: positively correlated with
+      source: GO:0003092
+      target: MESH:D004487
+  multigraph: true
+  nodes:
+    - id: MESH:D002740
+      label: Drug
+      name: chlorothiazide
+    - id: UniProt:P55017
+      label: Protein
+      name: Solute carrier family 12 member 3
+    - id: GO:0015378
+      label: MolecularActivity
+      name: sodium:chloride symporter activity
+    - id: GO:0035812
+      label: BiologicalProcess
+      name: renal sodium excretion
+    - id: GO:0003092
+      label: BiologicalProcess
+      name: renal water retention
+    - id: MESH:D004487
+      label: Disease
+      name: Edema
+  reference: https://go.drugbank.com/drugs/DB00880#BE0000419 https://en.wikipedia.org/wiki/Diuretic#Thiazides https://en.wikipedia.org/wiki/Thiazide
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: chlorothiazide
+    drug_mesh: MESH:D002740
+    drugbank: DB:DB00880
+  links:
+    - key: decreases activity of
+      source: MESH:D002740
+      target: UniProt:P00918
+    - key: positively regulates
+      source: UniProt:P00918
+      target: GO:0038166
+    - key: positively correlated with
+      source: GO:0038166
+      target: GO:0042310
+    - key: contributes to
+      source: GO:0042310
+      target: HP:0032263
+    - key: positively correlated with
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D002740
+      label: Drug
+      name: chlorothiazide
+    - id: UniProt:P00918
+      label: Protein
+      name: Carbonic anhydrase 2
+    - id: GO:0038166
+      label: BiologicalProcess
+      name: angiotensin-activated signaling pathway
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0032263
+      label: BiologicalProcess
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference: https://go.drugbank.com/drugs/DB00880#BE0000322 https://en.wikipedia.org/wiki/Thiazide#Hypertension https://en.wikipedia.org/wiki/Chlorothiazide#Indications https://en.wikipedia.org/wiki/Hypertension#Treatment https://en.wikipedia.org/wiki/Blood_pressure#Regulation_of_blood_pressure
+  comments: The antihypertensive mechanism of chlorothiazide is not very well understood. References at https://go.drugbank.com/drugs/DB00880#BE0000267 seem to suggest the "mechanism of action is achieved by meaans of pH changes". Also note that "the reduction in blood pressure of thiazides is not due to decreased blood volume resulting from increased urine production, but occurs through other mechanisms and at lower doses than that required to produce diuresis" (https://en.wikipedia.org/wiki/Diuretic#Medical_uses).
+- directed: true
+  graph:
+    disease: Attention deficit hyperactivity disorder
+    disease_mesh: MESH:D001289
+    drug: methylphenidate
+    drug_mesh: MESH:D008774
+    drugbank: DB:DB00422
+  links:
+    - key: decreases activity of
+      source: MESH:D008774
+      target: UniProt:Q01959
+    - key: decreases activity of
+      source: MESH:D008774
+      target: UniProt:P23975
+    - key: positively regulates
+      source: UniProt:Q01959
+      target: GO:0090494
+    - key: positively regulates
+      source: UniProt:P23975
+      target: GO:0051620
+    - key: positively correlated with
+      source: GO:0051620
+      target: MESH:D001289
+    - key: positively correlated with
+      source: GO:0090494
+      target: MESH:D001289
+  multigraph: true
+  nodes:
+    - id: MESH:D008774
+      label: Drug
+      name: methylphenidate
+    - id: UniProt:Q01959
+      label: Protein
+      name: Sodium-dependent dopamine transporter
+    - id: UniProt:P23975
+      label: Protein
+      name: Sodium-dependent noradrenaline transporter
+    - id: GO:0090494
+      label: BiologicalProcess
+      name: dopamine uptake
+    - id: GO:0051620
+      label: BiologicalProcess
+      name: norepinephrine uptake
+    - id: MESH:D001289
+      label: Disease
+      name: Attention deficit hyperactivity disorder
+  reference: https://go.drugbank.com/drugs/DB00422#mechanism-of-action https://en.wikipedia.org/wiki/Methylphenidate#Pharmacodynamics https://www.targetvalidation.org/summary?drug=CHEMBL796
+  comments: This drug may be able to bind to UniProt:P08908 but its pharmacological activity (agonism vs. antagonism) is not known (https://go.drugbank.com/drugs/DB00422#BE0000291).
+- directed: true
+  graph:
+    disease: Narcolepsy
+    disease_mesh: MESH:D009290
+    drug: methylphenidate
+    drug_mesh: MESH:D008774
+    drugbank: DB:DB00422
+  links:
+    - key: decreases activity of
+      source: MESH:D008774
+      target: UniProt:Q01959
+    - key: decreases activity of
+      source: MESH:D008774
+      target: UniProt:P23975
+    - key: positively regulates
+      source: UniProt:Q01959
+      target: GO:0090494
+    - key: positively regulates
+      source: UniProt:P23975
+      target: GO:0051620
+    - key: positively correlated with
+      source: GO:0051620
+      target: MESH:D009290
+    - key: positively correlated with
+      source: GO:0090494
+      target: MESH:D009290
+  multigraph: true
+  nodes:
+    - id: MESH:D008774
+      label: Drug
+      name: methylphenidate
+    - id: UniProt:Q01959
+      label: Protein
+      name: Sodium-dependent dopamine transporter
+    - id: UniProt:P23975
+      label: Protein
+      name: Sodium-dependent noradrenaline transporter
+    - id: GO:0090494
+      label: BiologicalProcess
+      name: dopamine uptake
+    - id: GO:0051620
+      label: BiologicalProcess
+      name: norepinephrine uptake
+    - id: MESH:D009290
+      label: Disease
+      name: Narcolepsy
+  reference: https://go.drugbank.com/drugs/DB00422#mechanism-of-action https://en.wikipedia.org/wiki/Methylphenidate#Pharmacodynamics https://www.targetvalidation.org/summary?drug=CHEMBL796 https://en.wikipedia.org/wiki/Narcolepsy#Treatment
+  comments: This drug may be able to bind to UniProt:P08908 but its pharmacological activity (agonism vs. antagonism) is not known (https://go.drugbank.com/drugs/DB00422#BE0000291).
+- directed: true
+  graph:
+    disease: Verruca
+    disease_mesh: MESH:D014860
+    drug: imiquimod
+    drug_mesh: MESH:C056493
+    drugbank: DB:DB00724
+  links:
+    - key: increases activity of
+      source: MESH:C056493
+      target: UniProt:Q9NYK1
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032609
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032635
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032637
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032606
+    - key: part of
+      source: GO:0032609
+      target: GO:0051607
+    - key: part of
+      source: GO:0032635
+      target: GO:0051607
+    - key: part of
+      source: GO:0032637
+      target: GO:0051607
+    - key: part of
+      source: GO:0032606
+      target: GO:0051607
+    - key: decreases abundance of
+      source: GO:0051607
+      target: NCBITaxon:10566
+    - key: causes
+      source: NCBITaxon:10566
+      target: MESH:D014860
+  multigraph: true
+  nodes:
+    - id: MESH:C056493
+      label: Drug
+      name: imiquimod
+    - id: UniProt:Q9NYK1
+      label: Protein
+      name: Toll-like receptor 7
+    - id: GO:0032609
+      label: BiologicalProcess
+      name: interferon-gamma production
+    - id: GO:0032606
+      label: BiologicalProcess
+      name: type I interferon production
+    - id: GO:0032637
+      label: BiologicalProcess
+      name: interleukin-8 production
+    - id: GO:0032635
+      label: BiologicalProcess
+      name: interleukin-6 production
+    - id: GO:0051607
+      label: BiologicalProcess
+      name: defense response to virus
+    - id: NCBITaxon:10566
+      label: OrganismTaxon
+      name: Human papillomavirus
+    - id: MESH:D014860
+      label: Disease
+      name: Verruca
+  reference: https://go.drugbank.com/drugs/DB00724#BE0000155 https://en.wikipedia.org/wiki/Imiquimod#Mechanism_of_action https://en.wikipedia.org/wiki/Wart#Treatment
+- directed: true
+  graph:
+    disease: Condyloma acuminatum
+    disease_mesh: MESH:D003218
+    drug: imiquimod
+    drug_mesh: MESH:C056493
+    drugbank: DB:DB00724
+  links:
+    - key: increases activity of
+      source: MESH:C056493
+      target: UniProt:Q9NYK1
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032609
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032635
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032637
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032606
+    - key: part of
+      source: GO:0032609
+      target: GO:0051607
+    - key: part of
+      source: GO:0032635
+      target: GO:0051607
+    - key: part of
+      source: GO:0032637
+      target: GO:0051607
+    - key: part of
+      source: GO:0032606
+      target: GO:0051607
+    - key: decreases abundance of
+      source: GO:0051607
+      target: NCBITaxon:10566
+    - key: causes
+      source: NCBITaxon:10566
+      target: MESH:D003218
+  multigraph: true
+  nodes:
+    - id: MESH:C056493
+      label: Drug
+      name: imiquimod
+    - id: UniProt:Q9NYK1
+      label: Protein
+      name: Toll-like receptor 7
+    - id: GO:0032609
+      label: BiologicalProcess
+      name: interferon-gamma production
+    - id: GO:0032606
+      label: BiologicalProcess
+      name: type I interferon production
+    - id: GO:0032637
+      label: BiologicalProcess
+      name: interleukin-8 production
+    - id: GO:0032635
+      label: BiologicalProcess
+      name: interleukin-6 production
+    - id: GO:0051607
+      label: BiologicalProcess
+      name: defense response to virus
+    - id: NCBITaxon:10566
+      label: OrganismTaxon
+      name: Human papillomavirus
+    - id: MESH:D003218
+      label: Disease
+      name: Condyloma acuminatum
+  reference: https://go.drugbank.com/drugs/DB00724#BE0000155 https://en.wikipedia.org/wiki/Imiquimod#Mechanism_of_action https://en.wikipedia.org/wiki/Genital_wart#Topical_agents
+- directed: true
+  graph:
+    disease: Actinic keratosis
+    disease_mesh: MESH:D055623
+    drug: imiquimod
+    drug_mesh: MESH:C056493
+    drugbank: DB:DB00724
+  links:
+    - key: increases activity of
+      source: MESH:C056493
+      target: UniProt:Q9NYK1
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032609
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032635
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032637
+    - key: positively regulates
+      source: UniProt:Q9NYK1
+      target: GO:0032606
+    - key: part of
+      source: GO:0032609
+      target: GO:0051607
+    - key: part of
+      source: GO:0032635
+      target: GO:0051607
+    - key: part of
+      source: GO:0032637
+      target: GO:0051607
+    - key: part of
+      source: GO:0032606
+      target: GO:0051607
+    - key: decreases abundance of
+      source: GO:0051607
+      target: NCBITaxon:333922
+    - key: causes
+      source: NCBITaxon:333922
+      target: MESH:D055623
+  multigraph: true
+  nodes:
+    - id: MESH:C056493
+      label: Drug
+      name: imiquimod
+    - id: UniProt:Q9NYK1
+      label: Protein
+      name: Toll-like receptor 7
+    - id: GO:0032609
+      label: BiologicalProcess
+      name: interferon-gamma production
+    - id: GO:0032606
+      label: BiologicalProcess
+      name: type I interferon production
+    - id: GO:0032637
+      label: BiologicalProcess
+      name: interleukin-8 production
+    - id: GO:0032635
+      label: BiologicalProcess
+      name: interleukin-6 production
+    - id: GO:0051607
+      label: BiologicalProcess
+      name: defense response to virus
+    - id: NCBITaxon:333922
+      label: OrganismTaxon
+      name: Betapapillomavirus
+    - id: MESH:D055623
+      label: Disease
+      name: Actinic keratosis
+  reference: https://go.drugbank.com/drugs/DB00724#BE0000155 https://en.wikipedia.org/wiki/Imiquimod#Mechanism_of_action https://en.wikipedia.org/wiki/Actinic_keratosis#Other_risk_factors https://en.wikipedia.org/wiki/Actinic_keratosis#Medication
+- directed: true
+  graph:
+    disease: Condyloma acuminatum
+    disease_mesh: MESH:D003218
+    drug: podophyllotoxin
+    drug_mesh: MESH:D011034
+    drugbank: DB:DB01179
+  links:
+    - key: negatively regulates
+      source: MESH:D011034
+      target: UniProt:P03120
+    - key: positively regulates
+      source: UniProt:P03120
+      target: GO:0039693
+    - key: in taxon
+      source: GO:0039693
+      target: NCBITaxon:10566
+    - key: causes
+      source: NCBITaxon:10566
+      target: MESH:D003218
+  multigraph: true
+  nodes:
+    - id: MESH:D011034
+      label: Drug
+      name: podophyllotoxin
+    - id: UniProt:P03120
+      label: Protein
+      name: Regulatory protein E2
+    - id: GO:0039693
+      label: BiologicalProcess
+      name: viral DNA genome replication
+    - id: NCBITaxon:10566
+      label: OrganismTaxon
+      name: Human papillomavirus
+    - id: MESH:D003218
+      label: Disease
+      name: Condyloma acuminatum
+  reference: https://drugcentral.org/drugcard/3481?q=Podofilox
+  comments: This drug can also inhbit human proteins and affect with the mammalian cell division/replication, which make them an attractive antitumour agent (https://pubmed.ncbi.nlm.nih.gov/11102564/).
+- directed: true
+  graph:
+    disease: Postmenopausal osteoporosis
+    disease_mesh: MESH:D015663
+    drug: teriparatide
+    drug_mesh: MESH:D019379
+    drugbank: DB:DB06285
+  links:
+    - key: increases activity of
+      source: MESH:D019379
+      target: UniProt:Q03431
+    - key: positively regulates
+      source: UniProt:Q03431
+      target: GO:0004991
+    - key: positively correlated with
+      source: GO:0004991
+      target: GO:0001503
+    - key: positively correlated with
+      source: GO:0004991
+      target: GO:0002076
+    - key: positively correlated with
+      source: GO:0004991
+      target: GO:0002062
+    - key: positively correlated with
+      source: GO:0004991
+      target: GO:0002076
+    - key: negatively correlated with
+      source: GO:0001503
+      target: HP:0004349
+    - key: negatively correlated with
+      source: GO:0002076
+      target: HP:0004349
+    - key: negatively correlated with
+      source: GO:0002062
+      target: HP:0004349
+    - key: negatively correlated with
+      source: GO:0002076
+      target: HP:0004349
+    - key: positively correlated with
+      source: HP:0004349
+      target: MESH:D015663
+  multigraph: true
+  nodes:
+    - id: MESH:D019379
+      label: Drug
+      name: teriparatide
+    - id: UniProt:Q03431
+      label: Protein
+      name: Parathyroid hormone/parathyroid hormone-related peptide receptor
+    - id: GO:0004991
+      label: MolecularActivity
+      name: parathyroid hormone receptor activity
+    - id: GO:0001503
+      label: BiologicalProcess
+      name: ossification
+    - id: GO:0002076
+      label: BiologicalProcess
+      name: osteoblast development
+    - id: GO:0002062
+      label: BiologicalProcess
+      name: chondrocyte differentiation
+    - id: HP:0004349
+      label: Disease
+      name: Reduced bone mineral density
+    - id: MESH:D015663
+      label: Disease
+      name: Postmenopausal osteoporosis
+ reference: https://go.drugbank.com/drugs/DB06285#mechanism-of-action https://en.wikipedia.org/wiki/Teriparatide#Mechanism_of_action
+ comment: A right balance needs to be struck for normal bone formation, which involved bone resorption, the breaking down of bone tissue. This drug is actually a portion of the physiologically procuded hormone, PTH, which does increase bone resorption. So the right amount of drug (and frequency) is needed to be achieved to have a net effect of stimulating new bone formation therefore preventing osteoporosis.
+- directed: true
+  graph:
+    disease: Cerebrovascular accident
+    disease_mesh: MESH:D020521
+    drug: vorapaxar
+    drug_mesh: MESH:C530299
+    drugbank: DB:DB09030
+  links:
+    - key: negatively regulates
+      source: MESH:C530299
+      target: UniProt:P25116
+    - key: positively regulates
+      source: UniProt:P25116
+      target: GO:0015057
+    - key: participates in
+      source: GO:0015057
+      target: REACT:R-HSA-140877
+    - key: positively correlated with
+      source: REACT:R-HSA-140877
+      target: GO:0070527
+    - key: positively correlated with
+      source: GO:0070527
+      target: MESH:D013927
+    - key: positively correlated with
+      source: MESH:D013927
+      target: MESH:D020521
+  multigraph: true
+  nodes:
+    - id: MESH:C530299
+      label: Drug
+      name: vorapaxar
+    - id: UniProt:P25116
+      label: Protein
+      name: Proteinase-activated receptor 1
+    - id: GO:0015057
+      label: MolecularActivity
+      name: thrombin-activated receptor activity
+    - id: REACT:R-HSA-140877
+      label: Pathway
+      name: Formation of Fibrin Clot (Clotting Cascade)
+    - id: GO:0070527
+      label: BiologicalProcess
+      name: platelet aggregation
+    - id: MESH:D013927
+      label: PhenotypicFeature
+      name: Thrombosis
+    - id: MESH:D020521
+      label: Disease
+      name: Cerebrovascular accident
+  reference: https://go.drugbank.com/drugs/DB09030#mechanism-of-action https://en.wikipedia.org/wiki/Vorapaxar#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Impotence
+    disease_mesh: MESH:D007172
+    drug: mirodenafil
+    drug_mesh: MESH:C528396
+    drugbank: DB:DB11792
+  links:
+    - key: negatively regulates
+      source: MESH:C528396
+      target: UniProt:O76074
+    - key: positively regulates
+      source: UniProt:O76074
+      target: GO:0046069
+    - key: decreases abundance of
+      source: GO:0046069
+      target: CHEBI:16356
+    - key: positively correlated with
+      source: CHEBI:16356
+      target: GO:0007263
+    - key: positively correlated with
+      source: GO:0007263
+      target: GO:0044557
+    - key: positively correlated with
+      source: GO:0044557
+      target: MESH:D010410
+    - key: negatively correlated with
+      source: MESH:D010410
+      target: MESH:D007172
+  multigraph: true
+  nodes:
+    - id: MESH:C528396
+      label: Drug
+      name: mirodenafil
+      all_id:
+        - MESH:C518762
+    - id: UniProt:O76074
+      label: Protein
+      name: cGMP-specific 3',5'-cyclic phosphodiesterase
+    - id: GO:0046069
+      label: BiologicalProcess
+      name: cGMP catabolic process
+    - id: CHEBI:16356
+      label: ChemicalSubstance
+      name: 3',5'-cyclic GMP
+    - id: GO:0007263
+      label: BiologicalProcess
+      name: nitric oxide mediated signal transduction
+    - id: GO:0044557
+      label: BiologicalProcess
+      name: relaxation of smooth muscle
+    - id: MESH:D010410
+      label: PhenotypicFeature
+      name: Penile Erection
+    - id: MESH:D007172
+      label: Disease
+      name: Impotence
+  reference: https://en.wikipedia.org/wiki/Mirodenafil https://en.wikipedia.org/wiki/PDE5_inhibitor#Mechanism_of_action https://en.wikipedia.org/wiki/Nitric_oxide#Biological_functions
+- directed: true
+  graph:
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: luseogliflozin
+    drug_mesh: MESH:C549343
+    drugbank: DB:DB12214
+  links:
+    - key: negatively regulates
+      source: MESH:C549343
+      target: UniProt:P13866
+    - key: negatively regulates
+      source: MESH:C549343
+      target: UniProt:Q8WWX8
+    - key: positively regulates
+      source: UniProt:P13866
+      target: GO:0098708
+    - key: positively regulates
+      source: UniProt:Q8WWX8
+      target: GO:1904659
+    - key: positively correlated with
+      source: GO:0098708
+      target: GO:0035623
+    - key: positively correlated with
+      source: GO:1904659
+      target: GO:0035623
+    - key: positively correlated with
+      source: GO:0035623
+      target: MESH:D001786
+    - key: positively correlated with
+      source: MESH:D001786
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:C549343
+      label: Drug
+      name: luseogliflozin
+    - id: UniProt:P13866
+      label: Protein
+      name: Sodium/glucose cotransporter 1
+    - id: UniProt:Q8WWX8
+      label: Protein
+      name: Sodium/myo-inositol cotransporter 2
+    - id: GO:0098708
+      label: BiologicalProcess
+      name: glucose import across plasma membrane
+    - id: GO:1904659
+      label: BiologicalProcess
+      name: glucose transmembrane transport
+    - id: GO:0035623
+      label: BiologicalProcess
+      name: renal glucose absorption
+    - id: MESH:D001786
+      label: PhenotypicFeature
+      name: Blood Glucose
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference: https://en.wikipedia.org/wiki/Luseogliflozin https://en.wikipedia.org/wiki/SGLT2_inhibitor
+- directed: true
+  graph:
+    disease: Allergic rhinitis
+    disease_mesh: MESH:D065631
+    drug: cromoglicic acid
+    drug_mesh: MESH:D004205
+    drugbank: DB:DB01003
+  links:
+    - key: decreases activity of
+      source: MESH:D004205
+      target: UniProt:P25815
+    - key: molecularly interacts with
+      source: UniProt:P25815
+      target: MESH:D000067759
+    - key: positively regulates
+      source: MESH:D000067759
+      target: GO:0043303
+    - key: positively regulates
+      source: MESH:D000067759
+      target: GO:0043308
+    - key: caused by
+      source: GO:0043303
+      target: REACT:R-HSA-2454202
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002441
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002540
+    - key: positively correlated with
+      source: GO:0043308
+      target: GO:0002540
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D065631
+    - key: positively correlated with
+      source: GO:0002540
+      target: MESH:D065631
+  multigraph: true
+  nodes:
+    - id: MESH:D004205
+      label: Drug
+      name: cromoglicic acid
+    - id: UniProt:P25815
+      label: Protein
+      name: Protein S100-P
+    - id: MESH:D000067759
+      label: Protein
+      name: Receptor for Advanced Glycation End Products
+    - id: GO:0043303
+      label: BiologicalProcess
+      name: mast cell degranulation
+    - id: GO:0043308
+      label: BiologicalProcess
+      name: eosinophil degranulation
+    - id: REACT:R-HSA-2454202
+      label: Pathway
+      name: Allergen dependent IgE bound FCERI aggregation
+    - id: GO:0002540
+      label: BiologicalProcess
+      name: leukotriene production involved in inflammatory response
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D065631
+      label: Disease
+      name: Allergic rhinitis
+  reference: https://go.drugbank.com/drugs/DB01003#mechanism-of-action https://en.wikipedia.org/wiki/Mast_cell_stabilizer https://pubmed.ncbi.nlm.nih.gov/25450399/ https://pubchem.ncbi.nlm.nih.gov/compound/2882#section=Pharmacology-and-Biochemistry https://pubmed.ncbi.nlm.nih.gov/12645002/ https://en.wikipedia.org/wiki/RAGE_(receptor)#RAGE_and_disease https://en.wikipedia.org/wiki/S100P#Interactions
+- directed: true
+  graph:
+    disease: Giant papillary conjunctivitis
+    disease_mesh: MESH:D003233
+    drug: cromoglicic acid
+    drug_mesh: MESH:D004205
+    drugbank: DB:DB01003
+  links:
+    - key: decreases activity of
+      source: MESH:D004205
+      target: UniProt:P25815
+    - key: molecularly interacts with
+      source: UniProt:P25815
+      target: MESH:D000067759
+    - key: positively regulates
+      source: MESH:D000067759
+      target: GO:0043303
+    - key: positively regulates
+      source: MESH:D000067759
+      target: GO:0043308
+    - key: caused by
+      source: GO:0043303
+      target: REACT:R-HSA-2454202
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002441
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002540
+    - key: positively correlated with
+      source: GO:0043308
+      target: GO:0002540
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D003233
+    - key: positively correlated with
+      source: GO:0002540
+      target: MESH:D003233
+  multigraph: true
+  nodes:
+    - id: MESH:D004205
+      label: Drug
+      name: cromoglicic acid
+    - id: UniProt:P25815
+      label: Protein
+      name: Protein S100-P
+    - id: MESH:D000067759
+      label: Protein
+      name: Receptor for Advanced Glycation End Products
+    - id: GO:0043303
+      label: BiologicalProcess
+      name: mast cell degranulation
+    - id: GO:0043308
+      label: BiologicalProcess
+      name: eosinophil degranulation
+    - id: GO:0002540
+      label: BiologicalProcess
+      name: leukotriene production involved in inflammatory response
+    - id: REACT:R-HSA-2454202
+      label: Pathway
+      name: Allergen dependent IgE bound FCERI aggregation
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D003233
+      label: Disease
+      name: Giant papillary conjunctivitis
+  reference: https://go.drugbank.com/drugs/DB01003#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/25450399/ https://pubchem.ncbi.nlm.nih.gov/compound/2882#section=Pharmacology-and-Biochemistry https://pubmed.ncbi.nlm.nih.gov/12645002/ https://en.wikipedia.org/wiki/RAGE_(receptor)#RAGE_and_disease https://en.wikipedia.org/wiki/Mast_cell_stabilizer https://en.wikipedia.org/wiki/S100P#Interactions
+  comments: This condition does not seem to be a true ocular allergic reaction, rather caused by repeated mechanical irritation of the conjunctiva (https://en.wikipedia.org/wiki/Allergic_conjunctivitis#Giant_papillary_conjunctivitis). So the treatment with cromoglicic acid may not be needed/useful at all but interruption of contact lens wearing.
+- directed: true
+  graph:
+    disease: Systemic mast cell disease
+    disease_mesh: MESH:D034721
+    drug: cromoglicic acid
+    drug_mesh: MESH:D004205
+    drugbank: DB:DB01003
+  links:
+    - key: decreases activity of
+      source: MESH:D004205
+      target: UniProt:P25815
+    - key: molecularly interacts with
+      source: UniProt:P25815
+      target: MESH:D000067759
+    - key: positively regulates
+      source: MESH:D000067759
+      target: GO:0043303
+    - key: caused by
+      source: GO:0043303
+      target: REACT:R-HSA-2454202
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002441
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002540
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D034721
+    - key: positively correlated with
+      source: GO:0002540
+      target: MESH:D034721
+  multigraph: true
+  nodes:
+    - id: MESH:D004205
+      label: Drug
+      name: cromoglicic acid
+    - id: UniProt:P25815
+      label: Protein
+      name: Protein S100-P
+    - id: MESH:D000067759
+      label: Protein
+      name: Receptor for Advanced Glycation End Products
+    - id: GO:0043303
+      label: BiologicalProcess
+      name: mast cell degranulation
+    - id: REACT:R-HSA-2454202
+      label: Pathway
+      name: Allergen dependent IgE bound FCERI aggregation
+    - id: GO:0002540
+      label: BiologicalProcess
+      name: leukotriene production involved in inflammatory response
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D034721
+      label: Disease
+      name: Systemic mast cell disease
+  reference: https://go.drugbank.com/drugs/DB01003#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/25450399/ https://pubchem.ncbi.nlm.nih.gov/compound/2882#section=Pharmacology-and-Biochemistry https://pubmed.ncbi.nlm.nih.gov/12645002/ https://en.wikipedia.org/wiki/RAGE_(receptor)#RAGE_and_disease https://en.wikipedia.org/wiki/S100P#Interactions https://en.wikipedia.org/wiki/Mastocytosis#Anti-mediator_therapy https://en.wikipedia.org/wiki/Mast_cell_stabilizer
+- directed: true
+  graph:
+    disease: Asthma
+    disease_mesh: MESH:D001249
+    drug: cromoglicic acid
+    drug_mesh: MESH:D004205
+    drugbank: DB:DB01003
+  links:
+    - key: decreases activity of
+      source: MESH:D004205
+      target: UniProt:P25815
+    - key: molecularly interacts with
+      source: UniProt:P25815
+      target: MESH:D000067759
+    - key: positively regulates
+      source: MESH:D000067759
+      target: GO:0043303
+    - key: caused by
+      source: GO:0043303
+      target: REACT:R-HSA-2454202
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002441
+    - key: positively correlated with
+      source: REACT:R-HSA-2454202
+      target: GO:0002540
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D001249
+    - key: positively correlated with
+      source: GO:0002540
+      target: MESH:D001249
+  multigraph: true
+  nodes:
+    - id: MESH:D004205
+      label: Drug
+      name: cromoglicic acid
+    - id: UniProt:P25815
+      label: Protein
+      name: Protein S100-P
+    - id: MESH:D000067759
+      label: Protein
+      name: Receptor for Advanced Glycation End Products
+    - id: GO:0043303
+      label: BiologicalProcess
+      name: mast cell degranulation
+    - id: REACT:R-HSA-2454202
+      label: Pathway
+      name: Allergen dependent IgE bound FCERI aggregation
+    - id: GO:0002540
+      label: BiologicalProcess
+      name: leukotriene production involved in inflammatory response
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D001249
+      label: Disease
+      name: Asthma
+  reference: https://go.drugbank.com/drugs/DB01003#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/25450399/ https://pubchem.ncbi.nlm.nih.gov/compound/2882#section=Pharmacology-and-Biochemistry https://pubmed.ncbi.nlm.nih.gov/12645002/ https://en.wikipedia.org/wiki/RAGE_(receptor)#RAGE_and_disease https://en.wikipedia.org/wiki/S100P#Interactions https://en.wikipedia.org/wiki/Mastocytosis#Anti-mediator_therapy https://en.wikipedia.org/wiki/Mast_cell_stabilizer https://en.wikipedia.org/wiki/Asthma#Management
 
