@@ -57924,3 +57924,1177 @@
         https://pubmed.ncbi.nlm.nih.gov/12645002/ https://en.wikipedia.org/wiki/RAGE_(receptor)#RAGE_and_disease
         https://en.wikipedia.org/wiki/S100P#Interactions https://en.wikipedia.org/wiki/Mastocytosis#Anti-mediator_therapy
         https://en.wikipedia.org/wiki/Mast_cell_stabilizer https://en.wikipedia.org/wiki/Asthma#Management
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Tofogliflozin
+        drug_mesh: MESH:C575086
+        drugbank: DB:DB11824
+    links:
+    -   key: decreases activity of
+        source: MESH:C575086
+        target: UniProt:P31639
+    -   key: prevents
+        source: UniProt:P31639
+        target: GO:0035623
+    -   key: decreases abundance of
+        source: GO:0035623
+        target: MESH:D001786
+    -   key: correlated with
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C575086
+        label: Drug
+        name: Tofogliflozin
+    -   id: UniProt:P31639
+        label: Protein
+        name: SGLT2
+    -   id: GO:0035623
+        label: BiologicalProcess
+        name: Renal glucose absorption
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood Glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB11824#mechanismofaction
+-   directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: decreases activity of
+        source: MESH:D019821
+        target: UniProt:P04035
+    -   key: negatively regulates
+        source: UniProt:P04035
+        target: REACT:R-HSA-191273
+    -   key: decreases abundance of
+        source: REACT:R-HSA-191273
+        target: MESH:D002784
+    -   key: contributes to
+        source: MESH:D002784
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: HMG-CoA reductase
+    -   id: REACT:R-HSA-191273
+        label: Pathway
+        name: Cholesterol synthesis
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference: https://go.drugbank.com/drugs/DB00641#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Simvastatin
+-   directed: true
+    graph:
+        disease: Mixed hyperlipidemia
+        disease_mesh: MESH:D006950
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: decreases activity of
+        source: MESH:D019821
+        target: UniProt:P04035
+    -   key: negatively regulates
+        source: UniProt:P04035
+        target: REACT:R-HSA-191273
+    -   key: decreases abundance of
+        source: REACT:R-HSA-191273
+        target: MESH:D002784
+    -   key: negatively regulates
+        source: UniProt:P04035
+        target: REACT:R-HSA-8866423
+    -   key: decreases abundance of
+        source: REACT:R-HSA-8866423
+        target: MESH:D008077
+    -   key: contributes to
+        source: MESH:D008077
+        target: MESH:D006950
+    -   key: contributes to
+        source: MESH:D002784
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: HMG-CoA reductase
+    -   id: REACT:R-HSA-191273
+        label: Pathway
+        name: Cholesterol synthesis
+    -   id: REACT:R-HSA-8866423
+        label: Pathway
+        name: Very low density lipoprotein (VLDL) synthesis
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Low density lipoprotein-cholesterol (LDL-C)
+    -   id: MESH:D006950
+        label: Disease
+        name: Mixed hyperlipidemia
+    reference: https://go.drugbank.com/drugs/DB00641#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Simvastatin
+-   directed: true
+    graph:
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: decreases activity of
+        source: MESH:D019821
+        target: UniProt:P04035
+    -   key: decreases abundance of
+        source: UniProt:P04035
+        target: MESH:D014280
+    -   key: contributes to
+        source: MESH:D014280
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: HMG-CoA reductase
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglyceride
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference: https://go.drugbank.com/drugs/DB00641#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Simvastatin
+-   directed: true
+    graph:
+        disease: Hypoalphalipoproteinemia
+        disease_mesh: MESH:D052456
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: decreases activity of
+        source: MESH:D019821
+        target: UniProt:P04035
+    -   key: increases abundance of
+        source: UniProt:P04035
+        target: MESH:D008075
+    -   key: contributes to
+        source: MESH:D008075
+        target: MESH:D052456
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: HMG-CoA reductase
+    -   id: MESH:D008075
+        label: ChemicalSubstance
+        name: High density lipoprotein-cholesterol (HDL-C)
+    -   id: MESH:D052456
+        label: Disease
+        name: Hypoalphalipoproteinemia
+    reference: https://go.drugbank.com/drugs/DB00641#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Simvastatin
+-   directed: true
+    graph:
+        disease: Familial type 3 hyperlipoproteinemia
+        disease_mesh: MESH:D006952
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: decreases activity of
+        source: MESH:D019821
+        target: UniProt:P04035
+    -   key: decreases abundance of
+        source: UniProt:P04035
+        target: MESH:D001055
+    -   key: contributes to
+        source: MESH:D001055
+        target: MESH:D006952
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: HMG-CoA reductase
+    -   id: MESH:D001055
+        label: ChemicalSubstance
+        name: Apolipoprotein B (apoB)
+    -   id: MESH:D006952
+        label: Disease
+        name: Familial type 3 hyperlipoproteinemia
+    reference: https://go.drugbank.com/drugs/DB00641#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Simvastatin
+-   directed: true
+    graph:
+        disease: Cerebrovascular accident
+        disease_mesh: MESH:D020521
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: decreases activity of
+        source: MESH:D019821
+        target: UniProt:P04035
+    -   key: negatively regulates
+        source: UniProt:P04035
+        target: REACT:R-HSA-191273
+    -   key: decreases abundance of
+        source: REACT:R-HSA-191273
+        target: MESH:D002784
+    -   key: prevents
+        source: MESH:D002784
+        target: HP:0007201
+    -   key: correlated with
+        source: HP:0007201
+        target: MESH:D020521
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: HMG-CoA reductase
+    -   id: REACT:R-HSA-191273
+        label: Pathway
+        name: Cholesterol synthesis
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0007201
+        label: PhenotypicFeature
+        name: Cerebral artery plaque formation
+    -   id: MESH:D020521
+        label: Disease
+        name: Cerebrovascular accident
+    reference: https://go.drugbank.com/drugs/DB00641#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Simvastatin
+        https://pubmed.ncbi.nlm.nih.gov/15083596/#:~:text=Epidemiological%20studies%20indicate%20that%20high,the%20frequency%20of%20hemorrhagic%20stroke.
+-   directed: true
+    graph:
+        disease: Arteriosclerotic vascular disease
+        disease_mesh: MESH:D001161
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: decreases activity of
+        source: MESH:D019821
+        target: UniProt:P04035
+    -   key: negatively regulates
+        source: UniProt:P04035
+        target: REACT:R-HSA-191273
+    -   key: decreases abundance of
+        source: REACT:R-HSA-191273
+        target: MESH:D002784
+    -   key: prevents
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: correlated with
+        source: HP:0002621
+        target: MESH:D001161
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: HMG-CoA reductase
+    -   id: REACT:R-HSA-191273
+        label: Pathway
+        name: Cholesterol synthesis
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: atherosclerotic plaque formation
+    -   id: MESH:D001161
+        label: Disease
+        name: Arteriosclerotic vascular disease
+    reference: https://go.drugbank.com/drugs/DB00641#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Simvastatin
+        https://pubmed.ncbi.nlm.nih.gov/15083596/#:~:text=Epidemiological%20studies%20indicate%20that%20high,the%20frequency%20of%20hemorrhagic%20stroke.
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: Pipotiazine palmitate
+        drug_mesh: null
+        drugbank: DB:DB01621
+    links:
+    -   key: decreases activity of
+        source: DB:DB01621
+        target: InterPro:IPR000929
+    -   key: located in
+        source: InterPro:IPR000929
+        target: UBERON:0000349
+    -   key: location of
+        source: UBERON:0000349
+        target: GO:0004952
+    -   key: decreases activity of
+        source: DB:DB01621
+        target: InterPro:IPR002231
+    -   key: located in
+        source: InterPro:IPR002231
+        target: UBERON:0000956
+    -   key: location of
+        source: UBERON:0000956
+        target: GO:0004952
+    -   key: positively regulates
+        source: GO:0004952
+        target: HP:0000708
+    -   key: manifestation of
+        source: HP:0000708
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: DB:DB01621
+        label: Drug
+        name: Pipotiazine palmitate
+    -   id: InterPro:IPR000929
+        label: GeneFamily
+        name: Dopamine receptor family
+    -   id: UBERON:0000349
+        label: GrossAnatomicalStructure
+        name: Limbic system
+    -   id: InterPro:IPR002231
+        label: GeneFamily
+        name: 5-hydroxytryptamine receptor family
+    -   id: UBERON:0000956
+        label: GrossAnatomicalStructure
+        name: Cerebral cortex
+    -   id: GO:0004952
+        label: BiologicalProcess
+        name: Dopamine neurotransmitter receptor activity
+    -   id: HP:0000708
+        label: PhenotypicFeature
+        name: Behavioral abnormality
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB01621#mechanismofaction https://academic.oup.com/bmb/article/114/1/169/246291
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Perindopril
+        drug_mesh: MESH:D020913
+        drugbank: DB:DB00790
+    links:
+    -   key: has metabolite
+        source: MESH:D020913
+        target: MESH:C053500
+    -   key: decreases activity of
+        source: MESH:C053500
+        target: UniProt:P12821
+    -   key: negatively regulates
+        source: UniProt:P12821
+        target: REACT:R-HSA-2022377
+    -   key: prevents
+        source: REACT:R-HSA-2022377
+        target: GO:0042310
+    -   key: negatively regulates
+        source: UniProt:P12821
+        target: GO:0035932
+    -   key: located in
+        source: GO:0035932
+        target: UBERON:0001235
+    -   key: positively regulates
+        source: UBERON:0001235
+        target: GO:0003095
+    -   key: negatively regulates
+        source: GO:0003095
+        target: HP:0000822
+    -   key: negatively regulates
+        source: GO:0042310
+        target: HP:0000822
+    -   key: correlated with
+        source: HP:0000822
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D020913
+        label: Drug
+        name: Perindopril
+    -   id: MESH:C053500
+        label: Drug
+        name: Perindoprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: REACT:R-HSA-2022377
+        label: Pathway
+        name: Renin-angiotensin-aldosterone system
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:0035932
+        label: BiologicalProcess
+        name: Aldosterone secretion
+    -   id: GO:0003095
+        label: BiologicalProcess
+        name: Pressure natriuresis
+    -   id: UBERON:0001235
+        label: GrossAnatomicalStructure
+        name: Adrenal cortex
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB00790#mechanismofaction
+-   comment: Paromomycin helps to treat hepatic encephalopathy by stopping the growth
+        of certain bacteria in your intestines that make ammonia
+    directed: true
+    graph:
+        disease: Hepatic coma
+        disease_mesh: MESH:D006501
+        drug: Paromomycin
+        drug_mesh: MESH:D010303
+        drugbank: DB:DB01421
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D010303
+        target: MESH:D012336
+    -   key: negatively regulates
+        source: MESH:D012336
+        target: MESH:D014176
+    -   key: produces
+        source: MESH:D014176
+        target: GO:0030163
+    -   key: precedes
+        source: GO:0030163
+        target: GO:0001896
+    -   key: in taxon
+        source: GO:0001896
+        target: NCBITaxon:543
+    -   key: contributes to
+        source: NCBITaxon:543
+        target: MESH:D006501
+    multigraph: true
+    nodes:
+    -   id: MESH:D010303
+        label: Drug
+        name: Paromomycin
+    -   id: MESH:D012336
+        label: ChemicalSubstance
+        name: 16S ribosomal RNA
+    -   id: MESH:D014176
+        label: BiologicalProcess
+        name: Protein synthesis
+    -   id: GO:0030163
+        label: BiologicalProcess
+        name: Defective polypeptide chains
+    -   id: GO:0001896
+        label: BiologicalProcess
+        name: Bacterial death
+    -   id: NCBITaxon:543
+        label: OrganismTaxon
+        name: Enterobacteriaceae
+    -   id: MESH:D006501
+        label: Disease
+        name: Hepatic coma
+    reference: https://go.drugbank.com/drugs/DB01421#mechanismofaction https://www.webmd.com/drugs/2/drug-5160/paromomycin-oral/details
+-   comment: Iproniazid is stated as Withdrawn from the Canadian market in July 1964
+        due to interactions with food products containing tyrosine
+    directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: Iproniazid
+        drug_mesh: MESH:D007490
+        drugbank: DB:DB04818
+    links:
+    -   key: decreases activity of
+        source: MESH:D007490
+        target: InterPro:IPR001613
+    -   key: negatively regulates
+        source: InterPro:IPR001613
+        target: HP:0000716
+    -   key: has metabolite
+        source: MESH:D007490
+        target: MESH:C044821
+    -   key: decreases activity of
+        source: MESH:C044821
+        target: InterPro:IPR001613
+    -   key: causes
+        source: HP:0000716
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D007490
+        label: Drug
+        name: Iproniazid
+    -   id: InterPro:IPR001613
+        label: GeneFamily
+        name: Monoamine oxidase
+    -   id: MESH:C044821
+        label: ChemicalSubstance
+        name: Isopropylhydrazine
+    -   id: HP:0000716
+        label: PhenotypicFeature
+        name: Depression
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://go.drugbank.com/drugs/DB04818#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Iproniazid#section=MeSH-Pharmacological-Classification
+-   directed: true
+    graph:
+        disease: Restless legs
+        disease_mesh: MESH:D012148
+        drug: Gabapentin
+        drug_mesh: null
+        drugbank: DB:DB00996
+    links:
+    -   key: decreases activity of
+        source: DB:DB00996
+        target: UniProt:Q9NY47
+    -   key: decreases molecular interaction
+        source: UniProt:Q9NY47
+        target: InterPro:IPR018882
+    -   key: decreases expression of
+        source: InterPro:IPR018882
+        target: UniProt:Q00975
+    -   key: decreases molecular interaction
+        source: UniProt:Q9NY47
+        target: InterPro:IPR037440
+    -   key: decreases expression of
+        source: InterPro:IPR037440
+        target: UniProt:Q00975
+    -   key: decreases molecular interaction
+        source: UniProt:Q9NY47
+        target: InterPro:IPR000884
+    -   key: decreases expression of
+        source: InterPro:IPR000884
+        target: UniProt:Q00975
+    -   key: located in
+        source: UniProt:Q00975
+        target: GO:0098793
+    -   key: prevents
+        source: GO:0098793
+        target: GO:0015278
+    -   key: positively regulates
+        source: GO:0015278
+        target: GO:0007269
+    -   key: negatively regulates
+        source: GO:0098793
+        target: GO:0005262
+    -   key: positively regulates
+        source: GO:0005262
+        target: GO:0007269
+    -   key: ameliorates
+        source: GO:0007269
+        target: HP:0012514
+    -   key: correlated with
+        source: HP:0012514
+        target: MESH:D012148
+    multigraph: true
+    nodes:
+    -   id: DB:DB00996
+        label: Drug
+        name: Gabapentin
+    -   id: UniProt:Q9NY47
+        label: Protein
+        name: Voltage-dependent calcium channel subunit alpha-2/delta-2
+    -   id: InterPro:IPR018882
+        label: GeneFamily
+        name: NMDA receptors
+    -   id: InterPro:IPR037440
+        label: GeneFamily
+        name: Neurexins
+    -   id: InterPro:IPR000884
+        label: GeneFamily
+        name: Thrombospondins
+    -   id: UniProt:Q00975
+        label: Protein
+        name: Voltage-gated calcium channels
+    -   id: GO:0098793
+        label: CellularComponent
+        name: Presynapse
+    -   id: GO:0015278
+        label: MolecularActivity
+        name: Calcium-release channel activity
+    -   id: GO:0005262
+        label: MolecularActivity
+        name: Calcium channel activity
+    -   id: GO:0007269
+        label: BiologicalProcess
+        name: Neurotransmitter release
+    -   id: HP:0012514
+        label: PhenotypicFeature
+        name: Lower limb pain
+    -   id: MESH:D012148
+        label: Disease
+        name: Restless legs
+    reference: https://go.drugbank.com/drugs/DB00996#mechanismofaction https://en.wikipedia.org/wiki/Gabapentin
+-   directed: true
+    graph:
+        disease: Postherpetic neuralgia
+        disease_mesh: MESH:D051474
+        drug: Gabapentin
+        drug_mesh: null
+        drugbank: DB:DB00996
+    links:
+    -   key: decreases activity of
+        source: DB:DB00996
+        target: UniProt:Q9NY47
+    -   key: decreases molecular interaction
+        source: UniProt:Q9NY47
+        target: InterPro:IPR018882
+    -   key: decreases expression of
+        source: InterPro:IPR018882
+        target: UniProt:Q00975
+    -   key: decreases molecular interaction
+        source: UniProt:Q9NY47
+        target: InterPro:IPR037440
+    -   key: decreases expression of
+        source: InterPro:IPR037440
+        target: UniProt:Q00975
+    -   key: decreases molecular interaction
+        source: UniProt:Q9NY47
+        target: InterPro:IPR000884
+    -   key: decreases expression of
+        source: InterPro:IPR000884
+        target: UniProt:Q00975
+    -   key: located in
+        source: UniProt:Q00975
+        target: GO:0098793
+    -   key: prevents
+        source: GO:0098793
+        target: GO:0015278
+    -   key: positively regulates
+        source: GO:0015278
+        target: GO:0007269
+    -   key: negatively regulates
+        source: GO:0098793
+        target: GO:0005262
+    -   key: positively regulates
+        source: GO:0005262
+        target: GO:0007269
+    -   key: ameliorates
+        source: GO:0007269
+        target: HP:0012531
+    -   key: correlated with
+        source: HP:0012531
+        target: MESH:D051474
+    multigraph: true
+    nodes:
+    -   id: DB:DB00996
+        label: Drug
+        name: Gabapentin
+    -   id: UniProt:Q9NY47
+        label: Protein
+        name: Voltage-dependent calcium channel subunit alpha-2/delta-2
+    -   id: InterPro:IPR018882
+        label: GeneFamily
+        name: NMDA receptors
+    -   id: InterPro:IPR037440
+        label: GeneFamily
+        name: Neurexins
+    -   id: InterPro:IPR000884
+        label: GeneFamily
+        name: Thrombospondins
+    -   id: UniProt:Q00975
+        label: Protein
+        name: Voltage-gated calcium channels
+    -   id: GO:0098793
+        label: CellularComponent
+        name: Presynapse
+    -   id: GO:0015278
+        label: MolecularActivity
+        name: Calcium-release channel activity
+    -   id: GO:0005262
+        label: MolecularActivity
+        name: Calcium channel activity
+    -   id: GO:0007269
+        label: BiologicalProcess
+        name: Neurotransmitter release
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D051474
+        label: Disease
+        name: Postherpetic neuralgia
+    reference: https://go.drugbank.com/drugs/DB00996#mechanismofaction https://en.wikipedia.org/wiki/Gabapentin
+-   directed: true
+    graph:
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: Fosphenytoin
+        drug_mesh: MESH:C043114
+        drugbank: DB:DB01320
+    links:
+    -   key: derives into
+        source: MESH:C043114
+        target: MESH:D010672
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:C043114
+        label: Drug
+        name: Fosphenytoin
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference: https://go.drugbank.com/drugs/DB01320#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Fosphenytoin#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Status epilepticus
+        disease_mesh: MESH:D013226
+        drug: Fosphenytoin
+        drug_mesh: MESH:C043114
+        drugbank: DB:DB01320
+    links:
+    -   key: derives into
+        source: MESH:C043114
+        target: MESH:D010672
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D013226
+    multigraph: true
+    nodes:
+    -   id: MESH:C043114
+        label: Drug
+        name: Fosphenytoin
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D013226
+        label: Disease
+        name: Status epilepticus
+    reference: https://go.drugbank.com/drugs/DB01320#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Fosphenytoin#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference: https://go.drugbank.com/drugs/DB00252#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Phenytoin
+-   directed: true
+    graph:
+        disease: Status epilepticus
+        disease_mesh: MESH:D013226
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D013226
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D013226
+        label: Disease
+        name: Status epilepticus
+    reference: https://go.drugbank.com/drugs/DB00252#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Phenytoin
+-   directed: true
+    graph:
+        disease: Ventricular fibrillation
+        disease_mesh: MESH:D014693
+        drug: Bretylium
+        drug_mesh: MESH:C045166
+        drugbank: DB:DB01158
+    links:
+    -   key: negatively regulates
+        source: MESH:C045166
+        target: GO:0048243
+    -   key: decreases activity of
+        source: GO:0048243
+        target: InterPro:IPR005821
+    -   key: decreases response to
+        source: InterPro:IPR005821
+        target: GO:0001508
+    -   key: prevents
+        source: GO:0001508
+        target: HP:0004308
+    -   key: causes
+        source: HP:0004308
+        target: MESH:D014693
+    multigraph: true
+    nodes:
+    -   id: MESH:C045166
+        label: Drug
+        name: Bretylium
+    -   id: GO:0048243
+        label: BiologicalProcess
+        name: Release of norepinephrine
+    -   id: InterPro:IPR005821
+        label: GeneFamily
+        name: Voltage-gated potassium channel
+    -   id: GO:0001508
+        label: BiologicalProcess
+        name: Action potential
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmias
+    -   id: MESH:D014693
+        label: Disease
+        name: Ventricular fibrillation
+    reference: https://go.drugbank.com/drugs/DB01158#mechanismofaction
+-   directed: true
+    graph:
+        disease: Localization-related epilepsy
+        disease_mesh: MESH:D004828
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D004828
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004828
+        label: Disease
+        name: Localization-related epilepsy
+    reference: https://go.drugbank.com/drugs/DB00252#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Phenytoin
+-   directed: true
+    graph:
+        disease: Tonic-clonic seizure
+        disease_mesh: MESH:D012640
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D012640
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D012640
+        label: Disease
+        name: Tonic-clonic seizure
+    reference: https://go.drugbank.com/drugs/DB00252#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Phenytoin
+-   directed: true
+    graph:
+        disease: Lennox-Gastaut syndrome
+        disease_mesh: MESH:D065768
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D065768
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D065768
+        label: Disease
+        name: Lennox-Gastaut syndrome
+    reference: https://go.drugbank.com/drugs/DB00252#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Phenytoin
+-   directed: true
+    graph:
+        disease: Tonic-clonic epilepsy
+        disease_mesh: MESH:D004830
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: UniProt:Q14524
+    -   key: increases transport of
+        source: UniProt:Q14524
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001384
+    -   key: negatively regulates
+        source: UBERON:0001384
+        target: GO:0099611
+    -   key: ameliorates
+        source: GO:0099611
+        target: HP:0001250
+    -   key: caused by
+        source: HP:0001250
+        target: MESH:D004830
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001384
+        label: GrossAnatomicalStructure
+        name: Primary motor cortex
+    -   id: GO:0099611
+        label: BiologicalProcess
+        name: Action potential firing threshold
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004830
+        label: Disease
+        name: Tonic-clonic epilepsy
+    reference: https://go.drugbank.com/drugs/DB00252#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Phenytoin
