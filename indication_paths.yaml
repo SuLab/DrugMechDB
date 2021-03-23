@@ -60355,3 +60355,1209 @@
         label: Disease
         name: Raynaud's disease
     reference: https://go.drugbank.com/drugs/DB09205#BE0004888 https://en.wikipedia.org/wiki/Raynaud_syndrome
+-   directed: true
+    graph:
+        disease: Crohn's disease
+        disease_mesh: MESH:D003424
+        drug: Natalizumab
+        drug_mesh: MESH:D000069442
+        drugbank: DB:DB00108
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D000069442
+        target: UniProt:P13612
+    -   key: participates in
+        source: UniProt:P13612
+        target: GO:0007159
+    -   key: regulates
+        source: GO:0007159
+        target: GO:0050900
+    -   key: regulates
+        source: GO:0050900
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069442
+        label: Drug
+        name: Natalizumab
+    -   id: UniProt:P13612
+        label: Protein
+        name: Integrin alpha-4
+    -   id: GO:0007159
+        label: BiologicalProcess
+        name: leukocyte cell-cell adhesion
+    -   id: GO:0050900
+        label: BiologicalProcess
+        name: leukocyte migration
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn's disease
+    reference: https://go.drugbank.com/drugs/DB00108#BE0000590 https://en.wikipedia.org/wiki/Natalizumab
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2721358/
+-   directed: true
+    graph:
+        disease: Multiple sclerosis
+        disease_mesh: MESH:D009103
+        drug: Natalizumab
+        drug_mesh: MESH:D000069442
+        drugbank: DB:DB00108
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D000069442
+        target: UniProt:P13612
+    -   key: participates in
+        source: UniProt:P13612
+        target: GO:1904994
+    -   key: regulates
+        source: GO:1904994
+        target: GO:0050900
+    -   key: regulates
+        source: GO:0050900
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D009103
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069442
+        label: Drug
+        name: Natalizumab
+    -   id: UniProt:P13612
+        label: Protein
+        name: Integrin alpha-4
+    -   id: GO:1904994
+        label: BiologicalProcess
+        name: regulation of leukocyte adhesion to vascular endothelial cell
+    -   id: GO:0050900
+        label: BiologicalProcess
+        name: leukocyte migration
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammation
+    -   id: MESH:D009103
+        label: Disease
+        name: Multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB00108#BE0000590 https://en.wikipedia.org/wiki/Natalizumab
+-   directed: true
+    graph:
+        disease: Alzheimer's disease
+        disease_mesh: MESH:D000544
+        drug: donepezil
+        drug_mesh: MESH:C076946
+        drugbank: DB:DB00843
+    links:
+    -   key: decreases activity of
+        source: MESH:C076946
+        target: UniProt:P22303
+    -   key: increases abundance of
+        source: UniProt:P22303
+        target: MESH:D000109
+    -   key: located in
+        source: MESH:D000109
+        target: GO:0045202
+    -   key: participates in
+        source: GO:0045202
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: GO:0007613
+    -   key: prevents
+        source: GO:0007613
+        target: MESH:D000544
+    multigraph: true
+    nodes:
+    -   id: MESH:C076946
+        label: Drug
+        name: donepezil
+    -   id: UniProt:P22303
+        label: Protein
+        name: acetylcholinesterase
+    -   id: MESH:D000109
+        label: ChemicalSubstance
+        name: acetylcholine
+    -   id: GO:0045202
+        label: CellularComponent
+        name: synapse
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: synaptic transmission, cholinergic
+    -   id: GO:0007613
+        label: BiologicalProcess
+        name: memory
+    -   id: MESH:D000544
+        label: Disease
+        name: Alzheimer's disease
+    reference: https://go.drugbank.com/drugs/DB00843#BE0000426 https://en.wikipedia.org/wiki/Donepezil
+-   directed: true
+    graph:
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: salmeterol
+        drug_mesh: MESH:D000068299
+        drugbank: DB:DB00938
+    links:
+    -   key: positively regulates
+        source: MESH:D000068299
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: GO:0044557
+    -   key: located in
+        source: GO:0044557
+        target: UBERON:0002185
+    -   key: affected by
+        source: UBERON:0002185
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068299
+        label: Drug
+        name: salmeterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference: https://go.drugbank.com/drugs/DB00938#BE0000694 https://en.wikipedia.org/wiki/Salmeterol
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: azelastine
+        drug_mesh: MESH:C020976
+        drugbank: DB:DB00972
+    links:
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P35367
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P25021
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P04054
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:Q16873
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0001821
+    -   key: positively regulates
+        source: UniProt:P25021
+        target: GO:0001821
+    -   key: positively correlated with
+        source: GO:0001821
+        target: GO:0006954
+    -   key: participates in
+        source: UniProt:P04054
+        target: GO:0019370
+    -   key: participates in
+        source: UniProt:Q16873
+        target: GO:0019370
+    -   key: participates in
+        source: GO:0019370
+        target: GO:0043303
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:25029
+    -   key: correlated with
+        source: CHEBI:25029
+        target: GO:0043303
+    -   key: correlated with
+        source: GO:0043303
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:C020976
+        label: Drug
+        name: azelastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: UniProt:P04054
+        label: Protein
+        name: Phospholipase A2
+    -   id: UniProt:Q16873
+        label: Protein
+        name: Leukotriene C4 synthase
+    -   id: GO:0001821
+        label: BiologicalProcess
+        name: histamine secretion
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: CHEBI:25029
+        label: ChemicalSubstance
+        name: leukotriene
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference: https://go.drugbank.com/drugs/DB00972#BE0000442 https://en.wikipedia.org/wiki/Azelastine
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: azelastine
+        drug_mesh: MESH:C020976
+        drugbank: DB:DB00972
+    links:
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P35367
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P25021
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P04054
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:Q16873
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0001821
+    -   key: positively regulates
+        source: UniProt:P25021
+        target: GO:0001821
+    -   key: positively correlated with
+        source: GO:0001821
+        target: GO:0006954
+    -   key: participates in
+        source: UniProt:P04054
+        target: GO:0019370
+    -   key: participates in
+        source: UniProt:Q16873
+        target: GO:0019370
+    -   key: participates in
+        source: GO:0019370
+        target: GO:0043303
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:25029
+    -   key: correlated with
+        source: CHEBI:25029
+        target: GO:0043303
+    -   key: correlated with
+        source: GO:0043303
+        target: GO:0006954
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:80308
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:3165
+    -   key: located in
+        source: CHEBI:80308
+        target: UBERON:0000176
+    -   key: located in
+        source: CHEBI:3165
+        target: UBERON:0000176
+    -   key: causes
+        source: UBERON:0000176
+        target: HP:0025095
+    -   key: causes
+        source: UBERON:0000176
+        target: HP:0000989
+    -   key: correlated with
+        source: HP:0025095
+        target: MESH:D006255
+    -   key: correlated with
+        source: HP:0000989
+        target: MESH:D006255
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:C020976
+        label: Drug
+        name: azelastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: UniProt:P04054
+        label: Protein
+        name: Phospholipase A2
+    -   id: UniProt:Q16873
+        label: Protein
+        name: Leukotriene C4 synthase
+    -   id: GO:0001821
+        label: BiologicalProcess
+        name: histamine secretion
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: CHEBI:25029
+        label: ChemicalSubstance
+        name: leukotriene
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: CHEBI:80308
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: CHEBI:3165
+        label: ChemicalSubstance
+        name: bradykinin
+    -   id: UBERON:0000176
+        label: GrossAnatomicalStructure
+        name: oronasal secretion
+    -   id: HP:0025095
+        label: PhenotypicFeature
+        name: Sneeze
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00972#BE0000442 https://en.wikipedia.org/wiki/Azelastine
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: azelastine
+        drug_mesh: MESH:C020976
+        drugbank: DB:DB00972
+    links:
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P35367
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P25021
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P04054
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:Q16873
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0001821
+    -   key: positively regulates
+        source: UniProt:P25021
+        target: GO:0001821
+    -   key: positively correlated with
+        source: GO:0001821
+        target: GO:0006954
+    -   key: participates in
+        source: UniProt:P04054
+        target: GO:0019370
+    -   key: participates in
+        source: UniProt:Q16873
+        target: GO:0019370
+    -   key: participates in
+        source: GO:0019370
+        target: GO:0043303
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:25029
+    -   key: correlated with
+        source: CHEBI:25029
+        target: GO:0043303
+    -   key: correlated with
+        source: GO:0043303
+        target: GO:0006954
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:80308
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:3165
+    -   key: located in
+        source: CHEBI:80308
+        target: UBERON:0000176
+    -   key: located in
+        source: CHEBI:3165
+        target: UBERON:0000176
+    -   key: causes
+        source: UBERON:0000176
+        target: HP:0025095
+    -   key: causes
+        source: UBERON:0000176
+        target: HP:0000989
+    -   key: correlated with
+        source: HP:0025095
+        target: MESH:D065631
+    -   key: correlated with
+        source: HP:0000989
+        target: MESH:D065631
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C020976
+        label: Drug
+        name: azelastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: UniProt:P04054
+        label: Protein
+        name: Phospholipase A2
+    -   id: UniProt:Q16873
+        label: Protein
+        name: Leukotriene C4 synthase
+    -   id: GO:0001821
+        label: BiologicalProcess
+        name: histamine secretion
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: CHEBI:25029
+        label: ChemicalSubstance
+        name: leukotriene
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: CHEBI:80308
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: CHEBI:3165
+        label: ChemicalSubstance
+        name: bradykinin
+    -   id: UBERON:0000176
+        label: GrossAnatomicalStructure
+        name: oronasal secretion
+    -   id: HP:0025095
+        label: PhenotypicFeature
+        name: Sneeze
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00972#BE0000442 https://en.wikipedia.org/wiki/Azelastine
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: azelastine
+        drug_mesh: MESH:C020976
+        drugbank: DB:DB00972
+    links:
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P35367
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P25021
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:P04054
+    -   key: decreases activity of
+        source: MESH:C020976
+        target: UniProt:Q16873
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0001821
+    -   key: positively regulates
+        source: UniProt:P25021
+        target: GO:0001821
+    -   key: positively correlated with
+        source: GO:0001821
+        target: GO:0006954
+    -   key: participates in
+        source: UniProt:P04054
+        target: GO:0019370
+    -   key: participates in
+        source: UniProt:Q16873
+        target: GO:0019370
+    -   key: participates in
+        source: GO:0019370
+        target: GO:0043303
+    -   key: decreases abundance of
+        source: MESH:C020976
+        target: CHEBI:25029
+    -   key: correlated with
+        source: CHEBI:25029
+        target: GO:0043303
+    -   key: correlated with
+        source: GO:0043303
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C020976
+        label: Drug
+        name: azelastine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: UniProt:P25021
+        label: Protein
+        name: Histamine H2 receptor
+    -   id: UniProt:P04054
+        label: Protein
+        name: Phospholipase A2
+    -   id: UniProt:Q16873
+        label: Protein
+        name: Leukotriene C4 synthase
+    -   id: GO:0001821
+        label: BiologicalProcess
+        name: histamine secretion
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: CHEBI:25029
+        label: ChemicalSubstance
+        name: leukotriene
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB00972#BE0000442 https://en.wikipedia.org/wiki/Azelastine
+-   directed: true
+    graph:
+        disease: Postpartum hemorrhage
+        disease_mesh: MESH:D006473
+        drug: ergometrine
+        drug_mesh: MESH:D004874
+        drugbank: DB:DB01253
+    links:
+    -   key: increases activity of
+        source: MESH:D004874
+        target: UniProt:P35348
+    -   key: located in
+        source: UniProt:P35348
+        target: UBERON:0001135
+    -   key: location of
+        source: UBERON:0001135
+        target: UBERON:0000995
+    -   key: increases activity of
+        source: UBERON:0000995
+        target: GO:0070471
+    -   key: negatively correlated with
+        source: GO:0070471
+        target: MESH:D006473
+    multigraph: true
+    nodes:
+    -   id: MESH:D004874
+        label: Drug
+        name: ergometrine
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha-1A adrenergic receptor
+    -   id: UBERON:0001135
+        label: GrossAnatomicalStructure
+        name: smooth muscle
+    -   id: UBERON:0000995
+        label: GrossAnatomicalStructure
+        name: uterus
+    -   id: GO:0070471
+        label: BiologicalProcess
+        name: uterine smooth muscle contraction
+    -   id: MESH:D006473
+        label: Disease
+        name: Postpartum hemorrhage
+    reference: https://go.drugbank.com/drugs/DB01253#BE0000501
+-   directed: true
+    graph:
+        disease: Chronic obstructive lung disease
+        disease_mesh: MESH:D029424
+        drug: almitrine
+        drug_mesh: MESH:D015765,MESH:C037558
+        drugbank: DB:DB01430
+    links:
+    -   key: increases activity of
+        source: DB:DB01430
+        target: UniProt:P05023
+    -   key: located in
+        source: UniProt:P05023
+        target: UBERON:0001629
+    -   key: participates in
+        source: UBERON:0001629
+        target: GO:0003039
+    -   key: participates in
+        source: UBERON:0001629
+        target: GO:0003035
+    -   key: positively correlated with
+        source: GO:0003039
+        target: GO:0007585
+    -   key: positively correlated with
+        source: GO:0003035
+        target: GO:0007585
+    -   key: treats
+        source: GO:0007585
+        target: MESH:D029424
+    multigraph: true
+    nodes:
+    -   id: DB:DB01430
+        label: Drug
+        name: almitrine
+    -   id: UniProt:P05023
+        label: Protein
+        name: Sodium/potassium-transporting ATPase subunit alpha-1
+    -   id: UBERON:0001629
+        label: GrossAnatomicalStructure
+        name: carotid body
+    -   id: GO:0003039
+        label: BiologicalProcess
+        name: detection of reduced oxygen by carotid body chemoreceptor signaling
+    -   id: GO:0003035
+        label: BiologicalProcess
+        name: detection of increased carbon dioxide by carotid body chemoreceptor
+            signaling
+    -   id: GO:0007585
+        label: BiologicalProcess
+        name: respiratory gaseous exchange by respiratory system
+    -   id: MESH:D029424
+        label: Disease
+        name: Chronic obstructive lung disease
+    reference: https://go.drugbank.com/drugs/DB01430
+-   directed: true
+    graph:
+        disease: Opioid dependence
+        disease_mesh: MESH:D009293
+        drug: acetylmethadol
+        drug_mesh: MESH:D008692
+        drugbank: DB:DB01433
+    links:
+    -   key: increases activity of
+        source: MESH:D008692
+        target: UniProt:P35372
+    -   key: positively regulates
+        source: UniProt:P35372
+        target: InterPro:IPR013673
+    -   key: decreases abundance of
+        source: InterPro:IPR013673
+        target: MESH:D000242
+    -   key: prevents
+        source: MESH:D000242
+        target: GO:0007269
+    -   key: decreases activity of
+        source: GO:0007269
+        target: GO:0060081
+    -   key: decreases response to
+        source: GO:0060081
+        target: HP:0033515
+    -   key: ameliorates
+        source: HP:0033515
+        target: MESH:D009293
+    multigraph: true
+    nodes:
+    -   id: MESH:D008692
+        label: Drug
+        name: acetylmethadol
+    -   id: UniProt:P35372
+        label: Protein
+        name: Mu opioid receptor
+    -   id: InterPro:IPR013673
+        label: GeneFamily
+        name: "G-protein\u2013gated potassium channel"
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: cAMP
+    -   id: GO:0007269
+        label: BiologicalProcess
+        name: neurotransmitter release
+    -   id: GO:0060081
+        label: BiologicalProcess
+        name: membrane hyperpolarization
+    -   id: HP:0033515
+        label: PhenotypicFeature
+        name: opioid addiction
+    -   id: MESH:D009293
+        label: Disease
+        name: Opioid dependence
+    reference: https://go.drugbank.com/drugs/DB01433 https://smpdb.ca/view/SMP0000678?highlight[compounds][]=DB01433&highlight[proteins][]=DB01433
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: pargyline
+        drug_mesh: MESH:D010293
+        drugbank: DB:DB01626
+    links:
+    -   key: negatively regulates
+        source: MESH:D010293
+        target: UniProt:P27338
+    -   key: positively regulates
+        source: UniProt:P27338
+        target: GO:0042402
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D012701
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0099153
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0099155
+    -   key: negatively correlated with
+        source: GO:0099153
+        target: MESH:D006973
+    -   key: negatively correlated with
+        source: GO:0099155
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D010293
+        label: Drug
+        name: pargyline
+    -   id: UniProt:P27338
+        label: Protein
+        name: Amine oxidase [flavin-containing] B
+    -   id: GO:0042402
+        label: BiologicalProcess
+        name: cellular biogenic amine catabolic process
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0099153
+        label: BiologicalProcess
+        name: synaptic transmission, serotonergic
+    -   id: GO:0099155
+        label: BiologicalProcess
+        name: synaptic transmission, noradrenergic
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB01626#BE0002196 https://pubmed.ncbi.nlm.nih.gov/8489485/
+-   directed: true
+    graph:
+        disease: Short bowel syndrome
+        disease_mesh: MESH:D012778
+        drug: teduglutide
+        drug_mesh: MESH:C438272,MESH:C494910
+        drugbank: DB:DB08900
+    links:
+    -   key: increases activity of
+        source: DB:DB08900
+        target: UniProt:O95838
+    -   key: located in
+        source: UniProt:O95838
+        target: UBERON:0002439
+    -   key: located in
+        source: UniProt:O95838
+        target: UBERON:0005304
+    -   key: located in
+        source: UniProt:O95838
+        target: CL:1001516
+    -   key: positively correlated with
+        source: UBERON:0002439
+        target: GO:0050892
+    -   key: positively correlated with
+        source: UBERON:0005304
+        target: GO:0050892
+    -   key: positively correlated with
+        source: CL:1001516
+        target: GO:0050892
+    -   key: negatively correlated with
+        source: UniProt:O95838
+        target: GO:1990768
+    -   key: positively correlated with
+        source: UniProt:O95838
+        target: GO:0001696
+    -   key: treats
+        source: GO:0001696
+        target: MESH:D012778
+    -   key: treats
+        source: GO:1990768
+        target: MESH:D012778
+    -   key: treats
+        source: GO:0050892
+        target: MESH:D012778
+    multigraph: true
+    nodes:
+    -   id: DB:DB08900
+        label: Drug
+        name: teduglutide
+    -   id: UniProt:O95838
+        label: Protein
+        name: Glucagon-like peptide receptor
+    -   id: UBERON:0002439
+        label: GrossAnatomicalStructure
+        name: myenteric nerve plexus
+    -   id: UBERON:0005304
+        label: GrossAnatomicalStructure
+        name: submucous nerve plexus
+    -   id: CL:1001516
+        label: Cell
+        name: intestinal enteroendocrine cell
+    -   id: GO:0050892
+        label: BiologicalProcess
+        name: intestinal absorption
+    -   id: GO:1990768
+        label: BiologicalProcess
+        name: gastric acid secretion
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric mucosal blood circulation
+    -   id: MESH:D012778
+        label: Disease
+        name: Short bowel syndrome
+    reference: https://go.drugbank.com/drugs/DB01253#BE0000501
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: chlorcyclizine
+        drug_mesh: MESH:C084597
+        drugbank: DB:DB08936
+    links:
+    -   key: decreases activity of
+        source: MESH:C084597
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C084597
+        label: Drug
+        name: chlorcyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB08936 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: chlorcyclizine
+        drug_mesh: MESH:C084597
+        drugbank: DB:DB08936
+    links:
+    -   key: decreases activity of
+        source: MESH:C084597
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C084597
+        label: Drug
+        name: chlorcyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB08936 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: chlorcyclizine
+        drug_mesh: MESH:C084597
+        drugbank: DB:DB08936
+    links:
+    -   key: decreases activity of
+        source: MESH:C084597
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:C084597
+        label: Drug
+        name: chlorcyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB08936 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: chlorcyclizine
+        drug_mesh: MESH:C084597
+        drugbank: DB:DB08936
+    links:
+    -   key: decreases activity of
+        source: MESH:C084597
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:C084597
+        label: Drug
+        name: chlorcyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference: https://go.drugbank.com/drugs/DB08936 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Cough
+        disease_mesh: MESH:D003371
+        drug: chlorcyclizine
+        drug_mesh: MESH:C084597
+        drugbank: DB:DB08936
+    links:
+    -   key: decreases activity of
+        source: MESH:C084597
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003371
+    multigraph: true
+    nodes:
+    -   id: MESH:C084597
+        label: Drug
+        name: chlorcyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003371
+        label: Disease
+        name: Cough
+    reference: https://go.drugbank.com/drugs/DB08936 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: chlorcyclizine
+        drug_mesh: MESH:C084597
+        drugbank: DB:DB08936
+    links:
+    -   key: decreases activity of
+        source: MESH:C084597
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:C084597
+        label: Drug
+        name: chlorcyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference: https://go.drugbank.com/drugs/DB08936 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: chlorcyclizine
+        drug_mesh: MESH:C084597
+        drugbank: DB:DB08936
+    links:
+    -   key: decreases activity of
+        source: MESH:C084597
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:C084597
+        label: Drug
+        name: chlorcyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference: https://go.drugbank.com/drugs/DB08936 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
