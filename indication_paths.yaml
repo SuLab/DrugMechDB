@@ -67718,3 +67718,1298 @@
         name: Hyperlipidemia
     reference: https://go.drugbank.com/drugs/DB00627#mechanismofaction  https://en.wikipedia.org/wiki/Niacin#Mechanisms
         doi:10.1194/jlr.S092007
+-   directed: true
+    graph:
+        disease: Malaria
+        disease_mesh: MESH:D008288
+        drug: pyrimethamine
+        drug_mesh: MESH:D011739
+        drugbank: DB:DB12975
+    links:
+    -   key: negatively regulates
+        source: MESH:D011739
+        target: UniProt:P13922
+    -   key: positively regulates
+        source: UniProt:P13922
+        target: GO:0046654
+    -   key: positively correlated with
+        source: GO:0046654
+        target: GO:0006221
+    -   key: positively correlated with
+        source: GO:0046654
+        target: GO:0019363
+    -   key: positively correlated with
+        source: GO:0006221
+        target: GO:0000280
+    -   key: positively correlated with
+        source: GO:0019363
+        target: GO:0000280
+    -   key: in taxon
+        source: GO:0000280
+        target: NCBITaxon:5839
+    -   key: causes
+        source: NCBITaxon:5839
+        target: MESH:D008288
+    multigraph: true
+    nodes:
+    -   id: MESH:D011739
+        label: Drug
+        name: pyrimethamine
+    -   id: UniProt:P13922
+        label: Protein
+        name: Bifunctional dihydrofolate reductase-thymidylate synthase
+    -   id: GO:0046654
+        label: BiologicalProcess
+        name: tetrahydrofolate biosynthetic process
+    -   id: GO:0006221
+        label: BiologicalProcess
+        name: pyrimidine nucleotide biosynthetic process
+    -   id: GO:0019363
+        label: BiologicalProcess
+        name: pyridine nucleotide biosynthetic process
+    -   id: GO:0000280
+        label: BiologicalProcess
+        name: nuclear division
+    -   id: NCBITaxon:5839
+        label: OrganismTaxon
+        name: Plasmodium falciparum K1
+    -   id: MESH:D008288
+        label: Disease
+        name: Malaria
+    reference: https://go.drugbank.com/drugs/DB00205#mechanism-of-action https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1939/
+-   directed: true
+    graph:
+        disease: Toxoplasmosis
+        disease_mesh: MESH:D014123
+        drug: pyrimethamine
+        drug_mesh: MESH:D011739
+        drugbank: DB:DB12975
+    links:
+    -   key: negatively regulates
+        source: MESH:D011739
+        target: Pfam:PF00186
+    -   key: positively regulates
+        source: Pfam:PF00186
+        target: GO:0046654
+    -   key: positively correlated with
+        source: GO:0046654
+        target: GO:0006221
+    -   key: positively correlated with
+        source: GO:0046654
+        target: GO:0019363
+    -   key: positively correlated with
+        source: GO:0006221
+        target: GO:0000280
+    -   key: positively correlated with
+        source: GO:0019363
+        target: GO:0000280
+    -   key: in taxon
+        source: GO:0000280
+        target: NCBITaxon:5811
+    -   key: causes
+        source: NCBITaxon:5811
+        target: MESH:D014123
+    multigraph: true
+    nodes:
+    -   id: MESH:D011739
+        label: Drug
+        name: pyrimethamine
+    -   id: Pfam:PF00186
+        label: GeneFamily
+        name: Dihydrofolate reductase
+    -   id: GO:0046654
+        label: BiologicalProcess
+        name: tetrahydrofolate biosynthetic process
+    -   id: GO:0006221
+        label: BiologicalProcess
+        name: pyrimidine nucleotide biosynthetic process
+    -   id: GO:0019363
+        label: BiologicalProcess
+        name: pyridine nucleotide biosynthetic process
+    -   id: GO:0000280
+        label: BiologicalProcess
+        name: nuclear division
+    -   id: NCBITaxon:5811
+        label: OrganismTaxon
+        name: Toxoplasma gondii
+    -   id: MESH:D014123
+        label: Disease
+        name: Toxoplasmosis
+    reference: https://go.drugbank.com/drugs/DB00205#mechanism-of-action https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1939/
+-   comments: UBERON:0003956 includes the uveoscleral network as well as other canals
+        for aqueous humor drainage. The uveoscleral network is the structure that
+        seems to be affected by alpha adrenergic agonists, such as brimonidine, specially
+        in long-term treatments (i.e. chronic dosing).
+    directed: true
+    graph:
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: brimonidine
+        drug_mesh: MESH:D000068438
+        drugbank: DB:DB00484
+    links:
+    -   key: increases activity of
+        source: MESH:D000068438
+        target: MESH:D018341
+    -   key: participates in
+        source: MESH:D018341
+        target: REACT:R-HSA-418594
+    -   key: participates in
+        source: MESH:D018341
+        target: REACT:R-HSA-418597
+    -   key: decreases abundance of
+        source: REACT:R-HSA-418594
+        target: CHEBI:17489
+    -   key: decreases abundance of
+        source: REACT:R-HSA-418597
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: UBERON:0001796
+    -   key: regulates
+        source: CHEBI:17489
+        target: GO:0006939
+    -   key: regulates
+        source: GO:0006939
+        target: UBERON:0003956
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: negatively correlated with
+        source: UBERON:0003956
+        target: HP:0007906
+    -   key: positively correlated with
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068438
+        label: Drug
+        name: brimonidine
+    -   id: MESH:D018341
+        label: GeneFamily
+        name: Receptors, Adrenergic, alpha-2
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: REACT:R-HSA-418597
+        label: Pathway
+        name: G alpha (z) signalling events
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3,5-cyclic AMP
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3,5-cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: aqueous humor of eyeball
+    -   id: UBERON:0003956
+        label: GrossAnatomicalStructure
+        name: aqueous drainage system
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular Hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference: https://go.drugbank.com/drugs/DB00484#mechanism-of-action https://en.wikipedia.org/wiki/Brimonidine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance https://en.wikipedia.org/wiki/Ciliary_body#Clinical_significance
+-   comments: The drug has an anti-inflammatory role which can help with treating
+        some of the signs and symptoms of rosasea.
+    directed: true
+    graph:
+        disease: Rosacea
+        disease_mesh: MESH:D012393
+        drug: brimonidine
+        drug_mesh: MESH:D000068438
+        drugbank: DB:DB00484
+    links:
+    -   key: increases activity of
+        source: MESH:D000068438
+        target: MESH:D018341
+    -   key: participates in
+        source: MESH:D018341
+        target: REACT:R-HSA-418594
+    -   key: participates in
+        source: MESH:D018341
+        target: REACT:R-HSA-418597
+    -   key: decreases abundance of
+        source: REACT:R-HSA-418594
+        target: CHEBI:17489
+    -   key: decreases abundance of
+        source: REACT:R-HSA-418597
+        target: CHEBI:17489
+    -   key: negatively correlated with
+        source: CHEBI:17489
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0001041
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0031284
+    -   key: positively correlated with
+        source: HP:0031284
+        target: MESH:D012393
+    -   key: positively correlated with
+        source: HP:0001041
+        target: MESH:D012393
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068438
+        label: Drug
+        name: brimonidine
+    -   id: MESH:D018341
+        label: GeneFamily
+        name: Receptors, Adrenergic, alpha-2
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: REACT:R-HSA-418597
+        label: Pathway
+        name: G alpha (z) signalling events
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3,5-cyclic AMP
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3,5-cyclic AMP
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: vasoconstriction
+    -   id: HP:0031284
+        label: PhenotypicFeature
+        name: Flushing
+    -   id: HP:0001041
+        label: PhenotypicFeature
+        name: Facial erythema
+    -   id: MESH:D012393
+        label: Disease
+        name: Rosacea
+    reference: https://go.drugbank.com/drugs/DB00484#mechanism-of-action https://en.wikipedia.org/wiki/Brimonidine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Rosacea#Medications https://pubmed.ncbi.nlm.nih.gov/26566370/
+-   comments: UBERON:0003956 includes the uveoscleral network as well as other canals
+        for aqueous humor drainage. The uveoscleral network is the structure that
+        seems to be affected by alpha adrenergic agonists, such as brimonidine, specially
+        in long-term treatments (i.e. chronic dosing).
+    directed: true
+    graph:
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: brimonidine
+        drug_mesh: MESH:D000068438
+        drugbank: DB:DB00484
+    links:
+    -   key: increases activity of
+        source: MESH:D000068438
+        target: MESH:D018341
+    -   key: participates in
+        source: MESH:D018341
+        target: REACT:R-HSA-418594
+    -   key: participates in
+        source: MESH:D018341
+        target: REACT:R-HSA-418597
+    -   key: decreases abundance of
+        source: REACT:R-HSA-418594
+        target: CHEBI:17489
+    -   key: decreases abundance of
+        source: REACT:R-HSA-418597
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: UBERON:0001796
+    -   key: regulates
+        source: CHEBI:17489
+        target: GO:0006939
+    -   key: regulates
+        source: GO:0006939
+        target: UBERON:0003956
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: MESH:D009798
+    -   key: negatively correlated with
+        source: UBERON:0003956
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068438
+        label: Drug
+        name: brimonidine
+    -   id: MESH:D018341
+        label: GeneFamily
+        name: Receptors, Adrenergic, alpha-2
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: REACT:R-HSA-418597
+        label: Pathway
+        name: G alpha (z) signalling events
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3,5-cyclic AMP
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3,5-cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: aqueous humor of eyeball
+    -   id: UBERON:0003956
+        label: GrossAnatomicalStructure
+        name: aqueous drainage system
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference: https://go.drugbank.com/drugs/DB00484#mechanism-of-action https://en.wikipedia.org/wiki/Brimonidine#Mechanism_of_action
+        https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance https://en.wikipedia.org/wiki/Ciliary_body#Clinical_significance
+-   comments: MESH:C000608451 may have been deprecated; no longer in MESH.
+    directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: alum
+        drug_mesh: MESH:D000534
+        drugbank: DB:DB09087
+    links:
+    -   key: subclass of
+        source: MESH:D000534
+        target: MESH:D000891
+    -   key: subclass of
+        source: MESH:D000534
+        target: MESH:D001252
+    -   key: negatively correlated with
+        source: MESH:D000891
+        target: GO:0006954
+    -   key: negatively correlated with
+        source: MESH:D001252
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D010437
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C041524
+        id: MESH:D000534
+        label: Drug
+        name: alum
+    -   id: MESH:D000891
+        label: ChemicalSubstance
+        name: Anti-Infective Agents, Local
+    -   id: MESH:D001252
+        label: ChemicalSubstance
+        name: Astringents
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference: https://go.drugbank.com/drugs/DB09087#pharmacodynamics https://en.wikipedia.org/wiki/Potassium_alum#Medicine_and_cosmetics
+-   comments: MESH:C000608451 may have been deprecated; no longer in MESH. The disease
+        is denotated as Indigestion in the original file before curation. Note that
+        the majority of cases no cause can be attributed to leading to the disease.
+        When a cause can indeed be determined, the majority of cases will be due to
+        gastroesophageal reflux and gastritis (https://en.wikipedia.org/wiki/Indigestion#Cause).
+    directed: true
+    graph:
+        disease: Dyspepsia
+        disease_mesh: MESH:D004415
+        drug: alum
+        drug_mesh: MESH:D000534
+        drugbank: DB:DB09087
+    links:
+    -   key: subclass of
+        source: MESH:D000534
+        target: MESH:D000891
+    -   key: subclass of
+        source: MESH:D000534
+        target: MESH:D001252
+    -   key: negatively correlated with
+        source: MESH:D000891
+        target: GO:0006954
+    -   key: negatively correlated with
+        source: MESH:D001252
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0005263
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: HP:0002020
+    -   key: positively correlated with
+        source: HP:0002020
+        target: MESH:D004415
+    -   key: positively correlated with
+        source: HP:0005263
+        target: MESH:D004415
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C041524
+        id: MESH:D000534
+        label: Drug
+        name: alum
+    -   id: MESH:D000891
+        label: ChemicalSubstance
+        name: Anti-Infective Agents, Local
+    -   id: MESH:D001252
+        label: ChemicalSubstance
+        name: Astringents
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: HP:0005263
+        label: PhenotypicFeature
+        name: Gastritis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002020
+        label: PhenotypicFeature
+        name: Gastroesophageal reflux
+    -   id: MESH:D004415
+        label: Disease
+        name: Dyspepsia
+    reference: https://go.drugbank.com/drugs/DB09087#pharmacodynamics https://en.wikipedia.org/wiki/Potassium_alum#Medicine_and_cosmetics
+-   directed: true
+    graph:
+        disease: Heartburn
+        disease_mesh: MESH:D006356
+        drug: alum
+        drug_mesh: MESH:D000534
+        drugbank: DB:DB09087
+    links:
+    -   key: subclass of
+        source: MESH:D000534
+        target: MESH:D001252
+    -   key: negatively correlated with
+        source: MESH:D001252
+        target: MESH:D005744
+    -   key: located in
+        source: MESH:D005744
+        target: UBERON:0001043
+    -   key: location of
+        source: UBERON:0001043
+        target: MESH:D006356
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C041524
+        id: MESH:D000534
+        label: Drug
+        name: alum
+    -   id: MESH:D001252
+        label: ChemicalSubstance
+        name: Astringents
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: UBERON:0001043
+        label: GrossAnatomicalStructure
+        name: esophagus
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    reference: https://go.drugbank.com/drugs/DB09087#pharmacodynamics https://en.wikipedia.org/wiki/Potassium_alum#Medicine_and_cosmetics
+        https://en.wikipedia.org/wiki/Heartburn#Treatment
+-   directed: true
+    graph:
+        disease: Gastroesophageal reflux disease
+        disease_mesh: MESH:D005764
+        drug: alum
+        drug_mesh: MESH:D000534
+        drugbank: DB:DB09087
+    links:
+    -   key: subclass of
+        source: MESH:D000534
+        target: MESH:D001252
+    -   key: negatively correlated with
+        source: MESH:D001252
+        target: MESH:D005744
+    -   key: located in
+        source: MESH:D005744
+        target: UBERON:0001043
+    -   key: location of
+        source: UBERON:0001043
+        target: MESH:D006356
+    -   key: manifestation of
+        source: MESH:D006356
+        target: MESH:D005764
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C041524
+        id: MESH:D000534
+        label: Drug
+        name: alum
+    -   id: MESH:D001252
+        label: ChemicalSubstance
+        name: Astringents
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: UBERON:0001043
+        label: GrossAnatomicalStructure
+        name: esophagus
+    -   id: MESH:D006356
+        label: PhenotypicFeature
+        name: Heartburn
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    reference: https://go.drugbank.com/drugs/DB09087#pharmacodynamics https://en.wikipedia.org/wiki/Potassium_alum#Medicine_and_cosmetics
+        https://en.wikipedia.org/wiki/Gastroesophageal_reflux_disease#Antacids
+-   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+        class of drug and the mechanism of action for both is similar. Weve annotated
+        the path for the S isomer only as it seems this isomer is metabolized more
+        slowly than omeprazole and therefore it will act for longer and more effectively
+        (https://onlinelibrary.wiley.com/doi/pdf/10.1046/j.1365-2036.17.s1.1.x).
+    directed: true
+    graph:
+        disease: Gastroesophageal reflux disease
+        disease_mesh: MESH:D005764
+        drug: esomeprazole
+        drug_mesh: MESH:D064098
+        drugbank: DB:DB00736
+    links:
+    -   key: decreases activity of
+        source: MESH:D064098
+        target: UniProt:P20648
+    -   key: positively correlated with
+        source: UniProt:P20648
+        target: GO:0008900
+    -   key: located in
+        source: GO:0008900
+        target: UBERON:0000325
+    -   key: positively correlated with
+        source: UBERON:0000325
+        target: GO:0001696
+    -   key: positively correlated with
+        source: GO:0001696
+        target: MESH:D006356
+    -   key: manifestation of
+        source: MESH:D006356
+        target: MESH:D005764
+    multigraph: true
+    nodes:
+    -   id: MESH:D064098
+        label: Drug
+        name: esomeprazole
+    -   id: UniProt:P20648
+        label: Protein
+        name: Potassium-transporting ATPase alpha chain 1
+    -   id: GO:0008900
+        label: MolecularActivity
+        name: P-type potassium:proton transporter activity
+    -   id: UBERON:0000325
+        label: GrossAnatomicalStructure
+        name: gastric gland
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
+    -   id: MESH:D006356
+        label: PhenotypicFeature
+        name: Heartburn
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    reference: https://go.drugbank.com/drugs/DB00736#mechanism-of-action https://en.wikipedia.org/wiki/Esomeprazole
+        https://en.wikipedia.org/wiki/Omeprazole#Mechanism_of_action
+-   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+        class of drug and the mechanism of action for both is similar. Weve annotated
+        the path for the S isomer only as it seems this isomer is metabolized more
+        slowly than omeprazole and therefore it will act for longer and more effectively
+        (https://onlinelibrary.wiley.com/doi/pdf/10.1046/j.1365-2036.17.s1.1.x). This
+        disease is denoted as Peptic reflux disease in the original file.
+    directed: true
+    graph:
+        disease: Esophagitis, Peptic
+        disease_mesh: MESH:D004942
+        drug: esomeprazole
+        drug_mesh: MESH:D064098
+        drugbank: DB:DB00736
+    links:
+    -   key: decreases activity of
+        source: MESH:D064098
+        target: UniProt:P20648
+    -   key: positively correlated with
+        source: UniProt:P20648
+        target: GO:0008900
+    -   key: positively correlated with
+        source: GO:0008900
+        target: GO:0001696
+    -   key: positively correlated with
+        source: GO:0001696
+        target: HP:0004791
+    -   key: positively correlated with
+        source: GO:0001696
+        target: HP:0002020
+    -   key: positively correlated with
+        source: HP:0004791
+        target: MESH:D004942
+    -   key: manifestation of
+        source: HP:0002020
+        target: MESH:D004942
+    multigraph: true
+    nodes:
+    -   id: MESH:D064098
+        label: Drug
+        name: esomeprazole
+    -   id: UniProt:P20648
+        label: Protein
+        name: Potassium-transporting ATPase alpha chain 1
+    -   id: GO:0008900
+        label: MolecularActivity
+        name: P-type potassium:proton transporter activity
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
+    -   id: HP:0004791
+        label: PhenotypicFeature
+        name: Esophageal ulceration
+    -   id: HP:0002020
+        label: PhenotypicFeature
+        name: Gastroesophageal reflux
+    -   id: MESH:D004942
+        label: Disease
+        name: Esophagitis, Peptic
+    reference: https://go.drugbank.com/drugs/DB00736#mechanism-of-action https://en.wikipedia.org/wiki/Esomeprazole
+        https://en.wikipedia.org/wiki/Omeprazole#Mechanism_of_action https://en.wikipedia.org/wiki/Esophagitis#Causes
+        https://en.wikipedia.org/wiki/Esophagitis#Medications
+-   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+        class of drug and the mechanism of action for both is similar. Weve annotated
+        the path for the S isomer only as it seems this isomer is metabolized more
+        slowly than omeprazole and therefore it will act for longer and more effectively
+        (https://onlinelibrary.wiley.com/doi/pdf/10.1046/j.1365-2036.17.s1.1.x). This
+        disease is denoted as Peptic reflux disease in the original file.
+    directed: true
+    graph:
+        disease: Zollinger-Ellison syndrome
+        disease_mesh: MESH:D015043
+        drug: esomeprazole
+        drug_mesh: MESH:D064098
+        drugbank: DB:DB00736
+    links:
+    -   key: decreases activity of
+        source: MESH:D064098
+        target: UniProt:P20648
+    -   key: positively correlated with
+        source: UniProt:P20648
+        target: GO:0008900
+    -   key: positively correlated with
+        source: GO:0008900
+        target: GO:0001696
+    -   key: positively correlated with
+        source: GO:0001696
+        target: HP:0004398
+    -   key: positively correlated with
+        source: GO:0001696
+        target: HP:0002588
+    -   key: positively correlated with
+        source: HP:0002588
+        target: MESH:D015043
+    -   key: positively correlated with
+        source: HP:0004398
+        target: MESH:D015043
+    multigraph: true
+    nodes:
+    -   id: MESH:D064098
+        label: Drug
+        name: esomeprazole
+    -   id: UniProt:P20648
+        label: Protein
+        name: Potassium-transporting ATPase alpha chain 1
+    -   id: GO:0008900
+        label: MolecularActivity
+        name: P-type potassium:proton transporter activity
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
+    -   id: HP:0002588
+        label: PhenotypicFeature
+        name: Duodenal ulcer
+    -   id: HP:0004398
+        label: PhenotypicFeature
+        name: Peptic Ulcer
+    -   id: MESH:D015043
+        label: Disease
+        name: Zollinger-Ellison syndrome
+    reference: https://go.drugbank.com/drugs/DB00736#mechanism-of-action https://en.wikipedia.org/wiki/Esomeprazole
+        https://en.wikipedia.org/wiki/Omeprazole#Mechanism_of_action https://en.wikipedia.org/wiki/Esophagitis#Causes
+        https://en.wikipedia.org/wiki/Esophagitis#Medications https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Treatment
+        https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Pathophysiology
+-   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+        class of drug and the mechanism of action for both is similar. Weve annotated
+        the path for the S isomer only as it seems this isomer is metabolized more
+        slowly than omeprazole and therefore it will act for longer and more effectively
+        (https://onlinelibrary.wiley.com/doi/pdf/10.1046/j.1365-2036.17.s1.1.x). This
+        disease is denoted as Peptic reflux disease in the original file.
+    directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: esomeprazole
+        drug_mesh: MESH:D064098
+        drugbank: DB:DB00736
+    links:
+    -   key: decreases activity of
+        source: MESH:D064098
+        target: UniProt:P20648
+    -   key: positively correlated with
+        source: UniProt:P20648
+        target: GO:0008900
+    -   key: positively correlated with
+        source: GO:0008900
+        target: GO:0001696
+    -   key: positively correlated with
+        source: GO:0001696
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:D064098
+        label: Drug
+        name: esomeprazole
+    -   id: UniProt:P20648
+        label: Protein
+        name: Potassium-transporting ATPase alpha chain 1
+    -   id: GO:0008900
+        label: MolecularActivity
+        name: P-type potassium:proton transporter activity
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference: https://go.drugbank.com/drugs/DB00736#mechanism-of-action https://en.wikipedia.org/wiki/Esomeprazole
+        https://en.wikipedia.org/wiki/Omeprazole#Mechanism_of_action https://en.wikipedia.org/wiki/Esophagitis#Causes
+        https://en.wikipedia.org/wiki/Esophagitis#Medications https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Treatment
+        https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Pathophysiology
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: abacavir
+        drug_mesh: MESH:C106538
+        drugbank: DB:DB01048
+    links:
+    -   key: produces
+        source: MESH:C106538
+        target: CHEBI:64174
+    -   key: decreases activity of
+        source: CHEBI:64174
+        target: UniProt:Q72547
+    -   key: positively regulates
+        source: UniProt:Q72547
+        target: GO:0003964
+    -   key: positively correlated with
+        source: GO:0003964
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:C106538
+        label: Drug
+        name: abacavir
+    -   id: CHEBI:64174
+        label: ChemicalSubstance
+        name: carbovir triphosphate
+    -   id: UniProt:Q72547
+        label: Protein
+        name: Reverse transcriptase/RNaseH
+    -   id: GO:0003964
+        label: MolecularActivity
+        name: RNA-directed DNA polymerase activity
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: viral genome replication
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference: https://go.drugbank.com/drugs/DB01048#mechanism-of-action https://en.wikipedia.org/wiki/Abacavir#Mechanism_of_action
+-   comments: The disease is denoted as Sore throat symptom in the original file.
+    directed: true
+    graph:
+        disease: Pharyngitis
+        disease_mesh: MESH:D010612
+        drug: ambroxol
+        drug_mesh: MESH:D000551
+        drugbank: DB:DB06742
+    links:
+    -   key: increases abundance of
+        source: MESH:D000551
+        target: MESH:D011663
+    -   key: produced by
+        source: MESH:D011663
+        target: MESH:D056809
+    -   key: part of
+        source: MESH:D056809
+        target: UBERON:0000065
+    -   key: location of
+        source: UBERON:0000065
+        target: MESH:D010612
+    -   key: negatively regulates
+        source: MESH:D000551
+        target: GO:0038060
+    -   key: positively correlated with
+        source: GO:0038060
+        target: MESH:D007249
+    -   key: increases abundance of
+        source: GO:0038060
+        target: UBERON:0016552
+    -   key: positively correlated with
+        source: UBERON:0016552
+        target: HP:0031602
+    -   key: positively correlated with
+        source: HP:0031602
+        target: HP:0033050
+    -   key: negatively regulates
+        source: MESH:D000551
+        target: Pfam:PF06512
+    -   key: positively correlated with
+        source: Pfam:PF06512
+        target: MESH:D010146
+    -   key: positively correlated with
+        source: Pfam:PF06512
+        target: MESH:D007249
+    -   key: positively correlated with
+        source: MESH:D010146
+        target: HP:0033050
+    -   key: positively correlated with
+        source: MESH:D007249
+        target: HP:0033050
+    -   key: positively correlated with
+        source: HP:0033050
+        target: MESH:D010612
+    multigraph: true
+    nodes:
+    -   id: MESH:D000551
+        label: Drug
+        name: ambroxol
+    -   id: MESH:D011663
+        label: ChemicalSubstance
+        name: Pulmonary Surfactants
+    -   id: MESH:D056809
+        label: Cell
+        name: Alveolar Epithelial Cells
+    -   id: UBERON:0000065
+        label: GrossAnatomicalStructure
+        name: respiratory tract
+    -   id: GO:0038060
+        label: BiologicalProcess
+        name: nitric oxide-cGMP-mediated signaling pathway
+    -   id: MESH:D010146
+        label: BiologicalProcess
+        name: Pain
+    -   id: UBERON:0016552
+        label: GrossAnatomicalStructure
+        name: phlegm
+    -   id: HP:0031602
+        label: PhenotypicFeature
+        name: Abnormal mucociliary clearance
+    -   id: Pfam:PF06512
+        label: GeneFamily
+        name: Sodium ion transport-associated
+    -   id: MESH:D007249
+        label: PhenotypicFeature
+        name: Inflammation
+    -   id: HP:0033050
+        label: BiologicalProcess
+        name: Pharyngalgia
+    -   id: MESH:D010612
+        label: Disease
+        name: Pharyngitis
+    reference: https://en.wikipedia.org/wiki/Ambroxol#Mechanism_of_action https://go.drugbank.com/drugs/DB06742#mechanism-of-action
+        https://pubmed.ncbi.nlm.nih.gov/28937232/ https://en.wikipedia.org/wiki/Sore_throat#Diagnosis
+-   comments: Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
+        Note that hyponatremia corresponds to the state where water content is relatively
+        large for the sodium content available (https://pubmed.ncbi.nlm.nih.gov/19322975/),
+        which is possibly due to increased water reabsorption. There are different
+        types of hyponatremia, and medications like tolvaptan should only be used
+        in those patients with high volume or normal volume hyponatremia (https://en.wikipedia.org/wiki/Hyponatremia#Medications).
+    directed: true
+    graph:
+        disease: Hyponatremia
+        disease_mesh: MESH:D007010
+        drug: tolvaptan
+        drug_mesh: MESH:C116664
+        drugbank: DB:DB06212
+    links:
+    -   key: negatively regulates
+        source: MESH:C116664
+        target: UniProt:P30518
+    -   key: participates in
+        source: UniProt:P30518
+        target: REACT:R-HSA-432040
+    -   key: positively regulates
+        source: REACT:R-HSA-432040
+        target: GO:0070295
+    -   key: positively correlated with
+        source: GO:0070295
+        target: MESH:D007010
+    multigraph: true
+    nodes:
+    -   id: MESH:C116664
+        label: Drug
+        name: tolvaptan
+    -   id: UniProt:P30518
+        label: Protein
+        name: Vasopressin V2 receptor
+    -   id: REACT:R-HSA-432040
+        label: Pathway
+        name: Vasopressin regulates renal water homeostasis via Aquaporins
+    -   id: GO:0070295
+        label: BiologicalProcess
+        name: renal water absorption
+    -   id: MESH:D007010
+        label: Disease
+        name: Hyponatremia
+    reference: https://go.drugbank.com/drugs/DB06212#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/20868352/
+        https://en.wikipedia.org/wiki/Vasopressin_receptor_antagonist
+-   comments: This disease is denoted as Syndrome of inappropriate vasopressin secretion
+        in the original file. Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
+        Note that hyponatremia corresponds to the state where water content is relatively
+        large for the sodium content available (https://pubmed.ncbi.nlm.nih.gov/19322975/),
+        which is possibly due to increased water reabsorption.
+    directed: true
+    graph:
+        disease: Inappropriate ADH Syndrome
+        disease_mesh: MESH:D007177
+        drug: tolvaptan
+        drug_mesh: MESH:C116664
+        drugbank: DB:DB06212
+    links:
+    -   key: negatively regulates
+        source: MESH:C116664
+        target: UniProt:P30518
+    -   key: participates in
+        source: UniProt:P30518
+        target: REACT:R-HSA-432040
+    -   key: positively regulates
+        source: REACT:R-HSA-432040
+        target: GO:0070295
+    -   key: positively correlated with
+        source: GO:0070295
+        target: MESH:D007177
+    multigraph: true
+    nodes:
+    -   id: MESH:C116664
+        label: Drug
+        name: tolvaptan
+    -   id: UniProt:P30518
+        label: Protein
+        name: Vasopressin V2 receptor
+    -   id: REACT:R-HSA-432040
+        label: Pathway
+        name: Vasopressin regulates renal water homeostasis via Aquaporins
+    -   id: GO:0070295
+        label: BiologicalProcess
+        name: renal water absorption
+    -   alt_names:
+        - Syndrome of Inappropriate ADH Secretion, SIADH
+        id: MESH:D007177
+        label: Disease
+        name: Inappropriate ADH Syndrome
+    reference: https://go.drugbank.com/drugs/DB06212#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/20868352/
+        https://en.wikipedia.org/wiki/Vasopressin_receptor_antagonist https://en.wikipedia.org/wiki/Syndrome_of_inappropriate_antidiuretic_hormone_secretion#Treatment
+-   comments: This disease is denoted as Polycystic kidney disease adult type in the
+        original file. Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
+        Note that hyponatremia corresponds to the state where water content is relatively
+        large for the sodium content available (https://pubmed.ncbi.nlm.nih.gov/19322975/),
+        which is possibly due to increased water reabsorption.
+    directed: true
+    graph:
+        disease: Polycystic Kidney, Autosomal Dominant
+        disease_mesh: MESH:D016891
+        drug: tolvaptan
+        drug_mesh: MESH:C116664
+        drugbank: DB:DB06212
+    links:
+    -   key: negatively regulates
+        source: MESH:C116664
+        target: UniProt:P30518
+    -   key: participates in
+        source: UniProt:P30518
+        target: REACT:R-HSA-418555
+    -   key: increases abundance of
+        source: REACT:R-HSA-418555
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: GO:0008283
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: HP:0000107
+    -   key: positively correlated with
+        source: HP:0000107
+        target: MESH:D016891
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D016891
+    multigraph: true
+    nodes:
+    -   id: MESH:C116664
+        label: Drug
+        name: tolvaptan
+    -   id: UniProt:P30518
+        label: Protein
+        name: Vasopressin V2 receptor
+    -   id: REACT:R-HSA-418555
+        label: Pathway
+        name: G alpha (s) signalling events
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3,5-cyclic AMP
+    -   id: HP:0000107
+        label: PhenotypicFeature
+        name: Renal cyst
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D016891
+        label: Disease
+        name: Polycystic Kidney, Autosomal Dominant
+    reference: https://go.drugbank.com/drugs/DB06212#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/20868352/
+        https://en.wikipedia.org/wiki/Autosomal_dominant_polycystic_kidney_disease#Aquaretic_medication
+        https://en.wikipedia.org/wiki/Vasopressin_receptor_antagonist#Polycystic_kidney_disease
+-   directed: true
+    graph:
+        disease: Actinic keratosis
+        disease_mesh: MESH:D055623
+        drug: Aminolevulinic acid
+        drug_mesh: MESH:D000622
+        drugbank: DB:DB00855
+    links:
+    -   key: subclass of
+        source: MESH:D000622
+        target: MESH:D017319
+    -   key: positively correlated with
+        source: MESH:D017319
+        target: MESH:D005609
+    -   key: disrupts
+        source: MESH:D005609
+        target: HP:0011355
+    -   key: positively correlated with
+        source: HP:0011355
+        target: MESH:D055623
+    multigraph: true
+    nodes:
+    -   id: MESH:D000622
+        label: Drug
+        name: Aminolevulinic acid
+    -   id: MESH:D017319
+        label: ChemicalSubstance
+        name: Photosensitizing Agents
+    -   id: MESH:D005609
+        label: ChemicalSubstance
+        name: Free Radicals
+    -   id: HP:0011355
+        label: PhenotypicFeature
+        name: Localized skin lesion
+    -   id: MESH:D055623
+        label: Disease
+        name: Actinic keratosis
+    reference: https://en.wikipedia.org/wiki/Aminolevulinic_acid#Medical_uses https://en.wikipedia.org/wiki/Actinic_keratosis#Procedures
+        https://en.wikipedia.org/wiki/Photodynamic_therapy#Photosensitizers
+-   comments: In Parkinson's disease, there is imbalance between levels of acetylcholine
+        and dopamine, where increased levels of acetylcholine and degeneration of
+        dopaminergic pathways are observed. Therefore, muscarinic antagonists such
+        as biperiden block central cholinergic activity and balancing out neurotransmitters
+        in the brain (https://en.wikipedia.org/wiki/Muscarinic_antagonist#Effects).
+        Anticholinergic drugs may also be prescribed to improve bladder dysfunction
+        (https://pubmed.ncbi.nlm.nih.gov/20370804/).
+    directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: biperiden
+        drug_mesh: MESH:D001712
+        drugbank: DB:DB00855
+    links:
+    -   key: negatively regulates
+        source: MESH:D001712
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C036432
+        id: MESH:D001712
+        label: Drug
+        name: biperiden
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: synaptic transmission, cholinergic
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference: https://go.drugbank.com/drugs/DB00810#mechanism-of-action
+-   comments: The disease is denoted as Postencephalitic parkinsonism in the original
+        file. This disease is believed to be caused by a viral infection, leading
+        to clinical parkinsonism (https://en.wikipedia.org/wiki/Postencephalitic_parkinsonism)
+        and anti-Parkinson drugs may be helpful in treating the symptoms (https://en.wikipedia.org/wiki/Encephalitis_lethargica).
+        For example, muscarinic antagonists can allow dopamine levels to rebalance,
+        which can help relieve some Parkinsonian symptoms e.g. involuntary movements.
+        Anticholinergic drugs may also be prescribed to improve bladder dysfunction
+        (https://pubmed.ncbi.nlm.nih.gov/20370804/).
+    directed: true
+    graph:
+        disease: Parkinson Disease, Postencephalitic
+        disease_mesh: MESH:D010301
+        drug: biperiden
+        drug_mesh: MESH:D001712
+        drugbank: DB:DB00855
+    links:
+    -   key: negatively regulates
+        source: MESH:D001712
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
+        target: HP:0001300
+    -   key: manifestation of
+        source: HP:0001300
+        target: MESH:D010301
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C036432
+        id: MESH:D001712
+        label: Drug
+        name: biperiden
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: synaptic transmission, cholinergic
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
+    -   id: HP:0001300
+        label: PhenotypicFeature
+        name: Parkinsonism
+    -   id: MESH:D010301
+        label: Disease
+        name: Parkinson Disease, Postencephalitic
+    reference: https://go.drugbank.com/drugs/DB00810#mechanism-of-action
+-   comments: The disease is denoted as Parkinsonism in the original file. Muscarinic
+        antagonists can allow dopamine levels to rebalance, which can help relieve
+        some Parkinsonian symptoms e.g. involuntary movements. Anticholinergic drugs
+        may also be prescribed to improve bladder dysfunction (https://pubmed.ncbi.nlm.nih.gov/20370804/).
+    directed: true
+    graph:
+        disease: Parkinsonian Disorders
+        disease_mesh: MESH:D020734
+        drug: biperiden
+        drug_mesh: MESH:D001712
+        drugbank: DB:DB00855
+    links:
+    -   key: negatively regulates
+        source: MESH:D001712
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
+        target: MESH:D020734
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C036432
+        id: MESH:D001712
+        label: Drug
+        name: biperiden
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: synaptic transmission, cholinergic
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
+    -   id: MESH:D020734
+        label: Disease
+        name: Parkinsonian Disorders
+    reference: https://go.drugbank.com/drugs/DB00810#mechanism-of-action https://en.wikipedia.org/wiki/Muscarinic_antagonist#Effects
+-   comments: The disease is denoted as Extrapyramidal disease in the original file.
+    directed: true
+    graph:
+        disease: Basal Ganglia Diseases
+        disease_mesh: MESH:D001480
+        drug: biperiden
+        drug_mesh: MESH:D001712
+        drugbank: DB:DB00855
+    links:
+    -   key: negatively regulates
+        source: MESH:D001712
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0002071
+    -   key: manifestation of
+        source: HP:0002071
+        target: MESH:D001480
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C036432
+        id: MESH:D001712
+        label: Drug
+        name: biperiden
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: synaptic transmission, cholinergic
+    -   id: HP:0002071
+        label: PhenotypicFeature
+        name: Abnormality of extrapyramidal motor function
+    -   id: MESH:D001480
+        label: Disease
+        name: Basal Ganglia Diseases
+    reference: https://go.drugbank.com/drugs/DB00810#mechanism-of-action https://en.wikipedia.org/wiki/Muscarinic_antagonist#Effects
+        https://en.wikipedia.org/wiki/Extrapyramidal_symptoms#Treatment
