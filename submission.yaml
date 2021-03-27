@@ -1,1 +1,1806 @@
+-   directed: true
+    comment: Trilostane was withdrawn from the United States market in April 1994 | MESH:D000308 refers to higher term Adrenocortical Hyperfunction that includes Hypercortisolism
+    graph:
+        drug: Trilostane
+        drugbank: DB:DB01108
+        drug_mesh: MESH:C009954
+        disease: Hypercortisolism
+        disease_mesh: MESH:D000308
+    links:
+    -   key: decreases activity of
+        source: MESH:C009954
+        target: InterPro:IPR002225
+    -   key: negatively regulates
+        source: InterPro:IPR002225
+        target: REACT:R-HSA-196071
+    -   key: decreases abundance of
+        source: REACT:R-HSA-196071
+        target: MESH:D013256
+    -   key: negatively regulates
+        source: InterPro:IPR002225
+        target: REACT:R-HSA-193993
+    -   key: decreases abundance of
+        source: REACT:R-HSA-193993
+        target: MESH:D013256
+    -   key: negatively regulates
+        source: InterPro:IPR002225
+        target: REACT:R-HSA-194002
+    -   key: decreases abundance of
+        source: REACT:R-HSA-194002
+        target: MESH:D013256
+    -   key: manifestation of
+        source: MESH:D013256
+        target: MESH:D000308
+    multigraph: true
+    nodes:
+    -   id: MESH:C009954
+        label: Drug
+        name: Trilostane
+    -   id: InterPro:IPR002225
+        label: GeneFamily
+        name: 3-beta-hydroxysteroid dehydrogenase/delta 5,4 ketosteroid isomerase
+    -   id: REACT:R-HSA-196071
+        label: Pathway
+        name: Metabolism of steroid hormones
+    -   id: REACT:R-HSA-193993
+        label: Pathway
+        name: Mineralocorticoid biosynthesis
+    -   id: REACT:R-HSA-194002
+        label: Pathway
+        name: Glucocorticoid biosynthesis
+    -   id: MESH:D013256
+        label: ChemicalSubstance
+        name: Steroids
+    -   id: MESH:D000308
+        label: Disease
+        name: Hypercortisolism
+    reference: https://go.drugbank.com/drugs/DB01108#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Trilostane
+-   directed: true
+    graph:
+        drug: Calcium Phosphate
+        drugbank: DB:DB11348
+        drug_mesh: MESH:C020243
+        disease: Osteoporosis
+        disease_mesh: MESH:D010024
+    links:
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D002118
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D010710
+    -   key: increases activity of
+        source: MESH:D002118
+        target: InterPro:IPR000276
+    -   key: decreases secretion of
+        source: InterPro:IPR000276
+        target: UniProt:P01270
+    -   key: decreases abundance of
+        source: UniProt:P01270
+        target: MESH:D002112       
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: InterPro:IPR008250
+    -   key: negatively regulates
+        source: InterPro:IPR008250
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: UBERON:0000945
+    -   key: negatively regulates
+        source: UBERON:0000945
+        target: GO:0045453
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: UniProt:Q9H1D0
+    -   key: negatively regulates
+        source: UniProt:Q9H1D0
+        target: GO:0006816
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: UniProt:Q9NQA5
+    -   key: negatively regulates
+        source: UniProt:Q9NQA5
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: UBERON:0002113
+    -   key: negatively regulates
+        source: UBERON:0002113
+        target: GO:0045453
+    -   key: positively regulates
+        source: UniProt:P01270
+        target: UniProt:P06881
+    -   key: negatively regulates
+        source: UniProt:P06881
+        target: GO:0045453
+    -   key: negatively regulates
+        source: UniProt:P01270
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: CL:0000137
+    -   key: negatively regulates
+        source: CL:0000137
+        target: GO:0045453
+    -   key: positively regulates
+        source: GO:0045453
+        target: GO:0055074
+    -   key: positively regulates
+        source: MESH:D010710
+        target: GO:0055074
+    -   key: manifestation of
+        source: GO:0055074
+        target: MESH:D010024
+    multigraph: true
+    nodes:
+    -   id: MESH:C020243
+        label: Drug
+        name: Calcium Phosphate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: InterPro:IPR000276
+        label: GeneFamily
+        name: G protein-coupled receptor
+    -   id: UniProt:P01270
+        label: Protein
+        name: Parathyroid hormone
+    -   id: GO:0006816
+        label: BiologicalProcess
+        name: Calcium ion transport
+    -   id: MESH:D010710
+        label: ChemicalSubstance
+        name: Phosphate
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcidiol
+    -   id: InterPro:IPR008250
+        label: GeneFamily
+        name: Calcium dependent ATPases
+    -   id: UBERON:0000945
+        label: GrossAnatomicalStructure
+        name: Gut
+    -   id: UniProt:Q9H1D0
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 6 (TRPV6)   
+    -   id: UniProt:Q9NQA5
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 5 (TRPV5) 
+    -   id: UBERON:0002113
+        label: GrossAnatomicalStructure
+        name: Kidney
+    -   id: UniProt:P06881
+        label: Protein
+        name: Calcitonin      
+    -   id: CL:0000137
+        label: Cell
+        name: Osteocyte
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone resorption
+    -   id: GO:0055074
+        label: BiologicalProcess
+        name: Calcium ion homeostasis
+    -   id: MESH:D010024
+        label: Disease
+        name: Osteoporosis
+    reference: https://go.drugbank.com/drugs/DB11348#mechanismofaction
+-   directed: true
+    graph:
+        drug: Calcium Phosphate
+        drugbank: DB:DB11348
+        drug_mesh: MESH:C020243
+        disease: Hypocalcemia
+        disease_mesh: MESH:D006996
+    links:
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D002118
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D010710
+    -   key: increases activity of
+        source: MESH:D002118
+        target: InterPro:IPR000276
+    -   key: decreases secretion of
+        source: InterPro:IPR000276
+        target: UniProt:P01270
+    -   key: decreases abundance of
+        source: UniProt:P01270
+        target: MESH:D002112       
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: InterPro:IPR008250
+    -   key: negatively regulates
+        source: InterPro:IPR008250
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: UBERON:0000945
+    -   key: negatively regulates
+        source: UBERON:0000945
+        target: GO:0045453
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: UniProt:Q9H1D0
+    -   key: negatively regulates
+        source: UniProt:Q9H1D0
+        target: GO:0006816
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: UniProt:Q9NQA5
+    -   key: negatively regulates
+        source: UniProt:Q9NQA5
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: UBERON:0002113
+    -   key: negatively regulates
+        source: UBERON:0002113
+        target: GO:0045453
+    -   key: positively regulates
+        source: UniProt:P01270
+        target: UniProt:P06881
+    -   key: negatively regulates
+        source: UniProt:P06881
+        target: GO:0045453
+    -   key: negatively regulates
+        source: UniProt:P01270
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: CL:0000137
+    -   key: negatively regulates
+        source: CL:0000137
+        target: GO:0045453
+    -   key: positively regulates
+        source: GO:0045453
+        target: GO:0055074
+    -   key: positively regulates
+        source: MESH:D010710
+        target: GO:0055074
+    -   key: manifestation of
+        source: GO:0055074
+        target: MESH:D006996
+    multigraph: true
+    nodes:
+    -   id: MESH:C020243
+        label: Drug
+        name: Calcium Phosphate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: InterPro:IPR000276
+        label: GeneFamily
+        name: G protein-coupled receptor
+    -   id: UniProt:P01270
+        label: Protein
+        name: Parathyroid hormone
+    -   id: GO:0006816
+        label: BiologicalProcess
+        name: Calcium ion transport
+    -   id: MESH:D010710
+        label: ChemicalSubstance
+        name: Phosphate
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcidiol
+    -   id: InterPro:IPR008250
+        label: GeneFamily
+        name: Calcium dependent ATPases
+    -   id: UBERON:0000945
+        label: GrossAnatomicalStructure
+        name: Gut
+    -   id: UniProt:Q9H1D0
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 6 (TRPV6)   
+    -   id: UniProt:Q9NQA5
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 5 (TRPV5) 
+    -   id: UBERON:0002113
+        label: GrossAnatomicalStructure
+        name: Kidney
+    -   id: UniProt:P06881
+        label: Protein
+        name: Calcitonin      
+    -   id: CL:0000137
+        label: Cell
+        name: Osteocyte
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone resorption
+    -   id: GO:0055074
+        label: BiologicalProcess
+        name: Calcium ion homeostasis
+    -   id: MESH:D006996
+        label: Disease
+        name: Hypocalcemia
+    reference: https://go.drugbank.com/drugs/DB11348#mechanismofaction
+-   directed: true
+    graph:
+        drug: Calcium Phosphate
+        drugbank: DB:DB11348
+        drug_mesh: MESH:C020243
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+    links:
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D002118
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D010710
+    -   key: increases activity of
+        source: MESH:D002118
+        target: InterPro:IPR000276
+    -   key: decreases secretion of
+        source: InterPro:IPR000276
+        target: UniProt:P01270
+    -   key: decreases abundance of
+        source: UniProt:P01270
+        target: MESH:D002112       
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: InterPro:IPR008250
+    -   key: negatively regulates
+        source: InterPro:IPR008250
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: UBERON:0000945
+    -   key: negatively regulates
+        source: UBERON:0000945
+        target: GO:0045453
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: UniProt:Q9H1D0
+    -   key: negatively regulates
+        source: UniProt:Q9H1D0
+        target: GO:0006816
+    -   key: decreases expression of
+        source: MESH:D002112
+        target: UniProt:Q9NQA5
+    -   key: negatively regulates
+        source: UniProt:Q9NQA5
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: UBERON:0002113
+    -   key: negatively regulates
+        source: UBERON:0002113
+        target: GO:0045453
+    -   key: positively regulates
+        source: UniProt:P01270
+        target: UniProt:P06881
+    -   key: negatively regulates
+        source: UniProt:P06881
+        target: GO:0045453
+    -   key: negatively regulates
+        source: UniProt:P01270
+        target: GO:0006816
+    -   key: located in
+        source: GO:0006816
+        target: CL:0000137
+    -   key: negatively regulates
+        source: CL:0000137
+        target: GO:0045453
+    -   key: positively regulates
+        source: GO:0045453
+        target: GO:0055074
+    -   key: positively regulates
+        source: MESH:D010710
+        target: GO:0055074
+    -   key: manifestation of
+        source: GO:0055074
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:C020243
+        label: Drug
+        name: Calcium Phosphate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: InterPro:IPR000276
+        label: GeneFamily
+        name: G protein-coupled receptor
+    -   id: UniProt:P01270
+        label: Protein
+        name: Parathyroid hormone
+    -   id: GO:0006816
+        label: BiologicalProcess
+        name: Calcium ion transport
+    -   id: MESH:D010710
+        label: ChemicalSubstance
+        name: Phosphate
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcidiol
+    -   id: InterPro:IPR008250
+        label: GeneFamily
+        name: Calcium dependent ATPases
+    -   id: UBERON:0000945
+        label: GrossAnatomicalStructure
+        name: Gut
+    -   id: UniProt:Q9H1D0
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 6 (TRPV6)   
+    -   id: UniProt:Q9NQA5
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 5 (TRPV5) 
+    -   id: UBERON:0002113
+        label: GrossAnatomicalStructure
+        name: Kidney
+    -   id: UniProt:P06881
+        label: Protein
+        name: Calcitonin      
+    -   id: CL:0000137
+        label: Cell
+        name: Osteocyte
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone resorption
+    -   id: GO:0055074
+        label: BiologicalProcess
+        name: Calcium ion homeostasis
+    -   id: MESH:D015663
+        label: Disease
+        name: Postmenopausal osteoporosis
+    reference: https://go.drugbank.com/drugs/DB11348#mechanismofaction
+-   directed: true
+    comment: Trientine is the salt form of Triethylenetetramine (DB06824)
+    graph:
+        drug: Trientine
+        drugbank: DB:DB06824
+        drug_mesh: MESH:D014266
+        disease: Wilson's disease
+        disease_mesh: MESH:D006527
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D014266
+        target: MESH:D003300
+    -   key: positively regulates
+        source: MESH:D003300
+        target: GO:0055070
+    -   key: manifestation of
+        source: GO:0055070
+        target: MESH:D006527
+    multigraph: true
+    nodes:
+    -   id: MESH:D014266
+        label: Drug
+        name: Trientine
+    -   id: MESH:D003300
+        label: ChemicalSubstance
+        name: Copper
+    -   id: GO:0055070
+        label: BiologicalProcess
+        name: Copper ion homeostasis
+    -   id: MESH:D006527
+        label: Disease
+        name: Wilson's disease
+    reference: https://go.drugbank.com/drugs/DB06824#mechanismofaction DOI:10.1158/1535-7163.MCT-10-0523 https://pubchem.ncbi.nlm.nih.gov/compound/Trientine-hydrochloride#section=Pharmacology-and-Biochemistry
+-   directed: true
+    comment: Trientine is the salt form of Triethylenetetramine (DB06824)
+    graph:
+        drug: Trientine
+        drugbank: DB:DB06824
+        drug_mesh: MESH:D014266
+        disease: Renal cell carcinoma
+        disease_mesh: MESH:D002292
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D014266
+        target: MESH:D054856
+    -   key: decreases activity of
+        source: MESH:D054856
+        target: InterPro:IPR003545
+    -   key: negatively regulates
+        source: InterPro:IPR003545
+        target: GO:0016049
+    -   key: located in
+        source: GO:0016049
+        target: CL:0001063 
+    -   key: causes
+        source: CL:0001063 
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:D014266
+        label: Drug
+        name: Trientine
+    -   id: MESH:D054856
+        label: ChemicalSubstance
+        name: G-quadruplex
+    -   id: InterPro:IPR003545
+        label: GeneFamily
+        name: Telomerase
+    -   id: GO:0016049
+        label: BiologicalProcess
+        name: Cell growth
+    -   id: CL:0001063 
+        label: Cell
+        name: Tumor cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Renal cell carcinoma
+    reference: https://go.drugbank.com/drugs/DB06824#mechanismofaction DOI:10.1158/1535-7163.MCT-10-0523 https://pubchem.ncbi.nlm.nih.gov/compound/Trientine-hydrochloride#section=Pharmacology-and-Biochemistry
+-   directed: true
+    comment: Trientine is the salt form of Triethylenetetramine (DB06824)
+    graph:
+        drug: Trientine
+        drugbank: DB:DB06824
+        drug_mesh: MESH:D014266
+        disease: Renal cell carcinoma
+        disease_mesh: MESH:D002292
+    links:
+    -   key: molecularly interacts with
+        source: MESH:D014266
+        target: MESH:D003300
+    -   key: decreases activity of
+        source: MESH:D003300
+        target: InterPro:IPR000072
+    -   key: negatively regulates
+        source: InterPro:IPR000072
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:D003300
+        target: UniProt:P05230
+    -   key: negatively regulates
+        source: UniProt:P05230
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:D003300
+        target: InterPro:IPR000975
+    -   key: negatively regulates
+        source: InterPro:IPR000975
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:D003300
+        target: InterPro:PR003573
+    -   key: negatively regulates
+        source: InterPro:PR003573
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:D003300
+        target: UniProt:P10145
+    -   key: negatively regulates
+        source: UniProt:P10145
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:D003300
+        target: UniProt:P19838
+    -   key: negatively regulates
+        source: UniProt:P19838
+        target: GO:0001525
+    -   key: decreases activity of
+        source: MESH:D003300
+        target: UniProt:P00441
+    -   key: negatively regulates
+        source: UniProt:P00441
+        target: GO:0001525
+    -   key: located in
+        source: GO:0001525
+        target: CL:0001063 
+    -   key: causes
+        source: CL:0001063 
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:D014266
+        label: Drug
+        name: Trientine
+    -   id: MESH:D003300
+        label: ChemicalSubstance
+        name: Copper
+    -   id: InterPro:IPR000072
+        label: GeneFamily
+        name: Vascular endothelial growth factor-1
+    -   id: UniProt:P00441
+        label: Protein
+        name: Superoxide dismutase 1
+    -   id: UniProt:P19838
+        label: Protein
+        name: Nuclear factor kappa-light-chain-enhancer of activated B cells
+    -   id: UniProt:P10145
+        label: Protein
+        name: Interleukin 8
+    -   id: InterPro:PR003573
+        label: GeneFamily
+        name: Interleukin 6
+    -   id: InterPro:IPR000975
+        label: GeneFamily
+        name: Interleukin 1
+    -   id: UniProt:P05230
+        label: Protein
+        name: Fibroblast growth factor-1
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: Angiogenesis
+    -   id: CL:0001063 
+        label: Cell
+        name: Tumor cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Renal cell carcinoma
+    reference: https://go.drugbank.com/drugs/DB06824#mechanismofaction DOI:10.1158/1535-7163.MCT-10-0523 https://pubchem.ncbi.nlm.nih.gov/compound/Trientine-hydrochloride#section=Pharmacology-and-Biochemistry
+-   directed: true
+    comment: Trientine is the salt form of Triethylenetetramine (DB06824)
+    graph:
+        drug: Trientine
+        drugbank: DB:DB06824
+        drug_mesh: MESH:D014266
+        disease: Renal cell carcinoma
+        disease_mesh: MESH:D002292
+    links:
+    -   key: negatively regulates
+        source: MESH:D014266
+        target: REACT:R-HSA-6802957
+    -   key: causes
+        source: REACT:R-HSA-6802957
+        target: GO:0012501
+    -   key: molecularly interacts with
+        source: MESH:D014266
+        target: MESH:D003300
+    -   key: increases abundance of
+        source: MESH:D003300
+        target: MESH:D000975
+    -   key: causes
+        source: MESH:D000975
+        target: GO:0012501       
+    -   key: located in
+        source: GO:0012501
+        target: CL:0001063 
+    -   key: causes
+        source: CL:0001063 
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:D014266
+        label: Drug
+        name: Trientine
+    -   id: REACT:R-HSA-6802957
+        label: Pathway
+        name: Oncogenic MAPK signaling
+    -   id: MESH:D003300
+        label: ChemicalSubstance
+        name: Copper
+    -   id: MESH:D000975
+        label: ChemicalSubstance
+        name: Antioxidants
+    -   id: GO:0012501
+        label: BiologicalProcess
+        name: Apoptosis
+    -   id: CL:0001063 
+        label: Cell
+        name: Tumor cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Renal cell carcinoma
+    reference: https://go.drugbank.com/drugs/DB06824#mechanismofaction DOI:10.1158/1535-7163.MCT-10-0523 https://pubchem.ncbi.nlm.nih.gov/compound/Trientine-hydrochloride#section=Pharmacology-and-Biochemistry
+-   directed: true
+    comment: Sulfamethoxazole is given in combination with trimethoprim
+    graph:
+        drug: Sulfamethoxazole
+        drugbank: DB:DB01015
+        drug_mesh: MESH:D013420
+        disease: Nocardiosis
+        disease_mesh: MESH:D009617
+    links:
+    -   key: decreases activity of
+        source: MESH:D013420
+        target: UniProt:U5EHR3
+    -   key: decreases abundance of
+        source: UniProt:U5EHR3
+        target: MESH:D005492
+    -   key: prevents
+        source: MESH:D005492
+        target: GO:0071897
+    -   key: in taxon
+        source: GO:0071897
+        target: NCBITaxon:1824
+    -   key: causes
+        source: NCBITaxon:1824
+        target: MESH:D009617
+    multigraph: true
+    nodes:
+    -   id: MESH:D013420
+        label: Drug
+        name: Sulfamethoxazole
+    -   id: UniProt:U5EHR3
+        label: Protein
+        name: Dihydropteroate synthase
+    -   id: MESH:D005492
+        label: ChemicalSubstance
+        name: Folic acid
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA synthesis
+    -   id: NCBITaxon:1824
+        label: OrganismTaxon
+        name: Nocardia asteroides 
+    -   id: MESH:D009617
+        label: Disease
+        name: Nocardiosis
+    reference: https://go.drugbank.com/drugs/DB01015#mechanismofaction https://en.wikipedia.org/wiki/Sulfamethoxazole
+-   directed: true
+    comment: Sulfamethoxazole is given in combination with trimethoprim
+    graph:
+        drug: Sulfamethoxazole
+        drugbank: DB:DB01015
+        drug_mesh: MESH:D013420
+        disease: Shigellosis
+        disease_mesh: MESH:D004405
+    links:
+    -   key: decreases activity of
+        source: MESH:D013420
+        target: UniProt:A0A3C0GZY2
+    -   key: decreases abundance of
+        source: UniProt:A0A3C0GZY2
+        target: MESH:D005492
+    -   key: prevents
+        source: MESH:D005492
+        target: GO:0071897
+    -   key: in taxon
+        source: GO:0071897
+        target: NCBITaxon:543
+    -   key: causes
+        source: NCBITaxon:543
+        target: MESH:D004405
+    multigraph: true
+    nodes:
+    -   id: MESH:D013420
+        label: Drug
+        name: Sulfamethoxazole
+    -   id: UniProt:A0A3C0GZY2
+        label: Protein
+        name: Dihydropteroate synthase
+    -   id: MESH:D005492
+        label: ChemicalSubstance
+        name: Folic acid
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA synthesis
+    -   id: NCBITaxon:543
+        label: OrganismTaxon
+        name: Enterobacteriaceae
+    -   id: MESH:D004405
+        label: Disease
+        name: Shigellosis
+    reference: https://go.drugbank.com/drugs/DB01015#mechanismofaction https://en.wikipedia.org/wiki/Sulfamethoxazole
+-   directed: true
+    comment: Sulfamethoxazole is given in combination with trimethoprim
+    graph:
+        drug: Sulfamethoxazole
+        drugbank: DB:DB01015
+        drug_mesh: MESH:D013420
+        disease: Toxoplasmosis
+        disease_mesh: MESH:D014123
+    links:
+    -   key: decreases activity of
+        source: MESH:D013420
+        target: UniProt:Q4U207
+    -   key: decreases abundance of
+        source: UniProt:Q4U207
+        target: MESH:D005492
+    -   key: prevents
+        source: MESH:D005492
+        target: GO:0071897
+    -   key: in taxon
+        source: GO:0071897
+        target: NCBITaxon:5811
+    -   key: causes
+        source: NCBITaxon:5811
+        target: MESH:D014123
+    multigraph: true
+    nodes:
+    -   id: MESH:D013420
+        label: Drug
+        name: Sulfamethoxazole
+    -   id: UniProt:Q4U207
+        label: Protein
+        name: Dihydropteroate synthase
+    -   id: MESH:D005492
+        label: ChemicalSubstance
+        name: Folic acid
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA synthesis
+    -   id: NCBITaxon:5811
+        label: OrganismTaxon
+        name: Toxoplasma gondii
+    -   id: MESH:D014123
+        label: Disease
+        name: Toxoplasmosis
+    reference: https://go.drugbank.com/drugs/DB01015#mechanismofaction https://en.wikipedia.org/wiki/Sulfamethoxazole
+-   directed: true
+    comment: Sulfamethoxazole is given in combination with trimethoprim
+    graph:
+        drug: Sulfamethoxazole
+        drugbank: DB:DB01015
+        drug_mesh: MESH:D013420
+        disease: Chlamydial conjunctivitis
+        disease_mesh: MESH:D003235
+    links:
+    -   key: decreases activity of
+        source: MESH:D013420
+        target: UniProt:A0A655MZZ2
+    -   key: decreases abundance of
+        source: UniProt:A0A655MZZ2
+        target: MESH:D005492
+    -   key: prevents
+        source: MESH:D005492
+        target: GO:0071897
+    -   key: in taxon
+        source: GO:0071897
+        target: NCBITaxon:813
+    -   key: causes
+        source: NCBITaxon:813
+        target: MESH:D003235
+    multigraph: true
+    nodes:
+    -   id: MESH:D013420
+        label: Drug
+        name: Sulfamethoxazole
+    -   id: UniProt:A0A655MZZ2
+        label: Protein
+        name: Dihydropteroate synthase
+    -   id: MESH:D005492
+        label: ChemicalSubstance
+        name: Folic acid
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA synthesis
+    -   id: NCBITaxon:813
+        label: OrganismTaxon
+        name: Chlamydia trachomatis
+    -   id: MESH:D003235
+        label: Disease
+        name: Chlamydial conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB01015#mechanismofaction https://en.wikipedia.org/wiki/Sulfamethoxazole
+-   directed: true
+    graph:
+        drug: Penciclovir
+        drugbank: DB:DB00299
+        drug_mesh: MESH:C053539
+        disease: Herpes labialis
+        disease_mesh: MESH:D006560
+    links:
+    -   key: increases abundance of
+        source: MESH:C053539
+        target: MESH:C092310
+    -   key: decreases molecular interaction
+        source: MESH:C092310
+        target: MESH:C029603
+    -   key: decreases activity of
+        source: MESH:C029603
+        target: UniProt:Q99FY1
+    -   key: prevents
+        source: UniProt:Q99FY1
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:10292
+    -   key: causes
+        source: NCBITaxon:10292
+        target: MESH:D006560
+    multigraph: true
+    nodes:
+    -   id: MESH:C053539
+        label: Drug
+        name: Penciclovir
+    -   id: MESH:C092310
+        label: ChemicalSubstance
+        name: Penciclovir triphosphate
+    -   id: MESH:C029603
+        label: ChemicalSubstance
+        name: Deoxyguanosine triphosphate 
+    -   id: UniProt:Q99FY1
+        label: Protein
+        name: Viral DNA polymerase
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral replication
+    -   id: NCBITaxon:10292
+        label: OrganismTaxon
+        name: Herpesviridae
+    -   id: MESH:D006560
+        label: Disease
+        name: Herpes labialis
+    reference: https://go.drugbank.com/drugs/DB00299#mechanismofaction
+-   directed: true
+    graph:
+        drug: Axitinib
+        drugbank: DB:DB06626
+        drug_mesh: NULL
+        disease: Renal cell carcinoma
+        disease_mesh: MESH:D002292
+    links:
+    -   key: decreases activity of
+        source: DB:DB06626
+        target: UniProt:P17948
+    -   key: negatively regulates
+        source: UniProt:P17948
+        target: GO:0001525
+    -   key: decreases activity of
+        source: DB:DB06626
+        target: UniProt:P35968
+    -   key: negatively regulates
+        source: UniProt:P35968
+        target: GO:0001525
+    -   key: decreases activity of
+        source: DB:DB06626
+        target: UniProt:P35916
+    -   key: negatively regulates
+        source: UniProt:P35916
+        target: GO:0001525
+    -   key: decreases activity of
+        source: DB:DB06626
+        target: InterPro:IPR006782
+    -   key: negatively regulates
+        source: InterPro:IPR006782
+        target: GO:0001525
+    -   key: decreases activity of
+        source: DB:DB06626
+        target: UniProt:P10721
+    -   key: negatively regulates
+        source: UniProt:P10721
+        target: GO:0001525
+    -   key: located in
+        source: GO:0001525
+        target: CL:0001063 
+    -   key: causes
+        source: CL:0001063 
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: DB:DB06626
+        label: Drug
+        name: Axitinib
+    -   id: UniProt:P17948
+        label: Protein
+        name: Vascular endothelial growth factor receptor 1
+    -   id: UniProt:P35968
+        label: Protein
+        name: Vascular endothelial growth factor receptor 2
+    -   id: UniProt:P35916
+        label: Protein
+        name: Vascular endothelial growth factor receptor 3
+    -   id: InterPro:IPR006782
+        label: GeneFamily
+        name: Platelet-derived growth factor receptor
+    -   id: UniProt:P10721
+        label: Protein
+        name: c-Kit
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: Angiogenesis
+    -   id: CL:0001063 
+        label: Cell
+        name: Tumor cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Renal cell carcinoma
+    reference: https://go.drugbank.com/drugs/DB06626#mechanismofaction https://en.wikipedia.org/wiki/Axitinib
+-   directed: true
+    graph:
+        drug: Azelaic acid
+        drugbank: DB:DB00548
+        drug_mesh: MESH:C010038
+        disease: Rosacea
+        disease_mesh: MESH:D012393
+    links:
+    -   key: increases degradation of
+        source: MESH:C010038
+        target: MESH:D017382
+    -   key: negatively regulates
+        source: MESH:D017382
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D012393
+    multigraph: true
+    nodes:
+    -   id: MESH:C010038
+        label: Drug
+        name: Azelaic acid
+    -   id: MESH:D017382
+        label: ChemicalSubstance
+        name: Free oxygen radical
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D012393
+        label: Disease
+        name: Rosacea
+    reference: https://go.drugbank.com/drugs/DB00548#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Azelaic-acid https://en.wikipedia.org/wiki/Azelaic_acid
+-   directed: true
+    graph:
+        drug: Azelaic acid
+        drugbank: DB:DB00548
+        drug_mesh: MESH:C010038
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+    links:
+    -   key: decreases activity of
+        source: MESH:C010038
+        target: UBERON:0001821
+    -   key: prevents
+        source: UBERON:0001821
+        target: GO:0006096
+    -   key: negatively regulates
+        source: GO:0006096
+        target: GO:0016049
+    -   key: in taxon
+        source: GO:0016049
+        target: NCBITaxon:1747
+    -   key: causes
+        source: NCBITaxon:1747
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:C010038
+        label: Drug
+        name: Azelaic acid
+    -   id: UBERON:0001821
+        label: GrossAnatomicalStructure
+        name: Sebaceous Gland
+    -   id: GO:0006096
+        label: BiologicalProcess
+        name: Glycolytic process
+    -   id: GO:0016049
+        label: BiologicalProcess
+        name: Cell growth
+    -   id: NCBITaxon:1747
+        label: OrganismTaxon
+        name: Propionibacterium acnes
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: https://go.drugbank.com/drugs/DB00548#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Azelaic-acid https://en.wikipedia.org/wiki/Azelaic_acid
+-   directed: true
+    graph:
+        drug: Azelaic acid
+        drugbank: DB:DB00548
+        drug_mesh: MESH:C010038
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+    links:
+    -   key: decreases activity of
+        source: MESH:C010038
+        target: UBERON:0001821
+    -   key: decreases activity of
+        source: UBERON:0001821
+        target: UniProt:A0A7C6MFF9
+    -   key: negatively regulates
+        source: UniProt:A0A7C6MFF9
+        target: GO:0016049
+    -   key: decreases activity of
+        source: UBERON:0001821
+        target: UniProt:D4HBV0
+    -   key: negatively regulates
+        source: UniProt:D4HBV0
+        target: GO:0016049
+    -   key: decreases activity of
+        source: UBERON:0001821
+        target: UniProt:D4HCU8
+    -   key: negatively regulates
+        source: UniProt:D4HCU8
+        target: GO:0016049
+    -   key: in taxon
+        source: GO:0016049
+        target: NCBITaxon:1282
+    -   key: causes
+        source: NCBITaxon:1282
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:C010038
+        label: Drug
+        name: Azelaic acid
+    -   id: UBERON:0001821
+        label: GrossAnatomicalStructure
+        name: Sebaceous Gland
+    -   id: UniProt:A0A7C6MFF9
+        label: Protein
+        name: Tyrosinase
+    -   id: UniProt:D4HCU8
+        label: Protein
+        name: DNA polymerase
+    -   id: UniProt:D4HBV0 
+        label: Protein
+        name: Thioredoxin reductase        
+    -   id: GO:0016049
+        label: BiologicalProcess
+        name: Cell growth
+    -   id: NCBITaxon:1282
+        label: OrganismTaxon
+        name: Staphylococcus epidermidis
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: https://go.drugbank.com/drugs/DB00548#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Azelaic-acid https://en.wikipedia.org/wiki/Azelaic_acid
+-   directed: true
+    graph:
+        drug: Azelaic acid
+        drugbank: DB:DB00548
+        drug_mesh: MESH:C010038
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+    links:
+    -   key: increases degradation of
+        source: MESH:C010038
+        target: MESH:D017382
+    -   key: negatively regulates
+        source: MESH:D017382
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:C010038
+        label: Drug
+        name: Azelaic acid
+    -   id: MESH:D017382
+        label: ChemicalSubstance
+        name: Free oxygen radical
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: https://go.drugbank.com/drugs/DB00548#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Azelaic-acid https://en.wikipedia.org/wiki/Azelaic_acid
+-   directed: true
+    graph:
+        drug: Ceftibuten
+        drugbank: DB:DB01415
+        drug_mesh: NULL
+        disease: Tonsillitis
+        disease_mesh: MESH:D014069
+    links:
+    -   key: decreases activity of
+        source: DB:DB01415
+        target: UniProt:Q54906
+    -   key: prevents
+        source: UniProt:Q54906
+        target: GO:0018104
+    -   key: negatively regulates
+        source: GO:0018104
+        target: GO:0042546
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D014069
+    multigraph: true
+    nodes:
+    -   id: DB:DB01415
+        label: Drug
+        name: Ceftibuten
+    -   id: UniProt:Q54906
+        label: Protein
+        name: Penicillin-binding proteins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell-wall synthesis
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D014069
+        label: Disease
+        name: Tonsillitis
+    reference: https://go.drugbank.com/drugs/DB01415#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/5282242
+-   directed: true
+    graph:
+        drug: Ceftibuten
+        drugbank: DB:DB01415
+        drug_mesh: NULL
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+    links:
+    -   key: decreases activity of
+        source: DB:DB01415
+        target: UniProt:Q54906
+    -   key: prevents
+        source: UniProt:Q54906
+        target: GO:0018104
+    -   key: negatively regulates
+        source: GO:0018104
+        target: GO:0042546
+    -   key: in taxon
+        source: GO:0042546
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: DB:DB01415
+        label: Drug
+        name: Ceftibuten
+    -   id: UniProt:Q54906
+        label: Protein
+        name: Penicillin-binding proteins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell-wall synthesis
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01415#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/5282242
+-   directed: true
+    graph:
+        drug: Difenoxin
+        drugbank: DB:DB01501
+        drug_mesh: MESH:C100010
+        disease: Diarrhea
+        disease_mesh: MESH:D003967
+    links:
+    -   key: increases activity of
+        source: MESH:C100010
+        target: InterPro:IPR001418
+    -   key: located in
+        source: InterPro:IPR001418
+        target: UBERON:0012453
+    -   key: negatively regulates
+        source: UBERON:0012453
+        target: GO:0061526
+    -   key: regulates
+        source: GO:0061526
+        target: GO:0120054
+    -   key: correlated with
+        source: GO:0120054
+        target: MESH:D003967
+    multigraph: true
+    nodes:
+    -   id: MESH:C100010
+        label: Drug
+        name: Difenoxin
+    -   id: InterPro:IPR001418
+        label: GeneFamily
+        name: Opioid receptors
+    -   id: UBERON:0012453
+        label: GrossAnatomicalStructure
+        name: Peripheral nerve terminal
+    -   id: GO:0061526
+        label: GrossAnatomicalStructure
+        name: Release of acetylcholine
+    -   id: GO:0120054
+        label: GrossAnatomicalStructure
+        name: Intestinal motility
+    -   id: MESH:D003967
+        label: Disease
+        name: Diarrhea
+    reference: https://go.drugbank.com/drugs/DB01501#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Difenoxin#section=Pharmacology
+-   directed: true
+    graph:
+        drug: Gonadorelin
+        drugbank: DB:DB00644
+        drug_mesh: MESH:D007987
+        disease: Amenorrhea
+        disease_mesh: MESH:D000568
+    links:
+    -   key: increases activity of
+        source: MESH:D007987
+        target: UniProt:P30968
+    -   key: positively regulates
+        source: UniProt:P30968
+        target: GO:0046884
+    -   key: location of
+        source: GO:0046884
+        target: UBERON:0000007
+    -   key: positively regulates
+        source: UniProt:P30968
+        target: GO:0032275
+    -   key: location of
+        source: GO:0032275
+        target: UBERON:0000007
+    -   key: produces
+        source: UBERON:0000007
+        target: MESH:D012739
+    -   key: manifestation of
+        source: MESH:D012739
+        target: MESH:D000568
+    multigraph: true
+    nodes:
+    -   id: MESH:D007987
+        label: Drug
+        name: Gonadorelin
+    -   id: UniProt:P30968
+        label: Protein
+        name: Gonadotropin-releasing hormone receptor
+    -   id: GO:0032275
+        label: BiologicalProcess
+        name: Luteinizing hormone secretion         
+    -   id: GO:0046884
+        label: BiologicalProcess
+        name: Follicle-stimulating hormone secretion 
+    -   id: UBERON:0000007
+        label: GrossAnatomicalStructure
+        name: Pituitary gland
+    -   id: MESH:D012739
+        label: ChemicalSubstance
+        name: Gonadal Steroid Hormones
+    -   id: MESH:D000568
+        label: Disease
+        name: Amenorrhea
+    reference: https://go.drugbank.com/drugs/DB00644#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Gonadorelin
+-   directed: true
+    graph:
+        drug: Icosapent ethyl
+        drugbank: DB:DB08887
+        drug_mesh: NULL
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+    links:
+    -   key: decreases activity of
+        source: DB:DB08887
+        target: UniProt:O75907
+    -   key: negatively regulates
+        source: UniProt:O75907
+        target: REACT:R-HSA-75109
+    -   key: decreases abundance of
+        source: REACT:R-HSA-75109
+        target: MESH:D014280
+    -   key: increases activity of
+        source: DB:DB08887    
+        target: UniProt:P06858
+    -   key: located in
+        source: UniProt:P06858
+        target: UBERON:0000178
+    -   key: increases degradation of
+        source: UBERON:0000178
+        target: MESH:D014280
+    -   key: increases activity of
+        source: DB:DB08887
+        target: GO:0006635
+    -   key: increases degradation of
+        source: GO:0006635
+        target: MESH:D014280
+    -   key: manifestation of
+        source: MESH:D014280
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: DB:DB08887
+        label: Drug
+        name: Icosapent ethyl
+    -   id: UniProt:O75907
+        label: Protein
+        name: Diglyceride acyltransferase
+    -   id: REACT:R-HSA-75109
+        label: Pathway
+        name: Triglyceride biosynthesis
+    -   id: GO:0006635
+        label: BiologicalProcess
+        name: Fatty acid beta-oxidation
+    -   id: UBERON:0000178
+        label: GrossAnatomicalStructure
+        name: Blood
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglyceride
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference: https://go.drugbank.com/drugs/DB08887#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Icosapent-ethyl#section=Pharmacology-and-Biochemistry https://en.wikipedia.org/wiki/Ethyl_eicosapentaenoic_acid
+-   directed: true
+    graph:
+        drug: Nicotinic acid
+        drugbank: DB:DB00627
+        drug_mesh: MESH:D009525
+        disease: Vitamin deficiency
+        disease_mesh: MESH:D001361
+    links:
+    -   key: part of
+        source: MESH:D009525
+        target: MESH:D019587
+    -   key: ameliorates
+        source: MESH:D019587
+        target: MESH:D001361
+    multigraph: true
+    nodes:
+    -   id: MESH:D009525
+        label: Drug
+        name: Nicotinic acid
+    -   id: MESH:D019587
+        label: ChemicalSubstance
+        name: Dietary supplements
+    -   id: MESH:D001361
+        label: Disease
+        name: Vitamin deficiency
+    reference: https://go.drugbank.com/drugs/DB00627#mechanismofaction  https://en.wikipedia.org/wiki/Niacin#Mechanisms doi:10.1194/jlr.S092007
+-   directed: true
+    graph:
+        drug: Nicotinic acid
+        drugbank: DB:DB00627
+        drug_mesh: MESH:D009525
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+    links:
+    -   key: decreases activity of
+        source: MESH:D009525
+        target: UniProt:O75907
+    -   key: negatively regulates
+        source: UniProt:O75907
+        target: REACT:R-HSA-75109
+    -   key: decreases abundance of
+        source: REACT:R-HSA-75109
+        target: MESH:D014280
+    -   key: manifestation of
+        source: MESH:D014280
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: MESH:D009525
+        label: Drug
+        name: Nicotinic acid
+    -   id: UniProt:O75907
+        label: Protein
+        name: Diglyceride acyltransferase
+    -   id: REACT:R-HSA-75109
+        label: Pathway
+        name: Triglyceride biosynthesis
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglyceride
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference: https://go.drugbank.com/drugs/DB00627#mechanismofaction  https://en.wikipedia.org/wiki/Niacin#Mechanisms doi:10.1194/jlr.S092007
 
+-   directed: true
+    graph:
+        drug: Nicotinic acid
+        drugbank: DB:DB00627
+        drug_mesh: MESH:D009525
+        disease: Mixed hyperlipidemia
+        disease_mesh: MESH:D006950
+    links:
+    -   key: decreases activity of
+        source: MESH:D009525
+        target: UniProt:O75907
+    -   key: negatively regulates
+        source: UniProt:O75907
+        target: REACT:R-HSA-75109
+    -   key: decreases abundance of
+        source: REACT:R-HSA-75109
+        target: MESH:D014280
+    -   key: increases activity of
+        source: MESH:D009525
+        target: UniProt:Q8TDS4
+    -   key: decreases synthesis of
+        source: UniProt:Q8TDS4
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: MESH:D000242
+        target: MESH:D005230
+    -   key: decreases expression of
+        source: MESH:D005230
+        target: UniProt:P02656
+    -   key: decreases synthesis of
+        source: UniProt:P02656
+        target: MESH:D008074
+    -   key: decreases expression of
+        source: MESH:D005230
+        target: UniProt:Q86YN6
+    -   key: decreases synthesis of
+        source: UniProt:Q86YN6
+        target: MESH:D008074
+    -   key: increases activity of
+        source: MESH:D009525
+        target: UniProt:P49019
+    -   key: decreases synthesis of
+        source: UniProt:P49019
+        target: MESH:D000242
+    -   key: decreases degradation of
+        source: MESH:D009525
+        target: UniProt:P02647
+    -   key: increases abundance of
+        source: UniProt:P02647
+        target: MESH:D008076
+    -   key: manifestation of
+        source: MESH:D008076
+        target: MESH:D006950
+    -   key: increases degradation of
+        source: MESH:D014280
+        target: UniProt:P04114
+    -   key: decreases synthesis of
+        source: UniProt:P04114
+        target: MESH:D008074
+    -   key: manifestation of
+        source: MESH:D008074
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:D009525
+        label: Drug
+        name: Nicotinic acid
+    -   id: UniProt:O75907
+        label: Protein
+        name: Diacylglycerol O-acyltransferase 2 (DGAT2)
+    -   id: REACT:R-HSA-75109
+        label: Pathway
+        name: Triglyceride biosynthesis
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglyceride
+    -   id: MESH:D008076
+        label: ChemicalSubstance
+        name: HDL Cholesterol
+    -   id: UniProt:P02647
+        label: Protein
+        name: Apolipoprotein A1
+    -   id: UniProt:P49019
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 3
+    -   id: UniProt:Q86YN6
+        label: Protein
+        name: PPARg coactivator-1b
+    -   id: MESH:D008074
+        label: ChemicalSubstance
+        name: Lipoprotein
+    -   id: UniProt:P02656
+        label: Protein
+        name: Apolipoprotein C3
+    -   id: MESH:D005230
+        label: ChemicalSubstance
+        name: Free fatty acids
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: UniProt:P04114
+        label: Protein
+        name: Apolipoprotein B
+    -   id: MESH:D008074
+        label: ChemicalSubstance
+        name: Lipoprotein
+    -   id: MESH:D006950
+        label: Disease
+        name: Mixed hyperlipidemia
+    reference: https://go.drugbank.com/drugs/DB00627#mechanismofaction  https://en.wikipedia.org/wiki/Niacin#Mechanisms doi:10.1194/jlr.S092007
+-   directed: true
+    graph:
+        drug: Nicotinic acid
+        drugbank: DB:DB00627
+        drug_mesh: MESH:D009525
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+    links:
+    -   key: decreases activity of
+        source: MESH:D009525
+        target: UniProt:O75907
+    -   key: negatively regulates
+        source: UniProt:O75907
+        target: REACT:R-HSA-75109
+    -   key: decreases abundance of
+        source: REACT:R-HSA-75109
+        target: MESH:D014280
+    -   key: increases activity of
+        source: MESH:D009525
+        target: UniProt:Q8TDS4
+    -   key: decreases synthesis of
+        source: UniProt:Q8TDS4
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: MESH:D000242
+        target: MESH:D005230
+    -   key: decreases expression of
+        source: MESH:D005230
+        target: UniProt:P02656
+    -   key: decreases synthesis of
+        source: UniProt:P02656
+        target: MESH:D008074
+    -   key: decreases expression of
+        source: MESH:D005230
+        target: UniProt:Q86YN6
+    -   key: decreases synthesis of
+        source: UniProt:Q86YN6
+        target: MESH:D008074
+    -   key: increases activity of
+        source: MESH:D009525
+        target: UniProt:P49019
+    -   key: decreases synthesis of
+        source: UniProt:P49019
+        target: MESH:D000242
+    -   key: decreases degradation of
+        source: MESH:D009525
+        target: UniProt:P02647
+    -   key: increases abundance of
+        source: UniProt:P02647
+        target: MESH:D008076
+    -   key: manifestation of
+        source: MESH:D008076
+        target: MESH:D006937
+    -   key: increases degradation of
+        source: MESH:D014280
+        target: UniProt:P04114
+    -   key: decreases synthesis of
+        source: UniProt:P04114
+        target: MESH:D008074
+    -   key: manifestation of
+        source: MESH:D008074
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D009525
+        label: Drug
+        name: Nicotinic acid
+    -   id: UniProt:O75907
+        label: Protein
+        name: Diacylglycerol O-acyltransferase 2 (DGAT2)
+    -   id: REACT:R-HSA-75109
+        label: Pathway
+        name: Triglyceride biosynthesis
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglyceride
+    -   id: MESH:D008076
+        label: ChemicalSubstance
+        name: HDL Cholesterol
+    -   id: UniProt:P02647
+        label: Protein
+        name: Apolipoprotein A1
+    -   id: UniProt:P49019
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 3
+    -   id: UniProt:Q86YN6
+        label: Protein
+        name: PPARg coactivator-1b
+    -   id: MESH:D008074
+        label: ChemicalSubstance
+        name: Lipoprotein
+    -   id: UniProt:P02656
+        label: Protein
+        name: Apolipoprotein C3
+    -   id: MESH:D005230
+        label: ChemicalSubstance
+        name: Free fatty acids
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: UniProt:P04114
+        label: Protein
+        name: Apolipoprotein B
+    -   id: MESH:D008074
+        label: ChemicalSubstance
+        name: Lipoprotein
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference: https://go.drugbank.com/drugs/DB00627#mechanismofaction  https://en.wikipedia.org/wiki/Niacin#Mechanisms doi:10.1194/jlr.S092007
+-   directed: true
+    graph:
+        drug: Nicotinic acid
+        drugbank: DB:DB00627
+        drug_mesh: MESH:D009525
+        disease: Hyperlipidemia
+        disease_mesh: MESH:D006949
+    links:
+    -   key: decreases activity of
+        source: MESH:D009525
+        target: UniProt:O75907
+    -   key: negatively regulates
+        source: UniProt:O75907
+        target: REACT:R-HSA-75109
+    -   key: decreases abundance of
+        source: REACT:R-HSA-75109
+        target: MESH:D014280
+    -   key: increases activity of
+        source: MESH:D009525
+        target: UniProt:Q8TDS4
+    -   key: decreases synthesis of
+        source: UniProt:Q8TDS4
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: MESH:D000242
+        target: MESH:D005230
+    -   key: decreases expression of
+        source: MESH:D005230
+        target: UniProt:P02656
+    -   key: decreases synthesis of
+        source: UniProt:P02656
+        target: MESH:D008074
+    -   key: decreases expression of
+        source: MESH:D005230
+        target: UniProt:Q86YN6
+    -   key: decreases synthesis of
+        source: UniProt:Q86YN6
+        target: MESH:D008074
+    -   key: increases activity of
+        source: MESH:D009525
+        target: UniProt:P49019
+    -   key: decreases synthesis of
+        source: UniProt:P49019
+        target: MESH:D000242
+    -   key: decreases degradation of
+        source: MESH:D009525
+        target: UniProt:P02647
+    -   key: increases abundance of
+        source: UniProt:P02647
+        target: MESH:D008076
+    -   key: manifestation of
+        source: MESH:D008076
+        target: MESH:D006949
+    -   key: increases degradation of
+        source: MESH:D014280
+        target: UniProt:P04114
+    -   key: decreases synthesis of
+        source: UniProt:P04114
+        target: MESH:D008074
+    -   key: manifestation of
+        source: MESH:D008074
+        target: MESH:D006949
+    multigraph: true
+    nodes:
+    -   id: MESH:D009525
+        label: Drug
+        name: Nicotinic acid
+    -   id: UniProt:O75907
+        label: Protein
+        name: Diacylglycerol O-acyltransferase 2 (DGAT2)
+    -   id: REACT:R-HSA-75109
+        label: Pathway
+        name: Triglyceride biosynthesis
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglyceride
+    -   id: MESH:D008076
+        label: ChemicalSubstance
+        name: HDL Cholesterol
+    -   id: UniProt:P02647
+        label: Protein
+        name: Apolipoprotein A1
+    -   id: UniProt:P49019
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 3
+    -   id: UniProt:Q86YN6
+        label: Protein
+        name: PPARg coactivator-1b
+    -   id: MESH:D008074
+        label: ChemicalSubstance
+        name: Lipoprotein
+    -   id: UniProt:P02656
+        label: Protein
+        name: Apolipoprotein C3
+    -   id: MESH:D005230
+        label: ChemicalSubstance
+        name: Free fatty acids
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: UniProt:P04114
+        label: Protein
+        name: Apolipoprotein B
+    -   id: MESH:D008074
+        label: ChemicalSubstance
+        name: Lipoprotein
+    -   id: MESH:D006949
+        label: Disease
+        name: Hyperlipidemia
+    reference: https://go.drugbank.com/drugs/DB00627#mechanismofaction  https://en.wikipedia.org/wiki/Niacin#Mechanisms doi:10.1194/jlr.S092007
