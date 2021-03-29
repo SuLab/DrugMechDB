@@ -71223,3 +71223,997 @@
         label: Disease
         name: Heartburn
     reference: https://go.drugbank.com/drugs/DB11098
+-   directed: true
+    graph:
+        disease: Cardiac arrest
+        disease_mesh: MESH:D006323
+        drug: calcium glucoheptonate
+        drug_mesh: MESH:C007852
+        drugbank: DB:DB00326
+    links:
+    -   key: positively regulates
+        source: MESH:C007852
+        target: GO:0060075
+    -   key: located in
+        source: GO:0060075
+        target: UBERON:0001133
+    -   key: decreases activity of
+        source: UBERON:0001133
+        target: MESH:D006323
+    multigraph: true
+    nodes:
+    -   id: MESH:C007852
+        label: Drug
+        name: calcium glucoheptonate
+    -   id: GO:0060075
+        label: BiologicalProcess
+        name: resting membrane potential
+    -   id: UBERON:0001133
+        label: GrossAnatomicalStructure
+        name: cardiac muscle
+    -   id: MESH:D006323
+        label: Disease
+        name: Cardiac arrest
+    reference: https://go.drugbank.com/drugs/DB00326
+-   directed: true
+    graph:
+        disease: Hypocalcemia
+        disease_mesh: MESH:D006996
+        drug: calcium glucoheptonate
+        drug_mesh: MESH:C007852
+        drugbank: DB:DB00326
+    links:
+    -   key: positively regulates
+        source: MESH:C007852
+        target: GO:0060075
+    -   key: located in
+        source: GO:0060075
+        target: UBERON:0001133
+    -   key: decreases activity of
+        source: UBERON:0001133
+        target: MESH:D006996
+    multigraph: true
+    nodes:
+    -   id: MESH:C007852
+        label: Drug
+        name: calcium glucoheptonate
+    -   id: GO:0060075
+        label: BiologicalProcess
+        name: resting membrane potential
+    -   id: UBERON:0001133
+        label: GrossAnatomicalStructure
+        name: cardiac muscle
+    -   id: MESH:D006996
+        label: Disease
+        name: Hypocalcemia
+    reference: https://go.drugbank.com/drugs/DB00326
+-   directed: true
+    graph:
+        disease: Hyperkalemia
+        disease_mesh: MESH:D006947
+        drug: calcium glucoheptonate
+        drug_mesh: MESH:C007852
+        drugbank: DB:DB00326
+    links:
+    -   key: positively regulates
+        source: MESH:C007852
+        target: GO:0060075
+    -   key: located in
+        source: GO:0060075
+        target: UBERON:0001133
+    -   key: decreases activity of
+        source: UBERON:0001133
+        target: MESH:D006947
+    multigraph: true
+    nodes:
+    -   id: MESH:C007852
+        label: Drug
+        name: calcium glucoheptonate
+    -   id: GO:0060075
+        label: BiologicalProcess
+        name: resting membrane potential
+    -   id: UBERON:0001133
+        label: GrossAnatomicalStructure
+        name: cardiac muscle
+    -   id: MESH:D006947
+        label: Disease
+        name: Hyperkalemia
+    reference: https://go.drugbank.com/drugs/DB00326
+-   directed: true
+    graph:
+        disease: Psychotic disorder
+        disease_mesh: MESH:D011618
+        drug: chlorpromazine
+        drug_mesh: MESH:D002746
+        drugbank: DB:DB00477
+    links:
+    -   key: decreases activity of
+        source: MESH:D002746
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: CHEBI:18243
+    -   key: correlated with
+        source: CHEBI:18243
+        target: GO:0032225
+    -   key: located in
+        source: GO:0032225
+        target: UBERON:0001017
+    -   key: prevents
+        source: UBERON:0001017
+        target: HP:0008760
+    -   key: correlated with
+        source: HP:0008760
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: MESH:D002746
+        label: Drug
+        name: chlorpromazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: dopamine D2 receptor
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: GO:0032225
+        label: BiologicalProcess
+        name: regulation of synaptic transmission, dopaminergic
+    -   id: UBERON:0001017
+        label: GrossAnatomicalStructure
+        name: central nervous system
+    -   id: HP:0008760
+        label: PhenotypicFeature
+        name: violent behavior
+    -   id: MESH:D011618
+        label: Disease
+        name: Psychotic disorder
+    reference: https://go.drugbank.com/drugs/DB00477
+-   directed: true
+    graph:
+        disease: Acute intermittent porphyria
+        disease_mesh: MESH:D017118
+        drug: chlorpromazine
+        drug_mesh: MESH:D002746
+        drugbank: DB:DB00477
+    links:
+    -   key: decreases activity of
+        source: MESH:D002746
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: CHEBI:18243
+    -   key: correlated with
+        source: CHEBI:18243
+        target: GO:0032225
+    -   key: located in
+        source: GO:0032225
+        target: UBERON:0001017
+    -   key: prevents
+        source: UBERON:0001017
+        target: HP:0033400
+    -   key: correlated with
+        source: HP:0033400
+        target: MESH:D017118
+    multigraph: true
+    nodes:
+    -   id: MESH:D002746
+        label: Drug
+        name: chlorpromazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: dopamine D2 receptor
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: GO:0032225
+        label: BiologicalProcess
+        name: regulation of synaptic transmission, dopaminergic
+    -   id: UBERON:0001017
+        label: GrossAnatomicalStructure
+        name: central nervous system
+    -   id: HP:0033400
+        label: PhenotypicFeature
+        name: Acute abdomen
+    -   id: MESH:D017118
+        label: Disease
+        name: Acute intermittent porphyria
+    reference: https://go.drugbank.com/drugs/DB00477
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: chlorpromazine
+        drug_mesh: MESH:D002746
+        drugbank: DB:DB00477
+    links:
+    -   key: decreases activity of
+        source: MESH:D002746
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: CHEBI:18243
+    -   key: correlated with
+        source: CHEBI:18243
+        target: GO:0032225
+    -   key: located in
+        source: GO:0032225
+        target: UBERON:0001017
+    -   key: prevents
+        source: UBERON:0001017
+        target: HP:0008760
+    -   key: correlated with
+        source: HP:0008760
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: MESH:D002746
+        label: Drug
+        name: chlorpromazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: dopamine D2 receptor
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: GO:0032225
+        label: BiologicalProcess
+        name: regulation of synaptic transmission, dopaminergic
+    -   id: UBERON:0001017
+        label: GrossAnatomicalStructure
+        name: central nervous system
+    -   id: HP:0008760
+        label: PhenotypicFeature
+        name: violent behavior
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB00477 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6478116/
+-   directed: true
+    graph:
+        disease: Disruptive behavior disorder
+        disease_mesh: MESH:D019958
+        drug: chlorpromazine
+        drug_mesh: MESH:D002746
+        drugbank: DB:DB00477
+    links:
+    -   key: decreases activity of
+        source: MESH:D002746
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: CHEBI:18243
+    -   key: correlated with
+        source: CHEBI:18243
+        target: GO:0032225
+    -   key: located in
+        source: GO:0032225
+        target: UBERON:0001017
+    -   key: prevents
+        source: UBERON:0001017
+        target: HP:0008760
+    -   key: correlated with
+        source: HP:0008760
+        target: MESH:D019958
+    multigraph: true
+    nodes:
+    -   id: MESH:D002746
+        label: Drug
+        name: chlorpromazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: dopamine D2 receptor
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: GO:0032225
+        label: BiologicalProcess
+        name: regulation of synaptic transmission, dopaminergic
+    -   id: UBERON:0001017
+        label: GrossAnatomicalStructure
+        name: central nervous system
+    -   id: HP:0008760
+        label: PhenotypicFeature
+        name: violent behavior
+    -   id: MESH:D019958
+        label: Disease
+        name: Disruptive behavior disorder
+    reference: https://go.drugbank.com/drugs/DB00477
+-   directed: true
+    graph:
+        disease: Malignant tumor of testis
+        disease_mesh: MESH:D013736
+        drug: etoposide
+        drug_mesh: MESH:D005047
+        drugbank: DB:DB00773
+    links:
+    -   key: decreases activity of
+        source: MESH:D005047
+        target: UniProt:P11388
+    -   key: participates in
+        source: UniProt:P11388
+        target: GO:0003916
+    -   key: participates in
+        source: GO:0003916
+        target: GO:0000084
+    -   key: participates in
+        source: GO:0003916
+        target: GO:0000085
+    -   key: positively correlated with
+        source: GO:0000084
+        target: GO:0007049
+    -   key: positively correlated with
+        source: GO:0000085
+        target: GO:0007049
+    -   key: located in
+        source: GO:0007049
+        target: CL:0001063
+    -   key: correlated with
+        source: CL:0001063
+        target: MESH:D013736
+    multigraph: true
+    nodes:
+    -   id: MESH:D005047
+        label: Drug
+        name: etoposide
+    -   id: UniProt:P11388
+        label: Protein
+        name: DNA topoisomerase 2-alpha
+    -   id: GO:0003916
+        label: MolecularActivity
+        name: DNA topoisomerase activity
+    -   id: GO:0000084
+        label: BiologicalProcess
+        name: mitotic S phase
+    -   id: GO:0000085
+        label: BiologicalProcess
+        name: mitotic G2 phase
+    -   id: GO:0007049
+        label: BiologicalProcess
+        name: cell cycle
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cell
+    -   id: MESH:D013736
+        label: Disease
+        name: Malignant tumor of testis
+    reference: https://go.drugbank.com/drugs/DB00773 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652635/
+-   directed: true
+    graph:
+        disease: Small cell carcinoma of lung
+        disease_mesh: MESH:D055752
+        drug: etoposide
+        drug_mesh: MESH:D005047
+        drugbank: DB:DB00773
+    links:
+    -   key: decreases activity of
+        source: MESH:D005047
+        target: UniProt:P11388
+    -   key: participates in
+        source: UniProt:P11388
+        target: GO:0003916
+    -   key: participates in
+        source: GO:0003916
+        target: GO:0000084
+    -   key: participates in
+        source: GO:0003916
+        target: GO:0000085
+    -   key: positively correlated with
+        source: GO:0000084
+        target: GO:0007049
+    -   key: positively correlated with
+        source: GO:0000085
+        target: GO:0007049
+    -   key: located in
+        source: GO:0007049
+        target: CL:0001063
+    -   key: correlated with
+        source: CL:0001063
+        target: MESH:D055752
+    multigraph: true
+    nodes:
+    -   id: MESH:D005047
+        label: Drug
+        name: etoposide
+    -   id: UniProt:P11388
+        label: Protein
+        name: DNA topoisomerase 2-alpha
+    -   id: GO:0003916
+        label: MolecularActivity
+        name: DNA topoisomerase activity
+    -   id: GO:0000084
+        label: BiologicalProcess
+        name: mitotic S phase
+    -   id: GO:0000085
+        label: BiologicalProcess
+        name: mitotic G2 phase
+    -   id: GO:0007049
+        label: BiologicalProcess
+        name: cell cycle
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cell
+    -   id: MESH:D055752
+        label: Disease
+        name: Small cell carcinoma of lung
+    reference: https://go.drugbank.com/drugs/DB00773 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652635/
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: didanosine
+        drug_mesh: MESH:D016049
+        drugbank: DB:DB00900
+    links:
+    -   key: increases abundance of
+        source: MESH:D016049
+        target: MESH:C037773
+    -   key: decreases activity of
+        source: MESH:C037773
+        target: UniProt:Q72547
+    -   key: positively regulates
+        source: UniProt:Q72547
+        target: GO:0003964
+    -   key: positively correlated with
+        source: GO:0003964
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D016049
+        label: Drug
+        name: didanosine
+    -   id: MESH:C037773
+        label: ChemicalSubstance
+        name: dideoxyadenosine triphosphate
+    -   id: UniProt:Q72547
+        label: Protein
+        name: HIV-1 reverse transcriptase
+    -   id: GO:0003964
+        label: MolecularActivity
+        name: RNA-directed DNA polymerase activity
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: viral genome replication
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference: https://go.drugbank.com/drugs/DB00900#BE0004136
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: desloratadine
+        drug_mesh: MESH:C121345
+        drugbank: DB:DB00967
+    links:
+    -   key: decreases activity of
+        source: MESH:C121345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:C121345
+        label: Drug
+        name: desloratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00967 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: desloratadine
+        drug_mesh: MESH:C121345
+        drugbank: DB:DB00967
+    links:
+    -   key: decreases activity of
+        source: MESH:C121345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:10239
+    -   key: causes
+        source: NCBITaxon:10239
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:C121345
+        label: Drug
+        name: desloratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: NCBITaxon:10239
+        label: OrganismTaxon
+        name: Viruses
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference: https://go.drugbank.com/drugs/DB00967 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: desloratadine
+        drug_mesh: MESH:C121345
+        drugbank: DB:DB00967
+    links:
+    -   key: decreases activity of
+        source: MESH:C121345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:C121345
+        label: Drug
+        name: desloratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference: https://go.drugbank.com/drugs/DB00967 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Chronic idiopathic urticaria
+        disease_mesh: MESH:D000080223
+        drug: desloratadine
+        drug_mesh: MESH:C121345
+        drugbank: DB:DB00967
+    links:
+    -   key: negatively regulates
+        source: MESH:C121345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0043117
+    -   key: positively correlated with
+        source: GO:0043117
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D000080223
+    multigraph: true
+    nodes:
+    -   id: MESH:C121345
+        label: Drug
+        name: desloratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: positive regulation of vascular permeability
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D000080223
+        label: Disease
+        name: Chronic idiopathic urticaria
+    reference: https://go.drugbank.com/drugs/DB00967 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6751347/
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: desloratadine
+        drug_mesh: MESH:C121345
+        drugbank: DB:DB00967
+    links:
+    -   key: decreases activity of
+        source: MESH:C121345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C121345
+        label: Drug
+        name: desloratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00967 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: desloratadine
+        drug_mesh: MESH:C121345
+        drugbank: DB:DB00967
+    links:
+    -   key: decreases activity of
+        source: MESH:C121345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:C121345
+        label: Drug
+        name: desloratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference: https://go.drugbank.com/drugs/DB00967 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: desloratadine
+        drug_mesh: MESH:C121345
+        drugbank: DB:DB00967
+    links:
+    -   key: decreases activity of
+        source: MESH:C121345
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C121345
+        label: Drug
+        name: desloratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB00967 https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+-   directed: true
+    graph:
+        disease: Hypercortisolism
+        disease_mesh: MESH:D000308
+        drug: pasireotide
+        drug_mesh: MESH:C517782
+        drugbank: DB:DB06663
+    links:
+    -   key: increases activity of
+        source: MESH:C517782
+        target: UniProt:P30872
+    -   key: increases activity of
+        source: MESH:C517782
+        target: UniProt:P30874
+    -   key: increases activity of
+        source: MESH:C517782
+        target: UniProt:P32745
+    -   key: increases activity of
+        source: MESH:C517782
+        target: UniProt:P35346
+    -   key: participates in
+        source: UniProt:P30872
+        target: GO:0051460
+    -   key: participates in
+        source: UniProt:P30874
+        target: GO:0051460
+    -   key: participates in
+        source: UniProt:P32745
+        target: GO:0051460
+    -   key: participates in
+        source: UniProt:P35346
+        target: GO:0051460
+    -   key: participates in
+        source: GO:0051460
+        target: GO:0051463
+    -   key: decreases abundance of
+        source: GO:0051463
+        target: CHEBI:17650
+    -   key: positively correlated with
+        source: CHEBI:17650
+        target: MESH:D000308
+    multigraph: true
+    nodes:
+    -   id: MESH:C517782
+        label: Drug
+        name: pasireotide
+    -   id: UniProt:P30872
+        label: Protein
+        name: Somatostatin receptor type 1
+    -   id: UniProt:P30874
+        label: Protein
+        name: Somatostatin receptor type 2
+    -   id: UniProt:P32745
+        label: Protein
+        name: Somatostatin receptor type 3
+    -   id: UniProt:P35346
+        label: Protein
+        name: Somatostatin receptor type 5
+    -   id: GO:0051460
+        label: BiologicalProcess
+        name: negative regulation of corticotropin secretion
+    -   id: GO:0051463
+        label: BiologicalProcess
+        name: negative regulation of cortisol secretion
+    -   id: CHEBI:17650
+        label: ChemicalSubstance
+        name: cortisol
+    -   id: MESH:D000308
+        label: Disease
+        name: Hypercortisolism
+    reference: https://go.drugbank.com/drugs/DB06663 https://pubmed.ncbi.nlm.nih.gov/23462624/
+-   directed: true
+    graph:
+        disease: Multiple myeloma
+        disease_mesh: MESH:D009101
+        drug: carfilzomib
+        drug_mesh: MESH:C524865, MESH:C519125
+        drugbank: DB:DB08889
+    links:
+    -   key: decreases activity of
+        source: DB:DB08889
+        target: UniProt:P28074
+    -   key: decreases activity of
+        source: DB:DB08889
+        target: UniProt:P28062
+    -   key: decreases activity of
+        source: DB:DB08889
+        target: UniProt:P20618
+    -   key: decreases activity of
+        source: DB:DB08889
+        target: UniProt:P28065
+    -   key: decreases activity of
+        source: DB:DB08889
+        target: UniProt:P49721
+    -   key: decreases activity of
+        source: DB:DB08889
+        target: UniProt:P40306
+    -   key: located in
+        source: UniProt:P28074
+        target: GO:0005839
+    -   key: located in
+        source: UniProt:P28062
+        target: GO:0005839
+    -   key: located in
+        source: UniProt:P20618
+        target: GO:0005839
+    -   key: located in
+        source: UniProt:P28065
+        target: GO:0005839
+    -   key: located in
+        source: UniProt:P49721
+        target: GO:0005839
+    -   key: located in
+        source: UniProt:P40306
+        target: GO:0005839
+    -   key: positively correlated with
+        source: GO:0005839
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: CL:0001063
+    -   key: positively correlated with
+        source: CL:0001063
+        target: MESH:D009101
+    multigraph: true
+    nodes:
+    -   id: DB:DB08889
+        label: Drug
+        name: carfilzomib
+    -   id: UniProt:P28074
+        label: Protein
+        name: Proteasome subunit beta type-5
+    -   id: UniProt:P28062
+        label: Protein
+        name: Proteasome subunit beta type-8
+    -   id: UniProt:P20618
+        label: Protein
+        name: Proteasome subunit beta type-1
+    -   id: UniProt:P28065
+        label: Protein
+        name: Proteasome subunit beta type-9
+    -   id: UniProt:P49721
+        label: Protein
+        name: Proteasome subunit beta type-2
+    -   id: UniProt:P40306
+        label: Protein
+        name: Proteasome subunit beta type-10
+    -   id: GO:0005839
+        label: CellularComponent
+        name: proteosome core complex
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cell
+    -   id: MESH:D009101
+        label: Disease
+        name: Multiple myeloma
+    reference: https://go.drugbank.com/drugs/DB08889 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4849338/
+-   directed: true
+    graph:
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: enzalutamide
+        drug_mesh: MESH:C540278
+        drugbank: DB:DB08899
+    links:
+    -   key: decreases activity of
+        source: MESH:C540278
+        target: UniProt:P10275
+    -   key: participates in
+        source: UniProt:P10275
+        target: GO:0030521
+    -   key: positively regulates
+        source: GO:0030521
+        target: GO:0006351
+    -   key: precedes
+        source: GO:0006351
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: CL:0001063
+    -   key: positively correlated with
+        source: CL:0001063
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: MESH:C540278
+        label: Drug
+        name: enzalutamide
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0030521
+        label: BiologicalProcess
+        name: androgen receptor signaling pathway
+    -   id: GO:0006351
+        label: BiologicalProcess
+        name: gene transcription
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cell
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference: https://go.drugbank.com/drugs/DB08899#BE0000132 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3721441/
