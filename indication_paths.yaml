@@ -70299,3 +70299,927 @@
         name: Basal Ganglia Diseases
     reference: https://go.drugbank.com/drugs/DB00810#mechanism-of-action https://en.wikipedia.org/wiki/Muscarinic_antagonist#Effects
         https://en.wikipedia.org/wiki/Extrapyramidal_symptoms#Treatment
+-   directed: true
+    graph:
+        disease: Myxedema
+        disease_mesh: MESH:D009230
+        drug: Liothyronine
+        drug_mesh: MESH:D014284
+        drugbank: DB:DB00279
+    links:
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10827
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10828
+    -   key: positively regulates
+        source: UniProt:P10827
+        target: GO:0002154
+    -   key: positively regulates
+        source: UniProt:P10828
+        target: GO:0002154
+    -   key: negatively regulates
+        source: GO:0002154
+        target: GO:0070460
+    -   key: increases abundance of
+        source: GO:0070460
+        target: CHEBI:18085
+    -   key: positively correlated with
+        source: CHEBI:18085
+        target: HP:0000969
+    -   key: manifestation of
+        source: HP:0000969
+        target: MESH:D009230
+    multigraph: true
+    nodes:
+    -   id: MESH:D014284
+        label: Drug
+        name: Liothyronine
+    -   id: UniProt:P10827
+        label: Protein
+        name: Thyroid hormone receptor alpha
+    -   id: UniProt:P10828
+        label: Protein
+        name: Thyroid hormone receptor beta
+    -   id: GO:0002154
+        label: BiologicalProcess
+        name: Thyroid hormone mediated signaling pathway
+    -   id: GO:0070460
+        label: BiologicalProcess
+        name: Thyroid-stimulating hormone secretion
+    -   id: CHEBI:18085
+        label: ChemicalSubstance
+        name: Glycosaminoglycan
+    -   id: HP:0000969
+        label: PhenotypicFeature
+        name: Edema
+    -   id: MESH:D009230
+        label: Disease
+        name: Myxedema
+    reference: https://go.drugbank.com/drugs/DB00279#BE0000687 https://en.wikipedia.org/wiki/Myxedema
+-   directed: true
+    graph:
+        disease: Hypothyroidism
+        disease_mesh: MESH:D007037
+        drug: Liothyronine
+        drug_mesh: MESH:D014284
+        drugbank: DB:DB00279
+    links:
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10827
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10828
+    -   key: positively regulates
+        source: UniProt:P10827
+        target: GO:0002154
+    -   key: positively regulates
+        source: UniProt:P10828
+        target: GO:0002154
+    -   key: positively regulates
+        source: GO:0002154
+        target: GO:0001659
+    -   key: positively correlated with
+        source: GO:0002154
+        target: GO:0010460
+    -   key: positively regulates
+        source: GO:0002154
+        target: GO:0120054
+    -   key: negatively correlated with
+        source: GO:0002154
+        target: HP:0012378
+    -   key: negatively correlated with
+        source: GO:0001659
+        target: MESH:D007037
+    -   key: negatively correlated with
+        source: GO:0010460
+        target: MESH:D007037
+    -   key: negatively correlated with
+        source: GO:0120054
+        target: MESH:D007037
+    -   key: positively correlated with
+        source: HP:0012378
+        target: MESH:D007037
+    multigraph: true
+    nodes:
+    -   id: MESH:D014284
+        label: Drug
+        name: Liothyronine
+    -   id: UniProt:P10827
+        label: Protein
+        name: Thyroid hormone receptor alpha
+    -   id: UniProt:P10828
+        label: Protein
+        name: Thyroid hormone receptor beta
+    -   id: GO:0002154
+        label: BiologicalProcess
+        name: Thyroid hormone mediated signaling pathway
+    -   id: GO:0001659
+        label: BiologicalProcess
+        name: Temperature homeostasis
+    -   id: GO:0010460
+        label: BiologicalProcess
+        name: Positive regulation of heart rate
+    -   id: GO:0120054
+        label: BiologicalProcess
+        name: Intestinal motility
+    -   id: HP:0012378
+        label: PhenotypicFeature
+        name: Fatigue
+    -   id: MESH:D007037
+        label: Disease
+        name: Hypothyroidism
+    reference: https://go.drugbank.com/drugs/DB00279#BE0000687 https://en.wikipedia.org/wiki/Hypothyroidism#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Goiter
+        disease_mesh: MESH:D006042
+        drug: Liothyronine
+        drug_mesh: MESH:D014284
+        drugbank: DB:DB00279
+    links:
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10827
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10828
+    -   key: positively regulates
+        source: UniProt:P10827
+        target: GO:0002154
+    -   key: positively regulates
+        source: UniProt:P10828
+        target: GO:0002154
+    -   key: negatively regulates
+        source: GO:0002154
+        target: GO:0070460
+    -   key: positively regulates
+        source: GO:0070460
+        target: HP:0008249
+    -   key: occurs in
+        source: HP:0008249
+        target: MESH:D006042
+    multigraph: true
+    nodes:
+    -   id: MESH:D014284
+        label: Drug
+        name: Liothyronine
+    -   id: UniProt:P10827
+        label: Protein
+        name: Thyroid hormone receptor alpha
+    -   id: UniProt:P10828
+        label: Protein
+        name: Thyroid hormone receptor beta
+    -   id: GO:0002154
+        label: BiologicalProcess
+        name: Thyroid hormone mediated signaling pathway
+    -   id: GO:0070460
+        label: BiologicalProcess
+        name: Thyroid-stimulating hormone secretion
+    -   id: HP:0008249
+        label: PhenotypicFeature
+        name: Thyroid hyperplasia
+    -   id: MESH:D006042
+        label: Disease
+        name: Goiter
+    reference: https://en.wikipedia.org/wiki/Goitre#Causes https://www.ncbi.nlm.nih.gov/books/NBK562161/
+-   directed: true
+    graph:
+        disease: Congenital hypothyroidism
+        disease_mesh: MESH:D003409
+        drug: Liothyronine
+        drug_mesh: MESH:D014284
+        drugbank: DB:DB00279
+    links:
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10827
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10828
+    -   key: positively regulates
+        source: UniProt:P10827
+        target: GO:0002154
+    -   key: positively regulates
+        source: UniProt:P10828
+        target: GO:0002154
+    -   key: negatively correlated with
+        source: GO:0002154
+        target: HP:0001508
+    -   key: negatively correlated with
+        source: GO:0002154
+        target: HP:0001252
+    -   key: negatively correlated with
+        source: GO:0002154
+        target: HP:0002045
+    -   key: negatively correlated with
+        source: GO:0002154
+        target: HP:0001249
+    -   key: positively correlated with
+        source: HP:0001508
+        target: MESH:D003409
+    -   key: positively correlated with
+        source: HP:0001249
+        target: MESH:D003409
+    -   key: positively correlated with
+        source: HP:0001252
+        target: MESH:D003409
+    -   key: positively correlated with
+        source: HP:0002045
+        target: MESH:D003409
+    multigraph: true
+    nodes:
+    -   id: MESH:D014284
+        label: Drug
+        name: Liothyronine
+    -   id: UniProt:P10827
+        label: Protein
+        name: Thyroid hormone receptor alpha
+    -   id: UniProt:P10828
+        label: Protein
+        name: Thyroid hormone receptor beta
+    -   id: GO:0002154
+        label: BiologicalProcess
+        name: Thyroid hormone mediated signaling pathway
+    -   id: HP:0001508
+        label: PhenotypicFeature
+        name: Failure to thrive
+    -   id: HP:0001252
+        label: PhenotypicFeature
+        name: Hypotonia
+    -   id: HP:0002045
+        label: PhenotypicFeature
+        name: Hypothermia
+    -   id: HP:0001249
+        label: PhenotypicFeature
+        name: Intellectual disability
+    -   id: MESH:D003409
+        label: Disease
+        name: Congenital hypothyroidism
+    reference: https://go.drugbank.com/drugs/DB00279#BE0000687 https://en.wikipedia.org/wiki/Congenital_hypothyroidism#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Simple goiter
+        disease_mesh: MESH:D006043
+        drug: Liothyronine
+        drug_mesh: MESH:D014284
+        drugbank: DB:DB00279
+    links:
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10827
+    -   key: increases activity of
+        source: MESH:D014284
+        target: UniProt:P10828
+    -   key: positively regulates
+        source: UniProt:P10827
+        target: GO:0002154
+    -   key: positively regulates
+        source: UniProt:P10828
+        target: GO:0002154
+    -   key: negatively regulates
+        source: GO:0002154
+        target: GO:0070460
+    -   key: positively regulates
+        source: GO:0070460
+        target: HP:0008249
+    -   key: occurs in
+        source: HP:0008249
+        target: MESH:D006043
+    multigraph: true
+    nodes:
+    -   id: MESH:D014284
+        label: Drug
+        name: Liothyronine
+    -   id: UniProt:P10827
+        label: Protein
+        name: Thyroid hormone receptor alpha
+    -   id: UniProt:P10828
+        label: Protein
+        name: Thyroid hormone receptor beta
+    -   id: GO:0002154
+        label: BiologicalProcess
+        name: Thyroid hormone mediated signaling pathway
+    -   id: GO:0070460
+        label: BiologicalProcess
+        name: Thyroid-stimulating hormone secretion
+    -   id: HP:0008249
+        label: PhenotypicFeature
+        name: Thyroid hyperplasia
+    -   id: MESH:D006043
+        label: Disease
+        name: Simple goiter
+    reference: https://go.drugbank.com/drugs/DB00279#BE0000687 https://en.wikipedia.org/wiki/Goitre#Causes
+        https://www.ncbi.nlm.nih.gov/books/NBK562161/
+-   comment: Travoprost, an isopropyl ester prodrug,that is rapidly hydrolyzed by
+        esterases in the cornea to its biologically active free acid.
+    directed: true
+    graph:
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: Travoprost
+        drug_mesh: MESH:D000069557
+        drugbank: DB:DB00287
+    links:
+    -   key: increases activity of
+        source: MESH:D000069557
+        target: UniProt:P43088
+    -   key: positively regulates
+        source: UniProt:P43088
+        target: GO:0008237
+    -   key: decreases abundance of
+        source: GO:0008237
+        target: GO:0031012
+    -   key: positively correlated with
+        source: GO:0031012
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069557
+        label: Drug
+        name: Travoprost
+    -   id: UniProt:P43088
+        label: Protein
+        name: Prostaglandin F2-alpha receptor
+    -   id: GO:0008237
+        label: BiologicalProcess
+        name: Metallopeptidase activity
+    -   id: GO:0031012
+        label: CellularComponent
+        name: Extracellular matrix
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991965/ https://go.drugbank.com/drugs/DB00287
+-   comment: Travoprost, an isopropyl ester prodrug,that is rapidly hydrolyzed by
+        esterases in the cornea to its biologically active free acid.
+    directed: true
+    graph:
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: Travoprost
+        drug_mesh: MESH:D000069557
+        drugbank: DB:DB00287
+    links:
+    -   key: increases activity of
+        source: MESH:D000069557
+        target: UniProt:P43088
+    -   key: positively regulates
+        source: UniProt:P43088
+        target: GO:0008237
+    -   key: decreases abundance of
+        source: GO:0008237
+        target: GO:0031012
+    -   key: positively correlated with
+        source: GO:0031012
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: affects risk for
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069557
+        label: Drug
+        name: Travoprost
+    -   id: UniProt:P43088
+        label: Protein
+        name: Prostaglandin F2-alpha receptor
+    -   id: GO:0008237
+        label: BiologicalProcess
+        name: Metallopeptidase activity
+    -   id: GO:0031012
+        label: CellularComponent
+        name: Extracellular matrix
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991965/ https://go.drugbank.com/drugs/DB00287
+-   directed: true
+    graph:
+        disease: Cough
+        disease_mesh: MESH:D003371
+        drug: Benzonatate
+        drug_mesh: MESH:C029755
+        drugbank: DB:DB00868
+    links:
+    -   key: positively regulates
+        source: MESH:C029755
+        target: GO:0072347
+    -   key: negatively correlated with
+        source: GO:0072347
+        target: MESH:D003371
+    multigraph: true
+    nodes:
+    -   id: MESH:C029755
+        label: Drug
+        name: Benzonatate
+    -   id: GO:0072347
+        label: BiologicalProcess
+        name: Response to anesthetic
+    -   id: MESH:D003371
+        label: Disease
+        name: Cough
+    reference: https://go.drugbank.com/drugs/DB00868 https://en.wikipedia.org/wiki/Benzonatate
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefazolin
+        drug_mesh: MESH:D002437
+        drugbank: DB:DB01327
+    links:
+    -   key: decreases activity of
+        source: MESH:D002437
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D002437
+        label: Drug
+        name: Cefazolin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01327
+-   directed: true
+    graph:
+        disease: Cholangitis
+        disease_mesh: MESH:D002761
+        drug: Cefazolin
+        drug_mesh: MESH:D002437
+        drugbank: DB:DB01327
+    links:
+    -   key: decreases activity of
+        source: MESH:D002437
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D002761
+    multigraph: true
+    nodes:
+    -   id: MESH:D002437
+        label: Drug
+        name: Cefazolin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D002761
+        label: Disease
+        name: Cholangitis
+    reference: https://go.drugbank.com/drugs/DB01327 https://en.wikipedia.org/wiki/Ascending_cholangitis
+-   directed: true
+    graph:
+        disease: Bacterial endocarditis
+        disease_mesh: MESH:D004697
+        drug: Cefazolin
+        drug_mesh: MESH:D002437
+        drugbank: DB:DB01327
+    links:
+    -   key: decreases activity of
+        source: MESH:D002437
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D004697
+    multigraph: true
+    nodes:
+    -   id: MESH:D002437
+        label: Drug
+        name: Cefazolin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D004697
+        label: Disease
+        name: Bacterial endocarditis
+    reference: https://go.drugbank.com/drugs/DB01327 https://en.wikipedia.org/wiki/Infective_endocarditis#Bacterial
+-   directed: true
+    graph:
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: Cefazolin
+        drug_mesh: MESH:D002437
+        drugbank: DB:DB01327
+    links:
+    -   key: decreases activity of
+        source: MESH:D002437
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1279
+    -   key: causes
+        source: NCBITaxon:1279
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:D002437
+        label: Drug
+        name: Cefazolin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1279
+        label: OrganismTaxon
+        name: Staphylococcus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference: https://go.drugbank.com/drugs/DB01327
+-   directed: true
+    graph:
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: Cefazolin
+        drug_mesh: MESH:D002437
+        drugbank: DB:DB01327
+    links:
+    -   key: decreases activity of
+        source: MESH:D002437
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:D002437
+        label: Drug
+        name: Cefazolin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference: https://go.drugbank.com/drugs/DB01327
+-   directed: true
+    graph:
+        disease: African trypanosomiasis
+        disease_mesh: MESH:D014353
+        drug: Eflornithine
+        drug_mesh: MESH:D000518
+        drugbank: DB:DB06243
+    links:
+    -   key: decreases activity of
+        source: MESH:D000518
+        target: UniProt:P11926
+    -   key: positively regulates
+        source: UniProt:P11926
+        target: GO:0033387
+    -   key: positively correlated with
+        source: GO:0033387
+        target: CHEBI:35490
+    -   key: positively regulates
+        source: CHEBI:35490
+        target: GO:0045454
+    -   key: in taxon
+        source: GO:0045454
+        target: NCBITaxon:5691
+    -   key: causes
+        source: NCBITaxon:5691
+        target: MESH:D014353
+    multigraph: true
+    nodes:
+    -   id: MESH:D000518
+        label: Drug
+        name: Eflornithine
+    -   id: UniProt:P11926
+        label: Protein
+        name: Ornithine decarboxylase
+    -   id: GO:0033387
+        label: BiologicalProcess
+        name: Putrescine biosynthetic process from ornithine
+    -   id: CHEBI:35490
+        label: ChemicalSubstance
+        name: Trypanothione disulfide
+    -   id: GO:0045454
+        label: BiologicalProcess
+        name: Cell redox homeostasis
+    -   id: NCBITaxon:5691
+        label: OrganismTaxon
+        name: Trypanosoma brucei
+    -   id: MESH:D014353
+        label: Disease
+        name: African trypanosomiasis
+    reference: https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/eflornithine#:~:text=Eflornithine%20acts%20as%20an%20irreversible,to%20block%20reactive%20oxygen%20intermediates
+        https://go.drugbank.com/drugs/DB06243
+-   comment: Plerixafor is used in combination with granulocyte-colony stimulating
+        factor (G-CSF, filgrastim) to mobilize hematopoietic stem cells to the peripheral
+        blood for collection and subsequent autologous transplantation in patients
+        with multiple myeloma.
+    directed: true
+    graph:
+        disease: Multiple myeloma
+        disease_mesh: MESH:D009101
+        drug: Plerixafor
+        drug_mesh: MESH:C088327
+        drugbank: DB:DB06809
+    links:
+    -   key: decreases activity of
+        source: MESH:C088327
+        target: UniProt:P61073
+    -   key: negatively correlated with
+        source: UniProt:P61073
+        target: GO:0035701
+    -   key: increases abundance of
+        source: GO:0035701
+        target: CL:0000037
+    -   key: treats
+        source: CL:0000037
+        target: MESH:D009101
+    multigraph: true
+    nodes:
+    -   id: MESH:C088327
+        label: Drug
+        name: Plerixafor
+    -   id: UniProt:P61073
+        label: Protein
+        name: C-X-C chemokine receptor type 4
+    -   id: GO:0035701
+        label: BiologicalProcess
+        name: Hematopoietic stem cell migration
+    -   id: CL:0000037
+        label: Cell
+        name: Hematopoietic stem cell
+    -   id: MESH:D009101
+        label: Disease
+        name: Multiple myeloma
+    reference: https://en.wikipedia.org/wiki/Plerixafor#Pharmacology https://go.drugbank.com/drugs/DB06809
+        https://pubmed.ncbi.nlm.nih.gov/17640590/
+-   directed: true
+    graph:
+        disease: Gastroesophageal reflux disease
+        disease_mesh: MESH:D005764
+        drug: Potassium hydrogencarbonate
+        drug_mesh: MESH:C026329
+        drugbank: DB:DB11098
+    links:
+    -   key: negatively regulates
+        source: MESH:C026329
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D005764
+    multigraph: true
+    nodes:
+    -   id: MESH:C026329
+        label: Drug
+        name: Potassium hydrogencarbonate
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    reference: https://go.drugbank.com/drugs/DB11098
+-   directed: true
+    graph:
+        disease: Hypokalemia
+        disease_mesh: MESH:D007008
+        drug: Potassium hydrogencarbonate
+        drug_mesh: MESH:C026329
+        drugbank: DB:DB11098
+    links:
+    -   key: increases abundance of
+        source: MESH:C026329
+        target: MESH:D011188
+    -   key: negatively correlated with
+        source: MESH:D011188
+        target: MESH:D007008
+    multigraph: true
+    nodes:
+    -   id: MESH:C026329
+        label: Drug
+        name: Potassium hydrogencarbonate
+    -   id: MESH:D011188
+        label: ChemicalSubstance
+        name: Potassium
+    -   id: MESH:D007008
+        label: Disease
+        name: Hypokalemia
+    reference: https://go.drugbank.com/drugs/DB11098 https://en.wikipedia.org/wiki/Hypokalemia
+-   directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: Potassium hydrogencarbonate
+        drug_mesh: MESH:C026329
+        drugbank: DB:DB11098
+    links:
+    -   key: negatively regulates
+        source: MESH:C026329
+        target: MESH:D005744
+    -   key: positively regulates
+        source: MESH:D005744
+        target: InterPro:IPR034162
+    -   key: positively correlated with
+        source: InterPro:IPR034162
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:C026329
+        label: Drug
+        name: Potassium hydrogencarbonate
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: InterPro:IPR034162
+        label: GeneFamily
+        name: Pepsin catalytic domain
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference: https://go.drugbank.com/drugs/DB11098
+-   directed: true
+    graph:
+        disease: Indigestion
+        disease_mesh: MESH:D004415
+        drug: Potassium hydrogencarbonate
+        drug_mesh: MESH:C026329
+        drugbank: DB:DB11098
+    links:
+    -   key: negatively regulates
+        source: MESH:C026329
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: HP:0002020
+    -   key: manifestation of
+        source: HP:0002020
+        target: MESH:D004415
+    multigraph: true
+    nodes:
+    -   id: MESH:C026329
+        label: Drug
+        name: Potassium hydrogencarbonate
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: HP:0002020
+        label: PhenotypicFeature
+        name: Gastroesophageal reflux
+    -   id: MESH:D004415
+        label: Disease
+        name: Indigestion
+    reference: https://go.drugbank.com/drugs/DB11098
+-   directed: true
+    graph:
+        disease: Heartburn
+        disease_mesh: MESH:D006356
+        drug: Potassium hydrogencarbonate
+        drug_mesh: MESH:C026329
+        drugbank: DB:DB11098
+    links:
+    -   key: negatively regulates
+        source: MESH:C026329
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D006356
+    multigraph: true
+    nodes:
+    -   id: MESH:C026329
+        label: Drug
+        name: Potassium hydrogencarbonate
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    reference: https://go.drugbank.com/drugs/DB11098
