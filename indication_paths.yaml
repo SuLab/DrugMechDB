@@ -74398,3 +74398,1038 @@
         https://en.wikipedia.org/wiki/Schizophrenia#Signs_and_symptoms https://en.wikipedia.org/wiki/Dopaminergic_pathways#Pathways
         https://en.wikipedia.org/wiki/Mesocortical_pathway https://en.wikipedia.org/wiki/Dopamine_hypothesis_of_schizophrenia#Introduction
         https://en.wikipedia.org/wiki/Atypical_antipsychotic#Pharmacology https://en.wikipedia.org/wiki/5-HT1A_receptor#Function
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: Flunisolide
+        drug_mesh: MESH:C007734
+        drugbank: DB:DB00180
+    links:
+    -   key: increases activity of
+        source: MESH:C007734
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P47712
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P47712
+        target: MESH:D017998
+    -   key: positively regulates
+        source: MESH:D017998
+        target: GO:0006939
+    -   key: positively regulates
+        source: MESH:D017998
+        target: GO:0043117
+    -   key: positively regulates
+        source: MESH:D017998
+        target: GO:0006954
+    -   key: manifestation of
+        source: GO:0043117
+        target: MESH:D001249
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001249
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: manifestation of
+        source: GO:0006939
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:C007734
+        label: Drug
+        name: Flunisolide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D017998
+        label: ChemicalSubstance
+        name: Leukotriene D4
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: Positive regulation of vascular permeability
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference: https://go.drugbank.com/drugs/DB00180 https://en.wikipedia.org/wiki/Leukotriene
+        https://en.wikipedia.org/wiki/Asthma
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Flunisolide
+        drug_mesh: MESH:C007734
+        drugbank: DB:DB00180
+    links:
+    -   key: increases activity of
+        source: MESH:C007734
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: negatively regulates
+        source: UniProt:P04083
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P47712
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P47712
+        target: MESH:D017998
+    -   key: positively regulates
+        source: MESH:D017998
+        target: GO:0070254
+    -   key: positively regulates
+        source: MESH:D017998
+        target: GO:0043117
+    -   key: positively regulates
+        source: MESH:D017998
+        target: GO:0006954
+    -   key: manifestation of
+        source: GO:0043117
+        target: MESH:D065631
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D065631
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: manifestation of
+        source: GO:0070254
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C007734
+        label: Drug
+        name: Flunisolide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D017998
+        label: ChemicalSubstance
+        name: Leukotriene D4
+    -   id: GO:0070254
+        label: BiologicalProcess
+        name: Mucus secretion
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: Positive regulation of vascular permeability
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB00180 https://en.wikipedia.org/wiki/Leukotriene
+        https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   comment: The precise mechanism of action of ropinirole as a treatment for Restless
+        Legs Syndrome is unknown, however, it is believed to be related to its ability
+        to stimulate dopamine receptors
+    directed: true
+    graph:
+        disease: Restless legs
+        disease_mesh: MESH:D012148
+        drug: Ropinirole
+        drug_mesh: MESH:C046649
+        drugbank: DB:DB00268
+    links:
+    -   key: positively regulates
+        source: MESH:C046649
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: MESH:C046649
+        target: UniProt:P35462
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: disrupted by
+        source: GO:0061527
+        target: MESH:D012148
+    multigraph: true
+    nodes:
+    -   id: MESH:C046649
+        label: Drug
+        name: Ropinirole
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D012148
+        label: Disease
+        name: Restless legs
+    reference: https://go.drugbank.com/drugs/DB00268 https://en.wikipedia.org/wiki/Restless_legs_syndrome#Mechanism
+-   directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: Ropinirole
+        drug_mesh: MESH:C046649
+        drugbank: DB:DB00268
+    links:
+    -   key: positively regulates
+        source: MESH:C046649
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: MESH:C046649
+        target: UniProt:P35462
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: located in
+        source: MESH:D004298
+        target: UBERON:0035999
+    -   key: located in
+        source: UBERON:0035999
+        target: UBERON:0002038
+    -   key: part of
+        source: UBERON:0002038
+        target: UBERON:0014169
+    -   key: disrupted by
+        source: UBERON:0014169
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:C046649
+        label: Drug
+        name: Ropinirole
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: UBERON:0035999
+        label: GrossAnatomicalStructure
+        name: Dopaminergic cell groups
+    -   id: UBERON:0002038
+        label: GrossAnatomicalStructure
+        name: Substantia nigra
+    -   id: UBERON:0014169
+        label: GrossAnatomicalStructure
+        name: Nigrostriatal tract
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference: https://go.drugbank.com/drugs/DB00268 https://en.wikipedia.org/wiki/Parkinson%27s_disease
+-   directed: true
+    graph:
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: Latanoprost
+        drug_mesh: MESH:C072042
+        drugbank: DB:DB00654
+    links:
+    -   key: increases activity of
+        source: MESH:C072042
+        target: UniProt:P43088
+    -   key: positively regulates
+        source: UniProt:P43088
+        target: GO:0008237
+    -   key: decreases abundance of
+        source: GO:0008237
+        target: GO:0031012
+    -   key: positively correlated with
+        source: GO:0031012
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:C072042
+        label: Drug
+        name: Latanoprost
+    -   id: UniProt:P43088
+        label: Protein
+        name: Prostaglandin F2-alpha receptor
+    -   id: GO:0008237
+        label: BiologicalProcess
+        name: Metallopeptidase activity
+    -   id: GO:0031012
+        label: CellularComponent
+        name: Extracellular matrix
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference: https://go.drugbank.com/drugs/DB00654 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991965/
+-   directed: true
+    graph:
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: Latanoprost
+        drug_mesh: MESH:C072042
+        drugbank: DB:DB00654
+    links:
+    -   key: increases activity of
+        source: MESH:C072042
+        target: UniProt:P43088
+    -   key: positively regulates
+        source: UniProt:P43088
+        target: GO:0008237
+    -   key: decreases abundance of
+        source: GO:0008237
+        target: GO:0031012
+    -   key: positively correlated with
+        source: GO:0031012
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: affects risk for
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:C072042
+        label: Drug
+        name: Latanoprost
+    -   id: UniProt:P43088
+        label: Protein
+        name: Prostaglandin F2-alpha receptor
+    -   id: GO:0008237
+        label: BiologicalProcess
+        name: Metallopeptidase activity
+    -   id: GO:0031012
+        label: CellularComponent
+        name: Extracellular matrix
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference: https://go.drugbank.com/drugs/DB00654 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991965/
+-   directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: Apomorphine
+        drug_mesh: MESH:D001058
+        drugbank: DB:DB00714
+    links:
+    -   key: positively regulates
+        source: MESH:D001058
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: MESH:D001058
+        target: UniProt:P35462
+    -   key: positively regulates
+        source: MESH:D001058
+        target: UniProt:P21917
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P21917
+        target: MESH:D004298
+    -   key: located in
+        source: MESH:D004298
+        target: UBERON:0035999
+    -   key: located in
+        source: UBERON:0035999
+        target: UBERON:0002038
+    -   key: part of
+        source: UBERON:0002038
+        target: UBERON:0014169
+    -   key: disrupted by
+        source: UBERON:0014169
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:D001058
+        label: Drug
+        name: Apomorphine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: UniProt:P21917
+        label: Protein
+        name: Dopamine D4 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: UBERON:0035999
+        label: GrossAnatomicalStructure
+        name: Dopaminergic cell groups
+    -   id: UBERON:0002038
+        label: GrossAnatomicalStructure
+        name: Substantia nigra
+    -   id: UBERON:0014169
+        label: GrossAnatomicalStructure
+        name: Nigrostriatal tract
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference: https://go.drugbank.com/drugs/DB00714 https://en.wikipedia.org/wiki/Apomorphine#Pharmacology
+-   directed: true
+    graph:
+        disease: Cystic fibrosis
+        disease_mesh: MESH:D003550
+        drug: Mannitol
+        drug_mesh: MESH:D008353
+        drugbank: DB:DB00742
+    links:
+    -   key: positively regulates
+        source: MESH:D008353
+        target: GO:0006972
+    -   key: positively regulates
+        source: GO:0006972
+        target: GO:0120197
+    -   key: negatively correlated with
+        source: GO:0120197
+        target: MESH:D003550
+    multigraph: true
+    nodes:
+    -   id: MESH:D008353
+        label: Drug
+        name: Mannitol
+    -   id: GO:0006972
+        label: BiologicalProcess
+        name: Hyperosmotic response
+    -   id: GO:0120197
+        label: BiologicalProcess
+        name: Mucociliary clearance
+    -   id: MESH:D003550
+        label: Disease
+        name: Cystic fibrosis
+    reference: https://go.drugbank.com/drugs/DB00742 https://en.wikipedia.org/wiki/Cystic_fibrosis#Pathophysiology
+-   directed: true
+    graph:
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: Mannitol
+        drug_mesh: MESH:D008353
+        drugbank: DB:DB00742
+    links:
+    -   key: positively regulates
+        source: MESH:D008353
+        target: GO:0006972
+    -   key: negatively regulates
+        source: GO:0006972
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:D008353
+        label: Drug
+        name: Mannitol
+    -   id: GO:0006972
+        label: BiologicalProcess
+        name: Hyperosmotic response
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference: https://go.drugbank.com/drugs/DB00742
+-   directed: true
+    graph:
+        disease: Edema
+        disease_mesh: MESH:D004487
+        drug: Mannitol
+        drug_mesh: MESH:D008353
+        drugbank: DB:DB00742
+    links:
+    -   key: positively regulates
+        source: MESH:D008353
+        target: GO:0006972
+    -   key: negatively regulates
+        source: GO:0006972
+        target: MESH:D004487
+    multigraph: true
+    nodes:
+    -   id: MESH:D008353
+        label: Drug
+        name: Mannitol
+    -   id: GO:0006972
+        label: BiologicalProcess
+        name: Hyperosmotic response
+    -   id: MESH:D004487
+        label: Disease
+        name: Edema
+    reference: https://go.drugbank.com/drugs/DB00742
+-   directed: true
+    graph:
+        disease: Benign intracranial hypertension
+        disease_mesh: MESH:D011559
+        drug: Mannitol
+        drug_mesh: MESH:D008353
+        drugbank: DB:DB00742
+    links:
+    -   key: positively regulates
+        source: MESH:D008353
+        target: GO:0006972
+    -   key: negatively regulates
+        source: GO:0006972
+        target: MESH:D011559
+    multigraph: true
+    nodes:
+    -   id: MESH:D008353
+        label: Drug
+        name: Mannitol
+    -   id: GO:0006972
+        label: BiologicalProcess
+        name: Hyperosmotic response
+    -   id: MESH:D011559
+        label: Disease
+        name: Benign intracranial hypertension
+    reference: https://go.drugbank.com/drugs/DB00742
+-   directed: true
+    graph:
+        disease: Cerebral edema
+        disease_mesh: MESH:D001929
+        drug: Mannitol
+        drug_mesh: MESH:D008353
+        drugbank: DB:DB00742
+    links:
+    -   key: positively regulates
+        source: MESH:D008353
+        target: GO:0006972
+    -   key: negatively regulates
+        source: GO:0006972
+        target: MESH:D001929
+    multigraph: true
+    nodes:
+    -   id: MESH:D008353
+        label: Drug
+        name: Mannitol
+    -   id: GO:0006972
+        label: BiologicalProcess
+        name: Hyperosmotic response
+    -   id: MESH:D001929
+        label: Disease
+        name: Cerebral edema
+    reference: https://go.drugbank.com/drugs/DB00742
+-   directed: true
+    graph:
+        disease: Narcolepsy
+        disease_mesh: MESH:D009290
+        drug: Modafinil
+        drug_mesh: MESH:C048833
+        drugbank: DB:DB00745
+    links:
+    -   key: decreases activity of
+        source: MESH:C048833
+        target: UniProt:Q01959
+    -   key: increases abundance of
+        source: MESH:C048833
+        target: MESH:D006632
+    -   key: increases abundance of
+        source: MESH:C048833
+        target: UniProt:O43612
+    -   key: decreases abundance of
+        source: UniProt:Q01959
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D006632
+        target: GO:0042746
+    -   key: positively correlated with
+        source: UniProt:O43612
+        target: GO:0042746
+    -   key: negatively correlated with
+        source: GO:0042746
+        target: MESH:D009290
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: disrupted by
+        source: GO:0061527
+        target: MESH:D009290
+    multigraph: true
+    nodes:
+    -   id: MESH:C048833
+        label: Drug
+        name: Modafinil
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:O43612
+        label: Protein
+        name: Orexin
+    -   id: GO:0042746
+        label: BiologicalProcess
+        name: Circadian sleep/wake cycle, wakefulness
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D009290
+        label: Disease
+        name: Narcolepsy
+    reference: https://en.wikipedia.org/wiki/Modafinil#Pharmacology https://go.drugbank.com/drugs/DB00745
+        https://pubmed.ncbi.nlm.nih.gov/29616340/
+-   directed: true
+    graph:
+        disease: Erythropoietic protoporphyria
+        disease_mesh: MESH:D046351
+        drug: Afamelanotide
+        drug_mesh: MESH:C534526
+        drugbank: DB:DB04931
+    links:
+    -   key: increases activity of
+        source: MESH:C534526
+        target: UniProt:Q01726
+    -   key: participates in
+        source: UniProt:Q01726
+        target: GO:0004977
+    -   key: positively regulates
+        source: GO:0004977
+        target: GO:0042438
+    -   key: positively correlated with
+        source: GO:0042438
+        target: GO:0009650
+    -   key: negatively correlated with
+        source: GO:0009650
+        target: HP:0000992
+    -   key: manifestation of
+        source: HP:0000992
+        target: MESH:D046351
+    multigraph: true
+    nodes:
+    -   id: MESH:C534526
+        label: Drug
+        name: Afamelanotide
+    -   id: UniProt:Q01726
+        label: Protein
+        name: Melanocyte-stimulating hormone receptor
+    -   id: GO:0004977
+        label: MolecularActivity
+        name: Melanocortin receptor activity
+    -   id: GO:0042438
+        label: BiologicalProcess
+        name: Melanin biosynthetic process
+    -   id: GO:0009650
+        label: BiologicalProcess
+        name: UV protection
+    -   id: HP:0000992
+        label: PhenotypicFeature
+        name: Cutaneous photosensitivity
+    -   id: MESH:D046351
+        label: Drug
+        name: Erythropoietic protoporphyria
+    reference: https://go.drugbank.com/drugs/DB04931#BE0002447 https://en.wikipedia.org/wiki/Erythropoietic_protoporphyria
+-   comment: Salicylamide belongs to a group of drugs called Non-Steroidal Anti-Inflammatory
+        Drug (NSAIDs) https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-29805-2_2823
+    directed: true
+    graph:
+        disease: Joint pain
+        disease_mesh: MESH:D018771
+        drug: Salicylamide
+        drug_mesh: MESH:C524082,MESH:C031060
+        drugbank: DB:DB08797
+    links:
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D018771
+    multigraph: true
+    nodes:
+    -   id: DB:DB08797
+        label: Drug
+        name: Salicylamide
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D018771
+        label: Disease
+        name: Joint pain
+    reference: https://go.drugbank.com/drugs/DB08797
+-   comment: Salicylamide belongs to a group of drugs called Non-Steroidal Anti-Inflammatory
+        Drug (NSAIDs) https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-29805-2_2823
+    directed: true
+    graph:
+        disease: Joint pain
+        disease_mesh: MESH:D018771
+        drug: Salicylamide
+        drug_mesh: MESH:C524082,MESH:C031060
+        drugbank: DB:DB08797
+    links:
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: MESH:D018771
+    multigraph: true
+    nodes:
+    -   id: DB:DB08797
+        label: Drug
+        name: Salicylamide
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D018771
+        label: Disease
+        name: Joint pain
+    reference: https://go.drugbank.com/drugs/DB08797
+-   comment: Salicylamide belongs to a group of drugs called Non-Steroidal Anti-Inflammatory
+        Drug (NSAIDs) https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-29805-2_2823
+    directed: true
+    graph:
+        disease: Headache disorder
+        disease_mesh: MESH:D020773
+        drug: Salicylamide
+        drug_mesh: MESH:C524082,MESH:C031060
+        drugbank: DB:DB08797
+    links:
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: MESH:D020773
+    multigraph: true
+    nodes:
+    -   id: DB:DB08797
+        label: Drug
+        name: Salicylamide
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D020773
+        label: Disease
+        name: Headache disorder
+    reference: https://go.drugbank.com/drugs/DB08797
+-   comment: Salicylamide belongs to a group of drugs called Non-Steroidal Anti-Inflammatory
+        Drug (NSAIDs) https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-29805-2_2823
+    directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: Salicylamide
+        drug_mesh: MESH:C524082,MESH:C031060
+        drugbank: DB:DB08797
+    links:
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: DB:DB08797
+        label: Drug
+        name: Salicylamide
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference: https://go.drugbank.com/drugs/DB08797
+-   comment: Salicylamide belongs to a group of drugs called Non-Steroidal Anti-Inflammatory
+        Drug (NSAIDs) https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-29805-2_2823
+    directed: true
+    graph:
+        disease: Backache
+        disease_mesh: MESH:D001416
+        drug: Salicylamide
+        drug_mesh: MESH:C524082,MESH:C031060
+        drugbank: DB:DB08797
+    links:
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: MESH:D001416
+    multigraph: true
+    nodes:
+    -   id: DB:DB08797
+        label: Drug
+        name: Salicylamide
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001416
+        label: Disease
+        name: Backache
+    reference: https://go.drugbank.com/drugs/DB08797
+-   comment: Salicylamide belongs to a group of drugs called Non-Steroidal Anti-Inflammatory
+        Drug (NSAIDs) https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-29805-2_2823
+    directed: true
+    graph:
+        disease: Fever
+        disease_mesh: MESH:D005334
+        drug: Salicylamide
+        drug_mesh: MESH:C524082,MESH:C031060
+        drugbank: DB:DB08797
+    links:
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB08797
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: occurs in
+        source: MESH:D011453
+        target: UBERON:0000955
+    -   key: location of
+        source: UBERON:0000955
+        target: GO:0001659
+    -   key: negatively correlated with
+        source: GO:0001659
+        target: MESH:D005334
+    multigraph: true
+    nodes:
+    -   id: DB:DB08797
+        label: Drug
+        name: Salicylamide
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: UBERON:0000955
+        label: GrossAnatomicalStructure
+        name: Brain
+    -   id: GO:0001659
+        label: BiologicalProcess
+        name: Temperature Homeostasis
+    -   id: MESH:D005334
+        label: Disease
+        name: Fever
+    reference: https://go.drugbank.com/drugs/DB08797 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6047205/
+-   comments: Nusinersen modulates alternative splicing of the SMN2 gene, functionally
+        converting it into SMN1 gene, thus increasing the level of SMN protein in
+        the CNS.
+    directed: true
+    graph:
+        disease: Spinal muscular atrophy
+        disease_mesh: MESH:D009134
+        drug: Nusinersen
+        drug_mesh: MESH:C000590926
+        drugbank: DB:DB13161
+    links:
+    -   key: positively regulates
+        source: MESH:C000590926
+        target: GO:0000380
+    -   key: produces
+        source: GO:0000380
+        target: UniProt:B4DP61
+    -   key: disrupted by
+        source: UniProt:B4DP61
+        target: MESH:D009134
+    multigraph: true
+    nodes:
+    -   id: MESH:C000590926
+        label: Drug
+        name: Nusinersen
+    -   id: GO:0000380
+        label: BiologicalProcess
+        name: Alternative mRNA splicing, via spliceosome
+    -   id: UniProt:B4DP61
+        label: Protein
+        name: Survival motor neuron protein
+    -   id: MESH:D009134
+        label: Disease
+        name: Spinal muscular atrophy
+    reference: https://go.drugbank.com/drugs/DB13161 https://en.wikipedia.org/wiki/Nusinersen
