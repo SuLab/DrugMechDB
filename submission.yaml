@@ -1,1 +1,1171 @@
+- directed: true
+  graph:
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: timolol
+    drug_mesh: MESH:D013999
+    drugbank: DB:DB00484
+  links:
+    - key: decreases activity of
+      source: MESH:D013999
+      target: UniProt:P07550
+    - key: decreases activity of
+      source: MESH:D013999
+      target: UniProt:P08588
+    - key: participates in
+      source: UniProt:P07550
+      target: REACT:R-HSA-418555
+    - key: participates in
+      source: UniProt:P08588
+      target: REACT:R-HSA-418555
+    - key: increases abundance of
+      source: REACT:R-HSA-418555
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D013999
+      label: Drug
+      name: timolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: UniProt:P07550
+      label: Protein
+      name: Beta-2 adrenergic receptor
+    - id: REACT:R-HSA-418555
+      label: Pathway
+      name: G alpha (s) signalling events
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference: https://go.drugbank.com/drugs/DB00373#mechanism-of-action https://en.wikipedia.org/wiki/Timolol#Eye_drops https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5342868/
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: timolol
+    drug_mesh: MESH:D013999
+    drugbank: DB:DB00484
+  links:
+    - key: decreases activity of
+      source: MESH:D013999
+      target: MESH:D011943
+    - key: positively regulates
+      source: MESH:D011943
+      target: MESH:D013564
+    - key: positively correlated with
+      source: MESH:D013564
+      target: MESH:D012084
+    - key: positively correlated with
+      source: MESH:D012084
+      target: HP:0032263
+    - key: positively correlated with
+      source: MESH:D011943
+      target: HP:0033533
+    - key: positively correlated with
+      source: MESH:D011943
+      target: HP:0001649
+    - key: positively correlated with
+      source: HP:0032263
+      target: MESH:D006973
+    - key: positively correlated with
+      source: HP:0001649
+      target: MESH:D006973
+    - key: positively correlated with
+      source: HP:0033533
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D013999
+      label: Drug
+      name: timolol
+    - id: MESH:D011943
+      label: GeneFamily
+      name: Receptors, Adrenergic, beta
+    - id: MESH:D013564
+      label: GrossAnatomicalStructure
+      name: Sympathetic Nervous System
+    - id: MESH:D012084
+      label: GrossAnatomicalStructure
+      name: Renin-Angiotensin System
+    - id: HP:0001649
+      label: PhenotypicFeature
+      name: Tachycardia
+    - id: HP:0033533
+      label: PhenotypicFeature
+      name: Increased cardiac output
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference: https://go.drugbank.com/drugs/DB00373#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/33624#section=Pharmacology-and-Biochemistry https://en.wikipedia.org/wiki/Beta_blocker#%CE%B2-receptor_antagonism
+- directed: true
+  graph:
+    disease: Ocular hypertension
+    disease_mesh: MESH:D009798
+    drug: timolol
+    drug_mesh: MESH:D013999
+    drugbank: DB:DB00484
+  links:
+    - key: decreases activity of
+      source: MESH:D013999
+      target: UniProt:P07550
+    - key: decreases activity of
+      source: MESH:D013999
+      target: UniProt:P08588
+    - key: participates in
+      source: UniProt:P07550
+      target: REACT:R-HSA-418555
+    - key: participates in
+      source: UniProt:P08588
+      target: REACT:R-HSA-418555
+    - key: increases abundance of
+      source: REACT:R-HSA-418555
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: MESH:D009798
+  multigraph: true
+  nodes:
+    - id: MESH:D013999
+      label: Drug
+      name: timolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: UniProt:P07550
+      label: Protein
+      name: Beta-2 adrenergic receptor
+    - id: REACT:R-HSA-418555
+      label: Pathway
+      name: G alpha (s) signalling events
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: MESH:D009798
+      label: Disease
+      name: Ocular hypertension
+  reference: https://go.drugbank.com/drugs/DB00373#mechanism-of-action https://en.wikipedia.org/wiki/Timolol#Eye_drops https://en.wikipedia.org/wiki/Ocular_hypertension#Treatment https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5342868/
+- directed: true
+  graph:
+    disease: Low blood pressure
+    disease_mesh: MESH:D007022
+    drug: metaraminol
+    drug_mesh: MESH:D008680
+    drugbank: DB:DB00610
+  links:
+    - key: increases activity of
+      source: MESH:D008680
+      target: UniProt:P35348
+    - key: positively correlated with
+      source: UniProt:P35348
+      target: GO:0042310
+    - key: positively correlated with
+      source: UniProt:P35348
+      target: GO:0060048
+    - key: negatively correlated with
+      source: GO:0060048
+      target: MESH:D007022
+    - key: negatively correlated with
+      source: GO:0042310
+      target: MESH:D007022
+  multigraph: true
+  nodes:
+    - id: MESH:D008680
+      label: Drug
+      name: metaraminol
+    - id: UniProt:P35348
+      label: Protein
+      name: Alpha-1A adrenergic receptor
+    - id: GO:0060048
+      label: BiologicalProcess
+      name: cardiac muscle contraction
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: MESH:D007022
+      label: Disease
+      name: Low blood pressure
+  reference: https://go.drugbank.com/drugs/DB00610#mechanism-of-action
+- directed: true
+  graph:
+    disease: Iridocyclitis
+    disease_mesh: MESH:D015863
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: Pfam:PF00809
+    - key: positively correlated with
+      source: Pfam:PF00809
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:2
+    - key: causes
+      source: NCBITaxon:2
+      target: MESH:D015863
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: Pfam:PF00809
+      label: GeneFamily
+      name: Dihydropteroate synthase
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:2
+      label: OrganismTaxon
+      name: Bacteria
+    - id: MESH:D015863
+      label: Disease
+      name: Iridocyclitis
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action https://en.wikipedia.org/wiki/Sulfacetamide#Mechanisms_of_action
+- directed: true
+  graph:
+    disease: Seborrheic dermatitis
+    disease_mesh: MESH:D012628
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: Pfam:PF00809
+    - key: positively correlated with
+      source: Pfam:PF00809
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:55193
+    - key: causes
+      source: NCBITaxon:55193
+      target: MESH:D012628
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: Pfam:PF00809
+      label: GeneFamily
+      name: Dihydropteroate synthase
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:55193
+      label: OrganismTaxon
+      name: Malassezia sp.
+    - id: MESH:D012628
+      label: Disease
+      name: Seborrheic dermatitis
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action https://en.wikipedia.org/wiki/Sulfacetamide#Efficacy
+- directed: true
+  graph:
+    disease: Vulvovaginitis
+    disease_mesh: MESH:D014848
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: Pfam:PF00809
+    - key: positively correlated with
+      source: Pfam:PF00809
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:5476
+    - key: causes
+      source: NCBITaxon:5476
+      target: MESH:D014848
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: Pfam:PF00809
+      label: GeneFamily
+      name: Dihydropteroate synthase
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:5476
+      label: OrganismTaxon
+      name: Candida albicans
+    - id: MESH:D014848
+      label: Disease
+      name: Vulvovaginitis
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action https://en.wikipedia.org/wiki/Vaginitis#Infection https://en.wikipedia.org/wiki/Sulfacetamide#Mechanisms_of_action
+- directed: true
+  graph:
+    disease: Conjunctivitis, Inclusion
+    disease_mesh: MESH:D003235
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: Pfam:PF00809
+    - key: positively correlated with
+      source: Pfam:PF00809
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:813
+    - key: causes
+      source: NCBITaxon:813
+      target: MESH:D003235
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: Pfam:PF00809
+      label: GeneFamily
+      name: Dihydropteroate synthase
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:813
+      label: OrganismTaxon
+      name: Chlamydia trachomatis
+    - id: MESH:D003235
+      label: Disease
+      name: Conjunctivitis, Inclusion
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action https://en.wikipedia.org/wiki/Chlamydia_trachomatis#Role_in_disease https://en.wikipedia.org/wiki/Sulfacetamide#Mechanisms_of_action
+  comments: This disease is denoted as Chlamydial conjunctivitis in the original file.
+- directed: true
+  graph:
+    disease: Acne vulgaris
+    disease_mesh: MESH:D000152
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: Pfam:PF00809
+    - key: positively correlated with
+      source: Pfam:PF00809
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:1747
+    - key: causes
+      source: NCBITaxon:1747
+      target: MESH:D000152
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: Pfam:PF00809
+      label: GeneFamily
+      name: Dihydropteroate synthase
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:1747
+      label: OrganismTaxon
+      name: Cutibacterium acnes
+    - id: MESH:D000152
+      label: Disease
+      name: Acne vulgaris
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action https://en.wikipedia.org/wiki/Sulfacetamide#Mechanisms_of_action
+- directed: true
+  graph:
+    disease: Uveitis
+    disease_mesh: MESH:D014605
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: Pfam:PF00809
+    - key: positively correlated with
+      source: Pfam:PF00809
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014605
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: Pfam:PF00809
+      label: GeneFamily
+      name: Dihydropteroate synthase
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014605
+      label: Disease
+      name: Uveitis
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action https://en.wikipedia.org/wiki/Sulfacetamide#Mechanisms_of_action
+- directed: true
+  graph:
+    disease: Trachoma
+    disease_mesh: MESH:D014141
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: Pfam:PF00809
+    - key: positively correlated with
+      source: Pfam:PF00809
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:813
+    - key: causes
+      source: NCBITaxon:813
+      target: MESH:D014141
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: Pfam:PF00809
+      label: GeneFamily
+      name: Dihydropteroate synthase
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:813
+      label: OrganismTaxon
+      name: Chlamydia trachomatis
+    - id: MESH:D014141
+      label: Disease
+      name: Trachoma
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action https://en.wikipedia.org/wiki/Sulfacetamide#Mechanisms_of_action
+- directed: true
+  graph:
+    disease: Postmenopausal osteoporosis
+    disease_mesh: MESH:D015663
+    drug: ibandronic acid
+    drug_mesh: MESH:C073007
+    drugbank: DB:DB00710
+  links:
+    - key: decreases activity of
+      source: MESH:C073007
+      target: UniProt:P14324
+    - key: decreases activity of
+      source: MESH:C073007
+      target: UniProt:O95749
+    - key: molecularly interacts with
+      source: MESH:C073007
+      target: CHEBI:52255
+    - key: positively correlated with
+      source: CHEBI:52255
+      target: GO:0001503
+    - key: positively correlated with
+      source: CHEBI:52255
+      target: GO:1990523
+    - key: positively correlated with
+      source: UniProt:P14324
+      target: GO:0008299
+    - key: positively correlated with
+      source: UniProt:O95749
+      target: GO:0008299
+    - key: positively correlated with
+      source: GO:0008299
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: HP:0004349
+    - key: positively correlated with
+      source: HP:0004349
+      target: MESH:D015663
+    - key: negatively correlated with
+      source: GO:0001503
+      target: MESH:D015663
+    - key: negatively correlated with
+      source: GO:1990523
+      target: MESH:D015663
+  multigraph: true
+  nodes:
+    - id: MESH:C073007
+      label: Drug
+      name: ibandronic acid
+    - id: UniProt:P14324
+      label: Protein
+      name: Farnesyl pyrophosphate synthase
+    - id: UniProt:O95749
+      label: Protein
+      name: Geranylgeranyl pyrophosphate synthase
+    - id: CHEBI:52255
+      label: ChemicalSubstance
+      name: hydroxylapatite
+    - id: GO:0008299
+      label: BiologicalProcess
+      name: isoprenoid biosynthetic process
+    - id: GO:0001503
+      label: BiologicalProcess
+      name: ossification
+    - id: GO:1990523
+      label: BiologicalProcess
+      name: bone regeneration
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: HP:0004349
+      label: PhenotypicFeature
+      name: Reduced bone mineral density
+    - id: MESH:D015663
+      label: Disease
+      name: Postmenopausal osteoporosis
+  reference: https://go.drugbank.com/drugs/DB00710#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/60852#section=Pharmacology https://journals.sagepub.com/doi/10.4137/BTRI.S36138 https://pubmed.ncbi.nlm.nih.gov/16531132/
+- directed: true
+  graph:
+    disease: Hypercalcemia
+    disease_mesh: MESH:D006934
+    drug: ibandronic acid
+    drug_mesh: MESH:C073007
+    drugbank: DB:DB00710
+  links:
+    - key: decreases activity of
+      source: MESH:C073007
+      target: UniProt:P14324
+    - key: decreases activity of
+      source: MESH:C073007
+      target: UniProt:O95749
+    - key: molecularly interacts with
+      source: MESH:C073007
+      target: CHEBI:52255
+    - key: positively correlated with
+      source: CHEBI:52255
+      target: GO:0001503
+    - key: positively correlated with
+      source: CHEBI:52255
+      target: GO:1990523
+    - key: positively correlated with
+      source: UniProt:P14324
+      target: GO:0008299
+    - key: positively correlated with
+      source: UniProt:O95749
+      target: GO:0008299
+    - key: positively correlated with
+      source: GO:0008299
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: MESH:D006934
+    - key: negatively correlated with
+      source: GO:0001503
+      target: MESH:D006934
+    - key: negatively correlated with
+      source: GO:1990523
+      target: MESH:D006934
+  multigraph: true
+  nodes:
+    - id: MESH:C073007
+      label: Drug
+      name: ibandronic acid
+    - id: UniProt:P14324
+      label: Protein
+      name: Farnesyl pyrophosphate synthase
+    - id: UniProt:O95749
+      label: Protein
+      name: Geranylgeranyl pyrophosphate synthase
+    - id: CHEBI:52255
+      label: ChemicalSubstance
+      name: hydroxylapatite
+    - id: GO:0008299
+      label: BiologicalProcess
+      name: isoprenoid biosynthetic process
+    - id: GO:0001503
+      label: BiologicalProcess
+      name: ossification
+    - id: GO:1990523
+      label: BiologicalProcess
+      name: bone regeneration
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: MESH:D006934
+      label: Disease
+      name: Hypercalcemia
+  reference: https://go.drugbank.com/drugs/DB00710#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/60852#section=Pharmacology https://en.wikipedia.org/wiki/Hypercalcaemia#Bisphosphonates_and_calcitonin https://journals.sagepub.com/doi/10.4137/BTRI.S36138 https://pubmed.ncbi.nlm.nih.gov/16531132/
+- directed: true
+  graph:
+    disease: Epilepsy, Tonic-Clonic
+    disease_mesh: MESH:D004830
+    drug: ethotoin
+    drug_mesh: MESH:C084606
+    drugbank: DB:DB00754
+  links:
+    - key: negatively regulates
+      source: MESH:C084606
+      target: InterPro:IPR001696
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0019228
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0019227
+    - key: positively correlated with
+      source: GO:0019227
+      target: HP:0002069
+    - key: positively correlated with
+      source: GO:0019228
+      target: HP:0002069
+    - key: positively correlated with
+      source: HP:0002069
+      target: MESH:D004830
+  multigraph: true
+  nodes:
+    - id: MESH:C084606
+      label: Drug
+      name: ethotoin
+    - id: InterPro:IPR001696
+      label: GeneFamily
+      name: Voltage gated sodium channel, alpha subunit
+    - id: GO:0019228
+      label: BiologicalProcess
+      name: neuronal action potential
+    - id: GO:0019227
+      label: BiologicalProcess
+      name: neuronal action potential propagation
+    - id: HP:0002069
+      label: PhenotypicFeature
+      name: Bilateral tonic-clonic seizure
+    - id: MESH:D004830
+      label: Disease
+      name: Epilepsy, Tonic-Clonic
+  reference: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2331043/ https://en.wikipedia.org/wiki/Ethotoin#Mechanism_of_action https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Urinary tract infectious disease
+    disease_mesh: MESH:D014552
+    drug: cinoxacin
+    drug_mesh: MESH:D002937
+    drugbank: DB:DB00827
+  links:
+    - key: negatively regulates
+      source: MESH:D002937
+      target: UniProt:P0AES4
+    - key: positively regulates
+      source: UniProt:P0AES4
+      target: GO:0006261
+    - key: precedes
+      source: GO:0006261
+      target: GO:0051301
+    - key: in taxon
+      source: GO:0051301
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D002937
+      label: Drug
+      name: cinoxacin
+    - id: UniProt:P0AES4
+      label: Protein
+      name: DNA gyrase subunit A
+    - id: GO:0006261
+      label: BiologicalProcess
+      name: DNA-dependent DNA replication
+    - id: GO:0051301
+      label: BiologicalProcess
+      name: cell division
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary tract infectious disease
+  reference: https://go.drugbank.com/drugs/DB00827#mechanism-of-action
+- directed: true
+  graph:
+    disease: Premature labor
+    disease_mesh: MESH:D007752
+    drug: ritodrine
+    drug_mesh: MESH:D012312
+    drugbank: DB:DB00867
+  links:
+    - key: positively regulates
+      source: MESH:D012312
+      target: UniProt:P07550
+    - key: positively regulates
+      source: UniProt:P07550
+      target: GO:0044558
+    - key: negatively correlated with
+      source: GO:0044558
+      target: MESH:D007752
+  multigraph: true
+  nodes:
+    - id: MESH:D012312
+      label: Drug
+      name: ritodrine
+    - id: UniProt:P07550
+      label: Protein
+      name: Beta-2 adrenergic receptor
+    - id: GO:0044558
+      label: BiologicalProcess
+      name: uterine smooth muscle relaxation
+    - id: MESH:D007752
+      label: Disease
+      name: Premature labor
+  reference: https://go.drugbank.com/drugs/DB00867#mechanism-of-action https://en.wikipedia.org/wiki/Ritodrine
+  comments: The drug is no longer FDA approved (https://en.wikipedia.org/wiki/Tocolytic#Types_of_agents).
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: clevidipine
+    drug_mesh: MESH:C118563
+    drugbank: DB:DB04920
+  links:
+    - key: negatively regulates
+      source: MESH:C118563
+      target: MESH:D020746
+    - key: positively regulates
+      source: MESH:D020746
+      target: GO:0006816
+    - key: positively regulates
+      source: GO:0006816
+      target: GO:0014829
+    - key: contributes to
+      source: GO:0014829
+      target: MESH:D014655
+    - key: positively correlated with
+      source: MESH:D014655
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:C118563
+      label: Drug
+      name: clevidipine
+    - id: MESH:D020746
+      label: GeneFamily
+      name: Calcium Channels, L-Type
+    - id: GO:0014829
+      label: BiologicalProcess
+      name: vascular associated smooth muscle contraction
+    - id: GO:0006816
+      label: BiologicalProcess
+      name: calcium ion transport
+    - id: MESH:D014655
+      label: BiologicalProcess
+      name: Vascular Resistance
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference: https://go.drugbank.com/drugs/DB04920#mechanism-of-action https://en.wikipedia.org/wiki/Clevidipine#Basic_chemical_and_pharmacological_properties
+- directed: true
+  graph:
+    disease: Aspergillosis
+    disease_mesh: MESH:D001228
+    drug: isavuconazonium
+    drug_mesh: MESH:C508735
+    drugbank: DB:DB06636
+  links:
+    - key: decreases activity of
+      source: MESH:C508735
+      target: Pfam:PF00067
+    - key: positively regulates
+      source: Pfam:PF00067
+      target: GO:0008398
+    - key: positively regulates
+      source: Pfam:PF00067
+      target: GO:0006696
+    - key: positively correlated with
+      source: GO:0008398
+      target: CHEBI:16933
+    - key: increases abundance of
+      source: GO:0006696
+      target: CHEBI:16933
+    - key: negatively correlated with
+      source: GO:0008398
+      target: CHEBI:16521
+    - key: decreases abundance of
+      source: GO:0006696
+      target: CHEBI:16521
+    - key: negatively correlated with
+      source: CHEBI:16521
+      target: GO:0009277
+    - key: contributes to
+      source: CHEBI:16933
+      target: GO:0009277
+    - key: in taxon
+      source: GO:0009277
+      target: NCBITaxon:5052
+    - key: causes
+      source: NCBITaxon:5052
+      target: MESH:D001228
+  multigraph: true
+  nodes:
+    - id: MESH:C508735
+      label: Drug
+      name: isavuconazonium
+    - id: Pfam:PF00067
+      label: GeneFamily
+      name: Cytochrome P450
+    - id: GO:0008398
+      label: MolecularActivity
+      name: sterol 14-demethylase activity
+    - id: GO:0006696
+      label: BiologicalProcess
+      name: ergosterol biosynthetic process
+    - id: CHEBI:16933
+      label: ChemicalSubstance
+      name: ergosterol
+    - id: CHEBI:16521
+      label: ChemicalSubstance
+      name: lanosterol
+    - id: GO:0009277
+      label: CellularComponent
+      name: fungal-type cell wall
+    - id: NCBITaxon:5052
+      label: OrganismTaxon
+      name: Aspergillus sp.
+    - id: MESH:D001228
+      label: Disease
+      name: Aspergillosis
+  reference: https://go.drugbank.com/drugs/DB06636#mechanism-of-action https://en.wikipedia.org/wiki/Isavuconazonium#Pharmacology
+- directed: true
+  graph:
+    disease: Mucormycosis
+    disease_mesh: MESH:D009091
+    drug: isavuconazonium
+    drug_mesh: MESH:C508735
+    drugbank: DB:DB06636
+  links:
+    - key: decreases activity of
+      source: MESH:C508735
+      target: Pfam:PF00067
+    - key: positively regulates
+      source: Pfam:PF00067
+      target: GO:0008398
+    - key: positively regulates
+      source: Pfam:PF00067
+      target: GO:0006696
+    - key: positively correlated with
+      source: GO:0008398
+      target: CHEBI:16933
+    - key: increases abundance of
+      source: GO:0006696
+      target: CHEBI:16933
+    - key: negatively correlated with
+      source: GO:0008398
+      target: CHEBI:16521
+    - key: decreases abundance of
+      source: GO:0006696
+      target: CHEBI:16521
+    - key: negatively correlated with
+      source: CHEBI:16521
+      target: GO:0009277
+    - key: contributes to
+      source: CHEBI:16933
+      target: GO:0009277
+    - key: in taxon
+      source: GO:0009277
+      target: NCBITaxon:4827
+    - key: causes
+      source: NCBITaxon:4827
+      target: MESH:D009091
+  multigraph: true
+  nodes:
+    - id: MESH:C508735
+      label: Drug
+      name: isavuconazonium
+    - id: Pfam:PF00067
+      label: GeneFamily
+      name: Cytochrome P450
+    - id: GO:0008398
+      label: MolecularActivity
+      name: sterol 14-demethylase activity
+    - id: GO:0006696
+      label: BiologicalProcess
+      name: ergosterol biosynthetic process
+    - id: CHEBI:16933
+      label: ChemicalSubstance
+      name: ergosterol
+    - id: CHEBI:16521
+      label: ChemicalSubstance
+      name: lanosterol
+    - id: GO:0009277
+      label: CellularComponent
+      name: fungal-type cell wall
+    - id: NCBITaxon:4827
+      label: OrganismTaxon
+      name: Mucorales
+    - id: MESH:D009091
+      label: Disease
+      name: Mucormycosis
+  reference: https://go.drugbank.com/drugs/DB06636#mechanism-of-action https://en.wikipedia.org/wiki/Isavuconazonium#Pharmacology https://en.wikipedia.org/wiki/Mucormycosis#Treatment
+- directed: true
+  graph:
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: lixisenatide
+    drug_mesh: MESH:C479460
+    drugbank: DB:DB09265
+  links:
+    - key: increases activity of
+      source: MESH:C479460
+      target: UniProt:P43220
+    - key: participates in
+      source: UniProt:P43220
+      target: REACT:R-HSA-381676
+    - key: participates in
+      source: UniProt:P43220
+      target: REACT:R-HSA-418555
+    - key: positively correlated with
+      source: REACT:R-HSA-418555
+      target: GO:0014808
+    - key: positively correlated with
+      source: REACT:R-HSA-381676
+      target: GO:0014808
+    - key: positively correlated with
+      source: GO:0014808
+      target: GO:0030073
+    - key: negatively correlated with
+      source: GO:0030073
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:C479460
+      label: Drug
+      name: lixisenatide
+    - id: UniProt:P43220
+      label: Protein
+      name: Glucagon-like peptide 1 receptor
+    - id: UniProt:P43220
+      label: Protein
+      name: Glucagon-like peptide 1 receptor
+    - id: REACT:R-HSA-381676
+      label: Pathway
+      name: Glucagon-like Peptide-1 (GLP1) regulates insulin secretion
+    - id: REACT:R-HSA-418555
+      label: Pathway
+      name: G alpha (s) signalling events
+    - id: GO:0014808
+      label: BiologicalProcess
+      name: release of sequestered calcium ion into cytosol by sarcoplasmic reticulum
+    - id: GO:0030073
+      label: BiologicalProcess
+      name: insulin secretion
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference: https://go.drugbank.com/drugs/DB09265 https://en.wikipedia.org/wiki/Lixisenatide#Mechanism_of_action https://en.wikipedia.org/wiki/Glucagon-like_peptide-1_receptor#Function_and_therapeutic_potential
+- directed: true
+  graph:
+    disease: Amebic infection
+    disease_mesh: MESH:D000562
+    drug: sulfacetamide
+    drug_mesh: MESH:D013409
+    drugbank: DB:DB00634
+  links:
+    - key: decreases activity of
+      source: MESH:D013409
+      target: MESH:D007249
+    - key: positively correlated with
+      source: MESH:D007249
+      target: MESH:D000562
+  multigraph: true
+  nodes:
+    - id: MESH:D013409
+      label: Drug
+      name: sulfacetamide
+    - id: MESH:D007249
+      label: BiologicalProcess
+      name: Inflammation
+    - id: MESH:D000562
+      label: Disease
+      name: Amebic infection
+  reference: https://go.drugbank.com/drugs/DB00634#mechanism-of-action
+  comments: There seems to be no evidence linking sulfacetamide as treatment for Amebic infection. Sulfacetamide is an antibacterial type of drug (https://www.kegg.jp/entry/D05947) and it seems the drug has some anti-inflammatory role. Since the disease could lead to inflammation and ulceration of the colon perhaps there could be an anti-inflammation hypothesis but the drug is mainly available as eye drops and lotions (https://en.wikipedia.org/wiki/Sulfacetamide#Available_forms), and therefore unavailable to treat the intestinal tract in such formats. Note there are few amoeba species that may cause skin or eye issues (https://en.wikipedia.org/wiki/Acanthamoeba_keratitis), in which case sulfacetamide could potentially be an indication, albeit no evidence to prove this assumption has been found in databases or literature.
+- directed: true
+  graph:
+      disease: Schizophrenia
+      disease_mesh: MESH:D012559
+      drug: perospirone
+      drug_mesh: MESH:C065533
+      drugbank: DB:DB08922
+  links:
+    -   key: increases activity of
+        source: MESH:C065533
+        target: UniProt:P08908
+    -   key: decreases activity of
+        source: MESH:C065533
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:C065533
+        target: UniProt:P28223
+    -   key: negatively correlated with
+        source: UniProt:P08908
+        target: HP:0000739
+    -   key: positively regulates
+        source: UniProt:P28223
+        target: GO:0014046
+    -   key: positively regulates
+        source: UniProt:P28223
+        target: GO:0014047
+    -   key: positively correlated with
+        source: GO:0014047
+        target: GO:0004952
+    -   key: positively correlated with
+        source: GO:0004952
+        target: HP:0000709
+    -   key: positively regulates
+        source: UniProt:P14416
+        target: GO:0014046
+    -   key: increases abundance of
+        source: GO:0014046
+        target: CHEBI:18243
+    -   key: located in
+        source: CHEBI:18243
+        target: UBERON:0001910
+    -   key: correlated with
+        source: UBERON:0001910
+        target: HP:0000709
+    -   key: positively correlated with
+        source: HP:0000709
+        target: MESH:D012559
+    -   key: located in
+        source: CHEBI:18243
+        target: UBERON:0009834
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0100543
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0030213
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0012154
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0002465
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0000741
+    -   key: positively correlated with
+        source: HP:0100543
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0030213
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0012154
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0002465
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0000741
+        target: MESH:D012559
+    -   key: manifestation of
+        source: HP:0000739
+        target: MESH:D012559
+  multigraph: true
+  nodes:
+    -   id: MESH:C065533
+        label: Drug
+        name: perospirone
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: UniProt:P08908
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1A
+    -   id: GO:0014046
+        label: BiologicalProcess
+        name: dopamine secretion
+    -   id: GO:0014047
+        label: BiologicalProcess
+        name: glutamate secretion
+    -   id: GO:0004952
+        label: MolecularActivity
+        name: dopamine neurotransmitter receptor activity
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: UBERON:0009834
+        label: GrossAnatomicalStructure
+        name: dorsolateral prefrontal cortex
+    -   id: UBERON:0001910
+        label: GrossAnatomicalStructure
+        name: medial forebrain bundle
+    -   id: HP:0100543
+        label: PhenotypicFeature
+        name: Cognitive impairment
+    -   id: HP:0030213
+        label: PhenotypicFeature
+        name: Emotional blunting
+    -   id: HP:0012154
+        label: PhenotypicFeature
+        name: Anhedonia
+    -   id: HP:0002465
+        label: PhenotypicFeature
+        name: Poor speech
+    -   id: HP:0000741
+        label: PhenotypicFeature
+        name: Apathy
+    -   id: HP:0000709
+        label: PhenotypicFeature
+        name: Psychosis
+    -   id: HP:0000739
+        label: PhenotypicFeature
+        name: Anxiety
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+  reference: https://go.drugbank.com/drugs/DB08922#mechanism-of-action https://en.wikipedia.org/wiki/Antipsychotic#Mechanism_of_action https://en.wikipedia.org/wiki/Mesolimbic_pathway#Relation_to_neurological_and_psychological_disorders https://en.wikipedia.org/wiki/Schizophrenia#Signs_and_symptoms https://en.wikipedia.org/wiki/Dopaminergic_pathways#Pathways https://en.wikipedia.org/wiki/Mesocortical_pathway https://en.wikipedia.org/wiki/Dopamine_hypothesis_of_schizophrenia#Introduction https://en.wikipedia.org/wiki/Atypical_antipsychotic#Pharmacology https://en.wikipedia.org/wiki/5-HT1A_receptor#Function
+  comments: The action of the drug on 5-HT2 receptors is of an inverse agonist (https://en.wikipedia.org/wiki/Inverse_agonist). The dopamine neurons are located in the mesolimbic dopaminergic system (BTO:0005591), which is a component pathway of the medial forebrain bundle (UBERON:0001910)(https://en.wikipedia.org/wiki/Medial_forebrain_bundle#Anatomy).
 
