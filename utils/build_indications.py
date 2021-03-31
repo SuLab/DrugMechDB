@@ -193,8 +193,12 @@ def is_valid_curi(node_id):
 
 def validate_node_info(indications):
     for i, path in enumerate(indications):
+        nodes_out = []
         for j, node in enumerate(path['nodes']):
-            indications[i]['nodes'][j] = fix_node_val_swaps(node)
+            fixed_node = fix_node_val_swaps(node)
+            # Check for duplications
+            if fixed_node not in nodes_out:
+                nodes_out.append(fixed_node)
 
 def fix_node_val_swaps(node):
     """
@@ -420,7 +424,12 @@ def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'
     submission = test_and_fix(submission)
     if submission is not None:
         indications = nx.read_yaml('indication_paths.yaml')
-        out = indications + submission
+        out = []
+
+        for path in indications + submission:
+            if path not in out:
+                out.append(path)
+
         nx.write_yaml(out, outname, indent=4)
     else:
         sys.exit(125)
