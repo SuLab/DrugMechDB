@@ -69591,3 +69591,42 @@
         name: Spasticity
     reference: https://go.drugbank.com/drugs/DB01173#BE0000396 https://pubmed.ncbi.nlm.nih.gov/1864455/
         https://pubmed.ncbi.nlm.nih.gov/25050056/
+-   comments: Although the mechanism of action has not been determined, orphenadrine
+        appears to be a nonselective muscarinic antagonist https://en.wikipedia.org/wiki/Orphenadrine#Pharmacology
+        Parkinsonian syndromes are often the consequence of a disturbed balance between
+        cholinergic and dopaminergic neurotransmission in the basal ganglia caused
+        by a decrease in dopamine. Muscarinic antagonists restore the physiological
+        equilibrium and has a favourable effect on the rigidity and tremor of and
+        Parkinsonian syndromes https://www.cell.com/neuron/fulltext/S0896-6273(19)30563-X.
+    directed: true
+    graph:
+        disease: Parkinsonism
+        disease_mesh: MESH:D020734
+        drug: Orphenadrine
+        drug_mesh: MESH:D009966
+        drugbank: DB:DB01173
+    links:
+    -   key: negatively regulates
+        source: MESH:D009966
+        target: REACT:R-HSA-390648
+    -   key: positively regulates
+        source: REACT:R-HSA-390648
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: MESH:D020734
+    multigraph: true
+    nodes:
+    -   id: MESH:D009966
+        label: Drug
+        name: Orphenadrine
+    -   id: REACT:R-HSA-390648
+        label: Pathway
+        name: Muscarinic acetylcholine receptors
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: Synaptic transmission, cholinergic
+    -   id: MESH:D020734
+        label: Disease
+        name: Parkinsonism
+    reference: https://go.drugbank.com/drugs/DB01173 https://en.wikipedia.org/wiki/Parkinsonism
