@@ -111153,5 +111153,1832 @@
       }
     ],
     "reference": "https://go.drugbank.com/drugs/DB01173 https://en.wikipedia.org/wiki/Parkinsonism"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypertensive disorder",
+      "disease_mesh": "MESH:D006973",
+      "drug": "bupranolol",
+      "drug_mesh": "MESH:D002046",
+      "drugbank": "DB:DB08808"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D002046",
+        "target": "MESH:D011943"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D011943",
+        "target": "MESH:D013564"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D013564",
+        "target": "MESH:D012084"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D012084",
+        "target": "HP:0032263"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011943",
+        "target": "HP:0033533"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011943",
+        "target": "HP:0001649"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0032263",
+        "target": "MESH:D006973"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0001649",
+        "target": "MESH:D006973"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0033533",
+        "target": "MESH:D006973"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D002046",
+        "label": "Drug",
+        "name": "bupranolol"
+      },
+      {
+        "id": "MESH:D011943",
+        "label": "GeneFamily",
+        "name": "Receptors, Adrenergic, beta"
+      },
+      {
+        "id": "MESH:D013564",
+        "label": "GrossAnatomicalStructure",
+        "name": "Sympathetic Nervous System"
+      },
+      {
+        "id": "MESH:D012084",
+        "label": "GrossAnatomicalStructure",
+        "name": "Renin-Angiotensin System"
+      },
+      {
+        "id": "HP:0001649",
+        "label": "PhenotypicFeature",
+        "name": "Tachycardia"
+      },
+      {
+        "id": "HP:0033533",
+        "label": "PhenotypicFeature",
+        "name": "Increased cardiac output"
+      },
+      {
+        "id": "HP:0032263",
+        "label": "PhenotypicFeature",
+        "name": "Increased blood pressure"
+      },
+      {
+        "id": "MESH:D006973",
+        "label": "Disease",
+        "name": "Hypertensive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB08808#mechanism-of-action https://en.wikipedia.org/wiki/Beta_blocker#%CE%B2-receptor_antagonism"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Glaucoma",
+      "disease_mesh": "MESH:D005901",
+      "drug": "bupranolol",
+      "drug_mesh": "MESH:D002046",
+      "drugbank": "DB:DB08808"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D002046",
+        "target": "MESH:D011943"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011943",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0007906",
+        "target": "MESH:D005901"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D002046",
+        "label": "Drug",
+        "name": "bupranolol"
+      },
+      {
+        "id": "MESH:D011943",
+        "label": "GeneFamily",
+        "name": "Receptors, Adrenergic, beta"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "Ocular Hypertension"
+      },
+      {
+        "id": "MESH:D005901",
+        "label": "Disease",
+        "name": "Glaucoma"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB08808#mechanism-of-action"
+  },
+  {
+    "comments": "Disease is denoted Infection by Onchocerca volvulus in the original file.",
+    "directed": true,
+    "graph": {
+      "disease": "Onchocerciasis",
+      "disease_mesh": "MESH:D009855",
+      "drug": "ivermectin",
+      "drug_mesh": "MESH:D007559",
+      "drugbank": "DB:DB00602"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D007559",
+        "target": "InterPro:IPR015680"
+      },
+      {
+        "key": "positively regulates",
+        "source": "InterPro:IPR015680",
+        "target": "GO:0005254"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0005254",
+        "target": "GO:0060081"
+      },
+      {
+        "key": "in taxon",
+        "source": "GO:0060081",
+        "target": "NCBITaxon:6282"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:6282",
+        "target": "MESH:D009855"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D007559",
+        "label": "Drug",
+        "name": "ivermectin"
+      },
+      {
+        "id": "InterPro:IPR015680",
+        "label": "GeneFamily",
+        "name": "Glutamate-Gated Chloride Channel"
+      },
+      {
+        "id": "GO:0005254",
+        "label": "MolecularActivity",
+        "name": "chloride channel activity"
+      },
+      {
+        "id": "GO:0060081",
+        "label": "BiologicalProcess",
+        "name": "membrane hyperpolarization"
+      },
+      {
+        "id": "NCBITaxon:6282",
+        "label": "OrganismTaxon",
+        "name": "Onchocerca volvulus"
+      },
+      {
+        "id": "MESH:D009855",
+        "label": "Disease",
+        "name": "Onchocerciasis"
+      }
+    ],
+    "reference": "https://en.wikipedia.org/wiki/Ivermectin#Mechanism_of_action https://go.drugbank.com/drugs/DB00602#mechanism-of-action https://en.wikipedia.org/wiki/Strongyloidiasis#Treatment"
+  },
+  {
+    "comments": "Disease is denoted Infection by Strongyloides in the original file.",
+    "directed": true,
+    "graph": {
+      "disease": "Strongyloidiasis",
+      "disease_mesh": "MESH:D013322",
+      "drug": "ivermectin",
+      "drug_mesh": "MESH:D007559",
+      "drugbank": "DB:DB00602"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D007559",
+        "target": "InterPro:IPR015680"
+      },
+      {
+        "key": "positively regulates",
+        "source": "InterPro:IPR015680",
+        "target": "GO:0005254"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0005254",
+        "target": "GO:0060081"
+      },
+      {
+        "key": "in taxon",
+        "source": "GO:0060081",
+        "target": "NCBITaxon:6248"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:6248",
+        "target": "MESH:D013322"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D007559",
+        "label": "Drug",
+        "name": "ivermectin"
+      },
+      {
+        "id": "InterPro:IPR015680",
+        "label": "GeneFamily",
+        "name": "Glutamate-Gated Chloride Channel"
+      },
+      {
+        "id": "GO:0005254",
+        "label": "MolecularActivity",
+        "name": "chloride channel activity"
+      },
+      {
+        "id": "GO:0060081",
+        "label": "BiologicalProcess",
+        "name": "membrane hyperpolarization"
+      },
+      {
+        "id": "NCBITaxon:6248",
+        "label": "OrganismTaxon",
+        "name": "Strongyloides stercoralis"
+      },
+      {
+        "id": "MESH:D013322",
+        "label": "Disease",
+        "name": "Strongyloidiasis"
+      }
+    ],
+    "reference": "https://en.wikipedia.org/wiki/Ivermectin#Mechanism_of_action https://go.drugbank.com/drugs/DB00602#mechanism-of-action https://en.wikipedia.org/wiki/Strongyloidiasis#Treatment"
+  },
+  {
+    "comments": "Balsalazide is a prodrug and it releases mesalazine in the large intestine, the active site of ulcerative colitis (https://en.wikipedia.org/wiki/Balsalazide https://en.wikipedia.org/wiki/Mesalazine#Chemistry).",
+    "directed": true,
+    "graph": {
+      "disease": "Ulcerative colitis",
+      "disease_mesh": "MESH:D003093",
+      "drug": "balsalazide",
+      "drug_mesh": "MESH:C038637",
+      "drugbank": "DB:DB01014"
+    },
+    "links": [
+      {
+        "key": "produces",
+        "source": "MESH:C038637",
+        "target": "MESH:D019804"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D019804",
+        "target": "MESH:D011451"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D019804",
+        "target": "UniProt:O15111"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D019804",
+        "target": "UniProt:O14920"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:O14920",
+        "target": "GO:0007249"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:O15111",
+        "target": "GO:0007249"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0007249",
+        "target": "MESH:D007249"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D019804",
+        "target": "UniProt:P09917"
+      },
+      {
+        "key": "increases activity of",
+        "source": "MESH:D019804",
+        "target": "UniProt:P37231"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "UniProt:P37231",
+        "target": "REACT:R-HSA-1169091"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "REACT:R-HSA-1169091",
+        "target": "MESH:D007249"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P37231",
+        "target": "GO:0060249"
+      },
+      {
+        "key": "located in",
+        "source": "GO:0060249",
+        "target": "UBERON:0001155"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P09917",
+        "target": "REACT:R-HSA-2142691"
+      },
+      {
+        "key": "participates in",
+        "source": "MESH:D011451",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D007249"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "REACT:R-HSA-2142691",
+        "target": "MESH:D007249"
+      },
+      {
+        "key": "located in",
+        "source": "MESH:D007249",
+        "target": "UBERON:0001052"
+      },
+      {
+        "key": "located in",
+        "source": "MESH:D007249",
+        "target": "UBERON:0001155"
+      },
+      {
+        "key": "location of",
+        "source": "UBERON:0001052",
+        "target": "MESH:D003093"
+      },
+      {
+        "key": "location of",
+        "source": "UBERON:0001155",
+        "target": "MESH:D003093"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C038637",
+        "label": "Drug",
+        "name": "balsalazide"
+      },
+      {
+        "id": "MESH:D019804",
+        "label": "Drug",
+        "name": "Mesalamine"
+      },
+      {
+        "id": "MESH:D011451",
+        "label": "GeneFamily",
+        "name": "Prostaglandin-Endoperoxide Synthases"
+      },
+      {
+        "id": "UniProt:P09917",
+        "label": "Protein",
+        "name": "Polyunsaturated fatty acid 5-lipoxygenase"
+      },
+      {
+        "id": "UniProt:P37231",
+        "label": "Protein",
+        "name": "Peroxisome proliferator-activated receptor gamma"
+      },
+      {
+        "id": "UniProt:O15111",
+        "label": "Protein",
+        "name": "Inhibitor of nuclear factor kappa-B kinase subunit alpha"
+      },
+      {
+        "id": "UniProt:O14920",
+        "label": "Protein",
+        "name": "Inhibitor of nuclear factor kappa-B kinase subunit beta"
+      },
+      {
+        "id": "GO:0007249",
+        "label": "BiologicalProcess",
+        "name": "I-kappaB kinase/NF-kappaB signaling"
+      },
+      {
+        "id": "GO:0060249",
+        "label": "BiologicalProcess",
+        "name": "anatomical structure homeostasis"
+      },
+      {
+        "id": "REACT:R-HSA-2142691",
+        "label": "Pathway",
+        "name": "Synthesis of Leukotrienes (LT) and Eoxins (EX)"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "Pathway",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "REACT:R-HSA-1169091",
+        "label": "Pathway",
+        "name": "Activation of NF-kappaB in B cells"
+      },
+      {
+        "id": "MESH:D007249",
+        "label": "BiologicalProcess",
+        "name": "Inflammation"
+      },
+      {
+        "id": "UBERON:0001052",
+        "label": "GrossAnatomicalStructure",
+        "name": "rectum"
+      },
+      {
+        "id": "UBERON:0001155",
+        "label": "GrossAnatomicalStructure",
+        "name": "colon"
+      },
+      {
+        "id": "MESH:D003093",
+        "label": "Disease",
+        "name": "Ulcerative colitis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01014#mechanism-of-action https://go.drugbank.com/drugs/DB00244#mechanism-of-action https://pubmed.ncbi.nlm.nih.gov/20151072/ https://go.drugbank.com/drugs/DB00244#BE0004655 https://en.wikipedia.org/wiki/CHUK#Clinical_significance https://en.wikipedia.org/wiki/IKK2#Clinical_significance"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Schizophrenia",
+      "disease_mesh": "MESH:D012559",
+      "drug": "quetiapine",
+      "drug_mesh": "MESH:D000069348",
+      "drugbank": "DB:DB01224"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000069348",
+        "target": "UniProt:P14416"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000069348",
+        "target": "UniProt:P28223"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P28223",
+        "target": "GO:0014046"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P14416",
+        "target": "GO:0014046"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "GO:0014046",
+        "target": "CHEBI:18243"
+      },
+      {
+        "key": "located in",
+        "source": "CHEBI:18243",
+        "target": "UBERON:0001910"
+      },
+      {
+        "key": "correlated with",
+        "source": "UBERON:0001910",
+        "target": "HP:0000709"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0000709",
+        "target": "MESH:D012559"
+      },
+      {
+        "key": "located in",
+        "source": "CHEBI:18243",
+        "target": "UBERON:0009834"
+      },
+      {
+        "key": "correlated with",
+        "source": "UBERON:0009834",
+        "target": "HP:0100543"
+      },
+      {
+        "key": "correlated with",
+        "source": "UBERON:0009834",
+        "target": "HP:0030213"
+      },
+      {
+        "key": "correlated with",
+        "source": "UBERON:0009834",
+        "target": "HP:0012154"
+      },
+      {
+        "key": "correlated with",
+        "source": "UBERON:0009834",
+        "target": "HP:0002465"
+      },
+      {
+        "key": "correlated with",
+        "source": "UBERON:0009834",
+        "target": "HP:0000741"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0100543",
+        "target": "MESH:D012559"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0030213",
+        "target": "MESH:D012559"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0012154",
+        "target": "MESH:D012559"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0002465",
+        "target": "MESH:D012559"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0000741",
+        "target": "MESH:D012559"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000069348",
+        "label": "Drug",
+        "name": "quetiapine"
+      },
+      {
+        "id": "UniProt:P28223",
+        "label": "Protein",
+        "name": "5-hydroxytryptamine receptor 2A"
+      },
+      {
+        "id": "UniProt:P14416",
+        "label": "Protein",
+        "name": "D(2) dopamine receptor"
+      },
+      {
+        "id": "GO:0014046",
+        "label": "BiologicalProcess",
+        "name": "dopamine secretion"
+      },
+      {
+        "id": "CHEBI:18243",
+        "label": "ChemicalSubstance",
+        "name": "dopamine"
+      },
+      {
+        "id": "UBERON:0009834",
+        "label": "GrossAnatomicalStructure",
+        "name": "dorsolateral prefrontal cortex"
+      },
+      {
+        "id": "UBERON:0001910",
+        "label": "GrossAnatomicalStructure",
+        "name": "medial forebrain bundle"
+      },
+      {
+        "id": "HP:0100543",
+        "label": "PhenotypicFeature",
+        "name": "Cognitive impairment"
+      },
+      {
+        "id": "HP:0030213",
+        "label": "PhenotypicFeature",
+        "name": "Emotional blunting"
+      },
+      {
+        "id": "HP:0012154",
+        "label": "PhenotypicFeature",
+        "name": "Anhedonia"
+      },
+      {
+        "id": "HP:0002465",
+        "label": "PhenotypicFeature",
+        "name": "Poor speech"
+      },
+      {
+        "id": "HP:0000741",
+        "label": "PhenotypicFeature",
+        "name": "Apathy"
+      },
+      {
+        "id": "HP:0000709",
+        "label": "PhenotypicFeature",
+        "name": "Psychosis"
+      },
+      {
+        "id": "MESH:D012559",
+        "label": "Disease",
+        "name": "Schizophrenia"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01224#mechanism-of-action https://go.drugbank.com/drugs/DB01224#BE0000451 https://go.drugbank.com/drugs/DB01224#BE0000756"
+  },
+  {
+    "comments": "Imatinib also modulates other protein targets and is an indication for other malignancies (https://en.wikipedia.org/wiki/Imatinib#Medical_uses).",
+    "directed": true,
+    "graph": {
+      "disease": "Chronic phase chronic myeloid leukemia",
+      "disease_mesh": "MESH:D015466",
+      "drug": "imatinib",
+      "drug_mesh": "MESH:D000068877",
+      "drugbank": "DB:DB00619"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "MESH:D016044"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D016044",
+        "target": "GO:0004674"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0004674",
+        "target": "GO:0007266"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0007266",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0007266",
+        "target": "GO:0006915"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0008283",
+        "target": "MESH:D015466"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0006915",
+        "target": "MESH:D015466"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "label": "Drug",
+        "name": "imatinib"
+      },
+      {
+        "id": "MESH:D016044",
+        "label": "Protein",
+        "name": "Fusion Proteins, bcr-abl"
+      },
+      {
+        "id": "GO:0004674",
+        "label": "MolecularActivity",
+        "name": "protein serine/threonine kinase activity"
+      },
+      {
+        "id": "GO:0007266",
+        "label": "BiologicalProcess",
+        "name": "Rho protein signal transduction"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "GO:0006915",
+        "label": "BiologicalProcess",
+        "name": "apoptotic process"
+      },
+      {
+        "id": "MESH:D015466",
+        "label": "Disease",
+        "name": "Chronic phase chronic myeloid leukemia"
+      }
+    ],
+    "reference": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate https://go.drugbank.com/drugs/DB00619#mechanism-of-action https://en.wikipedia.org/wiki/Imatinib#Chronic_myelogenous_leukemia"
+  },
+  {
+    "comments": "The disease is denoted Blastic phase chronic myeloid leukemia in the original file.",
+    "directed": true,
+    "graph": {
+      "disease": "Blast Crisis",
+      "disease_mesh": "MESH:D001752",
+      "drug": "imatinib",
+      "drug_mesh": "MESH:D000068877",
+      "drugbank": "DB:DB00619"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "MESH:D016044"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D016044",
+        "target": "GO:0007266"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0007266",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0008283",
+        "target": "HP:0001974"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0001974",
+        "target": "MESH:D001752"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "label": "Drug",
+        "name": "imatinib"
+      },
+      {
+        "id": "MESH:D016044",
+        "label": "Protein",
+        "name": "Fusion Proteins, bcr-abl"
+      },
+      {
+        "id": "GO:0007266",
+        "label": "BiologicalProcess",
+        "name": "Rho protein signal transduction"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "HP:0001974",
+        "label": "PhenotypicFeature",
+        "name": "Leukocytosis"
+      },
+      {
+        "id": "MESH:D001752",
+        "label": "Disease",
+        "name": "Blast Crisis"
+      }
+    ],
+    "reference": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate https://en.wikipedia.org/wiki/Leukocytosis#Causes https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia#Chronic_phase_2"
+  },
+  {
+    "comments": "The disease is denoted Chronic eosinophilic leukemia in the original file. The malignancy is driven by FIP1L1-PDGFRA fusion genes (https://en.wikipedia.org/wiki/FIP1L1#FIP1L1-PDGFRA_fusion_genes).",
+    "directed": true,
+    "graph": {
+      "disease": "Pdgfra-Associated Chronic Eosinophilic Leukemia",
+      "disease_mesh": "MESH:C580364",
+      "drug": "imatinib",
+      "drug_mesh": "MESH:D000068877",
+      "drugbank": "DB:DB00619"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "MESH:D017479"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D017479",
+        "target": "GO:0048008"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0048008",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0008283",
+        "target": "HP:0001880"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0001880",
+        "target": "MESH:C580364"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "label": "Drug",
+        "name": "imatinib"
+      },
+      {
+        "id": "MESH:D017479",
+        "label": "GeneFamily",
+        "name": "Receptors, Platelet-Derived Growth Factor"
+      },
+      {
+        "id": "GO:0048008",
+        "label": "BiologicalProcess",
+        "name": "platelet-derived growth factor receptor signaling pathway"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "HP:0001880",
+        "label": "PhenotypicFeature",
+        "name": "Eosinophilia"
+      },
+      {
+        "id": "MESH:C580364",
+        "label": "Disease",
+        "name": "Pdgfra-Associated Chronic Eosinophilic Leukemia"
+      }
+    ],
+    "reference": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate https://go.drugbank.com/drugs/DB00619#BE0000205 https://go.drugbank.com/drugs/DB00619#BE0000852 https://en.wikipedia.org/wiki/Chronic_eosinophilic_leukemia https://en.wikipedia.org/wiki/Eosinophilia#Chronic_eosinophilic_leukemia_(NOS) https://en.wikipedia.org/wiki/Imatinib#Other"
+  },
+  {
+    "comments": "The disease is denoted Idiopathic hypereosinophilic syndrome in the original file. Treatment with imatinib is indicated for patients who have a tyrosine kinase fusion protein (https://en.wikipedia.org/wiki/Hypereosinophilic_syndrome#Diagnosis), a PDGFRA-FIP1L1 chimera, where PDGR is an oncogene (https://en.wikipedia.org/wiki/Oncogene#Classification).",
+    "directed": true,
+    "graph": {
+      "disease": "Hypereosinophilic Syndrome",
+      "disease_mesh": "MESH:D017681",
+      "drug": "imatinib",
+      "drug_mesh": "MESH:D000068877",
+      "drugbank": "DB:DB00619"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "MESH:D015514"
+      },
+      {
+        "key": "derives from",
+        "source": "MESH:D015514",
+        "target": "UniProt:P16234"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P16234",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0008283",
+        "target": "HP:0001880"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0001880",
+        "target": "MESH:D017681"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "label": "Drug",
+        "name": "imatinib"
+      },
+      {
+        "id": "MESH:D015514",
+        "label": "GeneFamily",
+        "name": "Oncogene Proteins, Fusion"
+      },
+      {
+        "id": "UniProt:P16234",
+        "label": "Protein",
+        "name": "Platelet-derived growth factor receptor alpha"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "HP:0001880",
+        "label": "PhenotypicFeature",
+        "name": "Eosinophilia"
+      },
+      {
+        "id": "MESH:D017681",
+        "label": "Disease",
+        "name": "Hypereosinophilic Syndrome"
+      }
+    ],
+    "reference": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate https://go.drugbank.com/drugs/DB00619#BE0000205 https://go.drugbank.com/drugs/DB00619#BE0000852 https://en.wikipedia.org/wiki/Imatinib#Other"
+  },
+  {
+    "comments": "The majority of Gastrointestinal stromal tumor patients have mutations on the KIT or PDGFRA genes (95% of all patients).",
+    "directed": true,
+    "graph": {
+      "disease": "Gastrointestinal stromal tumor",
+      "disease_mesh": "MESH:D046152",
+      "drug": "imatinib",
+      "drug_mesh": "MESH:D000068877",
+      "drugbank": "DB:DB00619"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "UniProt:P10721"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "UniProt:P16234"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P16234",
+        "target": "GO:0035790"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0035790",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0035790",
+        "target": "MESH:D002470"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P10721",
+        "target": "GO:0038109"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0038109",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0038109",
+        "target": "MESH:D002470"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0038109",
+        "target": "GO:0030154"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0008283",
+        "target": "MESH:D046152"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D002470",
+        "target": "MESH:D046152"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0030154",
+        "target": "MESH:D046152"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "label": "Drug",
+        "name": "imatinib"
+      },
+      {
+        "id": "UniProt:P10721",
+        "label": "Protein",
+        "name": "Mast/stem cell growth factor receptor Kit"
+      },
+      {
+        "id": "UniProt:P16234",
+        "label": "Protein",
+        "name": "Platelet-derived growth factor receptor alpha"
+      },
+      {
+        "id": "GO:0035790",
+        "label": "BiologicalProcess",
+        "name": "platelet-derived growth factor receptor-alpha signaling pathway"
+      },
+      {
+        "id": "GO:0038109",
+        "label": "BiologicalProcess",
+        "name": "Kit signaling pathway"
+      },
+      {
+        "id": "GO:0030154",
+        "label": "BiologicalProcess",
+        "name": "cell differentiation"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "MESH:D002470",
+        "label": "BiologicalProcess",
+        "name": "Cell Survival"
+      },
+      {
+        "id": "MESH:D046152",
+        "label": "Disease",
+        "name": "Gastrointestinal stromal tumor"
+      }
+    ],
+    "reference": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate https://en.wikipedia.org/wiki/Imatinib#Gastrointestinal_stromal_tumors https://go.drugbank.com/drugs/DB00619#BE0000453 https://go.drugbank.com/drugs/DB00619#BE0000852"
+  },
+  {
+    "comments": "The majority of Dermatofibrosarcoma tumours have two genes fused due to a translocation involving the collagen gene (COL1A1) and platelet-derived growth factor (PDGF) genes.",
+    "directed": true,
+    "graph": {
+      "disease": "Dermatofibrosarcoma",
+      "disease_mesh": "MESH:D018223",
+      "drug": "imatinib",
+      "drug_mesh": "MESH:D000068877",
+      "drugbank": "DB:DB00619"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "MESH:D050506"
+      },
+      {
+        "key": "derives from",
+        "source": "MESH:D050506",
+        "target": "MESH:D010982"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D010982",
+        "target": "GO:0030154"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D010982",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D010982",
+        "target": "MESH:D002470"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0008283",
+        "target": "MESH:D018223"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D002470",
+        "target": "MESH:D018223"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0030154",
+        "target": "MESH:D018223"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "label": "Drug",
+        "name": "imatinib"
+      },
+      {
+        "id": "MESH:D050506",
+        "label": "GeneFamily",
+        "name": "Mutant Chimeric Proteins"
+      },
+      {
+        "id": "MESH:D010982",
+        "label": "GeneFamily",
+        "name": "Platelet-Derived Growth Factor"
+      },
+      {
+        "id": "GO:0030154",
+        "label": "BiologicalProcess",
+        "name": "cell differentiation"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "MESH:D002470",
+        "label": "BiologicalProcess",
+        "name": "Cell Survival"
+      },
+      {
+        "id": "MESH:D018223",
+        "label": "Disease",
+        "name": "Dermatofibrosarcoma"
+      }
+    ],
+    "reference": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate https://en.wikipedia.org/wiki/Dermatofibrosarcoma_protuberans#Pathophysiology https://en.wikipedia.org/wiki/Imatinib#Dermatofibrosarcoma_protuberans_(DFSP)"
+  },
+  {
+    "comments": "The disease is denoted Systemic mast cell disease in the original file.",
+    "directed": true,
+    "graph": {
+      "disease": "Mastocytosis, Systemic",
+      "disease_mesh": "MESH:D034721",
+      "drug": "imatinib",
+      "drug_mesh": "MESH:D000068877",
+      "drugbank": "DB:DB00619"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000068877",
+        "target": "UniProt:P10721"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P10721",
+        "target": "GO:0038109"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0038109",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0038109",
+        "target": "MESH:D002470"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0038109",
+        "target": "GO:0030154"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "GO:0008283",
+        "target": "MESH:D008407"
+      },
+      {
+        "key": "correlated with",
+        "source": "MESH:D008407",
+        "target": "MESH:D034721"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D002470",
+        "target": "MESH:D034721"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0030154",
+        "target": "MESH:D034721"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000068877",
+        "label": "Drug",
+        "name": "imatinib"
+      },
+      {
+        "id": "UniProt:P10721",
+        "label": "Protein",
+        "name": "Mast/stem cell growth factor receptor Kit"
+      },
+      {
+        "id": "GO:0038109",
+        "label": "BiologicalProcess",
+        "name": "Kit signaling pathway"
+      },
+      {
+        "id": "GO:0030154",
+        "label": "BiologicalProcess",
+        "name": "cell differentiation"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "MESH:D002470",
+        "label": "BiologicalProcess",
+        "name": "Cell Survival"
+      },
+      {
+        "id": "MESH:D008407",
+        "label": "Cell",
+        "name": "Mast Cells"
+      },
+      {
+        "id": "MESH:D034721",
+        "label": "Disease",
+        "name": "Mastocytosis, Systemic"
+      }
+    ],
+    "reference": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate https://go.drugbank.com/drugs/DB00619#BE0000453"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypertensive disorder",
+      "disease_mesh": "MESH:D006973",
+      "drug": "verapamil",
+      "drug_mesh": "MESH:D014700",
+      "drugbank": "DB:DB00661"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D014700",
+        "target": "MESH:D020746"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D020746",
+        "target": "GO:0060402"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0060402",
+        "target": "GO:0042310"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0042310",
+        "target": "HP:0033533"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0033533",
+        "target": "HP:0032263"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0032263",
+        "target": "MESH:D006973"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D014700",
+        "label": "Drug",
+        "name": "verapamil"
+      },
+      {
+        "id": "MESH:D020746",
+        "label": "GeneFamily",
+        "name": "Calcium Channels, L-Type"
+      },
+      {
+        "id": "GO:0060402",
+        "label": "BiologicalProcess",
+        "name": "calcium ion transport into cytosol"
+      },
+      {
+        "id": "GO:0042310",
+        "label": "BiologicalProcess",
+        "name": "vasoconstriction"
+      },
+      {
+        "id": "HP:0033533",
+        "label": "PhenotypicFeature",
+        "name": "Increased cardiac output"
+      },
+      {
+        "id": "HP:0032263",
+        "label": "PhenotypicFeature",
+        "name": "Increased blood pressure"
+      },
+      {
+        "id": "MESH:D006973",
+        "label": "Disease",
+        "name": "Hypertensive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00661#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/ https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Atrial fibrillation",
+      "disease_mesh": "MESH:D001281",
+      "drug": "verapamil",
+      "drug_mesh": "MESH:D014700",
+      "drugbank": "DB:DB00661"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D014700",
+        "target": "MESH:D020746"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D020746",
+        "target": "GO:0061337"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0061337",
+        "target": "MESH:D006339"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D006339",
+        "target": "HP:0001692"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0001692",
+        "target": "MESH:D001281"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D014700",
+        "label": "Drug",
+        "name": "verapamil"
+      },
+      {
+        "id": "MESH:D020746",
+        "label": "GeneFamily",
+        "name": "Calcium Channels, L-Type"
+      },
+      {
+        "id": "GO:0061337",
+        "label": "BiologicalProcess",
+        "name": "cardiac conduction"
+      },
+      {
+        "id": "MESH:D006339",
+        "label": "BiologicalProcess",
+        "name": "Heart Rate"
+      },
+      {
+        "id": "HP:0001692",
+        "label": "PhenotypicFeature",
+        "name": "Atrial arrhythmia"
+      },
+      {
+        "id": "MESH:D001281",
+        "label": "Disease",
+        "name": "Atrial fibrillation"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00661#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/ https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents https://en.wikipedia.org/wiki/Atrial_fibrillation#Rate_control"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Acute coronary syndrome",
+      "disease_mesh": "MESH:D054058",
+      "drug": "verapamil",
+      "drug_mesh": "MESH:D014700",
+      "drugbank": "DB:DB00661"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D014700",
+        "target": "MESH:D020746"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D020746",
+        "target": "GO:0060402"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0060402",
+        "target": "GO:0042310"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0042310",
+        "target": "MESH:D017202"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D017202",
+        "target": "MESH:D054058"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D014700",
+        "label": "Drug",
+        "name": "verapamil"
+      },
+      {
+        "id": "MESH:D020746",
+        "label": "GeneFamily",
+        "name": "Calcium Channels, L-Type"
+      },
+      {
+        "id": "GO:0060402",
+        "label": "BiologicalProcess",
+        "name": "calcium ion transport into cytosol"
+      },
+      {
+        "id": "GO:0042310",
+        "label": "BiologicalProcess",
+        "name": "vasoconstriction"
+      },
+      {
+        "id": "MESH:D017202",
+        "label": "PhenotypicFeature",
+        "name": "Myocardial Ischemia"
+      },
+      {
+        "id": "MESH:D054058",
+        "label": "Disease",
+        "name": "Acute coronary syndrome"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00661#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/ https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Angina pectoris",
+      "disease_mesh": "MESH:D000787",
+      "drug": "verapamil",
+      "drug_mesh": "MESH:D014700",
+      "drugbank": "DB:DB00661"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D014700",
+        "target": "MESH:D020746"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D020746",
+        "target": "GO:0060402"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0060402",
+        "target": "GO:0042310"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0042310",
+        "target": "MESH:D017202"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D017202",
+        "target": "MESH:D000787"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D014700",
+        "label": "Drug",
+        "name": "verapamil"
+      },
+      {
+        "id": "MESH:D020746",
+        "label": "GeneFamily",
+        "name": "Calcium Channels, L-Type"
+      },
+      {
+        "id": "GO:0060402",
+        "label": "BiologicalProcess",
+        "name": "calcium ion transport into cytosol"
+      },
+      {
+        "id": "GO:0042310",
+        "label": "BiologicalProcess",
+        "name": "vasoconstriction"
+      },
+      {
+        "id": "MESH:D017202",
+        "label": "PhenotypicFeature",
+        "name": "Myocardial Ischemia"
+      },
+      {
+        "id": "MESH:D000787",
+        "label": "Disease",
+        "name": "Angina pectoris"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00661#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/ https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents https://en.wikipedia.org/wiki/Angina#Treatment"
+  },
+  {
+    "comments": "The disease is denoted as Prinzmetal angina in the original file.",
+    "directed": true,
+    "graph": {
+      "disease": "Angina Pectoris, Variant",
+      "disease_mesh": "MESH:D000788",
+      "drug": "verapamil",
+      "drug_mesh": "MESH:D014700",
+      "drugbank": "DB:DB00661"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D014700",
+        "target": "MESH:D020746"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D020746",
+        "target": "GO:0060402"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0060402",
+        "target": "GO:0042310"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0042310",
+        "target": "MESH:D017202"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D017202",
+        "target": "MESH:D000788"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D014700",
+        "label": "Drug",
+        "name": "verapamil"
+      },
+      {
+        "id": "MESH:D020746",
+        "label": "GeneFamily",
+        "name": "Calcium Channels, L-Type"
+      },
+      {
+        "id": "GO:0060402",
+        "label": "BiologicalProcess",
+        "name": "calcium ion transport into cytosol"
+      },
+      {
+        "id": "GO:0042310",
+        "label": "BiologicalProcess",
+        "name": "vasoconstriction"
+      },
+      {
+        "id": "MESH:D017202",
+        "label": "PhenotypicFeature",
+        "name": "Myocardial Ischemia"
+      },
+      {
+        "id": "MESH:D000788",
+        "label": "Disease",
+        "name": "Angina Pectoris, Variant"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00661#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/ https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents https://en.wikipedia.org/wiki/Variant_angina#Maintenance"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Major depressive disorder",
+      "disease_mesh": "MESH:D003865",
+      "drug": "dosulepin",
+      "drug_mesh": "MESH:D004308",
+      "drugbank": "DB:DB09167"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004308",
+        "target": "UniProt:P31645"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004308",
+        "target": "UniProt:P23975"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P31645",
+        "target": "GO:0051610"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P23975",
+        "target": "GO:0051620"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0051620",
+        "target": "HP:0000716"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0051610",
+        "target": "HP:0000716"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0000716",
+        "target": "MESH:D003865"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004308",
+        "label": "Drug",
+        "name": "dosulepin"
+      },
+      {
+        "id": "UniProt:P31645",
+        "label": "Protein",
+        "name": "Sodium-dependent serotonin transporter"
+      },
+      {
+        "id": "UniProt:P23975",
+        "label": "Protein",
+        "name": "Sodium-dependent noradrenaline transporter"
+      },
+      {
+        "id": "GO:0051610",
+        "label": "BiologicalProcess",
+        "name": "serotonin uptake"
+      },
+      {
+        "id": "GO:0051620",
+        "label": "BiologicalProcess",
+        "name": "norepinephrine uptake"
+      },
+      {
+        "id": "HP:0000716",
+        "label": "PhenotypicFeature",
+        "name": "Depressivity"
+      },
+      {
+        "id": "MESH:D003865",
+        "label": "Disease",
+        "name": "Major depressive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09167#BE0000486 https://go.drugbank.com/drugs/DB09167#BE0000749 https://en.wikipedia.org/wiki/Dosulepin#Pharmacodynamics https://pubmed.ncbi.nlm.nih.gov/2670509/"
+  },
+  {
+    "comments": "The disease is denoted as Bipolar affective disorder, current episode depression in the original file. It seems that either Quetiapine or its metabolite (Norquetiapine, also known as N-desalkylquetiapine) could bind to UniProt:P23975 and inhibit its function and is associated with lower synaptic norepinephrine levels (https://en.wikipedia.org/wiki/Quetiapine#Pharmacokinetics https://www.ebi.ac.uk/chembl/document_report_card/CHEMBL3526075/).",
+    "directed": true,
+    "graph": {
+      "disease": "Bipolar Disorder",
+      "disease_mesh": "MESH:D001714",
+      "drug": "quetiapine",
+      "drug_mesh": "MESH:D000069348",
+      "drugbank": "DB:DB01224"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D000069348",
+        "target": "UniProt:P23975"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P23975",
+        "target": "GO:0051620"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0051620",
+        "target": "HP:0000716"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0051620",
+        "target": "HP:0100754"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0000716",
+        "target": "MESH:D001714"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0100754",
+        "target": "MESH:D001714"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D000069348",
+        "label": "Drug",
+        "name": "quetiapine"
+      },
+      {
+        "id": "UniProt:P23975",
+        "label": "Protein",
+        "name": "Sodium-dependent noradrenaline transporter"
+      },
+      {
+        "id": "GO:0051620",
+        "label": "BiologicalProcess",
+        "name": "norepinephrine uptake"
+      },
+      {
+        "id": "HP:0000716",
+        "label": "PhenotypicFeature",
+        "name": "Depressivity"
+      },
+      {
+        "id": "HP:0100754",
+        "label": "PhenotypicFeature",
+        "name": "Mania"
+      },
+      {
+        "id": "MESH:D001714",
+        "label": "Disease",
+        "name": "Bipolar Disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01224#mechanism-of-action https://www.genecards.org/cgi-bin/carddisp.pl?gene=SLC6A2#drugs_compounds https://en.wikipedia.org/wiki/Quetiapine#cite_note-pmid18059438-50 https://pubmed.ncbi.nlm.nih.gov/20307622/ https://pubmed.ncbi.nlm.nih.gov/20931407/"
   }
 ]
