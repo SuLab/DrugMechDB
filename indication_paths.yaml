@@ -70803,3 +70803,955 @@
     reference: https://go.drugbank.com/drugs/DB01224#mechanism-of-action https://www.genecards.org/cgi-bin/carddisp.pl?gene=SLC6A2#drugs_compounds
         https://en.wikipedia.org/wiki/Quetiapine#cite_note-pmid18059438-50 https://pubmed.ncbi.nlm.nih.gov/20307622/
         https://pubmed.ncbi.nlm.nih.gov/20931407/
+-   comment: Octreotide has antiproliferative effects and it is used in treating neuroendocrine
+        tumours including carcinoid tumours. Octreotide improves symptoms of carcinoid
+        syndrome such as diarrhoea and flushing https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983100/.
+        Octreotide is also used in imaging method called octreoscan where indium-111
+        labelled octreotide is used in scintigraphy for detecting tumors expressing
+        somatostatin receptors https://en.wikipedia.org/wiki/Carcinoid_syndrome#Imaging
+    directed: true
+    graph:
+        disease: Carcinoid syndrome
+        disease_mesh: MESH:D008303
+        drug: Octreotide
+        drug_mesh: MESH:D015282
+        drugbank: DB:DB00104
+    links:
+    -   key: positively regulates
+        source: MESH:D015282
+        target: GO:0038169
+    -   key: negatively regulates
+        source: GO:0038169
+        target: UniProt:P01241
+    -   key: positively regulates
+        source: UniProt:P01241
+        target: UniProt:P05019
+    -   key: positively correlated with
+        source: UniProt:P05019
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D008303
+    multigraph: true
+    nodes:
+    -   id: MESH:D015282
+        label: Drug
+        name: Octreotide
+    -   id: GO:0038169
+        label: BiologicalProcess
+        name: Somatostatin receptor signaling pathway
+    -   id: UniProt:P01241
+        label: Protein
+        name: Somatotropin
+    -   id: UniProt:P05019
+        label: Protein
+        name: Insulin-like growth factor I
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D008303
+        label: Disease
+        name: Carcinoid syndrome
+    reference: https://go.drugbank.com/drugs/DB00104#BE0010008 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983100/
+-   directed: true
+    graph:
+        disease: Acromegaly
+        disease_mesh: MESH:D000172
+        drug: Octreotide
+        drug_mesh: MESH:D015282
+        drugbank: DB:DB00104
+    links:
+    -   key: positively regulates
+        source: MESH:D015282
+        target: GO:0038169
+    -   key: negatively regulates
+        source: GO:0038169
+        target: UniProt:P01241
+    -   key: positively correlated with
+        source: UniProt:P01241
+        target: MESH:D000172
+    multigraph: true
+    nodes:
+    -   id: MESH:D015282
+        label: Drug
+        name: Octreotide
+    -   id: GO:0038169
+        label: BiologicalProcess
+        name: Somatostatin receptor signaling pathway
+    -   id: UniProt:P01241
+        label: Protein
+        name: Somatotropin
+    -   id: MESH:D000172
+        label: Disease
+        name: Acromegaly
+    reference: https://go.drugbank.com/drugs/DB00104#BE0010008 https://en.wikipedia.org/wiki/Acromegaly#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: Ritonavir
+        drug_mesh: MESH:D019438
+        drugbank: DB:DB00503
+    links:
+    -   key: decreases activity of
+        source: MESH:D019438
+        target: UniProt:Q72874
+    -   key: increases activity of
+        source: UniProt:Q72874
+        target: UniProt:P04585
+    -   key: in taxon
+        source: UniProt:P04585
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D019438
+        label: Drug
+        name: Ritonavir
+    -   id: UniProt:Q72874
+        label: Protein
+        name: Protease
+    -   id: UniProt:P04585
+        label: Protein
+        name: Gag-Pol polyprotein
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference: https://go.drugbank.com/drugs/DB00503
+-   comment: While ritonavir is not an active antiviral agent against hepatitis C
+        virus (HCV) infection, it is added in combination therapies indicated for
+        treatment of HCV infections as a booster.
+    directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: Ritonavir
+        drug_mesh: MESH:D019438
+        drugbank: DB:DB00503
+    links:
+    -   key: treats
+        source: MESH:D019438
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:D019438
+        label: Drug
+        name: Ritonavir
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference: https://go.drugbank.com/drugs/DB00503
+-   directed: true
+    graph:
+        disease: Diabetic renal disease
+        disease_mesh: MESH:D003928
+        drug: Losartan
+        drug_mesh: MESH:D019808
+        drugbank: DB:DB00678
+    links:
+    -   key: negatively regulates
+        source: MESH:D019808
+        target: UniProt:P30556
+    -   key: positively correlated with
+        source: UniProt:P30556
+        target: MESH:D000804
+    -   key: positively regulates
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: positively correlated with
+        source: MESH:D014661
+        target: HP:0000822
+    -   key: affects risk for
+        source: HP:0000822
+        target: MESH:D003928
+    multigraph: true
+    nodes:
+    -   id: MESH:D019808
+        label: Drug
+        name: Losartan
+    -   id: UniProt:P30556
+        label: Protein
+        name: Type-1 angiotensin II receptor
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D003928
+        label: Disease
+        name: Diabetic renal disease
+    reference: https://go.drugbank.com/drugs/DB00678 https://en.wikipedia.org/wiki/Diabetic_nephropathy#Risk_factors
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Losartan
+        drug_mesh: MESH:D019808
+        drugbank: DB:DB00678
+    links:
+    -   key: negatively regulates
+        source: MESH:D019808
+        target: UniProt:P30556
+    -   key: positively correlated with
+        source: UniProt:P30556
+        target: MESH:D000804
+    -   key: positively regulates
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: positively correlated with
+        source: MESH:D014661
+        target: GO:0008217
+    -   key: positively correlated with
+        source: GO:0008217
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D019808
+        label: Drug
+        name: Losartan
+    -   id: UniProt:P30556
+        label: Protein
+        name: Type-1 angiotensin II receptor
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: GO:0008217
+        label: BiologicalProcess
+        name: Blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB00678
+-   directed: true
+    graph:
+        disease: Retention of urine
+        disease_mesh: MESH:D016055
+        drug: Bethanechol
+        drug_mesh: MESH:D018723
+        drugbank: DB:DB01019
+    links:
+    -   key: increases activity of
+        source: MESH:D018723
+        target: UniProt:P08172
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0014832
+    -   key: negatively correlated with
+        source: GO:0014832
+        target: MESH:D016055
+    multigraph: true
+    nodes:
+    -   id: MESH:D018723
+        label: Drug
+        name: Bethanechol
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: GO:0014832
+        label: BiologicalProcess
+        name: Urinary bladder smooth muscle contraction
+    -   id: MESH:D016055
+        label: Disease
+        name: Retention of urine
+    reference: https://go.drugbank.com/drugs/DB01019
+-   directed: true
+    graph:
+        disease: Acute promyelocytic leukemia
+        disease_mesh: MESH:D015473
+        drug: Mercaptopurine
+        drug_mesh: MESH:D015122
+        drugbank: DB:DB01033
+    links:
+    -   key: decreases activity of
+        source: MESH:D015122
+        target: UniProt:P00492
+    -   key: decreases activity of
+        source: MESH:D015122
+        target: UniProt:Q06203
+    -   key: decreases activity of
+        source: MESH:D015122
+        target: UniProt:P20839
+    -   key: decreases activity of
+        source: MESH:D015122
+        target: UniProt:P12268
+    -   key: positively regulates
+        source: UniProt:P00492
+        target: GO:0006164
+    -   key: positively regulates
+        source: UniProt:Q06203
+        target: GO:0006164
+    -   key: positively regulates
+        source: UniProt:P20839
+        target: GO:0006164
+    -   key: positively regulates
+        source: UniProt:P12268
+        target: GO:0006164
+    -   key: occurs in
+        source: GO:0006164
+        target: CL:0000836
+    -   key: positively correlated with
+        source: CL:0000836
+        target: MESH:D015473
+    multigraph: true
+    nodes:
+    -   id: MESH:D015122
+        label: Drug
+        name: Mercaptopurine
+    -   id: UniProt:P00492
+        label: Protein
+        name: Hypoxanthine-guanine phosphoribosyltransferase
+    -   id: UniProt:Q06203
+        label: Protein
+        name: Amidophosphoribosyltransferase
+    -   id: UniProt:P20839
+        label: Protein
+        name: Inosine-5'-monophosphate dehydrogenase 1
+    -   id: UniProt:P12268
+        label: Protein
+        name: Inosine-5'-monophosphate dehydrogenase 2
+    -   id: CL:0000836
+        label: Cell
+        name: Promyelocyte
+    -   id: GO:0006164
+        label: BiologicalProcess
+        name: Purine nucleotide biosynthetic process
+    -   id: MESH:D015473
+        label: Disease
+        name: Acute promyelocytic leukemia
+    reference: https://en.wikipedia.org/wiki/Acute_promyelocytic_leukemia https://go.drugbank.com/drugs/DB01033
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Gatifloxacin
+        drug_mesh: MESH:C078049
+        drugbank: DB:DB01044
+    links:
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P72525
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q59961
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P72524
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P0A4L9
+    -   key: participates in
+        source: UniProt:P72525
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:Q59961
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P72524
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P0A4L9
+        target: GO:0006260
+    -   key: occurs in
+        source: GO:0006260
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C078049
+        label: Drug
+        name: Gatifloxacin
+    -   id: UniProt:P72525
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Streptococcus pneumoniae)
+    -   id: UniProt:Q59961
+        label: Protein
+        name: DNA topoisomerase 4 subunit B (Streptococcus pneumoniae)
+    -   id: UniProt:P72524
+        label: Protein
+        name: DNA gyrase subunit A (Streptococcus pneumoniae)
+    -   id: UniProt:P0A4L9
+        label: Protein
+        name: DNA gyrase subunit B (Streptococcus pneumoniae)
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bacterial DNA replication
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01044
+-   directed: true
+    graph:
+        disease: Bacterial conjunctivitis
+        disease_mesh: MESH:D003234
+        drug: Gatifloxacin
+        drug_mesh: MESH:C078049
+        drugbank: DB:DB01044
+    links:
+    -   key: negatively regulates
+        source: MESH:C078049
+        target: GO:0009340
+    -   key: negatively regulates
+        source: MESH:C078049
+        target: GO:0120217
+    -   key: participates in
+        source: GO:0009340
+        target: GO:0006260
+    -   key: participates in
+        source: GO:0120217
+        target: GO:0006260
+    -   key: occurs in
+        source: GO:0006260
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D003234
+    multigraph: true
+    nodes:
+    -   id: MESH:C078049
+        label: Drug
+        name: Gatifloxacin
+    -   id: GO:0009340
+        label: CellularComponent
+        name: DNA topoisomerase IV complex
+    -   id: GO:0120217
+        label: CellularComponent
+        name: DNA gyrase complex
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bacterial DNA replication
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D003234
+        label: Disease
+        name: Bacterial conjunctivitis
+    reference: https://go.drugbank.com/drugs/DB01044#BE0003726
+-   directed: true
+    graph:
+        disease: Chlamydial pneumonia
+        disease_mesh: MESH:D061387
+        drug: Gatifloxacin
+        drug_mesh: MESH:C078049
+        drugbank: DB:DB01044
+    links:
+    -   key: negatively regulates
+        source: MESH:C078049
+        target: GO:0009340
+    -   key: participates in
+        source: GO:0009340
+        target: GO:0006260
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q9Z8R4
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q9Z8R3
+    -   key: participates in
+        source: UniProt:Q9Z8R4
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:Q9Z8R3
+        target: GO:0006260
+    -   key: occurs in
+        source: GO:0006260
+        target: NCBITaxon:83558
+    -   key: causes
+        source: NCBITaxon:83558
+        target: MESH:D061387
+    multigraph: true
+    nodes:
+    -   id: MESH:C078049
+        label: Drug
+        name: Gatifloxacin
+    -   id: GO:0009340
+        label: CellularComponent
+        name: DNA topoisomerase IV complex
+    -   id: UniProt:Q9Z8R4
+        label: Protein
+        name: DNA gyrase subunit A (Chlamydia pneumoniae)
+    -   id: UniProt:Q9Z8R3
+        label: Protein
+        name: DNA gyrase subunit B (Chlamydia pneumoniae)
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bacterial DNA replication
+    -   id: NCBITaxon:83558
+        label: OrganismTaxon
+        name: Chlamydia pneumoniae
+    -   id: MESH:D061387
+        label: Disease
+        name: Chlamydial pneumonia
+    reference: https://go.drugbank.com/drugs/DB01044
+-   directed: true
+    graph:
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: Gatifloxacin
+        drug_mesh: MESH:C078049
+        drugbank: DB:DB01044
+    links:
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q2FYS4
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q2FYS5
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q2FKQ0
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P66936
+    -   key: participates in
+        source: UniProt:Q2FYS4
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:Q2FYS5
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:Q2FKQ0
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P66936
+        target: GO:0006260
+    -   key: occurs in
+        source: GO:0006260
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:C078049
+        label: Drug
+        name: Gatifloxacin
+    -   id: UniProt:Q2FYS4
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Staphylococcus aureus)
+    -   id: UniProt:Q2FYS5
+        label: Protein
+        name: DNA topoisomerase 4 subunit B (Staphylococcus aureus)
+    -   id: UniProt:Q2FKQ0
+        label: Protein
+        name: DNA gyrase subunit A (Staphylococcus aureus)
+    -   id: UniProt:P66936
+        label: Protein
+        name: DNA gyrase subunit B (Staphylococcus aureus)
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bacterial DNA replication
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference: https://go.drugbank.com/drugs/DB01044
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Gatifloxacin
+        drug_mesh: MESH:C078049
+        drugbank: DB:DB01044
+    links:
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q2FYS4
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q2FYS5
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:Q2FKQ0
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P66936
+    -   key: participates in
+        source: UniProt:Q2FYS4
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:Q2FYS5
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:Q2FKQ0
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P66936
+        target: GO:0006260
+    -   key: occurs in
+        source: GO:0006260
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C078049
+        label: Drug
+        name: Gatifloxacin
+    -   id: UniProt:Q2FYS4
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Staphylococcus aureus)
+    -   id: UniProt:Q2FYS5
+        label: Protein
+        name: DNA topoisomerase 4 subunit B (Staphylococcus aureus)
+    -   id: UniProt:Q2FKQ0
+        label: Protein
+        name: DNA gyrase subunit A (Staphylococcus aureus)
+    -   id: UniProt:P66936
+        label: Protein
+        name: DNA gyrase subunit B (Staphylococcus aureus)
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bacterial DNA replication
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01044
+-   directed: true
+    graph:
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: Gatifloxacin
+        drug_mesh: MESH:C078049
+        drugbank: DB:DB01044
+    links:
+    -   key: negatively regulates
+        source: MESH:C078049
+        target: GO:0009340
+    -   key: negatively regulates
+        source: MESH:C078049
+        target: GO:0120217
+    -   key: participates in
+        source: GO:0009340
+        target: GO:0006260
+    -   key: participates in
+        source: GO:0120217
+        target: GO:0006260
+    -   key: occurs in
+        source: GO:0006260
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:C078049
+        label: Drug
+        name: Gatifloxacin
+    -   id: GO:0009340
+        label: CellularComponent
+        name: DNA topoisomerase IV complex
+    -   id: GO:0120217
+        label: CellularComponent
+        name: DNA gyrase complex
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bacterial DNA replication
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference: https://go.drugbank.com/drugs/DB01044#BE0003726
+-   directed: true
+    graph:
+        disease: Pneumonia due to Mycoplasma pneumoniae
+        disease_mesh: MESH:D011019
+        drug: Gatifloxacin
+        drug_mesh: MESH:C078049
+        drugbank: DB:DB01044
+    links:
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P75352
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P78016
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P22446
+    -   key: decreases activity of
+        source: MESH:C078049
+        target: UniProt:P22447
+    -   key: participates in
+        source: UniProt:P75352
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P78016
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P22446
+        target: GO:0006260
+    -   key: participates in
+        source: UniProt:P22447
+        target: GO:0006260
+    -   key: occurs in
+        source: GO:0006260
+        target: NCBITaxon:2104
+    -   key: causes
+        source: NCBITaxon:2104
+        target: MESH:D011019
+    multigraph: true
+    nodes:
+    -   id: MESH:C078049
+        label: Drug
+        name: Gatifloxacin
+    -   id: UniProt:P75352
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Mycoplasma pneumoniae)
+    -   id: UniProt:P78016
+        label: Protein
+        name: DNA topoisomerase 4 subunit B (Mycoplasma pneumoniae)
+    -   id: UniProt:P22446
+        label: Protein
+        name: DNA gyrase subunit A (Mycoplasma pneumoniae)
+    -   id: UniProt:P22447
+        label: Protein
+        name: DNA gyrase subunit B (Mycoplasma pneumoniae)
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: Bacterial DNA replication
+    -   id: NCBITaxon:2104
+        label: OrganismTaxon
+        name: Mycoplasma pneumoniae
+    -   id: MESH:D011019
+        label: Disease
+        name: Pneumonia due to Mycoplasma pneumoniae
+    reference: https://go.drugbank.com/drugs/DB01044
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Gliclazide
+        drug_mesh: MESH:D005907
+        drugbank: DB:DB01120
+    links:
+    -   key: decreases activity of
+        source: MESH:D005907
+        target: UniProt:Q09428
+    -   key: positively correlated with
+        source: UniProt:Q09428
+        target: GO:0015272
+    -   key: negatively correlated with
+        source: GO:0015272
+        target: GO:0051899
+    -   key: positively correlated with
+        source: GO:0051899
+        target: GO:0070509
+    -   key: positively correlated with
+        source: GO:0070509
+        target: GO:0030073
+    -   key: negatively correlated with
+        source: GO:0030073
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:D005907
+        label: Drug
+        name: Gliclazide
+    -   id: UniProt:Q09428
+        label: Protein
+        name: ATP-binding cassette sub-family C member 8
+    -   id: GO:0015272
+        label: BiologicalProcess
+        name: ATP-activated inward rectifier potassium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://pubmed.ncbi.nlm.nih.gov/25583094/ https://go.drugbank.com/drugs/DB01120
+-   directed: true
+    graph:
+        disease: Diabetic retinopathy
+        disease_mesh: MESH:D003930
+        drug: Ranibizumab
+        drug_mesh: MESH:D000069579
+        drugbank: DB:DB01270
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069579
+        target: UniProt:P15692
+    -   key: positively regulates
+        source: UniProt:P15692
+        target: GO:0001525
+    -   key: positively correlated with
+        source: GO:0001525
+        target: MESH:D003930
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069579
+        label: Drug
+        name: Ranibizumab
+    -   id: UniProt:P15692
+        label: Protein
+        name: Vascular endothelial growth factor A
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: Angiogenesis
+    -   id: MESH:D003930
+        label: Disease
+        name: Diabetic retinopathy
+    reference: https://go.drugbank.com/drugs/DB01270 https://pubmed.ncbi.nlm.nih.gov/19199892/
+-   comment: Dimethyl fumarate ia a prodrug which is metabolised into the pharmacologically
+        active monomethyl fumarate. The mechanism of action of dimethyl fumarate in
+        multiple sclerosis is not well understood.
+    directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: Dimethyl fumarate
+        drug_mesh: MESH:D000069462
+        drugbank: DB:DB08908
+    links:
+    -   key: positively regulates
+        source: MESH:D000069462
+        target: REACT:R-HSA-8932339
+    -   key: negatively regulates
+        source: REACT:R-HSA-8932339
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069462
+        label: Drug
+        name: Dimethyl fumarate
+    -   id: REACT:R-HSA-8932339
+        label: Pathway
+        name: ROS sensing by NFE2L2
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB08908 https://pubmed.ncbi.nlm.nih.gov/27825853/
+        https://en.wikipedia.org/wiki/Dimethyl_fumarate#Pharmacology
+-   directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: Evolocumab
+        drug_mesh: MESH:C577155
+        drugbank: DB:DB09303
+    links:
+    -   key: decreases activity of
+        source: MESH:C577155
+        target: UniProt:Q8NBP7
+    -   key: decreases activity of
+        source: UniProt:Q8NBP7
+        target: UniProt:P01130
+    -   key: decreases abundance of
+        source: UniProt:P01130
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:C577155
+        label: Drug
+        name: Evolocumab
+    -   id: UniProt:Q8NBP7
+        label: Protein
+        name: Proprotein convertase subtilisin/kexin type 9
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference: https://en.wikipedia.org/wiki/Evolocumab https://go.drugbank.com/drugs/DB09303
+        https://en.wikipedia.org/wiki/LDL_receptor#Function
+-   directed: true
+    graph:
+        disease: Tachyarrhythmia
+        disease_mesh: MESH:D013610
+        drug: Pilsicainide
+        drug_mesh: MESH:C042288
+        drugbank: DB:DB12712
+    links:
+    -   key: decreases activity of
+        source: MESH:C042288
+        target: UniProt:Q14524
+    -   key: positively regulates
+        source: UniProt:Q14524
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0060048
+    -   key: positively regulates
+        source: GO:0060048
+        target: GO:0060047
+    -   key: positively correlated with
+        source: GO:0060047
+        target: GO:0010460
+    -   key: positively correlated with
+        source: GO:0010460
+        target: MESH:D013610
+    multigraph: true
+    nodes:
+    -   id: MESH:C042288
+        label: Drug
+        name: Pilsicainide
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0060048
+        label: BiologicalProcess
+        name: Cardiac muscle contraction
+    -   id: GO:0060047
+        label: BiologicalProcess
+        name: Heart contraction
+    -   id: GO:0010460
+        label: BiologicalProcess
+        name: Positive regulation of heart rate
+    -   id: MESH:D013610
+        label: Disease
+        name: Tachyarrhythmia
+    reference: https://en.wikipedia.org/wiki/Pilsicainide https://en.wikipedia.org/wiki/Tachycardia#Causes
+        https://en.wikipedia.org/wiki/Nav1.5 https://en.wikipedia.org/wiki/Sodium_channel_blocker#Class_Ic_agents
