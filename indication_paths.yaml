@@ -71755,3 +71755,1697 @@
         name: Tachyarrhythmia
     reference: https://en.wikipedia.org/wiki/Pilsicainide https://en.wikipedia.org/wiki/Tachycardia#Causes
         https://en.wikipedia.org/wiki/Nav1.5 https://en.wikipedia.org/wiki/Sodium_channel_blocker#Class_Ic_agents
+-   comment: Tropicamide is indicated to induce mydriasis (dilation of the pupil)
+        and cycloplegia (paralysis of the ciliary muscle of the eye) in diagnostic
+        procedures
+    directed: true
+    graph:
+        disease: Dilated pupil
+        disease_mesh: MESH:D015878
+        drug: Tropicamide
+        drug_mesh: MESH:D014331
+        drugbank: DB:DB00809
+    links:
+    -   key: decreases activity of
+        source: MESH:D014331
+        target: InterPro:IPR000995
+    -   key: positively regulates
+        source: InterPro:IPR000995
+        target: GO:0090075
+    -   key: causes
+        source: MESH:D014331
+        target: HP:0000602
+    -   key: correlated with
+        source: HP:0000602
+        target: MESH:D015878
+    -   key: location of
+        source: GO:0090075
+        target: UBERON:0001607
+    -   key: causes
+        source: UBERON:0001607
+        target: MESH:D015878
+    multigraph: true
+    nodes:
+    -   id: MESH:D014331
+        label: Drug
+        name: Tropicamide
+    -   id: InterPro:IPR000995
+        label: GeneFamily
+        name: Muscarinic acetylcholine (mACh) receptor
+    -   id: GO:0090075
+        label: BiologicalProcess
+        name: Relaxation of muscle
+    -   id: HP:0000602
+        label: PhenotypicFeature
+        name: Paralysis of ciliary muscle
+    -   id: UBERON:0001607
+        label: GrossAnatomicalStructure
+        name: Sphincter pupillae
+    -   id: MESH:D015878
+        label: Disease
+        name: Dilated pupil
+    reference: https://go.drugbank.com/drugs/DB00809#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Tropicamide
+-   comment: Troglitazone was withdrawn in 2000 due to risk of hepatotoxicity
+    directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Troglitazone
+        drug_mesh: null
+        drugbank: DB:DB00197
+    links:
+    -   key: negatively regulates
+        source: DB:DB00197
+        target: HP:0000855
+    -   key: location of
+        source: HP:0000855
+        target: UBERON:0001630
+    -   key: prevents
+        source: UBERON:0001630
+        target: REACT:R-HSA-70263
+    -   key: location of
+        source: HP:0000855
+        target: UBERON:0001013
+    -   key: prevents
+        source: UBERON:0001013
+        target: REACT:R-HSA-70263
+    -   key: location of
+        source: REACT:R-HSA-70263
+        target: UBERON:0002107
+    -   key: decreases abundance of
+        source: UBERON:0002107
+        target: MESH:D001786
+    -   key: manifestation of
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: DB:DB00197
+        label: Drug
+        name: Troglitazone
+    -   id: HP:0000855
+        label: PhenotypicFeature
+        name: Insulin resistance
+    -   id: UBERON:0001630
+        label: GrossAnatomicalStructure
+        name: Muscle
+    -   id: UBERON:0001013
+        label: GrossAnatomicalStructure
+        name: Adipose tissue
+    -   id: REACT:R-HSA-70263
+        label: Pathway
+        name: Gluconeogenesis
+    -   id: UBERON:0002107
+        label: GrossAnatomicalStructure
+        name: Liver
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB00197#mechanismofaction DOI:10.18773/austprescr.2004.059
+        https://pubchem.ncbi.nlm.nih.gov/compound/Troglitazone#section=Pharmacology-and-Biochemistry
+-   comment: Troglitazone was withdrawn in 2000 due to risk of hepatotoxicity
+    directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Troglitazone
+        drug_mesh: null
+        drugbank: DB:DB00197
+    links:
+    -   key: increases activity of
+        source: DB:DB00197
+        target: UniProt:P37231
+    -   key: decreases abundance of
+        source: UniProt:P37231
+        target: MESH:D014280
+    -   key: negatively regulates
+        source: MESH:D014280
+        target: GO:0030073
+    -   key: decreases abundance of
+        source: UniProt:P37231
+        target: MESH:D005227
+    -   key: negatively regulates
+        source: MESH:D005227
+        target: GO:0030073
+    -   key: decreases abundance of
+        source: GO:0030073
+        target: MESH:D001786
+    -   key: manifestation of
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: DB:DB00197
+        label: Drug
+        name: Troglitazone
+    -   id: UniProt:P37231
+        label: Protein
+        name: Peroxisome proliferator-activated receptor gamma (PPAR-gamma)
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglyceride
+    -   id: MESH:D005227
+        label: ChemicalSubstance
+        name: Circulating fatty acids
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB00197#mechanismofaction DOI:10.18773/austprescr.2004.059
+        https://pubchem.ncbi.nlm.nih.gov/compound/Troglitazone#section=Pharmacology-and-Biochemistry
+-   comment: Troglitazone was withdrawn in 2000 due to risk of hepatotoxicity
+    directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Troglitazone
+        drug_mesh: null
+        drugbank: DB:DB00197
+    links:
+    -   key: increases activity of
+        source: DB:DB00197
+        target: UniProt:P37231
+    -   key: molecularly interacts with
+        source: UniProt:P37231
+        target: InterPro:IPR000003
+    -   key: positively regulates
+        source: InterPro:IPR000003
+        target: GO:0030154
+    -   key: increases activity of
+        source: GO:0030154
+        target: REACT:R-HSA-70326
+    -   key: decreases abundance of
+        source: REACT:R-HSA-70326
+        target: MESH:D001786
+    -   key: increases activity of
+        source: GO:0030154
+        target: REACT:R-HSA-390918
+    -   key: decreases abundance of
+        source: REACT:R-HSA-390918
+        target: MESH:D001786
+    -   key: manifestation of
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: DB:DB00197
+        label: Drug
+        name: Troglitazone
+    -   id: UniProt:P37231
+        label: Protein
+        name: Peroxisome proliferator-activated receptor gamma (PPAR-gamma)
+    -   id: InterPro:IPR000003
+        label: GeneFamily
+        name: 9-cis retinoic acid receptor (RXR [retinoid X receptor]
+    -   id: GO:0030154
+        label: BiologicalProcess
+        name: Cell differentiation
+    -   id: REACT:R-HSA-390918
+        label: Pathway
+        name: Lipid metabolism
+    -   id: REACT:R-HSA-70326
+        label: Pathway
+        name: Glucose metabolism
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB00197#mechanismofaction DOI:10.18773/austprescr.2004.059
+        https://pubchem.ncbi.nlm.nih.gov/compound/Troglitazone#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Arthritis
+        disease_mesh: MESH:D001168
+        drug: Tenoxicam
+        drug_mesh: MESH:C032801
+        drugbank: DB:DB00469
+    links:
+    -   key: decreases activity of
+        source: MESH:C032801
+        target: UniProt:P23219
+    -   key: negatively regulates
+        source: UniProt:P23219
+        target: REACT:R-HSA-265295
+    -   key: decreases activity of
+        source: MESH:C032801
+        target: UniProt:P35354
+    -   key: negatively regulates
+        source: UniProt:P35354
+        target: REACT:R-HSA-265295
+    -   key: ameliorates
+        source: REACT:R-HSA-265295
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D001168
+    multigraph: true
+    nodes:
+    -   id: MESH:C032801
+        label: Drug
+        name: Tenoxicam
+    -   id: UniProt:P23219
+        label: Protein
+        name: Cyclooxygenase-1
+    -   id: REACT:R-HSA-265295
+        label: Pathway
+        name: Prostaglandin synthesis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: UniProt:P35354
+        label: Protein
+        name: Cyclooxygenase-2
+    -   id: MESH:D001168
+        label: Disease
+        name: Arthritis
+    reference: https://go.drugbank.com/drugs/DB00469#mechanismofaction
+-   directed: true
+    graph:
+        disease: Vitamin deficiency
+        disease_mesh: MESH:D001361
+        drug: Riboflavin
+        drug_mesh: MESH:D012256
+        drugbank: DB:DB00140
+    links:
+    -   key: part of
+        source: MESH:D012256
+        target: MESH:D019587
+    -   key: molecularly interacts with
+        source: MESH:D019587
+        target: UniProt:Q969G6
+    -   key: produces
+        source: UniProt:Q969G6
+        target: MESH:D005486
+    -   key: participates in
+        source: MESH:D005486
+        target: GO:0006112
+    -   key: molecularly interacts with
+        source: MESH:D019587
+        target: UniProt:Q8NFF5
+    -   key: produces
+        source: UniProt:Q8NFF5
+        target: MESH:D005182
+    -   key: participates in
+        source: MESH:D005182
+        target: GO:0006112
+    -   key: affected by
+        source: GO:0006112
+        target: MESH:D001361
+    multigraph: true
+    nodes:
+    -   id: MESH:D012256
+        label: Drug
+        name: Riboflavin
+    -   id: MESH:D019587
+        label: ChemicalSubstance
+        name: Dietary supplements
+    -   id: UniProt:Q969G6
+        label: Protein
+        name: Riboflavin kinase
+    -   id: MESH:D005486
+        label: ChemicalSubstance
+        name: Flavin mononucleotide
+    -   id: UniProt:Q8NFF5
+        label: Protein
+        name: Riboflavin synthase
+    -   id: MESH:D005182
+        label: ChemicalSubstance
+        name: Flavin adenine dinucleotide
+    -   id: GO:0006112
+        label: BiologicalProcess
+        name: Energy reserve metabolic process
+    -   id: MESH:D001361
+        label: Disease
+        name: Vitamin deficiency
+    reference: https://go.drugbank.com/drugs/DB00140#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Riboflavin#section=Pharmacology
+-   directed: true
+    graph:
+        disease: Mantle cell lymphoma
+        disease_mesh: MESH:D020522
+        drug: Temsirolimus
+        drug_mesh: MESH:C401859
+        drugbank: DB:DB06287
+    links:
+    -   key: molecularly interacts with
+        source: MESH:C401859
+        target: InterPro:IPR001179
+    -   key: decreases activity of
+        source: InterPro:IPR001179
+        target: UniProt:P42345
+    -   key: decreases activity of
+        source: UniProt:P42345
+        target: UniProt:P24385
+    -   key: causes
+        source: UniProt:P24385
+        target: GO:0007050
+    -   key: occurs in
+        source: GO:0007050
+        target: GO:0051318
+    -   key: correlated with
+        source: GO:0051318
+        target: MESH:D020522
+    multigraph: true
+    nodes:
+    -   id: MESH:C401859
+        label: Drug
+        name: Temsirolimus
+    -   id: InterPro:IPR001179
+        label: GeneFamily
+        name: FK Binding Protein-12
+    -   id: UniProt:P42345
+        label: Protein
+        name: Serine/threonine-protein kinase mTOR
+    -   id: UniProt:P24385
+        label: Protein
+        name: cyclin D1
+    -   id: GO:0007050
+        label: BiologicalProcess
+        name: Cell cycle arrest
+    -   id: GO:0051318
+        label: BiologicalProcess
+        name: G1 phase
+    -   id: MESH:D020522
+        label: Disease
+        name: Mantle cell lymphoma
+    reference: https://go.drugbank.com/drugs/DB06287#mechanismofaction DOI:10.1158/1078-0432.CCR-07-4719
+-   directed: true
+    graph:
+        disease: Renal cell carcinoma
+        disease_mesh: MESH:D002292
+        drug: Temsirolimus
+        drug_mesh: MESH:C401859
+        drugbank: DB:DB06287
+    links:
+    -   key: molecularly interacts with
+        source: MESH:C401859
+        target: InterPro:IPR001179
+    -   key: decreases activity of
+        source: InterPro:IPR001179
+        target: UniProt:P42345
+    -   key: decreases activity of
+        source: UniProt:P42345
+        target: UniProt:Q16665
+    -   key: decreases synthesis of
+        source: UniProt:Q16665
+        target: UniProt:P15692
+    -   key: negatively regulates
+        source: UniProt:P15692
+        target: GO:0001525
+    -   key: correlated with
+        source: GO:0001525
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C401859
+        label: Drug
+        name: Temsirolimus
+    -   id: InterPro:IPR001179
+        label: GeneFamily
+        name: FK Binding Protein-12
+    -   id: UniProt:P42345
+        label: Protein
+        name: Serine/threonine-protein kinase mTOR
+    -   id: UniProt:Q16665
+        label: Protein
+        name: Hypoxia-inducible factor-1a (HIF-1a)
+    -   id: UniProt:P15692
+        label: Protein
+        name: Vascular endothelial growth factor
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: Angiogenesis
+    -   id: MESH:D002292
+        label: Disease
+        name: Renal cell carcinoma
+    reference: https://go.drugbank.com/drugs/DB06287#mechanismofaction DOI:10.1158/1078-0432.CCR-07-4719
+-   directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: Rotigotine
+        drug_mesh: MESH:C047508
+        drugbank: DB:DB05271
+    links:
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P35462
+    -   key: positively regulates
+        source: UniProt:P35462
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P21728
+    -   key: positively regulates
+        source: UniProt:P21728
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P21918
+    -   key: positively regulates
+        source: UniProt:P21918
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: UniProt:P14416
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P21917
+    -   key: positively regulates
+        source: UniProt:P21917
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P08908
+    -   key: positively regulates
+        source: UniProt:P08908
+        target: GO:0097332
+    -   key: decreases activity of
+        source: MESH:C047508
+        target: UniProt:P18089
+    -   key: positively regulates
+        source: UniProt:P18089
+        target: GO:0097332
+    -   key: ameliorates
+        source: GO:0097332
+        target: HP:0010833
+    -   key: correlated with
+        source: HP:0010833
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:C047508
+        label: Drug
+        name: Rotigotine
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine receptor D3
+    -   id: UniProt:P21728
+        label: Protein
+        name: Dopamine receptor D1
+    -   id: UniProt:P21918
+        label: Protein
+        name: Dopamine receptor D5
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine receptor D2
+    -   id: UniProt:P21917
+        label: Protein
+        name: Dopamine receptor D4
+    -   id: UniProt:P08908
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1A
+    -   id: UniProt:P18089
+        label: Protein
+        name: Alpha-2B adrenergic receptor
+    -   id: GO:0097332
+        label: BiologicalProcess
+        name: Response to antipsychotic drug
+    -   id: HP:0010833
+        label: PhenotypicFeature
+        name: Neuropathic pain
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference: https://go.drugbank.com/drugs/DB05271#mechanismofaction https://doi.org/10.1155/2011/403039
+-   directed: true
+    graph:
+        disease: Restless legs
+        disease_mesh: MESH:D012148
+        drug: Rotigotine
+        drug_mesh: MESH:C047508
+        drugbank: DB:DB05271
+    links:
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P35462
+    -   key: positively regulates
+        source: UniProt:P35462
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P21728
+    -   key: positively regulates
+        source: UniProt:P21728
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P21918
+    -   key: positively regulates
+        source: UniProt:P21918
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: UniProt:P14416
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P21917
+    -   key: positively regulates
+        source: UniProt:P21917
+        target: GO:0097332
+    -   key: increases activity of
+        source: MESH:C047508
+        target: UniProt:P08908
+    -   key: positively regulates
+        source: UniProt:P08908
+        target: GO:0097332
+    -   key: decreases activity of
+        source: MESH:C047508
+        target: UniProt:P18089
+    -   key: positively regulates
+        source: UniProt:P18089
+        target: GO:0097332
+    -   key: ameliorates
+        source: GO:0097332
+        target: HP:0010833
+    -   key: correlated with
+        source: HP:0010833
+        target: MESH:D012148
+    multigraph: true
+    nodes:
+    -   id: MESH:C047508
+        label: Drug
+        name: Rotigotine
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine receptor D3
+    -   id: UniProt:P21728
+        label: Protein
+        name: Dopamine receptor D1
+    -   id: UniProt:P21918
+        label: Protein
+        name: Dopamine receptor D5
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine receptor D2
+    -   id: UniProt:P21917
+        label: Protein
+        name: Dopamine receptor D4
+    -   id: UniProt:P08908
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1A
+    -   id: UniProt:P18089
+        label: Protein
+        name: Alpha-2B adrenergic receptor
+    -   id: GO:0097332
+        label: BiologicalProcess
+        name: Response to antipsychotic drug
+    -   id: HP:0010833
+        label: PhenotypicFeature
+        name: Neuropathic pain
+    -   id: MESH:D012148
+        label: Disease
+        name: Restless legs
+    reference: https://go.drugbank.com/drugs/DB05271#mechanismofaction https://doi.org/10.1159/000362629
+-   directed: true
+    graph:
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: decreases activity of
+        source: MESH:C052018
+        target: UniProt:Q04707
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: negatively regulates
+        source: UniProt:Q04707
+        target: GO:0018104
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: UniProt:Q04707
+        label: Protein
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Upper respiratory infection
+        disease_mesh: MESH:D012141
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: decreases activity of
+        source: MESH:C052018
+        target: UniProt:P45299
+    -   key: negatively regulates
+        source: UniProt:P45299
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:727
+    -   key: causes
+        source: NCBITaxon:727
+        target: MESH:D012141
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: UniProt:P45299
+        label: Protein
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:727
+        label: OrganismTaxon
+        name: Haemophilus influenzae
+    -   id: MESH:D012141
+        label: Disease
+        name: Upper respiratory infection
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: decreases activity of
+        source: MESH:C052018
+        target: InterPro:IPR001460
+    -   key: negatively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Tonsillitis
+        disease_mesh: MESH:D014069
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: decreases activity of
+        source: MESH:C052018
+        target: InterPro:IPR001460
+    -   key: negatively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D014069
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D014069
+        label: Disease
+        name: Tonsillitis
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: decreases activity of
+        source: MESH:C052018
+        target: UniProt:Q53613
+    -   key: negatively regulates
+        source: UniProt:Q53613
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: UniProt:Q53613
+        label: Protein
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: Cefprozil
+        drug_mesh: MESH:C052018
+        drugbank: DB:DB01150
+    links:
+    -   key: decreases activity of
+        source: MESH:C052018
+        target: UniProt:Q04707
+    -   key: negatively regulates
+        source: UniProt:Q04707
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases activity of
+        source: MESH:C052018
+        target: InterPro:IPR033907
+    -   key: contributes to
+        source: InterPro:IPR033907
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:C052018
+        label: Drug
+        name: Cefprozil
+    -   id: UniProt:Q04707
+        label: Protein
+        name: penicillin-binding proteins
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference: https://go.drugbank.com/drugs/DB01150#mechanismofaction http://www.antimicrobe.org/drugpopup/Cefprozil.htm
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Aztreonam
+        drug_mesh: MESH:D001398
+        drugbank: DB:DB00355
+    links:
+    -   key: decreases activity of
+        source: MESH:D001398
+        target: UniProt:P42971
+    -   key: negatively regulates
+        source: UniProt:P42971
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases abundance of
+        source: MESH:D001398
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:562
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D001398
+        label: Drug
+        name: Aztreonam
+    -   id: UniProt:P42971
+        label: Protein
+        name: Penicillin binding protein 3
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB00355#mechanismofaction
+-   directed: true
+    graph:
+        disease: Infection due to Escherichia coli
+        disease_mesh: MESH:D004927
+        drug: Aztreonam
+        drug_mesh: MESH:D001398
+        drugbank: DB:DB00355
+    links:
+    -   key: decreases activity of
+        source: MESH:D001398
+        target: UniProt:P42971
+    -   key: negatively regulates
+        source: UniProt:P42971
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases abundance of
+        source: MESH:D001398
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:562
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D004927
+    multigraph: true
+    nodes:
+    -   id: MESH:D001398
+        label: Drug
+        name: Aztreonam
+    -   id: UniProt:P42971
+        label: Protein
+        name: Penicillin binding protein 3
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D004927
+        label: Disease
+        name: Infection due to Escherichia coli
+    reference: https://go.drugbank.com/drugs/DB00355#mechanismofaction
+-   directed: true
+    graph:
+        disease: Endometritis
+        disease_mesh: MESH:D004716
+        drug: Aztreonam
+        drug_mesh: MESH:D001398
+        drugbank: DB:DB00355
+    links:
+    -   key: decreases activity of
+        source: MESH:D001398
+        target: UniProt:A0A0H2X0X9
+    -   key: negatively regulates
+        source: UniProt:A0A0H2X0X9
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases abundance of
+        source: MESH:D001398
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:813
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:813
+    -   key: causes
+        source: NCBITaxon:813
+        target: MESH:D004716
+    multigraph: true
+    nodes:
+    -   id: MESH:D001398
+        label: Drug
+        name: Aztreonam
+    -   id: UniProt:A0A0H2X0X9
+        label: Protein
+        name: Penicillin binding protein 3
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:813
+        label: OrganismTaxon
+        name: Chlamydia trachomatis
+    -   id: MESH:D004716
+        label: Disease
+        name: Endometritis
+    reference: https://go.drugbank.com/drugs/DB00355#mechanismofaction
+-   directed: true
+    graph:
+        disease: Infectious disease of abdomen
+        disease_mesh: MESH:D059413
+        drug: Aztreonam
+        drug_mesh: MESH:D001398
+        drugbank: DB:DB00355
+    links:
+    -   key: decreases activity of
+        source: MESH:D001398
+        target: InterPro:IPR001460
+    -   key: negatively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases abundance of
+        source: MESH:D001398
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:2
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D059413
+    multigraph: true
+    nodes:
+    -   id: MESH:D001398
+        label: Drug
+        name: Aztreonam
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin binding protein
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D059413
+        label: Disease
+        name: Infectious disease of abdomen
+    reference: https://go.drugbank.com/drugs/DB00355#mechanismofaction
+-   directed: true
+    graph:
+        disease: Infection due to Enterobacteriaceae
+        disease_mesh: MESH:D004756
+        drug: Aztreonam
+        drug_mesh: MESH:D001398
+        drugbank: DB:DB00355
+    links:
+    -   key: decreases activity of
+        source: MESH:D001398
+        target: UniProt:E5YIW1
+    -   key: negatively regulates
+        source: UniProt:E5YIW1
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases abundance of
+        source: MESH:D001398
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:543
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:543
+    -   key: causes
+        source: NCBITaxon:543
+        target: MESH:D004756
+    multigraph: true
+    nodes:
+    -   id: MESH:D001398
+        label: Drug
+        name: Aztreonam
+    -   id: UniProt:E5YIW1
+        label: Protein
+        name: Penicillin binding protein 3
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:543
+        label: OrganismTaxon
+        name: Enterobacteriaceae
+    -   id: MESH:D004756
+        label: Disease
+        name: Infection due to Enterobacteriaceae
+    reference: https://go.drugbank.com/drugs/DB00355#mechanismofaction
+-   directed: true
+    graph:
+        disease: Rhinoscleroma
+        disease_mesh: MESH:D012226
+        drug: Aztreonam
+        drug_mesh: MESH:D001398
+        drugbank: DB:DB00355
+    links:
+    -   key: decreases activity of
+        source: MESH:D001398
+        target: UniProt:A0A3Q9U7L4
+    -   key: negatively regulates
+        source: UniProt:A0A3Q9U7L4
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases abundance of
+        source: MESH:D001398
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:39831
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:39831
+    -   key: causes
+        source: NCBITaxon:39831
+        target: MESH:D012226
+    multigraph: true
+    nodes:
+    -   id: MESH:D001398
+        label: Drug
+        name: Aztreonam
+    -   id: UniProt:A0A3Q9U7L4
+        label: Protein
+        name: Penicillin binding protein 3
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:39831
+        label: OrganismTaxon
+        name: Klebsiella rhinoscleromatis
+    -   id: MESH:D012226
+        label: Disease
+        name: Rhinoscleroma
+    reference: https://go.drugbank.com/drugs/DB00355#mechanismofaction
+-   directed: true
+    graph:
+        disease: Bacterial infection due to Serratia
+        disease_mesh: MESH:D016868
+        drug: Aztreonam
+        drug_mesh: MESH:D001398
+        drugbank: DB:DB00355
+    links:
+    -   key: decreases activity of
+        source: MESH:D001398
+        target: UniProt:A0A5C7DBD7
+    -   key: negatively regulates
+        source: UniProt:A0A5C7DBD7
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: increases abundance of
+        source: MESH:D001398
+        target: InterPro:IPR033907
+    -   key: causes
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:613
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:613
+    -   key: causes
+        source: NCBITaxon:613
+        target: MESH:D016868
+    multigraph: true
+    nodes:
+    -   id: MESH:D001398
+        label: Drug
+        name: Aztreonam
+    -   id: UniProt:A0A5C7DBD7
+        label: Protein
+        name: Penicillin binding protein 3
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:613
+        label: OrganismTaxon
+        name: Serratia
+    -   id: MESH:D016868
+        label: Disease
+        name: Bacterial infection due to Serratia
+    reference: https://go.drugbank.com/drugs/DB00355#mechanismofaction
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: Efavirenz
+        drug_mesh: MESH:C098320
+        drugbank: DB:DB00625
+    links:
+    -   key: decreases activity of
+        source: MESH:C098320
+        target: UniProt:Q72547
+    -   key: prevents
+        source: UniProt:Q72547
+        target: GO:0039692
+    -   key: in taxon
+        source: GO:0039692
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:C098320
+        label: Drug
+        name: Efavirenz
+    -   id: UniProt:Q72547
+        label: Protein
+        name: Reverse transcriptase/RNaseH
+    -   id: GO:0039692
+        label: BiologicalProcess
+        name: Viral DNA replication
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference: https://go.drugbank.com/drugs/DB00625#mechanismofaction
+-   directed: true
+    graph:
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: Isosorbide dinitrate
+        drug_mesh: MESH:D007548
+        drugbank: DB:DB00883
+    links:
+    -   key: increases abundance of
+        source: MESH:D007548
+        target: MESH:D009569
+    -   key: positively regulates
+        source: MESH:D009569
+        target: InterPro:IPR001170
+    -   key: increases activity of
+        source: InterPro:IPR001170
+        target: MESH:D006152
+    -   key: positively regulates
+        source: MESH:D006152
+        target: GO:0006470
+    -   key: positively regulates
+        source: MESH:D006152
+        target: GO:0051208
+    -   key: positively correlated with
+        source: GO:0051208
+        target: GO:0060087
+    -   key: precedes
+        source: GO:0051208
+        target: GO:0042311
+    -   key: ameliorates
+        source: GO:0042311
+        target: MESH:D000787
+    -   key: occurs in
+        source: GO:0006470
+        target: MESH:D018994
+    -   key: positively correlated with
+        source: MESH:D018994
+        target: GO:0060087
+    -   key: ameliorates
+        source: GO:0060087
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D007548
+        label: Drug
+        name: Isosorbide dinitrate
+    -   id: MESH:D009569
+        label: ChemicalSubstance
+        name: Nitric oxide
+    -   id: InterPro:IPR001170
+        label: GeneFamily
+        name: Guanylate cyclase
+    -   id: GO:0051208
+        label: BiologicalProcess
+        name: Sequestering of calcium ion
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: MESH:D006152
+        label: ChemicalSubstance
+        name: Cyclic guanosine 3',5'-monophosphate (cGMP)
+    -   id: GO:0006470
+        label: BiologicalProcess
+        name: Protein dephosphorylation
+    -   id: MESH:D018994
+        label: ChemicalSubstance
+        name: Myosin light chains
+    -   id: GO:0060087
+        label: BiologicalProcess
+        name: Relaxation of vascular associated smooth muscle
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference: https://go.drugbank.com/drugs/DB00883#mechanismofaction https://en.wikipedia.org/wiki/Isosorbide_dinitrate#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Deep venous thrombosis
+        disease_mesh: MESH:D020246
+        drug: Enoxaparin sodium
+        drug_mesh: MESH:D017984
+        drugbank: DB:DB01225
+    links:
+    -   key: increases activity of
+        source: MESH:D017984
+        target: UniProt:P01008
+    -   key: decreases activity of
+        source: UniProt:P01008
+        target: UniProt:P00742
+    -   key: decreases activity of
+        source: UniProt:P01008
+        target: UniProt:P00734
+    -   key: decreases abundance of
+        source: UniProt:P00734
+        target: MESH:D005337
+    -   key: prevents
+        source: MESH:D005337
+        target: GO:0007596
+    -   key: prevents
+        source: UniProt:P00742
+        target: GO:0007596
+    -   key: manifestation of
+        source: GO:0007596
+        target: MESH:D020246
+    multigraph: true
+    nodes:
+    -   id: MESH:D017984
+        label: Drug
+        name: Enoxaparin sodium
+    -   id: UniProt:P01008
+        label: Protein
+        name: Antithrombin-III
+    -   id: UniProt:P00734
+        label: Protein
+        name: Factor IIa (thrombin)
+    -   id: MESH:D005337
+        label: ChemicalSubstance
+        name: Fibrin
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: GO:0007596
+        label: BiologicalProcess
+        name: Blood clotting
+    -   id: MESH:D020246
+        label: Disease
+        name: Deep venous thrombosis
+    reference: https://go.drugbank.com/drugs/DB01225#mechanismofaction
+-   directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: Peginterferon alfa-2b
+        drug_mesh: MESH:C417083
+        drugbank: DB:DB00022
+    links:
+    -   key: increases activity of
+        source: MESH:C417083
+        target: UniProt:P17181
+    -   key: decreases activity of
+        source: MESH:C417083
+        target: UniProt:P27958
+    -   key: prevents
+        source: UniProt:P27958
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:11103
+    -   key: positively regulates
+        source: UniProt:P17181
+        target: REACT:R-HSA-8950505
+    -   key: increases response to
+        source: REACT:R-HSA-8950505
+        target: GO:0140374
+    -   key: in taxon
+        source: GO:0140374
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C417083
+        label: Drug
+        name: Peginterferon alfa-2b
+    -   id: UniProt:P17181
+        label: Protein
+        name: Interferon alpha/beta receptor 1
+    -   id: UniProt:P27958
+        label: Protein
+        name: Viral DNA polymerase
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral replication
+    -   id: REACT:R-HSA-8950505
+        label: Pathway
+        name: JAK/STAT pathway
+    -   id: GO:0140374
+        label: BiologicalProcess
+        name: Innate antiviral immune
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepatitis C virus
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference: https://go.drugbank.com/drugs/DB00022#mechanismofaction https://en.wikipedia.org/wiki/Peginterferon_alfa-2b
+-   directed: true
+    graph:
+        disease: Acute coronary syndrome
+        disease_mesh: MESH:D054058
+        drug: Prasugrel
+        drug_mesh: MESH:D000068799
+        drugbank: DB:DB06209
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068799
+        target: UniProt:Q9H244
+    -   key: decreases molecular interaction
+        source: UniProt:Q9H244
+        target: MESH:D000244
+    -   key: decreases activity of
+        source: MESH:D000244
+        target: PR:000028445
+    -   key: prevents
+        source: PR:000028445
+        target: GO:0070527
+    -   key: correlated with
+        source: GO:0070527
+        target: MESH:D054058
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068799
+        label: Drug
+        name: Prasugrel
+    -   id: UniProt:Q9H244
+        label: Protein
+        name: P2Y purinoceptor 12
+    -   id: MESH:D000244
+        label: ChemicalSubstance
+        name: Adenosine diphosphate (ADP)
+    -   id: PR:000028445
+        label: MacromolecularComplex
+        name: Glycoprotein GPIIb/IIIa complex
+    -   id: GO:0070527
+        label: BiologicalProcess
+        name: Platelet aggregation
+    -   id: MESH:D054058
+        label: Disease
+        name: Acute coronary syndrome
+    reference: https://go.drugbank.com/drugs/DB06209#mechanismofaction
