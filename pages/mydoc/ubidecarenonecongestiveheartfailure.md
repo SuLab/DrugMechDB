@@ -1,0 +1,38 @@
+---
+title: "Ubidecarenone - Congestive heart failure"
+sidebar: mydoc_sidebar
+permalink: ubidecarenonecongestiveheartfailure.html
+toc: false 
+---
+
+{% include image.html url="images/ubidecarenonecongestiveheartfailure.png" file="ubidecarenonecongestiveheartfailure.png" alt="ubidecarenonecongestiveheartfailure" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:C010524 | Ubidecarenone | Drug |
+| UniProt:P56181 | NADH dehydrogenase [ubiquinone] flavoprotein 3, mitochondrial | Protein |
+| UniProt:P31040 | Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial | Protein |
+| GO:0042773 | ATP synthesis coupled electron transport | BiologicalProcess |
+| CHEBI:15422 | ATP | ChemicalSubstance |
+| GO:0060047 | Heart contraction | BiologicalProcess |
+| MESH:D006333 | Congestive heart failure | Drug |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Ubidecarenone | INCREASES ACTIVITY OF | Nadh Dehydrogenase [Ubiquinone] Flavoprotein 3, Mitochondrial |
+| Ubidecarenone | INCREASES ACTIVITY OF | Succinate Dehydrogenase [Ubiquinone] Flavoprotein Subunit, Mitochondrial |
+| Nadh Dehydrogenase [Ubiquinone] Flavoprotein 3, Mitochondrial | POSITIVELY REGULATES | Atp Synthesis Coupled Electron Transport |
+| Succinate Dehydrogenase [Ubiquinone] Flavoprotein Subunit, Mitochondrial | POSITIVELY REGULATES | Atp Synthesis Coupled Electron Transport |
+| Atp Synthesis Coupled Electron Transport | INCREASES ABUNDANCE OF | Atp |
+| Atp | PARTICIPATES IN | Heart Contraction |
+| Heart Contraction | NEGATIVELY CORRELATED WITH | Congestive Heart Failure |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB09270#mechanism-of-action](https://go.drugbank.com/drugs/DB09270#mechanism-of-action){:target="_blank"}

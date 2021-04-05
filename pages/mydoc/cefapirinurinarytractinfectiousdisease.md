@@ -1,0 +1,37 @@
+---
+title: "Cefapirin - Urinary tract infectious disease"
+sidebar: mydoc_sidebar
+permalink: cefapirinurinarytractinfectiousdisease.html
+toc: false 
+---
+
+{% include image.html url="images/cefapirinurinarytractinfectiousdisease.png" file="cefapirinurinarytractinfectiousdisease.png" alt="cefapirinurinarytractinfectiousdisease" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D002514 | Cefapirin | Drug |
+| InterPro:IPR001460 | Penicillin-binding protein, transpeptidase | GeneFamily |
+| GO:0018104 | Cross-linking of the peptidoglycan | BiologicalProcess |
+| GO:0009273 | Peptidoglycan-based cell wall biogenesis | BiologicalProcess |
+| GO:0005618 | Cell wall | CellularComponent |
+| NCBITaxon:2 | Bacteria | OrganismTaxon |
+| MESH:D014552 | Urinary tract infectious disease | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Cefapirin | DECREASES ACTIVITY OF | Penicillin-Binding Protein, Transpeptidase |
+| Penicillin-Binding Protein, Transpeptidase | POSITIVELY REGULATES | Cross-Linking Of The Peptidoglycan |
+| Cross-Linking Of The Peptidoglycan | POSITIVELY REGULATES | Peptidoglycan-Based Cell Wall Biogenesis |
+| Peptidoglycan-Based Cell Wall Biogenesis | HAS OUTPUT | Cell Wall |
+| Cell Wall | OCCURS IN | Bacteria |
+| Bacteria | CAUSES | Urinary Tract Infectious Disease |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB01139#mechanism-of-action](https://go.drugbank.com/drugs/DB01139#mechanism-of-action){:target="_blank"}
