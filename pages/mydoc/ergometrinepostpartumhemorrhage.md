@@ -1,0 +1,35 @@
+---
+title: "ergometrine - Postpartum hemorrhage"
+sidebar: mydoc_sidebar
+permalink: ergometrinepostpartumhemorrhage.html
+toc: false 
+---
+
+{% include image.html url="images/ergometrinepostpartumhemorrhage.png" file="ergometrinepostpartumhemorrhage.png" alt="ergometrinepostpartumhemorrhage" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D004874 | ergometrine | Drug |
+| UniProt:P35348 | Alpha-1A adrenergic receptor | Protein |
+| UBERON:0001135 | smooth muscle | GrossAnatomicalStructure |
+| UBERON:0000995 | uterus | GrossAnatomicalStructure |
+| GO:0070471 | uterine smooth muscle contraction | BiologicalProcess |
+| MESH:D006473 | Postpartum hemorrhage | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Ergometrine | INCREASES ACTIVITY OF | Alpha-1A Adrenergic Receptor |
+| Alpha-1A Adrenergic Receptor | LOCATED IN | Smooth Muscle |
+| Smooth Muscle | LOCATION OF | Uterus |
+| Uterus | INCREASES ACTIVITY OF | Uterine Smooth Muscle Contraction |
+| Uterine Smooth Muscle Contraction | NEGATIVELY CORRELATED WITH | Postpartum Hemorrhage |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB01253#mechanism-of-action](https://go.drugbank.com/drugs/DB01253#mechanism-of-action){:target="_blank"}

@@ -1,0 +1,45 @@
+---
+title: "imatinib - Gastrointestinal stromal tumor"
+sidebar: mydoc_sidebar
+permalink: imatinibgastrointestinalstromaltumor.html
+toc: false 
+---
+
+{% include image.html url="images/imatinibgastrointestinalstromaltumor.png" file="imatinibgastrointestinalstromaltumor.png" alt="imatinibgastrointestinalstromaltumor" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D000068877 | imatinib | Drug |
+| UniProt:P10721 | Mast/stem cell growth factor receptor Kit | Protein |
+| UniProt:P16234 | Platelet-derived growth factor receptor alpha | Protein |
+| GO:0035790 | platelet-derived growth factor receptor-alpha signaling pathway | BiologicalProcess |
+| GO:0038109 | Kit signaling pathway | BiologicalProcess |
+| GO:0030154 | cell differentiation | BiologicalProcess |
+| GO:0008283 | cell population proliferation | BiologicalProcess |
+| MESH:D002470 | Cell Survival | BiologicalProcess |
+| MESH:D046152 | Gastrointestinal stromal tumor | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Imatinib | DECREASES ACTIVITY OF | Mast/Stem Cell Growth Factor Receptor Kit |
+| Imatinib | DECREASES ACTIVITY OF | Platelet-Derived Growth Factor Receptor Alpha |
+| Platelet-Derived Growth Factor Receptor Alpha | POSITIVELY REGULATES | Platelet-Derived Growth Factor Receptor-Alpha Signaling Pathway |
+| Platelet-Derived Growth Factor Receptor-Alpha Signaling Pathway | POSITIVELY CORRELATED WITH | Cell Population Proliferation |
+| Platelet-Derived Growth Factor Receptor-Alpha Signaling Pathway | POSITIVELY CORRELATED WITH | Cell Survival |
+| Mast/Stem Cell Growth Factor Receptor Kit | POSITIVELY REGULATES | Kit Signaling Pathway |
+| Kit Signaling Pathway | POSITIVELY CORRELATED WITH | Cell Population Proliferation |
+| Kit Signaling Pathway | POSITIVELY CORRELATED WITH | Cell Survival |
+| Kit Signaling Pathway | POSITIVELY CORRELATED WITH | Cell Differentiation |
+| Cell Population Proliferation | POSITIVELY CORRELATED WITH | Gastrointestinal Stromal Tumor |
+| Cell Survival | POSITIVELY CORRELATED WITH | Gastrointestinal Stromal Tumor |
+| Cell Differentiation | POSITIVELY CORRELATED WITH | Gastrointestinal Stromal Tumor |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB00619#mechanism-of-action](https://go.drugbank.com/drugs/DB00619#mechanism-of-action){:target="_blank"}
