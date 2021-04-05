@@ -1,0 +1,58 @@
+---
+title: "Nicotinic acid - Mixed hyperlipidemia"
+sidebar: mydoc_sidebar
+permalink: nicotinicacidmixedhyperlipidemia.html
+toc: false 
+---
+
+{% include image.html url="images/nicotinicacidmixedhyperlipidemia.png" file="nicotinicacidmixedhyperlipidemia.png" alt="nicotinicacidmixedhyperlipidemia" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D009525 | Nicotinic acid | Drug |
+| UniProt:O75907 | Diacylglycerol O-acyltransferase 2 (DGAT2) | Protein |
+| REACT:R-HSA-75109 | Triglyceride biosynthesis | Pathway |
+| MESH:D014280 | Triglyceride | ChemicalSubstance |
+| MESH:D008076 | HDL Cholesterol | ChemicalSubstance |
+| UniProt:P02647 | Apolipoprotein A1 | Protein |
+| UniProt:P49019 | Hydroxycarboxylic acid receptor 3 | Protein |
+| UniProt:Q86YN6 | PPARg coactivator-1b | Protein |
+| MESH:D008074 | Lipoprotein | ChemicalSubstance |
+| UniProt:P02656 | Apolipoprotein C3 | Protein |
+| MESH:D005230 | Free fatty acids | ChemicalSubstance |
+| MESH:D000242 | Cyclic AMP | ChemicalSubstance |
+| UniProt:Q8TDS4 | Hydroxycarboxylic acid receptor 2 | Protein |
+| UniProt:P04114 | Apolipoprotein B | Protein |
+| MESH:D008074 | Lipoprotein | ChemicalSubstance |
+| MESH:D006950 | Mixed hyperlipidemia | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Nicotinic Acid | DECREASES ACTIVITY OF | Diacylglycerol O-Acyltransferase 2 (Dgat2) |
+| Diacylglycerol O-Acyltransferase 2 (Dgat2) | NEGATIVELY REGULATES | Triglyceride Biosynthesis |
+| Triglyceride Biosynthesis | DECREASES ABUNDANCE OF | Triglyceride |
+| Nicotinic Acid | INCREASES ACTIVITY OF | Hydroxycarboxylic Acid Receptor 2 |
+| Hydroxycarboxylic Acid Receptor 2 | DECREASES SYNTHESIS OF | Cyclic Amp |
+| Cyclic Amp | DECREASES ABUNDANCE OF | Free Fatty Acids |
+| Free Fatty Acids | DECREASES EXPRESSION OF | Apolipoprotein C3 |
+| Apolipoprotein C3 | DECREASES SYNTHESIS OF | Lipoprotein |
+| Free Fatty Acids | DECREASES EXPRESSION OF | Pparg Coactivator-1B |
+| Pparg Coactivator-1B | DECREASES SYNTHESIS OF | Lipoprotein |
+| Nicotinic Acid | INCREASES ACTIVITY OF | Hydroxycarboxylic Acid Receptor 3 |
+| Hydroxycarboxylic Acid Receptor 3 | DECREASES SYNTHESIS OF | Cyclic Amp |
+| Nicotinic Acid | DECREASES DEGRADATION OF | Apolipoprotein A1 |
+| Apolipoprotein A1 | INCREASES ABUNDANCE OF | Hdl Cholesterol |
+| Hdl Cholesterol | MANIFESTATION OF | Mixed Hyperlipidemia |
+| Triglyceride | INCREASES DEGRADATION OF | Apolipoprotein B |
+| Apolipoprotein B | DECREASES SYNTHESIS OF | Lipoprotein |
+| Lipoprotein | MANIFESTATION OF | Mixed Hyperlipidemia |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB00627#mechanism-of-action](https://go.drugbank.com/drugs/DB00627#mechanism-of-action){:target="_blank"}

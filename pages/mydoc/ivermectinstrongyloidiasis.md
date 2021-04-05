@@ -1,0 +1,35 @@
+---
+title: "ivermectin - Strongyloidiasis"
+sidebar: mydoc_sidebar
+permalink: ivermectinstrongyloidiasis.html
+toc: false 
+---
+
+{% include image.html url="images/ivermectinstrongyloidiasis.png" file="ivermectinstrongyloidiasis.png" alt="ivermectinstrongyloidiasis" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D007559 | ivermectin | Drug |
+| InterPro:IPR015680 | Glutamate-Gated Chloride Channel | GeneFamily |
+| GO:0005254 | chloride channel activity | MolecularActivity |
+| GO:0060081 | membrane hyperpolarization | BiologicalProcess |
+| NCBITaxon:6248 | Strongyloides stercoralis | OrganismTaxon |
+| MESH:D013322 | Strongyloidiasis | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Ivermectin | INCREASES ACTIVITY OF | Glutamate-Gated Chloride Channel |
+| Glutamate-Gated Chloride Channel | POSITIVELY REGULATES | Chloride Channel Activity |
+| Chloride Channel Activity | POSITIVELY CORRELATED WITH | Membrane Hyperpolarization |
+| Membrane Hyperpolarization | IN TAXON | Strongyloides Stercoralis |
+| Strongyloides Stercoralis | CAUSES | Strongyloidiasis |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB00602#mechanism-of-action](https://go.drugbank.com/drugs/DB00602#mechanism-of-action){:target="_blank"}
