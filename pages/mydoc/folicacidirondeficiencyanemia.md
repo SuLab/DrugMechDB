@@ -1,0 +1,35 @@
+---
+title: "Folic acid - Iron deficiency anemia"
+sidebar: mydoc_sidebar
+permalink: folicacidirondeficiencyanemia.html
+toc: false 
+---
+
+{% include image.html url="images/folicacidirondeficiencyanemia.png" file="folicacidirondeficiencyanemia.png" alt="folicacidirondeficiencyanemia" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:D005492 | Folic acid | Drug |
+| MESH:D019587 | Dietary supplements | ChemicalSubstance |
+| GO:0071897 | DNA synthesis | BiologicalProcess |
+| HP:0010972 | Erythropoiesis | PhenotypicFeature |
+| CL:0000232 | Red blood cells | Cell |
+| MESH:D018798 | Iron deficiency anemia | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Folic Acid | PART OF | Dietary Supplements |
+| Dietary Supplements | INCREASES ACTIVITY OF | Dna Synthesis |
+| Dna Synthesis | POSITIVELY REGULATES | Erythropoiesis |
+| Erythropoiesis | PRODUCES | Red Blood Cells |
+| Red Blood Cells | MANIFESTATION OF | Iron Deficiency Anemia |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB00158#mechanism-of-action](https://go.drugbank.com/drugs/DB00158#mechanism-of-action){:target="_blank"}

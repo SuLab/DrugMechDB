@@ -1,0 +1,64 @@
+---
+title: "Calcium Phosphate - Hypocalcemia"
+sidebar: mydoc_sidebar
+permalink: calciumphosphatehypocalcemia.html
+toc: false 
+---
+
+{% include image.html url="images/calciumphosphatehypocalcemia.png" file="calciumphosphatehypocalcemia.png" alt="calciumphosphatehypocalcemia" %}
+
+## Concepts
+
+|------------|------|---------|
+| Identifier | Name | Type    |
+|------------|------|---------|
+| MESH:C020243 | Calcium Phosphate | Drug |
+| MESH:D002118 | Calcium | ChemicalSubstance |
+| InterPro:IPR000276 | G protein-coupled receptor | GeneFamily |
+| UniProt:P01270 | Parathyroid hormone | Protein |
+| GO:0006816 | Calcium ion transport | BiologicalProcess |
+| MESH:D010710 | Phosphate | ChemicalSubstance |
+| MESH:D002112 | Calcidiol | ChemicalSubstance |
+| InterPro:IPR008250 | Calcium dependent ATPases | GeneFamily |
+| UBERON:0000945 | Gut | GrossAnatomicalStructure |
+| UniProt:Q9H1D0 | Transient receptor potential cation channel subfamily V member 6 (TRPV6) | Protein |
+| UniProt:Q9NQA5 | Transient receptor potential cation channel subfamily V member 5 (TRPV5) | Protein |
+| UBERON:0002113 | Kidney | GrossAnatomicalStructure |
+| UniProt:P06881 | Calcitonin | Protein |
+| CL:0000137 | Osteocyte | Cell |
+| GO:0045453 | Bone resorption | BiologicalProcess |
+| GO:0055074 | Calcium ion homeostasis | BiologicalProcess |
+| MESH:D006996 | Hypocalcemia | Disease |
+|------------|------|---------|
+
+## Relationships
+
+|---------|-----------|---------|
+| Subject | Predicate | Object  |
+|---------|-----------|---------|
+| Calcium Phosphate | DERIVES INTO | Calcium |
+| Calcium Phosphate | DERIVES INTO | Phosphate |
+| Calcium | INCREASES ACTIVITY OF | G Protein-Coupled Receptor |
+| G Protein-Coupled Receptor | DECREASES SECRETION OF | Parathyroid Hormone |
+| Parathyroid Hormone | DECREASES ABUNDANCE OF | Calcidiol |
+| Calcidiol | DECREASES EXPRESSION OF | Calcium Dependent Atpases |
+| Calcium Dependent Atpases | NEGATIVELY REGULATES | Calcium Ion Transport |
+| Calcium Ion Transport | LOCATED IN | Gut |
+| Gut | NEGATIVELY REGULATES | Bone Resorption |
+| Calcidiol | DECREASES EXPRESSION OF | Transient Receptor Potential Cation Channel Subfamily V Member 6 (Trpv6) |
+| Transient Receptor Potential Cation Channel Subfamily V Member 6 (Trpv6) | NEGATIVELY REGULATES | Calcium Ion Transport |
+| Calcidiol | DECREASES EXPRESSION OF | Transient Receptor Potential Cation Channel Subfamily V Member 5 (Trpv5) |
+| Transient Receptor Potential Cation Channel Subfamily V Member 5 (Trpv5) | NEGATIVELY REGULATES | Calcium Ion Transport |
+| Calcium Ion Transport | LOCATED IN | Kidney |
+| Kidney | NEGATIVELY REGULATES | Bone Resorption |
+| Parathyroid Hormone | POSITIVELY REGULATES | Calcitonin |
+| Calcitonin | NEGATIVELY REGULATES | Bone Resorption |
+| Parathyroid Hormone | NEGATIVELY REGULATES | Calcium Ion Transport |
+| Calcium Ion Transport | LOCATED IN | Osteocyte |
+| Osteocyte | NEGATIVELY REGULATES | Bone Resorption |
+| Bone Resorption | POSITIVELY REGULATES | Calcium Ion Homeostasis |
+| Phosphate | POSITIVELY REGULATES | Calcium Ion Homeostasis |
+| Calcium Ion Homeostasis | MANIFESTATION OF | Hypocalcemia |
+|---------|-----------|---------|
+
+Reference: [https://go.drugbank.com/drugs/DB11348#mechanism-of-action](https://go.drugbank.com/drugs/DB11348#mechanism-of-action){:target="_blank"}
