@@ -1,1 +1,1363 @@
+- directed: true
+  graph:
+    disease: Hypocalcemia
+    disease_mesh: MESH:D006996
+    drug: calcium citrate
+    drug_mesh: MESH:D019355
+    drugbank: DB:DB11093
+  links:
+    - key: increases activity of
+      source: MESH:D019355
+      target: UniProt:P41180
+    - key: increases abundance of
+      source: MESH:D019355
+      target: MESH:D002118
+    - key: positively regulates
+      source: UniProt:P41180
+      target: GO:0055074
+    - key: negatively correlated with
+      source: MESH:D002118
+      target: MESH:D006996
+    - key: negatively correlated with
+      source: GO:0055074
+      target: MESH:D006996
+  multigraph: true
+  nodes:
+    - id: MESH:D019355
+      label: Drug
+      name: calcium citrate
+    - id: MESH:D002118
+      label: ChemicalSubstance
+      name: Calcium
+    - id: UniProt:P41180
+      label: Protein
+      name: Extracellular calcium-sensing receptor
+    - id: GO:0055074
+      label: BiologicalProcess
+      name: calcium ion homeostasis
+    - id: MESH:D006996
+      label: Disease
+      name: Hypocalcemia
+  reference: https://go.drugbank.com/drugs/DB11093#BE0000509
+- directed: true
+  graph:
+    disease: Asthma-chronic obstructive pulmonary disease overlap syndrome
+    disease_mesh: MESH:D000080445
+    drug: theophylline
+    drug_mesh: MESH:D013806
+    drugbank: DB:DB00277
+  links:
+    - key: increases activity of
+      source: MESH:D013806
+      target: UniProt:Q92769
+    - key: positively regulates
+      source: UniProt:Q92769
+      target: GO:0016575
+    - key: negatively correlated with
+      source: GO:0016575
+      target: GO:0006954
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015105
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015106
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D018047
+    - key: positively regulates
+      source: MESH:D015105
+      target: GO:0006198
+    - key: negatively regulates
+      source: MESH:D015106
+      target: GO:0019933
+    - key: positively regulates
+      source: MESH:D018047
+      target: MESH:D016084
+    - key: positively correlated with
+      source: MESH:D016084
+      target: MESH:D000080445
+    - key: positively regulates
+      source: MESH:D018047
+      target: GO:0006954
+    - key: decreases abundance of
+      source: GO:0006198
+      target: CHEBI:17489
+    - key: increases abundance of
+      source: GO:0019933
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: GO:0044557
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D000080445
+    - key: negatively correlated with
+      source: GO:0044557
+      target: MESH:D000080445
+  multigraph: true
+  nodes:
+    - id: MESH:D013806
+      label: Drug
+      name: theophylline
+      alt_ids:
+        - MESH:D000628
+        - MESH:D031210
+    - id: MESH:D018047
+      label: GeneFamily
+      name: Receptors, Purinergic P1
+    - id: MESH:D015106
+      label: GeneFamily
+      name: 3',5'-Cyclic-GMP Phosphodiesterases
+    - id: MESH:D015105
+      label: GeneFamily
+      name: 3',5'-Cyclic-AMP Phosphodiesterases
+    - id: UniProt:Q92769
+      label: Protein
+      name: Histone deacetylase 2
+    - id: GO:0016575
+      label: BiologicalProcess
+      name: histone deacetylation
+    - id: GO:0006198
+      label: BiologicalProcess
+      name: cAMP catabolic process
+    - id: GO:0019933
+      label: BiologicalProcess
+      name: cAMP-mediated signaling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0044557
+      label: BiologicalProcess
+      name: relaxation of smooth muscle
+    - id: MESH:D016084
+      label: BiologicalProcess
+      name: Bronchoconstriction
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D000080445
+      label: Disease
+      name: Asthma-chronic obstructive pulmonary disease overlap syndrome
+  reference: https://go.drugbank.com/drugs/DB00277#mechanism-of-action https://en.wikipedia.org/wiki/Theophylline#Pharmacodynamics https://pubmed.ncbi.nlm.nih.gov/18660825/ https://pubmed.ncbi.nlm.nih.gov/12212985/ https://pubmed.ncbi.nlm.nih.gov/15980878/ https://pubmed.ncbi.nlm.nih.gov/19762093/
+- directed: true
+  graph:
+    disease: Asthma
+    disease_mesh: MESH:D001249
+    drug: theophylline
+    drug_mesh: MESH:D013806
+    drugbank: DB:DB00277
+  links:
+    - key: increases activity of
+      source: MESH:D013806
+      target: UniProt:Q92769
+    - key: positively regulates
+      source: UniProt:Q92769
+      target: GO:0016575
+    - key: negatively correlated with
+      source: GO:0016575
+      target: GO:0006954
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015105
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015106
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D018047
+    - key: positively regulates
+      source: MESH:D015105
+      target: GO:0006198
+    - key: negatively regulates
+      source: MESH:D015106
+      target: GO:0019933
+    - key: positively regulates
+      source: MESH:D018047
+      target: MESH:D016084
+    - key: positively correlated with
+      source: MESH:D016084
+      target: MESH:D001249
+    - key: positively regulates
+      source: MESH:D018047
+      target: GO:0006954
+    - key: decreases abundance of
+      source: GO:0006198
+      target: CHEBI:17489
+    - key: increases abundance of
+      source: GO:0019933
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: GO:0044557
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D001249
+    - key: negatively correlated with
+      source: GO:0044557
+      target: MESH:D001249
+  multigraph: true
+  nodes:
+    - id: MESH:D013806
+      label: Drug
+      name: theophylline
+      alt_ids:
+        - MESH:D000628
+        - MESH:D031210
+    - id: MESH:D018047
+      label: GeneFamily
+      name: Receptors, Purinergic P1
+    - id: MESH:D015106
+      label: GeneFamily
+      name: 3',5'-Cyclic-GMP Phosphodiesterases
+    - id: MESH:D015105
+      label: GeneFamily
+      name: 3',5'-Cyclic-AMP Phosphodiesterases
+    - id: UniProt:Q92769
+      label: Protein
+      name: Histone deacetylase 2
+    - id: GO:0016575
+      label: BiologicalProcess
+      name: histone deacetylation
+    - id: GO:0006198
+      label: BiologicalProcess
+      name: cAMP catabolic process
+    - id: GO:0019933
+      label: BiologicalProcess
+      name: cAMP-mediated signaling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0044557
+      label: BiologicalProcess
+      name: relaxation of smooth muscle
+    - id: MESH:D016084
+      label: BiologicalProcess
+      name: Bronchoconstriction
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D001249
+      label: Disease
+      name: Asthma
+  reference: https://go.drugbank.com/drugs/DB00277#mechanism-of-action https://en.wikipedia.org/wiki/Theophylline#Pharmacodynamics https://pubmed.ncbi.nlm.nih.gov/18660825/ https://pubmed.ncbi.nlm.nih.gov/12212985/ https://pubmed.ncbi.nlm.nih.gov/15980878/ https://pubmed.ncbi.nlm.nih.gov/19762093/
+- directed: true
+  graph:
+    disease: Bronchitis
+    disease_mesh: MESH:D001991
+    drug: theophylline
+    drug_mesh: MESH:D013806
+    drugbank: DB:DB00277
+  links:
+    - key: increases activity of
+      source: MESH:D013806
+      target: UniProt:Q92769
+    - key: positively regulates
+      source: UniProt:Q92769
+      target: GO:0016575
+    - key: negatively correlated with
+      source: GO:0016575
+      target: GO:0006954
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015105
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015106
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D018047
+    - key: positively regulates
+      source: MESH:D015105
+      target: GO:0006198
+    - key: negatively regulates
+      source: MESH:D015106
+      target: GO:0019933
+    - key: positively regulates
+      source: MESH:D018047
+      target: GO:0006954
+    - key: decreases abundance of
+      source: GO:0006198
+      target: CHEBI:17489
+    - key: increases abundance of
+      source: GO:0019933
+      target: CHEBI:17489
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D001991
+  multigraph: true
+  nodes:
+    - id: MESH:D013806
+      label: Drug
+      name: theophylline
+      alt_ids:
+        - MESH:D000628
+        - MESH:D031210
+    - id: MESH:D018047
+      label: GeneFamily
+      name: Receptors, Purinergic P1
+    - id: MESH:D015106
+      label: GeneFamily
+      name: 3',5'-Cyclic-GMP Phosphodiesterases
+    - id: MESH:D015105
+      label: GeneFamily
+      name: 3',5'-Cyclic-AMP Phosphodiesterases
+    - id: UniProt:Q92769
+      label: Protein
+      name: Histone deacetylase 2
+    - id: GO:0016575
+      label: BiologicalProcess
+      name: histone deacetylation
+    - id: GO:0006198
+      label: BiologicalProcess
+      name: cAMP catabolic process
+    - id: GO:0019933
+      label: BiologicalProcess
+      name: cAMP-mediated signaling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D001991
+      label: Disease
+      name: Bronchitis
+  reference: https://go.drugbank.com/drugs/DB00277#mechanism-of-action https://en.wikipedia.org/wiki/Theophylline#Pharmacodynamics
+- directed: true
+  graph:
+    disease: Pulmonary emphysema
+    disease_mesh: MESH:D011656
+    drug: theophylline
+    drug_mesh: MESH:D013806
+    drugbank: DB:DB00277
+  links:
+    - key: increases activity of
+      source: MESH:D013806
+      target: UniProt:Q92769
+    - key: positively regulates
+      source: UniProt:Q92769
+      target: GO:0016575
+    - key: negatively correlated with
+      source: GO:0016575
+      target: GO:0006954
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015105
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015106
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D018047
+    - key: positively regulates
+      source: MESH:D015105
+      target: GO:0006198
+    - key: negatively regulates
+      source: MESH:D015106
+      target: GO:0019933
+    - key: positively regulates
+      source: MESH:D018047
+      target: GO:0006954
+    - key: decreases abundance of
+      source: GO:0006198
+      target: CHEBI:17489
+    - key: increases abundance of
+      source: GO:0019933
+      target: CHEBI:17489
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D011656
+  multigraph: true
+  nodes:
+    - id: MESH:D013806
+      label: Drug
+      name: theophylline
+      alt_ids:
+        - MESH:D000628
+        - MESH:D031210
+    - id: MESH:D018047
+      label: GeneFamily
+      name: Receptors, Purinergic P1
+    - id: MESH:D015106
+      label: GeneFamily
+      name: 3',5'-Cyclic-GMP Phosphodiesterases
+    - id: MESH:D015105
+      label: GeneFamily
+      name: 3',5'-Cyclic-AMP Phosphodiesterases
+    - id: UniProt:Q92769
+      label: Protein
+      name: Histone deacetylase 2
+    - id: GO:0016575
+      label: BiologicalProcess
+      name: histone deacetylation
+    - id: GO:0006198
+      label: BiologicalProcess
+      name: cAMP catabolic process
+    - id: GO:0019933
+      label: BiologicalProcess
+      name: cAMP-mediated signaling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D011656
+      label: Disease
+      name: Pulmonary emphysema
+  reference: https://go.drugbank.com/drugs/DB00277#mechanism-of-action https://en.wikipedia.org/wiki/Theophylline#Pharmacodynamics
+- directed: true
+  graph:
+    disease: Bronchospasm
+    disease_mesh: MESH:D001986
+    drug: theophylline
+    drug_mesh: MESH:D013806
+    drugbank: DB:DB00277
+  links:
+    - key: increases activity of
+      source: MESH:D013806
+      target: UniProt:Q92769
+    - key: positively regulates
+      source: UniProt:Q92769
+      target: GO:0016575
+    - key: negatively correlated with
+      source: GO:0016575
+      target: GO:0006954
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015105
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015106
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D018047
+    - key: positively regulates
+      source: MESH:D015105
+      target: GO:0006198
+    - key: negatively regulates
+      source: MESH:D015106
+      target: GO:0019933
+    - key: positively regulates
+      source: MESH:D018047
+      target: MESH:D016084
+    - key: positively correlated with
+      source: MESH:D016084
+      target: MESH:D001986
+    - key: positively regulates
+      source: MESH:D018047
+      target: GO:0006954
+    - key: decreases abundance of
+      source: GO:0006198
+      target: CHEBI:17489
+    - key: increases abundance of
+      source: GO:0019933
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: GO:0044557
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D001986
+    - key: negatively correlated with
+      source: GO:0044557
+      target: MESH:D001986
+  multigraph: true
+  nodes:
+    - id: MESH:D013806
+      label: Drug
+      name: theophylline
+      alt_ids:
+        - MESH:D000628
+        - MESH:D031210
+    - id: MESH:D018047
+      label: GeneFamily
+      name: Receptors, Purinergic P1
+    - id: MESH:D015106
+      label: GeneFamily
+      name: 3',5'-Cyclic-GMP Phosphodiesterases
+    - id: MESH:D015105
+      label: GeneFamily
+      name: 3',5'-Cyclic-AMP Phosphodiesterases
+    - id: UniProt:Q92769
+      label: Protein
+      name: Histone deacetylase 2
+    - id: GO:0016575
+      label: BiologicalProcess
+      name: histone deacetylation
+    - id: GO:0006198
+      label: BiologicalProcess
+      name: cAMP catabolic process
+    - id: GO:0019933
+      label: BiologicalProcess
+      name: cAMP-mediated signaling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0044557
+      label: BiologicalProcess
+      name: relaxation of smooth muscle
+    - id: MESH:D016084
+      label: BiologicalProcess
+      name: Bronchoconstriction
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D001986
+      label: Disease
+      name: Bronchospasm
+  reference: https://go.drugbank.com/drugs/DB00277#mechanism-of-action https://en.wikipedia.org/wiki/Theophylline#Pharmacodynamics
+- directed: true
+  graph:
+    disease: Atrial fibrillation
+    disease_mesh: MESH:D001281
+    drug: dofetilide
+    drug_mesh: MESH:C063533
+    drugbank: DB:DB00204
+  links:
+    - key: negatively regulates
+      source: MESH:C063533
+      target: UniProt:Q12809
+    - key: negatively regulates
+      source: MESH:C063533
+      target: UniProt:O95069
+    - key: negatively regulates
+      source: MESH:C063533
+      target: UniProt:Q14500
+    - key: participates in
+      source: UniProt:Q12809
+      target: REACT:R-HSA-5576890
+    - key: regulates
+      source: UniProt:O95069
+      target: GO:0030322
+    - key: positively regulates
+      source: UniProt:Q14500
+      target: GO:0061337
+    - key: negatively correlated with
+      source: REACT:R-HSA-5576890
+      target: MESH:D012032
+    - key: negatively correlated with
+      source: GO:0030322
+      target: MESH:D012032
+    - key: negatively correlated with
+      source: GO:0061337
+      target: MESH:D012032
+    - key: negatively correlated with
+      source: MESH:D012032
+      target: HP:0001692
+    - key: manifestation of
+      source: HP:0001692
+      target: MESH:D001281
+  multigraph: true
+  nodes:
+    - id: MESH:C063533
+      label: Drug
+      name: dofetilide
+    - id: UniProt:Q12809
+      label: Protein
+      name: Potassium voltage-gated channel subfamily H member 2
+    - id: UniProt:O95069
+      label: Protein
+      name: Potassium channel subfamily K member 2
+    - id: UniProt:Q14500
+      label: Protein
+      name: ATP-sensitive inward rectifier potassium channel 12
+    - id: GO:0030322
+      label: BiologicalProcess
+      name: stabilization of membrane potential
+    - id: GO:0061337
+      label: BiologicalProcess
+      name: cardiac conduction
+    - id: REACT:R-HSA-5576890
+      label: Pathway
+      name: Phase 3 - rapid repolarisation
+    - id: MESH:D012032
+      label: BiologicalProcess
+      name: Refractory Period, Electrophysiological
+    - id: HP:0001692
+      label: PhenotypicFeature
+      name: Atrial arrhythmia
+    - id: MESH:D001281
+      label: Disease
+      name: Atrial fibrillation
+  reference: https://go.drugbank.com/drugs/DB00204#mechanism-of-action https://en.wikipedia.org/wiki/Dofetilide#Mechanism_of_action https://www.cvpharmacology.com/antiarrhy/potassium-blockers https://pubmed.ncbi.nlm.nih.gov/10907968/
+- directed: true
+  graph:
+    disease: Enterocolitis
+    disease_mesh: MESH:D004760
+    drug: clidinium
+    drug_mesh: MESH:C054940
+    drugbank: DB:DB00771
+  links:
+    - key: negatively regulates
+      source: MESH:C054940
+      target: UniProt:P11229
+    - key: positively regulates
+      source: UniProt:P11229
+      target: GO:0006939
+    - key: positively correlated with
+      source: GO:0006939
+      target: MESH:D007419
+    - key: positively correlated with
+      source: GO:0006939
+      target: MESH:D013035
+    - key: manifestation of
+      source: MESH:D007419
+      target: MESH:D004760
+    - key: manifestation of
+      source: MESH:D013035
+      target: MESH:D004760
+  multigraph: true
+  nodes:
+    - id: MESH:C054940
+      label: Drug
+      name: clidinium
+    - id: UniProt:P11229
+      label: Protein
+      name: Muscarinic acetylcholine receptor M1
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction
+    - id: MESH:D007419
+      label: BiologicalProcess
+      name: Intestinal Secretions
+    - id: MESH:D013035
+      label: BiologicalProcess
+      name: Spasm
+    - id: MESH:D004760
+      label: Disease
+      name: Enterocolitis
+  reference: https://go.drugbank.com/drugs/DB00771#mechanism-of-action https://en.wikipedia.org/wiki/Clidinium_bromide#Mechanism_of_action
+  comments: The disease, specially the acute form, is mainly caused by infection (https://en.wikipedia.org/wiki/Enterocolitis#Cause), leading to inflammation. So in addition to treating the symptoms (such as spams and GI secretions), antibiotics, anti-virals etc may be needed for treatment (https://en.wikipedia.org/wiki/Enterocolitis#Treatment).
+- directed: true
+  graph:
+    disease: Irritable bowel syndrome
+    disease_mesh: MESH:D043183
+    drug: clidinium
+    drug_mesh: MESH:C054940
+    drugbank: DB:DB00771
+  links:
+    - key: negatively regulates
+      source: MESH:C054940
+      target: UniProt:P11229
+    - key: positively regulates
+      source: UniProt:P11229
+      target: GO:0006939
+    - key: positively correlated with
+      source: GO:0006939
+      target: MESH:D013035
+    - key: increases abundance of
+      source: MESH:D013035
+      target: HP:0032155
+    - key: correlated with
+      source: HP:0032155
+      target: HP:0002579
+    - key: manifestation of
+      source: HP:0002579
+      target: MESH:D043183
+  multigraph: true
+  nodes:
+    - id: MESH:C054940
+      label: Drug
+      name: clidinium
+    - id: UniProt:P11229
+      label: Protein
+      name: Muscarinic acetylcholine receptor M1
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction
+    - id: HP:0032155
+      label: PhenotypicFeature
+      name: Abdominal cramps
+    - id: MESH:D013035
+      label: BiologicalProcess
+      name: Spasm
+    - id: HP:0002579
+      label: PhenotypicFeature
+      name: Gastrointestinal dysmotility
+    - id: MESH:D043183
+      label: Disease
+      name: Irritable bowel syndrome
+  reference: https://go.drugbank.com/drugs/DB00771#mechanism-of-action https://en.wikipedia.org/wiki/Clidinium_bromide#Mechanism_of_action https://en.wikipedia.org/wiki/Irritable_bowel_syndrome#Medication
+- directed: true
+  graph:
+    disease: Parkinson's disease
+    disease_mesh: MESH:D010300
+    drug: cycrimine
+    drug_mesh: MESH:C012262
+    drugbank: DB:DB00942
+  links:
+    - key: negatively regulates
+      source: MESH:C012262
+      target: UniProt:P11229
+    - key: positively regulates
+      source: UniProt:P11229
+      target: GO:0007271
+    - key: increases activity of
+      source: GO:0007271
+      target: GO:0014055
+    - key: positively correlated with
+      source: GO:0014055
+      target: MESH:D010300
+  multigraph: true
+  nodes:
+    - id: MESH:C012262
+      label: Drug
+      name: cycrimine
+    - id: UniProt:P11229
+      label: Protein
+      name: Muscarinic acetylcholine receptor M1
+    - id: GO:0007271
+      label: BiologicalProcess
+      name: synaptic transmission, cholinergic
+    - id: GO:0014055
+      label: BiologicalProcess
+      name: acetylcholine secretion, neurotransmission
+    - id: MESH:D010300
+      label: Disease
+      name: Parkinson's disease
+  reference: https://go.drugbank.com/drugs/DB00942#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/2911#section=Pharmacology-and-Biochemistry
+  comments: In Parkinson's disease, there is imbalance between levels of acetylcholine and dopamine, where increased levels of acetylcholine and degeneration of dopaminergic pathways are observed. Therefore, muscarinic antagonists block central cholinergic activity and balance out neurotransmitters in the brain (https://en.wikipedia.org/wiki/Muscarinic_antagonist#Effects). Anticholinergic drugs may also be prescribed to improve bladder dysfunction (https://pubmed.ncbi.nlm.nih.gov/20370804/).
+- directed: true
+  graph:
+    disease: Epilepsies, Partial
+    disease_mesh: MESH:D004828
+    drug: eslicarbazepine acetate
+    drug_mesh: MESH:C416835
+    drugbank: DB:DB09119
+  links:
+    - key: produces
+      source: MESH:C416835
+      target: MESH:C571001
+    - key: decreases activity of
+      source: MESH:C571001
+      target: MESH:D061566
+    - key: positively regulates
+      source: MESH:D061566
+      target: GO:0035725
+    - key: regulates
+      source: GO:0035725
+      target: GO:0019228
+    - key: contributes to
+      source: GO:0019228
+      target: HP:0011097
+    - key: positively correlated with
+      source: HP:0011097
+      target: MESH:D004828
+  multigraph: true
+  nodes:
+    - id: MESH:C416835
+      label: Drug
+      name: eslicarbazepine acetate
+    - id: MESH:C571001
+      label: Drug
+      name: eslicarbazepine
+    - id: MESH:D061566
+      label: GeneFamily
+      name: Voltage-Gated Sodium Channels
+    - id: GO:0035725
+      label: BiologicalProcess
+      name: sodium ion transmembrane transport
+    - id: GO:0019228
+      label: BiologicalProcess
+      name: neuronal action potential
+    - id: HP:0011097
+      label: PhenotypicFeature
+      name: Epileptic spasm
+    - id: MESH:D004828
+      label: Disease
+      name: Epilepsies, Partial
+  reference: https://pubchem.ncbi.nlm.nih.gov/compound/179344#section=Pharmacology-and-Biochemistry https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL87992/
+  comments: The the antiseizure mechanism of action based on the voltage sodium channels is not a consensus (https://en.wikipedia.org/wiki/Eslicarbazepine_acetate#Mechanism_of_action). The drug could also bind to calcium channels (https://go.drugbank.com/drugs/DB09119#mechanism-of-action). Note that the protein target listed in DrugBank (https://go.drugbank.com/drugs/DB09119#BE0005793) does not seem to be involved in epilepsy, but rather in inflammation and pain.
+- directed: true
+  graph:
+    disease: Lung Diseases
+    disease_mesh: MESH:D008171
+    drug: theophylline
+    drug_mesh: MESH:D013806
+    drugbank: DB:DB00277
+  links:
+    - key: increases activity of
+      source: MESH:D013806
+      target: UniProt:Q92769
+    - key: positively regulates
+      source: UniProt:Q92769
+      target: GO:0016575
+    - key: negatively correlated with
+      source: GO:0016575
+      target: GO:0006954
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015105
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D015106
+    - key: decreases activity of
+      source: MESH:D013806
+      target: MESH:D018047
+    - key: positively regulates
+      source: MESH:D015105
+      target: GO:0006198
+    - key: negatively regulates
+      source: MESH:D015106
+      target: GO:0019933
+    - key: positively regulates
+      source: MESH:D018047
+      target: MESH:D016084
+    - key: positively correlated with
+      source: MESH:D016084
+      target: MESH:D008171
+    - key: positively regulates
+      source: MESH:D018047
+      target: GO:0006954
+    - key: decreases abundance of
+      source: GO:0006198
+      target: CHEBI:17489
+    - key: increases abundance of
+      source: GO:0019933
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: GO:0044557
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D008171
+    - key: negatively correlated with
+      source: GO:0044557
+      target: MESH:D008171
+  multigraph: true
+  nodes:
+    - id: MESH:D013806
+      label: Drug
+      name: theophylline
+      alt_ids:
+        - MESH:D000628
+        - MESH:D031210
+    - id: MESH:D018047
+      label: GeneFamily
+      name: Receptors, Purinergic P1
+    - id: MESH:D015106
+      label: GeneFamily
+      name: 3',5'-Cyclic-GMP Phosphodiesterases
+    - id: MESH:D015105
+      label: GeneFamily
+      name: 3',5'-Cyclic-AMP Phosphodiesterases
+    - id: UniProt:Q92769
+      label: Protein
+      name: Histone deacetylase 2
+    - id: GO:0016575
+      label: BiologicalProcess
+      name: histone deacetylation
+    - id: GO:0006198
+      label: BiologicalProcess
+      name: cAMP catabolic process
+    - id: GO:0019933
+      label: BiologicalProcess
+      name: cAMP-mediated signaling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0044557
+      label: BiologicalProcess
+      name: relaxation of smooth muscle
+    - id: MESH:D016084
+      label: BiologicalProcess
+      name: Bronchoconstriction
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D008171
+      label: Disease
+      name: Lung Diseases
+  reference: https://go.drugbank.com/drugs/DB00277#mechanism-of-action https://en.wikipedia.org/wiki/Theophylline#Pharmacodynamics https://pubmed.ncbi.nlm.nih.gov/18660825/ https://pubmed.ncbi.nlm.nih.gov/12212985/ https://pubmed.ncbi.nlm.nih.gov/15980878/ https://pubmed.ncbi.nlm.nih.gov/19762093/
+  comments: This disease is denoted as Disorder of lung in the original file. Note this disease name is a very generic term, that could encompass any diseases of the lungs, including neoplasms, infectious diseases (e.g. tuberculosis) and rare diseases (e.g. cystic fibrosis) for which theophylline may not have any therapeutic benefit at all. Therefore, this annotation is done for all lung diseases that could be indications for this drug to encompass diseases that are similar to asthma, bronchitis, COPD and alike.
+- directed: true
+  graph:
+    disease: Diabetes mellitus type 1
+    disease_mesh: MESH:D003922
+    drug: insulin lispro
+    drug_mesh: MESH:D061268
+    drugbank: DB:DB00046
+  links:
+    - key: increases activity of
+      source: MESH:D061268
+      target: UniProt:P06213
+    - key: positively regulates
+      source: UniProt:P06213
+      target: GO:0004714
+    - key: positively regulates
+      source: GO:0004714
+      target: MESH:D055504
+    - key: positively regulates
+      source: MESH:D055504
+      target: GO:0046323
+    - key: negatively correlated with
+      source: GO:0046323
+      target: MESH:D003922
+  multigraph: true
+  nodes:
+    - id: MESH:D061268
+      label: Drug
+      name: insulin lispro
+    - id: UniProt:P06213
+      label: Protein
+      name: Insulin receptor
+    - id: GO:0004714
+      label: MolecularActivity
+      name: transmembrane receptor protein tyrosine kinase activity
+    - id: MESH:D055504
+      label: GeneFamily
+      name: Insulin Receptor Substrate Proteins
+    - id: GO:0046323
+      label: BiologicalProcess
+      name: glucose import
+    - id: MESH:D003922
+      label: Disease
+      name: Diabetes mellitus type 1
+  reference: https://go.drugbank.com/drugs/DB00046#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201538/
+- directed: true
+  graph:
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: insulin lispro
+    drug_mesh: MESH:D061268
+    drugbank: DB:DB00046
+  links:
+    - key: increases activity of
+      source: MESH:D061268
+      target: UniProt:P06213
+    - key: positively regulates
+      source: UniProt:P06213
+      target: GO:0004714
+    - key: positively regulates
+      source: GO:0004714
+      target: MESH:D055504
+    - key: positively regulates
+      source: MESH:D055504
+      target: GO:0046323
+    - key: negatively correlated with
+      source: GO:0046323
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:D061268
+      label: Drug
+      name: insulin lispro
+    - id: UniProt:P06213
+      label: Protein
+      name: Insulin receptor
+    - id: GO:0004714
+      label: MolecularActivity
+      name: transmembrane receptor protein tyrosine kinase activity
+    - id: MESH:D055504
+      label: GeneFamily
+      name: Insulin Receptor Substrate Proteins
+    - id: GO:0046323
+      label: BiologicalProcess
+      name: glucose import
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference: https://go.drugbank.com/drugs/DB00046#mechanism-of-action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201538/
+- directed: true
+  graph:
+    disease: Breast Neoplasms
+    disease_mesh: MESH:D001943
+    drug: epirubicin
+    drug_mesh: MESH:D015251
+    drugbank: DB:DB00445
+  links:
+    - key: negatively regulates
+      source: MESH:D015251
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: positively correlated with
+      source: HP:0031377
+      target: MESH:D001943
+    - key: decreases abundance of
+      source: MESH:D015251
+      target: GO:0032993
+    - key: has participant
+      source: GO:0032993
+      target: UniProt:P11388
+    - key: positively correlated with
+      source: UniProt:P11388
+      target: GO:0006260
+    - key: increases abundance of
+      source: MESH:D015251
+      target: MESH:D005609
+    - key: positively correlated with
+      source: MESH:D005609
+      target: MESH:D004249
+    - key: positively correlated with
+      source: MESH:D004249
+      target: GO:0006915
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D001943
+    - key: positively correlated with
+      source: GO:0006260
+      target: HP:0031377
+    - key: positively correlated with
+      source: GO:0006260
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: manifestation of
+      source: HP:0031377
+      target: MESH:D001943
+  multigraph: true
+  nodes:
+    - id: MESH:D015251
+      label: Drug
+      name: epirubicin
+    - id: UniProt:P11388
+      label: Protein
+      name: DNA topoisomerase 2-alpha
+    - id: GO:0032993
+      label: CellularComponent
+      name: protein-DNA complex
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: MESH:D004249
+      label: BiologicalProcess
+      name: DNA Damage
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: HP:0031377
+      label: PhenotypicFeature
+      name: Abnormal cell proliferation
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: GO:0140014
+      label: BiologicalProcess
+      name: mitotic nuclear division
+    - id: MESH:D001943
+      label: Disease
+      name: Breast Neoplasm
+  reference: https://go.drugbank.com/drugs/DB00445#mechanism-of-action https://en.wikipedia.org/wiki/Epirubicin
+  comments: The disease is denoted Carcinoma of breast in the original file as per DrugCentral. The drug intercaltes with DNA and prevents DNA replication and downstream processes, some of them involving UniProt:P11388, which leads to cell/tumour death.
+- directed: true
+  graph:
+    disease: Venous Thrombosis
+    disease_mesh: MESH:D020246
+    drug: fondaparinux
+    drug_mesh: MESH:D000077425
+    drugbank: DB:DB00569
+  links:
+    - key: positively regulates
+      source: MESH:D000077425
+      target: UniProt:P01008
+    - key: decreases activity of
+      source: UniProt:P01008
+      target: UniProt:P00742
+    - key: positively correlated with
+      source: UniProt:P00742
+      target: GO:0007596
+    - key: located in
+      source: GO:0007596
+      target: UBERON:0035552
+    - key: location of
+      source: UBERON:0035552
+      target: MESH:D020246
+  multigraph: true
+  nodes:
+    - id: MESH:D000077425
+      label: Drug
+      name: fondaparinux
+    - id: UniProt:P01008
+      label: Protein
+      name: Antithrombin-III
+    - id: UniProt:P00742
+      label: Protein
+      name: Coagulation factor X
+    - id: GO:0007596
+      label: BiologicalProcess
+      name: blood coagulation
+    - id: UBERON:0035552
+      label: GrossAnatomicalStructure
+      name: deep vein
+    - id: MESH:D020246
+      label: Disease
+      name: Venous Thrombosis
+  reference: https://go.drugbank.com/drugs/DB00569#BE0000280 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201202/ https://en.wikipedia.org/wiki/Fondaparinux#Mechanism_of_action
+  comments: The disease is denoted Deep venous thrombosis in the original file as per DrugCentral. Note that among the original MESH IDs for this drug one of them seems to have been deprecated (MESH:C438268) whereas the other (MESH:C049714) is for a compound where no evidence has been found to be related to fondaparinux.
+- directed: true
+  graph:
+    disease: Pulmonary Embolism
+    disease_mesh: MESH:D011655
+    drug: fondaparinux
+    drug_mesh: MESH:D000077425
+    drugbank: DB:DB00569
+  links:
+    - key: positively regulates
+      source: MESH:D000077425
+      target: UniProt:P01008
+    - key: decreases activity of
+      source: UniProt:P01008
+      target: UniProt:P00742
+    - key: positively correlated with
+      source: UniProt:P00742
+      target: GO:0007596
+    - key: positively correlated with
+      source: GO:0007596
+      target: HP:0001907
+    - key: positively correlated with
+      source: HP:0001907
+      target: MESH:D011655
+  multigraph: true
+  nodes:
+    - id: MESH:D000077425
+      label: Drug
+      name: fondaparinux
+    - id: UniProt:P01008
+      label: Protein
+      name: Antithrombin-III
+    - id: UniProt:P00742
+      label: Protein
+      name: Coagulation factor X
+    - id: GO:0007596
+      label: BiologicalProcess
+      name: blood coagulation
+    - id: HP:0001907
+      label: PhenotypicFeature
+      name: Thromboembolism
+    - id: MESH:D011655
+      label: Disease
+      name: Pulmonary Embolism
+  reference: https://go.drugbank.com/drugs/DB00569#BE0000280 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201202/ https://en.wikipedia.org/wiki/Fondaparinux#Mechanism_of_action
+  comments: The disease is denoted Pulmonary thromboembolism in the original file as per DrugCentral. Note that among the original MESH IDs for this drug one of them seems to have been deprecated (MESH:C438268) whereas the other (MESH:C049714) is for a compound where no evidence has been found to be related to fondaparinux.
+- directed: true
+  graph:
+    disease: Postmenopausal osteoporosis
+    disease_mesh: MESH:D015663
+    drug: strontium ranelate
+    drug_mesh: MESH:C081587
+    drugbank: DB:DB11093
+  links:
+    - key: positively regulates
+      source: MESH:C081587
+      target: MESH:D010006
+    - key: increases abundance of
+      source: MESH:D010006
+      target: MESH:D053244
+    - key: increases expression of
+      source: MESH:D010006
+      target: MESH:D053244
+    - key: negatively correlated with
+      source: MESH:D053244
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: MESH:D015663
+    - key: positively regulates
+      source: MESH:C081587
+      target: UniProt:P41180
+    - key: positively correlated with
+      source: UniProt:P41180
+      target: GO:0006915
+    - key: decreases abundance of
+      source: GO:0006915
+      target: MESH:D010010
+    - key: positively correlated with
+      source: MESH:D010010
+      target: GO:0045453
+
+    - key: positively regulates
+      source: UniProt:P41180
+      target: GO:0070509
+    - key: positively correlated with
+      source: GO:0070509
+      target: GO:0001503
+    - key: negatively correlated with
+      source: GO:0001503
+      target: MESH:D015663
+  multigraph: true
+  nodes:
+    - id: MESH:C081587
+      label: Drug
+      name: strontium ranelate
+    - id: UniProt:P41180
+      label: Protein
+      name: Extracellular calcium-sensing receptor
+    - id: MESH:D053244
+      label: Protein
+      name: Osteoprotegerin
+    - id: MESH:D010006
+      label: Cell
+      name: Osteoblasts
+    - id: MESH:D010010
+      label: Cell
+      name: Osteoclasts
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: GO:0070509
+      label: BiologicalProcess
+      name: calcium ion import
+    - id: GO:0001503
+      label: BiologicalProcess
+      name: ossification
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: MESH:D015663
+      label: Disease
+      name: Postmenopausal osteoporosis
+  reference: https://go.drugbank.com/drugs/DB09267#mechanism-of-action https://en.wikipedia.org/wiki/Strontium_ranelate#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Osteoporosis
+    disease_mesh: MESH:D010024
+    drug: calcium citrate
+    drug_mesh: MESH:D019355
+    drugbank: DB:DB11093
+  links:
+    - key: increases abundance of
+      source: MESH:D019355
+      target: MESH:D002118
+    - key: positively regulates
+      source: MESH:D002118
+      target: UniProt:P41180
+    - key: negatively regulates
+      source: UniProt:P41180
+      target: GO:0035898
+    - key: positively correlated with
+      source: GO:0035898
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: HP:0004349
+    - key: positively correlated with
+      source: HP:0004349
+      target: MESH:D010024
+    - key: positively regulates
+      source: UniProt:P41180
+      target: GO:0070509
+    - key: positively correlated with
+      source: GO:0070509
+      target: GO:0001503
+    - key: negatively correlated with
+      source: GO:0001503
+      target: MESH:D010024
+  multigraph: true
+  nodes:
+    - id: MESH:D019355
+      label: Drug
+      name: calcium citrate
+    - id: MESH:D002118
+      label: ChemicalSubstance
+      name: Calcium
+    - id: UniProt:P41180
+      label: Protein
+      name: Extracellular calcium-sensing receptor
+    - id: GO:0070509
+      label: BiologicalProcess
+      name: calcium ion import
+    - id: GO:0035898
+      label: BiologicalProcess
+      name: parathyroid hormone secretion
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: GO:0001503
+      label: BiologicalProcess
+      name: ossification
+    - id: HP:0004349
+      label: PhenotypicFeature
+      name: Reduced bone mineral density
+    - id: MESH:D010024
+      label: Disease
+      name: Osteoporosis
+  reference: https://go.drugbank.com/drugs/DB11093#BE0000509
+- directed: true
+  graph:
+    disease: Postmenopausal osteoporosis
+    disease_mesh: MESH:D015663
+    drug: calcium citrate
+    drug_mesh: MESH:D019355
+    drugbank: DB:DB11093
+  links:
+    - key: increases abundance of
+      source: MESH:D019355
+      target: MESH:D002118
+    - key: positively regulates
+      source: MESH:D002118
+      target: UniProt:P41180
+    - key: negatively regulates
+      source: UniProt:P41180
+      target: GO:0035898
+    - key: positively correlated with
+      source: GO:0035898
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: HP:0004349
+    - key: positively correlated with
+      source: HP:0004349
+      target: MESH:D015663
+    - key: positively regulates
+      source: UniProt:P41180
+      target: GO:0070509
+    - key: positively correlated with
+      source: GO:0070509
+      target: GO:0001503
+    - key: negatively correlated with
+      source: GO:0001503
+      target: MESH:D015663
+  multigraph: true
+  nodes:
+    - id: MESH:D019355
+      label: Drug
+      name: calcium citrate
+    - id: MESH:D002118
+      label: ChemicalSubstance
+      name: Calcium
+    - id: UniProt:P41180
+      label: Protein
+      name: Extracellular calcium-sensing receptor
+    - id: GO:0070509
+      label: BiologicalProcess
+      name: calcium ion import
+    - id: GO:0035898
+      label: BiologicalProcess
+      name: parathyroid hormone secretion
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: GO:0001503
+      label: BiologicalProcess
+      name: ossification
+    - id: HP:0004349
+      label: PhenotypicFeature
+      name: Reduced bone mineral density
+    - id: MESH:D015663
+      label: Disease
+      name: Postmenopausal osteoporosis
+  reference: https://go.drugbank.com/drugs/DB11093#BE0000509
 
