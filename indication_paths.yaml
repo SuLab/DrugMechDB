@@ -73449,3 +73449,887 @@
         label: Disease
         name: Acute coronary syndrome
     reference: https://go.drugbank.com/drugs/DB06209#mechanismofaction
+-   directed: true
+    graph:
+        disease: Chronic lymphoid leukemia, disease
+        disease_mesh: MESH:D015451
+        drug: Chlorambucil
+        drug_mesh: MESH:D002699
+        drugbank: DB:DB00291
+    links:
+    -   key: disrupts
+        source: MESH:D002699
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006260
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006351
+    -   key: part of
+        source: GO:0006260
+        target: GO:0046651
+    -   key: part of
+        source: GO:0006351
+        target: GO:0046651
+    -   key: positively correlated with
+        source: GO:0046651
+        target: MESH:D015451
+    multigraph: true
+    nodes:
+    -   id: MESH:D002699
+        label: Drug
+        name: Chlorambucil
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: GO:0006351
+        label: BiologicalProcess
+        name: Transcription, DNA-templated
+    -   id: GO:0046651
+        label: BiologicalProcess
+        name: Lymphocyte proliferation
+    -   id: MESH:D015451
+        label: Disease
+        name: Chronic lymphoid leukemia, disease
+    reference: https://go.drugbank.com/drugs/DB00291 https://en.wikipedia.org/wiki/Chronic_lymphocytic_leukemia#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Follicular non-Hodgkin's lymphoma
+        disease_mesh: MESH:D008224
+        drug: Chlorambucil
+        drug_mesh: MESH:D002699
+        drugbank: DB:DB00291
+    links:
+    -   key: disrupts
+        source: MESH:D002699
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006260
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006351
+    -   key: part of
+        source: GO:0006260
+        target: GO:0042100
+    -   key: part of
+        source: GO:0006351
+        target: GO:0042100
+    -   key: positively correlated with
+        source: GO:0042100
+        target: MESH:D008224
+    multigraph: true
+    nodes:
+    -   id: MESH:D002699
+        label: Drug
+        name: Chlorambucil
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: GO:0006351
+        label: BiologicalProcess
+        name: Transcription, DNA-templated
+    -   id: GO:0042100
+        label: BiologicalProcess
+        name: B cell proliferation
+    -   id: MESH:D008224
+        label: Disease
+        name: Follicular non-Hodgkin's lymphoma
+    reference: https://go.drugbank.com/drugs/DB00291 https://en.wikipedia.org/wiki/Follicular_lymphoma
+-   directed: true
+    graph:
+        disease: Hodgkin's disease
+        disease_mesh: MESH:D006689
+        drug: Chlorambucil
+        drug_mesh: MESH:D002699
+        drugbank: DB:DB00291
+    links:
+    -   key: disrupts
+        source: MESH:D002699
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006260
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006351
+    -   key: occurs in
+        source: GO:0006260
+        target: CL:0000542
+    -   key: occurs in
+        source: GO:0006351
+        target: CL:0000542
+    -   key: positively correlated with
+        source: CL:0000542
+        target: MESH:D006689
+    multigraph: true
+    nodes:
+    -   id: MESH:D002699
+        label: Drug
+        name: Chlorambucil
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: GO:0006351
+        label: BiologicalProcess
+        name: Transcription, DNA-templated
+    -   id: CL:0000542
+        label: Cell
+        name: Lymphocyte
+    -   id: MESH:D006689
+        label: Disease
+        name: Hodgkin's disease
+    reference: https://go.drugbank.com/drugs/DB00291 https://en.wikipedia.org/wiki/Hodgkin_lymphoma
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: Cerivastatin
+        drug_mesh: MESH:C086276
+        drugbank: DB:DB00439
+    links:
+    -   key: decreases activity of
+        source: MESH:C086276
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:C086276
+        label: Drug
+        name: Cerivastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference: https://go.drugbank.com/drugs/DB00439
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Mixed hyperlipidemia
+        disease_mesh: MESH:D006950
+        drug: Cerivastatin
+        drug_mesh: MESH:C086276
+        drugbank: DB:DB00439
+    links:
+    -   key: decreases activity of
+        source: MESH:C086276
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:C086276
+        label: Drug
+        name: Cerivastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D006950
+        label: Disease
+        name: Mixed hyperlipidemia
+    reference: https://en.wikipedia.org/wiki/Combined_hyperlipidemia https://go.drugbank.com/drugs/DB00439
+-   directed: true
+    graph:
+        disease: Benign prostatic hyperplasia
+        disease_mesh: MESH:D011470
+        drug: Dutasteride
+        drug_mesh: MESH:D000068538
+        drugbank: DB:DB01126
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068538
+        target: UniProt:P31213
+    -   key: decreases activity of
+        source: MESH:D000068538
+        target: UniProt:P18405
+    -   key: increases abundance of
+        source: UniProt:P31213
+        target: MESH:D013196
+    -   key: increases abundance of
+        source: UniProt:P18405
+        target: MESH:D013196
+    -   key: positively correlated with
+        source: MESH:D013196
+        target: MESH:D011470
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068538
+        label: Drug
+        name: Dutasteride
+    -   id: UniProt:P31213
+        label: Protein
+        name: 3-oxo-5-alpha-steroid 4-dehydrogenase 2
+    -   id: UniProt:P18405
+        label: Protein
+        name: 3-oxo-5-alpha-steroid 4-dehydrogenase 1
+    -   id: MESH:D013196
+        label: ChemicalSubstance
+        name: Dihydrotestosterone
+    -   id: MESH:D011470
+        label: Disease
+        name: Benign prostatic hyperplasia
+    reference: https://go.drugbank.com/drugs/DB01126
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefonicid
+        drug_mesh: MESH:D015790
+        drugbank: DB:DB01328
+    links:
+    -   key: decreases activity of
+        source: MESH:D015790
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D015790
+        label: Drug
+        name: Cefonicid
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference: https://go.drugbank.com/drugs/DB01328
+-   directed: true
+    graph:
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: Cefonicid
+        drug_mesh: MESH:D015790
+        drugbank: DB:DB01328
+    links:
+    -   key: decreases activity of
+        source: MESH:D015790
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:D015790
+        label: Drug
+        name: Cefonicid
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference: https://go.drugbank.com/drugs/DB01328
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefonicid
+        drug_mesh: MESH:D015790
+        drugbank: DB:DB01328
+    links:
+    -   key: decreases activity of
+        source: MESH:D015790
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D015790
+        label: Drug
+        name: Cefonicid
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference: https://go.drugbank.com/drugs/DB01328
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Cefonicid
+        drug_mesh: MESH:D015790
+        drugbank: DB:DB01328
+    links:
+    -   key: decreases activity of
+        source: MESH:D015790
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D015790
+        label: Drug
+        name: Cefonicid
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB01328
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefonicid
+        drug_mesh: MESH:D015790
+        drugbank: DB:DB01328
+    links:
+    -   key: decreases activity of
+        source: MESH:D015790
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D015790
+        label: Drug
+        name: Cefonicid
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference: https://go.drugbank.com/drugs/DB01328
+-   comment: Mestranol is a biologically inactive prodrug of ethinylestradiol, which
+        it is demethylated in the liver with a conversion efficiency of 70%. Mestranol
+        is used as an estrogen component of many combined oral contraceptives. The
+        combined oral contraceptives show efficacy in a treatment of menorrhagia,
+        but not estrogen component itself.
+    directed: true
+    graph:
+        disease: Menorrhagia
+        disease_mesh: MESH:D008595
+        drug: Mestranol
+        drug_mesh: MESH:D008656
+        drugbank: DB:DB01357
+    links:
+    -   key: treats
+        source: MESH:D008656
+        target: MESH:D008595
+    multigraph: true
+    nodes:
+    -   id: MESH:D008656
+        label: Drug
+        name: Mestranol
+    -   id: MESH:D008595
+        label: Disease
+        name: Menorrhagia
+    reference: https://go.drugbank.com/drugs/DB01357 https://pubmed.ncbi.nlm.nih.gov/26695687/
+-   comment: Mestranol is a biologically inactive prodrug of ethinylestradiol, which
+        it is demethylated in the liver with a conversion efficiency of 70%. Mestranol
+        is used as an estrogen component of many combined oral contraceptives. The
+        combined oral contraceptives show efficacy in endometriosis symptoms management,
+        but not estrogen component itself.
+    directed: true
+    graph:
+        disease: Endometriosis
+        disease_mesh: MESH:D004715
+        drug: Mestranol
+        drug_mesh: MESH:D008656
+        drugbank: DB:DB01357
+    links:
+    -   key: treats
+        source: MESH:D008656
+        target: MESH:D004715
+    multigraph: true
+    nodes:
+    -   id: MESH:D008656
+        label: Drug
+        name: Mestranol
+    -   id: MESH:D004715
+        label: Disease
+        name: Endometriosis
+    reference: https://go.drugbank.com/drugs/DB01357 https://pubmed.ncbi.nlm.nih.gov/31488888/
+-   comment: Calfactant adsorbs rapidly to the surface of the alveolar air-fluid interface
+        and modifies surface tension to a minimum of less than 3 mN/m. It acts in
+        a manner similar to natural lung surfactant, thus preventing or treating respiratory
+        distress syndrome.
+    directed: true
+    graph:
+        disease: Respiratory distress syndrome in the newborn
+        disease_mesh: MESH:D012127
+        drug: Calfactant
+        drug_mesh: MESH:C117342
+        drugbank: DB:DB06415
+    links:
+    -   key: capable of
+        source: MESH:C117342
+        target: GO:0043129
+    -   key: negatively correlated with
+        source: GO:0043129
+        target: MESH:D012127
+    multigraph: true
+    nodes:
+    -   id: MESH:C117342
+        label: Drug
+        name: Calfactant
+    -   id: GO:0043129
+        label: BiologicalProcess
+        name: Surfactant homeostasis
+    -   id: MESH:D012127
+        label: Disease
+        name: Respiratory distress syndrome in the newborn
+    reference: https://go.drugbank.com/drugs/DB06415
+-   directed: true
+    graph:
+        disease: Crohn's disease
+        disease_mesh: MESH:D003424
+        drug: Vedolizumab
+        drug_mesh: MESH:C543529
+        drugbank: DB:DB09033
+    links:
+    -   key: decreases activity of
+        source: MESH:C543529
+        target: UniProt:P13612
+    -   key: decreases activity of
+        source: MESH:C543529
+        target: UniProt:P26010
+    -   key: positively regulates
+        source: UniProt:P13612
+        target: UniProt:Q13477
+    -   key: positively regulates
+        source: UniProt:P26010
+        target: UniProt:Q13477
+    -   key: positively regulates
+        source: UniProt:Q13477
+        target: GO:0072676
+    -   key: positively regulates
+        source: UniProt:Q13477
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0072676
+        target: MESH:D003424
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:C543529
+        label: Drug
+        name: Vedolizumab
+    -   id: UniProt:P13612
+        label: Protein
+        name: Integrin alpha-4
+    -   id: UniProt:P26010
+        label: Protein
+        name: Integrin beta-7
+    -   id: UniProt:Q13477
+        label: Protein
+        name: Mucosal addressin cell adhesion molecule 1
+    -   id: GO:0072676
+        label: BiologicalProcess
+        name: Lymphocyte migration
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn's disease
+    reference: https://pubmed.ncbi.nlm.nih.gov/25952593/ https://go.drugbank.com/drugs/DB09033#BE0000590
+-   directed: true
+    graph:
+        disease: Ulcerative colitis
+        disease_mesh: MESH:D003093
+        drug: Vedolizumab
+        drug_mesh: MESH:C543529
+        drugbank: DB:DB09033
+    links:
+    -   key: decreases activity of
+        source: MESH:C543529
+        target: UniProt:P13612
+    -   key: decreases activity of
+        source: MESH:C543529
+        target: UniProt:P26010
+    -   key: positively regulates
+        source: UniProt:P13612
+        target: UniProt:Q13477
+    -   key: positively regulates
+        source: UniProt:P26010
+        target: UniProt:Q13477
+    -   key: positively regulates
+        source: UniProt:Q13477
+        target: GO:0072676
+    -   key: positively regulates
+        source: UniProt:Q13477
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0072676
+        target: MESH:D003093
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D003093
+    multigraph: true
+    nodes:
+    -   id: MESH:C543529
+        label: Drug
+        name: Vedolizumab
+    -   id: UniProt:P13612
+        label: Protein
+        name: Integrin alpha-4
+    -   id: UniProt:P26010
+        label: Protein
+        name: Integrin beta-7
+    -   id: UniProt:Q13477
+        label: Protein
+        name: Mucosal addressin cell adhesion molecule 1
+    -   id: GO:0072676
+        label: BiologicalProcess
+        name: Lymphocyte migration
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D003093
+        label: Disease
+        name: Ulcerative colitis
+    reference: https://pubmed.ncbi.nlm.nih.gov/25952593/ https://go.drugbank.com/drugs/DB09033#BE0000590
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: Selegiline
+        drug_mesh: MESH:D012642
+        drugbank: DB:DB01037
+    links:
+    -   key: negatively regulates
+        source: MESH:D012642
+        target: UniProt:P21397
+    -   key: positively regulates
+        source: UniProt:P21397
+        target: GO:0042402
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D012701
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0099153
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0099155
+    -   key: disrupted by
+        source: GO:0099153
+        target: MESH:D003866
+    -   key: disrupted by
+        source: GO:0099155
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D012642
+        label: Drug
+        name: Selegiline
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase [flavin-containing] A
+    -   id: GO:0042402
+        label: BiologicalProcess
+        name: Cellular biogenic amine catabolic process
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0099153
+        label: BiologicalProcess
+        name: Synaptic transmission, serotonergic
+    -   id: GO:0099155
+        label: BiologicalProcess
+        name: Synaptic transmission, noradrenergic
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://pubmed.ncbi.nlm.nih.gov/26104056/ https://www.ncbi.nlm.nih.gov/books/NBK539848/
+        https://pubmed.ncbi.nlm.nih.gov/12369606/
+-   comment: Secnidazole is a prodrug  converted to an active form via reduction of
+        nitro groups to radical anions in Trichomonas by a ferredoxin-mediated electron
+        transport system.
+    directed: true
+    graph:
+        disease: Infection by Trichomonas
+        disease_mesh: MESH:D014245
+        drug: Secnidazole
+        drug_mesh: MESH:C016724
+        drugbank: DB:DB12834
+    links:
+    -   key: positively regulates
+        source: MESH:C016724
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5722
+    -   key: causes
+        source: NCBITaxon:5722
+        target: MESH:D014245
+    multigraph: true
+    nodes:
+    -   id: MESH:C016724
+        label: Drug
+        name: Secnidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5722
+        label: OrganismTaxon
+        name: Trichomonas vaginalis
+    -   id: MESH:D014245
+        label: Disease
+        name: Infection by Trichomonas
+    reference: https://go.drugbank.com/drugs/DB12834
+-   comment: Secnidazole is a prodrug  converted to an active form via reduction of
+        nitro groups to radical anions.
+    directed: true
+    graph:
+        disease: Giardiasis
+        disease_mesh: MESH:D005873
+        drug: Secnidazole
+        drug_mesh: MESH:C016724
+        drugbank: DB:DB12834
+    links:
+    -   key: positively regulates
+        source: MESH:C016724
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5741
+    -   key: causes
+        source: NCBITaxon:5741
+        target: MESH:D005873
+    multigraph: true
+    nodes:
+    -   id: MESH:C016724
+        label: Drug
+        name: Secnidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5741
+        label: OrganismTaxon
+        name: Giardia intestinalis
+    -   id: MESH:D005873
+        label: Disease
+        name: Giardiasis
+    reference: https://go.drugbank.com/drugs/DB12834
+-   comment: Secnidazole is a prodrug  converted to an active form via reduction of
+        nitro groups to radical anions.
+    directed: true
+    graph:
+        disease: Bacterial vaginosis
+        disease_mesh: MESH:D016585
+        drug: Secnidazole
+        drug_mesh: MESH:C016724
+        drugbank: DB:DB12834
+    links:
+    -   key: positively regulates
+        source: MESH:C016724
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D016585
+    multigraph: true
+    nodes:
+    -   id: MESH:C016724
+        label: Drug
+        name: Secnidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D016585
+        label: Disease
+        name: Bacterial vaginosis
+    reference: https://go.drugbank.com/drugs/DB12834
