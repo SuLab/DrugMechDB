@@ -125661,5 +125661,2099 @@
       }
     ],
     "reference": "https://en.wikipedia.org/wiki/Piribedil https://en.wikipedia.org/wiki/Parkinsonism"
+  },
+  {
+    "comments": "Levomefolic acid can be found in contraceptive pills as a source of folic acid to help to prevent spinal cord birth defects in an unborn baby. We have not found any evidence that levomefolic acid on its own is an indication for acne vulgaris. When combined with hormones such as progestin and estrogen (birth pill) it can be used to treat moderate acne as well as premenstrual dysphoric disorder (https://www.webmd.com/drugs/2/drug-154717/beyaz-oral/details).",
+    "directed": true,
+    "graph": {
+      "disease": "Acne vulgaris",
+      "disease_mesh": "MESH:D000152",
+      "drug": "levomefolic acid",
+      "drug_mesh": "MESH:C569381",
+      "drugbank": "DB:DB11256"
+    },
+    "links": [
+      {
+        "key": "treats",
+        "source": "MESH:C569381",
+        "target": "MESH:D000152"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C569381",
+        "label": "Drug",
+        "name": "levomefolic acid"
+      },
+      {
+        "id": "MESH:D000152",
+        "label": "Disease",
+        "name": "Acne vulgaris"
+      }
+    ],
+    "reference": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2010/022532Orig1s000CrossR.pdf"
+  },
+  {
+    "comments": "Levomefolic acid can be found in contraceptive pills as a source of folic acid to help to prevent spinal cord birth defects in an unborn baby. We have not found any evidence that levomefolic acid on its own is an indication for Premenstrual dysphoric disorder. When combined with hormones such as progestin and estrogen (birth pill) it can be used to treat premenstrual dysphoric disorder as well as acne (https://www.webmd.com/drugs/2/drug-154717/beyaz-oral/details).",
+    "directed": true,
+    "graph": {
+      "disease": "Premenstrual dysphoric disorder",
+      "disease_mesh": "MESH:D065446",
+      "drug": "levomefolic acid",
+      "drug_mesh": "MESH:C569381",
+      "drugbank": "DB:DB11256"
+    },
+    "links": [
+      {
+        "key": "treats",
+        "source": "MESH:C569381",
+        "target": "MESH:D065446"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C569381",
+        "label": "Drug",
+        "name": "levomefolic acid"
+      },
+      {
+        "id": "MESH:D065446",
+        "label": "Disease",
+        "name": "Premenstrual dysphoric disorder"
+      }
+    ],
+    "reference": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58cd12d3-39b1-4375-b7e0-09ba2378a52b"
+  },
+  {
+    "comments": "The drug stimulates the expression of several genes (e.g. HSP, SOD, etc) but it's not clear if the drug binds to these or other targets to modulate the known actions namely oxygen radical scavenging, anti-oxidation, anti-inflammation, and acceleration of gastrointestinal wound healing.",
+    "directed": true,
+    "graph": {
+      "disease": "Peptic ulcer",
+      "disease_mesh": "MESH:D010437",
+      "drug": "polaprezinc",
+      "drug_mesh": "MESH:C061957",
+      "drugbank": "DB:DB09221"
+    },
+    "links": [
+      {
+        "key": "subclass of",
+        "source": "MESH:C061957",
+        "target": "MESH:D016166"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:C061957",
+        "target": "GO:0070254"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "MESH:C061957",
+        "target": "GO:0006954"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006954",
+        "target": "MESH:D010437"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0070254",
+        "target": "MESH:D010437"
+      },
+      {
+        "key": "capable of",
+        "source": "MESH:C061957",
+        "target": "MESH:D014945"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "MESH:C061957",
+        "target": "NCBITaxon:210"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "NCBITaxon:210",
+        "target": "MESH:D010437"
+      },
+      {
+        "key": "located in",
+        "source": "MESH:D014945",
+        "target": "UBERON:0001199"
+      },
+      {
+        "key": "located in",
+        "source": "MESH:D016166",
+        "target": "UBERON:0001199"
+      },
+      {
+        "key": "location of",
+        "source": "UBERON:0001199",
+        "target": "MESH:D010437"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C061957",
+        "label": "Drug",
+        "name": "polaprezinc"
+      },
+      {
+        "id": "MESH:D016166",
+        "label": "ChemicalSubstance",
+        "name": "Free Radical Scavengers"
+      },
+      {
+        "id": "NCBITaxon:210",
+        "label": "OrganismTaxon",
+        "name": "Helicobacter pylori"
+      },
+      {
+        "id": "MESH:D014945",
+        "label": "BiologicalProcess",
+        "name": "Wound Healing"
+      },
+      {
+        "id": "GO:0006954",
+        "label": "BiologicalProcess",
+        "name": "inflammatory response"
+      },
+      {
+        "id": "GO:0070254",
+        "label": "BiologicalProcess",
+        "name": "mucus secretion"
+      },
+      {
+        "id": "UBERON:0001199",
+        "label": "GrossAnatomicalStructure",
+        "name": "mucosa of stomach"
+      },
+      {
+        "id": "MESH:D010437",
+        "label": "Disease",
+        "name": "Peptic ulcer"
+      }
+    ],
+    "reference": "https://en.wikipedia.org/wiki/Zinc_L-carnosine#Mechanisms_of_action"
+  },
+  {
+    "comments": "Dexibuprofen is an active enantiomer of ibuprofen.",
+    "directed": true,
+    "graph": {
+      "disease": "Rheumatoid arthritis",
+      "disease_mesh": "MESH:D001172",
+      "drug": "dexibuprofen",
+      "drug_mesh": "MESH:C539402",
+      "drugbank": "DB:DB09213"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P23219"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P35354"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35354",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D011453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0002829"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0001386"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0001386",
+        "target": "MESH:D001172"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0002829",
+        "target": "MESH:D001172"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C539402",
+        "label": "Drug",
+        "name": "dexibuprofen"
+      },
+      {
+        "id": "UniProt:P23219",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 1"
+      },
+      {
+        "id": "UniProt:P35354",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 2"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "BiologicalProcess",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "MESH:D011453",
+        "label": "ChemicalSubstance",
+        "name": "Prostaglandins"
+      },
+      {
+        "id": "HP:0002829",
+        "label": "PhenotypicFeature",
+        "name": "Joint pain"
+      },
+      {
+        "id": "HP:0001386",
+        "label": "PhenotypicFeature",
+        "name": "Joint swelling"
+      },
+      {
+        "id": "MESH:D001172",
+        "label": "Disease",
+        "name": "Rheumatoid arthritis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09213#BE0000262 https://go.drugbank.com/drugs/DB09213#BE0000017 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/ https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology"
+  },
+  {
+    "comments": "The disease is denoted as Juvenile rheumatoid arthritis as per DrugCentral. Dexibuprofen is an active enantiomer of ibuprofen.",
+    "directed": true,
+    "graph": {
+      "disease": "Arthritis, Juvenile",
+      "disease_mesh": "MESH:D001171",
+      "drug": "dexibuprofen",
+      "drug_mesh": "MESH:C539402",
+      "drugbank": "DB:DB09213"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P23219"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P35354"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35354",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D011453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0002829"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0001386"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0001386",
+        "target": "MESH:D001171"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0002829",
+        "target": "MESH:D001171"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C539402",
+        "label": "Drug",
+        "name": "dexibuprofen"
+      },
+      {
+        "id": "UniProt:P23219",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 1"
+      },
+      {
+        "id": "UniProt:P35354",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 2"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "BiologicalProcess",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "MESH:D011453",
+        "label": "ChemicalSubstance",
+        "name": "Prostaglandins"
+      },
+      {
+        "id": "HP:0002829",
+        "label": "PhenotypicFeature",
+        "name": "Joint pain"
+      },
+      {
+        "id": "HP:0001386",
+        "label": "PhenotypicFeature",
+        "name": "Joint swelling"
+      },
+      {
+        "id": "MESH:D001171",
+        "label": "Disease",
+        "name": "Arthritis, Juvenile"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09213#BE0000262 https://go.drugbank.com/drugs/DB09213#BE0000017 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/ https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology"
+  },
+  {
+    "comments": "Dexibuprofen is an active enantiomer of ibuprofen.",
+    "directed": true,
+    "graph": {
+      "disease": "Osteoarthritis",
+      "disease_mesh": "MESH:D010003",
+      "drug": "dexibuprofen",
+      "drug_mesh": "MESH:C539402",
+      "drugbank": "DB:DB09213"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P23219"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P35354"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35354",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D011453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0002829"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0001386"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0001386",
+        "target": "MESH:D010003"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0002829",
+        "target": "MESH:D010003"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C539402",
+        "label": "Drug",
+        "name": "dexibuprofen"
+      },
+      {
+        "id": "UniProt:P23219",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 1"
+      },
+      {
+        "id": "UniProt:P35354",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 2"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "BiologicalProcess",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "MESH:D011453",
+        "label": "ChemicalSubstance",
+        "name": "Prostaglandins"
+      },
+      {
+        "id": "HP:0002829",
+        "label": "PhenotypicFeature",
+        "name": "Joint pain"
+      },
+      {
+        "id": "HP:0001386",
+        "label": "PhenotypicFeature",
+        "name": "Joint swelling"
+      },
+      {
+        "id": "MESH:D010003",
+        "label": "Disease",
+        "name": "Osteoarthritis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09213#BE0000262 https://go.drugbank.com/drugs/DB09213#BE0000017 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/ https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology"
+  },
+  {
+    "comments": "Dexibuprofen is an active enantiomer of ibuprofen.",
+    "directed": true,
+    "graph": {
+      "disease": "Fever",
+      "disease_mesh": "MESH:D005334",
+      "drug": "dexibuprofen",
+      "drug_mesh": "MESH:C539402",
+      "drugbank": "DB:DB09213"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P23219"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P35354"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35354",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D011453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "MESH:D005334"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C539402",
+        "label": "Drug",
+        "name": "dexibuprofen"
+      },
+      {
+        "id": "UniProt:P23219",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 1"
+      },
+      {
+        "id": "UniProt:P35354",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 2"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "BiologicalProcess",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "MESH:D011453",
+        "label": "ChemicalSubstance",
+        "name": "Prostaglandins"
+      },
+      {
+        "id": "MESH:D005334",
+        "label": "Disease",
+        "name": "Fever"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09213#BE0000262 https://go.drugbank.com/drugs/DB09213#BE0000017 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/ https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology https://en.wikipedia.org/wiki/Fever#PGE2_release"
+  },
+  {
+    "comments": "Dexibuprofen is an active enantiomer of ibuprofen.",
+    "directed": true,
+    "graph": {
+      "disease": "Pain",
+      "disease_mesh": "MESH:D010146",
+      "drug": "dexibuprofen",
+      "drug_mesh": "MESH:C539402",
+      "drugbank": "DB:DB09213"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P23219"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P35354"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35354",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D011453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "MESH:D010146"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C539402",
+        "label": "Drug",
+        "name": "dexibuprofen"
+      },
+      {
+        "id": "UniProt:P23219",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 1"
+      },
+      {
+        "id": "UniProt:P35354",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 2"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "BiologicalProcess",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "MESH:D011453",
+        "label": "ChemicalSubstance",
+        "name": "Prostaglandins"
+      },
+      {
+        "id": "MESH:D010146",
+        "label": "Disease",
+        "name": "Pain"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09213#BE0000262 https://go.drugbank.com/drugs/DB09213#BE0000017 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/ https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology https://en.wikipedia.org/wiki/Fever#PGE2_release"
+  },
+  {
+    "comments": "Dexibuprofen is an active enantiomer of ibuprofen.",
+    "directed": true,
+    "graph": {
+      "disease": "Headache Disorders",
+      "disease_mesh": "MESH:D006261",
+      "drug": "dexibuprofen",
+      "drug_mesh": "MESH:C539402",
+      "drugbank": "DB:DB09213"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P23219"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P35354"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35354",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D011453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0012531"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0012531",
+        "target": "MESH:D006261"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C539402",
+        "label": "Drug",
+        "name": "dexibuprofen"
+      },
+      {
+        "id": "UniProt:P23219",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 1"
+      },
+      {
+        "id": "UniProt:P35354",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 2"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "BiologicalProcess",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "MESH:D011453",
+        "label": "ChemicalSubstance",
+        "name": "Prostaglandins"
+      },
+      {
+        "id": "HP:0012531",
+        "label": "PhenotypicFeature",
+        "name": "Pain"
+      },
+      {
+        "id": "MESH:D006261",
+        "label": "Disease",
+        "name": "Headache Disorders"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09213#BE0000262 https://go.drugbank.com/drugs/DB09213#BE0000017 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/ https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology https://en.wikipedia.org/wiki/Fever#PGE2_release"
+  },
+  {
+    "comments": "Dexibuprofen is an active enantiomer of ibuprofen.",
+    "directed": true,
+    "graph": {
+      "disease": "Dysmenorrhea",
+      "disease_mesh": "MESH:D004412",
+      "drug": "dexibuprofen",
+      "drug_mesh": "MESH:C539402",
+      "drugbank": "DB:DB09213"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P23219"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:C539402",
+        "target": "UniProt:P35354"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P23219",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35354",
+        "target": "REACT:R-HSA-2162123"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "REACT:R-HSA-2162123",
+        "target": "MESH:D011453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D011453",
+        "target": "HP:0012531"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0012531",
+        "target": "MESH:D004412"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C539402",
+        "label": "Drug",
+        "name": "dexibuprofen"
+      },
+      {
+        "id": "UniProt:P23219",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 1"
+      },
+      {
+        "id": "UniProt:P35354",
+        "label": "Protein",
+        "name": "Prostaglandin G/H synthase 2"
+      },
+      {
+        "id": "REACT:R-HSA-2162123",
+        "label": "BiologicalProcess",
+        "name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+      },
+      {
+        "id": "MESH:D011453",
+        "label": "ChemicalSubstance",
+        "name": "Prostaglandins"
+      },
+      {
+        "id": "HP:0012531",
+        "label": "PhenotypicFeature",
+        "name": "Pain"
+      },
+      {
+        "id": "MESH:D004412",
+        "label": "Disease",
+        "name": "Dysmenorrhea"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB09213#BE0000262 https://go.drugbank.com/drugs/DB09213#BE0000017 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/ https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology https://en.wikipedia.org/wiki/Fever#PGE2_release"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Irritable bowel syndrome",
+      "disease_mesh": "MESH:D043183",
+      "drug": "linaclotide",
+      "drug_mesh": "MESH:C523483",
+      "drugbank": "DB:DB08890"
+    },
+    "links": [
+      {
+        "key": "positively regulates",
+        "source": "MESH:C523483",
+        "target": "UniProt:P25092"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P25092",
+        "target": "GO:0006182"
+      },
+      {
+        "key": "increases activity of",
+        "source": "GO:0006182",
+        "target": "UBERON:0025525"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "UBERON:0025525",
+        "target": "HP:0030895"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "GO:0006182",
+        "target": "UBERON:0001800"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UBERON:0001800",
+        "target": "HP:0012531"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0030895",
+        "target": "MESH:D043183"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0012531",
+        "target": "MESH:D043183"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006182",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006182",
+        "target": "GO:0006821"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006182",
+        "target": "GO:0006833"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0015701",
+        "target": "MESH:D007419"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006821",
+        "target": "MESH:D007419"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006833",
+        "target": "MESH:D007419"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0015701",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006821",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006833",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0120054",
+        "target": "MESH:D043183"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "MESH:D007419",
+        "target": "MESH:D043183"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C523483",
+        "label": "Drug",
+        "name": "linaclotide"
+      },
+      {
+        "id": "UniProt:P25092",
+        "label": "Protein",
+        "name": "Heat-stable enterotoxin receptor"
+      },
+      {
+        "id": "GO:0006182",
+        "label": "BiologicalProcess",
+        "name": "cGMP biosynthetic process"
+      },
+      {
+        "id": "GO:0015701",
+        "label": "BiologicalProcess",
+        "name": "bicarbonate transport"
+      },
+      {
+        "id": "GO:0006821",
+        "label": "BiologicalProcess",
+        "name": "chloride transport"
+      },
+      {
+        "id": "GO:0006833",
+        "label": "BiologicalProcess",
+        "name": "water transport"
+      },
+      {
+        "id": "MESH:D007419",
+        "label": "ChemicalSubstance",
+        "name": "Intestinal Secretions"
+      },
+      {
+        "id": "GO:0120054",
+        "label": "BiologicalProcess",
+        "name": "intestinal motility"
+      },
+      {
+        "id": "UBERON:0001800",
+        "label": "GrossAnatomicalStructure",
+        "name": "sensory ganglion"
+      },
+      {
+        "id": "UBERON:0025525",
+        "label": "GrossAnatomicalStructure",
+        "name": "motor system"
+      },
+      {
+        "id": "HP:0030895",
+        "label": "PhenotypicFeature",
+        "name": "Abnormal gastrointestinal motility"
+      },
+      {
+        "id": "HP:0012531",
+        "label": "PhenotypicFeature",
+        "name": "Pain"
+      },
+      {
+        "id": "MESH:D043183",
+        "label": "Disease",
+        "name": "Irritable bowel syndrome"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB08890#mechanism-of-action https://en.wikipedia.org/wiki/Linaclotide#Pharmacology"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Constipation",
+      "disease_mesh": "MESH:D003248",
+      "drug": "prucalopride",
+      "drug_mesh": "MESH:C406662",
+      "drugbank": "DB:DB06480"
+    },
+    "links": [
+      {
+        "key": "positively regulates",
+        "source": "MESH:C406662",
+        "target": "UniProt:Q13639"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:Q13639",
+        "target": "GO:0061526"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0061526",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0120054",
+        "target": "MESH:D003248"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C406662",
+        "label": "Drug",
+        "name": "prucalopride"
+      },
+      {
+        "id": "UniProt:Q13639",
+        "label": "Protein",
+        "name": "5-hydroxytryptamine receptor 4"
+      },
+      {
+        "id": "GO:0061526",
+        "label": "BiologicalProcess",
+        "name": "acetylcholine secretion"
+      },
+      {
+        "id": "GO:0120054",
+        "label": "BiologicalProcess",
+        "name": "intestinal motility"
+      },
+      {
+        "id": "MESH:D003248",
+        "label": "Disease",
+        "name": "Constipation"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB06480#mechanism-of-action https://en.wikipedia.org/wiki/Prucalopride#Mechanism_of_action"
+  },
+  {
+    "comments": "The disease is denoted Menopausal flushing in the original file as per DrugCentral. The etiology of hot flashes has yet to be determined (https://pubmed.ncbi.nlm.nih.gov/15065632/).",
+    "directed": true,
+    "graph": {
+      "disease": "Hot Flashes",
+      "disease_mesh": "MESH:D019584",
+      "drug": "bazedoxifene",
+      "drug_mesh": "MESH:C447119",
+      "drugbank": "DB:DB06401"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:C447119",
+        "target": "UniProt:P03372"
+      },
+      {
+        "key": "increases activity of",
+        "source": "MESH:C447119",
+        "target": "UniProt:Q92731"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P03372",
+        "target": "GO:0006874"
+      },
+      {
+        "key": "regulates",
+        "source": "UniProt:Q92731",
+        "target": "GO:0097746"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0097746",
+        "target": "MESH:D014666"
+      },
+      {
+        "key": "regulates",
+        "source": "GO:0006874",
+        "target": "MESH:D014666"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D014666",
+        "target": "GO:0001659"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0001659",
+        "target": "HP:0005968"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0005968",
+        "target": "MESH:D019584"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C447119",
+        "label": "Drug",
+        "name": "bazedoxifene"
+      },
+      {
+        "id": "UniProt:P03372",
+        "label": "Protein",
+        "name": "Estrogen receptor"
+      },
+      {
+        "id": "UniProt:Q92731",
+        "label": "Protein",
+        "name": "Estrogen receptor beta"
+      },
+      {
+        "id": "GO:0097746",
+        "label": "BiologicalProcess",
+        "name": "blood vessel diameter maintenance"
+      },
+      {
+        "id": "GO:0006874",
+        "label": "BiologicalProcess",
+        "name": "cellular calcium ion homeostasis"
+      },
+      {
+        "id": "MESH:D014666",
+        "label": "GrossAnatomicalStructure",
+        "name": "Vasomotor System"
+      },
+      {
+        "id": "GO:0001659",
+        "label": "BiologicalProcess",
+        "name": "temperature homeostasis"
+      },
+      {
+        "id": "HP:0005968",
+        "label": "PhenotypicFeature",
+        "name": "Temperature instability"
+      },
+      {
+        "id": "MESH:D019584",
+        "label": "Disease",
+        "name": "Hot Flashes"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB06401#mechanism-of-action https://en.wikipedia.org/wiki/Bazedoxifene#Pharmacology https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL46740/"
+  },
+  {
+    "comments": "The disease is denoted Postmenopausal osteoporosis in the original file as per DrugCentral.",
+    "directed": true,
+    "graph": {
+      "disease": "Osteoporosis, Postmenopausal",
+      "disease_mesh": "MESH:D015663",
+      "drug": "bazedoxifene",
+      "drug_mesh": "MESH:C447119",
+      "drugbank": "DB:DB06401"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:C447119",
+        "target": "UniProt:P03372"
+      },
+      {
+        "key": "increases activity of",
+        "source": "MESH:C447119",
+        "target": "UniProt:Q92731"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P03372",
+        "target": "GO:0006874"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0006874",
+        "target": "GO:0001503"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UniProt:Q92731",
+        "target": "GO:0001503"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0001503",
+        "target": "MESH:D015663"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C447119",
+        "label": "Drug",
+        "name": "bazedoxifene"
+      },
+      {
+        "id": "UniProt:P03372",
+        "label": "Protein",
+        "name": "Estrogen receptor"
+      },
+      {
+        "id": "UniProt:Q92731",
+        "label": "Protein",
+        "name": "Estrogen receptor beta"
+      },
+      {
+        "id": "GO:0001503",
+        "label": "BiologicalProcess",
+        "name": "ossification"
+      },
+      {
+        "id": "GO:0006874",
+        "label": "BiologicalProcess",
+        "name": "cellular calcium ion homeostasis"
+      },
+      {
+        "id": "MESH:D015663",
+        "label": "Disease",
+        "name": "Osteoporosis, Postmenopausal"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB06401#mechanism-of-action https://en.wikipedia.org/wiki/Bazedoxifene#Pharmacology https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL46740/"
+  },
+  {
+    "comments": "The drug enables ribosomes to bypass premature stop codons caused by nonsense mutations in the dystrophin gene. This restores the full-length and functional capability of dystrophin. Without the drug, the premature stop codon means that a truncated protein will be produced, which will be unabled to play its role in muscle strenght and proper function leading to the disease. The disease is denoted Duchenne muscular dystrophy in the original file as per DrugCentral.",
+    "directed": true,
+    "graph": {
+      "disease": "Muscular Dystrophy, Duchenne",
+      "disease_mesh": "MESH:D020388",
+      "drug": "ataluren",
+      "drug_mesh": "MESH:C515878",
+      "drugbank": "DB:DB05016"
+    },
+    "links": [
+      {
+        "key": "positively correlated with",
+        "source": "MESH:C515878",
+        "target": "UniProt:P11532"
+      },
+      {
+        "key": "affected by",
+        "source": "UniProt:P11532",
+        "target": "MESH:D018389"
+      },
+      {
+        "key": "predisposes",
+        "source": "MESH:D018389",
+        "target": "MESH:D059365"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D059365",
+        "target": "HP:0003323"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0003323",
+        "target": "MESH:D020388"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C515878",
+        "label": "Drug",
+        "name": "ataluren"
+      },
+      {
+        "id": "UniProt:P11532",
+        "label": "Protein",
+        "name": "Dystrophin"
+      },
+      {
+        "id": "MESH:D018389",
+        "label": "ChemicalSubstance",
+        "name": "Codon, Nonsense"
+      },
+      {
+        "id": "MESH:D059365",
+        "label": "BiologicalProcess",
+        "name": "Nonsense Mediated mRNA Decay"
+      },
+      {
+        "id": "HP:0003323",
+        "label": "PhenotypicFeature",
+        "name": "Progressive muscle weakness"
+      },
+      {
+        "id": "MESH:D020388",
+        "label": "Disease",
+        "name": "Muscular Dystrophy, Duchenne"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB05016#mechanism-of-action https://en.wikipedia.org/wiki/Ataluren#Pharmacology"
+  },
+  {
+    "comments": "MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212).",
+    "directed": true,
+    "graph": {
+      "disease": "Esotropia",
+      "disease_mesh": "MESH:D004948",
+      "drug": "Echothiophate Iodide",
+      "drug_mesh": "MESH:D004456",
+      "drugbank": "DB:DB01057"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P22303"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P06276"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P06276",
+        "target": "GO:0003990"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0003990",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P22303",
+        "target": "GO:0006581"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0006581",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "MESH:D000109",
+        "target": "HP:0000549"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0000549",
+        "target": "MESH:D004948"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004456",
+        "label": "Drug",
+        "name": "Echothiophate Iodide"
+      },
+      {
+        "id": "UniProt:P22303",
+        "label": "Protein",
+        "name": "Acetylcholinesterase"
+      },
+      {
+        "id": "UniProt:P06276",
+        "label": "Protein",
+        "name": "Cholinesterase"
+      },
+      {
+        "id": "GO:0003990",
+        "label": "MolecularActivity",
+        "name": "acetylcholinesterase activity"
+      },
+      {
+        "id": "GO:0006581",
+        "label": "BiologicalProcess",
+        "name": "acetylcholine catabolic process"
+      },
+      {
+        "id": "MESH:D000109",
+        "label": "ChemicalSubstance",
+        "name": "Acetylcholine"
+      },
+      {
+        "id": "HP:0000549",
+        "label": "PhenotypicFeature",
+        "name": "Abnormal conjugate eye movement"
+      },
+      {
+        "id": "MESH:D004948",
+        "label": "Disease",
+        "name": "Esotropia"
+      }
+    ],
+    "reference": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/ https://go.drugbank.com/drugs/DB01057#BE0002180"
+  },
+  {
+    "comments": "The drug allows for the trabecular meshwork in the eye (UBERON:0005969) to open, increasing the outflow of the aqueous humor and having a positive impact on reducing intraocular pressure. Note that MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212). The disease is denoted as Open-angle glaucoma in the original file as per in DrugCentral.",
+    "directed": true,
+    "graph": {
+      "disease": "Glaucoma, Open-Angle",
+      "disease_mesh": "MESH:D005902",
+      "drug": "Echothiophate Iodide",
+      "drug_mesh": "MESH:D004456",
+      "drugbank": "DB:DB01057"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P22303"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P06276"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P06276",
+        "target": "GO:0003990"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0003990",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P22303",
+        "target": "GO:0006581"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0006581",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D000109",
+        "target": "HP:0000616"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "HP:0000616",
+        "target": "UBERON:0001796"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UBERON:0001796",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0007906",
+        "target": "MESH:D005902"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004456",
+        "label": "Drug",
+        "name": "Echothiophate Iodide"
+      },
+      {
+        "id": "UniProt:P22303",
+        "label": "Protein",
+        "name": "Acetylcholinesterase"
+      },
+      {
+        "id": "UniProt:P06276",
+        "label": "Protein",
+        "name": "Cholinesterase"
+      },
+      {
+        "id": "GO:0003990",
+        "label": "MolecularActivity",
+        "name": "acetylcholinesterase activity"
+      },
+      {
+        "id": "GO:0006581",
+        "label": "BiologicalProcess",
+        "name": "acetylcholine catabolic process"
+      },
+      {
+        "id": "MESH:D000109",
+        "label": "ChemicalSubstance",
+        "name": "Acetylcholine"
+      },
+      {
+        "id": "HP:0000616",
+        "label": "PhenotypicFeature",
+        "name": "Miosis"
+      },
+      {
+        "id": "UBERON:0001796",
+        "label": "GrossAnatomicalStructure",
+        "name": "aqueous humor of eyeball"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "Ocular hypertension"
+      },
+      {
+        "id": "MESH:D005902",
+        "label": "Disease",
+        "name": "Glaucoma, Open-Angle"
+      }
+    ],
+    "reference": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/ https://go.drugbank.com/drugs/DB01057#BE0002180"
+  },
+  {
+    "comments": "The drug allows for the trabecular meshwork in the eye (UBERON:0005969) to open, increasing the outflow of the aqueous humor and having a positive impact on reducing intraocular pressure. Note that MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212).",
+    "directed": true,
+    "graph": {
+      "disease": "Glaucoma",
+      "disease_mesh": "MESH:D005901",
+      "drug": "Echothiophate Iodide",
+      "drug_mesh": "MESH:D004456",
+      "drugbank": "DB:DB01057"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P22303"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P06276"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P06276",
+        "target": "GO:0003990"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0003990",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P22303",
+        "target": "GO:0006581"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0006581",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D000109",
+        "target": "HP:0000616"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "HP:0000616",
+        "target": "UBERON:0001796"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UBERON:0001796",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0007906",
+        "target": "MESH:D005901"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004456",
+        "label": "Drug",
+        "name": "Echothiophate Iodide"
+      },
+      {
+        "id": "UniProt:P22303",
+        "label": "Protein",
+        "name": "Acetylcholinesterase"
+      },
+      {
+        "id": "UniProt:P06276",
+        "label": "Protein",
+        "name": "Cholinesterase"
+      },
+      {
+        "id": "GO:0003990",
+        "label": "MolecularActivity",
+        "name": "acetylcholinesterase activity"
+      },
+      {
+        "id": "GO:0006581",
+        "label": "BiologicalProcess",
+        "name": "acetylcholine catabolic process"
+      },
+      {
+        "id": "MESH:D000109",
+        "label": "ChemicalSubstance",
+        "name": "Acetylcholine"
+      },
+      {
+        "id": "HP:0000616",
+        "label": "PhenotypicFeature",
+        "name": "Miosis"
+      },
+      {
+        "id": "UBERON:0001796",
+        "label": "GrossAnatomicalStructure",
+        "name": "aqueous humor of eyeball"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "Ocular hypertension"
+      },
+      {
+        "id": "MESH:D005901",
+        "label": "Disease",
+        "name": "Glaucoma"
+      }
+    ],
+    "reference": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/ https://go.drugbank.com/drugs/DB01057#BE0002180"
+  },
+  {
+    "comments": "MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212).",
+    "directed": true,
+    "graph": {
+      "disease": "Stargardt's disease",
+      "disease_mesh": "MESH:D000080362",
+      "drug": "Echothiophate Iodide",
+      "drug_mesh": "MESH:D004456",
+      "drugbank": "DB:DB01057"
+    },
+    "links": [
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P22303"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "MESH:D004456",
+        "target": "UniProt:P06276"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P06276",
+        "target": "GO:0003990"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0003990",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P22303",
+        "target": "GO:0006581"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0006581",
+        "target": "MESH:D000109"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D000109",
+        "target": "HP:0000616"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "HP:0000616",
+        "target": "HP:0007663"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0007663",
+        "target": "MESH:D000080362"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004456",
+        "label": "Drug",
+        "name": "Echothiophate Iodide"
+      },
+      {
+        "id": "UniProt:P22303",
+        "label": "Protein",
+        "name": "Acetylcholinesterase"
+      },
+      {
+        "id": "UniProt:P06276",
+        "label": "Protein",
+        "name": "Cholinesterase"
+      },
+      {
+        "id": "GO:0003990",
+        "label": "MolecularActivity",
+        "name": "acetylcholinesterase activity"
+      },
+      {
+        "id": "GO:0006581",
+        "label": "BiologicalProcess",
+        "name": "acetylcholine catabolic process"
+      },
+      {
+        "id": "MESH:D000109",
+        "label": "ChemicalSubstance",
+        "name": "Acetylcholine"
+      },
+      {
+        "id": "HP:0000616",
+        "label": "PhenotypicFeature",
+        "name": "Miosis"
+      },
+      {
+        "id": "HP:0007663",
+        "label": "PhenotypicFeature",
+        "name": "Reduced visual acuity"
+      },
+      {
+        "id": "MESH:D000080362",
+        "label": "Disease",
+        "name": "Stargardt's disease"
+      }
+    ],
+    "reference": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/ https://go.drugbank.com/drugs/DB01057#BE0002180 https://patents.google.com/patent/US7915312B2/en"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Angle-closure glaucoma",
+      "disease_mesh": "MESH:D015812",
+      "drug": "methazolamide",
+      "drug_mesh": "MESH:D004005",
+      "drugbank": "DB:DB00703"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P00915"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P00918"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P07451"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P22748"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P43166"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P00915",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P00918",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P07451",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P22748",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P43166",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "GO:0015701",
+        "target": "UBERON:0001796"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UBERON:0001796",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0007906",
+        "target": "MESH:D015812"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004005",
+        "label": "Drug",
+        "name": "methazolamide"
+      },
+      {
+        "id": "UniProt:P00915",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 1"
+      },
+      {
+        "id": "UniProt:P00918",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 2"
+      },
+      {
+        "id": "UniProt:P07451",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 3"
+      },
+      {
+        "id": "UniProt:P22748",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 4"
+      },
+      {
+        "id": "UniProt:P43166",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 7"
+      },
+      {
+        "id": "GO:0015701",
+        "label": "BiologicalProcess",
+        "name": "bicarbonate transport"
+      },
+      {
+        "id": "UBERON:0001796",
+        "label": "GrossAnatomicalStructure",
+        "name": "aqueous humor of eyeball"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "Ocular Hypertension"
+      },
+      {
+        "id": "MESH:D015812",
+        "label": "Disease",
+        "name": "Angle-closure glaucoma"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00703#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://en.wikipedia.org/wiki/Glaucoma#Medication https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0 https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Open-angle glaucoma",
+      "disease_mesh": "MESH:D005902",
+      "drug": "methazolamide",
+      "drug_mesh": "MESH:D004005",
+      "drugbank": "DB:DB00703"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P00915"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P00918"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P07451"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P22748"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004005",
+        "target": "UniProt:P43166"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P00915",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P00918",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P07451",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P22748",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P43166",
+        "target": "GO:0015701"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "GO:0015701",
+        "target": "UBERON:0001796"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UBERON:0001796",
+        "target": "HP:0007906"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0007906",
+        "target": "MESH:D005902"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004005",
+        "label": "Drug",
+        "name": "methazolamide"
+      },
+      {
+        "id": "UniProt:P00915",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 1"
+      },
+      {
+        "id": "UniProt:P00918",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 2"
+      },
+      {
+        "id": "UniProt:P07451",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 3"
+      },
+      {
+        "id": "UniProt:P22748",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 4"
+      },
+      {
+        "id": "UniProt:P43166",
+        "label": "Protein",
+        "name": "Carbonic anhydrase 7"
+      },
+      {
+        "id": "GO:0015701",
+        "label": "BiologicalProcess",
+        "name": "bicarbonate transport"
+      },
+      {
+        "id": "UBERON:0001796",
+        "label": "GrossAnatomicalStructure",
+        "name": "aqueous humor of eyeball"
+      },
+      {
+        "id": "HP:0007906",
+        "label": "PhenotypicFeature",
+        "name": "Ocular Hypertension"
+      },
+      {
+        "id": "MESH:D005902",
+        "label": "Disease",
+        "name": "Open-angle glaucoma"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00703#mechanism-of-action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://en.wikipedia.org/wiki/Glaucoma#Medication https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0 https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Constipation",
+      "disease_mesh": "MESH:D003248",
+      "drug": "magnesium sulfate",
+      "drug_mesh": "MESH:D008278",
+      "drugbank": "DB:DB00653"
+    },
+    "links": [
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D008278",
+        "target": "Pfam:PF02898"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "Pfam:PF02898",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D008278",
+        "target": "UniProt:P06307"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P06307",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0120054",
+        "target": "MESH:D003248"
+      },
+      {
+        "key": "subclass of",
+        "source": "MESH:D008278",
+        "target": "MESH:D054368"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "MESH:D054368",
+        "target": "GO:0030421"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0030421",
+        "target": "MESH:D003248"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D008278",
+        "label": "Drug",
+        "name": "magnesium sulfate"
+      },
+      {
+        "id": "Pfam:PF02898",
+        "label": "GeneFamily",
+        "name": "Nitric oxide synthase"
+      },
+      {
+        "id": "UniProt:P06307",
+        "label": "Protein",
+        "name": "Cholecystokinin"
+      },
+      {
+        "id": "MESH:D054368",
+        "label": "ChemicalSubstance",
+        "name": "Laxatives"
+      },
+      {
+        "id": "GO:0120054",
+        "label": "BiologicalProcess",
+        "name": "intestinal motility"
+      },
+      {
+        "id": "GO:0030421",
+        "label": "BiologicalProcess",
+        "name": "defecation"
+      },
+      {
+        "id": "MESH:D003248",
+        "label": "Disease",
+        "name": "Constipation"
+      }
+    ],
+    "reference": "https://en.wikipedia.org/wiki/Laxative#Saline_laxative_agents https://pubmed.ncbi.nlm.nih.gov/8878010/ https://www.gastrojournal.org/article/S0016-5085(03)01919-X/fulltext https://pubmed.ncbi.nlm.nih.gov/27528058/"
   }
 ]
