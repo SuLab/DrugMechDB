@@ -80067,3 +80067,1231 @@
         name: Constipation
     reference: https://en.wikipedia.org/wiki/Laxative#Saline_laxative_agents https://pubmed.ncbi.nlm.nih.gov/8878010/
         https://www.gastrojournal.org/article/S0016-5085(03)01919-X/fulltext https://pubmed.ncbi.nlm.nih.gov/27528058/
+-   directed: true
+    graph:
+        disease: Adenosine deaminase deficiency
+        disease_mesh: MESH:C531816
+        drug: pegademase
+        drug_mesh: MESH:C051409
+        drugbank: DB:DB00061
+    links:
+    -   key: decreases abundance of
+        source: MESH:C051409
+        target: CHEBI:17256
+    -   key: disrupts
+        source: CHEBI:17256
+        target: CL:0000084
+    -   key: positively correlated with
+        source: CL:0000084
+        target: GO:0002456
+    -   key: negatively correlated with
+        source: GO:0002456
+        target: MESH:C531816
+    multigraph: true
+    nodes:
+    -   id: MESH:C051409
+        label: Drug
+        name: Pegademase
+    -   id: CHEBI:17256
+        label: ChemicalSubstance
+        name: 2'-deoxyadenosine
+    -   id: CL:0000084
+        label: Cell
+        name: T cell
+    -   id: GO:0002456
+        label: BiologicalProcess
+        name: T cell mediated immunity
+    -   id: MESH:C531816
+        label: Disease
+        name: Adenosine deaminase deficiency
+    reference: https://go.drugbank.com/drugs/DB00061 https://en.wikipedia.org/wiki/Adenosine_deaminase_deficiency
+-   directed: true
+    graph:
+        disease: Osteoporosis
+        disease_mesh: MESH:D010024
+        drug: Colecalciferol
+        drug_mesh: MESH:D002762
+        drugbank: DB:DB00169
+    links:
+    -   key: increases activity of
+        source: MESH:D002762
+        target: UniProt:P11473
+    -   key: positively regulates
+        source: UniProt:P11473
+        target: GO:0033280
+    -   key: positively regulates
+        source: GO:0033280
+        target: GO:0070509
+    -   key: negatively regulates
+        source: GO:0033280
+        target: GO:0035898
+    -   key: negatively correlated with
+        source: GO:0070509
+        target: HP:0002901
+    -   key: positively regulates
+        source: GO:0035898
+        target: CL:0000092
+    -   key: positively correlated with
+        source: HP:0002901
+        target: MESH:D010024
+    -   key: capable of
+        source: CL:0000092
+        target: GO:0045453
+    -   key: positively correlated with
+        source: GO:0045453
+        target: MESH:D010024
+    multigraph: true
+    nodes:
+    -   id: MESH:D002762
+        label: Drug
+        name: Colecalciferol
+    -   id: UniProt:P11473
+        label: Protein
+        name: Vitamin D3 receptor
+    -   id: GO:0033280
+        label: BiologicalProcess
+        name: Response to vitamin D
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0035898
+        label: BiologicalProcess
+        name: Parathyroid hormone secretion
+    -   id: HP:0002901
+        label: PhenotypicFeature
+        name: Hypocalcemia
+    -   id: CL:0000092
+        label: Cell
+        name: Osteoclast
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone Resorption
+    -   id: MESH:D010024
+        label: Disease
+        name: Osteoporosis
+    reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3257679/ https://go.drugbank.com/drugs/DB00169
+-   directed: true
+    graph:
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+        drug: Colecalciferol
+        drug_mesh: MESH:D002762
+        drugbank: DB:DB00169
+    links:
+    -   key: increases activity of
+        source: MESH:D002762
+        target: UniProt:P11473
+    -   key: positively regulates
+        source: UniProt:P11473
+        target: GO:0033280
+    -   key: positively regulates
+        source: GO:0033280
+        target: GO:0070509
+    -   key: negatively regulates
+        source: GO:0033280
+        target: GO:0035898
+    -   key: negatively correlated with
+        source: GO:0070509
+        target: HP:0002901
+    -   key: positively regulates
+        source: GO:0035898
+        target: CL:0000092
+    -   key: positively correlated with
+        source: HP:0002901
+        target: MESH:D015663
+    -   key: capable of
+        source: CL:0000092
+        target: GO:0045453
+    -   key: positively correlated with
+        source: GO:0045453
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:D002762
+        label: Drug
+        name: Colecalciferol
+    -   id: UniProt:P11473
+        label: Protein
+        name: Vitamin D3 receptor
+    -   id: GO:0033280
+        label: BiologicalProcess
+        name: Response to vitamin D
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0035898
+        label: BiologicalProcess
+        name: Parathyroid hormone secretion
+    -   id: HP:0002901
+        label: PhenotypicFeature
+        name: Hypocalcemia
+    -   id: CL:0000092
+        label: Cell
+        name: Osteoclast
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: Bone Resorption
+    -   id: MESH:D015663
+        label: Disease
+        name: Postmenopausal osteoporosis
+    reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3257679/ https://go.drugbank.com/drugs/DB00169
+-   directed: true
+    graph:
+        disease: Hypoparathyroidism
+        disease_mesh: MESH:D007011
+        drug: Colecalciferol
+        drug_mesh: MESH:D002762
+        drugbank: DB:DB00169
+    links:
+    -   key: increases activity of
+        source: MESH:D002762
+        target: UniProt:P11473
+    -   key: positively regulates
+        source: UniProt:P11473
+        target: GO:0033280
+    -   key: positively regulates
+        source: GO:0033280
+        target: GO:0070509
+    -   key: negatively correlated with
+        source: GO:0070509
+        target: HP:0002901
+    -   key: positively correlated with
+        source: HP:0002901
+        target: MESH:D007011
+    multigraph: true
+    nodes:
+    -   id: MESH:D002762
+        label: Drug
+        name: Colecalciferol
+    -   id: UniProt:P11473
+        label: Protein
+        name: Vitamin D3 receptor
+    -   id: GO:0033280
+        label: BiologicalProcess
+        name: Response to vitamin D
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: HP:0002901
+        label: PhenotypicFeature
+        name: Hypocalcemia
+    -   id: MESH:D007011
+        label: Disease
+        name: Hypoparathyroidism
+    reference: https://go.drugbank.com/drugs/DB00169 https://en.wikipedia.org/wiki/Hypoparathyroidism#Treatment
+        https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3257679/
+-   directed: true
+    graph:
+        disease: Vitamin D deficiency
+        disease_mesh: MESH:D014808
+        drug: Colecalciferol
+        drug_mesh: MESH:D002762
+        drugbank: DB:DB00169
+    links:
+    -   key: increases activity of
+        source: MESH:D002762
+        target: UniProt:P11473
+    -   key: positively regulates
+        source: UniProt:P11473
+        target: GO:0033280
+    -   key: positively regulates
+        source: GO:0033280
+        target: GO:0030282
+    -   key: negatively correlated with
+        source: GO:0030282
+        target: MESH:D014808
+    -   key: negatively correlated with
+        source: GO:0033280
+        target: HP:0001324
+    -   key: positively correlated with
+        source: HP:0001324
+        target: MESH:D014808
+    multigraph: true
+    nodes:
+    -   id: MESH:D002762
+        label: Drug
+        name: Colecalciferol
+    -   id: UniProt:P11473
+        label: Protein
+        name: Vitamin D3 receptor
+    -   id: GO:0033280
+        label: BiologicalProcess
+        name: Response to vitamin D
+    -   id: GO:0030282
+        label: BiologicalProcess
+        name: Bone mineralization
+    -   id: HP:0001324
+        label: PhenotypicFeature
+        name: Muscle weakness
+    -   id: MESH:D014808
+        label: Disease
+        name: Vitamin D deficiency
+    reference: https://go.drugbank.com/drugs/DB00169 https://en.wikipedia.org/wiki/Vitamin_D_deficiency#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Rickets
+        disease_mesh: MESH:D012279
+        drug: Colecalciferol
+        drug_mesh: MESH:D002762
+        drugbank: DB:DB00169
+    links:
+    -   key: increases activity of
+        source: MESH:D002762
+        target: UniProt:P11473
+    -   key: positively regulates
+        source: UniProt:P11473
+        target: GO:0033280
+    -   key: positively regulates
+        source: GO:0033280
+        target: GO:0030282
+    -   key: negatively correlated with
+        source: GO:0030282
+        target: MESH:D012279
+    multigraph: true
+    nodes:
+    -   id: MESH:D002762
+        label: Drug
+        name: Colecalciferol
+    -   id: UniProt:P11473
+        label: Protein
+        name: Vitamin D3 receptor
+    -   id: GO:0033280
+        label: BiologicalProcess
+        name: Response to vitamin D
+    -   id: GO:0030282
+        label: BiologicalProcess
+        name: Bone mineralization
+    -   id: MESH:D012279
+        label: Disease
+        name: Rickets
+    reference: https://go.drugbank.com/drugs/DB00169 https://en.wikipedia.org/wiki/Rickets#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Hypocalcemia
+        disease_mesh: MESH:D006996
+        drug: Colecalciferol
+        drug_mesh: MESH:D002762
+        drugbank: DB:DB00169
+    links:
+    -   key: increases activity of
+        source: MESH:D002762
+        target: UniProt:P11473
+    -   key: positively regulates
+        source: UniProt:P11473
+        target: GO:0033280
+    -   key: positively regulates
+        source: GO:0033280
+        target: GO:0070509
+    -   key: negatively correlated with
+        source: GO:0070509
+        target: MESH:D006996
+    multigraph: true
+    nodes:
+    -   id: MESH:D002762
+        label: Drug
+        name: Colecalciferol
+    -   id: UniProt:P11473
+        label: Protein
+        name: Vitamin D3 receptor
+    -   id: GO:0033280
+        label: BiologicalProcess
+        name: Response to vitamin D
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: MESH:D006996
+        label: Disease
+        name: Hypocalcemia
+    reference: https://go.drugbank.com/drugs/DB00169
+-   directed: true
+    graph:
+        disease: Vitamin deficiency
+        disease_mesh: MESH:D014808
+        drug: Colecalciferol
+        drug_mesh: MESH:D002762
+        drugbank: DB:DB00169
+    links:
+    -   key: increases activity of
+        source: MESH:D002762
+        target: UniProt:P11473
+    -   key: positively regulates
+        source: UniProt:P11473
+        target: GO:0033280
+    -   key: positively regulates
+        source: GO:0033280
+        target: GO:0030282
+    -   key: negatively correlated with
+        source: GO:0030282
+        target: MESH:D014808
+    -   key: negatively correlated with
+        source: GO:0033280
+        target: HP:0001324
+    -   key: positively correlated with
+        source: HP:0001324
+        target: MESH:D014808
+    multigraph: true
+    nodes:
+    -   id: MESH:D002762
+        label: Drug
+        name: Colecalciferol
+    -   id: UniProt:P11473
+        label: Protein
+        name: Vitamin D3 receptor
+    -   id: GO:0033280
+        label: BiologicalProcess
+        name: Response to vitamin D
+    -   id: GO:0030282
+        label: BiologicalProcess
+        name: Bone mineralization
+    -   id: HP:0001324
+        label: PhenotypicFeature
+        name: Muscle weakness
+    -   id: MESH:D014808
+        label: Disease
+        name: Vitamin deficiency
+    reference: https://go.drugbank.com/drugs/DB00169 https://en.wikipedia.org/wiki/Vitamin_D_deficiency#Signs_and_symptoms
+-   directed: true
+    graph:
+        disease: Congenital atresia of the pulmonary valve
+        disease_mesh: MESH:D018633
+        drug: Alprostadil
+        drug_mesh: MESH:D000527
+        drugbank: DB:DB00770
+    links:
+    -   key: increases activity of
+        source: MESH:D000527
+        target: UniProt:P43116
+    -   key: positively regulates
+        source: UniProt:P43116
+        target: GO:0007189
+    -   key: positively regulates
+        source: GO:0007189
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: MESH:D018633
+    multigraph: true
+    nodes:
+    -   id: MESH:D000527
+        label: Drug
+        name: Alprostadil
+    -   id: UniProt:P43116
+        label: Protein
+        name: Prostaglandin E2 receptor EP2 subtype
+    -   id: GO:0007189
+        label: BiologicalProcess
+        name: Adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: MESH:D018633
+        label: Disease
+        name: Congenital atresia of the pulmonary valve
+    reference: https://go.drugbank.com/drugs/DB00770 https://en.wikipedia.org/wiki/Prostaglandin_E1
+-   directed: true
+    graph:
+        disease: Pulmonary artery stenosis
+        disease_mesh: MESH:D000071079
+        drug: Alprostadil
+        drug_mesh: MESH:D000527
+        drugbank: DB:DB00770
+    links:
+    -   key: increases activity of
+        source: MESH:D000527
+        target: UniProt:P43116
+    -   key: positively regulates
+        source: UniProt:P43116
+        target: GO:0007189
+    -   key: positively regulates
+        source: GO:0007189
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: MESH:D000071079
+    multigraph: true
+    nodes:
+    -   id: MESH:D000527
+        label: Drug
+        name: Alprostadil
+    -   id: UniProt:P43116
+        label: Protein
+        name: Prostaglandin E2 receptor EP2 subtype
+    -   id: GO:0007189
+        label: BiologicalProcess
+        name: Adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: MESH:D000071079
+        label: Disease
+        name: Pulmonary artery stenosis
+    reference: https://go.drugbank.com/drugs/DB00770 https://en.wikipedia.org/wiki/Prostaglandin_E1
+        https://en.wikipedia.org/wiki/Tricuspid_atresia
+-   directed: true
+    graph:
+        disease: Congenital atresia of tricuspid valve
+        disease_mesh: MESH:D018785
+        drug: alprostadil
+        drug_mesh: MESH:D000527
+        drugbank: DB:DB00770
+    links:
+    -   key: increases activity of
+        source: MESH:D000527
+        target: UniProt:P43116
+    -   key: positively regulates
+        source: UniProt:P43116
+        target: GO:0007189
+    -   key: positively regulates
+        source: GO:0007189
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: HP:0001643
+    -   key: negatively correlated with
+        source: HP:0001643
+        target: MESH:D018785
+    multigraph: true
+    nodes:
+    -   id: MESH:D000527
+        label: Drug
+        name: Alprostadil
+    -   id: UniProt:P43116
+        label: Protein
+        name: Prostaglandin E2 receptor EP2 subtype
+    -   id: GO:0007189
+        label: BiologicalProcess
+        name: Adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: HP:0001643
+        label: PhenotypicFeature
+        name: Patent ductus arteriosus
+    -   id: MESH:D018785
+        label: Disease
+        name: Congenital atresia of tricuspid valve
+    reference: https://go.drugbank.com/drugs/DB00770 https://en.wikipedia.org/wiki/Prostaglandin_E1
+        https://en.wikipedia.org/wiki/Tricuspid_atresia
+-   directed: true
+    graph:
+        disease: Coarctation of aorta
+        disease_mesh: MESH:D001017
+        drug: alprostadil
+        drug_mesh: MESH:D000527
+        drugbank: DB:DB00770
+    links:
+    -   key: increases activity of
+        source: MESH:D000527
+        target: UniProt:P43116
+    -   key: positively regulates
+        source: UniProt:P43116
+        target: GO:0007189
+    -   key: positively regulates
+        source: GO:0007189
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: MESH:D001017
+    multigraph: true
+    nodes:
+    -   id: MESH:D000527
+        label: Drug
+        name: Alprostadil
+    -   id: UniProt:P43116
+        label: Protein
+        name: Prostaglandin E2 receptor EP2 subtype
+    -   id: GO:0007189
+        label: BiologicalProcess
+        name: Adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: MESH:D001017
+        label: Disease
+        name: Coarctation of aorta
+    reference: https://go.drugbank.com/drugs/DB00770 https://en.wikipedia.org/wiki/Coarctation_of_the_aorta
+-   directed: true
+    graph:
+        disease: Impotence
+        disease_mesh: MESH:D007172
+        drug: alprostadil
+        drug_mesh: MESH:D000527
+        drugbank: DB:DB00770
+    links:
+    -   key: increases activity of
+        source: MESH:D000527
+        target: UniProt:P43116
+    -   key: positively regulates
+        source: UniProt:P43116
+        target: GO:0007189
+    -   key: positively regulates
+        source: GO:0007189
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: MESH:D007172
+    multigraph: true
+    nodes:
+    -   id: MESH:D000527
+        label: Drug
+        name: Alprostadil
+    -   id: UniProt:P43116
+        label: Protein
+        name: Prostaglandin E2 receptor EP2 subtype
+    -   id: GO:0007189
+        label: BiologicalProcess
+        name: Adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: MESH:D007172
+        label: Disease
+        name: Impotence
+    reference: https://go.drugbank.com/drugs/DB00770
+-   directed: true
+    graph:
+        disease: Tetralogy of Fallot
+        disease_mesh: MESH:D013771
+        drug: alprostadil
+        drug_mesh: MESH:D000527
+        drugbank: DB:DB00770
+    links:
+    -   key: increases activity of
+        source: MESH:D000527
+        target: UniProt:P43116
+    -   key: positively regulates
+        source: UniProt:P43116
+        target: GO:0007189
+    -   key: positively regulates
+        source: GO:0007189
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: HP:0012418
+    -   key: occurs in
+        source: HP:0012418
+        target: MESH:D013771
+    multigraph: true
+    nodes:
+    -   id: MESH:D000527
+        label: Drug
+        name: Alprostadil
+    -   id: UniProt:P43116
+        label: Protein
+        name: Prostaglandin E2 receptor EP2 subtype
+    -   id: GO:0007189
+        label: BiologicalProcess
+        name: Adenylate cyclase-activating G protein-coupled receptor signaling pathway
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: HP:0012418
+        label: PhenotypicFeature
+        name: Hypoxemia
+    -   id: MESH:D013771
+        label: Disease
+        name: Tetralogy of Fallot
+    reference: https://go.drugbank.com/drugs/DB00770
+-   comment: Azathioprine is a prodrug of 6-mercaptopurine
+    directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: azathioprine
+        drug_mesh: MESH:D001379
+        drugbank: DB:DB00993
+    links:
+    -   key: has metabolite
+        source: MESH:D001379
+        target: MESH:C032827
+    -   key: decreases activity of
+        source: MESH:C032827
+        target: UniProt:P63000
+    -   key: increases activity of
+        source: UniProt:P63000
+        target: UniProt:Q07817-1
+    -   key: negatively regulates
+        source: UniProt:Q07817-1
+        target: GO:0006915
+    -   key: negatively regulates
+        source: GO:0006915
+        target: CL:0000084
+    -   key: positively regulates
+        source: CL:0000084
+        target: GO:0006955
+    -   key: negatively regulates
+        source: MESH:D001379
+        target: GO:0042451
+    -   key: occurs in
+        source: GO:0042451
+        target: CL:0000738
+    -   key: positively regulates
+        source: CL:0000738
+        target: GO:0006955
+    -   key: positively regulates
+        source: GO:0006955
+        target: GO:0006955
+    -   key: disrupts
+        source: MESH:D001379
+        target: MESH:D004247
+    -   key: occurs in
+        source: MESH:D004247
+        target: CL:0000738
+    -   key: positively correlated with
+        source: GO:0006955
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D001379
+        label: Drug
+        name: Azathioprine
+    -   id: MESH:C032827
+        label: ChemicalSubstance
+        name: 6-thioguanosine 5'-triphosphate
+    -   id: UniProt:P63000
+        label: Protein
+        name: Ras-related C3 botulinum toxin substrate 1
+    -   id: UniProt:Q07817-1
+        label: Protein
+        name: Bcl-xL
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: CL:0000084
+        label: Cell
+        name: T cell
+    -   id: GO:0006955
+        label: BiologicalProcess
+        name: Immune response
+    -   id: GO:0042451
+        label: BiologicalProcess
+        name: Purine nucleoside biosynthetic process
+    -   id: CL:0000738
+        label: Cell
+        name: Leukocyte
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: https://en.wikipedia.org/wiki/Azathioprine https://go.drugbank.com/drugs/DB00993
+-   comment: Flupentixol is not approved for use in the United States. Flupentixol
+        exists in two geometric isomers, the trans(E) and pharmacologically active
+        cis(Z) forms.
+    directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: flupentixol
+        drug_mesh: MESH:D005475
+        drugbank: DB:DB00875
+    links:
+    -   key: decreases activity of
+        source: MESH:D005475
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: REACT:R-HSA-390651
+    -   key: affected by
+        source: REACT:R-HSA-390651
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: MESH:D005475
+        label: Drug
+        name: Flupentixol
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: REACT:R-HSA-390651
+        label: Pathway
+        name: Dopamine receptors
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB00875
+-   comment: "The link between guanfacine\u2019s molecular mechanism and it\u2019\
+        s effect on the treatment of ADHD has not been determined"
+    directed: true
+    graph:
+        disease: Attention deficit hyperactivity disorder
+        disease_mesh: MESH:D001289
+        drug: guanfacine
+        drug_mesh: MESH:D016316
+        drugbank: DB:DB01018
+    links:
+    -   key: increases activity of
+        source: MESH:D016316
+        target: UniProt:P08913
+    -   key: treats
+        source: UniProt:P08913
+        target: MESH:D001289
+    multigraph: true
+    nodes:
+    -   id: MESH:D016316
+        label: Drug
+        name: Guanfacine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: MESH:D001289
+        label: Disease
+        name: Attention deficit hyperactivity disorder
+    reference: https://go.drugbank.com/drugs/DB01018
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: guanfacine
+        drug_mesh: MESH:D016316
+        drugbank: DB:DB01018
+    links:
+    -   key: increases activity of
+        source: MESH:D016316
+        target: UniProt:P08913
+    -   key: positively correlated with
+        source: UniProt:P08913
+        target: GO:0004938
+    -   key: negatively regulates
+        source: GO:0004938
+        target: GO:0019228
+    -   key: positively regulates
+        source: GO:0019228
+        target: GO:0061533
+    -   key: positively regulates
+        source: GO:0061533
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D016316
+        label: Drug
+        name: Guanfacine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0004938
+        label: BiologicalProcess
+        name: Alpha2-adrenergic receptor activity
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB01018#BE0000289
+-   directed: true
+    graph:
+        disease: Urge incontinence of urine
+        disease_mesh: MESH:D053202
+        drug: oxybutynin
+        drug_mesh: MESH:C005419
+        drugbank: DB:DB01062
+    links:
+    -   key: decreases activity of
+        source: MESH:C005419
+        target: UniProt:P20309
+    -   key: decreases activity of
+        source: MESH:C005419
+        target: UniProt:P08172
+    -   key: decreases activity of
+        source: MESH:C005419
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P20309
+        target: GO:0014832
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0014832
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0014832
+    -   key: positively regulates
+        source: GO:0014832
+        target: GO:0060073
+    -   key: positively correlated with
+        source: GO:0060073
+        target: MESH:D053202
+    multigraph: true
+    nodes:
+    -   id: MESH:C005419
+        label: Drug
+        name: Oxybutynin
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0014832
+        label: BiologicalProcess
+        name: Urinary bladder smooth muscle contraction
+    -   id: GO:0060073
+        label: BiologicalProcess
+        name: Urination
+    -   id: MESH:D053202
+        label: Disease
+        name: Urge incontinence of urine
+    reference: https://go.drugbank.com/drugs/DB01062#BE0000045
+-   directed: true
+    graph:
+        disease: Neurogenic bladder
+        disease_mesh: MESH:D001750
+        drug: oxybutynin
+        drug_mesh: MESH:C005419
+        drugbank: DB:DB01062
+    links:
+    -   key: decreases activity of
+        source: MESH:C005419
+        target: UniProt:P20309
+    -   key: decreases activity of
+        source: MESH:C005419
+        target: UniProt:P08172
+    -   key: decreases activity of
+        source: MESH:C005419
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P20309
+        target: GO:0014832
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0014832
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0014832
+    -   key: positively regulates
+        source: GO:0014832
+        target: GO:0060073
+    -   key: positively correlated with
+        source: GO:0060073
+        target: MESH:D001750
+    multigraph: true
+    nodes:
+    -   id: MESH:C005419
+        label: Drug
+        name: Oxybutynin
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0014832
+        label: BiologicalProcess
+        name: Urinary bladder smooth muscle contraction
+    -   id: GO:0060073
+        label: BiologicalProcess
+        name: Urination
+    -   id: MESH:D001750
+        label: Disease
+        name: Neurogenic bladder
+    reference: https://go.drugbank.com/drugs/DB01062#BE0000045 https://en.wikipedia.org/wiki/Neurogenic_bladder_dysfunction
+-   directed: true
+    graph:
+        disease: Candidiasis of vagina
+        disease_mesh: MESH:D002181
+        drug: candicidin
+        drug_mesh: MESH:D002174
+        drugbank: DB:DB01152
+    links:
+    -   key: negatively regulates
+        source: MESH:D002174
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D002181
+    multigraph: true
+    nodes:
+    -   id: MESH:D002174
+        label: Drug
+        name: Candicidin
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: Ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: Yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D002181
+        label: Disease
+        name: Candidiasis of vagina
+    reference: https://go.drugbank.com/drugs/DB01152
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: Levocetirizine
+        drug_mesh: MESH:C472067
+        drugbank: DB:DB06282
+    links:
+    -   key: decreases activity of
+        source: MESH:C472067
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0031417
+    -   key: manifestation of
+        source: HP:0031417
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:C472067
+        label: Drug
+        name: Levocetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0031417
+        label: PhenotypicFeature
+        name: Rhinorrhea
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB06282#BE0000442
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Levocetirizine
+        drug_mesh: MESH:C472067
+        drugbank: DB:DB06282
+    links:
+    -   key: decreases activity of
+        source: MESH:C472067
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0031417
+    -   key: manifestation of
+        source: HP:0031417
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C472067
+        label: Drug
+        name: Levocetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0031417
+        label: PhenotypicFeature
+        name: Rhinorrhea
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference: https://go.drugbank.com/drugs/DB06282#BE0000442
+-   directed: true
+    graph:
+        disease: Chronic idiopathic urticaria
+        disease_mesh: MESH:D000080223
+        drug: Levocetirizine
+        drug_mesh: MESH:C472067
+        drugbank: DB:DB06282
+    links:
+    -   key: decreases activity of
+        source: MESH:C472067
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0043117
+    -   key: positively correlated with
+        source: GO:0071420
+        target: HP:0000969
+    -   key: manifestation of
+        source: HP:0000969
+        target: MESH:D000080223
+    -   key: manifestation of
+        source: GO:0043117
+        target: MESH:D000080223
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D000080223
+    multigraph: true
+    nodes:
+    -   id: MESH:C472067
+        label: Drug
+        name: Levocetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: Positive regulation of vascular permeability
+    -   id: HP:0000969
+        label: PhenotypicFeature
+        name: Edema
+    -   id: MESH:D000080223
+        label: Disease
+        name: Chronic idiopathic urticaria
+    reference: https://go.drugbank.com/drugs/DB06282#BE0000442
+-   comment: Ivacaftor as monotherapy has failed to show a benefit for patients with
+        delta-F508 mutations
+    directed: true
+    graph:
+        disease: Cystic fibrosis of the lung
+        disease_mesh: MESH:D003550
+        drug: Ivacaftor
+        drug_mesh: MESH:C545203
+        drugbank: DB:DB08820
+    links:
+    -   key: increases activity of
+        source: MESH:C545203
+        target: UniProt:P13569
+    -   key: disrupted by
+        source: UniProt:P13569
+        target: MESH:D003550
+    multigraph: true
+    nodes:
+    -   id: MESH:C545203
+        label: Drug
+        name: Ivacaftor
+    -   id: UniProt:P13569
+        label: Protein
+        name: Cystic fibrosis transmembrane conductance regulator
+    -   id: MESH:D003550
+        label: Disease
+        name: Cystic fibrosis of the lung
+    reference: https://go.drugbank.com/drugs/DB08820
