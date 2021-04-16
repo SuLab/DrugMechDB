@@ -85653,3 +85653,1230 @@
         label: Disease
         name: Mixed hyperlipidemia
     reference: https://go.drugbank.com/drugs/DB08860 https://en.wikipedia.org/wiki/Combined_hyperlipidemia
+-   directed: true
+    graph:
+        disease: Chronic type B viral hepatitis
+        disease_mesh: MESH:D019694
+        drug: Adefovir dipivoxil
+        drug_mesh: MESH:C106812
+        drugbank: DB:DB00718
+    links:
+    -   key: increases abundance of
+        source: MESH:C106812
+        target: MESH:C120290
+    -   key: decreases activity of
+        source: MESH:C120290
+        target: UniProt:P24024
+    -   key: negatively regulates
+        source: UniProt:P24024
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:10407
+    -   key: causes
+        source: NCBITaxon:10407
+        target: MESH:D019694
+    multigraph: true
+    nodes:
+    -   id: MESH:C106812
+        label: Drug
+        name: Adefovir dipivoxil
+    -   id: MESH:C120290
+        label: ChemicalSubstance
+        name: Adefovir diphosphate
+    -   id: UniProt:P24024
+        label: Protein
+        name: DNA polymerase
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral replication
+    -   id: NCBITaxon:10407
+        label: OrganismTaxon
+        name: Hepatitis B Virus
+    -   id: MESH:D019694
+        label: Disease
+        name: Chronic type B viral hepatitis
+    reference: https://go.drugbank.com/drugs/DB00718#mechanismofaction
+-   comment: Carbenicillin is a semisynthetic penicillin
+    directed: true
+    graph:
+        disease: Prostatitis
+        disease_mesh: MESH:D011472
+        drug: Carbenicillin
+        drug_mesh: MESH:D002228
+        drugbank: DB:DB00578
+    links:
+    -   key: decreases activity of
+        source: MESH:D002228
+        target: UniProt:Q53613
+    -   key: negatively regulates
+        source: UniProt:Q53613
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:543
+    -   key: causes
+        source: NCBITaxon:543
+        target: MESH:D011472
+    multigraph: true
+    nodes:
+    -   id: MESH:D002228
+        label: Disease
+        name: Carbenicillin
+    -   id: UniProt:Q53613
+        label: Protein
+        name: Penicillin binding protein
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:543
+        label: OrganismTaxon
+        name: Enterobacteriaceae
+    -   id: MESH:D011472
+        label: Disease
+        name: Prostatitis
+    reference: https://go.drugbank.com/drugs/DB00578#mechanismofaction
+-   comment: Carbenicillin is a semisynthetic penicillin
+    directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Carbenicillin
+        drug_mesh: MESH:D002228
+        drugbank: DB:DB00578
+    links:
+    -   key: decreases activity of
+        source: MESH:D002228
+        target: UniProt:Q53613
+    -   key: negatively regulates
+        source: UniProt:Q53613
+        target: GO:0018104
+    -   key: disrupts
+        source: GO:0018104
+        target: GO:0042546
+    -   key: contributes to
+        source: GO:0042546
+        target: GO:0008219
+    -   key: in taxon
+        source: GO:0008219
+        target: NCBITaxon:543
+    -   key: causes
+        source: NCBITaxon:543
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D002228
+        label: Disease
+        name: Carbenicillin
+    -   id: UniProt:Q53613
+        label: Protein
+        name: Penicillin binding protein
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Peptidoglycan-protein cross-linking
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: NCBITaxon:543
+        label: OrganismTaxon
+        name: Enterobacteriaceae
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference: https://go.drugbank.com/drugs/DB00578#mechanismofaction
+-   directed: true
+    graph:
+        disease: Prinzmetal angina
+        disease_mesh: MESH:D000788
+        drug: Amlodipine
+        drug_mesh: MESH:D017311
+        drugbank: DB:DB00381
+    links:
+    -   key: decreases activity of
+        source: MESH:D017311
+        target: UniProt:Q01668
+    -   key: located in
+        source: UniProt:Q01668
+        target: CL:0000746
+    -   key: prevents
+        source: CL:0000746
+        target: HP:0025497
+    -   key: negatively regulates
+        source: HP:0025497
+        target: HP:0000875
+    -   key: correlated with
+        source: HP:0000875
+        target: MESH:D000788
+    multigraph: true
+    nodes:
+    -   id: MESH:D017311
+        label: Drug
+        name: Amlodipine
+    -   id: UniProt:Q01668
+        label: Protein
+        name: L-type Cav1.3 channel
+    -   id: CL:0000746
+        label: Cell
+        name: Cardiac muscle cells
+    -   id: HP:0025497
+        label: PhenotypicFeature
+        name: Coronary artery spasm
+    -   id: HP:0000875
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D000788
+        label: Disease
+        name: Prinzmetal angina
+    reference: https://go.drugbank.com/drugs/DB00381#mechanismofaction https://en.wikipedia.org/wiki/Amlodipine#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Amlodipine
+        drug_mesh: MESH:D017311
+        drugbank: DB:DB00381
+    links:
+    -   key: decreases activity of
+        source: MESH:D017311
+        target: UniProt:Q01668
+    -   key: located in
+        source: UniProt:Q01668
+        target: CL:0000359
+    -   key: negatively regulates
+        source: CL:0000359
+        target: GO:0070509
+    -   key: precedes
+        source: GO:0070509
+        target: GO:0042311
+    -   key: negatively regulates
+        source: GO:0042311
+        target: HP:0000822
+    -   key: correlated with
+        source: HP:0000822
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D017311
+        label: Drug
+        name: Amlodipine
+    -   id: UniProt:Q01668
+        label: Protein
+        name: L-type Cav1.3 channel
+    -   id: CL:0000359
+        label: Cell
+        name: Vascular smooth muscle cell
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion influx
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB00381#mechanismofaction https://en.wikipedia.org/wiki/Amlodipine#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: Amlodipine
+        drug_mesh: MESH:D017311
+        drugbank: DB:DB00381
+    links:
+    -   key: decreases activity of
+        source: MESH:D017311
+        target: UniProt:Q01668
+    -   key: located in
+        source: UniProt:Q01668
+        target: CL:0000746
+    -   key: causes
+        source: CL:0000746
+        target: GO:0042311
+    -   key: negatively regulates
+        source: GO:0042311
+        target: HP:0000875
+    -   key: correlated with
+        source: HP:0000875
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D017311
+        label: Drug
+        name: Amlodipine
+    -   id: UniProt:Q01668
+        label: Protein
+        name: L-type Cav1.3 channel
+    -   id: CL:0000746
+        label: Cell
+        name: Cardiac muscle cells
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: HP:0000875
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference: https://go.drugbank.com/drugs/DB00381#mechanismofaction https://en.wikipedia.org/wiki/Amlodipine#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Cerebrovascular accident
+        disease_mesh: MESH:D020521
+        drug: Amlodipine
+        drug_mesh: MESH:D017311
+        drugbank: DB:DB00381
+    links:
+    -   key: decreases abundance of
+        source: MESH:D017311
+        target: UniProt:P05305
+    -   key: prevents
+        source: UniProt:P05305
+        target: GO:0042310
+    -   key: increases activity of
+        source: MESH:D017311
+        target: UniProt:P29474
+    -   key: decreases activity of
+        source: UniProt:P29474
+        target: UniProt:Q03135
+    -   key: causes
+        source: UniProt:Q03135
+        target: GO:0042311
+    -   key: negatively regulates
+        source: GO:0042311
+        target: HP:0004421
+    -   key: negatively regulates
+        source: GO:0042310
+        target: HP:0004421
+    -   key: correlated with
+        source: HP:0004421
+        target: MESH:D020521
+    multigraph: true
+    nodes:
+    -   id: MESH:D017311
+        label: Drug
+        name: Amlodipine
+    -   id: UniProt:P05305
+        label: Protein
+        name: Endothelin 1
+    -   id: UniProt:P29474
+        label: Protein
+        name: Endothelial nitric oxide synthase
+    -   id: UniProt:Q03135
+        label: Protein
+        name: Caveolin 1
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0004421
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D020521
+        label: Disease
+        name: Cerebrovascular accident
+    reference: https://go.drugbank.com/drugs/DB00381#mechanismofaction https://doi.org/10.1161/HYPERTENSIONAHA.107.096610
+-   directed: true
+    graph:
+        disease: Dilated pupil
+        disease_mesh: MESH:D015878
+        drug: Cyclopentolate
+        drug_mesh: MESH:D003519
+        drugbank: DB:DB00979
+    links:
+    -   key: decreases activity of
+        source: MESH:D003519
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0090075
+    -   key: located in
+        source: GO:0090075
+        target: UBERON:0001607
+    -   key: causes
+        source: UBERON:0001607
+        target: MESH:D015878
+    -   key: located in
+        source: GO:0090075
+        target: UBERON:0001605
+    -   key: causes
+        source: UBERON:0001605
+        target: MESH:D015878
+    multigraph: true
+    nodes:
+    -   id: MESH:D003519
+        label: Drug
+        name: Cyclopentolate
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: UBERON:0001605
+        label: OrganismTaxon
+        name: Ciliary muscle
+    -   id: GO:0090075
+        label: BiologicalProcess
+        name: Relaxation of muscle
+    -   id: UBERON:0001607
+        label: OrganismTaxon
+        name: Sphincter pupillae
+    -   id: MESH:D015878
+        label: Disease
+        name: Dilated pupil
+    reference: https://go.drugbank.com/drugs/DB00979#mechanismofaction
+-   directed: true
+    graph:
+        disease: Atrial fibrillation
+        disease_mesh: MESH:D001281
+        drug: Flecainide
+        drug_mesh: MESH:D005424
+        drugbank: DB:DB01195
+    links:
+    -   key: decreases activity of
+        source: MESH:D005424
+        target: UniProt:Q14524
+    -   key: negatively regulates
+        source: UniProt:Q14524
+        target: GO:0086001
+    -   key: decreases activity of
+        source: MESH:D005424
+        target: InterPro:IPR013521
+    -   key: negatively regulates
+        source: InterPro:IPR013521
+        target: GO:0086001
+    -   key: negatively correlated with
+        source: GO:0086001
+        target: GO:0006936
+    -   key: located in
+        source: GO:0006936
+        target: UBERON:0004146
+    -   key: decreases activity of
+        source: MESH:D005424
+        target: UniProt:Q92736
+    -   key: negatively regulates
+        source: UniProt:Q92736
+        target: GO:0015278
+    -   key: located in
+        source: GO:0015278
+        target: GO:0016529
+    -   key: decreases activity of
+        source: GO:0016529
+        target: GO:0051899
+    -   key: decreases activity of
+        source: UBERON:0004146
+        target: GO:0051899
+    -   key: ameliorates
+        source: GO:0051899
+        target: HP:0004308
+    -   key: correlated with
+        source: HP:0004308
+        target: MESH:D001281
+    multigraph: true
+    nodes:
+    -   id: MESH:D005424
+        label: Drug
+        name: Flecainide
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Nav1.5 sodium channel
+    -   id: GO:0086001
+        label: BiologicalProcess
+        name: Cardiac muscle cell action potential
+    -   id: GO:0006936
+        label: BiologicalProcess
+        name: Muscle contraction
+    -   id: InterPro:IPR013521
+        label: GeneFamily
+        name: Inward-rectifier potassium channel
+    -   id: UniProt:Q92736
+        label: Protein
+        name: Ryanodine receptor 2
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0016529
+        label: CellularComponent
+        name: Sarcoplasmic reticulum
+    -   id: UBERON:0004146
+        label: GrossAnatomicalStructure
+        name: His-Purkinje system
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
+    -   id: MESH:D001281
+        label: Disease
+        name: Atrial fibrillation
+    reference: https://go.drugbank.com/drugs/DB01195#mechanismofaction https://pubchem.ncbi.nlm.nih.gov/compound/Flecainide#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 1
+        disease_mesh: MESH:D003922
+        drug: Insulin glargine
+        drug_mesh: MESH:D000069036
+        drugbank: DB:DB00047
+    links:
+    -   key: increases activity of
+        source: MESH:D000069036
+        target: UniProt:P06213
+    -   key: positively correlated with
+        source: UniProt:P06213
+        target: GO:0004713
+    -   key: positively regulates
+        source: GO:0004713
+        target: REACT:R-HSA-198203
+    -   key: regulates
+        source: REACT:R-HSA-198203
+        target: GO:0010906
+    -   key: decreases abundance of
+        source: GO:0010906
+        target: MESH:D001786
+    -   key: regulates
+        source: REACT:R-HSA-198203
+        target: GO:0019216
+    -   key: decreases abundance of
+        source: GO:0019216
+        target: MESH:D001786
+    -   key: regulates
+        source: REACT:R-HSA-198203
+        target: GO:0051246
+    -   key: decreases abundance of
+        source: GO:0051246
+        target: MESH:D001786
+    -   key: causes
+        source: MESH:D001786
+        target: MESH:D003922
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069036
+        label: Drug
+        name: Insulin glargine
+    -   id: UniProt:P06213
+        label: Protein
+        name: Insulin receptor
+    -   id: GO:0019216
+        label: BiologicalProcess
+        name: Lipid metabolism
+    -   id: GO:0051246
+        label: BiologicalProcess
+        name: Protein metabolism
+    -   id: GO:0004713
+        label: BiologicalProcess
+        name: Tyrosine kinase activity
+    -   id: REACT:R-HSA-198203
+        label: Pathway
+        name: PI3K/AKT activation
+    -   id: GO:0010906
+        label: BiologicalProcess
+        name: Glucose metabolism
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood glucose
+    -   id: MESH:D003922
+        label: Disease
+        name: Diabetes mellitus type 1
+    reference: https://go.drugbank.com/drugs/DB00047#mechanismofaction
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: Insulin glargine
+        drug_mesh: MESH:D000069036
+        drugbank: DB:DB00047
+    links:
+    -   key: increases activity of
+        source: MESH:D000069036
+        target: UniProt:P06213
+    -   key: positively correlated with
+        source: UniProt:P06213
+        target: GO:0004713
+    -   key: positively regulates
+        source: GO:0004713
+        target: REACT:R-HSA-198203
+    -   key: regulates
+        source: REACT:R-HSA-198203
+        target: GO:0010906
+    -   key: decreases abundance of
+        source: GO:0010906
+        target: MESH:D001786
+    -   key: regulates
+        source: REACT:R-HSA-198203
+        target: GO:0019216
+    -   key: decreases abundance of
+        source: GO:0019216
+        target: MESH:D001786
+    -   key: regulates
+        source: REACT:R-HSA-198203
+        target: GO:0051246
+    -   key: decreases abundance of
+        source: GO:0051246
+        target: MESH:D001786
+    -   key: causes
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069036
+        label: Drug
+        name: Insulin glargine
+    -   id: UniProt:P06213
+        label: Protein
+        name: Insulin receptor
+    -   id: GO:0019216
+        label: BiologicalProcess
+        name: Lipid metabolism
+    -   id: GO:0051246
+        label: BiologicalProcess
+        name: Protein metabolism
+    -   id: GO:0004713
+        label: BiologicalProcess
+        name: Tyrosine kinase activity
+    -   id: REACT:R-HSA-198203
+        label: Pathway
+        name: PI3K/AKT activation
+    -   id: GO:0010906
+        label: BiologicalProcess
+        name: Glucose metabolism
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB00047#mechanismofaction
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: Olanzapine
+        drug_mesh: null
+        drugbank: DB:DB00334
+    links:
+    -   key: decreases activity of
+        source: DB:DB00334
+        target: UniProt:P14416
+    -   key: increases abundance of
+        source: UniProt:P14416
+        target: GO:0061527
+    -   key: located in
+        source: GO:0061527
+        target: UBERON:0000451
+    -   key: positively regulates
+        source: UBERON:0000451
+        target: HP:0000708
+    -   key: manifestation of
+        source: HP:0000708
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: DB:DB00334
+        label: Drug
+        name: Olanzapine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: UBERON:0000451
+        label: GrossAnatomicalStructure
+        name: Prefrontal complex
+    -   id: HP:0000708
+        label: PhenotypicFeature
+        name: Behavioral abnormality
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: https://go.drugbank.com/drugs/DB00334#mechanismofaction https://psychopharmacologyinstitute.com/publication/mechanism-of-action-and-pharmacodynamics-of-olanzapine-2161
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: Olanzapine
+        drug_mesh: null
+        drugbank: DB:DB00334
+    links:
+    -   key: decreases activity of
+        source: DB:DB00334
+        target: UniProt:P28223
+    -   key: increases abundance of
+        source: UniProt:P28223
+        target: GO:0061527
+    -   key: decreases activity of
+        source: DB:DB00334
+        target: UniProt:P14416
+    -   key: increases abundance of
+        source: UniProt:P14416
+        target: GO:0061527
+    -   key: located in
+        source: GO:0061527
+        target: UBERON:0000451
+    -   key: positively regulates
+        source: UBERON:0000451
+        target: HP:0000708
+    -   key: manifestation of
+        source: HP:0000708
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: DB:DB00334
+        label: Drug
+        name: Olanzapine
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5HT2A serotonin receptors
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: UBERON:0000451
+        label: GrossAnatomicalStructure
+        name: Prefrontal complex
+    -   id: HP:0000708
+        label: PhenotypicFeature
+        name: Behavioral abnormality
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference: https://go.drugbank.com/drugs/DB00334#mechanismofaction https://psychopharmacologyinstitute.com/publication/mechanism-of-action-and-pharmacodynamics-of-olanzapine-2161
+-   directed: true
+    graph:
+        disease: Bipolar Disorder
+        disease_mesh: MESH:D001714
+        drug: Olanzapine
+        drug_mesh: null
+        drugbank: DB:DB00334
+    links:
+    -   key: decreases activity of
+        source: DB:DB00334
+        target: UniProt:P28223
+    -   key: increases abundance of
+        source: UniProt:P28223
+        target: GO:0061527
+    -   key: decreases activity of
+        source: DB:DB00334
+        target: UniProt:P14416
+    -   key: increases abundance of
+        source: UniProt:P14416
+        target: GO:0061527
+    -   key: located in
+        source: GO:0061527
+        target: UBERON:0000451
+    -   key: positively regulates
+        source: UBERON:0000451
+        target: HP:0000708
+    -   key: manifestation of
+        source: HP:0000708
+        target: MESH:D001714
+    multigraph: true
+    nodes:
+    -   id: DB:DB00334
+        label: Drug
+        name: Olanzapine
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5HT2A serotonin receptors
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: UBERON:0000451
+        label: GrossAnatomicalStructure
+        name: Prefrontal complex
+    -   id: HP:0000708
+        label: PhenotypicFeature
+        name: Behavioral abnormality
+    -   id: MESH:D001714
+        label: Disease
+        name: Bipolar Disorder
+    reference: https://go.drugbank.com/drugs/DB00334#mechanismofaction https://psychopharmacologyinstitute.com/publication/mechanism-of-action-and-pharmacodynamics-of-olanzapine-2161
+-   directed: true
+    graph:
+        disease: Hypertrophic cardiomyopathy
+        disease_mesh: MESH:D002312
+        drug: Propranolol
+        drug_mesh: MESH:D011433
+        drugbank: DB:DB00571
+    links:
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: UniProt:P08588
+        target: InterPro:IPR030672
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P07550
+    -   key: decreases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: decreases synthesis of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0015278
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0002027
+    -   key: correlated with
+        source: GO:0002027
+        target: MESH:D002312
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0003073
+    -   key: correlated with
+        source: GO:0003073
+        target: MESH:D002312
+    multigraph: true
+    nodes:
+    -   id: MESH:D011433
+        label: Drug
+        name: Propranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0003073
+        label: BiologicalProcess
+        name: Systemic arterial blood pressure
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0002027
+        label: BiologicalProcess
+        name: Heart rate
+    -   id: MESH:D002312
+        label: Disease
+        name: Hypertrophic cardiomyopathy
+    reference: https://go.drugbank.com/drugs/DB00571#mechanismofaction https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
+        https://pubchem.ncbi.nlm.nih.gov/compound/Propranolol#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: Propranolol
+        drug_mesh: MESH:D011433
+        drugbank: DB:DB00571
+    links:
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: UniProt:P08588
+        target: InterPro:IPR030672
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P07550
+    -   key: decreases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: decreases synthesis of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0015278
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0002027
+    -   key: correlated with
+        source: GO:0002027
+        target: MESH:D000787
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0003073
+    -   key: correlated with
+        source: GO:0003073
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D011433
+        label: Drug
+        name: Propranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0003073
+        label: BiologicalProcess
+        name: Systemic arterial blood pressure
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0002027
+        label: BiologicalProcess
+        name: Heart rate
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference: https://go.drugbank.com/drugs/DB00571#mechanismofaction https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
+        https://pubchem.ncbi.nlm.nih.gov/compound/Propranolol#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Propranolol
+        drug_mesh: MESH:D011433
+        drugbank: DB:DB00571
+    links:
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: UniProt:P08588
+        target: InterPro:IPR030672
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P07550
+    -   key: decreases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: decreases synthesis of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0015278
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0002027
+    -   key: correlated with
+        source: GO:0002027
+        target: MESH:D006973
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0003073
+    -   key: correlated with
+        source: GO:0003073
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D011433
+        label: Drug
+        name: Propranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0003073
+        label: BiologicalProcess
+        name: Systemic arterial blood pressure
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0002027
+        label: BiologicalProcess
+        name: Heart rate
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: https://go.drugbank.com/drugs/DB00571#mechanismofaction https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
+        https://pubchem.ncbi.nlm.nih.gov/compound/Propranolol#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Hemangioma
+        disease_mesh: MESH:D006391
+        drug: Propranolol
+        drug_mesh: MESH:D011433
+        drugbank: DB:DB00571
+    links:
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: UniProt:P08588
+        target: InterPro:IPR027928
+    -   key: negatively regulates
+        source: InterPro:IPR027928
+        target: GO:0002016
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P07550
+    -   key: decreases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR027928
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P13945
+    -   key: decreases activity of
+        source: UniProt:P13945
+        target: InterPro:IPR027928
+    -   key: decreases activity of
+        source: UniProt:P08588
+        target: UniProt:P09038
+    -   key: decreases activity of
+        source: UniProt:P07550
+        target: UniProt:P09038
+    -   key: decreases activity of
+        source: UniProt:P13945
+        target: UniProt:P09038
+    -   key: negatively regulates
+        source: UniProt:P09038
+        target: GO:0002016
+    -   key: precedes
+        source: GO:0002016
+        target: GO:0042310
+    -   key: positively correlated with
+        source: GO:0042310
+        target: GO:0006915
+    -   key: correlated with
+        source: GO:0006915
+        target: MESH:D006391
+    multigraph: true
+    nodes:
+    -   id: MESH:D011433
+        label: Drug
+        name: Propranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: UniProt:P09038
+        label: Protein
+        name: Basic growth factor of fibroblasts (bFGF)
+    -   id: InterPro:IPR027928
+        label: GeneFamily
+        name: Vascular endothelial growth factor (VEGF)
+    -   id: GO:0002016
+        label: BiologicalProcess
+        name: Renin-angiotensin-aldosterone system
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptosis
+    -   id: MESH:D006391
+        label: Disease
+        name: Hemangioma
+    reference: https://go.drugbank.com/drugs/DB00571#mechanismofaction https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
+        https://pubchem.ncbi.nlm.nih.gov/compound/Propranolol#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Atrial fibrillation
+        disease_mesh: MESH:D001281
+        drug: Propranolol
+        drug_mesh: MESH:D011433
+        drugbank: DB:DB00571
+    links:
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: UniProt:P08588
+        target: InterPro:IPR030672
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P07550
+    -   key: decreases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P13945
+    -   key: decreases activity of
+        source: UniProt:P13945
+        target: InterPro:IPR030672
+    -   key: decreases synthesis of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0015278
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0051899
+    -   key: ameliorates
+        source: GO:0051899
+        target: HP:0004308
+    -   key: correlated with
+        source: HP:0004308
+        target: MESH:D001281
+    multigraph: true
+    nodes:
+    -   id: MESH:D011433
+        label: Drug
+        name: Propranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
+    -   id: MESH:D001281
+        label: Disease
+        name: Atrial fibrillation
+    reference: https://go.drugbank.com/drugs/DB00571#mechanismofaction https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
+        https://pubchem.ncbi.nlm.nih.gov/compound/Propranolol#section=Pharmacology-and-Biochemistry
+-   directed: true
+    graph:
+        disease: Supraventricular tachycardia
+        disease_mesh: MESH:D013617
+        drug: Propranolol
+        drug_mesh: MESH:D011433
+        drugbank: DB:DB00571
+    links:
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: UniProt:P08588
+        target: InterPro:IPR030672
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P07550
+    -   key: decreases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: decreases activity of
+        source: MESH:D011433
+        target: UniProt:P13945
+    -   key: decreases activity of
+        source: UniProt:P13945
+        target: InterPro:IPR030672
+    -   key: decreases synthesis of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0015278
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0051899
+    -   key: ameliorates
+        source: GO:0051899
+        target: HP:0004308
+    -   key: correlated with
+        source: HP:0004308
+        target: MESH:D013617
+    multigraph: true
+    nodes:
+    -   id: MESH:D011433
+        label: Drug
+        name: Propranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P13945
+        label: Protein
+        name: Beta-3 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
+    -   id: MESH:D013617
+        label: Disease
+        name: Supraventricular tachycardia
+    reference: https://go.drugbank.com/drugs/DB00571#mechanismofaction https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
+        https://pubchem.ncbi.nlm.nih.gov/compound/Propranolol#section=Pharmacology-and-Biochemistry
+-   comment: Quinfamide  is a member of quinolines, has been used in trials studying
+        the treatment of Amoebiasis and Helminthiasis. The details of the mechanism
+        of action are not known, but the overall effect is intraluminal immobilization
+        of the Entamoeba
+    directed: true
+    graph:
+        disease: Amebic infection
+        disease_mesh: MESH:D000562
+        drug: Quinfamide
+        drug_mesh: MESH:C026546
+        drugbank: DB:DB12780
+    links:
+    -   key: treats
+        source: MESH:C026546
+        target: MESH:D000562
+    multigraph: true
+    nodes:
+    -   id: MESH:C026546
+        label: Drug
+        name: Quinfamide
+    -   id: MESH:D000562
+        label: Disease
+        name: Amebic infection
+    reference: https://go.drugbank.com/drugs/DB12780#mechanismofaction https://drugs.ncats.io/drug/O1ZB1046R1
