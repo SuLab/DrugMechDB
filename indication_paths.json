@@ -140173,5 +140173,1815 @@
       }
     ],
     "reference": "https://go.drugbank.com/drugs/DB08962 https://en.wikipedia.org/wiki/Sulfonylurea"
+  },
+  {
+    "comments": "Drospirenone seems to have much lower affinity to androgen receptor than to the progesterone counterpart (https://en.wikipedia.org/wiki/Drospirenone#Pharmacology).",
+    "directed": true,
+    "graph": {
+      "disease": "Acne vulgaris",
+      "disease_mesh": "MESH:D000152",
+      "drug": "drospirenone",
+      "drug_mesh": "MESH:C035144",
+      "drugbank": "DB:DB01395"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:C035144",
+        "target": "UniProt:P10275"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P10275",
+        "target": "GO:0006702"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:C035144",
+        "target": "UniProt:P06401"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "UniProt:P06401",
+        "target": "GO:0006702"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "GO:0006702",
+        "target": "UBERON:0001866"
+      },
+      {
+        "key": "produced by",
+        "source": "UBERON:0001866",
+        "target": "HP:0025249"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0025249",
+        "target": "MESH:D000152"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C035144",
+        "label": "Drug",
+        "name": "drospirenone"
+      },
+      {
+        "id": "UniProt:P06401",
+        "label": "Protein",
+        "name": "Progesterone receptor"
+      },
+      {
+        "id": "UniProt:P10275",
+        "label": "Protein",
+        "name": "Androgen receptor"
+      },
+      {
+        "id": "GO:0006702",
+        "label": "BiologicalProcess",
+        "name": "androgen biosynthetic process"
+      },
+      {
+        "id": "UBERON:0001866",
+        "label": "GrossAnatomicalStructure",
+        "name": "sebum"
+      },
+      {
+        "id": "HP:0025249",
+        "label": "PhenotypicFeature",
+        "name": "Comedo"
+      },
+      {
+        "id": "MESH:D000152",
+        "label": "Disease",
+        "name": "Acne vulgaris"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01395#mechanism-of-action"
+  },
+  {
+    "comments": "The use of progesterone, progestin and similar compounds may not be superior to placebo in reducing premenstrual symptoms judging from the results of the majority of controlled trials (https://pubmed.ncbi.nlm.nih.gov/7791258/). Also note that it is generally agreed that neither a deficiency nor excess in progesterone/progestin levels is etiologically relevant to the disorder (https://pubmed.ncbi.nlm.nih.gov/16650465/). It's largelly accepted that SSRIs as better treatment and should be the first attempt for treatment of premenstrual dysphoric disorder.",
+    "directed": true,
+    "graph": {
+      "disease": "Premenstrual dysphoric disorder",
+      "disease_mesh": "MESH:D065446",
+      "drug": "drospirenone",
+      "drug_mesh": "MESH:C035144",
+      "drugbank": "DB:DB01395"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:C035144",
+        "target": "UniProt:P08235"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UniProt:P08235",
+        "target": "GO:0005890"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "UniProt:P08235",
+        "target": "MESH:D015222"
+      },
+      {
+        "key": "regulates",
+        "source": "GO:0005890",
+        "target": "GO:0070294"
+      },
+      {
+        "key": "regulates",
+        "source": "GO:0005890",
+        "target": "GO:0036359"
+      },
+      {
+        "key": "regulates",
+        "source": "MESH:D015222",
+        "target": "GO:0070294"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0036359",
+        "target": "HP:0000969"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0070294",
+        "target": "HP:0000969"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0036359",
+        "target": "MESH:D059373"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0070294",
+        "target": "MESH:D059373"
+      },
+      {
+        "key": "manifestation of",
+        "source": "MESH:D059373",
+        "target": "MESH:D065446"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0000969",
+        "target": "MESH:D065446"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C035144",
+        "label": "Drug",
+        "name": "drospirenone"
+      },
+      {
+        "id": "UniProt:P08235",
+        "label": "Protein",
+        "name": "Mineralocorticoid receptor"
+      },
+      {
+        "id": "MESH:D015222",
+        "label": "GeneFamily",
+        "name": "Sodium Channels"
+      },
+      {
+        "id": "GO:0005890",
+        "label": "CellularComponent",
+        "name": "sodium:potassium-exchanging ATPase complex"
+      },
+      {
+        "id": "GO:0070294",
+        "label": "BiologicalProcess",
+        "name": "renal sodium ion absorption"
+      },
+      {
+        "id": "GO:0036359",
+        "label": "BiologicalProcess",
+        "name": "renal potassium excretion"
+      },
+      {
+        "id": "HP:0000969",
+        "label": "PhenotypicFeature",
+        "name": "Edema"
+      },
+      {
+        "id": "MESH:D059373",
+        "label": "PhenotypicFeature",
+        "name": "Mastodynia"
+      },
+      {
+        "id": "MESH:D065446",
+        "label": "Disease",
+        "name": "Premenstrual dysphoric disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01395#mechanism-of-action https://en.wikipedia.org/wiki/Antimineralocorticoid#Mechanism_of_action https://pubmed.ncbi.nlm.nih.gov/18472980/"
+  },
+  {
+    "comments": "The disease is denoted Menopausal flushing in the original file. Note that a combination therapy of estradiol and drospirenone would be more effective at reducing the frequency of hot flushes and other menopausal symptoms, than a mono-therapy relying on progestin only. Also, since many progestogens have off-target effects including estrogenic effects, the improvement in hot flashes maybe due to the drug binding to estrogen receptors instead. Note the term Vasomotor System (https://en.wikipedia.org/wiki/Vasomotor_center) does not seem to be represented in other ontologies.",
+    "directed": true,
+    "graph": {
+      "disease": "Hot Flashes",
+      "disease_mesh": "MESH:D019584",
+      "drug": "drospirenone",
+      "drug_mesh": "MESH:C035144",
+      "drugbank": "DB:DB01395"
+    },
+    "links": [
+      {
+        "key": "positively regulates",
+        "source": "MESH:C035144",
+        "target": "UniProt:P06401"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "UniProt:P06401",
+        "target": "Pfam:PF00446"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "Pfam:PF00446",
+        "target": "MESH:D019584"
+      },
+      {
+        "key": "correlated with",
+        "source": "UniProt:P06401",
+        "target": "MESH:D014666"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D014666",
+        "target": "GO:0001659"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0001659",
+        "target": "HP:0005968"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0005968",
+        "target": "MESH:D019584"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C035144",
+        "label": "Drug",
+        "name": "drospirenone"
+      },
+      {
+        "id": "UniProt:P06401",
+        "label": "Protein",
+        "name": "Progesterone receptor"
+      },
+      {
+        "id": "Pfam:PF00446",
+        "label": "GeneFamily",
+        "name": "Gonadotropin-releasing hormone"
+      },
+      {
+        "id": "MESH:D014666",
+        "label": "GrossAnatomicalStructure",
+        "name": "Vasomotor System"
+      },
+      {
+        "id": "GO:0001659",
+        "label": "BiologicalProcess",
+        "name": "temperature homeostasis"
+      },
+      {
+        "id": "HP:0005968",
+        "label": "PhenotypicFeature",
+        "name": "Temperature instability"
+      },
+      {
+        "id": "MESH:D019584",
+        "label": "Disease",
+        "name": "Hot Flashes"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01395#mechanism-of-action https://en.wikipedia.org/wiki/Progestogen_(medication)#Pharmacodynamics https://www.tandfonline.com/doi/full/10.1080/13697137.2018.1472567 https://journals.lww.com/co-endocrinology/Abstract/2015/12000/Progesterone_or_progestin_as_menopausal_ovarian.13.aspx"
+  },
+  {
+    "comments": "Note that the combination therapy of estradiol and drospirenone would be more effective at treating atrophic vaginitis, than a mono-therapy relying on progestin only. Also, since many progestogens have off-target effects including estrogenic effects, the improvement in hot flashes maybe due to the drug binding to estrogen receptors instead.",
+    "directed": true,
+    "graph": {
+      "disease": "Atrophic vaginitis",
+      "disease_mesh": "MESH:D059268",
+      "drug": "drospirenone",
+      "drug_mesh": "MESH:C035144",
+      "drugbank": "DB:DB01395"
+    },
+    "links": [
+      {
+        "key": "positively regulates",
+        "source": "MESH:C035144",
+        "target": "UniProt:P06401"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P06401",
+        "target": "REACT:R-HSA-9018519"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "REACT:R-HSA-9018519",
+        "target": "HP:0031088"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "REACT:R-HSA-9018519",
+        "target": "HP:0030683"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0030683",
+        "target": "MESH:D059268"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0031088",
+        "target": "MESH:D059268"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C035144",
+        "label": "Drug",
+        "name": "drospirenone"
+      },
+      {
+        "id": "UniProt:P06401",
+        "label": "Protein",
+        "name": "Progesterone receptor"
+      },
+      {
+        "id": "REACT:R-HSA-9018519",
+        "label": "Pathway",
+        "name": "Estrogen-dependent gene expression"
+      },
+      {
+        "id": "HP:0030683",
+        "label": "PhenotypicFeature",
+        "name": "Vaginitis"
+      },
+      {
+        "id": "HP:0031088",
+        "label": "PhenotypicFeature",
+        "name": "Vaginal dryness"
+      },
+      {
+        "id": "MESH:D059268",
+        "label": "Disease",
+        "name": "Atrophic vaginitis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01395#mechanism-of-action https://en.wikipedia.org/wiki/Antimineralocorticoid#Mechanism_of_action https://pubmed.ncbi.nlm.nih.gov/18472980/"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Diarrhea",
+      "disease_mesh": "MESH:D003967",
+      "drug": "morphine",
+      "drug_mesh": "MESH:D009020",
+      "drugbank": "DB:DB00295"
+    },
+    "links": [
+      {
+        "key": "positively regulates",
+        "source": "MESH:D009020",
+        "target": "InterPro:IPR001418"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "InterPro:IPR001418",
+        "target": "CHEBI:16480"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "CHEBI:16480",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "InterPro:IPR001418",
+        "target": "GO:0035483"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "InterPro:IPR001418",
+        "target": "GO:0030432"
+      },
+      {
+        "key": "increases activity of",
+        "source": "GO:0035483",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "increases activity of",
+        "source": "GO:0030432",
+        "target": "GO:0120054"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0120054",
+        "target": "HP:0002019"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "HP:0002019",
+        "target": "MESH:D003967"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D009020",
+        "label": "Drug",
+        "name": "morphine"
+      },
+      {
+        "id": "InterPro:IPR001418",
+        "label": "GeneFamily",
+        "name": "Opioid receptor"
+      },
+      {
+        "id": "GO:0030432",
+        "label": "BiologicalProcess",
+        "name": "peristalsis"
+      },
+      {
+        "id": "GO:0035483",
+        "label": "BiologicalProcess",
+        "name": "gastric emptying"
+      },
+      {
+        "id": "CHEBI:16480",
+        "label": "ChemicalSubstance",
+        "name": "nitric oxide"
+      },
+      {
+        "id": "GO:0120054",
+        "label": "BiologicalProcess",
+        "name": "intestinal motility"
+      },
+      {
+        "id": "HP:0002019",
+        "label": "PhenotypicFeature",
+        "name": "Constipation"
+      },
+      {
+        "id": "MESH:D003967",
+        "label": "Disease",
+        "name": "Diarrhea"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00295#mechanism-of-action https://en.wikipedia.org/wiki/Analgesic#Opioids https://en.wikipedia.org/wiki/Morphine#Constipation"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Pain",
+      "disease_mesh": "MESH:D010146",
+      "drug": "morphine",
+      "drug_mesh": "MESH:D009020",
+      "drugbank": "DB:DB00295"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D009020",
+        "target": "InterPro:IPR001418"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "InterPro:IPR001418",
+        "target": "GO:0019233"
+      },
+      {
+        "key": "regulates",
+        "source": "GO:0019233",
+        "target": "MESH:D010146"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D009020",
+        "label": "Drug",
+        "name": "morphine"
+      },
+      {
+        "id": "InterPro:IPR001418",
+        "label": "GeneFamily",
+        "name": "Opioid receptor"
+      },
+      {
+        "id": "GO:0019233",
+        "label": "BiologicalProcess",
+        "name": "sensory perception of pain"
+      },
+      {
+        "id": "MESH:D010146",
+        "label": "Disease",
+        "name": "Pain"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00295#mechanism-of-action https://en.wikipedia.org/wiki/Analgesic#Opioids"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Chronic pain",
+      "disease_mesh": "MESH:D059350",
+      "drug": "morphine",
+      "drug_mesh": "MESH:D009020",
+      "drugbank": "DB:DB00295"
+    },
+    "links": [
+      {
+        "key": "increases activity of",
+        "source": "MESH:D009020",
+        "target": "InterPro:IPR001418"
+      },
+      {
+        "key": "decreases activity of",
+        "source": "InterPro:IPR001418",
+        "target": "GO:0019233"
+      },
+      {
+        "key": "regulates",
+        "source": "GO:0019233",
+        "target": "MESH:D059350"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D009020",
+        "label": "Drug",
+        "name": "morphine"
+      },
+      {
+        "id": "InterPro:IPR001418",
+        "label": "GeneFamily",
+        "name": "Opioid receptor"
+      },
+      {
+        "id": "GO:0019233",
+        "label": "BiologicalProcess",
+        "name": "sensory perception of pain"
+      },
+      {
+        "id": "MESH:D059350",
+        "label": "Disease",
+        "name": "Chronic pain"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00295#mechanism-of-action https://en.wikipedia.org/wiki/Analgesic#Opioids https://en.wikipedia.org/wiki/Chronic_pain#Opioids"
+  },
+  {
+    "comments": "Etidronate is a weak inhibitor of proton transport in animal models (https://pubmed.ncbi.nlm.nih.gov/8889850/).",
+    "directed": true,
+    "graph": {
+      "disease": "Humoral Hypercalcemia Of Malignancy",
+      "disease_mesh": "MESH:C562390",
+      "drug": "etidronic acid",
+      "drug_mesh": "MESH:D012968",
+      "drugbank": "DB:DB01077"
+    },
+    "links": [
+      {
+        "key": "negatively correlated with",
+        "source": "MESH:D012968",
+        "target": "GO:0140603"
+      },
+      {
+        "key": "increases activity of",
+        "source": "GO:0140603",
+        "target": "CL:0000092"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D012968",
+        "target": "UniProt:P38606"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P38606",
+        "target": "GO:1902600"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:1902600",
+        "target": "GO:0045453"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D012968",
+        "target": "GO:0006915"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0006915",
+        "target": "CL:0000092"
+      },
+      {
+        "key": "positively regulates",
+        "source": "CL:0000092",
+        "target": "GO:0045453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0045453",
+        "target": "MESH:C562390"
+      },
+      {
+        "key": "molecularly interacts with",
+        "source": "MESH:D012968",
+        "target": "CHEBI:52255"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:52255",
+        "target": "GO:0001503"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:52255",
+        "target": "GO:1990523"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:1990523",
+        "target": "MESH:C562390"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0001503",
+        "target": "MESH:C562390"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D012968",
+        "label": "Drug",
+        "name": "etidronic acid"
+      },
+      {
+        "id": "GO:0140603",
+        "label": "MolecularActivity",
+        "name": "ATP hydrolysis activity"
+      },
+      {
+        "id": "UniProt:P38606",
+        "label": "Protein",
+        "name": "V-type proton ATPase catalytic subunit A"
+      },
+      {
+        "id": "GO:1902600",
+        "label": "BiologicalProcess",
+        "name": "proton transmembrane transport"
+      },
+      {
+        "id": "CHEBI:52255",
+        "label": "ChemicalSubstance",
+        "name": "hydroxylapatite"
+      },
+      {
+        "id": "CL:0000092",
+        "label": "Cell",
+        "name": "osteoclast"
+      },
+      {
+        "id": "GO:0045453",
+        "label": "BiologicalProcess",
+        "name": "bone resorption"
+      },
+      {
+        "id": "GO:0006915",
+        "label": "BiologicalProcess",
+        "name": "apoptotic process"
+      },
+      {
+        "id": "GO:0001503",
+        "label": "BiologicalProcess",
+        "name": "ossification"
+      },
+      {
+        "id": "GO:1990523",
+        "label": "BiologicalProcess",
+        "name": "bone regeneration"
+      },
+      {
+        "id": "MESH:C562390",
+        "label": "Disease",
+        "name": "Humoral Hypercalcemia Of Malignancy"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01077#mechanism-of-action https://drugs.ncats.io/drug/M2F465ROXU https://www.caymanchem.com/product/20769/etidronate-(sodium-salt) https://en.wikipedia.org/wiki/Etidronic_acid#Medical"
+  },
+  {
+    "comments": "Etidronate is a weak inhibitor of proton transport in animal models (https://pubmed.ncbi.nlm.nih.gov/8889850/).",
+    "directed": true,
+    "graph": {
+      "disease": "Osteitis deformans",
+      "disease_mesh": "MESH:D010001",
+      "drug": "etidronic acid",
+      "drug_mesh": "MESH:D012968",
+      "drugbank": "DB:DB01077"
+    },
+    "links": [
+      {
+        "key": "negatively correlated with",
+        "source": "MESH:D012968",
+        "target": "GO:0140603"
+      },
+      {
+        "key": "increases activity of",
+        "source": "GO:0140603",
+        "target": "CL:0000092"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D012968",
+        "target": "UniProt:P38606"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P38606",
+        "target": "GO:1902600"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:1902600",
+        "target": "GO:0045453"
+      },
+      {
+        "key": "positively regulates",
+        "source": "MESH:D012968",
+        "target": "GO:0006915"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0006915",
+        "target": "CL:0000092"
+      },
+      {
+        "key": "positively regulates",
+        "source": "CL:0000092",
+        "target": "GO:0045453"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0045453",
+        "target": "MESH:D010001"
+      },
+      {
+        "key": "molecularly interacts with",
+        "source": "MESH:D012968",
+        "target": "CHEBI:52255"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:52255",
+        "target": "GO:0001503"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:52255",
+        "target": "GO:1990523"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:1990523",
+        "target": "MESH:D010001"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0001503",
+        "target": "MESH:D010001"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D012968",
+        "label": "Drug",
+        "name": "etidronic acid"
+      },
+      {
+        "id": "GO:0140603",
+        "label": "MolecularActivity",
+        "name": "ATP hydrolysis activity"
+      },
+      {
+        "id": "UniProt:P38606",
+        "label": "Protein",
+        "name": "V-type proton ATPase catalytic subunit A"
+      },
+      {
+        "id": "GO:1902600",
+        "label": "BiologicalProcess",
+        "name": "proton transmembrane transport"
+      },
+      {
+        "id": "CHEBI:52255",
+        "label": "ChemicalSubstance",
+        "name": "hydroxylapatite"
+      },
+      {
+        "id": "CL:0000092",
+        "label": "Cell",
+        "name": "osteoclast"
+      },
+      {
+        "id": "GO:0045453",
+        "label": "BiologicalProcess",
+        "name": "bone resorption"
+      },
+      {
+        "id": "GO:0006915",
+        "label": "BiologicalProcess",
+        "name": "apoptotic process"
+      },
+      {
+        "id": "GO:0001503",
+        "label": "BiologicalProcess",
+        "name": "ossification"
+      },
+      {
+        "id": "GO:1990523",
+        "label": "BiologicalProcess",
+        "name": "bone regeneration"
+      },
+      {
+        "id": "MESH:D010001",
+        "label": "Disease",
+        "name": "Osteitis deformans"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB01077#mechanism-of-action https://drugs.ncats.io/drug/M2F465ROXU https://www.caymanchem.com/product/20769/etidronate-(sodium-salt) https://en.wikipedia.org/wiki/Etidronic_acid#Medical"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Heterotopic ossification",
+      "disease_mesh": "MESH:D009999",
+      "drug": "etidronic acid",
+      "drug_mesh": "MESH:D012968",
+      "drugbank": "DB:DB01077"
+    },
+    "links": [
+      {
+        "key": "prevents",
+        "source": "MESH:D012968",
+        "target": "GO:0001503"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0001503",
+        "target": "HP:0011849"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0011849",
+        "target": "MESH:D009999"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D012968",
+        "label": "Drug",
+        "name": "etidronic acid"
+      },
+      {
+        "id": "GO:0001503",
+        "label": "BiologicalProcess",
+        "name": "ossification"
+      },
+      {
+        "id": "HP:0011849",
+        "label": "PhenotypicFeature",
+        "name": "Abnormal bone ossification"
+      },
+      {
+        "id": "MESH:D009999",
+        "label": "Disease",
+        "name": "Heterotopic ossification"
+      }
+    ],
+    "reference": "https://en.wikipedia.org/wiki/Etidronic_acid#Medical"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Edema",
+      "disease_mesh": "MESH:D004487",
+      "drug": "triamterene",
+      "drug_mesh": "MESH:D014223",
+      "drugbank": "DB:DB00384"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D014223",
+        "target": "Pfam:PF00858"
+      },
+      {
+        "key": "positively regulates",
+        "source": "Pfam:PF00858",
+        "target": "GO:0070294"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0070294",
+        "target": "GO:0003092"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0003092",
+        "target": "MESH:D004487"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D014223",
+        "label": "Drug",
+        "name": "triamterene"
+      },
+      {
+        "id": "Pfam:PF00858",
+        "label": "GeneFamily",
+        "name": "Amiloride-sensitive sodium channel"
+      },
+      {
+        "id": "GO:0070294",
+        "label": "BiologicalProcess",
+        "name": "renal sodium ion absorption"
+      },
+      {
+        "id": "GO:0003092",
+        "label": "BiologicalProcess",
+        "name": "renal water retention"
+      },
+      {
+        "id": "MESH:D004487",
+        "label": "Disease",
+        "name": "Edema"
+      }
+    ],
+    "reference": "https://en.wikipedia.org/wiki/Triamterene#Mechanism_of_action https://go.drugbank.com/drugs/DB00384"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Hypertensive disorder",
+      "disease_mesh": "MESH:D006973",
+      "drug": "triamterene",
+      "drug_mesh": "MESH:D014223",
+      "drugbank": "DB:DB00384"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D014223",
+        "target": "Pfam:PF00858"
+      },
+      {
+        "key": "positively regulates",
+        "source": "Pfam:PF00858",
+        "target": "GO:0070294"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0070294",
+        "target": "GO:0003092"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0003092",
+        "target": "HP:0011105"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0011105",
+        "target": "MESH:D006973"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D014223",
+        "label": "Drug",
+        "name": "triamterene"
+      },
+      {
+        "id": "Pfam:PF00858",
+        "label": "GeneFamily",
+        "name": "Amiloride-sensitive sodium channel"
+      },
+      {
+        "id": "GO:0070294",
+        "label": "BiologicalProcess",
+        "name": "renal sodium ion absorption"
+      },
+      {
+        "id": "GO:0003092",
+        "label": "BiologicalProcess",
+        "name": "renal water retention"
+      },
+      {
+        "id": "HP:0011105",
+        "label": "PhenotypicFeature",
+        "name": "Hypervolemia"
+      },
+      {
+        "id": "MESH:D006973",
+        "label": "Disease",
+        "name": "Hypertensive disorder"
+      }
+    ],
+    "reference": "https://en.wikipedia.org/wiki/Triamterene#Mechanism_of_action https://go.drugbank.com/drugs/DB00384 https://pubmed.ncbi.nlm.nih.gov/25616035/ https://www.heighpubs.org/hjch/ach-aid1011.php"
+  },
+  {
+    "commments": "Antagonism of beta-2-adrenergic receptors may lead to some of the side effects of labetalol (e.g. bronchospasms); however this may be slightly attenuated by alpha-1-adrenergic antagonism (https://pubmed.ncbi.nlm.nih.gov/6354658/).",
+    "directed": true,
+    "graph": {
+      "disease": "Hypertensive disorder",
+      "disease_mesh": "MESH:D006973",
+      "drug": "labetalol",
+      "drug_mesh": "MESH:D007741",
+      "drugbank": "DB:DB00598"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D007741",
+        "target": "UniProt:P08588"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D007741",
+        "target": "UniProt:P07550"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D007741",
+        "target": "UniProt:P35348"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D007741",
+        "target": "UniProt:P35368"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D007741",
+        "target": "UniProt:P25100"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P08588",
+        "target": "REACT:R-HSA-418555"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P07550",
+        "target": "REACT:R-HSA-418555"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35348",
+        "target": "REACT:R-HSA-416476"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P35368",
+        "target": "REACT:R-HSA-416476"
+      },
+      {
+        "key": "participates in",
+        "source": "UniProt:P25100",
+        "target": "REACT:R-HSA-416476"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "REACT:R-HSA-418555",
+        "target": "GO:0060047"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "REACT:R-HSA-416476",
+        "target": "GO:0042310"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0060047",
+        "target": "HP:0032263"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0042310",
+        "target": "HP:0032263"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0032263",
+        "target": "MESH:D006973"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D007741",
+        "label": "Drug",
+        "name": "labetalol"
+      },
+      {
+        "id": "UniProt:P08588",
+        "label": "Protein",
+        "name": "Beta-1 adrenergic receptor"
+      },
+      {
+        "id": "UniProt:P07550",
+        "label": "Protein",
+        "name": "Beta-2 adrenergic receptor"
+      },
+      {
+        "id": "UniProt:P35348",
+        "label": "Protein",
+        "name": "Alpha-1A adrenergic receptor"
+      },
+      {
+        "id": "UniProt:P35368",
+        "label": "Protein",
+        "name": "Alpha-1B adrenergic receptor"
+      },
+      {
+        "id": "UniProt:P25100",
+        "label": "Protein",
+        "name": "Alpha-1D adrenergic receptor"
+      },
+      {
+        "id": "REACT:R-HSA-418555",
+        "label": "Pathway",
+        "name": "G alpha (s) signalling events"
+      },
+      {
+        "id": "REACT:R-HSA-416476",
+        "label": "Pathway",
+        "name": "G alpha (q) signalling events"
+      },
+      {
+        "id": "GO:0042310",
+        "label": "BiologicalProcess",
+        "name": "vasoconstriction"
+      },
+      {
+        "id": "GO:0060047",
+        "label": "BiologicalProcess",
+        "name": "heart contraction"
+      },
+      {
+        "id": "HP:0032263",
+        "label": "PhenotypicFeature",
+        "name": "Increased blood pressure"
+      },
+      {
+        "id": "MESH:D006973",
+        "label": "Disease",
+        "name": "Hypertensive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00598"
+  },
+  {
+    "comments": "Note that this drug is used as a support to the treatment of chronic alcoholism by producing an acute sensitivity to ethanol (as part of an avoidance therapy for alcohol abuse). It's been suggested that disulfiram itself is unlikely responsible for the enzyme inactivation in vivo; several active metabolites of the drug, especially diethylthiomethylcarbamate, inhibits the enzyme in vitro (https://pubchem.ncbi.nlm.nih.gov/compound/3117#section=Mechanism-of-Action).",
+    "directed": true,
+    "graph": {
+      "disease": "Alcoholism",
+      "disease_mesh": "MESH:D000437",
+      "drug": "disulfiram",
+      "drug_mesh": "MESH:D004221",
+      "drugbank": "DB:DB00822"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D004221",
+        "target": "Pfam:PF00171"
+      },
+      {
+        "key": "positively regulates",
+        "source": "Pfam:PF00171",
+        "target": "GO:0006069"
+      },
+      {
+        "key": "decreases abundance of",
+        "source": "GO:0006069",
+        "target": "CHEBI:15343"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:15343",
+        "target": "HP:0002017"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:15343",
+        "target": "HP:0002098"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:15343",
+        "target": "HP:0001033"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:15343",
+        "target": "HP:0002098"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "CHEBI:15343",
+        "target": "HP:0002017"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0001033",
+        "target": "MESH:D000437"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0002098",
+        "target": "MESH:D000437"
+      },
+      {
+        "key": "correlated with",
+        "source": "HP:0002017",
+        "target": "MESH:D000437"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:D004221",
+        "label": "Drug",
+        "name": "disulfiram"
+      },
+      {
+        "id": "Pfam:PF00171",
+        "label": "GeneFamily",
+        "name": "Aldehyde dehydrogenase family"
+      },
+      {
+        "id": "CHEBI:15343",
+        "label": "ChemicalSubstance",
+        "name": "acetaldehyde"
+      },
+      {
+        "id": "GO:0006069",
+        "label": "BiologicalProcess",
+        "name": "ethanol oxidation"
+      },
+      {
+        "id": "HP:0001033",
+        "label": "PhenotypicFeature",
+        "name": "Facial flushing after alcohol intake"
+      },
+      {
+        "id": "HP:0002098",
+        "label": "PhenotypicFeature",
+        "name": "Respiratory distress"
+      },
+      {
+        "id": "HP:0002017",
+        "label": "PhenotypicFeature",
+        "name": "Nausea and vomiting"
+      },
+      {
+        "id": "MESH:D000437",
+        "label": "Disease",
+        "name": "Alcoholism"
+      }
+    ],
+    "reference": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL964/ https://en.wikipedia.org/wiki/Disulfiram https://en.wikipedia.org/wiki/Acetaldehyde#Aggravating_factors"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Multiple sclerosis",
+      "disease_mesh": "MESH:D009103",
+      "drug": "fampridine",
+      "drug_mesh": "MESH:D015761",
+      "drugbank": "DB:DB06637"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:D015761",
+        "target": "InterPro:IPR028325"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "InterPro:IPR028325",
+        "target": "GO:0019228"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0019228",
+        "target": "GO:0019226"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0019228",
+        "target": "GO:0019227"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0019227",
+        "target": "HP:0002355"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0019226",
+        "target": "HP:0002355"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0002355",
+        "target": "MESH:D009103"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "alt_name": [
+          "Dalfampridine",
+          "4-Aminopyridine",
+          "4-AP"
+        ],
+        "id": "MESH:D015761",
+        "label": "Drug",
+        "name": "fampridine"
+      },
+      {
+        "id": "InterPro:IPR028325",
+        "label": "GeneFamily",
+        "name": "Voltage-gated potassium channel"
+      },
+      {
+        "id": "GO:0019228",
+        "label": "BiologicalProcess",
+        "name": "neuronal action potential"
+      },
+      {
+        "id": "GO:0019227",
+        "label": "BiologicalProcess",
+        "name": "neuronal action potential propagation"
+      },
+      {
+        "id": "GO:0019226",
+        "label": "BiologicalProcess",
+        "name": "transmission of nerve impulse"
+      },
+      {
+        "id": "HP:0002355",
+        "label": "PhenotypicFeature",
+        "name": "Difficulty walking"
+      },
+      {
+        "id": "MESH:D009103",
+        "label": "Disease",
+        "name": "Multiple sclerosis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB06637 https://en.wikipedia.org/wiki/4-Aminopyridine#Multiple_sclerosis"
+  },
+  {
+    "comments": "The disease is denoted as Malignant tumor of testis in the original file as per DrugCentral.",
+    "directed": true,
+    "graph": {
+      "disease": "Testicular Neoplasms",
+      "disease_mesh": "MESH:D013736",
+      "drug": "plicamycin",
+      "drug_mesh": "MESH:D008926",
+      "drugbank": "DB:DB06810"
+    },
+    "links": [
+      {
+        "key": "disrupts",
+        "source": "MESH:D008926",
+        "target": "GO:0000785"
+      },
+      {
+        "key": "correlated with",
+        "source": "GO:0000785",
+        "target": "GO:0032774"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0032774",
+        "target": "GO:0008283"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0008283",
+        "target": "HP:0031377"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "HP:0031377",
+        "target": "MESH:D013736"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "alt_ids": [
+          "MESH:C066851"
+        ],
+        "id": "MESH:D008926",
+        "label": "Drug",
+        "name": "plicamycin"
+      },
+      {
+        "id": "GO:0000785",
+        "label": "CellularComponent",
+        "name": "chromatin"
+      },
+      {
+        "id": "GO:0032774",
+        "label": "BiologicalProcess",
+        "name": "RNA biosynthetic process"
+      },
+      {
+        "id": "GO:0008283",
+        "label": "BiologicalProcess",
+        "name": "cell population proliferation"
+      },
+      {
+        "id": "HP:0031377",
+        "label": "PhenotypicFeature",
+        "name": "Abnormal cell proliferation"
+      },
+      {
+        "id": "MESH:D013736",
+        "label": "Disease",
+        "name": "Testicular Neoplasms"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB06810 https://en.wikipedia.org/wiki/Plicamycin"
+  },
+  {
+    "comments": "The disease is denoted as Pityriasis versicolor in the original file as per DrugCentral.",
+    "directed": true,
+    "graph": {
+      "disease": "Tinea Versicolor",
+      "disease_mesh": "MESH:D014010",
+      "drug": "oxiconazole",
+      "drug_mesh": "MESH:C022155",
+      "drugbank": "DB:DB00239"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:C022155",
+        "target": "UniProt:P10613"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P10613",
+        "target": "GO:0006696"
+      },
+      {
+        "key": "produces",
+        "source": "GO:0006696",
+        "target": "CHEBI:16933"
+      },
+      {
+        "key": "located in",
+        "source": "CHEBI:16933",
+        "target": "GO:0030445"
+      },
+      {
+        "key": "in taxon",
+        "source": "GO:0030445",
+        "target": "NCBITaxon:237561"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:237561",
+        "target": "MESH:D014010"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C022155",
+        "label": "Drug",
+        "name": "oxiconazole"
+      },
+      {
+        "id": "UniProt:P10613",
+        "label": "Protein",
+        "name": "Lanosterol 14-alpha demethylase"
+      },
+      {
+        "id": "GO:0006696",
+        "label": "BiologicalProcess",
+        "name": "ergosterol biosynthetic process"
+      },
+      {
+        "id": "CHEBI:16933",
+        "label": "ChemicalSubstance",
+        "name": "ergosterol"
+      },
+      {
+        "id": "GO:0030445",
+        "label": "CellularComponent",
+        "name": "yeast-form cell wall"
+      },
+      {
+        "id": "NCBITaxon:237561",
+        "label": "OrganismTaxon",
+        "name": "Candida albicans SC5314"
+      },
+      {
+        "id": "MESH:D014010",
+        "label": "Disease",
+        "name": "Tinea Versicolor"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00239 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacology"
+  },
+  {
+    "directed": true,
+    "graph": {
+      "disease": "Tinea pedis",
+      "disease_mesh": "MESH:D014008",
+      "drug": "oxiconazole",
+      "drug_mesh": "MESH:C022155",
+      "drugbank": "DB:DB00239"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:C022155",
+        "target": "UniProt:P10613"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P10613",
+        "target": "GO:0006696"
+      },
+      {
+        "key": "produces",
+        "source": "GO:0006696",
+        "target": "CHEBI:16933"
+      },
+      {
+        "key": "located in",
+        "source": "CHEBI:16933",
+        "target": "GO:0030445"
+      },
+      {
+        "key": "in taxon",
+        "source": "GO:0030445",
+        "target": "NCBITaxon:237561"
+      },
+      {
+        "key": "causes",
+        "source": "NCBITaxon:237561",
+        "target": "MESH:D014008"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C022155",
+        "label": "Drug",
+        "name": "oxiconazole"
+      },
+      {
+        "id": "UniProt:P10613",
+        "label": "Protein",
+        "name": "Lanosterol 14-alpha demethylase"
+      },
+      {
+        "id": "GO:0006696",
+        "label": "BiologicalProcess",
+        "name": "ergosterol biosynthetic process"
+      },
+      {
+        "id": "CHEBI:16933",
+        "label": "ChemicalSubstance",
+        "name": "ergosterol"
+      },
+      {
+        "id": "GO:0030445",
+        "label": "CellularComponent",
+        "name": "yeast-form cell wall"
+      },
+      {
+        "id": "NCBITaxon:237561",
+        "label": "OrganismTaxon",
+        "name": "Candida albicans SC5314"
+      },
+      {
+        "id": "MESH:D014008",
+        "label": "Disease",
+        "name": "Tinea pedis"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00239 https://en.wikipedia.org/wiki/Clotrimazole#Pharmacology"
+  },
+  {
+    "comments": "MESH:D003865 is denoted as Depressive Disorder, Major in the MESH website. Note that the drug may slighlty inhibit the reuptake of serotonin too.",
+    "directed": true,
+    "graph": {
+      "disease": "Major depressive disorder",
+      "disease_mesh": "MESH:D003865",
+      "drug": "reboxetine",
+      "drug_mesh": "MESH:C074679",
+      "drugbank": "DB:DB00234"
+    },
+    "links": [
+      {
+        "key": "negatively regulates",
+        "source": "MESH:C074679",
+        "target": "UniProt:P23975"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P23975",
+        "target": "GO:0051620"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0051620",
+        "target": "MESH:D003865"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C074679",
+        "label": "Drug",
+        "name": "reboxetine"
+      },
+      {
+        "id": "UniProt:P23975",
+        "label": "Protein",
+        "name": "Sodium-dependent noradrenaline transporter"
+      },
+      {
+        "id": "GO:0051620",
+        "label": "BiologicalProcess",
+        "name": "norepinephrine uptake"
+      },
+      {
+        "id": "MESH:D003865",
+        "label": "Disease",
+        "name": "Major depressive disorder"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB00234 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL14370/"
+  },
+  {
+    "comments": "The disease is denoted as Lack or loss of sexual desire in the original file as per DrugCentral.",
+    "directed": true,
+    "graph": {
+      "disease": "Sexual Dysfunctions, Psychological",
+      "disease_mesh": "MESH:D020018",
+      "drug": "flibanserin",
+      "drug_mesh": "MESH:C098107",
+      "drugbank": "DB:DB04908"
+    },
+    "links": [
+      {
+        "key": "positively regulates",
+        "source": "MESH:C098107",
+        "target": "UniProt:P08908"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P08908",
+        "target": "GO:0099155"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P08908",
+        "target": "GO:0014046"
+      },
+      {
+        "key": "increases abundance of",
+        "source": "GO:0014046",
+        "target": "CHEBI:18243"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "CHEBI:18243",
+        "target": "HP:0046504"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "GO:0099155",
+        "target": "HP:0046504"
+      },
+      {
+        "key": "negatively regulates",
+        "source": "MESH:C098107",
+        "target": "UniProt:P28223"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P28223",
+        "target": "GO:0099153"
+      },
+      {
+        "key": "positively correlated with",
+        "source": "GO:0099153",
+        "target": "HP:0046504"
+      },
+      {
+        "key": "positively regulates",
+        "source": "UniProt:P08908",
+        "target": "GO:0014046"
+      },
+      {
+        "key": "negatively correlated with",
+        "source": "CHEBI:18243",
+        "target": "HP:0046504"
+      },
+      {
+        "key": "manifestation of",
+        "source": "HP:0046504",
+        "target": "MESH:D020018"
+      }
+    ],
+    "multigraph": true,
+    "nodes": [
+      {
+        "id": "MESH:C098107",
+        "label": "Drug",
+        "name": "flibanserin"
+      },
+      {
+        "id": "UniProt:P08908",
+        "label": "Protein",
+        "name": "5-hydroxytryptamine receptor 1A"
+      },
+      {
+        "id": "UniProt:P28223",
+        "label": "Protein",
+        "name": "5-hydroxytryptamine receptor 2A"
+      },
+      {
+        "id": "GO:0014046",
+        "label": "BiologicalProcess",
+        "name": "dopamine secretion"
+      },
+      {
+        "id": "CHEBI:18243",
+        "label": "ChemicalSubstance",
+        "name": "dopamine"
+      },
+      {
+        "id": "GO:0099153",
+        "label": "BiologicalProcess",
+        "name": "synaptic transmission, serotonergic"
+      },
+      {
+        "id": "GO:0099155",
+        "label": "BiologicalProcess",
+        "name": "synaptic transmission, noradrenergic"
+      },
+      {
+        "id": "HP:0046504",
+        "label": "PhenotypicFeature",
+        "name": "Decreased libido"
+      },
+      {
+        "id": "MESH:D020018",
+        "label": "Disease",
+        "name": "Sexual Dysfunctions, Psychological"
+      }
+    ],
+    "reference": "https://go.drugbank.com/drugs/DB04908 https://en.wikipedia.org/wiki/Sexual_dysfunction#Females"
   }
 ]
