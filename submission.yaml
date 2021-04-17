@@ -1142,3 +1142,936 @@
         label: Disease
         name: Mixed hyperlipidemia
     reference: https://go.drugbank.com/drugs/DB08860 https://en.wikipedia.org/wiki/Combined_hyperlipidemia
+   -   directed: true
+    graph:
+        disease: Systemic sclerosis
+        disease_mesh: MESH:D012594
+        drug: bosentan
+        drug_mesh: MESH:C086232
+        drugbank: DB:DB00559
+    links:
+    -   key: decreases activity of
+        source: MESH:C086232
+        target: UniProt:P25101
+    -   key: decreases activity of
+        source: MESH:C086232
+        target: UniProt:P24530
+    -   key: positively regulates
+        source: UniProt:P25101
+        target: GO:0042310
+    -   key: capable of
+        source: UniProt:P24530
+        target: GO:0042310
+    -   key: positively regulates
+        source: GO:0042310
+        target: HP:0000822
+    -   key: manifestation of
+        source: HP:0000822
+        target: MESH:D012594
+    multigraph: true
+    nodes:
+    -   id: MESH:C086232
+        label: Drug
+        name: Bosentan
+    -   id: UniProt:P25101
+        label: Protein
+        name: Endothelin-1 receptor
+    -   id: UniProt:P24530
+        label: Protein
+        name: Endothelin receptor type B
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D012594
+        label: Disease
+        name: Systemic sclerosis
+    reference: https://en.wikipedia.org/wiki/Bosentan https://go.drugbank.com/drugs/DB00559#BE0000043
+-   directed: true
+    graph:
+        disease: Pulmonary hypertension
+        disease_mesh: MESH:D006976
+        drug: bosentan
+        drug_mesh: MESH:C086232
+        drugbank: DB:DB00559
+    links:
+    -   key: decreases activity of
+        source: MESH:C086232
+        target: UniProt:P25101
+    -   key: decreases activity of
+        source: MESH:C086232
+        target: UniProt:P24530
+    -   key: positively regulates
+        source: UniProt:P25101
+        target: GO:0042310
+    -   key: capable of
+        source: UniProt:P24530
+        target: GO:0042310
+    -   key: positively correlated with
+        source: GO:0042310
+        target: MESH:D006976
+    multigraph: true
+    nodes:
+    -   id: MESH:C086232
+        label: Drug
+        name: Bosentan
+    -   id: UniProt:P25101
+        label: Protein
+        name: Endothelin-1 receptor
+    -   id: UniProt:P24530
+        label: Protein
+        name: Endothelin receptor type B
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D006976
+        label: Disease
+        name: Pulmonary hypertension
+    reference: https://en.wikipedia.org/wiki/Bosentan https://go.drugbank.com/drugs/DB00559#BE0000043
+-   directed: true
+    graph:
+        disease: Pulmonary arterial hypertension
+        disease_mesh: MESH:D000081029
+        drug: bosentan
+        drug_mesh: MESH:C086232
+        drugbank: DB:DB00559
+    links:
+    -   key: decreases activity of
+        source: MESH:C086232
+        target: UniProt:P25101
+    -   key: decreases activity of
+        source: MESH:C086232
+        target: UniProt:P24530
+    -   key: positively regulates
+        source: UniProt:P25101
+        target: GO:0042310
+    -   key: capable of
+        source: UniProt:P24530
+        target: GO:0042310
+    -   key: positively correlated with
+        source: GO:0042310
+        target: MESH:D000081029
+    multigraph: true
+    nodes:
+    -   id: MESH:C086232
+        label: Drug
+        name: Bosentan
+    -   id: UniProt:P25101
+        label: Protein
+        name: Endothelin-1 receptor
+    -   id: UniProt:P24530
+        label: Protein
+        name: Endothelin receptor type B
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D000081029
+        label: Disease
+        name: Pulmonary arterial hypertension
+    reference: https://en.wikipedia.org/wiki/Bosentan https://go.drugbank.com/drugs/DB00559#BE0000043
+-   directed: true
+    graph:
+        disease: Hypopituitarism
+        disease_mesh: MESH:D007018
+        drug: Testosterone
+        drug_mesh: MESH:D013739
+        drugbank: DB:DB00624
+    links:
+    -   key: positively correlated with
+        source: MESH:D013739
+        target: GO:0034699
+    -   key: positively correlated with
+        source: GO:0034699
+        target: MESH:D007986
+    -   key: negatively correlated with
+        source: MESH:D007986
+        target: MESH:D007018
+    multigraph: true
+    nodes:
+    -   id: MESH:D013739
+        label: Drug
+        name: Testosterone
+    -   id: GO:0034699
+        label: BiologicalProcess
+        name: Response to luteinizing hormone
+    -   id: MESH:D007986
+        label: ChemicalSubstance
+        name: Luteinizing Hormone
+    -   id: MESH:D007018
+        label: Disease
+        name: Hypopituitarism
+    reference: https://go.drugbank.com/drugs/DB00624 https://en.wikipedia.org/wiki/Hypopituitarism
+-   directed: true
+    graph:
+        disease: Delayed puberty
+        disease_mesh: MESH:D011628
+        drug: Testosterone
+        drug_mesh: MESH:D013739
+        drugbank: DB:DB00624 
+    links:
+    -   key: increases activity of
+        source: MESH:D013739
+        target: UniProt:P10275
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0045136
+    -   key: negatively correlated with
+        source: GO:0045136
+        target: MESH:D011628
+    multigraph: true
+    nodes:
+    -   id: MESH:D013739
+        label: Drug
+        name: Testosterone
+    -   id: GO:0045136
+        label: BiologicalProcess
+        name: Development of secondary sexual characteristics
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: MESH:D011628
+        label: Disease
+        name: Delayed puberty
+    reference: https://go.drugbank.com/drugs/DB00624 https://en.wikipedia.org/wiki/Delayed_puberty
+-   directed: true
+    graph:
+        disease: Hypogonadotropic hypogonadism
+        disease_mesh: MESH:D007006
+        drug: Testosterone
+        drug_mesh: MESH:D013739
+        drugbank: DB:DB00624 
+    links:
+    -   key: positively correlated with
+        source: MESH:D013739
+        target: GO:0034699
+    -   key: positively correlated with
+        source: GO:0034699
+        target: MESH:D007986
+    -   key: positively correlated with
+        source: MESH:D007986
+        target: GO:0005183
+    -   key: negatively correlated with
+        source: GO:0005183
+        target: MESH:D007006 
+    multigraph: true
+    nodes:
+    -   id: MESH:D013739
+        label: Drug
+        name: Testosterone
+    -   id: GO:0034699
+        label: BiologicalProcess
+        name: Response to luteinizing hormone
+    -   id: MESH:D007986
+        label: ChemicalSubstance
+        name: Luteinizing Hormone
+    -   id: GO:0005183
+        label: BiologicalProcess
+        name: Gonadotropin hormone-releasing hormone activity
+    -   id: MESH:D007006
+        label: Disease
+        name: Hypogonadotropic hypogonadism
+    reference: https://go.drugbank.com/drugs/DB00624 https://en.wikipedia.org/wiki/Hypogonadotropic_hypogonadism
+-   directed: true
+    graph:
+        disease: Male hypogonadism
+        disease_mesh: MESH:D005058
+        drug: testosterone enantate
+        drug_mesh: MESH:C004648
+        drugbank: DB:DB13944
+    links:
+    -   key: increases activity of
+        source: MESH:C004648
+        target: UniProt:P10275
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0060742
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0048808
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0008584
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0019102
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0007283
+    -   key: negatively correlated with
+        source: GO:0060742
+        target: MESH:D005058
+    -   key: negatively correlated with
+        source: GO:0048808
+        target: MESH:D005058
+    -   key: negatively correlated with
+        source: GO:0008584
+        target: MESH:D005058
+    -   key: negatively correlated with
+        source: GO:0019102
+        target: MESH:D005058
+    -   key: negatively correlated with
+        source: GO:0007283
+        target: MESH:D005058
+    multigraph: true
+    nodes:
+    -   id: MESH:C004648
+        label: Drug
+        name: Testosterone enantate
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0060742
+        label: BiologicalProcess
+        name: Epithelial cell differentiation involved in prostate gland development
+    -   id: GO:0048808
+        label: BiologicalProcess
+        name: Male genitalia morphogenesis
+    -   id: GO:0008584
+        label: BiologicalProcess
+        name: Male gonad development
+    -   id: GO:0019102
+        label: BiologicalProcess
+        name: Male somatic sex determination
+    -   id: GO:0007283
+        label: BiologicalProcess
+        name: Spermatogenesis
+    -   id: MESH:D005058
+        label: Disease
+        name: Male hypogonadism
+    reference: https://go.drugbank.com/drugs/DB13944
+-   directed: true
+    graph:
+        disease: Klinefelter's syndrome, XXY
+        disease_mesh: MESH:D007713
+        drug: Testosterone enantate
+        drug_mesh: MESH:C004648
+        drugbank: DB:DB13944
+    links:
+    -   key: increases activity of
+        source: MESH:C004648
+        target: UniProt:P10275
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0030521
+    -   key: positively regulates
+        source: GO:0030521
+        target: GO:0003006
+    -   key: positively regulates
+        source: GO:0030521
+        target: GO:0048808
+    -   key: negatively correlated with
+        source: GO:0048808
+        target: MESH:D007713
+    -   key: negatively correlated with
+        source: GO:0003006
+        target: HP:0003251
+    -   key: positively correlated with
+        source: HP:0003251
+        target: MESH:D007713
+    multigraph: true
+    nodes:
+    -   id: MESH:C004648
+        label: Drug
+        name: Testosterone enantate
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0030521
+        label: BiologicalProcess
+        name: Androgen receptor signaling pathway
+    -   id: GO:0003006
+        label: BiologicalProcess
+        name: Developmental process involved in reproduction
+    -   id: HP:0003251
+        label: PhenotypicFeature
+        name: Male infertility
+    -   id: GO:0048808
+        label: BiologicalProcess
+        name: Male genitalia morphogenesis
+    -   id: MESH:D007713
+        label: Disease
+        name: Klinefelter's syndrome, XXY
+    reference: https://en.wikipedia.org/wiki/Klinefelter_syndrome https://go.drugbank.com/drugs/DB13944
+-   directed: true
+    graph:
+        disease: Undescended testicle
+        disease_mesh: MESH:D003456
+        drug: Testosterone
+        drug_mesh: MESH:D013739
+        drugbank: DB:DB00624 
+    links:
+    -   key: increases activity of
+        source: MESH:D013739
+        target: UniProt:P10275
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0048808
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0008584
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0019102
+    -   key: negatively correlated with
+        source: GO:0048808
+        target: MESH:D003456
+    -   key: negatively correlated with
+        source: GO:0008584
+        target: MESH:D003456
+    -   key: negatively correlated with
+        source: GO:0019102
+        target: MESH:D003456
+    multigraph: true
+    nodes:
+    -   id: MESH:D013739
+        label: Drug
+        name: Testosterone
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0048808
+        label: BiologicalProcess
+        name: Male genitalia morphogenesis
+    -   id: GO:0008584
+        label: BiologicalProcess
+        name: Male gonad development
+    -   id: GO:0019102
+        label: BiologicalProcess
+        name: Male somatic sex determination
+    -   id: MESH:D003456
+        label: Disease
+        name: Undescended testicle
+    reference: https://go.drugbank.com/drugs/DB13944
+-   directed: true
+    graph:
+        disease: Menopausal flushing
+        disease_mesh: MESH:D019584
+        drug: testosterone cypionate
+        drug_mesh: null
+        drugbank: DB:DB00624
+    links:
+    -   key: increases activity of
+        source: DB:DB00624
+        target: UniProt:P10275
+    -   key: positively regulates
+        source: UniProt:P10275
+        target: GO:0030521
+    -   key: treats
+        source: GO:0030521
+        target: MESH:D019584
+    multigraph: true
+    nodes:
+    -   id: DB:DB00624
+        label: Drug
+        name: Testosterone cypionate
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0030521
+        label: BiologicalProcess
+        name: Androgen receptor signaling pathway
+    -   id: MESH:D019584
+        label: Disease
+        name: Menopausal flushing
+    reference: https://go.drugbank.com/drugs/DB13943
+-   directed: true
+    graph:
+        disease: Candidal vulvovaginitis
+        disease_mesh: MESH:D002181
+        drug: butoconazole
+        drug_mesh: MESH:C017125
+        drugbank: DB:DB00639
+    links:
+    -   key: decreases activity of
+        source: MESH:C017125
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: precedes
+        source: GO:0006696
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:5476
+    -   key: causes
+        source: NCBITaxon:5476
+        target: MESH:D002181
+    multigraph: true
+    nodes:
+    -   id: MESH:C017125
+        label: Drug
+        name: Butoconazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase (Candida albicans)
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: Ergosterol biosynthetic process
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: Cell wall biogenesis
+    -   id: NCBITaxon:5476
+        label: OrganismTaxon
+        name: Candida albicans
+    -   id: MESH:D002181
+        label: Disease
+        name: Candidal vulvovaginitis
+    reference: https://go.drugbank.com/drugs/DB00639 https://en.wikipedia.org/wiki/Vaginal_yeast_infection
+-   directed: true
+    graph:
+        disease: Infection by Loa loa
+        disease_mesh: MESH:D008118
+        drug: diethylcarbamazine
+        drug_mesh: MESH:D004049
+        drugbank: DB:DB00711
+    links:
+    -   key: negatively regulates
+        source: MESH:D004049
+        target: GO:0019369
+    -   key: regulates
+        source: GO:0019369
+        target: GO:0005886
+    -   key: in taxon
+        source: GO:0005886
+        target: NCBITaxon:100942
+    -   key: causes
+        source: NCBITaxon:100942
+        target: MESH:D008118
+    multigraph: true
+    nodes:
+    -   id: MESH:D004049
+        label: Drug
+        name: Diethylcarbamazine
+    -   id: GO:0019369
+        label: BiologicalProcess
+        name: Arachidonic acid metabolic process
+    -   id: GO:0005886
+        label: CellularComponent
+        name: Plasma membrane
+    -   id: NCBITaxon:100942
+        label: OrganismTaxon
+        name: Chrysops sp.
+    -   id: MESH:D008118
+        label: Disease
+        name: Infection by Loa loa
+    reference: https://go.drugbank.com/drugs/DB00711 https://en.wikipedia.org/wiki/Loa_loa_filariasis#Cause
+-   directed: true
+    graph:
+        disease: Eosinophilic asthma
+        disease_mesh: MESH:D011657
+        drug: diethylcarbamazine
+        drug_mesh: MESH:D004049
+        drugbank: DB:DB00711
+    links:
+    -   key: decreases activity of
+        source: MESH:D004049
+        target: UniProt:P09917
+    -   key: decreases activity of
+        source: MESH:D004049
+        target: UniProt:P23219
+    -   key: increases abundance of
+        source: UniProt:P09917
+        target: MESH:D015289
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D011657
+    multigraph: true
+    nodes:
+    -   id: MESH:D004049
+        label: Drug
+        name: Diethylcarbamazine
+    -   id: UniProt:P09917
+        label: Protein
+        name: Polyunsaturated fatty acid 5-lipoxygenase
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D011657
+        label: Disease
+        name: Eosinophilic asthma
+    reference: https://go.drugbank.com/drugs/DB00711
+-   directed: true
+    graph:
+        disease: Infection by Onchocerca volvulus
+        disease_mesh: MESH:D009855
+        drug: diethylcarbamazine
+        drug_mesh: MESH:D004049
+        drugbank: DB:DB00711
+    links:
+    -   key: negatively regulates
+        source: MESH:D004049
+        target: GO:0019369
+    -   key: regulates
+        source: GO:0019369
+        target: GO:0005886
+    -   key: in taxon
+        source: GO:0005886
+        target: NCBITaxon:6282
+    -   key: causes
+        source: NCBITaxon:6282
+        target: MESH:D009855
+    multigraph: true
+    nodes:
+    -   id: MESH:D004049
+        label: Drug
+        name: Diethylcarbamazine
+    -   id: GO:0019369
+        label: BiologicalProcess
+        name: Arachidonic acid metabolic process
+    -   id: GO:0005886
+        label: CellularComponent
+        name: Plasma membrane
+    -   id: NCBITaxon:6282
+        label: OrganismTaxon
+        name: Onchocerca volvulus
+    -   id: MESH:D009855
+        label: Disease
+        name: Infection by Onchocerca volvulus
+    reference: https://go.drugbank.com/drugs/DB00711
+-   directed: true
+    graph:
+        disease: Lymphatic filariasis
+        disease_mesh: MESH:D004604
+        drug: diethylcarbamazine
+        drug_mesh: MESH:D004049
+        drugbank: DB:DB00711
+    links:
+    -   key: negatively regulates
+        source: MESH:D004049
+        target: GO:0019369
+    -   key: regulates
+        source: GO:0019369
+        target: GO:0005886
+    -   key: in taxon
+        source: GO:0005886
+        target: NCBITaxon:6293
+    -   key: causes
+        source: NCBITaxon:6293
+        target: MESH:D004604
+    multigraph: true
+    nodes:
+    -   id: MESH:D004049
+        label: Drug
+        name: Diethylcarbamazine
+    -   id: GO:0019369
+        label: BiologicalProcess
+        name: Arachidonic acid metabolic process
+    -   id: GO:0005886
+        label: CellularComponent
+        name: Plasma membrane
+    -   id: NCBITaxon:6293
+        label: OrganismTaxon
+        name: Wuchereria bancrofti
+    -   id: MESH:D004604
+        label: Disease
+        name: Lymphatic filariasis
+    reference: https://go.drugbank.com/drugs/DB00711
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: Zalcitabine
+        drug_mesh: MESH:D016047
+        drugbank: DB:DB00943
+    links:
+    -   key: decreases activity of
+        source: MESH:D016047
+        target: UniProt:Q72547
+    -   key: positively regulates
+        source: UniProt:Q72547
+        target: GO:0003964
+    -   key: positively correlated with
+        source: GO:0003964
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D016047
+        label: Drug
+        name: Zalcitabine
+    -   id: UniProt:Q72547
+        label: Protein
+        name: HIV-1 reverse transcriptase
+    -   id: GO:0003964
+        label: MolecularActivity
+        name: RNA-directed DNA polymerase activity
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral genome replication
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference: https://go.drugbank.com/drugs/DB00943#BE0004136
+-   comment: Illicit
+    directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: ethyl loflazepate
+        drug_mesh: MESH:C040581,MESH:C029617
+        drugbank: DB:DB01545
+    links:
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P14867
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P47869
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P34903
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P48169
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P31644
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:Q16445
+    -   key: positively regulates
+        source: UniProt:Q16445
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P14867
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P47869
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P34903
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P48169
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P31644
+        target: GO:0007214
+    -   key: negatively correlated with
+        source: GO:0007214
+        target: HP:0000739
+    -   key: negatively correlated with
+        source: GO:0007214
+        target: HP:0000737
+    -   key: positively correlated with
+        source: HP:0000739
+        target: MESH:D003866
+    -   key: positively correlated with
+        source: HP:0000737
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: DB:DB01545
+        label: Drug
+        name: Ethyl loflazepate
+    -   id: UniProt:P14867
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-1
+    -   id: UniProt:P47869
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-2
+    -   id: UniProt:P34903
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-3
+    -   id: UniProt:P48169
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-4
+    -   id: UniProt:P31644
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-5
+    -   id: UniProt:Q16445
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-6
+    -   id: GO:0007214
+        label: BiologicalProcess
+        name: Gamma-aminobutyric acid signaling pathway
+    -   id: HP:0000739
+        label: PhenotypicFeature
+        name: Anxiety
+    -   id: HP:0000737
+        label: PhenotypicFeature
+        name: Irritability
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference: https://go.drugbank.com/drugs/DB01545 https://en.wikipedia.org/wiki/Gamma-Aminobutyric_acid
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Anxiety
+        disease_mesh: MESH:D001007
+        drug: ethyl loflazepate
+        drug_mesh: MESH:C040581,MESH:C029617
+        drugbank: DB:DB01545
+    links:
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P14867
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P47869
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P34903
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P48169
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:P31644
+    -   key: positively regulates
+        source: DB:DB01545
+        target: UniProt:Q16445
+    -   key: positively regulates
+        source: UniProt:Q16445
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P14867
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P47869
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P34903
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P48169
+        target: GO:0007214
+    -   key: positively regulates
+        source: UniProt:P31644
+        target: GO:0007214
+    -   key: negatively correlated with
+        source: GO:0007214
+        target: MESH:D001007
+    multigraph: true
+    nodes:
+    -   id: DB:DB01545
+        label: Drug
+        name: Ethyl loflazepate
+    -   id: UniProt:P14867
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-1
+    -   id: UniProt:P47869
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-2
+    -   id: UniProt:P34903
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-3
+    -   id: UniProt:P48169
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-4
+    -   id: UniProt:P31644
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-5
+    -   id: UniProt:Q16445
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-6
+    -   id: GO:0007214
+        label: BiologicalProcess
+        name: Gamma-aminobutyric acid signaling pathway
+    -   id: MESH:D001007
+        label: Disease
+        name: Anxiety
+    reference: https://go.drugbank.com/drugs/DB01545 https://en.wikipedia.org/wiki/Gamma-Aminobutyric_acid
+-   comment: Gluconolactone is used as a component of irrigation solution Renacidin 
+        for dissolution of bladder calculi of the struvite or apatite variety.
+    directed: true
+    graph:
+        disease: Urinary bladder stone
+        disease_mesh: MESH:D001744
+        drug: gluconolactone
+        drug_mesh: null
+        drugbank: DB:DB04564
+    links:
+    -   key: treats
+        source: DB:DB04564
+        target: MESH:D001744
+    multigraph: true
+    nodes:
+    -   id: DB:DB04564
+        label: Drug
+        name: Gluconolactone
+    -   id: MESH:D001744
+        label: Disease
+        name: Urinary bladder stone
+    reference: https://drugs.ncats.io/drug/WQ29KQ9POT
+-   comment: Withdrawn. Glibornuride is a sulfonylurea-type anti-diabetic drug.
+    directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: glibornuride
+        drug_mesh: MESH:C073323
+        drugbank: DB:DB08962
+    links:
+    -   key: decreases activity of
+        source: MESH:C073323
+        target: UniProt:Q14654
+    -   key: participates in
+        source: UniProt:Q14654
+        target: GO:0060081
+    -   key: negatively regulates
+        source: GO:0060081
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0030073
+    -   key: negatively correlated with
+        source: GO:0030073
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C073323
+        label: Drug
+        name: Glibornuride
+    -   id: UniProt:Q14654
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 11
+    -   id: GO:0060081
+        label: BiologicalProcess
+        name: Membrane hyperpolarization
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Transmembrane calcium influx
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference: https://go.drugbank.com/drugs/DB08962 https://en.wikipedia.org/wiki/Sulfonylurea
