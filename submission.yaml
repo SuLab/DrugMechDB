@@ -959,7 +959,43 @@
         label: Disease
         name: Schizophrenia
     reference: https://go.drugbank.com/drugs/DB06016 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S1092852916000043 https://en.wikipedia.org/wiki/Cariprazine
-	-   directed: true
+-   comment: Mechanism of action of laquinimod on Relapsing remitting multiple sclerosis is not well understood. Available evidence suggests it as anti-inflammatory and neuroprotective agent based on in vivo experiments. The drug was withdrawn from phase III clinical trials
+    directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: laquinimod
+        drug_mesh: MESH:C476223
+        drugbank: DB:DB06685
+    links:
+    -   key: chemically similar to
+        source: MESH:C476223
+        target: CHEBI:35472
+    -   key: chemically similar to
+        source: MESH:C476223
+        target: CHEBI:63726
+    -   key: treats
+        source: CHEBI:35472
+        target: MESH:D020529
+    -   key: treats
+        source: CHEBI:63726
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:C476223
+        label: Drug
+        name: laquinimod
+    -   id: CHEBI:35472
+        label: ChemicalSubstance
+        name: anti-inflammatory drug
+    -   id: CHEBI:63726
+        label: ChemicalSubstance
+        name: neuroprotective agent
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference: https://go.drugbank.com/drugs/DB06685 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798201/
+-   directed: true
     graph:
         disease: Bronchospasm
         disease_mesh: MESH:D001986
@@ -1024,39 +1060,3 @@
         label: Disease
         name: Bronchospasm
     reference: https://go.drugbank.com/drugs/DB13139 https://en.wikipedia.org/wiki/Levosalbutamol#:~:text=Mechanism%20of%20action,-Activation%20of%20%CE%B2&text=Levosalbutamol%20relaxes%20the%20smooth%20muscles,mast%20cells%20in%20the%20airways
--   comment: Mechanism of action of laquinimod on Relapsing remitting multiple sclerosis is not well understood. Available evidence suggests it as anti-inflammatory and neuroprotective agent based on in vivo experiments. The drug was withdrawn from phase III clinical trials
-    directed: true
-    graph:
-        disease: Relapsing remitting multiple sclerosis
-        disease_mesh: MESH:D020529
-        drug: laquinimod
-        drug_mesh: MESH:C476223
-        drugbank: DB:DB06685
-    links:
-    -   key: chemically similar to
-        source: MESH:C476223
-        target: CHEBI:35472
-    -   key: chemically similar to
-        source: MESH:C476223
-        target: CHEBI:63726
-    -   key: treats
-        source: CHEBI:35472
-        target: MESH:D020529
-    -   key: treats
-        source: CHEBI:63726
-        target: MESH:D020529
-    multigraph: true
-    nodes:
-    -   id: MESH:C476223
-        label: Drug
-        name: laquinimod
-    -   id: CHEBI:35472
-        label: ChemicalSubstance
-        name: anti-inflammatory drug
-    -   id: CHEBI:63726
-        label: ChemicalSubstance
-        name: neuroprotective agent
-    -   id: MESH:D020529
-        label: Disease
-        name: Relapsing remitting multiple sclerosis
-    reference: https://go.drugbank.com/drugs/DB06685 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4798201/
