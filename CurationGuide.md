@@ -366,7 +366,7 @@ choice 2, but either are fine.
     - [Testosterone](https://go.drugbank.com/drugs/DB00624) and [Testosterone propionate](https://go.drugbank.com/drugs/DB01420)
     - [Drostanolone](https://go.drugbank.com/drugs/DB00858) and [Drostanolone propionate](https://go.drugbank.com/drugs/DB14655)
    
-   In these examples, the active and inactive compounds should be  be annotated in different paths 
+   In these examples, the active and inactive compounds should be annotated in different paths. 
 
 - you can't find two DrugBank IDs e.g.
     - [Imidapril](https://go.drugbank.com/drugs/DB11783) and Imidaprilat
@@ -375,6 +375,7 @@ choice 2, but either are fine.
    In these examples, the active and inactive compounds should be annotated in different paths in such format:
    
    `Imidapril` PRODUCES `Imidaprilat` DECREASES ACTIVITY OF `UniProt:P12821`
+   
    `Vidarabine` PRODUCES `Vidarabine Phosphate` DECREASES ACTIVITY OF `UniProt:P04293`
       
 You can also check whether the two compounds are indicated for the same diseases or not. If they are, it's likely they will be annotated as two different paths. So indications will further help you to decide on how to annotate prodrugs.
