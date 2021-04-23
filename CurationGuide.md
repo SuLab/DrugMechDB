@@ -201,40 +201,40 @@ from the [full set of biolink predicates](https://biolink.github.io/biolink-mode
 
 The predicates currently found within DrugMechDB are as follows:
 
-[affects risk for](https://biolink.github.io/biolink-model/docs/affects_risk_for.html) 
-[capable of](https://biolink.github.io/biolink-model/docs/capable_of.html) 
-[caused by](https://biolink.github.io/biolink-model/docs/caused_by.html) 
-[causes](https://biolink.github.io/biolink-model/docs/causes.html) 
-[contributes to](https://biolink.github.io/biolink-model/docs/contributes_to.html) 
-[correlated with](https://biolink.github.io/biolink-model/docs/correlated_with.html) 
-[decreases abundance of](https://biolink.github.io/biolink-model/docs/decreases_abundance_of.html) 
-[decreases activity of](https://biolink.github.io/biolink-model/docs/decreases_activity_of.html) 
-[disrupts](https://biolink.github.io/biolink-model/docs/disrupts.html) 
-[expressed in](https://biolink.github.io/biolink-model/docs/expressed_in.html) 
-[expresses](https://biolink.github.io/biolink-model/docs/expresses.html) 
-[has output](https://biolink.github.io/biolink-model/docs/has_output.html) 
-[has participant](https://biolink.github.io/biolink-model/docs/has_participant.html) 
-[has phenotype](https://biolink.github.io/biolink-model/docs/has_phenotype.html) 
-[in taxon](https://biolink.github.io/biolink-model/docs/in_taxon.html) 
-[increases abundance of](https://biolink.github.io/biolink-model/docs/increases_abundance_of.html) 
-[increases activity of](https://biolink.github.io/biolink-model/docs/increases_activity_of.html) 
-[located in](https://biolink.github.io/biolink-model/docs/located_in.html) 
-[location of](https://biolink.github.io/biolink-model/docs/location_of.html) 
-[manifestation of](https://biolink.github.io/biolink-model/docs/manifestation_of.html) 
-[molecularly interacts with](https://biolink.github.io/biolink-model/docs/molecularly_interacts_with.html) 
-[negatively correlated with](https://biolink.github.io/biolink-model/docs/negatively_correlated_with.html) 
-[negatively regulates](https://biolink.github.io/biolink-model/docs/negatively_regulates.html) 
-[occurs in](https://biolink.github.io/biolink-model/docs/occurs_in.html) 
-[part of](https://biolink.github.io/biolink-model/docs/part_of.html) 
-[participates in](https://biolink.github.io/biolink-model/docs/participates_in.html) 
-[positively correlated with](https://biolink.github.io/biolink-model/docs/positively_correlated_with.html) 
-[positively regulates](https://biolink.github.io/biolink-model/docs/positively_regulates.html) 
-[precedes](https://biolink.github.io/biolink-model/docs/precedes.html) 
-[prevents](https://biolink.github.io/biolink-model/docs/prevents.html) 
-[produced by](https://biolink.github.io/biolink-model/docs/produced_by.html) 
-[produces](https://biolink.github.io/biolink-model/docs/produces.html) 
-[regulates](https://biolink.github.io/biolink-model/docs/regulates.html) 
-[treats](https://biolink.github.io/biolink-model/docs/treats.html) 
+[affects risk for](https://biolink.github.io/biolink-model/docs/affects_risk_for.html)  
+[capable of](https://biolink.github.io/biolink-model/docs/capable_of.html)  
+[caused by](https://biolink.github.io/biolink-model/docs/caused_by.html)  
+[causes](https://biolink.github.io/biolink-model/docs/causes.html)  
+[contributes to](https://biolink.github.io/biolink-model/docs/contributes_to.html)  
+[correlated with](https://biolink.github.io/biolink-model/docs/correlated_with.html)  
+[decreases abundance of](https://biolink.github.io/biolink-model/docs/decreases_abundance_of.html)  
+[decreases activity of](https://biolink.github.io/biolink-model/docs/decreases_activity_of.html)  
+[disrupts](https://biolink.github.io/biolink-model/docs/disrupts.html)  
+[expressed in](https://biolink.github.io/biolink-model/docs/expressed_in.html)  
+[expresses](https://biolink.github.io/biolink-model/docs/expresses.html)  
+[has output](https://biolink.github.io/biolink-model/docs/has_output.html)  
+[has participant](https://biolink.github.io/biolink-model/docs/has_participant.html)  
+[has phenotype](https://biolink.github.io/biolink-model/docs/has_phenotype.html)  
+[in taxon](https://biolink.github.io/biolink-model/docs/in_taxon.html)  
+[increases abundance of](https://biolink.github.io/biolink-model/docs/increases_abundance_of.html)  
+[increases activity of](https://biolink.github.io/biolink-model/docs/increases_activity_of.html)  
+[located in](https://biolink.github.io/biolink-model/docs/located_in.html)  
+[location of](https://biolink.github.io/biolink-model/docs/location_of.html)  
+[manifestation of](https://biolink.github.io/biolink-model/docs/manifestation_of.html)  
+[molecularly interacts with](https://biolink.github.io/biolink-model/docs/molecularly_interacts_with.html)  
+[negatively correlated with](https://biolink.github.io/biolink-model/docs/negatively_correlated_with.html)  
+[negatively regulates](https://biolink.github.io/biolink-model/docs/negatively_regulates.html)  
+[occurs in](https://biolink.github.io/biolink-model/docs/occurs_in.html)  
+[part of](https://biolink.github.io/biolink-model/docs/part_of.html)  
+[participates in](https://biolink.github.io/biolink-model/docs/participates_in.html)  
+[positively correlated with](https://biolink.github.io/biolink-model/docs/positively_correlated_with.html)  
+[positively regulates](https://biolink.github.io/biolink-model/docs/positively_regulates.html)  
+[precedes](https://biolink.github.io/biolink-model/docs/precedes.html)  
+[prevents](https://biolink.github.io/biolink-model/docs/prevents.html)  
+[produced by](https://biolink.github.io/biolink-model/docs/produced_by.html)  
+[produces](https://biolink.github.io/biolink-model/docs/produces.html)  
+[regulates](https://biolink.github.io/biolink-model/docs/regulates.html)  
+[treats](https://biolink.github.io/biolink-model/docs/treats.html)  
 
 
 ## Helpful hints for generating paths
@@ -331,8 +331,8 @@ the base repository.
 ### Is there somewhere I can validate/visualize my path?
 
 Yes! We've added a jupyter notebook that can be used to visalize paths.
-It can be executed by following [this link to Google CoLab](https://colab.research.google.com/
-github/SuLab/DrugMechDB/blob/master/path_visualization.ipynb).
+It can be executed by following [this link to Google CoLab](
+https://colab.research.google.com/github/SuLab/DrugMechDB/blob/master/path_visualization.ipynb).
 
 To run this code, copy paste your YAML code for **one** path into cell
 number 2 and then  click `Runtime>Run all` and the CoLab notebook
