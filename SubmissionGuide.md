@@ -12,11 +12,17 @@ You can do so by clicking the 'Actions' tab and choosing to enable Github Action
 ## Claiming an indication group
 
 Please use the [issue template for claiming a group](
-https://github.com/SuLab/DrugMechDB/issues/new?assignees=&labels=upwork&template=indication-group-curation-claim.md&title=Curating+indication+group+)
+https://github.com/SuLab/DrugMechDB/issues/new?assignees=&labels=upwork&template=indication-group-
+curation-claim.md&title=Curating+indication+group+)
 to claim a group of indications so that other curators do not work on the same indications.
 
 The `.zip` file containing the full set of grouped indications can be [downloaded here](
 https://github.com/SuLab/DrugMechDB/raw/main/dmdb_indications_grouped.zip).
+
+Before claiming, please ensure that the group you wish to claim has not been previously claimed or completed. 
+You can do this through searching the issues as shown in the image below. 
+
+![Search issues](media/new_claim/5_search_group.png)
 
 The following steps outline the claiming process
 
@@ -37,6 +43,8 @@ Feel free to replace the boilerplate text that appears in the template.
 ![Change Text](media/new_claim/6_change_text.png)
 
 #### 6. Click 'Submit new issue'
+
+
 
 ## Submitting new paths.
 
