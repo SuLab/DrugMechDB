@@ -1,1 +1,937 @@
-
+- directed: true
+  graph:
+    disease: Gonorrhea
+    disease_mesh: MESH:D006069
+    drug: mezlocillin
+    drug_mesh: MESH:D008802
+    drugbank: DB:DB00948
+  links:
+    - key: decreases activity of
+      source: MESH:D008802
+      target: UniProt:O05131
+    - key: positively regulates
+      source: UniProt:O05131
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:485
+    - key: causes
+      source: NCBITaxon:485
+      target: MESH:D006069
+  multigraph: true
+  nodes:
+    - id: MESH:D008802
+      label: Drug
+      name: mezlocillin
+    - id: UniProt:O05131
+      label: Protein
+      name: Penicillin-binding protein 1A
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: PhenotypicFeature
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:485
+      label: OrganismTaxon
+      name: Neisseria gonorrhoeae
+    - id: MESH:D006069
+      label: Disease
+      name: Gonorrhea
+  reference: https://go.drugbank.com/drugs/DB00948
+- directed: true
+  graph:
+    disease: Aspiration pneumonia
+    disease_mesh: MESH:D011015
+    drug: mezlocillin
+    drug_mesh: MESH:D008802
+    drugbank: DB:DB00948
+  links:
+    - key: decreases activity of
+      source: MESH:D008802
+      target: UniProt:Q04707
+    - key: positively regulates
+      source: UniProt:Q04707
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D011015
+  multigraph: true
+  nodes:
+    - id: MESH:D008802
+      label: Drug
+      name: mezlocillin
+    - id: UniProt:Q04707
+      label: Protein
+      name: Penicillin-binding protein 1A
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: PhenotypicFeature
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D011015
+      label: Disease
+      name: Aspiration pneumonia
+  reference: https://go.drugbank.com/drugs/DB00948
+- directed: true
+  graph:
+    disease: Bacterial infection due to Serratia
+    disease_mesh: MESH:D016868
+    drug: mezlocillin
+    drug_mesh: MESH:D008802
+    drugbank: DB:DB00948
+  links:
+    - key: decreases activity of
+      source: MESH:D008802
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:613
+    - key: causes
+      source: NCBITaxon:613
+      target: MESH:D016868
+  multigraph: true
+  nodes:
+    - id: MESH:D008802
+      label: Drug
+      name: mezlocillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: PhenotypicFeature
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:613
+      label: OrganismTaxon
+      name: Serratia sp.
+    - id: MESH:D016868
+      label: Disease
+      name: Bacterial infection due to Serratia
+  reference: https://go.drugbank.com/drugs/DB00948
+- directed: true
+  graph:
+    disease: Infectious disease of abdomen
+    disease_mesh: MESH:D016868
+    drug: mezlocillin
+    drug_mesh: MESH:D008802
+    drugbank: DB:DB00948
+  links:
+    - key: decreases activity of
+      source: MESH:D008802
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:562
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:573
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:550
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:287
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D016868
+    - key: causes
+      source: NCBITaxon:573
+      target: MESH:D016868
+    - key: causes
+      source: NCBITaxon:550
+      target: MESH:D016868
+    - key: causes
+      source: NCBITaxon:287
+      target: MESH:D016868
+  multigraph: true
+  nodes:
+    - id: MESH:D008802
+      label: Drug
+      name: mezlocillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: PhenotypicFeature
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: NCBITaxon:573
+      label: OrganismTaxon
+      name: Klebsiella pneumoniae
+    - id: NCBITaxon:550
+      label: OrganismTaxon
+      name: Enterobacter cloacae
+    - id: NCBITaxon:287
+      label: OrganismTaxon
+      name: Pseudomonas aeruginosa
+    - id: MESH:D016868
+      label: Disease
+      name: Infectious disease of abdomen
+  reference: https://go.drugbank.com/drugs/DB00948
+- directed: true
+  graph:
+    disease: Urinary tract infectious disease
+    disease_mesh: MESH:D014552
+    drug: mezlocillin
+    drug_mesh: MESH:D008802
+    drugbank: DB:DB00948
+  links:
+    - key: decreases activity of
+      source: MESH:D008802
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D008802
+      label: Drug
+      name: mezlocillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: PhenotypicFeature
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary tract infectious disease
+  reference: https://go.drugbank.com/drugs/DB00948
+- directed: true
+  graph:
+    disease: Ocular hypertension
+    disease_mesh: MESH:D009798
+    drug: brinzolamide
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB01194
+  links:
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00918
+    - key: positively regulates
+      source: UniProt:P00918
+      target: GO:0015701
+    - key: increases abundance of
+      source: GO:0015701
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: MESH:D009798
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: brinzolamide
+    - id: UniProt:P00918
+      label: Protein
+      name: Carbonic anhydrase 2
+    - id: GO:0015701
+      label: BiologicalProcess
+      name: bicarbonate transport
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: MESH:D009798
+      label: Disease
+      name: Ocular hypertension
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL220491/ https://pubchem.ncbi.nlm.nih.gov/compound/68844#section=Mechanism-of-Action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://en.wikipedia.org/wiki/Glaucoma#Medication https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0 https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
+- directed: true
+  graph:
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: brinzolamide
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB01194
+  links:
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00918
+    - key: positively regulates
+      source: UniProt:P00918
+      target: GO:0015701
+    - key: increases abundance of
+      source: GO:0015701
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: manifestation of
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: brinzolamide
+    - id: UniProt:P00918
+      label: Protein
+      name: Carbonic anhydrase 2
+    - id: GO:0015701
+      label: BiologicalProcess
+      name: bicarbonate transport
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL220491/ https://pubchem.ncbi.nlm.nih.gov/compound/68844#section=Mechanism-of-Action https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/ https://en.wikipedia.org/wiki/Glaucoma#Medication https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0 https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
+- directed: true
+  graph:
+    disease: Infection by Trypanosoma cruzi
+    disease_mesh: MESH:D014355
+    drug: nifurtimox
+    drug_mesh: MESH:D009547
+    drugbank: DB:DB11820
+  links:
+    - key: produces
+      source: MESH:D009547
+      target: CHEBI:26519
+    - key: disrupts
+      source: CHEBI:26519
+      target: CHEBI:16991
+    - key: in taxon
+      source: CHEBI:16991
+      target: NCBITaxon:5693
+    - key: causes
+      source: NCBITaxon:5693
+      target: MESH:D014355
+  multigraph: true
+  nodes:
+    - id: MESH:D009547
+      label: Drug
+      name: nifurtimox
+    - id: CHEBI:26519
+      label: ChemicalSubstance
+      name: radical
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: NCBITaxon:5693
+      label: OrganismTaxon
+      name: Trypanosoma cruzi
+    - id: MESH:D014355
+      label: Disease
+      name: Infection by Trypanosoma cruzi
+  reference: https://en.wikipedia.org/wiki/Nifurtimox#Mechanism_of_action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL290960/
+  comments: The disease is known as Chagas Disease in MESH (MESH:D014355). The drug is metabolized by nitoreductases (https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/213464s000lbl.pdf) rather than nitoreductases being the target of this drug (https://go.drugbank.com/drugs/DB11820#BE0010011).
+- directed: true
+  graph:
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: buformin
+    drug_mesh: MESH:D002026
+    drugbank: DB:DB04830
+  links:
+    - key: negatively correlated with
+      source: MESH:D002026
+      target: GO:0001951
+    - key: negatively correlated with
+      source: MESH:D002026
+      target: GO:0006094
+    - key: negatively correlated with
+      source: MESH:D002026
+      target: HP:0008189
+    - key: increases activity of
+      source: MESH:D002026
+      target: GO:0046323
+    - key: positively correlated with
+      source: GO:0001951
+      target: HP:0003074
+    - key: positively correlated with
+      source: GO:0006094
+      target: HP:0003074
+    - key: positively correlated with
+      source: HP:0008189
+      target: HP:0003074
+    - key: negatively correlated with
+      source: GO:0046323
+      target: HP:0003074
+    - key: manifestation of
+      source: HP:0003074
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:D002026
+      label: Drug
+      name: buformin
+    - id: GO:0001951
+      label: BiologicalProcess
+      name: intestinal D-glucose absorption
+    - id: HP:0008189
+      label: PhenotypicFeature
+      name: Insulin insensitivity
+    - id: GO:0046323
+      label: BiologicalProcess
+      name: glucose import
+    - id: GO:0006094
+      label: BiologicalProcess
+      name: gluconeogenesis
+    - id: HP:0003074
+      label: PhenotypicFeature
+      name: Hyperglycemia
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference: https://en.wikipedia.org/wiki/Buformin#Mechanism_of_action
+  comments: Withdrawn from the market in many countries. Never been marketed in the US.
+- directed: true
+  graph:
+    disease: Sitosterolemia
+    disease_mesh: MESH:C537345
+    drug: ezetimibe
+    drug_mesh: MESH:D000069438
+    drugbank: DB:DB00973
+  links:
+    - key: negatively regulates
+      source: MESH:D000069438
+      target: UniProt:Q9UHC9
+    - key: positively regulates
+      source: UniProt:Q9UHC9
+      target: GO:0098856
+    - key: increases abundance of
+      source: GO:0098856
+      target: CHEBI:26125
+    - key: positively correlated with
+      source: CHEBI:26125
+      target: HP:0033341
+    - key: manifestation of
+      source: HP:0033341
+      target: MESH:C537345
+  multigraph: true
+  nodes:
+    - id: MESH:D000069438
+      label: Drug
+      name: ezetimibe
+    - id: UniProt:Q9UHC9
+      label: Protein
+      name: NPC1-like intracellular cholesterol transporter 1
+    - id: GO:0098856
+      label: BiologicalProcess
+      name: intestinal lipid absorption
+    - id: CHEBI:26125
+      label: ChemicalSubstance
+      name: phytosterols
+    - id: HP:0033341
+      label: PhenotypicFeature
+      name: Elevated circulating sitosterol concentration
+    - id: MESH:C537345
+      label: Disease
+      name: Sitosterolemia
+  reference: https://pharos.nih.gov/ligands/ezetimibe https://pubchem.ncbi.nlm.nih.gov/compound/150311#section=Mechanism-of-Action https://en.wikipedia.org/wiki/Sitosterolemia#Signs_and_symptoms
+- directed: true
+  graph:
+    disease: Hyperlipidemia
+    disease_mesh: MESH:D006949
+    drug: ezetimibe
+    drug_mesh: MESH:D000069438
+    drugbank: DB:DB00973
+  links:
+    - key: negatively regulates
+      source: MESH:D000069438
+      target: UniProt:Q9UHC9
+    - key: positively regulates
+      source: UniProt:Q9UHC9
+      target: GO:0098856
+    - key: increases abundance of
+      source: GO:0098856
+      target: CHEBI:18059
+    - key: positively correlated with
+      source: CHEBI:18059
+      target: MESH:D006949
+  multigraph: true
+  nodes:
+    - id: MESH:D000069438
+      label: Drug
+      name: ezetimibe
+    - id: UniProt:Q9UHC9
+      label: Protein
+      name: NPC1-like intracellular cholesterol transporter 1
+    - id: GO:0098856
+      label: BiologicalProcess
+      name: intestinal lipid absorption
+    - id: CHEBI:18059
+      label: ChemicalSubstance
+      name: lipid
+    - id: MESH:D006949
+      label: Disease
+      name: Hyperlipidemia
+  reference: https://pharos.nih.gov/ligands/ezetimibe https://pubchem.ncbi.nlm.nih.gov/compound/150311#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Mixed hyperlipidemia
+    disease_mesh: MESH:D006950
+    drug: ezetimibe
+    drug_mesh: MESH:D000069438
+    drugbank: DB:DB00973
+  links:
+    - key: negatively regulates
+      source: MESH:D000069438
+      target: UniProt:Q9UHC9
+    - key: positively regulates
+      source: UniProt:Q9UHC9
+      target: GO:0098856
+    - key: increases abundance of
+      source: GO:0098856
+      target: CHEBI:16113
+    - key: increases abundance of
+      source: GO:0098856
+      target: CHEBI:17855
+    - key: positively correlated with
+      source: CHEBI:17855
+      target: MESH:D006950
+    - key: positively correlated with
+      source: CHEBI:16113
+      target: MESH:D006950
+  multigraph: true
+  nodes:
+    - id: MESH:D000069438
+      label: Drug
+      name: ezetimibe
+    - id: UniProt:Q9UHC9
+      label: Protein
+      name: NPC1-like intracellular cholesterol transporter 1
+    - id: GO:0098856
+      label: BiologicalProcess
+      name: intestinal lipid absorption
+    - id: CHEBI:16113
+      label: ChemicalSubstance
+      name: cholesterol
+    - id: CHEBI:17855
+      label: ChemicalSubstance
+      name: triglyceride
+    - id: MESH:D006950
+      label: Disease
+      name: Mixed hyperlipidemia
+  reference: https://pharos.nih.gov/ligands/ezetimibe https://pubchem.ncbi.nlm.nih.gov/compound/150311#section=Mechanism-of-Action
+  comments: MESH:D006950 is known as Hyperlipidemia, Familial Combined in MESH.
+- directed: true
+  graph:
+    disease: Hypercholesterolemia
+    disease_mesh: MESH:D006937
+    drug: ezetimibe
+    drug_mesh: MESH:D000069438
+    drugbank: DB:DB00973
+  links:
+    - key: negatively regulates
+      source: MESH:D000069438
+      target: UniProt:Q9UHC9
+    - key: positively regulates
+      source: UniProt:Q9UHC9
+      target: GO:0098856
+    - key: increases abundance of
+      source: GO:0098856
+      target: CHEBI:16113
+    - key: positively correlated with
+      source: CHEBI:16113
+      target: MESH:D006937
+  multigraph: true
+  nodes:
+    - id: MESH:D000069438
+      label: Drug
+      name: ezetimibe
+    - id: UniProt:Q9UHC9
+      label: Protein
+      name: NPC1-like intracellular cholesterol transporter 1
+    - id: GO:0098856
+      label: BiologicalProcess
+      name: intestinal lipid absorption
+    - id: CHEBI:16113
+      label: ChemicalSubstance
+      name: cholesterol
+    - id: MESH:D006937
+      label: Disease
+      name: Hypercholesterolemia
+  reference: https://pharos.nih.gov/ligands/ezetimibe https://pubchem.ncbi.nlm.nih.gov/compound/150311#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Anxiety
+    disease_mesh: MESH:D001007
+    drug: chlordiazepoxide
+    drug_mesh: MESH:D002707
+    drugbank: DB:DB00973
+  links:
+    - key: increases activity of
+      source: MESH:D002707
+      target: InterPro:IPR006028
+    - key: positively regulates
+      source: InterPro:IPR006028
+      target: GO:0022851
+    - key: positively correlated with
+      source: GO:0022851
+      target: GO:0060081
+    - key: negatively correlated with
+      source: GO:0060081
+      target: GO:0007269
+    - key: positively correlated with
+      source: GO:0007269
+      target: MESH:D001007
+  multigraph: true
+  nodes:
+    - id: MESH:D002707
+      label: Drug
+      name: chlordiazepoxide
+    - id: InterPro:IPR006028
+      label: GeneFamily
+      name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    - id: GO:0022851
+      label: BiologicalProcess
+      name: GABA-gated chloride ion channel activity
+    - id: GO:0060081
+      label: BiologicalProcess
+      name: membrane hyperpolarization
+    - id: GO:0007269
+      label: BiologicalProcess
+      name: neurotransmitter secretion
+    - id: MESH:D001007
+      label: Disease
+      name: Anxiety
+  reference: https://go.drugbank.com/drugs/DB00475
+- directed: true
+  graph:
+    disease: Alcohol withdrawal delirium
+    disease_mesh: MESH:D000430
+    drug: chlordiazepoxide
+    drug_mesh: MESH:D002707
+    drugbank: DB:DB00973
+  links:
+    - key: increases activity of
+      source: MESH:D002707
+      target: InterPro:IPR006028
+    - key: positively regulates
+      source: InterPro:IPR006028
+      target: GO:0022851
+    - key: positively correlated with
+      source: GO:0022851
+      target: GO:0060081
+    - key: negatively correlated with
+      source: GO:0060081
+      target: GO:0007269
+    - key: positively correlated with
+      source: GO:0007269
+      target: HP:0000738
+    - key: positively correlated with
+      source: GO:0007269
+      target: HP:0001337
+    - key: positively correlated with
+      source: GO:0007269
+      target: HP:0000746
+    - key: positively correlated with
+      source: GO:0007269
+      target: HP:0001289
+    - key: manifestation of
+      source: HP:0001289
+      target: MESH:D000430
+    - key: manifestation of
+      source: HP:0000746
+      target: MESH:D000430
+    - key: manifestation of
+      source: HP:0001337
+      target: MESH:D000430
+    - key: manifestation of
+      source: HP:0000738
+      target: MESH:D000430
+  multigraph: true
+  nodes:
+    - id: MESH:D002707
+      label: Drug
+      name: chlordiazepoxide
+    - id: InterPro:IPR006028
+      label: GeneFamily
+      name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    - id: GO:0022851
+      label: BiologicalProcess
+      name: GABA-gated chloride ion channel activity
+    - id: GO:0060081
+      label: BiologicalProcess
+      name: membrane hyperpolarization
+    - id: GO:0007269
+      label: BiologicalProcess
+      name: neurotransmitter secretion
+    - id: HP:0001289
+      label: PhenotypicFeature
+      name: Confusion
+    - id: HP:0000746
+      label: PhenotypicFeature
+      name: Delusions
+    - id: HP:0001337
+      label: PhenotypicFeature
+      name: Tremor
+    - id: HP:0000738
+      label: PhenotypicFeature
+      name: Hallucinations
+    - id: MESH:D000430
+      label: Disease
+      name: Alcohol withdrawal delirium
+  reference: https://go.drugbank.com/drugs/DB00475
+- directed: true
+  graph:
+    disease: Peptic ulcer
+    disease_mesh: MESH:D010437
+    drug: chlordiazepoxide
+    drug_mesh: MESH:D002707
+    drugbank: DB:DB00973
+  links:
+    - key: negatively correlated with
+      source: MESH:D002707
+      target: GO:0001696
+    - key: positively correlated with
+      source: GO:0001696
+      target: MESH:D010437
+    - key: increases activity of
+      source: MESH:D002707
+      target: InterPro:IPR006028
+    - key: positively regulates
+      source: InterPro:IPR006028
+      target: GO:0022851
+    - key: positively correlated with
+      source: GO:0022851
+      target: GO:0060081
+    - key: negatively correlated with
+      source: GO:0060081
+      target: GO:0007269
+    - key: positively correlated with
+      source: GO:0007269
+      target: HP:0100852
+    - key: affects risk for
+      source: HP:0100852
+      target: MESH:D010437
+  multigraph: true
+  nodes:
+    - id: MESH:D002707
+      label: Drug
+      name: chlordiazepoxide
+    - id: InterPro:IPR006028
+      label: GeneFamily
+      name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    - id: GO:0022851
+      label: BiologicalProcess
+      name: GABA-gated chloride ion channel activity
+    - id: GO:0060081
+      label: BiologicalProcess
+      name: membrane hyperpolarization
+    - id: GO:0007269
+      label: BiologicalProcess
+      name: neurotransmitter secretion
+    - id: GO:0001696
+      label: BiologicalProcess
+      name: gastric acid secretion
+    - id: HP:0100852
+      label: PhenotypicFeature
+      name: Abnormal fear/anxiety-related behavior
+    - id: MESH:D010437
+      label: Disease
+      name: Peptic ulcer
+  reference: https://go.drugbank.com/drugs/DB00475 https://en.wikipedia.org/wiki/Chlordiazepoxide/clidinium_bromide
+  comments: The drug can be useful for cases where the cause of peptic ulcer is due to emotional/somatic factors. Also if used in combination with clinidium (DB:DB00771, brand name Librax), it will inhibit acid secretion (antisecretory effect) and will be beneficial for treating ulcers (https://go.drugbank.com/unearth/q?utf8=%E2%9C%93&searcher=drugs&query=Librax).
+- directed: true
+  graph:
+    disease: Irritable bowel syndrome
+    disease_mesh: MESH:D043183
+    drug: chlordiazepoxide
+    drug_mesh: MESH:D002707
+    drugbank: DB:DB00973
+  links:
+    - key: negatively correlated with
+      source: MESH:D002707
+      target: HP:0003394
+    - key: positively correlated with
+      source: HP:0003394
+      target: HP:0032155
+    - key: correlated with
+      source: HP:0032155
+      target: HP:0002579
+    - key: manifestation of
+      source: HP:0002579
+      target: MESH:D043183
+  multigraph: true
+  nodes:
+    - id: MESH:D002707
+      label: Drug
+      name: chlordiazepoxide
+    - id: HP:0003394
+      label: PhenotypicFeature
+      name: Muscle spasm
+    - id: HP:0032155
+      label: PhenotypicFeature
+      name: Abdominal cramps
+    - id: HP:0002579
+      label: PhenotypicFeature
+      name: Gastrointestinal dysmotility
+    - id: MESH:D043183
+      label: Disease
+      name: Irritable bowel syndrome
+  reference: https://go.drugbank.com/drugs/DB00475 https://en.wikipedia.org/wiki/Chlordiazepoxide/clidinium_bromide
+  comments: The drug when in combination with clinidium (DB:DB00771, brand name Librax, https://go.drugbank.com/unearth/q?utf8=%E2%9C%93&searcher=drugs&query=Librax) helps to relieve stomach spasms and abdominal cramps, some of the symptoms of irritable bowel syndrome. Clinidium (an anticholinergic agent) is the compound that ameliorates these symptoms.
+- directed: true
+  graph:
+    disease: Myocardial infarction
+    disease_mesh: MESH:D009203
+    drug: lisinopril
+    drug_mesh: MESH:D017706
+    drugbank: DB:DB00722
+  links:
+    - key: negatively regulates
+      source: MESH:D017706
+      target: UniProt:P12821
+    - key: positively regulates
+      source: UniProt:P12821
+      target: GO:0002003
+    - key: decreases abundance of
+      source: UniProt:P12821
+      target: CHEBI:3165
+    - key: negatively correlated with
+      source: CHEBI:3165
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0002003
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: affects risk for
+      source: HP:0032263
+      target: MESH:D009203
+    - key: affects risk for
+      source: GO:0042310
+      target: HP:0033401
+    - key: located in
+      source: HP:0033401
+      target: UBERON:0000948
+    - key: location of
+      source: UBERON:0000948
+      target: MESH:D009203
+  multigraph: true
+  nodes:
+    - id: MESH:D017706
+      label: Drug
+      name: lisinopril
+    - id: UniProt:P12821
+      label: Protein
+      name: Angiotensin-converting enzyme
+    - id: CHEBI:3165
+      label: ChemicalSubstance
+      name: bradykinin
+    - id: GO:0002003
+      label: BiologicalProcess
+      name: angiotensin maturation
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: HP:0033401
+      label: PhenotypicFeature
+      name: Tissue ischemia
+    - id: UBERON:0000948
+      label: GrossAnatomicalStructure
+      name: heart
+    - id: MESH:D009203
+      label: Disease
+      name: Myocardial infarction
+  reference: https://go.drugbank.com/drugs/DB00722#BE0000221 https://en.wikipedia.org/wiki/Coronary_artery_disease#Pathophysiology
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: lisinopril
+    drug_mesh: MESH:D017706
+    drugbank: DB:DB00722
+  links:
+    - key: negatively regulates
+      source: MESH:D017706
+      target: UniProt:P12821
+    - key: positively regulates
+      source: UniProt:P12821
+      target: GO:0002003
+    - key: decreases abundance of
+      source: UniProt:P12821
+      target: CHEBI:3165
+    - key: negatively correlated with
+      source: CHEBI:3165
+      target: GO:0042310      
+    - key: positively correlated with
+      source: GO:0002003
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: affects risk for
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D017706
+      label: Drug
+      name: lisinopril
+    - id: UniProt:P12821
+      label: Protein
+      name: Angiotensin-converting enzyme
+    - id: CHEBI:3165
+      label: ChemicalSubstance
+      name: bradykinin
+    - id: GO:0002003
+      label: BiologicalProcess
+      name: angiotensin maturation
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference: https://go.drugbank.com/drugs/DB00722#BE0000221
