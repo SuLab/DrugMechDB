@@ -309,22 +309,22 @@ def build_base_id(path):
     drugbank = path['graph']['drugbank']
     c_mesh = path['graph']['drug_mesh']
     d_mesh = path['graph']['disease_mesh']
-    
+
     base_id = ''
-    
+
     if not pd.isnull(drugbank):
         assert ',' not in drugbank, 'Multiple Identifers not allowed in Drugbank ID'
         base_id += drugbank.split(':')[-1]
         base_id += '_'
-        
+
     else:
         assert ',' not in c_mesh, 'Mutiple Identfier not allowed in MESH ID when Drugbank ID is missing'
         base_id += c_mesh.replace(':', '_')
         base_id += '_'
-    
+
     assert not pd.isnull(d_mesh), 'Disease Identifier is missing'
     assert ',' not in d_mesh, 'Multiple Disease Identifiers are not allowed'
-    
+
     base_id += d_mesh.replace(':', '_')
     return base_id
 
@@ -338,30 +338,67 @@ def get_base_id(path_id):
 
 
 def get_max_ids(indications):
+    # need to keep track of deprecated identifiers so nothing is repeated
+    try:
+        dep_ids = pd.read_csv('utils/depricated_ids.txt', header=None)[0].tolist()
+    except pd.errors.EmptyDataError:
+        dep_ids = []
+
     max_id = defaultdict(int)
-    for path in indications:
-        path_id = path['graph'].get('_id', None)
+
+    path_ids = [p['graph'].get('_id', None) for p in indications]
+
+    for path_id in path_ids+dep_ids:
         if path_id is not None:
             id_num = get_id_num(path_id)
             base_id = get_base_id(path_id)
-            
+
             if id_num > max_id[base_id]:
                 max_id[base_id] = id_num
-                
+
     return max_id
 
 
 def create_ids(indications):
 
     max_id = get_max_ids(indications)
-    
+
     for path in indications:
         if path['graph'].get('_id', None) is None:
             base_id = build_base_id(path)
             max_id[base_id] += 1
             path['graph']['_id'] = base_id + '_{}'.format(max_id[base_id])
     return indications
-        
+
+
+def is_same_path(path_a, path_b):
+    """Compares everything except the _id field. If the same, returns True, otherwise False"""
+    for k, v in path_a.items():
+        if k == 'graph':
+            for k1, v1 in v.items():
+                if k1 == '_id':
+                    pass
+                elif v1 != path_b[k].get(k1):
+                    return False
+        elif v != path_b.get(k):
+            return False
+    return True
+
+def is_path_in_paths(path, paths):
+    """Checks to see if the current path is in the list of paths, ignoring identifiers"""
+    for p in paths:
+        if is_same_path(p, path):
+            return True
+    return False
+
+
+def references_to_list(path):
+    ref = path.get('reference', None)
+
+    if type(ref) == str:
+        return ref.split(' ')
+    return ref
+
 
 def test_and_fix(indications):
 
@@ -470,7 +507,7 @@ def test_and_fix(indications):
         print('Build Successful')
         return indications
 
-    
+
 def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'):
 
     try:
@@ -485,12 +522,18 @@ def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'
         indications = nx.read_yaml('indication_paths.yaml')
         out = []
 
+        # Ensure nothing is duplicated
         for path in indications + submission:
-            if path not in out:
+            if not is_path_in_paths(path, out):
                 out.append(path)
 
         out = create_ids(out)
-                
+
+        # Ensure that we have a list for all references
+        for path in out:
+            if path.get('reference'):
+                path['reference'] = references_to_list(path)
+
         nx.write_yaml(out, outname, indent=4)
     else:
         sys.exit(125)
