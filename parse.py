@@ -161,8 +161,7 @@ def generate_path_pages():
             # Add references from path info if available
             if 'reference' in path:
                 ref_out = "\n  - " + "\n  - ".join([add_md_hyperlink(r) for r in path['reference']])
-                for references in path['reference']:
-                    output.write("\nReference: " + ref_out + "\n")
+                output.write("\nReference: " + ref_out + "\n")
 
             elif 'drugbank' in path["graph"]:  # generate drugbank url if no ref present
                 if path["graph"]['drugbank'] is not None:
