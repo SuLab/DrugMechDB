@@ -212,6 +212,7 @@ The predicates currently found within DrugMechDB are as follows:
 [disrupts](https://biolink.github.io/biolink-model/docs/disrupts.html)  
 [expressed in](https://biolink.github.io/biolink-model/docs/expressed_in.html)  
 [expresses](https://biolink.github.io/biolink-model/docs/expresses.html)  
+[has metabolite](https://biolink.github.io/biolink-model/docs/has_metabolite.html)  
 [has output](https://biolink.github.io/biolink-model/docs/has_output.html)  
 [has participant](https://biolink.github.io/biolink-model/docs/has_participant.html)  
 [has phenotype](https://biolink.github.io/biolink-model/docs/has_phenotype.html)  
@@ -370,18 +371,20 @@ You should look into the DrugBank identifiers given to these compounds.
 If there are two DrugBank IDs, the active and inactive compounds should be annotated in different paths. These are some examples:
 
     - [Testosterone](https://go.drugbank.com/drugs/DB00624) and [Testosterone propionate](https://go.drugbank.com/drugs/DB01420)
+    
     - [Drostanolone](https://go.drugbank.com/drugs/DB00858) and [Drostanolone propionate](https://go.drugbank.com/drugs/DB14655)
    
 If you can't find two DrugBank IDs, the active and inactive compounds should be annotated in one single path. These are some examples:
 
     - [Imidapril](https://go.drugbank.com/drugs/DB11783) and Imidaprilat
+    
     - [Vidarabine](https://go.drugbank.com/drugs/DB00194) and Vidarabine Phosphate
 
 The path could be represented as below:
 
-   `Imidapril` PRODUCES `Imidaprilat` DECREASES ACTIVITY OF `UniProt:P12821`
+   `Imidapril` HAS METABOLITE `Imidaprilat` DECREASES ACTIVITY OF `UniProt:P12821`
    
-   `Vidarabine` PRODUCES `Vidarabine Phosphate` DECREASES ACTIVITY OF `UniProt:P04293`
+   `Vidarabine` HAS METABOLITE `Vidarabine Phosphate` DECREASES ACTIVITY OF `UniProt:P04293`
 
 You can also check whether the two compounds are indicated for the different diseases or for the same disease. If they are indicated for differente diseases,
 it's likely they will be annotated as two different paths. So drug indications will further help you to decide on how to annotate prodrugs.
