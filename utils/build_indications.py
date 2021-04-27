@@ -524,15 +524,16 @@ def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'
 
         # Ensure nothing is duplicated
         for path in indications + submission:
+
+            # Ensure that we have a list for all references
+            if path.get('reference'):
+                path['reference'] = references_to_list(path)
+
             if not is_path_in_paths(path, out):
                 out.append(path)
 
         out = create_ids(out)
 
-        # Ensure that we have a list for all references
-        for path in out:
-            if path.get('reference'):
-                path['reference'] = references_to_list(path)
 
         nx.write_yaml(out, outname, indent=4)
     else:
