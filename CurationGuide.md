@@ -212,6 +212,7 @@ The predicates currently found within DrugMechDB are as follows:
 [disrupts](https://biolink.github.io/biolink-model/docs/disrupts.html)  
 [expressed in](https://biolink.github.io/biolink-model/docs/expressed_in.html)  
 [expresses](https://biolink.github.io/biolink-model/docs/expresses.html)  
+[has metabolite](https://biolink.github.io/biolink-model/docs/has_metabolite.html)  
 [has output](https://biolink.github.io/biolink-model/docs/has_output.html)  
 [has participant](https://biolink.github.io/biolink-model/docs/has_participant.html)  
 [has phenotype](https://biolink.github.io/biolink-model/docs/has_phenotype.html)  
