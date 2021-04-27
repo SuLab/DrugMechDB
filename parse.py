@@ -4,10 +4,12 @@ import networkx as nx
 import numpy as np
 import os
 import pandas as pd
+import difflib
 from path_plots import dmdb_plots as dp
 import re
 import shutil
 from yaml import safe_load
+from utils.build_indications import get_id_num
 
 
 def generate_md_header(output, title, permalink, datatable=False):
@@ -20,6 +22,14 @@ def generate_md_header(output, title, permalink, datatable=False):
         output.write("datatable: true \n")
     output.write("---\n\n")
 
+
+def generate_out_dirs():
+    to_make = ['pages/mydoc',
+               'images',
+               '_data/sidebars']
+
+    for d in to_make:
+        os.makedirs(d, exist_ok=True)
 
 def generate_home_pages():
     with open("pages/CurationGuide.md", 'w') as output:
@@ -76,14 +86,14 @@ def generate_path_pages():
                      "-|-----------------|--------------------|-------------" +
                      "---------|\n")
 
-    current_paths = []  # track drug-disease combos to avoid overwriting
-
     ax = plt.axes([0, 0, 1, 1], frameon=False)  # remove border
-    pathid = 1
     drug_sidebar_data = {}
     disease_sidebar_data = {}
 
     for path in data:
+        new_path = True
+        pathid = path['graph']['_id']
+        pathid_num = get_id_num(pathid)
         nodes = []
         edge_lookup = {}
 
@@ -92,35 +102,33 @@ def generate_path_pages():
                          node["id"] + "\n" + node["label"])
             edge_lookup[node["id"]] = nodes[len(nodes)-1]
 
-        # 2. generate and save plots
-        dp.plot_path(path)
 
-        outfile_name = (path["graph"]["drug"] + path["graph"]["disease"])
-        outfile_name = re.sub('[\W_]+', '', outfile_name).lower()
-        if outfile_name not in current_paths:  # number paths with same drug & dis
-            current_paths.append(outfile_name)
+        # 2. generate pathway pages
+        outfile_name = pathid
+        outfile_name = pathid.replace('_', '-').lower()
+
+        # Check to see if the file already exists
+        if os.path.exists("pages/mydoc/" + outfile_name + ".md"):
+            with open("pages/mydoc/" + outfile_name + ".md", 'r') as in_file:
+                old_file = in_file.readlines()
         else:
-            o_count = len([i for i in current_paths if outfile_name in i])
-            outfile_name += str(o_count + 1)
-            current_paths.append(outfile_name)
+            old_file = []
 
-        if os.path.exists("images/" + outfile_name + ".png"):
-            os.remove("images/" + outfile_name + ".png")
-        plt.savefig("images/" + outfile_name + ".png")
-
-        plt.close(fig=None)
-        ax.clear()
-
-        # 3. generate pathway pages
+        # Generate the new content
         restart_file("pages/mydoc/" + outfile_name + ".md")
-
         with open("pages/mydoc/" + outfile_name + ".md", "w") as output:
-            path_title = (path["graph"]["drug"] + " - " +
-                          path["graph"]["disease"])
+            path_title = (path["graph"]["drug"].capitalize() + " - " +
+                          path["graph"]["disease"].capitalize())
+
+            # Add numbers to title if multiple paths fo the indications
+            if pathid_num != 1:
+                path_title += ' - ' + str(pathid_num)
 
             # required header for format
             generate_md_header(
                 output=output, title=path_title, permalink=outfile_name)
+
+            output.write("\nPath ID: `" + pathid + "`\n")
 
             output.write('{% include image.html url="images/' + outfile_name + '.png" ' +
                          'file="' + outfile_name + '.png" alt="' +
@@ -157,25 +165,46 @@ def generate_path_pages():
                            "#mechanism-of-action")
                     output.write("\nReference: [" + url + "](" + url +
                                  "){:target=\"_blank\"}")
+        # Compare the new content with the old content
+        with open("pages/mydoc/" + outfile_name + ".md", 'r') as in_file:
+            new_file = in_file.readlines()
+
+        delta = list(difflib.unified_diff(old_file, new_file))
+        if delta == []:
+            new_file = False
+
+        # 3. generate and save plots
+
+        # Only remake if the files the page is new and/or different
+        # or if the image is missing
+        if new_file or not os.path.exists("images/" + outfile_name + ".png"):
+            if os.path.exists("images/" + outfile_name + ".png"):
+                os.remove("images/" + outfile_name + ".png")
+
+            dp.plot_path(path)
+            plt.savefig("images/" + outfile_name + ".png")
+
+            plt.close(fig=None)
+            ax.clear()
 
         # 4. save sidebar info for later generation
         if path["graph"]["drug"] not in drug_sidebar_data:
             drug_sidebar_data[path["graph"]["drug"]] = {
-                str(pathid) + " - " + path_title: outfile_name}
+                path_title: outfile_name}
         else:
-            drug_sidebar_data[path["graph"]["drug"]][str(
-                pathid) + " - " + path_title] = outfile_name
+            drug_sidebar_data[path["graph"]["drug"]][
+                path_title] = outfile_name
 
         if path["graph"]["disease"] not in disease_sidebar_data:
             disease_sidebar_data[path["graph"]["disease"]] = {
-                str(pathid) + " - " + path_title: outfile_name}
+                path_title: outfile_name}
         else:
-            disease_sidebar_data[path["graph"]["disease"]][str(
-                pathid) + " - " + path_title] = outfile_name
+            disease_sidebar_data[path["graph"]["disease"]][
+                path_title] = outfile_name
 
         # 5. add entry to jquery table for overview page
         with open("pages/mydoc/overview.md", "a") as output:
-            output.write("| [" + str(pathid) + "](" + outfile_name + ".html" + ") | "
+            output.write("| [" + pathid + "](" + outfile_name + ".html" + ") | "
                          + path["graph"]["drug"] + " | "
                          + str(path["graph"]["drugbank"]) + " | "
                          + str(path["graph"]["drug_mesh"]) + " | "
@@ -183,7 +212,6 @@ def generate_path_pages():
                          + str(path["graph"]["disease_mesh"]) + " | "
                          + str(len(path["nodes"])) + " | "
                          + str(len(path["links"])) + " |\n")
-        pathid += 1
 
     # 6. generate footer for overview table
     with open("pages/mydoc/overview.md", "a") as output:
@@ -212,7 +240,10 @@ def generate_sidebar(drug_sidebar_data, disease_sidebar_data):
     restart_sidebar()
     with open("_data/sidebars/mydoc_sidebar.yml", 'a') as sidebar:
         sidebar.write("      subfolders:\n")
-        for key, value in drug_sidebar_data.items():
+        # Sort alpha so easier to find
+        sorted_drug_keys = sorted(drug_sidebar_data.keys())
+        for key in sorted_drug_keys:
+            value = drug_sidebar_data[key]
             sidebar.write("      - title: " + key + "\n")
             sidebar.write("        output: web\n")
             sidebar.write("        subfolderitems:\n\n")
@@ -227,7 +258,10 @@ def generate_sidebar(drug_sidebar_data, disease_sidebar_data):
         sidebar.write("      url: /overview.html\n")
         sidebar.write("      output: web, pdf\n\n")
         sidebar.write("      subfolders:\n")
-        for key, value in disease_sidebar_data.items():
+        # Sort Alpha so easy to find
+        sorted_disease_keys = sorted(disease_sidebar_data.keys())
+        for key in sorted_disease_keys:
+            value = disease_sidebar_data[key]
             sidebar.write("      - title: " + key + "\n")
             sidebar.write("        output: web\n")
             sidebar.write("        subfolderitems:\n\n")
@@ -238,6 +272,7 @@ def generate_sidebar(drug_sidebar_data, disease_sidebar_data):
 
 
 def main():
+    generate_out_dirs()
     generate_home_pages()
     drug_sidebar_data, disease_sidebar_data = generate_path_pages()
     generate_sidebar(drug_sidebar_data, disease_sidebar_data)
