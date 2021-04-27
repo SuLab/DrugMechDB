@@ -158,13 +158,20 @@ def generate_path_pages():
                     comment = add_md_hyperlink(path["comment"])
                     output.write("\nComment: " + comment + "\n")
 
-            if 'drugbank' in path["graph"]:  # generate drugbank url if available
+            # Add references from path info if available
+            if 'reference' in path:
+                ref_out = "  - " + "\n  - ".join([add_md_hyperlink(r) for r in path['reference']]
+                for references in path['reference']:
+                    output.write("\nReference: \n" + ref_out + "\n")
+
+            elif 'drugbank' in path["graph"]:  # generate drugbank url if no ref present
                 if path["graph"]['drugbank'] is not None:
                     url = ("https://go.drugbank.com/drugs/" +
                            path['graph']['drugbank'].split(':', 1)[1] +
                            "#mechanism-of-action")
                     output.write("\nReference: [" + url + "](" + url +
                                  "){:target=\"_blank\"}")
+
         # Compare the new content with the old content
         with open("pages/mydoc/" + outfile_name + ".md", 'r') as in_file:
             new_file = in_file.readlines()
