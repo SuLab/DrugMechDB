@@ -60,7 +60,7 @@ Example:
         disease_mesh: MESH:D007634
         drug: cortisone acetate
         drug_mesh: MESH:D003348
-        drugbank: DB01380
+        drugbank: DB:DB01380
 
 #### Links
 
@@ -137,17 +137,17 @@ Each record is to be annotated with a `reference` key linking to the data source
 Example:
 
     reference: https://go.drugbank.com/drugs/DB01380#mechanism-of-action
-    
+
 #### Additional keys
 
 To aid in machine readability two additional keys are required, `multigraph` and `directed` both being set to `true`.
 
 Example:
-    
+
     -   directed: true
         multigraph: true
 
-    
+
 ## Sources
 
 Records from DrugMechDB should be curated from secondary sources. The primary source for curation is the
@@ -186,7 +186,7 @@ from one of these sources cannot be found for a concept, identifiers listed on t
 |[ChemicalSubstance](https://biolink.github.io/biolink-model/docs/ChemicalSubstance.html)  |  [MESH](https://meshb.nlm.nih.gov/), [CHEBI](https://www.ebi.ac.uk/chebi/) |
 |[Disease](https://biolink.github.io/biolink-model/docs/Disease.html)  |  [MESH](https://meshb.nlm.nih.gov/)  |
 |[Drug](https://biolink.github.io/biolink-model/docs/Drug.html)  |  [MESH](https://meshb.nlm.nih.gov/), [DrugBank](https://go.drugbank.com/) |
-|[GeneFamily](https://biolink.github.io/biolink-model/docs/GeneFamily.html)  |  [InterPro](https://www.ebi.ac.uk/interpro/) |
+|[GeneFamily](https://biolink.github.io/biolink-model/docs/GeneFamily.html)  |  [InterPro](https://www.ebi.ac.uk/interpro/), [Pfam](https://pfam.xfam.org/) |
 |[GrossAnatomicalStructure](https://biolink.github.io/biolink-model/docs/GrossAnatomicalStructure.html)  |  [UBERON](https://www.ebi.ac.uk/ols/ontologies/uberon)  |
 |[MacromolecularComplex](https://biolink.github.io/biolink-model/docs/MacromolecularComplexMixin.html)  |  [PR](https://www.ebi.ac.uk/ols/ontologies/pr)  |
 |[MolecularActivity](https://biolink.github.io/biolink-model/docs/MolecularActivity.html)  |  [GO](http://geneontology.org/)  |
@@ -218,6 +218,7 @@ The predicates currently found within DrugMechDB are as follows:
 [disrupts](https://biolink.github.io/biolink-model/docs/disrupts.html)  
 [expressed in](https://biolink.github.io/biolink-model/docs/expressed_in.html)  
 [expresses](https://biolink.github.io/biolink-model/docs/expresses.html)  
+[has metabolite](https://biolink.github.io/biolink-model/docs/has_metabolite.html)  
 [has output](https://biolink.github.io/biolink-model/docs/has_output.html)  
 [has participant](https://biolink.github.io/biolink-model/docs/has_participant.html)  
 [has phenotype](https://biolink.github.io/biolink-model/docs/has_phenotype.html)  
@@ -308,7 +309,7 @@ drug's mechanistic details catalogued. In this instance please include a comment
 - **The drug is actually contraindicated for the disease** In this case, if possible, a path with mechanism of the
  contraindication would be something that could potentially be curated. Also, please provide a comment for the path that includes
  the word 'contraindication'.
- 
+
  - **There is no information under any (reasonable) source for this indication** This happens. Some drugs just work
  without a large amount of scientific description of the mechanism of action. In  this case please provide a single-link path that
  essentially consists of a "Drug treats Disease" path that will serve as an indicator to future curators that someone has
@@ -337,7 +338,8 @@ the base repository.
 ### Is there somewhere I can validate/visualize my path?
 
 Yes! We've added a jupyter notebook that can be used to visalize paths.
-It can be executed by following [this link to Google CoLab](https://colab.research.google.com/github/SuLab/DrugMechDB/blob/master/path_visualization.ipynb).
+It can be executed by following [this link to Google CoLab](
+https://colab.research.google.com/github/SuLab/DrugMechDB/blob/master/path_visualization.ipynb).
 
 To run this code, copy paste your YAML code for **one** path into cell
 number 2 and then  click `Runtime>Run all` and the CoLab notebook
@@ -363,4 +365,43 @@ In this case there are two options. 1. Choose a specific species and annotate a 
 proteins of that species and that species as *a* cause of the general bacterial infection. 2. Use the family of
 proteins from a source like InterPro that are involved within this mechanism. Choice 1 is generally preferred to
 choice 2, but either are fine.
+
+### How should I annotate prodrugs and their pharmacologically inactive compounds?
+
+[Prodrugs](https://en.wikipedia.org/wiki/Prodrug) are compounds that are converted within the body into a
+pharmacologically active drug. The way you annotate the active and inactive forms of these compounds
+(whether within the same path or as separate paths) should be assessed on a case by case basis. 
+
+You should look into the DrugBank identifiers given to these compounds.
+
+If there are two DrugBank IDs, the active and inactive compounds should be annotated in different paths. These are some examples:
+
+    - [Testosterone](https://go.drugbank.com/drugs/DB00624) and [Testosterone propionate](https://go.drugbank.com/drugs/DB01420)
+    
+    - [Drostanolone](https://go.drugbank.com/drugs/DB00858) and [Drostanolone propionate](https://go.drugbank.com/drugs/DB14655)
+   
+If you can't find two DrugBank IDs, the active and inactive compounds should be annotated in one single path. These are some examples:
+
+    - [Imidapril](https://go.drugbank.com/drugs/DB11783) and Imidaprilat
+    
+    - [Vidarabine](https://go.drugbank.com/drugs/DB00194) and Vidarabine Phosphate
+
+The path could be represented as below:
+
+   `Imidapril` HAS METABOLITE `Imidaprilat` DECREASES ACTIVITY OF `UniProt:P12821`
+   
+   `Vidarabine` HAS METABOLITE `Vidarabine Phosphate` DECREASES ACTIVITY OF `UniProt:P04293`
+
+You can also check whether the two compounds are indicated for the different diseases or for the same disease. If they are indicated for differente diseases,
+it's likely they will be annotated as two different paths. So drug indications will further help you to decide on how to annotate prodrugs.
+
+### I'm not sure which biolink predicate to use. Any helpful hits?
+
+In the Biolink model, some predicates are only allowed certain types of nodes at the start and the end of the edge.
+[This file](https://github.com/SuLab/DrugMechDB/blob/main/utils/dmdb_to_bl_map.csv) contains predicates and their
+freqency in the first 100 or so paths curated for DrugMechDB. The columns `start_bl`, `type_bl`, and `end_bl` contain
+the concept type and predicate information for the edge in the Biolink model used by DrugMechDB. The other columns
+(`me` for example) contain concept types and predicates from other data models in repurposing space, like those
+from the [hetionet model](https://github.com/hetio/hetionet).
+
 
