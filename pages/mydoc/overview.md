@@ -1952,6 +1952,30 @@ datatable: true
 | [DB12161_MESH_D000071057_1](db12161-mesh-d000071057-1.html) | deutetrabenazine | DB:DB12161 | MESH:C000609690 | Tardive dyskinesia | MESH:D000071057 | 7 | 6 |
 | [DB12161_MESH_D006816_1](db12161-mesh-d006816-1.html) | deutetrabenazine | DB:DB12161 | MESH:C000609690 | Huntington's chorea | MESH:D006816 | 7 | 6 |
 | [DB12930_MESH_D003866_1](db12930-mesh-d003866-1.html) | opipramol | DB:DB12930 | MESH:D009888 | Depressive disorder | MESH:D003866 | 4 | 3 |
+| [DB01063_MESH_D011618_1](db01063-mesh-d011618-1.html) | Acetophenazine | DB:DB01063 | MESH:C100162 | Psychotic disorder | MESH:D011618 | 7 | 7 |
+| [DB08874_MESH_D004761_1](db08874-mesh-d004761-1.html) | Fidaxomicin | DB:DB08874 | None | Pseudomembranous enterocolitis | MESH:D004761 | 5 | 4 |
+| [DB08874_MESH_D003015_1](db08874-mesh-d003015-1.html) | Fidaxomicin | DB:DB08874 | None | Clostridium difficile infection | MESH:D003015 | 5 | 4 |
+| [DB00014_MESH_D004715_1](db00014-mesh-d004715-1.html) | Goserelin | DB:DB00014 | MESH:D017273 | Endometriosis | MESH:D004715 | 7 | 7 |
+| [DB00068_MESH_D020529_1](db00068-mesh-d020529-1.html) | Interferon beta-1b | DB:DB00068 | MESH:D000068576 | Relapsing remitting multiple sclerosis | MESH:D020529 | 11 | 13 |
+| [DB14655_MESH_D001943_1](db14655-mesh-d001943-1.html) | Drostanolone propionate | DB:DB14655 | MESH:C007561 | Malignant tumor of breast | MESH:D001943 | 8 | 9 |
+| [DB00382_MESH_D000544_1](db00382-mesh-d000544-1.html) | Tacrine | DB:DB00382 | MESH:D013619 | Alzheimer's disease | MESH:D000544 | 5 | 4 |
+| [DB00592_MESH_D001196_1](db00592-mesh-d001196-1.html) | Piperazine | DB:DB00592 | None | Ascariasis | MESH:D001196 | 9 | 9 |
+| [DB00592_MESH_D017229_1](db00592-mesh-d017229-1.html) | Piperazine | DB:DB00592 | None | Enterobiasis | MESH:D017229 | 9 | 9 |
+| [DB14655_MESH_D001943_2](db14655-mesh-d001943-2.html) | Drostanolone propionate | DB:DB14655 | MESH:C007561 | Breast Neoplasms | MESH:D001943 | 5 | 4 |
+| [DB00858_MESH_D001943_1](db00858-mesh-d001943-1.html) | Drostanolone | DB:DB00858 | MESH:C100263 | Breast Neoplasms | MESH:D001943 | 5 | 4 |
+| [DB04844_MESH_D006816_1](db04844-mesh-d006816-1.html) | Tetrabenazine | DB:DB04844 | MESH:D013747 | Huntington Disease | MESH:D006816 | 6 | 5 |
+| [DB07615_MESH_D001249_1](db07615-mesh-d001249-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Asthma | MESH:D001249 | 6 | 5 |
+| [DB07615_MESH_D001249_2](db07615-mesh-d001249-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Asthma | MESH:D001249 | 7 | 7 |
+| [DB07615_MESH_D065631_1](db07615-mesh-d065631-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
+| [DB07615_MESH_D065631_2](db07615-mesh-d065631-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Allergic rhinitis | MESH:D065631 | 7 | 7 |
+| [DB07615_MESH_D003876_1](db07615-mesh-d003876-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Atopic dermatitis | MESH:D003876 | 6 | 5 |
+| [DB07615_MESH_D003876_2](db07615-mesh-d003876-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Atopic dermatitis | MESH:D003876 | 7 | 7 |
+| [DB07615_MESH_D007627_1](db07615-mesh-d007627-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Keloid scar | MESH:D007627 | 6 | 5 |
+| [DB07615_MESH_D007627_2](db07615-mesh-d007627-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Keloid scar | MESH:D007627 | 7 | 7 |
+| [DB07615_MESH_D017439_1](db07615-mesh-d017439-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Hypertrophic scar | MESH:D017439 | 6 | 5 |
+| [DB07615_MESH_D017439_2](db07615-mesh-d017439-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Hypertrophic scar | MESH:D017439 | 7 | 7 |
+| [DB07615_MESH_D007627_3](db07615-mesh-d007627-3.html) | Tranilast | DB:DB07615 | MESH:C012293 | Keloid scar | MESH:D007627 | 6 | 5 |
+| [DB07615_MESH_D017439_3](db07615-mesh-d017439-3.html) | Tranilast | DB:DB07615 | MESH:C012293 | Hypertrophic scar | MESH:D017439 | 6 | 5 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
