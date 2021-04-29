@@ -103758,3 +103758,1072 @@
     - https://pubchem.ncbi.nlm.nih.gov/compound/Tranilast#section=MeSH-Pharmacological-Classification
     - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1527-3466.1998.tb00359.x
     - https://newdrugapprovals.org/2020/02/28/tranilast/
+-   directed: true
+    graph:
+        _id: DB00701_MESH_D015658_1
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: amprenavir
+        drug_mesh: MESH:C095108
+        drugbank: DB:DB00701
+    links:
+    -   key: decreases activity of
+        source: MESH:C095108
+        target: UniProt:Q72874
+    -   key: increases activity of
+        source: UniProt:Q72874
+        target: UniProt:P04585
+    -   key: participates in
+        source: UniProt:P04585
+        target: GO:0019068
+    -   key: in taxon
+        source: GO:0019068
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:C095108
+        label: Drug
+        name: Amprenavir
+    -   id: UniProt:Q72874
+        label: Protein
+        name: Protease
+    -   id: UniProt:P04585
+        label: Protein
+        name: Gag-Pol polyprotein
+    -   id: GO:0019068
+        label: BiologicalProcess
+        name: Virion assembly
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference:
+    - https://go.drugbank.com/drugs/DB00701#BE0004854
+-   directed: true
+    graph:
+        _id: DB00836_MESH_D003967_1
+        disease: Diarrhea
+        disease_mesh: MESH:D003967
+        drug: loperamide
+        drug_mesh: MESH:D008139
+        drugbank: DB:DB00836
+    links:
+    -   key: increases activity of
+        source: MESH:D008139
+        target: UniProt:P35372
+    -   key: decreases activity of
+        source: UniProt:P35372
+        target: UBERON:0002439
+    -   key: positively regulates
+        source: UBERON:0002439
+        target: UBERON:0004221
+    -   key: participates in
+        source: UBERON:0004221
+        target: GO:0120054
+    -   key: positively regulates
+        source: GO:0120054
+        target: GO:0030421
+    -   key: positively correlated with
+        source: GO:0030421
+        target: MESH:D003967
+    multigraph: true
+    nodes:
+    -   id: MESH:D008139
+        label: Drug
+        name: Loperamide
+    -   id: UniProt:P35372
+        label: Protein
+        name: Mu-type opioid receptor
+    -   id: UBERON:0002439
+        label: GrossAnatomicalStructure
+        name: Myenteric nerve plexus
+    -   id: UBERON:0004221
+        label: GrossAnatomicalStructure
+        name: Intestine smooth muscle
+    -   id: GO:0120054
+        label: BiologicalProcess
+        name: Intestinal motility
+    -   id: GO:0030421
+        label: BiologicalProcess
+        name: Defecation
+    -   id: MESH:D003967
+        label: Disease
+        name: Diarrhea
+    reference:
+    - https://go.drugbank.com/drugs/DB00836#BE0000770
+-   comment: Norgestimate is formulated with ethinylestradiol as a combined oral contraceptive
+        . The norgestimate on it's own is not sufficient for a therapeutic effect.
+    directed: true
+    graph:
+        _id: DB00957_MESH_D019584_1
+        disease: Menopausal flushing
+        disease_mesh: MESH:D019584
+        drug: norgestimate
+        drug_mesh: MESH:C017576
+        drugbank: DB:DB00957
+    links:
+    -   key: increases activity of
+        source: MESH:C017576
+        target: UniProt:P06401
+    -   key: positively regulates
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: treats
+        source: GO:0050847
+        target: MESH:D019584
+    -   key: increases activity of
+        source: MESH:C017576
+        target: UniProt:P03372
+    -   key: positively regulates
+        source: UniProt:P03372
+        target: GO:0030520
+    -   key: treats
+        source: GO:0030520
+        target: MESH:D019584
+    multigraph: true
+    nodes:
+    -   id: MESH:C017576
+        label: Drug
+        name: Norgestimate
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor
+    -   id: GO:0030520
+        label: BiologicalProcess
+        name: Intracellular estrogen receptor signaling pathway
+    -   id: MESH:D019584
+        label: Disease
+        name: Menopausal flushing
+    reference:
+    - https://go.drugbank.com/drugs/DB00957
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200934/
+    - https://en.wikipedia.org/wiki/Norgestimate
+-   comment: Norgestimate is formulated with ethinylestradiol as a combined oral contraceptive
+        . The norgestimate on it's own is not sufficient for a therapeutic effect.
+    directed: true
+    graph:
+        _id: DB00957_MESH_D059268_1
+        disease: Atrophic vaginitis
+        disease_mesh: MESH:D059268
+        drug: norgestimate
+        drug_mesh: MESH:C017576
+        drugbank: DB:DB00957
+    links:
+    -   key: increases activity of
+        source: MESH:C017576
+        target: UniProt:P06401
+    -   key: positively regulates
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: treats
+        source: GO:0050847
+        target: MESH:D059268
+    -   key: increases activity of
+        source: MESH:C017576
+        target: UniProt:P03372
+    -   key: positively regulates
+        source: UniProt:P03372
+        target: GO:0030520
+    -   key: treats
+        source: GO:0030520
+        target: MESH:D059268
+    multigraph: true
+    nodes:
+    -   id: MESH:C017576
+        label: Drug
+        name: Norgestimate
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor
+    -   id: GO:0030520
+        label: BiologicalProcess
+        name: Intracellular estrogen receptor signaling pathway
+    -   id: MESH:D059268
+        label: Disease
+        name: Atrophic vaginitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00957
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200934/
+    - https://en.wikipedia.org/wiki/Norgestimate
+-   comment: Norgestimate is formulated with ethinylestradiol as a combined oral contraceptive.
+        The norgestimate on it's own is not sufficient for a therapeutic effect.
+    directed: true
+    graph:
+        _id: DB00957_MESH_D000152_1
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: norgestimate
+        drug_mesh: MESH:C017576
+        drugbank: DB:DB00957
+    links:
+    -   key: negatively regulates
+        source: MESH:C017576
+        target: UBERON:0004092
+    -   key: positively regulates
+        source: UBERON:0004092
+        target: GO:0006702
+    -   key: increases abundance of
+        source: GO:0006702
+        target: MESH:D000728
+    -   key: positively regulates
+        source: MESH:D000728
+        target: CL:0000317
+    -   key: positively regulates
+        source: MESH:C017576
+        target: MESH:D012738
+    -   key: decreases abundance of
+        source: MESH:D012738
+        target: MESH:D013739
+    -   key: positively regulates
+        source: MESH:D013739
+        target: CL:0000317
+    -   key: positively correlated with
+        source: CL:0000317
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:C017576
+        label: Drug
+        name: Norgestimate
+    -   id: UBERON:0004092
+        label: GrossAnatomicalStructure
+        name: Hypothalamus-pituitary axis
+    -   id: GO:0006702
+        label: BiologicalProcess
+        name: Androgen biosynthetic process
+    -   id: MESH:D000728
+        label: ChemicalSubstance
+        name: Androgens
+    -   id: CL:0000317
+        label: Cell
+        name: Sebum secreting cell
+    -   id: MESH:D012738
+        label: ChemicalSubstance
+        name: Sex Hormone-Binding Globulin
+    -   id: MESH:D013739
+        label: ChemicalSubstance
+        name: Testosterone
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference:
+    - https://go.drugbank.com/drugs/DB00957#BE0000123
+-   directed: true
+    graph:
+        _id: DB01235_MESH_D020734_1
+        disease: Parkinsonism
+        disease_mesh: MESH:D020734
+        drug: melevodopa
+        drug_mesh: MESH:C035420
+        drugbank: DB:DB01235
+    links:
+    -   key: increases activity of
+        source: MESH:C035420
+        target: UniProt:P21728
+    -   key: increases activity of
+        source: MESH:C035420
+        target: UniProt:P21918
+    -   key: increases activity of
+        source: MESH:C035420
+        target: UniProt:P14416
+    -   key: increases activity of
+        source: MESH:C035420
+        target: UniProt:P35462
+    -   key: increases activity of
+        source: MESH:C035420
+        target: UniProt:P21917
+    -   key: positively correlated with
+        source: UniProt:P21917
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P21728
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P21728
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P21918
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: negatively correlated with
+        source: GO:0061527
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
+        target: MESH:D020734
+    multigraph: true
+    nodes:
+    -   id: MESH:C035420
+        label: Drug
+        name: Melevodopa
+    -   id: UniProt:P21728
+        label: Protein
+        name: D(1A) dopamine receptor
+    -   id: UniProt:P21918
+        label: Protein
+        name: D(1B) dopamine receptor
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: UniProt:P35462
+        label: Protein
+        name: D(3) dopamine receptor
+    -   id: UniProt:P21917
+        label: Protein
+        name: D(4) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
+    -   id: MESH:D020734
+        label: Disease
+        name: Parkinsonism
+    reference:
+    - https://go.drugbank.com/drugs/DB01235#BE0000145
+-   directed: true
+    graph:
+        _id: DB01274_MESH_D029481_1
+        disease: Chronic bronchitis
+        disease_mesh: MESH:D029481
+        drug: arformoterol
+        drug_mesh: null
+        drugbank: DB:DB01274
+    links:
+    -   key: increases activity of
+        source: DB:DB01274
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006939
+    -   key: occurs in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: MESH:D029481
+    multigraph: true
+    nodes:
+    -   id: DB:DB01274
+        label: Drug
+        name: Arformoterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: Bronchus
+    -   id: MESH:D029481
+        label: Disease
+        name: Chronic bronchitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01274
+-   directed: true
+    graph:
+        _id: DB01274_MESH_D029424_1
+        disease: Chronic obstructive lung disease
+        disease_mesh: MESH:D029424
+        drug: arformoterol
+        drug_mesh: null
+        drugbank: DB:DB01274
+    links:
+    -   key: increases activity of
+        source: DB:DB01274
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006939
+    -   key: occurs in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: affected by
+        source: UBERON:0002185
+        target: MESH:D029424
+    multigraph: true
+    nodes:
+    -   id: DB:DB01274
+        label: Drug
+        name: Arformoterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: Bronchus
+    -   id: MESH:D029424
+        label: Disease
+        name: Chronic obstructive lung disease
+    reference:
+    - https://go.drugbank.com/drugs/DB01274
+-   directed: true
+    graph:
+        _id: DB01274_MESH_D011656_1
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: arformoterol
+        drug_mesh: null
+        drugbank: DB:DB01274
+    links:
+    -   key: increases activity of
+        source: DB:DB01274
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006939
+    -   key: occurs in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: MESH:D029481
+    -   key: correlated with
+        source: MESH:D029481
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: DB:DB01274
+        label: Drug
+        name: Arformoterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: Bronchus
+    -   id: MESH:D029481
+        label: Disease
+        name: Chronic bronchitis
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference:
+    - https://go.drugbank.com/drugs/DB01274
+-   directed: true
+    graph:
+        _id: DB05246_MESH_D004832_1
+        disease: Absence seizure
+        disease_mesh: MESH:D004832
+        drug: methsuximide
+        drug_mesh: MESH:C100286
+        drugbank: DB:DB05246
+    links:
+    -   key: decreases activity of
+        source: MESH:C100286
+        target: UniProt:O43497
+    -   key: positively regulates
+        source: UniProt:O43497
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0007268
+    -   key: correlated with
+        source: GO:0007268
+        target: HP:0012535
+    -   key: correlated with
+        source: HP:0012535
+        target: HP:0002121
+    -   key: positively correlated with
+        source: HP:0002121
+        target: MESH:D004832
+    multigraph: true
+    nodes:
+    -   id: MESH:C100286
+        label: Drug
+        name: methsuximide
+    -   id: UniProt:O43497
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1G
+    -   id: GO:0007268
+        label: BiologicalProcess
+        name: Chemical synaptic transmission
+    -   id: HP:0012535
+        label: PhenotypicFeature
+        name: Abnormal synaptic transmission
+    -   id: HP:0002121
+        label: PhenotypicFeature
+        name: Generalized non-motor (absence) seizure
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: MESH:D004832
+        label: Disease
+        name: Absence seizure
+    reference:
+    - https://go.drugbank.com/drugs/DB05246
+-   directed: true
+    graph:
+        _id: DB05246_MESH_D004827_1
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: methsuximide
+        drug_mesh: MESH:C100286
+        drugbank: DB:DB05246
+    links:
+    -   key: decreases activity of
+        source: MESH:C100286
+        target: UniProt:O43497
+    -   key: positively regulates
+        source: UniProt:O43497
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0007268
+    -   key: correlated with
+        source: GO:0007268
+        target: HP:0012535
+    -   key: occurs in
+        source: HP:0012535
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:C100286
+        label: Drug
+        name: methsuximide
+    -   id: UniProt:O43497
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1G
+    -   id: GO:0007268
+        label: BiologicalProcess
+        name: Chemical synaptic transmission
+    -   id: HP:0012535
+        label: PhenotypicFeature
+        name: Abnormal synaptic transmission
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference:
+    - https://go.drugbank.com/drugs/DB05246
+-   directed: true
+    graph:
+        _id: DB06402_MESH_D018410_1
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: telavancin
+        drug_mesh: MESH:C487637
+        drugbank: DB:DB06402
+    links:
+    -   key: negatively regulates
+        source: MESH:C487637
+        target: GO:0009273
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:2
+    -   key: disrupts
+        source: MESH:C487637
+        target: GO:0030322
+    -   key: in taxon
+        source: GO:0030322
+        target: NCBITaxon:2
+    -   key: negatively regulates
+        source: MESH:C487637
+        target: GO:0090559
+    -   key: in taxon
+        source: GO:0090559
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:C487637
+        label: Drug
+        name: Telavancin
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: GO:0030322
+        label: BiologicalProcess
+        name: Stabilization of membrane potential
+    -   id: GO:0090559
+        label: BiologicalProcess
+        name: Regulation of membrane permeability
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB06402
+-   directed: true
+    graph:
+        _id: DB08895_MESH_D001172_1
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: tofacitinib
+        drug_mesh: MESH:C479163
+        drugbank: DB:DB08895
+    links:
+    -   key: decreases activity of
+        source: MESH:C479163
+        target: UniProt:P23458
+    -   key: positively regulates
+        source: UniProt:P23458
+        target: GO:0007259
+    -   key: decreases activity of
+        source: MESH:C479163
+        target: UniProt:P52333
+    -   key: positively regulates
+        source: UniProt:P52333
+        target: GO:0007259
+    -   key: participates in
+        source: GO:0007259
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: InterPro:IPR000975
+    -   key: positively correlated with
+        source: GO:0006954
+        target: UniProt:P05231
+    -   key: positively correlated with
+        source: GO:0006954
+        target: GO:0032640
+    -   key: positively correlated with
+        source: InterPro:IPR000975
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: UniProt:P05231
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: GO:0032640
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C479163
+        label: Drug
+        name: Tofacitinib
+    -   id: UniProt:P23458
+        label: Protein
+        name: Tyrosine-protein kinase JAK1
+    -   id: UniProt:P52333
+        label: Protein
+        name: Tyrosine-protein kinase JAK3
+    -   id: GO:0007259
+        label: BiologicalProcess
+        name: Receptor signaling pathway via JAK-STAT
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: InterPro:IPR000975
+        label: GeneFamily
+        name: Interleukin-1 family
+    -   id: UniProt:P05231
+        label: Protein
+        name: Interleukin-6
+    -   id: GO:0032640
+        label: BiologicalProcess
+        name: BiologicalProcess
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB08895#BE0004145
+    - https://en.wikipedia.org/wiki/Rheumatoid_arthritis#Pathophysiology
+-   directed: true
+    graph:
+        _id: DB08941_MESH_D014652_1
+        disease: Disorder of blood vessel
+        disease_mesh: MESH:D014652
+        drug: isoxsuprine
+        drug_mesh: MESH:D007556
+        drugbank: DB:DB08941
+    links:
+    -   key: increases activity of
+        source: MESH:D007556
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: GO:0044557
+    -   key: positively regulates
+        source: GO:0044557
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: MESH:D014652
+    multigraph: true
+    nodes:
+    -   id: MESH:D007556
+        label: Drug
+        name: Isoxsuprine
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: MESH:D014652
+        label: Disease
+        name: Disorder of blood vessel
+    reference:
+    - https://go.drugbank.com/drugs/DB08941
+    - https://en.wikipedia.org/wiki/Isoxsuprine
+    - https://en.wikipedia.org/wiki/Vascular_disease
+-   directed: true
+    graph:
+        _id: DB08941_MESH_D014652_2
+        disease: Disorder of blood vessel
+        disease_mesh: MESH:D014652
+        drug: isoxsuprine
+        drug_mesh: MESH:D007556
+        drugbank: DB:DB08941
+    links:
+    -   key: increases activity of
+        source: MESH:D007556
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: GO:0044557
+    -   key: positively regulates
+        source: GO:0044557
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: HP:0000822
+    -   key: affects risk for
+        source: HP:0000822
+        target: MESH:D014652
+    multigraph: true
+    nodes:
+    -   id: MESH:D007556
+        label: Drug
+        name: Isoxsuprine
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D014652
+        label: Disease
+        name: Disorder of blood vessel
+    reference:
+    - https://go.drugbank.com/drugs/DB08941
+    - https://en.wikipedia.org/wiki/Isoxsuprine
+    - https://en.wikipedia.org/wiki/Cerebrovascular_disease
+-   directed: true
+    graph:
+        _id: DB08941_MESH_D011928_1
+        disease: Raynaud's disease
+        disease_mesh: MESH:D011928
+        drug: isoxsuprine
+        drug_mesh: MESH:D007556
+        drugbank: DB:DB08941
+    links:
+    -   key: increases activity of
+        source: MESH:D007556
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: GO:0044557
+    -   key: positively regulates
+        source: GO:0044557
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: MESH:D011928
+    multigraph: true
+    nodes:
+    -   id: MESH:D007556
+        label: Drug
+        name: Isoxsuprine
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: MESH:D011928
+        label: Disease
+        name: Raynaud's disease
+    reference:
+    - https://go.drugbank.com/drugs/DB08941
+    - https://en.wikipedia.org/wiki/Isoxsuprine
+    - https://en.wikipedia.org/wiki/Raynaud_syndrome
+-   directed: true
+    graph:
+        _id: DB09108_MESH_D006467_1
+        disease: Hereditary factor VIII deficiency disease
+        disease_mesh: MESH:D006467
+        drug: simoctocog alfa
+        drug_mesh: null
+        drugbank: DB:DB09108
+    links:
+    -   key: chemically similar to
+        source: DB:DB09108
+        target: MESH:D005169
+    -   key: increases activity of
+        source: MESH:D005169
+        target: UniProt:P00742
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0003809
+    -   key: positively regulates
+        source: GO:0003809
+        target: GO:0072378
+    -   key: negatively correlated with
+        source: GO:0072378
+        target: MESH:D006467
+    multigraph: true
+    nodes:
+    -   id: DB:DB09108
+        label: Drug
+        name: Simoctocog alfa
+    -   id: MESH:D005169
+        label: ChemicalSubstance
+        name: Factor VIII
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: GO:0003809
+        label: BiologicalProcess
+        name: Obsolete thrombin activity
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D006467
+        label: Disease
+        name: Hereditary factor VIII deficiency disease
+    reference:
+    - https://go.drugbank.com/drugs/DB09108
+-   directed: true
+    graph:
+        _id: DB09299_MESH_D003866_1
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: pirlindole
+        drug_mesh: MESH:C009830
+        drugbank: DB:DB09299
+    links:
+    -   key: decreases activity of
+        source: MESH:C009830
+        target: UniProt:P21397
+    -   key: decreases abundance of
+        source: UniProt:P21397
+        target: MESH:D012701
+    -   key: decreases abundance of
+        source: UniProt:P21397
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0099153
+    -   key: disrupted by
+        source: GO:0099153
+        target: MESH:D003866
+    -   key: negatively regulates
+        source: MESH:C009830
+        target: GO:0051620
+    -   key: negatively regulates
+        source: MESH:C009830
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0099155
+    -   key: disrupted by
+        source: GO:0099155
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:C009830
+        label: Drug
+        name: Pirlindole
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase [flavin-containing] A
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0099153
+        label: BiologicalProcess
+        name: Synaptic transmission, serotonergic
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Norepinephrine uptake
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: GO:0099155
+        label: BiologicalProcess
+        name: Synaptic transmission, noradrenergic
+    -   id: MESH:D003866
+        label: Drug
+        name: Depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB09244
+-   comment: Tenofovir alafenamide is a prodrug of tenofovir. It is usually combined
+        with other aniviral drugs, such as emtricitabine and bictegravir,for the treatment
+        of HIV-1 infection.
+    directed: true
+    graph:
+        _id: DB09299_MESH_D015658_1
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: tenofovir alafenamide
+        drug_mesh: MESH:C442442
+        drugbank: DB:DB09299
+    links:
+    -   key: has metabolite
+        source: MESH:C442442
+        target: MESH:D000068698
+    -   key: decreases activity of
+        source: MESH:D000068698
+        target: UniProt:Q72547
+    -   key: positively regulates
+        source: UniProt:Q72547
+        target: GO:0003964
+    -   key: positively regulates
+        source: GO:0003964
+        target: GO:0039695
+    -   key: causes
+        source: NCBITaxon:12721
+        target: MESH:D015658
+    -   key: negatively regulates
+        source: MESH:D000068698
+        target: GO:0039695
+    -   key: part of
+        source: GO:0039695
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:12721
+    -   key: causes
+        source: NCBITaxon:12721
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:C442442
+        label: Drug
+        name: Tenofovir alafenamide
+    -   id: MESH:D000068698
+        label: ChemicalSubstance
+        name: Tenofovir
+    -   id: UniProt:Q72547
+        label: Protein
+        name: Reverse transcriptase/RNaseH (Human immunodeficiency virus 1)
+    -   id: GO:0003964
+        label: BiologicalProcess
+        name: RNA-directed DNA polymerase activity
+    -   id: NCBITaxon:12721
+        label: OrganismTaxon
+        name: Human immunodeficiency virus
+    -   id: GO:0039695
+        label: BiologicalProcess
+        name: DNA-templated viral transcription
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral genome replication
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference:
+    - https://go.drugbank.com/drugs/DB09299
+    - https://en.wikipedia.org/wiki/Tenofovir_disoproxil#Pharmacology
