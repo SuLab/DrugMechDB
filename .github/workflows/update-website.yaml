@@ -10,17 +10,20 @@ on:
   workflow_dispatch:  # Allow manual launch on click
 
 jobs:
-  synchronize:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Merge main to gh-pages branch
-        uses: devmasx/merge-branch@v1.3.1
-        with:
-          type: now
-          from_branch: main
-          target_branch: gh-pages
-          github_token: ${{ github.token }}
+  # This will synchorinize main to the gh-pages branch
+  # Not sure if it would remove `pages` and `images` folders if removed from main
+  
+  #synchronize:
+  #  runs-on: ubuntu-latest
+  #  steps:
+  #    - uses: actions/checkout@v2
+  #    - name: Merge main to gh-pages branch
+  #      uses: devmasx/merge-branch@v1.3.1
+  #      with:
+  #        type: now
+  #        from_branch: main
+  #        target_branch: gh-pages
+  #        github_token: ${{ github.token }}
 
   update:
     runs-on: ubuntu-latest
@@ -29,7 +32,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        ref: gh-pages
+        #ref: gh-pages # Uncomment to perform this on the gh-pages branch
         token: ${{ github.token }}
 
     - name: Set up Python
@@ -52,6 +55,6 @@ jobs:
       if: ${{ success() }}
       uses: EndBug/add-and-commit@v7
       with:
-        branch: gh-pages
+        #branch: gh-pages # Un-comment to perform on the gh-pages pranch
         message: "Update to Website"
         add: "['pages', 'images', '_data']"
