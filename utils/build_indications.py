@@ -4,8 +4,8 @@ import simplejson
 import pandas as pd
 import networkx as nx
 from itertools import chain
-from collections import defaultdict
 from yaml.scanner import ScannerError
+from collections import defaultdict, Counter
 
 # Multiple imports depending on if command line or import from script
 try:
@@ -503,22 +503,17 @@ def test_and_fix(indications):
         print('Please see error messages below\n')
         for error in errors:
             print(error,end='\n\n')
+        sys.exit(400)
     else:
-        print('Build Successful')
+        print('Successful Submission Validation')
         return indications
 
 
-def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'):
+def add_new_submission(submission, outname='indication_paths.yaml'):
 
-    try:
-        submission = nx.read_yaml(inname)
-    except ScannerError as se:
-        print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
-        print(se)
-        sys.exit(125)
-
-    submission = test_and_fix(submission)
     if submission is not None:
+        print('Building Indications...')
+
         indications = nx.read_yaml('indication_paths.yaml')
         out = []
 
@@ -536,10 +531,95 @@ def add_new_submission(inname='submission.yaml', outname='indication_paths.yaml'
 
 
         nx.write_yaml(out, outname, indent=4)
+        print('Build Successful')
     else:
         sys.exit(125)
 
 
-if __name__ == '__main__':
-    add_new_submission()
+def validate_path_id(_id, record):
+    base_id = build_base_id(record)
+    # base_id of DB00257_MESH_D000152_1 is DB00257_MESH_D000152
+    assert base_id == '_'.join(_id.split('_')[:-1]), "Identifier {0!r:} is not valid for path '{1:} - {2:}'".format(
+                                                     _id, record['graph']['drug'], record['graph']['disease'])
 
+
+def update_existing_records(submission, outname='indication_paths.yaml'):
+
+    if submission is not None:
+        print('Updating Indications...')
+
+        indications = nx.read_yaml('indication_paths.yaml')
+
+        current_ids = [ind['graph']['_id'] for ind in indications]
+        submission_prepped = {rec['graph']['_id']: rec for rec in submission}
+
+        # Make sure new recrods have unique IDs
+        if len(submission_prepped) != len(submission):
+            submitted_id_counts = Counter([rec['graph']['_id'] for rec in submission])
+            duplicated = [k for k, v in submitted_id_counts.items() if v > 1]
+            print('Error, the folling identifiers were used for multiple paths:\n{}'.format(', '.join(duplicated)))
+            sys.exit(400)
+
+
+        # Make sure the Updated records exist
+        diff = set(submission_prepped.keys()) - set(current_ids)
+        if diff:
+            print("Error, the following path id's submitted for update do not exist:\n{}".format(', '.join(diff)))
+            sys.exit(400)
+
+        out = []
+        errors = []
+        for ind in indications:
+            _id = ind['graph']['_id']
+
+            if _id in submission_prepped.keys():
+                # Previous checks will have ensured that the `graph` data matches the `nodes` and `links` data
+                # To ensure that we're updating the right path we can simply check that the identifier
+                # is correct for the info found in `graph`
+                try:
+                    validate_path_id(_id, submission_prepped[_id])
+                    out.append(submission_prepped[_id])
+                except AssertionError as ae:
+                    errors.append(ae)
+            else:
+                out.append(ind)
+
+        if errors:
+            print('Update Unsuccessful')
+            print('There were {} paths that produced errors'.format(len(errors)))
+            print('Please see error messages below\n')
+            for error in errors:
+                print(error,end='\n\n')
+            sys.exit(400)
+        else:
+            print('Update Successful')
+            nx.write_yaml(out, outname, indent=4)
+
+
+def main(inname='submission.yaml'):
+    try:
+        submission = nx.read_yaml(inname)
+    except ScannerError as se:
+        print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
+        print(se)
+        sys.exit(125)
+
+    # Prep the submission fixing simple common errors and throwing excptions when not simple fixes
+    submission = test_and_fix(submission)
+
+    # Determine if Update or new submission
+    has_identifier = ['_id' in rec['graph'].keys() for rec in submission]
+    if all(has_identifier):
+
+        update_existing_records(submission)
+    elif any(has_identifier):
+        print('Mixed submissions and updates are not allowed. Please ensure that either all records ' +\
+              'contain an `_id` feild in the `graph` feild if updating, or none contain the `_id` ' +\
+              'field if submitting new records')
+        sys.exit(400)
+
+    else:
+        add_new_submission(submission)
+
+if __name__ == '__main__':
+    main()
