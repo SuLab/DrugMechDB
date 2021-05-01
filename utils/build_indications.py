@@ -396,7 +396,9 @@ def references_to_list(path):
     ref = path.get('reference', None)
 
     if type(ref) == str:
-        return ref.split(' ')
+        return [r for r in ref.split(' ') if r != '']
+    if type(ref) == list:
+        return [r for r in ref if r != '']
     return ref
 
 
