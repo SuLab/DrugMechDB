@@ -117,8 +117,8 @@ def generate_path_pages():
         # Generate the new content
         restart_file("pages/mydoc/" + outfile_name + ".md")
         with open("pages/mydoc/" + outfile_name + ".md", "w") as output:
-            path_title = (path["graph"]["drug"].capitalize() + " - " +
-                          path["graph"]["disease"].capitalize())
+            path_title = (path["graph"]["drug"].title() + " - " +
+                          path["graph"]["disease"].title())
 
             # Add numbers to title if multiple paths fo the indications
             if pathid_num != 1:
@@ -195,17 +195,17 @@ def generate_path_pages():
 
         # 4. save sidebar info for later generation
         if path["graph"]["drug"] not in drug_sidebar_data:
-            drug_sidebar_data[path["graph"]["drug"]] = {
+            drug_sidebar_data[path["graph"]["drug"].title()] = {
                 path_title: outfile_name}
         else:
-            drug_sidebar_data[path["graph"]["drug"]][
+            drug_sidebar_data[path["graph"]["drug"].title()][
                 path_title] = outfile_name
 
         if path["graph"]["disease"] not in disease_sidebar_data:
-            disease_sidebar_data[path["graph"]["disease"]] = {
+            disease_sidebar_data[path["graph"]["disease"].title()] = {
                 path_title: outfile_name}
         else:
-            disease_sidebar_data[path["graph"]["disease"]][
+            disease_sidebar_data[path["graph"]["disease"].title()][
                 path_title] = outfile_name
 
         # 5. add entry to jquery table for overview page
