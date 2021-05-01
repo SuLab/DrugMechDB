@@ -666,7 +666,7 @@ datatable: true
 | [DB00553_MESH_D014820_1](db00553-mesh-d014820-1.html) | methoxsalen | DB:DB00553 | MESH:D008730 | Vitiligo | MESH:D014820 | 4 | 3 |
 | [DB00622_MESH_D000787_1](db00622-mesh-d000787-1.html) | nicardipine | DB:DB00622 | MESH:D009529 | Angina pectoris | MESH:D000787 | 9 | 11 |
 | [DB00622_MESH_D006973_1](db00622-mesh-d006973-1.html) | nicardipine | DB:DB00622 | MESH:D009529 | Hypertensive disorder | MESH:D006973 | 9 | 11 |
-| [DB00747_MESH_D043183_1](db00747-mesh-d043183-1.html) | scopolamine | DB:DB00747 | MESH:D012601 | Irritable bowel syndrome | MESH:D043183 | 10 | 14 |
+| [DB00747_MESH_D043183_1](db00747-mesh-d043183-1.html) | scopolamine | DB:DB00747 | MESH:D012601 | Irritable bowel syndrome | MESH:D043183 | 6 | 6 |
 | [DB00747_MESH_D015878_1](db00747-mesh-d015878-1.html) | scopolamine | DB:DB00747 | MESH:D012601 | Mydriasis | MESH:D015878 | 9 | 12 |
 | [DB00747_MESH_D015863_1](db00747-mesh-d015863-1.html) | scopolamine | DB:DB00747 | MESH:D012601 | Iridocyclitis | MESH:D015863 | 11 | 14 |
 | [DB00747_MESH_D014605_1](db00747-mesh-d014605-1.html) | scopolamine | DB:DB00747 | MESH:D012601 | Uveitis | MESH:D014605 | 11 | 14 |
