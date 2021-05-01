@@ -1,1 +1,48 @@
-
+-   directed: true
+    graph:
+        _id: DB00747_MESH_D043183_1
+        disease: Irritable bowel syndrome
+        disease_mesh: MESH:D043183
+        drug: scopolamine
+        drug_mesh: MESH:D012601
+        drugbank: DB:DB00747
+    links:
+    -   key: decreases activity of
+        source: MESH:D012601
+        target: UniProt:P20309
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0120054
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0030421
+    -   key: occurs in
+        source: GO:0120054
+        target: MESH:D043183
+    -   key: occurs in
+        source: GO:0030421
+        target: MESH:D043183
+    multigraph: true
+    nodes:
+    -   id: MESH:D012601
+        label: Drug
+        name: Scopolamine
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: Response to acetylcholine
+    -   id: GO:0120054
+        label: BiologicalProcess
+        name: Intestinal motility
+    -   id: GO:0030421
+        label: BiologicalProcess
+        name: Defecation
+    -   id: MESH:D043183
+        label: Disease
+        name: Irritable bowel syndrome
+    reference: https://go.drugbank.com/drugs/DB00747
