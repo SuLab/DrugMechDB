@@ -11,6 +11,8 @@ on:
 
 jobs:
   update:
+    # Don't run on forks
+    if: github.repository_owner == 'SuLab'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
