@@ -396,7 +396,9 @@ def references_to_list(path):
     ref = path.get('reference', None)
 
     if type(ref) == str:
-        return ref.split(' ')
+        return [r for r in ref.split(' ') if r != '']
+    if type(ref) == list:
+        return [r for r in ref if r != '']
     return ref
 
 
@@ -496,6 +498,11 @@ def test_and_fix(indications):
             test_path.run_data_model_tests()
         except AssertionError as ae:
             errors.append(ae)
+
+    # Ensure that we have a list for all references
+    for path in indications:
+        if path.get('reference'):
+            path['reference'] = references_to_list(path)
 
     if errors:
         print('Build Unsuccessful')
