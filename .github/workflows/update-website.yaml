@@ -1,49 +1,22 @@
 name: Update Website
 
 on:
-  # Placeholders for Automated workflow
-  #push:
-  #  branches:
-  #  - main
-  #  paths:
-  #  - 'indication_paths.yaml'
+  # Run on successful merge from main to gh-pages branch via workflow
+  workflow_run:
+    workflows:
+      - Merge Pages
+    types:
+      - completed
   workflow_dispatch:  # Allow manual launch on click
 
 jobs:
-  # This will synchorinize main to the gh-pages branch
-  # Not sure if it would remove `pages` and `images` folders if removed from main
-
-  synchronize:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Merge main to gh-pages branch
-        uses: devmasx/merge-branch@v1.3.1
-        with:
-          type: now
-          from_branch: main
-          target_branch: gh-pages
-          github_token: ${{ github.token }}
-
-  # I noticed the webiste sometimes gets built using an older version of
-  # of indication_paths.yaml. Adding a pause to hopefully ensure that latest
-  # commit (merge step above) is checked out.
-  pause:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Sleep for 10 seconds
-      uses: jakejarvis/wait-action@master
-      with:
-        time: '10s'
-
   update:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        ref: gh-pages # Uncomment to perform this on the gh-pages branch
+        ref: gh-pages
         token: ${{ github.token }}
 
     - name: Set up Python
@@ -61,11 +34,10 @@ jobs:
       run: |
         python parse.py
 
-
     - name: Commit latest build
       if: ${{ success() }}
       uses: EndBug/add-and-commit@v7
       with:
-        branch: gh-pages # Un-comment to perform on the gh-pages pranch
+        branch: gh-pages
         message: "Update to Website"
         add: "['pages', 'images', '_data']"
