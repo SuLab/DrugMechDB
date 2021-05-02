@@ -184,6 +184,8 @@ def generate_path_pages():
         # Only remake if the files the page is new and/or different
         # or if the image is missing
         if new_file or not os.path.exists("images/" + outfile_name + ".png"):
+            print('Building new page: ' + path_title)
+
             if os.path.exists("images/" + outfile_name + ".png"):
                 os.remove("images/" + outfile_name + ".png")
 
