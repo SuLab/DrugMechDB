@@ -2038,6 +2038,29 @@ datatable: true
 | [DB08826_MESH_D019190_1](db08826-mesh-d019190-1.html) | deferiprone | DB:DB08826 | MESH:C044919 | Iron overload | MESH:D019190 | 5 | 5 |
 | [DB08826_MESH_D017086_1](db08826-mesh-d017086-1.html) | deferiprone | DB:DB08826 | MESH:C044919 | beta Thalassemia | MESH:D017086 | 5 | 5 |
 | [DB09198_MESH_D003924_1](db09198-mesh-d003924-1.html) | lobeglitazone | DB:DB09198 | MESH:C546215 | Diabetes mellitus type 2 | MESH:D003924 | 6 | 5 |
+| [DB00191_MESH_D007022_1](db00191-mesh-d007022-1.html) | phentermine | DB:DB00191 | MESH:D010645 | Low blood pressure | MESH:D007022 | 7 | 6 |
+| [DB00191_MESH_D009765_1](db00191-mesh-d009765-1.html) | phentermine | DB:DB00191 | MESH:D010645 | Obesity | MESH:D009765 | 7 | 7 |
+| [DB00339_MESH_D014390_1](db00339-mesh-d014390-1.html) | pyrazinamide | DB:DB00339 | MESH:D011718 | Tuberculosis of meninges | MESH:D014390 | 8 | 8 |
+| [DB00339_MESH_D014397_1](db00339-mesh-d014397-1.html) | pyrazinamide | DB:DB00339 | MESH:D011718 | Pulmonary tuberculosis | MESH:D014397 | 8 | 8 |
+| [DB00723_MESH_D007022_1](db00723-mesh-d007022-1.html) | methoxamine | DB:DB00723 | MESH:D008729 | Low blood pressure | MESH:D007022 | 5 | 5 |
+| [DB01103_MESH_D005873_1](db01103-mesh-d005873-1.html) | mepacrine | DB:DB01103 | MESH:D011796 | Giardiasis | MESH:D005873 | 4 | 3 |
+| [DB06674_MESH_D003093_1](db06674-mesh-d003093-1.html) | golimumab | DB:DB06674 | MESH:C529000 | Ulcerative colitis | MESH:D003093 | 5 | 4 |
+| [DB06674_MESH_D015535_1](db06674-mesh-d015535-1.html) | golimumab | DB:DB06674 | MESH:C529000 | Psoriasis with arthropathy | MESH:D015535 | 5 | 4 |
+| [DB06674_MESH_D001172_1](db06674-mesh-d001172-1.html) | golimumab | DB:DB06674 | MESH:C529000 | Rheumatoid arthritis | MESH:D001172 | 7 | 8 |
+| [DB06674_MESH_D013167_1](db06674-mesh-d013167-1.html) | golimumab | DB:DB06674 | MESH:C529000 | Ankylosing spondylitis | MESH:D013167 | 5 | 4 |
+| [DB07565_MESH_D012480_1](db07565-mesh-d012480-1.html) | chloramphenicol succinate | DB:DB07565 | MESH:C026016 | Salmonella infection | MESH:D012480 | 6 | 5 |
+| [DB07565_MESH_D014435_2](db07565-mesh-d014435-2.html) | chloramphenicol succinate | DB:DB07565 | MESH:C026016 | Typhoid fever | MESH:D014435 | 6 | 5 |
+| [DB08868_MESH_D020529_1](db08868-mesh-d020529-1.html) | fingolimod | DB:DB08868 | MESH:D000068876 | Relapsing remitting multiple sclerosis | MESH:D020529 | 8 | 9 |
+| [DB08910_MESH_D009101_1](db08910-mesh-d009101-1.html) | pomalidomide | DB:DB08910 | MESH:C467566 | Multiple myeloma | MESH:D009101 | 14 | 18 |
+| [DB09026_MESH_D006973_1](db09026-mesh-d006973-1.html) | aliskiren | DB:DB09026 | MESH:C446481 | Hypertensive disorder | MESH:D006973 | 9 | 9 |
+| [DB09096_MESH_D011538_1](db09096-mesh-d011538-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Pruritus ani | MESH:D011538 | 3 | 2 |
+| [DB09096_MESH_D005076_1](db09096-mesh-d005076-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Eruption of skin | MESH:D005076 | 3 | 2 |
+| [DB09096_MESH_D016460_1](db09096-mesh-d016460-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Granuloma annulare | MESH:D016460 | 3 | 2 |
+| [DB09096_MESH_D000152_1](db09096-mesh-d000152-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Acne vulgaris | MESH:D000152 | 4 | 4 |
+| [DB09096_MESH_D003876_1](db09096-mesh-d003876-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Atopic dermatitis | MESH:D003876 | 3 | 2 |
+| [DB09096_MESH_D012628_1](db09096-mesh-d012628-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Seborrheic dermatitis | MESH:D012628 | 3 | 2 |
+| [DB09096_MESH_D003877_1](db09096-mesh-d003877-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Contact dermatitis | MESH:D003877 | 3 | 2 |
+| [DB11714_MESH_D002295_1](db11714-mesh-d002295-1.html) | durvalumab | DB:DB11714 | MESH:C000599740,MESH:C000613593 | Transitional cell carcinoma | MESH:D002295 | 6 | 6 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
