@@ -12,7 +12,7 @@ on:
 jobs:
   # This will synchorinize main to the gh-pages branch
   # Not sure if it would remove `pages` and `images` folders if removed from main
-  
+
   synchronize:
     runs-on: ubuntu-latest
     steps:
@@ -24,6 +24,17 @@ jobs:
           from_branch: main
           target_branch: gh-pages
           github_token: ${{ github.token }}
+
+  # I noticed the webiste sometimes gets built using an older version of
+  # of indication_paths.yaml. Adding a pause to hopefully ensure that latest
+  # commit (merge step above) is checked out.
+  pause:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Sleep for 10 seconds
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '10s'
 
   update:
     runs-on: ubuntu-latest
