@@ -1,1 +1,1136 @@
+- directed: true
+  graph:
+    disease: Peptic ulcer
+    disease_mesh: MESH:D010437
+    drug: rebamipide
+    drug_mesh: MESH:C052785
+    drugbank: DB:DB11656
+  links:
+    - key: positively correlated with
+      source: MESH:C052785
+      target: GO:0019371
+    - key: increases abundance of
+      source: GO:0019371
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: GO:0070254
+    - key: positively correlated with
+      source: MESH:D011453
+      target: GO:0008283
+    - key: negatively correlated with
+      source: MESH:D011453
+      target: GO:0001696
+    - key: negatively correlated with
+      source: GO:0070254
+      target: MESH:D010437
+    - key: negatively correlated with
+      source: GO:0008283
+      target: MESH:D010437
+    - key: positively correlated with
+      source: GO:0001696
+      target: MESH:D010437
+    - key: negatively correlated with
+      source: MESH:C052785
+      target: MESH:D005609
+    - key: negatively correlated with
+      source: MESH:C052785
+      target: UniProt:P01375
+    - key: positively correlated with
+      source: UniProt:P01375
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D010437
+    - key: positively correlated with
+      source: MESH:D005609
+      target: MESH:D010437
+  multigraph: true
+  nodes:
+    - id: MESH:C052785
+      label: Drug
+      name: rebamipide
+    - id: GO:0019371
+      label: BiologicalProcess
+      name: cyclooxygenase pathway
+    - id: UniProt:P01375
+      label: Protein
+      name: Tumor necrosis factor
+    - id: GO:0070254
+      label: BiologicalProcess
+      name: mucus secretion
+    - id: GO:0008283
+      label: BiologicalProcess
+      name: cell population proliferation
+    - id: GO:0001696
+      label: BiologicalProcess
+      name: gastric acid secretion
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: MESH:D010437
+      label: Disease
+      name: Peptic ulcer
+  reference: https://pubchem.ncbi.nlm.nih.gov/compound/5042#section=Pharmacology https://en.wikipedia.org/wiki/Rebamipide https://pubmed.ncbi.nlm.nih.gov/11320577/
+- directed: true
+  graph:
+    disease: Gastritis
+    disease_mesh: MESH:D005756
+    drug: rebamipide
+    drug_mesh: MESH:C052785
+    drugbank: DB:DB11656
+  links:
+    - key: positively correlated with
+      source: MESH:C052785
+      target: GO:0019371
+    - key: increases abundance of
+      source: GO:0019371
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: GO:0070254
+    - key: positively correlated with
+      source: MESH:D011453
+      target: GO:0008283
+    - key: negatively correlated with
+      source: MESH:D011453
+      target: GO:0001696
+    - key: negatively correlated with
+      source: GO:0070254
+      target: MESH:D005756
+    - key: negatively correlated with
+      source: GO:0008283
+      target: MESH:D005756
+    - key: positively correlated with
+      source: GO:0001696
+      target: MESH:D005756
+    - key: negatively correlated with
+      source: MESH:C052785
+      target: MESH:D005609
+    - key: negatively correlated with
+      source: MESH:C052785
+      target: UniProt:P01375
+    - key: positively correlated with
+      source: UniProt:P01375
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D005756
+    - key: positively correlated with
+      source: MESH:D005609
+      target: MESH:D005756
+  multigraph: true
+  nodes:
+    - id: MESH:C052785
+      label: Drug
+      name: rebamipide
+    - id: GO:0019371
+      label: BiologicalProcess
+      name: cyclooxygenase pathway
+    - id: UniProt:P01375
+      label: Protein
+      name: Tumor necrosis factor
+    - id: GO:0070254
+      label: BiologicalProcess
+      name: mucus secretion
+    - id: GO:0008283
+      label: BiologicalProcess
+      name: cell population proliferation
+    - id: GO:0001696
+      label: BiologicalProcess
+      name: gastric acid secretion
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: MESH:D005756
+      label: Disease
+      name: Gastritis
+  reference: https://pubchem.ncbi.nlm.nih.gov/compound/5042#section=Pharmacology https://en.wikipedia.org/wiki/Rebamipide
+- directed: true
+  graph:
+    disease: Pain
+    disease_mesh: MESH:D010146
+    drug: benzydamine
+    drug_mesh: MESH:D001591
+    drugbank: DB:DB09084
+  links:
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: UniProt:P01375
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: UniProt:P01584
+    - key: positively correlated with
+      source: UniProt:P01375
+      target: GO:0006954
+    - key: positively correlated with
+      source: UniProt:P01584
+      target: GO:0006954
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: GO:0043312
+    - key: positively correlated with
+      source: GO:0043312
+      target: GO:0006954
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D010146
+  multigraph: true
+  nodes:
+    - id: MESH:D001591
+      label: Drug
+      name: benzydamine
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0043312
+      label: BiologicalProcess
+      name: neutrophil degranulation
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: UniProt:P01375
+      label: Protein
+      name: Tumor necrosis factor
+    - id: UniProt:P01584
+      label: Protein
+      name: Interleukin-1 beta
+    - id: MESH:D010146
+      label: Disease
+      name: Pain
+  reference: https://go.drugbank.com/drugs/DB09084
+  comments: Unlike other NSAIDs, it does not inhibit cyclooxygenase or lipooxygenase (https://en.wikipedia.org/wiki/Benzydamine#Pharmacology).
+- directed: true
+  graph:
+    disease: Candidemia
+    disease_mesh: MESH:D058387
+    drug: voriconazole
+    drug_mesh: MESH:D065819
+    drugbank: DB:DB00582
+  links:
+    - key: negatively regulates
+      source: MESH:D065819
+      target: UniProt:P10613
+    - key: positively regulates
+      source: UniProt:P10613
+      target: GO:0006696
+    - key: positively correlated with
+      source: GO:0006696
+      target: GO:0030445
+    - key: in taxon
+      source: GO:0030445
+      target: NCBITaxon:237561
+    - key: causes
+      source: NCBITaxon:237561
+      target: MESH:D058387
+  multigraph: true
+  nodes:
+    - id: MESH:D065819
+      label: Drug
+      name: voriconazole
+    - id: UniProt:P10613
+      label: Protein
+      name: Lanosterol 14-alpha demethylase
+    - id: GO:0006696
+      label: BiologicalProcess
+      name: ergosterol biosynthetic process
+    - id: GO:0030445
+      label: CellularComponent
+      name: yeast-form cell wall
+    - id: NCBITaxon:237561
+      label: OrganismTaxon
+      name: Candida albicans SC5314
+    - id: MESH:D058387
+      label: Disease
+      name: Candidemia
+  reference: https://go.drugbank.com/drugs/DB00582#mechanism-of-action
+- directed: true
+  graph:
+    disease: Invasive pulmonary aspergillosis
+    disease_mesh: MESH:D055744
+    drug: voriconazole
+    drug_mesh: MESH:D065819
+    drugbank: DB:DB00582
+  links:
+    - key: negatively regulates
+      source: MESH:D065819
+      target: InterPro:IPR001128
+    - key: positively regulates
+      source: InterPro:IPR001128
+      target: GO:0006696
+    - key: positively correlated with
+      source: GO:0006696
+      target: GO:0030445
+    - key: in taxon
+      source: GO:0030445
+      target: NCBITaxon:5052
+    - key: causes
+      source: NCBITaxon:5052
+      target: MESH:D055744
+  multigraph: true
+  nodes:
+    - id: MESH:D065819
+      label: Drug
+      name: voriconazole
+    - id: InterPro:IPR001128
+      label: GeneFamily
+      name: Cytochrome P450
+    - id: GO:0006696
+      label: BiologicalProcess
+      name: ergosterol biosynthetic process
+    - id: GO:0030445
+      label: CellularComponent
+      name: yeast-form cell wall
+    - id: NCBITaxon:5052
+      label: OrganismTaxon
+      name: Aspergillus sp.
+    - id: MESH:D055744
+      label: Disease
+      name: Invasive pulmonary aspergillosis
+  reference: https://go.drugbank.com/drugs/DB00582#mechanism-of-action
+- directed: true
+  graph:
+    disease: Disseminated candidiasis
+    disease_mesh: MESH:C536777
+    drug: voriconazole
+    drug_mesh: MESH:D065819
+    drugbank: DB:DB00582
+  links:
+    - key: negatively regulates
+      source: MESH:D065819
+      target: UniProt:P10613
+    - key: positively regulates
+      source: UniProt:P10613
+      target: GO:0006696
+    - key: positively correlated with
+      source: GO:0006696
+      target: GO:0030445
+    - key: in taxon
+      source: GO:0030445
+      target: NCBITaxon:237561
+    - key: causes
+      source: NCBITaxon:237561
+      target: MESH:C536777
+  multigraph: true
+  nodes:
+    - id: MESH:D065819
+      label: Drug
+      name: voriconazole
+    - id: UniProt:P10613
+      label: Protein
+      name: Lanosterol 14-alpha demethylase
+    - id: GO:0006696
+      label: BiologicalProcess
+      name: ergosterol biosynthetic process
+    - id: GO:0030445
+      label: CellularComponent
+      name: yeast-form cell wall
+    - id: NCBITaxon:237561
+      label: OrganismTaxon
+      name: Candida albicans SC5314
+    - id: MESH:C536777
+      label: Disease
+      name: Disseminated candidiasis
+  reference: https://go.drugbank.com/drugs/DB00582#mechanism-of-action
+- directed: true
+  graph:
+    disease: Fusarium infection
+    disease_mesh: MESH:D060585
+    drug: voriconazole
+    drug_mesh: MESH:D065819
+    drugbank: DB:DB00582
+  links:
+    - key: negatively regulates
+      source: MESH:D065819
+      target: InterPro:IPR001128
+    - key: positively regulates
+      source: InterPro:IPR001128
+      target: GO:0006696
+    - key: positively correlated with
+      source: GO:0006696
+      target: GO:0030445
+    - key: in taxon
+      source: GO:0030445
+      target: NCBITaxon:237561
+    - key: causes
+      source: NCBITaxon:237561
+      target: MESH:D060585
+  multigraph: true
+  nodes:
+    - id: MESH:D065819
+      label: Drug
+      name: voriconazole
+    - id: InterPro:IPR001128
+      label: GeneFamily
+      name: Cytochrome P450
+    - id: GO:0006696
+      label: BiologicalProcess
+      name: ergosterol biosynthetic process
+    - id: GO:0030445
+      label: CellularComponent
+      name: yeast-form cell wall
+    - id: NCBITaxon:237561
+      label: OrganismTaxon
+      name: Candida albicans SC5314
+    - id: MESH:D060585
+      label: Disease
+      name: Fusarium infection
+  reference: https://go.drugbank.com/drugs/DB00582#mechanism-of-action
+- directed: true
+  graph:
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: flurbiprofen
+    drug_mesh: MESH:D005480
+    drugbank: DB:DB00712
+  links:
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D010003
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:D005480
+      label: Drug
+      name: flurbiprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: BiologicalProcess
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Joint pain
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference: https://go.drugbank.com/drugs/DB00712 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL563/
+- directed: true
+  graph:
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: flurbiprofen
+    drug_mesh: MESH:D005480
+    drugbank: DB:DB00712
+  links:
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D001172
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:D005480
+      label: Drug
+      name: flurbiprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: BiologicalProcess
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Joint pain
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference: https://go.drugbank.com/drugs/DB00712 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL563/
+- directed: true
+  graph:
+    disease: Pulmonary hypertension
+    disease_mesh: MESH:D006976
+    drug: epoprostenol
+    drug_mesh: MESH:D011464
+    drugbank: DB:DB01240
+  links:
+    - key: positively correlated with
+      source: MESH:D011464
+      target: UniProt:P43119
+    - key: positively regulates
+      source: UniProt:P43119
+      target: GO:0016501
+    - key: positively regulates
+      source: GO:0016501
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006976
+  multigraph: true
+  nodes:
+    - id: MESH:D011464
+      label: Drug
+      name: epoprostenol
+    - id: UniProt:P43119
+      label: Protein
+      name: Prostacyclin receptor
+    - id: GO:0016501
+      label: MolecularActivity
+      name: prostacyclin receptor activity
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006976
+      label: Disease
+      name: Pulmonary hypertension
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1139/ https://go.drugbank.com/drugs/DB01240#BE0000475
+- directed: true
+  graph:
+    disease: Cough
+    disease_mesh: MESH:D003371
+    drug: epoprostenol
+    drug_mesh: MESH:D011464
+    drugbank: DB:DB01240
+  links:
+    - key: positively correlated with
+      source: MESH:D011464
+      target: UniProt:P43119
+    - key: positively regulates
+      source: UniProt:P43119
+      target: GO:0016501
+    - key: positively regulates
+      source: GO:0016501
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: MESH:D003371
+  multigraph: true
+  nodes:
+    - id: MESH:D011464
+      label: Drug
+      name: epoprostenol
+    - id: UniProt:P43119
+      label: Protein
+      name: Prostacyclin receptor
+    - id: GO:0016501
+      label: MolecularActivity
+      name: prostacyclin receptor activity
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D003371
+      label: Disease
+      name: Cough
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1139/ https://go.drugbank.com/drugs/DB01240#BE0000475
+  comments: Dilators could open up airways and help to reduce cough (https://www.mayoclinic.org/diseases-conditions/chronic-cough/diagnosis-treatment/drc-20351580).
+- directed: true
+  graph:
+    disease: Pulmonary arterial hypertension
+    disease_mesh: MESH:D000081029
+    drug: epoprostenol
+    drug_mesh: MESH:D011464
+    drugbank: DB:DB01240
+  links:
+    - key: positively correlated with
+      source: MESH:D011464
+      target: UniProt:P43119
+    - key: positively regulates
+      source: UniProt:P43119
+      target: GO:0016501
+    - key: positively regulates
+      source: GO:0016501
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D000081029
+  multigraph: true
+  nodes:
+    - id: MESH:D011464
+      label: Drug
+      name: epoprostenol
+    - id: UniProt:P43119
+      label: Protein
+      name: Prostacyclin receptor
+    - id: GO:0016501
+      label: MolecularActivity
+      name: prostacyclin receptor activity
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D000081029
+      label: Disease
+      name: Pulmonary arterial hypertension
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1139/ https://go.drugbank.com/drugs/DB01240#BE0000475
+- directed: true
+  graph:
+    disease: Allergic rhinitis
+    disease_mesh: MESH:D065631
+    drug: epoprostenol
+    drug_mesh: MESH:D011464
+    drugbank: DB:DB01240
+  links:
+    - key: positively correlated with
+      source: MESH:D011464
+      target: UniProt:P43119
+    - key: negatively correlated with
+      source: UniProt:P43119
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D065631
+  multigraph: true
+  nodes:
+    - id: MESH:D011464
+      label: Drug
+      name: epoprostenol
+    - id: UniProt:P43119
+      label: Protein
+      name: Prostacyclin receptor
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D065631
+      label: Disease
+      name: Allergic rhinitis
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1139/ https://go.drugbank.com/drugs/DB01240#BE0000475 https://en.wikipedia.org/wiki/Prostacyclin#Mechanism
+- directed: true
+  graph:
+    disease: Rhinitis
+    disease_mesh: MESH:D012220
+    drug: epoprostenol
+    drug_mesh: MESH:D011464
+    drugbank: DB:DB01240
+  links:
+    - key: positively correlated with
+      source: MESH:D011464
+      target: UniProt:P43119
+    - key: negatively correlated with
+      source: UniProt:P43119
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D012220
+  multigraph: true
+  nodes:
+    - id: MESH:D011464
+      label: Drug
+      name: epoprostenol
+    - id: UniProt:P43119
+      label: Protein
+      name: Prostacyclin receptor
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D012220
+      label: Disease
+      name: Rhinitis
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1139/ https://go.drugbank.com/drugs/DB01240#BE0000475 https://en.wikipedia.org/wiki/Prostacyclin#Mechanism
+- directed: true
+  graph:
+    disease: Common cold
+    disease_mesh: MESH:D003139
+    drug: epoprostenol
+    drug_mesh: MESH:D011464
+    drugbank: DB:DB01240
+  links:
+    - key: positively correlated with
+      source: MESH:D011464
+      target: UniProt:P43119
+    - key: negatively correlated with
+      source: UniProt:P43119
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D003139
+  multigraph: true
+  nodes:
+    - id: MESH:D011464
+      label: Drug
+      name: epoprostenol
+    - id: UniProt:P43119
+      label: Protein
+      name: Prostacyclin receptor
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D003139
+      label: Disease
+      name: Common cold
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1139/ https://go.drugbank.com/drugs/DB01240#BE0000475 https://en.wikipedia.org/wiki/Prostacyclin#Mechanism
+- directed: true
+  graph:
+    disease: Tinea pedis
+    disease_mesh: MESH:D014008
+    drug: sertaconazole
+    drug_mesh: MESH:C061131
+    drugbank: DB:DB01153
+  links:
+    - key: negatively regulates
+      source: MESH:C061131
+      target: InterPro:IPR001128
+    - key: positively regulates
+      source: InterPro:IPR001128
+      target: GO:0006696
+    - key: positively correlated with
+      source: GO:0006696
+      target: GO:0009277
+    - key: in taxon
+      source: GO:0009277
+      target: NCBITaxon:5551
+    - key: causes
+      source: NCBITaxon:5551
+      target: MESH:D014008
+  multigraph: true
+  nodes:
+    - id: MESH:C061131
+      label: Drug
+      name: sertaconazole
+    - id: InterPro:IPR001128
+      label: GeneFamily
+      name: Cytochrome P450
+    - id: GO:0006696
+      label: BiologicalProcess
+      name: ergosterol biosynthetic process
+    - id: GO:0009277
+      label: CellularComponent
+      name: fungal-type cell wall
+    - id: NCBITaxon:5551
+      label: OrganismTaxon
+      name: Trichophyton rubrum
+    - id: MESH:D014008
+      label: Disease
+      name: Tinea pedis
+  reference: https://go.drugbank.com/drugs/DB01153
+- directed: true
+  graph:
+    disease: Acanthamoeba keratitis
+    disease_mesh: MESH:D015823
+    drug: hexamidine
+    drug_mesh: MESH:C018961
+    drugbank: DB:DB03808
+  links:
+    - key: molecularly interacts with
+      source: MESH:C018961
+      target: CHEBI:18059
+    - key: part of
+      source: CHEBI:18059
+      target: GO:0016020
+    - key: in taxon
+      source: GO:0016020
+      target: NCBITaxon:5754
+    - key: causes
+      source: NCBITaxon:5754
+      target: MESH:D015823
+  multigraph: true
+  nodes:
+    - id: MESH:C018961
+      label: Drug
+      name: hexamidine
+    - id: CHEBI:18059
+      label: ChemicalSubstance
+      name: lipid
+    - id: GO:0016020
+      label: CellularComponent
+      name: membrane
+    - id: NCBITaxon:5754
+      label: OrganismTaxon
+      name: Acanthamoeba sp.
+    - id: MESH:D015823
+      label: Disease
+      name: Acanthamoeba keratitis
+  reference: https://go.drugbank.com/drugs/DB03808 https://en.wikipedia.org/wiki/Hexamidine
+- directed: true
+  graph:
+    disease: Osteoporosis
+    disease_mesh: MESH:D010024
+    drug: eldecalcitol
+    drug_mesh: MESH:C547512
+    drugbank: DB:DB05295
+  links:
+    - key: increases activity of
+      source: MESH:C547512
+      target: UniProt:P11473
+    - key: positively regulates
+      source: UniProt:P11473
+      target: GO:0070509
+    - key: negatively correlated with
+      source: GO:0070509
+      target: HP:0002901
+    - key: positively correlated with
+      source: HP:0002901
+      target: MESH:D010024
+  multigraph: true
+  nodes:
+    - id: MESH:C547512
+      label: Drug
+      name: eldecalcitol
+    - id: UniProt:P11473
+      label: Protein
+      name: Vitamin D3 receptor
+    - id: GO:0070509
+      label: BiologicalProcess
+      name: Calcium ion import
+    - id: HP:0002901
+      label: PhenotypicFeature
+      name: Hypocalcemia
+    - id: MESH:D010024
+      label: Disease
+      name: Osteoporosis
+  reference: https://go.drugbank.com/drugs/DB05295 https://en.wikipedia.org/wiki/Eldecalcitol#Treatment_for_Osteoporosis
+- directed: true
+  graph:
+    disease: Backache
+    disease_mesh: MESH:D001416
+    drug: camphor
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB01744
+  links:
+    - key: increases activity of
+      source: MESH:D002164
+      target: InterPro:IPR013555
+    - key: negatively correlated with
+      source: MESH:D002164
+      target: HP:0012531
+    - key: regulates
+      source: InterPro:IPR013555
+      target: GO:0050968
+    - key: correlated with
+      source: GO:0050968
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D001416
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: camphor
+      alt_ids:
+        - MESH:C436264
+    - id: InterPro:IPR013555
+      label: GeneFamily
+      name: Transient receptor ion channel domain
+    - id: GO:0050968
+      label: BiologicalProcess
+      name: detection of chemical stimulus involved in sensory perception of pain
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D001416
+      label: Disease
+      name: Backache
+  reference: https://go.drugbank.com/drugs/DB01744
+  comments: Camphor is analgesic (https://www.genome.jp/dbget-bin/www_bget?cpd:C00808). The activation of members of the transient receptor ion channel protein family applications lead to desensitization, which in turn contributes to the analgesic effects of camphor after prolonged/repeated applications (https://pubmed.ncbi.nlm.nih.gov/33804078/).
+- directed: true
+  graph:
+    disease: Major depressive disorder
+    disease_mesh: MESH:D003865
+    drug: desvenlafaxine
+    drug_mesh: MESH:D000069468
+    drugbank: DB:DB06700
+  links:
+    - key: negatively regulates
+      source: MESH:D000069468
+      target: UniProt:P31645
+    - key: positively regulates
+      source: UniProt:P31645
+      target: GO:0051610
+    - key: positively correlated with
+      source: GO:0051610
+      target: MESH:D003865
+    - key: negatively regulates
+      source: MESH:D000069468
+      target: UniProt:P23975
+    - key: positively regulates
+      source: UniProt:P23975
+      target: GO:0051620
+    - key: positively correlated with
+      source: GO:0051620
+      target: MESH:D003865
+    - key: negatively regulates
+      source: MESH:D000069468
+      target: UniProt:Q01959
+    - key: positively regulates
+      source: UniProt:Q01959
+      target: GO:0090494
+    - key: positively correlated with
+      source: GO:0090494
+      target: MESH:D003865
+  multigraph: true
+  nodes:
+    - id: MESH:D000069468
+      label: Drug
+      name: desvenlafaxine
+    - id: UniProt:P31645
+      label: Protein
+      name: Sodium-dependent serotonin transporter
+    - id: GO:0051610
+      label: BiologicalProcess
+      name: serotonin uptake
+    - id: UniProt:P23975
+      label: Protein
+      name: Sodium-dependent noradrenaline transporter
+    - id: GO:0051620
+      label: BiologicalProcess
+      name: norepinephrine uptake
+    - id: UniProt:Q01959
+      label: Protein
+      name: Sodium-dependent dopamine transporter
+    - id: GO:0090494
+      label: BiologicalProcess
+      name: dopamine uptake
+    - id: MESH:D003865
+      label: Disease
+      name: Major depressive disorder
+  reference: https://go.drugbank.com/drugs/DB06700
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: quinapril
+    drug_mesh: MESH:D000077583
+    drugbank: DB:DB00881
+  links:
+    - key: has metabolite
+      source: MESH:D000077583
+      target: MESH:C054501
+    - key: negatively regulates
+      source: MESH:C054501
+      target: UniProt:P12821
+    - key: positively regulates
+      source: UniProt:P12821
+      target: GO:0002003
+    - key: decreases abundance of
+      source: UniProt:P12821
+      target: CHEBI:3165
+    - key: negatively correlated with
+      source: CHEBI:3165
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0002003
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: affects risk for
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D000077583
+      label: Drug
+      name: quinapril
+    - id: MESH:C054501
+      label: Drug
+      name: quinaprilat
+    - id: UniProt:P12821
+      label: Protein
+      name: Angiotensin-converting enzyme
+    - id: CHEBI:3165
+      label: ChemicalSubstance
+      name: bradykinin
+    - id: GO:0002003
+      label: BiologicalProcess
+      name: angiotensin maturation
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference: https://go.drugbank.com/drugs/DB00881
+- directed: true
+  graph:
+    disease: Hyperlipidemia
+    disease_mesh: MESH:D006949
+    drug: cholestyramine
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB01432
+  links:
+    - key: molecularly interacts with
+      source: MESH:D002164
+      target: CHEBI:3098
+    - key: correlated with
+      source: CHEBI:3098
+      target: HP:0030985
+    - key: negatively correlated with
+      source: HP:0030985
+      target: MESH:D006949
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: cholestyramine
+    - id: CHEBI:3098
+      label: ChemicalSubstance
+      name: bile acid
+    - id: HP:0030985
+      label: PhenotypicFeature
+      name: Decreased serum bile concentration
+    - id: MESH:D006949
+      label: Disease
+      name: Hyperlipidemia
+  reference: https://go.drugbank.com/drugs/DB01432
+  comments: Cholestyramine is a bile acid sequestrant (https://www.ebi.ac.uk/ols/ontologies/ncit/terms?iri=http://purl.obolibrary.org/obo/NCIT_C98148) and its ultimate action is to lower serum concentration of lipids, namely cholesterol, phospholipids, triglycerides, and cholesterol esters.
+- directed: true
+  graph:
+    disease: Hypercholesterolemia
+    disease_mesh: MESH:D006937
+    drug: cholestyramine
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB01432
+  links:
+    - key: molecularly interacts with
+      source: MESH:D002164
+      target: CHEBI:3098
+    - key: correlated with
+      source: CHEBI:3098
+      target: HP:0030985
+    - key: negatively correlated with
+      source: HP:0030985
+      target: MESH:D006937
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: cholestyramine
+    - id: CHEBI:3098
+      label: ChemicalSubstance
+      name: bile acid
+    - id: HP:0030985
+      label: PhenotypicFeature
+      name: Decreased serum bile concentration
+    - id: MESH:D006937
+      label: Disease
+      name: Hypercholesterolemia
+  reference: https://go.drugbank.com/drugs/DB01432
+  comments: Cholestyramine is a bile acid sequestrant (https://www.ebi.ac.uk/ols/ontologies/ncit/terms?iri=http://purl.obolibrary.org/obo/NCIT_C98148) and its ultimate action is to lower plasma cholesterol concentrations.
+- directed: true
+  graph:
+    disease: Postpartum hemorrhage
+    disease_mesh: MESH:D006473
+    drug: carboprost
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB00429
+  links:
+    - key: increases activity of
+      source: MESH:D002164
+      target: InterPro:IPR008365
+    - key: positively regulates
+      source: InterPro:IPR008365
+      target: GO:0070471
+    - key: positively correlated with
+      source: GO:0070471
+      target: GO:0042310
+    - key: negatively correlated with
+      source: GO:0042310
+      target: MESH:D006473
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: carboprost
+      alt_names:
+        - Carboprost tromethamine
+    - id: InterPro:IPR008365
+      label: Protein
+      name: Prostanoid receptor
+    - id: GO:0070471
+      label: BiologicalProcess
+      name: uterine smooth muscle contraction
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: MESH:D006473
+      label: Disease
+      name: Postpartum hemorrhage
+  reference: https://go.drugbank.com/drugs/DB00429
+  comments: DrugBank and ChEMBL seem to disagree on the target of this drug (UniProt:P43088 in ChEMBL, UniProt:P34995 in DrugBank). Hence using a more generic term (IPR008365) to encompass both entries from those two databases.
 
