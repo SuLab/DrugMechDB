@@ -2061,6 +2061,30 @@ datatable: true
 | [DB09096_MESH_D012628_1](db09096-mesh-d012628-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Seborrheic dermatitis | MESH:D012628 | 3 | 2 |
 | [DB09096_MESH_D003877_1](db09096-mesh-d003877-1.html) | benzoyl peroxide | DB:DB09096 | MESH:D001585 | Contact dermatitis | MESH:D003877 | 3 | 2 |
 | [DB11714_MESH_D002295_1](db11714-mesh-d002295-1.html) | durvalumab | DB:DB11714 | MESH:C000599740,MESH:C000613593 | Transitional cell carcinoma | MESH:D002295 | 6 | 6 |
+| [DB11656_MESH_D010437_1](db11656-mesh-d010437-1.html) | rebamipide | DB:DB11656 | MESH:C052785 | Peptic ulcer | MESH:D010437 | 10 | 13 |
+| [DB11656_MESH_D005756_1](db11656-mesh-d005756-1.html) | rebamipide | DB:DB11656 | MESH:C052785 | Gastritis | MESH:D005756 | 10 | 13 |
+| [DB09084_MESH_D010146_1](db09084-mesh-d010146-1.html) | benzydamine | DB:DB09084 | MESH:D001591 | Pain | MESH:D010146 | 7 | 9 |
+| [DB00582_MESH_D058387_1](db00582-mesh-d058387-1.html) | voriconazole | DB:DB00582 | MESH:D065819 | Candidemia | MESH:D058387 | 6 | 5 |
+| [DB00582_MESH_D055744_1](db00582-mesh-d055744-1.html) | voriconazole | DB:DB00582 | MESH:D065819 | Invasive pulmonary aspergillosis | MESH:D055744 | 6 | 5 |
+| [DB00582_MESH_C536777_1](db00582-mesh-c536777-1.html) | voriconazole | DB:DB00582 | MESH:D065819 | Disseminated candidiasis | MESH:C536777 | 6 | 5 |
+| [DB00582_MESH_D060585_1](db00582-mesh-d060585-1.html) | voriconazole | DB:DB00582 | MESH:D065819 | Fusarium infection | MESH:D060585 | 6 | 5 |
+| [DB00712_MESH_D010003_1](db00712-mesh-d010003-1.html) | flurbiprofen | DB:DB00712 | MESH:D005480 | Osteoarthritis | MESH:D010003 | 8 | 9 |
+| [DB00712_MESH_D001172_1](db00712-mesh-d001172-1.html) | flurbiprofen | DB:DB00712 | MESH:D005480 | Rheumatoid arthritis | MESH:D001172 | 8 | 9 |
+| [DB01240_MESH_D006976_1](db01240-mesh-d006976-1.html) | epoprostenol | DB:DB01240 | MESH:D011464 | Pulmonary hypertension | MESH:D006976 | 6 | 5 |
+| [DB01240_MESH_D003371_1](db01240-mesh-d003371-1.html) | epoprostenol | DB:DB01240 | MESH:D011464 | Cough | MESH:D003371 | 5 | 4 |
+| [DB01240_MESH_D000081029_1](db01240-mesh-d000081029-1.html) | epoprostenol | DB:DB01240 | MESH:D011464 | Pulmonary arterial hypertension | MESH:D000081029 | 6 | 5 |
+| [DB01240_MESH_D065631_1](db01240-mesh-d065631-1.html) | epoprostenol | DB:DB01240 | MESH:D011464 | Allergic rhinitis | MESH:D065631 | 4 | 3 |
+| [DB01240_MESH_D012220_1](db01240-mesh-d012220-1.html) | epoprostenol | DB:DB01240 | MESH:D011464 | Rhinitis | MESH:D012220 | 4 | 3 |
+| [DB01240_MESH_D003139_1](db01240-mesh-d003139-1.html) | epoprostenol | DB:DB01240 | MESH:D011464 | Common cold | MESH:D003139 | 4 | 3 |
+| [DB01153_MESH_D014008_1](db01153-mesh-d014008-1.html) | sertaconazole | DB:DB01153 | MESH:C061131 | Tinea pedis | MESH:D014008 | 6 | 5 |
+| [DB03808_MESH_D015823_1](db03808-mesh-d015823-1.html) | hexamidine | DB:DB03808 | MESH:C018961 | Acanthamoeba keratitis | MESH:D015823 | 5 | 4 |
+| [DB05295_MESH_D010024_1](db05295-mesh-d010024-1.html) | eldecalcitol | DB:DB05295 | MESH:C547512 | Osteoporosis | MESH:D010024 | 5 | 4 |
+| [DB01744_MESH_D001416_1](db01744-mesh-d001416-1.html) | camphor | DB:DB01744 | MESH:D002164 | Backache | MESH:D001416 | 5 | 5 |
+| [DB06700_MESH_D003865_1](db06700-mesh-d003865-1.html) | desvenlafaxine | DB:DB06700 | MESH:D000069468 | Major depressive disorder | MESH:D003865 | 8 | 9 |
+| [DB00881_MESH_D006973_1](db00881-mesh-d006973-1.html) | quinapril | DB:DB00881 | MESH:D000077583 | Hypertensive disorder | MESH:D006973 | 8 | 8 |
+| [DB01432_MESH_D006949_1](db01432-mesh-d006949-1.html) | cholestyramine | DB:DB01432 | MESH:D002164 | Hyperlipidemia | MESH:D006949 | 4 | 3 |
+| [DB01432_MESH_D006937_1](db01432-mesh-d006937-1.html) | cholestyramine | DB:DB01432 | MESH:D002164 | Hypercholesterolemia | MESH:D006937 | 4 | 3 |
+| [DB00429_MESH_D006473_1](db00429-mesh-d006473-1.html) | carboprost | DB:DB00429 | MESH:D002164 | Postpartum hemorrhage | MESH:D006473 | 5 | 4 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
