@@ -1,0 +1,27 @@
+name: Merge Pages
+
+on:
+  # Run when a merge is successful such that it tiggers reset of submission file
+  workflow_run:
+    workflows:
+      - Reset Submission File
+    types:
+      - completed
+  workflow_dispatch:  # Allow manual launch on click
+
+jobs:
+  # This will synchorinize main to the gh-pages branch
+  synchronize:
+    # Don't run on forks
+    if: github.repository_owner == 'SuLab'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge main to gh-pages branch
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          type: now
+          from_branch: main
+          target_branch: gh-pages
+          github_token: ${{ github.token }}
+
