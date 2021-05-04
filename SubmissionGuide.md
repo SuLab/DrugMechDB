@@ -73,9 +73,7 @@ Merge the new pull request to receive the changes.
 
 ### Claiming an indication group for curation
 
-Please use the [issue template for claiming a group](
-https://github.com/SuLab/DrugMechDB/issues/new?assignees=&labels=upwork&template=indication-group-
-curation-claim.md&title=Curating+indication+group+)
+Please use the [issue template for claiming a group](https://github.com/SuLab/DrugMechDB/issues/new?assignees=&labels=upwork&template=indication-group-curation-claim.md&title=Curating+indication+group+)
 to claim a group of indications so that other curators do not work on the same indications.
 
 The `.zip` file containing the full set of grouped indications can be [downloaded here](
@@ -179,7 +177,7 @@ parser from correctly reading the file.
 
 ### Updating an existing path
 
-Similar to [submission](#submitting -new-paths), updates to existing paths are made via the `submission.yaml` file. As this
+Similar to [submission](#submitting-new-paths), updates to existing paths are made via the `submission.yaml` file. As this
  `submission.yaml` file will be constantly reset to empty after every submission, it is **highly recommended** that you work in a
 separate file locally while curating and copy or rename this file to `submission.yaml` when ready to commit
 changes and submit a Pull Request.
