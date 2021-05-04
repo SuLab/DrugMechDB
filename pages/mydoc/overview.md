@@ -2085,6 +2085,36 @@ datatable: true
 | [DB01432_MESH_D006949_1](db01432-mesh-d006949-1.html) | cholestyramine | DB:DB01432 | MESH:D002164 | Hyperlipidemia | MESH:D006949 | 4 | 3 |
 | [DB01432_MESH_D006937_1](db01432-mesh-d006937-1.html) | cholestyramine | DB:DB01432 | MESH:D002164 | Hypercholesterolemia | MESH:D006937 | 4 | 3 |
 | [DB00429_MESH_D006473_1](db00429-mesh-d006473-1.html) | carboprost | DB:DB00429 | MESH:D002164 | Postpartum hemorrhage | MESH:D006473 | 5 | 4 |
+| [DB01602_MESH_D014552_1](db01602-mesh-d014552-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Urinary tract infectious disease | MESH:D014552 | 8 | 7 |
+| [DB01602_MESH_D012852_1](db01602-mesh-d012852-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Sinusitis | MESH:D012852 | 8 | 7 |
+| [DB01602_MESH_D006069_1](db01602-mesh-d006069-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Gonorrhea | MESH:D006069 | 8 | 7 |
+| [DB01602_MESH_D010612_1](db01602-mesh-d010612-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Pharyngitis | MESH:D010612 | 8 | 7 |
+| [DB00844_MESH_D010146_1](db00844-mesh-d010146-1.html) | nalbuphine | DB:DB00844 | MESH:D009266 | Pain | MESH:D010146 | 10 | 11 |
+| [DB00844_MESH_D048949_1](db00844-mesh-d048949-1.html) | nalbuphine | DB:DB00844 | MESH:D009266 | Labor pain | MESH:D048949 | 10 | 11 |
+| [DB01075_MESH_D012223_1](db01075-mesh-d012223-1.html) | diphenhydramine | DB:DB01075 | MESH:D009266 | Vasomotor rhinitis | MESH:D012223 | 6 | 5 |
+| [DB01075_MESH_D006255_1](db01075-mesh-d006255-1.html) | diphenhydramine | DB:DB01075 | MESH:D009266 | Seasonal allergic rhinitis | MESH:D006255 | 6 | 5 |
+| [DB01075_MESH_D003233_1](db01075-mesh-d003233-1.html) | diphenhydramine | DB:DB01075 | MESH:D009266 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
+| [DB01229_MESH_D005902_1](db01229-mesh-d005902-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Open-angle glaucoma | MESH:D005902 | 2 | 1 |
+| [DB01229_MESH_D010051_1](db01229-mesh-d010051-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Malignant tumor of ovary | MESH:D010051 | 8 | 8 |
+| [DB01229_MESH_D009798_1](db01229-mesh-d009798-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Ocular hypertension | MESH:D009798 | 2 | 1 |
+| [DB01229_MESH_D002289_1](db01229-mesh-d002289-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Non-small cell lung cancer | MESH:D002289 | 8 | 8 |
+| [DB01229_MESH_D006973_1](db01229-mesh-d006973-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Hypertensive disorder | MESH:D006973 | 2 | 1 |
+| [DB01229_MESH_D001943_1](db01229-mesh-d001943-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Carcinoma of breast | MESH:D001943 | 8 | 8 |
+| [DB01229_MESH_D012514_1](db01229-mesh-d012514-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Kaposi's sarcoma | MESH:D012514 | 8 | 8 |
+| [DB06612_MESH_D011657_1](db06612-mesh-d011657-1.html) | mepolizumab | DB:DB06612 | MESH:C434107 | Eosinophilic asthma | MESH:D011657 | 8 | 9 |
+| [DB06826_MESH_D005902_1](db06826-mesh-d005902-1.html) | unoprostone isopropyl | DB:DB06826 | MESH:C072630 | Open-angle glaucoma | MESH:D005902 | 5 | 4 |
+| [DB06826_MESH_D009798_1](db06826-mesh-d009798-1.html) | unoprostone isopropyl | DB:DB06826 | MESH:C072630 | Ocular hypertension | MESH:D009798 | 4 | 3 |
+| [DB07477_MESH_D010146_1](db07477-mesh-d010146-1.html) | felbinac | DB:DB07477 | MESH:C012776 | Pain | MESH:D010146 | 6 | 6 |
+| [DB07477_MESH_D010003_1](db07477-mesh-d010003-1.html) | felbinac | DB:DB07477 | MESH:C012776 | Osteoarthritis | MESH:D010003 | 8 | 9 |
+| [DB09082_MESH_D029424_1](db09082-mesh-d029424-1.html) | vilanterol | DB:DB09082 | MESH:C550468 | Chronic obstructive lung disease | MESH:D029424 | 7 | 6 |
+| [DB09082_MESH_D011656_1](db09082-mesh-d011656-1.html) | vilanterol | DB:DB09082 | MESH:C550468 | Pulmonary emphysema | MESH:D011656 | 8 | 7 |
+| [DB09082_MESH_D029481_1](db09082-mesh-d029481-1.html) | vilanterol | DB:DB09082 | MESH:C550468 | Chronic bronchitis | MESH:D029481 | 7 | 6 |
+| [DB09082_MESH_D001249_1](db09082-mesh-d001249-1.html) | vilanterol | DB:DB09082 | MESH:C550468 | Asthma | MESH:D001249 | 7 | 6 |
+| [DB00752_MESH_D003865_1](db00752-mesh-d003865-1.html) | Tranylcypromine | DB:DB00752 | MESH:D014191 | Major depressive disorder | MESH:D003865 | 6 | 7 |
+| [DB06151_MESH_D003550_1](db06151-mesh-d003550-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Cystic Fibrosis | MESH:D003550 | 4 | 3 |
+| [DB06151_MESH_D001991_1](db06151-mesh-d001991-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchitis | MESH:D001991 | 4 | 3 |
+| [DB06151_MESH_D001987_1](db06151-mesh-d001987-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchiectasis | MESH:D001987 | 4 | 4 |
+| [DB06151_MESH_D000686_1](db06151-mesh-d000686-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Amyloidosis | MESH:D000686 | 2 | 1 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
