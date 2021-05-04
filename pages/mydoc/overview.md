@@ -207,8 +207,8 @@ datatable: true
 | [DB06708_MESH_D016778_1](db06708-mesh-d016778-1.html) | lumefantrine | DB:DB06708 | MESH:C102070 | Falciparum malaria | MESH:D016778 | 6 | 5 |
 | [DB01601_MESH_D015658_1](db01601-mesh-d015658-1.html) | lopinavir | DB:DB01601 | MESH:D061466 | Human immunodeficiency virus infection | MESH:D015658 | 7 | 6 |
 | [DB05352_MESH_D000686_1](db05352-mesh-d000686-1.html) | tafamidis | DB:DB05352 | MESH:C547076 | Amyloidosis | MESH:D000686 | 8 | 7 |
-| [DB12459_MESH_D002289_1](db12459-mesh-d002289-1.html) | belotecan | DB:DB12459 | MESH:C116963 | Non-small cell lung cancer | MESH:D002289 | 8 | 7 |
-| [DB12459_MESH_D010051_1](db12459-mesh-d010051-1.html) | belotecan | DB:DB12459 | MESH:C116963 | Malignant tumor of ovary | MESH:D010051 | 8 | 7 |
+| [DB12459_MESH_D002289_1](db12459-mesh-d002289-1.html) | belotecan | DB:DB12459 | MESH:C116963 | Non-small cell lung cancer | MESH:D002289 | 5 | 4 |
+| [DB12459_MESH_D010051_1](db12459-mesh-d010051-1.html) | belotecan | DB:DB12459 | MESH:C116963 | Malignant tumor of ovary | MESH:D010051 | 5 | 4 |
 | [DB00182_MESH_D009765_1](db00182-mesh-d009765-1.html) | amfetamine | DB:DB00182 | MESH:D000661 | Obesity | MESH:D009765 | 6 | 5 |
 | [DB00182_MESH_D009765_2](db00182-mesh-d009765-2.html) | amfetamine | DB:DB00182 | MESH:D000661 | Obesity | MESH:D009765 | 6 | 5 |
 | [DB00182_MESH_D009290_1](db00182-mesh-d009290-1.html) | amfetamine | DB:DB00182 | MESH:D000661 | Narcolepsy | MESH:D009290 | 5 | 4 |
