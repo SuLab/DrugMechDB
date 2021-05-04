@@ -8504,23 +8504,14 @@
     -   key: decreases activity of
         source: MESH:C116963
         target: UniProt:P11387
-    -   key: enables
+    -   key: positively regulates
         source: UniProt:P11387
-        target: GO:0003697
-    -   key: negatively correlated with
-        source: GO:0003697
-        target: GO:0043392
+        target: GO:0003677
     -   key: correlated with
-        source: GO:0043392
-        target: GO:0051107
-    -   key: precedes
-        source: GO:0051107
-        target: GO:0008156
-    -   key: contributes to
-        source: GO:0008156
-        target: GO:0006915
-    -   key: treats
-        source: GO:0006915
+        source: GO:0003677
+        target: GO:0006260
+    -   key: positively correlated with
+        source: GO:0006260
         target: MESH:D002289
     multigraph: true
     nodes:
@@ -8530,21 +8521,12 @@
     -   id: UniProt:P11387
         label: Protein
         name: DNA topoisomerase 1
-    -   id: GO:0003697
+    -   id: GO:0003677
         label: MolecularActivity
-        name: single-stranded DNA binding
-    -   id: GO:0043392
+        name: DNA binding
+    -   id: GO:0006260
         label: BiologicalProcess
-        name: negative regulation of DNA binding
-    -   id: GO:0051107
-        label: BiologicalProcess
-        name: negative regulation of DNA ligation
-    -   id: GO:0008156
-        label: BiologicalProcess
-        name: negative regulation of DNA replication
-    -   id: GO:0006915
-        label: BiologicalProcess
-        name: apoptotic process
+        name: DNA replication
     -   id: MESH:D002289
         label: Disease
         name: Non-small cell lung cancer
@@ -8563,23 +8545,14 @@
     -   key: decreases activity of
         source: MESH:C116963
         target: UniProt:P11387
-    -   key: enables
+    -   key: positively regulates
         source: UniProt:P11387
-        target: GO:0003697
-    -   key: negatively correlated with
-        source: GO:0003697
-        target: GO:0043392
+        target: GO:0003677
     -   key: correlated with
-        source: GO:0043392
-        target: GO:0051107
-    -   key: precedes
-        source: GO:0051107
-        target: GO:0008156
-    -   key: contributes to
-        source: GO:0008156
-        target: GO:0006915
-    -   key: negatively correlated with
-        source: GO:0006915
+        source: GO:0003677
+        target: GO:0006260
+    -   key: positively correlated with
+        source: GO:0006260
         target: MESH:D010051
     multigraph: true
     nodes:
@@ -8589,21 +8562,12 @@
     -   id: UniProt:P11387
         label: Protein
         name: DNA topoisomerase 1
-    -   id: GO:0003697
+    -   id: GO:0003677
         label: MolecularActivity
-        name: double-stranded DNA binding,single-stranded DNA binding
-    -   id: GO:0043392
+        name: DNA binding
+    -   id: GO:0006260
         label: BiologicalProcess
-        name: negative regulation of DNA binding
-    -   id: GO:0051107
-        label: BiologicalProcess
-        name: negative regulation of DNA ligation
-    -   id: GO:0008156
-        label: BiologicalProcess
-        name: negative regulation of DNA replication
-    -   id: GO:0006915
-        label: BiologicalProcess
-        name: apoptotic process
+        name: DNA replication
     -   id: MESH:D010051
         label: Disease
         name: Malignant tumor of ovary
