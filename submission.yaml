@@ -1,1 +1,79 @@
+- directed: true
+  graph:
+    _id: DB12459_MESH_D002289_1
+    disease: Non-small cell lung cancer
+    disease_mesh: MESH:D002289
+    drug: belotecan
+    drug_mesh: MESH:C116963
+    drugbank: DB:DB12459
+  links:
+  -   key: decreases activity of
+      source: MESH:C116963
+      target: UniProt:P11387
+  -   key: positively regulates
+      source: UniProt:P11387
+      target: GO:0003677
+  -   key: correlated with
+      source: GO:0003677
+      target: GO:0006260
+  -   key: positively correlated with
+      source: GO:0006260
+      target: MESH:D002289
+  multigraph: true
+  nodes:
+  -   id: MESH:C116963
+      label: Drug
+      name: belotecan
+  -   id: UniProt:P11387
+      label: Protein
+      name: DNA topoisomerase 1
+  -   id: GO:0003677
+      label: MolecularActivity
+      name: DNA binding
+  -   id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+  -   id: MESH:D002289
+      label: Disease
+      name: Non-small cell lung cancer
+  reference: https://pubchem.ncbi.nlm.nih.gov/compound/Belotecan-hydrochloride https://en.wikipedia.org/wiki/Belotecan
+- directed: true
+  graph:
+    _id: DB12459_MESH_D010051_1
+    disease: Malignant tumor of ovary
+    disease_mesh: MESH:D010051
+    drug: belotecan
+    drug_mesh: MESH:C116963
+    drugbank: DB:DB12459
+  links:
+  -   key: decreases activity of
+      source: MESH:C116963
+      target: UniProt:P11387
+  -   key: positively regulates
+      source: UniProt:P11387
+      target: GO:0003677
+  -   key: correlated with
+      source: GO:0003677
+      target: GO:0006260
+  -   key: positively correlated with
+      source: GO:0006260
+      target: MESH:D010051
+  multigraph: true
+  nodes:
+  -   id: MESH:C116963
+      label: Drug
+      name: belotecan
+  -   id: UniProt:P11387
+      label: Protein
+      name: DNA topoisomerase 1
+  -   id: GO:0003677
+      label: MolecularActivity
+      name: DNA binding
+  -   id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+  -   id: MESH:D010051
+      label: Disease
+      name: Malignant tumor of ovary
+  reference: https://pubchem.ncbi.nlm.nih.gov/compound/Belotecan-hydrochloride https://en.wikipedia.org/wiki/Belotecan
 
