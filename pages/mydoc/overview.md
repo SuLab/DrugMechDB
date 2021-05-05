@@ -2115,6 +2115,27 @@ datatable: true
 | [DB06151_MESH_D001991_1](db06151-mesh-d001991-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchitis | MESH:D001991 | 4 | 3 |
 | [DB06151_MESH_D001987_1](db06151-mesh-d001987-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchiectasis | MESH:D001987 | 4 | 4 |
 | [DB06151_MESH_D000686_1](db06151-mesh-d000686-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Amyloidosis | MESH:D000686 | 2 | 1 |
+| [DB06262_MESH_D010300_1](db06262-mesh-d010300-1.html) | droxidopa | DB:DB06262 | MESH:D015103 | Parkinson's disease | MESH:D010300 | 8 | 9 |
+| [DB06262_MESH_D007024_1](db06262-mesh-d007024-1.html) | droxidopa | DB:DB06262 | MESH:D015103 | Orthostatic hypotension | MESH:D007024 | 7 | 8 |
+| [DB00782_MESH_D010437_1](db00782-mesh-d010437-1.html) | propantheline | DB:DB00782 | MESH:D011413 | Peptic ulcer | MESH:D010437 | 5 | 4 |
+| [DB00864_MESH_D003876_1](db00864-mesh-d003876-1.html) | tacrolimus | DB:DB00864 | MESH:D016559 | Atopic dermatitis | MESH:D003876 | 9 | 9 |
+| [DB00978_MESH_D001991_1](db00978-mesh-d001991-1.html) | lomefloxacin | DB:DB00978 | MESH:C053091 | Bronchitis | MESH:D001991 | 6 | 6 |
+| [DB00978_MESH_D014552_1](db00978-mesh-d014552-1.html) | lomefloxacin | DB:DB00978 | MESH:C053091 | Urinary tract infectious disease | MESH:D014552 | 6 | 6 |
+| [DB08903_MESH_D014397_1](db08903-mesh-d014397-1.html) | bedaquiline | DB:DB08903 | MESH:C493870 | Pulmonary tuberculosis | MESH:D014397 | 6 | 5 |
+| [DB08903_MESH_D018088_1](db08903-mesh-d018088-1.html) | bedaquiline | DB:DB08903 | MESH:C493870 | Drug resistant tuberculosis | MESH:D018088 | 6 | 5 |
+| [DB09154_MESH_D003371_1](db09154-mesh-d003371-1.html) | sodium citrate | DB:DB09154 | MESH:D000077559 | Cough | MESH:D003371 | 3 | 2 |
+| [DB09154_MESH_D004415_1](db09154-mesh-d004415-1.html) | sodium citrate | DB:DB09154 | MESH:D000077559 | Indigestion | MESH:D004415 | 4 | 3 |
+| [DB09154_MESH_D012220_1](db09154-mesh-d012220-1.html) | sodium citrate | DB:DB09154 | MESH:D000077559 | Rhinitis | MESH:D012220 | 3 | 2 |
+| [DB09154_MESH_D006356_1](db09154-mesh-d006356-1.html) | sodium citrate | DB:DB09154 | MESH:D000077559 | Heartburn | MESH:D006356 | 3 | 2 |
+| [DB09154_MESH_D005764_1](db09154-mesh-d005764-1.html) | sodium citrate | DB:DB09154 | MESH:D000077559 | Gastroesophageal reflux disease | MESH:D005764 | 4 | 3 |
+| [DB09154_MESH_D010437_1](db09154-mesh-d010437-1.html) | sodium citrate | DB:DB09154 | MESH:D000077559 | Peptic ulcer | MESH:D010437 | 3 | 2 |
+| [DB09154_MESH_D003139_1](db09154-mesh-d003139-1.html) | sodium citrate | DB:DB09154 | MESH:D000077559 | Common cold | MESH:D003139 | 4 | 3 |
+| [DB09555_MESH_D011537_1](db09555-mesh-d011537-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | dexchlorpheniramine | MESH:D011537 | 6 | 5 |
+| [DB09555_MESH_D003233_1](db09555-mesh-d003233-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
+| [DB09555_MESH_D065631_1](db09555-mesh-d065631-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
+| [DB09555_MESH_D012223_1](db09555-mesh-d012223-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Vasomotor rhinitis | MESH:D012223 | 6 | 5 |
+| [DB09555_MESH_D014581_1](db09555-mesh-d014581-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB09555_MESH_D006255_1](db09555-mesh-d006255-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Seasonal allergic rhinitis | MESH:D006255 | 7 | 6 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
