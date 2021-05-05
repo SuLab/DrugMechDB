@@ -135,78 +135,6 @@
   reference: https://go.drugbank.com/drugs/DB00948
 - directed: true
   graph:
-    _id: DB00948_MESH_D016868_2
-    disease: Infectious disease of abdomen
-    disease_mesh: MESH:D059413
-    drug: mezlocillin
-    drug_mesh: MESH:D008802
-    drugbank: DB:DB00948
-  links:
-    - key: decreases activity of
-      source: MESH:D008802
-      target: Pfam:PF00905
-    - key: positively regulates
-      source: Pfam:PF00905
-      target: GO:0009252
-    - key: positively correlated with
-      source: GO:0009252
-      target: GO:0009273
-    - key: in taxon
-      source: GO:0009273
-      target: NCBITaxon:562
-    - key: in taxon
-      source: GO:0009273
-      target: NCBITaxon:573
-    - key: in taxon
-      source: GO:0009273
-      target: NCBITaxon:550
-    - key: in taxon
-      source: GO:0009273
-      target: NCBITaxon:287
-    - key: causes
-      source: NCBITaxon:562
-      target: MESH:D059413
-    - key: causes
-      source: NCBITaxon:573
-      target: MESH:D059413
-    - key: causes
-      source: NCBITaxon:550
-      target: MESH:D059413
-    - key: causes
-      source: NCBITaxon:287
-      target: MESH:D059413
-  multigraph: true
-  nodes:
-    - id: MESH:D008802
-      label: Drug
-      name: mezlocillin
-    - id: Pfam:PF00905
-      label: GeneFamily
-      name: Penicillin binding protein transpeptidase domain
-    - id: GO:0009252
-      label: BiologicalProcess
-      name: peptidoglycan biosynthetic process
-    - id: GO:0009273
-      label: BiologicalProcess
-      name: peptidoglycan-based cell wall biogenesis
-    - id: NCBITaxon:562
-      label: OrganismTaxon
-      name: Escherichia coli
-    - id: NCBITaxon:573
-      label: OrganismTaxon
-      name: Klebsiella pneumoniae
-    - id: NCBITaxon:550
-      label: OrganismTaxon
-      name: Enterobacter cloacae
-    - id: NCBITaxon:287
-      label: OrganismTaxon
-      name: Pseudomonas aeruginosa
-    - id: MESH:D059413
-      label: Disease
-      name: Infectious disease of abdomen
-  reference: https://go.drugbank.com/drugs/DB00948
-- directed: true
-  graph:
     _id: DB00948_MESH_D014552_1
     disease: Urinary tract infectious disease
     disease_mesh: MESH:D014552
@@ -1099,4 +1027,3 @@
       name: Angina pectoris
   reference: https://go.drugbank.com/drugs/DB01244#BE0003323 https://go.drugbank.com/drugs/DB01244#BE0003565
   comments: This drug does not interact directly with the catalytic site of PDE1 but interact at the level of calmodulin binding sites (https://en.wikipedia.org/wiki/PDE1#Inhibitors_and_their_function)
-
