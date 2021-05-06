@@ -2136,6 +2136,32 @@ datatable: true
 | [DB09555_MESH_D012223_1](db09555-mesh-d012223-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Vasomotor rhinitis | MESH:D012223 | 6 | 5 |
 | [DB09555_MESH_D014581_1](db09555-mesh-d014581-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Urticaria | MESH:D014581 | 5 | 4 |
 | [DB09555_MESH_D006255_1](db09555-mesh-d006255-1.html) | dexchlorpheniramine | DB:DB09555 | MESH:C018904 | Seasonal allergic rhinitis | MESH:D006255 | 7 | 6 |
+| [DB00196_MESH_D002180_1](db00196-mesh-d002180-1.html) | fluconazole | DB:DB00196 | MESH:D015725 | Candidiasis of mouth | MESH:D002180 | 6 | 5 |
+| [DB00196_MESH_D058387_1](db00196-mesh-d058387-1.html) | fluconazole | DB:DB00196 | MESH:D015725 | Candidemia | MESH:D058387 | 6 | 5 |
+| [DB00196_MESH_D016919_1](db00196-mesh-d016919-1.html) | fluconazole | DB:DB00196 | MESH:D015725 | Cryptococcal meningitis | MESH:D016919 | 6 | 5 |
+| [DB00196_MESH_C536777_1](db00196-mesh-c536777-1.html) | fluconazole | DB:DB00196 | MESH:D015725 | Disseminated candidiasis | MESH:C536777 | 6 | 5 |
+| [DB00196_MESH_D002181_1](db00196-mesh-d002181-1.html) | fluconazole | DB:DB00196 | MESH:D015725 | Candidal vulvovaginitis | MESH:D002181 | 6 | 5 |
+| [DB00232_MESH_D006973_1](db00232-mesh-d006973-1.html) | methylclothiazide | DB:DB00232 | MESH:D008736 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
+| [DB00232_MESH_D006973_2](db00232-mesh-d006973-2.html) | methylclothiazide | DB:DB00232 | MESH:D008736 | Hypertensive disorder | MESH:D006973 | 4 | 3 |
+| [DB00232_MESH_D004487_1](db00232-mesh-d004487-1.html) | methylclothiazide | DB:DB00232 | MESH:D008736 | Edema | MESH:D004487 | 6 | 5 |
+| [DB00259_MESH_D002181_1](db00259-mesh-d002181-1.html) | sulfanilamide | DB:DB00259 | MESH:C036944 | Candidal vulvovaginitis | MESH:D002181 | 5 | 4 |
+| [DB00259_MESH_D014848_1](db00259-mesh-d014848-1.html) | sulfanilamide | DB:DB00259 | MESH:C036944 | Vulvovaginitis | MESH:D014848 | 5 | 4 |
+| [DB00500_MESH_D001172_1](db00500-mesh-d001172-1.html) | tolmetin | DB:DB00500 | MESH:D014046 | Rheumatoid arthritis | MESH:D001172 | 9 | 10 |
+| [DB00500_MESH_D001171_1](db00500-mesh-d001171-1.html) | tolmetin | DB:DB00500 | MESH:D014046 | Juvenile rheumatoid arthritis | MESH:D001171 | 7 | 7 |
+| [DB00500_MESH_D010003_1](db00500-mesh-d010003-1.html) | tolmetin | DB:DB00500 | MESH:D014046 | Osteoarthritis | MESH:D010003 | 8 | 9 |
+| [DB00796_MESH_D006973_1](db00796-mesh-d006973-1.html) | candesartan cilexetil | DB:DB00796 | MESH:C077793,MESH:C081643 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
+| [DB09072_MESH_D009290_1](db09072-mesh-d009290-1.html) | sodium oxybate | DB:DB09072 | MESH:D012978 | Cataplexy and narcolepsy | MESH:D009290 | 4 | 3 |
+| [DB04896_MESH_D005356_1](db04896-mesh-d005356-1.html) | milnacipran | DB:DB04896 | MESH:C048107 | Fibromyalgia | MESH:D005356 | 11 | 11 |
+| [DB06413_MESH_D009290_1](db06413-mesh-d009290-1.html) | armodafinil | DB:DB06413 | MESH:C579652 | Narcolepsy | MESH:D009290 | 6 | 5 |
+| [DB09263_MESH_D006947_1](db09263-mesh-d006947-1.html) | patiromer calcium | DB:DB09263 | MESH:C568789 | Hyperkalemia | MESH:D006947 | 3 | 2 |
+| [DB06723_MESH_D004415_1](db06723-mesh-d004415-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Indigestion | MESH:D004415 | 4 | 3 |
+| [DB06723_MESH_D010437_1](db06723-mesh-d010437-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Peptic ulcer | MESH:D010437 | 4 | 3 |
+| [DB06723_MESH_D004381_1](db06723-mesh-d004381-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Duodenal ulcer disease | MESH:D004381 | 4 | 3 |
+| [DB06723_MESH_D006356_1](db06723-mesh-d006356-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Heartburn | MESH:D006356 | 3 | 2 |
+| [DB06723_MESH_D013276_1](db06723-mesh-d013276-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Gastric ulcer | MESH:D013276 | 4 | 3 |
+| [DB06723_MESH_D005764_1](db06723-mesh-d005764-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Gastroesophageal reflux disease | MESH:D005764 | 4 | 3 |
+| [DB09287_MESH_D003248_1](db09287-mesh-d003248-1.html) | Polyethylene glycol | DB:DB09287 | MESH:C000595213,MESH:C000595211,MESH:C000595212 | Constipation | MESH:D003248 | 5 | 4 |
+| [DB09287_MESH_D015352_1](db09287-mesh-d015352-1.html) | Polyethylene glycol | DB:DB09287 | MESH:C000595213,MESH:C000595211,MESH:C000595212 | Tear film insufficiency | MESH:D015352 | 4 | 3 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
