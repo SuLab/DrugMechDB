@@ -9,7 +9,7 @@ from path_plots import dmdb_plots as dp
 import re
 import shutil
 from yaml import safe_load
-from utils.build_indications import get_id_num
+from utils.build_indications import get_id_num, read_deprecated_ids
 
 
 def generate_md_header(output, title, permalink, datatable=False):
@@ -69,6 +69,7 @@ def read_yaml():
 
 def generate_path_pages():
     data = read_yaml()
+    deprecated_ids = read_deprecated_ids()
 
     # 1. overview table metadata and header
     #restart_file("pages/mydoc/overview.md")
@@ -106,6 +107,18 @@ def generate_path_pages():
         # 2. generate pathway pages
         outfile_name = pathid
         outfile_name = pathid.replace('_', '-').lower()
+
+        # Check for deprecation and delete if true
+        if pathid in deprecated_ids:
+            # delete the webpage
+            if os.path.exists("pages/mydoc/" + outfile_name + ".md"):
+                os.remove("pages/mydoc/" + outfile_name + ".md", 'r')
+            # delete the image
+            if os.path.exists("images/" + outfile_name + ".png"):
+                os.remove("images/" + outfile_name + ".png")
+            # Jump to next iteration
+            continue
+
 
         # Check to see if the file already exists
         if os.path.exists("pages/mydoc/" + outfile_name + ".md"):
