@@ -1,4 +1,4 @@
-name: Validate PR
+name: Deprecate ID
 
 on:
   pull_request_target:
@@ -16,7 +16,7 @@ jobs:
         run: |
           URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/pulls/${{ github.event.pull_request.number }}/files"
           FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
-          if [ $FILES = "deprecated_ids.txt" ]; then
+          if [ $FILES = "utils/deprecated_ids.txt" ]; then
             echo "Authorized Submission"
           else
             echo "Unauthorized Submission: Deletion requests must only contain edits to 'deprecated_ids.txt'"
