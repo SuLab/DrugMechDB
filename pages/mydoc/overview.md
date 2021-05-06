@@ -266,12 +266,12 @@ datatable: true
 | [DB04865_MESH_D015464_1](db04865-mesh-d015464-1.html) | omacetaxine mepesuccinate | DB:DB04865 | MESH:C001652 | Chronic myeloid leukemia | MESH:D015464 | 5 | 4 |
 | [DBDB08902_MESH_C571912_1](dbdb08902-mesh-c571912-1.html) | raxibacumab | DB:DBDB08902 | MESH:C542124 | Inhalational anthrax | MESH:C571912 | 4 | 3 |
 | [DB12417_MESH_D003924_1](db12417-mesh-d003924-1.html) | anagliptin | DB:DB12417 | MESH:C583175 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 7 |
-| [DB00283_MESH_D014581_1](db00283-mesh-d014581-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Urticaria | MESH:D014581 | 6 | 5 |
-| [DB00283_MESH_D011537_1](db00283-mesh-d011537-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Itching of skin | MESH:D011537 | 6 | 5 |
-| [DB00283_MESH_D012912_1](db00283-mesh-d012912-1.html) | clemastine | DB:DB00283 | MESH:D002974 | sneezing | MESH:D012912 | 6 | 5 |
+| [DB00283_MESH_D014581_1](db00283-mesh-d014581-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB00283_MESH_D011537_1](db00283-mesh-d011537-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Itching of skin | MESH:D011537 | 5 | 4 |
+| [DB00283_MESH_D012912_1](db00283-mesh-d012912-1.html) | clemastine | DB:DB00283 | MESH:D002974 | sneezing | MESH:D012912 | 5 | 4 |
 | [DB00283_MESH_D012223_1](db00283-mesh-d012223-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
 | [DB00283_MESH_D065631_1](db00283-mesh-d065631-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
-| [DB00283_MESH_D003233_1](db00283-mesh-d003233-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
+| [DB00283_MESH_D003233_1](db00283-mesh-d003233-1.html) | clemastine | DB:DB00283 | MESH:D002974 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
 | [DB00360_MESH_D010661_1](db00360-mesh-d010661-1.html) | sapropterin | DB:DB00360 | MESH:C003402 | Classical phenylketonuria | MESH:D010661 | 5 | 4 |
 | [DB00626_MESH_D007634_1](db00626-mesh-d007634-1.html) | bacitracin | DB:DB00626 | MESH:D001414 | Keratitis | MESH:D007634 | 5 | 4 |
 | [DB00994_MESH_D014552_1](db00994-mesh-d014552-1.html) | neomycin | DB:DB00994 | MESH:D009355 | Urinary tract infectious disease | MESH:D014552 | 5 | 4 |
@@ -366,8 +366,8 @@ datatable: true
 | [DB00835_MESH_D065631_1](db00835-mesh-d065631-1.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
 | [DB00835_MESH_D065631_2](db00835-mesh-d065631-2.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic rhinitis | MESH:D065631 | 3 | 2 |
 | [DB00835_MESH_D065631_3](db00835-mesh-d065631-3.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic rhinitis | MESH:D065631 | 3 | 2 |
-| [DB12459_MESH_D010051_2](db12459-mesh-d010051-2.html) | gemcitabine | DB:DB12459 | MESH:C056507 | Malignant tumor of ovary | MESH:D010051 | 9 | 10 |
-| [DB12459_MESH_D002289_2](db12459-mesh-d002289-2.html) | gemcitabine | DB:DB12459 | MESH:C056507 | Non-small cell lung cancer | MESH:D002289 | 9 | 10 |
+| [DB12459_MESH_D010051_2](db12459-mesh-d010051-2.html) | gemcitabine | DB:DB12459 | MESH:C056507 | Malignant tumor of ovary | MESH:D010051 | 10 | 11 |
+| [DB12459_MESH_D002289_2](db12459-mesh-d002289-2.html) | gem citabine | DB:DB12459 | MESH:C056507 | Non-small cell lung cancer | MESH:D002289 | 10 | 11 |
 | [DB00325_MESH_D006973_1](db00325-mesh-d006973-1.html) | nitroprusside | DB:DB00325 | MESH:D009599 | Hypertensive disorder | MESH:D006973 | 8 | 7 |
 | [DB00813_MESH_D010146_1](db00813-mesh-d010146-1.html) | fentanyl | DB:DB00813 | MESH:D005283 | Pain | MESH:D010146 | 14 | 16 |
 | [DB00901_MESH_D001991_1](db00901-mesh-d001991-1.html) | bitolterol | DB:DB00901 | MESH:C011685 | Bronchitis | MESH:D001991 | 10 | 9 |
@@ -853,12 +853,12 @@ datatable: true
 | [DB00797_MESH_D002561_1](db00797-mesh-d002561-1.html) | tolazoline | DB:DB00797 | MESH:D014043 | Cerebrovascular disease | MESH:D002561 | 14 | 22 |
 | [DB00797_MESH_D010547_1](db00797-mesh-d010547-1.html) | tolazoline | DB:DB00797 | MESH:D014043 | Persistent pulmonary hypertension of the newborn | MESH:D010547 | 12 | 16 |
 | [DB01144_MESH_D015812_1](db01144-mesh-d015812-1.html) | dichlorphenamide | DB:DB01144 | MESH:D004005 | Angle-closure glaucoma | MESH:D015812 | 11 | 15 |
-| [DB00257_MESH_D002181_1](db00257-mesh-d002181-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Candidiasis, Vulvovaginal | MESH:D002181 | 8 | 7 |
-| [DB00257_MESH_D003963_1](db00257-mesh-d003963-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Diaper rash | MESH:D003963 | 8 | 7 |
-| [DB00257_MESH_D002179_1](db00257-mesh-d002179-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Candidiasis, Cutaneous | MESH:D002179 | 8 | 7 |
-| [DB00257_MESH_D002180_1](db00257-mesh-d002180-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Candidiasis, Oral | MESH:D002180 | 8 | 7 |
-| [DB00257_MESH_D014008_1](db00257-mesh-d014008-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Tinea pedis | MESH:D014008 | 8 | 7 |
-| [DB00257_MESH_D014010_1](db00257-mesh-d014010-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Tinea Versicolor | MESH:D014010 | 8 | 7 |
+| [DB00257_MESH_D002181_1](db00257-mesh-d002181-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Candidiasis, Vulvovaginal | MESH:D002181 | 5 | 4 |
+| [DB00257_MESH_D003963_1](db00257-mesh-d003963-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Diaper rash | MESH:D003963 | 5 | 4 |
+| [DB00257_MESH_D002179_1](db00257-mesh-d002179-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Candidiasis, Cutaneous | MESH:D002179 | 5 | 4 |
+| [DB00257_MESH_D002180_1](db00257-mesh-d002180-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Candidiasis, Oral | MESH:D002180 | 5 | 4 |
+| [DB00257_MESH_D014008_1](db00257-mesh-d014008-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Tinea pedis | MESH:D014008 | 5 | 4 |
+| [DB00257_MESH_D014010_1](db00257-mesh-d014010-1.html) | clotrimazole | DB:DB00257 | MESH:D003022 | Tinea Versicolor | MESH:D014010 | 5 | 4 |
 | [DB09274_MESH_D016778_1](db09274-mesh-d016778-1.html) | Artesunate | DB:DB09274 | MESH:D000077332 | Malaria, Falciparum | MESH:D016778 | 5 | 4 |
 | [DB09274_MESH_D016780_1](db09274-mesh-d016780-1.html) | Artesunate | DB:DB09274 | MESH:D000077332 | Malaria, Vivax | MESH:D016780 | 5 | 4 |
 | [DB09296_MESH_D019698_1](db09296-mesh-d019698-1.html) | ABT-267 | DB:DB09296 | MESH:C586094 | Chronic hepatitis C | MESH:D019698 | 14 | 16 |
@@ -1269,9 +1269,7 @@ datatable: true
 | [DB00627_MESH_D006949_1](db00627-mesh-d006949-1.html) | Nicotinic acid | DB:DB00627 | MESH:D009525 | Hyperlipidemia | MESH:D006949 | 16 | 18 |
 | [DB00205_MESH_D008288_1](db00205-mesh-d008288-1.html) | pyrimethamine | DB:DB00205 | MESH:D011739 | Malaria | MESH:D008288 | 8 | 8 |
 | [DB00205_MESH_D014123_1](db00205-mesh-d014123-1.html) | pyrimethamine | DB:DB00205 | MESH:D011739 | Toxoplasmosis | MESH:D014123 | 8 | 8 |
-| [DB00484_MESH_D005902_1](db00484-mesh-d005902-1.html) | brimonidine | DB:DB00484 | MESH:D000068438 | Open-angle glaucoma | MESH:D005902 | 11 | 11 |
 | [DB00484_MESH_D012393_1](db00484-mesh-d012393-1.html) | brimonidine | DB:DB00484 | MESH:D000068438 | Rosacea | MESH:D012393 | 10 | 10 |
-| [DB00484_MESH_D009798_1](db00484-mesh-d009798-1.html) | brimonidine | DB:DB00484 | MESH:D000068438 | Ocular hypertension | MESH:D009798 | 10 | 10 |
 | [DB09087_MESH_D010437_1](db09087-mesh-d010437-1.html) | alum | DB:DB09087 | MESH:D000534 | Peptic ulcer | MESH:D010437 | 6 | 6 |
 | [DB09087_MESH_D004415_1](db09087-mesh-d004415-1.html) | alum | DB:DB09087 | MESH:D000534 | Dyspepsia | MESH:D004415 | 8 | 8 |
 | [DB09087_MESH_D006356_1](db09087-mesh-d006356-1.html) | alum | DB:DB09087 | MESH:D000534 | Heartburn | MESH:D006356 | 5 | 4 |
@@ -1356,7 +1354,7 @@ datatable: true
 | [DB06768_MESH_D012628_1](db06768-mesh-d012628-1.html) | Ammonium lactate | DB:DB06768 | None | Seborrheic dermatitis | MESH:D012628 | 5 | 4 |
 | [DB06768_MESH_D016460_1](db06768-mesh-d016460-1.html) | Ammonium lactate | DB:DB06768 | None | Granuloma annulare | MESH:D016460 | 5 | 4 |
 | [DB00484_MESH_D005902_3](db00484-mesh-d005902-3.html) | timolol | DB:DB00484 | MESH:D013999 | Open-angle glaucoma | MESH:D005902 | 8 | 8 |
-| [DB00484_MESH_D006973_1](db00484-mesh-d006973-1.html) | timolol | DB:DB00484 | MESH:D013999 | Hypertensive disorder | MESH:D006973 | 8 | 9 |
+| [DB00484_MESH_D006973_1](db00484-mesh-d006973-1.html) | timolol | DB:DB00484 | MESH:D013999 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
 | [DB00484_MESH_D009798_3](db00484-mesh-d009798-3.html) | timolol | DB:DB00484 | MESH:D013999 | Ocular hypertension | MESH:D009798 | 7 | 7 |
 | [DB00610_MESH_D007022_1](db00610-mesh-d007022-1.html) | metaraminol | DB:DB00610 | MESH:D008680 | Low blood pressure | MESH:D007022 | 5 | 5 |
 | [DB00634_MESH_D015863_1](db00634-mesh-d015863-1.html) | sulfacetamide | DB:DB00634 | MESH:D013409 | Iridocyclitis | MESH:D015863 | 5 | 4 |
@@ -1423,7 +1421,7 @@ datatable: true
 | [DB01173_MESH_D020734_2](db01173-mesh-d020734-2.html) | Orphenadrine | DB:DB01173 | MESH:D009966 | Parkinsonism | MESH:D020734 | 4 | 3 |
 | [DB01173_MESH_D009128_2](db01173-mesh-d009128-2.html) | Orphenadrine | DB:DB01173 | MESH:D009966 | Spasticity | MESH:D009128 | 2 | 1 |
 | [DB01173_MESH_D020734_3](db01173-mesh-d020734-3.html) | Orphenadrine | DB:DB01173 | MESH:D009966 | Parkinsonism | MESH:D020734 | 4 | 3 |
-| [DB08808_MESH_D006973_1](db08808-mesh-d006973-1.html) | bupranolol | DB:DB08808 | MESH:D002046 | Hypertensive disorder | MESH:D006973 | 8 | 9 |
+| [DB08808_MESH_D006973_1](db08808-mesh-d006973-1.html) | bupranolol | DB:DB08808 | MESH:D002046 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
 | [DB08808_MESH_D005901_1](db08808-mesh-d005901-1.html) | bupranolol | DB:DB08808 | MESH:D002046 | Glaucoma | MESH:D005901 | 4 | 3 |
 | [DB00602_MESH_D009855_2](db00602-mesh-d009855-2.html) | ivermectin | DB:DB00602 | MESH:D007559 | Onchocerciasis | MESH:D009855 | 6 | 5 |
 | [DB00602_MESH_D013322_1](db00602-mesh-d013322-1.html) | ivermectin | DB:DB00602 | MESH:D007559 | Strongyloidiasis | MESH:D013322 | 6 | 5 |
@@ -1914,7 +1912,6 @@ datatable: true
 | [DB00948_MESH_D006069_1](db00948-mesh-d006069-1.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Gonorrhea | MESH:D006069 | 6 | 5 |
 | [DB00948_MESH_D011015_1](db00948-mesh-d011015-1.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Aspiration pneumonia | MESH:D011015 | 6 | 5 |
 | [DB00948_MESH_D016868_1](db00948-mesh-d016868-1.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Bacterial infection due to Serratia | MESH:D016868 | 6 | 5 |
-| [DB00948_MESH_D016868_2](db00948-mesh-d016868-2.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Infectious disease of abdomen | MESH:D016868 | 9 | 11 |
 | [DB00948_MESH_D014552_1](db00948-mesh-d014552-1.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Urinary tract infectious disease | MESH:D014552 | 6 | 5 |
 | [DB01194_MESH_D009798_1](db01194-mesh-d009798-1.html) | brinzolamide | DB:DB01194 | MESH:D004005 | Ocular hypertension | MESH:D009798 | 5 | 4 |
 | [DB01194_MESH_D005902_1](db01194-mesh-d005902-1.html) | brinzolamide | DB:DB01194 | MESH:D004005 | Open-angle glaucoma | MESH:D005902 | 6 | 5 |
