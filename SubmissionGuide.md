@@ -13,6 +13,8 @@ which allows for automated integration of pull requests.
     2. [Claiming an indication group for curation](#claiming-an-indication-group-for-curation)
 3. [Updates](#updates)
     1.  [Updating an existing path](#updating-an-existing-path)
+4. [Deletion](#deletion)
+    1.  [Deleting an existing path](#deleting-an-existing-path)
 
 
 ## Prerequisites
@@ -224,4 +226,16 @@ producing the same error when a problem. If unfamiliar with this process, please
 Updates may be performed as a batch (multiple updates simultaneously) however, they may not be performed at the same time
 as submission of new paths. Those must be included in a separate Pull Request. Adding new paths at the same time as updating
 existing paths will produce an error.
+
+## Deletion
+
+### Deleting an existing path
+
+Deletion of paths is handled through the deprecation of identifiers. To delete a path,
+first find the `Path ID` (see [Path Identifier](#path-identifier)) then submit a pull request
+to `utils/deprecated_id.txt`  with one identifier per line.
+
+After accepting the merge, this path will be removed from the database and the website, and this identifier
+will be skipped on subsequent paths for a given indication (e.g. if `DB00704_MESH_D000437_1` becomes
+deprecated, then a new paths is submitted for `DB:DB00704`, `MESH:D000437`, the new path will be given the next available identifier `DB00704_MESH_D000437_2`).
 
