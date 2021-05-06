@@ -2159,6 +2159,30 @@ datatable: true
 | [DB06723_MESH_D005764_1](db06723-mesh-d005764-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Gastroesophageal reflux disease | MESH:D005764 | 4 | 3 |
 | [DB09287_MESH_D003248_1](db09287-mesh-d003248-1.html) | Polyethylene glycol | DB:DB09287 | MESH:C000595213,MESH:C000595211,MESH:C000595212 | Constipation | MESH:D003248 | 5 | 4 |
 | [DB09287_MESH_D015352_1](db09287-mesh-d015352-1.html) | Polyethylene glycol | DB:DB09287 | MESH:C000595213,MESH:C000595211,MESH:C000595212 | Tear film insufficiency | MESH:D015352 | 4 | 3 |
+| [DB00787_MESH_D002644_1](db00787-mesh-d002644-1.html) | aciclovir | DB:DB00787 | MESH:D000212 | Varicella | MESH:D002644 | 5 | 4 |
+| [DB00787_MESH_D006558_1](db00787-mesh-d006558-1.html) | aciclovir | DB:DB00787 | MESH:D000212 | Genital herpes simplex | MESH:D006558 | 5 | 4 |
+| [DB00787_MESH_D006561_1](db00787-mesh-d006561-1.html) | aciclovir | DB:DB00787 | MESH:D000212 | Herpes simplex | MESH:D006561 | 6 | 6 |
+| [DB00787_MESH_D020803_1](db00787-mesh-d020803-1.html) | aciclovir | DB:DB00787 | MESH:D000212 | Encephalitis due to Herpesvirus | MESH:D020803 | 6 | 6 |
+| [DB00787_MESH_D006562_1](db00787-mesh-d006562-1.html) | aciclovir | DB:DB00787 | MESH:D000212 | Herpes zoster | MESH:D006562 | 5 | 4 |
+| [DB00787_MESH_D006560_1](db00787-mesh-d006560-1.html) | aciclovir | DB:DB00787 | MESH:D000212 | Herpes labialis | MESH:D006560 | 6 | 6 |
+| [DB00417_MESH_D012541_1](db00417-mesh-d012541-1.html) | phenoxymethylpenicillin | DB:DB00417 | MESH:D010404 | Scarlet fever | MESH:D012541 | 6 | 5 |
+| [DB00417_MESH_D010612_1](db00417-mesh-d010612-1.html) | phenoxymethylpenicillin | DB:DB00417 | MESH:D010404 | Pharyngitis | MESH:D010612 | 6 | 5 |
+| [DB00417_MESH_D012141_1](db00417-mesh-d012141-1.html) | phenoxymethylpenicillin | DB:DB00417 | MESH:D010404 | Upper respiratory infection | MESH:D012141 | 6 | 5 |
+| [DB00417_MESH_D013203_1](db00417-mesh-d013203-1.html) | phenoxymethylpenicillin | DB:DB00417 | MESH:D010404 | Infection due to Staphylococcus aureus | MESH:D013203 | 6 | 5 |
+| [DB00417_MESH_D013290_1](db00417-mesh-d013290-1.html) | phenoxymethylpenicillin | DB:DB00417 | MESH:D010404 | Streptococcus pyogenes infection | MESH:D013290 | 6 | 5 |
+| [DB00417_MESH_D004886_1](db00417-mesh-d004886-1.html) | phenoxymethylpenicillin | DB:DB00417 | MESH:D010404 | Erysipelas | MESH:D004886 | 6 | 5 |
+| [DB00240_MESH_D011538_1](db00240-mesh-d011538-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Pruritus Ani | MESH:D011538 | 9 | 10 |
+| [DB00240_MESH_D003877_1](db00240-mesh-d003877-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Contact dermatitis | MESH:D003877 | 10 | 11 |
+| [DB00240_MESH_D005076_1](db00240-mesh-d005076-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Eruption of skin | MESH:D005076 | 9 | 10 |
+| [DB00240_MESH_D016410_1](db00240-mesh-d016410-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Primary cutaneous T-cell lymphoma | MESH:D016410 | 9 | 10 |
+| [DB00240_MESH_D016460_1](db00240-mesh-d016460-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Granuloma annulare | MESH:D016460 | 9 | 10 |
+| [DB00240_MESH_D009450_1](db00240-mesh-d009450-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Lichen simplex chronicus | MESH:D009450 | 11 | 13 |
+| [DB00240_MESH_D003876_1](db00240-mesh-d003876-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Atopic dermatitis | MESH:D003876 | 9 | 10 |
+| [DB00240_MESH_D012628_1](db00240-mesh-d012628-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Seborrheic dermatitis | MESH:D012628 | 10 | 11 |
+| [DB00240_MESH_D008179_1](db00240-mesh-d008179-1.html) | alclometasone dipropionate | DB:DB00240 | MESH:C021137 | Discoid lupus erythematosus | MESH:D008179 | 14 | 19 |
+| [DB00240_MESH_D001172_1](db00240-mesh-d001172-1.html) | rituximab | DB:DB00240 | MESH:D000069283 | Rheumatoid arthritis | MESH:D001172 | 6 | 6 |
+| [DB00240_MESH_D008228_1](db00240-mesh-d008228-1.html) | rituximab | DB:DB00240 | MESH:D000069283 | Non-Hodgkin's lymphoma | MESH:D008228 | 6 | 6 |
+| [DB00240_MESH_D015451_1](db00240-mesh-d015451-1.html) | rituximab | DB:DB00240 | MESH:D000069283 | Chronic lymphoid leukemia, disease | MESH:D015451 | 6 | 6 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
