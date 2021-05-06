@@ -336,14 +336,20 @@ def get_id_num(path_id):
 def get_base_id(path_id):
     return '_'.join(path_id.split('_')[:-1])
 
-
-def get_max_ids(indications):
-    # need to keep track of deprecated identifiers so nothing is repeated
+def read_deprecated_ids():
     try:
         dep_ids = pd.read_csv('utils/depricated_ids.txt', header=None)[0].tolist()
     except pd.errors.EmptyDataError:
         dep_ids = []
+    return dep_ids
 
+def filter_deprecated_ids(indications):
+    dep_ids = read_deprecated_ids()
+    return [ind for ind in indications if ind['graph']['_id'] not in dep_ids]
+
+def get_max_ids(indications):
+    # need to keep track of deprecated identifiers so nothing is repeated
+    dep_ids = read_deprecated_ids()
     max_id = defaultdict(int)
 
     path_ids = [p['graph'].get('_id', None) for p in indications]
@@ -535,8 +541,7 @@ def add_new_submission(submission, outname='indication_paths.yaml'):
                 out.append(path)
 
         out = create_ids(out)
-
-
+        out = filter_deprecated_ids(out)
         nx.write_yaml(out, outname, indent=4)
         print('Build Successful')
     else:
@@ -599,6 +604,7 @@ def update_existing_records(submission, outname='indication_paths.yaml'):
                 print(error,end='\n\n')
             sys.exit(400)
         else:
+            out = filter_deprecated_ids(out)
             print('Update Successful')
             nx.write_yaml(out, outname, indent=4)
 
@@ -610,6 +616,14 @@ def main(inname='submission.yaml'):
         print('Unable to read file: {} Please ensure file has properly formatted YAML.'.format(inname))
         print(se)
         sys.exit(125)
+
+    # No submission, case of an update to deprecated IDs
+    if submission is None:
+        indications = nx.read_yaml('indication_paths.yaml')
+        indications = filter_deprecated_ids(indications)
+        nx.write_yaml(indications, 'indication_paths.yaml', indent=4)
+        print('Paths writen successfully with deprecated IDs removed')
+        sys.exit(0)
 
     # Prep the submission fixing simple common errors and throwing excptions when not simple fixes
     submission = test_and_fix(submission)
