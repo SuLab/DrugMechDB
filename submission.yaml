@@ -1,1 +1,1026 @@
+-   directed: true
+    graph:
+        disease: Osteitis deformans
+        disease_mesh: MESH:D010001
+        drug: calcitonin (salmon synthetic)
+        drug_mesh: MESH:C028815
+        drugbank: DB:DB00017
+    links:
+    -   key: increases activity of
+        source: MESH:C028815
+        target: UniProt:P30988
+    -   key: positively regulates
+        source: UniProt:P30988
+        target: GO:0004948
+    -   key: negatively regulates
+        source: GO:0004948
+        target: CL:0000092
+    -   key: positively regulates
+        source: GO:0004948
+        target: CL:0000062
+    -   key: positively regulates
+        source: CL:0000092
+        target: GO:0046849
+    -   key: positively regulates
+        source: CL:0000062
+        target: GO:0001503
+    -   key: positively correlated with
+        source: GO:0046849
+        target: MESH:D010001
+    -   key: negatively correlated with
+        source: GO:0001503
+        target: MESH:D010001
+    multigraph: true
+    nodes:
+    -   id: MESH:C028815
+        label: Drug
+        name: Calcitonin (salmon synthetic)
+    -   id: UniProt:P30988
+        label: Protein
+        name: Calcitonin receptor
+    -   id: GO:0004948
+        label: MolecularActivity
+        name: Calcitonin receptor activity
+    -   id: CL:0000092
+        label: Cell
+        name: Osteoclast
+    -   id: CL:0000062
+        label: Cell
+        name: Osteoblast
+    -   id: GO:0046849
+        label: BiologicalProcess
+        name: Bone remodeling
+    -   id: GO:0001503
+        label: BiologicalProcess
+        name: Ossification
+    -   id: MESH:D010001
+        label: Disease
+        name: Osteitis deformans
+    reference: 
+    - https://go.drugbank.com/drugs/DB00017
+    - https://en.wikipedia.org/wiki/Paget%27s_disease_of_bone
+-   directed: true
+    graph:
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+        drug: calcitonin (salmon synthetic)
+        drug_mesh: MESH:C028815
+        drugbank: DB:DB00017
+    links:
+    -   key: increases activity of
+        source: MESH:C028815
+        target: UniProt:P30988
+    -   key: positively regulates
+        source: UniProt:P30988
+        target: GO:0004948
+    -   key: negatively regulates
+        source: GO:0004948
+        target: CL:0000092
+    -   key: positively regulates
+        source: GO:0004948
+        target: CL:0000062
+    -   key: positively regulates
+        source: CL:0000092
+        target: GO:0046849
+    -   key: positively regulates
+        source: CL:0000062
+        target: GO:0001503
+    -   key: positively correlated with
+        source: GO:0046849
+        target: MESH:D015663
+    -   key: negatively correlated with
+        source: GO:0001503
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:C028815
+        label: Drug
+        name: Calcitonin (salmon synthetic)
+    -   id: UniProt:P30988
+        label: Protein
+        name: Calcitonin receptor
+    -   id: GO:0004948
+        label: MolecularActivity
+        name: Calcitonin receptor activity
+    -   id: CL:0000092
+        label: Cell
+        name: Osteoclast
+    -   id: CL:0000062
+        label: Cell
+        name: Osteoblast
+    -   id: GO:0046849
+        label: BiologicalProcess
+        name: Bone remodeling
+    -   id: GO:0001503
+        label: BiologicalProcess
+        name: Ossification
+    -   id: MESH:D015663
+        label: Disease
+        name: Postmenopausal osteoporosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB00017
+    - https://en.wikipedia.org/wiki/Osteoporosis
+-   directed: true
+    graph:
+        disease: Renal cell carcinoma
+        disease_mesh: MESH:D002292
+        drug: sorafenib
+        drug_mesh: MESH:C471405
+        drugbank: DB:DB00398
+    links:
+    -   key: decreases activity of 
+        source: MESH:C471405
+        target: InterPro:IPR011009
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P04049
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P09619
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P17948
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P15056
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P35916
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P35968
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P36888
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P10721
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P07949
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P11362
+    -   key: participates in
+        source: UniProt:P15056
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P35916
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P35968
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P36888
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P10721
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P11362
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P04049
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P07949
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P09619
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P17948
+        target: REACT:R-HSA-9006934
+    -   key: contributes to
+        source: REACT:R-HSA-9006934
+        target: GO:0008284
+    -   key: contributes to
+        source: REACT:R-HSA-9006934
+        target: GO:0045766
+    -   key: causes
+        source: GO:0008284
+        target: MESH:D002292
+    -   key: causes
+        source: GO:0045766
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C471405
+        label: Drug
+        name: Sorafenib
+    -   id: InterPro:IPR011009
+        label: GeneFamily
+        name: Protein kinase-like domain superfamily
+    -   id: UniProt:P04049
+        label: Protein
+        name: RAF proto-oncogene serine/threonine-protein kinase
+    -   id: UniProt:P09619
+        label: Protein
+        name: Platelet-derived growth factor receptor beta
+    -   id: UniProt:P17948
+        label: Protein
+        name: Vascular endothelial growth factor receptor 1
+    -   id: UniProt:P15056
+        label: Protein
+        name: Serine/threonine-protein kinase B-raf
+    -   id: UniProt:P35916
+        label: Protein
+        name: Vascular endothelial growth factor receptor 3
+    -   id: UniProt:P35968
+        label: Protein
+        name: Vascular endothelial growth factor receptor 2
+    -   id: UniProt:P36888
+        label: Protein
+        name: Receptor-type tyrosine-protein kinase FLT3
+    -   id: UniProt:P10721
+        label: Protein
+        name: Mast/stem cell growth factor receptor Kit
+    -   id: UniProt:P11362
+        label: Protein
+        name: Fibroblast growth factor receptor 1
+    -   id: UniProt:P07949
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase receptor Ret
+    -   id: REACT:R-HSA-9006934
+        label: Pathway
+        name: Signaling by Receptor Tyrosine Kinases
+    -   id: GO:0008284
+        label: BiologicalProcess
+        name: Positive regulation of cell population proliferation
+    -   id: GO:0045766
+        label: BiologicalProcess
+        name: Positive regulation of angiogenesis 
+    -   id: MESH:D002292
+        label: Disease
+        name: Renal cell carcinoma
+    reference: 
+    - https://go.drugbank.com/drugs/DB00398
+-   directed: true
+    graph:
+        disease: Liver cell carcinoma
+        disease_mesh: MESH:D006528
+        drug: sorafenib
+        drug_mesh: MESH:C471405
+        drugbank: DB:DB00398
+    links:
+    -   key: decreases activity of 
+        source: MESH:C471405
+        target: InterPro:IPR011009
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P04049
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P09619
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P17948
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P15056
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P35916
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P35968
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P36888
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P10721
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P07949
+    -   key: positively correlated with
+        source: InterPro:IPR011009
+        target: UniProt:P11362
+    -   key: participates in
+        source: UniProt:P15056
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P35916
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P35968
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P36888
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P10721
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P11362
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P04049
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P07949
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P09619
+        target: REACT:R-HSA-9006934
+    -   key: participates in
+        source: UniProt:P17948
+        target: REACT:R-HSA-9006934
+    -   key: contributes to
+        source: REACT:R-HSA-9006934
+        target: GO:0008284
+    -   key: contributes to
+        source: REACT:R-HSA-9006934
+        target: GO:0045766
+    -   key: causes
+        source: GO:0008284
+        target: MESH:D006528
+    -   key: causes
+        source: GO:0045766
+        target: MESH:D006528
+    multigraph: true
+    nodes:
+    -   id: MESH:C471405
+        label: Drug
+        name: Sorafenib
+    -   id: InterPro:IPR011009
+        label: GeneFamily
+        name: Protein kinase-like domain superfamily
+    -   id: UniProt:P04049
+        label: Protein
+        name: RAF proto-oncogene serine/threonine-protein kinase
+    -   id: UniProt:P09619
+        label: Protein
+        name: Platelet-derived growth factor receptor beta
+    -   id: UniProt:P17948
+        label: Protein
+        name: Vascular endothelial growth factor receptor 1
+    -   id: UniProt:P15056
+        label: Protein
+        name: Serine/threonine-protein kinase B-raf
+    -   id: UniProt:P35916
+        label: Protein
+        name: Vascular endothelial growth factor receptor 3
+    -   id: UniProt:P35968
+        label: Protein
+        name: Vascular endothelial growth factor receptor 2
+    -   id: UniProt:P36888
+        label: Protein
+        name: Receptor-type tyrosine-protein kinase FLT3
+    -   id: UniProt:P10721
+        label: Protein
+        name: Mast/stem cell growth factor receptor Kit
+    -   id: UniProt:P11362
+        label: Protein
+        name: Fibroblast growth factor receptor 1
+    -   id: UniProt:P07949
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase receptor Ret
+    -   id: REACT:R-HSA-9006934
+        label: Pathway
+        name: Signaling by Receptor Tyrosine Kinases
+    -   id: GO:0008284
+        label: BiologicalProcess
+        name: Positive regulation of cell population proliferation
+    -   id: GO:0045766
+        label: BiologicalProcess
+        name: Positive regulation of angiogenesis 
+    -   id: MESH:D006528
+        label: Disease
+        name: Liver cell carcinoma
+    reference: 
+    - https://go.drugbank.com/drugs/DB00398
+-   directed: true
+    graph:
+        disease: Ulcerative cystitis
+        disease_mesh: MESH:D018856
+        drug: pentosan polysulfate
+        drug_mesh: MESH:D010426
+        drugbank: DB:DB00686
+    links:
+    -   key: positively regulates
+        source: MESH:D010426
+        target: GO:0061028
+    -   key: negatively correlated with
+        source: GO:0061028
+        target: MESH:D018856
+    multigraph: true
+    nodes:
+    -   id: MESH:D010426
+        label: Drug
+        name: Pentosan polysulfate
+    -   id: GO:0061028
+        label: BiologicalProcess
+        name: Establishment of endothelial barrier
+    -   id: MESH:D018856
+        label: Disease
+        name: Ulcerative cystitis
+    reference: 
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1476002/
+    - https://en.wikipedia.org/wiki/Pentosan
+-   comment: Potassium chloride  is not a laxative, but it is often used in a laxative solution that also contains potassium, sodium, and other minerals to replace electrolytes.
+    directed: true
+    graph:
+        disease: Constipation
+        disease_mesh: MESH:D003248
+        drug: potassium chloride
+        drug_mesh: MESH:D011189
+        drugbank: DB:DB00761
+    links:
+    -   key: treats
+        source: MESH:D011189
+        target: MESH:D003248
+    multigraph: true
+    nodes:
+    -   id: MESH:D011189
+        label: Drug
+        name: Potassium chloride
+    -   id: MESH:D003248
+        label: Disease
+        name: Constipation
+    reference:
+    - https://go.drugbank.com/drugs/DB00761
+-   directed: true
+    graph:
+        disease: Hypokalemia
+        disease_mesh: MESH:D007008
+        drug: potassium chloride
+        drug_mesh: MESH:D011189
+        drugbank: DB:DB00761
+    links:
+    -   key: increases abundance of
+        source: MESH:D011189
+        target: MESH:D011188
+    -   key: negatively correlated with
+        source: MESH:D011188
+        target: MESH:D007008
+    multigraph: true
+    nodes:
+    -   id: MESH:D011189
+        label: Drug
+        name: Potassium chloride
+    -   id: MESH:D011188
+        label: ChemicalSubstance
+        name: Potassium
+    -   id: MESH:D007008
+        label: Disease
+        name: Hypokalemia
+    reference: 
+    - https://go.drugbank.com/drugs/DB00761
+-   directed: true
+    graph:
+        disease: Pityriasis versicolor
+        disease_mesh: MESH:D014010
+        drug: levomenthol
+        drug_mesh: MESH:D008610
+        drugbank: DB:DB00825
+    links:
+    -   key: negatively regulates
+        source: MESH:D008610
+        target: GO:0040007
+    -   key: in taxon
+        source: GO:0040007
+        target: NCBITaxon:76773
+    -   key: causes
+        source: NCBITaxon:76773
+        target: MESH:D014010 
+    multigraph: true
+    nodes:
+    -   id: MESH:D008610
+        label: Drug
+        name: Levomenthol
+    -   id: GO:0040007
+        label: BiologicalProcess
+        name: Growth
+    -   id: NCBITaxon:76773
+        label: OrganismTaxon
+        name: Malassezia globosa
+    -   id: MESH:D014010
+        label: Disease
+        name: Pityriasis versicolor
+    reference: 
+    - https://go.drugbank.com/drugs/DB00825
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: levomenthol
+        drug_mesh: MESH:D008610
+        drugbank: DB:DB00825
+    links:
+    -   key: increases activity of
+        source: MESH:D008610
+        target: UniProt:Q7Z2W7
+    -   key: increases activity of
+        source: MESH:D008610
+        target: UniProt:O75762
+    -   key: increases activity of
+        source: MESH:D008610
+        target: UniProt:Q8NET8
+    -   key: positively correlated with
+        source: UniProt:Q7Z2W7
+        target: GO:0062035
+    -   key: positively correlated with
+        source: UniProt:O75762
+        target: GO:0062035
+    -   key: positively correlated with
+        source: UniProt:Q8NET8
+        target: GO:0062035
+    -   key: negatively correlated with
+        source: GO:0062035
+        target: HP:0000989
+    -   key: positively correlated with
+        source: HP:0000989
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:D008610
+        label: Drug
+        name: Levomenthol
+    -   id: UniProt:Q7Z2W7
+        label: Protein
+        name: Transient receptor potential cation channel subfamily M member 8
+    -   id: UniProt:O75762
+        label: Protein
+        name: Transient receptor potential cation channel subfamily A member 1
+    -   id: UniProt:Q8NET8
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 3
+    -   id: GO:0062035
+        label: BiologicalProcess
+        name: Sensory perception of cold stimulus
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: MESH:D011537
+        label: Disease
+        name: Itching of skin
+    reference: https://go.drugbank.com/drugs/DB00825
+-   directed: true
+    graph:
+        disease: Diaper rash
+        disease_mesh: MESH:D003963
+        drug: levomenthol
+        drug_mesh: MESH:D008610
+        drugbank: DB:DB00825
+    links:
+    -   key: negatively regulates
+        source: MESH:D008610
+        target: GO:0040007
+    -   key: in taxon
+        source: GO:0040007
+        target: NCBITaxon:4751
+    -   key: causes
+        source: NCBITaxon:4751
+        target: MESH:D003963
+    multigraph: true
+    nodes:
+    -   id: MESH:D008610
+        label: Drug
+        name: Levomenthol
+    -   id: GO:0040007
+        label: BiologicalProcess
+        name: Growth
+    -   id: NCBITaxon:4751
+        label: OrganismTaxon
+        name: Fungi
+    -   id: MESH:D003963
+        label: Disease
+        name: Diaper rash
+    reference: 
+    - https://go.drugbank.com/drugs/DB00825
+-   directed: true
+    graph:
+        disease: Backache
+        disease_mesh: MESH:D001416
+        drug: levomenthol
+        drug_mesh: MESH:D008610
+        drugbank: DB:DB00825
+    links:
+    -   key: increases activity of
+        source: MESH:D008610
+        target: UniProt:Q7Z2W7
+    -   key: increases activity of
+        source: MESH:D008610
+        target: UniProt:O75762
+    -   key: increases activity of
+        source: MESH:D008610
+        target: UniProt:Q8NET8
+    -   key: positively correlated with
+        source: UniProt:Q7Z2W7
+        target: GO:0062035
+    -   key: positively correlated with
+        source: UniProt:O75762
+        target: GO:0062035
+    -   key: positively correlated with
+        source: UniProt:Q8NET8
+        target: GO:0062035
+    -   key: negatively correlated with
+        source: GO:0062035
+        target: GO:0019233
+    -   key: occurs in
+        source: GO:0019233
+        target: MESH:D001416
+    multigraph: true
+    nodes:
+    -   id: MESH:D008610
+        label: Drug
+        name: Levomenthol
+    -   id: UniProt:Q7Z2W7
+        label: Protein
+        name: Transient receptor potential cation channel subfamily M member 8
+    -   id: UniProt:O75762
+        label: Protein
+        name: Transient receptor potential cation channel subfamily A member 1
+    -   id: UniProt:Q8NET8
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 3
+    -   id: GO:0062035
+        label: BiologicalProcess
+        name: Sensory perception of cold stimulus
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D001416
+        label: Disease
+        name: Backache
+    reference: https://go.drugbank.com/drugs/DB00825
+-   directed: true
+    graph:
+        disease: Seborrheic dermatitis
+        disease_mesh: MESH:D012628
+        drug: levomenthol
+        drug_mesh: MESH:D008610
+        drugbank: DB:DB00825
+    links:
+    -   key: negatively regulates
+        source: MESH:D008610
+        target: GO:0040007
+    -   key: in taxon
+        source: GO:0040007
+        target: NCBITaxon:5519
+    -   key: causes
+        source: NCBITaxon:5519
+        target: MESH:D012628
+    multigraph: true
+    nodes:
+    -   id: MESH:D008610
+        label: Drug
+        name: Levomenthol
+    -   id: GO:0040007
+        label: BiologicalProcess
+        name: Growth
+    -   id: NCBITaxon:5519
+        label: OrganismTaxon
+        name: Malassezia
+    -   id: MESH:D012628
+        label: Disease
+        name: Seborrheic dermatitis
+    reference: 
+    - https://go.drugbank.com/drugs/DB00825
+-   directed: true
+    graph:
+        disease: Impotence
+        disease_mesh: MESH:D007172
+        drug: vardenafil
+        drug_mesh: MESH:D000069058
+        drugbank: DB:DB00862
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069058
+        target: UniProt:O76074
+    -   key: decreases abundance of
+        source: UniProt:O76074
+        target: CHEBI:16356
+    -   key: positively regulates
+        source: CHEBI:16356
+        target: GO:0044557
+    -   key: positively regulates
+        source: GO:0044557
+        target: GO:0008015
+    -   key: positively correlated with
+        source: GO:0008015
+        target: GO:0043084
+    -   key: negatively correlated with
+        source: GO:0043084
+        target: MESH:D007172
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069058
+        label: Drug
+        name: Vardenafil
+    -   id: UniProt:O76074
+        label: Protein
+        name: cGMP-specific 3',5'-cyclic phosphodiesterase
+    -   id: CHEBI:16356
+        label: ChemicalSubstance
+        name: 3',5'-cyclic GMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: GO:0043084
+        label: BiologicalProcess
+        name: Penile erection
+    -   id: MESH:D007172
+        label: Disease
+        name: Impotence
+    reference:
+    - https://go.drugbank.com/drugs/DB00862
+-   directed: true
+    graph:
+        disease: Hypophosphatasia
+        disease_mesh: MESH:D007014
+        drug: asfotase alfa
+        drug_mesh: MESH:C570710,MESH:D000469
+        drugbank: DB:DB05768
+    links:
+    -   key: similar to
+        source: DB:DB05768
+        target: UniProt:P05186
+    -   key: decreases abundance of
+        source: UniProt:P05186
+        target: CHEBI:18361
+    -   key: negatively regulates
+        source: CHEBI:18361
+        target: CHEBI:52255
+    -   key: participates in
+        source: CHEBI:52255
+        target: GO:0030282
+    -   key: negatively correlated with
+        source: GO:0030282
+        target: MESH:D007014 
+    multigraph: true
+    nodes:
+    -   id: DB:DB05768
+        label: Drug
+        name: Asfotase alfa
+    -   id: UniProt:P05186
+        label: Protein
+        name: Alkaline phosphatase, tissue-nonspecific isozyme
+    -   id: CHEBI:18361
+        label: ChemicalSubstance
+        name: Diphosphate(4−)
+    -   id: CHEBI:52255
+        label: ChemicalSubstance
+        name: Hydroxylapatite
+    -   id: GO:0030282
+        label: BiologicalProcess
+        name: Bone mineralization
+    -   id: MESH:D007014
+        label: Disease
+        name: Hypophosphatasia
+    reference:
+    - https://go.drugbank.com/drugs/DB09105
+    - https://en.wikipedia.org/wiki/Hypophosphatasia#Symptoms_and_signs
+-   directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: dasabuvir
+        drug_mesh: MESH:C588260
+        drugbank: DB:DB09183
+    links:
+    -   key: decreases activity of
+        source: MESH:C588260
+        target: UniProt:P87764
+    -   key: positively regulates
+        source: UniProt:P87764
+        target: GO:0039694
+    -   key: in taxon
+        source: GO:0039694
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698 
+    multigraph: true
+    nodes:
+    -   id: MESH:C588260
+        label: Drug
+        name: Dasabuvir
+    -   id: GO:0039694
+        label: BiologicalProcess
+        name: Viral RNA genome replication
+    -   id: UniProt:P87764
+        label: Protein
+        name: Nonstructural protein 5b
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C 
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference:
+    - https://go.drugbank.com/drugs/DB09183
+-   directed: true
+    graph:
+        disease: Tachyarrhythmia
+        disease_mesh: MESH:D013610
+        drug: landiolol
+        drug_mesh: MESH:C077049
+        drugbank: DB:DB12212
+    links:
+    -   key: decreases activity of
+        source: MESH:C077049
+        target: UniProt:P08588
+    -   key: participates in
+        source: UniProt:P08588
+        target: GO:0010460
+    -   key: negatively correlated with
+        source: GO:0010460
+        target: MESH:D013610
+    multigraph: true
+    nodes:
+    -   id: MESH:C077049
+        label: Drug
+        name: Landiolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: GO:0010460
+        label: BiologicalProcess
+        name: Positive regulation of heart rate
+    -   id: MESH:D013610
+        label: Disease
+        name: Tachyarrhythmia
+    reference: 
+    - https://en.wikipedia.org/wiki/Landiolol
+    - https://go.drugbank.com/drugs/DB12212
 
+-   directed: true
+    graph:
+        disease: Crohn's disease
+        disease_mesh: MESH:D003424
+        drug: certolizumab pegol
+        drug_mesh: MESH:D000068582
+        drugbank: DB:DB08904
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068582
+        target: UniProt:P01375
+    -   key: participates in
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068582
+        label: Drug
+        name: Certolizumab pegol
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn's disease
+    reference:
+    - https://go.drugbank.com/drugs/DB08904
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: certolizumab pegol
+        drug_mesh: MESH:D000068582
+        drugbank: DB:DB08904
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068582
+        target: UniProt:P01375
+    -   key: participates in
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively regulates
+        source: GO:0006954
+        target: HP:0002829
+    -   key: manifestation of
+        source: HP:0002829
+        target: MESH:D001172
+    -   key: manifestation of
+        source: HP:0001386
+        target: MESH:D001172
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068582
+        label: Drug
+        name: Certolizumab pegol
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB08904
+-   directed: true
+    graph:
+        disease: Psoriasis with arthropathy
+        disease_mesh: MESH:D015535
+        drug: certolizumab pegol
+        drug_mesh: MESH:D000068582
+        drugbank: DB:DB08904
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068582
+        target: UniProt:P01375
+    -   key: participates in
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D015535
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068582
+        label: Drug
+        name: Certolizumab pegol
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D015535
+        label: Disease
+        name: Psoriasis with arthropathy
+    reference:
+    - https://go.drugbank.com/drugs/DB08904
+-   directed: true
+    graph:
+        disease: Ankylosing spondylitis
+        disease_mesh: MESH:D013167
+        drug: certolizumab pegol
+        drug_mesh: MESH:D000068582
+        drugbank: DB:DB08904
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068582
+        target: UniProt:P01375
+    -   key: participates in
+        source: UniProt:P01375
+        target: REACT:R-HSA-75893
+    -   key: positively regulates
+        source: REACT:R-HSA-75893
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D013167
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068582
+        label: Drug
+        name: Certolizumab pegol
+    -   id: UniProt:P01375
+        label: Protein
+        name: Tumor necrosis factor
+    -   id: REACT:R-HSA-75893
+        label: Pathway
+        name: TNF signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D013167
+        label: Disease
+        name: Ankylosing spondylitis
+    reference:
+    - https://en.wikipedia.org/wiki/Ankylosing_spondylitis
+    - https://go.drugbank.com/drugs/DB08904
