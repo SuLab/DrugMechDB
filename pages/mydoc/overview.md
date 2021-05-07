@@ -2183,6 +2183,26 @@ datatable: true
 | [DB00240_MESH_D001172_1](db00240-mesh-d001172-1.html) | rituximab | DB:DB00240 | MESH:D000069283 | Rheumatoid arthritis | MESH:D001172 | 6 | 6 |
 | [DB00240_MESH_D008228_1](db00240-mesh-d008228-1.html) | rituximab | DB:DB00240 | MESH:D000069283 | Non-Hodgkin's lymphoma | MESH:D008228 | 6 | 6 |
 | [DB00240_MESH_D015451_1](db00240-mesh-d015451-1.html) | rituximab | DB:DB00240 | MESH:D000069283 | Chronic lymphoid leukemia, disease | MESH:D015451 | 6 | 6 |
+| [DB00017_MESH_D010001_1](db00017-mesh-d010001-1.html) | calcitonin (salmon synthetic) | DB:DB00017 | MESH:C028815 | Osteitis deformans | MESH:D010001 | 8 | 8 |
+| [DB00017_MESH_D015663_1](db00017-mesh-d015663-1.html) | calcitonin (salmon synthetic) | DB:DB00017 | MESH:C028815 | Postmenopausal osteoporosis | MESH:D015663 | 8 | 8 |
+| [DB00398_MESH_D002292_1](db00398-mesh-d002292-1.html) | sorafenib | DB:DB00398 | MESH:C471405 | Renal cell carcinoma | MESH:D002292 | 16 | 25 |
+| [DB00398_MESH_D006528_1](db00398-mesh-d006528-1.html) | sorafenib | DB:DB00398 | MESH:C471405 | Liver cell carcinoma | MESH:D006528 | 16 | 25 |
+| [DB00686_MESH_D018856_1](db00686-mesh-d018856-1.html) | pentosan polysulfate | DB:DB00686 | MESH:D010426 | Ulcerative cystitis | MESH:D018856 | 3 | 2 |
+| [DB00761_MESH_D003248_1](db00761-mesh-d003248-1.html) | potassium chloride | DB:DB00761 | MESH:D011189 | Constipation | MESH:D003248 | 2 | 1 |
+| [DB00761_MESH_D007008_1](db00761-mesh-d007008-1.html) | potassium chloride | DB:DB00761 | MESH:D011189 | Hypokalemia | MESH:D007008 | 3 | 2 |
+| [DB00825_MESH_D014010_1](db00825-mesh-d014010-1.html) | levomenthol | DB:DB00825 | MESH:D008610 | Pityriasis versicolor | MESH:D014010 | 4 | 3 |
+| [DB00825_MESH_D011537_1](db00825-mesh-d011537-1.html) | levomenthol | DB:DB00825 | MESH:D008610 | Itching of skin | MESH:D011537 | 7 | 8 |
+| [DB00825_MESH_D003963_1](db00825-mesh-d003963-1.html) | levomenthol | DB:DB00825 | MESH:D008610 | Diaper rash | MESH:D003963 | 4 | 3 |
+| [DB00825_MESH_D001416_1](db00825-mesh-d001416-1.html) | levomenthol | DB:DB00825 | MESH:D008610 | Backache | MESH:D001416 | 7 | 8 |
+| [DB00825_MESH_D012628_1](db00825-mesh-d012628-1.html) | levomenthol | DB:DB00825 | MESH:D008610 | Seborrheic dermatitis | MESH:D012628 | 4 | 3 |
+| [DB00862_MESH_D007172_1](db00862-mesh-d007172-1.html) | vardenafil | DB:DB00862 | MESH:D000069058 | Impotence | MESH:D007172 | 7 | 6 |
+| [DB05768_MESH_D007014_1](db05768-mesh-d007014-1.html) | asfotase alfa | DB:DB05768 | MESH:C570710,MESH:D000469 | Hypophosphatasia | MESH:D007014 | 6 | 5 |
+| [DB09183_MESH_D019698_1](db09183-mesh-d019698-1.html) | dasabuvir | DB:DB09183 | MESH:C588260 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
+| [DB12212_MESH_D013610_2](db12212-mesh-d013610-2.html) | landiolol | DB:DB12212 | MESH:C077049 | Tachyarrhythmia | MESH:D013610 | 4 | 3 |
+| [DB08904_MESH_D003424_1](db08904-mesh-d003424-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Crohn's disease | MESH:D003424 | 5 | 4 |
+| [DB08904_MESH_D001172_1](db08904-mesh-d001172-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Rheumatoid arthritis | MESH:D001172 | 7 | 8 |
+| [DB08904_MESH_D015535_1](db08904-mesh-d015535-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Psoriasis with arthropathy | MESH:D015535 | 5 | 4 |
+| [DB08904_MESH_D013167_1](db08904-mesh-d013167-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Ankylosing spondylitis | MESH:D013167 | 5 | 4 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
