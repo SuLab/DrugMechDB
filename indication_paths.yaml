@@ -115132,3 +115132,1156 @@
     reference:
     - https://en.wikipedia.org/wiki/Ankylosing_spondylitis
     - https://go.drugbank.com/drugs/DB08904
+-   directed: true
+    graph:
+        _id: DB01021_MESH_D006973_1
+        disease: Hypertension
+        disease_mesh: MESH:D006973
+        drug: Trichlormethiazide
+        drug_mesh: MESH:D014237
+        drugbank: DB:DB01021
+    links:
+    -   key: decreases activity of
+        source: MESH:D014237
+        target: GO:0070294
+    -   key: located in
+        source: GO:0070294
+        target: UBERON:0005164
+    -   key: increases activity of
+        source: UBERON:0005164
+        target: GO:0035812
+    -   key: contributes to
+        source: GO:0035812
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D014237
+        label: Drug
+        name: Trichlormethiazide
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: UBERON:0005164
+        label: GrossAnatomicalStructure
+        name: Ascending limb of loop of Henle
+    -   id: GO:0035812
+        label: BiologicalProcess
+        name: Renal sodium excretion
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB01021
+    - https://en.wikipedia.org/wiki/Thiazide
+    - https://en.wikipedia.org/wiki/Trichlormethiazide
+-   directed: true
+    graph:
+        _id: DB01021_MESH_D006973_2
+        disease: Hypertension
+        disease_mesh: MESH:D006973
+        drug: Trichlormethiazide
+        drug_mesh: MESH:D014237
+        drugbank: DB:DB01021
+    links:
+    -   key: increases activity of
+        source: MESH:D014237
+        target: UniProt:Q12791
+    -   key: located in
+        source: UniProt:Q12791
+        target: UBERON:0004237
+    -   key: decreases activity of
+        source: MESH:D014237
+        target: InterPro:IPR001148
+    -   key: located in
+        source: InterPro:IPR001148
+        target: UBERON:0004237
+    -   key: causes
+        source: UBERON:0004237
+        target: GO:0042311
+    -   key: correlated with
+        source: GO:0042311
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D014237
+        label: Drug
+        name: Trichlormethiazide
+    -   id: UniProt:Q12791
+        label: Protein
+        name: Calcium-activated potassium channel
+    -   id: UBERON:0004237
+        label: GrossAnatomicalStructure
+        name: Blood vessel smooth muscle
+    -   id: InterPro:IPR001148
+        label: GeneFamily
+        name: Carbonic anhydrase
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB01021
+    - https://en.wikipedia.org/wiki/Thiazide
+    - https://en.wikipedia.org/wiki/Trichlormethiazide
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D014581_1
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D011537_1
+        disease: Pruritus
+        disease_mesh: MESH:D011537
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D011537
+        label: Disease
+        name: Pruritus
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D012912_1
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D065631_1
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D012223_1
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D003233_1
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   comment: Oxitropium is used as Oxitropium bromide for treatment
+    directed: true
+    graph:
+        _id: DB12086_MESH_D029424_1
+        disease: Chronic obstructive lung disease
+        disease_mesh: MESH:D029424
+        drug: Oxitropium
+        drug_mesh: MESH:C017590
+        drugbank: DB:DB12086
+    links:
+    -   key: decreases activity of
+        source: MESH:C017590
+        target: UniProt:P20309
+    -   key: causes
+        source: UniProt:P20309
+        target: GO:0006939
+    -   key: increases activity of
+        source: GO:0006939
+        target: GO:0097366
+    -   key: correlated with
+        source: GO:0097366
+        target: MESH:D029424
+    multigraph: true
+    nodes:
+    -   id: MESH:C017590
+        label: Drug
+        name: Oxitropium
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: GO:0097366
+        label: BiologicalProcess
+        name: Response to bronchodilator
+    -   id: MESH:D029424
+        label: Disease
+        name: Chronic obstructive lung disease
+    reference:
+    - https://go.drugbank.com/drugs/DB12086
+    - https://drugs.ncats.io/drug/8G15T83E6I
+-   directed: true
+    graph:
+        _id: DB00905_MESH_D009798_1
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: Bimatoprost
+        drug_mesh: MESH:D000069580
+        drugbank: DB:DB00905
+    links:
+    -   key: increases transport of
+        source: MESH:D000069580
+        target: UBERON:0001796
+    -   key: ameliorates
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: manifestation of
+        source: HP:0007906
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069580
+        label: Drug
+        name: Bimatoprost
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Intraocular pressure
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB00905
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Bimatoprost#section=Pharmacology
+    - https://en.wikipedia.org/wiki/Bimatoprost
+-   directed: true
+    graph:
+        _id: DB00905_MESH_D005902_1
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: Bimatoprost
+        drug_mesh: MESH:D000069580
+        drugbank: DB:DB00905
+    links:
+    -   key: increases transport of
+        source: MESH:D000069580
+        target: UBERON:0001796
+    -   key: ameliorates
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: manifestation of
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069580
+        label: Drug
+        name: Bimatoprost
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Intraocular pressure
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference:
+    - https://go.drugbank.com/drugs/DB00905
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Bimatoprost#section=Pharmacology
+    - https://en.wikipedia.org/wiki/Bimatoprost
+-   directed: true
+    graph:
+        _id: DB00520_MESH_D058387_1
+        disease: Candidemia
+        disease_mesh: MESH:D058387
+        drug: Caspofungin
+        drug_mesh: null
+        drugbank: DB:DB00520
+    links:
+    -   key: decreases activity of
+        source: DB:DB00520
+        target: InterPro:IPR003440
+    -   key: decreases synthesis of
+        source: InterPro:IPR003440
+        target: MESH:D005936
+    -   key: disrupts
+        source: MESH:D005936
+        target: GO:0005618
+    -   key: in taxon
+        source: GO:0005618
+        target: NCBITaxon:1535326
+    -   key: causes
+        source: NCBITaxon:1535326
+        target: MESH:D058387
+    multigraph: true
+    nodes:
+    -   id: DB:DB00520
+        label: Drug
+        name: Caspofungin
+    -   id: InterPro:IPR003440
+        label: Protein
+        name: 1,3-Beta-glucan synthase
+    -   id: MESH:D005936
+        label: ChemicalSubstance
+        name: Beta(1,3)-D-glucan
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1535326
+        label: OrganismTaxon
+        name: Candida
+    -   id: MESH:D058387
+        label: Disease
+        name: Candidemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00520
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Caspofungin#section=Pharmacology-and-Biochemistry
+-   comment: Cefditoren pivoxil is the pivaloyloxymethyl ester prodrug of cefditoren
+    directed: true
+    graph:
+        _id: DB01066_MESH_D018410_1
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: Cefditoren pivoxil
+        drug_mesh: MESH:C057710
+        drugbank: DB:DB01066
+    links:
+    -   key: has metabolite
+        source: MESH:C057710
+        target: MESH:C073460
+    -   key: decreases activity of
+        source: MESH:C073460
+        target: InterPro:IPR001460
+    -   key: decreases synthesis of
+        source: InterPro:IPR001460
+        target: MESH:D010457
+    -   key: disrupts
+        source: MESH:D010457
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D010457
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1313
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:C057710
+        label: Drug
+        name: Cefditoren pivoxil
+    -   id: MESH:C073460
+        label: ChemicalSubstance
+        name: Cefditoren
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding proteins
+    -   id: MESH:D010457
+        label: ChemicalSubstance
+        name: Peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB01066
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Cefditoren-pivoxil#section=Pharmacology-and-Biochemistry
+-   comment: Cefditoren pivoxil is the pivaloyloxymethyl ester prodrug of cefditoren
+    directed: true
+    graph:
+        _id: DB01066_MESH_D013203_1
+        disease: Staphylococcal infections
+        disease_mesh: MESH:D013203
+        drug: Cefditoren pivoxil
+        drug_mesh: MESH:C057710
+        drugbank: DB:DB01066
+    links:
+    -   key: has metabolite
+        source: MESH:C057710
+        target: MESH:C073460
+    -   key: decreases activity of
+        source: MESH:C073460
+        target: InterPro:IPR001460
+    -   key: decreases synthesis of
+        source: InterPro:IPR001460
+        target: MESH:D010457
+    -   key: disrupts
+        source: MESH:D010457
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D010457
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1280
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C057710
+        label: Drug
+        name: Cefditoren pivoxil
+    -   id: MESH:C073460
+        label: ChemicalSubstance
+        name: Cefditoren
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding proteins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: MESH:D010457
+        label: ChemicalSubstance
+        name: Peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Staphylococcal infections
+    reference:
+    - https://go.drugbank.com/drugs/DB01066
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Cefditoren-pivoxil#section=Pharmacology-and-Biochemistry
+-   comment: Cefditoren pivoxil is the pivaloyloxymethyl ester prodrug of cefditoren
+    directed: true
+    graph:
+        _id: DB01066_MESH_D013290_1
+        disease: Streptococcal infections
+        disease_mesh: MESH:D013290
+        drug: Cefditoren pivoxil
+        drug_mesh: MESH:C057710
+        drugbank: DB:DB01066
+    links:
+    -   key: has metabolite
+        source: MESH:C057710
+        target: MESH:C073460
+    -   key: decreases activity of
+        source: MESH:C073460
+        target: InterPro:IPR001460
+    -   key: decreases synthesis of
+        source: InterPro:IPR001460
+        target: MESH:D010457
+    -   key: increases activity of
+        source: MESH:D010457
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1314
+    -   key: disrupts
+        source: MESH:D010457
+        target: GO:0009273
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:C057710
+        label: Drug
+        name: Cefditoren pivoxil
+    -   id: MESH:C073460
+        label: ChemicalSubstance
+        name: Cefditoren
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding proteins
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: MESH:D010457
+        label: ChemicalSubstance
+        name: Peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcal infections
+    reference:
+    - https://go.drugbank.com/drugs/DB01066
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Cefditoren-pivoxil#section=Pharmacology-and-Biochemistry
+-   comment: Cefditoren pivoxil is the pivaloyloxymethyl ester prodrug of cefditoren
+    directed: true
+    graph:
+        _id: DB01066_MESH_D011018_1
+        disease: Pneumococcal pneumonia
+        disease_mesh: MESH:D011018
+        drug: Cefditoren pivoxil
+        drug_mesh: MESH:C057710
+        drugbank: DB:DB01066
+    links:
+    -   key: has metabolite
+        source: MESH:C057710
+        target: MESH:C073460
+    -   key: decreases activity of
+        source: MESH:C073460
+        target: InterPro:IPR001460
+    -   key: decreases synthesis of
+        source: InterPro:IPR001460
+        target: MESH:D010457
+    -   key: increases activity of
+        source: MESH:D010457
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1313
+    -   key: disrupts
+        source: MESH:D010457
+        target: GO:0009273
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C057710
+        label: Drug
+        name: Cefditoren pivoxil
+    -   id: MESH:C073460
+        label: ChemicalSubstance
+        name: Cefditoren
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding proteins
+    -   id: MESH:D010457
+        label: ChemicalSubstance
+        name: Peptidoglycan
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumococcal pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB01066
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Cefditoren-pivoxil#section=Pharmacology-and-Biochemistry
+-   comment: Oteracil is an adjunct to antineoplastic therapy, used to reduce the
+        toxic side effects associated with chemotherapy.
+    directed: true
+    graph:
+        _id: DB03209_MESH_D013274_1
+        disease: Stomach neoplasms
+        disease_mesh: MESH:D013274
+        drug: Oteracil
+        drug_mesh: MESH:D010094
+        drugbank: DB:DB03209
+    links:
+    -   key: decreases activity of
+        source: MESH:D010094
+        target: InterPro:IPR023031
+    -   key: located in
+        source: InterPro:IPR023031
+        target: UBERON:0004786
+    -   key: decreases abundance of
+        source: UBERON:0004786
+        target: MESH:D005472
+    -   key: ameliorates
+        source: MESH:D005472
+        target: GO:0009636
+    -   key: correlated with
+        source: GO:0009636
+        target: MESH:D013274
+    multigraph: true
+    nodes:
+    -   id: MESH:D010094
+        label: Drug
+        name: Oteracil
+    -   id: InterPro:IPR023031
+        label: GeneFamily
+        name: Orotate phosphoribosyltransferase
+    -   id: UBERON:0004786
+        label: GrossAnatomicalStructure
+        name: Gastrointestinal system mucosa
+    -   id: MESH:D005472
+        label: ChemicalSubstance
+        name: Fluorouracil
+    -   id: GO:0009636
+        label: BiologicalProcess
+        name: Response to toxic substance
+    -   id: MESH:D013274
+        label: Disease
+        name: Stomach neoplasms
+    reference:
+    - https://go.drugbank.com/drugs/DB03209
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Oxonic-Acid#section=Pharmacology-and-Biochemistry
+    - https://en.wikipedia.org/wiki/Tegafur/gimeracil/oteracil
+-   comment: Gemtuzumab ozogamicin is a monoclonal anti-CD33 antibody
+    directed: true
+    graph:
+        _id: DB00056_MESH_D015470_1
+        disease: Acute myeloid leukemia
+        disease_mesh: MESH:D015470
+        drug: Gemtuzumab ozogamicin
+        drug_mesh: null
+        drugbank: DB:DB00056
+    links:
+    -   key: molecularly interacts with
+        source: DB:DB00056
+        target: MESH:C571163
+    -   key: located in
+        source: MESH:C571163
+        target: CL:0000055
+    -   key: increases abundance of
+        source: CL:0000055
+        target: MESH:D000080084
+    -   key: disrupts
+        source: MESH:D000080084
+        target: MESH:D004247
+    -   key: location of
+        source: MESH:D004247
+        target: MESH:D015470
+    multigraph: true
+    nodes:
+    -   id: DB:DB00056
+        label: Drug
+        name: Gemtuzumab ozogamicin
+    -   id: MESH:C571163
+        label: ChemicalSubstance
+        name: CD33 antigen
+    -   id: CL:0000055
+        label: Cell
+        name: Blast cell
+    -   id: MESH:D000080084
+        label: ChemicalSubstance
+        name: Calicheamicin
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: MESH:D015470
+        label: Disease
+        name: Acute myeloid leukemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00056
+    - http://chemocare.com/chemotherapy/drug-info/gemtuzumab-ozogamicin.aspx
+-   comment: Fludrocortisone acetate is a prodrug of fludrocortisone, a synthetic
+        mineralocorticoid used in conjunction with hydrocortisone
+    directed: true
+    graph:
+        _id: DB00687_MESH_D000224_1
+        disease: Addison disease
+        disease_mesh: MESH:D000224
+        drug: Fludrocortisone acetate
+        drug_mesh: MESH:C034635
+        drugbank: DB:DB00687
+    links:
+    -   key: has metabolite
+        source: MESH:C034635
+        target: MESH:D005438
+    -   key: increases activity of
+        source: MESH:D005438
+        target: GO:0070294
+    -   key: increases activity of
+        source: MESH:D005438
+        target: GO:0036359
+    -   key: increases activity of
+        source: MESH:D005438
+        target: GO:0070295
+    -   key: decreases abundance of
+        source: GO:0036359
+        target: MESH:D011188
+    -   key: regulates
+        source: GO:0070295
+        target: GO:0050801
+    -   key: regulates
+        source: GO:0070295
+        target: HP:0002632
+    -   key: located in
+        source: MESH:D011188
+        target: UBERON:0001969
+    -   key: regulates
+        source: UBERON:0001969
+        target: HP:0002632
+    -   key: manifestation of
+        source: HP:0002632
+        target: MESH:D000224
+    -   key: increases abundance of
+        source: GO:0070294
+        target: MESH:D012964
+    -   key: located in
+        source: MESH:D012964
+        target: UBERON:0001969
+    -   key: location of
+        source: UBERON:0001969
+        target: GO:0050801
+    -   key: manifestation of
+        source: GO:0050801
+        target: MESH:D000224
+    multigraph: true
+    nodes:
+    -   id: MESH:C034635
+        label: Drug
+        name: Fludrocortisone acetate
+    -   id: MESH:D005438
+        label: ChemicalSubstance
+        name: Fludrocortisone
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0036359
+        label: BiologicalProcess
+        name: Renal potassium excretion
+    -   id: GO:0070295
+        label: BiologicalProcess
+        name: Renal water absorption
+    -   id: MESH:D011188
+        label: ChemicalSubstance
+        name: Potassium
+    -   id: HP:0002632
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: UBERON:0001969
+        label: GrossAnatomicalStructure
+        name: Blood plasma
+    -   id: GO:0050801
+        label: BiologicalProcess
+        name: Ion homeostasis
+    -   id: MESH:D000224
+        label: Disease
+        name: Addison disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00687
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Fludrocortisone#section=Pharmacology
+-   comment: Fluoxymesterone is a synthetic androgen, or male hormone, similar to
+        testosterone
+    directed: true
+    graph:
+        _id: DB01185_MESH_D011628_1
+        disease: Delayed puberty
+        disease_mesh: MESH:D011628
+        drug: Fluoxymesterone
+        drug_mesh: MESH:D005474
+        drugbank: DB:DB01185
+    links:
+    -   key: increases activity of
+        source: MESH:D005474
+        target: UniProt:P10275
+    -   key: positively correlated with
+        source: UniProt:P10275
+        target: GO:0045136
+    -   key: disrupted by
+        source: GO:0045136
+        target: MESH:D011628
+    multigraph: true
+    nodes:
+    -   id: MESH:D005474
+        label: Drug
+        name: Fluoxymesterone
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0045136
+        label: BiologicalProcess
+        name: Development of secondary sexual characteristics
+    -   id: MESH:D011628
+        label: Disease
+        name: Delayed puberty
+    reference:
+    - https://go.drugbank.com/drugs/DB01185
+    - https://en.wikipedia.org/wiki/Fluoxymesterone
+    - https://en.wikipedia.org/wiki/Androgen
+-   comment: Fluoxymesterone is a synthetic androgen, or male hormone, similar to
+        testosterone
+    directed: true
+    graph:
+        _id: DB01185_MESH_D007713_1
+        disease: Klinefelter Syndrome
+        disease_mesh: MESH:D007713
+        drug: Fluoxymesterone
+        drug_mesh: MESH:D005474
+        drugbank: DB:DB01185
+    links:
+    -   key: increases activity of
+        source: MESH:D005474
+        target: UniProt:P10275
+    -   key: positively correlated with
+        source: UniProt:P10275
+        target: GO:0046544
+    -   key: disrupted by
+        source: GO:0046544
+        target: MESH:D007713
+    multigraph: true
+    nodes:
+    -   id: MESH:D005474
+        label: Drug
+        name: Fluoxymesterone
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0046544
+        label: BiologicalProcess
+        name: Development of secondary male sexual characteristics
+    -   id: MESH:D007713
+        label: Disease
+        name: Klinefelter Syndrome
+    reference:
+    - https://go.drugbank.com/drugs/DB01185
+    - https://en.wikipedia.org/wiki/Fluoxymesterone
+    - https://en.wikipedia.org/wiki/Androgen
+-   comment: Fluoxymesterone is a synthetic androgen, or male hormone, similar to
+        testosterone
+    directed: true
+    graph:
+        _id: DB01185_MESH_D003456_1
+        disease: Cryptorchidism
+        disease_mesh: MESH:D003456
+        drug: Fluoxymesterone
+        drug_mesh: MESH:D005474
+        drugbank: DB:DB01185
+    links:
+    -   key: decreases synthesis of
+        source: MESH:D005474
+        target: MESH:D007986
+    -   key: increases abundance of
+        source: MESH:D007986
+        target: MESH:D000728
+    -   key: contributes to
+        source: MESH:D000728
+        target: GO:0007283
+    -   key: manifestation of
+        source: GO:0007283
+        target: MESH:D003456
+    multigraph: true
+    nodes:
+    -   id: MESH:D005474
+        label: Drug
+        name: Fluoxymesterone
+    -   id: MESH:D007986
+        label: ChemicalSubstance
+        name: Luteinizing hormone
+    -   id: MESH:D000728
+        label: ChemicalSubstance
+        name: Androgen
+    -   id: GO:0007283
+        label: BiologicalProcess
+        name: Spermatogenesis
+    -   id: MESH:D003456
+        label: Disease
+        name: Cryptorchidism
+    reference:
+    - https://go.drugbank.com/drugs/DB01185
+    - https://en.wikipedia.org/wiki/Fluoxymesterone
+    - https://en.wikipedia.org/wiki/Androgen
+-   comment: Fluoxymesterone is a synthetic androgen, or male hormone, similar to
+        testosterone. No clear mechanism of action is found in literature evidences.
+    directed: true
+    graph:
+        _id: DB01185_MESH_D005058_1
+        disease: Eunuchism
+        disease_mesh: MESH:D005058
+        drug: Fluoxymesterone
+        drug_mesh: MESH:D005474
+        drugbank: DB:DB01185
+    links:
+    -   key: increases activity of
+        source: MESH:D005474
+        target: UniProt:P10275
+    -   key: positively correlated with
+        source: UniProt:P10275
+        target: GO:0046544
+    -   key: disrupted by
+        source: GO:0046544
+        target: MESH:D005058
+    multigraph: true
+    nodes:
+    -   id: MESH:D005474
+        label: Drug
+        name: Fluoxymesterone
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0046544
+        label: BiologicalProcess
+        name: Development of secondary male sexual characteristics
+    -   id: MESH:D005058
+        label: Disease
+        name: Eunuchism
+    reference:
+    - https://go.drugbank.com/drugs/DB01185
+    - https://en.wikipedia.org/wiki/Fluoxymesterone
+    - https://en.wikipedia.org/wiki/Androgen
+-   comment: No literature evidences found about the mechanism of action of Fluoxymesterone
+        treating Myotonia Congenita
+    directed: true
+    graph:
+        _id: DB01185_MESH_D009224_1
+        disease: Myotonia Congenita
+        disease_mesh: MESH:D009224
+        drug: Fluoxymesterone
+        drug_mesh: MESH:D005474
+        drugbank: DB:DB01185
+    links:
+    -   key: treats
+        source: MESH:D005474
+        target: MESH:D009224
+    multigraph: true
+    nodes:
+    -   id: MESH:D005474
+        label: Drug
+        name: Fluoxymesterone
+    -   id: MESH:D009224
+        label: Disease
+        name: Myotonia Congenita
+    reference:
+    - https://go.drugbank.com/drugs/DB01185
+-   comment: No literature evidences found about the mechanism of action of Fluoxymesterone
+        treating Noonan syndrome
+    directed: true
+    graph:
+        _id: DB01185_MESH_D009634_1
+        disease: Noonan syndrome
+        disease_mesh: MESH:D009634
+        drug: Fluoxymesterone
+        drug_mesh: MESH:D005474
+        drugbank: DB:DB01185
+    links:
+    -   key: treats
+        source: MESH:D005474
+        target: MESH:D009634
+    multigraph: true
+    nodes:
+    -   id: MESH:D005474
+        label: Drug
+        name: Fluoxymesterone
+    -   id: MESH:D009634
+        label: Disease
+        name: Noonan syndrome
+    reference:
+    - https://go.drugbank.com/drugs/DB01185
