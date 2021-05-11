@@ -1,1 +1,1145 @@
-
+-   directed: true
+    graph:
+        disease: Exocrine pancreatic insufficiency
+        disease_mesh: MESH:D010188
+        drug: pancrelipase
+        drug_mesh: MESH:D020799,MESH:D010194
+        drugbank: DB:DB00085
+    links:
+    -   key: positively regulates
+        source: DB:DB00085
+        target: GO:0044245
+    -   key: negatively correlated with
+        source: GO:0044245
+        target: MESH:D010188
+    -   key: positively regulates
+        source: DB:DB00085
+        target: GO:0044256 
+    -   key: negatively correlated with
+        source: GO:0044256
+        target: MESH:D010188
+    -   key: positively regulates
+        source: DB:DB00085
+        target: GO:0044241
+    -   key: negatively correlated with
+        source: GO:0044241
+        target: MESH:D010188
+    multigraph: true
+    nodes:
+    -   id: DB:DB00085
+        label: Drug
+        name: Pancrelipase
+    -   id: GO:0044245
+        label: BiologicalProcess
+        name: Polysaccharide digestion
+    -   id: GO:0044256
+        label: BiologicalProcess
+        name: Protein digestion
+    -   id: GO:0044241
+        label: BiologicalProcess
+        name: Lipid digestion
+    -   id: MESH:D010188
+        label: Disease
+        name: Exocrine pancreatic insufficiency
+    reference: 
+    - https://en.wikipedia.org/wiki/Exocrine_pancreatic_insufficiency
+    - https://go.drugbank.com/drugs/DB00085
+-   directed: true
+    graph:
+        disease: Dysuria
+        disease_mesh: MESH:D053159
+        drug: secbutabarbital
+        drug_mesh: MESH:C084833
+        drugbank: DB:DB00237
+    links:
+    -   key: increases activity of
+        source: MESH:C084833
+        target: InterPro:IPR006028
+    -   key: participates in
+        source: InterPro:IPR006028
+        target: GO:0004890
+    -   key: negatively regulates
+        source: GO:0004890
+        target: GO:0060083
+    -   key: positively correlated with
+        source: GO:0060083
+        target: HP:0000017
+    -   key: manifestation of
+        source: HP:0000017
+        target: MESH:D053159
+    multigraph: true
+    nodes:
+    -   id: MESH:C084833
+        label: Drug
+        name: Secbutabarbital
+    -   id: InterPro:IPR006028
+        label: GeneFamily
+        name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    -   id: GO:0004890
+        label: MolecularActivity
+        name: GABA-A receptor activity
+    -   id: GO:0060083
+        label: BiologicalProcess
+        name: Smooth muscle contraction involved in micturition
+    -   id: HP:0000017
+        label: BiologicalProcess
+        name: Nocturia
+    -   id: MESH:D053159
+        label: Disease
+        name: Dysuria
+    reference: 
+    -  https://en.wikipedia.org/wiki/Dysuria
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4733900/
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL449/
+-   directed: true
+    graph:
+        disease: Malignant tumor of colon
+        disease_mesh: MESH:D003110
+        drug: trifluridine
+        drug_mesh: MESH:D014271
+        drugbank: DB:DB00432
+    links:
+    -   key: decreases activity of
+        source: MESH:D014271
+        target: UniProt:P04818
+    -   key: disrupts
+        source: MESH:D014271
+        target: MESH:D004247
+    -   key: participates in 
+        source: MESH:D004247
+        target: GO:0006260
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: GO:0006235
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: GO:0006231
+    -   key: positively correlated with
+        source: GO:0006231
+        target: GO:0006260
+    -   key: positively correlated with
+        source: GO:0006235
+        target: GO:0006260
+    -   key: precedes
+        source: GO:0006260
+        target: HP:0031377
+    -   key: positively correlated with
+        source: HP:0031377
+        target: MESH:D003110
+    multigraph: true
+    nodes:
+    -   id: MESH:D014271
+        label: Drug
+        name: Trifluridine
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: GO:0006235
+        label: BiologicalProcess
+        name: dTTP biosynthetic process
+    -   id: GO:0006231
+        label: BiologicalProcess
+        name: dTMP biosynthetic process
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: MESH:D003110
+        label: Disease
+        name: Malignant tumor of colon
+    reference:
+    - https://go.drugbank.com/drugs/DB00432
+-   comment: The mechanism of action of trifluridine as an antiviral agent has not been fully elucidated, but appears to involve the inhibition of viral replication.
+    directed: true
+    graph:
+        disease: Herpes simplex keratitis
+        disease_mesh: MESH:D016849
+        drug: trifluridine
+        drug_mesh: MESH:D014271
+        drugbank: DB:DB00432
+    links:
+    -   key: negatively regulates
+        source: MESH:D014271
+        target: GO:0039693
+    -   key: in taxon
+        source: GO:0039693
+        target: NCBITaxon:10298
+    -   key: causes
+        source: NCBITaxon:10298
+        target: MESH:D016849
+    multigraph: true
+    nodes:
+    -   id: MESH:D014271
+        label: Drug
+        name: Trifluridine
+    -   id: GO:0039693
+        label: BiologicalProcess
+        name: Viral DNA genome replication
+    -   id: NCBITaxon:10298
+        label: OrganismTaxon
+        name: Human alphaherpesvirus 1
+    -   id: MESH:D016849
+        label: Disease
+        name: Herpes simplex keratitis
+    reference: 
+    - https://en.wikipedia.org/wiki/Herpes_simplex_keratitis
+    - https://go.drugbank.com/drugs/DB00432
+-   directed: true
+    graph:
+        disease: Absence seizure
+        disease_mesh: MESH:D004832
+        drug: paramethadione
+        drug_mesh: MESH:C005731
+        drugbank: DB:DB00617
+    links:
+    -   key: decreases activity of
+        source: MESH:C005731
+        target: UniProt:O43497
+    -   key: decreases activity of
+        source: MESH:C005731
+        target: UniProt:O95180
+    -   key: decreases activity of
+        source: MESH:C005731
+        target: UniProt:Q9P0X4
+    -   key: positively regulates
+        source: UniProt:O43497
+        target: GO:0005245
+    -   key: positively regulates
+        source: UniProt:O95180
+        target: GO:0005245
+    -   key: positively regulates
+        source: UniProt:Q9P0X4
+        target: GO:0005245
+    -   key: positively regulates
+        source: GO:0005245
+        target: GO:0019228
+    -   key: positively regulates
+        source: GO:0019228
+        target: GO:0023041
+    -   key: positively correlated with
+        source: GO:0023041
+        target: MESH:D004832
+    multigraph: true
+    nodes:
+    -   id: MESH:C005731
+        label: Drug
+        name: Paramethadione
+    -   id: UniProt:O43497
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1G
+    -   id: UniProt:Q9P0X4
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1I
+    -   id: UniProt:O95180
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1H
+    -   id: GO:0005245
+        label: MolecularActivity
+        name: Voltage-gated calcium channel activity
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: GO:0023041
+        label: BiologicalProcess
+        name: Neuronal signal transduction
+    -   id: MESH:D004832
+        label: Disease
+        name: Absence seizure
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1100/
+    - https://go.drugbank.com/drugs/DB00617
+-   directed: true
+    graph:
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: paramethadione
+        drug_mesh: MESH:C005731
+        drugbank: DB:DB00617
+    links:
+    -   key: decreases activity of
+        source: MESH:C005731
+        target: UniProt:O43497
+    -   key: decreases activity of
+        source: MESH:C005731
+        target: UniProt:O95180
+    -   key: decreases activity of
+        source: MESH:C005731
+        target: UniProt:Q9P0X4
+    -   key: positively regulates
+        source: UniProt:O43497
+        target: GO:0005245
+    -   key: positively regulates
+        source: UniProt:O95180
+        target: GO:0005245
+    -   key: positively regulates
+        source: UniProt:Q9P0X4
+        target: GO:0005245
+    -   key: positively regulates
+        source: GO:0005245
+        target: GO:0019228
+    -   key: positively regulates
+        source: GO:0019228
+        target: GO:0023041
+    -   key: positively correlated with
+        source: GO:0023041
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:C005731
+        label: Drug
+        name: Paramethadione
+    -   id: UniProt:O43497
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1G
+    -   id: UniProt:Q9P0X4
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1I
+    -   id: UniProt:O95180
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1H
+    -   id: GO:0005245
+        label: MolecularActivity
+        name: Voltage-gated calcium channel activity
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: GO:0023041
+        label: BiologicalProcess
+        name: Neuronal signal transduction
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1100/
+    - https://go.drugbank.com/drugs/DB00617
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: Meloxicam
+        drug_mesh: MESH:C065757
+        drugbank: DB:DB00814
+    links:
+    -   key: decreases activity of
+        source: MESH:C065757
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002829
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C065757
+        label: Drug
+        name: Meloxicam
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB00814
+-   directed: true
+    graph:
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: Meloxicam
+        drug_mesh: MESH:C065757
+        drugbank: DB:DB00814
+    links:
+    -   key: decreases activity of
+        source: MESH:C065757
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002829
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D010003
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D010003
+    multigraph: true
+    nodes:
+    -   id: MESH:C065757
+        label: Drug
+        name: Meloxicam
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB00814
+-   directed: true
+    graph:
+        disease: Juvenile rheumatoid arthritis
+        disease_mesh: MESH:D001171
+        drug: Meloxicam
+        drug_mesh: MESH:C065757
+        drugbank: DB:DB00814
+    links:
+    -   key: decreases activity of
+        source: MESH:C065757
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002829
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001171
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D001171
+    multigraph: true
+    nodes:
+    -   id: MESH:C065757
+        label: Drug
+        name: Meloxicam
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001171
+        label: Disease
+        name: Juvenile rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB00814
+-   comment: Isoniazid is a prodrug and must be activated by a bacterial catalase-peroxidase enzyme in Mycobacterium tuberculosis.
+    directed: true
+    graph:
+        disease: Pulmonary tuberculosis
+        disease_mesh: MESH:D014397
+        drug: isoniazid
+        drug_mesh: MESH:D007538
+        drugbank: DB:DB00951
+    links:
+    -   key: decreases activity of
+        source: MESH:D007538
+        target: UniProt:P9WGR1
+    -   key: positively regulates
+        source: UniProt:P9WGR1
+        target: GO:0071768
+    -   key: increases abundance of 
+        source: GO:0071768
+        target: MESH:D009171
+    -   key: participates in 
+        source: MESH:D009171
+        target: GO:0071766
+    -   key: in taxon
+        source: GO:0071766
+        target: NCBITaxon:1773
+    -   key: causes
+        source: NCBITaxon:1773
+        target: MESH:D014397
+    multigraph: true
+    nodes:
+    -   id: MESH:D007538
+        label: Drug
+        name: Isoniazid
+    -   id: UniProt:P9WGR1
+        label: Protein
+        name: Enoyl-[acyl-carrier-protein] reductase [NADH] (Mycobacterium tuberculosis)
+    -   id: GO:0071768
+        label: BiologicalProcess
+        name: Mycolic acid biosynthetic process
+    -   id: MESH:D009171
+        label: ChemicalSubstance
+        name: Mycolic Acids
+    -   id: GO:0071766
+        label: BiologicalProcess
+        name: Actinobacterium-type cell wall biogenesis
+    -   id: NCBITaxon:1773
+        label: OrganismTaxon
+        name: Mycobacterium tuberculosis
+    -   id: MESH:D014397
+        label: Disease
+        name: Pulmonary tuberculosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB00951
+-   comment: Fumaric acid is used for the treatment of psoriasis in an ester form as dimethyl fumarate. This graph was made for dimethyl fumarate.
+      Dimethyl fumarate ia a prodrug which is metabolised into the pharmacologically active monomethyl fumarate.
+    directed: true
+    graph:
+        disease: Psoriasis
+        disease_mesh: MESH:D011565
+        drug: Dimethyl fumarate
+        drug_mesh: MESH:D000069462
+        drugbank: DB:DB08908
+    links:
+    -   key: negatively regulates
+        source: DB:DB08908
+        target: GO:0038061
+    -   key: positively regulates
+        source: GO:0038061
+        target: GO:0001816
+    -   key: positively correlated with
+        source: GO:0001816
+        target: GO:0006954
+    -   key: positively regulates
+        source: DB:DB08908
+        target: REACT:R-HSA-8932339
+    -   key: increases activity of 
+        source: REACT:R-HSA-8932339
+        target: UniProt:P09601
+    -   key: negatively regulates
+        source: UniProt:P09601
+        target: GO:0006954
+    -   key: increases activity of
+        source: DB:DB08908
+        target: UniProt:Q8TDS4
+    -   key: negatively regulates
+        source: UniProt:Q8TDS4
+        target: GO:1990266
+    -   key: positively correlated with
+        source: GO:1990266
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D011565
+    multigraph: true
+    nodes:
+    -   id: DB:DB08908
+        label: Drug
+        name: Dimethyl fumarate
+    -   id: GO:0038061
+        label: BiologicalProcess
+        name: NIK/NF-kappaB signaling
+    -   id: GO:0001816
+        label: BiologicalProcess
+        name: Cytokine production
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: REACT:R-HSA-8932339
+        label: Pathway
+        name: ROS sensing by NFE2L2
+    -   id: UniProt:P09601
+        label: Protein
+        name: Heme oxygenase 1
+    -   id: UniProt:Q8TDS4
+        label: Protein
+        name: Hydroxycarboxylic acid receptor 2
+    -   id: GO:1990266
+        label: BiologicalProcess
+        name: Neutrophil migration
+    -   id: MESH:D011565
+        label: Disease
+        name: Psoriasis
+    reference:
+    - https://pubmed.ncbi.nlm.nih.gov/27271164/
+    - https://onlinelibrary.wiley.com/doi/10.1111/exd.13548
+    - https://go.drugbank.com/drugs/DB08908
+-   directed: true
+    graph:
+        disease: African trypanosomiasis
+        disease_mesh: MESH:D014353
+        drug: suramin
+        drug_mesh: MESH:D013498
+        drugbank: DB:DB04786
+    links:
+    -   key: negatively regulates
+        source: MESH:D013498
+        target: REACT:R-HSA-70171
+    -   key: positively regulates
+        source: REACT:R-HSA-70171
+        target: GO:0006754
+    -   key: in taxon
+        source: GO:0006754
+        target:  NCBITaxon:5691
+    -   key: causes
+        source: NCBITaxon:5691
+        target: MESH:D014353
+    multigraph: true
+    nodes:
+    -   id: MESH:D013498
+        label: Drug
+        name: Suramin
+    -   id: REACT:R-HSA-70171
+        label: Pathway
+        name: Glycolysis
+    -   id: GO:0006754
+        label: BiologicalProcess
+        name: ATP biosynthetic process
+    -   id: NCBITaxon:5691
+        label: OrganismTaxon
+        name: Trypanosoma brucei
+    -   id: MESH:D014353
+        label: Disease
+        name: African trypanosomiasis
+    reference:
+    - https://aac.asm.org/content/64/3/e01168-19
+    - https://go.drugbank.com/drugs/DB04786
+-   comment: The mechanism of action for glatiramer acetate is not fully elucidated.
+    directed: true
+    graph:
+        disease: Multiple sclerosis
+        disease_mesh: MESH:D009103
+        drug: glatiramer acetate
+        drug_mesh: MESH:D000068717
+        drugbank: DB:DB05259
+    links:
+    -   key: negatively regulates
+        source: MESH:D000068717
+        target: GO:0042088
+    -   key: positively regulates
+        source: GO:0042088
+        target: GO:0006954
+    -   key: positively regulates
+        source: MESH:D000068717
+        target: GO:0042092
+    -   key: negatively regulates
+        source: GO:0042092
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D009103
+    -   key: negatively regulates
+        source: MESH:D000068717
+        target: GO:0042613
+    -   key: positively regulates
+        source: GO:0042613
+        target: GO:0035712
+    -   key: positively correlated with 
+        source: GO:0035712
+        target: HP:0007305
+    -   key: manifestation of
+        source: HP:0007305
+        target: MESH:D009103
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068717
+        label: Drug
+        name: Glatiramer acetate
+    -   id: GO:0042088
+        label: BiologicalProcess
+        name: T-helper 1 type immune response
+    -   id: GO:0042092
+        label: BiologicalProcess
+        name: Type 2 immune response
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0042613
+        label: CellularComponent
+        name: MHC class II protein complex
+    -   id: GO:0035712
+        label: BiologicalProcess
+        name: T-helper 2 cell activation
+    -   id: HP:0007305
+        label: PhenotypicFeature
+        name: CNS demyelination
+    -   id: MESH:D009103
+        label: Disease
+        name: Multiple sclerosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB05259
+    - https://en.wikipedia.org/wiki/Glatiramer_acetate#Mechanism_of_action
+    - https://www.sciencedirect.com/science/article/abs/pii/S1568997207000419
+-   comment: Bisacodyl is deacetylated to the active bis-(p-hydroxyphenyl)-pyridyl-2-methane (BHPM) by an intestinal deacetylase.
+    directed: true
+    graph:
+        disease: Constipation
+        disease_mesh: MESH:D003248
+        drug: bisacodyl
+        drug_mesh: MESH:D001726
+        drugbank: DB:DB09020
+    links:
+    -   key: has metabolite
+        source: MESH:D001726
+        target: MESH:C073061
+    -   key: positively regulates
+        source: MESH:C073061
+        target: GO:0120054
+    -   key: negatively correlated with
+        source: GO:0120054
+        target: MESH:D003248
+    -   key: positively regulates
+        source: MESH:C073061
+        target: UBERON:0004293
+    -   key: positively regulates
+        source: UBERON:0004293
+        target: UBERON:0012399
+    -   key: positively regulates
+        source: UBERON:0012399
+        target: GO:0120054
+    -   key: decreases activity of
+        source: MESH:C073061
+        target: UniProt:Q92482
+    -   key: regulates
+        source: UniProt:Q92482
+        target: GO:0006833
+    -   key: located in
+        source: GO:0006833
+        target: UBERON:0001155
+    -   key: correlated with
+        source: UBERON:0001155
+        target: MESH:D003248
+    multigraph: true
+    nodes:
+    -   id: MESH:D001726
+        label: Drug
+        name: Bisacodyl
+    -   id: MESH:C073061
+        label: ChemicalSubstance
+        name: 4-(2-benzyl-4-hydroxy)phenoxy-N-methylbutylamine
+    -   id: GO:0120054
+        label: BiologicalProcess
+        name: Intestinal motility
+    -   id: UBERON:0004293
+        label: GrossAnatomicalStructure
+        name: Parasympathetic nerve 
+    -   id: UBERON:0012399
+        label: GrossAnatomicalStructure
+        name: Large intestine smooth muscle longitudinal layer
+    -   id: UBERON:0001155
+        label: GrossAnatomicalStructure
+        name: Colon
+    -   id: GO:0006833
+        label: BiologicalProcess
+        name: Water transport
+    -   id: UniProt:Q92482
+        label: Protein
+        name: Aquaporin-3
+    -   id: MESH:D003248
+        label: Disease
+        name: Constipation
+    reference:
+    - https://go.drugbank.com/drugs/DB09020
+-   directed: true
+    graph:
+        disease: Methemoglobinemia
+        disease_mesh: MESH:D008708
+        drug: methylthioninium chloride
+        drug_mesh: MESH:D008751
+        drugbank: DB:DB09241
+    links:
+    -   key: increases abundance of 
+        source: MESH:D008751
+        target: MESH:C011010
+    -   key: decreases abundance of
+        source: MESH:C011010
+        target: MESH:D008706
+    -   key: positively correlated with
+        source: MESH:D008706
+        target: MESH:D008708
+    multigraph: true
+    nodes:
+    -   id: MESH:D008751
+        label: Drug
+        name: Methylthioninium chloride
+    -   id: MESH:C011010
+        label: ChemicalSubstance
+        name: Hydromethylthionine
+    -   id: MESH:D008706
+        label: ChemicalSubstance
+        name: Methemoglobin
+    -   id: MESH:D008708
+        label: Disease
+        name: Methemoglobinemia
+    reference:
+    - https://go.drugbank.com/drugs/DB09241
+    - https://en.wikipedia.org/wiki/Methemoglobinemia
+-   comment: Compared to the older central-acting antihypertensives, moxonidine binds with much greater affinity to the imidazoline I1-receptor than to the α2-receptor.
+    directed: true
+    graph:
+        disease: Essential hypertension
+        disease_mesh: MESH:D000075222
+        drug: moxonidine
+        drug_mesh: MESH:C043482
+        drugbank: DB:DB09242
+    links:
+    -   key: increases activity of
+        source: MESH:C043482
+        target: UniProt:P08913
+    -   key: positively correlated with
+        source: UniProt:P08913
+        target: GO:0004938
+    -   key: negatively regulates
+        source: GO:0004938
+        target: GO:0061533
+    -   key: positively regulates
+        source: GO:0061533
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
+        target: MESH:D000075222
+    -   key: increases activity of
+        source: MESH:C043482
+        target: UniProt:Q9Y2I1
+    -   key: decreases activity of 
+        source: UniProt:Q9Y2I1
+        target: UBERON:0000013
+    -   key: positively correlated with
+        source: UBERON:0000013
+        target: GO:0045777
+    -   key: positively correlated with
+        source: GO:0045777
+        target: MESH:D000075222
+    multigraph: true
+    nodes:
+    -   id: MESH:C043482
+        label: Drug
+        name: Moxonidine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0004938
+        label: BiologicalProcess
+        name: Alpha2-adrenergic receptor activity
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: UniProt:Q9Y2I1
+        label: Protein
+        name: Nischarin
+    -   id: UBERON:0000013
+        label: GrossAnatomicalStructure
+        name: Sympathetic nervous system
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D000075222
+        label: Disease
+        name: Essential hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB09242
+    - https://en.wikipedia.org/wiki/Moxonidine
+-   directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: paritaprevir
+        drug_mesh: MESH:C585405
+        drugbank: DB:DB09297
+    links:
+    -   key: negatively regulates
+        source: MESH:C585405
+        target: UniProt:P27958
+    -   key: positively regulates
+        source: UniProt:P27958
+        target: GO:0039694
+    -   key: in taxon
+        source: GO:0039694
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C585405
+        label: Drug
+        name: Paritaprevir
+    -   id: UniProt:P27958
+        label: Protein
+        name: Genome polyprotein
+    -   id: GO:0039694
+        label: BiologicalProcess
+        name: Viral RNA genome replication
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference:
+    - https://go.drugbank.com/drugs/DB09297
+    - https://en.wikipedia.org/wiki/Hepatitis_C_virus#Molecular_biology
+-   directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: istradefylline
+        drug_mesh: MESH:C111599
+        drugbank: DB:DB11757
+    links:
+    -   key: decreases activity of
+        source: MESH:C111599
+        target: UniProt:P29274
+    -   key: molecularly interacts with
+        source: UniProt:P29274
+        target: MESH:D000241
+    -   key: decreases activity of
+        source: MESH:D000241
+        target: UniProt:P14416
+    -   key: molecularly interacts with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0001963
+    -   key: negatively correlated with
+        source: GO:0001963
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:C111599
+        label: Drug
+        name: Istradefylline
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: MESH:D000241
+        label: ChemicalSubstance
+        name: Adenosine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0001963
+        label: BiologicalProcess
+        name: Synaptic transmission, dopaminergic
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference:
+    - https://go.drugbank.com/drugs/DB11757#BE0000924
+    - https://en.wikipedia.org/wiki/Istradefylline
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: sarilumab
+        drug_mesh: MESH:C000592401
+        drugbank: DB:DB11767
+    links:
+    -   key: decreases activity of
+        source: MESH:C000592401
+        target: UniProt:P08887
+    -   key: positively regulates
+        source: UniProt:P08887
+        target: GO:0070102
+    -   key: positively regulates
+        source: GO:0070102
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0006954
+        target: HP:0005187
+    -   key: manifestation of
+        source: HP:0005187
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C000592401
+        label: ChemicalSubstance
+        name: Sarilumab 
+    -   id: UniProt:P08887
+        label: Protein
+        name: Interleukin-6 receptor subunit alpha
+    -   id: GO:0070102
+        label: BiologicalProcess
+        name: Interleukin-6-mediated signaling pathway
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0005187
+        label: PhenotypicFeature
+        name: Progressive joint destruction
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: 
+    - https://go.drugbank.com/drugs/DB11767
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: Alclofenac
+        drug_mesh: MESH:C084615
+        drugbank: DB:DB13167
+    links:
+    -   key: decreases activity of
+        source: MESH:C084615
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:C084615
+        label: Drug
+        name: Alclofenac
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference:
+    - https://go.drugbank.com/drugs/DB13167
+-   comment: Alclofenac was withdrawn from the market in the United Kingdom in 1979.
+    directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: Alclofenac
+        drug_mesh: MESH:C084615
+        drugbank: DB:DB13167
+    links:
+    -   key: decreases activity of
+        source: MESH:C084615
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002829
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C084615
+        label: Drug
+        name: Alclofenac
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: BiologicalProcess
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Joint pain
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB13167
