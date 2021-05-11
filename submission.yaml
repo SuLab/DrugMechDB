@@ -8,6 +8,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D014237
+        target: UniProt:P55017
+    -   key: decreases activity of
+        source: UniProt:P55017
         target: GO:0070294
     -   key: located in
         source: GO:0070294
@@ -15,7 +18,7 @@
     -   key: increases activity of
         source: UBERON:0005164
         target: GO:0035812
-    -   key: contributes to
+    -   key: ameliorates
         source: GO:0035812
         target: MESH:D006973
     multigraph: true
@@ -23,6 +26,9 @@
     -   id: MESH:D014237
         label: Drug
         name: Trichlormethiazide
+    -   id: UniProt:P55017
+        label: Protein
+        name: Solute carrier family 12 member 3
     -   id: GO:0070294
         label: BiologicalProcess
         name: Renal sodium ion absorption
@@ -36,7 +42,6 @@
         label: Disease
         name: Hypertension
     reference: https://go.drugbank.com/drugs/DB01021 https://en.wikipedia.org/wiki/Thiazide https://en.wikipedia.org/wiki/Trichlormethiazide 
-
 -   directed: true
     graph:
         drug: Trichlormethiazide
@@ -96,7 +101,7 @@
     -   key: decreases activity of
         source: MESH:C005430
         target: UniProt:P35367
-    -   key: negatively regulates
+    -   key: decreases molecular interaction
         source: UniProt:P35367
         target: MESH:D006632
     -   key: ameliorates
@@ -135,7 +140,7 @@
     -   key: decreases activity of
         source: MESH:C005430
         target: UniProt:P35367
-    -   key: negatively regulates
+    -   key: decreases molecular interaction
         source: UniProt:P35367
         target: MESH:D006632
     -   key: ameliorates
@@ -173,7 +178,7 @@
     -   key: decreases activity of
         source: MESH:C005430
         target: UniProt:P35367
-    -   key: negatively regulates
+    -   key: decreases molecular interaction
         source: UniProt:P35367
         target: MESH:D006632
     -   key: ameliorates
@@ -211,7 +216,7 @@
     -   key: decreases activity of
         source: MESH:C005430
         target: UniProt:P35367
-    -   key: negatively regulates
+    -   key: decreases molecular interaction
         source: UniProt:P35367
         target: MESH:D006632
     -   key: ameliorates
@@ -249,7 +254,7 @@
     -   key: decreases activity of
         source: MESH:C005430
         target: UniProt:P35367
-    -   key: negatively regulates
+    -   key: decreases molecular interaction
         source: UniProt:P35367
         target: MESH:D006632
     -   key: ameliorates
@@ -287,7 +292,7 @@
     -   key: decreases activity of
         source: MESH:C005430
         target: UniProt:P35367
-    -   key: negatively regulates
+    -   key: decreases molecular interaction
         source: UniProt:P35367
         target: MESH:D006632
     -   key: ameliorates
@@ -326,13 +331,13 @@
     -   key: decreases activity of
         source: MESH:C017590
         target: UniProt:P20309
-    -   key: causes
+    -   key: negatively regulates
         source: UniProt:P20309
         target: GO:0006939
     -   key: increases activity of
         source: GO:0006939
         target: GO:0097366
-    -   key: correlated with
+    -   key: ameliorates
         source: GO:0097366
         target: MESH:D029424
     multigraph: true
@@ -353,7 +358,6 @@
         label: Disease
         name: Chronic obstructive lung disease
     reference: https://go.drugbank.com/drugs/DB12086 https://drugs.ncats.io/drug/8G15T83E6I
-
 -   directed: true
     graph:
         drug: Bimatoprost
