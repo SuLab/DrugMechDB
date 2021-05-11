@@ -2236,6 +2236,27 @@ datatable: true
 | [DB01619_MESH_D012223_2](db01619-mesh-d012223-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
 | [DB01619_MESH_D003233_2](db01619-mesh-d003233-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
 | [DB12086_MESH_D029424_2](db12086-mesh-d029424-2.html) | Oxitropium | DB:DB12086 | MESH:C017590 | Chronic obstructive lung disease | MESH:D029424 | 5 | 4 |
+| [DB00085_MESH_D010188_1](db00085-mesh-d010188-1.html) | pancrelipase | DB:DB00085 | MESH:D020799,MESH:D010194 | Exocrine pancreatic insufficiency | MESH:D010188 | 5 | 6 |
+| [DB00237_MESH_D053159_1](db00237-mesh-d053159-1.html) | secbutabarbital | DB:DB00237 | MESH:C084833 | Dysuria | MESH:D053159 | 6 | 5 |
+| [DB00432_MESH_D003110_1](db00432-mesh-d003110-1.html) | trifluridine | DB:DB00432 | MESH:D014271 | Malignant tumor of colon | MESH:D003110 | 8 | 9 |
+| [DB00432_MESH_D016849_1](db00432-mesh-d016849-1.html) | trifluridine | DB:DB00432 | MESH:D014271 | Herpes simplex keratitis | MESH:D016849 | 4 | 3 |
+| [DB00617_MESH_D004832_1](db00617-mesh-d004832-1.html) | paramethadione | DB:DB00617 | MESH:C005731 | Absence seizure | MESH:D004832 | 8 | 9 |
+| [DB00617_MESH_D004827_1](db00617-mesh-d004827-1.html) | paramethadione | DB:DB00617 | MESH:C005731 | Epilepsy | MESH:D004827 | 8 | 9 |
+| [DB00814_MESH_D001172_1](db00814-mesh-d001172-1.html) | Meloxicam | DB:DB00814 | MESH:C065757 | Rheumatoid arthritis | MESH:D001172 | 8 | 8 |
+| [DB00814_MESH_D010003_1](db00814-mesh-d010003-1.html) | Meloxicam | DB:DB00814 | MESH:C065757 | Osteoarthritis | MESH:D010003 | 8 | 8 |
+| [DB00814_MESH_D001171_1](db00814-mesh-d001171-1.html) | Meloxicam | DB:DB00814 | MESH:C065757 | Juvenile rheumatoid arthritis | MESH:D001171 | 8 | 8 |
+| [DB00951_MESH_D014397_1](db00951-mesh-d014397-1.html) | isoniazid | DB:DB00951 | MESH:D007538 | Pulmonary tuberculosis | MESH:D014397 | 7 | 6 |
+| [DB08908_MESH_D011565_1](db08908-mesh-d011565-1.html) | Dimethyl fumarate | DB:DB08908 | MESH:D000069462 | Psoriasis | MESH:D011565 | 9 | 10 |
+| [DB04786_MESH_D014353_1](db04786-mesh-d014353-1.html) | suramin | DB:DB04786 | MESH:D013498 | African trypanosomiasis | MESH:D014353 | 5 | 4 |
+| [DB05259_MESH_D009103_1](db05259-mesh-d009103-1.html) | glatiramer acetate | DB:DB05259 | MESH:D000068717 | Multiple sclerosis | MESH:D009103 | 8 | 9 |
+| [DB09020_MESH_D003248_1](db09020-mesh-d003248-1.html) | bisacodyl | DB:DB09020 | MESH:D001726 | Constipation | MESH:D003248 | 9 | 10 |
+| [DB09241_MESH_D008708_1](db09241-mesh-d008708-1.html) | methylthioninium chloride | DB:DB09241 | MESH:D008751 | Methemoglobinemia | MESH:D008708 | 4 | 3 |
+| [DB09242_MESH_D000075222_1](db09242-mesh-d000075222-1.html) | moxonidine | DB:DB09242 | MESH:C043482 | Essential hypertension | MESH:D000075222 | 9 | 9 |
+| [DB09297_MESH_D019698_1](db09297-mesh-d019698-1.html) | paritaprevir | DB:DB09297 | MESH:C585405 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
+| [DB11757_MESH_D010300_1](db11757-mesh-d010300-1.html) | istradefylline | DB:DB11757 | MESH:C111599 | Parkinson's disease | MESH:D010300 | 7 | 6 |
+| [DB11767_MESH_D001172_1](db11767-mesh-d001172-1.html) | sarilumab | DB:DB11767 | MESH:C000592401 | Rheumatoid arthritis | MESH:D001172 | 6 | 5 |
+| [DB13167_MESH_D010146_1](db13167-mesh-d010146-1.html) | Alclofenac | DB:DB13167 | MESH:C084615 | Pain | MESH:D010146 | 6 | 5 |
+| [DB13167_MESH_D001172_1](db13167-mesh-d001172-1.html) | Alclofenac | DB:DB13167 | MESH:C084615 | Rheumatoid arthritis | MESH:D001172 | 8 | 8 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
