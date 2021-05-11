@@ -2203,6 +2203,31 @@ datatable: true
 | [DB08904_MESH_D001172_1](db08904-mesh-d001172-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Rheumatoid arthritis | MESH:D001172 | 7 | 8 |
 | [DB08904_MESH_D015535_1](db08904-mesh-d015535-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Psoriasis with arthropathy | MESH:D015535 | 5 | 4 |
 | [DB08904_MESH_D013167_1](db08904-mesh-d013167-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Ankylosing spondylitis | MESH:D013167 | 5 | 4 |
+| [DB01021_MESH_D006973_1](db01021-mesh-d006973-1.html) | Trichlormethiazide | DB:DB01021 | MESH:D014237 | Hypertension | MESH:D006973 | 5 | 4 |
+| [DB01021_MESH_D006973_2](db01021-mesh-d006973-2.html) | Trichlormethiazide | DB:DB01021 | MESH:D014237 | Hypertension | MESH:D006973 | 6 | 6 |
+| [DB01619_MESH_D014581_1](db01619-mesh-d014581-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB01619_MESH_D011537_1](db01619-mesh-d011537-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Pruritus | MESH:D011537 | 5 | 4 |
+| [DB01619_MESH_D012912_1](db01619-mesh-d012912-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Sneezing | MESH:D012912 | 5 | 4 |
+| [DB01619_MESH_D065631_1](db01619-mesh-d065631-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
+| [DB01619_MESH_D012223_1](db01619-mesh-d012223-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
+| [DB01619_MESH_D003233_1](db01619-mesh-d003233-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
+| [DB12086_MESH_D029424_1](db12086-mesh-d029424-1.html) | Oxitropium | DB:DB12086 | MESH:C017590 | Chronic obstructive lung disease | MESH:D029424 | 5 | 4 |
+| [DB00905_MESH_D009798_1](db00905-mesh-d009798-1.html) | Bimatoprost | DB:DB00905 | MESH:D000069580 | Ocular hypertension | MESH:D009798 | 4 | 3 |
+| [DB00905_MESH_D005902_1](db00905-mesh-d005902-1.html) | Bimatoprost | DB:DB00905 | MESH:D000069580 | Open-angle glaucoma | MESH:D005902 | 4 | 3 |
+| [DB00520_MESH_D058387_1](db00520-mesh-d058387-1.html) | Caspofungin | DB:DB00520 | None | Candidemia | MESH:D058387 | 6 | 5 |
+| [DB01066_MESH_D018410_1](db01066-mesh-d018410-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Bacterial pneumonia | MESH:D018410 | 8 | 8 |
+| [DB01066_MESH_D013203_1](db01066-mesh-d013203-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Staphylococcal infections | MESH:D013203 | 8 | 8 |
+| [DB01066_MESH_D013290_1](db01066-mesh-d013290-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Streptococcal infections | MESH:D013290 | 8 | 8 |
+| [DB01066_MESH_D011018_1](db01066-mesh-d011018-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Pneumococcal pneumonia | MESH:D011018 | 8 | 8 |
+| [DB03209_MESH_D013274_1](db03209-mesh-d013274-1.html) | Oteracil | DB:DB03209 | MESH:D010094 | Stomach neoplasms | MESH:D013274 | 6 | 5 |
+| [DB00056_MESH_D015470_1](db00056-mesh-d015470-1.html) | Gemtuzumab ozogamicin | DB:DB00056 | None | Acute myeloid leukemia | MESH:D015470 | 6 | 5 |
+| [DB00687_MESH_D000224_1](db00687-mesh-d000224-1.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Addison disease | MESH:D000224 | 11 | 14 |
+| [DB01185_MESH_D011628_1](db01185-mesh-d011628-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Delayed puberty | MESH:D011628 | 4 | 3 |
+| [DB01185_MESH_D007713_1](db01185-mesh-d007713-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Klinefelter Syndrome | MESH:D007713 | 4 | 3 |
+| [DB01185_MESH_D003456_1](db01185-mesh-d003456-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Cryptorchidism | MESH:D003456 | 5 | 4 |
+| [DB01185_MESH_D005058_1](db01185-mesh-d005058-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Eunuchism | MESH:D005058 | 4 | 3 |
+| [DB01185_MESH_D009224_1](db01185-mesh-d009224-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Myotonia Congenita | MESH:D009224 | 2 | 1 |
+| [DB01185_MESH_D009634_1](db01185-mesh-d009634-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Noonan syndrome | MESH:D009634 | 2 | 1 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
