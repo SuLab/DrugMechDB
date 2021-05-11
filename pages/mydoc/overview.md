@@ -1624,7 +1624,7 @@ datatable: true
 | [DB00993_MESH_D001172_1](db00993-mesh-d001172-1.html) | azathioprine | DB:DB00993 | MESH:D001379 | Rheumatoid arthritis | MESH:D001172 | 11 | 13 |
 | [DB00875_MESH_D012559_1](db00875-mesh-d012559-1.html) | flupentixol | DB:DB00875 | MESH:D005475 | Schizophrenia | MESH:D012559 | 4 | 3 |
 | [DB01018_MESH_D001289_1](db01018-mesh-d001289-1.html) | guanfacine | DB:DB01018 | MESH:D016316 | Attention deficit hyperactivity disorder | MESH:D001289 | 3 | 2 |
-| [DB01018_MESH_D006973_1](db01018-mesh-d006973-1.html) | guanfacine | DB:DB01018 | MESH:D016316 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
+| [DB01018_MESH_D006973_1](db01018-mesh-d006973-1.html) | guanfacine | DB:DB01018 | MESH:D016316 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
 | [DB01062_MESH_D053202_1](db01062-mesh-d053202-1.html) | oxybutynin | DB:DB01062 | MESH:C005419 | Urge incontinence of urine | MESH:D053202 | 7 | 8 |
 | [DB01062_MESH_D001750_1](db01062-mesh-d001750-1.html) | oxybutynin | DB:DB01062 | MESH:C005419 | Neurogenic bladder | MESH:D001750 | 7 | 8 |
 | [DB01152_MESH_D002181_1](db01152-mesh-d002181-1.html) | candicidin | DB:DB01152 | MESH:D002174 | Candidiasis of vagina | MESH:D002181 | 6 | 5 |
@@ -2228,6 +2228,14 @@ datatable: true
 | [DB01185_MESH_D005058_1](db01185-mesh-d005058-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Eunuchism | MESH:D005058 | 4 | 3 |
 | [DB01185_MESH_D009224_1](db01185-mesh-d009224-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Myotonia Congenita | MESH:D009224 | 2 | 1 |
 | [DB01185_MESH_D009634_1](db01185-mesh-d009634-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Noonan syndrome | MESH:D009634 | 2 | 1 |
+| [DB01021_MESH_D006973_3](db01021-mesh-d006973-3.html) | Trichlormethiazide | DB:DB01021 | MESH:D014237 | Hypertension | MESH:D006973 | 6 | 5 |
+| [DB01619_MESH_D014581_2](db01619-mesh-d014581-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB01619_MESH_D011537_2](db01619-mesh-d011537-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Pruritus | MESH:D011537 | 5 | 4 |
+| [DB01619_MESH_D012912_2](db01619-mesh-d012912-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Sneezing | MESH:D012912 | 5 | 4 |
+| [DB01619_MESH_D065631_2](db01619-mesh-d065631-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
+| [DB01619_MESH_D012223_2](db01619-mesh-d012223-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
+| [DB01619_MESH_D003233_2](db01619-mesh-d003233-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
+| [DB12086_MESH_D029424_2](db12086-mesh-d029424-2.html) | Oxitropium | DB:DB12086 | MESH:C017590 | Chronic obstructive lung disease | MESH:D029424 | 5 | 4 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
