@@ -116285,3 +116285,345 @@
         name: Noonan syndrome
     reference:
     - https://go.drugbank.com/drugs/DB01185
+-   directed: true
+    graph:
+        _id: DB01021_MESH_D006973_3
+        disease: Hypertension
+        disease_mesh: MESH:D006973
+        drug: Trichlormethiazide
+        drug_mesh: MESH:D014237
+        drugbank: DB:DB01021
+    links:
+    -   key: decreases activity of
+        source: MESH:D014237
+        target: UniProt:P55017
+    -   key: decreases activity of
+        source: UniProt:P55017
+        target: GO:0070294
+    -   key: located in
+        source: GO:0070294
+        target: UBERON:0005164
+    -   key: increases activity of
+        source: UBERON:0005164
+        target: GO:0035812
+    -   key: ameliorates
+        source: GO:0035812
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D014237
+        label: Drug
+        name: Trichlormethiazide
+    -   id: UniProt:P55017
+        label: Protein
+        name: Solute carrier family 12 member 3
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: UBERON:0005164
+        label: GrossAnatomicalStructure
+        name: Ascending limb of loop of Henle
+    -   id: GO:0035812
+        label: BiologicalProcess
+        name: Renal sodium excretion
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB01021
+    - https://en.wikipedia.org/wiki/Thiazide
+    - https://en.wikipedia.org/wiki/Trichlormethiazide
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D014581_2
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: decreases molecular interaction
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D011537_2
+        disease: Pruritus
+        disease_mesh: MESH:D011537
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: decreases molecular interaction
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D011537
+        label: Disease
+        name: Pruritus
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D012912_2
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: decreases molecular interaction
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D065631_2
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: decreases molecular interaction
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D012223_2
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: decreases molecular interaction
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   directed: true
+    graph:
+        _id: DB01619_MESH_D003233_2
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: Phenindamine
+        drug_mesh: MESH:C005430
+        drugbank: DB:DB01619
+    links:
+    -   key: decreases activity of
+        source: MESH:C005430
+        target: UniProt:P35367
+    -   key: decreases molecular interaction
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: ameliorates
+        source: MESH:D006632
+        target: GO:0002524
+    -   key: correlated with
+        source: GO:0002524
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C005430
+        label: Drug
+        name: Phenindamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0002524
+        label: BiologicalProcess
+        name: Hypersensitivity
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01619
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Phenindamine#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Antihistamine
+-   comment: Oxitropium is used as Oxitropium bromide for treatment
+    directed: true
+    graph:
+        _id: DB12086_MESH_D029424_2
+        disease: Chronic obstructive lung disease
+        disease_mesh: MESH:D029424
+        drug: Oxitropium
+        drug_mesh: MESH:C017590
+        drugbank: DB:DB12086
+    links:
+    -   key: decreases activity of
+        source: MESH:C017590
+        target: UniProt:P20309
+    -   key: negatively regulates
+        source: UniProt:P20309
+        target: GO:0006939
+    -   key: increases activity of
+        source: GO:0006939
+        target: GO:0097366
+    -   key: ameliorates
+        source: GO:0097366
+        target: MESH:D029424
+    multigraph: true
+    nodes:
+    -   id: MESH:C017590
+        label: Drug
+        name: Oxitropium
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: GO:0097366
+        label: BiologicalProcess
+        name: Response to bronchodilator
+    -   id: MESH:D029424
+        label: Disease
+        name: Chronic obstructive lung disease
+    reference:
+    - https://go.drugbank.com/drugs/DB12086
+    - https://drugs.ncats.io/drug/8G15T83E6I
