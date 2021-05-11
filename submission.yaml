@@ -1,1 +1,46 @@
-
+-   directed: true
+    graph:
+        _id: DB01018_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: guanfacine
+        drug_mesh: MESH:D016316
+        drugbank: DB:DB01018
+    links:
+    -   key: increases activity of
+        source: MESH:D016316
+        target: UniProt:P08913
+    -   key: positively correlated with
+        source: UniProt:P08913
+        target: GO:0004938
+    -   key: negatively regulates
+        source: GO:0004938
+        target: GO:0061533
+    -   key: positively regulates
+        source: GO:0061533
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D016316
+        label: Drug
+        name: Guanfacine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0004938
+        label: BiologicalProcess
+        name: Alpha2-adrenergic receptor activity
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01018#BE0000289
