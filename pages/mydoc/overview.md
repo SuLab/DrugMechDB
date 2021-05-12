@@ -1991,7 +1991,7 @@ datatable: true
 | [DB08941_MESH_D011928_1](db08941-mesh-d011928-1.html) | isoxsuprine | DB:DB08941 | MESH:D007556 | Raynaud's disease | MESH:D011928 | 6 | 5 |
 | [DB09108_MESH_D006467_1](db09108-mesh-d006467-1.html) | simoctocog alfa | DB:DB09108 | None | Hereditary factor VIII deficiency disease | MESH:D006467 | 6 | 5 |
 | [DB09299_MESH_D003866_1](db09299-mesh-d003866-1.html) | pirlindole | DB:DB09299 | MESH:C009830 | Depressive disorder | MESH:D003866 | 9 | 11 |
-| [DB09299_MESH_D015658_1](db09299-mesh-d015658-1.html) | tenofovir alafenamide | DB:DB09299 | MESH:C442442 | Human immunodeficiency virus infection | MESH:D015658 | 8 | 9 |
+| [DB09299_MESH_D015658_1](db09299-mesh-d015658-1.html) | tenofovir alafenamide | DB:DB09299 | MESH:C442442 | Human immunodeficiency virus infection | MESH:D015658 | 7 | 6 |
 | [DB00220_MESH_D015658_1](db00220-mesh-d015658-1.html) | nelfinavir | DB:DB00220 | MESH:D019888 | Human immunodeficiency virus infection | MESH:D015658 | 6 | 5 |
 | [DB00282_MESH_D010001_1](db00282-mesh-d010001-1.html) | pamidronic acid | DB:DB00282 | MESH:C019248 | Osteitis deformans | MESH:D010001 | 10 | 12 |
 | [DB00282_MESH_C562390_1](db00282-mesh-c562390-1.html) | pamidronic acid | DB:DB00282 | MESH:C019248 | Humoral hypercalcemia of malignancy | MESH:C562390 | 10 | 12 |
@@ -2257,6 +2257,49 @@ datatable: true
 | [DB11767_MESH_D001172_1](db11767-mesh-d001172-1.html) | sarilumab | DB:DB11767 | MESH:C000592401 | Rheumatoid arthritis | MESH:D001172 | 6 | 5 |
 | [DB13167_MESH_D010146_1](db13167-mesh-d010146-1.html) | Alclofenac | DB:DB13167 | MESH:C084615 | Pain | MESH:D010146 | 6 | 5 |
 | [DB13167_MESH_D001172_1](db13167-mesh-d001172-1.html) | Alclofenac | DB:DB13167 | MESH:C084615 | Rheumatoid arthritis | MESH:D001172 | 8 | 8 |
+| [DB00090_MESH_D008059_1](db00090-mesh-d008059-1.html) | laronidase | DB:DB00090 | None | Mucopolysaccharidosis, MPS-I | MESH:D008059 | 7 | 7 |
+| [DB00137_MESH_D008268_1](db00137-mesh-d008268-1.html) | lutein | DB:DB00137 | MESH:D014975 | Age related macular degeneration | MESH:D008268 | 7 | 8 |
+| [DB00137_MESH_D015352_1](db00137-mesh-d015352-1.html) | lutein | DB:DB00137 | MESH:D014975 | Tear film insufficiency | MESH:D015352 | 7 | 8 |
+| [DB00137_MESH_D000080343_1](db00137-mesh-d000080343-1.html) | lutein | DB:DB00137 | MESH:D014975 | Meibomian gland dysfunction | MESH:D000080343 | 7 | 8 |
+| [DB00209_MESH_D053202_1](db00209-mesh-d053202-1.html) | trospium | DB:DB00209 | MESH:C003330 | Urge incontinence of urine | MESH:D053202 | 8 | 7 |
+| [DB00570_MESH_D012514_1](db00570-mesh-d012514-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Kaposi's sarcoma | MESH:D012514 | 10 | 14 |
+| [DB00570_MESH_D009182_1](db00570-mesh-d009182-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Mycosis fungoides | MESH:D009182 | 10 | 14 |
+| [DB00570_MESH_D008228_1](db00570-mesh-d008228-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Non-Hodgkin's lymphoma | MESH:D008228 | 10 | 14 |
+| [DB00570_MESH_D013736_1](db00570-mesh-d013736-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Malignant tumor of testis | MESH:D013736 | 10 | 14 |
+| [DB00570_MESH_C538636_1](db00570-mesh-c538636-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Langerhans cell histiocytosis, disseminated | MESH:C538636 | 10 | 14 |
+| [DB00570_MESH_D006689_1](db00570-mesh-d006689-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Hodgkin's disease | MESH:D006689 | 10 | 14 |
+| [DB00570_MESH_D031901_1](db00570-mesh-d031901-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Gestational trophoblastic neoplasia | MESH:D031901 | 10 | 14 |
+| [DB00859_MESH_D001172_1](db00859-mesh-d001172-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Rheumatoid arthritis | MESH:D001172 | 6 | 5 |
+| [DB00859_MESH_D006527_1](db00859-mesh-d006527-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Wilson's disease | MESH:D006527 | 6 | 6 |
+| [DB00859_MESH_D003555_1](db00859-mesh-d003555-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Cystinuria | MESH:D003555 | 6 | 7 |
+| [DB08872_MESH_D051474_1](db08872-mesh-d051474-1.html) | gabapentin enacarbil | DB:DB08872 | MESH:C493250 | Postherpetic neuralgia | MESH:D051474 | 12 | 14 |
+| [DB08872_MESH_D012148_1](db08872-mesh-d012148-1.html) | gabapentin enacarbil | DB:DB08872 | MESH:C493250 | Restless legs | MESH:D012148 | 12 | 14 |
+| [DB01268_MESH_D046152_1](db01268-mesh-d046152-1.html) | sunitinib | DB:DB01268 | MESH:C473478 | Gastrointestinal stromal tumor | MESH:D046152 | 13 | 27 |
+| [DB01268_MESH_D002292_1](db01268-mesh-d002292-1.html) | sunitinib | DB:DB01268 | MESH:C473478 | Renal cell carcinoma | MESH:D002292 | 13 | 27 |
+| [DB01277_MESH_D046150_1](db01277-mesh-d046150-1.html) | mecasermin | DB:DB01277 | MESH:C000604197 | Laron-type isolated somatotropin defect | MESH:D046150 | 8 | 9 |
+| [DB00857_MESH_D014008_1](db00857-mesh-d014008-1.html) | terbinafine | DB:DB00857 | MESH:C041359 | Tinea pedis | MESH:D014008 | 7 | 6 |
+| [DB00857_MESH_D014010_1](db00857-mesh-d014010-1.html) | terbinafine | DB:DB00857 | MESH:C041359 | Tinea Versicolor | MESH:D014010 | 7 | 6 |
+| [DB00857_MESH_D014006_1](db00857-mesh-d014006-1.html) | terbinafine | DB:DB00857 | MESH:C041359 | Tinea capitis | MESH:D014006 | 7 | 6 |
+| [DB00857_MESH_D014009_1](db00857-mesh-d014009-1.html) | terbinafine | DB:DB00857 | MESH:C041359 | Onychomycosis due to dermatophyte | MESH:D014009 | 7 | 6 |
+| [DB00206_MESH_D011618_1](db00206-mesh-d011618-1.html) | reserpine | DB:DB00206 | MESH:D012110 | Psychotic disorder | MESH:D011618 | 5 | 4 |
+| [DB00206_MESH_D006973_1](db00206-mesh-d006973-1.html) | reserpine | DB:DB00206 | MESH:D012110 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
+| [DB01611_MESH_D016778_1](db01611-mesh-d016778-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Falciparum malaria | MESH:D016778 | 6 | 6 |
+| [DB01611_MESH_D008179_1](db01611-mesh-d008179-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Discoid lupus erythematosus | MESH:D008179 | 5 | 4 |
+| [DB01611_MESH_D008180_1](db01611-mesh-d008180-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Systemic lupus erythematosus | MESH:D008180 | 5 | 4 |
+| [DB01611_MESH_D016780_1](db01611-mesh-d016780-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Vivax malaria | MESH:D016780 | 6 | 6 |
+| [DB01611_MESH_D001172_1](db01611-mesh-d001172-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Rheumatoid arthritis | MESH:D001172 | 6 | 6 |
+| [DB00908_MESH_D008288_1](db00908-mesh-d008288-1.html) | quinidine | DB:DB00908 | MESH:D011802 | Malaria | MESH:D008288 | 5 | 4 |
+| [DB00908_MESH_D001281_1](db00908-mesh-d001281-1.html) | quinidine | DB:DB00908 | MESH:D011802 | Atrial fibrillation | MESH:D001281 | 5 | 4 |
+| [DB00974_MESH_D006934_1](db00974-mesh-d006934-1.html) | edetic acid | DB:DB00974 | MESH:D004492 | Hypercalcemia | MESH:D006934 | 4 | 3 |
+| [DB01242_MESH_D009771_1](db01242-mesh-d009771-1.html) | clomipramine | DB:DB01242 | MESH:D002997 | Obsessive-compulsive disorder | MESH:D009771 | 4 | 3 |
+| [DB06147_MESH_D014848_1](db06147-mesh-d014848-1.html) | sulfathiazole | DB:DB06147 | MESH:C005312 | Vulvovaginitis | MESH:D014848 | 5 | 4 |
+| [DB06403_MESH_D000081029_1](db06403-mesh-d000081029-1.html) | ambrisentan | DB:DB06403 | MESH:C467894 | Pulmonary arterial hypertension | MESH:D000081029 | 4 | 3 |
+| [DB06595_MESH_D034721_1](db06595-mesh-d034721-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Aggressive systemic mastocytosis | MESH:D034721 | 6 | 6 |
+| [DB06595_MESH_D015470_1](db06595-mesh-d015470-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Acute myeloid leukemia, disease | MESH:D015470 | 13 | 18 |
+| [DB06595_MESH_D007946_1](db06595-mesh-d007946-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Mast cell leukemia | MESH:D007946 | 13 | 18 |
+| [DB08980_MESH_D017202_1](db08980-mesh-d017202-1.html) | fendiline | DB:DB08980 | MESH:D005275 | Ischemic heart disease | MESH:D017202 | 7 | 6 |
+| [DB00356_MESH_D009128_1](db00356-mesh-d009128-1.html) | chlorzoxazone | DB:DB00356 | MESH:D002753 | Spasticity | MESH:D009128 | 10 | 13 |
+| [DB00830_MESH_D009765_1](db00830-mesh-d009765-1.html) | phenmetrazine | DB:DB00830 | MESH:D010633 | Obesity | MESH:D009765 | 8 | 8 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
