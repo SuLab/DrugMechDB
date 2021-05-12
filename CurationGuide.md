@@ -48,13 +48,26 @@ like Python, listed below. The following keys are required for a record (with mo
 Information about the indication for this record. Includes the drug and disease names and their identifiers.
 
 Example:
-
+-   directed: true
     graph:
-        disease: Keratitis
-        disease_mesh: MESH:D007634
-        drug: cortisone acetate
-        drug_mesh: MESH:D003348
-        drugbank: DB:DB01380
+        _id: DB01601_MESH_D015658_1
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: lopinavir
+        drug_mesh: MESH:D061466
+        drugbank: DB:DB01601
+        
+Example with comment, make sure to put a comment not comments:      
+
+-   comment: Exact MoA is unknown.
+    directed: true
+    graph:
+        _id: DB06708_MESH_D016778_1
+        disease: Falciparum malaria
+        disease_mesh: MESH:D016778
+        drug: lumefantrine
+        drug_mesh: MESH:C102070
+        drugbank: DB:DB06708
 
 #### Links
 
@@ -66,21 +79,21 @@ first link in the path with
 Example:
 
     links:
-    -   key: increases activity of
-        source: MESH:D003348
-        target: UniProt:P04150
     -   key: negatively regulates
-        source: UniProt:P04150
-        target: UniProt:P23219
-    -   key: increases abundance of
-        source: UniProt:P23219
-        target: MESH:D011453
-    -   key: located in
-        source: MESH:D011453
-        target: GO:0006954
+        source: MESH:C102070
+        target: UniProt:Q8IL04
+    -   key: positively correlated with
+        source: UniProt:Q8IL04
+        target: GO:0042167
+    -   key: decreases abundance of
+        source: GO:0042167
+        target: MESH:D006418
+    -   key: disrupts
+        source: MESH:D006418
+        target: NCBITaxon:5833
     -   key: causes
-        source: GO:0006954
-        target: MESH:D007634
+        source: NCBITaxon:5833
+        target: MESH:D016778
 
 
 #### Nodes
@@ -101,28 +114,28 @@ See the [Concept types](#concept-types) section for preferred identifier sources
 
 Alternate identifiers from non-preferred sources may be included as a list in an optional `alt_ids` field:
 
-    nodes:
-    -   id: MESH:D003348
-        label: Drug
-        name: cortisone acetate
-    -   id: UniProt:P04150
-        label: Protein
-        name: Glucocorticoid receptor
-    -   id: UniProt:P23219
-        label: Protein
-        name: COX genes
-    -   id: MESH:D011453
-        label: ChemicalSubstance
-        name: Prostaglandins
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammation
-        alt_ids:
-        - MESH:D007249
-        - KEGG:hsa04062
-    -   id: MESH:D007634
-        label: Disease
-        name: Keratitis
+nodes:
+-   id: MESH:D003348
+    label: Drug
+    name: cortisone acetate
+-   id: UniProt:P04150
+    label: Protein
+    name: Glucocorticoid receptor
+-   id: UniProt:P23219
+    label: Protein
+    name: COX genes
+-   id: MESH:D011453
+    label: ChemicalSubstance
+    name: Prostaglandins
+-   id: GO:0006954
+    label: BiologicalProcess
+    name: Inflammation
+    alt_ids:
+    - MESH:D007249
+    - KEGG:hsa04062
+-   id: MESH:D007634
+    label: Disease
+    name: Keratitis
 
 #### Reference
 
@@ -130,7 +143,10 @@ Each record is to be annotated with a `reference` key linking to the data source
 
 Example:
 
-    reference: https://go.drugbank.com/drugs/DB01380#mechanism-of-action
+    reference:
+    - https://go.drugbank.com/drugs/DB06708#mechanism-of-action
+    - https://www.uniprot.org/uniprot/Q8IL04#function
+    - https://en.wikipedia.org/wiki/Heme#In_health_and_disease
 
 #### Additional keys
 
