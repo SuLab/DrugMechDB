@@ -57,6 +57,16 @@ Example with comment, make sure to put a comment (singular) not comments:
               drug: cortisone acetate
               drug_mesh: MESH:D003348
               drugbank: DB:DB01380
+              
+Example without comment:
+
+      -   directed: true
+          graph:
+              disease: Keratitis
+              disease_mesh: MESH:D007634
+              drug: cortisone acetate
+              drug_mesh: MESH:D003348
+              drugbank: DB:DB01380
          
 
 #### Links
