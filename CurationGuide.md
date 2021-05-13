@@ -301,6 +301,7 @@ terms, If all of the relationships in a path are relationships of influence (+1 
 directions (e.g. the overall direction of influence of the path) should be negative. If the overall direction is positive, the path is
 essentially saying that the Drug is contraindicated for the disease.
 
+- **Each individual edge should stand on their own** 
 
 Again, these are not hard fast rules and there will always be exceptions. However, these are a good starting point in an attempt
 to produce the highest quality paths possible.
