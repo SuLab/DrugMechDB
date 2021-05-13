@@ -1,5 +1,6 @@
 - directed: true
   graph:
+    _id: DB00857_MESH_D014008_1
     disease: Tinea pedis
     disease_mesh: MESH:D014008
     drug: terbinafine
@@ -47,9 +48,12 @@
     - id: MESH:D014008
       label: Disease
       name: Tinea pedis
-  reference: https://go.drugbank.com/drugs/DB00857 https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
+  reference:
+    - https://go.drugbank.com/drugs/DB00857
+    - https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
 - directed: true
   graph:
+    _id: DB00857_MESH_D014010_1
     disease: Tinea Versicolor
     disease_mesh: MESH:D014010
     drug: terbinafine
@@ -97,9 +101,12 @@
     - id: MESH:D014010
       label: Disease
       name: Tinea Versicolor
-  reference: https://go.drugbank.com/drugs/DB00857 https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
+  reference:
+    - https://go.drugbank.com/drugs/DB00857
+    - https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
 - directed: true
   graph:
+    _id: DB00857_MESH_D014006_1
     disease: Tinea capitis
     disease_mesh: MESH:D014006
     drug: terbinafine
@@ -147,9 +154,12 @@
     - id: MESH:D014006
       label: Disease
       name: Tinea capitis
-  reference: https://go.drugbank.com/drugs/DB00857 https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
+  reference:
+    - https://go.drugbank.com/drugs/DB00857
+    - https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
 - directed: true
   graph:
+    _id: DB00857_MESH_D014009_1
     disease: Onychomycosis due to dermatophyte
     disease_mesh: MESH:D014009
     drug: terbinafine
@@ -197,9 +207,12 @@
     - id: MESH:D014009
       label: Disease
       name: Onychomycosis due to dermatophyte
-  reference: https://go.drugbank.com/drugs/DB00857 https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
+  reference:
+    - https://go.drugbank.com/drugs/DB00857
+    - https://en.wikipedia.org/wiki/Terbinafine#Pharmacodynamics
 - directed: true
   graph:
+    _id: DB00206_MESH_D011618_1
     disease: Psychotic disorder
     disease_mesh: MESH:D011618
     drug: reserpine
@@ -238,6 +251,7 @@
   reference: https://go.drugbank.com/drugs/DB00206
 - directed: true
   graph:
+    _id: DB00206_MESH_D006973_1
     disease: Hypertensive disorder
     disease_mesh: MESH:D006973
     drug: reserpine
@@ -282,6 +296,7 @@
   reference: https://go.drugbank.com/drugs/DB00206
 - directed: true
   graph:
+    _id: DB01611_MESH_D016778_1
     disease: Falciparum malaria
     disease_mesh: MESH:D016778
     drug: hydroxychloroquine
@@ -294,14 +309,11 @@
     - key: molecularly interacts with
       source: MESH:D006886
       target: CHEBI:36161
-    - key: positively correlated with
+    - key: disrupts
       source: MESH:D006418
-      target: GO:0001906
-    - key: positively correlated with
+      target: NCBITaxon:5833
+    - key: disrupts
       source: CHEBI:36161
-      target: GO:0001906
-    - key: in taxon
-      source: GO:0001906
       target: NCBITaxon:5833
     - key: causes
       source: NCBITaxon:5833
@@ -317,18 +329,18 @@
     - id: CHEBI:36161
       label: ChemicalSubstance
       name: hematin
-    - id: GO:0001906
-      label: BiologicalProcess
-      name: cell killing
     - id: NCBITaxon:5833
       label: OrganismTaxon
       name: Plasmodium falciparum
     - id: MESH:D016778
       label: Disease
       name: Falciparum malaria
-  reference: https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1535/
+  reference:
+    - https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1535/
 - directed: true
   graph:
+    _id: DB01611_MESH_D008180_1
     disease: Discoid lupus erythematosus
     disease_mesh: MESH:D008179
     drug: hydroxychloroquine
@@ -364,9 +376,12 @@
     - id: MESH:D008179
       label: Disease
       name: Discoid lupus erythematosus
-  reference: https://go.drugbank.com/drugs/DB01611 https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
+  reference:
+    - https://go.drugbank.com/drugs/DB01611
+    - https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
 - directed: true
   graph:
+    _id: DB01611_MESH_D008180_1
     disease: Systemic lupus erythematosus
     disease_mesh: MESH:D008180
     drug: hydroxychloroquine
@@ -402,9 +417,12 @@
     - id: MESH:D008180
       label: Disease
       name: Systemic lupus erythematosus
-  reference: https://go.drugbank.com/drugs/DB01611 https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
+  reference:
+    - https://go.drugbank.com/drugs/DB01611
+    - https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
 - directed: true
   graph:
+    _id: DB01611_MESH_D016780_1
     disease: Vivax malaria
     disease_mesh: MESH:D016780
     drug: hydroxychloroquine
@@ -417,14 +435,11 @@
     - key: molecularly interacts with
       source: MESH:D006886
       target: CHEBI:36161
-    - key: positively correlated with
-      source: MESH:D006418
-      target: GO:0001906
-    - key: positively correlated with
+    - key: disrupts
       source: CHEBI:36161
-      target: GO:0001906
-    - key: in taxon
-      source: GO:0001906
+      target: NCBITaxon:5855
+    - key: disrupts
+      source: MESH:D006418
       target: NCBITaxon:5855
     - key: causes
       source: NCBITaxon:5855
@@ -440,18 +455,18 @@
     - id: CHEBI:36161
       label: ChemicalSubstance
       name: hematin
-    - id: GO:0001906
-      label: BiologicalProcess
-      name: cell killing
     - id: NCBITaxon:5855
       label: OrganismTaxon
       name: Plasmodium vivax
     - id: MESH:D016780
       label: Disease
       name: Vivax malaria
-  reference: https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1535/
+  reference:
+    - https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1535/
 - directed: true
   graph:
+    _id: DB01611_MESH_D001172_1
     disease: Rheumatoid arthritis
     disease_mesh: MESH:D001172
     drug: hydroxychloroquine
@@ -496,9 +511,12 @@
     - id: MESH:D001172
       label: Disease
       name: Rheumatoid arthritis
-  reference: https://go.drugbank.com/drugs/DB01611 https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
+  reference:
+    - https://go.drugbank.com/drugs/DB01611
+    - https://en.wikipedia.org/wiki/Hydroxychloroquine#Mechanism_of_action
 - directed: true
   graph:
+    _id: DB00908_MESH_D008288_1
     disease: Malaria
     disease_mesh: MESH:D008288
     drug: quinidine
@@ -508,11 +526,8 @@
     - key: molecularly interacts with
       source: MESH:D011802
       target: MESH:D006418
-    - key: positively correlated with
+    - key: disrupts
       source: MESH:D006418
-      target: GO:0001906
-    - key: in taxon
-      source: GO:0001906
       target: NCBITaxon:5820
     - key: causes
       source: NCBITaxon:5820
@@ -528,9 +543,6 @@
     - id: MESH:D006418
       label: ChemicalSubstance
       name: Heme
-    - id: GO:0001906
-      label: BiologicalProcess
-      name: cell killing
     - id: NCBITaxon:5820
       label: OrganismTaxon
       name: Plasmodium sp.
@@ -540,6 +552,7 @@
   reference: https://pubchem.ncbi.nlm.nih.gov/compound/441074
 - directed: true
   graph:
+    _id: DB00908_MESH_D001281_1
     disease: Atrial fibrillation
     disease_mesh: MESH:D001281
     drug: quinidine
@@ -578,16 +591,20 @@
     - id: MESH:D001281
       label: Disease
       name: Atrial fibrillation
-  reference: https://pubchem.ncbi.nlm.nih.gov/compound/441074 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1294/ https://www.drugs.com/pro/quinidine-gluconate.html#s-34090-1
+  reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/441074
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1294/
+    - https://www.drugs.com/pro/quinidine-gluconate.html#s-34090-1
 - directed: true
   graph:
+    _id: DB00974_MESH_D006934_1
     disease: Hypercalcemia
     disease_mesh: MESH:D006934
     drug: edetic acid
     drug_mesh: MESH:D004492
     drugbank: DB:DB00974
   links:
-    - key: molecularly interacts with
+    - key: decreases abundance of
       source: MESH:D004492
       target: CHEBI:29108
     - key: located in
@@ -613,6 +630,7 @@
   reference: https://pubchem.ncbi.nlm.nih.gov/compound/6049#section=Mechanism-of-Action
 - directed: true
   graph:
+    _id: DB01242_MESH_D009771_1
     disease: Obsessive-compulsive disorder
     disease_mesh: MESH:D009771
     drug: clomipramine
@@ -642,9 +660,12 @@
     - id: MESH:D009771
       label: Disease
       name: Obsessive-compulsive disorder
-  reference: https://en.wikipedia.org/wiki/Clomipramine#Pharmacodynamics https://pubchem.ncbi.nlm.nih.gov/compound/2801#section=Mechanism-of-Action
+  reference:
+    - https://en.wikipedia.org/wiki/Clomipramine#Pharmacodynamics
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2801#section=Mechanism-of-Action
 - directed: true
   graph:
+    _id: DB06147_MESH_D014848_1
     disease: Vulvovaginitis
     disease_mesh: MESH:D014848
     drug: sulfathiazole
@@ -683,6 +704,7 @@
   reference: https://pubchem.ncbi.nlm.nih.gov/compound/5340#section=Mechanism-of-Action
 - directed: true
   graph:
+    _id: DB06403_MESH_D000081029_1
     disease: Pulmonary arterial hypertension
     disease_mesh: MESH:D000081029
     drug: ambrisentan
@@ -712,10 +734,13 @@
     - id: MESH:D000081029
       label: Disease
       name: Pulmonary arterial hypertension
-  reference: https://go.drugbank.com/drugs/DB06403 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1111/
-  comments: Ambrisentan is known to be teratogenic (https://en.wikipedia.org/wiki/Ambrisentan#Birth_defects).
+  reference:
+    - https://go.drugbank.com/drugs/DB06403
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1111/
+  comment: Ambrisentan is known to be teratogenic (https://en.wikipedia.org/wiki/Ambrisentan#Birth_defects).
 - directed: true
   graph:
+    _id: DB06595_MESH_D034721_1
     disease: Aggressive systemic mastocytosis
     disease_mesh: MESH:D034721
     drug: midostaurin
@@ -728,14 +753,11 @@
     - key: negatively correlated with
       source: MESH:C059539
       target: REACT:R-HSA-9607240
-    - key: regulates
-      source: REACT:R-HSA-9607240
-      target: GO:0033024
     - key: positively regulates
       source: UniProt:P10721
       target: GO:0070662
-    - key: negatively correlated with
-      source: GO:0033024
+    - key: positively correlated with
+      source: REACT:R-HSA-9607240
       target: MESH:D034721
     - key: positively correlated with
       source: GO:0070662
@@ -754,28 +776,20 @@
     - id: REACT:R-HSA-9607240
       label: Pathway
       name: FLT3 Signaling
-    - id: GO:0033024
-      label: BiologicalProcess
-      name: mast cell apoptotic process
     - id: MESH:D034721
       label: Disease
       name: Aggressive systemic mastocytosis
   reference: https://go.drugbank.com/drugs/DB06595#BE0000453
-  comments: https://en.wikipedia.org/wiki/Midostaurin#Systemic_mastocytosis
+  comment: https://en.wikipedia.org/wiki/Midostaurin#Systemic_mastocytosis
 - directed: true
   graph:
+    _id: DB06595_MESH_D015470_1
     disease: Acute myeloid leukemia, disease
     disease_mesh: MESH:D015470
     drug: midostaurin
     drug_mesh: MESH:C059539
     drugbank: DB:DB06595
   links:
-    - key: negatively correlated with
-      source: MESH:C059539
-      target: REACT:R-HSA-9607240
-    - key: regulates
-      source: REACT:R-HSA-9607240
-      target: GO:0033028
     - key: negatively regulates
       source: MESH:C059539
       target: UniProt:P36888
@@ -812,9 +826,6 @@
     - key: positively regulates
       source: UniProt:P36888
       target: GO:0035726
-    - key: negatively correlated with
-      source: GO:0033028
-      target: MESH:D015470
     - key: positively correlated with
       source: GO:0035726
       target: MESH:D015470
@@ -823,6 +834,12 @@
       target: MESH:D015470
     - key: positively correlated with
       source: GO:0001525
+      target: MESH:D015470
+    - key: negatively correlated with
+      source: MESH:C059539
+      target: REACT:R-HSA-9607240
+    - key: positively correlated with
+      source: REACT:R-HSA-9607240
       target: MESH:D015470
   multigraph: true
   nodes:
@@ -856,9 +873,6 @@
     - id: REACT:R-HSA-9607240
       label: Pathway
       name: FLT3 Signaling
-    - id: GO:0033028
-      label: BiologicalProcess
-      name: myeloid cell apoptotic process
     - id: GO:0035726
       label: BiologicalProcess
       name: common myeloid progenitor cell proliferation
@@ -868,6 +882,7 @@
   reference: https://go.drugbank.com/drugs/DB06595
 - directed: true
   graph:
+    _id: DB06595_MESH_D007946_1
     disease: Mast cell leukemia
     disease_mesh: MESH:D007946
     drug: midostaurin
@@ -877,9 +892,6 @@
     - key: negatively correlated with
       source: MESH:C059539
       target: REACT:R-HSA-9607240
-    - key: regulates
-      source: REACT:R-HSA-9607240
-      target: GO:0033024
     - key: negatively regulates
       source: MESH:C059539
       target: UniProt:P36888
@@ -925,8 +937,8 @@
     - key: positively correlated with
       source: GO:0001525
       target: MESH:D007946
-    - key: negatively correlated with
-      source: GO:0033024
+    - key: positively correlated with
+      source: REACT:R-HSA-9607240
       target: MESH:D007946
   multigraph: true
   nodes:
@@ -963,15 +975,13 @@
     - id: REACT:R-HSA-9607240
       label: Pathway
       name: FLT3 Signaling
-    - id: GO:0033024
-      label: BiologicalProcess
-      name: mast cell apoptotic process
     - id: MESH:D007946
       label: Disease
       name: Mast cell leukemia
   reference: https://go.drugbank.com/drugs/DB06595
 - directed: true
   graph:
+    _id: DB08980_MESH_D017202_1
     disease: Ischemic heart disease
     disease_mesh: MESH:D017202
     drug: fendiline
@@ -1020,9 +1030,10 @@
       label: Disease
       name: Ischemic heart disease
   reference: https://en.wikipedia.org/wiki/Fendiline
-  comments: Althouth InterPro and Pfam have entries to encompass different types of calcium channels, the chosen MESH term is the most generic term that encompasses ALL calcium channels, rather than individual domains, subunits or classes.
+  comment: Although InterPro and Pfam have entries to encompass different types of calcium channels, the chosen MESH term is the most generic term that encompasses ALL calcium channels, rather than individual domains, subunits or classes.
 - directed: true
   graph:
+    _id: DB00356_MESH_D009128_1
     disease: Spasticity
     disease_mesh: MESH:D009128
     drug: chlorzoxazone
@@ -1050,12 +1061,12 @@
     - key: negatively regulates
       source: MESH:D002753
       target: MESH:D015221
-    - key: negatively correlated with
+    - key: positively correlated with
       source: MESH:D015220
-      target: GO:0090075
-    - key: negatively correlated with
+      target: GO:0006936
+    - key: positively correlated with
       source: MESH:D015221
-      target: GO:0090075
+      target: GO:0006936
     - key: positively regulates
       source: MESH:D002753
       target: GO:0016917
@@ -1065,6 +1076,9 @@
     - key: positively correlated with
       source: GO:0061534
       target: GO:0090075
+    - key: positively correlated with
+      source: GO:0006936
+      target: MESH:D009128
     - key: negatively correlated with
       source: GO:0090075
       target: MESH:D009128
@@ -1088,6 +1102,9 @@
     - id: GO:0090075
       label: BiologicalProcess
       name: relaxation of muscle
+    - id: GO:0006936
+      label: BiologicalProcess
+      name: muscle contraction
     - id: HP:0031826
       label: PhenotypicFeature
       name: Abnormal reflex
@@ -1101,9 +1118,10 @@
       label: Disease
       name: Spasticity
   reference: https://en.wikipedia.org/wiki/Chlorzoxazone
-  comments: Althouth InterPro and Pfam have entries to encompass different types of calcium channels, the chosen MESH term is the most generic term that encompasses ALL calcium channels, rather than individual domains, subunits or classes.
+  comment: Althouth InterPro and Pfam have entries to encompass different types of calcium channels, the chosen MESH term is the most generic term that encompasses ALL calcium channels, rather than individual domains, subunits or classes.
 - directed: true
   graph:
+    _id: DB00830_MESH_D009765_1
     disease: Obesity
     disease_mesh: MESH:D009765
     drug: phenmetrazine
@@ -1160,5 +1178,7 @@
     - id: MESH:D009765
       label: Disease
       name: Obesity
-  reference: https://go.drugbank.com/drugs/DB00830 https://en.wikipedia.org/wiki/Phenmetrazine#Pharmacology
-  comments: Withdrawn
+  reference:
+    - https://go.drugbank.com/drugs/DB00830
+    - https://en.wikipedia.org/wiki/Phenmetrazine#Pharmacology
+  comment: Withdrawn
