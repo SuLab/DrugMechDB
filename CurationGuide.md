@@ -49,16 +49,14 @@ Information about the indication for this record. Includes the drug and disease 
 
 Example with comment, make sure to put a comment (singular) not comments: 
 
-      -   comment: both Tafamidis and tafamidis meglumine (FX-1006A, which is drugbank:DB05352)
-              are benzoxazole derivatives (https://go.drugbank.com/drugs/DB11644#description)
+      -   comment: It is the C21 acetate ester of cortisone, and acts as a prodrug of cortisone in the body.
           directed: true
           graph:
-              _id: DB05352_MESH_D000686_1
-              disease: Amyloidosis
-              disease_mesh: MESH:D000686
-              drug: tafamidis
-              drug_mesh: MESH:C547076
-              drugbank: DB:DB05352
+              disease: Keratitis
+              disease_mesh: MESH:D007634
+              drug: cortisone acetate
+              drug_mesh: MESH:D003348
+              drugbank: DB:DB01380
          
 
 #### Links
@@ -71,21 +69,21 @@ first link in the path with
 Example:
 
     links:
+    -   key: increases activity of
+        source: MESH:D003348
+        target: UniProt:P04150
     -   key: negatively regulates
-        source: MESH:C102070
-        target: UniProt:Q8IL04
-    -   key: positively correlated with
-        source: UniProt:Q8IL04
-        target: GO:0042167
-    -   key: decreases abundance of
-        source: GO:0042167
-        target: MESH:D006418
-    -   key: disrupts
-        source: MESH:D006418
-        target: NCBITaxon:5833
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: located in
+        source: MESH:D011453
+        target: GO:0006954
     -   key: causes
-        source: NCBITaxon:5833
-        target: MESH:D016778
+        source: GO:0006954
+        target: MESH:D007634
 
 #### Nodes
 
