@@ -47,7 +47,7 @@ like Python, listed below. The following keys are required for a record (with mo
 
 Information about the indication for this record. Includes the drug and disease names and their identifiers.
 
-Example with comment, make sure to put a comment (singular) not comments: 
+Example with a comment section, make sure to put a comment (singular) not comments: 
 
       -   comment: Cortisone acetate is a C21 acetate ester of cortisone, and acts as a prodrug of cortisone in the body.
           directed: true
@@ -58,7 +58,7 @@ Example with comment, make sure to put a comment (singular) not comments:
               drug_mesh: MESH:D003348
               drugbank: DB:DB01380
               
-Example without comment:
+Example with no comment:
 
       -   directed: true
           graph:
