@@ -47,14 +47,17 @@ like Python, listed below. The following keys are required for a record (with mo
 
 Information about the indication for this record. Includes the drug and disease names and their identifiers.
 
-Example:
+Example with comment, make sure to put a comment (singular) not comments: 
 
-    graph:
-        disease: Keratitis
-        disease_mesh: MESH:D007634
-        drug: cortisone acetate
-        drug_mesh: MESH:D003348
-        drugbank: DB:DB01380
+      -   comment: Cortisone acetate is a C21 acetate ester of cortisone, and acts as a prodrug of cortisone in the body.
+          directed: true
+          graph:
+              disease: Keratitis
+              disease_mesh: MESH:D007634
+              drug: cortisone acetate
+              drug_mesh: MESH:D003348
+              drugbank: DB:DB01380
+         
 
 #### Links
 
@@ -82,7 +85,6 @@ Example:
         source: GO:0006954
         target: MESH:D007634
 
-
 #### Nodes
 
 Nodes contain information on each of the concepts in the graph. Each node contains the fields `id`, `name`, and `label`
@@ -101,7 +103,7 @@ See the [Concept types](#concept-types) section for preferred identifier sources
 
 Alternate identifiers from non-preferred sources may be included as a list in an optional `alt_ids` field:
 
-    nodes:
+     nodes:
     -   id: MESH:D003348
         label: Drug
         name: cortisone acetate
@@ -122,7 +124,7 @@ Alternate identifiers from non-preferred sources may be included as a list in an
         - KEGG:hsa04062
     -   id: MESH:D007634
         label: Disease
-        name: Keratitis
+        name: Keratitis       
 
 #### Reference
 
@@ -130,7 +132,10 @@ Each record is to be annotated with a `reference` key linking to the data source
 
 Example:
 
-    reference: https://go.drugbank.com/drugs/DB01380#mechanism-of-action
+    reference:
+    - https://go.drugbank.com/drugs/DB06708#mechanism-of-action
+    - https://www.uniprot.org/uniprot/Q8IL04#function
+    - https://en.wikipedia.org/wiki/Heme#In_health_and_disease
 
 #### Additional keys
 
