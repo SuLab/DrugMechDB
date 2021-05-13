@@ -2300,6 +2300,25 @@ datatable: true
 | [DB08980_MESH_D017202_1](db08980-mesh-d017202-1.html) | fendiline | DB:DB08980 | MESH:D005275 | Ischemic heart disease | MESH:D017202 | 7 | 6 |
 | [DB00356_MESH_D009128_1](db00356-mesh-d009128-1.html) | chlorzoxazone | DB:DB00356 | MESH:D002753 | Spasticity | MESH:D009128 | 10 | 13 |
 | [DB00830_MESH_D009765_1](db00830-mesh-d009765-1.html) | phenmetrazine | DB:DB00830 | MESH:D010633 | Obesity | MESH:D009765 | 8 | 8 |
+| [DB00692_MESH_D016491_1](db00692-mesh-d016491-1.html) | phentolamine | DB:DB00692 | MESH:D010646 | Peripheral vascular disease | MESH:D016491 | 6 | 7 |
+| [DB01619_MESH_D014581_3](db01619-mesh-d014581-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB01619_MESH_D011537_3](db01619-mesh-d011537-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Pruritus | MESH:D011537 | 5 | 4 |
+| [DB01619_MESH_D012912_3](db01619-mesh-d012912-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Sneezing | MESH:D012912 | 5 | 4 |
+| [DB01619_MESH_D065631_3](db01619-mesh-d065631-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
+| [DB01619_MESH_D012223_3](db01619-mesh-d012223-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
+| [DB01619_MESH_D003233_3](db01619-mesh-d003233-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
+| [DB12086_MESH_D029424_3](db12086-mesh-d029424-3.html) | Oxitropium | DB:DB12086 | MESH:C017590 | Chronic obstructive lung disease | MESH:D029424 | 4 | 3 |
+| [DB00520_MESH_D058387_2](db00520-mesh-d058387-2.html) | Caspofungin | DB:DB00520 | None | Candidemia | MESH:D058387 | 6 | 5 |
+| [DB01066_MESH_D018410_2](db01066-mesh-d018410-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Bacterial pneumonia | MESH:D018410 | 7 | 6 |
+| [DB01066_MESH_D013203_2](db01066-mesh-d013203-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Staphylococcal infections | MESH:D013203 | 7 | 6 |
+| [DB01066_MESH_D013290_2](db01066-mesh-d013290-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Streptococcal infections | MESH:D013290 | 7 | 6 |
+| [DB01066_MESH_D011018_2](db01066-mesh-d011018-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Pneumococcal pneumonia | MESH:D011018 | 7 | 6 |
+| [DB00056_MESH_D015470_2](db00056-mesh-d015470-2.html) | Gemtuzumab ozogamicin | DB:DB00056 | None | Acute myeloid leukemia | MESH:D015470 | 6 | 5 |
+| [DB00687_MESH_D000312_1](db00687-mesh-d000312-1.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Congenital adrenal hyperplasia | MESH:D000312 | 11 | 14 |
+| [DB01185_MESH_D011628_2](db01185-mesh-d011628-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Delayed puberty | MESH:D011628 | 5 | 4 |
+| [DB01185_MESH_D007713_2](db01185-mesh-d007713-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Klinefelter Syndrome | MESH:D007713 | 5 | 4 |
+| [DB01185_MESH_D003456_2](db01185-mesh-d003456-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Cryptorchidism | MESH:D003456 | 6 | 5 |
+| [DB01185_MESH_D005058_2](db01185-mesh-d005058-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Eunuchism | MESH:D005058 | 5 | 4 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
