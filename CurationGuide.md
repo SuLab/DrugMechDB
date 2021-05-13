@@ -47,27 +47,19 @@ like Python, listed below. The following keys are required for a record (with mo
 
 Information about the indication for this record. Includes the drug and disease names and their identifiers.
 
-Example:
--   directed: true
-    graph:
-        _id: DB01601_MESH_D015658_1
-        disease: Human immunodeficiency virus infection
-        disease_mesh: MESH:D015658
-        drug: lopinavir
-        drug_mesh: MESH:D061466
-        drugbank: DB:DB01601
-        
-Example with comment, make sure to put a comment not comments:      
+Example with comment, make sure to put a comment (singular) not comments: 
 
--   comment: Exact MoA is unknown.
-    directed: true
-    graph:
-        _id: DB06708_MESH_D016778_1
-        disease: Falciparum malaria
-        disease_mesh: MESH:D016778
-        drug: lumefantrine
-        drug_mesh: MESH:C102070
-        drugbank: DB:DB06708
+      -   comment: both Tafamidis and tafamidis meglumine (FX-1006A, which is drugbank:DB05352)
+              are benzoxazole derivatives (https://go.drugbank.com/drugs/DB11644#description)
+          directed: true
+          graph:
+              _id: DB05352_MESH_D000686_1
+              disease: Amyloidosis
+              disease_mesh: MESH:D000686
+              drug: tafamidis
+              drug_mesh: MESH:C547076
+              drugbank: DB:DB05352
+         
 
 #### Links
 
@@ -95,7 +87,6 @@ Example:
         source: NCBITaxon:5833
         target: MESH:D016778
 
-
 #### Nodes
 
 Nodes contain information on each of the concepts in the graph. Each node contains the fields `id`, `name`, and `label`
@@ -114,28 +105,22 @@ See the [Concept types](#concept-types) section for preferred identifier sources
 
 Alternate identifiers from non-preferred sources may be included as a list in an optional `alt_ids` field:
 
-nodes:
--   id: MESH:D003348
-    label: Drug
-    name: cortisone acetate
--   id: UniProt:P04150
-    label: Protein
-    name: Glucocorticoid receptor
--   id: UniProt:P23219
-    label: Protein
-    name: COX genes
--   id: MESH:D011453
-    label: ChemicalSubstance
-    name: Prostaglandins
--   id: GO:0006954
-    label: BiologicalProcess
-    name: Inflammation
-    alt_ids:
-    - MESH:D007249
-    - KEGG:hsa04062
--   id: MESH:D007634
-    label: Disease
-    name: Keratitis
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068696
+        target: UniProt:Q72547
+    -   key: positively regulates
+        source: UniProt:Q72547
+        target: GO:0003964
+    -   key: precedes
+        source: GO:0003964
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:12721
+    -   key: causes
+        source: NCBITaxon:12721
+        target: MESH:D015658
 
 #### Reference
 
