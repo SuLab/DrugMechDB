@@ -49,7 +49,7 @@ Information about the indication for this record. Includes the drug and disease 
 
 Example with comment, make sure to put a comment (singular) not comments: 
 
-      -   comment: It is the C21 acetate ester of cortisone, and acts as a prodrug of cortisone in the body.
+      -   comment: Cortisone acetate is a C21 acetate ester of cortisone, and acts as a prodrug of cortisone in the body.
           directed: true
           graph:
               disease: Keratitis
