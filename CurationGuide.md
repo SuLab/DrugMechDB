@@ -105,22 +105,28 @@ See the [Concept types](#concept-types) section for preferred identifier sources
 
 Alternate identifiers from non-preferred sources may be included as a list in an optional `alt_ids` field:
 
-    links:
-    -   key: decreases activity of
-        source: MESH:D000068696
-        target: UniProt:Q72547
-    -   key: positively regulates
-        source: UniProt:Q72547
-        target: GO:0003964
-    -   key: precedes
-        source: GO:0003964
-        target: GO:0019079
-    -   key: in taxon
-        source: GO:0019079
-        target: NCBITaxon:12721
-    -   key: causes
-        source: NCBITaxon:12721
-        target: MESH:D015658
+     nodes:
+    -   id: MESH:D003348
+        label: Drug
+        name: cortisone acetate
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P23219
+        label: Protein
+        name: COX genes
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+        alt_ids:
+        - MESH:D007249
+        - KEGG:hsa04062
+    -   id: MESH:D007634
+        label: Disease
+        name: Keratitis       
 
 #### Reference
 
