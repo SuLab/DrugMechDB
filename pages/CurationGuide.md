@@ -53,10 +53,20 @@ like Python, listed below. The following keys are required for a record (with mo
 
 Information about the indication for this record. Includes the drug and disease names and their identifiers.
 
-Example with comment, make sure to put a comment (singular) not comments: 
+Example with a comment section, make sure to put a comment (singular) not comments: 
 
       -   comment: Cortisone acetate is a C21 acetate ester of cortisone, and acts as a prodrug of cortisone in the body.
           directed: true
+          graph:
+              disease: Keratitis
+              disease_mesh: MESH:D007634
+              drug: cortisone acetate
+              drug_mesh: MESH:D003348
+              drugbank: DB:DB01380
+              
+Example with no comment:
+
+      -   directed: true
           graph:
               disease: Keratitis
               disease_mesh: MESH:D007634
@@ -297,6 +307,7 @@ terms, If all of the relationships in a path are relationships of influence (+1 
 directions (e.g. the overall direction of influence of the path) should be negative. If the overall direction is positive, the path is
 essentially saying that the Drug is contraindicated for the disease.
 
+- **Each individual edge should stand on their own** 
 
 Again, these are not hard fast rules and there will always be exceptions. However, these are a good starting point in an attempt
 to produce the highest quality paths possible.
