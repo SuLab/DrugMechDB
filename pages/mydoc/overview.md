@@ -2283,22 +2283,22 @@ datatable: true
 | [DB00857_MESH_D014009_1](db00857-mesh-d014009-1.html) | terbinafine | DB:DB00857 | MESH:C041359 | Onychomycosis due to dermatophyte | MESH:D014009 | 7 | 6 |
 | [DB00206_MESH_D011618_1](db00206-mesh-d011618-1.html) | reserpine | DB:DB00206 | MESH:D012110 | Psychotic disorder | MESH:D011618 | 5 | 4 |
 | [DB00206_MESH_D006973_1](db00206-mesh-d006973-1.html) | reserpine | DB:DB00206 | MESH:D012110 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
-| [DB01611_MESH_D016778_1](db01611-mesh-d016778-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Falciparum malaria | MESH:D016778 | 6 | 6 |
+| [DB01611_MESH_D016778_1](db01611-mesh-d016778-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Falciparum malaria | MESH:D016778 | 5 | 5 |
 | [DB01611_MESH_D008179_1](db01611-mesh-d008179-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Discoid lupus erythematosus | MESH:D008179 | 5 | 4 |
 | [DB01611_MESH_D008180_1](db01611-mesh-d008180-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Systemic lupus erythematosus | MESH:D008180 | 5 | 4 |
-| [DB01611_MESH_D016780_1](db01611-mesh-d016780-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Vivax malaria | MESH:D016780 | 6 | 6 |
+| [DB01611_MESH_D016780_1](db01611-mesh-d016780-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Vivax malaria | MESH:D016780 | 5 | 5 |
 | [DB01611_MESH_D001172_1](db01611-mesh-d001172-1.html) | hydroxychloroquine | DB:DB01611 | MESH:D006886 | Rheumatoid arthritis | MESH:D001172 | 6 | 6 |
-| [DB00908_MESH_D008288_1](db00908-mesh-d008288-1.html) | quinidine | DB:DB00908 | MESH:D011802 | Malaria | MESH:D008288 | 5 | 4 |
+| [DB00908_MESH_D008288_1](db00908-mesh-d008288-1.html) | quinidine | DB:DB00908 | MESH:D011802 | Malaria | MESH:D008288 | 4 | 3 |
 | [DB00908_MESH_D001281_1](db00908-mesh-d001281-1.html) | quinidine | DB:DB00908 | MESH:D011802 | Atrial fibrillation | MESH:D001281 | 5 | 4 |
 | [DB00974_MESH_D006934_1](db00974-mesh-d006934-1.html) | edetic acid | DB:DB00974 | MESH:D004492 | Hypercalcemia | MESH:D006934 | 4 | 3 |
 | [DB01242_MESH_D009771_1](db01242-mesh-d009771-1.html) | clomipramine | DB:DB01242 | MESH:D002997 | Obsessive-compulsive disorder | MESH:D009771 | 4 | 3 |
 | [DB06147_MESH_D014848_1](db06147-mesh-d014848-1.html) | sulfathiazole | DB:DB06147 | MESH:C005312 | Vulvovaginitis | MESH:D014848 | 5 | 4 |
 | [DB06403_MESH_D000081029_1](db06403-mesh-d000081029-1.html) | ambrisentan | DB:DB06403 | MESH:C467894 | Pulmonary arterial hypertension | MESH:D000081029 | 4 | 3 |
-| [DB06595_MESH_D034721_1](db06595-mesh-d034721-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Aggressive systemic mastocytosis | MESH:D034721 | 6 | 6 |
-| [DB06595_MESH_D015470_1](db06595-mesh-d015470-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Acute myeloid leukemia, disease | MESH:D015470 | 13 | 18 |
-| [DB06595_MESH_D007946_1](db06595-mesh-d007946-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Mast cell leukemia | MESH:D007946 | 13 | 18 |
+| [DB06595_MESH_D034721_1](db06595-mesh-d034721-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Aggressive systemic mastocytosis | MESH:D034721 | 5 | 5 |
+| [DB06595_MESH_D015470_1](db06595-mesh-d015470-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Acute myeloid leukemia, disease | MESH:D015470 | 12 | 17 |
+| [DB06595_MESH_D007946_1](db06595-mesh-d007946-1.html) | midostaurin | DB:DB06595 | MESH:C059539 | Mast cell leukemia | MESH:D007946 | 12 | 17 |
 | [DB08980_MESH_D017202_1](db08980-mesh-d017202-1.html) | fendiline | DB:DB08980 | MESH:D005275 | Ischemic heart disease | MESH:D017202 | 7 | 6 |
-| [DB00356_MESH_D009128_1](db00356-mesh-d009128-1.html) | chlorzoxazone | DB:DB00356 | MESH:D002753 | Spasticity | MESH:D009128 | 10 | 13 |
+| [DB00356_MESH_D009128_1](db00356-mesh-d009128-1.html) | chlorzoxazone | DB:DB00356 | MESH:D002753 | Spasticity | MESH:D009128 | 11 | 14 |
 | [DB00830_MESH_D009765_1](db00830-mesh-d009765-1.html) | phenmetrazine | DB:DB00830 | MESH:D010633 | Obesity | MESH:D009765 | 8 | 8 |
 | [DB00692_MESH_D016491_1](db00692-mesh-d016491-1.html) | phentolamine | DB:DB00692 | MESH:D010646 | Peripheral vascular disease | MESH:D016491 | 6 | 7 |
 | [DB01619_MESH_D014581_3](db01619-mesh-d014581-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
@@ -2319,6 +2319,25 @@ datatable: true
 | [DB01185_MESH_D007713_2](db01185-mesh-d007713-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Klinefelter Syndrome | MESH:D007713 | 5 | 4 |
 | [DB01185_MESH_D003456_2](db01185-mesh-d003456-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Cryptorchidism | MESH:D003456 | 6 | 5 |
 | [DB01185_MESH_D005058_2](db01185-mesh-d005058-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Eunuchism | MESH:D005058 | 5 | 4 |
+| [DB00692_MESH_D010673_1](db00692-mesh-d010673-1.html) | phentolamine | DB:DB00692 | MESH:D010646 | Pheochromocytoma | MESH:D010673 | 7 | 8 |
+| [DB00730_MESH_D013322_1](db00730-mesh-d013322-1.html) | thiabendazole | DB:DB00730 | MESH:D013827 | Infection by Strongyloides | MESH:D013322 | 5 | 4 |
+| [DB00730_MESH_D007815_1](db00730-mesh-d007815-1.html) | thiabendazole | DB:DB00730 | MESH:D013827 | Cutaneous larva migrans | MESH:D007815 | 5 | 4 |
+| [DB00730_MESH_D014257_1](db00730-mesh-d014257-1.html) | Thiabendazole | DB:DB00730 | MESH:D013827 | Trichuriasis | MESH:D014257 | 5 | 4 |
+| [DB00730_MESH_D001196_1](db00730-mesh-d001196-1.html) | Thiabendazole | DB:DB00730 | MESH:D013827 | Ascariasis | MESH:D001196 | 5 | 4 |
+| [DB00730_MESH_D014120_1](db00730-mesh-d014120-1.html) | Thiabendazole | DB:DB00730 | MESH:D013827 | Infection due to Toxocara | MESH:D014120 | 5 | 4 |
+| [DB00730_MESH_D014235_1](db00730-mesh-d014235-1.html) | Thiabendazole | DB:DB00730 | MESH:D013827 | Infection by larvae of Trichinella spiralis | MESH:D014235 | 5 | 4 |
+| [DB00730_MESH_D017229_1](db00730-mesh-d017229-1.html) | Thiabendazole | DB:DB00730 | MESH:D013827 | Enterobiasis | MESH:D017229 | 5 | 4 |
+| [DB00795_MESH_D001172_1](db00795-mesh-d001172-1.html) | sulfasalazine | DB:DB00795 | MESH:D012460 | Rheumatoid arthritis | MESH:D001172 | 11 | 13 |
+| [DB00795_MESH_D003093_2](db00795-mesh-d003093-2.html) | sulfasalazine | DB:DB00795 | MESH:D012460 | Ulcerative colitis | MESH:D003093 | 11 | 13 |
+| [DB00795_MESH_D001171_1](db00795-mesh-d001171-1.html) | sulfasalazine | DB:DB00795 | MESH:D012460 | Juvenile rheumatoid arthritis | MESH:D001171 | 11 | 13 |
+| [DB01155_MESH_D011018_1](db01155-mesh-d011018-1.html) | gemifloxacin | DB:DB01155 | MESH:C103274 | Pneumococcal pneumonia | MESH:D011018 | 6 | 6 |
+| [DB01155_MESH_D018410_2](db01155-mesh-d018410-2.html) | gemifloxacin | DB:DB01155 | MESH:C103274 | Bacterial pneumonia | MESH:D018410 | 6 | 6 |
+| [DB01155_MESH_D011019_1](db01155-mesh-d011019-1.html) | gemifloxacin | DB:DB01155 | MESH:C103274 | Pneumonia due to Mycoplasma pneumoniae | MESH:D011019 | 6 | 6 |
+| [DB01155_MESH_D007710_1](db01155-mesh-d007710-1.html) | gemifloxacin | DB:DB01155 | MESH:C103274 | Pneumonia due to Klebsiella pneumoniae | MESH:D007710 | 6 | 6 |
+| [DB01155_MESH_D061387_1](db01155-mesh-d061387-1.html) | gemifloxacin | DB:DB01155 | MESH:C103274 | Chlamydial pneumonia | MESH:D061387 | 6 | 6 |
+| [DB06777_MESH_D002769_1](db06777-mesh-d002769-1.html) | chenodiol | DB:DB06777 | MESH:D002635 | Calculus in biliary tract | MESH:D002769 | 5 | 5 |
+| [DB08864_MESH_D015658_1](db08864-mesh-d015658-1.html) | rilpivirine | DB:DB08864 | MESH:D000068696 | Human immunodeficiency virus infection | MESH:D015658 | 6 | 5 |
+| [DB12230_MESH_D000075222_1](db12230-mesh-d000075222-1.html) | Bunazosin | DB:DB12230 | MESH:C018176 | Essential hypertension | MESH:D000075222 | 5 | 5 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
