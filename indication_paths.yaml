@@ -120549,7 +120549,7 @@
     reference:
     - https://go.drugbank.com/drugs/DB00830
     - https://en.wikipedia.org/wiki/Phenmetrazine#Pharmacology
--   comment: Phentolamine primary action is vasodilation due to alfa-1 blockade.
+-   comment: "Phentolamine primary action is vasodilation due to \u03B11 blockade."
     directed: true
     graph:
         _id: DB00692_MESH_D016491_1
@@ -120577,8 +120577,11 @@
     -   key: positively regulates
         source: UniProt:P25100
         target: GO:0042310
-    -   key: positively correlated with
+    -   key: affects risk for
         source: GO:0042310
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
         target: MESH:D016491
     multigraph: true
     nodes:
@@ -120597,6 +120600,9 @@
     -   id: GO:0042310
         label: BiologicalProcess
         name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
     -   id: MESH:D016491
         label: Disease
         name: Peripheral vascular disease
