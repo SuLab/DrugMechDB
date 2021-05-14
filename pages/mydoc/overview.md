@@ -2248,7 +2248,7 @@ datatable: true
 | [DB00951_MESH_D014397_1](db00951-mesh-d014397-1.html) | isoniazid | DB:DB00951 | MESH:D007538 | Pulmonary tuberculosis | MESH:D014397 | 7 | 6 |
 | [DB08908_MESH_D011565_1](db08908-mesh-d011565-1.html) | Dimethyl fumarate | DB:DB08908 | MESH:D000069462 | Psoriasis | MESH:D011565 | 9 | 10 |
 | [DB04786_MESH_D014353_1](db04786-mesh-d014353-1.html) | suramin | DB:DB04786 | MESH:D013498 | African trypanosomiasis | MESH:D014353 | 5 | 4 |
-| [DB05259_MESH_D009103_1](db05259-mesh-d009103-1.html) | glatiramer acetate | DB:DB05259 | MESH:D000068717 | Multiple sclerosis | MESH:D009103 | 8 | 9 |
+| [DB05259_MESH_D009103_1](db05259-mesh-d009103-1.html) | glatiramer acetate | DB:DB05259 | MESH:D000068717 | Multiple sclerosis | MESH:D009103 | 7 | 8 |
 | [DB09020_MESH_D003248_1](db09020-mesh-d003248-1.html) | bisacodyl | DB:DB09020 | MESH:D001726 | Constipation | MESH:D003248 | 9 | 10 |
 | [DB09241_MESH_D008708_1](db09241-mesh-d008708-1.html) | methylthioninium chloride | DB:DB09241 | MESH:D008751 | Methemoglobinemia | MESH:D008708 | 4 | 3 |
 | [DB09242_MESH_D000075222_1](db09242-mesh-d000075222-1.html) | moxonidine | DB:DB09242 | MESH:C043482 | Essential hypertension | MESH:D000075222 | 9 | 9 |
