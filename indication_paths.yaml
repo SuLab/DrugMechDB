@@ -121478,3 +121478,1011 @@
     - https://go.drugbank.com/drugs/DB01185
     - https://en.wikipedia.org/wiki/Fluoxymesterone
     - https://en.wikipedia.org/wiki/Androgen
+-   comment: "Phentolamine primary action is vasodilation due to \u03B11 blockade."
+    directed: true
+    graph:
+        _id: DB00692_MESH_D010673_1
+        disease: Pheochromocytoma
+        disease_mesh: MESH:D010673
+        drug: phentolamine
+        drug_mesh: MESH:D010646
+        drugbank: DB:DB00692
+    links:
+    -   key: decreases activity of
+        source: MESH:D010646
+        target: UniProt:P35368
+    -   key: decreases activity of
+        source: MESH:D010646
+        target: UniProt:P35348
+    -   key: decreases activity of
+        source: MESH:D010646
+        target: UniProt:P25100
+    -   key: positively regulates
+        source: UniProt:P35368
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P35348
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P25100
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: HP:0000822
+    -   key: manifestation of
+        source: HP:0000822
+        target: MESH:D010673
+    multigraph: true
+    nodes:
+    -   id: MESH:D010646
+        label: Drug
+        name: Phentolamine
+    -   id: UniProt:P35368
+        label: Protein
+        name: Alpha-1B adrenergic receptor
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha-1A adrenergic receptor
+    -   id: UniProt:P25100
+        label: Protein
+        name: Alpha-1D adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D010673
+        label: Disease
+        name: Pheochromocytoma
+    reference:
+    - https://en.wikipedia.org/wiki/Phentolamine
+    - https://go.drugbank.com/drugs/DB00692#BE0000501
+    - https://en.wikipedia.org/wiki/Pheochromocytoma
+-   comment: The precise mode of action of thiabendazole on the parasite is unknown,
+        but it most likely inhibits the helminth-specific enzyme fumarate reductase.
+    directed: true
+    graph:
+        _id: DB00730_MESH_D013322_1
+        disease: Infection by Strongyloides
+        disease_mesh: MESH:D013322
+        drug: thiabendazole
+        drug_mesh: MESH:D013827
+        drugbank: DB:DB00730
+    links:
+    -   key: decreases activity of
+        source: MESH:D013827
+        target: InterPro:IPR005884
+    -   key: positively regulates
+        source: InterPro:IPR005884
+        target: GO:0009061
+    -   key: in taxon
+        source: GO:0009061
+        target: NCBITaxon:6247
+    -   key: causes
+        source: NCBITaxon:6247
+        target: MESH:D013322
+    multigraph: true
+    nodes:
+    -   id: MESH:D013827
+        label: Drug
+        name: Thiabendazole
+    -   id: GO:0009061
+        label: BiologicalProcess
+        name: Anaerobic respiration
+    -   id: InterPro:IPR005884
+        label: GeneFamily
+        name: Fumarate reductase, flavoprotein subunit
+    -   id: NCBITaxon:6247
+        label: OrganismTaxon
+        name: Strongyloides
+    -   id: MESH:D013322
+        label: Disease
+        name: Infection by Strongyloides
+    reference:
+    - https://go.drugbank.com/drugs/DB00730#BE0000548
+    - https://en.wikipedia.org/wiki/Tiabendazole
+    - https://en.wikipedia.org/wiki/Fumarate_reductase
+-   comment: The precise mode of action of thiabendazole on the parasite is unknown,
+        but it most likely inhibits the helminth-specific enzyme fumarate reductase.
+    directed: true
+    graph:
+        _id: DB00730_MESH_D007815_1
+        disease: Cutaneous larva migrans
+        disease_mesh: MESH:D007815
+        drug: thiabendazole
+        drug_mesh: MESH:D013827
+        drugbank: DB:DB00730
+    links:
+    -   key: decreases activity of
+        source: MESH:D013827
+        target: InterPro:IPR005884
+    -   key: positively regulates
+        source: InterPro:IPR005884
+        target: GO:0009061
+    -   key: in taxon
+        source: GO:0009061
+        target: NCBITaxon:33278
+    -   key: causes
+        source: NCBITaxon:33278
+        target: MESH:D007815
+    multigraph: true
+    nodes:
+    -   id: MESH:D013827
+        label: Drug
+        name: Thiabendazole
+    -   id: GO:0009061
+        label: BiologicalProcess
+        name: Anaerobic respiration
+    -   id: InterPro:IPR005884
+        label: GeneFamily
+        name: Fumarate reductase, flavoprotein subunit
+    -   id: NCBITaxon:33278
+        label: OrganismTaxon
+        name: Ancylostomatidae
+    -   id: MESH:D007815
+        label: Disease
+        name: Cutaneous larva migrans
+    reference:
+    - https://go.drugbank.com/drugs/DB00730#BE0000548
+    - https://en.wikipedia.org/wiki/Tiabendazole
+    - https://en.wikipedia.org/wiki/Fumarate_reductase
+-   comment: The precise mode of action of thiabendazole on the parasite is unknown,
+        but it most likely inhibits the helminth-specific enzyme fumarate reductase.
+    directed: true
+    graph:
+        _id: DB00730_MESH_D014257_1
+        disease: Trichuriasis
+        disease_mesh: MESH:D014257
+        drug: Thiabendazole
+        drug_mesh: MESH:D013827
+        drugbank: DB:DB00730
+    links:
+    -   key: decreases activity of
+        source: MESH:D013827
+        target: InterPro:IPR005884
+    -   key: positively regulates
+        source: InterPro:IPR005884
+        target: GO:0009061
+    -   key: in taxon
+        source: GO:0009061
+        target: NCBITaxon:36087
+    -   key: causes
+        source: NCBITaxon:36087
+        target: MESH:D014257
+    multigraph: true
+    nodes:
+    -   id: MESH:D013827
+        label: Drug
+        name: Thiabendazole
+    -   id: GO:0009061
+        label: BiologicalProcess
+        name: Anaerobic respiration
+    -   id: InterPro:IPR005884
+        label: GeneFamily
+        name: Fumarate reductase, flavoprotein subunit
+    -   id: NCBITaxon:36087
+        label: OrganismTaxon
+        name: Trichuris trichiura
+    -   id: MESH:D014257
+        label: Disease
+        name: Trichuriasis
+    reference:
+    - https://go.drugbank.com/drugs/DB00730#BE0000548
+    - https://en.wikipedia.org/wiki/Tiabendazole
+    - https://en.wikipedia.org/wiki/Fumarate_reductase
+-   comment: The precise mode of action of thiabendazole on the parasite is unknown,
+        but it most likely inhibits the helminth-specific enzyme fumarate reductase.
+    directed: true
+    graph:
+        _id: DB00730_MESH_D001196_1
+        disease: Ascariasis
+        disease_mesh: MESH:D001196
+        drug: Thiabendazole
+        drug_mesh: MESH:D013827
+        drugbank: DB:DB00730
+    links:
+    -   key: decreases activity of
+        source: MESH:D013827
+        target: InterPro:IPR005884
+    -   key: positively regulates
+        source: InterPro:IPR005884
+        target: GO:0009061
+    -   key: in taxon
+        source: GO:0009061
+        target: NCBITaxon:6252
+    -   key: causes
+        source: NCBITaxon:6252
+        target: MESH:D001196
+    multigraph: true
+    nodes:
+    -   id: MESH:D013827
+        label: Drug
+        name: Thiabendazole
+    -   id: GO:0009061
+        label: BiologicalProcess
+        name: Anaerobic respiration
+    -   id: InterPro:IPR005884
+        label: GeneFamily
+        name: Fumarate reductase, flavoprotein subunit
+    -   id: NCBITaxon:6252
+        label: OrganismTaxon
+        name: Ascaris lumbricoides
+    -   id: MESH:D001196
+        label: Disease
+        name: Ascariasis
+    reference:
+    - https://go.drugbank.com/drugs/DB00730#BE0000548
+    - https://en.wikipedia.org/wiki/Tiabendazole
+    - https://en.wikipedia.org/wiki/Fumarate_reductase
+    - https://en.wikipedia.org/wiki/Ascariasis
+-   comment: The precise mode of action of thiabendazole on the parasite is unknown,
+        but it most likely inhibits the helminth-specific enzyme fumarate reductase.
+    directed: true
+    graph:
+        _id: DB00730_MESH_D014120_1
+        disease: Infection due to Toxocara
+        disease_mesh: MESH:D014120
+        drug: Thiabendazole
+        drug_mesh: MESH:D013827
+        drugbank: DB:DB00730
+    links:
+    -   key: decreases activity of
+        source: MESH:D013827
+        target: InterPro:IPR005884
+    -   key: positively regulates
+        source: InterPro:IPR005884
+        target: GO:0009061
+    -   key: in taxon
+        source: GO:0009061
+        target: NCBITaxon:6265
+    -   key: causes
+        source: NCBITaxon:6265
+        target: MESH:D014120
+    multigraph: true
+    nodes:
+    -   id: MESH:D013827
+        label: Drug
+        name: Thiabendazole
+    -   id: GO:0009061
+        label: BiologicalProcess
+        name: Anaerobic respiration
+    -   id: InterPro:IPR005884
+        label: GeneFamily
+        name: Fumarate reductase, flavoprotein subunit
+    -   id: NCBITaxon:6265
+        label: OrganismTaxon
+        name: Toxocara canis
+    -   id: MESH:D014120
+        label: Disease
+        name: Infection due to Toxocara
+    reference:
+    - https://go.drugbank.com/drugs/DB00730#BE0000548
+    - https://en.wikipedia.org/wiki/Tiabendazole
+    - https://en.wikipedia.org/wiki/Fumarate_reductase
+-   comment: The precise mode of action of thiabendazole on the parasite is unknown,
+        but it most likely inhibits the helminth-specific enzyme fumarate reductase.
+    directed: true
+    graph:
+        _id: DB00730_MESH_D014235_1
+        disease: Infection by larvae of Trichinella spiralis
+        disease_mesh: MESH:D014235
+        drug: Thiabendazole
+        drug_mesh: MESH:D013827
+        drugbank: DB:DB00730
+    links:
+    -   key: decreases activity of
+        source: MESH:D013827
+        target: InterPro:IPR005884
+    -   key: positively regulates
+        source: InterPro:IPR005884
+        target: GO:0009061
+    -   key: in taxon
+        source: GO:0009061
+        target: NCBITaxon:6334
+    -   key: causes
+        source: NCBITaxon:6334
+        target: MESH:D014235
+    multigraph: true
+    nodes:
+    -   id: MESH:D013827
+        label: Drug
+        name: Thiabendazole
+    -   id: GO:0009061
+        label: BiologicalProcess
+        name: Anaerobic respiration
+    -   id: InterPro:IPR005884
+        label: GeneFamily
+        name: Fumarate reductase, flavoprotein subunit
+    -   id: NCBITaxon:6334
+        label: OrganismTaxon
+        name: Trichinella spiralis
+    -   id: MESH:D014235
+        label: Disease
+        name: Infection by larvae of Trichinella spiralis
+    reference:
+    - https://go.drugbank.com/drugs/DB00730#BE0000548
+    - https://en.wikipedia.org/wiki/Tiabendazole
+    - https://en.wikipedia.org/wiki/Fumarate_reductase
+-   comment: The precise mode of action of thiabendazole on the parasite is unknown,
+        but it most likely inhibits the helminth-specific enzyme fumarate reductase.
+    directed: true
+    graph:
+        _id: DB00730_MESH_D017229_1
+        disease: Enterobiasis
+        disease_mesh: MESH:D017229
+        drug: Thiabendazole
+        drug_mesh: MESH:D013827
+        drugbank: DB:DB00730
+    links:
+    -   key: decreases activity of
+        source: MESH:D013827
+        target: InterPro:IPR005884
+    -   key: positively regulates
+        source: InterPro:IPR005884
+        target: GO:0009061
+    -   key: in taxon
+        source: GO:0009061
+        target: NCBITaxon:51028
+    -   key: causes
+        source: NCBITaxon:51028
+        target: MESH:D017229
+    multigraph: true
+    nodes:
+    -   id: MESH:D013827
+        label: Drug
+        name: Thiabendazole
+    -   id: GO:0009061
+        label: BiologicalProcess
+        name: Anaerobic respiration
+    -   id: InterPro:IPR005884
+        label: GeneFamily
+        name: Fumarate reductase, flavoprotein subunit
+    -   id: NCBITaxon:51028
+        label: OrganismTaxon
+        name: Enterobius vermicularis
+    -   id: MESH:D017229
+        label: Disease
+        name: Enterobiasis
+    reference:
+    - https://go.drugbank.com/drugs/DB00730#BE0000548
+    - https://en.wikipedia.org/wiki/Tiabendazole
+    - https://en.wikipedia.org/wiki/Fumarate_reductase
+-   directed: true
+    graph:
+        _id: DB00795_MESH_D001172_1
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: sulfasalazine
+        drug_mesh: MESH:D012460
+        drugbank: DB:DB00795
+    links:
+    -   key: has metabolite
+        source: MESH:D012460
+        target: MESH:D019804
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P09917
+    -   key: increases activity of
+        source: MESH:D019804
+        target: UniProt:P37231
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P09917
+        target: MESH:D015289
+    -   key: negatively regulates
+        source: UniProt:P37231
+        target: GO:0038061
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0038061
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D012460
+        label: Drug
+        name: Sulfasalazine
+    -   id: MESH:D019804
+        label: Drug
+        name: Mesalamine
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P09917
+        label: Protein
+        name: Polyunsaturated fatty acid 5-lipoxygenase
+    -   id: UniProt:P37231
+        label: Protein
+        name: Peroxisome proliferator-activated receptor gamma
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0038061
+        label: BiologicalProcess
+        name: NIK/NF-kappaB signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB00795#BE0000248
+-   directed: true
+    graph:
+        _id: DB00795_MESH_D003093_2
+        disease: Ulcerative colitis
+        disease_mesh: MESH:D003093
+        drug: sulfasalazine
+        drug_mesh: MESH:D012460
+        drugbank: DB:DB00795
+    links:
+    -   key: has metabolite
+        source: MESH:D012460
+        target: MESH:D019804
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P09917
+    -   key: increases activity of
+        source: MESH:D019804
+        target: UniProt:P37231
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P09917
+        target: MESH:D015289
+    -   key: negatively regulates
+        source: UniProt:P37231
+        target: GO:0038061
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0038061
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D003093
+    multigraph: true
+    nodes:
+    -   id: MESH:D012460
+        label: Drug
+        name: Sulfasalazine
+    -   id: MESH:D019804
+        label: Drug
+        name: Mesalamine
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P09917
+        label: Protein
+        name: Polyunsaturated fatty acid 5-lipoxygenase
+    -   id: UniProt:P37231
+        label: Protein
+        name: Peroxisome proliferator-activated receptor gamma
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0038061
+        label: BiologicalProcess
+        name: NIK/NF-kappaB signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D003093
+        label: Disease
+        name: Ulcerative colitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00795#BE0000248
+-   directed: true
+    graph:
+        _id: DB00795_MESH_D001171_1
+        disease: Juvenile rheumatoid arthritis
+        disease_mesh: MESH:D001171
+        drug: sulfasalazine
+        drug_mesh: MESH:D012460
+        drugbank: DB:DB00795
+    links:
+    -   key: has metabolite
+        source: MESH:D012460
+        target: MESH:D019804
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P09917
+    -   key: increases activity of
+        source: MESH:D019804
+        target: UniProt:P37231
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P09917
+        target: MESH:D015289
+    -   key: negatively regulates
+        source: UniProt:P37231
+        target: GO:0038061
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively regulates
+        source: GO:0038061
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001171
+    multigraph: true
+    nodes:
+    -   id: MESH:D012460
+        label: Drug
+        name: Sulfasalazine
+    -   id: MESH:D019804
+        label: Drug
+        name: Mesalamine
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P09917
+        label: Protein
+        name: Polyunsaturated fatty acid 5-lipoxygenase
+    -   id: UniProt:P37231
+        label: Protein
+        name: Peroxisome proliferator-activated receptor gamma
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0038061
+        label: BiologicalProcess
+        name: NIK/NF-kappaB signaling
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001171
+        label: Disease
+        name: Juvenile rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB00795#BE0000248
+-   directed: true
+    graph:
+        _id: DB01155_MESH_D011018_1
+        disease: Pneumococcal pneumonia
+        disease_mesh: MESH:D011018
+        drug: gemifloxacin
+        drug_mesh: MESH:C103274
+        drugbank: DB:DB01155
+    links:
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:P72525
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:Q8DPM2
+    -   key: participates in
+        source: UniProt:P72525
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q8DPM2
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C103274
+        label: Drug
+        name: Gemifloxacin
+    -   id: UniProt:P72525
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Streptococcus pneumoniae)
+    -   id: UniProt:Q8DPM2
+        label: Protein
+        name: DNA gyrase subunit A (Streptococcus pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: Bacterial-type DNA replication
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumococcal pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB01155
+-   directed: true
+    graph:
+        _id: DB01155_MESH_D018410_2
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: gemifloxacin
+        drug_mesh: MESH:C103274
+        drugbank: DB:DB01155
+    links:
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:P72525
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:Q8DPM2
+    -   key: participates in
+        source: UniProt:P72525
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q8DPM2
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:C103274
+        label: Drug
+        name: Gemifloxacin
+    -   id: UniProt:P72525
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Streptococcus pneumoniae)
+    -   id: UniProt:Q8DPM2
+        label: Protein
+        name: DNA gyrase subunit A (Streptococcus pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: Bacterial-type DNA replication
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB01155
+-   directed: true
+    graph:
+        _id: DB01155_MESH_D011019_1
+        disease: Pneumonia due to Mycoplasma pneumoniae
+        disease_mesh: MESH:D011019
+        drug: gemifloxacin
+        drug_mesh: MESH:C103274
+        drugbank: DB:DB01155
+    links:
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:P75352
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:P22446
+    -   key: participates in
+        source: UniProt:P75352
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:P22446
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:2104
+    -   key: causes
+        source: NCBITaxon:2104
+        target: MESH:D011019
+    multigraph: true
+    nodes:
+    -   id: MESH:C103274
+        label: Drug
+        name: Gemifloxacin
+    -   id: UniProt:P75352
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Mycoplasma pneumoniae)
+    -   id: UniProt:P22446
+        label: Protein
+        name: DNA gyrase subunit A (Mycoplasma pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: Bacterial-type DNA replication
+    -   id: NCBITaxon:2104
+        label: OrganismTaxon
+        name: Mycoplasma pneumoniae
+    -   id: MESH:D011019
+        label: Disease
+        name: Pneumonia due to Mycoplasma pneumoniae
+    reference:
+    - https://go.drugbank.com/drugs/DB01155
+-   directed: true
+    graph:
+        _id: DB01155_MESH_D007710_1
+        disease: Pneumonia due to Klebsiella pneumoniae
+        disease_mesh: MESH:D007710
+        drug: gemifloxacin
+        drug_mesh: MESH:C103274
+        drugbank: DB:DB01155
+    links:
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:A0A0C4MI94
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:A0A443X2G9
+    -   key: participates in
+        source: UniProt:A0A0C4MI94
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:A0A443X2G9
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:573
+    -   key: causes
+        source: NCBITaxon:573
+        target: MESH:D007710
+    multigraph: true
+    nodes:
+    -   id: MESH:C103274
+        label: Drug
+        name: Gemifloxacin
+    -   id: UniProt:A0A0C4MI94
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Klebsiella pneumoniae)
+    -   id: UniProt:A0A443X2G9
+        label: Protein
+        name: DNA gyrase subunit A (Klebsiella pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: Bacterial-type DNA replication
+    -   id: NCBITaxon:573
+        label: OrganismTaxon
+        name: Klebsiella pneumoniae
+    -   id: MESH:D007710
+        label: Disease
+        name: Pneumonia due to Klebsiella pneumoniae
+    reference:
+    - https://go.drugbank.com/drugs/DB01155
+-   directed: true
+    graph:
+        _id: DB01155_MESH_D061387_1
+        disease: Chlamydial pneumonia
+        disease_mesh: MESH:D061387
+        drug: gemifloxacin
+        drug_mesh: MESH:C103274
+        drugbank: DB:DB01155
+    links:
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: InterPro:IPR005742
+    -   key: decreases activity of
+        source: MESH:C103274
+        target: UniProt:Q9Z8R4
+    -   key: participates in
+        source: InterPro:IPR005742
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q9Z8R4
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:83558
+    -   key: causes
+        source: NCBITaxon:83558
+        target: MESH:D061387
+    multigraph: true
+    nodes:
+    -   id: MESH:C103274
+        label: Drug
+        name: Gemifloxacin
+    -   id: InterPro:IPR005742
+        label: GeneFamily
+        name: DNA topoisomerase IV, subunit A, Gram-negative
+    -   id: UniProt:Q9Z8R4
+        label: Protein
+        name: DNA gyrase subunit A (Chlamydia pneumoniae)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: Bacterial-type DNA replication
+    -   id: NCBITaxon:83558
+        label: OrganismTaxon
+        name: Chlamydia pneumoniae
+    -   id: MESH:D061387
+        label: Disease
+        name: Chlamydial pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB01155
+-   directed: true
+    graph:
+        _id: DB06777_MESH_D002769_1
+        disease: Calculus in biliary tract
+        disease_mesh: MESH:D002769
+        drug: chenodiol
+        drug_mesh: MESH:D002635
+        drugbank: DB:DB06777
+    links:
+    -   key: negatively regulates
+        source: MESH:D002635
+        target: GO:0006695
+    -   key: decreases abundance of
+        source: MESH:D002635
+        target: MESH:D002784
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: occurs in
+        source: MESH:D002784
+        target: HP:0011980
+    -   key: manifestation of
+        source: HP:0011980
+        target: MESH:D002769
+    multigraph: true
+    nodes:
+    -   id: MESH:D002635
+        label: Drug
+        name: Chenodiol
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0011980
+        label: PhenotypicFeature
+        name: Cholesterol gallstones
+    -   id: MESH:D002769
+        label: Disease
+        name: Calculus in biliary tract
+    reference:
+    - https://go.drugbank.com/drugs/DB06777
+-   comment: Rilpivirine is a non-nucleoside reverse transcriptase inhibitor used
+        in combination with other antiretrovirals to specifically treat human immunodeficiency
+        virus type 1 (HIV-1).
+    directed: true
+    graph:
+        _id: DB08864_MESH_D015658_1
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: rilpivirine
+        drug_mesh: MESH:D000068696
+        drugbank: DB:DB08864
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068696
+        target: UniProt:Q72547
+    -   key: positively regulates
+        source: UniProt:Q72547
+        target: GO:0003964
+    -   key: precedes
+        source: GO:0003964
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:12721
+    -   key: causes
+        source: NCBITaxon:12721
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068696
+        label: Drug
+        name: Rilpivirine
+    -   id: UniProt:Q72547
+        label: Protein
+        name: Reverse transcriptase/RNaseH (Human immunodeficiency virus 1)
+    -   id: GO:0003964
+        label: BiologicalProcess
+        name: RNA-directed DNA polymerase activity
+    -   id: NCBITaxon:12721
+        label: OrganismTaxon
+        name: Human immunodeficiency virus
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: Viral genome replication
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference:
+    - https://go.drugbank.com/drugs/DB08864
+-   directed: true
+    graph:
+        _id: DB12230_MESH_D000075222_1
+        disease: Essential hypertension
+        disease_mesh: MESH:D000075222
+        drug: Bunazosin
+        drug_mesh: MESH:C018176
+        drugbank: DB:DB12230
+    links:
+    -   key: decreases activity of
+        source: MESH:C018176
+        target: UniProt:P35348
+    -   key: decreases activity of
+        source: MESH:C018176
+        target: UniProt:P25100
+    -   key: positively regulates
+        source: UniProt:P35348
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P25100
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: MESH:D000075222
+    multigraph: true
+    nodes:
+    -   id: MESH:C018176
+        label: Drug
+        name: Bunazosin
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha-1A adrenergic receptor
+    -   id: UniProt:P25100
+        label: Protein
+        name: Alpha-1D adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D000075222
+        label: Disease
+        name: Essential hypertension
+    reference:
+    - https://en.wikipedia.org/wiki/Bunazosin
+    - https://go.drugbank.com/drugs/DB12230
+    - https://en.wikipedia.org/wiki/Alpha-1_blocker
+    - https://drugs.ncats.io/drug/9UUW4V7G2H
