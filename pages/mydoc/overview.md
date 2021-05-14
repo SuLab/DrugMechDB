@@ -2300,7 +2300,7 @@ datatable: true
 | [DB08980_MESH_D017202_1](db08980-mesh-d017202-1.html) | fendiline | DB:DB08980 | MESH:D005275 | Ischemic heart disease | MESH:D017202 | 7 | 6 |
 | [DB00356_MESH_D009128_1](db00356-mesh-d009128-1.html) | chlorzoxazone | DB:DB00356 | MESH:D002753 | Spasticity | MESH:D009128 | 11 | 14 |
 | [DB00830_MESH_D009765_1](db00830-mesh-d009765-1.html) | phenmetrazine | DB:DB00830 | MESH:D010633 | Obesity | MESH:D009765 | 8 | 8 |
-| [DB00692_MESH_D016491_1](db00692-mesh-d016491-1.html) | phentolamine | DB:DB00692 | MESH:D010646 | Peripheral vascular disease | MESH:D016491 | 6 | 7 |
+| [DB00692_MESH_D016491_1](db00692-mesh-d016491-1.html) | phentolamine | DB:DB00692 | MESH:D010646 | Peripheral vascular disease | MESH:D016491 | 7 | 8 |
 | [DB01619_MESH_D014581_3](db01619-mesh-d014581-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
 | [DB01619_MESH_D011537_3](db01619-mesh-d011537-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Pruritus | MESH:D011537 | 5 | 4 |
 | [DB01619_MESH_D012912_3](db01619-mesh-d012912-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Sneezing | MESH:D012912 | 5 | 4 |
