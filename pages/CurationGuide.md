@@ -152,6 +152,14 @@ Example:
     - https://go.drugbank.com/drugs/DB06708#mechanism-of-action
     - https://www.uniprot.org/uniprot/Q8IL04#function
     - https://en.wikipedia.org/wiki/Heme#In_health_and_disease
+    
+#### Comment section at the bottom of the yaml file
+
+    reference:
+    - https://go.drugbank.com/drugs/DB06708#mechanism-of-action
+    - https://www.uniprot.org/uniprot/Q8IL04#function
+    - https://en.wikipedia.org/wiki/Heme#In_health_and_disease
+    comment: Lumefantrine is an antimalarial agent used in combination with artemether.
 
 #### Additional keys
 
