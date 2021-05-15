@@ -1,5 +1,6 @@
 -   directed: true
     graph:
+        _id: DB00090_MESH_D008059
         disease: Mucopolysaccharidosis, MPS-I
         disease_mesh: MESH:D008059
         drug: laronidase
@@ -12,17 +13,8 @@
     -   key: increases degradation of
         source: UniProt:P35475
         target: CHEBI:43394
-    -   key: part of
+    -   key: decreases abundance of
         source: CHEBI:43394
-        target: MESH:D003871
-    -   key: part of
-        source: CHEBI:43394
-        target: MESH:D006497
-    -   key: part of
-        source: MESH:D003871
-        target: MESH:D006025
-    -   key: part of
-        source: MESH:D006497
         target: MESH:D006025
     -   key: manifestation of
         source: MESH:D006025
@@ -38,21 +30,18 @@
     -   id: CHEBI:43394
         label: ChemicalSubstance
         name: α-L-iduronic acid
-    -   id: MESH:D003871
-        label: ChemicalSubstance
-        name: Dermatan Sulfate
-    -   id: MESH:D006497
-        label: ChemicalSubstance
-        name: Heparan Sulfate
     -   id: MESH:D006025
         label: ChemicalSubstance
         name: Glycosaminoglycan
     -   id: MESH:D008059
         label: Disease
         name: Mucopolysaccharidosis, MPS-I
-    reference: https://go.drugbank.com/drugs/DB00090
--   directed: true
+    reference:
+    - https://go.drugbank.com/drugs/DB00090
+-   comment: Mechanism of action unknown. The hypothesis for the natural concentration is that lutein helps protect from oxidative stress
+    directed: true
     graph:
+        _id: DB00137_MESH_D014975
         disease: Age related macular degeneration
         disease_mesh: MESH:D008268
         drug: lutein
@@ -65,23 +54,11 @@
     -   key: located in
         source: CHEBI:23044
         target: UBERON:0000054
-    -   key: location of
+    -   key: participates in
         source: UBERON:0000054
-        target: UBERON:0000966
-    -   key: participates in
-        source: CHEBI:23044
         target: GO:0016209
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0009882
     -   key: prevents
         source: GO:0016209
-        target: MESH:D008268
-    -   key: prevents
-        source: GO:0009882
-        target: MESH:D008268
-    -   key: manifestation of
-        source: UBERON:0000966
         target: MESH:D008268
     multigraph: true
     nodes:
@@ -94,22 +71,19 @@
     -   id: UBERON:0000054
         label: GrossAnatomicalStructure
         name: Macula
-    -   id: UBERON:0000966
-        label: GrossAnatomicalStructure
-        name: Retina
     -   id: GO:0016209
         label: MolecularActivity
         name: antioxidant activity
-    -   id: GO:0009882
-        label: MolecularActivity
-        name: blue light photoreceptor activity
     -   id: MESH:D008268
         label: Disease
         name: Age related macular degeneration
-    reference: https://go.drugbank.com/drugs/DB00137 https://pubmed.ncbi.nlm.nih.gov/28425969/
-    comment: Mechanism of action unknown. The hypothesis for the natural concentration is that lutein helps protect from oxidative stress and high-energy light
--   directed: true
+    reference:
+    - https://go.drugbank.com/drugs/DB00137
+    - https://pubmed.ncbi.nlm.nih.gov/28425969/
+-   comment: Mechanism of action unknown. The hypothesis for the natural concentration is that lutein helps protect from oxidative stress
+    directed: true
     graph:
+        _id: DB00137_MESH_D015352
         disease: Tear film insufficiency
         disease_mesh: MESH:D015352
         drug: lutein
@@ -122,23 +96,11 @@
     -   key: located in
         source: CHEBI:23044
         target: UBERON:0000054
-    -   key: location of
+    -   key: participates in
         source: UBERON:0000054
-        target: UBERON:0000966
-    -   key: participates in
-        source: CHEBI:23044
         target: GO:0016209
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0009882
     -   key: prevents
         source: GO:0016209
-        target: MESH:D015352
-    -   key: prevents
-        source: GO:0009882
-        target: MESH:D015352
-    -   key: manifestation of
-        source: UBERON:0000966
         target: MESH:D015352
     multigraph: true
     nodes:
@@ -151,22 +113,19 @@
     -   id: UBERON:0000054
         label: GrossAnatomicalStructure
         name: Macula
-    -   id: UBERON:0000966
-        label: GrossAnatomicalStructure
-        name: Retina
     -   id: GO:0016209
         label: MolecularActivity
         name: antioxidant activity
-    -   id: GO:0009882
-        label: MolecularActivity
-        name: blue light photoreceptor activity
     -   id: MESH:D015352
         label: Disease
         name: Tear film insufficiency
-    reference: https://go.drugbank.com/drugs/DB00137 https://pubmed.ncbi.nlm.nih.gov/28425969/
-    comment: Mechanism of action unknown. The hypothesis for the natural concentration is that lutein helps protect from oxidative stress and high-energy light
--   directed: true
+    reference:
+    - https://go.drugbank.com/drugs/DB00137
+    - https://pubmed.ncbi.nlm.nih.gov/28425969/
+-   comment: Mechanism of action unknown. The hypothesis for the natural concentration is that lutein helps protect from oxidative stress
+    directed: true
     graph:
+        _id: DB00137_MESH_D000080343
         disease: Meibomian gland dysfunction
         disease_mesh: MESH:D000080343
         drug: lutein
@@ -179,23 +138,11 @@
     -   key: located in
         source: CHEBI:23044
         target: UBERON:0000054
-    -   key: location of
+    -   key: participates in
         source: UBERON:0000054
-        target: UBERON:0000966
-    -   key: participates in
-        source: CHEBI:23044
         target: GO:0016209
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0009882
     -   key: prevents
         source: GO:0016209
-        target: MESH:D000080343
-    -   key: prevents
-        source: GO:0009882
-        target: MESH:D000080343
-    -   key: manifestation of
-        source: UBERON:0000966
         target: MESH:D000080343
     multigraph: true
     nodes:
@@ -208,22 +155,18 @@
     -   id: UBERON:0000054
         label: GrossAnatomicalStructure
         name: Macula
-    -   id: UBERON:0000966
-        label: GrossAnatomicalStructure
-        name: Retina
     -   id: GO:0016209
         label: MolecularActivity
         name: antioxidant activity
-    -   id: GO:0009882
-        label: MolecularActivity
-        name: blue light photoreceptor activity
     -   id: MESH:D000080343
         label: Disease
         name: Meibomian gland dysfunction
-    reference: https://go.drugbank.com/drugs/DB00137 https://pubmed.ncbi.nlm.nih.gov/28425969/
-    comment: Mechanism of action unknown. The hypothesis for the natural concentration is that lutein helps protect from oxidative stress and high-energy light
+    reference:
+    - https://go.drugbank.com/drugs/DB00137
+    - https://pubmed.ncbi.nlm.nih.gov/28425969/
 -   directed: true
     graph:
+        _id: DB00209_MESH_D053202
         disease: Urge incontinence of urine
         disease_mesh: MESH:D053202
         drug: trospium
@@ -232,23 +175,20 @@
     links:
     -   key: decreases activity of
         source: MESH:C003330
-        target: UniProt:P11229
+        target: UniProt:P20309
     -   key: participates in
-        source: UniProt:P11229
+        source: UniProt:P20309
         target: GO:1905144
     -   key: positively regulates
         source: GO:1905144
-        target: GO:0006939
-    -   key: located in
-        source: GO:0006939
-        target: UBERON:0001255
-    -   key: location of
-        source: UBERON:0001255
         target: GO:0014832
-    -   key: positively correlated with
+    -   key: located in
         source: GO:0014832
+        target: UBERON:0001255
+    -   key: correlated with
+        source: UBERON:0001255
         target: GO:0060073
-    -   key: positively correlated with
+    -   key: correlated with
         source: GO:0060073
         target: MESH:D053202
     multigraph: true
@@ -256,15 +196,15 @@
     -   id: MESH:C003330
         label: Drug
         name: trospium
-    -   id: UniProt:P11229
+    -   id: UniProt:P20309
         label: Protein
-        name: Muscarinic acetylcholine receptor M1
+        name: Muscarinic acetylcholine receptor M3
     -   id: GO:1905144
         label: BiologicalProcess
         name: response to acetylcholine
-    -   id: GO:0006939
+    -   id: GO:0014832
         label: BiologicalProcess
-        name: smooth muscle contraction
+        name: Urinary bladder smooth muscle contraction
     -   id: UBERON:0001255
         label: GrossAnatomicalStructure
         name: urinary bladder
@@ -277,9 +217,12 @@
     -   id: MESH:D053202
         label: Disease
         name: Urge incontinence of urine
-    reference: https://go.drugbank.com/drugs/DB00209#BE0000092
+    reference:
+    - https://go.drugbank.com/drugs/DB00209#BE0000045
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1906583/
 -   directed: true
     graph:
+        _id: DB00570_MESH_D012514
         disease: Kaposi's sarcoma
         disease_mesh: MESH:D012514
         drug: vinblastine
@@ -360,9 +303,12 @@
     -   id: MESH:D012514
         label: Disease
         name: Kaposi's sarcoma
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
+    reference:
+    - https://go.drugbank.com/drugs/DB00570#BE0001340
+    - https://en.wikipedia.org/wiki/Vinblastine
 -   directed: true
     graph:
+        _id: DB00570_MESH_D009182
         disease: Mycosis fungoides
         disease_mesh: MESH:D009182
         drug: vinblastine
@@ -443,9 +389,12 @@
     -   id: MESH:D009182
         label: Disease
         name: Mycosis fungoides
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
+    reference:
+    - https://go.drugbank.com/drugs/DB00570#BE0001340
+    - https://en.wikipedia.org/wiki/Vinblastine
 -   directed: true
     graph:
+        _id: DB00570_MESH_D008228
         disease: Non-Hodgkin's lymphoma
         disease_mesh: MESH:D008228
         drug: vinblastine
@@ -526,92 +475,12 @@
     -   id: MESH:D008228
         label: Disease
         name: Non-Hodgkin's lymphoma
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
+    reference:
+    - https://go.drugbank.com/drugs/DB00570#BE0001340
+    - https://en.wikipedia.org/wiki/Vinblastine
 -   directed: true
     graph:
-        disease: Non-Hodgkin's lymphoma
-        disease_mesh: MESH:D008228
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:D008228
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:D008228
-        label: Disease
-        name: Non-Hodgkin's lymphoma
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
-    graph:
+        _id: DB00570_MESH_D013736
         disease: Malignant tumor of testis
         disease_mesh: MESH:D013736
         drug: vinblastine
@@ -692,9 +561,12 @@
     -   id: MESH:D013736
         label: Disease
         name: Malignant tumor of testis
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
+    reference:
+    - https://go.drugbank.com/drugs/DB00570#BE0001340
+    - https://en.wikipedia.org/wiki/Vinblastine
 -   directed: true
     graph:
+        _id: DB00570_MESH_C538636
         disease: Langerhans cell histiocytosis, disseminated
         disease_mesh: MESH:C538636
         drug: vinblastine
@@ -775,9 +647,12 @@
     -   id: MESH:C538636
         label: Disease
         name: Langerhans cell histiocytosis, disseminated
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
+    reference:
+    - https://go.drugbank.com/drugs/DB00570#BE0001340
+    - https://en.wikipedia.org/wiki/Vinblastine
 -   directed: true
     graph:
+        _id: DB00570_MESH_D006689
         disease: Hodgkin's disease
         disease_mesh: MESH:D006689
         drug: vinblastine
@@ -858,9 +733,12 @@
     -   id: MESH:D006689
         label: Disease
         name: Hodgkin's disease
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
+    reference:
+    - https://go.drugbank.com/drugs/DB00570#BE0001340
+    - https://en.wikipedia.org/wiki/Vinblastine
 -   directed: true
     graph:
+        _id: DB00570_MESH_D031901
         disease: Gestational trophoblastic neoplasia
         disease_mesh: MESH:D031901
         drug: vinblastine
@@ -941,9 +819,13 @@
     -   id: MESH:D031901
         label: Disease
         name: Gestational trophoblastic neoplasia
-    reference: https://go.drugbank.com/drugs/DB00570#BE0001340 https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
+    reference:
+    - https://go.drugbank.com/drugs/DB00570#BE0001340
+    - https://en.wikipedia.org/wiki/Vinblastine
+-   comment: Mechanism of action of penicillamine wrt to Rheumatoid arthritis is unknown
+    directed: true
     graph:
+        _id: DB00859_MESH_D001172
         disease: Rheumatoid arthritis
         disease_mesh: MESH:D001172
         drug: penicillamine
@@ -985,10 +867,12 @@
     -   id: MESH:D001172
         label: Disease
         name: Rheumatoid arthritis
-    reference: https://go.drugbank.com/drugs/DB00859 https://www.sciencedirect.com/science/article/pii/B9780080280240500165
-    comment: Mechanism of action of penicillamine wrt to Rheumatoid arthritis is unknown
+    reference:
+    - https://go.drugbank.com/drugs/DB00859
+    - https://www.sciencedirect.com/science/article/pii/B9780080280240500165
 -   directed: true
     graph:
+        _id: DB00859_MESH_D006527
         disease: Wilson's disease
         disease_mesh: MESH:D006527
         drug: penicillamine
@@ -998,9 +882,6 @@
     -   key: capable of
         source: MESH:D010396
         target: GO:0046911
-    -   key: molecularly interacts with
-        source: MESH:D010396
-        target: MESH:D003300
     -   key: decreases abundance of
         source: GO:0046911
         target: MESH:D003300
@@ -1010,7 +891,7 @@
     -   key: positively regulates
         source: GO:0044062
         target: GO:0055070
-    -   key: manifestation of
+    -   key: treats
         source: GO:0055070
         target: MESH:D006527
     multigraph: true
@@ -1033,9 +914,12 @@
     -   id: MESH:D006527
         label: Disease
         name: Wilson's disease
-    reference: https://go.drugbank.com/drugs/DB00859 https://pubmed.ncbi.nlm.nih.gov/22802922/
+    reference:
+    - https://go.drugbank.com/drugs/DB00859
+    - https://pubmed.ncbi.nlm.nih.gov/22802922/
 -   directed: true
     graph:
+        _id: DB00859_MESH_D003555
         disease: Cystinuria
         disease_mesh: MESH:D003555
         drug: penicillamine
@@ -1045,21 +929,12 @@
     -   key: capable of
         source: MESH:D010396
         target: GO:0046911
-    -   key: molecularly interacts with
-        source: MESH:D010396
-        target: CHEBI:17376
     -   key: decreases abundance of
         source: GO:0046911
         target: CHEBI:17376
-    -   key: participates in
-        source: CHEBI:17376
-        target: GO:0044062
     -   key: causes
         source: CHEBI:17376
         target: HP:0003131
-    -   key: correlated with
-        source: GO:0044062
-        target: MESH:D003555
     -   key: manifestation of
         source: HP:0003131
         target: MESH:D003555
@@ -1077,15 +952,15 @@
     -   id: HP:0003131
         label: PhenotypicFeature
         name: Cystinuria
-    -   id: GO:0044062
-        label: BiologicalProcess
-        name: regulation of excretion
     -   id: MESH:D003555
         label: Disease
         name: Cystinuria
-    reference: https://go.drugbank.com/drugs/DB00859
--   directed: true
+    reference:
+    - https://go.drugbank.com/drugs/DB00859
+-   comment: gabapentin enacarbil is a prodrug of gabapentin, it's physiological effects are the same as gabapentin
+    directed: true
     graph:
+        _id: DB08872_MESH_D051474
         disease: Postherpetic neuralgia
         disease_mesh: MESH:D051474
         drug: gabapentin enacarbil
@@ -1172,10 +1047,13 @@
     -   id: MESH:D051474
         label: Disease
         name: Postherpetic neuralgia
-    reference: https://go.drugbank.com/drugs/DB08872#BE0000691 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2874339/
-    comment: gabapentin enacarbil is a prodrug of gabapentin, it's physiological effects are the same as gabapentin.
--   directed: true
+    reference:
+    - https://go.drugbank.com/drugs/DB08872#BE0000691
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2874339/
+-   comment: gabapentin enacarbil is a prodrug of gabapentin, it's physiological effects are the same as gabapentin
+    directed: true
     graph:
+        _id: DB08872_MESH_D012148
         disease: Restless legs
         disease_mesh: MESH:D012148
         drug: gabapentin enacarbil
@@ -1262,10 +1140,12 @@
     -   id: MESH:D012148
         label: Disease
         name: Restless legs
-    reference: https://go.drugbank.com/drugs/DB08872#BE0000691 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2874339/
-    comment: gabapentin enacarbil is a prodrug of gabapentin, it's physiological effects are the same as gabapentin.
+    reference:
+    - https://go.drugbank.com/drugs/DB08872#BE0000691
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2874339/
 -   directed: true
     graph:
+        _id: DB01268_MESH_D046152
         disease: Gastrointestinal stromal tumor
         disease_mesh: MESH:D046152
         drug: sunitinib
@@ -1394,9 +1274,12 @@
     -   id: MESH:D046152
         label: Disease
         name: Gastrointestinal stromal tumor
-    reference: https://go.drugbank.com/drugs/DB01268#BE0000205 https://pubmed.ncbi.nlm.nih.gov/20110785/
+    reference:
+    - https://go.drugbank.com/drugs/DB01268
+    - https://pubmed.ncbi.nlm.nih.gov/20110785/
 -   directed: true
     graph:
+        _id: DB01268_MESH_D002292
         disease: Renal cell carcinoma
         disease_mesh: MESH:D002292
         drug: sunitinib
@@ -1525,9 +1408,12 @@
     -   id: MESH:D002292
         label: Disease
         name: Renal cell carcinoma
-    reference: https://go.drugbank.com/drugs/DB01268#BE0000205 https://pubmed.ncbi.nlm.nih.gov/20110785/
+    reference:
+    - https://go.drugbank.com/drugs/DB01268
+    - https://pubmed.ncbi.nlm.nih.gov/20110785/
 -   directed: true
     graph:
+        _id: DB01277_MESH_D046150
         disease: Laron-type isolated somatotropin defect
         disease_mesh: MESH:D046150
         drug: mecasermin
@@ -1587,4 +1473,6 @@
     -   id: MESH:D046150
         label: Disease
         name: Laron-type isolated somatotropin defect
-    reference: https://go.drugbank.com/drugs/DB01277#BE0000858 https://pubmed.ncbi.nlm.nih.gov/19198769/
+    reference:
+    - https://go.drugbank.com/drugs/DB01277
+    - https://pubmed.ncbi.nlm.nih.gov/19198769/
