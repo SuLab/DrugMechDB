@@ -18629,23 +18629,23 @@
         disease: Malignant tumor of prostate
         disease_mesh: MESH:D011471
         drug: abiraterone acetate
-        drug_mesh: MESH:D000069501,MESH:C089740
+        drug_mesh: MESH:D000069501
         drugbank: DB:DB05812
     links:
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P15538
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P08686
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P05177
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P11712
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P08684
     -   key: positively regulates
         source: UniProt:P15538
@@ -18673,7 +18673,11 @@
         target: MESH:D011471
     multigraph: true
     nodes:
-    -   id: DB:DB05812
+    -   alt_ids:
+        - MESH:C089740
+        alt_names:
+        - abiraterone
+        id: MESH:D000069501
         label: Drug
         name: abiraterone acetate
     -   id: UniProt:P15538
@@ -18717,23 +18721,23 @@
         disease: Malignant tumor of prostate
         disease_mesh: MESH:D011471
         drug: abiraterone acetate
-        drug_mesh: MESH:D000069501,MESH:C089740
+        drug_mesh: MESH:D000069501
         drugbank: DB:DB05812
     links:
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P15538
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P08686
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P05177
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P11712
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P08684
     -   key: positively regulates
         source: UniProt:P15538
@@ -18761,7 +18765,11 @@
         target: MESH:D011471
     multigraph: true
     nodes:
-    -   id: DB:DB05812
+    -   alt_ids:
+        - MESH:C089740
+        alt_names:
+        - abiraterone
+        id: MESH:D000069501
         label: Drug
         name: abiraterone acetate
     -   id: UniProt:P15538
@@ -18797,42 +18805,46 @@
     - https://en.wikipedia.org/wiki/21-Hydroxylase#Function
 -   comment: In addition to inhibiting UniProt:P05093 (the main target according to
         https://go.drugbank.com/drugs/DB05812#mechanism-of-action), abiraterone also
-        acts as a partial antagonist of the androgen receptor (UniProt:P10275)
+        acts as a partial antagonist of the androgen receptor (UniProt:P10275).
     directed: true
     graph:
         _id: DB05812_MESH_D011471_4
         disease: Malignant tumor of prostate
         disease_mesh: MESH:D011471
         drug: abiraterone acetate
-        drug_mesh: MESH:D000069501,MESH:C089740
+        drug_mesh: MESH:D000069501
         drugbank: DB:DB05812
     links:
     -   key: decreases activity of
-        source: DB:DB05812
+        source: MESH:D000069501
         target: UniProt:P10275
     -   key: positively regulates
         source: UniProt:P10275
-        target: GO:0060769
+        target: GO:0060767
     -   key: positively correlated with
-        source: GO:0060769
+        source: GO:0060767
         target: MESH:D011471
     multigraph: true
     nodes:
-    -   id: DB:DB05812
+    -   alt_ids:
+        - MESH:C089740
+        alt_names:
+        - abiraterone
+        id: MESH:D000069501
         label: Drug
         name: abiraterone acetate
     -   id: UniProt:P10275
         label: Protein
         name: Androgen receptor
-    -   id: GO:0060769
+    -   id: GO:0060767
         label: BiologicalProcess
-        name: positive regulation of epithelial cell proliferation involved in prostate
-            gland development
+        name: epithelial cell proliferation involved in prostate gland development
     -   id: MESH:D011471
         label: Disease
         name: Malignant tumor of prostate
     reference:
     - https://en.wikipedia.org/wiki/Abiraterone_acetate#Pharmacology
+    - https://www.kegg.jp/entry/D09701
     - https://en.wikipedia.org/wiki/Androgen_receptor#Mechanism_of_action
     - https://en.wikipedia.org/wiki/Androgen_deprivation_therapy#Methods_based_on_drugs
     - https://www.kegg.jp/entry/D09701
@@ -34399,7 +34411,7 @@
     - https://en.wikipedia.org/wiki/Anticonvulsant
 -   comment: DrugBank (https://go.drugbank.com/drugs/DB00668) has this drug modulating
         beta receptors but not for glaucoma. For this indication, the ligand should
-        be an antagonist (and epinephrine is an agonist instead)
+        be an antagonist (and epinephrine is an agonist instead).
     directed: true
     graph:
         _id: DB00668_MESH_D005902_1
@@ -34798,31 +34810,29 @@
     - http://pathwaymedicine.org/Epinephrine
     - https://en.wikipedia.org/wiki/Beta-1_adrenergic_receptor
     - https://en.wikipedia.org/wiki/Adrenergic_receptor#History
--   comment: Tiopronin is a cystine depleting agent (MESH:D065104). Please note that
-        NCIT has a more specific term to the MESH term used in this path (D052878
-        for Urolithiasis). The NCIT ID (not listed in the path visualiser) is NCIT:C123244.
+-   comment: Tiopronin is a cystine depleting agent (MESH:D065104).
     directed: true
     graph:
         _id: DB06823_MESH_D003555_1
         disease: Cystinuria
         disease_mesh: MESH:D003555
-        drug: epinephrine
+        drug: tiopronin
         drug_mesh: MESH:D008625
         drugbank: DB:DB06823
     links:
-    -   key: molecularly interacts with
+    -   key: decreases abundance of
         source: MESH:D008625
         target: CHEBI:17376
     -   key: causes
         source: CHEBI:17376
-        target: MESH:D052878
+        target: HP:0000787
     -   key: causes
         source: CHEBI:17376
         target: HP:0033067
-    -   key: positively correlated with
-        source: MESH:D052878
+    -   key: manifestation of
+        source: HP:0000787
         target: MESH:D003555
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0033067
         target: MESH:D003555
     multigraph: true
@@ -34836,9 +34846,9 @@
     -   id: HP:0033067
         label: PhenotypicFeature
         name: Cystine crystalluria
-    -   id: MESH:D052878
+    -   id: HP:0000787
         label: PhenotypicFeature
-        name: Urolithiasis
+        name: Nephrolithiasis
     -   id: MESH:D003555
         label: Disease
         name: Cystinuria
@@ -39735,8 +39745,8 @@
     reference:
     - https://go.drugbank.com/drugs/DB01267#mechanismofaction
     - https://pubchem.ncbi.nlm.nih.gov/compound/Paliperidone
--   comments: This drug seems to be used for prophylaxis only because of its high
-        cost and limited efficacy (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7096974/#CR20).
+-   comment: This drug seems to be used for prophylaxis only because of its high cost
+        and limited efficacy (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7096974/#CR20).
         It's believed to elicit an antibody-dependent cell-mediated cytotoxicity activity
         in vivo ()https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000855/.
     directed: true
@@ -39928,7 +39938,7 @@
     reference:
     - https://go.drugbank.com/drugs/DB01603#mechanism-of-action
     - https://en.wikipedia.org/wiki/Methicillin#Mechanism_of_action
--   comments: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
+-   comment: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
         \ and therefore provide resistance to ampicillin and related beta-lacam antibiotics.\
         \ Avibactam therefore is useful to treat infections caused by bacteria that\
         \ are multi-resistant to \u03B2-lactam antibiotics."
@@ -39990,7 +40000,7 @@
         name: Infectious disease of abdomen
     reference:
     - https://go.drugbank.com/drugs/DB09060#mechanism-of-action
--   comments: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
+-   comment: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
         \ and therefore provide resistance to ampicillin and related beta-lacam antibiotics.\
         \ Avibactam therefore is useful to treat infections caused by bacteria that\
         \ are multi-resistant to \u03B2-lactam antibiotics."
@@ -40043,7 +40053,7 @@
         name: Infectious disease of abdomen
     reference:
     - https://go.drugbank.com/drugs/DB09060#mechanism-of-action
--   comments: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
+-   comment: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
         \ and therefore provide resistance to ampicillin and related beta-lacam antibiotics.\
         \ Avibactam therefore is useful to treat infections caused by bacteria that\
         \ are multi-resistant to \u03B2-lactam antibiotics."
@@ -40087,7 +40097,7 @@
         name: Infectious disease of abdomen
     reference:
     - https://go.drugbank.com/drugs/DB09060#mechanism-of-action
--   comments: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
+-   comment: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
         \ and therefore provide resistance to ampicillin and related beta-lacam antibiotics.\
         \ Avibactam therefore is useful to treat infections caused by bacteria that\
         \ are multi-resistant to \u03B2-lactam antibiotics."
@@ -40131,7 +40141,7 @@
         name: Infectious disease of abdomen
     reference:
     - https://go.drugbank.com/drugs/DB09060#mechanism-of-action
--   comments: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
+-   comment: "This antibiotic inhbits beta-lactamases, enzymes that break antibiotics\
         \ and therefore provide resistance to ampicillin and related beta-lacam antibiotics.\
         \ Avibactam therefore is useful to treat infections caused by bacteria that\
         \ are multi-resistant to \u03B2-lactam antibiotics. The majority of cases\
@@ -40195,7 +40205,7 @@
         name: Pyelonephritis
     reference:
     - https://go.drugbank.com/drugs/DB09060#mechanism-of-action
--   comments: No mechanism of action available either in DrugBank (https://go.drugbank.com/drugs/DB12225#mechanism-of-action)
+-   comment: No mechanism of action available either in DrugBank (https://go.drugbank.com/drugs/DB12225#mechanism-of-action)
         or ChEMBL (https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3126842/)
         as per 02032021.
     directed: true
@@ -40241,8 +40251,8 @@
     - https://pubchem.ncbi.nlm.nih.gov/compound/56934415#section=Pharmacology-and-Biochemistry
     - https://www.kegg.jp/entry/D10610
     - https://en.wikipedia.org/wiki/Hepatitis_C_virus#Molecular_biology
--   comments: This drug converts uric acid into allantoin, therefore it clears uric
-        acid from the blood (whose elevated levels can lead to gout).
+-   comment: This drug converts uric acid into allantoin, therefore it clears uric
+        acid from the blood (whose elevated levels - Hyperuricemia - can lead to gout).
     directed: true
     graph:
         _id: DB09208_MESH_D006073_1
@@ -40255,14 +40265,11 @@
     -   key: decreases abundance of
         source: MESH:C031545
         target: CHEBI:27226
-    -   key: negatively correlated with
+    -   key: positively correlated with
         source: CHEBI:27226
-        target: CHEBI:18072
-    -   key: negatively correlated with
-        source: CHEBI:18072
-        target: CHEBI:15676
-    -   key: negatively correlated with
-        source: CHEBI:15676
+        target: HP:0002149
+    -   key: manifestation of
+        source: HP:0002149
         target: MESH:D006073
     multigraph: true
     nodes:
@@ -40272,12 +40279,9 @@
     -   id: CHEBI:27226
         label: ChemicalSubstance
         name: uric acid
-    -   id: CHEBI:18072
-        label: ChemicalSubstance
-        name: 5-hydroxyisouric acid
-    -   id: CHEBI:15676
-        label: ChemicalSubstance
-        name: allantoin
+    -   id: HP:0002149
+        label: PhenotypicFeature
+        name: Hyperuricemia
     -   id: MESH:D006073
         label: Disease
         name: Gout
@@ -40319,8 +40323,8 @@
     reference:
     - https://go.drugbank.com/drugs/DB06684#mechanism-of-action
     - https://go.drugbank.com/drugs/DB06684#BE0000749
--   comments: this drug is a partial agonist at postsynaptic 5-HT1A receptors (https://en.wikipedia.org/wiki/5-HT1A_receptor#Partial_agonists)
-        and are sometimes used in low doses as augmentations to SSRIs (https://en.wikipedia.org/wiki/5-HT1A_receptor#Neuromodulation)
+-   comment: this drug is a partial agonist at postsynaptic 5-HT1A receptors (https://en.wikipedia.org/wiki/5-HT1A_receptor#Partial_agonists)
+        and are sometimes used in low doses as augmentation to SSRIs (https://en.wikipedia.org/wiki/5-HT1A_receptor#Neuromodulation).
     directed: true
     graph:
         _id: DB06684_MESH_D003865_2
@@ -40330,14 +40334,14 @@
         drug_mesh: MESH:D000069503
         drugbank: DB:DB06684
     links:
-    -   key: negatively regulates
+    -   key: positively regulates
         source: MESH:D000069503
         target: UniProt:P08908
     -   key: positively regulates
         source: UniProt:P08908
-        target: GO:0014062
+        target: GO:0060096
     -   key: negatively correlated with
-        source: GO:0014062
+        source: GO:0060096
         target: MESH:D003865
     multigraph: true
     nodes:
@@ -40347,9 +40351,9 @@
     -   id: UniProt:P08908
         label: Protein
         name: 5-hydroxytryptamine receptor 1A
-    -   id: GO:0014062
+    -   id: GO:0060096
         label: BiologicalProcess
-        name: regulation of serotonin secretion
+        name: serotonin secretion, neurotransmission
     -   id: MESH:D003865
         label: Disease
         name: Major depressive disorder
@@ -40360,12 +40364,12 @@
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841022/
     - https://en.wikipedia.org/wiki/5-HT1A_receptor#cite_note-pmid2883013-21
     - https://pubmed.ncbi.nlm.nih.gov/12559651/
--   comments: the drug name available in the original group_26.xls file was Rutoside
-        (one of the synonyms of Rutin, which is the canonical name in DrugBank). Its
-        mechanism of action is not well reported. Some sources have it as an aid to
-        enhance the action of vitamin C (https://www.drugs.com/mtm/rutin.html), whereas
-        others describe rutin (aka vitamin P) acting as a "sparing factor, which slows
-        the oxidation of vitamin C" into dehydroascorbic acid (https://en.wikipedia.org/wiki/Dehydroascorbic_acid).
+-   comment: The drug name available in the original file (before curation) was Rutoside.
+        This is one of the synonyms of Rutin, which is the canonical name in DrugBank).
+        Its mechanism of action is not well reported. Some sources have it as an aid
+        to enhance the action of vitamin C (https://www.drugs.com/mtm/rutin.html),
+        whereas others describe rutin (aka vitamin P) acting as a "sparing factor,
+        which slows the oxidation of vitamin C" into dehydroascorbic acid (https://en.wikipedia.org/wiki/Dehydroascorbic_acid).
     directed: true
     graph:
         _id: DB01698_MESH_D001206_1
@@ -40941,9 +40945,9 @@
     reference:
     - https://go.drugbank.com/drugs/DB00038#mechanism-of-action
     - https://en.wikipedia.org/wiki/Oprelvekin
--   comments: this drug is a type of sclerosing solution (MESH:D012597) and causes
-        obliteration of the vessels (or veins) as part of a treatment called Sclerotherapy
-        (MESH:D015911)
+-   comment: Sclerosing solutions cause the vein to scar, forcing blood to reroute
+        through healthier veins. The collapsed vein is reabsorbed into local tissue
+        and eventually fades (https://www.mayoclinic.org/tests-procedures/sclerotherapy/about/pac-20384592).
     directed: true
     graph:
         _id: DB00464_MESH_D014648_1
@@ -40953,65 +40957,43 @@
         drug_mesh: MESH:D012981
         drugbank: DB:DB00464
     links:
-    -   key: negatively regulates
+    -   key: part of
         source: MESH:D012981
-        target: UniProt:P04070
-    -   key: negatively regulates
-        source: MESH:D012981
-        target: UniProt:P07225
-    -   key: negatively regulates
-        source: UniProt:P04070
-        target: GO:0007596
-    -   key: negatively regulates
-        source: UniProt:P07225
-        target: GO:0007596
-    -   key: negatively regulates
-        source: UniProt:P04070
-        target: GO:0006954
-    -   key: positively correlated with
-        source: GO:0006954
-        target: MESH:D005355
-    -   key: positively correlated with
-        source: GO:0007596
-        target: MESH:D020246
-    -   key: positively correlated with
-        source: MESH:D020246
-        target: MESH:D014648
+        target: MESH:D012597
     -   key: negatively correlated with
-        source: MESH:D005355
+        source: MESH:D012597
+        target: HP:0012514
+    -   key: negatively correlated with
+        source: MESH:D012597
+        target: HP:0010741
+    -   key: manifestation of
+        source: HP:0012514
+        target: MESH:D014648
+    -   key: manifestation of
+        source: HP:0010741
         target: MESH:D014648
     multigraph: true
     nodes:
     -   id: MESH:D012981
         label: Drug
         name: sodium tetradecyl sulfate
-    -   id: UniProt:P04070
-        label: Protein
-        name: Vitamin K-dependent protein C
-    -   id: UniProt:P07225
-        label: Protein
-        name: Vitamin K-dependent protein S
-    -   id: GO:0007596
-        label: BiologicalProcess
-        name: blood coagulation
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: inflammatory response
-    -   id: MESH:D005355
+    -   id: MESH:D012597
+        label: ChemicalSubstance
+        name: Sclerosing Solutions
+    -   id: HP:0012514
         label: PhenotypicFeature
-        name: Fibrosis
-    -   id: MESH:D020246
+        name: Lower limb pain
+    -   id: HP:0010741
         label: PhenotypicFeature
-        name: Venous Thrombosis
+        name: Pedal edema
     -   id: MESH:D014648
         label: Disease
         name: Venous varices
     reference:
-    - https://go.drugbank.com/drugs/DB00464#mechanism-of-action
-    - https://en.wikipedia.org/wiki/Oprelvekin
--   comments: MESH:D014652 was initially denoted as Disorder of blood vessel in the
+    - https://en.wikipedia.org/wiki/Sodium_tetradecyl_sulfate
+-   comment: MESH:D014652 was initially denoted as Disorder of blood vessel in the
         original xls file but the name on the MESH website, Vascular Diseases, is
-        the one used here for our annotation.
+        the one used here.
     directed: true
     graph:
         _id: DB00797_MESH_D014652_1
@@ -41110,9 +41092,9 @@
     reference:
     - https://go.drugbank.com/drugs/DB00797#mechanism-of-action
     - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL770/
--   comments: MESH:D014652 was initially denoted as Disorder of blood vessel in the
+-   comment: MESH:D014652 was initially denoted as Disorder of blood vessel in the
         original xls file but the name on the MESH website, Vascular Diseases, is
-        the one used here for our annotation.
+        the one used here.
     directed: true
     graph:
         _id: DB00797_MESH_D014652_2
@@ -41477,7 +41459,7 @@
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/
     - https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0
     - https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
--   comments: This drug is fungistatic at concetrations up to 20 mcg/mL, and is fungicidal
+-   comment: This drug is fungistatic at concetrations up to 20 mcg/mL, and is fungicidal
         in vitro when used at higher concentrations. Also please note that MESH:D002181
         was initially denoted as Candidal vulvovaginitis in the original xls file
         but the name on the MESH website, which is Candidiasis, Vulvovaginal, is the
@@ -41491,14 +41473,23 @@
         drug_mesh: MESH:D003022
         drugbank: DB:DB00257
     links:
-    -   key: disrupts
+    -   key: negatively regulates
         source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
         target: CHEBI:16933
     -   key: located in
         source: CHEBI:16933
         target: GO:0030445
-    -   key: in taxon
+    -   key: regulates
         source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
         target: NCBITaxon:237561
     -   key: causes
         source: NCBITaxon:237561
@@ -41508,12 +41499,21 @@
     -   id: MESH:D003022
         label: Drug
         name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
     -   id: CHEBI:16933
         label: ChemicalSubstance
         name: ergosterol
     -   id: GO:0030445
         label: CellularComponent
         name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
     -   id: NCBITaxon:237561
         label: OrganismTaxon
         name: Candida albicans SC5314
@@ -41524,7 +41524,7 @@
     - https://go.drugbank.com/drugs/DB00257#BE0000233
     - https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
     - https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
--   comments: Diaper rash can be caused by different factors, including fungus, when
+-   comment: Diaper rash can be caused by different factors, including fungus, when
         it's known as diaper candidiasis. If a fungal origin is identified, the treatment
         is based on antifungals (e.g. clotrimazole). Therefore the original cause
         must be determined first as the treatments vary (https://en.wikipedia.org/wiki/Irritant_diaper_dermatitis#Secondary_infections).
@@ -41537,14 +41537,23 @@
         drug_mesh: MESH:D003022
         drugbank: DB:DB00257
     links:
-    -   key: disrupts
+    -   key: negatively regulates
         source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
         target: CHEBI:16933
     -   key: located in
         source: CHEBI:16933
         target: GO:0030445
-    -   key: in taxon
+    -   key: regulates
         source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
         target: NCBITaxon:237561
     -   key: causes
         source: NCBITaxon:237561
@@ -41554,12 +41563,21 @@
     -   id: MESH:D003022
         label: Drug
         name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
     -   id: CHEBI:16933
         label: ChemicalSubstance
         name: ergosterol
     -   id: GO:0030445
         label: CellularComponent
         name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
     -   id: NCBITaxon:237561
         label: OrganismTaxon
         name: Candida albicans SC5314
@@ -41570,7 +41588,7 @@
     - https://go.drugbank.com/drugs/DB00257#BE0000233
     - https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
     - https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
--   comments: MESH:D002179 was initially denoted as Candidiasis of skin in the original
+-   comment: MESH:D002179 was initially denoted as Candidiasis of skin in the original
         xls file but the name on the MESH website, which is Candidiasis, Cutaneous,
         is the one used here for our annotation.
     directed: true
@@ -41582,14 +41600,23 @@
         drug_mesh: MESH:D003022
         drugbank: DB:DB00257
     links:
-    -   key: disrupts
+    -   key: negatively regulates
         source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
         target: CHEBI:16933
     -   key: located in
         source: CHEBI:16933
         target: GO:0030445
-    -   key: in taxon
+    -   key: regulates
         source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
         target: NCBITaxon:237561
     -   key: causes
         source: NCBITaxon:237561
@@ -41599,12 +41626,21 @@
     -   id: MESH:D003022
         label: Drug
         name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
     -   id: CHEBI:16933
         label: ChemicalSubstance
         name: ergosterol
     -   id: GO:0030445
         label: CellularComponent
         name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
     -   id: NCBITaxon:237561
         label: OrganismTaxon
         name: Candida albicans SC5314
@@ -41615,9 +41651,9 @@
     - https://go.drugbank.com/drugs/DB00257#BE0000233
     - https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
     - https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
--   comments: MESH:D002180 was initially denoted as Candidiasis of mouth in the original
+-   comment: MESH:D002180 was initially denoted as Candidiasis of mouth in the original
         xls file but the name on the MESH website, which is Candidiasis, Oral, is
-        the one used here for our annotation.
+        the one used here.
     directed: true
     graph:
         _id: DB00257_MESH_D002180_1
@@ -41627,14 +41663,23 @@
         drug_mesh: MESH:D003022
         drugbank: DB:DB00257
     links:
-    -   key: disrupts
+    -   key: negatively regulates
         source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
         target: CHEBI:16933
     -   key: located in
         source: CHEBI:16933
         target: GO:0030445
-    -   key: in taxon
+    -   key: regulates
         source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
         target: NCBITaxon:237561
     -   key: causes
         source: NCBITaxon:237561
@@ -41644,12 +41689,21 @@
     -   id: MESH:D003022
         label: Drug
         name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
     -   id: CHEBI:16933
         label: ChemicalSubstance
         name: ergosterol
     -   id: GO:0030445
         label: CellularComponent
         name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
     -   id: NCBITaxon:237561
         label: OrganismTaxon
         name: Candida albicans SC5314
@@ -41702,7 +41756,7 @@
     - https://go.drugbank.com/drugs/DB00257#BE0000233
     - https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
     - https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
--   comments: MESH:D014010 was initially denoted as Pityriasis versicolor in the original
+-   comment: MESH:D014010 was initially denoted as Pityriasis versicolor in the original
         xls file but the name on the MESH website, Tinea Versicolor, is the one used
         here for our annotation.
     directed: true
@@ -41714,14 +41768,23 @@
         drug_mesh: MESH:D003022
         drugbank: DB:DB00257
     links:
-    -   key: disrupts
+    -   key: negatively regulates
         source: MESH:D003022
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
         target: CHEBI:16933
     -   key: located in
         source: CHEBI:16933
         target: GO:0030445
-    -   key: in taxon
+    -   key: regulates
         source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
         target: NCBITaxon:237561
     -   key: causes
         source: NCBITaxon:237561
@@ -41731,12 +41794,21 @@
     -   id: MESH:D003022
         label: Drug
         name: clotrimazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
     -   id: CHEBI:16933
         label: ChemicalSubstance
         name: ergosterol
     -   id: GO:0030445
         label: CellularComponent
         name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
     -   id: NCBITaxon:237561
         label: OrganismTaxon
         name: Candida albicans SC5314
@@ -41747,12 +41819,9 @@
     - https://go.drugbank.com/drugs/DB00257#BE0000233
     - https://en.wikipedia.org/wiki/Clotrimazole#Pharmacodynamics
     - https://en.wikipedia.org/wiki/Ergosterol#Target_for_antifungal_drugs
--   comments: MESH:D016780 was initially denoted as Falciparum malaria in the original
+-   comment: MESH:D016780 was initially denoted as Falciparum malaria in the original
         xls file but the name on the MESH website is Malaria, Falciparum, which is
-        the name used here for our annotation. Also note that heme and hematin are
-        related substances resulting from the parasite hemoglobin catabolism. Heme
-        is bound to iron whereas hematin is the hydroxide counterpart of heme. Both
-        are cytotoxic.
+        the name used here.
     directed: true
     graph:
         _id: DB09274_MESH_D016778_1
@@ -41765,11 +41834,8 @@
     -   key: negatively regulates
         source: MESH:D000077332
         target: UniProt:P04926
-    -   key: decreases abundance of
-        source: UniProt:P04926
-        target: MESH:D006427
     -   key: in taxon
-        source: MESH:D006427
+        source: UniProt:P04926
         target: NCBITaxon:5833
     -   key: causes
         source: NCBITaxon:5833
@@ -41784,11 +41850,6 @@
     -   id: UniProt:P04926
         label: Protein
         name: Malaria protein EXP-1
-    -   alt_ids:
-        - MESH:D006418
-        id: MESH:D006427
-        label: ChemicalSubstance
-        name: Hemin
     -   id: NCBITaxon:5833
         label: OrganismTaxon
         name: Plasmodium falciparum
@@ -41798,11 +41859,8 @@
     reference:
     - https://go.drugbank.com/drugs/DB09274#mechanism-of-action
     - https://pubchem.ncbi.nlm.nih.gov/compound/6917864#section=Pharmacology-and-Biochemistry
--   comments: MESH:D016780 was initially denoted as Vivax malaria in the original
-        xls file but the name on the MESH website, Malaria, Vivax, is the one used
-        here for our annotation. Also note that heme and hematin are related substances
-        resulting from the parasite hemoglobin catabolism. Heme is bound to iron and
-        hematin is the hydroxide counterpart of heme. Both are cytotoxic to the parasite.
+-   comment: MESH:D016780 was initially denoted as Vivax malaria in the original xls
+        file but the name on the MESH website, Malaria, Vivax, is the one used here.
     directed: true
     graph:
         _id: DB09274_MESH_D016780_1
@@ -41815,11 +41873,8 @@
     -   key: negatively regulates
         source: MESH:D000077332
         target: Pfam:PF06589
-    -   key: decreases abundance of
-        source: Pfam:PF06589
-        target: MESH:D006427
     -   key: in taxon
-        source: MESH:D006427
+        source: Pfam:PF06589
         target: NCBITaxon:5855
     -   key: causes
         source: NCBITaxon:5855
@@ -41834,9 +41889,6 @@
     -   id: Pfam:PF06589
         label: GeneFamily
         name: Circumsporozoite-related antigen (CRA)
-    -   id: MESH:D006427
-        label: ChemicalSubstance
-        name: Hemin
     -   id: NCBITaxon:5855
         label: OrganismTaxon
         name: Plasmodium vivax
@@ -41846,7 +41898,7 @@
     reference:
     - https://go.drugbank.com/drugs/DB09274#pharmacodynamics
     - https://pubchem.ncbi.nlm.nih.gov/compound/6917864#section=Pharmacology-and-Biochemistry
--   comments: ABT-267 is also known as ombitasvir (see Other names at https://en.wikipedia.org/wiki/Ombitasvir).
+-   comment: ABT-267 is also known as ombitasvir (see Other names at https://en.wikipedia.org/wiki/Ombitasvir).
     directed: true
     graph:
         _id: DB09296_MESH_D019698_1
@@ -41954,7 +42006,7 @@
     - https://en.wikipedia.org/wiki/Discovery_and_development_of_NS5A_inhibitors#Function
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246218/
     - https://www.ncbi.nlm.nih.gov/books/NBK1623/
--   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
+-   comment: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
         myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
         This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
         Note the original drug to curate for this disease was inositol but there is
@@ -41969,26 +42021,17 @@
         drug_mesh: MESH:C005193
         drugbank: DB:DB08949
     links:
-    -   key: increases activity of
-        source: MESH:C005193
-        target: UniProt:P49019
-    -   key: increases activity of
+    -   key: positively regulates
         source: MESH:C005193
         target: UniProt:Q8TDS4
-    -   key: participates in
-        source: UniProt:P49019
-        target: REACT:R-HSA-418594
-    -   key: participates in
+    -   key: positively regulates
+        source: MESH:C005193
+        target: UniProt:P49019
+    -   key: increases abundance of
         source: UniProt:Q8TDS4
-        target: REACT:R-HSA-418594
-    -   key: negatively regulates
-        source: REACT:R-HSA-418594
-        target: GO:0016042
-    -   key: decreases abundance of
-        source: GO:0016042
-        target: MESH:D014280
-    -   key: negatively correlated with
-        source: MESH:D014280
+        target: MESH:D008075
+    -   key: increases abundance of
+        source: UniProt:P49019
         target: MESH:D008075
     -   key: negatively correlated with
         source: MESH:D008075
@@ -42004,15 +42047,6 @@
     -   id: UniProt:Q8TDS4
         label: Protein
         name: Hydroxycarboxylic acid receptor 2
-    -   id: REACT:R-HSA-418594
-        label: Pathway
-        name: G alpha (i) signalling events
-    -   id: GO:0016042
-        label: BiologicalProcess
-        name: lipid catabolic process
-    -   id: MESH:D014280
-        label: ChemicalSubstance
-        name: Triglycerides
     -   id: MESH:D008075
         label: ChemicalSubstance
         name: Lipoproteins, HDL
@@ -42020,12 +42054,9 @@
         label: Disease
         name: Hypoalphalipoproteinemia
     reference:
-    - https://go.drugbank.com/drugs/DB08949#mechanism-of-action
-    - https://pubmed.ncbi.nlm.nih.gov/15083592/
-    - https://www.sciencedirect.com/science/article/pii/B978032329738700037X
-    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
-    - https://en.wikipedia.org/wiki/Triglyceride#Role_in_disease
--   comments: This disease was named Mixed hyperlipidemia in the original file for
+    - https://en.wikipedia.org/wiki/Hypoalphalipoproteinemia
+    - https://en.wikipedia.org/wiki/Niacin#Mechanisms
+-   comment: This disease was named Mixed hyperlipidemia in the original file for
         curation but it's known as Hyperlipidemia, Familial Combined in MESH. Note
         there does not seem to be any evidence supporting this drug indication (e.g.
         https://en.wikipedia.org/wiki/Combined_hyperlipidemia#Treatment), so this
@@ -42058,11 +42089,8 @@
     -   key: participates in
         source: UniProt:Q8TDS4
         target: REACT:R-HSA-418594
-    -   key: negatively regulates
-        source: REACT:R-HSA-418594
-        target: GO:0016042
     -   key: decreases abundance of
-        source: GO:0016042
+        source: REACT:R-HSA-418594
         target: MESH:D014280
     -   key: positively correlated with
         source: MESH:D014280
@@ -42096,9 +42124,6 @@
     -   id: REACT:R-HSA-418594
         label: Pathway
         name: G alpha (i) signalling events
-    -   id: GO:0016042
-        label: BiologicalProcess
-        name: lipid catabolic process
     -   id: MESH:D014280
         label: ChemicalSubstance
         name: Triglycerides
@@ -42120,7 +42145,7 @@
     - https://pubmed.ncbi.nlm.nih.gov/15083592/
     - https://www.sciencedirect.com/science/article/pii/B978032329738700037X
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
--   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
+-   comment: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
         myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
         This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
         Note the original drug to curate for this disease was inositol but there is
@@ -42147,11 +42172,8 @@
     -   key: participates in
         source: UniProt:Q8TDS4
         target: REACT:R-HSA-418594
-    -   key: negatively regulates
-        source: REACT:R-HSA-418594
-        target: GO:0016042
     -   key: decreases abundance of
-        source: GO:0016042
+        source: REACT:R-HSA-418594
         target: MESH:D014280
     -   key: positively correlated with
         source: MESH:D014280
@@ -42170,9 +42192,6 @@
     -   id: REACT:R-HSA-418594
         label: Pathway
         name: G alpha (i) signalling events
-    -   id: GO:0016042
-        label: BiologicalProcess
-        name: lipid catabolic process
     -   id: MESH:D014280
         label: ChemicalSubstance
         name: Triglycerides
@@ -42186,7 +42205,7 @@
     - https://pubmed.ncbi.nlm.nih.gov/15083592/
     - https://www.sciencedirect.com/science/article/pii/B978032329738700037X
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
--   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
+-   comment: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
         myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
         This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
         Note the original drug to curate for this disease was inositol but there is
@@ -42213,11 +42232,8 @@
     -   key: participates in
         source: UniProt:Q8TDS4
         target: REACT:R-HSA-418594
-    -   key: negatively regulates
-        source: REACT:R-HSA-418594
-        target: GO:0016042
     -   key: decreases abundance of
-        source: GO:0016042
+        source: REACT:R-HSA-418594
         target: MESH:D014280
     -   key: positively correlated with
         source: MESH:D014280
@@ -42251,9 +42267,6 @@
     -   id: REACT:R-HSA-418594
         label: Pathway
         name: G alpha (i) signalling events
-    -   id: GO:0016042
-        label: BiologicalProcess
-        name: lipid catabolic process
     -   id: MESH:D014280
         label: ChemicalSubstance
         name: Triglycerides
@@ -42275,7 +42288,7 @@
     - https://pubmed.ncbi.nlm.nih.gov/15083592/
     - https://www.sciencedirect.com/science/article/pii/B978032329738700037X
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441126/
--   comments: MESH:D015451 can also be denoted as Chronic lymphoid leukemia.
+-   comment: MESH:D015451 can also be denoted as Chronic lymphoid leukemia.
     directed: true
     graph:
         _id: DB11581_MESH_D015451_1
@@ -42288,11 +42301,14 @@
     -   key: negatively regulates
         source: MESH:C579720
         target: UniProt:P10415
-    -   key: negatively regulates
+    -   key: positively regulates
         source: UniProt:P10415
-        target: GO:0097190
-    -   key: negatively correlated with
-        source: GO:0097190
+        target: GO:0006915
+    -   key: located in
+        source: GO:0006915
+        target: CL:0000542
+    -   key: location of
+        source: CL:0000542
         target: MESH:D015451
     multigraph: true
     nodes:
@@ -42302,16 +42318,19 @@
     -   id: UniProt:P10415
         label: Protein
         name: Apoptosis regulator Bcl-2
-    -   id: GO:0097190
+    -   id: GO:0006915
         label: BiologicalProcess
-        name: apoptotic signaling pathway
+        name: apoptotic process
+    -   id: CL:0000542
+        label: Cell
+        name: lymphocyte
     -   id: MESH:D015451
         label: Disease
         name: Leukemia, Lymphocytic, Chronic, B-Cell
     reference:
     - https://go.drugbank.com/drugs/DB11581#mechanism-of-action
     - https://en.wikipedia.org/wiki/Bcl-2#Venetoclax_(ABT-199)
--   comments: FDA has withdrawn the approval for marketing this drug as per its cardiovascular
+-   comment: FDA has withdrawn the approval for marketing this drug as per its cardiovascular
         side-effects.
     directed: true
     graph:
@@ -42328,11 +42347,11 @@
     -   key: positively regulates
         source: UniProt:P31645
         target: GO:0051610
-    -   key: positively correlated with
+    -   key: affects risk for
         source: GO:0051610
-        target: MESH:D001066
+        target: HP:0100738
     -   key: positively correlated with
-        source: MESH:D001066
+        source: HP:0100738
         target: MESH:D009765
     multigraph: true
     nodes:
@@ -42345,16 +42364,16 @@
     -   id: GO:0051610
         label: BiologicalProcess
         name: serotonin uptake
-    -   id: MESH:D001066
+    -   id: HP:0100738
         label: PhenotypicFeature
-        name: Appetite
+        name: Abnormal eating behavior
     -   id: MESH:D009765
         label: Disease
         name: Obesity
     reference:
     - https://go.drugbank.com/drugs/DB01191#mechanism-of-action
     - https://en.wikipedia.org/wiki/Dexfenfluramine
--   comments: FDA has withdrawn the approval for marketing this drug as per its cardiovascular
+-   comment: FDA has withdrawn the approval for marketing this drug as per its cardiovascular
         side-effects.
     directed: true
     graph:
@@ -42392,7 +42411,7 @@
         label: Protein
         name: 5-hydroxytryptamine receptor 2C
     -   id: REACT:R-HSA-416476
-        label: BiologicalProcess
+        label: Pathway
         name: G alpha (q) signalling events
     -   id: GO:0007631
         label: BiologicalProcess
@@ -42650,8 +42669,8 @@
     reference:
     - https://go.drugbank.com/drugs/DB01009
     - https://www.aafp.org/afp/1999/0801/p489.html
--   comments: In contrast to rheumatoid arthritis, in osteoarthritis the joints do
-        not become hot or red.  (https://en.wikipedia.org/wiki/Osteoarthritis#cite_note-NIH2015-1)
+-   comment: In contrast to rheumatoid arthritis, in osteoarthritis the joints do
+        not become hot or red (https://en.wikipedia.org/wiki/Osteoarthritis#cite_note-NIH2015-1).
     directed: true
     graph:
         _id: DB01009_MESH_D010003_1
@@ -42700,7 +42719,7 @@
         label: Protein
         name: Prostaglandin G/H synthase 2
     -   id: REACT:R-HSA-2162123
-        label: BiologicalProcess
+        label: Pathway
         name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
     -   id: MESH:D011453
         label: ChemicalSubstance
@@ -42716,12 +42735,7 @@
         name: Osteoarthritis
     reference:
     - https://go.drugbank.com/drugs/DB01009
--   comments: Other commonly used names for this drug are inositol nicotinate (CHEBI:50134),
-        myo-inositol hexanicotinate (CHEBI:31699) and inositol hexanicotinate (CHEBI:33064)(https://en.wikipedia.org/wiki/Inositol_nicotinate).
-        This drug is made of niacin (vitamin B3, MESH:D009525) and inositol (MESH:D007294.
-        Note the original drug to curate for this disease was inositol but there is
-        no evidence for it to be used as treatment unless it's bound to nicotinic
-        acid to form inositol hexanicotinate.??
+-   comment: Other commonly used names for this drug are inositol nicotinate (CHEB
     directed: true
     graph:
         _id: DB08949_MESH_D010383_1
@@ -59954,7 +59968,7 @@
     - https://en.wikipedia.org/wiki/Quinupristin
     - https://www.tandfonline.com/doi/abs/10.1517/13543784.7.4.591
     - https://en.wikipedia.org/wiki/Quinupristin/dalfopristin#Mechanism_of_action
--   comments: Nabumetone is a prodrug, which is metabolised into the pharmacologically
+-   comment: Nabumetone is a prodrug, which is metabolised into the pharmacologically
         active drug (CHEBI:35628, 6-methoxy-2-naphthyl acetic acid). Note that the
         drug preferentially blocks COX-2 activity.
     directed: true
@@ -59966,7 +59980,7 @@
         drug_mesh: MESH:D007660
         drugbank: DB:DB00461
     links:
-    -   key: produces
+    -   key: has metabolite
         source: MESH:D007660
         target: CHEBI:35628
     -   key: decreases activity of
@@ -60028,7 +60042,7 @@
     reference:
     - https://go.drugbank.com/drugs/DB00461#mechanism-of-action
     - https://en.wikipedia.org/wiki/Nabumetone
--   comments: Nabumetone is a prodrug, which is metabolised into the pharmacologically
+-   comment: Nabumetone is a prodrug, which is metabolised into the pharmacologically
         active drug (CHEBI:35628, 6-methoxy-2-naphthyl acetic acid). Note that the
         drug preferentially blocks COX-2 activity.
     directed: true
@@ -60040,7 +60054,7 @@
         drug_mesh: MESH:D007660
         drugbank: DB:DB00461
     links:
-    -   key: produces
+    -   key: has metabolite
         source: MESH:D007660
         target: CHEBI:35628
     -   key: decreases activity of
@@ -60085,7 +60099,7 @@
         label: Protein
         name: Prostaglandin G/H synthase 2
     -   id: REACT:R-HSA-2162123
-        label: BiologicalProcess
+        label: Pathway
         name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
     -   id: MESH:D011453
         label: ChemicalSubstance
