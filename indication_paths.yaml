@@ -117792,1575 +117792,6 @@
     - https://go.drugbank.com/drugs/DB13167
 -   directed: true
     graph:
-        _id: DB00090_MESH_D008059_1
-        disease: Mucopolysaccharidosis, MPS-I
-        disease_mesh: MESH:D008059
-        drug: laronidase
-        drug_mesh: null
-        drugbank: DB:DB00090
-    links:
-    -   key: chemically similar to
-        source: DB:DB00090
-        target: UniProt:P35475
-    -   key: increases degradation of
-        source: UniProt:P35475
-        target: CHEBI:43394
-    -   key: part of
-        source: CHEBI:43394
-        target: MESH:D003871
-    -   key: part of
-        source: CHEBI:43394
-        target: MESH:D006497
-    -   key: part of
-        source: MESH:D003871
-        target: MESH:D006025
-    -   key: part of
-        source: MESH:D006497
-        target: MESH:D006025
-    -   key: manifestation of
-        source: MESH:D006025
-        target: MESH:D008059
-    multigraph: true
-    nodes:
-    -   id: DB:DB00090
-        label: Drug
-        name: laronidase
-    -   id: UniProt:P35475
-        label: Protein
-        name: Alpha-L-iduronidase
-    -   id: CHEBI:43394
-        label: ChemicalSubstance
-        name: "\u03B1-L-iduronic acid"
-    -   id: MESH:D003871
-        label: ChemicalSubstance
-        name: Dermatan Sulfate
-    -   id: MESH:D006497
-        label: ChemicalSubstance
-        name: Heparan Sulfate
-    -   id: MESH:D006025
-        label: ChemicalSubstance
-        name: Glycosaminoglycan
-    -   id: MESH:D008059
-        label: Disease
-        name: Mucopolysaccharidosis, MPS-I
-    reference:
-    - https://go.drugbank.com/drugs/DB00090
--   comment: Mechanism of action unknown. The hypothesis for the natural concentration
-        is that lutein helps protect from oxidative stress and high-energy light
-    directed: true
-    graph:
-        _id: DB00137_MESH_D008268_1
-        disease: Age related macular degeneration
-        disease_mesh: MESH:D008268
-        drug: lutein
-        drug_mesh: MESH:D014975
-        drugbank: DB:DB00137
-    links:
-    -   key: chemically similar to
-        source: MESH:D014975
-        target: CHEBI:23044
-    -   key: located in
-        source: CHEBI:23044
-        target: UBERON:0000054
-    -   key: location of
-        source: UBERON:0000054
-        target: UBERON:0000966
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0016209
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0009882
-    -   key: prevents
-        source: GO:0016209
-        target: MESH:D008268
-    -   key: prevents
-        source: GO:0009882
-        target: MESH:D008268
-    -   key: manifestation of
-        source: UBERON:0000966
-        target: MESH:D008268
-    multigraph: true
-    nodes:
-    -   id: MESH:D014975
-        label: Drug
-        name: lutein
-    -   id: CHEBI:23044
-        label: ChemicalSubstance
-        name: carotenoid
-    -   id: UBERON:0000054
-        label: GrossAnatomicalStructure
-        name: Macula
-    -   id: UBERON:0000966
-        label: GrossAnatomicalStructure
-        name: Retina
-    -   id: GO:0016209
-        label: MolecularActivity
-        name: antioxidant activity
-    -   id: GO:0009882
-        label: MolecularActivity
-        name: blue light photoreceptor activity
-    -   id: MESH:D008268
-        label: Disease
-        name: Age related macular degeneration
-    reference:
-    - https://go.drugbank.com/drugs/DB00137
-    - https://pubmed.ncbi.nlm.nih.gov/28425969/
--   comment: Mechanism of action unknown. The hypothesis for the natural concentration
-        is that lutein helps protect from oxidative stress and high-energy light
-    directed: true
-    graph:
-        _id: DB00137_MESH_D015352_1
-        disease: Tear film insufficiency
-        disease_mesh: MESH:D015352
-        drug: lutein
-        drug_mesh: MESH:D014975
-        drugbank: DB:DB00137
-    links:
-    -   key: chemically similar to
-        source: MESH:D014975
-        target: CHEBI:23044
-    -   key: located in
-        source: CHEBI:23044
-        target: UBERON:0000054
-    -   key: location of
-        source: UBERON:0000054
-        target: UBERON:0000966
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0016209
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0009882
-    -   key: prevents
-        source: GO:0016209
-        target: MESH:D015352
-    -   key: prevents
-        source: GO:0009882
-        target: MESH:D015352
-    -   key: manifestation of
-        source: UBERON:0000966
-        target: MESH:D015352
-    multigraph: true
-    nodes:
-    -   id: MESH:D014975
-        label: Drug
-        name: lutein
-    -   id: CHEBI:23044
-        label: ChemicalSubstance
-        name: carotenoid
-    -   id: UBERON:0000054
-        label: GrossAnatomicalStructure
-        name: Macula
-    -   id: UBERON:0000966
-        label: GrossAnatomicalStructure
-        name: Retina
-    -   id: GO:0016209
-        label: MolecularActivity
-        name: antioxidant activity
-    -   id: GO:0009882
-        label: MolecularActivity
-        name: blue light photoreceptor activity
-    -   id: MESH:D015352
-        label: Disease
-        name: Tear film insufficiency
-    reference:
-    - https://go.drugbank.com/drugs/DB00137
-    - https://pubmed.ncbi.nlm.nih.gov/28425969/
--   comment: Mechanism of action unknown. The hypothesis for the natural concentration
-        is that lutein helps protect from oxidative stress and high-energy light
-    directed: true
-    graph:
-        _id: DB00137_MESH_D000080343_1
-        disease: Meibomian gland dysfunction
-        disease_mesh: MESH:D000080343
-        drug: lutein
-        drug_mesh: MESH:D014975
-        drugbank: DB:DB00137
-    links:
-    -   key: chemically similar to
-        source: MESH:D014975
-        target: CHEBI:23044
-    -   key: located in
-        source: CHEBI:23044
-        target: UBERON:0000054
-    -   key: location of
-        source: UBERON:0000054
-        target: UBERON:0000966
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0016209
-    -   key: participates in
-        source: CHEBI:23044
-        target: GO:0009882
-    -   key: prevents
-        source: GO:0016209
-        target: MESH:D000080343
-    -   key: prevents
-        source: GO:0009882
-        target: MESH:D000080343
-    -   key: manifestation of
-        source: UBERON:0000966
-        target: MESH:D000080343
-    multigraph: true
-    nodes:
-    -   id: MESH:D014975
-        label: Drug
-        name: lutein
-    -   id: CHEBI:23044
-        label: ChemicalSubstance
-        name: carotenoid
-    -   id: UBERON:0000054
-        label: GrossAnatomicalStructure
-        name: Macula
-    -   id: UBERON:0000966
-        label: GrossAnatomicalStructure
-        name: Retina
-    -   id: GO:0016209
-        label: MolecularActivity
-        name: antioxidant activity
-    -   id: GO:0009882
-        label: MolecularActivity
-        name: blue light photoreceptor activity
-    -   id: MESH:D000080343
-        label: Disease
-        name: Meibomian gland dysfunction
-    reference:
-    - https://go.drugbank.com/drugs/DB00137
-    - https://pubmed.ncbi.nlm.nih.gov/28425969/
--   directed: true
-    graph:
-        _id: DB00209_MESH_D053202_1
-        disease: Urge incontinence of urine
-        disease_mesh: MESH:D053202
-        drug: trospium
-        drug_mesh: MESH:C003330
-        drugbank: DB:DB00209
-    links:
-    -   key: decreases activity of
-        source: MESH:C003330
-        target: UniProt:P11229
-    -   key: participates in
-        source: UniProt:P11229
-        target: GO:1905144
-    -   key: positively regulates
-        source: GO:1905144
-        target: GO:0006939
-    -   key: located in
-        source: GO:0006939
-        target: UBERON:0001255
-    -   key: location of
-        source: UBERON:0001255
-        target: GO:0014832
-    -   key: positively correlated with
-        source: GO:0014832
-        target: GO:0060073
-    -   key: positively correlated with
-        source: GO:0060073
-        target: MESH:D053202
-    multigraph: true
-    nodes:
-    -   id: MESH:C003330
-        label: Drug
-        name: trospium
-    -   id: UniProt:P11229
-        label: Protein
-        name: Muscarinic acetylcholine receptor M1
-    -   id: GO:1905144
-        label: BiologicalProcess
-        name: response to acetylcholine
-    -   id: GO:0006939
-        label: BiologicalProcess
-        name: smooth muscle contraction
-    -   id: UBERON:0001255
-        label: GrossAnatomicalStructure
-        name: urinary bladder
-    -   id: GO:0014832
-        label: BiologicalProcess
-        name: Urinary bladder smooth muscle contraction
-    -   id: GO:0060073
-        label: BiologicalProcess
-        name: Urination
-    -   id: MESH:D053202
-        label: Disease
-        name: Urge incontinence of urine
-    reference:
-    - https://go.drugbank.com/drugs/DB00209#BE0000092
--   directed: true
-    graph:
-        _id: DB00570_MESH_D012514_1
-        disease: Kaposi's sarcoma
-        disease_mesh: MESH:D012514
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:D012514
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:D012514
-        label: Disease
-        name: Kaposi's sarcoma
-    reference:
-    - https://go.drugbank.com/drugs/DB00570#BE0001340
-    - https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
-    graph:
-        _id: DB00570_MESH_D009182_1
-        disease: Mycosis fungoides
-        disease_mesh: MESH:D009182
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:D009182
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:D009182
-        label: Disease
-        name: Mycosis fungoides
-    reference:
-    - https://go.drugbank.com/drugs/DB00570#BE0001340
-    - https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
-    graph:
-        _id: DB00570_MESH_D008228_1
-        disease: Non-Hodgkin's lymphoma
-        disease_mesh: MESH:D008228
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:D008228
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:D008228
-        label: Disease
-        name: Non-Hodgkin's lymphoma
-    reference:
-    - https://go.drugbank.com/drugs/DB00570#BE0001340
-    - https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
-    graph:
-        _id: DB00570_MESH_D013736_1
-        disease: Malignant tumor of testis
-        disease_mesh: MESH:D013736
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:D013736
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:D013736
-        label: Disease
-        name: Malignant tumor of testis
-    reference:
-    - https://go.drugbank.com/drugs/DB00570#BE0001340
-    - https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
-    graph:
-        _id: DB00570_MESH_C538636_1
-        disease: Langerhans cell histiocytosis, disseminated
-        disease_mesh: MESH:C538636
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:C538636
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:C538636
-        label: Disease
-        name: Langerhans cell histiocytosis, disseminated
-    reference:
-    - https://go.drugbank.com/drugs/DB00570#BE0001340
-    - https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
-    graph:
-        _id: DB00570_MESH_D006689_1
-        disease: Hodgkin's disease
-        disease_mesh: MESH:D006689
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:D006689
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:D006689
-        label: Disease
-        name: Hodgkin's disease
-    reference:
-    - https://go.drugbank.com/drugs/DB00570#BE0001340
-    - https://en.wikipedia.org/wiki/Vinblastine
--   directed: true
-    graph:
-        _id: DB00570_MESH_D031901_1
-        disease: Gestational trophoblastic neoplasia
-        disease_mesh: MESH:D031901
-        drug: vinblastine
-        drug_mesh: MESH:D014747
-        drugbank: DB:DB00570
-    links:
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q71U36
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P07437
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT1
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:P23258
-    -   key: decreases activity of
-        source: MESH:D014747
-        target: UniProt:Q9UJT0
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q71U36
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P07437
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT1
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:P23258
-        target: GO:1902850
-    -   key: part of
-        source: UniProt:Q9UJT0
-        target: GO:1902850
-    -   key: positively regulates
-        source: GO:1902850
-        target: GO:0140014
-    -   key: positively regulates
-        source: GO:0140014
-        target: GO:0008283
-    -   key: positively correlated with
-        source: GO:0008283
-        target: MESH:D031901
-    multigraph: true
-    nodes:
-    -   id: MESH:D014747
-        label: Drug
-        name: vinblastine
-    -   id: UniProt:Q71U36
-        label: Protein
-        name: Tubulin alpha-1A chain
-    -   id: UniProt:P07437
-        label: Protein
-        name: Tubulin beta chain
-    -   id: UniProt:Q9UJT1
-        label: Protein
-        name: Tubulin delta chain
-    -   id: UniProt:P23258
-        label: Protein
-        name: Tubulin gamma-1 chain
-    -   id: UniProt:Q9UJT0
-        label: Protein
-        name: Tubulin epsilon chain
-    -   id: GO:1902850
-        label: BiologicalProcess
-        name: Microtubule cytoskeleton organization involved in mitosis
-    -   id: GO:0140014
-        label: BiologicalProcess
-        name: Mitotic nuclear division
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
-    -   id: MESH:D031901
-        label: Disease
-        name: Gestational trophoblastic neoplasia
-    reference:
-    - https://go.drugbank.com/drugs/DB00570#BE0001340
-    - https://en.wikipedia.org/wiki/Vinblastine
--   comment: Mechanism of action of penicillamine wrt to Rheumatoid arthritis is unknown
-    directed: true
-    graph:
-        _id: DB00859_MESH_D001172_1
-        disease: Rheumatoid arthritis
-        disease_mesh: MESH:D001172
-        drug: penicillamine
-        drug_mesh: MESH:D010396
-        drugbank: DB:DB00859
-    links:
-    -   key: capable of
-        source: MESH:D010396
-        target: GO:0046911
-    -   key: decreases activity of
-        source: GO:0046911
-        target: CL:0000084
-    -   key: participates in
-        source: CL:0000084
-        target: GO:0006955
-    -   key: positively correlated with
-        source: GO:0006955
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: MESH:D001172
-    multigraph: true
-    nodes:
-    -   id: MESH:D010396
-        label: Drug
-        name: penicillamine
-    -   id: GO:0046911
-        label: MolecularActivity
-        name: metal chelating activity
-    -   id: CL:0000084
-        label: Cell
-        name: T cell
-    -   id: GO:0006955
-        label: BiologicalProcess
-        name: Immune response
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammation
-    -   id: MESH:D001172
-        label: Disease
-        name: Rheumatoid arthritis
-    reference:
-    - https://go.drugbank.com/drugs/DB00859
-    - https://www.sciencedirect.com/science/article/pii/B9780080280240500165
--   directed: true
-    graph:
-        _id: DB00859_MESH_D006527_1
-        disease: Wilson's disease
-        disease_mesh: MESH:D006527
-        drug: penicillamine
-        drug_mesh: MESH:D010396
-        drugbank: DB:DB00859
-    links:
-    -   key: capable of
-        source: MESH:D010396
-        target: GO:0046911
-    -   key: molecularly interacts with
-        source: MESH:D010396
-        target: MESH:D003300
-    -   key: decreases abundance of
-        source: GO:0046911
-        target: MESH:D003300
-    -   key: regulates
-        source: MESH:D003300
-        target: GO:0044062
-    -   key: positively regulates
-        source: GO:0044062
-        target: GO:0055070
-    -   key: manifestation of
-        source: GO:0055070
-        target: MESH:D006527
-    multigraph: true
-    nodes:
-    -   id: MESH:D010396
-        label: Drug
-        name: penicillamine
-    -   id: GO:0046911
-        label: MolecularActivity
-        name: metal chelating activity
-    -   id: MESH:D003300
-        label: ChemicalSubstance
-        name: Copper
-    -   id: GO:0055070
-        label: BiologicalProcess
-        name: Copper ion homeostasis
-    -   id: GO:0044062
-        label: BiologicalProcess
-        name: regulation of excretion
-    -   id: MESH:D006527
-        label: Disease
-        name: Wilson's disease
-    reference:
-    - https://go.drugbank.com/drugs/DB00859
-    - https://pubmed.ncbi.nlm.nih.gov/22802922/
--   directed: true
-    graph:
-        _id: DB00859_MESH_D003555_1
-        disease: Cystinuria
-        disease_mesh: MESH:D003555
-        drug: penicillamine
-        drug_mesh: MESH:D010396
-        drugbank: DB:DB00859
-    links:
-    -   key: capable of
-        source: MESH:D010396
-        target: GO:0046911
-    -   key: molecularly interacts with
-        source: MESH:D010396
-        target: CHEBI:17376
-    -   key: decreases abundance of
-        source: GO:0046911
-        target: CHEBI:17376
-    -   key: participates in
-        source: CHEBI:17376
-        target: GO:0044062
-    -   key: causes
-        source: CHEBI:17376
-        target: HP:0003131
-    -   key: correlated with
-        source: GO:0044062
-        target: MESH:D003555
-    -   key: manifestation of
-        source: HP:0003131
-        target: MESH:D003555
-    multigraph: true
-    nodes:
-    -   id: MESH:D010396
-        label: Drug
-        name: penicillamine
-    -   id: GO:0046911
-        label: MolecularActivity
-        name: metal chelating activity
-    -   id: CHEBI:17376
-        label: ChemicalSubstance
-        name: cystine
-    -   id: HP:0003131
-        label: PhenotypicFeature
-        name: Cystinuria
-    -   id: GO:0044062
-        label: BiologicalProcess
-        name: regulation of excretion
-    -   id: MESH:D003555
-        label: Disease
-        name: Cystinuria
-    reference:
-    - https://go.drugbank.com/drugs/DB00859
--   comment: gabapentin enacarbil is a prodrug of gabapentin, it's physiological effects
-        are the same as gabapentin.
-    directed: true
-    graph:
-        _id: DB08872_MESH_D051474_1
-        disease: Postherpetic neuralgia
-        disease_mesh: MESH:D051474
-        drug: gabapentin enacarbil
-        drug_mesh: MESH:C493250
-        drugbank: DB:DB08872
-    links:
-    -   key: decreases activity of
-        source: MESH:C493250
-        target: UniProt:Q9NY47
-    -   key: decreases molecular interaction
-        source: UniProt:Q9NY47
-        target: InterPro:IPR018882
-    -   key: decreases expression of
-        source: InterPro:IPR018882
-        target: UniProt:Q00975
-    -   key: decreases molecular interaction
-        source: UniProt:Q9NY47
-        target: InterPro:IPR037440
-    -   key: decreases expression of
-        source: InterPro:IPR037440
-        target: UniProt:Q00975
-    -   key: decreases molecular interaction
-        source: UniProt:Q9NY47
-        target: InterPro:IPR000884
-    -   key: decreases expression of
-        source: InterPro:IPR000884
-        target: UniProt:Q00975
-    -   key: located in
-        source: UniProt:Q00975
-        target: GO:0098793
-    -   key: prevents
-        source: GO:0098793
-        target: GO:0015278
-    -   key: positively regulates
-        source: GO:0015278
-        target: GO:0007269
-    -   key: negatively regulates
-        source: GO:0098793
-        target: GO:0005262
-    -   key: positively regulates
-        source: GO:0005262
-        target: GO:0007269
-    -   key: ameliorates
-        source: GO:0007269
-        target: HP:0012531
-    -   key: correlated with
-        source: HP:0012531
-        target: MESH:D051474
-    multigraph: true
-    nodes:
-    -   id: MESH:C493250
-        label: Drug
-        name: gabapentin enacarbil
-    -   id: UniProt:Q9NY47
-        label: Protein
-        name: Voltage-dependent calcium channel subunit alpha-2/delta-2
-    -   id: InterPro:IPR018882
-        label: GeneFamily
-        name: NMDA receptors
-    -   id: InterPro:IPR037440
-        label: GeneFamily
-        name: Neurexins
-    -   id: InterPro:IPR000884
-        label: GeneFamily
-        name: Thrombospondins
-    -   id: UniProt:Q00975
-        label: Protein
-        name: Voltage-gated calcium channels
-    -   id: GO:0098793
-        label: CellularComponent
-        name: Presynapse
-    -   id: GO:0015278
-        label: MolecularActivity
-        name: Calcium-release channel activity
-    -   id: GO:0005262
-        label: MolecularActivity
-        name: Calcium channel activity
-    -   id: GO:0007269
-        label: BiologicalProcess
-        name: Neurotransmitter release
-    -   id: HP:0012531
-        label: PhenotypicFeature
-        name: Pain
-    -   id: MESH:D051474
-        label: Disease
-        name: Postherpetic neuralgia
-    reference:
-    - https://go.drugbank.com/drugs/DB08872#BE0000691
-    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2874339/
--   comment: gabapentin enacarbil is a prodrug of gabapentin, it's physiological effects
-        are the same as gabapentin.
-    directed: true
-    graph:
-        _id: DB08872_MESH_D012148_1
-        disease: Restless legs
-        disease_mesh: MESH:D012148
-        drug: gabapentin enacarbil
-        drug_mesh: MESH:C493250
-        drugbank: DB:DB08872
-    links:
-    -   key: decreases activity of
-        source: MESH:C493250
-        target: UniProt:Q9NY47
-    -   key: decreases molecular interaction
-        source: UniProt:Q9NY47
-        target: InterPro:IPR018882
-    -   key: decreases expression of
-        source: InterPro:IPR018882
-        target: UniProt:Q00975
-    -   key: decreases molecular interaction
-        source: UniProt:Q9NY47
-        target: InterPro:IPR037440
-    -   key: decreases expression of
-        source: InterPro:IPR037440
-        target: UniProt:Q00975
-    -   key: decreases molecular interaction
-        source: UniProt:Q9NY47
-        target: InterPro:IPR000884
-    -   key: decreases expression of
-        source: InterPro:IPR000884
-        target: UniProt:Q00975
-    -   key: located in
-        source: UniProt:Q00975
-        target: GO:0098793
-    -   key: prevents
-        source: GO:0098793
-        target: GO:0015278
-    -   key: positively regulates
-        source: GO:0015278
-        target: GO:0007269
-    -   key: negatively regulates
-        source: GO:0098793
-        target: GO:0005262
-    -   key: positively regulates
-        source: GO:0005262
-        target: GO:0007269
-    -   key: ameliorates
-        source: GO:0007269
-        target: HP:0012514
-    -   key: correlated with
-        source: HP:0012514
-        target: MESH:D012148
-    multigraph: true
-    nodes:
-    -   id: MESH:C493250
-        label: Drug
-        name: gabapentin enacarbil
-    -   id: UniProt:Q9NY47
-        label: Protein
-        name: Voltage-dependent calcium channel subunit alpha-2/delta-2
-    -   id: InterPro:IPR018882
-        label: GeneFamily
-        name: NMDA receptors
-    -   id: InterPro:IPR037440
-        label: GeneFamily
-        name: Neurexins
-    -   id: InterPro:IPR000884
-        label: GeneFamily
-        name: Thrombospondins
-    -   id: UniProt:Q00975
-        label: Protein
-        name: Voltage-gated calcium channels
-    -   id: GO:0098793
-        label: CellularComponent
-        name: Presynapse
-    -   id: GO:0015278
-        label: MolecularActivity
-        name: Calcium-release channel activity
-    -   id: GO:0005262
-        label: MolecularActivity
-        name: Calcium channel activity
-    -   id: GO:0007269
-        label: BiologicalProcess
-        name: Neurotransmitter release
-    -   id: HP:0012514
-        label: PhenotypicFeature
-        name: Lower limb pain
-    -   id: MESH:D012148
-        label: Disease
-        name: Restless legs
-    reference:
-    - https://go.drugbank.com/drugs/DB08872#BE0000691
-    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2874339/
--   directed: true
-    graph:
-        _id: DB01268_MESH_D046152_1
-        disease: Gastrointestinal stromal tumor
-        disease_mesh: MESH:D046152
-        drug: sunitinib
-        drug_mesh: MESH:C473478
-        drugbank: DB:DB01268
-    links:
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P09619
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P17948
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P10721
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P35968
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P35916
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P36888
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P07333
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P16234
-    -   key: positively regulates
-        source: UniProt:P09619
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P17948
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P10721
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P35968
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P35916
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P36888
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P07333
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P16234
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P09619
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P17948
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P10721
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P35968
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P35916
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P36888
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P07333
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P16234
-        target: GO:0045766
-    -   key: located in
-        source: GO:0045766
-        target: CL:0001064
-    -   key: located in
-        source: GO:0008284
-        target: CL:0001064
-    -   key: participates in
-        source: CL:0001064
-        target: MESH:D046152
-    multigraph: true
-    nodes:
-    -   id: MESH:C473478
-        label: Drug
-        name: sunitinib
-    -   id: UniProt:P09619
-        label: Protein
-        name: Platelet-derived growth factor receptor beta
-    -   id: UniProt:P17948
-        label: Protein
-        name: Vascular endothelial growth factor receptor 1
-    -   id: UniProt:P10721
-        label: Protein
-        name: Mast/stem cell growth factor receptor Kit
-    -   id: UniProt:P35968
-        label: Protein
-        name: Vascular endothelial growth factor receptor 2
-    -   id: UniProt:P35916
-        label: Protein
-        name: Vascular endothelial growth factor receptor 3
-    -   id: UniProt:P36888
-        label: Protein
-        name: Receptor-type tyrosine-protein kinase FLT3
-    -   id: UniProt:P07333
-        label: Protein
-        name: Macrophage colony-stimulating factor 1 receptor
-    -   id: UniProt:P16234
-        label: Protein
-        name: Platelet-derived growth factor receptor alpha
-    -   id: GO:0008284
-        label: BiologicalProcess
-        name: positive regulation of cell population proliferation
-    -   id: GO:0045766
-        label: BiologicalProcess
-        name: positive regulation of angiogenesis
-    -   id: CL:0001064
-        label: Cell
-        name: cancer cell
-    -   id: MESH:D046152
-        label: Disease
-        name: Gastrointestinal stromal tumor
-    reference:
-    - https://go.drugbank.com/drugs/DB01268#BE0000205
-    - https://pubmed.ncbi.nlm.nih.gov/20110785/
--   directed: true
-    graph:
-        _id: DB01268_MESH_D002292_1
-        disease: Renal cell carcinoma
-        disease_mesh: MESH:D002292
-        drug: sunitinib
-        drug_mesh: MESH:C473478
-        drugbank: DB:DB01268
-    links:
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P09619
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P17948
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P10721
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P35968
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P35916
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P36888
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P07333
-    -   key: decreases activity of
-        source: MESH:C473478
-        target: UniProt:P16234
-    -   key: positively regulates
-        source: UniProt:P09619
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P17948
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P10721
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P35968
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P35916
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P36888
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P07333
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P16234
-        target: GO:0008284
-    -   key: positively regulates
-        source: UniProt:P09619
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P17948
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P10721
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P35968
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P35916
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P36888
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P07333
-        target: GO:0045766
-    -   key: positively regulates
-        source: UniProt:P16234
-        target: GO:0045766
-    -   key: located in
-        source: GO:0045766
-        target: CL:0001064
-    -   key: located in
-        source: GO:0008284
-        target: CL:0001064
-    -   key: participates in
-        source: CL:0001064
-        target: MESH:D002292
-    multigraph: true
-    nodes:
-    -   id: MESH:C473478
-        label: Drug
-        name: sunitinib
-    -   id: UniProt:P09619
-        label: Protein
-        name: Platelet-derived growth factor receptor beta
-    -   id: UniProt:P17948
-        label: Protein
-        name: Vascular endothelial growth factor receptor 1
-    -   id: UniProt:P10721
-        label: Protein
-        name: Mast/stem cell growth factor receptor Kit
-    -   id: UniProt:P35968
-        label: Protein
-        name: Vascular endothelial growth factor receptor 2
-    -   id: UniProt:P35916
-        label: Protein
-        name: Vascular endothelial growth factor receptor 3
-    -   id: UniProt:P36888
-        label: Protein
-        name: Receptor-type tyrosine-protein kinase FLT3
-    -   id: UniProt:P07333
-        label: Protein
-        name: Macrophage colony-stimulating factor 1 receptor
-    -   id: UniProt:P16234
-        label: Protein
-        name: Platelet-derived growth factor receptor alpha
-    -   id: GO:0008284
-        label: BiologicalProcess
-        name: positive regulation of cell population proliferation
-    -   id: GO:0045766
-        label: BiologicalProcess
-        name: positive regulation of angiogenesis
-    -   id: CL:0001064
-        label: Cell
-        name: cancer cell
-    -   id: MESH:D002292
-        label: Disease
-        name: Renal cell carcinoma
-    reference:
-    - https://go.drugbank.com/drugs/DB01268#BE0000205
-    - https://pubmed.ncbi.nlm.nih.gov/20110785/
--   directed: true
-    graph:
-        _id: DB01277_MESH_D046150_1
-        disease: Laron-type isolated somatotropin defect
-        disease_mesh: MESH:D046150
-        drug: mecasermin
-        drug_mesh: MESH:C000604197
-        drugbank: DB:DB01277
-    links:
-    -   key: chemically similar to
-        source: MESH:C000604197
-        target: UniProt:P05019
-    -   key: increases activity of
-        source: UniProt:P05019
-        target: UniProt:P08069
-    -   key: participates in
-        source: UniProt:P08069
-        target: GO:0035988
-    -   key: participates in
-        source: UniProt:P08069
-        target: GO:0003423
-    -   key: participates in
-        source: UniProt:P08069
-        target: GO:0046622
-    -   key: negatively correlated with
-        source: GO:0035988
-        target: HP:0003510
-    -   key: negatively correlated with
-        source: GO:0003423
-        target: HP:0003510
-    -   key: negatively correlated with
-        source: GO:0046622
-        target: HP:0003510
-    -   key: correlated with
-        source: HP:0003510
-        target: MESH:D046150
-    multigraph: true
-    nodes:
-    -   id: MESH:C000604197
-        label: Drug
-        name: mecasermin
-    -   id: UniProt:P05019
-        label: Protein
-        name: Insulin-like growth factor I
-    -   id: UniProt:P08069
-        label: Protein
-        name: Insulin-like growth factor 1 receptor
-    -   id: GO:0035988
-        label: BiologicalProcess
-        name: chondrocyte proliferation
-    -   id: GO:0003423
-        label: BiologicalProcess
-        name: growth plate cartilage chondrocyte division
-    -   id: GO:0046622
-        label: BiologicalProcess
-        name: positive regulation of organ growth
-    -   id: HP:0003510
-        label: PhenotypicFeature
-        name: Severe short stature
-    -   id: MESH:D046150
-        label: Disease
-        name: Laron-type isolated somatotropin defect
-    reference:
-    - https://go.drugbank.com/drugs/DB01277#BE0000858
-    - https://pubmed.ncbi.nlm.nih.gov/19198769/
--   directed: true
-    graph:
         _id: DB00857_MESH_D014008_1
         disease: Tinea pedis
         disease_mesh: MESH:D014008
@@ -122500,3 +120931,996 @@
     - https://go.drugbank.com/drugs/DB12230
     - https://en.wikipedia.org/wiki/Alpha-1_blocker
     - https://drugs.ncats.io/drug/9UUW4V7G2H
+-   directed: true
+    graph:
+        _id: DB00455_MESH_D012912_1
+        disease: sneezing
+        disease_mesh: MESH:D012912
+        drug: loratadine
+        drug_mesh: MESH:D017336
+        drugbank: DB:DB00455
+    links:
+    -   key: decreases activity of
+        source: MESH:D017336
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: positively correlated with
+        source: GO:0004969
+        target: GO:0002441
+    -   key: positively correlated with
+        source: GO:0002441
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:D017336
+        label: Drug
+        name: loratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0002441
+        label: BiologicalProcess
+        name: histamine secretion involved in inflammatory response
+    -   id: MESH:D012912
+        label: Disease
+        name: sneezing
+    reference:
+    - https://go.drugbank.com/drugs/DB00455
+-   directed: true
+    graph:
+        _id: DB00455_MESH_D012223_1
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: loratadine
+        drug_mesh: MESH:D017336
+        drugbank: DB:DB00455
+    links:
+    -   key: decreases activity of
+        source: MESH:D017336
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: positively correlated with
+        source: GO:0004969
+        target: GO:0042311
+    -   key: positively correlated with
+        source: GO:0042311
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:D017336
+        label: Drug
+        name: loratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00455
+-   directed: true
+    graph:
+        _id: DB00455_MESH_D006255_1
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: loratadine
+        drug_mesh: MESH:D017336
+        drugbank: DB:DB00455
+    links:
+    -   key: decreases activity of
+        source: MESH:D017336
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: positively correlated with
+        source: GO:0004969
+        target: GO:0002441
+    -   key: positively correlated with
+        source: GO:0002441
+        target: HP:0009926
+    -   key: positively correlated with
+        source: GO:0002441
+        target: HP:0007879
+    -   key: manifestation of
+        source: HP:0009926
+        target: MESH:D006255
+    -   key: manifestation of
+        source: HP:0007879
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D017336
+        label: Drug
+        name: loratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0002441
+        label: BiologicalProcess
+        name: histamine secretion involved in inflammatory response
+    -   id: HP:0007879
+        label: PhenotypicFeature
+        name: Allergic conjunctivitis
+    -   id: HP:0009926
+        label: PhenotypicFeature
+        name: Epiphora
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00455
+-   directed: true
+    graph:
+        _id: DB00455_MESH_D003139_1
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: loratadine
+        drug_mesh: MESH:D017336
+        drugbank: DB:DB00455
+    links:
+    -   key: decreases activity of
+        source: MESH:D017336
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:12059
+    -   key: causes
+        source: NCBITaxon:12059
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D017336
+        label: Drug
+        name: loratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: NCBITaxon:12059
+        label: OrganismTaxon
+        name: Enterovirus
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference:
+    - https://go.drugbank.com/drugs/DB00455
+    - https://en.wikipedia.org/wiki/Common_cold#Viruses
+-   directed: true
+    graph:
+        _id: DB00455_MESH_D003233_1
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: loratadine
+        drug_mesh: MESH:D017336
+        drugbank: DB:DB00455
+    links:
+    -   key: decreases activity of
+        source: MESH:D017336
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: positively correlated with
+        source: GO:0004969
+        target: GO:0002441
+    -   key: positively correlated with
+        source: GO:0002441
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D017336
+        label: Drug
+        name: loratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0002441
+        label: BiologicalProcess
+        name: histamine secretion involved in inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00455
+-   directed: true
+    graph:
+        _id: DB00792_MESH_D065631_2
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: loratadine
+        drug_mesh: MESH:D017336
+        drugbank: DB:DB00792
+    links:
+    -   key: decreases activity of
+        source: MESH:D017336
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: positively correlated with
+        source: GO:0004969
+        target: GO:0002441
+    -   key: positively correlated with
+        source: GO:0002441
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D017336
+        label: Drug
+        name: loratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0002441
+        label: BiologicalProcess
+        name: histamine secretion involved in inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00455
+-   directed: true
+    graph:
+        _id: DB00792_MESH_D000080223_1
+        disease: Chronic idiopathic urticaria
+        disease_mesh: MESH:D000080223
+        drug: loratadine
+        drug_mesh: MESH:D017336
+        drugbank: DB:DB00792
+    links:
+    -   key: decreases activity of
+        source: MESH:D017336
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: positively correlated with
+        source: GO:0004969
+        target: GO:0002441
+    -   key: positively correlated with
+        source: GO:0002441
+        target: HP:0011276
+    -   key: positively correlated with
+        source: HP:0011276
+        target: MESH:D000080223
+    multigraph: true
+    nodes:
+    -   id: MESH:D017336
+        label: Drug
+        name: loratadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0002441
+        label: BiologicalProcess
+        name: histamine secretion involved in inflammatory response
+    -   id: HP:0011276
+        label: Disease
+        name: Vascular skin abnormality
+    -   id: MESH:D000080223
+        label: Disease
+        name: Chronic idiopathic urticaria
+    reference:
+    - https://go.drugbank.com/drugs/DB00455
+-   comment: The chosen MESH term is the most generic term that encompasses ALL Cytochromes
+        C, whereas InterPro and Pfam have terms to encompass specific types of cytochrome
+        C e.g. Cytochrome c oxidase subunit IV superfamily (IPR036639).
+    directed: true
+    graph:
+        _id: DB09031_MESH_D016773_1
+        disease: Cutaneous leishmaniasis
+        disease_mesh: MESH:D016773
+        drug: miltefosine
+        drug_mesh: MESH:C039128
+        drugbank: DB:DB09031
+    links:
+    -   key: disrupts
+        source: MESH:C039128
+        target: CHEBI:16247
+    -   key: disrupts
+        source: MESH:C039128
+        target: CHEBI:15889
+    -   key: in taxon
+        source: CHEBI:16247
+        target: NCBITaxon:5658
+    -   key: in taxon
+        source: CHEBI:15889
+        target: NCBITaxon:5658
+    -   key: negatively correlated with
+        source: MESH:C039128
+        target: MESH:D045304
+    -   key: in taxon
+        source: MESH:D045304
+        target: NCBITaxon:5658
+    -   key: causes
+        source: NCBITaxon:5658
+        target: MESH:D016773
+    multigraph: true
+    nodes:
+    -   id: MESH:C039128
+        label: Drug
+        name: miltefosine
+    -   id: MESH:D045304
+        label: GeneFamily
+        name: Cytochromes c
+    -   id: CHEBI:16247
+        label: ChemicalSubstance
+        name: phospholipid
+    -   id: CHEBI:15889
+        label: ChemicalSubstance
+        name: sterol
+    -   id: NCBITaxon:5658
+        label: OrganismTaxon
+        name: Leishmania sp
+    -   id: MESH:D016773
+        label: Disease
+        name: Cutaneous leishmaniasis
+    reference:
+    - https://go.drugbank.com/drugs/DB09031
+    - https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/204684s000lbl.pdf
+-   comment: The chosen MESH term is the most generic term that encompasses ALL Cytochromes
+        C, whereas InterPro and Pfam have terms to encompass specific types of cytochrome
+        C e.g. Cytochrome c oxidase subunit IV superfamily (IPR036639).
+    directed: true
+    graph:
+        _id: DB09031_MESH_D007897_1
+        disease: American mucocutaneous leishmaniasis
+        disease_mesh: MESH:D007897
+        drug: miltefosine
+        drug_mesh: MESH:C039128
+        drugbank: DB:DB09031
+    links:
+    -   key: disrupts
+        source: MESH:C039128
+        target: CHEBI:16247
+    -   key: disrupts
+        source: MESH:C039128
+        target: CHEBI:15889
+    -   key: in taxon
+        source: CHEBI:16247
+        target: NCBITaxon:5658
+    -   key: in taxon
+        source: CHEBI:15889
+        target: NCBITaxon:5658
+    -   key: negatively correlated with
+        source: MESH:C039128
+        target: MESH:D045304
+    -   key: in taxon
+        source: MESH:D045304
+        target: NCBITaxon:5658
+    -   key: causes
+        source: NCBITaxon:5658
+        target: MESH:D007897
+    multigraph: true
+    nodes:
+    -   id: MESH:C039128
+        label: Drug
+        name: miltefosine
+    -   id: MESH:D045304
+        label: GeneFamily
+        name: Cytochromes c
+    -   id: CHEBI:16247
+        label: ChemicalSubstance
+        name: phospholipid
+    -   id: CHEBI:15889
+        label: ChemicalSubstance
+        name: sterol
+    -   id: NCBITaxon:5658
+        label: OrganismTaxon
+        name: Leishmania sp
+    -   id: MESH:D007897
+        label: Disease
+        name: American mucocutaneous leishmaniasis
+    reference:
+    - https://go.drugbank.com/drugs/DB09031
+    - https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/204684s000lbl.pdf
+-   comment: The chosen MESH term is the most generic term that encompasses ALL Cytochromes
+        C, whereas InterPro and Pfam have terms to encompass specific types of cytochrome
+        C e.g. Cytochrome c oxidase subunit IV superfamily (IPR036639).
+    directed: true
+    graph:
+        _id: DB09031_MESH_D007898_1
+        disease: Visceral leishmaniasis
+        disease_mesh: MESH:D007898
+        drug: miltefosine
+        drug_mesh: MESH:C039128
+        drugbank: DB:DB09031
+    links:
+    -   key: disrupts
+        source: MESH:C039128
+        target: CHEBI:16247
+    -   key: disrupts
+        source: MESH:C039128
+        target: CHEBI:15889
+    -   key: in taxon
+        source: CHEBI:16247
+        target: NCBITaxon:5661
+    -   key: in taxon
+        source: CHEBI:15889
+        target: NCBITaxon:5661
+    -   key: negatively correlated with
+        source: MESH:C039128
+        target: MESH:D045304
+    -   key: in taxon
+        source: MESH:D045304
+        target: NCBITaxon:5661
+    -   key: causes
+        source: NCBITaxon:5661
+        target: MESH:D007898
+    multigraph: true
+    nodes:
+    -   id: MESH:C039128
+        label: Drug
+        name: miltefosine
+    -   id: MESH:D045304
+        label: GeneFamily
+        name: Cytochromes c
+    -   id: CHEBI:16247
+        label: ChemicalSubstance
+        name: phospholipid
+    -   id: CHEBI:15889
+        label: ChemicalSubstance
+        name: sterol
+    -   id: NCBITaxon:5661
+        label: OrganismTaxon
+        name: Leishmania donovani
+    -   id: MESH:D007898
+        label: Disease
+        name: Visceral leishmaniasis
+    reference:
+    - https://go.drugbank.com/drugs/DB09031
+    - https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/204684s000lbl.pdf
+-   directed: true
+    graph:
+        _id: DB01073_MESH_D015451_1
+        disease: Chronic lymphoid leukemia, disease
+        disease_mesh: MESH:D015451
+        drug: fludarabine phosphate
+        drug_mesh: MESH:C042382
+        drugbank: DB:DB01073
+    links:
+    -   key: negatively regulates
+        source: MESH:C042382
+        target: UniProt:P09884
+    -   key: negatively regulates
+        source: MESH:C042382
+        target: UniProt:P23921
+    -   key: negatively regulates
+        source: MESH:C042382
+        target: UniProt:P49643
+    -   key: positively regulates
+        source: UniProt:P09884
+        target: GO:0006260
+    -   key: positively regulates
+        source: UniProt:P23921
+        target: GO:0006260
+    -   key: positively regulates
+        source: UniProt:P49643
+        target: GO:0006260
+    -   key: correlated with
+        source: GO:0006260
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D015451
+    multigraph: true
+    nodes:
+    -   alt_ids:
+        - MESH:C024352
+        id: MESH:C042382
+        label: Drug
+        name: fludarabine phosphate
+    -   id: UniProt:P09884
+        label: Protein
+        name: DNA polymerase alpha catalytic subunit
+    -   id: UniProt:P23921
+        label: Protein
+        name: Ribonucleoside-diphosphate reductase large subunit
+    -   id: UniProt:P49643
+        label: Protein
+        name: DNA primase large subunit
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D015451
+        label: Disease
+        name: Chronic lymphoid leukemia, disease
+    reference:
+    - https://www.cancer.gov/publications/dictionaries/cancer-drug/def/fludarabine-phosphate
+-   comment: Epilepsies, Partial is the disease name in MESH but known as Simple partial
+        seizure in the original pre-curated file.
+    directed: true
+    graph:
+        _id: DB00906_MESH_D004828_1
+        disease: Epilepsies, Partial
+        disease_mesh: MESH:D004828
+        drug: tiagabine
+        drug_mesh: MESH:C059205
+        drugbank: DB:DB00906
+    links:
+    -   key: decreases activity of
+        source: MESH:C059205
+        target: UniProt:P30531
+    -   key: positively regulates
+        source: UniProt:P30531
+        target: GO:0051936
+    -   key: positively correlated with
+        source: GO:0051936
+        target: MESH:D004828
+    multigraph: true
+    nodes:
+    -   id: MESH:C059205
+        label: Drug
+        name: tiagabine
+    -   id: UniProt:P30531
+        label: GeneFamily
+        name: Sodium- and chloride-dependent GABA transporter 1
+    -   id: GO:0051936
+        label: BiologicalProcess
+        name: gamma-aminobutyric acid reuptake
+    -   id: MESH:D004828
+        label: Disease
+        name: Epilepsies, Partial
+    reference:
+    - https://go.drugbank.com/drugs/DB00906#mechanism-of-action
+-   directed: true
+    graph:
+        _id: DB00581_MESH_D003248_1
+        disease: Constipation
+        disease_mesh: MESH:D003248
+        drug: lactulose
+        drug_mesh: MESH:D007792
+        drugbank: DB:DB00581
+    links:
+    -   key: subclass of
+        source: MESH:D007792
+        target: CHEBI:50503
+    -   key: positively regulates
+        source: MESH:D007792
+        target: GO:0120054
+    -   key: positively regulates
+        source: MESH:D007792
+        target: GO:0030432
+    -   key: negatively correlated with
+        source: GO:0120054
+        target: MESH:D003248
+    -   key: negatively correlated with
+        source: GO:0030432
+        target: MESH:D003248
+    -   key: negatively correlated with
+        source: CHEBI:50503
+        target: HP:0012423
+    -   key: manifestation of
+        source: HP:0012423
+        target: MESH:D003248
+    multigraph: true
+    nodes:
+    -   id: MESH:D007792
+        label: Drug
+        name: lactulose
+    -   id: CHEBI:50503
+        label: ChemicalSubstance
+        name: laxative
+    -   id: GO:0120054
+        label: BiologicalProcess
+        name: intestinal motility
+    -   id: GO:0030432
+        label: BiologicalProcess
+        name: peristalsis
+    -   id: HP:0012423
+        label: PhenotypicFeature
+        name: Colonic inertia
+    -   id: MESH:D003248
+        label: Disease
+        name: Constipation
+    reference:
+    - https://go.drugbank.com/drugs/DB00581
+-   comment: Lactulose is believed to decrease the generation of ammonia produced
+        by bacteria found in the digestive tract.
+    directed: true
+    graph:
+        _id: DB00581_MESH_D006501_1
+        disease: Hepatic encephalopathy
+        disease_mesh: MESH:D006501
+        drug: lactulose
+        drug_mesh: MESH:D007792
+        drugbank: DB:DB00581
+    links:
+    -   key: decreases abundance of
+        source: MESH:D007792
+        target: CHEBI:16134
+    -   key: correlated with
+        source: CHEBI:16134
+        target: HP:0001987
+    -   key: manifestation of
+        source: HP:0001987
+        target: MESH:D006501
+    multigraph: true
+    nodes:
+    -   id: MESH:D007792
+        label: Drug
+        name: lactulose
+    -   id: CHEBI:16134
+        label: ChemicalSubstance
+        name: ammonia
+    -   id: HP:0001987
+        label: PhenotypicFeature
+        name: Hyperammonemia
+    -   id: MESH:D006501
+        label: Disease
+        name: Hepatic encephalopathy
+    reference:
+    - https://go.drugbank.com/drugs/DB00581
+    - https://en.wikipedia.org/wiki/Hepatic_encephalopathy#Lactulose/lactitol
+-   comment: Lactulose is believed to decrease the generation of ammonia produced
+        by bacteria found in the digestive tract.
+    directed: true
+    graph:
+        _id: DB00581_MESH_D022124_1
+        disease: Hyperammonemia
+        disease_mesh: MESH:D022124
+        drug: lactulose
+        drug_mesh: MESH:D007792
+        drugbank: DB:DB00581
+    links:
+    -   key: decreases abundance of
+        source: MESH:D007792
+        target: CHEBI:16134
+    -   key: correlated with
+        source: CHEBI:16134
+        target: HP:0004364
+    -   key: superclass of
+        source: HP:0004364
+        target: MESH:D022124
+    multigraph: true
+    nodes:
+    -   id: MESH:D007792
+        label: Drug
+        name: lactulose
+    -   id: CHEBI:16134
+        label: ChemicalSubstance
+        name: ammonia
+    -   id: HP:0004364
+        label: PhenotypicFeature
+        name: Abnormal circulating nitrogen compound concentration
+    -   id: MESH:D022124
+        label: Disease
+        name: Hyperammonemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00581
+    - https://en.wikipedia.org/wiki/Hepatic_encephalopathy#Lactulose/lactitol
+-   directed: true
+    graph:
+        _id: DB00290_MESH_D008228_1
+        disease: Non-Hodgkin's lymphoma
+        disease_mesh: MESH:D008228
+        drug: bleomycin
+        drug_mesh: MESH:D001761
+        drugbank: DB:DB00290
+    links:
+    -   key: negatively regulates
+        source: MESH:D001761
+        target: GO:0071897
+    -   key: increases abundance of
+        source: MESH:D001761
+        target: CHEBI:26523
+    -   key: negatively correlated with
+        source: CHEBI:26523
+        target: MESH:D008228
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D008228
+    multigraph: true
+    nodes:
+    -   id: MESH:D001761
+        label: Drug
+        name: bleomycin
+    -   id: CHEBI:26523
+        label: ChemicalSubstance
+        name: reactive oxygen species
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D008228
+        label: Disease
+        name: Non-Hodgkin's lymphoma
+    reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5360373#section=Mechanism-of-Action
+-   directed: true
+    graph:
+        _id: DB00290_MESH_D006258_1
+        disease: Malignant tumor of head and/or neck
+        disease_mesh: MESH:D006258
+        drug: bleomycin
+        drug_mesh: MESH:D001761
+        drugbank: DB:DB00290
+    links:
+    -   key: negatively regulates
+        source: MESH:D001761
+        target: GO:0071897
+    -   key: increases abundance of
+        source: MESH:D001761
+        target: CHEBI:26523
+    -   key: negatively correlated with
+        source: CHEBI:26523
+        target: MESH:D006258
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D006258
+    multigraph: true
+    nodes:
+    -   id: MESH:D001761
+        label: Drug
+        name: bleomycin
+    -   id: CHEBI:26523
+        label: ChemicalSubstance
+        name: reactive oxygen species
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D006258
+        label: Disease
+        name: Malignant tumor of head and/or neck
+    reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5360373#section=Mechanism-of-Action
+-   directed: true
+    graph:
+        _id: DB00290_MESH_D006689_1
+        disease: Hodgkin's disease
+        disease_mesh: MESH:D006689
+        drug: bleomycin
+        drug_mesh: MESH:D001761
+        drugbank: DB:DB00290
+    links:
+    -   key: negatively regulates
+        source: MESH:D001761
+        target: GO:0071897
+    -   key: increases abundance of
+        source: MESH:D001761
+        target: CHEBI:26523
+    -   key: negatively correlated with
+        source: CHEBI:26523
+        target: MESH:D006689
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D006689
+    multigraph: true
+    nodes:
+    -   id: MESH:D001761
+        label: Drug
+        name: bleomycin
+    -   id: CHEBI:26523
+        label: ChemicalSubstance
+        name: reactive oxygen species
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D006689
+        label: Disease
+        name: Hodgkin's disease
+    reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5360373#section=Mechanism-of-Action
+-   directed: true
+    graph:
+        _id: DB00290_MESH_D002294_1
+        disease: Squamous cell carcinoma
+        disease_mesh: MESH:D002294
+        drug: bleomycin
+        drug_mesh: MESH:D001761
+        drugbank: DB:DB00290
+    links:
+    -   key: negatively regulates
+        source: MESH:D001761
+        target: GO:0071897
+    -   key: increases abundance of
+        source: MESH:D001761
+        target: CHEBI:26523
+    -   key: negatively correlated with
+        source: CHEBI:26523
+        target: MESH:D002294
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D002294
+    multigraph: true
+    nodes:
+    -   id: MESH:D001761
+        label: Drug
+        name: bleomycin
+    -   id: CHEBI:26523
+        label: ChemicalSubstance
+        name: reactive oxygen species
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D002294
+        label: Disease
+        name: Squamous cell carcinoma
+    reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5360373#section=Mechanism-of-Action
+-   directed: true
+    graph:
+        _id: DB00290_MESH_D016403_1
+        disease: Diffuse non-Hodgkin's lymphoma, large cell
+        disease_mesh: MESH:D016403
+        drug: bleomycin
+        drug_mesh: MESH:D001761
+        drugbank: DB:DB00290
+    links:
+    -   key: negatively regulates
+        source: MESH:D001761
+        target: GO:0071897
+    -   key: increases abundance of
+        source: MESH:D001761
+        target: CHEBI:26523
+    -   key: negatively correlated with
+        source: CHEBI:26523
+        target: MESH:D016403
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D016403
+    multigraph: true
+    nodes:
+    -   id: MESH:D001761
+        label: Drug
+        name: bleomycin
+    -   id: CHEBI:26523
+        label: ChemicalSubstance
+        name: reactive oxygen species
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D016403
+        label: Disease
+        name: Diffuse non-Hodgkin's lymphoma, large cell
+    reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5360373#section=Mechanism-of-Action
+-   directed: true
+    graph:
+        _id: DB00290_MESH_D008224_1
+        disease: Follicular non-Hodgkin's lymphoma
+        disease_mesh: MESH:D008224
+        drug: bleomycin
+        drug_mesh: MESH:D001761
+        drugbank: DB:DB00290
+    links:
+    -   key: negatively regulates
+        source: MESH:D001761
+        target: GO:0071897
+    -   key: increases abundance of
+        source: MESH:D001761
+        target: CHEBI:26523
+    -   key: negatively correlated with
+        source: CHEBI:26523
+        target: MESH:D008224
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D008224
+    multigraph: true
+    nodes:
+    -   id: MESH:D001761
+        label: Drug
+        name: bleomycin
+    -   id: CHEBI:26523
+        label: ChemicalSubstance
+        name: reactive oxygen species
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D008224
+        label: Disease
+        name: Follicular non-Hodgkin's lymphoma
+    reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5360373#section=Mechanism-of-Action
+-   directed: true
+    graph:
+        _id: DB00290_MESH_D010412_1
+        disease: Malignant tumor of penis
+        disease_mesh: MESH:D010412
+        drug: bleomycin
+        drug_mesh: MESH:D001761
+        drugbank: DB:DB00290
+    links:
+    -   key: negatively regulates
+        source: MESH:D001761
+        target: GO:0071897
+    -   key: increases abundance of
+        source: MESH:D001761
+        target: CHEBI:26523
+    -   key: negatively correlated with
+        source: CHEBI:26523
+        target: MESH:D010412
+    -   key: positively correlated with
+        source: GO:0071897
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D010412
+    multigraph: true
+    nodes:
+    -   id: MESH:D001761
+        label: Drug
+        name: bleomycin
+    -   id: CHEBI:26523
+        label: ChemicalSubstance
+        name: reactive oxygen species
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D010412
+        label: Disease
+        name: Malignant tumor of penis
+    reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5360373#section=Mechanism-of-Action
