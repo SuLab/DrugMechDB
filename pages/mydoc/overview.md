@@ -2203,39 +2203,6 @@ datatable: true
 | [DB08904_MESH_D001172_1](db08904-mesh-d001172-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Rheumatoid arthritis | MESH:D001172 | 7 | 8 |
 | [DB08904_MESH_D015535_1](db08904-mesh-d015535-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Psoriasis with arthropathy | MESH:D015535 | 5 | 4 |
 | [DB08904_MESH_D013167_1](db08904-mesh-d013167-1.html) | certolizumab pegol | DB:DB08904 | MESH:D000068582 | Ankylosing spondylitis | MESH:D013167 | 5 | 4 |
-| [DB01021_MESH_D006973_1](db01021-mesh-d006973-1.html) | Trichlormethiazide | DB:DB01021 | MESH:D014237 | Hypertension | MESH:D006973 | 5 | 4 |
-| [DB01021_MESH_D006973_2](db01021-mesh-d006973-2.html) | Trichlormethiazide | DB:DB01021 | MESH:D014237 | Hypertension | MESH:D006973 | 6 | 6 |
-| [DB01619_MESH_D014581_1](db01619-mesh-d014581-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
-| [DB01619_MESH_D011537_1](db01619-mesh-d011537-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Pruritus | MESH:D011537 | 5 | 4 |
-| [DB01619_MESH_D012912_1](db01619-mesh-d012912-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Sneezing | MESH:D012912 | 5 | 4 |
-| [DB01619_MESH_D065631_1](db01619-mesh-d065631-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
-| [DB01619_MESH_D012223_1](db01619-mesh-d012223-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
-| [DB01619_MESH_D003233_1](db01619-mesh-d003233-1.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
-| [DB12086_MESH_D029424_1](db12086-mesh-d029424-1.html) | Oxitropium | DB:DB12086 | MESH:C017590 | Chronic obstructive lung disease | MESH:D029424 | 5 | 4 |
-| [DB00905_MESH_D009798_1](db00905-mesh-d009798-1.html) | Bimatoprost | DB:DB00905 | MESH:D000069580 | Ocular hypertension | MESH:D009798 | 4 | 3 |
-| [DB00905_MESH_D005902_1](db00905-mesh-d005902-1.html) | Bimatoprost | DB:DB00905 | MESH:D000069580 | Open-angle glaucoma | MESH:D005902 | 4 | 3 |
-| [DB00520_MESH_D058387_1](db00520-mesh-d058387-1.html) | Caspofungin | DB:DB00520 | None | Candidemia | MESH:D058387 | 6 | 5 |
-| [DB01066_MESH_D018410_1](db01066-mesh-d018410-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Bacterial pneumonia | MESH:D018410 | 8 | 8 |
-| [DB01066_MESH_D013203_1](db01066-mesh-d013203-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Staphylococcal infections | MESH:D013203 | 8 | 8 |
-| [DB01066_MESH_D013290_1](db01066-mesh-d013290-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Streptococcal infections | MESH:D013290 | 8 | 8 |
-| [DB01066_MESH_D011018_1](db01066-mesh-d011018-1.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Pneumococcal pneumonia | MESH:D011018 | 8 | 8 |
-| [DB03209_MESH_D013274_1](db03209-mesh-d013274-1.html) | Oteracil | DB:DB03209 | MESH:D010094 | Stomach neoplasms | MESH:D013274 | 6 | 5 |
-| [DB00056_MESH_D015470_1](db00056-mesh-d015470-1.html) | Gemtuzumab ozogamicin | DB:DB00056 | None | Acute myeloid leukemia | MESH:D015470 | 6 | 5 |
-| [DB00687_MESH_D000224_1](db00687-mesh-d000224-1.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Addison disease | MESH:D000224 | 11 | 14 |
-| [DB01185_MESH_D011628_1](db01185-mesh-d011628-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Delayed puberty | MESH:D011628 | 4 | 3 |
-| [DB01185_MESH_D007713_1](db01185-mesh-d007713-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Klinefelter Syndrome | MESH:D007713 | 4 | 3 |
-| [DB01185_MESH_D003456_1](db01185-mesh-d003456-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Cryptorchidism | MESH:D003456 | 5 | 4 |
-| [DB01185_MESH_D005058_1](db01185-mesh-d005058-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Eunuchism | MESH:D005058 | 4 | 3 |
-| [DB01185_MESH_D009224_1](db01185-mesh-d009224-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Myotonia Congenita | MESH:D009224 | 2 | 1 |
-| [DB01185_MESH_D009634_1](db01185-mesh-d009634-1.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Noonan syndrome | MESH:D009634 | 2 | 1 |
-| [DB01021_MESH_D006973_3](db01021-mesh-d006973-3.html) | Trichlormethiazide | DB:DB01021 | MESH:D014237 | Hypertension | MESH:D006973 | 6 | 5 |
-| [DB01619_MESH_D014581_2](db01619-mesh-d014581-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
-| [DB01619_MESH_D011537_2](db01619-mesh-d011537-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Pruritus | MESH:D011537 | 5 | 4 |
-| [DB01619_MESH_D012912_2](db01619-mesh-d012912-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Sneezing | MESH:D012912 | 5 | 4 |
-| [DB01619_MESH_D065631_2](db01619-mesh-d065631-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
-| [DB01619_MESH_D012223_2](db01619-mesh-d012223-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
-| [DB01619_MESH_D003233_2](db01619-mesh-d003233-2.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
-| [DB12086_MESH_D029424_2](db12086-mesh-d029424-2.html) | Oxitropium | DB:DB12086 | MESH:C017590 | Chronic obstructive lung disease | MESH:D029424 | 5 | 4 |
 | [DB00085_MESH_D010188_1](db00085-mesh-d010188-1.html) | pancrelipase | DB:DB00085 | MESH:D020799,MESH:D010194 | Exocrine pancreatic insufficiency | MESH:D010188 | 5 | 6 |
 | [DB00237_MESH_D053159_1](db00237-mesh-d053159-1.html) | secbutabarbital | DB:DB00237 | MESH:C084833 | Dysuria | MESH:D053159 | 6 | 5 |
 | [DB00432_MESH_D003110_1](db00432-mesh-d003110-1.html) | trifluridine | DB:DB00432 | MESH:D014271 | Malignant tumor of colon | MESH:D003110 | 8 | 9 |
@@ -2281,24 +2248,6 @@ datatable: true
 | [DB00356_MESH_D009128_1](db00356-mesh-d009128-1.html) | chlorzoxazone | DB:DB00356 | MESH:D002753 | Spasticity | MESH:D009128 | 11 | 14 |
 | [DB00830_MESH_D009765_1](db00830-mesh-d009765-1.html) | phenmetrazine | DB:DB00830 | MESH:D010633 | Obesity | MESH:D009765 | 8 | 8 |
 | [DB00692_MESH_D016491_1](db00692-mesh-d016491-1.html) | phentolamine | DB:DB00692 | MESH:D010646 | Peripheral vascular disease | MESH:D016491 | 7 | 8 |
-| [DB01619_MESH_D014581_3](db01619-mesh-d014581-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Urticaria | MESH:D014581 | 5 | 4 |
-| [DB01619_MESH_D011537_3](db01619-mesh-d011537-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Pruritus | MESH:D011537 | 5 | 4 |
-| [DB01619_MESH_D012912_3](db01619-mesh-d012912-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Sneezing | MESH:D012912 | 5 | 4 |
-| [DB01619_MESH_D065631_3](db01619-mesh-d065631-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
-| [DB01619_MESH_D012223_3](db01619-mesh-d012223-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
-| [DB01619_MESH_D003233_3](db01619-mesh-d003233-3.html) | Phenindamine | DB:DB01619 | MESH:C005430 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
-| [DB12086_MESH_D029424_3](db12086-mesh-d029424-3.html) | Oxitropium | DB:DB12086 | MESH:C017590 | Chronic obstructive lung disease | MESH:D029424 | 4 | 3 |
-| [DB00520_MESH_D058387_2](db00520-mesh-d058387-2.html) | Caspofungin | DB:DB00520 | None | Candidemia | MESH:D058387 | 6 | 5 |
-| [DB01066_MESH_D018410_2](db01066-mesh-d018410-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Bacterial pneumonia | MESH:D018410 | 7 | 6 |
-| [DB01066_MESH_D013203_2](db01066-mesh-d013203-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Staphylococcal infections | MESH:D013203 | 7 | 6 |
-| [DB01066_MESH_D013290_2](db01066-mesh-d013290-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Streptococcal infections | MESH:D013290 | 7 | 6 |
-| [DB01066_MESH_D011018_2](db01066-mesh-d011018-2.html) | Cefditoren pivoxil | DB:DB01066 | MESH:C057710 | Pneumococcal pneumonia | MESH:D011018 | 7 | 6 |
-| [DB00056_MESH_D015470_2](db00056-mesh-d015470-2.html) | Gemtuzumab ozogamicin | DB:DB00056 | None | Acute myeloid leukemia | MESH:D015470 | 6 | 5 |
-| [DB00687_MESH_D000312_1](db00687-mesh-d000312-1.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Congenital adrenal hyperplasia | MESH:D000312 | 11 | 14 |
-| [DB01185_MESH_D011628_2](db01185-mesh-d011628-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Delayed puberty | MESH:D011628 | 5 | 4 |
-| [DB01185_MESH_D007713_2](db01185-mesh-d007713-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Klinefelter Syndrome | MESH:D007713 | 5 | 4 |
-| [DB01185_MESH_D003456_2](db01185-mesh-d003456-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Cryptorchidism | MESH:D003456 | 6 | 5 |
-| [DB01185_MESH_D005058_2](db01185-mesh-d005058-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Eunuchism | MESH:D005058 | 5 | 4 |
 | [DB00692_MESH_D010673_1](db00692-mesh-d010673-1.html) | phentolamine | DB:DB00692 | MESH:D010646 | Pheochromocytoma | MESH:D010673 | 7 | 8 |
 | [DB00730_MESH_D013322_1](db00730-mesh-d013322-1.html) | thiabendazole | DB:DB00730 | MESH:D013827 | Infection by Strongyloides | MESH:D013322 | 5 | 4 |
 | [DB00730_MESH_D007815_1](db00730-mesh-d007815-1.html) | thiabendazole | DB:DB00730 | MESH:D013827 | Cutaneous larva migrans | MESH:D007815 | 5 | 4 |
@@ -2340,6 +2289,26 @@ datatable: true
 | [DB00290_MESH_D016403_1](db00290-mesh-d016403-1.html) | bleomycin | DB:DB00290 | MESH:D001761 | Diffuse non-Hodgkin's lymphoma, large cell | MESH:D016403 | 5 | 5 |
 | [DB00290_MESH_D008224_1](db00290-mesh-d008224-1.html) | bleomycin | DB:DB00290 | MESH:D001761 | Follicular non-Hodgkin's lymphoma | MESH:D008224 | 5 | 5 |
 | [DB00290_MESH_D010412_1](db00290-mesh-d010412-1.html) | bleomycin | DB:DB00290 | MESH:D001761 | Malignant tumor of penis | MESH:D010412 | 5 | 5 |
+| [DB00090_MESH_D008059_1](db00090-mesh-d008059-1.html) | laronidase | DB:DB00090 | None | Mucopolysaccharidosis, MPS-I | MESH:D008059 | 5 | 4 |
+| [DB00137_MESH_D008268_1](db00137-mesh-d008268-1.html) | lutein | DB:DB00137 | MESH:D014975 | Age related macular degeneration | MESH:D008268 | 5 | 4 |
+| [DB00137_MESH_D015352_1](db00137-mesh-d015352-1.html) | lutein | DB:DB00137 | MESH:D014975 | Tear film insufficiency | MESH:D015352 | 5 | 4 |
+| [DB00137_MESH_D000080343_1](db00137-mesh-d000080343-1.html) | lutein | DB:DB00137 | MESH:D014975 | Meibomian gland dysfunction | MESH:D000080343 | 5 | 4 |
+| [DB00209_MESH_D053202_1](db00209-mesh-d053202-1.html) | trospium | DB:DB00209 | MESH:C003330 | Urge incontinence of urine | MESH:D053202 | 8 | 6 |
+| [DB00570_MESH_D012514_1](db00570-mesh-d012514-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Kaposi's sarcoma | MESH:D012514 | 10 | 14 |
+| [DB00570_MESH_D009182_1](db00570-mesh-d009182-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Mycosis fungoides | MESH:D009182 | 10 | 14 |
+| [DB00570_MESH_D008228_1](db00570-mesh-d008228-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Non-Hodgkin's lymphoma | MESH:D008228 | 10 | 14 |
+| [DB00570_MESH_D013736_1](db00570-mesh-d013736-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Malignant tumor of testis | MESH:D013736 | 10 | 14 |
+| [DB00570_MESH_C538636_1](db00570-mesh-c538636-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Langerhans cell histiocytosis, disseminated | MESH:C538636 | 10 | 14 |
+| [DB00570_MESH_D006689_1](db00570-mesh-d006689-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Hodgkin's disease | MESH:D006689 | 10 | 14 |
+| [DB00570_MESH_D031901_1](db00570-mesh-d031901-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Gestational trophoblastic neoplasia | MESH:D031901 | 10 | 14 |
+| [DB00859_MESH_D001172_1](db00859-mesh-d001172-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Rheumatoid arthritis | MESH:D001172 | 6 | 5 |
+| [DB00859_MESH_D006527_1](db00859-mesh-d006527-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Wilson's disease | MESH:D006527 | 6 | 5 |
+| [DB00859_MESH_D003555_1](db00859-mesh-d003555-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Cystinuria | MESH:D003555 | 5 | 4 |
+| [DB08872_MESH_D051474_1](db08872-mesh-d051474-1.html) | gabapentin enacarbil | DB:DB08872 | MESH:C493250 | Postherpetic neuralgia | MESH:D051474 | 12 | 14 |
+| [DB08872_MESH_D012148_1](db08872-mesh-d012148-1.html) | gabapentin enacarbil | DB:DB08872 | MESH:C493250 | Restless legs | MESH:D012148 | 12 | 14 |
+| [DB01268_MESH_D046152_1](db01268-mesh-d046152-1.html) | sunitinib | DB:DB01268 | MESH:C473478 | Gastrointestinal stromal tumor | MESH:D046152 | 13 | 27 |
+| [DB01268_MESH_D002292_1](db01268-mesh-d002292-1.html) | sunitinib | DB:DB01268 | MESH:C473478 | Renal cell carcinoma | MESH:D002292 | 13 | 27 |
+| [DB01277_MESH_D046150_1](db01277-mesh-d046150-1.html) | mecasermin | DB:DB01277 | MESH:C000604197 | Laron-type isolated somatotropin defect | MESH:D046150 | 8 | 9 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
