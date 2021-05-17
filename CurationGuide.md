@@ -410,7 +410,7 @@ The path could be represented as below:
    
    `Vidarabine` HAS METABOLITE `Vidarabine Phosphate` DECREASES ACTIVITY OF `UniProt:P04293`
 
-You can also check whether the two compounds are indicated for the different diseases or for the same disease. If they are indicated for differente diseases,
+You can also check whether the two compounds are indicated for different diseases or for the same disease. If they are indicated for differente diseases,
 it's likely they will be annotated as two different paths. So drug indications will further help you to decide on how to annotate prodrugs.
 
 ### I'm not sure which biolink predicate to use. Any helpful hits?
