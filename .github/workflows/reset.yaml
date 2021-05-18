@@ -1,4 +1,4 @@
-name: Reset Submission File
+name: Update Indications on Merge
 
 on:
   pull_request_target:
@@ -7,8 +7,8 @@ on:
       - main
 
 jobs:
-  reset:
-    name: Reset the submission file to blank after pull-request merge
+  update:
+    name: Marge in submission to indication_paths after pull-request merge
     # This job will only run if the PR has been merged
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
@@ -16,11 +16,37 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: build new indications
+        run: python utils/build_indications.py
+
+      - name: test new build with pytest
+        if: ${{ success() }}
+        run: |
+          pytest utils/test_indications.py
+
+      - name: Convert indications to json
+        if: ${{ success() }}
+        run: |
+          python utils/json_yaml_convert.py indication_paths.yaml
+
       - name: Clear Submit
         run: echo "" > submission.yaml
 
-      - name: Commit Changes
+      - name: Commit latest build
+        if: ${{ success() }}
         uses: EndBug/add-and-commit@v7
         with:
-          add: 'submission.yaml'
+          add: "['indication_paths.yaml', 'indication_paths.json', 'submission.yaml']"
+
 
