@@ -54,15 +54,3 @@ jobs:
         if: ${{ success() }}
         run: |
           pytest utils/test_indications.py
-
-      - name: Convert indications to json
-        if: ${{ success() }}
-        run: |
-          python utils/json_yaml_convert.py indication_paths.yaml
-
-      - name: Commit latest build
-        if: ${{ success() }}
-        uses: EndBug/add-and-commit@v7
-        with:
-          add: "['indication_paths.yaml', 'indication_paths.json']"
-
