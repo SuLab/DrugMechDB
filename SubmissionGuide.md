@@ -233,7 +233,8 @@ existing paths will produce an error.
 
 Deletion of paths is handled through the deprecation of identifiers. To delete a path,
 first find the `Path ID` (see [Path Identifier](#path-identifier)) then submit a pull request
-to `utils/deprecated_id.txt`  with one identifier per line.
+to `utils/deprecated_ids.txt` with the identifers you wish to deprecate **added to the
+end of the file** one identifier per line. Please **do not delete** any identifies from this file.
 
 After accepting the merge, this path will be removed from the database and the website, and this identifier
 will be skipped on subsequent paths for a given indication (e.g. if `DB00704_MESH_D000437_1` becomes
