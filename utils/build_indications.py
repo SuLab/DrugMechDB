@@ -338,7 +338,7 @@ def get_base_id(path_id):
 
 def read_deprecated_ids():
     try:
-        dep_ids = pd.read_csv('utils/depricated_ids.txt', header=None)[0].tolist()
+        dep_ids = pd.read_csv('utils/deprecated_ids.txt', header=None)[0].tolist()
     except pd.errors.EmptyDataError:
         dep_ids = []
     return dep_ids
