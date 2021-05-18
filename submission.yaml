@@ -14,7 +14,6 @@
       target: GO:0039663
     - key: in taxon
       source: GO:0039663
-      target: GO:Q53I07
       target: NCBITaxon:11676
     - key: causes
       source: NCBITaxon:11676
@@ -382,13 +381,53 @@
       target: GO:0039693
     - key: in taxon
       source: GO:0039693
-      target: NCBITaxon:10298
-    - key: in taxon
-      source: GO:0039693
       target: NCBITaxon:10310
     - key: causes
       source: NCBITaxon:10310
       target: MESH:D006560
+  multigraph: true
+  nodes:
+    - id: MESH:C084555
+      label: Drug
+      name: valaciclovir
+    - id: MESH:D000212
+      label: Drug
+      name: Acyclovir
+      alt-name:
+        - Aciclovir
+    - id: Pfam:PF11590
+      label: GeneFamily
+      name: DNA polymerase catalytic subunit Pol
+    - id: GO:0039693
+      label: BiologicalProcess
+      name: viral DNA genome replication
+    - id: NCBITaxon:10310
+      label: OrganismTaxon
+      name: Human alphaherpesvirus 2
+    - id: MESH:D006560
+      label: Disease
+      name: Herpes labialis
+  reference: https://go.drugbank.com/drugs/DB00577
+- directed: true
+  graph:
+    disease: Herpes labialis
+    disease_mesh: MESH:D006560
+    drug: valaciclovir
+    drug_mesh: MESH:C084555
+    drugbank: DB:DB00577
+  links:
+    - key: has metabolite
+      source: MESH:C084555
+      target: MESH:D000212
+    - key: negatively regulates
+      source: MESH:D000212
+      target: Pfam:PF11590
+    - key: positively regulates
+      source: Pfam:PF11590
+      target: GO:0039693
+    - key: in taxon
+      source: GO:0039693
+      target: NCBITaxon:10298
     - key: causes
       source: NCBITaxon:10298
       target: MESH:D006560
@@ -411,9 +450,6 @@
     - id: NCBITaxon:10298
       label: OrganismTaxon
       name: Human alphaherpesvirus 1
-    - id: NCBITaxon:10310
-      label: OrganismTaxon
-      name: Human alphaherpesvirus 2
     - id: MESH:D006560
       label: Disease
       name: Herpes labialis
@@ -750,9 +786,15 @@
   links:
     - key: negatively regulates
       source: MESH:D000069464
-      target: InterPro:IPR000995
+      target: UniProt:P20309
+    - key: negatively regulates
+      source: MESH:D000069464
+      target: UniProt:P08172
     - key: positively regulates
-      source: InterPro:IPR000995
+      source: UniProt:P20309
+      target: GO:0014832                
+    - key: positively regulates
+      source: UniProt:P08172
       target: GO:0014832
     - key: positively correlated with
       source: GO:0014832
@@ -765,9 +807,12 @@
     - id: MESH:D000069464
       label: Drug
       name: solifenacin
-    - id: InterPro:IPR000995
-      label: GeneFamily
-      name: Muscarinic acetylcholine receptor family
+    - id: UniProt:P20309
+      label: Protein
+      name: Muscarinic acetylcholine receptor M3
+    - id: UniProt:P08172
+      label: Protein
+      name: Muscarinic acetylcholine receptor M2            
     - id: GO:0014832
       label: BiologicalProcess
       name: urinary bladder smooth muscle contraction
