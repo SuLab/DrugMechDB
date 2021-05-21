@@ -1,1 +1,41 @@
-
+-   directed: true
+    graph:
+        _id: DB00082_MESH_D000172_1
+        disease: Acromegaly
+        disease_mesh: MESH:D000172
+        drug: pegvisomant
+        drug_mesh: MESH:C406545
+        drugbank: DB:DB00082
+    links:
+    -   key: decreases activity of
+        source: MESH:C406545
+        target: UniProt:P10912
+    -   key: molecularly interacts with
+        source: UniProt:P10912
+        target: UniProt:P01241
+    -   key: positively regulates
+        source: UniProt:P01241
+        target: GO:0035264
+    -   key: positively correlated with
+        source: GO:0035264
+        target: MESH:D000172
+    multigraph: true
+    nodes:
+    -   id: MESH:C406545
+        label: Drug
+        name: Pegvisomant
+    -   id: UniProt:P10912
+        label: Protein
+        name: Growth hormone receptor
+    -   id: UniProt:P01241
+        label: Protein
+        name: Somatotropin
+    -   id: GO:0035264
+        label: BiologicalProcess
+        name: Multicellular organism growth
+    -   id: MESH:D000172
+        label: Disease
+        name: Acromegaly
+    reference:
+    - https://go.drugbank.com/drugs/DB00082#BE0000075
+    - https://en.wikipedia.org/wiki/Acromegaly
