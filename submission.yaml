@@ -1,51 +1,38 @@
--   directed: true
-    graph:
-        disease: Pituitary dwarfism
-        disease_mesh: MESH:D004393
-        drug: somatrem
-        drug_mesh: MESH:C447442
-        drugbank: DB:DB09098
-    links:
-    -   key: increases activity of
-        source: MESH:C447442
-        target: UniProt:Q02643
-    -   key: increases activity of
-        source: UniProt:Q02643
-        target: UniProt:P01241
-    -   key: participates in
-        source: UniProt:P01241
-        target: GO:0060396
-    -   key: increases activity of
-        source: GO:0060396
-        target: UniProt:P05019
-    -   key: positively regulates
-        source: UniProt:P05019
-        target: GO:0035264
-    -   key: negatively correlated with
-        source: GO:0035264
-        target: MESH:D004393
-    multigraph: true
-    nodes:
-    -   id: MESH:C447442
-        label: Drug
-        name: Somatrem
-    -   id: UniProt:Q02643
-        label: Protein
-        name: Growth hormone-releasing hormone receptor
-    -   id: UniProt:P01241
-        label: Protein
-        name: Somatotropin
-    -   id: GO:0060396
-        label: BiologicalProcess
-        name: Growth hormone receptor signaling pathway
-    -   id: UniProt:P05019
-        label: Protein
-        name: Insulin-like growth factor I
-    -   id: GO:0035264
-        label: BiologicalProcess
-        name: Multicellular organism growth
-    -   id: MESH:D004393
-        label: Disease
-        name: Pituitary dwarfism
-    reference: 
-    - https://go.drugbank.com/drugs/DB00010#BE0000625
+- directed: true
+  graph:
+    disease: Allergic rhinitis
+    disease_mesh: MESH:D065631
+    drug: loratadine
+    drug_mesh: MESH:D017336
+    drugbank: DB:DB00792
+  links:
+    - key: decreases activity of
+      source: MESH:D017336
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: positively correlated with
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D065631
+  multigraph: true
+  nodes:
+    - id: MESH:D017336
+      label: Drug
+      name: loratadine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D065631
+      label: Disease
+      name: Allergic rhinitis
+  reference: https://go.drugbank.com/drugs/DB00455
