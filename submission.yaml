@@ -806,3 +806,40 @@
     - https://en.wikipedia.org/wiki/Aromatic_L-amino_acid_decarboxylase_inhibitor
     - https://en.wikipedia.org/wiki/Carbidopa/levodopa#Mechanism_of_action
   comment: The drug has no anti-parkinson activity per se. It is admnistered in combination with levodopa to prevent levodopa degradation to dopamine in extracerebral tissue, thereby decreasing the peripheral side effects of levodopa.
+=======
+    disease: Allergic rhinitis
+    disease_mesh: MESH:D065631
+    drug: loratadine
+    drug_mesh: MESH:D017336
+    drugbank: DB:DB00792
+  links:
+    - key: decreases activity of
+      source: MESH:D017336
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: positively correlated with
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D065631
+  multigraph: true
+  nodes:
+    - id: MESH:D017336
+      label: Drug
+      name: loratadine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D065631
+      label: Disease
+      name: Allergic rhinitis
+  reference: https://go.drugbank.com/drugs/DB00455
