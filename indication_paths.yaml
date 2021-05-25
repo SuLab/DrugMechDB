@@ -124998,3 +124998,1115 @@
     - https://en.wikipedia.org/wiki/L-DOPA#Medical_use
     - https://en.wikipedia.org/wiki/Aromatic_L-amino_acid_decarboxylase_inhibitor
     - https://en.wikipedia.org/wiki/Carbidopa/levodopa#Mechanism_of_action
+-   directed: true
+    graph:
+        _id: DB00010_MESH_D004393_1
+        disease: Pituitary dwarfism
+        disease_mesh: MESH:D004393
+        drug: sermorelin
+        drug_mesh: MESH:D017337
+        drugbank: DB:DB00010
+    links:
+    -   key: increases activity of
+        source: MESH:D017337
+        target: UniProt:Q02643
+    -   key: increases activity of
+        source: UniProt:Q02643
+        target: UniProt:P01241
+    -   key: participates in
+        source: UniProt:P01241
+        target: GO:0060396
+    -   key: increases activity of
+        source: GO:0060396
+        target: UniProt:P05019
+    -   key: positively regulates
+        source: UniProt:P05019
+        target: GO:0035264
+    -   key: negatively correlated with
+        source: GO:0035264
+        target: MESH:D004393
+    multigraph: true
+    nodes:
+    -   id: MESH:D017337
+        label: Drug
+        name: Sermorelin
+    -   id: UniProt:Q02643
+        label: Protein
+        name: Growth hormone-releasing hormone receptor
+    -   id: UniProt:P01241
+        label: Protein
+        name: Somatotropin
+    -   id: GO:0060396
+        label: BiologicalProcess
+        name: Growth hormone receptor signaling pathway
+    -   id: UniProt:P05019
+        label: Protein
+        name: Insulin-like growth factor I
+    -   id: GO:0035264
+        label: BiologicalProcess
+        name: Multicellular organism growth
+    -   id: MESH:D004393
+        label: Disease
+        name: Pituitary dwarfism
+    reference:
+    - https://go.drugbank.com/drugs/DB00010#BE0000625
+-   comments: Withdrawn. Procyclidine acts by blocking central cholinergic receptors,
+        and thus balancing cholinergic and dopaminergic activity in the basal ganglia.
+    directed: true
+    graph:
+        _id: DB00387_MESH_D001480_1
+        disease: Extrapyramidal disease
+        disease_mesh: MESH:D001480
+        drug: procyclidine
+        drug_mesh: MESH:D011352
+        drugbank: DB:DB00387
+    links:
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P11229
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08172
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08173
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08173
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
+        target: HP:0001300
+    -   key: manifestation of
+        source: HP:0001300
+        target: MESH:D001480
+    multigraph: true
+    nodes:
+    -   id: MESH:D011352
+        label: Drug
+        name: Procyclidine
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: UniProt:P08173
+        label: Protein
+        name: Muscarinic acetylcholine receptor M4
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: Synaptic transmission, cholinergic
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
+    -   id: HP:0001300
+        label: PhenotypicFeature
+        name: Parkinsonism
+    -   id: MESH:D001480
+        label: Disease
+        name: Extrapyramidal disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00387#BE0000560
+    - https://en.wikipedia.org/wiki/Extrapyramidal_symptoms
+-   comments: Withdrawn. Procyclidine acts by blocking central cholinergic receptors,
+        and thus balancing cholinergic and dopaminergic activity in the basal ganglia.
+    directed: true
+    graph:
+        _id: DB00387_MESH_D020734_1
+        disease: Parkinsonism
+        disease_mesh: MESH:D020734
+        drug: procyclidine
+        drug_mesh: MESH:D011352
+        drugbank: DB:DB00387
+    links:
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P11229
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08172
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08173
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08173
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
+        target: HP:0001300
+    -   key: manifestation of
+        source: HP:0001300
+        target: MESH:D020734
+    multigraph: true
+    nodes:
+    -   id: MESH:D011352
+        label: Drug
+        name: Procyclidine
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: UniProt:P08173
+        label: Protein
+        name: Muscarinic acetylcholine receptor M4
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: Synaptic transmission, cholinergic
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
+    -   id: HP:0001300
+        label: PhenotypicFeature
+        name: Parkinsonism
+    -   id: MESH:D020734
+        label: Disease
+        name: Parkinsonism
+    reference:
+    - https://go.drugbank.com/drugs/DB00387#BE0000560
+-   comments: Withdrawn. Procyclidine acts by blocking central cholinergic receptors,
+        and thus balancing cholinergic and dopaminergic activity in the basal ganglia.
+    directed: true
+    graph:
+        _id: DB00387_MESH_D010300_1
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: procyclidine
+        drug_mesh: MESH:D011352
+        drugbank: DB:DB00387
+    links:
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P11229
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08172
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08173
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08173
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
+        target: HP:0001300
+    -   key: manifestation of
+        source: HP:0001300
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:D011352
+        label: Drug
+        name: Procyclidine
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: UniProt:P08173
+        label: Protein
+        name: Muscarinic acetylcholine receptor M4
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: Synaptic transmission, cholinergic
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
+    -   id: HP:0001300
+        label: PhenotypicFeature
+        name: Parkinsonism
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00387#BE0000560
+-   comments: Withdrawn. Procyclidine acts by blocking central cholinergic receptors,
+        and thus balancing cholinergic and dopaminergic activity in the basal ganglia.
+    directed: true
+    graph:
+        _id: DB00387_MESH_D010301_1
+        disease: Postencephalitic parkinsonism
+        disease_mesh: MESH:D010301
+        drug: procyclidine
+        drug_mesh: MESH:D011352
+        drugbank: DB:DB00387
+    links:
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P11229
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08172
+    -   key: negatively regulates
+        source: MESH:D011352
+        target: UniProt:P08173
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P08173
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
+        target: HP:0001300
+    -   key: manifestation of
+        source: HP:0001300
+        target: MESH:D010301
+    multigraph: true
+    nodes:
+    -   id: MESH:D011352
+        label: Drug
+        name: Procyclidine
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: UniProt:P08173
+        label: Protein
+        name: Muscarinic acetylcholine receptor M4
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: Synaptic transmission, cholinergic
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
+    -   id: HP:0001300
+        label: PhenotypicFeature
+        name: Parkinsonism
+    -   id: MESH:D010301
+        label: Disease
+        name: Postencephalitic parkinsonism
+    reference:
+    - https://go.drugbank.com/drugs/DB00387#BE0000560
+-   comment: Withdrawn. Etretinate was taken off the market in Canada in 1996 and
+        America in 1998 due to the risk of birth defects. Etretinate is now used to
+        treat T-cell lymphomas.
+    directed: true
+    graph:
+        _id: DB00926_MESH_D011565_1
+        disease: Psoriasis
+        disease_mesh: MESH:D011565
+        drug: etretinate
+        drug_mesh: MESH:D005050
+        drugbank: DB:DB00926
+    links:
+    -   key: increases activity of
+        source: MESH:D005050
+        target: UniProt:P10276
+    -   key: increases activity of
+        source: MESH:D005050
+        target: UniProt:P10826
+    -   key: increases activity of
+        source: MESH:D005050
+        target: UniProt:P19793
+    -   key: increases activity of
+        source: MESH:D005050
+        target: UniProt:P48443
+    -   key: negatively regulates
+        source: UniProt:P10276
+        target: GO:0031424
+    -   key: negatively regulates
+        source: UniProt:P19793
+        target: GO:0031424
+    -   key: negatively regulates
+        source: UniProt:P10826
+        target: GO:0031424
+    -   key: negatively regulates
+        source: UniProt:P48443
+        target: GO:0031424
+    -   key: negatively regulates
+        source: UniProt:P10276
+        target: GO:0010481
+    -   key: negatively regulates
+        source: UniProt:P19793
+        target: GO:0010481
+    -   key: negatively regulates
+        source: UniProt:P10826
+        target: GO:0010481
+    -   key: negatively regulates
+        source: UniProt:P48443
+        target: GO:0010481
+    -   key: positively correlated with
+        source: GO:0031424
+        target: MESH:D011565
+    -   key: positively correlated with
+        source: GO:0010481
+        target: MESH:D011565
+    multigraph: true
+    nodes:
+    -   id: MESH:D005050
+        label: Drug
+        name: Etretinate
+    -   id: UniProt:P10276
+        label: Protein
+        name: Retinoic acid receptor alpha
+    -   id: UniProt:P10826
+        label: Protein
+        name: Retinoic acid receptor beta
+    -   id: UniProt:P19793
+        label: Protein
+        name: Retinoic acid receptor RXR-alpha
+    -   id: UniProt:P48443
+        label: Protein
+        name: Retinoic acid receptor RXR-gamma
+    -   id: GO:0031424
+        label: BiologicalProcess
+        name: Keratinization
+    -   id: GO:0010481
+        label: BiologicalProcess
+        name: Epidermal cell division
+    -   id: MESH:D011565
+        label: Disease
+        name: Psoriasis
+    reference:
+    - https://go.drugbank.com/drugs/DB00926
+-   directed: true
+    graph:
+        _id: DB00576_MESH_D004405_1
+        disease: Shigellosis
+        disease_mesh: MESH:D004405
+        drug: sulfamethizole
+        drug_mesh: MESH:D013419
+        drugbank: DB:DB00576
+    links:
+    -   key: decreases activity of
+        source: MESH:D013419
+        target: Pfam:PF00809
+    -   key: positively regulates
+        source: Pfam:PF00809
+        target: GO:0046654
+    -   key: positively regulates
+        source: GO:0046654
+        target: GO:0009113
+    -   key: positively regulates
+        source: GO:0009113
+        target: GO:0071897
+    -   key: part of
+        source: GO:0071897
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:620
+    -   key: causes
+        source: NCBITaxon:620
+        target: MESH:D004405
+    multigraph: true
+    nodes:
+    -   id: MESH:D013419
+        label: Drug
+        name: Sulfamethizole
+    -   id: Pfam:PF00809
+        label: GeneFamily
+        name: Dihydropteroate synthase
+    -   id: GO:0046654
+        label: BiologicalProcess
+        name: Tetrahydrofolate biosynthetic process
+    -   id: GO:0009113
+        label: BiologicalProcess
+        name: Purine nucleobase biosynthetic process
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:620
+        label: OrganismTaxon
+        name: Shigella
+    -   id: MESH:D004405
+        label: Disease
+        name: Shigellosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00576#BE0000803
+-   comment: Premature ejaculation is treated with combination of lidocaine and prilocaine
+        cream.
+    directed: true
+    graph:
+        _id: DB00750_MESH_D061686_1
+        disease: Premature ejaculation
+        disease_mesh: MESH:D061686
+        drug: prilocaine
+        drug_mesh: MESH:D011318
+        drugbank: DB:DB00750
+    links:
+    -   key: treats
+        source: MESH:D011318
+        target: MESH:D061686
+    multigraph: true
+    nodes:
+    -   id: MESH:D011318
+        label: Drug
+        name: Prilocaine
+    -   id: MESH:D061686
+        label: Disease
+        name: Premature ejaculation
+    reference:
+    - https://go.drugbank.com/drugs/DB00750
+    - https://pubmed.ncbi.nlm.nih.gov/12472618/
+-   directed: true
+    graph:
+        _id: DB01203_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: nadolol
+        drug_mesh: MESH:D009248
+        drugbank: DB:DB01203
+    links:
+    -   key: decreases activity of
+        source: MESH:D009248
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: HP:0033533
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
+        target: MESH:D006973
+    -   key: positively correlated with
+        source: HP:0033533
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D009248
+        label: Drug
+        name: Nadolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: HP:0033533
+        label: PhenotypicFeature
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01203
+-   directed: true
+    graph:
+        _id: DB01203_MESH_D000787_1
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: nadolol
+        drug_mesh: MESH:D009248
+        drugbank: DB:DB01203
+    links:
+    -   key: decreases activity of
+        source: MESH:D009248
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: HP:0033533
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: HP:0000822
+    -   key: contributes to
+        source: HP:0000822
+        target: MESH:D000787
+    -   key: positively correlated with
+        source: HP:0033533
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D009248
+        label: Drug
+        name: Nadolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: HP:0033533
+        label: PhenotypicFeature
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference:
+    - https://go.drugbank.com/drugs/DB01203
+-   directed: true
+    graph:
+        _id: DB01281_MESH_D001171_1
+        disease: Juvenile idiopathic arthritis
+        disease_mesh: MESH:D001171
+        drug: abatacept
+        drug_mesh: MESH:D000069594
+        drugbank: DB:DB01281
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069594
+        target: UniProt:P33681
+    -   key: decreases activity of
+        source: MESH:D000069594
+        target: UniProt:P42081
+    -   key: increases activity of
+        source: UniProt:P33681
+        target: UniProt:P10747
+    -   key: increases activity of
+        source: UniProt:P42081
+        target: UniProt:P10747
+    -   key: participates in
+        source: UniProt:P10747
+        target: GO:0032743
+    -   key: participates in
+        source: UniProt:P10747
+        target: GO:0042102
+    -   key: participates in
+        source: UniProt:P10747
+        target: GO:0042110
+    -   key: positively correlated with
+        source: GO:0032743
+        target: MESH:D001171
+    -   key: positively correlated with
+        source: GO:0042110
+        target: MESH:D001171
+    -   key: positively correlated with
+        source: GO:0042102
+        target: MESH:D001171
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069594
+        label: Drug
+        name: Abatacept
+    -   id: UniProt:P33681
+        label: Protein
+        name: T-lymphocyte activation antigen CD80
+    -   id: UniProt:P42081
+        label: Protein
+        name: T-lymphocyte activation antigen CD86
+    -   id: UniProt:P10747
+        label: Protein
+        name: T-cell-specific surface glycoprotein CD28
+    -   id: GO:0032743
+        label: BiologicalProcess
+        name: Positive regulation of interleukin-2 production
+    -   id: GO:0042102
+        label: BiologicalProcess
+        name: Positive regulation of T cell proliferation
+    -   id: GO:0042110
+        label: BiologicalProcess
+        name: T cell activation
+    -   id: MESH:D001171
+        label: Drug
+        name: Juvenile idiopathic arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01281#BE0000847
+    - https://en.wikipedia.org/wiki/Abatacept
+-   directed: true
+    graph:
+        _id: DB01281_MESH_D001172_1
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: abatacept
+        drug_mesh: MESH:D000069594
+        drugbank: DB:DB01281
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069594
+        target: UniProt:P33681
+    -   key: decreases activity of
+        source: MESH:D000069594
+        target: UniProt:P42081
+    -   key: increases activity of
+        source: UniProt:P33681
+        target: UniProt:P10747
+    -   key: increases activity of
+        source: UniProt:P42081
+        target: UniProt:P10747
+    -   key: participates in
+        source: UniProt:P10747
+        target: GO:0032743
+    -   key: participates in
+        source: UniProt:P10747
+        target: GO:0042102
+    -   key: participates in
+        source: UniProt:P10747
+        target: GO:0042110
+    -   key: positively correlated with
+        source: GO:0032743
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: GO:0042110
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: GO:0042102
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069594
+        label: Drug
+        name: Abatacept
+    -   id: UniProt:P33681
+        label: Protein
+        name: T-lymphocyte activation antigen CD80
+    -   id: UniProt:P42081
+        label: Protein
+        name: T-lymphocyte activation antigen CD86
+    -   id: UniProt:P10747
+        label: Protein
+        name: T-cell-specific surface glycoprotein CD28
+    -   id: GO:0032743
+        label: BiologicalProcess
+        name: Positive regulation of interleukin-2 production
+    -   id: GO:0042102
+        label: BiologicalProcess
+        name: Positive regulation of T cell proliferation
+    -   id: GO:0042110
+        label: BiologicalProcess
+        name: T cell activation
+    -   id: MESH:D001172
+        label: Drug
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01281#BE0000847
+    - https://en.wikipedia.org/wiki/Abatacept
+-   directed: true
+    graph:
+        _id: DB01365_MESH_D007022_1
+        disease: Low blood pressure
+        disease_mesh: MESH:D007022
+        drug: mephentermine
+        drug_mesh: MESH:D008616
+        drugbank: DB:DB01365
+    links:
+    -   key: increases activity of
+        source: MESH:D008616
+        target: UniProt:P35348
+    -   key: increases activity of
+        source: MESH:D008616
+        target: UniProt:P35368
+    -   key: increases activity of
+        source: MESH:D008616
+        target: UniProt:P25100
+    -   key: increases activity of
+        source: MESH:D008616
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P35348
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P35368
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P25100
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0060048
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: MESH:D007022
+    -   key: negatively correlated with
+        source: GO:0060048
+        target: MESH:D007022
+    -   key: positively regulates
+        source: MESH:D008616
+        target: GO:0061533
+    -   key: negatively correlated with
+        source: GO:0061533
+        target: MESH:D007022
+    multigraph: true
+    nodes:
+    -   id: MESH:D008616
+        label: Drug
+        name: Mephentermine
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha-1A adrenergic receptor
+    -   id: UniProt:P35368
+        label: Protein
+        name: Alpha-1B adrenergic receptor
+    -   id: UniProt:P25100
+        label: Protein
+        name: Alpha-1D adrenergic receptor
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:0060048
+        label: BiologicalProcess
+        name: Cardiac muscle contraction
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: MESH:D007022
+        label: Disease
+        name: Low blood pressure
+    reference:
+    - https://go.drugbank.com/drugs/DB01365#BE0004872
+    - https://en.wikipedia.org/wiki/Mephentermine
+-   directed: true
+    graph:
+        _id: DB08876_MESH_D005776_1
+        disease: Chronic non-neuropathic Gaucher's disease
+        disease_mesh: MESH:D005776
+        drug: taliglucerase alfa
+        drug_mesh: MESH:C582473
+        drugbank: DB:DB08876
+    links:
+    -   key: decreases abundance of
+        source: MESH:C582473
+        target: MESH:D005963
+    -   key: causes
+        source: MESH:D005963
+        target: MESH:D005776
+    multigraph: true
+    nodes:
+    -   id: MESH:C582473
+        label: Drug
+        name: Taliglucerase alfa
+    -   id: MESH:D005963
+        label: ChemicalSubstance
+        name: Glucosylceramides
+    -   id: MESH:D005776
+        label: Disease
+        name: Chronic non-neuropathic Gaucher's disease
+    reference:
+    - https://en.wikipedia.org/wiki/Gaucher%27s_disease
+    - https://go.drugbank.com/drugs/DB08876
+-   directed: true
+    graph:
+        _id: DB09043_MESH_D003924_1
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: albiglutide
+        drug_mesh: MESH:C534611
+        drugbank: DB:DB09043
+    links:
+    -   key: increases activity of
+        source: MESH:C534611
+        target: UniProt:P43220
+    -   key: positively correlated with
+        source: UniProt:P43220
+        target: CHEBI:80270
+    -   key: positively regulates
+        source: CHEBI:80270
+        target: GO:0030073
+    -   key: negatively regulates
+        source: CHEBI:80270
+        target: GO:0070091
+    -   key: negatively regulates
+        source: GO:0030073
+        target: HP:0003074
+    -   key: positively correlated with
+        source: GO:0070091
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C534611
+        label: Drug
+        name: Albiglutide
+    -   id: UniProt:P43220
+        label: Protein
+        name: Glucagon-like peptide 1 receptor
+    -   id: CHEBI:80270
+        label: ChemicalSubstance
+        name: Glucagon-like peptide 1
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: GO:0070091
+        label: BiologicalProcess
+        name: Glucagon secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference:
+    - https://go.drugbank.com/drugs/DB09043
+    - https://en.wikipedia.org/wiki/Glucagon-like_peptide-1
+-   comment: Selective action of tamsulosin in alpha 1A/D receptors is controversial
+        and over three quarters of tamsulosin registered human studies are unpublished.
+    directed: true
+    graph:
+        _id: DB09206_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: trimazosin
+        drug_mesh: MESH:C005185
+        drugbank: DB:DB09206
+    links:
+    -   key: decreases activity of
+        source: MESH:C005185
+        target: UniProt:P35348
+    -   key: decreases activity of
+        source: MESH:C005185
+        target: UniProt:P25100
+    -   key: positively regulates
+        source: UniProt:P35348
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P25100
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:C005185
+        label: Drug
+        name: Trimazosin
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha-1A adrenergic receptor
+    -   id: UniProt:P25100
+        label: Protein
+        name: Alpha-1D adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://en.wikipedia.org/wiki/Tamsulosin
+    - https://go.drugbank.com/drugs/DB09206
+-   directed: true
+    graph:
+        _id: DB12924_MESH_D013207_1
+        disease: Staphylococcal infection of skin
+        disease_mesh: MESH:D013207
+        drug: Ozenoxacin
+        drug_mesh: MESH:C000592413
+        drugbank: DB:DB12924
+    links:
+    -   key: decreases activity of
+        source: MESH:C000592413
+        target: UniProt:P0C1U9
+    -   key: decreases activity of
+        source: MESH:C000592413
+        target: UniProt:Q2FKQ0
+    -   key: participates in
+        source: UniProt:P0C1U9
+        target: GO:0044787
+    -   key: participates in
+        source: UniProt:Q2FKQ0
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013207
+    multigraph: true
+    nodes:
+    -   id: MESH:C000592413
+        label: Drug
+        name: Ozenoxacin
+    -   id: UniProt:P0C1U9
+        label: Protein
+        name: DNA topoisomerase 4 subunit A (Staphylococcus aureus)
+    -   id: UniProt:Q2FKQ0
+        label: Protein
+        name: DNA gyrase subunit A (Staphylococcus aureus)
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: Bacterial-type DNA replication
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013207
+        label: Disease
+        name: Staphylococcal infection of skin
+    reference:
+    - https://go.drugbank.com/drugs/DB12924
+-   directed: true
+    graph:
+        _id: DB12924_MESH_D000152_1
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: Ozenoxacin
+        drug_mesh: MESH:C000592413
+        drugbank: DB:DB12924
+    links:
+    -   key: decreases activity of
+        source: MESH:C000592413
+        target: InterPro:IPR035516
+    -   key: decreases activity of
+        source: MESH:C000592413
+        target: InterPro:IPR013760
+    -   key: participates in
+        source: InterPro:IPR035516
+        target: GO:0044787
+    -   key: participates in
+        source: InterPro:IPR013760
+        target: GO:0044787
+    -   key: occurs in
+        source: GO:0044787
+        target: NCBITaxon:1747
+    -   key: causes
+        source: NCBITaxon:1747
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:C000592413
+        label: Drug
+        name: Ozenoxacin
+    -   id: InterPro:IPR035516
+        label: GeneFamily
+        name: DNA gyrase/topoisomerase IV, subunit A, C-terminal
+    -   id: InterPro:IPR013760
+        label: GeneFamily
+        name: DNA topoisomerase, type IIA-like domain superfamily
+    -   id: GO:0044787
+        label: BiologicalProcess
+        name: Bacterial-type DNA replication
+    -   id: NCBITaxon:1747
+        label: OrganismTaxon
+        name: Cutibacterium acnes
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference:
+    - https://go.drugbank.com/drugs/DB12924
+    - https://en.wikipedia.org/wiki/Acne#Infections
+-   directed: true
+    graph:
+        _id: DB01623_MESH_D012559_1
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: thiothixene
+        drug_mesh: MESH:D013888
+        drugbank: DB:DB01623
+    links:
+    -   key: decreases activity of
+        source: MESH:D013888
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:D013888
+        target: UniProt:P28223
+    -   key: participates in
+        source: UniProt:P14416
+        target: GO:1903350
+    -   key: participates in
+        source: UniProt:P28223
+        target: GO:1904014
+    -   key: correlated with
+        source: GO:1903350
+        target: MESH:D012559
+    -   key: correlated with
+        source: GO:1904014
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: MESH:D013888
+        label: Drug
+        name: Thiothixene
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: GO:1903350
+        label: BiologicalProcess
+        name: response to dopamine
+    -   id: GO:1904014
+        label: BiologicalProcess
+        name: response to serotonin
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference:
+    - https://go.drugbank.com/drugs/DB01623
+    - https://pubmed.ncbi.nlm.nih.gov/27189524/
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255483/
+    - https://en.wikipedia.org/wiki/Tiotixene
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201/
+-   comment: No evidence found to support Ascorbic acid deficiency treatment with  calcium
+        pantothenate.
+    directed: true
+    graph:
+        _id: DB01783_MESH_D001206_1
+        disease: Ascorbic acid deficiency
+        disease_mesh: MESH:D001206
+        drug: calcium pantothenate
+        drug_mesh: MESH:D010205
+        drugbank: DB:DB01783
+    links:
+    -   key: treats
+        source: MESH:D010205
+        target: MESH:D001206
+    multigraph: true
+    nodes:
+    -   id: MESH:D010205
+        label: Drug
+        name: Calcium pantothenate
+    -   id: MESH:D001206
+        label: Disease
+        name: Ascorbic acid deficiency
+    reference:
+    - https://go.drugbank.com/drugs/DB01783
