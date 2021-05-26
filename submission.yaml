@@ -1,1 +1,833 @@
-
+- directed: true
+  graph:
+    disease: Cholangitis
+    disease_mesh: MESH:D002761
+    drug: kanamycin
+    drug_mesh: MESH:D007612
+    drugbank: DB:DB01172
+  links:
+    - key: disrupts
+      source: MESH:D007612
+      target: MESH:D054680
+    - key: location of
+      source: MESH:D054680
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1485
+    - key: causes
+      source: NCBITaxon:1485
+      target: MESH:D002761
+  multigraph: true
+  nodes:
+    - id: MESH:D007612
+      label: Drug
+      name: kanamycin
+    - id: MESH:D054680
+      label: ChemicalSubstance
+      name: Ribosome Subunits, Small, Bacterial
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1485
+      label: OrganismTaxon
+      name: Clostridium sp.
+    - id: MESH:D002761
+      label: Disease
+      name: Cholangitis
+  reference: https://go.drugbank.com/drugs/DB01172
+- directed: true
+  graph:
+    disease: Infectious disease of abdomen
+    disease_mesh: MESH:D059413
+    drug: kanamycin
+    drug_mesh: MESH:D007612
+    drugbank: DB:DB01172
+  links:
+    - key: disrupts
+      source: MESH:D007612
+      target: MESH:D054680
+    - key: location of
+      source: MESH:D054680
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D059413
+  multigraph: true
+  nodes:
+    - id: MESH:D007612
+      label: Drug
+      name: kanamycin
+    - id: MESH:D054680
+      label: ChemicalSubstance
+      name: Ribosome Subunits, Small, Bacterial
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D059413
+      label: Disease
+      name: Infectious disease of abdomen
+  reference: https://go.drugbank.com/drugs/DB01172
+- directed: true
+  graph:
+    disease: Meningitis
+    disease_mesh: MESH:D008581
+    drug: kanamycin
+    drug_mesh: MESH:D007612
+    drugbank: DB:DB01172
+  links:
+    - key: disrupts
+      source: MESH:D007612
+      target: MESH:D054680
+    - key: location of
+      source: MESH:D054680
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:487
+    - key: causes
+      source: NCBITaxon:487
+      target: MESH:D008581
+  multigraph: true
+  nodes:
+    - id: MESH:D007612
+      label: Drug
+      name: kanamycin
+    - id: MESH:D054680
+      label: ChemicalSubstance
+      name: Ribosome Subunits, Small, Bacterial
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:487
+      label: OrganismTaxon
+      name: Neisseria meningitidis
+    - id: MESH:D008581
+      label: Disease
+      name: Meningitis
+  reference: https://go.drugbank.com/drugs/DB01172
+- directed: true
+  graph:
+    disease: Bacterial pneumonia
+    disease_mesh: MESH:D018410
+    drug: kanamycin
+    drug_mesh: MESH:D007612
+    drugbank: DB:DB01172
+  links:
+    - key: disrupts
+      source: MESH:D007612
+      target: MESH:D054680
+    - key: location of
+      source: MESH:D054680
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D018410
+  multigraph: true
+  nodes:
+    - id: MESH:D007612
+      label: Drug
+      name: kanamycin
+    - id: MESH:D054680
+      label: ChemicalSubstance
+      name: Ribosome Subunits, Small, Bacterial
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D018410
+      label: Disease
+      name: Bacterial pneumonia
+  reference: https://go.drugbank.com/drugs/DB01172
+- directed: true
+  graph:
+    disease: Urinary tract infectious disease
+    disease_mesh: MESH:D014552
+    drug: kanamycin
+    drug_mesh: MESH:D007612
+    drugbank: DB:DB01172
+  links:
+    - key: disrupts
+      source: MESH:D007612
+      target: MESH:D054680
+    - key: location of
+      source: MESH:D054680
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D007612
+      label: Drug
+      name: kanamycin
+    - id: MESH:D054680
+      label: ChemicalSubstance
+      name: Ribosome Subunits, Small, Bacterial
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary tract infectious disease
+  reference: https://go.drugbank.com/drugs/DB01172
+- directed: true
+  graph:
+    disease: Staphylococcal infection of skin
+    disease_mesh: MESH:D013207
+    drug: dalbavancin
+    drug_mesh: MESH:C469289
+    drugbank: DB:DB06219
+  links:
+    - key: disrupts
+      source: MESH:C469289
+      target: CHEBI:8005
+    - key: part of
+      source: CHEBI:8005
+      target: GO:0009274
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D013207
+  multigraph: true
+  nodes:
+    - id: MESH:C469289
+      label: Drug
+      name: dalbavancin
+    - id: CHEBI:8005
+      label: ChemicalSubstance
+      name: peptidoglycan
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D013207
+      label: Disease
+      name: Staphylococcal infection of skin
+  reference:
+    - https://go.drugbank.com/drugs/DB06219
+    - https://en.wikipedia.org/wiki/Dalbavancin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Bacterial infection of skin
+    disease_mesh: MESH:D017192
+    drug: dalbavancin
+    drug_mesh: MESH:C469289
+    drugbank: DB:DB06219
+  links:
+    - key: disrupts
+      source: MESH:C469289
+      target: CHEBI:8005
+    - key: part of
+      source: CHEBI:8005
+      target: GO:0009274
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D017192
+  multigraph: true
+  nodes:
+    - id: MESH:C469289
+      label: Drug
+      name: dalbavancin
+    - id: CHEBI:8005
+      label: ChemicalSubstance
+      name: peptidoglycan
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D017192
+      label: Disease
+      name: Bacterial infection of skin
+  reference:
+    - https://go.drugbank.com/drugs/DB06219
+    - https://en.wikipedia.org/wiki/Dalbavancin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: carteolol
+    drug_mesh: MESH:D002354
+    drugbank: DB:DB00521
+  links:
+    - key: decreases activity of
+      source: MESH:D002354
+      target: UniProt:P07550
+    - key: decreases activity of
+      source: MESH:D002354
+      target: UniProt:P08588
+    - key: participates in
+      source: UniProt:P07550
+      target: REACT:R-HSA-418555
+    - key: participates in
+      source: UniProt:P08588
+      target: REACT:R-HSA-418555
+    - key: increases abundance of
+      source: REACT:R-HSA-418555
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D002354
+      label: Drug
+      name: carteolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: UniProt:P07550
+      label: Protein
+      name: Beta-2 adrenergic receptor
+    - id: REACT:R-HSA-418555
+      label: Pathway
+      name: G alpha (s) signalling events
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference: https://go.drugbank.com/drugs/DB00521
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: carteolol
+    drug_mesh: MESH:D002354
+    drugbank: DB:DB00521
+  links:
+    - key: decreases activity of
+      source: MESH:D002354
+      target: UniProt:P07550
+    - key: decreases activity of
+      source: MESH:D002354
+      target: UniProt:P08588
+    - key: positively regulates
+      source: UniProt:P07550
+      target: UBERON:0000013
+    - key: positively regulates
+      source: UniProt:P08588
+      target: UBERON:0000013
+    - key: positively correlated with
+      source: UBERON:0000013
+      target: UBERON:0018229
+    - key: positively correlated with
+      source: UBERON:0018229
+      target: HP:0032263
+    - key: positively correlated with
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D002354
+      label: Drug
+      name: carteolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: UniProt:P07550
+      label: Protein
+      name: Beta-2 adrenergic receptor
+    - id: UBERON:0000013
+      label: GrossAnatomicalStructure
+      name: sympathetic nervous system
+    - id: UBERON:0018229
+      label: GrossAnatomicalStructure
+      name: renin-angiotensin system
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00521
+    - https://en.wikipedia.org/wiki/Beta_blocker#%CE%B2-receptor_antagonism
+- directed: true
+  graph:
+    disease: Ocular hypertension
+    disease_mesh: MESH:D009798
+    drug: carteolol
+    drug_mesh: MESH:D002354
+    drugbank: DB:DB00521
+  links:
+    - key: decreases activity of
+      source: MESH:D002354
+      target: UniProt:P07550
+    - key: decreases activity of
+      source: MESH:D002354
+      target: UniProt:P08588
+    - key: participates in
+      source: UniProt:P07550
+      target: REACT:R-HSA-418555
+    - key: participates in
+      source: UniProt:P08588
+      target: REACT:R-HSA-418555
+    - key: increases abundance of
+      source: REACT:R-HSA-418555
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: MESH:D009798
+  multigraph: true
+  nodes:
+    - id: MESH:D002354
+      label: Drug
+      name: carteolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: UniProt:P07550
+      label: Protein
+      name: Beta-2 adrenergic receptor
+    - id: REACT:R-HSA-418555
+      label: Pathway
+      name: G alpha (s) signalling events
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: MESH:D009798
+      label: Disease
+      name: Ocular hypertension
+  reference: https://go.drugbank.com/drugs/DB00521
+- directed: true
+  graph:
+    disease: Cobalamin deficiency
+    disease_mesh: MESH:D014806
+    drug: hydroxocobalamin
+    drug_mesh: MESH:D006879
+    drugbank: DB:DB00200
+  links:
+    - key: increases abundance of
+      source: MESH:D006879
+      target: CHEBI:30411
+    - key: negatively correlated with
+      source: CHEBI:30411
+      target: MESH:D014806
+  multigraph: true
+  nodes:
+    - id: MESH:D006879
+      label: Drug
+      name: hydroxocobalamin
+    - id: CHEBI:30411
+      label: ChemicalSubstance
+      name: cobalamin
+    - id: MESH:D014806
+      label: Disease
+      name: Cobalamin deficiency
+  reference:
+    - https://go.drugbank.com/drugs/DB00200
+    - https://en.wikipedia.org/wiki/Hydroxocobalamin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Pernicious anemia
+    disease_mesh: MESH:D000752
+    drug: hydroxocobalamin
+    drug_mesh: MESH:D006879
+    drugbank: DB:DB00200
+  links:
+    - key: increases abundance of
+      source: MESH:D006879
+      target: CHEBI:30411
+    - key: negatively correlated with
+      source: CHEBI:30411
+      target: HP:0001889
+    - key: negatively correlated with
+      source: CHEBI:30411
+      target: HP:0020060
+    - key: manifestation of
+      source: HP:0020060
+      target: MESH:D000752
+    - key: manifestation of
+      source: HP:0001889
+      target: MESH:D000752
+  multigraph: true
+  nodes:
+    - id: MESH:D006879
+      label: Drug
+      name: hydroxocobalamin
+    - id: CHEBI:30411
+      label: ChemicalSubstance
+      name: cobalamin
+    - id: HP:0001889
+      label: PhenotypicFeature
+      name: Megaloblastic anemia
+    - id: HP:0020060
+      label: PhenotypicFeature
+      name: Decreased red blood cell count
+    - id: MESH:D000752
+      label: Disease
+      name: Pernicious anemia
+  reference:
+    - https://go.drugbank.com/drugs/DB00200
+    - https://en.wikipedia.org/wiki/Hydroxocobalamin#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Vitamin_B12_deficiency_anemia#Diagnosis
+    - https://en.wikipedia.org/wiki/Megaloblastic_anemia
+- directed: true
+  graph:
+    disease: Stevens-Johnson syndrome
+    disease_mesh: MESH:D013262
+    drug: corticotropin
+    drug_mesh: null
+    drugbank: DB:DB01285
+  links:
+    - key: positively regulates
+      source: DB:DB01285
+      target: UniProt:Q01718
+    - key: negatively regulates
+      source: UniProt:Q01718
+      target: GO:0006954
+    - key: correlated with
+      source: GO:0006954
+      target: HP:0100326
+    - key: manifestation of
+      source: HP:0100326
+      target: MESH:D013262
+  multigraph: true
+  nodes:
+    - id: DB:DB01285
+      label: Drug
+      name: corticotropin
+    - id: UniProt:Q01718
+      label: Protein
+      name: Adrenocorticotropic hormone receptor
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: HP:0100326
+      label: PhenotypicFeature
+      name: Immunologic hypersensitivity
+    - id: MESH:D013262
+      label: Disease
+      name: Stevens-Johnson syndrome
+  reference:
+    - https://go.drugbank.com/drugs/DB01285#BE0000848
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201610/
+- directed: true
+  graph:
+    disease: West syndrome
+    disease_mesh: MESH:D013036
+    drug: corticotropin
+    drug_mesh: null
+    drugbank: DB:DB01285
+  links:
+    - key: positively regulates
+      source: DB:DB01285
+      target: UniProt:Q01718
+    - key: decreases expression of
+      source: UniProt:Q01718
+      target: CHEBI:65312
+    - key: positively correlated with
+      source: CHEBI:65312
+      target: HP:0001250
+    - key: negatively correlated with
+      source: UniProt:Q01718
+      target: HP:0012469
+    - key: manifestation of
+      source: HP:0001250
+      target: MESH:D013036
+    - key: manifestation of
+      source: HP:0012469
+      target: MESH:D013036
+  multigraph: true
+  nodes:
+    - id: DB:DB01285
+      label: Drug
+      name: corticotropin
+    - id: UniProt:Q01718
+      label: Protein
+      name: Adrenocorticotropic hormone receptor
+    - id: CHEBI:65312
+      label: ChemicalSubstance
+      name: corticotropin-releasing hormone (human)
+    - id: HP:0001250
+      label: PhenotypicFeature
+      name: Seizure
+    - id: HP:0012469
+      label: PhenotypicFeature
+      name: Infantile spasms
+    - id: MESH:D013036
+      label: Disease
+      name: West syndrome
+  reference:
+    - https://go.drugbank.com/drugs/DB01285#BE0000848
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201610/
+    - https://en.wikipedia.org/wiki/Adrenocorticotropic_hormone_(medication)#Medical_uses
+    - https://pubmed.ncbi.nlm.nih.gov/11701250/
+    - https://pubmed.ncbi.nlm.nih.gov/23606552/
+    - https://pubmed.ncbi.nlm.nih.gov/16781824/
+    - https://pubmed.ncbi.nlm.nih.gov/11261504/
+- directed: true
+  graph:
+    disease: Dysuria
+    disease_mesh: MESH:D053159
+    drug: Phenazopyridine
+    drug_mesh: MESH:D010621
+    drugbank: DB:DB01438
+  links:
+    - key: disrupts
+      source: MESH:D010621
+      target: UniProt:P35498
+    - key: regulates
+      source: UniProt:P35498
+      target: GO:0019233
+    - key: correlated with
+      source: GO:0019233
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D053159
+  multigraph: true
+  nodes:
+    - id: MESH:D010621
+      label: Drug
+      name: Phenazopyridine
+    - id: UniProt:P35498
+      label: Protein
+      name: Sodium channel protein type 1 subunit alpha
+    - id: GO:0019233
+      label: BiologicalProcess
+      name: sensory perception of pain
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D053159
+      label: Disease
+      name: Dysuria
+  reference: https://go.drugbank.com/drugs/DB01438
+  comment: UniProt:P35498 is considered a potential target according to DrugBank.
+- directed: true
+  graph:
+    disease: Postmenopausal osteoporosis
+    disease_mesh: MESH:D015663
+    drug: denosumab
+    drug_mesh: MESH:D000069448
+    drugbank: DB:DB06643
+  links:
+    - key: disrupts
+      source: MESH:D000069448
+      target: UniProt:O14788
+    - key: positively regulates
+      source: UniProt:O14788
+      target: GO:0030316
+    - key: positively correlated with
+      source: GO:0030316
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: MESH:D015663
+  multigraph: true
+  nodes:
+    - id: MESH:D000069448
+      label: Drug
+      name: denosumab
+    - id: UniProt:O14788
+      label: Protein
+      name: Tumor necrosis factor ligand superfamily member 11
+    - id: GO:0030316
+      label: BiologicalProcess
+      name: osteoclast differentiation
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: MESH:D015663
+      label: Disease
+      name: Postmenopausal osteoporosis
+  reference:
+    - https://go.drugbank.com/drugs/DB06643
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1237023/
+- directed: true
+  graph:
+    disease: Osteoporosis
+    disease_mesh: MESH:D010024
+    drug: denosumab
+    drug_mesh: MESH:D000069448
+    drugbank: DB:DB06643
+  links:
+    - key: disrupts
+      source: MESH:D000069448
+      target: UniProt:O14788
+    - key: positively regulates
+      source: UniProt:O14788
+      target: GO:0030316
+    - key: positively correlated with
+      source: GO:0030316
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: MESH:D010024
+  multigraph: true
+  nodes:
+    - id: MESH:D000069448
+      label: Drug
+      name: denosumab
+    - id: UniProt:O14788
+      label: Protein
+      name: Tumor necrosis factor ligand superfamily member 11
+    - id: GO:0030316
+      label: BiologicalProcess
+      name: osteoclast differentiation
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: MESH:D010024
+      label: Disease
+      name: Osteoporosis
+  reference:
+    - https://go.drugbank.com/drugs/DB06643
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1237023/
+- directed: true
+  graph:
+    disease: Verruca
+    disease_mesh: MESH:D014860
+    drug: dichloroacetic acid
+    drug_mesh: MESH:D003999
+    drugbank: DB:DB08809
+  links:
+    - key: subclass of
+      source: MESH:D003999
+      target: CHEBI:50176
+    - key: treats
+      source: CHEBI:50176
+      target: MESH:D014860
+  multigraph: true
+  nodes:
+    - id: MESH:D003999
+      label: Drug
+      name: dichloroacetic acid
+    - id: CHEBI:50176
+      label: ChemicalSubstance
+      name: keratolytic drug
+    - id: MESH:D014860
+      label: Disease
+      name: Verruca
+  reference:
+    - https://en.wikipedia.org/wiki/Plantar_wart#Treatment
+    - https://en.wikipedia.org/wiki/Dichloroacetic_acid
+- directed: true
+  graph:
+    disease: Pain
+    disease_mesh: MESH:D010146
+    drug: bromfenac
+    drug_mesh: MESH:C053083
+    drugbank: DB:DB00963
+  links:
+    - key: decreases activity of
+      source: MESH:C053083
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C053083
+      target: UniProt:P35354
+    - key: positively regulates
+      source: UniProt:P23219
+      target: GO:0001516
+    - key: positively regulates
+      source: UniProt:P35354
+      target: GO:0001516
+    - key: correlated with
+      source: GO:0001516
+      target: MESH:D010146
+  multigraph: true
+  nodes:
+    - id: MESH:C053083
+      label: Drug
+      name: bromfenac
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: GO:0001516
+      label: BiologicalProcess
+      name: prostaglandin biosynthetic process
+    - id: MESH:D010146
+      label: Disease
+      name: Pain
+  reference: https://go.drugbank.com/drugs/DB00963
+- directed: true
+  graph:
+    disease: Eaton-Lambert syndrome
+    disease_mesh: MESH:D015624
+    drug: guanidine
+    drug_mesh: MESH:D019791
+    drugbank: DB:DB00536
+  links:
+    - key: disrupts
+      source: MESH:D019791
+      target: Pfam:PF03520
+    - key: positively regulates
+      source: Pfam:PF03520
+      target: GO:0007274
+    - key: affects risk for
+      source: GO:0007274
+      target: HP:0003690
+    - key: manifestation of
+      source: HP:0003690
+      target: MESH:D015624
+  multigraph: true
+  nodes:
+    - id: MESH:D019791
+      label: Drug
+      name: guanidine
+    - id: Pfam:PF03520
+      label: GeneFamily
+      name: KCNQ voltage-gated potassium channel
+    - id: GO:0007274
+      label: BiologicalProcess
+      name: neuromuscular synaptic transmission
+    - id: HP:0003690
+      label: PhenotypicFeature
+      name: Limb muscle weakness
+    - id: MESH:D015624
+      label: Disease
+      name: Eaton-Lambert syndrome
+  reference:
+    - https://go.drugbank.com/drugs/DB00536
+    - https://en.wikipedia.org/wiki/Lambert%E2%80%93Eaton_myasthenic_syndrome#Other
+  comment: Guanidine is known to causes many side effects; therefore it's not recommended.
