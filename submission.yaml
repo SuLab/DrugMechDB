@@ -1,1 +1,822 @@
-
+-   comment: In the DrugCentral serine is indicated for
+        Pulmonary tuberculosis, however no literature evidences found about the mechanism
+        of action of serine treating pulmonary tuberculosis.
+    directed: true
+    graph:
+        disease: Pulmonary tuberculosis
+        disease_mesh: MESH:D014397
+        drug: serine
+        drug_mesh: MESH:D012694
+        drugbank: DB:DB00133
+    links:
+    -   key: treats
+        source: MESH:D012694
+        target: MESH:D014397
+    multigraph: true
+    nodes:
+    -   id: MESH:D012694
+        label: Drug
+        name: Serine
+    -   id: MESH:D014397
+        label: Disease
+        name: Pulmonary tuberculosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB00133
+-   comment: In the DrugCentral serine is indicated for
+        open-angle glaucoma, however no literature evidences found about the mechanism
+        of action of serine treating open-angle glaucoma.
+    directed: true
+    graph:
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: serine
+        drug_mesh: MESH:D012694
+        drugbank: DB:DB00133
+    links:
+    -   key: treats
+        source: MESH:D012694
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:D012694
+        label: Drug
+        name: Serine
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference:
+    - https://go.drugbank.com/drugs/DB00133
+-   directed: true
+    graph:
+        disease: Tyrosinemia type I
+        disease_mesh: MESH:D020176
+        drug: nitisinone
+        drug_mesh: MESH:C077073
+        drugbank: DB:DB00348
+    links:
+    -   key: decreases activity of
+        source: MESH:C077073
+        target: UniProt:P32754
+    -   key: positively regulates
+        source: UniProt:P32754
+        target: GO:0006572
+    -   key: produces
+        source: GO:0006572
+        target: MESH:C105171
+    -   key: contributes to
+        source: MESH:C105171
+        target: HP:0001394
+    -   key: manifestation of 
+        source: HP:0001394
+        target: MESH:D020176
+    multigraph: true
+    nodes:
+    -   id: MESH:C077073
+        label: Drug
+        name: Nitisinone
+    -   id: UniProt:P32754
+        label: Protein
+        name: 4-hydroxyphenylpyruvate dioxygenase
+    -   id: GO:0006572
+        label: BiologicalProcess
+        name: Tyrosine catabolic process
+    -   id: MESH:C105171
+        label: ChemicalSubstance
+        name: Fumarylacetoacetate
+    -   id: HP:0001394
+        label: PhenotypicFeature
+        name: Cirrhosis
+    -   id: MESH:D020176
+        label: Disease
+        name: Tyrosinemia type I
+    reference: 
+    - https://en.wikipedia.org/wiki/Tyrosinemia_type_I
+    - https://go.drugbank.com/drugs/DB00348#BE0000455
+-   directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: colestipol
+        drug_mesh: MESH:D003084
+        drugbank: DB:DB00375
+    links:
+    -   key: decreases abundance of
+        source: MESH:D003084
+        target: MESH:D001647
+    -   key: derives from
+        source: MESH:D001647
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006937
+    -   key: increases activity of
+        source: MESH:D003084
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D003084
+        label: Drug
+        name: Colestipol
+    -   id: MESH:D001647
+        label: ChemicalSubstance
+        name: Bile Acids and Salts
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00375#BE0004809
+-   directed: true
+    graph:
+        disease: Hyperlipidemia
+        disease_mesh: MESH:D006949
+        drug: colestipol
+        drug_mesh: MESH:D003084
+        drugbank: DB:DB00375
+    links:
+    -   key: decreases abundance of
+        source: MESH:D003084
+        target: MESH:D001647
+    -   key: derives from
+        source: MESH:D001647
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006949
+    -   key: increases activity of
+        source: MESH:D003084
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006949
+    multigraph: true
+    nodes:
+    -   id: MESH:D003084
+        label: Drug
+        name: Colestipol
+    -   id: MESH:D001647
+        label: ChemicalSubstance
+        name: Bile Acids and Salts
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006949
+        label: Disease
+        name: Hyperlipidemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00375#BE0004809
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: guanabenz
+        drug_mesh: MESH:D006143
+        drugbank: DB:DB00629
+    links:
+    -   key: increases activity of
+        source: MESH:D006143
+        target: UniProt:P08913
+    -   key: positively correlated with
+        source: UniProt:P08913
+        target: GO:0004938
+    -   key: negatively regulates
+        source: GO:0004938
+        target: GO:0061533
+    -   key: positively regulates
+        source: GO:0061533
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D006143
+        label: Drug
+        name: Guanabenz
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0004938
+        label: BiologicalProcess
+        name: Alpha2-adrenergic receptor activity
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00629
+-   comment: Tamoxifen is a selective estrogen receptor modulator used to treat estrogen receptor positive breast cancer.
+    directed: true
+    graph:
+        disease: Infiltrating duct carcinoma of breast
+        disease_mesh: MESH:D018270
+        drug: tamoxifen
+        drug_mesh: MESH:D013629
+        drugbank: DB:DB00675
+    links:
+    -   key: decreases activity of
+        source: MESH:D013629
+        target: UniProt:P03372
+    -   key: participates in
+        source: UniProt:P03372
+        target: GO:0030284
+    -   key: positively regulates
+        source: GO:0030284
+        target: GO:0008283
+    -   key: decreases activity of
+        source: MESH:D013629
+        target: UniProt:Q92731
+    -   key: participates in
+        source: UniProt:Q92731
+        target: GO:0030284
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D018270
+    multigraph: true
+    nodes:
+    -   id: MESH:D013629
+        label: Drug
+        name: Tamoxifen
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor
+    -   id: GO:0030284
+        label: MolecularActivity
+        name: Estrogen receptor activity
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: UniProt:Q92731
+        label: Protein
+        name: Estrogen receptor beta
+    -   id: MESH:D018270
+        label: Disease
+        name: Infiltrating duct carcinoma of breast
+    reference: 
+    - https://go.drugbank.com/drugs/DB00675#BE0000123
+-   comment: Contraindicated
+    directed: true
+    graph:
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: norethisterone
+        drug_mesh: MESH:D009640
+        drugbank: DB:DB00717
+    links:
+    -   key: increases activity of
+        source: MESH:D009640
+        target: UniProt:P10275
+    -   key: molecularly interacts with
+        source: UniProt:P10275
+        target: MESH:D000728
+    -   key: contributes to 
+        source: MESH:D000728
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:D009640
+        label: Drug
+        name: Norethisterone
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: MESH:D000728
+        label: ChemicalSubstance
+        name: Androgens
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference: 
+    - https://go.drugbank.com/drugs/DB00717
+    - https://en.wikipedia.org/wiki/Norethisterone#Side_effects
+-   directed: true
+    graph:
+        disease: Endometriosis
+        disease_mesh: MESH:D004715
+        drug: norethindrone acetate
+        drug_mesh: MESH:C024262
+        drugbank: DB:DB00717
+    links:
+    -   key: increases activity of
+        source: MESH:C024262
+        target: UniProt:P06401
+    -   key: molecularly interacts with
+        source: UniProt:P06401
+        target: MESH:D011374
+    -   key: negatively regulates
+        source: MESH:D011374
+        target: GO:0008283
+    -   key: located in
+        source: GO:0008283
+        target: UBERON:0001295
+    -   key: positively correlated with
+        source: UBERON:0001295
+        target: MESH:D004715
+    multigraph: true
+    nodes:
+    -   id: MESH:C024262
+        label: Drug
+        name: Norethindrone acetate
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: MESH:D011374
+        label: ChemicalSubstance
+        name: Progesterone
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: MESH:D004715
+        label: Disease
+        name: Endometriosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00717
+-   comment: Only combination of estradiol and norethindrone is used for the treatment of atrophic vaginitis.
+        Please refer to this curation DB00783_MESH_D059268_1 for MoA.
+    directed: true
+    graph:
+        disease: Atrophic vaginitis
+        disease_mesh: MESH:D059268
+        drug: norethindrone acetate
+        drug_mesh: MESH:D009640
+        drugbank: DB:DB00717
+    links:
+    -   key: treats
+        source: MESH:D009640
+        target: MESH:D059268 
+    multigraph: true
+    nodes:
+    -   id: MESH:D009640
+        label: Drug
+        name: Norethisterone
+    -   id: MESH:D059268
+        label: Disease
+        name: Atrophic vaginitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00717
+-   directed: true
+    graph:
+        disease: Menorrhagia
+        disease_mesh: MESH:D008595
+        drug: norethisterone
+        drug_mesh: MESH:D009640
+        drugbank: DB:DB00717
+    links:
+    -   key: increases activity of
+        source: MESH:D009640
+        target: UniProt:P06401
+    -   key: negatively regulates
+        source: UniProt:P06401
+        target: GO:0050673
+    -   key: located in
+        source: GO:0050673
+        target: UBERON:0001295
+    -   key: correlated with
+        source: UBERON:0001295
+        target: HP:0030126
+    -   key: causes
+        source: HP:0030126
+        target: MESH:D008595
+    multigraph: true
+    nodes:
+    -   id: MESH:D009640
+        label: Drug
+        name: Norethisterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: HP:0030126
+        label: PhenotypicFeature
+        name: Abnormality of the endometrium
+    -   id: GO:0050673
+        label: BiologicalProcess
+        name: Epithelial cell proliferation
+    -   id: MESH:D008595
+        label: Disease
+        name: Menorrhagia
+    reference:
+    - https://go.drugbank.com/drugs/DB00717#BE0000557
+    - https://pubmed.ncbi.nlm.nih.gov/8671392/
+-   directed: true
+    graph:
+        disease: Dysfunctional uterine bleeding
+        disease_mesh: MESH:D008796
+        drug: norethisterone
+        drug_mesh: MESH:D009640
+        drugbank: DB:DB00717
+    links:
+    -   key: increases activity of
+        source: MESH:D009640
+        target: UniProt:P06401
+    -   key: negatively regulates
+        source: UniProt:P06401
+        target: GO:0050673
+    -   key: located in
+        source: GO:0050673
+        target: UBERON:0001295
+    -   key: correlated with
+        source: UBERON:0001295
+        target: HP:0030126
+    -   key: causes
+        source: HP:0030126
+        target: MESH:D008796
+    multigraph: true
+    nodes:
+    -   id: MESH:D009640
+        label: Drug
+        name: Norethisterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: HP:0030126
+        label: PhenotypicFeature
+        name: Abnormality of the endometrium
+    -   id: GO:0050673
+        label: BiologicalProcess
+        name: Epithelial cell proliferation
+    -   id: MESH:D008796
+        label: Disease
+        name: Dysfunctional uterine bleeding
+    reference:
+    - https://go.drugbank.com/drugs/DB00717#BE0000557
+    - https://pubmed.ncbi.nlm.nih.gov/8671392/
+-   comment: Only combination of Estradiol and norethindrone is used for the treatment of menopausal flushing.
+      Please refer to this curation DB00783_MESH_D019584_1 for MoA.
+    directed: true
+    graph:
+        disease: Menopausal flushing
+        disease_mesh: MESH:D019584
+        drug: norethisterone
+        drug_mesh: MESH:D009640
+        drugbank: DB:DB00717
+    links:
+    -   key: treats
+        source: MESH:D009640
+        target: MESH:D019584
+    multigraph: true
+    nodes:
+    -   id: MESH:D009640
+        label: Drug
+        name: Norethisterone
+    -   id: MESH:D019584
+        label: Disease
+        name: Menopausal flushing
+    reference:
+    - https://go.drugbank.com/drugs/DB00717#BE0000557
+-   comment: Only combination of estradiol and norethindrone is used for the treatment of postmenopausal osteoporosis.
+      Please refer to this curation DB00783_MESH_D015663_1 for MoA.
+    directed: true
+    graph:
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+        drug: norethisterone
+        drug_mesh: MESH:D009640
+        drugbank: DB:DB00717
+    links:
+    -   key: treats
+        source: MESH:D009640
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:D009640
+        label: Drug
+        name: Norethisterone
+    -   id: MESH:D015663
+        label: Disease
+        name: Postmenopausal osteoporosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00717#BE0000557
+-   comment: It is not approved for use in the United States, but is approved in other Western countries such as Canada, the UK and Australia.
+    directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: moclobemide
+        drug_mesh: MESH:D020912
+        drugbank: DB:DB01171
+    links:
+    -   key: negatively regulates
+        source: MESH:D020912
+        target: UniProt:P21397
+    -   key: positively regulates
+        source: UniProt:P21397
+        target: GO:0042402
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D012701
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0099153
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0099155
+    -   key: disrupted by
+        source: GO:0099153
+        target: MESH:D003866
+    -   key: disrupted by
+        source: GO:0099155
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D020912
+        label: Drug
+        name: Moclobemide
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase [flavin-containing] A
+    -   id: GO:0042402
+        label: BiologicalProcess
+        name: Cellular biogenic amine catabolic process
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0099153
+        label: BiologicalProcess
+        name: Synaptic transmission, serotonergic
+    -   id: GO:0099155
+        label: BiologicalProcess
+        name: Synaptic transmission, noradrenergic
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference:
+    - https://pubmed.ncbi.nlm.nih.gov/26104056/
+    - https://www.ncbi.nlm.nih.gov/books/NBK539848/
+    - https://pubmed.ncbi.nlm.nih.gov/12369606/
+    - https://go.drugbank.com/drugs/DB01171
+-   directed: true
+    graph:
+        disease: Mucopolysaccharidosis, MPS-II
+        disease_mesh: MESH:D016532
+        drug: idursulfase
+        drug_mesh: MESH:C517982,MESH:D007066
+        drugbank: DB:DB01271
+    links:
+    -   key: chemically similar to
+        source: DB:DB01271
+        target: UniProt:P22304
+    -   key: decreases abundance of
+        source: UniProt:P22304
+        target: MESH:D006497
+    -   key: decreases abundance of
+        source: UniProt:P22304
+        target: MESH:D003871
+    -   key: contributes to
+        source: MESH:D006497
+        target: MESH:D016532
+    -   key: contributes to
+        source: MESH:D003871
+        target: MESH:D016532
+    multigraph: true
+    nodes:
+    -   id: DB:DB01271
+        label: Drug
+        name: Idursulfase
+    -   id: UniProt:P22304
+        label: Protein
+        name: Iduronate 2-sulfatase
+    -   id: MESH:D006497
+        label: ChemicalSubstance
+        name: Heparitin Sulfate
+    -   id: MESH:D003871
+        label: ChemicalSubstance
+        name: Dermatan Sulfate
+    -   id: MESH:D016532
+        label: Disease
+        name: Mucopolysaccharidosis, MPS-II
+    reference: 
+    - https://go.drugbank.com/drugs/DB01271
+-   comment: In fibrocystic breast disease, the exact mechanism of action of danazol is unknown, but may be related to
+        suppressed estrogenic stimulation as a result of decreased ovarian production of estrogen.
+    directed: true
+    graph:
+        disease: Fibrocystic breast changes
+        disease_mesh: MESH:D005348
+        drug: danazol
+        drug_mesh: MESH:D003613
+        drugbank: DB:DB01406
+    links:
+    -   key: decreases activity of
+        source: MESH:D003613
+        target: UniProt:P30968
+    -   key: increases abundance of
+        source: UniProt:P30968
+        target: MESH:D006065
+    -   key: positively regulates
+        source: MESH:D006065
+        target: GO:0006703
+    -   key: increases abundance of
+        source: GO:0006703
+        target: MESH:D004967
+    -   key: positively correlated with
+        source: MESH:D004967
+        target: MESH:D005348
+    multigraph: true
+    nodes:
+    -   id: MESH:D003613
+        label: Drug
+        name: Danazol
+    -   id: UniProt:P30968
+        label: Protein
+        name: Gonadotropin-releasing hormone receptor
+    -   id: MESH:D006065
+        label: ChemicalSubstance
+        name: Gonadotropins, Pituitary
+    -   id: GO:0006703
+        label: BiologicalProcess
+        name: Estrogen biosynthetic process
+    -   id: MESH:D004967
+        label: ChemicalSubstance
+        name: Estrogens
+    -   id: MESH:D005348
+        label: Disease
+        name: Fibrocystic breast changes
+    reference: 
+    - https://go.drugbank.com/drugs/DB01406
+-   directed: true
+    graph:
+        disease: Endometriosis
+        disease_mesh: MESH:D004715
+        drug: danazol
+        drug_mesh: MESH:D003613
+        drugbank: DB:DB01406
+    links:
+    -   key: decreases activity of
+        source: MESH:D003613
+        target: UniProt:P30968
+    -   key: increases abundance of
+        source: UniProt:P30968
+        target: MESH:D006065
+    -   key: positively regulates
+        source: MESH:D006065
+        target: GO:0006703
+    -   key: increases abundance of
+        source: GO:0006703
+        target: MESH:D004967
+    -   key: positively correlated with
+        source: MESH:D004967
+        target: MESH:D004715
+    -   key: increases activity of
+        source: MESH:D003613
+        target: UniProt:P10275
+    -   key: participates in
+        source: UniProt:P10275
+        target: GO:0030521
+    -   key: treats
+        source: GO:0030521
+        target: MESH:D004715
+    multigraph: true
+    nodes:
+    -   id: MESH:D003613
+        label: Drug
+        name: Danazol
+    -   id: UniProt:P30968
+        label: Protein
+        name: Gonadotropin-releasing hormone receptor
+    -   id: MESH:D006065
+        label: ChemicalSubstance
+        name: Gonadotropins, Pituitary
+    -   id: GO:0006703
+        label: BiologicalProcess
+        name: Estrogen biosynthetic process
+    -   id: MESH:D004967
+        label: ChemicalSubstance
+        name: Estrogens
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0030521
+        label: BiologicalProcess
+        name: Androgen receptor signaling pathway
+    -   id: MESH:D004715
+        label: Disease
+        name: Endometriosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB01406
+-   directed: true
+    graph:
+        disease: Hereditary factor IX deficiency disease
+        disease_mesh: MESH:D002836
+        drug: eftrenonacog alfa
+        drug_mesh: MESH:C000599709
+        drugbank: DB:DB11608
+    links:
+    -   key: chemically similar to
+        source: MESH:C000599709
+        target: UniProt:P00740
+    -   key: participates in
+        source: UniProt:P00740
+        target: GO:0007597
+    -   key: positively regulates
+        source: GO:0007597
+        target: GO:0072378
+    -   key: negatively correlated with
+        source: GO:0072378
+        target: MESH:D002836
+    multigraph: true
+    nodes:
+    -   id: MESH:C000599709
+        label: Disease
+        name: Eftrenonacog alfa
+    -   id: UniProt:P00740
+        label: Protein
+        name: Coagulation factor IX
+    -   id: GO:0007597
+        label: BiologicalProcess
+        name: Blood coagulation, intrinsic pathway
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D002836
+        label: Disease
+        name: Hereditary factor IX deficiency disease
+    reference:
+    - https://go.drugbank.com/drugs/DB11608
+-   directed: true
+    graph:
+        disease: Clostridium difficile infection
+        disease_mesh: MESH:D003015
+        drug: bezlotoxumab
+        drug_mesh: MESH:C000613978
+        drugbank: DB:DB13140
+    links:
+    -   key: decreases activity of
+        source: MESH:C000613978
+        target: UniProt:P18177
+    -   key: produced by
+        source: UniProt:P18177
+        target: NCBITaxon:1496
+    -   key: causes
+        source: NCBITaxon:1496
+        target: MESH:D003015
+    multigraph: true
+    nodes:
+    -   id: MESH:C000613978
+        label: Drug
+        name: Bezlotoxumab
+    -   id: UniProt:P18177
+        label: Protein
+        name: Toxin B
+    -   id: NCBITaxon:1496
+        label: OrganismTaxon
+        name: Clostridioides difficile 
+    -   id: MESH:D003015
+        label: Disease
+        name: Clostridium difficile infection
+    reference: 
+    - https://go.drugbank.com/drugs/DB13140#BE0008671
