@@ -1,1 +1,749 @@
-
+-   directed: true
+    graph:
+        _id: DB09310_MESH_C567691_1
+        disease: Hereditary factor XIII A subunit deficiency
+        disease_mesh: MESH:C567691
+        drug: catridecacog
+        drug_mesh: null
+        drugbank: DB:DB09310
+    links:
+    -   key: chemically similar to
+        source: DB:DB09310
+        target: UniProt:P00488
+    -   key: participates in
+        source: UniProt:P00488
+        target: GO:0072378
+    -   key: negatively correlated with
+        source: GO:0072378
+        target: MESH:C567691
+    multigraph: true
+    nodes:
+    -   id: DB:DB09310
+        label: Drug
+        name: Catridecacog
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: UniProt:P00488
+        label: Protein
+        name: Coagulation factor XIII A chain
+    -   id: MESH:C567691
+        label: Disease
+        name: Hereditary factor XIII A subunit deficiency
+    reference:
+    - https://go.drugbank.com/drugs/DB09310
+-   directed: true
+    graph:
+        _id: DB00983_MESH_D011656_1
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: formoterol
+        drug_mesh: MESH:D000068759
+        drugbank: DB:DB00983
+    links:
+    -   key: positively regulates
+        source: MESH:D000068759
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: GO:0044557
+    -   key: located in
+        source: GO:0044557
+        target: UBERON:0002187
+    -   key: location of
+        source: UBERON:0002187
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068759
+        label: Drug
+        name: formoterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: UBERON:0002187
+        label: GrossAnatomicalStructure
+        name: Terminal bronchiole
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference:
+    - https://go.drugbank.com/drugs/DB00983#BE0000694
+    - https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease#Bronchodilators
+-   directed: true
+    graph:
+        _id: DB01211_MESH_D011018_1
+        disease: Pneumococcal pneumonia
+        disease_mesh: MESH:D011018
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB:DB01211
+    links:
+    -   key: negatively regulates
+        source: DB:DB01211
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1313
+    -   key: occurs in
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: DB:DB01211
+        label: Drug
+        name: Clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumococcal pneumonia
+    reference:
+    - https://go.drugbank.com/polypeptides/P0A7J6
+    - https://en.wikipedia.org/wiki/Pneumococcal_pneumonia
+-   directed: true
+    graph:
+        _id: DB01211_MESH_D018410_1
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB:DB01211
+    links:
+    -   key: negatively regulates
+        source: DB:DB01211
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1313
+    -   key: occurs in
+        source: NCBITaxon:1313
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: DB:DB01211
+        label: Drug
+        name: Clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference:
+    - https://go.drugbank.com/polypeptides/P0A7J6
+    - https://en.wikipedia.org/wiki/Bacterial_pneumonia
+-   directed: true
+    graph:
+        _id: DB01211_MESH_D013203_1
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB:DB01211
+    links:
+    -   key: negatively regulates
+        source: DB:DB01211
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1280
+    -   key: occurs in
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: DB:DB01211
+        label: Drug
+        name: Clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference:
+    - https://go.drugbank.com/polypeptides/P0A7J6
+    - https://en.wikipedia.org/wiki/Clarithromycin#Mechanism_of_action
+-   directed: true
+    graph:
+        _id: DB01211_MESH_D013290_1
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB:DB01211
+    links:
+    -   key: negatively regulates
+        source: DB:DB01211
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1314
+    -   key: occurs in
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: DB:DB01211
+        label: Drug
+        name: Clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference:
+    - https://go.drugbank.com/polypeptides/P0A7J6
+    - https://en.wikipedia.org/wiki/Streptococcus_pyogenes
+-   directed: true
+    graph:
+        _id: DB01211_MESH_D061387_1
+        disease: Chlamydial pneumonia
+        disease_mesh: MESH:D061387
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB:DB01211
+    links:
+    -   key: negatively regulates
+        source: DB:DB01211
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:83558
+    -   key: occurs in
+        source: NCBITaxon:83558
+        target: MESH:D061387
+    multigraph: true
+    nodes:
+    -   id: DB:DB01211
+        label: Drug
+        name: Clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:83558
+        label: OrganismTaxon
+        name: Chlamydia pneumoniae
+    -   id: MESH:D061387
+        label: Disease
+        name: Chlamydial pneumonia
+    reference:
+    - https://go.drugbank.com/polypeptides/P0A7J6
+    - https://www.ncbi.nlm.nih.gov/books/NBK560874/
+-   directed: true
+    graph:
+        _id: DB01211_MESH_D011019_1
+        disease: Pneumonia due to Mycoplasma pneumoniae
+        disease_mesh: MESH:D011019
+        drug: clarithromycin
+        drug_mesh: MESH:C040934,MESH:D017291
+        drugbank: DB:DB01211
+    links:
+    -   key: negatively regulates
+        source: DB:DB01211
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:2104
+    -   key: occurs in
+        source: NCBITaxon:2104
+        target: MESH:D011019
+    multigraph: true
+    nodes:
+    -   id: DB:DB01211
+        label: Drug
+        name: Clarithromycin
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2104
+        label: OrganismTaxon
+        name: Mycoplasma pneumoniae
+    -   id: MESH:D011019
+        label: Disease
+        name: Pneumonia due to Mycoplasma pneumoniae
+    reference:
+    - https://go.drugbank.com/polypeptides/P0A7J6
+    - https://en.wikipedia.org/wiki/Mycoplasma_pneumoniae
+-   directed: true
+    graph:
+        _id: DB09162_MESH_D054559_1
+        disease: Hyperphosphatemia
+        disease_mesh: MESH:D054559
+        drug: ferric citrate
+        drug_mesh: MESH:C025314
+        drugbank: DB:DB09162
+    links:
+    -   key: increases abundance of
+        source: MESH:C025314
+        target: CHEBI:29034
+    -   key: decreases abundance of
+        source: CHEBI:29034
+        target: CHEBI:18367
+    -   key: positively correlated with
+        source: CHEBI:18367
+        target: MESH:D054559
+    multigraph: true
+    nodes:
+    -   id: MESH:C025314
+        label: Drug
+        name: ferric citrate
+    -   id: CHEBI:29034
+        label: ChemicalSubstance
+        name: Iron(3+)
+    -   id: CHEBI:18367
+        label: ChemicalSubstance
+        name: Phosphate
+    -   id: MESH:D054559
+        label: Disease
+        name: Hyperphosphatemia
+    reference:
+    - https://go.drugbank.com/drugs/DB14520
+-   directed: true
+    graph:
+        _id: DB00350_MESH_D006973_1
+        disease: Hypertension
+        disease_mesh: MESH:D006973
+        drug: minoxidil
+        drug_mesh: MESH:D008914
+        drugbank: DB:DB00350
+    links:
+    -   key: increases activity of
+        source: MESH:D008914
+        target: UniProt:P48048
+    -   key: participates in
+        source: UniProt:P48048
+        target: GO:0060081
+    -   key: negatively regulates
+        source: GO:0060081
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0006939
+    -   key: positively regulates
+        source: GO:0006939
+        target: GO:0045907
+    -   key: contributes to
+        source: GO:0045907
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D008914
+        label: Drug
+        name: Minoxidil
+    -   id: UniProt:P48048
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 1
+    -   id: GO:0060081
+        label: BiologicalProcess
+        name: Membrane hyperpolarization
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Transmembrane calcium influx
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: GO:0045907
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB00350
+-   directed: true
+    graph:
+        _id: DB00601_MESH_D011018_1
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: linezolid
+        drug_mesh: MESH:D000069349
+        drugbank: DB:DB00601
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069349
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069349
+        label: Drug
+        name: Linezolid
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference:
+    - https://go.drugbank.com/drugs/DB00601
+-   directed: true
+    graph:
+        _id: DB00601_MESH_D013290_1
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: linezolid
+        drug_mesh: MESH:D000069349
+        drugbank: DB:DB00601
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069349
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069349
+        label: Drug
+        name: Linezolid
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference:
+    - https://go.drugbank.com/drugs/DB00601
+-   directed: true
+    graph:
+        _id: DB00601_MESH_D013203_1
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: linezolid
+        drug_mesh: MESH:D000069349
+        drugbank: DB:DB00601
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069349
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069349
+        label: Drug
+        name: Linezolid
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference:
+    - https://go.drugbank.com/drugs/DB00601
+-   directed: true
+    graph:
+        _id: DB00601_MESH_D011023_1
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: linezolid
+        drug_mesh: MESH:D000069349
+        drugbank: DB:DB00601
+    links:
+    -   key: negatively regulates
+        source: MESH:D000069349
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
+    -   key: part of
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069349
+        label: Drug
+        name: Linezolid
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB00601
+    - https://www.ncbi.nlm.nih.gov/books/NBK559152/
+-   directed: true
+    graph:
+        _id: DB01550_MESH_D009765_1
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: fenproporex
+        drug_mesh: MESH:C026013
+        drugbank: DB:DB01550
+    links:
+    -   key: has metabolite
+        source: MESH:C026013
+        target: MESH:D000661
+    -   key: positively regulates
+        source: MESH:D000661
+        target: GO:0004936
+    -   key: positively regulates
+        source: MESH:D000661
+        target: GO:0004939
+    -   key: negatively regulates
+        source: GO:0004936
+        target: GO:0032100
+    -   key: negatively regulates
+        source: GO:0004939
+        target: GO:0032100
+    -   key: positively correlated with
+        source: GO:0032100
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:C026013
+        label: Drug
+        name: fenproporex
+    -   id: MESH:D000661
+        label: ChemicalSubstance
+        name: Amphetamine
+    -   id: GO:0004936
+        label: MolecularActivity
+        name: alpha-adrenergic receptor activity
+    -   id: GO:0004939
+        label: MolecularActivity
+        name: beta-adrenergic receptor activity
+    -   id: GO:0032100
+        label: BiologicalProcess
+        name: appetite stimulation
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference:
+    - https://go.drugbank.com/drugs/DB01550
