@@ -1824,20 +1824,14 @@
     -   key: participates in
         source: UniProt:P48048
         target: GO:0060081
-    -   key: participates in
-        source: UniProt:P48048
-        target: GO:0042311
-    -   key: negatively regulates
-        source: GO:0042311
-        target: GO:0008217
     -   key: negatively regulates
         source: GO:0060081
         target: GO:0070509
-    -   key: positively correlated with
-        source: GO:0008217
-        target: MESH:D006973
-    -   key: contributes to
+    -   key: positively regulates
         source: GO:0070509
+        target: GO:0006939
+    -   key: positively regulates
+        source: GO:0006939
         target: GO:0045907
     -   key: contributes to
         source: GO:0045907
@@ -1846,28 +1840,27 @@
     nodes:
     -   id: MESH:D008914
         label: Drug
-        name: minoxidil
+        name: Minoxidil
     -   id: UniProt:P48048
         label: Protein
         name: ATP-sensitive inward rectifier potassium channel 1
-    -   id: GO:0042311
-        label: BiologicalProcess
-        name: Vasodilation
     -   id: GO:0060081
         label: BiologicalProcess
-        name: membrane hyperpolarization
-    -   id: GO:0008217
-        label: BiologicalProcess
-        name: Blood Pressure
+        name: Membrane hyperpolarization
     -   id: GO:0070509
         label: BiologicalProcess
-        name: transmembrane calcium influx
+        name: Transmembrane calcium influx
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
     -   id: GO:0045907
         label: BiologicalProcess
-        name: positive regulation of vasoconstriction
+        name: Vasoconstriction
     -   id: MESH:D006973
         label: Disease
         name: Hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB00350
 -   directed: true
     graph:
         _id: DB00203_MESH_D007172_1
@@ -5227,29 +5220,23 @@
         drug_mesh: null
         drugbank: DB:DB09310
     links:
-    -   key: positively correlated with
+    -   key: chemically similar to
         source: DB:DB09310
-        target: UniProt:P05160
-    -   key: molecularly interacts with
-        source: UniProt:P05160
-        target: MESH:D002118
-    -   key: positively regulates
-        source: MESH:D002118
         target: UniProt:P00488
-    -   key: disrupted by
+    -   key: participates in
         source: UniProt:P00488
+        target: GO:0072378
+    -   key: negatively correlated with
+        source: GO:0072378
         target: MESH:C567691
     multigraph: true
     nodes:
     -   id: DB:DB09310
         label: Drug
-        name: catridecacog
-    -   id: UniProt:P05160
-        label: Protein
-        name: Coagulation factor XIII B chain
-    -   id: MESH:D002118
-        label: ChemicalSubstance
-        name: Calcium
+        name: Catridecacog
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
     -   id: UniProt:P00488
         label: Protein
         name: Coagulation factor XIII A chain
@@ -5579,9 +5566,9 @@
         target: GO:0044557
     -   key: located in
         source: GO:0044557
-        target: UBERON:0002185
-    -   key: affected by
-        source: UBERON:0002185
+        target: UBERON:0002187
+    -   key: location of
+        source: UBERON:0002187
         target: MESH:D011656
     multigraph: true
     nodes:
@@ -5600,9 +5587,9 @@
     -   id: GO:0044557
         label: BiologicalProcess
         name: relaxation of smooth muscle
-    -   id: UBERON:0002185
+    -   id: UBERON:0002187
         label: GrossAnatomicalStructure
-        name: bronchus
+        name: Terminal bronchiole
     -   id: MESH:D011656
         label: Disease
         name: Pulmonary emphysema
@@ -5850,14 +5837,14 @@
     -   key: negatively regulates
         source: DB:DB01211
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: participates in
-        source: UniProt:P0A7J6
-        target: GO:0045727
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -5869,19 +5856,19 @@
     nodes:
     -   id: DB:DB01211
         label: Drug
-        name: clarithromycin
+        name: Clarithromycin
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
-    -   id: GO:0045727
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1280
         label: OrganismTaxon
         name: Staphylococcus aureus
@@ -5903,14 +5890,14 @@
     -   key: negatively regulates
         source: DB:DB01211
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: participates in
-        source: UniProt:P0A7J6
-        target: GO:0045727
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -5922,19 +5909,19 @@
     nodes:
     -   id: DB:DB01211
         label: Drug
-        name: clarithromycin
+        name: Clarithromycin
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
-    -   id: GO:0045727
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1314
         label: OrganismTaxon
         name: Streptococcus pyogenes
@@ -5956,14 +5943,14 @@
     -   key: negatively regulates
         source: DB:DB01211
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: participates in
-        source: UniProt:P0A7J6
-        target: GO:0045727
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -5975,19 +5962,19 @@
     nodes:
     -   id: DB:DB01211
         label: Drug
-        name: clarithromycin
+        name: Clarithromycin
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
-    -   id: GO:0045727
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:83558
         label: OrganismTaxon
         name: Chlamydia pneumoniae
@@ -6009,14 +5996,14 @@
     -   key: negatively regulates
         source: DB:DB01211
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: participates in
-        source: UniProt:P0A7J6
-        target: GO:0045727
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -6028,19 +6015,19 @@
     nodes:
     -   id: DB:DB01211
         label: Drug
-        name: clarithromycin
+        name: Clarithromycin
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
-    -   id: GO:0045727
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:2104
         label: OrganismTaxon
         name: Mycoplasma pneumoniae
@@ -6062,14 +6049,14 @@
     -   key: negatively regulates
         source: DB:DB01211
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: participates in
-        source: UniProt:P0A7J6
-        target: GO:0045727
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -6081,19 +6068,19 @@
     nodes:
     -   id: DB:DB01211
         label: Drug
-        name: clarithromycin
+        name: Clarithromycin
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
-    -   id: GO:0045727
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1313
         label: OrganismTaxon
         name: Streptococcus pneumoniae
@@ -6115,14 +6102,14 @@
     -   key: negatively regulates
         source: DB:DB01211
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: participates in
-        source: UniProt:P0A7J6
-        target: GO:0045727
+        target: GO:0005840
+    -   key: positively regulates
+        source: GO:0005840
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -6134,19 +6121,19 @@
     nodes:
     -   id: DB:DB01211
         label: Drug
-        name: clarithromycin
+        name: Clarithromycin
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
-    -   id: GO:0045727
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1313
         label: OrganismTaxon
         name: Streptococcus pneumoniae
@@ -6155,7 +6142,7 @@
         name: Pneumococcal pneumonia
     reference:
     - https://go.drugbank.com/polypeptides/P0A7J6
-    - https://en.wikipedia.org/wiki/Pneumococcal_pneumonia#:~:text=Pneumococcal%20pneumonia%20is%20a%20type,common%20types%20of%20pneumococcal%20infection.
+    - https://en.wikipedia.org/wiki/Pneumococcal_pneumonia
 -   directed: true
     graph:
         _id: DB06799_MESH_D014552_1
@@ -6209,7 +6196,7 @@
     -   key: increases abundance of
         source: MESH:C025314
         target: CHEBI:29034
-    -   key: molecularly interacts with
+    -   key: decreases abundance of
         source: CHEBI:29034
         target: CHEBI:18367
     -   key: positively correlated with
@@ -6222,10 +6209,10 @@
         name: ferric citrate
     -   id: CHEBI:29034
         label: ChemicalSubstance
-        name: iron(3+)
+        name: Iron(3+)
     -   id: CHEBI:18367
         label: ChemicalSubstance
-        name: "phosphate(3\u2212)"
+        name: Phosphate
     -   id: MESH:D054559
         label: Disease
         name: Hyperphosphatemia
@@ -6588,17 +6575,14 @@
     -   key: negatively regulates
         source: MESH:D000069349
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: part of
-        source: UniProt:P0A7J6
         target: GO:0005840
-    -   key: participates in
+    -   key: positively regulates
         source: GO:0005840
-        target: GO:0045727
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -6610,22 +6594,19 @@
     nodes:
     -   id: MESH:D000069349
         label: Drug
-        name: linezolid
+        name: Linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
     -   id: GO:0005840
         label: CellularComponent
-        name: ribosome
-    -   id: GO:0045727
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1301
         label: OrganismTaxon
         name: Streptococcus
@@ -6646,17 +6627,14 @@
     -   key: negatively regulates
         source: MESH:D000069349
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: part of
-        source: UniProt:P0A7J6
         target: GO:0005840
-    -   key: participates in
+    -   key: positively regulates
         source: GO:0005840
-        target: GO:0045727
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -6668,22 +6646,19 @@
     nodes:
     -   id: MESH:D000069349
         label: Drug
-        name: linezolid
+        name: Linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
     -   id: GO:0005840
         label: CellularComponent
-        name: ribosome
-    -   id: GO:0045727
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1314
         label: OrganismTaxon
         name: Streptococcus pyogenes
@@ -6704,17 +6679,14 @@
     -   key: negatively regulates
         source: MESH:D000069349
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: part of
-        source: UniProt:P0A7J6
         target: GO:0005840
-    -   key: participates in
+    -   key: positively regulates
         source: GO:0005840
-        target: GO:0045727
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -6726,22 +6698,19 @@
     nodes:
     -   id: MESH:D000069349
         label: Drug
-        name: linezolid
+        name: Linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
     -   id: GO:0005840
         label: CellularComponent
-        name: ribosome
-    -   id: GO:0045727
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1280
         label: OrganismTaxon
         name: Staphylococcus aureus
@@ -6762,17 +6731,14 @@
     -   key: negatively regulates
         source: MESH:D000069349
         target: MESH:D012338
-    -   key: positively correlated with
+    -   key: located in
         source: MESH:D012338
-        target: UniProt:P0A7J6
-    -   key: part of
-        source: UniProt:P0A7J6
         target: GO:0005840
-    -   key: participates in
+    -   key: positively regulates
         source: GO:0005840
-        target: GO:0045727
+        target: GO:0006412
     -   key: part of
-        source: GO:0045727
+        source: GO:0006412
         target: GO:0051301
     -   key: occurs in
         source: GO:0051301
@@ -6784,22 +6750,19 @@
     nodes:
     -   id: MESH:D000069349
         label: Drug
-        name: linezolid
+        name: Linezolid
     -   id: MESH:D012338
         label: ChemicalSubstance
         name: RNA, Ribosomal, 23S
-    -   id: UniProt:P0A7J6
-        label: Protein
-        name: 50S ribosomal protein L10
     -   id: GO:0005840
         label: CellularComponent
-        name: ribosome
-    -   id: GO:0045727
+        name: Ribosome
+    -   id: GO:0006412
         label: BiologicalProcess
-        name: positive regulation of translation
+        name: Translation
     -   id: GO:0051301
         label: BiologicalProcess
-        name: cell division
+        name: Cell division
     -   id: NCBITaxon:1280
         label: OrganismTaxon
         name: Staphylococcus aureus
@@ -7314,7 +7277,7 @@
         drug_mesh: MESH:C026013
         drugbank: DB:DB01550
     links:
-    -   key: produces
+    -   key: has metabolite
         source: MESH:C026013
         target: MESH:D000661
     -   key: positively regulates
