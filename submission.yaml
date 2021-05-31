@@ -82,86 +82,6 @@
     - https://en.wikipedia.org/wiki/Methotrexate
 -   directed: true
     graph:
-        disease: Rheumatoid arthritis
-        disease_mesh: MESH:D001172
-        drug: methotrexate
-        drug_mesh: MESH:D008727
-        drugbank: DB:DB00563
-    links:
-    -   key: has metabolite
-        source: MESH:D008727
-        target: CHEBI:93775
-    -   key: decreases activity of
-        source: CHEBI:93775
-        target: UniProt:P31939
-    -   key: increases abundance of
-        source: UniProt:P31939
-        target: CHEBI:18406
-    -   key: decreases activity of
-        source: CHEBI:18406
-        target: UniProt:P00813
-    -   key: increases abundance of
-        source: UniProt:P00813
-        target: CHEBI:15422
-    -   key: increases abundance of
-        source: UniProt:P00813
-        target: CHEBI:16335
-    -   key: increases activity of
-        source: CHEBI:15422
-        target: InterPro:IPR001634
-    -   key: increases activity of
-        source: CHEBI:16335
-        target: InterPro:IPR001634
-    -   key: located in
-        source: InterPro:IPR001634
-        target: CL:0000084
-    -   key: causes
-        source: CL:0000084
-        target: GO:0006954
-    -   key: correlated with
-        source: GO:0006954
-        target: MESH:D001172
-    multigraph: true
-    nodes:
-    -   id: MESH:D008727
-        label: Drug
-        name: methotrexate
-    -   id: CHEBI:93775
-        label: ChemicalSubstance
-        name: Methotrexate polyglutamate
-    -   id: UniProt:P31939
-        label: Protein
-        name: Bifunctional purine biosynthesis protein PURH
-    -   id: CHEBI:18406
-        label: ChemicalSubstance
-        name: AICA ribonucleotide
-    -   id: UniProt:P00813
-        label: Protein
-        name: Adenosine deaminase
-    -   id: CHEBI:15422
-        label: ChemicalSubstance
-        name: ATP
-    -   id: CHEBI:16335
-        label: ChemicalSubstance
-        name: Adenosine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptors
-    -   id: CL:0000084
-        label: Cell
-        name: T cell
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: inflammatory response
-    -   id: MESH:D001172
-        label: Disease
-        name: Rheumatoid arthritis
-    reference:
-    - https://go.drugbank.com/drugs/DB00563#BE0000330
-    - https://en.wikipedia.org/wiki/Methotrexate
-    - https://www.sciencedirect.com/science/article/pii/S1297319X18301817
--   directed: true
-    graph:
         disease: Burkitt's lymphoma
         disease_mesh: MESH:D002051
         drug: methotrexate
@@ -572,8 +492,8 @@
     - https://en.wikipedia.org/wiki/Methotrexate
 -   directed: true
     graph:
-        disease: Psoriasis
-        disease_mesh: MESH:D011565
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
         drug: methotrexate
         drug_mesh: MESH:D008727
         drugbank: DB:DB00563
@@ -590,15 +510,9 @@
     -   key: decreases activity of
         source: CHEBI:18406
         target: UniProt:P00813
-    -   key: increases abundance of
-        source: UniProt:P00813
-        target: CHEBI:15422
-    -   key: increases abundance of
+    -   key: decreases abundance of
         source: UniProt:P00813
         target: CHEBI:16335
-    -   key: increases activity of
-        source: CHEBI:15422
-        target: InterPro:IPR001634
     -   key: increases activity of
         source: CHEBI:16335
         target: InterPro:IPR001634
@@ -610,7 +524,7 @@
         target: GO:0006954
     -   key: correlated with
         source: GO:0006954
-        target: MESH:D011565
+        target: MESH:D001172
     multigraph: true
     nodes:
     -   id: MESH:D008727
@@ -628,9 +542,6 @@
     -   id: UniProt:P00813
         label: Protein
         name: Adenosine deaminase
-    -   id: CHEBI:15422
-        label: ChemicalSubstance
-        name: ATP
     -   id: CHEBI:16335
         label: ChemicalSubstance
         name: Adenosine
@@ -643,12 +554,13 @@
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
-    -   id: MESH:D011565
+    -   id: MESH:D001172
         label: Disease
-        name: Psoriasis
+        name: Rheumatoid arthritis
     reference:
     - https://go.drugbank.com/drugs/DB00563#BE0000330
     - https://en.wikipedia.org/wiki/Methotrexate
+    - https://www.sciencedirect.com/science/article/pii/S1297319X18301817
 -   directed: true
     graph:
         disease: Juvenile rheumatoid arthritis
@@ -669,15 +581,9 @@
     -   key: decreases activity of
         source: CHEBI:18406
         target: UniProt:P00813
-    -   key: increases abundance of
-        source: UniProt:P00813
-        target: CHEBI:15422
-    -   key: increases abundance of
+    -   key: decreases abundance of
         source: UniProt:P00813
         target: CHEBI:16335
-    -   key: increases activity of
-        source: CHEBI:15422
-        target: InterPro:IPR001634
     -   key: increases activity of
         source: CHEBI:16335
         target: InterPro:IPR001634
@@ -707,9 +613,6 @@
     -   id: UniProt:P00813
         label: Protein
         name: Adenosine deaminase
-    -   id: CHEBI:15422
-        label: ChemicalSubstance
-        name: ATP
     -   id: CHEBI:16335
         label: ChemicalSubstance
         name: Adenosine
@@ -728,7 +631,77 @@
     reference:
     - https://go.drugbank.com/drugs/DB00563#BE0000330
     - https://en.wikipedia.org/wiki/Methotrexate
-    - https://www.sciencedirect.com/science/article/pii/S1297319X18301817
+    - https://www.sciencedirect.com/science/article/pii/S1297319X18301817	
+-   directed: true
+    graph:
+        disease: Psoriasis
+        disease_mesh: MESH:D011565
+        drug: methotrexate
+        drug_mesh: MESH:D008727
+        drugbank: DB:DB00563
+    links:
+    -   key: has metabolite
+        source: MESH:D008727
+        target: CHEBI:93775
+    -   key: decreases activity of
+        source: CHEBI:93775
+        target: UniProt:P31939
+    -   key: increases abundance of
+        source: UniProt:P31939
+        target: CHEBI:18406
+    -   key: decreases activity of
+        source: CHEBI:18406
+        target: UniProt:P00813
+    -   key: increases abundance of
+        source: UniProt:P00813
+        target: CHEBI:16335
+    -   key: decreases activity of
+        source: CHEBI:16335
+        target: InterPro:IPR001634
+    -   key: located in
+        source: InterPro:IPR001634
+        target: CL:0000542
+    -   key: causes
+        source: CL:0000542
+        target: GO:0006954
+    -   key: correlated with
+        source: GO:0006954
+        target: MESH:D011565
+    multigraph: true
+    nodes:
+    -   id: MESH:D008727
+        label: Drug
+        name: methotrexate
+    -   id: CHEBI:93775
+        label: ChemicalSubstance
+        name: Methotrexate polyglutamate
+    -   id: UniProt:P31939
+        label: Protein
+        name: Bifunctional purine biosynthesis protein PURH
+    -   id: CHEBI:18406
+        label: ChemicalSubstance
+        name: AICA ribonucleotide
+    -   id: UniProt:P00813
+        label: Protein
+        name: Adenosine deaminase
+    -   id: CHEBI:16335
+        label: ChemicalSubstance
+        name: Adenosine
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptors
+    -   id: CL:0000542
+        label: Cell
+        name: Lymphocyte
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D011565
+        label: Disease
+        name: Psoriasis
+    reference:
+    - https://go.drugbank.com/drugs/DB00563#BE0000330
+    - https://en.wikipedia.org/wiki/Methotrexate
 -   directed: true
     graph:
         disease: Chronic lymphoid leukemia, disease
@@ -1009,7 +982,7 @@
     -   key: participates in
         source: UniProt:P31639
         target: GO:0035623
-    -   key: has phenotype
+    -   key: prevents
         source: GO:0035623
         target: HP:0003076
     -   key: decreases abundance of
@@ -1048,25 +1021,19 @@
         drug_mesh: MESH:C533860
         drugbank: DB:DB08932
     links:
-    -   key: participates in
-        source: MESH:C533860
-        target: GO:0031707
-    -   key: participates in
-        source: MESH:C533860
-        target: GO:0031708
     -   key: decreases activity of
-        source: GO:0031707
+        source: MESH:C533860
         target: UniProt:P25101
     -   key: decreases activity of
-        source: GO:0031708
+        source: MESH:C533860
         target: UniProt:P24530
-    -   key: positively regulates
+    -   key: capable of
         source: UniProt:P25101
         target: GO:0042310
     -   key: capable of
         source: UniProt:P24530
         target: GO:0042310
-    -   key: regulates
+    -   key: causes
         source: GO:0042310
         target: HP:0000822
     -   key: manifestation of
@@ -1077,12 +1044,6 @@
     -   id: MESH:C533860
         label: Drug
         name: macitentan
-    -   id: GO:0031707
-        label: MolecularActivity
-        name: Endothelin-1 receptor binding
-    -   id: GO:0031708
-        label: MolecularActivity
-        name: Endothelin-B receptor binding
     -   id: UniProt:P25101
         label: Protein
         name: Endothelin-1 receptor
@@ -1108,14 +1069,17 @@
         drug_mesh: MESH:D000643
         drugbank: DB:DB06767
     links:
-    -   key: increases activity of
+    -   key: interacts with
         source: MESH:D000643
         target: UBERON:0000410
-    -   key: positively correlated with
+    -   key: correlated with
         source: UBERON:0000410
         target: GO:0070254
-    -   key: positively correlated with 
+    -   key: exacerbates
         source: GO:0070254
+        target: HP:0031245
+    -   key: treats
+        source: HP:0031245
         target: MESH:D003371
     multigraph: true
     nodes:
@@ -1128,6 +1092,9 @@
     -   id: GO:0070254
         label: BiologicalProcess
         name: Mucus secretion
+    -   id: HP:0031245
+        label: PhenotypicFeature
+        name: Productive cough
     -   id: MESH:D003371
         label: Disease
         name: Cough
@@ -1143,17 +1110,17 @@
         drug_mesh: MESH:D000643
         drugbank: DB:DB06767
     links:
-    -   key: increases activity of
+    -   key: interacts with
         source: MESH:D000643
         target: UBERON:0000410
-    -   key: positively correlated with
+    -   key: correlated with
         source: UBERON:0000410
         target: GO:0070254
-    -   key: positively correlated with
+    -   key: exacerbates
         source: GO:0070254
-        target: MESH:D003371
-    -   key: related to
-        source: MESH:D003371
+        target: HP:0031245
+    -   key: treats
+        source: HP:0031245
         target: MESH:D003139
     multigraph: true
     nodes:
@@ -1166,9 +1133,9 @@
     -   id: GO:0070254
         label: BiologicalProcess
         name: Mucus secretion
-    -   id: MESH:D003371
-        label: Disease
-        name: Cough
+    -   id: HP:0031245
+        label: PhenotypicFeature
+        name: Productive cough
     -   id: MESH:D003139
         label: Disease
         name: Common cold
@@ -1176,7 +1143,7 @@
     - https://go.drugbank.com/drugs/DB06767
     - https://pubchem.ncbi.nlm.nih.gov/compound/Ammonium-chloride
     - https://mavyn.in/webapp/pdf/googledrive/nigel-slater-vgw/ammonium-chloride-uses-in-cough-syrup-b03c77
--   comment: Contraindicated. As per drugbank sodium fluoride is being used to prevent dental caries and tooth decay. 
+-   comment: Contraindicated. As per drugbank sodium fluoride is being used to prevent dental caries and tooth decay.
              The literature evidence suggests that sodium fluoride causes vitamin defeciency
     directed: true
     graph:
@@ -1200,7 +1167,9 @@
     reference:
     - https://go.drugbank.com/drugs/DB09325
     - https://www.sciencedirect.com/science/article/abs/pii/S0736574815300630
--   directed: true
+-   comment: The exact mechanism of artemisinin action is not completely understood, It was proposed to generate free-radicals due to its unique structure endoperoxide
+             bridge. The MoA proposed here is the one of the drug target identified for artemisinin mode of action with solid experimental evidence.
+    directed: true
     graph:
         disease: Falciparum malaria
         disease_mesh: MESH:D016778
@@ -1208,17 +1177,14 @@
         drug_mesh: MESH:C031327
         drugbank: DB:DB13132
     links:
-    -   key: molecularly interacts with
+    -   key: has metabolite
         source: MESH:C031327
+        target: CHEBI:207229
+    -   key: decreases activity of
+        source: CHEBI:207229
         target: UniProt:Q8I3Z5
-    -   key: causes
+    -   key: part of
         source: UniProt:Q8I3Z5
-        target: GO:0008213
-    -   key: occurs in
-        source: GO:0008213
-        target: NCBITaxon:5833
-    -   key: disrupts
-        source: GO:0008213
         target: NCBITaxon:5833
     -   key: causes
         source: NCBITaxon:5833
@@ -1228,12 +1194,12 @@
     -   id: MESH:C031327
         label: Drug
         name: artemisinin
+    -   id: CHEBI:207229
+        label: ChemicalSubstance
+        name: dihydroartemisinin
     -   id: UniProt:Q8I3Z5
         label: Protein
         name: Translationally controlled tumor protein (TCTP) homolog
-    -   id: GO:0008213
-        label: BiologicalProcess
-        name: Protein alkylation
     -   id: NCBITaxon:5833
         label: OrganismTaxon
         name: Plasmodium falciparum
@@ -1243,6 +1209,7 @@
     reference:
     - https://go.drugbank.com/drugs/DB13132
     - https://link.springer.com/article/10.1007%2Fs00709-015-0805-6
+    - https://en.wikipedia.org/wiki/Artemisinin
 -   comment: gabapentin enacarbil is a prodrug of gabapentin, it's physiological effects are the same as gabapentin
     directed: true
     graph:
@@ -1255,19 +1222,19 @@
     -   key: has metabolite
         source: MESH:C493250
         target: CHEBI:42797
-    -   key: molecularly interacts with
+    -   key: decreases activity of
         source: CHEBI:42797
         target: UniProt:Q9NY47
     -   key: located in
         source: UniProt:Q9NY47
         target: GO:0098793
-    -   key: negatively regulates
+    -   key: participates in
         source: GO:0098793
         target: GO:0070509
-    -   key: negatively regulates 
+    -   key: participates in
         source: GO:0070509
         target: GO:0007269
-    -   key: ameliorates
+    -   key: participates in
         source: GO:0007269
         target: HP:0012531
     -   key: correlated with
@@ -1315,23 +1282,23 @@
     -   key: has metabolite
         source: MESH:C493250
         target: CHEBI:42797
-    -   key: molecularly interacts with
+    -   key: decreases activity of
         source: CHEBI:42797
         target: UniProt:Q9NY47
     -   key: located in
         source: UniProt:Q9NY47
         target: GO:0098793
-    -   key: negatively regulates
+    -   key: participates in
         source: GO:0098793
         target: GO:0070509
-    -   key: negatively regulates 
+    -   key: participates in
         source: GO:0070509
         target: GO:0007269
-    -   key: ameliorates
+    -   key: participates in
         source: GO:0007269
-        target: HP:0012531
+        target: HP:0012514
     -   key: correlated with
-        source: HP:0012531
+        source: HP:0012514
         target: MESH:D012148
     multigraph: true
     nodes:
@@ -1353,13 +1320,12 @@
     -   id: GO:0007269
         label: BiologicalProcess
         name: Neurotransmitter release
-    -   id: HP:0012531
+    -   id: HP:0012514
         label: PhenotypicFeature
-        name: Pain
+        name: Lower limb pain
     -   id: MESH:D012148
         label: Disease
         name: Restless legs
     reference:
     - https://go.drugbank.com/drugs/DB08872#BE0000691
-    - https://paindr.com/comparing-gabapentin-to-pregabalin-for-neuropathic-pain
     - https://bjanaesthesia.org/article/S0007-0912(18)30234-4/pdf
