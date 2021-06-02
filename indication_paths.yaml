@@ -132541,3 +132541,1142 @@
     reference:
     - https://go.drugbank.com/drugs/DB08872#BE0000691
     - https://bjanaesthesia.org/article/S0007-0912(18)30234-4/pdf
+-   comment: Progesterone is often prescribed in combination with estradiol component
+        for atrophic vaginitis.
+    directed: true
+    graph:
+        _id: DB00396_MESH_D059268_1
+        disease: Atrophic vaginitis
+        disease_mesh: MESH:D059268
+        drug: Progesterone
+        drug_mesh: MESH:D011374
+        drugbank: DB:DB00396
+    links:
+    -   key: increases activity of
+        source: MESH:D011374
+        target: UniProt:P06401
+    -   key: participates in
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: treats
+        source: GO:0050847
+        target: MESH:D059268
+    multigraph: true
+    nodes:
+    -   id: MESH:D011374
+        label: Drug
+        name: Progesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: MESH:D059268
+        label: Disease
+        name: Atrophic vaginitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00396#BE0000557
+    - https://www.sciencedirect.com/science/article/abs/pii/S0378512296010870
+-   directed: true
+    graph:
+        _id: DB00396_MESH_D008796_1
+        disease: Dysfunctional uterine bleeding
+        disease_mesh: MESH:D008796
+        drug: Progesterone
+        drug_mesh: MESH:D011374
+        drugbank: DB:DB00396
+    links:
+    -   key: increases activity of
+        source: DB:DB00396
+        target: UniProt:P06401
+    -   key: participates in
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: negatively regulates
+        source: GO:0050847
+        target: GO:0050673
+    -   key: located in
+        source: GO:0050673
+        target: UBERON:0001295
+    -   key: correlated with
+        source: UBERON:0001295
+        target: HP:0030126
+    -   key: causes
+        source: HP:0030126
+        target: MESH:D008796
+    multigraph: true
+    nodes:
+    -   id: DB:DB00396
+        label: Drug
+        name: Progesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: HP:0030126
+        label: PhenotypicFeature
+        name: Abnormality of the endometrium
+    -   id: GO:0050673
+        label: BiologicalProcess
+        name: Epithelial cell proliferation
+    -   id: MESH:D008796
+        label: Disease
+        name: Dysfunctional uterine bleeding
+    reference:
+    - https://pubmed.ncbi.nlm.nih.gov/8671392/
+    - https://go.drugbank.com/drugs/DB00396#BE0000557
+-   comment: Progesterone is prescribed in combination with estradiol as a hormonemtherapy
+        during menopause to prevent menopausal flushing and in this case estradiol
+        is the acive drug, while progesterone is added for the protection of the endometrium.
+        Please refer to this curation DB00783_MESH_D019584_1 for MoA.
+    directed: true
+    graph:
+        _id: DB00396_MESH_D019584_1
+        disease: Menopausal flushing
+        disease_mesh: MESH:D019584
+        drug: Progesterone
+        drug_mesh: MESH:D011374
+        drugbank: DB:DB00396
+    links:
+    -   key: treats
+        source: DB:DB00396
+        target: MESH:D019584
+    multigraph: true
+    nodes:
+    -   id: DB:DB00396
+        label: Drug
+        name: Progesterone
+    -   id: MESH:D019584
+        label: Disease
+        name: Menopausal flushing
+    reference:
+    - https://go.drugbank.com/drugs/DB00396#BE0000557
+-   directed: true
+    graph:
+        _id: DB00396_MESH_D004715_1
+        disease: Endometriosis
+        disease_mesh: MESH:D004715
+        drug: Progesterone
+        drug_mesh: MESH:D011374
+        drugbank: DB:DB00396
+    links:
+    -   key: increases activity of
+        source: DB:DB00396
+        target: UniProt:P06401
+    -   key: participates in
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: negatively regulates
+        source: GO:0050847
+        target: GO:0050673
+    -   key: located in
+        source: GO:0050673
+        target: UBERON:0001295
+    -   key: positively correlated with
+        source: UBERON:0001295
+        target: MESH:D004715
+    multigraph: true
+    nodes:
+    -   id: DB:DB00396
+        label: Drug
+        name: Progesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: GO:0050673
+        label: BiologicalProcess
+        name: Epithelial cell proliferation
+    -   id: MESH:D004715
+        label: Disease
+        name: Endometriosis
+    reference:
+    - https://en.wikipedia.org/wiki/Endometriosis
+    - https://go.drugbank.com/drugs/DB00396#BE0000557
+-   comment: Progesterone is usually prescribed in combination with estradiol for
+        a treatment of postmenopausal osteoporosis. Please refer to this curation
+        DB00783_MESH_D015663_1 for MoA.
+    directed: true
+    graph:
+        _id: DB00396_MESH_D015663_1
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+        drug: Progesterone
+        drug_mesh: MESH:D011374
+        drugbank: DB:DB00396
+    links:
+    -   key: treats
+        source: MESH:D011374
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:D011374
+        label: Drug
+        name: Progesterone
+    -   id: MESH:D015663
+        label: Disease
+        name: Postmenopausal osteoporosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00396#BE0000557
+    - https://pubmed.ncbi.nlm.nih.gov/29962257/
+-   directed: true
+    graph:
+        _id: DB00396_MESH_D016889_1
+        disease: Endometrial carcinoma
+        disease_mesh: MESH:D016889
+        drug: Progesterone
+        drug_mesh: MESH:D011374
+        drugbank: DB:DB00396
+    links:
+    -   key: increases activity of
+        source: DB:DB00396
+        target: UniProt:P06401
+    -   key: participates in
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: negatively regulates
+        source: GO:0050847
+        target: GO:0008283
+    -   key: located in
+        source: GO:0008283
+        target: UBERON:0001295
+    -   key: positively correlated with
+        source: UBERON:0001295
+        target: MESH:D016889
+    multigraph: true
+    nodes:
+    -   id: DB:DB00396
+        label: Drug
+        name: Progesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: MESH:D016889
+        label: Disease
+        name: Endometrial carcinoma
+    reference:
+    - https://go.drugbank.com/drugs/DB00396#BE0000557
+    - https://en.wikipedia.org/wiki/Endometrial_cancer
+-   comment: Zafirlukast is an oral leukotriene receptor antagonist (LTRA) for the
+        maintenance treatment of asthma, often used in conjunction with an inhaled
+        steroid and/or long-acting bronchodilator.
+    directed: true
+    graph:
+        _id: DB00549_MESH_D001249_1
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: zafirlukast
+        drug_mesh: MESH:C062735
+        drugbank: DB:DB00549
+    links:
+    -   key: decreases activity of
+        source: MESH:C062735
+        target: UniProt:Q9Y271
+    -   key: participates in
+        source: UniProt:Q9Y271
+        target: GO:0001631
+    -   key: positively regulates
+        source: GO:0001631
+        target: GO:0006939
+    -   key: located in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: MESH:D001249
+    -   key: participates in
+        source: GO:0001631
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:C062735
+        label: Drug
+        name: Zafirlukast
+    -   id: UniProt:Q9Y271
+        label: Protein
+        name: Cysteinyl leukotriene receptor 1
+    -   id: GO:0001631
+        label: MolecularActivity
+        name: Cysteinyl leukotriene receptor activity
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: Bronchus
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    - https://go.drugbank.com/drugs/DB00549
+-   directed: true
+    graph:
+        _id: DB00940_MESH_D014549_1
+        disease: Urinary incontinence
+        disease_mesh: MESH:D014549
+        drug: methanthelinium
+        drug_mesh: MESH:C084588
+        drugbank: DB:DB00940
+    links:
+    -   key: negatively regulates
+        source: MESH:C084588
+        target: InterPro:IPR000995
+    -   key: negatively regulates
+        source: InterPro:IPR000995
+        target: GO:0014832
+    -   key: positively correlated with
+        source: GO:0014832
+        target: GO:0060073
+    -   key: positively correlated with
+        source: GO:0060073
+        target: MESH:D014549
+    multigraph: true
+    nodes:
+    -   id: MESH:C084588
+        label: Drug
+        name: Methanthelinium
+    -   id: InterPro:IPR000995
+        label: GeneFamily
+        name: Muscarinic acetylcholine receptor family
+    -   id: GO:0014832
+        label: BiologicalProcess
+        name: Urinary bladder smooth muscle contraction
+    -   id: GO:0060073
+        label: BiologicalProcess
+        name: Micturition
+    -   id: MESH:D014549
+        label: Disease
+        name: Urinary incontinence
+    reference:
+    - https://go.drugbank.com/drugs/DB00940
+    - https://en.wikipedia.org/wiki/Urinary_incontinence
+-   directed: true
+    graph:
+        _id: DB00940_MESH_D010437_1
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: methanthelinium
+        drug_mesh: MESH:C084588
+        drugbank: DB:DB00940
+    links:
+    -   key: decreases activity of
+        source: MESH:C084588
+        target: InterPro:IPR000995
+    -   key: participates in
+        source: InterPro:IPR000995
+        target: GO:0001699
+    -   key: increases abundance of
+        source: GO:0001699
+        target: MESH:D005744
+    -   key: contributes to
+        source: MESH:D005744
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:C084588
+        label: Drug
+        name: Methanthelinium
+    -   id: InterPro:IPR000995
+        label: GeneFamily
+        name: Muscarinic acetylcholine receptor family
+    -   id: GO:0001699
+        label: BiologicalProcess
+        name: Acetylcholine-induced gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric acid
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference:
+    - https://go.drugbank.com/drugs/DB00940
+    - https://en.wikipedia.org/wiki/Methantheline
+-   directed: true
+    graph:
+        _id: DB00940_MESH_D013276_1
+        disease: Gastric ulcer
+        disease_mesh: MESH:D013276
+        drug: methanthelinium
+        drug_mesh: MESH:C084588
+        drugbank: DB:DB00940
+    links:
+    -   key: decreases activity of
+        source: MESH:C084588
+        target: InterPro:IPR000995
+    -   key: participates in
+        source: InterPro:IPR000995
+        target: GO:0001699
+    -   key: increases abundance of
+        source: GO:0001699
+        target: MESH:D005744
+    -   key: contributes to
+        source: MESH:D005744
+        target: MESH:D013276
+    multigraph: true
+    nodes:
+    -   id: MESH:C084588
+        label: Drug
+        name: Methanthelinium
+    -   id: InterPro:IPR000995
+        label: GeneFamily
+        name: Muscarinic acetylcholine receptor family
+    -   id: GO:0001699
+        label: BiologicalProcess
+        name: Acetylcholine-induced gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric acid
+    -   id: MESH:D013276
+        label: Disease
+        name: Gastric ulcer
+    reference:
+    - https://go.drugbank.com/drugs/DB00940
+    - https://en.wikipedia.org/wiki/Methantheline
+-   directed: true
+    graph:
+        _id: DB01257_MESH_D006457_1
+        disease: Paroxysmal nocturnal hemoglobinuria
+        disease_mesh: MESH:D006457
+        drug: eculizumab
+        drug_mesh: MESH:C481642
+        drugbank: DB:DB01257
+    links:
+    -   key: decreases activity of
+        source: MESH:C481642
+        target: UniProt:P01031
+    -   key: participates in
+        source: UniProt:P01031
+        target: GO:0006956
+    -   key: contributes to
+        source: GO:0006956
+        target: HP:0001878
+    -   key: manifestation of
+        source: HP:0001878
+        target: MESH:D006457
+    multigraph: true
+    nodes:
+    -   id: MESH:C481642
+        label: Drug
+        name: Eculizumab
+    -   id: UniProt:P01031
+        label: Protein
+        name: Complement C5
+    -   id: GO:0006956
+        label: BiologicalProcess
+        name: Complement activation
+    -   id: HP:0001878
+        label: PhenotypicFeature
+        name: Hemolytic anemia
+    -   id: MESH:D006457
+        label: Disease
+        name: Paroxysmal nocturnal hemoglobinuria
+    reference:
+    - https://en.wikipedia.org/wiki/Paroxysmal_nocturnal_hemoglobinuria
+    - https://go.drugbank.com/drugs/DB01257#BE0000855
+-   comment: No evidence found for MoA of citric acid treating pain.
+    directed: true
+    graph:
+        _id: DB04272_MESH_D010146_1
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: citric acid
+        drug_mesh: MESH:D019343
+        drugbank: DB:DB04272
+    links:
+    -   key: treats
+        source: MESH:D019343
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:D019343
+        label: Drug
+        name: Citric acid
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference:
+    - https://go.drugbank.com/drugs/DB04272
+-   comment: No evidence found for MoA of citric acid treating headache disorders.
+    directed: true
+    graph:
+        _id: DB04272_MESH_D020773_1
+        disease: Headache disorder
+        disease_mesh: MESH:D020773
+        drug: citric acid
+        drug_mesh: MESH:D019343
+        drugbank: DB:DB04272
+    links:
+    -   key: treats
+        source: MESH:D019343
+        target: MESH:D020773
+    multigraph: true
+    nodes:
+    -   id: MESH:D019343
+        label: Drug
+        name: Citric acid
+    -   id: MESH:D020773
+        label: Disease
+        name: Headache disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB04272
+-   comment: No evidence found for MoA of citric acid treating indigestion.
+    directed: true
+    graph:
+        _id: DB04272_MESH_D004415_1
+        disease: Indigestion
+        disease_mesh: MESH:D004415
+        drug: citric acid
+        drug_mesh: MESH:D019343
+        drugbank: DB:DB04272
+    links:
+    -   key: treats
+        source: MESH:D019343
+        target: MESH:D004415
+    multigraph: true
+    nodes:
+    -   id: MESH:D019343
+        label: Drug
+        name: Citric acid
+    -   id: MESH:D004415
+        label: Disease
+        name: Indigestion
+    reference:
+    - https://go.drugbank.com/drugs/DB04272
+-   directed: true
+    graph:
+        _id: DB06168_MESH_D054078_1
+        disease: Deficiency of mevalonate kinase
+        disease_mesh: MESH:D054078
+        drug: canakinumab
+        drug_mesh: MESH:C541220
+        drugbank: DB:DB06168
+    links:
+    -   key: decreases activity of
+        source: MESH:C541220
+        target: UniProt:P01584
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: HP:0001945
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: GO:0006954
+    -   key: manifestation of
+        source: HP:0001945
+        target: MESH:D054078
+    -   key: occurs in
+        source: GO:0006954
+        target: MESH:D054078
+    multigraph: true
+    nodes:
+    -   id: MESH:C541220
+        label: Drug
+        name: Canakinumab
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: HP:0001945
+        label: PhenotypicFeature
+        name: Fever
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D054078
+        label: Disease
+        name: Deficiency of mevalonate kinase
+    reference:
+    - https://go.drugbank.com/drugs/DB06168
+    - https://en.wikipedia.org/wiki/Mevalonate_kinase_deficiency#Treatment
+-   directed: true
+    graph:
+        _id: DB06168_MESH_D015210_1
+        disease: Articular gout
+        disease_mesh: MESH:D015210
+        drug: canakinumab
+        drug_mesh: MESH:C541220
+        drugbank: DB:DB06168
+    links:
+    -   key: decreases activity of
+        source: MESH:C541220
+        target: UniProt:P01584
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: GO:0006954
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0005059
+    -   key: manifestation of
+        source: HP:0005059
+        target: MESH:D015210
+    multigraph: true
+    nodes:
+    -   id: MESH:C541220
+        label: Drug
+        name: Canakinumab
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: HP:0005059
+        label: PhenotypicFeature
+        name: Arthralgia/arthritis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D015210
+        label: Disease
+        name: Articular gout
+    reference:
+    - https://go.drugbank.com/drugs/DB06168
+-   directed: true
+    graph:
+        _id: DB06168_MESH_D056587_1
+        disease: Cryopyrin associated periodic syndrome
+        disease_mesh: MESH:D056587
+        drug: canakinumab
+        drug_mesh: MESH:C541220
+        drugbank: DB:DB06168
+    links:
+    -   key: decreases activity of
+        source: MESH:C541220
+        target: UniProt:P01584
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: HP:0001945
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: GO:0006954
+    -   key: manifestation of
+        source: HP:0001945
+        target: MESH:D056587
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0005059
+    -   key: manifestation of
+        source: HP:0005059
+        target: MESH:D056587
+    multigraph: true
+    nodes:
+    -   id: MESH:C541220
+        label: Drug
+        name: Canakinumab
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: HP:0001945
+        label: PhenotypicFeature
+        name: Fever
+    -   id: HP:0005059
+        label: PhenotypicFeature
+        name: Arthralgia/arthritis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D056587
+        label: Drug
+        name: Cryopyrin associated periodic syndrome
+    reference:
+    - https://go.drugbank.com/drugs/DB06168
+    - https://en.wikipedia.org/wiki/Cryopyrin-associated_periodic_syndrome
+-   directed: true
+    graph:
+        _id: DB06168_MESH_C536657_1
+        disease: TNF receptor-associated periodic fever syndrome (TRAPS)
+        disease_mesh: MESH:C536657
+        drug: canakinumab
+        drug_mesh: MESH:C541220
+        drugbank: DB:DB06168
+    links:
+    -   key: decreases activity of
+        source: MESH:C541220
+        target: UniProt:P01584
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: HP:0001945
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: GO:0006954
+    -   key: manifestation of
+        source: HP:0001945
+        target: MESH:C536657
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0002829
+    -   key: manifestation of
+        source: HP:0002829
+        target: MESH:C536657
+    multigraph: true
+    nodes:
+    -   id: MESH:C541220
+        label: Drug
+        name: Canakinumab
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: HP:0001945
+        label: PhenotypicFeature
+        name: Fever
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Arthralgia
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:C536657
+        label: Drug
+        name: TNF receptor-associated periodic fever syndrome (TRAPS)
+    reference:
+    - https://go.drugbank.com/drugs/DB06168
+    - https://en.wikipedia.org/wiki/TNF_receptor_associated_periodic_syndrome
+-   directed: true
+    graph:
+        _id: DB06168_MESH_D010505_1
+        disease: Familial Mediterranean fever
+        disease_mesh: MESH:D010505
+        drug: canakinumab
+        drug_mesh: MESH:C541220
+        drugbank: DB:DB06168
+    links:
+    -   key: decreases activity of
+        source: MESH:C541220
+        target: UniProt:P01584
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: HP:0001945
+    -   key: positively regulates
+        source: UniProt:P01584
+        target: GO:0006954
+    -   key: manifestation of
+        source: HP:0001945
+        target: MESH:D010505
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0005059
+    -   key: manifestation of
+        source: HP:0005059
+        target: MESH:D010505
+    multigraph: true
+    nodes:
+    -   id: MESH:C541220
+        label: Drug
+        name: Canakinumab
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: HP:0001945
+        label: PhenotypicFeature
+        name: Fever
+    -   id: HP:0005059
+        label: PhenotypicFeature
+        name: Arthralgia/arthritis
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010505
+        label: Drug
+        name: Familial Mediterranean fever
+    reference:
+    - https://go.drugbank.com/drugs/DB06168
+    - https://en.wikipedia.org/wiki/Familial_Mediterranean_fever
+-   directed: true
+    graph:
+        _id: DB06204_MESH_D010146_1
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: tapentadol
+        drug_mesh: MESH:C523979
+        drugbank: DB:DB06204
+    links:
+    -   key: increases activity of
+        source: MESH:C523979
+        target: UniProt:P35372
+    -   key: decreases activity of
+        source: MESH:C523979
+        target: UniProt:P23975
+    -   key: participates in
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: negatively regulates
+        source: GO:0061533
+        target: GO:0019233
+    -   key: causes
+        source: GO:0019233
+        target: MESH:D010146
+    -   key: decreases activity of
+        source: UniProt:P35372
+        target: UniProt:B7Z2C7
+    -   key: decreases activity of
+        source: UniProt:B7Z2C7
+        target: UniProt:Q14654
+    -   key: negatively regulates
+        source: UniProt:P35372
+        target: GO:0070509
+    -   key: negatively regulates
+        source: UniProt:Q14654
+        target: GO:0099610
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:1990793
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0061535
+    -   key: positively correlated with
+        source: GO:1990793
+        target: MESH:D010146
+    -   key: positively correlated with
+        source: GO:0061535
+        target: MESH:D010146
+    -   key: positively regulates
+        source: GO:0099610
+        target: CL:0000198
+    -   key: positively correlated with
+        source: CL:0000198
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:C523979
+        label: Drug
+        name: Tapentadol
+    -   id: UniProt:P35372
+        label: Protein
+        name: Mu-type opioid receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: UniProt:Q14654
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 11
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Transmembrane calcium influx
+    -   id: GO:1990793
+        label: BiologicalProcess
+        name: Substance P secretion, neurotransmission
+    -   id: GO:0061535
+        label: BiologicalProcess
+        name: Glutamate secretion, neurotransmission
+    -   id: GO:0099610
+        label: BiologicalProcess
+        name: Action potential initiation
+    -   id: CL:0000198
+        label: Cell
+        name: Nociceptor
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Noradrenaline uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Noradrenaline
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference:
+    - https://go.drugbank.com/drugs/DB06204#BE0000770
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2811866/
+    - https://en.wikipedia.org/wiki/Opioid_receptor#Mechanism_of_activation
+-   directed: true
+    graph:
+        _id: DB06267_MESH_D007172_1
+        disease: Impotence
+        disease_mesh: MESH:D007172
+        drug: udenafil
+        drug_mesh: MESH:C419664
+        drugbank: DB:DB06267
+    links:
+    -   key: decreases activity of
+        source: MESH:C419664
+        target: UniProt:O76074
+    -   key: decreases abundance of
+        source: UniProt:O76074
+        target: CHEBI:16356
+    -   key: positively regulates
+        source: CHEBI:16356
+        target: GO:0044557
+    -   key: positively regulates
+        source: GO:0044557
+        target: GO:0008015
+    -   key: positively correlated with
+        source: GO:0008015
+        target: GO:0043084
+    -   key: negatively correlated with
+        source: GO:0043084
+        target: MESH:D007172
+    multigraph: true
+    nodes:
+    -   id: MESH:C419664
+        label: Drug
+        name: Udenafil
+    -   id: UniProt:O76074
+        label: Protein
+        name: cGMP-specific 3',5'-cyclic phosphodiesterase
+    -   id: CHEBI:16356
+        label: ChemicalSubstance
+        name: 3',5'-cyclic GMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: Blood circulation
+    -   id: GO:0043084
+        label: BiologicalProcess
+        name: Penile erection
+    -   id: MESH:D007172
+        label: Disease
+        name: Impotence
+    reference:
+    - https://go.drugbank.com/drugs/DB06267
+-   directed: true
+    graph:
+        _id: DB08819_MESH_D009798_1
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: tafluprost
+        drug_mesh: MESH:C485333
+        drugbank: DB:DB08819
+    links:
+    -   key: increases activity of
+        source: MESH:C485333
+        target: UniProt:P43088
+    -   key: positively regulates
+        source: UniProt:P43088
+        target: GO:0008237
+    -   key: decreases abundance of
+        source: GO:0008237
+        target: GO:0031012
+    -   key: positively correlated with
+        source: GO:0031012
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:C485333
+        label: Drug
+        name: Tafluprost
+    -   id: UniProt:P43088
+        label: Protein
+        name: Prostaglandin F2-alpha receptor
+    -   id: GO:0008237
+        label: BiologicalProcess
+        name: Metallopeptidase activity
+    -   id: GO:0031012
+        label: CellularComponent
+        name: Extracellular matrix
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference:
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991965/
+    - https://go.drugbank.com/drugs/DB08819
+-   directed: true
+    graph:
+        _id: DB08819_MESH_D005902_1
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: tafluprost
+        drug_mesh: MESH:C485333
+        drugbank: DB:DB08819
+    links:
+    -   key: increases activity of
+        source: MESH:C485333
+        target: UniProt:P43088
+    -   key: positively regulates
+        source: UniProt:P43088
+        target: GO:0008237
+    -   key: decreases abundance of
+        source: GO:0008237
+        target: GO:0031012
+    -   key: positively correlated with
+        source: GO:0031012
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: affects risk for
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:C485333
+        label: Drug
+        name: Tafluprost
+    -   id: UniProt:P43088
+        label: Protein
+        name: Prostaglandin F2-alpha receptor
+    -   id: GO:0008237
+        label: BiologicalProcess
+        name: Metallopeptidase activity
+    -   id: GO:0031012
+        label: CellularComponent
+        name: Extracellular matrix
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference:
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3991965/
+    - https://go.drugbank.com/drugs/DB08819
+-   comment: "Pembrolizumab is indicated for first-line treatment of patients with\
+        \ metastatic non-small cell lung cancer whose tumors have high PD-L1 expression\
+        \ [(Tumor Proportion Score (TPS) \u226550%)] as determined by an FDA-approved\
+        \ test, with no EGFR or ALK genomic tumor aberrations"
+    directed: true
+    graph:
+        _id: DB09037_MESH_D002289_1
+        disease: Non-small cell lung cancer (PD-L1 expression positive)
+        disease_mesh: MESH:D002289
+        drug: pembrolizumab
+        drug_mesh: MESH:C582435
+        drugbank: DB:DB09037
+    links:
+    -   key: decreases activity of
+        source: DB:DB09037
+        target: UniProt:Q15116
+    -   key: negatively regulates
+        source: UniProt:Q15116
+        target: GO:0042098
+    -   key: negatively regulates
+        source: UniProt:Q15116
+        target: GO:0042110
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002424
+    -   key: positively correlated with
+        source: GO:0042110
+        target: GO:0002424
+    -   key: negatively correlated with
+        source: GO:0002424
+        target: MESH:D002289
+    multigraph: true
+    nodes:
+    -   id: DB:DB09037
+        label: Drug
+        name: Pembrolizumab
+    -   id: UniProt:Q15116
+        label: Protein
+        name: Programmed cell death protein 1
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: GO:0042110
+        label: BiologicalProcess
+        name: T cell activation
+    -   id: GO:0002424
+        label: BiologicalProcess
+        name: T cell mediated immune response to tumor cell
+    -   id: MESH:D002289
+        label: Disease
+        name: Non-small cell lung cancer (PD-L1 expression positive)
+    reference:
+    - https://go.drugbank.com/drugs/DB09037#BE0003436
+    - https://en.wikipedia.org/wiki/PD-1_and_PD-L1_inhibitors
+-   directed: true
+    graph:
+        _id: DB11365_MESH_D003248_1
+        disease: Constipation
+        disease_mesh: MESH:D003248
+        drug: sennosides
+        drug_mesh: MESH:D012676
+        drugbank: DB:DB11365
+    links:
+    -   key: has metabolite
+        source: MESH:D012676
+        target: DB:DB13175
+    -   key: increases activity of
+        source: DB:DB13175
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P35354
+        target: UniProt:Q92482
+    -   key: positively regulates
+        source: UniProt:Q92482
+        target: GO:0006833
+    -   key: located in
+        source: GO:0006833
+        target: UBERON:0001155
+    -   key: location of
+        source: UBERON:0001155
+        target: MESH:D003248
+    -   key: positively regulates
+        source: DB:DB13175
+        target: GO:0030432
+    -   key: negatively correlated with
+        source: GO:0030432
+        target: MESH:D003248
+    multigraph: true
+    nodes:
+    -   id: MESH:D012676
+        label: Drug
+        name: Sennosides
+    -   id: DB:DB13175
+        label: Drug
+        name: Rheinanthrone
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:Q92482
+        label: Protein
+        name: Aquaporin-3
+    -   id: GO:0006833
+        label: BiologicalProcess
+        name: Water transport
+    -   id: GO:0030432
+        label: BiologicalProcess
+        name: Peristalsis
+    -   id: UBERON:0001155
+        label: GrossAnatomicalStructure
+        name: Colon
+    -   id: MESH:D003248
+        label: Disease
+        name: Constipation
+    reference:
+    - https://go.drugbank.com/drugs/DB11365
