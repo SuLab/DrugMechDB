@@ -134771,3 +134771,1407 @@
     reference:
     - https://en.wikipedia.org/wiki/Troleandomycin
     - https://pubchem.ncbi.nlm.nih.gov/compound/202225#section=Mechanism-of-Action
+-   comment: The antihypertensive mechanism of bendroflumethiazide is not well understood.
+    directed: true
+    graph:
+        _id: DB00436_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: bendroflumethiazide
+        drug_mesh: MESH:D001539
+        drugbank: DB:DB00436
+    links:
+    -   key: decreases activity of
+        source: MESH:D001539
+        target: UniProt:P55017
+    -   key: participates in
+        source: UniProt:P55017
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: contributes to
+        source: GO:0003092
+        target: HP:0011104
+    -   key: contributes to
+        source: HP:0011104
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D001539
+        label: Drug
+        name: Bendroflumethiazide
+    -   id: UniProt:P55017
+        label: Protein
+        name: Solute carrier family 12 member 3
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: Renal water retention
+    -   id: HP:0011104
+        label: PhenotypicFeature
+        name: Abnormality of blood volume homeostasis
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Up regulation of blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00436
+-   comment: The antihypertensive mechanism of bendroflumethiazide is not well understood.
+    directed: true
+    graph:
+        _id: DB00436_MESH_D006973_2
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: bendroflumethiazide
+        drug_mesh: MESH:D001539
+        drugbank: DB:DB00436
+    links:
+    -   key: negatively regulates
+        source: MESH:D001539
+        target: GO:0004089
+    -   key: positively correlated with
+        source: GO:0004089
+        target: GO:0042310
+    -   key: positively correlated with
+        source: GO:0042310
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D001539
+        label: Drug
+        name: Bendroflumethiazide
+    -   id: GO:0004089
+        label: MolecularActivity
+        name: Carbonate dehydratase activity
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://pubmed.ncbi.nlm.nih.gov/25079851/
+    - https://go.drugbank.com/drugs/DB00436
+-   comment: The antihypertensive mechanism of bendroflumethiazide is not well understood.
+    directed: true
+    graph:
+        _id: DB00524_MESH_D006973_2
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: metolazone
+        drug_mesh: MESH:D008788
+        drugbank: DB:DB00524
+    links:
+    -   key: decreases activity of
+        source: MESH:D008788
+        target: UniProt:P55017
+    -   key: participates in
+        source: UniProt:P55017
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: contributes to
+        source: GO:0003092
+        target: HP:0011104
+    -   key: contributes to
+        source: HP:0011104
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D008788
+        label: Drug
+        name: Metolazone
+    -   id: UniProt:P55017
+        label: Protein
+        name: Solute carrier family 12 member 3
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: Renal water retention
+    -   id: HP:0011104
+        label: PhenotypicFeature
+        name: Abnormality of blood volume homeostasis
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Up regulation of blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00524
+-   directed: true
+    graph:
+        _id: DB00816_MESH_D001249_1
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: orciprenaline
+        drug_mesh: MESH:D009921
+        drugbank: DB:DB00816
+    links:
+    -   key: increases activity of
+        source: MESH:D009921
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: causes
+        source: MESH:D000242
+        target: GO:0044557
+    -   key: precedes
+        source: GO:0044557
+        target: GO:0097366
+    -   key: negatively correlated with
+        source: GO:0097366
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D009921
+        label: Drug
+        name: Orciprenaline
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic adenosine monophosphate (cAMP)
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0097366
+        label: BiologicalProcess
+        name: Bronchodilation
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    - https://go.drugbank.com/drugs/DB00816
+-   directed: true
+    graph:
+        _id: DB00816_MESH_D001991_1
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: orciprenaline
+        drug_mesh: MESH:D009921
+        drugbank: DB:DB00816
+    links:
+    -   key: increases activity of
+        source: MESH:D009921
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: causes
+        source: MESH:D000242
+        target: GO:0044557
+    -   key: precedes
+        source: GO:0044557
+        target: GO:0097366
+    -   key: negatively correlated with
+        source: GO:0097366
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:D009921
+        label: Drug
+        name: Orciprenaline
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic adenosine monophosphate (cAMP)
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: GO:0097366
+        label: BiologicalProcess
+        name: Bronchodilation
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00816
+-   directed: true
+    graph:
+        _id: DB00816_MESH_D011656_1
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: orciprenaline
+        drug_mesh: MESH:D009921
+        drugbank: DB:DB00816
+    links:
+    -   key: positively regulates
+        source: MESH:D009921
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: GO:0044557
+    -   key: located in
+        source: GO:0044557
+        target: UBERON:0002187
+    -   key: location of
+        source: UBERON:0002187
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D009921
+        label: Drug
+        name: Orciprenaline
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: UBERON:0002187
+        label: GrossAnatomicalStructure
+        name: Terminal bronchiole
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference:
+    - https://go.drugbank.com/drugs/DB00816
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D001171_1
+        disease: Juvenile rheumatoid arthritis
+        disease_mesh: MESH:D001171
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0002829
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001171
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D001171
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Arthralgia
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001171
+        label: Disease
+        name: Juvenile rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01050
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D010003_1
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0002829
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D010003
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D010003
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Arthralgia
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01050
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D004412_1
+        disease: Dysmenorrhea
+        disease_mesh: MESH:D004412
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: negatively regulates
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: negatively regulates
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: MESH:D014590
+    -   key: positively correlated with
+        source: MESH:D014590
+        target: MESH:D004412
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D014590
+        label: PhenotypicFeature
+        name: Uterine Contraction
+    -   id: MESH:D004412
+        label: Disease
+        name: Dysmenorrhea
+    reference:
+    - https://www.aafp.org/afp/1999/0801/p489.html
+    - https://go.drugbank.com/drugs/DB01050
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D020773_1
+        disease: Headache Disorders
+        disease_mesh: MESH:D020773
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0012531
+    -   key: manifestation of
+        source: HP:0012531
+        target: MESH:D020773
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D020773
+        label: Disease
+        name: Headache Disorders
+    reference:
+    - https://go.drugbank.com/drugs/DB01050
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D005334_1
+        disease: Fever
+        disease_mesh: MESH:D005334
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: MESH:D005334
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:D005334
+        label: Disease
+        name: Fever
+    reference:
+    - https://en.wikipedia.org/wiki/Fever#PGE2_release
+    - https://go.drugbank.com/drugs/DB01050
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D004374_1
+        disease: Patent ductus arteriosus
+        disease_mesh: MESH:D004374
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: negatively regulates
+        source: MESH:D011453
+        target: GO:0097070
+    -   key: negatively correlated with
+        source: GO:0097070
+        target: MESH:D004374
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0097070
+        label: BiologicalProcess
+        name: Ductus arteriosus closure
+    -   id: MESH:D004374
+        label: Disease
+        name: Patent ductus arteriosus
+    reference:
+    - https://go.drugbank.com/drugs/DB01050
+    - https://en.wikipedia.org/wiki/Patent_ductus_arteriosus
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D001172_1
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: participates in
+        source: UniProt:P23219
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: increases abundance of
+        source: REACT:R-HSA-2162123
+        target: MESH:D011453
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0002829
+    -   key: positively correlated with
+        source: MESH:D011453
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001172
+    -   key: positively correlated with
+        source: HP:0002829
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: REACT:R-HSA-2162123
+        label: Pathway
+        name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Arthralgia
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01050
+-   directed: true
+    graph:
+        _id: DB01050_MESH_D010146_1
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: ibuprofen
+        drug_mesh: MESH:C016106,MESH:D007052
+        drugbank: DB:DB01050
+    links:
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: DB:DB01050
+        target: UniProt:P23219
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: participates in
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: DB:DB01050
+        label: Drug
+        name: Ibuprofen
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference:
+    - https://go.drugbank.com/drugs/DB01050
+-   directed: true
+    graph:
+        _id: DB01248_MESH_D011471_1
+        disease: Malignant tumor of prostate
+        disease_mesh: MESH:D011471
+        drug: docetaxel
+        drug_mesh: MESH:C067311
+        drugbank: DB:DB01248
+    links:
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:Q9H4B7
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:P10415
+    -   key: participates in
+        source: UniProt:Q9H4B7
+        target: GO:1902850
+    -   key: negatively regulates
+        source: UniProt:P10415
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D011471
+    -   key: positively correlated with
+        source: GO:1902850
+        target: GO:0140014
+    -   key: positively correlated with
+        source: GO:0140014
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D011471
+    multigraph: true
+    nodes:
+    -   id: DB:DB01248
+        label: Drug
+        name: Docetaxel
+    -   id: UniProt:Q9H4B7
+        label: Protein
+        name: Tubulin beta-1 chain
+    -   id: UniProt:P10415
+        label: Protein
+        name: Apoptosis regulator Bcl-2
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: GO:1902850
+        label: BiologicalProcess
+        name: Microtubule cytoskeleton organization involved in mitosis
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitotic nuclear division
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D011471
+        label: Disease
+        name: Malignant tumor of prostate
+    reference:
+    - https://go.drugbank.com/drugs/DB01248
+-   directed: true
+    graph:
+        _id: DB01248_MESH_D002289_1
+        disease: Non-small cell lung cancer
+        disease_mesh: MESH:D002289
+        drug: docetaxel
+        drug_mesh: MESH:C067311
+        drugbank: DB:DB01248
+    links:
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:Q9H4B7
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:P10415
+    -   key: participates in
+        source: UniProt:Q9H4B7
+        target: GO:1902850
+    -   key: negatively regulates
+        source: UniProt:P10415
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D002289
+    -   key: positively correlated with
+        source: GO:1902850
+        target: GO:0140014
+    -   key: positively correlated with
+        source: GO:0140014
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D002289
+    multigraph: true
+    nodes:
+    -   id: DB:DB01248
+        label: Drug
+        name: Docetaxel
+    -   id: UniProt:Q9H4B7
+        label: Protein
+        name: Tubulin beta-1 chain
+    -   id: UniProt:P10415
+        label: Protein
+        name: Apoptosis regulator Bcl-2
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: GO:1902850
+        label: BiologicalProcess
+        name: Microtubule cytoskeleton organization involved in mitosis
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitotic nuclear division
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D002289
+        label: Disease
+        name: Non-small cell lung cancer
+    reference:
+    - https://go.drugbank.com/drugs/DB01248
+-   directed: true
+    graph:
+        _id: DB01248_MESH_D001943_1
+        disease: Carcinoma of breast
+        disease_mesh: MESH:D001943
+        drug: docetaxel
+        drug_mesh: MESH:C067311
+        drugbank: DB:DB01248
+    links:
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:Q9H4B7
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:P10415
+    -   key: participates in
+        source: UniProt:Q9H4B7
+        target: GO:1902850
+    -   key: negatively regulates
+        source: UniProt:P10415
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D001943
+    -   key: positively correlated with
+        source: GO:1902850
+        target: GO:0140014
+    -   key: positively correlated with
+        source: GO:0140014
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D001943
+    multigraph: true
+    nodes:
+    -   id: DB:DB01248
+        label: Drug
+        name: Docetaxel
+    -   id: UniProt:Q9H4B7
+        label: Protein
+        name: Tubulin beta-1 chain
+    -   id: UniProt:P10415
+        label: Protein
+        name: Apoptosis regulator Bcl-2
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: GO:1902850
+        label: BiologicalProcess
+        name: Microtubule cytoskeleton organization involved in mitosis
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitotic nuclear division
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D001943
+        label: Disease
+        name: Carcinoma of breast
+    reference:
+    - https://go.drugbank.com/drugs/DB01248
+-   directed: true
+    graph:
+        _id: DB01248_MESH_D006258_1
+        disease: Malignant tumor of head and/or neck
+        disease_mesh: MESH:D006258
+        drug: docetaxel
+        drug_mesh: MESH:C067311
+        drugbank: DB:DB01248
+    links:
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:Q9H4B7
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:P10415
+    -   key: participates in
+        source: UniProt:Q9H4B7
+        target: GO:1902850
+    -   key: negatively regulates
+        source: UniProt:P10415
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D006258
+    -   key: positively correlated with
+        source: GO:1902850
+        target: GO:0140014
+    -   key: positively correlated with
+        source: GO:0140014
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D006258
+    multigraph: true
+    nodes:
+    -   id: DB:DB01248
+        label: Drug
+        name: Docetaxel
+    -   id: UniProt:Q9H4B7
+        label: Protein
+        name: Tubulin beta-1 chain
+    -   id: UniProt:P10415
+        label: Protein
+        name: Apoptosis regulator Bcl-2
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: GO:1902850
+        label: BiologicalProcess
+        name: Microtubule cytoskeleton organization involved in mitosis
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitotic nuclear division
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D006258
+        label: Disease
+        name: Malignant tumor of head and/or neck
+    reference:
+    - https://go.drugbank.com/drugs/DB01248
+-   directed: true
+    graph:
+        _id: DB01248_MESH_D013274_1
+        disease: Malignant tumor of stomach
+        disease_mesh: MESH:D013274
+        drug: docetaxel
+        drug_mesh: MESH:C067311
+        drugbank: DB:DB01248
+    links:
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:Q9H4B7
+    -   key: decreases activity of
+        source: DB:DB01248
+        target: UniProt:P10415
+    -   key: participates in
+        source: UniProt:Q9H4B7
+        target: GO:1902850
+    -   key: negatively regulates
+        source: UniProt:P10415
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D013274
+    -   key: positively correlated with
+        source: GO:1902850
+        target: GO:0140014
+    -   key: positively correlated with
+        source: GO:0140014
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D013274
+    multigraph: true
+    nodes:
+    -   id: DB:DB01248
+        label: Drug
+        name: Docetaxel
+    -   id: UniProt:Q9H4B7
+        label: Protein
+        name: Tubulin beta-1 chain
+    -   id: UniProt:P10415
+        label: Protein
+        name: Apoptosis regulator Bcl-2
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: GO:1902850
+        label: BiologicalProcess
+        name: Microtubule cytoskeleton organization involved in mitosis
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitotic nuclear division
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D013274
+        label: Disease
+        name: Malignant tumor of stomach
+    reference:
+    - https://go.drugbank.com/drugs/DB01248
+-   directed: true
+    graph:
+        _id: DB01264_MESH_D015658_1
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: darunavir
+        drug_mesh: MESH:D000069454
+        drugbank: DB:DB01264
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069454
+        target: UniProt:Q72874
+    -   key: increases activity of
+        source: UniProt:Q72874
+        target: UniProt:P04585
+    -   key: participates in
+        source: UniProt:P04585
+        target: GO:0019068
+    -   key: in taxon
+        source: GO:0019068
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069454
+        label: Drug
+        name: Darunavir
+    -   id: UniProt:Q72874
+        label: Protein
+        name: Protease
+    -   id: UniProt:P04585
+        label: Protein
+        name: Gag-Pol polyprotein
+    -   id: GO:0019068
+        label: BiologicalProcess
+        name: Virion assembly
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference:
+    - https://go.drugbank.com/drugs/DB01264#BE0004854
+-   directed: true
+    graph:
+        _id: DB01576_MESH_D009290_1
+        disease: Narcolepsy
+        disease_mesh: MESH:D009290
+        drug: dexamfetamine
+        drug_mesh: MESH:D003913
+        drugbank: DB:DB01576
+    links:
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:P23975
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:Q01959
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:Q05940
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0051583
+    -   key: decreases abundance of
+        source: GO:0051583
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: positively regulates
+        source: UniProt:Q05940
+        target: GO:0015842
+    -   key: decreases abundance of
+        source: GO:0015842
+        target: MESH:D004298
+    -   key: decreases abundance of
+        source: GO:0015842
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: treats
+        source: GO:0061533
+        target: MESH:D009290
+    -   key: treats
+        source: GO:0061527
+        target: MESH:D009290
+    multigraph: true
+    nodes:
+    -   id: MESH:D003913
+        label: Drug
+        name: Dexamfetamine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Norepinephrine uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0051583
+        label: BiologicalProcess
+        name: Dopamine uptake involved in synaptic transmission
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: UniProt:Q05940
+        label: Protein
+        name: Synaptic vesicular amine transporter
+    -   id: GO:0015842
+        label: BiologicalProcess
+        name: Aminergic neurotransmitter loading into synaptic vesicle
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: MESH:D009290
+        label: Disease
+        name: Narcolepsy
+    reference:
+    - https://go.drugbank.com/drugs/DB01576
+-   directed: true
+    graph:
+        _id: DB01576_MESH_D001289_1
+        disease: Attention deficit hyperactivity disorder
+        disease_mesh: MESH:D001289
+        drug: dexamfetamine
+        drug_mesh: MESH:D003913
+        drugbank: DB:DB01576
+    links:
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:P23975
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:Q01959
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:Q05940
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0051583
+    -   key: decreases abundance of
+        source: GO:0051583
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: positively regulates
+        source: UniProt:Q05940
+        target: GO:0015842
+    -   key: decreases abundance of
+        source: GO:0015842
+        target: MESH:D004298
+    -   key: decreases abundance of
+        source: GO:0015842
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: treats
+        source: GO:0061533
+        target: MESH:D001289
+    -   key: treats
+        source: GO:0061527
+        target: MESH:D001289
+    multigraph: true
+    nodes:
+    -   id: MESH:D003913
+        label: Drug
+        name: Dexamfetamine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Norepinephrine uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0051583
+        label: BiologicalProcess
+        name: Dopamine uptake involved in synaptic transmission
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: UniProt:Q05940
+        label: Protein
+        name: Synaptic vesicular amine transporter
+    -   id: GO:0015842
+        label: BiologicalProcess
+        name: Aminergic neurotransmitter loading into synaptic vesicle
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: MESH:D001289
+        label: Disease
+        name: Attention deficit hyperactivity disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01576
+-   directed: true
+    graph:
+        _id: DB09075_MESH_D011655_1
+        disease: Pulmonary embolism
+        disease_mesh: MESH:D011655
+        drug: edoxaban
+        drug_mesh: MESH:C552171
+        drugbank: DB:DB09075
+    links:
+    -   key: decreases activity of
+        source: MESH:C552171
+        target: UniProt:P00742
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0072378
+    -   key: has output
+        source: GO:0072378
+        target: UBERON:0010210
+    -   key: occurs in
+        source: UBERON:0010210
+        target: MESH:D011655
+    multigraph: true
+    nodes:
+    -   id: MESH:C552171
+        label: Drug
+        name: Edoxaban
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: UBERON:0010210
+        label: GrossAnatomicalStructure
+        name: Blood clot
+    -   id: MESH:D011655
+        label: Disease
+        name: Pulmonary embolism
+    reference:
+    - https://go.drugbank.com/drugs/DB09075
+-   directed: true
+    graph:
+        _id: DB09075_MESH_D004617_1
+        disease: Embolism
+        disease_mesh: MESH:D004617
+        drug: edoxaban
+        drug_mesh: MESH:C552171
+        drugbank: DB:DB09075
+    links:
+    -   key: decreases activity of
+        source: MESH:C552171
+        target: UniProt:P00742
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0072378
+    -   key: has output
+        source: GO:0072378
+        target: UBERON:0010210
+    -   key: occurs in
+        source: UBERON:0010210
+        target: MESH:D004617
+    multigraph: true
+    nodes:
+    -   id: MESH:C552171
+        label: Drug
+        name: Edoxaban
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: UBERON:0010210
+        label: GrossAnatomicalStructure
+        name: Blood clot
+    -   id: MESH:D004617
+        label: Disease
+        name: Embolism
+    reference:
+    - https://go.drugbank.com/drugs/DB09075
+-   directed: true
+    graph:
+        _id: DB09512_MESH_D003963_1
+        disease: Diaper rash
+        disease_mesh: MESH:D003963
+        drug: dimethicone
+        drug_mesh: MESH:C501844
+        drugbank: DB:DB09512
+    links:
+    -   key: positively regulates
+        source: MESH:C501844
+        target: GO:0061436
+    -   key: negatively correlated with
+        source: GO:0061436
+        target: MESH:D003963
+    multigraph: true
+    nodes:
+    -   id: MESH:C501844
+        label: Drug
+        name: Dimethicone
+    -   id: GO:0061436
+        label: BiologicalProcess
+        name: Establishment of skin barrier
+    -   id: MESH:D003963
+        label: Disease
+        name: Diaper rash
+    reference:
+    - https://go.drugbank.com/drugs/DB11074
