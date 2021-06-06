@@ -11426,53 +11426,6 @@
     - https://go.drugbank.com/drugs/DB00994#mechanism-of-action
 -   directed: true
     graph:
-        _id: DB00994_MESH_D014552_2
-        disease: Urinary tract infectious disease
-        disease_mesh: MESH:D014552
-        drug: neomycin
-        drug_mesh: MESH:D009355
-        drugbank: DB:DB00994
-    links:
-    -   key: decreases activity of
-        source: MESH:D009355
-        target: MESH:D012336
-    -   key: participates in
-        source: MESH:D012336
-        target: GO:0048027
-    -   key: precedes
-        source: GO:0048027
-        target: GO:0006412
-    -   key: in taxon
-        source: GO:0006412
-        target: NCBITaxon:562
-    -   key: causes
-        source: NCBITaxon:562
-        target: MESH:D014552
-    multigraph: true
-    nodes:
-    -   id: MESH:D009355
-        label: Drug
-        name: neomycin
-    -   id: MESH:D012336
-        label: CellularComponent
-        name: RNA, Ribosomal, 16S
-    -   id: GO:0048027
-        label: MolecularActivity
-        name: mRNA 5-UTR binding
-    -   id: GO:0006412
-        label: BiologicalProcess
-        name: translation
-    -   id: NCBITaxon:562
-        label: OrganismTaxon
-        name: Escherichia coli
-    -   id: MESH:D014552
-        label: Disease
-        name: Urinary tract infectious disease
-    reference:
-    - https://go.drugbank.com/drugs/DB00994#mechanism-of-action
-    - https://en.wikipedia.org/wiki/Urinary_tract_infection#Cause
--   directed: true
-    graph:
         _id: DB00994_MESH_D010032_1
         disease: Otitis externa
         disease_mesh: MESH:D010032
@@ -11506,52 +11459,6 @@
     -   id: NCBITaxon:1280
         label: OrganismTaxon
         name: Staphylococcus aureus
-    -   id: MESH:D010032
-        label: Disease
-        name: Otitis externa
-    reference:
-    - https://go.drugbank.com/drugs/DB00994#mechanism-of-action
--   directed: true
-    graph:
-        _id: DB00994_MESH_D010032_2
-        disease: Otitis externa
-        disease_mesh: MESH:D010032
-        drug: neomycin
-        drug_mesh: MESH:D009355
-        drugbank: DB:DB00994
-    links:
-    -   key: decreases activity of
-        source: MESH:D009355
-        target: MESH:D012336
-    -   key: participates in
-        source: MESH:D012336
-        target: GO:0048027
-    -   key: precedes
-        source: GO:0048027
-        target: GO:0006412
-    -   key: in taxon
-        source: GO:0006412
-        target: NCBITaxon:2
-    -   key: causes
-        source: NCBITaxon:2
-        target: MESH:D010032
-    multigraph: true
-    nodes:
-    -   id: MESH:D009355
-        label: Drug
-        name: neomycin
-    -   id: MESH:D012336
-        label: CellularComponent
-        name: RNA, Ribosomal, 16S
-    -   id: GO:0048027
-        label: MolecularActivity
-        name: mRNA 5-UTR binding
-    -   id: GO:0006412
-        label: BiologicalProcess
-        name: translation
-    -   id: NCBITaxon:2
-        label: OrganismTaxon
-        name: Bacteria
     -   id: MESH:D010032
         label: Disease
         name: Otitis externa
@@ -11599,52 +11506,6 @@
     - https://go.drugbank.com/drugs/DB00994#mechanism-of-action
 -   directed: true
     graph:
-        _id: DB00994_MESH_D014605_2
-        disease: Uveitis
-        disease_mesh: MESH:D014605
-        drug: neomycin
-        drug_mesh: MESH:D009355
-        drugbank: DB:DB00994
-    links:
-    -   key: decreases activity of
-        source: MESH:D009355
-        target: MESH:D012336
-    -   key: participates in
-        source: MESH:D012336
-        target: GO:0048027
-    -   key: precedes
-        source: GO:0048027
-        target: GO:0006412
-    -   key: in taxon
-        source: GO:0006412
-        target: NCBITaxon:562
-    -   key: causes
-        source: NCBITaxon:562
-        target: MESH:D014605
-    multigraph: true
-    nodes:
-    -   id: MESH:D009355
-        label: Drug
-        name: neomycin
-    -   id: MESH:D012336
-        label: CellularComponent
-        name: RNA, Ribosomal, 16S
-    -   id: GO:0048027
-        label: MolecularActivity
-        name: mRNA 5-UTR binding
-    -   id: GO:0006412
-        label: BiologicalProcess
-        name: translation
-    -   id: NCBITaxon:562
-        label: OrganismTaxon
-        name: Escherichia coli
-    -   id: MESH:D014605
-        label: Disease
-        name: Uveitis
-    reference:
-    - https://go.drugbank.com/drugs/DB00994#mechanism-of-action
--   directed: true
-    graph:
         _id: DB00994_MESH_D006501_1
         disease: Hepatic encephalopathy
         disease_mesh: MESH:D006501
@@ -11678,61 +11539,6 @@
     -   id: NCBITaxon:562
         label: OrganismTaxon
         name: Escherichia coli
-    -   id: GO:0097272
-        label: BiologicalProcess
-        name: ammonium homeostasis
-    -   id: HP:0001987
-        label: PhenotypicFeature
-        name: Hyperammonemia
-    -   id: MESH:D006501
-        label: Disease
-        name: Hepatic encephalopathy
-    reference:
-    - https://go.drugbank.com/drugs/DB00994#mechanism-of-action
--   directed: true
-    graph:
-        _id: DB00994_MESH_D006501_2
-        disease: Hepatic encephalopathy
-        disease_mesh: MESH:D006501
-        drug: neomycin
-        drug_mesh: MESH:D009355
-        drugbank: DB:DB00994
-    links:
-    -   key: decreases activity of
-        source: MESH:D009355
-        target: MESH:D012336
-    -   key: participates in
-        source: MESH:D012336
-        target: GO:0048027
-    -   key: in taxon
-        source: GO:0048027
-        target: NCBITaxon:562
-    -   key: correlated with
-        source: NCBITaxon:562
-        target: GO:0097272
-    -   key: prevents
-        source: GO:0097272
-        target: HP:0001987
-    -   key: causes
-        source: HP:0001987
-        target: MESH:D006501
-    multigraph: true
-    nodes:
-    -   id: MESH:D009355
-        label: Drug
-        name: neomycin
-    -   id: MESH:D012336
-        label: CellularComponent
-        name: RNA, Ribosomal, 16S
-    -   id: GO:0048027
-        label: MolecularActivity
-        name: mRNA 5-UTR binding
-    -   id: NCBITaxon:562
-        label: OrganismTaxon
-        name: Escherichia coli
-    -   id: GO:0097272
-        label: BiologicalProcess
-        name: ammonium homeostasis
     -   id: GO:0097272
         label: BiologicalProcess
         name: ammonium homeostasis
@@ -60268,108 +60074,6 @@
     - https://en.wikipedia.org/wiki/Hereditary_angioedema
     - https://en.wikipedia.org/wiki/Complement_system#Regulation
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3666183/
--   comments: If the bile duct (or biliary tract) is obstructed and it leads to jaundice,
-        uncontrolled bleeding may result. In this case, vitamin K would prevent complications
-        due to hemorrhage. Vitamin K allows for prothrombin to bind calcium, as part
-        of a blood clotting process to stop life-threatening hemorrhage. Note that
-        marketing for this drug has been discontinued and is not available in North
-        America due to its likely carcinogenic potential and cytotoxic properties.
-    directed: true
-    graph:
-        _id: DB06718_MESH_D041781_1
-        disease: Obstructive hyperbilirubinemia
-        disease_mesh: MESH:D041781
-        drug: menadiol sodium diphosphate
-        drug_mesh: null
-        drugbank: DB:DB06718
-    links:
-    -   key: positively regulates
-        source: DB:DB06718
-        target: UniProt:P00734
-    -   key: positively regulates
-        source: DB:DB06718
-        target: UniProt:P08709
-    -   key: positively regulates
-        source: DB:DB06718
-        target: UniProt:P00740
-    -   key: positively regulates
-        source: DB:DB06718
-        target: UniProt:P00742
-    -   key: positively regulates
-        source: DB:DB06718
-        target: UniProt:P04070
-    -   key: positively regulates
-        source: DB:DB06718
-        target: UniProt:P38435
-    -   key: positively regulates
-        source: DB:DB06718
-        target: UniProt:P07225
-    -   key: regulates
-        source: UniProt:P07225
-        target: GO:0007596
-    -   key: positively regulates
-        source: UniProt:P38435
-        target: GO:0007596
-    -   key: regulates
-        source: UniProt:P04070
-        target: GO:0007596
-    -   key: positively regulates
-        source: UniProt:P00742
-        target: GO:0007596
-    -   key: positively regulates
-        source: UniProt:P00740
-        target: GO:0007596
-    -   key: positively regulates
-        source: UniProt:P08709
-        target: GO:0007596
-    -   key: positively regulates
-        source: UniProt:P00734
-        target: GO:0007596
-    -   key: prevents
-        source: GO:0007596
-        target: HP:0011029
-    -   key: manifestation of
-        source: HP:0011029
-        target: MESH:D041781
-    multigraph: true
-    nodes:
-    -   id: DB:DB06718
-        label: Drug
-        name: menadiol sodium diphosphate
-    -   id: UniProt:P00734
-        label: Protein
-        name: Prothrombin
-    -   id: UniProt:P08709
-        label: Protein
-        name: Coagulation factor VII
-    -   id: UniProt:P00740
-        label: Protein
-        name: Coagulation factor IX
-    -   id: UniProt:P00742
-        label: Protein
-        name: Coagulation factor X
-    -   id: UniProt:P04070
-        label: Protein
-        name: Vitamin K-dependent protein C
-    -   id: UniProt:P38435
-        label: Protein
-        name: Vitamin K-dependent gamma-carboxylase
-    -   id: UniProt:P07225
-        label: Protein
-        name: Vitamin K-dependent protein S
-    -   id: GO:0007596
-        label: BiologicalProcess
-        name: blood coagulation
-    -   id: HP:0011029
-        label: PhenotypicFeature
-        name: Internal hemorrhage
-    -   id: MESH:D041781
-        label: Disease
-        name: Obstructive hyperbilirubinemia
-    reference:
-    - https://journals.sagepub.com/doi/abs/10.3181/00379727-37-9668P
-    - https://www.medicalnewstoday.com/articles/165749#complications
-    - https://en.wikipedia.org/wiki/Vitamin_K#History
 -   comments: Marketing for this drug has been discontinued and is not available in
         North America due to its likely carcinogenic potential and cytotoxic properties.
     directed: true
@@ -69228,176 +68932,6 @@
     reference:
     - https://go.drugbank.com/drugs/DB06768#mechanismofaction
     - https://pubchem.ncbi.nlm.nih.gov/compound/Ammonium-lactate#section=Pharmacology-and-Biochemistry
--   directed: true
-    graph:
-        _id: DB00484_MESH_D005902_3
-        disease: Open-angle glaucoma
-        disease_mesh: MESH:D005902
-        drug: timolol
-        drug_mesh: MESH:D013999
-        drugbank: DB:DB00484
-    links:
-    -   key: decreases activity of
-        source: MESH:D013999
-        target: UniProt:P07550
-    -   key: decreases activity of
-        source: MESH:D013999
-        target: UniProt:P08588
-    -   key: participates in
-        source: UniProt:P07550
-        target: REACT:R-HSA-418555
-    -   key: participates in
-        source: UniProt:P08588
-        target: REACT:R-HSA-418555
-    -   key: increases abundance of
-        source: REACT:R-HSA-418555
-        target: CHEBI:17489
-    -   key: positively correlated with
-        source: CHEBI:17489
-        target: UBERON:0001796
-    -   key: positively correlated with
-        source: UBERON:0001796
-        target: HP:0007906
-    -   key: positively correlated with
-        source: HP:0007906
-        target: MESH:D005902
-    multigraph: true
-    nodes:
-    -   id: MESH:D013999
-        label: Drug
-        name: timolol
-    -   id: UniProt:P08588
-        label: Protein
-        name: Beta-1 adrenergic receptor
-    -   id: UniProt:P07550
-        label: Protein
-        name: Beta-2 adrenergic receptor
-    -   id: REACT:R-HSA-418555
-        label: Pathway
-        name: G alpha (s) signalling events
-    -   id: CHEBI:17489
-        label: ChemicalSubstance
-        name: 3,5-cyclic AMP
-    -   id: UBERON:0001796
-        label: GrossAnatomicalStructure
-        name: aqueous humor of eyeball
-    -   id: HP:0007906
-        label: PhenotypicFeature
-        name: Ocular Hypertension
-    -   id: MESH:D005902
-        label: Disease
-        name: Open-angle glaucoma
-    reference:
-    - https://go.drugbank.com/drugs/DB00373#mechanism-of-action
-    - https://en.wikipedia.org/wiki/Timolol#Eye_drops
-    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5342868/
--   directed: true
-    graph:
-        _id: DB00484_MESH_D006973_1
-        disease: Hypertensive disorder
-        disease_mesh: MESH:D006973
-        drug: timolol
-        drug_mesh: MESH:D013999
-        drugbank: DB:DB00484
-    links:
-    -   key: decreases activity of
-        source: MESH:D013999
-        target: InterPro:cd15058
-    -   key: positively regulates
-        source: InterPro:cd15058
-        target: UBERON:0000013
-    -   key: positively correlated with
-        source: UBERON:0000013
-        target: UBERON:0018229
-    -   key: positively correlated with
-        source: UBERON:0018229
-        target: HP:0032263
-    -   key: positively correlated with
-        source: HP:0032263
-        target: MESH:D006973
-    multigraph: true
-    nodes:
-    -   id: MESH:D013999
-        label: Drug
-        name: timolol
-    -   id: InterPro:cd15058
-        label: GeneFamily
-        name: beta adrenergic receptors (adenoceptors), member of the class A family
-            of seven-transmembrane G protein-coupled receptors
-    -   id: UBERON:0000013
-        label: GrossAnatomicalStructure
-        name: sympathetic nervous system
-    -   id: UBERON:0018229
-        label: GrossAnatomicalStructure
-        name: renin-angiotensin system
-    -   id: HP:0032263
-        label: PhenotypicFeature
-        name: Increased blood pressure
-    -   id: MESH:D006973
-        label: Disease
-        name: Hypertensive disorder
-    reference:
-    - https://go.drugbank.com/drugs/DB00373#mechanism-of-action
-    - https://pubchem.ncbi.nlm.nih.gov/compound/33624#section=Pharmacology-and-Biochemistry
-    - https://en.wikipedia.org/wiki/Beta_blocker#%CE%B2-receptor_antagonism
--   directed: true
-    graph:
-        _id: DB00484_MESH_D009798_3
-        disease: Ocular hypertension
-        disease_mesh: MESH:D009798
-        drug: timolol
-        drug_mesh: MESH:D013999
-        drugbank: DB:DB00484
-    links:
-    -   key: decreases activity of
-        source: MESH:D013999
-        target: UniProt:P07550
-    -   key: decreases activity of
-        source: MESH:D013999
-        target: UniProt:P08588
-    -   key: participates in
-        source: UniProt:P07550
-        target: REACT:R-HSA-418555
-    -   key: participates in
-        source: UniProt:P08588
-        target: REACT:R-HSA-418555
-    -   key: increases abundance of
-        source: REACT:R-HSA-418555
-        target: CHEBI:17489
-    -   key: positively correlated with
-        source: CHEBI:17489
-        target: UBERON:0001796
-    -   key: positively correlated with
-        source: UBERON:0001796
-        target: MESH:D009798
-    multigraph: true
-    nodes:
-    -   id: MESH:D013999
-        label: Drug
-        name: timolol
-    -   id: UniProt:P08588
-        label: Protein
-        name: Beta-1 adrenergic receptor
-    -   id: UniProt:P07550
-        label: Protein
-        name: Beta-2 adrenergic receptor
-    -   id: REACT:R-HSA-418555
-        label: Pathway
-        name: G alpha (s) signalling events
-    -   id: CHEBI:17489
-        label: ChemicalSubstance
-        name: 3,5-cyclic AMP
-    -   id: UBERON:0001796
-        label: GrossAnatomicalStructure
-        name: aqueous humor of eyeball
-    -   id: MESH:D009798
-        label: Disease
-        name: Ocular hypertension
-    reference:
-    - https://go.drugbank.com/drugs/DB00373#mechanism-of-action
-    - https://en.wikipedia.org/wiki/Timolol#Eye_drops
-    - https://en.wikipedia.org/wiki/Ocular_hypertension#Treatment
-    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5342868/
 -   directed: true
     graph:
         _id: DB00610_MESH_D007022_1
@@ -137286,3 +136820,997 @@
     reference:
     - https://go.drugbank.com/drugs/DB09027
     - https://en.wikipedia.org/wiki/Ledipasvir#Mechanism_of_action
+-   directed: true
+    graph:
+        _id: DB00335_MESH_D009203_1
+        disease: Myocardial infarction
+        disease_mesh: MESH:D009203
+        drug: atenolol
+        drug_mesh: MESH:D001262
+        drugbank: DB:DB00335
+    links:
+    -   key: decreases activity of
+        source: MESH:D001262
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: positively correlated with
+        source: GO:0042310
+        target: HP:0032263
+    -   key: affects risk for
+        source: HP:0032263
+        target: MESH:D009203
+    -   key: affects risk for
+        source: GO:0042310
+        target: HP:0033401
+    -   key: located in
+        source: HP:0033401
+        target: UBERON:0000948
+    -   key: location of
+        source: UBERON:0000948
+        target: MESH:D009203
+    multigraph: true
+    nodes:
+    -   id: MESH:D001262
+        label: Drug
+        name: Atenolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
+    -   id: HP:0033401
+        label: PhenotypicFeature
+        name: Tissue ischemia
+    -   id: UBERON:0000948
+        label: GrossAnatomicalStructure
+        name: Heart
+    -   id: MESH:D009203
+        label: Disease
+        name: Myocardial infarction
+    reference:
+    - https://go.drugbank.com/drugs/DB00335
+    - https://en.wikipedia.org/wiki/Atenolol
+-   directed: true
+    graph:
+        _id: DB00335_MESH_D000787_1
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: atenolol
+        drug_mesh: MESH:D001262
+        drugbank: DB:DB00335
+    links:
+    -   key: decreases activity of
+        source: MESH:D001262
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: GO:0060087
+    -   key: ameliorates
+        source: GO:0060087
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D001262
+        label: Drug
+        name: Atenolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:0060087
+        label: BiologicalProcess
+        name: Relaxation of vascular associated smooth muscle
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference:
+    - https://go.drugbank.com/drugs/DB00335
+    - https://en.wikipedia.org/wiki/Atenolol
+-   directed: true
+    graph:
+        _id: DB00335_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: atenolol
+        drug_mesh: MESH:D001262
+        drugbank: DB:DB00335
+    links:
+    -   key: decreases activity of
+        source: MESH:D001262
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D001262
+        label: Drug
+        name: Atenolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00335
+    - https://en.wikipedia.org/wiki/Atenolol
+-   directed: true
+    graph:
+        _id: DB00768_MESH_D065631_1
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: olopatadine
+        drug_mesh: MESH:D000069605
+        drugbank: DB:DB00768
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069605
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:D000069605
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069605
+        label: Drug
+        name: Olopatadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+    - https://go.drugbank.com/drugs/DB00768
+-   directed: true
+    graph:
+        _id: DB00768_MESH_D006255_1
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: olopatadine
+        drug_mesh: MESH:D000069605
+        drugbank: DB:DB00768
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069605
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:D000069605
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069605
+        label: Drug
+        name: Olopatadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference:
+    - https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+    - https://go.drugbank.com/drugs/DB00768
+-   directed: true
+    graph:
+        _id: DB00768_MESH_D003233_1
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: olopatadine
+        drug_mesh: MESH:D000069605
+        drugbank: DB:DB00768
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069605
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:D000069605
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069605
+        label: Drug
+        name: Olopatadine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+    - https://go.drugbank.com/drugs/DB00768
+-   comment: Isotretinoin is a retinoid used to treat severe recalcitrant acne. No
+        MoA found on isotretinoin treating hypertensive disorder.
+    directed: true
+    graph:
+        _id: DB00982_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: isotretinoin
+        drug_mesh: MESH:D015474
+        drugbank: DB:DB00982
+    links:
+    -   key: treats
+        source: MESH:D015474
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D015474
+        label: Drug
+        name: Isotretinoin
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00982
+-   directed: true
+    graph:
+        _id: DB01206_MESH_D001932_1
+        disease: Neoplasm of brain
+        disease_mesh: MESH:D001932
+        drug: lomustine
+        drug_mesh: MESH:D008130
+        drugbank: DB:DB01206
+    links:
+    -   key: disrupts
+        source: MESH:D008130
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006260
+    -   key: precedes
+        source: GO:0006260
+        target: HP:0031377
+    -   key: positively correlated with
+        source: HP:0031377
+        target: MESH:D001932
+    multigraph: true
+    nodes:
+    -   id: MESH:D008130
+        label: Drug
+        name: Lomustine
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
+    -   id: MESH:D001932
+        label: Disease
+        name: Neoplasm of brain
+    reference:
+    - https://go.drugbank.com/drugs/DB01206
+-   directed: true
+    graph:
+        _id: DB01206_MESH_D006689_1
+        disease: Hodgkin's disease
+        disease_mesh: MESH:D006689
+        drug: lomustine
+        drug_mesh: MESH:D008130
+        drugbank: DB:DB01206
+    links:
+    -   key: disrupts
+        source: MESH:D008130
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006260
+    -   key: precedes
+        source: GO:0006260
+        target: HP:0031377
+    -   key: positively correlated with
+        source: HP:0031377
+        target: MESH:D006689
+    multigraph: true
+    nodes:
+    -   id: MESH:D008130
+        label: Drug
+        name: Lomustine
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
+    -   id: MESH:D006689
+        label: Disease
+        name: Hodgkin's disease
+    reference:
+    - https://go.drugbank.com/drugs/DB01206
+-   directed: true
+    graph:
+        _id: DB01214_MESH_D009798_1
+        disease: Ocular hypertension
+        disease_mesh: MESH:D009798
+        drug: metipranolol
+        drug_mesh: MESH:D014290
+        drugbank: DB:DB01214
+    links:
+    -   key: decreases activity of
+        source: MESH:D014290
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UBERON:0001796
+    -   key: decreases activity of
+        source: MESH:D014290
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: MESH:D009798
+    multigraph: true
+    nodes:
+    -   id: MESH:D014290
+        label: Drug
+        name: Metipranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: MESH:D009798
+        label: Disease
+        name: Ocular hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB01214
+-   directed: true
+    graph:
+        _id: DB01214_MESH_D005902_1
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: metipranolol
+        drug_mesh: MESH:D014290
+        drugbank: DB:DB01214
+    links:
+    -   key: decreases activity of
+        source: MESH:D014290
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UBERON:0001796
+    -   key: decreases activity of
+        source: MESH:D014290
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: affects risk for
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:D014290
+        label: Drug
+        name: Metipranolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular Hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference:
+    - https://go.drugbank.com/drugs/DB01214
+-   directed: true
+    graph:
+        _id: DB01291_MESH_D001991_1
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: pirbuterol
+        drug_mesh: MESH:C009118
+        drugbank: DB:DB01291
+    links:
+    -   key: increases activity of
+        source: MESH:C009118
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006939
+    -   key: occurs in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: affected by
+        source: UBERON:0002185
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:C009118
+        label: Drug
+        name: Pirbuterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: Bronchus
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01291
+-   directed: true
+    graph:
+        _id: DB01291_MESH_D001249_1
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: pirbuterol
+        drug_mesh: MESH:C009118
+        drugbank: DB:DB01291
+    links:
+    -   key: increases activity of
+        source: MESH:C009118
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006939
+    -   key: occurs in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: affected by
+        source: UBERON:0002185
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:C009118
+        label: Drug
+        name: Pirbuterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: Bronchus
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    - https://go.drugbank.com/drugs/DB01291
+-   directed: true
+    graph:
+        _id: DB01291_MESH_D011656_1
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: pirbuterol
+        drug_mesh: MESH:C009118
+        drugbank: DB:DB01291
+    links:
+    -   key: positively regulates
+        source: MESH:C009118
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: GO:0044557
+    -   key: located in
+        source: GO:0044557
+        target: UBERON:0002187
+    -   key: location of
+        source: UBERON:0002187
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:C009118
+        label: Drug
+        name: Pirbuterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: UBERON:0002187
+        label: GrossAnatomicalStructure
+        name: Terminal bronchiole
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference:
+    - https://go.drugbank.com/drugs/DB01291
+-   directed: true
+    graph:
+        _id: DB01291_MESH_D001987_1
+        disease: Bronchiectasis
+        disease_mesh: MESH:D001987
+        drug: pirbuterol
+        drug_mesh: MESH:C009118
+        drugbank: DB:DB01291
+    links:
+    -   key: increases activity of
+        source: MESH:C009118
+        target: UniProt:P07550
+    -   key: increases activity of
+        source: UniProt:P07550
+        target: InterPro:IPR030672
+    -   key: increases abundance of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006939
+    -   key: occurs in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: affected by
+        source: UBERON:0002185
+        target: MESH:D001987
+    multigraph: true
+    nodes:
+    -   id: MESH:C009118
+        label: Drug
+        name: Pirbuterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: Bronchus
+    -   id: MESH:D001987
+        label: Disease
+        name: Bronchiectasis
+    reference:
+    - https://go.drugbank.com/drugs/DB01291
+-   directed: true
+    graph:
+        _id: DB01291_MESH_D008171_1
+        disease: Disorder of lung
+        disease_mesh: MESH:D008171
+        drug: pirbuterol
+        drug_mesh: MESH:C009118
+        drugbank: DB:DB01291
+    links:
+    -   key: positively regulates
+        source: MESH:C009118
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: positively correlated with
+        source: CHEBI:17489
+        target: GO:0044557
+    -   key: located in
+        source: GO:0044557
+        target: UBERON:0002187
+    -   key: affected by
+        source: UBERON:0002187
+        target: MESH:D008171
+    multigraph: true
+    nodes:
+    -   id: MESH:C009118
+        label: Drug
+        name: Pirbuterol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: Relaxation of smooth muscle
+    -   id: UBERON:0002187
+        label: GrossAnatomicalStructure
+        name: Terminal bronchiole
+    -   id: MESH:D008171
+        label: Disease
+        name: Disorder of lung
+    reference:
+    - https://go.drugbank.com/drugs/DB01291
+-   directed: true
+    graph:
+        _id: DB01580_MESH_D000787_1
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: oxprenolol
+        drug_mesh: MESH:D010096
+        drugbank: DB:DB01580
+    links:
+    -   key: decreases activity of
+        source: MESH:D010096
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: MESH:D010096
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: HP:0000822
+    -   key: affects risk for
+        source: HP:0000822
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D010096
+        label: Drug
+        name: Oxprenolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference:
+    - https://go.drugbank.com/drugs/DB01580#BE0000172
+-   directed: true
+    graph:
+        _id: DB01580_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: oxprenolol
+        drug_mesh: MESH:D010096
+        drugbank: DB:DB01580
+    links:
+    -   key: decreases activity of
+        source: MESH:D010096
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: MESH:D010096
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D010096
+        label: Drug
+        name: Oxprenolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01580#BE0000172
+-   directed: true
+    graph:
+        _id: DB01580_MESH_D001007_1
+        disease: Anxiety
+        disease_mesh: MESH:D001007
+        drug: oxprenolol
+        drug_mesh: MESH:D010096
+        drugbank: DB:DB01580
+    links:
+    -   key: decreases activity of
+        source: MESH:D010096
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: MESH:D010096
+        target: UniProt:P07550
+    -   key: positively correlated with
+        source: UniProt:P08588
+        target: MESH:D004837
+    -   key: positively correlated with
+        source: UniProt:P07550
+        target: MESH:D004837
+    -   key: positively correlated with
+        source: MESH:D004837
+        target: HP:0100852
+    -   key: manifestation of
+        source: HP:0100852
+        target: MESH:D001007
+    multigraph: true
+    nodes:
+    -   id: MESH:D010096
+        label: Drug
+        name: Oxprenolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: HP:0100852
+        label: PhenotypicFeature
+        name: Abnormal fear/anxiety-related behavior
+    -   id: MESH:D004837
+        label: ChemicalSubstance
+        name: Epinephrine
+    -   id: MESH:D001007
+        label: Disease
+        name: Anxiety
+    reference:
+    - https://go.drugbank.com/drugs/DB01580#BE0000172
+-   directed: true
+    graph:
+        _id: DB13163_MESH_D003371_1
+        disease: Cough
+        disease_mesh: MESH:D003371
+        drug: terpin
+        drug_mesh: MESH:C005804
+        drugbank: DB:DB13163
+    links:
+    -   key: negatively regulates
+        source: MESH:C005804
+        target: UBERON:0000912
+    -   key: positively correlated with
+        source: UBERON:0000912
+        target: MESH:D003371
+    multigraph: true
+    nodes:
+    -   id: MESH:C005804
+        label: Drug
+        name: Terpin
+    -   id: UBERON:0000912
+        label: GrossAnatomicalStructure
+        name: Mucus
+    -   id: MESH:D003371
+        label: Disease
+        name: Cough
+    reference:
+    - https://go.drugbank.com/drugs/DB13163
