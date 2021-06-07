@@ -137745,3 +137745,1073 @@
         name: Cough
     reference:
     - https://go.drugbank.com/drugs/DB13163
+-   comment: Mazindol is only approved in the United States for the treatment of Duchenne
+        muscular dystrophy, and is not marketed or available in the United States
+        for use in the treatment of obesity.
+    directed: true
+    graph:
+        _id: DB00579_MESH_D009765_1
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: Mazindol
+        drug_mesh: MESH:D008454
+        drugbank: DB:DB00579
+    links:
+    -   key: decreases activity of
+        source: MESH:D008454
+        target: UniProt:P23975
+    -   key: decreases activity of
+        source: MESH:D008454
+        target: UniProt:Q01959
+    -   key: decreases activity of
+        source: MESH:D008454
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0090494
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: decreases abundance of
+        source: GO:0090494
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: negatively regulates
+        source: GO:0061533
+        target: HP:0002591
+    -   key: negatively regulates
+        source: GO:0061527
+        target: HP:0002591
+    -   key: negatively regulates
+        source: GO:0060096
+        target: HP:0002591
+    -   key: causes
+        source: HP:0002591
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:D008454
+        label: Drug
+        name: Mazindol
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Norepinephrine uptake
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0090494
+        label: BiologicalProcess
+        name: Dopamine uptake
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: HP:0002591
+        label: PhenotypicFeature
+        name: Polyphagia
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference:
+    - https://go.drugbank.com/drugs/DB00579
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3098897/
+    - https://pubmed.ncbi.nlm.nih.gov/2252331/
+    - https://pubmed.ncbi.nlm.nih.gov/11054588/
+    - https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1550-8528.1995.tb00226.x
+-   directed: true
+    graph:
+        _id: DB00706_MESH_D011470_1
+        disease: Benign prostatic hyperplasia
+        disease_mesh: MESH:D011470
+        drug: tamsulosin
+        drug_mesh: MESH:C088482
+        drugbank: DB:DB00706
+    links:
+    -   key: decreases activity of
+        source: MESH:C088482
+        target: UniProt:P35348
+    -   key: decreases activity of
+        source: MESH:C088482
+        target: UniProt:P25100
+    -   key: positively regulates
+        source: UniProt:P35348
+        target: GO:0014832
+    -   key: positively regulates
+        source: UniProt:P25100
+        target: GO:0014832
+    -   key: positively correlated with
+        source: GO:0014832
+        target: HP:0100515
+    -   key: manifestation of
+        source: HP:0100515
+        target: MESH:D011470
+    multigraph: true
+    nodes:
+    -   id: MESH:C088482
+        label: Drug
+        name: Tamsulosin
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha-1A adrenergic receptor
+    -   id: UniProt:P25100
+        label: Protein
+        name: Alpha-1D adrenergic receptor
+    -   id: GO:0014832
+        label: BiologicalProcess
+        name: Urinary bladder smooth muscle contraction
+    -   id: HP:0100515
+        label: PhenotypicFeature
+        name: Pollakisuria
+    -   id: MESH:D011470
+        label: Disease
+        name: Benign prostatic hyperplasia
+    reference:
+    - https://go.drugbank.com/drugs/DB00706
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D014069_1
+        disease: Tonsillitis
+        disease_mesh: MESH:D014069
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1301
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D014069
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus
+    -   id: MESH:D014069
+        label: Disease
+        name: Tonsillitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D010612_1
+        disease: Pharyngitis
+        disease_mesh: MESH:D010612
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1301
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D010612
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus
+    -   id: MESH:D010612
+        label: Disease
+        name: Pharyngitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D012141_1
+        disease: Upper respiratory infection
+        disease_mesh: MESH:D012141
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1301
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D012141
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus
+    -   id: MESH:D012141
+        label: Disease
+        name: Upper respiratory infection
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D013290_1
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1314
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D014552_1
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:562
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D013203_1
+        disease: Staphylococcal infections
+        disease_mesh: MESH:D013203
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1280
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Staphylococcal infections
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D011018_1
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1313
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB00833_MESH_D011014_1
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: Cefaclor
+        drug_mesh: MESH:D002433
+        drugbank: DB:DB00833
+    links:
+    -   key: decreases activity of
+        source: MESH:D002433
+        target: InterPro:IPR001460
+    -   key: actively involved in
+        source: InterPro:IPR001460
+        target: GO:0009273
+    -   key: increases activity of
+        source: MESH:D002433
+        target: InterPro:IPR033907
+    -   key: positively correlated with
+        source: InterPro:IPR033907
+        target: GO:0019835
+    -   key: in taxon
+        source: GO:0019835
+        target: NCBITaxon:1313
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:D002433
+        label: Drug
+        name: Cefaclor
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: InterPro:IPR033907
+        label: GeneFamily
+        name: Autolysin
+    -   id: GO:0019835
+        label: BiologicalProcess
+        name: Cytolysis
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB00833
+-   directed: true
+    graph:
+        _id: DB01197_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Captopril
+        drug_mesh: MESH:D002216
+        drugbank: DB:DB01197
+    links:
+    -   key: decreases activity of
+        source: MESH:D002216
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: contributes to
+        source: GO:0003092
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: MESH:D006973
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: contributes to
+        source: MESH:D014661
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D002216
+        label: Drug
+        name: Captopril
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: Renal water retention
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01197#BE0000221
+-   directed: true
+    graph:
+        _id: DB01197_MESH_D003928_1
+        disease: Diabetic renal disease
+        disease_mesh: MESH:D003928
+        drug: Captopril
+        drug_mesh: MESH:D002216
+        drugbank: DB:DB01197
+    links:
+    -   key: decreases activity of
+        source: MESH:D002216
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: GO:0070294
+    -   key: positively correlated with
+        source: GO:0070294
+        target: GO:0003092
+    -   key: contributes to
+        source: GO:0003092
+        target: GO:0045777
+    -   key: affects risk for
+        source: GO:0045777
+        target: HP:0000822
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: contributes to
+        source: MESH:D014661
+        target: HP:0000822
+    -   key: affects risk for
+        source: HP:0000822
+        target: MESH:D003928
+    multigraph: true
+    nodes:
+    -   id: MESH:D002216
+        label: Drug
+        name: Captopril
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0070294
+        label: BiologicalProcess
+        name: Renal sodium ion absorption
+    -   id: GO:0003092
+        label: BiologicalProcess
+        name: Renal water retention
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D003928
+        label: Disease
+        name: Diabetic renal disease
+    reference:
+    - https://go.drugbank.com/drugs/DB01197#BE0000221
+-   directed: true
+    graph:
+        _id: DB03904_MESH_D003877_1
+        disease: Contact dermatitis
+        disease_mesh: MESH:D003877
+        drug: Carbamide
+        drug_mesh: MESH:D014508
+        drugbank: DB:DB03904
+    links:
+    -   key: subclass of
+        source: MESH:D014508
+        target: MESH:D058427
+    -   key: positively regulates
+        source: MESH:D058427
+        target: GO:0061436
+    -   key: negatively correlated with
+        source: GO:0061436
+        target: MESH:D003877
+    multigraph: true
+    nodes:
+    -   id: MESH:D014508
+        label: Drug
+        name: Carbamide
+    -   id: MESH:D058427
+        label: ChemicalSubstance
+        name: Humectant
+    -   id: GO:0061436
+        label: BiologicalProcess
+        name: Establishment of skin barrier
+    -   id: MESH:D003877
+        label: Disease
+        name: Contact dermatitis
+    reference:
+    - https://go.drugbank.com/drugs/DB03904
+-   directed: true
+    graph:
+        _id: DB03904_MESH_D012628_1
+        disease: Seborrheic dermatitis
+        disease_mesh: MESH:D012628
+        drug: Carbamide
+        drug_mesh: MESH:D014508
+        drugbank: DB:DB03904
+    links:
+    -   key: subclass of
+        source: MESH:D014508
+        target: MESH:D058427
+    -   key: positively regulates
+        source: MESH:D058427
+        target: GO:0061436
+    -   key: negatively correlated with
+        source: GO:0061436
+        target: MESH:D012628
+    multigraph: true
+    nodes:
+    -   id: MESH:D014508
+        label: Drug
+        name: Carbamide
+    -   id: MESH:D058427
+        label: ChemicalSubstance
+        name: Humectant
+    -   id: GO:0061436
+        label: BiologicalProcess
+        name: Establishment of skin barrier
+    -   id: MESH:D012628
+        label: Disease
+        name: Seborrheic dermatitis
+    reference:
+    - https://go.drugbank.com/drugs/DB03904
+-   directed: true
+    graph:
+        _id: DB03904_MESH_D005076_1
+        disease: Eruption of skin
+        disease_mesh: MESH:D005076
+        drug: Carbamide
+        drug_mesh: MESH:D014508
+        drugbank: DB:DB03904
+    links:
+    -   key: subclass of
+        source: MESH:D014508
+        target: MESH:D058427
+    -   key: positively regulates
+        source: MESH:D058427
+        target: GO:0061436
+    -   key: negatively correlated with
+        source: GO:0061436
+        target: MESH:D005076
+    multigraph: true
+    nodes:
+    -   id: MESH:D014508
+        label: Drug
+        name: Carbamide
+    -   id: MESH:D058427
+        label: ChemicalSubstance
+        name: Humectant
+    -   id: GO:0061436
+        label: BiologicalProcess
+        name: Establishment of skin barrier
+    -   id: MESH:D005076
+        label: Disease
+        name: Eruption of skin
+    reference:
+    - https://go.drugbank.com/drugs/DB03904
+-   directed: true
+    graph:
+        _id: DB03904_MESH_D014010_1
+        disease: Pityriasis versicolor
+        disease_mesh: MESH:D014010
+        drug: Carbamide
+        drug_mesh: MESH:D014508
+        drugbank: DB:DB03904
+    links:
+    -   key: subclass of
+        source: MESH:D014508
+        target: MESH:D058427
+    -   key: positively regulates
+        source: MESH:D058427
+        target: GO:0061436
+    -   key: negatively correlated with
+        source: GO:0061436
+        target: MESH:D014010
+    multigraph: true
+    nodes:
+    -   id: MESH:D014508
+        label: Drug
+        name: Carbamide
+    -   id: MESH:D058427
+        label: ChemicalSubstance
+        name: Humectant
+    -   id: GO:0061436
+        label: BiologicalProcess
+        name: Establishment of skin barrier
+    -   id: MESH:D014010
+        label: Disease
+        name: Pityriasis versicolor
+    reference:
+    - https://go.drugbank.com/drugs/DB03904
+-   directed: true
+    graph:
+        _id: DB03904_MESH_D003876_1
+        disease: Atopic dermatitis
+        disease_mesh: MESH:D003876
+        drug: Carbamide
+        drug_mesh: MESH:D014508
+        drugbank: DB:DB03904
+    links:
+    -   key: subclass of
+        source: MESH:D014508
+        target: MESH:D058427
+    -   key: positively regulates
+        source: MESH:D058427
+        target: GO:0061436
+    -   key: negatively correlated with
+        source: GO:0061436
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:D014508
+        label: Drug
+        name: Carbamide
+    -   id: MESH:D058427
+        label: ChemicalSubstance
+        name: Humectant
+    -   id: GO:0061436
+        label: BiologicalProcess
+        name: Establishment of skin barrier
+    -   id: MESH:D003876
+        label: Disease
+        name: Atopic dermatitis
+    reference:
+    - https://go.drugbank.com/drugs/DB03904
+-   directed: true
+    graph:
+        _id: DB05197_MESH_D013276_1
+        disease: Gastric ulcer
+        disease_mesh: MESH:D013276
+        drug: sofalcone
+        drug_mesh: MESH:C035032
+        drugbank: DB:DB05197
+    links:
+    -   key: decreases activity of
+        source: MESH:C035032
+        target: UniProt:P15428
+    -   key: disrupts
+        source: MESH:C035032
+        target: NCBITaxon:210
+    -   key: negatively regulates
+        source: MESH:C035032
+        target: GO:0009039
+    -   key: decreases abundance of
+        source: UniProt:P15428
+        target: CHEBI:15551
+    -   key: in taxon
+        source: GO:0009039
+        target: NCBITaxon:210
+    -   key: treats
+        source: CHEBI:15551
+        target: MESH:D013276
+    -   key: causes
+        source: NCBITaxon:210
+        target: MESH:D013276
+    multigraph: true
+    nodes:
+    -   id: MESH:C035032
+        label: Drug
+        name: Sofalcone
+    -   id: NCBITaxon:210
+        label: OrganismTaxon
+        name: Helicobacter Pylori
+    -   id: UniProt:P15428
+        label: Protein
+        name: 15-hydroxyprostaglandin dehydrogenase
+    -   id: GO:0009039
+        label: MolecularActivity
+        name: Urease activityS
+    -   id: CHEBI:15551
+        label: ChemicalSubstance
+        name: Prostaglandin E2
+    -   id: MESH:D013276
+        label: Disease
+        name: Gastric ulcer
+    reference:
+    - https://drugs.ncats.io/drug/2B668TJX8E
+    - https://pubmed.ncbi.nlm.nih.gov/31614142/
+    - https://pubmed.ncbi.nlm.nih.gov/1629577/
+    - https://go.drugbank.com/drugs/DB05197
+-   comment: Vortioxetine is classified as a serotonin modulator. How it works is
+        not entirely clear but is believed to be related to increasing serotonin levels.
+    directed: true
+    graph:
+        _id: DB09068_MESH_D003865_1
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: vortioxetine
+        drug_mesh: MESH:C557874
+        drugbank: DB:DB09068
+    links:
+    -   key: decreases activity of
+        source: MESH:C557874
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: increases activity of
+        source: MESH:C557874
+        target: UniProt:P08908
+    -   key: molecularly interacts with
+        source: UniProt:P08908
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: GO:0060096
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:C557874
+        label: Drug
+        name: vortioxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: UniProt:P08908
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1A
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB09068
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2104993/
+-   directed: true
+    graph:
+        _id: DB09109_MESH_D006467_1
+        disease: Hemophilia A
+        disease_mesh: MESH:D006467
+        drug: Turoctocog alfa
+        drug_mesh: MESH:C577506
+        drugbank: DB:DB09109
+    links:
+    -   key: chemically similar to
+        source: MESH:C577506
+        target: UniProt:P00451
+    -   key: increases activity of
+        source: UniProt:P00451
+        target: UniProt:P00742
+    -   key: increases activity of
+        source: UniProt:P00742
+        target: UniProt:P00734
+    -   key: increases abundance of
+        source: UniProt:P00734
+        target: MESH:D005337
+    -   key: participates in
+        source: MESH:D005337
+        target: GO:0072378
+    -   key: negatively correlated with
+        source: GO:0072378
+        target: MESH:D006467
+    multigraph: true
+    nodes:
+    -   id: MESH:C577506
+        label: Drug
+        name: Turoctocog alfa
+    -   id: UniProt:P00451
+        label: Protein
+        name: Factor VIII
+    -   id: UniProt:P00742
+        label: Protein
+        name: Factor X
+    -   id: UniProt:P00734
+        label: Protein
+        name: Thrombin
+    -   id: MESH:D005337
+        label: ChemicalSubstance
+        name: Fibrin
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D006467
+        label: Disease
+        name: Hemophilia A
+    reference:
+    - https://go.drugbank.com/drugs/DB09109
+    - https://en.wikipedia.org/wiki/Factor_VIII
+    - https://en.wikipedia.org/wiki/Coagulation
