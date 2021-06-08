@@ -64549,8 +64549,7 @@
     - https://en.wikipedia.org/wiki/Brimonidine#Mechanism_of_action
     - https://en.wikipedia.org/wiki/Rosacea#Medications
     - https://pubmed.ncbi.nlm.nih.gov/26566370/
--   comments: MESH:C000608451 may have been deprecated; no longer in MESH.
-    directed: true
+-   directed: true
     graph:
         _id: DB09087_MESH_D010437_1
         disease: Peptic ulcer
@@ -64559,23 +64558,17 @@
         drug_mesh: MESH:D000534
         drugbank: DB:DB09087
     links:
-    -   key: subclass of
+    -   key: negatively regulates
         source: MESH:D000534
-        target: MESH:D000891
-    -   key: subclass of
-        source: MESH:D000534
-        target: MESH:D001252
-    -   key: negatively correlated with
-        source: MESH:D000891
         target: GO:0006954
-    -   key: negatively correlated with
-        source: MESH:D001252
-        target: MESH:D005744
+    -   key: negatively regulates
+        source: MESH:D000534
+        target: GO:0001696
     -   key: positively correlated with
         source: GO:0006954
         target: MESH:D010437
     -   key: positively correlated with
-        source: MESH:D005744
+        source: GO:0001696
         target: MESH:D010437
     multigraph: true
     nodes:
@@ -64584,15 +64577,9 @@
         id: MESH:D000534
         label: Drug
         name: alum
-    -   id: MESH:D000891
-        label: ChemicalSubstance
-        name: Anti-Infective Agents, Local
-    -   id: MESH:D001252
-        label: ChemicalSubstance
-        name: Astringents
-    -   id: MESH:D005744
-        label: ChemicalSubstance
-        name: Gastric Acid
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
@@ -64602,11 +64589,10 @@
     reference:
     - https://go.drugbank.com/drugs/DB09087#pharmacodynamics
     - https://en.wikipedia.org/wiki/Potassium_alum#Medicine_and_cosmetics
--   comments: MESH:C000608451 may have been deprecated; no longer in MESH. The disease
-        is denotated as Indigestion in the original file before curation. Note that
-        the majority of cases no cause can be attributed to leading to the disease.
-        When a cause can indeed be determined, the majority of cases will be due to
-        gastroesophageal reflux and gastritis (https://en.wikipedia.org/wiki/Indigestion#Cause).
+-   comment: The disease is also known as Indigestion as per in the original file
+        before curation. Note that in the majority of cases no cause can be attributed
+        to leading to the disease. When a cause can indeed be determined, the majority
+        of cases will be due to gastroesophageal reflux and gastritis (https://en.wikipedia.org/wiki/Indigestion#Cause).
     directed: true
     graph:
         _id: DB09087_MESH_D004415_1
@@ -64616,28 +64602,22 @@
         drug_mesh: MESH:D000534
         drugbank: DB:DB09087
     links:
-    -   key: subclass of
+    -   key: negatively regulates
         source: MESH:D000534
-        target: MESH:D000891
-    -   key: subclass of
-        source: MESH:D000534
-        target: MESH:D001252
-    -   key: negatively correlated with
-        source: MESH:D000891
         target: GO:0006954
-    -   key: negatively correlated with
-        source: MESH:D001252
-        target: MESH:D005744
+    -   key: negatively regulates
+        source: MESH:D000534
+        target: GO:0001696
     -   key: positively correlated with
         source: GO:0006954
         target: HP:0005263
     -   key: positively correlated with
-        source: MESH:D005744
+        source: GO:0001696
         target: HP:0002020
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0002020
         target: MESH:D004415
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0005263
         target: MESH:D004415
     multigraph: true
@@ -64647,15 +64627,9 @@
         id: MESH:D000534
         label: Drug
         name: alum
-    -   id: MESH:D000891
-        label: ChemicalSubstance
-        name: Anti-Infective Agents, Local
-    -   id: MESH:D001252
-        label: ChemicalSubstance
-        name: Astringents
-    -   id: MESH:D005744
-        label: ChemicalSubstance
-        name: Gastric Acid
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: gastric acid secretion
     -   id: HP:0005263
         label: PhenotypicFeature
         name: Gastritis
@@ -64765,7 +64739,7 @@
     - https://go.drugbank.com/drugs/DB09087#pharmacodynamics
     - https://en.wikipedia.org/wiki/Potassium_alum#Medicine_and_cosmetics
     - https://en.wikipedia.org/wiki/Gastroesophageal_reflux_disease#Antacids
--   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+-   comment: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
         class of drug and the mechanism of action for both is similar. Weve annotated
         the path for the S isomer only as it seems this isomer is metabolized more
         slowly than omeprazole and therefore it will act for longer and more effectively
@@ -64824,7 +64798,7 @@
     - https://go.drugbank.com/drugs/DB00736#mechanism-of-action
     - https://en.wikipedia.org/wiki/Esomeprazole
     - https://en.wikipedia.org/wiki/Omeprazole#Mechanism_of_action
--   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+-   comment: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
         class of drug and the mechanism of action for both is similar. Weve annotated
         the path for the S isomer only as it seems this isomer is metabolized more
         slowly than omeprazole and therefore it will act for longer and more effectively
@@ -64854,7 +64828,7 @@
     -   key: positively correlated with
         source: GO:0001696
         target: HP:0002020
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0004791
         target: MESH:D004942
     -   key: manifestation of
@@ -64889,7 +64863,7 @@
     - https://en.wikipedia.org/wiki/Omeprazole#Mechanism_of_action
     - https://en.wikipedia.org/wiki/Esophagitis#Causes
     - https://en.wikipedia.org/wiki/Esophagitis#Medications
--   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+-   comment: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
         class of drug and the mechanism of action for both is similar. Weve annotated
         the path for the S isomer only as it seems this isomer is metabolized more
         slowly than omeprazole and therefore it will act for longer and more effectively
@@ -64919,10 +64893,10 @@
     -   key: positively correlated with
         source: GO:0001696
         target: HP:0002588
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0002588
         target: MESH:D015043
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0004398
         target: MESH:D015043
     multigraph: true
@@ -64956,7 +64930,7 @@
     - https://en.wikipedia.org/wiki/Esophagitis#Medications
     - https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Treatment
     - https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Pathophysiology
--   comments: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
+-   comment: Esomeprazole is the s-isomer of Omeprazole, both are a proton pump inhibitor
         class of drug and the mechanism of action for both is similar. Weve annotated
         the path for the S isomer only as it seems this isomer is metabolized more
         slowly than omeprazole and therefore it will act for longer and more effectively
@@ -65004,10 +64978,6 @@
     - https://go.drugbank.com/drugs/DB00736#mechanism-of-action
     - https://en.wikipedia.org/wiki/Esomeprazole
     - https://en.wikipedia.org/wiki/Omeprazole#Mechanism_of_action
-    - https://en.wikipedia.org/wiki/Esophagitis#Causes
-    - https://en.wikipedia.org/wiki/Esophagitis#Medications
-    - https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Treatment
-    - https://en.wikipedia.org/wiki/Zollinger%E2%80%93Ellison_syndrome#Pathophysiology
 -   directed: true
     graph:
         _id: DB01048_MESH_D015658_2
@@ -65061,7 +65031,8 @@
     reference:
     - https://go.drugbank.com/drugs/DB01048#mechanism-of-action
     - https://en.wikipedia.org/wiki/Abacavir#Mechanism_of_action
--   comments: The disease is denoted as Sore throat symptom in the original file.
+-   comment: The disease is also known as Sore throat symptom as per the original
+        file.
     directed: true
     graph:
         _id: DB06742_MESH_D010612_1
@@ -65071,24 +65042,21 @@
         drug_mesh: MESH:D000551
         drugbank: DB:DB06742
     links:
-    -   key: increases abundance of
-        source: MESH:D000551
-        target: MESH:D011663
-    -   key: produced by
-        source: MESH:D011663
-        target: MESH:D056809
-    -   key: part of
-        source: MESH:D056809
-        target: UBERON:0000065
-    -   key: location of
-        source: UBERON:0000065
-        target: MESH:D010612
     -   key: negatively regulates
         source: MESH:D000551
         target: GO:0038060
     -   key: positively correlated with
         source: GO:0038060
-        target: MESH:D007249
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0033050
+    -   key: negatively regulates
+        source: MESH:D000551
+        target: Pfam:PF06512
+    -   key: positively correlated with
+        source: Pfam:PF06512
+        target: GO:0006954
     -   key: increases abundance of
         source: GO:0038060
         target: UBERON:0016552
@@ -65098,22 +65066,13 @@
     -   key: positively correlated with
         source: HP:0031602
         target: HP:0033050
-    -   key: negatively regulates
-        source: MESH:D000551
-        target: Pfam:PF06512
     -   key: positively correlated with
         source: Pfam:PF06512
-        target: MESH:D010146
+        target: HP:0012531
     -   key: positively correlated with
-        source: Pfam:PF06512
-        target: MESH:D007249
-    -   key: positively correlated with
-        source: MESH:D010146
+        source: HP:0012531
         target: HP:0033050
-    -   key: positively correlated with
-        source: MESH:D007249
-        target: HP:0033050
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0033050
         target: MESH:D010612
     multigraph: true
@@ -65121,20 +65080,11 @@
     -   id: MESH:D000551
         label: Drug
         name: ambroxol
-    -   id: MESH:D011663
-        label: ChemicalSubstance
-        name: Pulmonary Surfactants
-    -   id: MESH:D056809
-        label: Cell
-        name: Alveolar Epithelial Cells
-    -   id: UBERON:0000065
-        label: GrossAnatomicalStructure
-        name: respiratory tract
     -   id: GO:0038060
         label: BiologicalProcess
         name: nitric oxide-cGMP-mediated signaling pathway
-    -   id: MESH:D010146
-        label: BiologicalProcess
+    -   id: HP:0012531
+        label: PhenotypicFeature
         name: Pain
     -   id: UBERON:0016552
         label: GrossAnatomicalStructure
@@ -65145,11 +65095,11 @@
     -   id: Pfam:PF06512
         label: GeneFamily
         name: Sodium ion transport-associated
-    -   id: MESH:D007249
-        label: PhenotypicFeature
-        name: Inflammation
-    -   id: HP:0033050
+    -   id: GO:0006954
         label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0033050
+        label: PhenotypicFeature
         name: Pharyngalgia
     -   id: MESH:D010612
         label: Disease
@@ -65159,7 +65109,7 @@
     - https://go.drugbank.com/drugs/DB06742#mechanism-of-action
     - https://pubmed.ncbi.nlm.nih.gov/28937232/
     - https://en.wikipedia.org/wiki/Sore_throat#Diagnosis
--   comments: Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
+-   comment: Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
         Note that hyponatremia corresponds to the state where water content is relatively
         large for the sodium content available (https://pubmed.ncbi.nlm.nih.gov/19322975/),
         which is possibly due to increased water reabsorption. There are different
@@ -65207,8 +65157,8 @@
     - https://go.drugbank.com/drugs/DB06212#mechanism-of-action
     - https://pubmed.ncbi.nlm.nih.gov/20868352/
     - https://en.wikipedia.org/wiki/Vasopressin_receptor_antagonist
--   comments: This disease is denoted as Syndrome of inappropriate vasopressin secretion
-        in the original file. Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
+-   comment: This disease is also known as Syndrome of inappropriate vasopressin secretion
+        as per the original file. Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
         Note that hyponatremia corresponds to the state where water content is relatively
         large for the sodium content available (https://pubmed.ncbi.nlm.nih.gov/19322975/),
         which is possibly due to increased water reabsorption.
@@ -65257,8 +65207,8 @@
     - https://pubmed.ncbi.nlm.nih.gov/20868352/
     - https://en.wikipedia.org/wiki/Vasopressin_receptor_antagonist
     - https://en.wikipedia.org/wiki/Syndrome_of_inappropriate_antidiuretic_hormone_secretion#Treatment
--   comments: This disease is denoted as Polycystic kidney disease adult type in the
-        original file. Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
+-   comment: This disease is also known as Polycystic kidney disease adult type as
+        per the original file. Tolvaptan is also known as aquaretic (https://en.wikipedia.org/wiki/Aquaretic).
         Note that hyponatremia corresponds to the state where water content is relatively
         large for the sodium content available (https://pubmed.ncbi.nlm.nih.gov/19322975/),
         which is possibly due to increased water reabsorption.
@@ -65286,7 +65236,7 @@
     -   key: positively correlated with
         source: CHEBI:17489
         target: HP:0000107
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0000107
         target: MESH:D016891
     -   key: positively correlated with
@@ -65362,7 +65312,7 @@
     - https://en.wikipedia.org/wiki/Aminolevulinic_acid#Medical_uses
     - https://en.wikipedia.org/wiki/Actinic_keratosis#Procedures
     - https://en.wikipedia.org/wiki/Photodynamic_therapy#Photosensitizers
--   comments: In Parkinson's disease, there is imbalance between levels of acetylcholine
+-   comment: In Parkinson's disease, there is imbalance between levels of acetylcholine
         and dopamine, where increased levels of acetylcholine and degeneration of
         dopaminergic pathways are observed. Therefore, muscarinic antagonists such
         as biperiden block central cholinergic activity and balancing out neurotransmitters
@@ -65386,6 +65336,9 @@
         target: GO:0007271
     -   key: positively correlated with
         source: GO:0007271
+        target: HP:0100022
+    -   key: manifestation of
+        source: HP:0100022
         target: MESH:D010300
     multigraph: true
     nodes:
@@ -65400,12 +65353,15 @@
     -   id: GO:0007271
         label: BiologicalProcess
         name: synaptic transmission, cholinergic
+    -   id: HP:0100022
+        label: PhenotypicFeature
+        name: Abnormality of movement
     -   id: MESH:D010300
         label: Disease
         name: Parkinson's disease
     reference:
     - https://go.drugbank.com/drugs/DB00810#mechanism-of-action
--   comments: The disease is denoted as Postencephalitic parkinsonism in the original
+-   comment: The disease is denoted as Postencephalitic parkinsonism in the original
         file. This disease is believed to be caused by a viral infection, leading
         to clinical parkinsonism (https://en.wikipedia.org/wiki/Postencephalitic_parkinsonism)
         and anti-Parkinson drugs may be helpful in treating the symptoms (https://en.wikipedia.org/wiki/Encephalitis_lethargica).
@@ -65431,7 +65387,7 @@
     -   key: positively correlated with
         source: GO:0007271
         target: HP:0100022
-    -   key: manifestation of
+    -   key: positively correlated with
         source: HP:0100022
         target: HP:0001300
     -   key: manifestation of
@@ -65461,7 +65417,7 @@
         name: Parkinson Disease, Postencephalitic
     reference:
     - https://go.drugbank.com/drugs/DB00810#mechanism-of-action
--   comments: The disease is denoted as Parkinsonism in the original file. Muscarinic
+-   comment: The disease is also known as Parkinsonism as per the original file. Muscarinic
         antagonists can allow dopamine levels to rebalance, which can help relieve
         some Parkinsonian symptoms e.g. involuntary movements. Anticholinergic drugs
         may also be prescribed to improve bladder dysfunction (https://pubmed.ncbi.nlm.nih.gov/20370804/).
@@ -65508,7 +65464,8 @@
     reference:
     - https://go.drugbank.com/drugs/DB00810#mechanism-of-action
     - https://en.wikipedia.org/wiki/Muscarinic_antagonist#Effects
--   comments: The disease is denoted as Extrapyramidal disease in the original file.
+-   comment: The disease is also known as Extrapyramidal disease as per the original
+        file.
     directed: true
     graph:
         _id: DB00810_MESH_D001480_1
@@ -69453,7 +69410,7 @@
         name: Urinary tract infectious disease
     reference:
     - https://go.drugbank.com/drugs/DB00827#mechanism-of-action
--   comments: The drug is no longer FDA approved (https://en.wikipedia.org/wiki/Tocolytic#Types_of_agents).
+-   comment: The drug is no longer FDA approved (https://en.wikipedia.org/wiki/Tocolytic#Types_of_agents).
     directed: true
     graph:
         _id: DB00867_MESH_D007752_1
@@ -69751,7 +69708,7 @@
     - https://go.drugbank.com/drugs/DB09265
     - https://en.wikipedia.org/wiki/Lixisenatide#Mechanism_of_action
     - https://en.wikipedia.org/wiki/Glucagon-like_peptide-1_receptor#Function_and_therapeutic_potential
--   comments: There seems to be no evidence linking sulfacetamide as treatment for
+-   comment: There seems to be no evidence linking sulfacetamide as treatment for
         Amebic infection. Sulfacetamide is an antibacterial type of drug (https://www.kegg.jp/entry/D05947)
         and it seems the drug has some anti-inflammatory role. Since the disease could
         lead to inflammation and ulceration of the colon perhaps there could be an
@@ -69770,26 +69727,26 @@
         drug_mesh: MESH:D013409
         drugbank: DB:DB00634
     links:
-    -   key: decreases activity of
+    -   key: negatively regulates
         source: MESH:D013409
-        target: MESH:D007249
-    -   key: positively correlated with
-        source: MESH:D007249
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
         target: MESH:D000562
     multigraph: true
     nodes:
     -   id: MESH:D013409
         label: Drug
         name: sulfacetamide
-    -   id: MESH:D007249
+    -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: inflammatory response
     -   id: MESH:D000562
         label: Disease
         name: Amebic infection
     reference:
     - https://go.drugbank.com/drugs/DB00634#mechanism-of-action
--   comments: The action of the drug on 5-HT2 receptors is of an inverse agonist (https://en.wikipedia.org/wiki/Inverse_agonist).
+-   comment: The action of the drug on 5-HT2 receptors is of an inverse agonist (https://en.wikipedia.org/wiki/Inverse_agonist).
         The dopamine neurons are located in the mesolimbic dopaminergic system (BTO:0005591),
         which is a component pathway of the medial forebrain bundle (UBERON:0001910)(https://en.wikipedia.org/wiki/Medial_forebrain_bundle#Anatomy).
     directed: true
@@ -69858,19 +69815,19 @@
     -   key: correlated with
         source: UBERON:0009834
         target: HP:0000741
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0100543
         target: MESH:D012559
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0030213
         target: MESH:D012559
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0012154
         target: MESH:D012559
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0002465
         target: MESH:D012559
-    -   key: positively correlated with
+    -   key: manifestation of
         source: HP:0000741
         target: MESH:D012559
     -   key: manifestation of
@@ -72305,8 +72262,8 @@
         name: Glaucoma
     reference:
     - https://go.drugbank.com/drugs/DB08808#mechanism-of-action
--   comments: Disease is denoted Infection by Onchocerca volvulus in the original
-        file.
+-   comment: Disease is also known as Infection by Onchocerca volvulus as per the
+        original file.
     directed: true
     graph:
         _id: DB00602_MESH_D009855_2
@@ -72325,8 +72282,11 @@
     -   key: positively correlated with
         source: GO:0005254
         target: GO:0060081
-    -   key: in taxon
+    -   key: negatively regulates
         source: GO:0060081
+        target: GO:0099565
+    -   key: in taxon
+        source: GO:0099565
         target: NCBITaxon:6282
     -   key: causes
         source: NCBITaxon:6282
@@ -72345,6 +72305,9 @@
     -   id: GO:0060081
         label: BiologicalProcess
         name: membrane hyperpolarization
+    -   id: GO:0099565
+        label: BiologicalProcess
+        name: chemical synaptic transmission, postsynaptic
     -   id: NCBITaxon:6282
         label: OrganismTaxon
         name: Onchocerca volvulus
@@ -72354,8 +72317,8 @@
     reference:
     - https://en.wikipedia.org/wiki/Ivermectin#Mechanism_of_action
     - https://go.drugbank.com/drugs/DB00602#mechanism-of-action
-    - https://en.wikipedia.org/wiki/Strongyloidiasis#Treatment
--   comments: Disease is denoted Infection by Strongyloides in the original file.
+    - https://en.wikipedia.org/wiki/Onchocerciasis#Ivermectin
+-   comment: Disease is denoted Infection by Strongyloides in the original file.
     directed: true
     graph:
         _id: DB00602_MESH_D013322_1
@@ -72374,8 +72337,11 @@
     -   key: positively correlated with
         source: GO:0005254
         target: GO:0060081
-    -   key: in taxon
+    -   key: negatively regulates
         source: GO:0060081
+        target: GO:0099565
+    -   key: in taxon
+        source: GO:0099565
         target: NCBITaxon:6248
     -   key: causes
         source: NCBITaxon:6248
@@ -72394,6 +72360,9 @@
     -   id: GO:0060081
         label: BiologicalProcess
         name: membrane hyperpolarization
+    -   id: GO:0099565
+        label: BiologicalProcess
+        name: chemical synaptic transmission, postsynaptic
     -   id: NCBITaxon:6248
         label: OrganismTaxon
         name: Strongyloides stercoralis
@@ -72404,7 +72373,7 @@
     - https://en.wikipedia.org/wiki/Ivermectin#Mechanism_of_action
     - https://go.drugbank.com/drugs/DB00602#mechanism-of-action
     - https://en.wikipedia.org/wiki/Strongyloidiasis#Treatment
--   comments: Balsalazide is a prodrug and it releases mesalazine in the large intestine,
+-   comment: Balsalazide is a prodrug and it releases mesalazine in the large intestine,
         the active site of ulcerative colitis (https://en.wikipedia.org/wiki/Balsalazide
         https://en.wikipedia.org/wiki/Mesalazine#Chemistry).
     directed: true
@@ -72416,12 +72385,15 @@
         drug_mesh: MESH:C038637
         drugbank: DB:DB01014
     links:
-    -   key: produces
+    -   key: has metabolite
         source: MESH:C038637
         target: MESH:D019804
     -   key: decreases activity of
         source: MESH:D019804
-        target: MESH:D011451
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D019804
+        target: UniProt:P23219
     -   key: decreases activity of
         source: MESH:D019804
         target: UniProt:O15111
@@ -72436,7 +72408,7 @@
         target: GO:0007249
     -   key: positively correlated with
         source: GO:0007249
-        target: MESH:D007249
+        target: GO:0006954
     -   key: decreases activity of
         source: MESH:D019804
         target: UniProt:P09917
@@ -72448,30 +72420,27 @@
         target: REACT:R-HSA-1169091
     -   key: positively correlated with
         source: REACT:R-HSA-1169091
-        target: MESH:D007249
-    -   key: positively regulates
-        source: UniProt:P37231
-        target: GO:0060249
-    -   key: located in
-        source: GO:0060249
-        target: UBERON:0001155
+        target: GO:0006954
     -   key: participates in
         source: UniProt:P09917
         target: REACT:R-HSA-2142691
     -   key: participates in
-        source: MESH:D011451
+        source: UniProt:P35354
+        target: REACT:R-HSA-2162123
+    -   key: participates in
+        source: UniProt:P23219
         target: REACT:R-HSA-2162123
     -   key: positively correlated with
         source: REACT:R-HSA-2162123
-        target: MESH:D007249
+        target: GO:0006954
     -   key: positively correlated with
         source: REACT:R-HSA-2142691
-        target: MESH:D007249
+        target: GO:0006954
     -   key: located in
-        source: MESH:D007249
+        source: GO:0006954
         target: UBERON:0001052
     -   key: located in
-        source: MESH:D007249
+        source: GO:0006954
         target: UBERON:0001155
     -   key: location of
         source: UBERON:0001052
@@ -72485,11 +72454,14 @@
         label: Drug
         name: balsalazide
     -   id: MESH:D019804
-        label: Drug
+        label: ChemicalSubstance
         name: Mesalamine
-    -   id: MESH:D011451
-        label: GeneFamily
-        name: Prostaglandin-Endoperoxide Synthases
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
     -   id: UniProt:P09917
         label: Protein
         name: Polyunsaturated fatty acid 5-lipoxygenase
@@ -72505,9 +72477,6 @@
     -   id: GO:0007249
         label: BiologicalProcess
         name: I-kappaB kinase/NF-kappaB signaling
-    -   id: GO:0060249
-        label: BiologicalProcess
-        name: anatomical structure homeostasis
     -   id: REACT:R-HSA-2142691
         label: Pathway
         name: Synthesis of Leukotrienes (LT) and Eoxins (EX)
@@ -72517,9 +72486,9 @@
     -   id: REACT:R-HSA-1169091
         label: Pathway
         name: Activation of NF-kappaB in B cells
-    -   id: MESH:D007249
+    -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: inflammatory response
     -   id: UBERON:0001052
         label: GrossAnatomicalStructure
         name: rectum
@@ -72650,7 +72619,7 @@
     - https://go.drugbank.com/drugs/DB01224#mechanism-of-action
     - https://go.drugbank.com/drugs/DB01224#BE0000451
     - https://go.drugbank.com/drugs/DB01224#BE0000756
--   comments: Imatinib also modulates other protein targets and is an indication for
+-   comment: Imatinib also modulates other protein targets and is an indication for
         other malignancies (https://en.wikipedia.org/wiki/Imatinib#Medical_uses).
     directed: true
     graph:
@@ -72759,8 +72728,8 @@
     - https://www.cancer.gov/publications/dictionaries/cancer-drug/def/imatinib-mesylate
     - https://en.wikipedia.org/wiki/Leukocytosis#Causes
     - https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia#Chronic_phase_2
--   comments: The disease is denoted Chronic eosinophilic leukemia in the original
-        file. The malignancy is driven by FIP1L1-PDGFRA fusion genes (https://en.wikipedia.org/wiki/FIP1L1#FIP1L1-PDGFRA_fusion_genes).
+-   comment: The disease is also known as Chronic eosinophilic leukemia as per the
+        original file. The malignancy is driven by FIP1L1-PDGFRA fusion genes (https://en.wikipedia.org/wiki/FIP1L1#FIP1L1-PDGFRA_fusion_genes).
     directed: true
     graph:
         _id: DB00619_MESH_C580364_1
@@ -72772,9 +72741,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D000068877
-        target: MESH:D017479
+        target: UniProt:P16234
     -   key: positively regulates
-        source: MESH:D017479
+        source: UniProt:P16234
         target: GO:0048008
     -   key: positively correlated with
         source: GO:0048008
@@ -72790,9 +72759,9 @@
     -   id: MESH:D000068877
         label: Drug
         name: imatinib
-    -   id: MESH:D017479
-        label: GeneFamily
-        name: Receptors, Platelet-Derived Growth Factor
+    -   id: UniProt:P16234
+        label: Protein
+        name: Platelet-derived growth factor receptor alpha
     -   id: GO:0048008
         label: BiologicalProcess
         name: platelet-derived growth factor receptor signaling pathway
@@ -72812,10 +72781,11 @@
     - https://en.wikipedia.org/wiki/Chronic_eosinophilic_leukemia
     - https://en.wikipedia.org/wiki/Eosinophilia#Chronic_eosinophilic_leukemia_(NOS)
     - https://en.wikipedia.org/wiki/Imatinib#Other
--   comments: The disease is denoted Idiopathic hypereosinophilic syndrome in the
-        original file. Treatment with imatinib is indicated for patients who have
-        a tyrosine kinase fusion protein (https://en.wikipedia.org/wiki/Hypereosinophilic_syndrome#Diagnosis),
-        a PDGFRA-FIP1L1 chimera, where PDGR is an oncogene (https://en.wikipedia.org/wiki/Oncogene#Classification).
+-   comment: The disease is also known as Idiopathic hypereosinophilic syndrome as
+        per the original file. Treatment with imatinib is indicated for patients who
+        have a PDGFRA-FIP1L1 chimera, where PDGR, a tyrosine kinase (https://en.wikipedia.org/wiki/Hypereosinophilic_syndrome#Diagnosis)
+        and an oncogene (https://en.wikipedia.org/wiki/Oncogene#Classification) is
+        fused with FIP1L1, giving rise to a PDGFRA-FIP1L1 chimera.
     directed: true
     graph:
         _id: DB00619_MESH_D017681_1
@@ -72827,9 +72797,6 @@
     links:
     -   key: decreases activity of
         source: MESH:D000068877
-        target: MESH:D015514
-    -   key: derives from
-        source: MESH:D015514
         target: UniProt:P16234
     -   key: positively regulates
         source: UniProt:P16234
@@ -72845,9 +72812,6 @@
     -   id: MESH:D000068877
         label: Drug
         name: imatinib
-    -   id: MESH:D015514
-        label: GeneFamily
-        name: Oncogene Proteins, Fusion
     -   id: UniProt:P16234
         label: Protein
         name: Platelet-derived growth factor receptor alpha
@@ -72865,7 +72829,7 @@
     - https://go.drugbank.com/drugs/DB00619#BE0000205
     - https://go.drugbank.com/drugs/DB00619#BE0000852
     - https://en.wikipedia.org/wiki/Imatinib#Other
--   comments: The majority of Gastrointestinal stromal tumor patients have mutations
+-   comment: The majority of Gastrointestinal stromal tumor patients have mutations
         on the KIT or PDGFRA genes (95% of all patients).
     directed: true
     graph:
@@ -72946,9 +72910,10 @@
     - https://en.wikipedia.org/wiki/Imatinib#Gastrointestinal_stromal_tumors
     - https://go.drugbank.com/drugs/DB00619#BE0000453
     - https://go.drugbank.com/drugs/DB00619#BE0000852
--   comments: The majority of Dermatofibrosarcoma tumours have two genes fused due
-        to a translocation involving the collagen gene (COL1A1) and platelet-derived
-        growth factor (PDGF) genes.
+-   comment: The majority of dermatofibrosarcoma tumours have two genes fused due
+        to a translocation involving the collagen gene (COL1A1) and the platelet-derived
+        growth factor (PDGF). The latter can be further subdivided giving rise to
+        PDGFA, for example, which is an oncogene.
     directed: true
     graph:
         _id: DB00619_MESH_D018223_1
@@ -72960,18 +72925,15 @@
     links:
     -   key: decreases activity of
         source: MESH:D000068877
-        target: MESH:D050506
-    -   key: derives from
-        source: MESH:D050506
-        target: MESH:D010982
+        target: UniProt:P16234
     -   key: positively regulates
-        source: MESH:D010982
+        source: UniProt:P16234
         target: GO:0030154
     -   key: positively regulates
-        source: MESH:D010982
+        source: UniProt:P16234
         target: GO:0008283
     -   key: positively regulates
-        source: MESH:D010982
+        source: UniProt:P16234
         target: MESH:D002470
     -   key: positively correlated with
         source: GO:0008283
@@ -72987,12 +72949,9 @@
     -   id: MESH:D000068877
         label: Drug
         name: imatinib
-    -   id: MESH:D050506
-        label: GeneFamily
-        name: Mutant Chimeric Proteins
-    -   id: MESH:D010982
-        label: GeneFamily
-        name: Platelet-Derived Growth Factor
+    -   id: UniProt:P16234
+        label: Protein
+        name: Platelet-derived growth factor receptor alpha
     -   id: GO:0030154
         label: BiologicalProcess
         name: cell differentiation
@@ -73086,9 +73045,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D014700
-        target: MESH:D020746
+        target: UniProt:Q13936
     -   key: positively regulates
-        source: MESH:D020746
+        source: UniProt:Q13936
         target: GO:0060402
     -   key: positively correlated with
         source: GO:0060402
@@ -73096,7 +73055,7 @@
     -   key: positively correlated with
         source: GO:0042310
         target: HP:0033533
-    -   key: positively correlated with
+    -   key: affects risk for
         source: HP:0033533
         target: HP:0032263
     -   key: manifestation of
@@ -73107,9 +73066,9 @@
     -   id: MESH:D014700
         label: Drug
         name: verapamil
-    -   id: MESH:D020746
-        label: GeneFamily
-        name: Calcium Channels, L-Type
+    -   id: UniProt:Q13936
+        label: Protein
+        name: Voltage-dependent L-type calcium channel subunit alpha-1C
     -   id: GO:0060402
         label: BiologicalProcess
         name: calcium ion transport into cytosol
@@ -73141,15 +73100,15 @@
     links:
     -   key: decreases activity of
         source: MESH:D014700
-        target: MESH:D020746
+        target: UniProt:Q13936
     -   key: positively regulates
-        source: MESH:D020746
+        source: UniProt:Q13936
         target: GO:0061337
     -   key: positively correlated with
         source: GO:0061337
-        target: MESH:D006339
+        target: GO:0060047
     -   key: positively correlated with
-        source: MESH:D006339
+        source: GO:0060047
         target: HP:0001692
     -   key: manifestation of
         source: HP:0001692
@@ -73159,15 +73118,15 @@
     -   id: MESH:D014700
         label: Drug
         name: verapamil
-    -   id: MESH:D020746
-        label: GeneFamily
-        name: Calcium Channels, L-Type
+    -   id: UniProt:Q13936
+        label: Protein
+        name: Voltage-dependent L-type calcium channel subunit alpha-1C
     -   id: GO:0061337
         label: BiologicalProcess
         name: cardiac conduction
-    -   id: MESH:D006339
+    -   id: GO:0060047
         label: BiologicalProcess
-        name: Heart Rate
+        name: heart contraction
     -   id: HP:0001692
         label: PhenotypicFeature
         name: Atrial arrhythmia
@@ -73191,36 +73150,36 @@
     links:
     -   key: decreases activity of
         source: MESH:D014700
-        target: MESH:D020746
+        target: UniProt:Q13936
     -   key: positively regulates
-        source: MESH:D020746
+        source: UniProt:Q13936
         target: GO:0060402
     -   key: positively correlated with
         source: GO:0060402
         target: GO:0042310
     -   key: positively correlated with
         source: GO:0042310
-        target: MESH:D017202
-    -   key: positively correlated with
-        source: MESH:D017202
+        target: HP:0033401
+    -   key: manifestation of
+        source: HP:0033401
         target: MESH:D054058
     multigraph: true
     nodes:
     -   id: MESH:D014700
         label: Drug
         name: verapamil
-    -   id: MESH:D020746
-        label: GeneFamily
-        name: Calcium Channels, L-Type
+    -   id: UniProt:Q13936
+        label: Protein
+        name: Voltage-dependent L-type calcium channel subunit alpha-1C
     -   id: GO:0060402
         label: BiologicalProcess
         name: calcium ion transport into cytosol
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
-    -   id: MESH:D017202
+    -   id: HP:0033401
         label: PhenotypicFeature
-        name: Myocardial Ischemia
+        name: Tissue ischemia
     -   id: MESH:D054058
         label: Disease
         name: Acute coronary syndrome
@@ -73240,36 +73199,36 @@
     links:
     -   key: decreases activity of
         source: MESH:D014700
-        target: MESH:D020746
+        target: UniProt:Q13936
     -   key: positively regulates
-        source: MESH:D020746
+        source: UniProt:Q13936
         target: GO:0060402
     -   key: positively correlated with
         source: GO:0060402
         target: GO:0042310
     -   key: positively correlated with
         source: GO:0042310
-        target: MESH:D017202
-    -   key: positively correlated with
-        source: MESH:D017202
+        target: HP:0033401
+    -   key: manifestation of
+        source: HP:0033401
         target: MESH:D000787
     multigraph: true
     nodes:
     -   id: MESH:D014700
         label: Drug
         name: verapamil
-    -   id: MESH:D020746
-        label: GeneFamily
-        name: Calcium Channels, L-Type
+    -   id: UniProt:Q13936
+        label: Protein
+        name: Voltage-dependent L-type calcium channel subunit alpha-1C
     -   id: GO:0060402
         label: BiologicalProcess
         name: calcium ion transport into cytosol
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
-    -   id: MESH:D017202
+    -   id: HP:0033401
         label: PhenotypicFeature
-        name: Myocardial Ischemia
+        name: Tissue ischemia
     -   id: MESH:D000787
         label: Disease
         name: Angina pectoris
@@ -73279,7 +73238,7 @@
     - https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action
     - https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents
     - https://en.wikipedia.org/wiki/Angina#Treatment
--   comments: The disease is denoted as Prinzmetal angina in the original file.
+-   comment: The disease is also known as Prinzmetal angina as per the original file.
     directed: true
     graph:
         _id: DB00661_MESH_D000788_1
@@ -73291,36 +73250,36 @@
     links:
     -   key: decreases activity of
         source: MESH:D014700
-        target: MESH:D020746
+        target: UniProt:Q13936
     -   key: positively regulates
-        source: MESH:D020746
+        source: UniProt:Q13936
         target: GO:0060402
     -   key: positively correlated with
         source: GO:0060402
         target: GO:0042310
     -   key: positively correlated with
         source: GO:0042310
-        target: MESH:D017202
-    -   key: positively correlated with
-        source: MESH:D017202
+        target: HP:0033401
+    -   key: manifestation of
+        source: HP:0033401
         target: MESH:D000788
     multigraph: true
     nodes:
     -   id: MESH:D014700
         label: Drug
         name: verapamil
-    -   id: MESH:D020746
-        label: GeneFamily
-        name: Calcium Channels, L-Type
+    -   id: UniProt:Q13936
+        label: Protein
+        name: Voltage-dependent L-type calcium channel subunit alpha-1C
     -   id: GO:0060402
         label: BiologicalProcess
         name: calcium ion transport into cytosol
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
-    -   id: MESH:D017202
+    -   id: HP:0033401
         label: PhenotypicFeature
-        name: Myocardial Ischemia
+        name: Tissue ischemia
     -   id: MESH:D000788
         label: Disease
         name: Angina Pectoris, Variant
@@ -138815,3 +138774,976 @@
     - https://go.drugbank.com/drugs/DB09109
     - https://en.wikipedia.org/wiki/Factor_VIII
     - https://en.wikipedia.org/wiki/Coagulation
+-   comment: Withdrawn. Tridihexethyl is no longer available in the US market.
+    directed: true
+    graph:
+        _id: DB00505_MESH_D010437_1
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: Tridihexethyl
+        drug_mesh: MESH:C005386
+        drugbank: DB:DB00505
+    links:
+    -   key: decreases activity of
+        source: MESH:C005386
+        target: UniProt:P20309
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:0001699
+    -   key: increases abundance of
+        source: GO:0001699
+        target: MESH:D005744
+    -   key: positively regulates
+        source: MESH:D005744
+        target: InterPro:IPR034162
+    -   key: positively correlated with
+        source: InterPro:IPR034162
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:C005386
+        label: Drug
+        name: Tridihexethyl
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:0001699
+        label: BiologicalProcess
+        name: Acetylcholine-induced gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric acid
+    -   id: InterPro:IPR034162
+        label: GeneFamily
+        name: Pepsin catalytic domain
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference:
+    - https://go.drugbank.com/drugs/DB00505
+-   comment: Withdrawn. Tridihexethyl is no longer available in the US market.
+    directed: true
+    graph:
+        _id: DB00505_MESH_D013276_1
+        disease: Gastric ulcer
+        disease_mesh: MESH:D013276
+        drug: Tridihexethyl
+        drug_mesh: MESH:C005386
+        drugbank: DB:DB00505
+    links:
+    -   key: decreases activity of
+        source: MESH:C005386
+        target: UniProt:P20309
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:0001699
+    -   key: increases abundance of
+        source: GO:0001699
+        target: MESH:D005744
+    -   key: positively regulates
+        source: MESH:D005744
+        target: InterPro:IPR034162
+    -   key: positively correlated with
+        source: InterPro:IPR034162
+        target: MESH:D013276
+    multigraph: true
+    nodes:
+    -   id: MESH:C005386
+        label: Drug
+        name: Tridihexethyl
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:0001699
+        label: BiologicalProcess
+        name: Acetylcholine-induced gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric acid
+    -   id: InterPro:IPR034162
+        label: GeneFamily
+        name: Pepsin catalytic domain
+    -   id: MESH:D013276
+        label: Disease
+        name: Gastric ulcer
+    reference:
+    - https://go.drugbank.com/drugs/DB00505
+-   directed: true
+    graph:
+        _id: DB00733_MESH_D062025_1
+        disease: Organophosphate poisoning
+        disease_mesh: MESH:D062025
+        drug: pralidoxime
+        drug_mesh: MESH:C028797
+        drugbank: DB:DB00733
+    links:
+    -   key: increases activity of
+        source: MESH:C028797
+        target: UniProt:P22303
+    -   key: positively regulates
+        source: UniProt:P22303
+        target: GO:0006581
+    -   key: decreases abundance of
+        source: GO:0006581
+        target: MESH:D000109
+    -   key: contributes to
+        source: MESH:D000109
+        target: GO:0032224
+    -   key: occurs in
+        source: GO:0032224
+        target: MESH:D062025
+    multigraph: true
+    nodes:
+    -   id: MESH:C028797
+        label: Drug
+        name: Pralidoxime
+    -   id: UniProt:P22303
+        label: Protein
+        name: Acetylcholinesterase
+    -   id: GO:0006581
+        label: BiologicalProcess
+        name: Acetylcholine catabolic process
+    -   id: MESH:D000109
+        label: ChemicalSubstance
+        name: Acetylcholine
+    -   id: GO:0032224
+        label: BiologicalProcess
+        name: Positive regulation of synaptic transmission, cholinergic
+    -   id: MESH:D062025
+        label: Disease
+        name: Organophosphate poisoning
+    reference:
+    - https://go.drugbank.com/drugs/DB00733
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1420/
+    - https://en.wikipedia.org/wiki/Organophosphate_poisoning#Signs_and_symptoms
+-   comment: Trioxsalen is a psoralen derivative that has been used in combination
+        with UV light to treat vitiligo, but has been discontinued by its manufacturer.
+    directed: true
+    graph:
+        _id: DB04571_MESH_D014820_1
+        disease: Vitiligo
+        disease_mesh: MESH:D014820
+        drug: trioxsalen
+        drug_mesh: MESH:D014307
+        drugbank: DB:DB04571
+    links:
+    -   key: disrupts
+        source: MESH:D014307
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0006915
+    -   key: treats
+        source: GO:0006915
+        target: MESH:D014820
+    multigraph: true
+    nodes:
+    -   id: MESH:D014307
+        label: Drug
+        name: Trioxsalen
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: MESH:D014820
+        label: Disease
+        name: Vitiligo
+    reference:
+    - https://go.drugbank.com/drugs/DB04571
+    - https://en.wikipedia.org/wiki/Vitiligo
+-   comment: The exact mechanism of action of ingenol mebutate in actinic keratosis
+        is unknown.
+    directed: true
+    graph:
+        _id: DB05013_MESH_D055623_1
+        disease: Actinic keratosis
+        disease_mesh: MESH:D055623
+        drug: ingenol mebutate
+        drug_mesh: MESH:C486592
+        drugbank: DB:DB05013
+    links:
+    -   key: increases activity of
+        source: MESH:C486592
+        target: UniProt:Q05655
+    -   key: positively correlated with
+        source: UniProt:Q05655
+        target: GO:0004697
+    -   key: increases activity of
+        source: MESH:C486592
+        target: UniProt:P17252
+    -   key: positively correlated with
+        source: UniProt:P17252
+        target: GO:0004697
+    -   key: positively regulates
+        source: GO:0004697
+        target: GO:0070265
+    -   key: positively regulates
+        source: GO:0004697
+        target: GO:0001788
+    -   key: treats
+        source: GO:0070265
+        target: MESH:D055623
+    -   key: treats
+        source: GO:0001788
+        target: MESH:D055623
+    multigraph: true
+    nodes:
+    -   id: MESH:C486592
+        label: Drug
+        name: Ingenol mebutate
+    -   id: UniProt:Q05655
+        label: Protein
+        name: Protein kinase C delta type
+    -   id: GO:0004697
+        label: MolecularActivity
+        name: Protein kinase C activity
+    -   id: UniProt:P17252
+        label: Protein
+        name: Protein kinase C alpha type
+    -   id: GO:0070265
+        label: BiologicalProcess
+        name: Necrotic cell death
+    -   id: GO:0001788
+        label: BiologicalProcess
+        name: Antibody-dependent cellular cytotoxicity
+    -   id: MESH:D055623
+        label: Disease
+        name: Actinic keratosis
+    reference:
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4257954/
+    - https://en.wikipedia.org/wiki/Actinic_keratosis
+    - https://go.drugbank.com/drugs/DB05013
+-   directed: true
+    graph:
+        _id: DB05311_MESH_D054179_1
+        disease: Hereditary angioneurotic edema
+        disease_mesh: MESH:D054179
+        drug: ecallantide
+        drug_mesh: MESH:C511194
+        drugbank: DB:DB05311
+    links:
+    -   key: decreases activity of
+        source: MESH:C511194
+        target: UniProt:P03952
+    -   key: increases abundance of
+        source: UniProt:P03952
+        target: MESH:D001920
+    -   key: contributes to
+        source: MESH:D001920
+        target: GO:0043117
+    -   key: contributes to
+        source: MESH:D001920
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0043117
+        target: HP:0000969
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0012531
+    -   key: manifestation of
+        source: HP:0000969
+        target: MESH:D054179
+    -   key: manifestation of
+        source: HP:0012531
+        target: MESH:D054179
+    multigraph: true
+    nodes:
+    -   id: MESH:C511194
+        label: Drug
+        name: Ecallantide
+    -   id: UniProt:P03952
+        label: Protein
+        name: Plasma kallikrein
+    -   id: MESH:D001920
+        label: ChemicalSubstance
+        name: Bradykinin
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: Positive regulation of vascular permeability
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0000969
+        label: PhenotypicFeature
+        name: Edema
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D054179
+        label: Disease
+        name: Hereditary angioneurotic edema
+    reference:
+    - https://go.drugbank.com/drugs/DB05311#BE0002440
+    - https://en.wikipedia.org/wiki/Kinin%E2%80%93kallikrein_system
+-   directed: true
+    graph:
+        _id: DB06590_MESH_D011018_1
+        disease: Pneumococcal pneumonia
+        disease_mesh: MESH:D011018
+        drug: ceftaroline fosamil
+        drug_mesh: MESH:C515501
+        drugbank: DB:DB06590
+    links:
+    -   key: has metabolite
+        source: MESH:C515501
+        target: CHEBI:70729
+    -   key: decreases activity of
+        source: CHEBI:70729
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0009252
+    -   key: contributes to
+        source: GO:0009252
+        target: GO:0009273
+    -   key: in taxon
+        source: GO:0009273
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C515501
+        label: Drug
+        name: Ceftaroline fosamil
+    -   id: CHEBI:70729
+        label: ChemicalSubstance
+        name: Ceftaroline
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumococcal pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB06590
+    - https://en.wikipedia.org/wiki/Ceftaroline_fosamil#Chemistry
+-   directed: true
+    graph:
+        _id: DB06590_MESH_D013203_1
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Ceftaroline fosamil
+        drug_mesh: MESH:C515501
+        drugbank: DB:DB06590
+    links:
+    -   key: has metabolite
+        source: MESH:C515501
+        target: CHEBI:70729
+    -   key: decreases activity of
+        source: CHEBI:70729
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C515501
+        label: Drug
+        name: Ceftaroline fosamil
+    -   id: CHEBI:70729
+        label: ChemicalSubstance
+        name: Ceftaroline
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference:
+    - https://go.drugbank.com/drugs/DB06590
+    - https://en.wikipedia.org/wiki/Ceftaroline_fosamil#Chemistry
+-   directed: true
+    graph:
+        _id: DB06590_MESH_D012226_1
+        disease: Rhinoscleroma
+        disease_mesh: MESH:D012226
+        drug: Ceftaroline fosamil
+        drug_mesh: MESH:C515501
+        drugbank: DB:DB06590
+    links:
+    -   key: has metabolite
+        source: MESH:C515501
+        target: CHEBI:70729
+    -   key: decreases activity of
+        source: CHEBI:70729
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:39831
+    -   key: causes
+        source: NCBITaxon:39831
+        target: MESH:D012226
+    multigraph: true
+    nodes:
+    -   id: MESH:C515501
+        label: Drug
+        name: Ceftaroline fosamil
+    -   id: CHEBI:70729
+        label: ChemicalSubstance
+        name: Ceftaroline
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:39831
+        label: OrganismTaxon
+        name: Klebsiella pneumoniae subsp. rhinoscleromatis
+    -   id: MESH:D012226
+        label: Disease
+        name: Rhinoscleroma
+    reference:
+    - https://go.drugbank.com/drugs/DB06590
+    - https://en.wikipedia.org/wiki/Ceftaroline_fosamil#Chemistry
+    - https://en.wikipedia.org/wiki/Rhinoscleroma
+-   directed: true
+    graph:
+        _id: DB06590_MESH_D004927_1
+        disease: Infection due to Escherichia coli
+        disease_mesh: MESH:D004927
+        drug: Ceftaroline fosamil
+        drug_mesh: MESH:C515501
+        drugbank: DB:DB06590
+    links:
+    -   key: has metabolite
+        source: MESH:C515501
+        target: CHEBI:70729
+    -   key: decreases activity of
+        source: CHEBI:70729
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D004927
+    multigraph: true
+    nodes:
+    -   id: MESH:C515501
+        label: Drug
+        name: Ceftaroline fosamil
+    -   id: CHEBI:70729
+        label: ChemicalSubstance
+        name: Ceftaroline
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D004927
+        label: Disease
+        name: Infection due to Escherichia coli
+    reference:
+    - https://go.drugbank.com/drugs/DB06590
+    - https://en.wikipedia.org/wiki/Ceftaroline_fosamil#Chemistry
+    - https://en.wikipedia.org/wiki/Rhinoscleroma
+-   directed: true
+    graph:
+        _id: DB06590_MESH_D013290_1
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: Ceftaroline fosamil
+        drug_mesh: MESH:C515501
+        drugbank: DB:DB06590
+    links:
+    -   key: has metabolite
+        source: MESH:C515501
+        target: CHEBI:70729
+    -   key: decreases activity of
+        source: CHEBI:70729
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: occurs in
+        source: GO:0005618
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:C515501
+        label: Drug
+        name: Ceftaroline fosamil
+    -   id: CHEBI:70729
+        label: ChemicalSubstance
+        name: Ceftaroline
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference:
+    - https://go.drugbank.com/drugs/DB06590
+    - https://en.wikipedia.org/wiki/Ceftaroline_fosamil#Chemistry
+-   directed: true
+    graph:
+        _id: DB08816_MESH_D054058_1
+        disease: Acute coronary syndrome
+        disease_mesh: MESH:D054058
+        drug: ticagrelor
+        drug_mesh: MESH:C503700
+        drugbank: DB:DB08816
+    links:
+    -   key: decreases activity of
+        source: MESH:C503700
+        target: UniProt:Q9H244
+    -   key: positively regulates
+        source: UniProt:Q9H244
+        target: GO:0007193
+    -   key: positively regulates
+        source: GO:0007193
+        target: GO:0070527
+    -   key: positively correlated with
+        source: GO:0070527
+        target: GO:0072378
+    -   key: contributes to
+        source: GO:0072378
+        target: MESH:D054058
+    multigraph: true
+    nodes:
+    -   id: MESH:C503700
+        label: Drug
+        name: Ticagrelor
+    -   id: UniProt:Q9H244
+        label: Protein
+        name: P2Y purinoceptor 12
+    -   id: GO:0007193
+        label: BiologicalProcess
+        name: Adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway
+    -   id: GO:0070527
+        label: BiologicalProcess
+        name: Platelet aggregation
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D054058
+        label: Disease
+        name: Acute coronary syndrome
+    reference:
+    - https://go.drugbank.com/drugs/DB08816#BE0000110
+-   directed: true
+    graph:
+        _id: DB08816_MESH_D016491_1
+        disease: Peripheral vascular disease
+        disease_mesh: MESH:D016491
+        drug: ticagrelor
+        drug_mesh: MESH:C503700
+        drugbank: DB:DB08816
+    links:
+    -   key: decreases activity of
+        source: MESH:C503700
+        target: UniProt:Q9H244
+    -   key: positively regulates
+        source: UniProt:Q9H244
+        target: GO:0007193
+    -   key: positively regulates
+        source: GO:0007193
+        target: GO:0070527
+    -   key: positively correlated with
+        source: GO:0070527
+        target: GO:0072378
+    -   key: contributes to
+        source: GO:0072378
+        target: MESH:D016491
+    multigraph: true
+    nodes:
+    -   id: MESH:C503700
+        label: Drug
+        name: Ticagrelor
+    -   id: UniProt:Q9H244
+        label: Protein
+        name: P2Y purinoceptor 12
+    -   id: GO:0007193
+        label: BiologicalProcess
+        name: Adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway
+    -   id: GO:0070527
+        label: BiologicalProcess
+        name: Platelet aggregation
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D016491
+        label: Disease
+        name: Peripheral vascular disease
+    reference:
+    - https://go.drugbank.com/drugs/DB08816#BE0000110
+-   directed: true
+    graph:
+        _id: DB09113_MESH_D012127_1
+        disease: Respiratory distress syndrome in the newborn
+        disease_mesh: MESH:D012127
+        drug: poractant alfa
+        drug_mesh: MESH:C068291
+        drugbank: DB:DB09113
+    links:
+    -   key: positively regulates
+        source: MESH:C068291
+        target: GO:0043129
+    -   key: negatively correlated with
+        source: GO:0043129
+        target: MESH:D012127
+    multigraph: true
+    nodes:
+    -   id: MESH:C068291
+        label: Drug
+        name: Poractant alfa
+    -   id: GO:0043129
+        label: BiologicalProcess
+        name: Surfactant homeostasis
+    -   id: MESH:D012127
+        label: Disease
+        name: Respiratory distress syndrome in the newborn
+    reference:
+    - https://en.wikipedia.org/wiki/Infant_respiratory_distress_syndrome
+    - https://go.drugbank.com/drugs/DB09113
+-   directed: true
+    graph:
+        _id: DB13064_MESH_D006255_1
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: tramazoline
+        drug_mesh: MESH:C005370
+        drugbank: DB:DB13064
+    links:
+    -   key: increases activity of
+        source: MESH:C005370
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0001742
+    -   key: positively correlated with
+        source: HP:0001742
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:C005370
+        label: Drug
+        name: Tramazoline
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal obstruction
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB06711#BE0000501
+    - https://drugs.ncats.io/drug/4DG710Q678
+    - https://pubmed.ncbi.nlm.nih.gov/16809058/
+-   directed: true
+    graph:
+        _id: DB13064_MESH_D065631_1
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: tramazoline
+        drug_mesh: MESH:C005370
+        drugbank: DB:DB13064
+    links:
+    -   key: increases activity of
+        source: MESH:C005370
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0001742
+    -   key: positively correlated with
+        source: HP:0001742
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C005370
+        label: Drug
+        name: Tramazoline
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal obstruction
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB06711#BE0000501
+    - https://drugs.ncats.io/drug/4DG710Q678
+    - https://pubmed.ncbi.nlm.nih.gov/16809058/
+-   directed: true
+    graph:
+        _id: DB13064_MESH_D003233_1
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: tramazoline
+        drug_mesh: MESH:C005370
+        drugbank: DB:DB13064
+    links:
+    -   key: increases activity of
+        source: MESH:C005370
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0010783
+    -   key: positively correlated with
+        source: HP:0010783
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C005370
+        label: Drug
+        name: Tramazoline
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0010783
+        label: PhenotypicFeature
+        name: Erythema
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://go.drugbank.com/drugs/DB06711#BE0000501
+    - https://drugs.ncats.io/drug/4DG710Q678
+    - https://pubmed.ncbi.nlm.nih.gov/16809058/
+-   directed: true
+    graph:
+        _id: DB13064_MESH_D012912_1
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: tramazoline
+        drug_mesh: MESH:C005370
+        drugbank: DB:DB13064
+    links:
+    -   key: increases activity of
+        source: MESH:C005370
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0001742
+    -   key: positively correlated with
+        source: HP:0001742
+        target: MESH:D012220
+    -   key: positively correlated with
+        source: MESH:D012220
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:C005370
+        label: Drug
+        name: Tramazoline
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal obstruction
+    -   id: MESH:D012220
+        label: Disease
+        name: Rhinitis
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference:
+    - https://go.drugbank.com/drugs/DB06711#BE0000501
+    - https://drugs.ncats.io/drug/4DG710Q678
+    - https://pubmed.ncbi.nlm.nih.gov/16809058/
+-   directed: true
+    graph:
+        _id: DB13064_MESH_D012223_1
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: tramazoline
+        drug_mesh: MESH:C005370
+        drugbank: DB:DB13064
+    links:
+    -   key: increases activity of
+        source: MESH:C005370
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0001742
+    -   key: positively correlated with
+        source: HP:0001742
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:C005370
+        label: Drug
+        name: Tramazoline
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal obstruction
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB06711#BE0000501
+    - https://drugs.ncats.io/drug/4DG710Q678
+    - https://pubmed.ncbi.nlm.nih.gov/16809058/
+-   directed: true
+    graph:
+        _id: DB13064_MESH_D003139_1
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: tramazoline
+        drug_mesh: MESH:C005370
+        drugbank: DB:DB13064
+    links:
+    -   key: increases activity of
+        source: MESH:C005370
+        target: UniProt:P08913
+    -   key: positively regulates
+        source: UniProt:P08913
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: HP:0001742
+    -   key: occurs in
+        source: HP:0001742
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:C005370
+        label: Drug
+        name: Tramazoline
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal obstruction
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference:
+    - https://go.drugbank.com/drugs/DB06711#BE0000501
+    - https://drugs.ncats.io/drug/4DG710Q678
+    - https://pubmed.ncbi.nlm.nih.gov/16809058/
