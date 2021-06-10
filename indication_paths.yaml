@@ -9848,13 +9848,13 @@
     -   key: regulates
         source: GO:0005183
         target: GO:0006701
-    -   key: positively correlated with
+    -   key: negatively correlated with
         source: GO:0006703
         target: MESH:D011629
-    -   key: positively correlated with
+    -   key: negatively correlated with
         source: GO:0006702
         target: MESH:D011629
-    -   key: positively correlated with
+    -   key: negatively correlated with
         source: GO:0006701
         target: MESH:D011629
     multigraph: true
@@ -10183,9 +10183,9 @@
         target: GO:0006939
     -   key: located in
         source: GO:0006939
-        target: UBERON:0002185
+        target: UBERON:0002187
     -   key: location of
-        source: UBERON:0002185
+        source: UBERON:0002187
         target: GO:0006954
     -   key: positively correlated with
         source: GO:0006954
@@ -10210,9 +10210,9 @@
     -   id: GO:0006939
         label: BiologicalProcess
         name: smooth muscle contraction
-    -   id: UBERON:0002185
+    -   id: UBERON:0002187
         label: GrossAnatomicalStructure
-        name: bronchus
+        name: terminal bronchiole
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
@@ -10520,17 +10520,23 @@
     -   key: decreases activity of
         source: MESH:D008152
         target: UniProt:P28223
-    -   key: participates in
+    -   key: positively correlated with
         source: UniProt:P14416
-        target: GO:1903350
-    -   key: participates in
+        target: MESH:D004298
+    -   key: positively correlated with
         source: UniProt:P28223
-        target: GO:1904014
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
     -   key: correlated with
-        source: GO:1903350
+        source: GO:0060096
         target: MESH:D012559
     -   key: correlated with
-        source: GO:1904014
+        source: GO:0061527
         target: MESH:D012559
     multigraph: true
     nodes:
@@ -10543,12 +10549,18 @@
     -   id: UniProt:P28223
         label: Protein
         name: 5-hydroxytryptamine receptor 2A
-    -   id: GO:1903350
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: serotonin
+    -   id: GO:0061527
         label: BiologicalProcess
-        name: response to dopamine
-    -   id: GO:1904014
+        name: dopamine secretion, neurotransmission
+    -   id: GO:0060096
         label: BiologicalProcess
-        name: response to serotonin
+        name: Serotonin secretion, neurotransmission
     -   id: MESH:D012559
         label: Disease
         name: Schizophrenia
@@ -10571,17 +10583,23 @@
     -   key: decreases activity of
         source: MESH:D008152
         target: UniProt:P28223
-    -   key: participates in
+    -   key: positively correlated with
         source: UniProt:P14416
-        target: GO:1903350
-    -   key: participates in
+        target: MESH:D004298
+    -   key: positively correlated with
         source: UniProt:P28223
-        target: GO:1904014
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
     -   key: correlated with
-        source: GO:1903350
+        source: GO:0060096
         target: MESH:D001714
     -   key: correlated with
-        source: GO:1904014
+        source: GO:0061527
         target: MESH:D001714
     multigraph: true
     nodes:
@@ -10594,12 +10612,18 @@
     -   id: UniProt:P28223
         label: Protein
         name: 5-hydroxytryptamine receptor 2A
-    -   id: GO:1903350
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: serotonin
+    -   id: GO:0061527
         label: BiologicalProcess
-        name: response to dopamine
-    -   id: GO:1904014
+        name: dopamine secretion, neurotransmission
+    -   id: GO:0060096
         label: BiologicalProcess
-        name: response to serotonin
+        name: Serotonin secretion, neurotransmission
     -   id: MESH:D001714
         label: Disease
         name: Bipolar disorder
@@ -15572,9 +15596,9 @@
         target: GO:0042311
     -   key: negatively regulates
         source: GO:0042311
-        target: GO:0008217
+        target: HP:0032263
     -   key: positively correlated with
-        source: GO:0008217
+        source: HP:0032263
         target: MESH:D006973
     multigraph: true
     nodes:
@@ -15596,9 +15620,9 @@
     -   id: GO:0042311
         label: BiologicalProcess
         name: vasodilation
-    -   id: GO:0008217
-        label: BiologicalProcess
-        name: blood pressure
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
     -   id: MESH:D006973
         label: Disease
         name: Hypertensive disorder
@@ -15956,9 +15980,9 @@
         target: GO:0006939
     -   key: located in
         source: GO:0006939
-        target: UBERON:0002185
+        target: UBERON:0002187
     -   key: location of
-        source: UBERON:0002185
+        source: UBERON:0002187
         target: GO:0006954
     -   key: causes
         source: GO:0006954
@@ -15986,9 +16010,9 @@
     -   id: GO:0006939
         label: BiologicalProcess
         name: smooth muscle contraction
-    -   id: UBERON:0002185
+    -   id: UBERON:0002187
         label: GrossAnatomicalStructure
-        name: bronchus
+        name: terminal bronchiole
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
@@ -16241,12 +16265,12 @@
     links:
     -   key: produced by
         source: MESH:D019826
-        target: GO:0047749
+        target: UniProt:Q02318
     -   key: negatively correlated with
-        source: GO:0047749
+        source: UniProt:Q02318
         target: MESH:D019294
     -   key: decreases abundance of
-        source: GO:0047749
+        source: UniProt:Q02318
         target: MESH:D004083
     -   key: contributes to
         source: MESH:D004083
@@ -16256,9 +16280,9 @@
     -   id: MESH:D019826
         label: Drug
         name: cholic acid
-    -   id: GO:0047749
-        label: MolecularActivity
-        name: sterol 27-hydroxylase activity
+    -   id: UniProt:Q02318
+        label: Protein
+        name: Sterol 26-hydroxylase, mitochondrial
     -   id: MESH:D019294
         label: Disease
         name: Cerebrotendinous Xanthomatosis
@@ -16616,9 +16640,9 @@
         target: GO:0034776
     -   key: increases activity of
         source: GO:0034776
-        target: REACT:R-HSA-388396
+        target: GO:0007186
     -   key: increases activity of
-        source: REACT:R-HSA-388396
+        source: GO:0007186
         target: UniProt:P19838
     -   key: positively regulates
         source: UniProt:P19838
@@ -16640,9 +16664,9 @@
     -   id: GO:0034776
         label: BiologicalProcess
         name: response to histamine
-    -   id: REACT:R-HSA-388396
-        label: Pathway
-        name: GPCR downstream signalling
+    -   id: GO:0007186
+        label: BiologicalProcess
+        name: G protein-coupled receptor signaling pathway
     -   id: UniProt:P19838
         label: Protein
         name: Nuclear factor NF-kappa-B p105 subunit
@@ -28352,19 +28376,19 @@
     -   key: participates in
         source: GO:0004972
         target: GO:0061535
-    -   key: disrupted by
+    -   key: negatively correlated with
         source: GO:0061527
         target: MESH:D001289
     -   key: decreases abundance of
         source: GO:0051620
         target: MESH:D009638
-    -   key: interacts with
+    -   key: correlated with
         source: GO:0061535
         target: MESH:D001289
     -   key: participates in
         source: MESH:D009638
         target: GO:0061533
-    -   key: disrupted by
+    -   key: negatively correlated with
         source: GO:0061533
         target: MESH:D001289
     multigraph: true
@@ -29429,15 +29453,15 @@
         target: MESH:D004247
     -   key: part of
         source: GO:0090592
-        target: GO:0008283
+        target: HP:0031377
     -   key: part of
         source: GO:0006351
-        target: GO:0008283
-    -   key: occurs in
+        target: HP:0031377
+    -   key: participates in
         source: MESH:D004247
-        target: MESH:D010051
+        target: HP:0031377
     -   key: positively correlated with
-        source: GO:0008283
+        source: HP:0031377
         target: MESH:D010051
     multigraph: true
     nodes:
@@ -29453,9 +29477,9 @@
     -   id: MESH:D004247
         label: ChemicalSubstance
         name: DNA
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
     -   id: MESH:D010051
         label: Disease
         name: Ovarian Cancer
@@ -29844,7 +29868,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: HP:0000989
         label: PhenotypicFeature
         name: Skin itching
@@ -29896,7 +29920,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: HP:0000989
         label: PhenotypicFeature
         name: Skin itching
@@ -29945,7 +29969,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D016410
         label: Disease
         name: Primary cutaneous T-cell lymphoma
@@ -29991,7 +30015,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D003877
         label: Disease
         name: Contact dermatitis
@@ -30037,7 +30061,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D003876
         label: Disease
         name: Atopic dermatitis
@@ -30083,7 +30107,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D016460
         label: Disease
         name: Granuloma annulare
@@ -30129,7 +30153,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D005076
         label: Disease
         name: Skin Rash
@@ -30175,7 +30199,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D012628
         label: Disease
         name: Seborrheic dermatitis
@@ -30221,7 +30245,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D008179
         label: Disease
         name: Discoid lupus erythematosus
@@ -30522,7 +30546,7 @@
         name: Abnormality of blood volume homeostasis
     -   id: GO:0045777
         label: BiologicalProcess
-        name: Up regulation of blood pressure
+        name: Positive regulation of blood pressure
     -   id: MESH:D006973
         label: Disease
         name: Hypertensive disorder
@@ -30591,9 +30615,9 @@
         target: GO:0006260
     -   key: positively correlated with
         source: GO:0006260
-        target: GO:0008283
+        target: HP:0031377
     -   key: causes
-        source: GO:0008283
+        source: HP:0031377
         target: MESH:D016410
     multigraph: true
     nodes:
@@ -30606,9 +30630,9 @@
     -   id: GO:0006260
         label: BiologicalProcess
         name: DNA replication
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: Cell population proliferation
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
     -   id: MESH:D016410
         label: Disease
         name: Primary cutaneous T-cell lymphoma
@@ -30758,11 +30782,11 @@
     -   key: contributes to
         source: GO:0070509
         target: GO:0045907
-    -   key: positively regulates
-        source: GO:0045907
-        target: GO:0008217
     -   key: positively correlated with
-        source: GO:0008217
+        source: GO:0045907
+        target: HP:0032263
+    -   key: positively correlated with
+        source: HP:0032263
         target: MESH:D006973
     multigraph: true
     nodes:
@@ -30787,9 +30811,9 @@
     -   id: GO:0045907
         label: BiologicalProcess
         name: Positive regulation of vasoconstriction
-    -   id: GO:0008217
-        label: BiologicalProcess
-        name: Blood Pressure
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
     -   id: MESH:D006973
         label: Disease
         name: Hypertensive disorder
@@ -31561,7 +31585,7 @@
     -   key: increases activity of
         source: MESH:D001589
         target: UniProt:P35348
-    -   key: negatively regulates
+    -   key: negatively correlated with
         source: UniProt:P35348
         target: GO:0032100
     -   key: positively correlated with
@@ -31595,9 +31619,9 @@
     links:
     -   key: decreases activity of
         source: MESH:C101425
-        target: UniProt:P10613
+        target: PR:000006147
     -   key: positively regulates
-        source: UniProt:P10613
+        source: PR:000006147
         target: GO:0006696
     -   key: precedes
         source: GO:0006696
@@ -31613,8 +31637,8 @@
     -   id: MESH:C101425
         label: Drug
         name: Posaconazole
-    -   id: UniProt:P10613
-        label: Protein
+    -   id: PR:000006147
+        label: MacromolecularComplex
         name: Lanosterol 14-alpha demethylase
     -   id: GO:0006696
         label: BiologicalProcess
@@ -31642,9 +31666,9 @@
     links:
     -   key: decreases activity of
         source: MESH:C101425
-        target: UniProt:P10613
+        target: UniProt:B8N2C8
     -   key: positively regulates
-        source: UniProt:P10613
+        source: UniProt:B8N2C8
         target: GO:0006696
     -   key: precedes
         source: GO:0006696
@@ -31660,9 +31684,9 @@
     -   id: MESH:C101425
         label: Drug
         name: Posaconazole
-    -   id: UniProt:P10613
+    -   id: UniProt:B8N2C8
         label: Protein
-        name: Lanosterol 14-alpha demethylase
+        name: Lanosterol 14-alpha demethylase (Aspergillus flavus)
     -   id: GO:0006696
         label: BiologicalProcess
         name: Ergosterol biosynthetic process
@@ -31735,9 +31759,9 @@
     links:
     -   key: decreases activity of
         source: MESH:C101425
-        target: UniProt:P10613
+        target: PR:000006147
     -   key: positively regulates
-        source: UniProt:P10613
+        source: PR:000006147
         target: GO:0006696
     -   key: precedes
         source: GO:0006696
@@ -31753,8 +31777,8 @@
     -   id: MESH:C101425
         label: Drug
         name: Posaconazole
-    -   id: UniProt:P10613
-        label: Protein
+    -   id: PR:000006147
+        label: MacromolecularComplex
         name: Lanosterol 14-alpha demethylase
     -   id: GO:0006696
         label: BiologicalProcess
@@ -31781,9 +31805,9 @@
     links:
     -   key: decreases activity of
         source: MESH:C101425
-        target: UniProt:P10613
+        target: UniProt:A0A6C1LUF2
     -   key: positively regulates
-        source: UniProt:P10613
+        source: UniProt:A0A6C1LUF2
         target: GO:0006696
     -   key: precedes
         source: GO:0006696
@@ -31799,9 +31823,9 @@
     -   id: MESH:C101425
         label: Drug
         name: Posaconazole
-    -   id: UniProt:P10613
+    -   id: UniProt:A0A6C1LUF2
         label: Protein
-        name: Lanosterol 14-alpha demethylase
+        name: Lanosterol 14-alpha demethylase (Coccidioides immitis)
     -   id: GO:0006696
         label: BiologicalProcess
         name: Ergosterol biosynthetic process
@@ -32048,7 +32072,7 @@
         name: Interleukin-1 receptor activity
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D056587
         label: Disease
         name: Cryopyrin associated periodic syndrome
@@ -32089,7 +32113,7 @@
         name: TNF signaling
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D001172
         label: Disease
         name: Rheumatoid arthritis
@@ -32129,7 +32153,7 @@
         name: TNF signaling
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D003093
         label: Disease
         name: Ulcerative colitis
@@ -32169,7 +32193,7 @@
         name: TNF signaling
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D003424
         label: Disease
         name: Crohn's disease
@@ -32209,7 +32233,7 @@
         name: TNF signaling
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D013167
         label: Disease
         name: Ankylosing spondylitis
@@ -32249,7 +32273,7 @@
         name: TNF signaling
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D015535
         label: Disease
         name: Psoriatic Arthritis
@@ -32366,7 +32390,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D016410
         label: Disease
         name: Primary cutaneous T-cell lymphoma
@@ -32413,7 +32437,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D016460
         label: Disease
         name: Granuloma annulare
@@ -32463,7 +32487,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: HP:0000989
         label: PhenotypicFeature
         name: Skin itching
@@ -32513,7 +32537,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D008179
         label: Disease
         name: Discoid lupus erythematosus
@@ -32560,7 +32584,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D003876
         label: Disease
         name: Atopic dermatitis
@@ -32610,7 +32634,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: HP:0000989
         label: PhenotypicFeature
         name: Skin itching
@@ -32660,7 +32684,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D003877
         label: Disease
         name: Contact dermatitis
@@ -32707,7 +32731,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D005076
         label: Disease
         name: Exanthem
@@ -32754,7 +32778,7 @@
         name: Prostaglandin Synthesis
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D012628
         label: Disease
         name: Seborrheic dermatitis
@@ -36444,7 +36468,7 @@
         name: Immune response
     -   id: GO:0006954
         label: BiologicalProcess
-        name: Inflammation
+        name: Inflammatory response
     -   id: MESH:D001172
         label: Disease
         name: Rheumatoid arthritis
@@ -36814,7 +36838,7 @@
         name: Smooth muscle relaxation
     -   id: HP:0002098
         label: PhenotypicFeature
-        name: Breathing difficultie
+        name: Respiratory distress
     -   id: GO:0006954
         label: BiologicalProcess
         name: Inflammatory response
@@ -36982,9 +37006,9 @@
         target: GO:0042310
     -   key: positively regulates
         source: GO:0042310
-        target: GO:0008217
+        target: HP:0032263
     -   key: positively correlated with
-        source: GO:0008217
+        source: HP:0032263
         target: MESH:D006973
     -   key: positively correlated with
         source: HP:0033533
@@ -37006,9 +37030,9 @@
     -   id: GO:0042310
         label: BiologicalProcess
         name: Vasoconstriction
-    -   id: GO:0008217
-        label: BiologicalProcess
-        name: Blood Pressure
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
     -   id: MESH:D006973
         label: Disease
         name: Hypertensive disorder
@@ -37286,9 +37310,9 @@
         target: GO:0042310
     -   key: positively regulates
         source: GO:0042310
-        target: GO:0008217
+        target: HP:0032263
     -   key: positively correlated with
-        source: GO:0008217
+        source: HP:0032263
         target: MESH:D006973
     -   key: positively correlated with
         source: HP:0033533
@@ -37310,9 +37334,9 @@
     -   id: GO:0042310
         label: BiologicalProcess
         name: Vasoconstriction
-    -   id: GO:0008217
-        label: BiologicalProcess
-        name: Blood Pressure
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
     -   id: MESH:D006973
         label: Disease
         name: Hypertensive disorder
@@ -37585,10 +37609,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -37634,10 +37658,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -37683,10 +37707,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -37732,10 +37756,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -37784,10 +37808,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -37836,10 +37860,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -37885,10 +37909,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -37917,15 +37941,12 @@
         target: UniProt:P35354
     -   key: increases abundance of
         source: UniProt:P23219
-        target: MESH:D011453
+        target: CHEBI:15551
     -   key: increases abundance of
         source: UniProt:P35354
-        target: MESH:D011453
+        target: CHEBI:15551
     -   key: positively regulates
-        source: MESH:D011453
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
+        source: CHEBI:15551
         target: MESH:D005334
     multigraph: true
     nodes:
@@ -37934,21 +37955,19 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
-    -   id: MESH:D011453
+        name: Prostaglandin G/H synthase 2
+    -   id: CHEBI:15551
         label: ChemicalSubstance
-        name: Prostaglandins
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammatory response
+        name: Prostaglandin E2
     -   id: MESH:D005334
         label: Disease
         name: Fever
     reference:
     - https://go.drugbank.com/drugs/DB01397
+    - https://en.wikipedia.org/wiki/Fever
 -   directed: true
     graph:
         _id: DB01397_MESH_D001172_1
@@ -37983,10 +38002,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
@@ -38035,10 +38054,10 @@
         name: Magnesium salicylate
     -   id: UniProt:P23219
         label: Protein
-        name: Cox-1
+        name: Prostaglandin G/H synthase 1
     -   id: UniProt:P35354
         label: Protein
-        name: Cox-2
+        name: Prostaglandin G/H synthase 2
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
