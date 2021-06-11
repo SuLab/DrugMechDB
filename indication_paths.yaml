@@ -44142,7 +44142,7 @@
         drug_mesh: MESH:D008879
         drugbank: DB:DB00211
     links:
-    -   key: produces
+    -   key: has metabolite
         source: MESH:D008879
         target: CHEBI:73248
     -   key: increases activity of
@@ -44159,9 +44159,9 @@
         target: GO:0006939
     -   key: positively regulates
         source: GO:0006939
-        target: GO:0008217
+        target: HP:0032263
     -   key: negatively correlated with
-        source: GO:0008217
+        source: HP:0032263
         target: MESH:D007024
     multigraph: true
     nodes:
@@ -44180,9 +44180,9 @@
     -   id: GO:0006939
         label: BiologicalProcess
         name: Smooth muscle contraction
-    -   id: GO:0008217
-        label: BiologicalProcess
-        name: Blood pressure
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
     -   id: MESH:D007024
         label: Disease
         name: Orthostatic hypotension
@@ -44822,7 +44822,7 @@
 -   directed: true
     graph:
         _id: DB01178_MESH_D001007_1
-        disease: Sleeplessness
+        disease: Anxiety
         disease_mesh: MESH:D001007
         drug: Chlormezanone
         drug_mesh: MESH:D002720
@@ -48959,11 +48959,8 @@
     -   key: increases abundance of
         source: UniProt:P35354
         target: MESH:D011453
-    -   key: positively regulates
+    -   key: positively correlated with
         source: MESH:D011453
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
         target: MESH:D005334
     multigraph: true
     nodes:
@@ -48979,9 +48976,6 @@
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: Inflammatory response
     -   id: MESH:D005334
         label: Disease
         name: Fever
@@ -49042,7 +49036,7 @@
         name: Inflammatory response
     -   id: HP:0002829
         label: PhenotypicFeature
-        name: Joint pain
+        name: Arthralgia
     -   id: HP:0001386
         label: PhenotypicFeature
         name: Joint swelling
@@ -49106,7 +49100,7 @@
         name: Inflammatory response
     -   id: HP:0002829
         label: PhenotypicFeature
-        name: Joint pain
+        name: Arthralgia
     -   id: HP:0001386
         label: PhenotypicFeature
         name: Joint swelling
@@ -49557,9 +49551,9 @@
     links:
     -   key: decreases activity of
         source: MESH:C431707
-        target: UniProt:P50859
+        target: PR:000006147
     -   key: positively regulates
-        source: UniProt:P50859
+        source: PR:000006147
         target: GO:0006696
     -   key: increases abundance of
         source: GO:0006696
@@ -49578,8 +49572,8 @@
     -   id: MESH:C431707
         label: Drug
         name: Efinaconazole
-    -   id: UniProt:P50859
-        label: Protein
+    -   id: PR:000006147
+        label: MacromolecularComplex
         name: Lanosterol 14-alpha demethylase
     -   id: GO:0006696
         label: BiologicalProcess
@@ -51498,11 +51492,11 @@
     -   key: participates in
         source: UniProt:P31639
         target: GO:0035623
-    -   key: positively regulates
-        source: GO:0035623
-        target: MESH:D001786
     -   key: positively correlated with
-        source: MESH:D001786
+        source: GO:0035623
+        target: HP:0003074
+    -   key: positively correlated with
+        source: HP:0003074
         target: MESH:D003924
     multigraph: true
     nodes:
@@ -51515,9 +51509,9 @@
     -   id: GO:0035623
         label: BiologicalProcess
         name: Renal glucose absorption
-    -   id: MESH:D001786
-        label: ChemicalSubstance
-        name: Blood glucose
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
     -   id: MESH:D003924
         label: Disease
         name: Diabetes mellitus type 2
