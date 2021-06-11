@@ -10913,20 +10913,56 @@
         drug_mesh: MESH:D003687
         drugbank: DB:DB01708
     links:
-    -   key: treats
+    -   key: increases activity of
         source: MESH:D003687
+        target: UniProt:P03372
+    -   key: increases activity of
+        source: MESH:D003687
+        target: UniProt:Q92731
+    -   key: increases activity of
+        source: MESH:D003687
+        target: UniProt:P10275
+    -   key: participates in
+        source: UniProt:P03372
+        target: GO:0030520
+    -   key: participates in
+        source: UniProt:Q92731
+        target: GO:0030520
+    -   key: treats
+        source: GO:0030520
+        target: MESH:D004414
+    -   key: participates in
+        source: UniProt:P10275
+        target: GO:0030521
+    -   key: treats
+        source: GO:0030521
         target: MESH:D004414
     multigraph: true
     nodes:
     -   id: MESH:D003687
         label: Drug
-        name: prasterone
+        name: Prasterone
     -   id: MESH:D004414
         label: Disease
         name: Dyspareunia
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor
+    -   id: GO:0030520
+        label: BiologicalProcess
+        name: Intracellular estrogen receptor signaling pathway
+    -   id: UniProt:Q92731
+        label: Protein
+        name: Estrogen receptor beta
+    -   id: GO:0030521
+        label: BiologicalProcess
+        name: Androgen receptor signaling pathway
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
     reference:
-    - https://go.drugbank.com/drugs/DB01708
-    - https://en.wikipedia.org/wiki/Dyspareunia
+    - https://go.drugbank.com/drugs/DB01708#BE0000132
+    - https://en.wikipedia.org/wiki/Dehydroepiandrosterone
 -   directed: true
     graph:
         _id: DB01708_MESH_D008180_1
@@ -10936,19 +10972,65 @@
         drug_mesh: MESH:D003687
         drugbank: DB:DB01708
     links:
-    -   key: treats
+    -   key: increases activity of
         source: MESH:D003687
+        target: UniProt:P10275
+    -   key: participates in
+        source: UniProt:P10275
+        target: GO:0030521
+    -   key: treats
+        source: GO:0030521
+        target: MESH:D008180
+    -   key: decreases activity of
+        source: MESH:D003687
+        target: GO:0071159
+    -   key: positively regulates
+        source: GO:0071159
+        target: GO:0032635
+    -   key: positively regulates
+        source: GO:0071159
+        target: GO:0002947
+    -   key: positively regulates
+        source: GO:0071159
+        target: GO:0032612
+    -   key: positively correlated with
+        source: GO:0032635
+        target: MESH:D008180
+    -   key: positively correlated with
+        source: GO:0002947
+        target: MESH:D008180
+    -   key: positively correlated with
+        source: GO:0032612
         target: MESH:D008180
     multigraph: true
     nodes:
     -   id: MESH:D003687
         label: Drug
-        name: prasterone
+        name: Prasterone
     -   id: MESH:D008180
         label: Disease
         name: Systemic lupus erythematosus
+    -   id: GO:0030521
+        label: BiologicalProcess
+        name: Androgen receptor signaling pathway
+    -   id: UniProt:P10275
+        label: Protein
+        name: Androgen receptor
+    -   id: GO:0071159
+        label: CellularComponent
+        name: NF-kappaB complex
+    -   id: GO:0032635
+        label: BiologicalProcess
+        name: Interleukin-6 production
+    -   id: GO:0002947
+        label: CellularComponent
+        name: Tumor necrosis factor receptor superfamily complex
+    -   id: GO:0032612
+        label: BiologicalProcess
+        name: Interleukin-1 production
     reference:
-    - https://go.drugbank.com/drugs/DB01708
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2701249/
+    - https://go.drugbank.com/drugs/DB01708#BE0000123
 -   directed: true
     graph:
         _id: DB04865_MESH_D015464_1
