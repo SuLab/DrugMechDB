@@ -1,1 +1,830 @@
-
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: prazosin
+    drug_mesh: MESH:D011224
+    drugbank: DB:DB00457
+  links:
+    - key: negatively regulates
+      source: MESH:D011224
+      target: UniProt:P35348
+    - key: negatively regulates
+      source: MESH:D011224
+      target: UniProt:P35368
+    - key: negatively regulates
+      source: MESH:D011224
+      target: UniProt:P25100
+    - key: participates in
+      source: UniProt:P35348
+      target: REACT:R-HSA-416476
+    - key: participates in
+      source: UniProt:P35368
+      target: REACT:R-HSA-416476
+    - key: participates in
+      source: UniProt:P25100
+      target: REACT:R-HSA-416476
+    - key: positively correlated with
+      source: REACT:R-HSA-416476
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D011224
+      label: Drug
+      name: prazosin
+    - id: UniProt:P35348
+      label: Protein
+      name: Alpha-1A adrenergic receptor
+    - id: UniProt:P35368
+      label: Protein
+      name: Alpha-1B adrenergic receptor
+    - id: UniProt:P25100
+      label: Protein
+      name: Alpha-1D adrenergic receptor
+    - id: REACT:R-HSA-416476
+      label: Pathway
+      name: G alpha (q) signalling events
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00457
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2/
+    - https://en.wikipedia.org/wiki/Prazosin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Carcinoma of breast
+    disease_mesh: MESH:D001943
+    drug: cyclophosphamide
+    drug_mesh: MESH:D003520
+    drugbank: DB:DB00531
+  links:
+    - key: has metabolite
+      source: MESH:D003520
+      target: CHEBI:8163
+    - key: disrupts
+      source: CHEBI:8163
+      target: CHEBI:16991
+    - key: positively correlated with
+      source: CHEBI:16991
+      target: GO:0008283
+    - key: positively correlated with
+      source: GO:0008283
+      target: MESH:D001943
+  multigraph: true
+  nodes:
+    - id: MESH:D003520
+      label: Drug
+      name: cyclophosphamide
+    - id: CHEBI:8163
+      label: ChemicalSubstance
+      name: phosphoramide mustard
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: GO:0008283
+      label: BiologicalProcess
+      name: cell population proliferation
+    - id: MESH:D001943
+      label: Disease
+      name: Carcinoma of breast
+  reference:
+    - https://go.drugbank.com/drugs/DB00531
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2907#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Neuroblastoma
+    disease_mesh: MESH:D009447
+    drug: cyclophosphamide
+    drug_mesh: MESH:D003520
+    drugbank: DB:DB00531
+  links:
+    - key: has metabolite
+      source: MESH:D003520
+      target: CHEBI:8163
+    - key: disrupts
+      source: CHEBI:8163
+      target: CHEBI:16991
+    - key: positively correlated with
+      source: CHEBI:16991
+      target: GO:0008283
+    - key: positively correlated with
+      source: GO:0008283
+      target: MESH:D009447
+  multigraph: true
+  nodes:
+    - id: MESH:D003520
+      label: Drug
+      name: cyclophosphamide
+    - id: CHEBI:8163
+      label: ChemicalSubstance
+      name: phosphoramide mustard
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: GO:0008283
+      label: BiologicalProcess
+      name: cell population proliferation
+    - id: MESH:D009447
+      label: Disease
+      name: Neuroblastoma
+  reference:
+    - https://go.drugbank.com/drugs/DB00531
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2907#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Mycosis fungoides
+    disease_mesh: MESH:D009182
+    drug: cyclophosphamide
+    drug_mesh: MESH:D003520
+    drugbank: DB:DB00531
+  links:
+    - key: has metabolite
+      source: MESH:D003520
+      target: CHEBI:8163
+    - key: disrupts
+      source: CHEBI:8163
+      target: CHEBI:16991
+    - key: positively correlated with
+      source: CHEBI:16991
+      target: GO:0008283
+    - key: located in
+      source: GO:0008283
+      target: UBERON:0000014
+    - key: location of
+      source: UBERON:0000014
+      target: MESH:D009182
+  multigraph: true
+  nodes:
+    - id: MESH:D003520
+      label: Drug
+      name: cyclophosphamide
+    - id: CHEBI:8163
+      label: ChemicalSubstance
+      name: phosphoramide mustard
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: GO:0008283
+      label: BiologicalProcess
+      name: cell population proliferation
+    - id: UBERON:0000014
+      label: GrossAnatomicalStructure
+      name: zone of skin
+    - id: MESH:D009182
+      label: Disease
+      name: Mycosis fungoides
+  reference:
+    - https://go.drugbank.com/drugs/DB00531
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2907#section=Mechanism-of-Action
+  comment: This is not a fungal infection, rather a type of non-Hodgkin's lymphoma (https://en.wikipedia.org/wiki/Mycosis_fungoides#History).
+- directed: true
+  graph:
+    disease: Multiple myeloma
+    disease_mesh: MESH:D009101
+    drug: cyclophosphamide
+    drug_mesh: MESH:D003520
+    drugbank: DB:DB00531
+  links:
+    - key: has metabolite
+      source: MESH:D003520
+      target: CHEBI:8163
+    - key: disrupts
+      source: CHEBI:8163
+      target: CHEBI:16991
+    - key: positively correlated with
+      source: CHEBI:16991
+      target: GO:0070661
+    - key: positively correlated with
+      source: GO:0070661
+      target: MESH:D009101
+  multigraph: true
+  nodes:
+    - id: MESH:D003520
+      label: Drug
+      name: cyclophosphamide
+    - id: CHEBI:8163
+      label: ChemicalSubstance
+      name: phosphoramide mustard
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: GO:0070661
+      label: BiologicalProcess
+      name: leukocyte proliferation
+    - id: MESH:D009101
+      label: Disease
+      name: Multiple myeloma
+  reference:
+    - https://go.drugbank.com/drugs/DB00531
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2907#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Malignant lymphoma
+    disease_mesh: MESH:D008223
+    drug: cyclophosphamide
+    drug_mesh: MESH:D003520
+    drugbank: DB:DB00531
+  links:
+    - key: has metabolite
+      source: MESH:D003520
+      target: CHEBI:8163
+    - key: disrupts
+      source: CHEBI:8163
+      target: CHEBI:16991
+    - key: positively correlated with
+      source: CHEBI:16991
+      target: GO:0032943
+    - key: positively correlated with
+      source: GO:0032943
+      target: MESH:D008223
+  multigraph: true
+  nodes:
+    - id: MESH:D003520
+      label: Drug
+      name: cyclophosphamide
+    - id: CHEBI:8163
+      label: ChemicalSubstance
+      name: phosphoramide mustard
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: GO:0032943
+      label: BiologicalProcess
+      name: mononuclear cell proliferation
+    - id: MESH:D008223
+      label: Disease
+      name: Malignant lymphoma
+  reference:
+    - https://go.drugbank.com/drugs/DB00531
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2907#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Retinoblastoma
+    disease_mesh: MESH:D012175
+    drug: cyclophosphamide
+    drug_mesh: MESH:D003520
+    drugbank: DB:DB00531
+  links:
+    - key: has metabolite
+      source: MESH:D003520
+      target: CHEBI:8163
+    - key: disrupts
+      source: CHEBI:8163
+      target: CHEBI:16991
+    - key: positively correlated with
+      source: CHEBI:16991
+      target: GO:0008283
+    - key: located in
+      source: GO:0008283
+      target: UBERON:0000966
+    - key: location of
+      source: UBERON:0000966
+      target: MESH:D012175
+  multigraph: true
+  nodes:
+    - id: MESH:D003520
+      label: Drug
+      name: cyclophosphamide
+    - id: CHEBI:8163
+      label: ChemicalSubstance
+      name: phosphoramide mustard
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: GO:0008283
+      label: BiologicalProcess
+      name: cell population proliferation
+    - id: UBERON:0000966
+      label: GrossAnatomicalStructure
+      name: retina
+    - id: MESH:D012175
+      label: Disease
+      name: Retinoblastoma
+  reference:
+    - https://go.drugbank.com/drugs/DB00531
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2907#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Sneezing
+    disease_mesh: MESH:D012912
+    drug: methdilazine
+    drug_mesh: MESH:C044642
+    drugbank: DB:DB00902
+  links:
+    - key: decreases activity of
+      source: MESH:C044642
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D012912
+  multigraph: true
+  nodes:
+    - id: MESH:C044642
+      label: Drug
+      name: methdilazine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D012912
+      label: Disease
+      name: Sneezing
+  reference: https://go.drugbank.com/drugs/DB00902
+- directed: true
+  graph:
+    disease: Allergic conjunctivitis
+    disease_mesh: MESH:D003233
+    drug: methdilazine
+    drug_mesh: MESH:C044642
+    drugbank: DB:DB00902
+  links:
+    - key: decreases activity of
+      source: MESH:C044642
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D003233
+  multigraph: true
+  nodes:
+    - id: MESH:C044642
+      label: Drug
+      name: methdilazine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D003233
+      label: Disease
+      name: Allergic conjunctivitis
+  reference: https://go.drugbank.com/drugs/DB00902
+- directed: true
+  graph:
+    disease: Angioedema
+    disease_mesh: MESH:D000799
+    drug: methdilazine
+    drug_mesh: MESH:C044642
+    drugbank: DB:DB00902
+  links:
+    - key: decreases activity of
+      source: MESH:C044642
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: HP:0000282
+    - key: manifestation of
+      source: HP:0000282
+      target: MESH:D000799
+  multigraph: true
+  nodes:
+    - id: MESH:C044642
+      label: Drug
+      name: methdilazine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: HP:0000282
+      label: PhenotypicFeature
+      name: Facial edema
+    - id: MESH:D000799
+      label: Disease
+      name: Angioedema
+  reference: https://go.drugbank.com/drugs/DB00902
+- directed: true
+  graph:
+    disease: Allergic rhinitis
+    disease_mesh: MESH:D065631
+    drug: methdilazine
+    drug_mesh: MESH:C044642
+    drugbank: DB:DB00902
+  links:
+    - key: decreases activity of
+      source: MESH:C044642
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D065631
+  multigraph: true
+  nodes:
+    - id: MESH:C044642
+      label: Drug
+      name: methdilazine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D065631
+      label: Disease
+      name: Allergic rhinitis
+  reference: https://go.drugbank.com/drugs/DB00902
+- directed: true
+  graph:
+    disease: Itching of skin
+    disease_mesh: MESH:D011537
+    drug: methdilazine
+    drug_mesh: MESH:C044642
+    drugbank: DB:DB00902
+  links:
+    - key: decreases activity of
+      source: MESH:C044642
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D011537
+  multigraph: true
+  nodes:
+    - id: MESH:C044642
+      label: Drug
+      name: methdilazine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D011537
+      label: Disease
+      name: Itching of skin
+  reference: https://go.drugbank.com/drugs/DB00902
+- directed: true
+  graph:
+    disease: Urticaria
+    disease_mesh: MESH:D014581
+    drug: methdilazine
+    drug_mesh: MESH:C044642
+    drugbank: DB:DB00902
+  links:
+    - key: decreases activity of
+      source: MESH:C044642
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D014581
+  multigraph: true
+  nodes:
+    - id: MESH:C044642
+      label: Drug
+      name: methdilazine
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D014581
+      label: Disease
+      name: Urticaria
+  reference: https://go.drugbank.com/drugs/DB00902
+- directed: true
+  graph:
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: mitiglinide
+    drug_mesh: MESH:C087255
+    drugbank: DB:DB01252
+  links:
+    - key: decreases activity of
+      source: MESH:C087255
+      target: UniProt:Q09428
+    - key: participates in
+      source: UniProt:Q09428
+      target: REACT:R-HSA-422356
+    - key: regulates
+      source: REACT:R-HSA-422356
+      target: GO:0006006
+    - key: correlated with
+      source: GO:0006006
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:C087255
+      label: Drug
+      name: mitiglinide
+    - id: UniProt:Q09428
+      label: Protein
+      name: ATP-binding cassette sub-family C member 8
+    - id: REACT:R-HSA-422356
+      label: Pathway
+      name: Regulation of insulin secretion
+    - id: GO:0006006
+      label: BiologicalProcess
+      name: glucose metabolic process
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference: https://go.drugbank.com/drugs/DB01252
+- directed: true
+  graph:
+    disease: Obesity
+    disease_mesh: MESH:D009765
+    drug: chlorphentermine
+    drug_mesh: MESH:D002745
+    drugbank: DB:DB01556
+  links:
+    - key: molecularly interacts with
+      source: MESH:D002745
+      target: UniProt:P31645
+    - key: positively regulates
+      source: UniProt:P31645
+      target: GO:0001820
+    - key: positively correlated with
+      source: GO:0001820
+      target: HP:0004396
+    - key: negatively correlated with
+      source: HP:0004396
+      target: MESH:D009765
+  multigraph: true
+  nodes:
+    - id: MESH:D002745
+      label: Drug
+      name: chlorphentermine
+    - id: UniProt:P31645
+      label: Protein
+      name: Sodium-dependent serotonin transporter
+    - id: GO:0001820
+      label: BiologicalProcess
+      name: serotonin secretion
+    - id: HP:0004396
+      label: PhenotypicFeature
+      name: Poor appetite
+    - id: MESH:D009765
+      label: Disease
+      name: Obesity
+  reference:
+    - https://en.wikipedia.org/wiki/Chlorphentermine
+    - https://en.wikipedia.org/wiki/Serotonin_releasing_agent#Pharmaceutical_drugs
+  comment: Withdrawn
+- directed: true
+  graph:
+    disease: Constipation
+    disease_mesh: MESH:D003248
+    drug: oxyphenisatine
+    drug_mesh: null
+    drugbank: DB:DB04823
+  links:
+    - key: positively regulates
+      source: DB:DB04823
+      target: GO:0120054
+    - key: negatively correlated with
+      source: GO:0120054
+      target: MESH:D003248
+  multigraph: true
+  nodes:
+    - id: DB:DB04823
+      label: Drug
+      name: oxyphenisatine
+      alt_names:
+        - oxyphenisatin
+    - id: GO:0120054
+      label: BiologicalProcess
+      name: intestinal motility
+    - id: MESH:D003248
+      label: Disease
+      name: Constipation
+  reference:
+    - https://go.drugbank.com/drugs/DB04823
+    - https://pubchem.ncbi.nlm.nih.gov/compound/31315#section=Pharmacology-and-Biochemistry
+  comment: The exact mechanism of action and the target of this drug is unknown. It's been withdrawn in most countries in the early 1970s.
+- directed: true
+  graph:
+    disease: Hypoparathyroidism
+    disease_mesh: MESH:D007011
+    drug: parathyroid hormone
+    drug_mesh: MESH:D010281
+    drugbank: DB:DB05829
+  links:
+    - key: positively regulates
+      source: MESH:D010281
+      target: UniProt:Q03431
+    - key: regulates
+      source: UniProt:Q03431
+      target: GO:0055074
+    - key: negatively correlated with
+      source: GO:0055074
+      target: HP:0004363
+    - key: manifestation of
+      source: HP:0004363
+      target: MESH:D007011
+  multigraph: true
+  nodes:
+    - id: MESH:D010281
+      label: Drug
+      name: parathyroid hormone
+    - id: UniProt:Q03431
+      label: Protein
+      name: Parathyroid hormone/parathyroid hormone-related peptide receptor
+    - id: GO:0055074
+      label: BiologicalProcess
+      name: calcium ion homeostasis
+    - id: HP:0004363
+      label: PhenotypicFeature
+      name: Abnormal circulating calcium concentration
+    - id: MESH:D007011
+      label: Disease
+      name: Hypoparathyroidism
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2108078/
+    - https://go.drugbank.com/drugs/DB05829
+    - https://en.wikipedia.org/wiki/Recombinant_human_parathyroid_hormone#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Parathyroid_hormone_receptor
+- directed: true
+  graph:
+    disease: Hyperthyroidism
+    disease_mesh: MESH:D006980
+    drug: dibromotyrosine
+    drug_mesh: null
+    drugbank: DB:DB07637
+  links:
+    - key: negatively regulates
+      source: DB:DB07637
+      target: GO:0006590
+    - key: positively correlated with
+      source: GO:0006590
+      target: MESH:D006980
+  multigraph: true
+  nodes:
+    - id: DB:DB07637
+      label: Drug
+      name: dibromotyrosine
+    - id: GO:0006590
+      label: BiologicalProcess
+      name: thyroid hormone generation
+    - id: MESH:D006980
+      label: Disease
+      name: Hyperthyroidism
+  reference:
+    - https://go.drugbank.com/drugs/DB07637
+    - https://en.wikipedia.org/wiki/Dibromotyrosine
+    - https://en.wikipedia.org/wiki/Antithyroid_agent#Mechanism_of_action
+  comment: There is very little information on this drug; it's known that is part of a class of antithyroid preparations. It's in Phase 0 of clinical trials, aka research/experimental phase as per Jun 2021.
+- directed: true
+  graph:
+    disease: Chloasma
+    disease_mesh: MESH:D008548
+    drug: octinoxate
+    drug_mesh: MESH:C516303
+    drugbank: DB:DB09496
+  links:
+    - key: prevents
+      source: MESH:C516303
+      target: GO:0043479
+    - key: negatively correlated with
+      source: MESH:C516303
+      target: HP:0000953
+    - key: positively correlated with
+      source: GO:0043479
+      target: MESH:D008548
+    - key: positively correlated with
+      source: HP:0000953
+      target: MESH:D008548
+  multigraph: true
+  nodes:
+    - id: MESH:C516303
+      label: Drug
+      name: octinoxate
+      alt_names:
+        - Octyl methoxycinnamate
+        - ethylhexyl methoxycinnamate
+    - id: GO:0043479
+      label: BiologicalProcess
+      name: pigment accumulation in tissues in response to UV light
+    - id: HP:0000953
+      label: PhenotypicFeature
+      name: Hyperpigmentation of the skin
+    - id: MESH:D008548
+      label: Disease
+      name: Chloasma
+  reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5355130#section=Mechanism-of-Action
+    - https://go.drugbank.com/drugs/DB09496
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3183184/
+  comment: Octinoxate is a sunscreen agent found in sunscreens that absorbs UV rays.
+- directed: true
+  graph:
+    disease: African trypanosomiasis
+    disease_mesh: MESH:D014353
+    drug: melarsoprol
+    drug_mesh: MESH:D008549
+    drugbank: DB:DB12864
+  links:
+    - key: has metabolite
+      source: MESH:D008549
+      target: MESH:C044719
+    - key: disrupts
+      source: MESH:C044719
+      target: InterPro:IPR001697
+    - key: disrupts
+      source: MESH:C044719
+      target: CHEBI:17842
+    - key: in taxon
+      source: CHEBI:17842
+      target: NCBITaxon:5691
+    - key: positively regulates
+      source: InterPro:IPR001697
+      target: GO:0006096
+    - key: in taxon
+      source: GO:0006096
+      target: NCBITaxon:5691
+    - key: causes
+      source: NCBITaxon:5691
+      target: MESH:D014353
+  multigraph: true
+  nodes:
+    - id: MESH:D008549
+      label: Drug
+      name: melarsoprol
+    - id: MESH:C044719
+      label: ChemicalSubstance
+      name: melarsen oxide
+    - id: InterPro:IPR001697
+      label: GeneFamily
+      name: Pyruvate kinase
+    - id: CHEBI:17842
+      label: ChemicalSubstance
+      name: trypanothione
+    - id: GO:0006096
+      label: BiologicalProcess
+      name: glycolytic process
+    - id: NCBITaxon:5691
+      label: OrganismTaxon
+      name: Trypanosoma brucei
+    - id: MESH:D014353
+      label: Disease
+      name: African trypanosomiasis
+  reference: https://en.wikipedia.org/wiki/Melarsoprol#Mechanism_of_action
+  comment: This drug can affect both host and parasite Pyruvate kinase, therefore it is highly toxic with many side effects.
