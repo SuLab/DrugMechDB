@@ -1,1 +1,1204 @@
-
+-   comment: Ibritumomab tiuxetan is an Indium or yttrium conjugated murine IgG1 kappa monoclonal antibody directed against the CD20 antigen, 
+             The Fab segment of the antibody targets the CD20 epitope on B-cells, allowing the radioactive yttrium to destroy the cell via production 
+             of beta particles.
+    directed: true
+    graph:
+        disease: Follicular non-Hodgkin's lymphoma
+        disease_mesh: MESH:D008224
+        drug: ibritumomab tiuxetan
+        drug_mesh: MESH:C422802
+        drugbank: DB:DB00078
+    links:
+    -   key: molecularly interacts with
+        source: MESH:C422802
+        target: UniProt:P11836
+    -   key: expressed in
+        source: UniProt:P11836
+        target: CL:0000236
+    -   key: capable of
+        source: CL:0000236
+        target: GO:0001788
+    -   key: capable of
+        source: CL:0000236
+        target: GO:0097278
+    -   key: enables
+        source: GO:0001788
+        target: GO:0008219
+    -   key: enables
+        source: GO:0097278
+        target: GO:0008219
+    -   key: negatively correlated with
+        source: GO:0008219
+        target: MESH:D008224
+    multigraph: true
+    nodes:
+    -   id: MESH:C422802
+        label: Drug
+        name: ibritumomab tiuxetan
+    -   id: UniProt:P11836
+        label: Protein
+        name: B-lymphocyte antigen CD20
+    -   id: CL:0000236
+        label: Cell
+        name: B cell
+    -   id: GO:0001788
+        label: BiologicalProcess
+        name: antibody-dependent cellular cytotoxicity
+    -   id: GO:0097278
+        label: BiologicalProcess
+        name: complement-dependent cytotoxicity
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: MESH:D008224
+        label: Disease
+        name: Follicular non-Hodgkin's lymphoma
+    reference:
+    - https://go.drugbank.com/drugs/DB00078#BE0000066
+    - https://en.wikipedia.org/wiki/Ibritumomab_tiuxetan
+-   comment: NCIT:C38439 = mature lymphocytes could replace both B and T cell. Would have been an ideal node for this pair but could not be validated. 
+    directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: alemtuzumab
+        drug_mesh: MESH:C096529
+        drugbank: DB:DB00087
+    links:
+    -   key: molecularly interacts with
+        source: MESH:C096529
+        target: UniProt:P31358
+    -   key: expressed in
+        source: UniProt:P31358
+        target: CL:0000236
+    -   key: expressed in
+        source: UniProt:P31358
+        target: CL:0000084
+    -   key: capable of
+        source: CL:0000236
+        target: GO:0001788
+    -   key: capable of
+        source: CL:0000084
+        target: GO:0001788
+    -   key: enables
+        source: GO:0001788
+        target: GO:0008219
+    -   key: negatively correlated with
+        source: GO:0008219
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:C096529
+        label: Drug
+        name: alemtuzumab
+    -   id: UniProt:P31358
+        label: Protein
+        name: CAMPATH-1 antigen
+    -   id: CL:0000236
+        label: Cell
+        name: B cell
+    -   id: CL:0000084
+        label: Cell
+        name: T cell
+    -   id: GO:0001788
+        label: BiologicalProcess
+        name: antibody-dependent cellular cytotoxicity
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00087
+    - https://en.wikipedia.org/wiki/Alemtuzumab
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: duloxetine
+        drug_mesh: MESH:D000068736
+        drugbank: DB:DB00476
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068736
+        target: UniProt:P31645
+    -   key: decreases activity of
+        source: MESH:D000068736
+        target: UniProt:P23975
+    -   key: participates in
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: participates in
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: negatively regulates
+        source: GO:0060096
+        target: MESH:D003865
+    -   key: negatively regulates
+        source: GO:0061533
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068736
+        label: Drug
+        name: duloxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Noradrenaline uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Noradrenaline
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00476
+    - https://en.wikipedia.org/wiki/Duloxetine
+    - https://pubmed.ncbi.nlm.nih.gov/17608681/
+-   directed: true
+    graph:
+        disease: Fibromyalgia
+        disease_mesh: MESH:D005356
+        drug: duloxetine
+        drug_mesh: MESH:D000068736
+        drugbank: DB:DB00476
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068736
+        target: UniProt:P31645
+    -   key: decreases activity of
+        source: MESH:D000068736
+        target: UniProt:P23975
+    -   key: participates in
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: participates in
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: negatively regulates
+        source: GO:0060096
+        target: GO:0019233
+    -   key: negatively regulates
+        source: GO:0061533
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: MESH:D005356
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068736
+        label: Drug
+        name: duloxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Noradrenaline uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Noradrenaline
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D005356
+        label: Disease
+        name: Fibromyalgia
+    reference:
+    - https://go.drugbank.com/drugs/DB00476
+    - https://en.wikipedia.org/wiki/Duloxetine
+    - https://pubmed.ncbi.nlm.nih.gov/17608681/
+-   comment: Cyclobenzaprine is a skeletal muscle relaxant that works on areas of the brainstem to reduce skeletal muscle spasm,
+             though its exact pharmacodynamic behaviour is currently unclear.
+    directed: true
+    graph:
+        disease: Spasticity
+        disease_mesh: MESH:D009128
+        drug: cyclobenzaprine
+        drug_mesh: MESH:C004704
+        drugbank: DB:DB00924
+    links:
+    -   key: treats
+        source: MESH:C004704
+        target: MESH:D009128
+    multigraph: true
+    nodes:
+    -   id: MESH:C004704
+        label: Drug
+        name: cyclobenzaprine
+    -   id: MESH:D009128
+        label: Disease
+        name: Spasticity
+    reference:
+    - https://go.drugbank.com/drugs/DB00924
+    - https://en.wikipedia.org/wiki/Cyclobenzaprine
+-   directed: true
+    graph:
+        disease: Atrial fibrillation
+        disease_mesh: MESH:D001281
+        drug: dipyridamole
+        drug_mesh: MESH:D004176
+        drugbank: DB:DB00975
+    links:
+    -   key: decreases activity of
+        source: MESH:D004176
+        target: UniProt:Q9Y233
+    -   key: decreases activity of
+        source: MESH:D004176
+        target: UniProt:O76074
+    -   key: decreases activity of
+        source: MESH:D004176
+        target: UniProt:P27815
+    -   key: decreases activity of
+        source: MESH:D004176
+        target: UniProt:P00813
+    -   key: decreases abundance of
+        source: UniProt:Q9Y233
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:O76074
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:P27815
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:P00813
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0050482
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: MESH:D013928
+    -   key: participates in
+        source: GO:0050482
+        target: GO:0070527
+    -   key: participates in
+        source: MESH:D013928
+        target: GO:0070527
+    -   key: decreases uptake of
+        source: MESH:D004176
+        target: CHEBI:16335
+    -   key: correlated with
+        source: CHEBI:16335
+        target: GO:0070527
+    -   key: positively correlated with
+        source: GO:0070527
+        target: MESH:D001281
+    multigraph: true
+    nodes:
+    -   id: MESH:D004176
+        label: Drug
+        name: Dipyridamole
+    -   id: UniProt:Q9Y233
+        label: Protein
+        name: cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A
+    -   id: UniProt:O76074
+        label: Protein
+        name: cGMP-specific 3',5'-cyclic phosphodiesterase
+    -   id: UniProt:P27815
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+    -   id: UniProt:P00813
+        label: Protein
+        name: Adenosine deaminase
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0050482
+        label: BiologicalProcess
+        name: arachidonic acid secretion
+    -   id: MESH:D013928
+        label: ChemicalSubstance
+        name: Thromboxane A2
+    -   id: GO:0070527
+        label: BiologicalProcess
+        name: Platelet aggregation
+    -   id: CHEBI:16335
+        label: ChemicalSubstance
+        name: adenosine
+    -   id: MESH:D001281
+        label: Disease
+        name: Atrial fibrillation
+    reference:
+    - https://go.drugbank.com/drugs/DB00975
+    - https://en.wikipedia.org/wiki/Dipyridamole
+-   directed: true
+    graph:
+        disease: Disorders of initiating and maintaining sleep
+        disease_mesh: MESH:D007319
+        drug: melatonin
+        drug_mesh: MESH:D008550
+        drugbank: DB:DB01065
+    links:
+    -   key: positively regulates
+        source: MESH:D008550
+        target: UniProt:P48039
+    -   key: positively regulates
+        source: MESH:D008550
+        target: UniProt:P49286
+    -   key: located in
+        source: UniProt:P48039
+        target: UBERON:0002034
+    -   key: located in
+        source: UniProt:P49286
+        target: UBERON:0002034
+    -   key: decreases activity of
+        source: UniProt:P48039
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: decreases activity of
+        source: UniProt:P49286
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: participates in
+        source: UBERON:0002034
+        target: GO:0022410
+    -   key: negatively regulates
+        source: CHEBI:17489
+        target: GO:0022410
+    -   key: negatively correlated with
+        source: GO:0022410
+        target: MESH:D007319
+    multigraph: true
+    nodes:
+    -   id: MESH:D008550
+        label: Drug
+        name: melatonin
+    -   id: UniProt:P48039
+        label: Protein
+        name: Melatonin receptor type 1A
+    -   id: UniProt:P49286
+        label: Protein
+        name: Melatonin receptor type 1B
+    -   id: UBERON:0002034
+        label: GrossAnatomicalStructure
+        name: suprachiasmatic nucleus
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: GO:0022410
+        label: BiologicalProcess
+        name: circadian sleep/wake cycle process
+    -   id: MESH:D007319
+        label: Disease
+        name: Disorders of initiating and maintaining sleep
+    reference:
+    - https://go.drugbank.com/drugs/DB01065
+    - https://pubmed.ncbi.nlm.nih.gov/19326288/
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5405617/
+-   directed: true
+    graph:
+        disease: Seasonal affective disorder
+        disease_mesh: MESH:D016574
+        drug: bupropion
+        drug_mesh: MESH:D016642
+        drugbank: DB:DB01156
+    links:
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: negatively correlated with
+        source: MESH:D009638
+        target: MESH:D016574
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:Q01959
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0090494
+    -   key: decreases abundance of
+        source: GO:0090494
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D004298
+        target: MESH:D016574
+    multigraph: true
+    nodes:
+    -   id: MESH:D016642
+        label: Drug
+        name: bupropion
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: norepinephrine uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Noradrenaline
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0090494
+        label: BiologicalProcess
+        name: dopamine uptake
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: MESH:D016574
+        label: Disease
+        name: Seasonal affective disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01156
+    - https://en.wikipedia.org/wiki/Bupropion
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: bupropion
+        drug_mesh: MESH:D016642
+        drugbank: DB:DB01156
+    links:
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: negatively correlated with
+        source: MESH:D009638
+        target: MESH:D003865
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:Q01959
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0090494
+    -   key: decreases abundance of
+        source: GO:0090494
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D004298
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D016642
+        label: Drug
+        name: bupropion
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: norepinephrine uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Noradrenaline
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0090494
+        label: BiologicalProcess
+        name: dopamine uptake
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01156
+    - https://en.wikipedia.org/wiki/Bupropion
+-   directed: true
+    graph:
+        disease: Nicotine dependence
+        disease_mesh: MESH:D014029
+        drug: bupropion
+        drug_mesh: MESH:D016642
+        drugbank: DB:DB01156
+    links:
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:Q01959
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0090494
+    -   key: decreases abundance of
+        source: GO:0090494
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D004298
+        target: HP:0030858
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:P32297
+    -   key: participates in
+        source: UniProt:P32297
+        target: REACT:R-HSA-629587
+    -   key: participates in
+        source: UniProt:P32297
+        target: REACT:R-HSA-629594
+    -   key: participates in
+        source: UniProt:P32297
+        target: REACT:R-HSA-629597
+    -   key: positively correlated with
+        source: REACT:R-HSA-629587
+        target: HP:0030858
+    -   key: positively correlated with
+        source: REACT:R-HSA-629594
+        target: HP:0030858
+    -   key: positively correlated with
+        source: REACT:R-HSA-629597
+        target: HP:0030858
+    -   key: positively correlated with
+        source: HP:0030858
+        target: MESH:D014029
+    multigraph: true
+    nodes:
+    -   id: MESH:D016642
+        label: Drug
+        name: bupropion
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0090494
+        label: BiologicalProcess
+        name: dopamine uptake
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: UniProt:P32297
+        label: Protein
+        name: Neuronal acetylcholine receptor subunit alpha-3
+    -   id: REACT:R-HSA-629587
+        label: Pathway
+        name: Highly sodium permeable postsynaptic acetylcholine nicotinic receptors
+    -   id: REACT:R-HSA-629594
+        label: Pathway
+        name: Highly calcium permeable postsynaptic nicotinic acetylcholine receptors
+    -   id: REACT:R-HSA-629597
+        label: Pathway
+        name: Highly calcium permeable nicotinic acetylcholine receptors
+    -   id: HP:0030858
+        label: PhenotypicFeature
+        name: Addictive behavior
+    -   id: MESH:D014029
+        label: Disease
+        name: Nicotine dependence
+    reference:
+    - https://go.drugbank.com/drugs/DB01156
+    - https://en.wikipedia.org/wiki/Bupropion
+    - https://pubmed.ncbi.nlm.nih.gov/10991997/
+-   directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: bupropion
+        drug_mesh: MESH:D016642
+        drugbank: DB:DB01156
+    links:
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: MESH:D003866
+    -   key: decreases activity of
+        source: MESH:D016642
+        target: UniProt:Q01959
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0090494
+    -   key: decreases abundance of
+        source: GO:0090494
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D016642
+        label: Drug
+        name: bupropion
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: norepinephrine uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Noradrenaline
+    -   id: UniProt:Q01959
+        label: Protein
+        name: Sodium-dependent dopamine transporter
+    -   id: GO:0090494
+        label: BiologicalProcess
+        name: dopamine uptake
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01156
+    - https://en.wikipedia.org/wiki/Bupropion
+-   directed: true
+    graph:
+        disease: Paroxysmal atrial fibrillation
+        disease_mesh: MESH:D001281
+        drug: propafenone
+        drug_mesh: MESH:D011405
+        drugbank: DB:DB01182
+    links:
+    -   key: decreases activity of
+        source: MESH:D011405
+        target: UniProt:Q14524
+    -   key: regulates
+        source: UniProt:Q14524
+        target: GO:0086001
+    -   key: correlated with
+        source: GO:0086001
+        target: GO:0006936
+    -   key: located in
+        source: GO:0006936
+        target: UBERON:0004146
+    -   key: decreases activity of
+        source: UBERON:0004146
+        target: GO:0051899
+    -   key: ameliorates
+        source: GO:0051899
+        target: HP:0004308
+    -   key: correlated with
+        source: HP:0004308
+        target: MESH:D001281
+    -   key: decreases activity of
+        source: MESH:D011405
+        target: UniProt:Q12809
+    -   key: regulates
+        source: UniProt:Q12809
+        target: GO:0086009
+    -   key: regulates
+        source: GO:0086009
+        target: GO:0060047
+    -   key: regulates
+        source: GO:0060047
+        target: GO:0015276
+    -   key: caused by
+        source: GO:0015276
+        target: MESH:D001281
+    multigraph: true
+    nodes:
+    -   id: MESH:D011405
+        label: Drug
+        name: propafenone
+    -   id: UniProt:Q14524
+        label: Protein
+        name: Sodium channel protein type 5 subunit alpha
+    -   id: GO:0086001
+        label: BiologicalProcess
+        name: Cardiac muscle cell action potential
+    -   id: GO:0006936
+        label: BiologicalProcess
+        name: Muscle contraction
+    -   id: UBERON:0004146
+        label: GrossAnatomicalStructure
+        name: His-Purkinje system
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
+    -   id: UniProt:Q12809
+        label: Protein
+        name: Potassium voltage-gated channel subfamily H member 2
+    -   id: GO:0086009
+        label: BiologicalProcess
+        name: repolarization
+    -   id: GO:0060047
+        label: BiologicalProcess
+        name: relaxation of the ventricles
+    -   id: GO:0015276
+        label: BiologicalProcess
+        name: ionotropic effect
+    -   id: MESH:D001281
+        label: Disease
+        name: Paroxysmal atrial fibrillation
+    reference:
+    - https://go.drugbank.com/drugs/DB01182
+    - https://en.wikipedia.org/wiki/Propafenone
+-   directed: true
+    graph:
+        disease: Hyperkalemia
+        disease_mesh: MESH:D006947
+        drug: calcium polystyrene sulfonate
+        drug_mesh: MESH:C003321
+        drugbank: DB:DB01344
+    links:
+    -   key: decreases abundance of
+        source: MESH:C003321
+        target: CHEBI:29103
+    -   key: positively correlated with
+        source: CHEBI:29103
+        target: MESH:D006947
+    multigraph: true
+    nodes:
+    -   id: MESH:C003321
+        label: Drug
+        name: calcium polystyrene sulfonate
+    -   id: CHEBI:29103
+        label: ChemicalSubstance
+        name: Potassium(1+)
+    -   id: MESH:D006947
+        label: Disease
+        name: Hyperkalemia
+    reference:
+    - https://go.drugbank.com/drugs/DB01344
+    - https://en.wikipedia.org/wiki/Polystyrene_sulfonate
+-   directed: true
+    graph:
+        disease: Gout
+        disease_mesh: MESH:D006073
+        drug: colchicine
+        drug_mesh: MESH:D003078
+        drugbank: DB:DB01394
+    links:
+    -   key: decreases activity of
+        source: MESH:D003078
+        target: UniProt:P07437
+    -   key: participates in
+        source: UniProt:P07437
+        target: GO:0046785
+    -   key: participates in
+        source: GO:0046785
+        target: GO:0140014
+    -   key: located in
+        source: GO:0140014
+        target: CL:0000775
+    -   key: located in
+        source: GO:0140014
+        target: CL:0000576
+    -   key: part of
+        source: CL:0000775
+        target: GO:0061702
+    -   key: part of
+        source: CL:0000576
+        target: GO:0061702
+    -   key: increases abundance of
+        source: GO:0061702
+        target: UniProt:P01584
+    -   key: positively correlated with
+        source: UniProt:P01584
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0005059
+    -   key: manifestation of
+        source: HP:0005059
+        target: MESH:D006073
+    multigraph: true
+    nodes:
+    -   id: MESH:D003078
+        label: Drug
+        name: colchicine
+    -   id: UniProt:P07437
+        label: Protein
+        name: Tubulin beta chain
+    -   id: GO:0046785
+        label: BiologicalProcess
+        name: Microtubule polymerization
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitosis
+    -   id: CL:0000775
+        label: Cell
+        name: Neutrophil
+    -   id: CL:0000576
+        label: Cell
+        name: Monocyte
+    -   id: GO:0061702
+        label: CellularComponent
+        name: inflammasome complex
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0005059
+        label: PhenotypicFeature
+        name: Joint pain/Joint inflammation
+    -   id: MESH:D006073
+        label: Disease
+        name: Gout
+    reference:
+    - https://go.drugbank.com/drugs/DB01394
+    - https://en.wikipedia.org/wiki/Colchicine
+    - https://pubmed.ncbi.nlm.nih.gov/25151572/
+-   directed: true
+    graph:
+        disease: Familial Mediterranean fever
+        disease_mesh: MESH:D010505
+        drug: colchicine
+        drug_mesh: MESH:D003078
+        drugbank: DB:DB01394
+    links:
+    -   key: decreases activity of
+        source: MESH:D003078
+        target: UniProt:P07437
+    -   key: participates in
+        source: UniProt:P07437
+        target: GO:0046785
+    -   key: participates in
+        source: GO:0046785
+        target: GO:0140014
+    -   key: located in
+        source: GO:0140014
+        target: CL:0000775
+    -   key: located in
+        source: GO:0140014
+        target: CL:0000576
+    -   key: part of
+        source: CL:0000775
+        target: GO:0061702
+    -   key: part of
+        source: CL:0000576
+        target: GO:0061702
+    -   key: increases abundance of
+        source: GO:0061702
+        target: UniProt:P01584
+    -   key: positively correlated with
+        source: UniProt:P01584
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D010505
+    multigraph: true
+    nodes:
+    -   id: MESH:D003078
+        label: Drug
+        name: colchicine
+    -   id: UniProt:P07437
+        label: Protein
+        name: Tubulin beta chain
+    -   id: GO:0046785
+        label: BiologicalProcess
+        name: Microtubule polymerization
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitosis
+    -   id: CL:0000775
+        label: Cell
+        name: Neutrophil
+    -   id: CL:0000576
+        label: Cell
+        name: Monocyte
+    -   id: GO:0061702
+        label: CellularComponent
+        name: inflammasome complex
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D010505
+        label: Disease
+        name: Familial Mediterranean fever
+    reference:
+    - https://go.drugbank.com/drugs/DB01394
+    - https://en.wikipedia.org/wiki/Colchicine
+-   directed: true
+    graph:
+        disease: Osteoarthritis
+        disease_mesh: MESH:D010003
+        drug: tiaprofenic acid
+        drug_mesh: MESH:C021270
+        drugbank: DB:DB01600
+    links:
+    -   key: decreases activity of
+        source: MESH:C021270
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:C021270
+        target: UniProt:P23219
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010003
+    multigraph: true
+    nodes:
+    -   id: MESH:C021270
+        label: Drug
+        name: tiaprofenic acid
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010003
+        label: Disease
+        name: Osteoarthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01600
+    - https://en.wikipedia.org/wiki/Tiaprofenic_acid
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: tiaprofenic acid
+        drug_mesh: MESH:C021270
+        drugbank: DB:DB01600
+    links:
+    -   key: decreases activity of
+        source: MESH:C021270
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:C021270
+        target: UniProt:P23219
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:C021270
+        label: Drug
+        name: tiaprofenic acid
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference:
+    - https://go.drugbank.com/drugs/DB01600
+    - https://en.wikipedia.org/wiki/Tiaprofenic_acid
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: tiaprofenic acid
+        drug_mesh: MESH:C021270
+        drugbank: DB:DB01600
+    links:
+    -   key: decreases activity of
+        source: MESH:C021270
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:C021270
+        target: UniProt:P23219
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C021270
+        label: Drug
+        name: tiaprofenic acid
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01600
+    - https://en.wikipedia.org/wiki/Tiaprofenic_acid
+-   comment: Brentuximab vedotin is anantibody-drug conjugate that combines an anti-CD30 antibody with the drug monomethyl auristatin E (MMAE)
+    directed: true
+    graph:
+        disease: Hodgkin's disease
+        disease_mesh: MESH:D006689
+        drug: brentuximab vedotin
+        drug_mesh: MESH:C547738
+        drugbank: DB:DB08870
+    links:
+    -   key: molecularly interacts with
+        source: MESH:C547738
+        target: UniProt:P28908
+    -   key: expressed in
+        source: UniProt:P28908
+        target: CL:0001063
+    -   key: coexists with
+        source: MESH:C547738
+        target: MESH:C495575
+    -   key: causes
+        source: MESH:C495575
+        target: GO:0008219
+    -   key: enables
+        source: CL:0001063
+        target: GO:0008219
+    -   key: negatively correlated with
+        source: GO:0008219
+        target: MESH:D006689
+    multigraph: true
+    nodes:
+    -   id: MESH:C547738
+        label: Drug
+        name: brentuximab vedotin
+    -   id: UniProt:P28908
+        label: Protein
+        name: Tumor necrosis factor receptor superfamily member 8
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cell
+    -   id: MESH:C495575
+        label: ChemicalSubstance
+        name: monomethyl auristatin E
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: MESH:D006689
+        label: Disease
+        name: Hodgkin's disease
+    reference:
+    - https://go.drugbank.com/drugs/DB08870
+-   comment: Iguratimod (IGU) is a novel synthetic small molecule disease modified anti-rheumatic drug approved only in Japan and China.
+             The mechanism of action is broadly reported as anti-inflammatory, immunomodulatory and osteoprotective mechanism.
+    directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: iguratimod
+        drug_mesh: MESH:C519076
+        drugbank: DB:DB12233
+    links:
+    -   key: treats
+        source: MESH:C519076
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C519076
+        label: Drug
+        name: iguratimod
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference:
+    - https://go.drugbank.com/drugs/DB12233
+    - https://pubmed.ncbi.nlm.nih.gov/31918275/
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7054862/
