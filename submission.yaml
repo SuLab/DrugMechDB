@@ -1,1 +1,1196 @@
-
+- directed: true
+  graph:
+    disease: Sneezing
+    disease_mesh: MESH:D012912
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D012912
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D012912
+      label: Disease
+      name: Sneezing
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+- directed: true
+  graph:
+    disease: Allergic rhinitis
+    disease_mesh: MESH:D065631
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D065631
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D065631
+      label: Disease
+      name: Allergic rhinitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+- directed: true
+  graph:
+    disease: Tension-type headache
+    disease_mesh: MESH:D018781
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D018781
+    - key: decreases activity of
+      source: InterPro:IPR001418
+      target: GO:0019233
+    - key: correlated with
+      source: GO:0019233
+      target: MESH:D018781
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: GO:0019233
+      label: BiologicalProcess
+      name: sensory perception of pain
+    - id: MESH:D018781
+      label: Disease
+      name: Tension-type headache
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+  comment: Opioid medications seem not to be used to treat this type of headache (https://en.wikipedia.org/wiki/Tension_headache#Episodic).
+- directed: true
+  graph:
+    disease: Headache disorder
+    disease_mesh: MESH:D020773
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D020773
+    - key: decreases activity of
+      source: InterPro:IPR001418
+      target: GO:0019233
+    - key: correlated with
+      source: GO:0019233
+      target: MESH:D020773
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: GO:0019233
+      label: BiologicalProcess
+      name: sensory perception of pain
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D020773
+      label: Disease
+      name: Headache disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+  comment: It's been suggested that for those who suffer from chronic headaches, the long term use of opioids appears to result in greater harm than benefit (https://en.wikipedia.org/wiki/Headache#Management).
+- directed: true
+  graph:
+    disease: Rhinitis
+    disease_mesh: MESH:D012220
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D012220
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D012220
+      label: Disease
+      name: Rhinitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+- directed: true
+  graph:
+    disease: Pain
+    disease_mesh: MESH:D010146
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: MESH:D010146
+    - key: decreases activity of
+      source: InterPro:IPR001418
+      target: GO:0019233
+    - key: correlated with
+      source: GO:0019233
+      target: MESH:D010146
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: GO:0019233
+      label: BiologicalProcess
+      name: sensory perception of pain
+    - id: MESH:D010146
+      label: Disease
+      name: Pain
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+- directed: true
+  graph:
+    disease: Fever
+    disease_mesh: MESH:D005334
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: contraindicated for
+      source: MESH:D009020
+      target: MESH:D005334
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: MESH:D005334
+      label: Disease
+      name: Fever
+  reference:
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5806778/
+    - https://pubmed.ncbi.nlm.nih.gov/223174/
+    - https://link.springer.com/chapter/10.1007/978-3-0348-7429-8_61
+  comment: Morphine and other opioids all seem to cause hyperthermia.
+- directed: true
+  graph:
+    disease: Common cold
+    disease_mesh: MESH:D003139
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0002315
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0025095
+    - key: manifestation of
+      source: HP:0002315
+      target: MESH:D003139
+    - key: manifestation of
+      source: HP:0025095
+      target: MESH:D003139
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: HP:0025095
+      label: PhenotypicFeature
+      name: Sneeze
+    - id: HP:0002315
+      label: PhenotypicFeature
+      name: Headache
+    - id: MESH:D003139
+      label: Disease
+      name: Common cold
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+    - https://en.wikipedia.org/wiki/Common_cold
+- directed: true
+  graph:
+    disease: Cough
+    disease_mesh: MESH:D003371
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: negatively correlated with
+      source: InterPro:IPR001418
+      target: GO:0060004
+    - key: positively correlated with
+      source: GO:0060004
+      target: MESH:D003371
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: GO:0060004
+      label: BiologicalProcess
+      name: reflex
+    - id: MESH:D003371
+      label: Disease
+      name: Cough
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+    - https://pubmed.ncbi.nlm.nih.gov/1852031/
+    - https://pubmed.ncbi.nlm.nih.gov/17620111/
+  comment: It is believed that the antitussive action of codeine works via stimulation of μ-opioid receptors (https://s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/676/original/Codeine_FDA_label.pdf?1551131944).
+- directed: true
+  graph:
+    disease: Sore throat symptom
+    disease_mesh: MESH:D010612
+    drug: codeine
+    drug_mesh: MESH:D003061
+    drugbank: DB:DB00318
+  links:
+    - key: has metabolite
+      source: MESH:D003061
+      target: MESH:D009020
+    - key: increases activity of
+      source: MESH:D009020
+      target: InterPro:IPR001418
+    - key: participates in
+      source: InterPro:IPR001418
+      target: REACT:R-HSA-418594
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D010612
+    - key: decreases activity of
+      source: InterPro:IPR001418
+      target: GO:0019233
+    - key: correlated with
+      source: GO:0019233
+      target: MESH:D010612
+  multigraph: true
+  nodes:
+    - id: MESH:D003061
+      label: Drug
+      name: codeine
+    - id: MESH:D009020
+      label: ChemicalSubstance
+      name: morphine
+    - id: InterPro:IPR001418
+      label: GeneFamily
+      name: Opioid receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: GO:0019233
+      label: BiologicalProcess
+      name: sensory perception of pain
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D010612
+      label: Disease
+      name: Sore throat symptom
+  reference:
+    - https://go.drugbank.com/drugs/DB00318
+    - https://en.wikipedia.org/wiki/Codeine#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5284371#section=Pharmacology
+- directed: true
+  graph:
+    disease: Epilepsy
+    disease_mesh: MESH:D004827
+    drug: mephenytoin
+    drug_mesh: MESH:D008617
+    drugbank: DB:DB00532
+  links:
+    - key: negatively regulates
+      source: MESH:D008617
+      target: InterPro:IPR001696
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0061530
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0061535
+    - key: positively correlated with
+      source: GO:0061530
+      target: HP:0020219
+    - key: positively correlated with
+      source: GO:0061535
+      target: HP:0020219
+    - key: negatively correlated with
+      source: GO:0061535
+      target: MESH:D000066829
+    - key: negatively correlated with
+      source: MESH:D000066829
+      target: MESH:D004827
+    - key: positively correlated with
+      source: HP:0020219
+      target: MESH:D004827
+  multigraph: true
+  nodes:
+    - id: MESH:D008617
+      label: Drug
+      name: mephenytoin
+    - id: InterPro:IPR001696
+      label: GeneFamily
+      name: Voltage gated sodium channel, alpha subunit
+    - id: GO:0061530
+      label: BiologicalProcess
+      name: aspartate secretion, neurotransmission
+    - id: GO:0061535
+      label: BiologicalProcess
+      name: glutamate secretion, neurotransmission
+    - id: HP:0020219
+      label: PhenotypicFeature
+      name: Motor seizure
+    - id: MESH:D000066829
+      label: PhenotypicFeature
+      name: Neuroprotection
+    - id: MESH:D004827
+      label: Disease
+      name: Epilepsy
+  reference:
+    - https://go.drugbank.com/drugs/DB00532
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL861/
+  comment: Mephenytoin is no longer available in the US or the UK (https://en.wikipedia.org/wiki/Mephenytoin).
+- directed: true
+  graph:
+    disease: Localization-related epilepsy
+    disease_mesh: MESH:D004828
+    drug: mephenytoin
+    drug_mesh: MESH:D008617
+    drugbank: DB:DB00532
+  links:
+    - key: negatively regulates
+      source: MESH:D008617
+      target: InterPro:IPR001696
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0061530
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0061535
+    - key: positively correlated with
+      source: GO:0061530
+      target: HP:0020219
+    - key: positively correlated with
+      source: GO:0061535
+      target: HP:0020219
+    - key: negatively correlated with
+      source: GO:0061535
+      target: MESH:D000066829
+    - key: negatively correlated with
+      source: MESH:D000066829
+      target: MESH:D004828
+    - key: positively correlated with
+      source: HP:0020219
+      target: MESH:D004828
+  multigraph: true
+  nodes:
+    - id: MESH:D008617
+      label: Drug
+      name: mephenytoin
+    - id: InterPro:IPR001696
+      label: GeneFamily
+      name: Voltage gated sodium channel, alpha subunit
+    - id: GO:0061530
+      label: BiologicalProcess
+      name: aspartate secretion, neurotransmission
+    - id: GO:0061535
+      label: BiologicalProcess
+      name: glutamate secretion, neurotransmission
+    - id: HP:0020219
+      label: PhenotypicFeature
+      name: Motor seizure
+    - id: MESH:D000066829
+      label: PhenotypicFeature
+      name: Neuroprotection
+    - id: MESH:D004828
+      label: Disease
+      name: Localization-related epilepsy
+  reference:
+    - https://go.drugbank.com/drugs/DB00532
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL861/
+  comment: The disease is also known as Epilepsies, Partia (https://meshb.nlm.nih.gov/record/ui?ui=D004828). Mephenytoin is no longer available in the US or the UK (https://en.wikipedia.org/wiki/Mephenytoin).
+- directed: true
+  graph:
+    disease: Edema
+    disease_mesh: MESH:D004487
+    drug: bumetanide
+    drug_mesh: MESH:D002034
+    drugbank: DB:DB00887
+  links:
+    - key: negatively regulates
+      source: MESH:D002034
+      target: UniProt:Q13621
+    - key: positively regulates
+      source: UniProt:Q13621
+      target: GO:0070294
+    - key: positively correlated with
+      source: GO:0070294
+      target: GO:0003092
+    - key: positively correlated with
+      source: GO:0003092
+      target: MESH:D004487
+  multigraph: true
+  nodes:
+    - id: MESH:D002034
+      label: Drug
+      name: bumetanide
+    - id: UniProt:Q13621
+      label: Protein
+      name: Solute carrier family 12 member 1
+    - id: GO:0070294
+      label: BiologicalProcess
+      name: renal sodium ion absorption
+    - id: GO:0003092
+      label: BiologicalProcess
+      name: renal water retention
+    - id: MESH:D004487
+      label: Disease
+      name: Edema
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1072/
+    - https://en.wikipedia.org/wiki/Bumetanide#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Loop_diuretic#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Obesity
+    disease_mesh: MESH:D009765
+    drug: orlistat
+    drug_mesh: MESH:C055122
+    drugbank: DB:DB01083
+  links:
+    - key: negatively regulates
+      source: MESH:C055122
+      target: UniProt:P07098
+    - key: negatively regulates
+      source: MESH:C055122
+      target: UniProt:P16233
+    - key: positively regulates
+      source: UniProt:P07098
+      target: GO:0016042
+    - key: positively regulates
+      source: UniProt:P16233
+      target: GO:0016042
+    - key: positively correlated with
+      source: GO:0016042
+      target: HP:0004324
+    - key: superclass of
+      source: HP:0004324
+      target: MESH:D009765
+  multigraph: true
+  nodes:
+    - id: MESH:C055122
+      label: Drug
+      name: orlistat
+    - id: UniProt:P07098
+      label: Protein
+      name: Gastric triacylglycerol lipase
+    - id: UniProt:P16233
+      label: Protein
+      name: Pancreatic triacylglycerol lipase
+    - id: GO:0016042
+      label: BiologicalProcess
+      name: lipid catabolic process
+    - id: HP:0004324
+      label: PhenotypicFeature
+      name: Increased body weight
+    - id: MESH:D009765
+      label: Disease
+      name: Obesity
+  reference: https://go.drugbank.com/drugs/DB01083
+- directed: true
+  graph:
+    disease: Acute myeloid leukemia, disease
+    disease_mesh: MESH:D015470
+    drug: idarubicin
+    drug_mesh: MESH:D015255
+    drugbank: DB:DB01177
+  links:
+    - key: contributes to
+      source: MESH:D015255
+      target: GO:0001207
+    - key: negatively correlated with
+      source: GO:0001207
+      target: GO:0009299
+    - key: positively correlated with
+      source: GO:0009299
+      target: HP:0031377
+    - key: negatively regulates
+      source: MESH:D015255
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: positively correlated with
+      source: HP:0031377
+      target: MESH:D015470
+    - key: decreases abundance of
+      source: MESH:D015255
+      target: GO:0032993
+    - key: has participant
+      source: GO:0032993
+      target: UniProt:P11388
+    - key: positively correlated with
+      source: UniProt:P11388
+      target: GO:0006260
+    - key: increases abundance of
+      source: MESH:D015255
+      target: MESH:D005609
+    - key: positively correlated with
+      source: MESH:D005609
+      target: MESH:D004249
+    - key: positively correlated with
+      source: MESH:D004249
+      target: GO:0006915
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D015470
+    - key: positively correlated with
+      source: GO:0006260
+      target: HP:0031377
+    - key: positively correlated with
+      source: GO:0006260
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: manifestation of
+      source: HP:0031377
+      target: MESH:D015470
+  multigraph: true
+  nodes:
+    - id: MESH:D015255
+      label: Drug
+      name: idarubicin
+    - id: GO:0001207
+      label: BiologicalProcess
+      name: histone displacement
+    - id: GO:0009299
+      label: BiologicalProcess
+      name: mRNA transcription
+    - id: UniProt:P11388
+      label: Protein
+      name: DNA topoisomerase 2-alpha
+    - id: GO:0032993
+      label: CellularComponent
+      name: protein-DNA complex
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: MESH:D004249
+      label: BiologicalProcess
+      name: DNA Damage
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: HP:0031377
+      label: PhenotypicFeature
+      name: Abnormal cell proliferation
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: GO:0140014
+      label: BiologicalProcess
+      name: mitotic nuclear division
+    - id: MESH:D015470
+      label: Disease
+      name: Acute myeloid leukemia, disease
+  reference:
+    - https://go.drugbank.com/drugs/DB01177
+    - https://en.wikipedia.org/wiki/Idarubicin
+- directed: true
+  graph:
+    disease: Acute promyelocytic leukemia, FAB M3
+    disease_mesh: MESH:D015473
+    drug: idarubicin
+    drug_mesh: MESH:D015255
+    drugbank: DB:DB01177
+  links:
+    - key: contributes to
+      source: MESH:D015255
+      target: GO:0001207
+    - key: negatively correlated with
+      source: GO:0001207
+      target: GO:0009299
+    - key: positively correlated with
+      source: GO:0009299
+      target: HP:0031377
+    - key: negatively regulates
+      source: MESH:D015255
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: positively correlated with
+      source: HP:0031377
+      target: MESH:D015473
+    - key: decreases abundance of
+      source: MESH:D015255
+      target: GO:0032993
+    - key: has participant
+      source: GO:0032993
+      target: UniProt:P11388
+    - key: positively correlated with
+      source: UniProt:P11388
+      target: GO:0006260
+    - key: increases abundance of
+      source: MESH:D015255
+      target: MESH:D005609
+    - key: positively correlated with
+      source: MESH:D005609
+      target: MESH:D004249
+    - key: positively correlated with
+      source: MESH:D004249
+      target: GO:0006915
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D015473
+    - key: positively correlated with
+      source: GO:0006260
+      target: HP:0031377
+    - key: positively correlated with
+      source: GO:0006260
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: manifestation of
+      source: HP:0031377
+      target: MESH:D015473
+  multigraph: true
+  nodes:
+    - id: MESH:D015255
+      label: Drug
+      name: idarubicin
+    - id: GO:0001207
+      label: BiologicalProcess
+      name: histone displacement
+    - id: GO:0009299
+      label: BiologicalProcess
+      name: mRNA transcription
+    - id: UniProt:P11388
+      label: Protein
+      name: DNA topoisomerase 2-alpha
+    - id: GO:0032993
+      label: CellularComponent
+      name: protein-DNA complex
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: MESH:D004249
+      label: BiologicalProcess
+      name: DNA Damage
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: HP:0031377
+      label: PhenotypicFeature
+      name: Abnormal cell proliferation
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: GO:0140014
+      label: BiologicalProcess
+      name: mitotic nuclear division
+    - id: MESH:D015473
+      label: Disease
+      name: Acute promyelocytic leukemia, FAB M3
+  reference:
+    - https://go.drugbank.com/drugs/DB01177
+    - https://en.wikipedia.org/wiki/Idarubicin
+- directed: true
+  graph:
+    disease: Simple partial seizure
+    disease_mesh: MESH:D004828
+    drug: levetiracetam
+    drug_mesh: MESH:C026098
+    drugbank: DB:DB01202
+  links:
+    - key: positively regulates
+      source: MESH:C026098
+      target: UniProt:Q7L0J3
+    - key: increases activity of
+      source: UniProt:Q7L0J3
+      target: GO:0098982
+    - key: negatively correlated with
+      source: GO:0098982
+      target: MESH:D004828
+    - key: negatively regulates
+      source: MESH:C026098
+      target: UniProt:Q00975
+    - key: positively regulates
+      source: UniProt:Q00975
+      target: GO:0007269
+    - key: positively correlated with
+      source: GO:0007269
+      target: MESH:D004828
+  multigraph: true
+  nodes:
+    - id: MESH:C026098
+      label: Drug
+      name: levetiracetam
+    - id: UniProt:Q7L0J3
+      label: Protein
+      name: Synaptic vesicle glycoprotein 2A
+    - id: UniProt:Q00975
+      label: Protein
+      name: Voltage-dependent N-type calcium channel subunit alpha-1B
+    - id: GO:0007269
+      label: BiologicalProcess
+      name: neurotransmitter secretion
+    - id: GO:0098982
+      label: BiologicalProcess
+      name: GABA-ergic synapse
+    - id: MESH:D004828
+      label: Disease
+      name: Simple partial seizure
+  reference: https://go.drugbank.com/drugs/DB01202
+- directed: true
+  graph:
+    disease: Chronic hepatitis C
+    disease_mesh: MESH:D019698
+    drug: sofosbuvir
+    drug_mesh: MESH:D000069474
+    drugbank: DB:DB08934
+  links:
+    - key: negatively regulates
+      source: MESH:D000069474
+      target: UniProt:O39930
+    - key: positively regulates
+      source: UniProt:O39930
+      target: GO:0039694
+    - key: in taxon
+      source: GO:0039694
+      target: NCBITaxon:11103
+    - key: causes
+      source: NCBITaxon:11103
+      target: MESH:D019698
+  multigraph: true
+  nodes:
+    - id: MESH:D000069474
+      label: Drug
+      name: sofosbuvir
+      alt_ids:
+        - DB:DB01202
+    - id: UniProt:O39930
+      label: Protein
+      name: RNA-directed RNA polymerase
+    - id: GO:0039694
+      label: BiologicalProcess
+      name: viral RNA genome replication
+    - id: NCBITaxon:11103
+      label: OrganismTaxon
+      name: Hepacivirus C
+    - id: MESH:D019698
+      label: Disease
+      name: Chronic hepatitis C
+  reference: https://go.drugbank.com/drugs/DB08934
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: aranidipine
+    drug_mesh: MESH:C059427
+    drugbank: DB:DB09229
+  links:
+    - key: decreases activity of
+      source: MESH:C059427
+      target: UniProt:Q13936
+    - key: decreases activity of
+      source: MESH:C059427
+      target: UniProt:Q01668
+    - key: decreases activity of
+      source: MESH:C059427
+      target: UniProt:O60840
+    - key: decreases activity of
+      source: MESH:C059427
+      target: UniProt:Q13698  
+    - key: positively regulates
+      source: UniProt:Q13936
+      target: GO:0006936
+    - key: positively regulates
+      source: UniProt:Q01668
+      target: GO:0006936
+    - key: positively regulates
+      source: UniProt:O60840
+      target: GO:0006936
+    - key: positively regulates
+      source: UniProt:Q13698                        
+      target: GO:0006936
+    - key: positively correlated with
+      source: GO:0006936
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:C059427
+      label: Drug
+      name: aranidipine
+    - id: UniProt:Q13936
+      label: Protein
+      name: Voltage-dependent L-type calcium channel subunit alpha-1C
+    - id: UniProt:Q01668
+      label: Protein
+      name: Voltage-dependent L-type calcium channel subunit alpha-1D
+    - id: UniProt:O60840
+      label: Protein
+      name: Voltage-dependent L-type calcium channel subunit alpha-1F
+    - id: UniProt:Q13698
+      label: Protein
+      name: Voltage-dependent L-type calcium channel subunit alpha-1S
+    - id: GO:0006936
+      label: BiologicalProcess
+      name: muscle contraction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference: 
+    - https://go.drugbank.com/drugs/DB09229
+    - https://en.wikipedia.org/wiki/Aranidipine
+- directed: true
+  graph:
+    disease: Diabetes mellitus
+    disease_mesh: MESH:D003920
+    drug: insulin degludec
+    drug_mesh: MESH:C571886
+    drugbank: DB:DB09564
+  links:
+    - key: increases activity of
+      source: MESH:C571886
+      target: UniProt:P06213
+    - key: positively regulates
+      source: UniProt:P06213
+      target: GO:0004714
+    - key: participates in 
+      source: GO:0004714
+      target: REACT:R-HSA-74713
+    - key: positively correlated with
+      source: REACT:R-HSA-74713
+      target: GO:0046323
+    - key: negatively correlated with
+      source: GO:0046323
+      target: MESH:D003920
+  multigraph: true
+  nodes:
+    - id: MESH:C571886
+      label: Drug
+      name: insulin degludec
+    - id: UniProt:P06213
+      label: Protein
+      name: Insulin receptor
+    - id: GO:0004714
+      label: MolecularActivity
+      name: transmembrane receptor protein tyrosine kinase activity
+    - id: REACT:R-HSA-74713
+      label: Pathway
+      name: IRS activation
+    - id: GO:0046323
+      label: BiologicalProcess
+      name: glucose import
+    - id: MESH:D003920
+      label: Disease
+      name: Diabetes mellitus
+  reference: 
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2107869/
+    - https://go.drugbank.com/drugs/DB09564
+    - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=456c5e87-3dfd-46fa-8ac0-c6128d4c97c6
+- directed: true
+  graph:
+    disease: Wolman's disease
+    disease_mesh: MESH:D015223
+    drug: sebelipase alfa
+    drug_mesh: MESH:C000603932
+    drugbank: DB:DB11563
+  links:
+    - key: positively regulates
+      source: MESH:C000603932
+      target: GO:0016298
+    - key: increases abundance of
+      source: GO:0016298
+      target: CHEBI:35366
+    - key: increases abundance of
+      source: GO:0016298
+      target: CHEBI:16113
+    - key: negatively correlated with
+      source: CHEBI:16113
+      target: MESH:D015223
+    - key: negatively correlated with
+      source: CHEBI:35366
+      target: MESH:D015223
+  multigraph: true
+  nodes:
+    - id: MESH:C000603932
+      label: Drug
+      name: sebelipase alfa
+    - id: GO:0016298
+      label: MolecularActivity
+      name: lipase activity
+    - id: CHEBI:35366
+      label: ChemicalSubstance
+      name: fatty acid
+    - id: CHEBI:16113
+      label: ChemicalSubstance
+      name: cholesterol
+    - id: MESH:D015223
+      label: Disease
+      name: Wolman's disease
+  reference: 
+    - https://en.wikipedia.org/wiki/Sebelipase_alfa
+    - https://go.drugbank.com/drugs/DB11563
