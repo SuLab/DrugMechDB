@@ -1,1 +1,1048 @@
-
+-   directed: true
+    graph:
+        disease: Cystic fibrosis
+        disease_mesh: MESH:D003550
+        drug: Dornase alfa
+        drug_mesh: MESH:C568813
+        drugbank: DB:DB00003
+    links:
+    -   key: positively regulates
+        source: MESH:C568813
+        target: GO:0000737
+    -   key: disrupts
+        source: GO:0000737
+        target: MESH:D004247
+    -   key: positively correlated with
+        source: MESH:D004247
+        target: UBERON:0016553
+    -   key: positively correlated with
+        source: UBERON:0016553
+        target: MESH:D003550
+    multigraph: true
+    nodes:
+    -   id: MESH:C568813
+        label: Drug
+        name: Dornase alfa
+    -   id: GO:0000737
+        label: BiologicalProcess
+        name: DNA catabolic process, endonucleolytic
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: UBERON:0016553
+        label: GrossAnatomicalStructure
+        name: Respiratory system mucus
+    -   id: MESH:D003550
+        label: Disease
+        name: Cystic fibrosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB00003
+    - https://en.wikipedia.org/wiki/Dornase_alfa
+-   directed: true
+    graph:
+        disease: Primary cutaneous T-cell lymphoma
+        disease_mesh: MESH:D016410
+        drug: bexarotene
+        drug_mesh: MESH:C095105
+        drugbank: DB:DB00307
+    links:
+    -   key: increases activity of
+        source: MESH:C095105
+        target: UniProt:P19793
+    -   key: increases activity of
+        source: MESH:C095105
+        target: UniProt:P28702
+    -   key: increases activity of
+        source: MESH:C095105
+        target: UniProt:P48443
+    -   key: negatively regulates
+        source: UniProt:P19793
+        target: HP:0031379
+    -   key: negatively regulates
+        source: UniProt:P28702
+        target: HP:0031379
+    -   key: negatively regulates
+        source: UniProt:P48443
+        target: HP:0031379
+    -   key: positively correlated with
+        source: HP:0031379
+        target: MESH:D016410
+    multigraph: true
+    nodes:
+    -   id: MESH:C095105
+        label: Drug
+        name: Bexarotene
+    -   id: UniProt:P19793
+        label: Protein
+        name: Retinoic acid receptor RXR-alpha
+    -   id: UniProt:P28702
+        label: Protein
+        name: Retinoic acid receptor RXR-beta
+    -   id: UniProt:P48443
+        label: Protein
+        name: Retinoic acid receptor RXR-gamma
+    -   id: HP:0031379
+        label: PhenotypicFeature
+        name: Abnormal T cell proliferation
+    -   id: MESH:D016410
+        label: Disease
+        name: Primary cutaneous T-cell lymphoma
+    reference: 
+    - https://go.drugbank.com/drugs/DB00307#BE0000412 
+    - https://en.wikipedia.org/wiki/Bexarotene
+    - https://pubmed.ncbi.nlm.nih.gov/16634713/
+-   directed: true
+    graph:
+        disease: Hyperuricemia
+        disease_mesh: MESH:D033461
+        drug: probenecid
+        drug_mesh: MESH:D011339
+        drugbank: DB:DB01032
+    links:
+    -   key: decreases activity of
+        source: MESH:D011339
+        target: UniProt:Q4U2R8
+    -   key: decreases activity of
+        source: MESH:D011339
+        target: UniProt:Q9NSA0
+    -   key: decreases activity of
+        source: MESH:D011339
+        target: UniProt:Q8TCC7
+    -   key: positively regulates
+        source: UniProt:Q4U2R8
+        target: GO:0015711
+    -   key: positively regulates
+        source: UniProt:Q9NSA0
+        target: GO:0015711
+    -   key: positively regulates
+        source: UniProt:Q8TCC7
+        target: GO:0015711
+    -   key: increases abundance of
+        source: GO:0015711
+        target: MESH:D014527
+    -   key: contributes to
+        source: MESH:D014527
+        target: MESH:D033461
+    multigraph: true
+    nodes:
+    -   id: MESH:D011339
+        label: Drug
+        name: Probenecid
+    -   id: UniProt:Q4U2R8
+        label: Protein
+        name: Solute carrier family 22 member 6
+    -   id: UniProt:Q9NSA0
+        label: Protein
+        name: Solute carrier family 22 member 11
+    -   id: UniProt:Q8TCC7
+        label: Protein
+        name: Solute carrier family 22 member 8
+    -   id: GO:0015711
+        label: BiologicalProcess
+        name: Organic anion transport
+    -   id: MESH:D014527
+        label: ChemicalSubstance
+        name: Uric Acid
+    -   id: MESH:D033461
+        label: Disease
+        name: Hyperuricemia
+    reference: 
+    - https://go.drugbank.com/drugs/DB01032#BE0000879
+-   directed: true
+    graph:
+        disease: Articular gout
+        disease_mesh: MESH:D015210
+        drug: probenecid
+        drug_mesh: MESH:D011339
+        drugbank: DB:DB01032
+    links:
+    -   key: decreases activity of
+        source: MESH:D011339
+        target: UniProt:Q4U2R8
+    -   key: decreases activity of
+        source: MESH:D011339
+        target: UniProt:Q9NSA0
+    -   key: decreases activity of
+        source: MESH:D011339
+        target: UniProt:Q8TCC7
+    -   key: positively regulates
+        source: UniProt:Q4U2R8
+        target: GO:0015711
+    -   key: positively regulates
+        source: UniProt:Q9NSA0
+        target: GO:0015711
+    -   key: positively regulates
+        source: UniProt:Q8TCC7
+        target: GO:0015711
+    -   key: increases abundance of
+        source: GO:0015711
+        target: MESH:D014527
+    -   key: contributes to
+        source: MESH:D014527
+        target: MESH:D015210
+    multigraph: true
+    nodes:
+    -   id: MESH:D011339
+        label: Drug
+        name: Probenecid
+    -   id: UniProt:Q4U2R8
+        label: Protein
+        name: Solute carrier family 22 member 6
+    -   id: UniProt:Q9NSA0
+        label: Protein
+        name: Solute carrier family 22 member 11
+    -   id: UniProt:Q8TCC7
+        label: Protein
+        name: Solute carrier family 22 member 8
+    -   id: GO:0015711
+        label: BiologicalProcess
+        name: Organic anion transport
+    -   id: MESH:D014527
+        label: ChemicalSubstance
+        name: Uric Acid
+    -   id: MESH:D015210
+        label: Disease
+        name: Articular gout
+    reference: 
+    - https://go.drugbank.com/drugs/DB01032#BE0000879
+-   comment: Pimavanserin is used for the treatment of hallucinations and delusions caused by Parkinson's Disease.
+    directed: true
+    graph:
+        disease: Parkinson's disease
+        disease_mesh: MESH:D010300
+        drug: pimavanserin
+        drug_mesh: MESH:C510793
+        drugbank: DB:DB05316
+    links:
+    -   key: decreases activity of
+        source: MESH:C510793
+        target: UniProt:P28223
+    -   key: positively correlated with
+        source: UniProt:P28223
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: positively correlated with
+        source: GO:0060096
+        target: HP:0000709
+    -   key: occurs in
+        source: HP:0000709
+        target: MESH:D010300
+    multigraph: true
+    nodes:
+    -   id: MESH:C510793
+        label: Drug
+        name: Pimavanserin
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin 
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: HP:0000709
+        label: PhenotypicFeature
+        name: Psychosis
+    -   id: MESH:D010300
+        label: Disease
+        name: Parkinson's disease
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2111101/
+    - https://go.drugbank.com/drugs/DB05316#BE0000451
+    - https://pubmed.ncbi.nlm.nih.gov/27686027/
+-   comment: Eteplirsen is indicated for treatment of certain individuals with Duchenne muscular dystrophy.
+        Its use is limited to those with a confirmed mutation of the DMD gene which would benefit from exon 51 skipping.
+    directed: true
+    graph:
+        disease: Duchenne muscular dystrophy
+        disease_mesh: MESH:D020388
+        drug: eteplirsen
+        drug_mesh: MESH:C000611335
+        drugbank: DB:DB06014
+    links:
+    -   key: positively regulates
+        source: MESH:C000611335
+        target: GO:0010467
+    -   key: positively regulates
+        source: GO:0010467
+        target: UniProt:P11532
+    -   key: disrupted by
+        source: UniProt:P11532
+        target: MESH:D020388
+    multigraph: true
+    nodes:
+    -   id: MESH:C000611335
+        label: Drug
+        name: Eteplirsen
+    -   id: GO:0010467
+        label: BiologicalProcess
+        name: Gene expression
+    -   id: UniProt:P11532
+        label: Protein
+        name: Dystrophin
+    -   id: MESH:D020388
+        label: Disease
+        name: Duchenne muscular dystrophy
+    reference: 
+    - https://go.drugbank.com/drugs/DB06014
+-   directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: Rosuvastatin
+        drug_mesh: MESH:D000068718
+        drugbank: DB:DB01098
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068718
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006937
+    -   key: increases activity of
+        source: MESH:D000068718
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068718
+        label: Drug
+        name: Rosuvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference:
+    - https://go.drugbank.com/drugs/DB01098#BE0000574
+-   directed: true
+    graph:
+        disease: Mixed hyperlipidemia
+        disease_mesh: MESH:D006950
+        drug: Rosuvastatin
+        drug_mesh: MESH:D000068718
+        drugbank: DB:DB01098
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068718
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006950
+    -   key: increases activity of
+        source: MESH:D000068718
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068718
+        label: Drug
+        name: Rosuvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006950
+        label: Disease
+        name: Mixed hyperlipidemia
+    reference:
+    - https://en.wikipedia.org/wiki/Combined_hyperlipidemia
+    - https://go.drugbank.com/drugs/DB01098#BE0000574
+-   directed: true
+    graph:
+        disease: Familial type 3 hyperlipoproteinemia
+        disease_mesh: MESH:D006952
+        drug: Rosuvastatin
+        drug_mesh: MESH:D000068718
+        drugbank: DB:DB01098
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068718
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006952
+    -   key: increases activity of
+        source: MESH:D000068718
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006952
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068718
+        label: Drug
+        name: Rosuvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006952
+        label: Disease
+        name: Familial type 3 hyperlipoproteinemia
+    reference:
+    - https://go.drugbank.com/drugs/DB01098#BE0000574
+-   directed: true
+    graph:
+        disease: Cerebrovascular accident
+        disease_mesh: MESH:D020521
+        drug: Rosuvastatin
+        drug_mesh: MESH:D000068718
+        drugbank: DB:DB01098
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068718
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006937
+    -   key: increases activity of
+        source: MESH:D000068718
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006937
+    -   key: affects risk for
+        source: MESH:D006937
+        target: MESH:D020521
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068718
+        label: Drug
+        name: Rosuvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D020521
+        label: Disease
+        name: Cerebrovascular accident
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference:
+    - https://go.drugbank.com/drugs/DB01098#BE0000574
+    - https://en.wikipedia.org/wiki/Stroke
+-   directed: true
+    graph:
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+        drug: Rosuvastatin
+        drug_mesh: MESH:D000068718
+        drugbank: DB:DB01098
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068718
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: increases activity of
+        source: MESH:D000068718
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: HP:0002621
+    -   key: decreases abundance of
+        source: MESH:D000068718
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D015228
+    -   key: positively correlated with
+        source: HP:0002621
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068718
+        label: Drug
+        name: Rosuvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: Atherosclerosis
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference:
+    - https://go.drugbank.com/drugs/DB01098#BE0000574
+-   directed: true
+    graph:
+        disease: Arteriosclerotic vascular disease
+        disease_mesh: MESH:D001161
+        drug: Rosuvastatin
+        drug_mesh: MESH:D000068718
+        drugbank: DB:DB01098
+    links:
+    -   key: decreases activity of
+        source: MESH:D000068718
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D001161
+    -   key: increases activity of
+        source: MESH:D000068718
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D001161
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068718
+        label: Drug
+        name: Rosuvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D001161
+        label: Disease
+        name: Arteriosclerotic vascular disease
+    reference:
+    - https://go.drugbank.com/drugs/DB01098#BE0000574
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: glisoxepide
+        drug_mesh: MESH:C100171
+        drugbank: DB:DB01289
+    links:
+    -   key: decreases activity of
+        source: MESH:C100171
+        target: UniProt:Q15842
+    -   key: positively correlated with
+        source: UniProt:Q15842
+        target: GO:0015272
+    -   key: negatively correlated with
+        source: GO:0015272
+        target: GO:0051899
+    -   key: positively correlated with
+        source: GO:0051899
+        target: GO:0070509
+    -   key: positively correlated with
+        source: GO:0070509
+        target: GO:0030073
+    -   key: negatively correlated with
+        source: GO:0030073
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C100171
+        label: Drug
+        name: Glisoxepide
+    -   id: UniProt:Q15842
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 8
+    -   id: GO:0015272
+        label: BiologicalProcess
+        name: ATP-activated inward rectifier potassium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference:
+    - https://go.drugbank.com/drugs/DB01289#BE0002441
+-   directed: true
+    graph:
+        disease: Diabetes mellitus type 2
+        disease_mesh: MESH:D003924
+        drug: vildagliptin
+        drug_mesh: MESH:C502012
+        drugbank: DB:DB04876
+    links:
+    -   key: negatively regulates
+        source: MESH:C502012
+        target: UniProt:P27487
+    -   key: negatively regulates
+        source: UniProt:P27487
+        target: CHEBI:80270
+    -   key: positively regulates
+        source: CHEBI:80270
+        target: GO:0030073
+    -   key: negatively regulates
+        source: CHEBI:80270
+        target: GO:0070091
+    -   key: negatively regulates
+        source: GO:0030073
+        target: HP:0003074
+    -   key: positively correlated with
+        source: GO:0070091
+        target: HP:0003074
+    -   key: positively correlated with
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:C502012
+        label: Drug
+        name: Evogliptin
+    -   id: UniProt:P27487
+        label: Protein
+        name: Dipeptidyl peptidase 4
+    -   id: CHEBI:80270
+        label: ChemicalSubstance
+        name: Glucagon-like peptide 1
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: Insulin secretion
+    -   id: GO:0070091
+        label: BiologicalProcess
+        name: glucagon secretion
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes mellitus type 2
+    reference:
+    - https://go.drugbank.com/drugs/DB04876
+-   directed: true
+    graph:
+        disease: Chronic obstructive lung disease
+        disease_mesh: MESH:D029424
+        drug: Aclidinium bromide
+        drug_mesh: MESH:C542859
+        drugbank: DB:DB08897
+    links:
+    -   key: decreases activity of
+        source: MESH:C542859
+        target: UniProt:P20309
+    -   key: positively regulates
+        source: UniProt:P20309
+        target: HP:4000007
+    -   key: positively correlated with
+        source: HP:4000007
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: MESH:D029424
+    multigraph: true
+    nodes:
+    -   id: MESH:C542859
+        label: Drug
+        name: Aclidinium bromide
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: HP:4000007
+        label: PhenotypicFeature
+        name: Bronchoconstriction
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D029424
+        label: Disease
+        name: Chronic obstructive lung disease
+    reference:
+    - https://go.drugbank.com/drugs/DB08897#BE0000045
+-   comment: Rimonabant was rejected for approval for use in the United States.
+    directed: true
+    graph:
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: rimonabant
+        drug_mesh: MESH:C089032
+        drugbank: DB:DB06155
+    links:
+    -   key: decreases activity of
+        source: MESH:C089032
+        target: UniProt:P21554
+    -   key: positively correlated with
+        source: UniProt:P21554
+        target: GO:0032100
+    -   key: positively correlated with
+        source: GO:0032100
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:C089032
+        label: Drug
+        name: Rimonabant
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: GO:0032100
+        label: BiologicalProcess
+        name: Positive regulation of appetite
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference: 
+    - https://go.drugbank.com/drugs/DB06155
+-   comment: This drug is in Phase III clinial trials (as for June 2021).
+    directed: true
+    graph:
+        disease: Deep venous thrombosis
+        disease_mesh: MESH:D020246
+        drug: bemiparin
+        drug_mesh: MESH:C411345
+        drugbank: DB:DB09258
+    links:
+    -   key: decreases activity of
+        source: MESH:C411345
+        target: UniProt:P00742
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0072378
+    -   key: occurs in
+        source: GO:0072378
+        target: MESH:D020246
+    multigraph: true
+    nodes:
+    -   id: MESH:C411345
+        label: Drug
+        name: Bemiparin
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D020246
+        label: Disease
+        name: Deep venous thrombosis
+    reference:
+    - https://go.drugbank.com/drugs/DB09258
+-   comment: This drug is in Phase III clinial trials (as for June 2021).
+    directed: true
+    graph:
+        disease: Pulmonary embolism
+        disease_mesh: MESH:D011655
+        drug: bemiparin
+        drug_mesh: MESH:C411345
+        drugbank: DB:DB09258
+    links:
+    -   key: decreases activity of
+        source: MESH:C411345
+        target: UniProt:P00742
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0072378
+    -   key: occurs in
+        source: GO:0072378
+        target: MESH:D011655
+    multigraph: true
+    nodes:
+    -   id: MESH:C411345
+        label: Drug
+        name: Bemiparin
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D011655
+        label: Disease
+        name: Pulmonary embolism
+    reference:
+    - https://go.drugbank.com/drugs/DB09258
+-   comment: Alectinib  is specifically used in the treatment of non-small cell lung cancer (NSCLC) 
+     expressing the ALK-EML4 (echinoderm microtubule-associated protein-like 4) fusion protein that causes proliferation of NSCLC cells.
+    directed: true
+    graph:
+        disease: Non-small cell lung cancer
+        disease_mesh: MESH:D002289
+        drug: alectinib
+        drug_mesh: MESH:C582670
+        drugbank: DB:DB11363
+    links:
+    -   key: decreases activity of
+        source: MESH:C582670
+        target: UniProt:Q9UM73
+    -   key: positively regulates
+        source: UniProt:Q9UM73
+        target: REACT:R-HSA-9701898
+    -   key: positively regulates
+        source: UniProt:Q9UM73
+        target: REACT:R-HSA-109704
+    -   key: negatively regulates
+        source: REACT:R-HSA-9701898
+        target: GO:1904019
+    -   key: positively regulates
+        source: REACT:R-HSA-109704
+        target: GO:0050673
+    -   key: occurs in
+        source: GO:1904019
+        target: UBERON:0002048
+    -   key: occurs in
+        source: GO:0050673
+        target: UBERON:0002048
+    -   key: location of
+        source: UBERON:0002048
+        target: MESH:D002289
+    multigraph: true
+    nodes:
+    -   id: MESH:C582670
+        label: Drug
+        name: Alectinib
+    -   id: UniProt:Q9UM73
+        label: Protein
+        name: ALK tyrosine kinase receptor
+    -   id: REACT:R-HSA-9701898
+        label: Pathway
+        name: STAT3 nuclear events downstream of ALK signalingS
+    -   id: REACT:R-HSA-109704
+        label: Pathway
+        name: PI3K Cascade
+    -   id: GO:1904019
+        label: BiologicalProcess
+        name: Epithelial cell apoptotic process
+    -   id: GO:0050673
+        label: BiologicalProcess
+        name: Epithelial cell proliferation
+    -   id: UBERON:0002048
+        label: GrossAnatomicalStructure
+        name: Lung
+    -   id: MESH:D002289
+        label: Disease
+        name: Non-small cell lung cancer 
+    reference:
+    - https://go.drugbank.com/drugs/DB11363
+-   comment: Telotristat ethylis used for carcinoid syndrome diarrhea. Carcinoid syndrome was not available in MESH.
+    directed: true
+    graph:
+        disease: Diarrhea
+        disease_mesh: MESH:D003967
+        drug: telotristat ethyl
+        drug_mesh: MESH:C000621725
+        drugbank: DB:DB12095
+    links:
+    -   key: has metabolite
+        source: DB:DB12095
+        target: MESH:C000592493
+    -   key: decreases activity of
+        source: MESH:C000592493
+        target: UniProt:Q8IWU9
+    -   key: decreases activity of
+        source: MESH:C000592493
+        target: UniProt:P17752
+    -   key: positively regulates
+        source: UniProt:Q8IWU9
+        target: GO:0042427
+    -   key: positively regulates
+        source: UniProt:P17752
+        target: GO:0042427
+    -   key: increases abundance of
+        source: GO:0042427
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: HP:0100570
+    -   key: positively correlated with
+        source: HP:0100570
+        target: MESH:D003967
+    multigraph: true
+    nodes:
+    -   id: DB:DB12095
+        label: Drug
+        name: Telotristat ethyl
+    -   id: MESH:C000592493
+        label: Drug
+        name: Telotristat 
+    -   id: UniProt:Q8IWU9
+        label: Protein
+        name: Tryptophan 5-hydroxylase 2
+    -   id: UniProt:P17752
+        label: Protein
+        name: Tryptophan 5-hydroxylase 1
+    -   id: HP:0100570
+        label: PhenotypicFeature
+        name: Carcinoid tumor
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0042427
+        label: BiologicalProcess
+        name: Serotonin biosynthetic process
+    -   id: MESH:D003967
+        label: Disease
+        name: Diarrhea
+    reference: 
+    - https://go.drugbank.com/drugs/DB12095
