@@ -1,1 +1,63 @@
-
+-   comment: Telotristat ethyl is used for carcinoid syndrome diarrhea. Carcinoid syndrome term
+        was not available in MESH.
+    directed: true
+    graph:
+        _id: DB12095_MESH_D003967_1
+        disease: Diarrhea
+        disease_mesh: MESH:D003967
+        drug: telotristat ethyl
+        drug_mesh: MESH:C000621725
+        drugbank: DB:DB12095
+    links:
+    -   key: has metabolite
+        source: DB:DB12095
+        target: MESH:C000592493
+    -   key: decreases activity of
+        source: MESH:C000592493
+        target: UniProt:Q8IWU9
+    -   key: decreases activity of
+        source: MESH:C000592493
+        target: UniProt:P17752
+    -   key: positively regulates
+        source: UniProt:Q8IWU9
+        target: GO:0042427
+    -   key: positively regulates
+        source: UniProt:P17752
+        target: GO:0042427
+    -   key: increases abundance of
+        source: GO:0042427
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: HP:0100570
+    -   key: positively correlated with
+        source: HP:0100570
+        target: MESH:D003967
+    multigraph: true
+    nodes:
+    -   id: DB:DB12095
+        label: Drug
+        name: Telotristat ethyl
+    -   id: MESH:C000592493
+        label: Drug
+        name: Telotristat
+    -   id: UniProt:Q8IWU9
+        label: Protein
+        name: Tryptophan 5-hydroxylase 2
+    -   id: UniProt:P17752
+        label: Protein
+        name: Tryptophan 5-hydroxylase 1
+    -   id: HP:0100570
+        label: PhenotypicFeature
+        name: Carcinoid tumor
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0042427
+        label: BiologicalProcess
+        name: Serotonin biosynthetic process
+    -   id: MESH:D003967
+        label: Disease
+        name: Diarrhea
+    reference:
+    - https://go.drugbank.com/drugs/DB12095
