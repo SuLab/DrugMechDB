@@ -503,27 +503,9 @@
       target: UniProt:P11229
     - key: negatively regulates
       source: MESH:C056244
-      target: UniProt:P08172
-    - key: negatively regulates
-      source: MESH:C056244
-      target: UniProt:P20309
-    - key: negatively regulates
-      source: MESH:C056244
-      target: UniProt:P08173
-    - key: negatively regulates
-      source: MESH:C056244
       target: UniProt:P08912
     - key: participates in
       source: UniProt:P11229
-      target: GO:0007197
-    - key: participates in
-      source: UniProt:P08172
-      target: GO:0007197
-    - key: participates in
-      source: UniProt:P20309
-      target: GO:0007197
-    - key: participates in
-      source: UniProt:P08173
       target: GO:0007197
     - key: participates in
       source: UniProt:P08912
@@ -544,15 +526,6 @@
     - id: UniProt:P11229
       label: Protein
       name: Muscarinic acetylcholine receptor M1
-    - id: UniProt:P08172
-      label: Protein
-      name: Muscarinic acetylcholine receptor M2
-    - id: UniProt:P20309
-      label: Protein
-      name: Muscarinic acetylcholine receptor M3
-    - id: UniProt:P08173
-      label: Protein
-      name: Muscarinic acetylcholine receptor M4
     - id: UniProt:P08912
       label: Protein
       name: Muscarinic acetylcholine receptor M5
@@ -569,6 +542,7 @@
     - https://go.drugbank.com/drugs/DB00725
     - https://en.wikipedia.org/wiki/Homatropine_methylbromide
     - https://pubmed.ncbi.nlm.nih.gov/2865092/
+    - https://en.wikipedia.org/wiki/Muscarinic_antagonist#Comparison_table
 - directed: true
   graph:
     disease: Cough
@@ -579,37 +553,22 @@
   links:
     - key: negatively regulates
       source: MESH:C056244
-      target: UniProt:P11229
-    - key: negatively regulates
-      source: MESH:C056244
       target: UniProt:P08172
     - key: negatively regulates
       source: MESH:C056244
       target: UniProt:P20309
-    - key: negatively regulates
-      source: MESH:C056244
-      target: UniProt:P08173
-    - key: negatively regulates
-      source: MESH:C056244
-      target: UniProt:P08912
-    - key: participates in
-      source: UniProt:P11229
-      target: GO:0007197
     - key: participates in
       source: UniProt:P08172
       target: GO:0007197
     - key: participates in
       source: UniProt:P20309
       target: GO:0007197
-    - key: participates in
-      source: UniProt:P08173
-      target: GO:0007197
-    - key: participates in
-      source: UniProt:P08912
-      target: GO:0007197
     - key: positively correlated with
       source: GO:0007197
-      target: HP:4000007
+      target: GO:0006939
+    - key: positively correlated with
+      source: GO:0006939
+      target: HP:4000007    
     - key: contributes to
       source: HP:4000007
       target: MESH:D003371
@@ -620,24 +579,18 @@
       name: methylhomatropine
       alt_names:
         - Homatropine methylbromide
-    - id: UniProt:P11229
-      label: Protein
-      name: Muscarinic acetylcholine receptor M1
     - id: UniProt:P08172
       label: Protein
       name: Muscarinic acetylcholine receptor M2
     - id: UniProt:P20309
       label: Protein
       name: Muscarinic acetylcholine receptor M3
-    - id: UniProt:P08173
-      label: Protein
-      name: Muscarinic acetylcholine receptor M4
-    - id: UniProt:P08912
-      label: Protein
-      name: Muscarinic acetylcholine receptor M5
     - id: GO:0007197
       label: BiologicalProcess
       name: adenylate cyclase-inhibiting G protein-coupled acetylcholine receptor signaling pathway
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction      
     - id: HP:4000007
       label: PhenotypicFeature
       name: Bronchoconstriction
@@ -648,6 +601,7 @@
     - https://go.drugbank.com/drugs/DB00725
     - https://en.wikipedia.org/wiki/Homatropine_methylbromide
     - https://wtcs.pressbooks.pub/pharmacology/chapter/5-11-anticholinergics/
+    - https://en.wikipedia.org/wiki/Muscarinic_acetylcholine_receptor#M3_receptor
 - directed: true
   graph:
     disease: Irritable bowel syndrome
@@ -658,37 +612,22 @@
   links:
     - key: negatively regulates
       source: MESH:C056244
-      target: UniProt:P11229
-    - key: negatively regulates
-      source: MESH:C056244
       target: UniProt:P08172
     - key: negatively regulates
       source: MESH:C056244
       target: UniProt:P20309
-    - key: negatively regulates
-      source: MESH:C056244
-      target: UniProt:P08173
-    - key: negatively regulates
-      source: MESH:C056244
-      target: UniProt:P08912
-    - key: participates in
-      source: UniProt:P11229
-      target: GO:0007197
     - key: participates in
       source: UniProt:P08172
       target: GO:0007197
     - key: participates in
       source: UniProt:P20309
       target: GO:0007197
-    - key: participates in
-      source: UniProt:P08173
-      target: GO:0007197
-    - key: participates in
-      source: UniProt:P08912
-      target: GO:0007197
     - key: positively correlated with
       source: GO:0007197
-      target: HP:0032155
+      target: GO:0006939
+    - key: positively correlated with
+      source: GO:0006939
+      target: HP:0032155      
     - key: manifestation of
       source: HP:0032155
       target: MESH:D043183
@@ -699,24 +638,18 @@
       name: methylhomatropine
       alt_names:
         - Homatropine methylbromide
-    - id: UniProt:P11229
-      label: Protein
-      name: Muscarinic acetylcholine receptor M1
     - id: UniProt:P08172
       label: Protein
       name: Muscarinic acetylcholine receptor M2
     - id: UniProt:P20309
       label: Protein
       name: Muscarinic acetylcholine receptor M3
-    - id: UniProt:P08173
-      label: Protein
-      name: Muscarinic acetylcholine receptor M4
-    - id: UniProt:P08912
-      label: Protein
-      name: Muscarinic acetylcholine receptor M5
     - id: GO:0007197
       label: BiologicalProcess
       name: adenylate cyclase-inhibiting G protein-coupled acetylcholine receptor signaling pathway
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction      
     - id: HP:0032155
       label: PhenotypicFeature
       name: Abdominal cramps
@@ -726,7 +659,7 @@
   reference:
     - https://go.drugbank.com/drugs/DB00725
     - https://en.wikipedia.org/wiki/Homatropine_methylbromide
-    - https://en.wikipedia.org/wiki/Irritable_bowel_syndrome#Medication
+    - https://en.wikipedia.org/wiki/Irritable_bowel_syndrome#Medication    
 - directed: true
   graph:
     disease: Glucosylceramide beta-glucosidase deficiency
