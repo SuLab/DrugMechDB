@@ -794,11 +794,11 @@
         drug_mesh: MESH:D011405
         drugbank: DB:DB01182
     links:
-    -   key: decreases activity of
+    -   key: negatively regulates
         source: MESH:D011405
-        target: UniProt:Q14524
+        target: InterPro:IPR001696
     -   key: increases transport of
-        source: UniProt:Q14524
+        source: InterPro:IPR001696
         target: MESH:D012964
     -   key: positively regulates
         source: MESH:D012964
@@ -809,7 +809,7 @@
     -   key: located in
         source: GO:0006936
         target: UBERON:0004146
-    -   key: decreases activity of
+    -   key: participates in
         source: UBERON:0004146
         target: GO:0051899
     -   key: ameliorates
@@ -818,29 +818,14 @@
     -   key: correlated with
         source: HP:0004308
         target: MESH:D001281
-    -   key: decreases activity of
-        source: MESH:D011405
-        target: UniProt:Q12809
-    -   key: positively regulates
-        source: UniProt:Q12809
-        target: GO:0086009
-    -   key: affects activity of
-        source: GO:0086009
-        target: GO:0060047
-    -   key: negatively regulates
-        source: GO:0060047
-        target: GO:0015276
-    -   key: caused by
-        source: GO:0015276
-        target: MESH:D001281
     multigraph: true
     nodes:
     -   id: MESH:D011405
         label: Drug
         name: propafenone
-    -   id: UniProt:Q14524
-        label: Protein
-        name: Sodium channel protein type 5 subunit alpha
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
     -   id: MESH:D012964
         label: ChemicalSubstance
         name: Sodium
@@ -859,18 +844,6 @@
     -   id: HP:0004308
         label: PhenotypicFeature
         name: Ventricular arrhythmia
-    -   id: UniProt:Q12809
-        label: Protein
-        name: Potassium voltage-gated channel subfamily H member 2
-    -   id: GO:0086009
-        label: BiologicalProcess
-        name: repolarization
-    -   id: GO:0060047
-        label: BiologicalProcess
-        name: relaxation of the ventricles
-    -   id: GO:0015276
-        label: BiologicalProcess
-        name: ionotropic effect
     -   id: MESH:D001281
         label: Disease
         name: Paroxysmal atrial fibrillation
@@ -934,19 +907,19 @@
     -   key: positively regulates
         source: UniProt:P07437
         target: GO:0046785
-    -   key: positively regulates
+    -   key: positively correlated with
         source: GO:0046785
         target: GO:0140014
-    -   key: decreases abundance of
+    -   key: located in
         source: GO:0140014
         target: CL:0000775
-    -   key: decreases abundance of
+    -   key: located in
         source: GO:0140014
         target: CL:0000576
-    -   key: decreases abundance of
+    -   key: positively correlated with
         source: GO:0030593
         target: CL:0000775
-    -   key: decreases abundance of
+    -   key: positively correlated with
         source: GO:1990266
         target: CL:0000775
     -   key: part of
@@ -1069,19 +1042,19 @@
     -   key: positively regulates
         source: UniProt:P07437
         target: GO:0046785
-    -   key: positively regulates
+    -   key: positively correlated with
         source: GO:0046785
         target: GO:0140014
-    -   key: decreases abundance of
+    -   key: located in
         source: GO:0140014
         target: CL:0000775
-    -   key: decreases abundance of
+    -   key: located in
         source: GO:0140014
         target: CL:0000576
-    -   key: decreases abundance of
+    -   key: positively correlated with
         source: GO:0030593
         target: CL:0000775
-    -   key: decreases abundance of
+    -   key: positively correlated with
         source: GO:1990266
         target: CL:0000775
     -   key: part of
