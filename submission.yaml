@@ -1,1 +1,1263 @@
-
+-   directed: true
+    graph:
+        disease: Arteriosclerotic vascular disease
+        disease_mesh: MESH:D001161
+        drug: pravastatin
+        drug_mesh: MESH:D017035
+        drugbank: DB:DB00175
+    links:
+    -   key: decreases activity of
+        source: MESH:D017035
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: affects risk for
+        source: MESH:D002784
+        target: MESH:D001161
+    -   key: increases activity of
+        source: MESH:D017035
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: affects risk for
+        source: MESH:D008077
+        target: MESH:D001161
+    multigraph: true
+    nodes:
+    -   id: MESH:D017035
+        label: Drug
+        name: Pravastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D001161
+        label: Disease
+        name: Arteriosclerotic vascular disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00175
+-   directed: true
+    graph:
+        disease: Cerebrovascular accident
+        disease_mesh: MESH:D020521
+        drug: pravastatin
+        drug_mesh: MESH:D017035
+        drugbank: DB:DB00175
+    links:
+    -   key: decreases activity of
+        source: MESH:D017035
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: affects risk for
+        source: MESH:D002784
+        target: MESH:D020521
+    -   key: increases activity of
+        source: MESH:D017035
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: affects risk for
+        source: MESH:D008077
+        target: MESH:D020521
+    multigraph: true
+    nodes:
+    -   id: MESH:D017035
+        label: Drug
+        name: Pravastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D020521
+        label: Disease
+        name: Cerebrovascular accident
+    reference:
+    - https://go.drugbank.com/drugs/DB00175
+-   directed: true
+    graph:
+        disease: Familial type 3 hyperlipoproteinemia
+        disease_mesh: MESH:D006952
+        drug: pravastatin
+        drug_mesh: MESH:D017035
+        drugbank: DB:DB00175
+    links:
+    -   key: decreases activity of
+        source: MESH:D017035
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006952
+    -   key: increases activity of
+        source: MESH:D017035
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006952
+    multigraph: true
+    nodes:
+    -   id: MESH:D017035
+        label: Drug
+        name: Pravastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006952
+        label: Disease
+        name: Familial type 3 hyperlipoproteinemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00175
+-   directed: true
+    graph:
+        disease: Mixed hyperlipidemia
+        disease_mesh: MESH:D006950
+        drug: pravastatin
+        drug_mesh: MESH:D017035
+        drugbank: DB:DB00175
+    links:
+    -   key: decreases activity of
+        source: MESH:D017035
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006950
+    -   key: increases activity of
+        source: MESH:D017035
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:D017035
+        label: Drug
+        name: Pravastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006950
+        label: Disease
+        name: Mixed hyperlipidemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00175
+-   directed: true
+    graph:
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+        drug: pravastatin
+        drug_mesh: MESH:D017035
+        drugbank: DB:DB00175
+    links:
+    -   key: decreases activity of
+        source: MESH:D017035
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D015228
+    -   key: increases activity of
+        source: MESH:D017035
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: MESH:D017035
+        label: Drug
+        name: Pravastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00175
+-   directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: pravastatin
+        drug_mesh: MESH:D017035
+        drugbank: DB:DB00175
+    links:
+    -   key: decreases activity of
+        source: MESH:D017035
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006937
+    -   key: increases activity of
+        source: MESH:D017035
+        target: UniProt:P01130
+    -   key: positively regulates
+        source: UniProt:P01130
+        target: GO:0034383
+    -   key: decreases abundance of
+        source: GO:0034383
+        target: MESH:D008077
+    -   key: positively correlated with
+        source: MESH:D008077
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D017035
+        label: Drug
+        name: Pravastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: Cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UniProt:P01130
+        label: Protein
+        name: Low-density lipoprotein receptor
+    -   id: GO:0034383
+        label: BiologicalProcess
+        name: Low-density lipoprotein particle clearance
+    -   id: MESH:D008077
+        label: ChemicalSubstance
+        name: Lipoproteins, LDL
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference:
+    - https://go.drugbank.com/drugs/DB00175
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: bupivacaine
+        drug_mesh: MESH:D002045
+        drugbank: DB:DB00297
+    links:
+    -   key: decreases activity of
+        source: DB:DB00297
+        target: UniProt:Q9Y5Y9
+    -   key: positively regulates
+        source: UniProt:Q9Y5Y9
+        target: GO:0086010
+    -   key: occurs in
+        source: GO:0086010
+        target: CL:0000197
+    -   key: positively correlated with
+        source: CL:0000197
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: DB:DB00297
+        label: Drug
+        name: Bupivacaine
+    -   id: UniProt:Q9Y5Y9
+        label: Protein
+        name: Sodium channel protein type 10 subunit alpha
+    -   id: GO:0086010
+        label: BiologicalProcess
+        name: Membrane depolarization during action potential
+    -   id: CL:0000197
+        label: Cell
+        name: Sensory Receptor Cell
+    -   id: MESH:D011537
+        label: Disease
+        name: Itching of skin
+    reference: 
+    - https://go.drugbank.com/drugs/DB00297
+-   directed: true
+    graph:
+        disease: Cluster headache syndrome
+        disease_mesh: MESH:D003027
+        drug: dihydroergotamine
+        drug_mesh: MESH:D004087
+        drugbank: DB:DB00320
+    links:
+    -   key: increases activity of
+        source: MESH:D004087
+        target: UniProt:P28221
+    -   key: increases activity of
+        source: MESH:D004087
+        target: UniProt:P28222
+    -   key: positively regulates
+        source: UniProt:P28221
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P28222
+        target: GO:0042310
+    -   key: negatively regulates
+        source: UniProt:P28222
+        target: GO:1990793
+    -   key: negatively regulates
+        source: UniProt:P28221
+        target: GO:1990793
+    -   key: treats
+        source: GO:0042310
+        target: MESH:D003027
+    -   key: positively correlated with
+        source: GO:1990793
+        target: MESH:D010146
+    -   key: positively correlated with
+        source: MESH:D010146
+        target: MESH:D003027
+    multigraph: true
+    nodes:
+    -   id: MESH:D004087
+        label: Drug
+        name: Dihydroergotamine
+    -   id: UniProt:P28221
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1D
+    -   id: UniProt:P28222
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1B
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:1990793
+        label: BiologicalProcess
+        name: Substance P secretion, neurotransmission
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D003027
+        label: Disease
+        name: Cluster headache syndrome
+    reference: 
+    - https://jamanetwork.com/journals/jamaneurology/fullarticle/782346
+    - https://go.drugbank.com/drugs/DB00320#BE0000797
+-   directed: true
+    graph:
+        disease: Vascular headache
+        disease_mesh: MESH:D014653
+        drug: dihydroergotamine
+        drug_mesh: MESH:D004087
+        drugbank: DB:DB00320
+    links:
+    -   key: increases activity of
+        source: MESH:D004087
+        target: UniProt:P28221
+    -   key: increases activity of
+        source: MESH:D004087
+        target: UniProt:P28222
+    -   key: positively regulates
+        source: UniProt:P28221
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P28222
+        target: GO:0042310
+    -   key: negatively regulates
+        source: UniProt:P28222
+        target: GO:1990793
+    -   key: negatively regulates
+        source: UniProt:P28221
+        target: GO:1990793
+    -   key: treats
+        source: GO:0042310
+        target: MESH:D014653
+    -   key: positively correlated with
+        source: GO:1990793
+        target: MESH:D010146
+    -   key: positively correlated with
+        source: MESH:D010146
+        target: MESH:D014653
+    multigraph: true
+    nodes:
+    -   id: MESH:D004087
+        label: Drug
+        name: Dihydroergotamine
+    -   id: UniProt:P28221
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1D
+    -   id: UniProt:P28222
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1B
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:1990793
+        label: BiologicalProcess
+        name: Substance P secretion, neurotransmission
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D014653
+        label: Disease
+        name: Vascular headache
+    reference: 
+    - https://jamanetwork.com/journals/jamaneurology/fullarticle/782346
+    - https://go.drugbank.com/drugs/DB00320#BE0000797
+-   directed: true
+    graph:
+        disease: Migraine
+        disease_mesh: MESH:D008881
+        drug: dihydroergotamine
+        drug_mesh: MESH:D004087
+        drugbank: DB:DB00320
+    links:
+    -   key: increases activity of
+        source: MESH:D004087
+        target: UniProt:P28221
+    -   key: increases activity of
+        source: MESH:D004087
+        target: UniProt:P28222
+    -   key: positively regulates
+        source: UniProt:P28221
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P28222
+        target: GO:0042310
+    -   key: negatively regulates
+        source: UniProt:P28222
+        target: GO:1990793
+    -   key: negatively regulates
+        source: UniProt:P28221
+        target: GO:1990793
+    -   key: treats
+        source: GO:0042310
+        target: MESH:D008881
+    -   key: positively correlated with
+        source: GO:1990793
+        target: MESH:D010146
+    -   key: positively correlated with
+        source: MESH:D010146
+        target: MESH:D008881
+    multigraph: true
+    nodes:
+    -   id: MESH:D004087
+        label: Drug
+        name: Dihydroergotamine
+    -   id: UniProt:P28221
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1D
+    -   id: UniProt:P28222
+        label: Protein
+        name: 5-hydroxytryptamine receptor 1B
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:1990793
+        label: BiologicalProcess
+        name: Substance P secretion, neurotransmission
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D008881
+        label: Disease
+        name: Migraine
+    reference: 
+    - https://jamanetwork.com/journals/jamaneurology/fullarticle/782346
+    - https://go.drugbank.com/drugs/DB00320#BE0000797 
+-   directed: true
+    graph:
+        disease: Megaloblastic anemia
+        disease_mesh: MESH:D000749
+        drug: leucovorin
+        drug_mesh: MESH:D002955
+        drugbank: DB:DB00650
+    links:
+    -   key: chemically similar to
+        source: MESH:D002955
+        target: MESH:C030371
+    -   key: positively regulates
+        source: MESH:C030371
+        target: GO:0006260
+    -   key: negatively correlated with
+        source: GO:0006260
+        target: MESH:D000749
+    multigraph: true
+    nodes:
+    -   id: MESH:D002955
+        label: Drug
+        name: Leucovorin
+    -   id: MESH:C030371
+        label: ChemicalSubstance
+        name: 5,6,7,8-tetrahydrofolic acid
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: MESH:D000749
+        label: Disease
+        name: Megaloblastic anemia
+    reference: 
+    - https://en.wikipedia.org/wiki/Megaloblastic_anemia
+    - https://go.drugbank.com/drugs/DB00650
+-   directed: true
+    graph:
+        disease: Folic acid deficiency
+        disease_mesh: MESH:D005494
+        drug: leucovorin
+        drug_mesh: MESH:D002955
+        drugbank: DB:DB00650
+    links:
+    -   key: chemically similar to
+        source: MESH:D002955
+        target: MESH:C030371
+    -   key: positively regulates
+        source: MESH:C030371
+        target: GO:0006260
+    -   key: negatively correlated with
+        source: GO:0006260
+        target: MESH:D000749
+    -   key: manifestation of
+        source: MESH:D000749
+        target: MESH:D005494
+    multigraph: true
+    nodes:
+    -   id: MESH:D002955
+        label: Drug
+        name: Leucovorin
+    -   id: MESH:C030371
+        label: ChemicalSubstance
+        name: 5,6,7,8-tetrahydrofolic acid
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: MESH:D000749
+        label: Disease
+        name: Megaloblastic anemia
+    -   id: MESH:D005494
+        label: Disease
+        name: Folic acid deficiency
+    reference: 
+    - https://en.wikipedia.org/wiki/Megaloblastic_anemia
+    - https://go.drugbank.com/drugs/DB00650
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: pemirolast
+        drug_mesh: MESH:C055139
+        drugbank: DB:DB00885
+    links:
+    -   key: decreases activity of
+        source: MESH:C055139
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C055139
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C055139
+        label: Drug
+        name: Pemirolast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+    - https://go.drugbank.com/drugs/DB00885
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: pemirolast
+        drug_mesh: MESH:C055139
+        drugbank: DB:DB00885
+    links:
+    -   key: decreases activity of
+        source: MESH:C055139
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C055139
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:C055139
+        label: Drug
+        name: Pemirolast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+    - https://go.drugbank.com/drugs/DB00885
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: pemirolast
+        drug_mesh: MESH:C055139
+        drugbank: DB:DB00885
+    links:
+    -   key: decreases activity of
+        source: MESH:C055139
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C055139
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:C055139
+        label: Drug
+        name: Pemirolast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    - https://en.wikipedia.org/wiki/Antihistamine#H1-antihistamines
+    - https://go.drugbank.com/drugs/DB00885
+-   directed: true
+    graph:
+        disease: Bronchospasm
+        disease_mesh: MESH:D001986
+        drug: salbutamol
+        drug_mesh: MESH:D000420
+        drugbank: DB:DB01001
+    links:
+    -   key: positively regulates
+        source: MESH:D000420
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: UniProt:B7Z2C7
+    -   key: increases abundance of
+        source: UniProt:B7Z2C7
+        target: CHEBI:17489
+    -   key: negatively correlated with
+        source: CHEBI:17489
+        target: HP:4000007
+    -   key: positively correlated with
+        source: HP:4000007
+        target: MESH:D001986
+    multigraph: true
+    nodes:
+    -   id: MESH:D000420
+        label: Drug
+        name: Salbutamol
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: UniProt:B7Z2C7
+        label: Protein
+        name: Adenylate cyclase
+    -   id: CHEBI:17489
+        label: ChemicalSubstance
+        name: 3',5'-cyclic AMP
+    -   id: HP:4000007
+        label: PhenotypicFeature
+        name: Bronchoconstriction
+    -   id: MESH:D001986
+        label: Disease
+        name: Bronchospasm
+    reference:
+    - https://go.drugbank.com/drugs/DB01001
+-   directed: true
+    graph:
+        disease: Disseminated intravascular coagulation
+        disease_mesh: MESH:D004211
+        drug: heparin
+        drug_mesh: MESH:D006493
+        drugbank: DB:DB01109
+    links:
+    -   key: decreases activity of
+        source: MESH:D006493
+        target: UniProt:P00742
+    -   key: increases activity of
+        source: MESH:D006493
+        target: UniProt:P01008
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0072377
+    -   key: negatively regulates
+        source: UniProt:P01008
+        target: GO:0007596
+    -   key: positively correlated with
+        source: GO:0072377
+        target: GO:0072378
+    -   key: positively correlated with
+        source: GO:0007596
+        target: GO:0072378
+    -   key: positively correlated with
+        source: GO:0072378
+        target: MESH:D004211
+    multigraph: true
+    nodes:
+    -   id: MESH:D006493
+        label: Drug
+        name: Heparin
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: UniProt:P01008
+        label: Protein
+        name: Antithrombin-III
+    -   id: GO:0072377
+        label: BiologicalProcess
+        name: Blood coagulation, common pathway
+    -   id: GO:0007596
+        label: BiologicalProcess
+        name: Blood coagulation
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D004211
+        label: Disease
+        name: Disseminated intravascular coagulation
+    reference: 
+    - https://en.wikipedia.org/wiki/Disseminated_intravascular_coagulation
+    - https://go.drugbank.com/drugs/DB01109
+-   directed: true
+    graph:
+        disease: Deep venous thrombosis
+        disease_mesh: MESH:D020246
+        drug: heparin
+        drug_mesh: MESH:D006493
+        drugbank: DB:DB01109
+    links:
+    -   key: decreases activity of
+        source: MESH:D006493
+        target: UniProt:P00742
+    -   key: increases activity of
+        source: MESH:D006493
+        target: UniProt:P01008
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0072377
+    -   key: negatively regulates
+        source: UniProt:P01008
+        target: GO:0007596
+    -   key: positively correlated with
+        source: GO:0072377
+        target: GO:0072378
+    -   key: positively correlated with
+        source: GO:0007596
+        target: GO:0072378
+    -   key: positively correlated with
+        source: GO:0072378
+        target: MESH:D020246
+    multigraph: true
+    nodes:
+    -   id: MESH:D006493
+        label: Drug
+        name: Heparin
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: UniProt:P01008
+        label: Protein
+        name: Antithrombin-III
+    -   id: GO:0072377
+        label: BiologicalProcess
+        name: Blood coagulation, common pathway
+    -   id: GO:0007596
+        label: BiologicalProcess
+        name: Blood coagulation
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D020246
+        label: Disease
+        name: Deep venous thrombosis
+    reference: 
+    - https://en.wikipedia.org/wiki/Disseminated_intravascular_coagulation
+    - https://go.drugbank.com/drugs/DB01109
+-   directed: true
+    graph:
+        disease: Pulmonary thromboembolism
+        disease_mesh: MESH:D011655
+        drug: heparin
+        drug_mesh: MESH:D006493
+        drugbank: DB:DB01109
+    links:
+    -   key: decreases activity of
+        source: MESH:D006493
+        target: UniProt:P00742
+    -   key: increases activity of
+        source: MESH:D006493
+        target: UniProt:P01008
+    -   key: positively regulates
+        source: UniProt:P00742
+        target: GO:0072377
+    -   key: negatively regulates
+        source: UniProt:P01008
+        target: GO:0007596
+    -   key: positively correlated with
+        source: GO:0072377
+        target: GO:0072378
+    -   key: positively correlated with
+        source: GO:0007596
+        target: GO:0072378
+    -   key: positively correlated with
+        source: GO:0072378
+        target: MESH:D011655
+    multigraph: true
+    nodes:
+    -   id: MESH:D006493
+        label: Drug
+        name: Heparin
+    -   id: UniProt:P00742
+        label: Protein
+        name: Coagulation factor X
+    -   id: UniProt:P01008
+        label: Protein
+        name: Antithrombin-III
+    -   id: GO:0072377
+        label: BiologicalProcess
+        name: Blood coagulation, common pathway
+    -   id: GO:0007596
+        label: BiologicalProcess
+        name: Blood coagulation
+    -   id: GO:0072378
+        label: BiologicalProcess
+        name: Blood coagulation, fibrin clot formation
+    -   id: MESH:D011655
+        label: Disease
+        name: Pulmonary thromboembolism
+    reference: 
+    - https://en.wikipedia.org/wiki/Disseminated_intravascular_coagulation
+    - https://go.drugbank.com/drugs/DB01109
+-   directed: true
+    graph:
+        disease: Myeloproliferative disorder
+        disease_mesh: MESH:D009196
+        drug: ruxolitinib
+        drug_mesh: MESH:C540383
+        drugbank: DB:DB08877
+    links:
+    -   key: decreases activity of
+        source: MESH:C540383
+        target: UniProt:O60674
+    -   key: decreases activity of
+        source: MESH:C540383
+        target: UniProt:P23458
+    -   key: positively regulates
+        source: UniProt:O60674
+        target: GO:0007259
+    -   key: positively regulates
+        source: UniProt:P23458
+        target: GO:0007259
+    -   key: positively regulates
+        source: GO:0007259
+        target: GO:0070102
+    -   key: positively regulates
+        source: GO:0007259
+        target: GO:0019221
+    -   key: positively regulates
+        source: GO:0007259
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0070102
+        target: MESH:D009196
+    -   key: positively correlated with
+        source: GO:0019221
+        target: MESH:D009196
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D009196
+    multigraph: true
+    nodes:
+    -   id: MESH:C540383
+        label: Drug
+        name: Ruxolitinib
+    -   id: UniProt:O60674
+        label: Protein
+        name: Tyrosine-protein kinase JAK2
+    -   id: UniProt:P23458
+        label: Protein
+        name: Tyrosine-protein kinase JAK1
+    -   id: GO:0007259
+        label: BiologicalProcess
+        name: Receptor signaling pathway via JAK-STAT
+    -   id: GO:0070102
+        label: BiologicalProcess
+        name: Interleukin-6-mediated signaling pathway
+    -   id: GO:0019221
+        label: BiologicalProcess
+        name: Cytokine-mediated signaling pathway
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D009196
+        label: Disease
+        name: Myeloproliferative disorder
+    reference: 
+    - https://go.drugbank.com/drugs/DB08877#BE0002408
+-   directed: true
+    graph:
+        disease: Polycythemia vera
+        disease_mesh: MESH:D011087
+        drug: ruxolitinib
+        drug_mesh: MESH:C540383
+        drugbank: DB:DB08877
+    links:
+    -   key: decreases activity of
+        source: MESH:C540383
+        target: UniProt:O60674
+    -   key: decreases activity of
+        source: MESH:C540383
+        target: UniProt:P23458
+    -   key: positively regulates
+        source: UniProt:O60674
+        target: GO:0007259
+    -   key: positively regulates
+        source: UniProt:P23458
+        target: GO:0007259
+    -   key: positively regulates
+        source: GO:0007259
+        target: GO:0070102
+    -   key: positively regulates
+        source: GO:0007259
+        target: GO:0019221
+    -   key: positively regulates
+        source: GO:0007259
+        target: GO:0008283
+    -   key: positively correlated with
+        source: GO:0070102
+        target: MESH:D011087
+    -   key: positively correlated with
+        source: GO:0019221
+        target: MESH:D011087
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D011087
+    multigraph: true
+    nodes:
+    -   id: MESH:C540383
+        label: Drug
+        name: Ruxolitinib
+    -   id: UniProt:O60674
+        label: Protein
+        name: Tyrosine-protein kinase JAK2
+    -   id: UniProt:P23458
+        label: Protein
+        name: Tyrosine-protein kinase JAK1
+    -   id: GO:0007259
+        label: BiologicalProcess
+        name: Receptor signaling pathway via JAK-STAT
+    -   id: GO:0070102
+        label: BiologicalProcess
+        name: Interleukin-6-mediated signaling pathway
+    -   id: GO:0019221
+        label: BiologicalProcess
+        name: Cytokine-mediated signaling pathway
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D011087
+        label: Disease
+        name: Polycythemia vera
+    reference: 
+    - https://go.drugbank.com/drugs/DB08877#BE0002408
+-   comment: Gimeracil is available in combination with oteracil and tegafur within the commercially available product "Teysuno". 
+     Gimeracil's main role within Teysuno is to prevent the breakdown of Fluorouracil (5-FU), which helps to maintin high enough concentrations for sustained effect against cancer cells.
+    directed: true
+    graph:
+        disease: Malignant tumor of stomach
+        disease_mesh: MESH:D013274
+        drug: gimeracil
+        drug_mesh: MESH:C104201
+        drugbank: DB:DB09257
+    links:
+    -   key: decreases activity of
+        source: MESH:C104201
+        target: UniProt:Q12882 
+    -   key: decreases abundance of
+        source: UniProt:Q12882 
+        target: MESH:D005472
+    -   key: treats
+        source: MESH:D005472
+        target: MESH:D013274
+    multigraph: true
+    nodes:
+    -   id: MESH:C104201
+        label: Drug
+        name: Gimeracil
+    -   id: UniProt:Q12882 
+        label: Protein
+        name: Dihydropyrimidine dehydrogenase
+    -   id: MESH:D005472
+        label: Drug
+        name: Fluorouracil
+    -   id: MESH:D013274
+        label: Disease
+        name: Malignant tumor of stomach
+    reference: 
+    - https://go.drugbank.com/drugs/DB09257#BE0000960
+-   directed: true
+    graph:
+        disease: Influenza
+        disease_mesh: MESH:D007251
+        drug: laninamivir octanoate hydrate
+        drug_mesh: MESH:C546918
+        drugbank: DB:DB11888
+    links:
+    -   key: has metabolite
+        source: MESH:C546918
+        target: DB:DB12791
+    -   key: decreases activity of
+        source: DB:DB12791
+        target: UniProt:P03468
+    -   key: positively regulates
+        source: UniProt:P03468
+        target: GO:0019076
+    -   key: in taxon
+        source: GO:0019076
+        target: NCBITaxon:11320
+    -   key: causes
+        source: NCBITaxon:11320
+        target: MESH:D007251 
+    multigraph: true
+    nodes:
+    -   id: MESH:C546918
+        label: Drug
+        name: Laninamivir octanoate hydrate
+    -   id: DB:DB12791
+        label: Drug
+        name: Laninamivir
+    -   id: UniProt:P03468
+        label: Protein
+        name: Neuraminidase
+    -   id: GO:0019076
+        label: BiologicalProcess
+        name: Viral release from host cell
+    -   id: NCBITaxon:11320
+        label: OrganismTaxon
+        name: Influenza A virus
+    -   id: MESH:D007251
+        label: Disease
+        name: Influenza
+    reference: 
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL467058/
+    - https://en.wikipedia.org/wiki/Discovery_and_development_of_neuraminidase_inhibitors#Laninamivir
+    - https://go.drugbank.com/drugs/DB11888
