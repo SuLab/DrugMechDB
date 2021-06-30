@@ -1,1 +1,1738 @@
+- directed: true
+  graph:
+    _id: DB00952_MESH_D008881_1
+    disease: Migraine
+    disease_mesh: MESH:D008881
+    drug: Naratriptan
+    drug_mesh: MESH:C106783
+    drugbank: DB:DB00952
+  links:
+    - key: positively regulates
+      source: MESH:C106783
+      target: UniProt:P28221
+    - key: positively regulates
+      source: MESH:C106783
+      target: UniProt:P28222
+    - key: positively regulates
+      source: MESH:C106783
+      target: UniProt:P30939
+    - key: negatively regulates
+      source: UniProt:P28221
+      target: GO:0150076
+    - key: negatively regulates
+      source: UniProt:P30939
+      target: GO:0150076
+    - key: positively regulates
+      source: UniProt:P28222
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0150076
+      target: MESH:D008881
+    - key: negatively correlated with
+      source: GO:0042310
+      target: MESH:D008881
+  multigraph: true
+  nodes:
+    - id: MESH:C106783
+      label: Drug
+      name: Naratriptan
+    - id: UniProt:P28221
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1D
+    - id: UniProt:P28222
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1B
+    - id: UniProt:P30939
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1F
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: GO:0150076
+      label: BiologicalProcess
+      name: neuroinflammatory response
+    - id: MESH:D008881
+      label: Disease
+      name: Migraine
+  reference:
+    - https://go.drugbank.com/drugs/DB00952
+    - https://pubmed.ncbi.nlm.nih.gov/31263254/
+    - https://pubmed.ncbi.nlm.nih.gov/15911785/
+    - https://pubmed.ncbi.nlm.nih.gov/15320857/
+- directed: true
+  graph:
+    _id: DB00612_MESH_D006973_1
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: bisoprolol
+    drug_mesh: MESH:D017298
+    drugbank: DB:DB00612
+  links:
+    - key: decreases activity of
+      source: MESH:D017298
+      target: UBERON:0034729
+    - key: positively correlated with
+      source: UBERON:0034729
+      target: GO:0042310
+    - key: decreases activity of
+      source: MESH:D017298
+      target: UniProt:P08588
+    - key: positively correlated with
+      source: UniProt:P08588
+      target: HP:0033533
+    - key: positively correlated with
+      source: HP:0033533
+      target: HP:0032263
+    - key: negatively correlated with
+      source: MESH:D017298
+      target: GO:0002001
+    - key: positively correlated with
+      source: GO:0002001
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: positively correlated with
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D017298
+      label: Drug
+      name: bisoprolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: UBERON:0034729
+      label: GrossAnatomicalStructure
+      name: sympathetic nerve
+    - id: GO:0002001
+      label: BiologicalProcess
+      name: renin secretion into blood stream
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0033533
+      label: PhenotypicFeature
+      name: Increased cardiac output
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00612
+    - https://en.wikipedia.org/wiki/Bisoprolol#Mechanism_of_action
+  comment: At higher doses, bisoprolol antagonizes the B2 adrenergic receptors, but is mainly selective for B1 receptors.
+- directed: true
+  graph:
+    _id: DB00195_MESH_D006973_1
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: betaxolol
+    drug_mesh: MESH:D015784
+    drugbank: DB:DB00195
+  links:
+    - key: decreases activity of
+      source: MESH:D015784
+      target: UniProt:P08588
+    - key: participates in
+      source: UniProt:P08588
+      target: REACT:R-HSA-418555
+    - key: increases abundance of
+      source: REACT:R-HSA-418555
+      target: CHEBI:17489
+    - key: positively regulates
+      source: REACT:R-HSA-418555
+      target: InterPro:IPR005446
+    - key: positively correlated with
+      source: InterPro:IPR005446
+      target: GO:0060047
+    - key: positively correlated with
+      source: GO:0060047
+      target: HP:0032263
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: GO:0060047
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D015784
+      label: Drug
+      name: betaxolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: REACT:R-HSA-418555
+      label: Pathway
+      name: G alpha (s) signalling events
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: GO:0060047
+      label: BiologicalProcess
+      name: heart contraction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00195#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Betaxolol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL423/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2369#section=Pharmacology-and-Biochemistry
+    - https://en.wikipedia.org/wiki/CAMP-dependent_pathway#Importance
+  comment: L-type calcium channels are modulated by the adrenergic nervous system, hence betaxolol could indirectly modulate L calcium channels, decreasing heart rate and contraction, ultimately decreasing high blood pressure (https://en.wikipedia.org/wiki/L-type_calcium_channel#Inhibition_and_modulation).
+- directed: true
+  graph:
+    _id: DB00194_MESH_D016849_1
+    disease: Herpes simplex keratitis
+    disease_mesh: MESH:D016849
+    drug: vidarabine
+    drug_mesh: MESH:D014740
+    drugbank: DB:DB00194
+  links:
+    - key: has metabolite
+      source: MESH:D014740
+      target: MESH:D001084
+    - key: decreases activity of
+      source: MESH:D001084
+      target: UniProt:P04293
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0039686
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0090503
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0043631
+    - key: in taxon
+      source: GO:0043631
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0039686
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0090503
+      target: NCBITaxon:10299
+    - key: causes
+      source: NCBITaxon:10299
+      target: MESH:D016849
+  multigraph: true
+  nodes:
+    - id: MESH:D014740
+      label: Drug
+      name: vidarabine
+    - id: MESH:D001084
+      label: ChemicalSubstance
+      name: Vidarabine Phosphate
+    - id: UniProt:P04293
+      label: Protein
+      name: DNA polymerase catalytic subunit
+    - id: GO:0039686
+      label: BiologicalProcess
+      name: bidirectional double-stranded viral DNA replication
+    - id: GO:0090503
+      label: BiologicalProcess
+      name: RNA phosphodiester bond hydrolysis, exonucleolytic
+    - id: GO:0043631
+      label: BiologicalProcess
+      name: RNA polyadenylation
+    - id: NCBITaxon:10299
+      label: OrganismTaxon
+      name: Human alphaherpesvirus 1 strain 17
+    - id: MESH:D016849
+      label: Disease
+      name: Herpes simplex keratitis
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1090/
+    - https://en.wikipedia.org/wiki/Vidarabine#Mode_of_action
+    - https://go.drugbank.com/drugs/DB00194
+  comment: The drug needs to be converted to vidarabine phosphate first (monophosphate --> diphosphate --> triphosphate) to become active and exert its role as inhibitor (https://pubchem.ncbi.nlm.nih.gov/compound/21704#section=Mechanism-of-Action).
+- directed: true
+  graph:
+    _id: DB00194_MESH_D007635_1
+    disease: Herpes simplex dendritic keratitis
+    disease_mesh: MESH:D007635
+    drug: vidarabine
+    drug_mesh: MESH:D014740
+    drugbank: DB:DB00194
+  links:
+    - key: has metabolite
+      source: MESH:D014740
+      target: MESH:D001084
+    - key: decreases activity of
+      source: MESH:D001084
+      target: UniProt:P04293
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0039686
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0090503
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0043631
+    - key: in taxon
+      source: GO:0043631
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0039686
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0090503
+      target: NCBITaxon:10299
+    - key: causes
+      source: NCBITaxon:10299
+      target: MESH:D007635
+  multigraph: true
+  nodes:
+    - id: MESH:D014740
+      label: Drug
+      name: vidarabine
+    - id: MESH:D001084
+      label: ChemicalSubstance
+      name: Vidarabine Phosphate
+    - id: UniProt:P04293
+      label: Protein
+      name: DNA polymerase catalytic subunit
+    - id: GO:0039686
+      label: BiologicalProcess
+      name: bidirectional double-stranded viral DNA replication
+    - id: GO:0090503
+      label: BiologicalProcess
+      name: RNA phosphodiester bond hydrolysis, exonucleolytic
+    - id: GO:0043631
+      label: BiologicalProcess
+      name: RNA polyadenylation
+    - id: NCBITaxon:10299
+      label: OrganismTaxon
+      name: Human alphaherpesvirus 1 strain 17
+    - id: MESH:D007635
+      label: Disease
+      name: Herpes simplex dendritic keratitis
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1090/
+    - https://en.wikipedia.org/wiki/Vidarabine#Mode_of_action
+    - https://go.drugbank.com/drugs/DB00194
+- directed: true
+  graph:
+    _id: DB01606_MESH_D013203_1
+    disease: Infection due to Staphylococcus aureus
+    disease_mesh: MESH:D013203
+    drug: tazobactam
+    drug_mesh: MESH:C043265
+    drugbank: DB:DB01606
+  links:
+    - key: negatively regulates
+      source: MESH:C043265
+      target: InterPro:IPR012338
+    - key: positively regulates
+      source: InterPro:IPR012338
+      target: GO:0030655
+    - key: in taxon
+      source: GO:0030655
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D013203
+  multigraph: true
+  nodes:
+    - id: MESH:C043265
+      label: Drug
+      name: tazobactam
+    - id: InterPro:IPR012338
+      label: GeneFamily
+      name: Beta-lactamase/transpeptidase-like
+    - id: GO:0030655
+      label: BiologicalProcess
+      name: beta-lactam antibiotic catabolic process
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D013203
+      label: Disease
+      name: Infection due to Staphylococcus aureus
+  reference: https://go.drugbank.com/drugs/DB01606#mechanism-of-action
+- directed: true
+  graph:
+    _id: DB01606_MESH_D001064_1
+    disease: Appendicitis
+    disease_mesh: MESH:D001064
+    drug: tazobactam
+    drug_mesh: MESH:C043265
+    drugbank: DB:DB01606
+  links:
+    - key: negatively regulates
+      source: MESH:C043265
+      target: InterPro:IPR012338
+    - key: positively regulates
+      source: InterPro:IPR012338
+      target: GO:0030655
+    - key: in taxon
+      source: GO:0030655
+      target: NCBITaxon:1763
+    - key: causes
+      source: NCBITaxon:1763
+      target: MESH:D001064
+  multigraph: true
+  nodes:
+    - id: MESH:C043265
+      label: Drug
+      name: tazobactam
+    - id: InterPro:IPR012338
+      label: GeneFamily
+      name: Beta-lactamase/transpeptidase-like
+    - id: GO:0030655
+      label: BiologicalProcess
+      name: beta-lactam antibiotic catabolic process
+    - id: NCBITaxon:1763
+      label: OrganismTaxon
+      name: Mycobacterium sp.
+    - id: MESH:D001064
+      label: Disease
+      name: Appendicitis
+  reference: https://go.drugbank.com/drugs/DB01606#mechanism-of-action
+- directed: true
+  graph:
+    _id: DB08842_MESH_D000544_1
+    disease: Alzheimer's disease
+    disease_mesh: MESH:D000544
+    drug: acetylcarnitine
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB08842
+  links:
+    - key: positively regulates
+      source: MESH:D004005
+      target: GO:0007271
+    - key: positively correlated with
+      source: GO:0007271
+      target: GO:0014055
+    - key: negatively correlated with
+      source: GO:0014055
+      target: MESH:D000544
+    - key: positively regulates
+      source: MESH:D004005
+      target: GO:0035249
+    - key: positively correlated with
+      source: GO:0035249
+      target: GO:0061535
+    - key: negatively correlated with
+      source: GO:0061535
+      target: MESH:D000544
+    - key: increases activity of
+      source: MESH:D004005
+      target: GO:0005947
+    - key: positively regulates
+      source: GO:0005947
+      target: GO:0006979
+    - key: correlated with
+      source: GO:0006979
+      target: GO:0150076
+    - key: positively correlated with
+      source: GO:0150076
+      target: MESH:D000544
+    - key: increases activity of
+      source: MESH:D004005
+      target: GO:0004129
+    - key: positively regulates
+      source: GO:0004129
+      target: GO:0006979
+    - key: correlated with
+      source: GO:0006979
+      target: GO:0150076
+    - key: positively correlated with
+      source: GO:0150076
+      target: MESH:D000544
+    - key: decreases abundance of
+      source: MESH:D004005
+      target: MESH:D005609
+    - key: positively correlated with
+      source: MESH:D005609
+      target: HP:0025464
+    - key: positively correlated with
+      source: HP:0025464
+      target: GO:0150076
+    - key: positively correlated with
+      source: GO:0150076
+      target: MESH:D000544
+    - key: increases expression of
+      source: MESH:D004005
+      target: MESH:D017475
+    - key: positively correlated with
+      source: MESH:D017475
+      target: GO:0007613
+    - key: negatively correlated with
+      source: GO:0007613
+      target: HP:0002354
+    - key: positively correlated with
+      source: HP:0002354
+      target: MESH:D000544
+    - key: positively correlated with
+      source: MESH:D004005
+      target: GO:0018393
+    - key: occurs in
+      source: GO:0018393
+      target: CHEBI:64645
+    - key: contributes to
+      source: CHEBI:64645
+      target: CHEBI:60425
+    - key: positively correlated with
+      source: CHEBI:60425
+      target: MESH:D000544
+    - key: positively correlated with
+      source: MESH:D004005
+      target: GO:0018393
+    - key: occurs in
+      source: GO:0018393
+      target: InterPro:IPR002955
+    - key: contributes to
+      source: InterPro:IPR002955
+      target: HP:0002185
+    - key: positively correlated with
+      source: HP:0002185
+      target: MESH:D000544
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: acetylcarnitine
+    - id: GO:0007271
+      label: BiologicalProcess
+      name: synaptic transmission, cholinergic
+    - id: GO:0014055
+      label: BiologicalProcess
+      name: acetylcholine secretion, neurotransmission (BP)
+    - id: GO:0035249
+      label: BiologicalProcess
+      name: synaptic transmission, glutamatergic
+    - id: GO:0061535
+      label: BiologicalProcess
+      name: glutamate secretion, neurotransmission (BP)
+    - id: GO:0005947
+      label: CellularComponent
+      name: mitochondrial alpha-ketoglutarate dehydrogenase complex
+    - id: GO:0004129
+      label: MolecularActivity
+      name: cytochrome-c oxidase activity
+    - id: GO:0006979
+      label: BiologicalProcess
+      name: response to oxidative stress
+    - id: GO:0150076
+      label: BiologicalProcess
+      name: neuroinflammatory response
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: HP:0025464
+      label: PhenotypicFeature
+      name: Increased reactive oxygen species production
+    - id: MESH:D017475
+      label: GeneFamily
+      name: Receptors, Nerve Growth Factor
+    - id: GO:0007613
+      label: BiologicalProcess
+      name: memory
+    - id: HP:0002354
+      label: PhenotypicFeature
+      name: Memory impairment
+    - id: GO:0018393
+      label: BiologicalProcess
+      name: peptidyl-lysine acetylation
+    - id: InterPro:IPR002955
+      label: GeneFamily
+      name: Microtubule-associated protein Tau
+    - id: HP:0002185
+      label: PhenotypicFeature
+      name: Neurofibrillary Tangles
+    - id: CHEBI:64645
+      label: ChemicalSubstance
+      name: amyloid-beta
+    - id: CHEBI:60425
+      label: ChemicalSubstance
+      name: amyloid fibril
+    - id: MESH:D000544
+      label: Disease
+      name: Alzheimer's disease
+      alt_ids:
+         - MESH:C566998
+  reference:
+    - https://go.drugbank.com/drugs/DB08842#mechanism-of-action
+    - https://www.nature.com/articles/4000805
+    - https://en.wikipedia.org/wiki/Acetylcarnitine
+    - https://pubmed.ncbi.nlm.nih.gov/16273023/
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5791143/
+    - https://en.wikipedia.org/wiki/Alzheimer%27s_disease#Causes
+    - https://pubmed.ncbi.nlm.nih.gov/8937831/
+    - https://pubmed.ncbi.nlm.nih.gov/22729864/
+    - https://pubmed.ncbi.nlm.nih.gov/10381209/
+    - https://en.wikipedia.org/wiki/Oxoglutarate_dehydrogenase_complex#Pathology
+- directed: true
+  graph:
+    _id: DB00484_MESH_D005902_2
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: brimonidine
+    drug_mesh: MESH:D000068438
+    drugbank: DB:DB00484
+  links:
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P08913
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P18089
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P18825
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418597
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: CHEBI:17489
+    - key: decreases abundance of
+      source: REACT:R-HSA-418597
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: UBERON:0001796
+    - key: regulates
+      source: CHEBI:17489
+      target: GO:0006939
+    - key: regulates
+      source: GO:0006939
+      target: UBERON:0003956
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: negatively correlated with
+      source: UBERON:0003956
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D000068438
+      label: Drug
+      name: brimonidine
+    - id: UniProt:P08913
+      label: Protein
+      name: Alpha-2A adrenergic receptor
+    - id: UniProt:P18089
+      label: Protein
+      name: Alpha-2B adrenergic receptor
+    - id: UniProt:P18825
+      label: Protein
+      name: Alpha-2C adrenergic receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: REACT:R-HSA-418597
+      label: Pathway
+      name: G alpha (z) signalling events
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: UBERON:0003956
+      label: GrossAnatomicalStructure
+      name: aqueous drainage system
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference:
+    - mhttps://go.drugbank.com/drugs/DB00484#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Brimonidine#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
+     https://en.wikipedia.org/wiki/Ciliary_body#Clinical_significance
+  comment: UBERON:0003956 includes the uveoscleral network as well as other canals for aqueous humor drainage. The uveoscleral network is the structure that seems to be affected by alpha adrenergic agonists, such as brimonidine, specially in long-term treatments (i.e. chronic dosing).
+- directed: true
+  graph:
+    _id: DB00484_MESH_D012393_1
+    disease: Rosacea
+    disease_mesh: MESH:D012393
+    drug: brimonidine
+    drug_mesh: MESH:D000068438
+    drugbank: DB:DB00484
+  links:
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P08913
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P18089
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P18825
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418597
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: CHEBI:17489
+    - key: decreases abundance of
+      source: REACT:R-HSA-418597
+      target: CHEBI:17489
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0042310
+    - key: negatively correlated with
+      source: GO:0042310
+      target: HP:0001041
+    - key: negatively correlated with
+      source: GO:0042310
+      target: HP:0031284
+    - key: positively correlated with
+      source: HP:0031284
+      target: MESH:D012393
+    - key: positively correlated with
+      source: HP:0001041
+      target: MESH:D012393
+  multigraph: true
+  nodes:
+    - id: MESH:D000068438
+      label: Drug
+      name: brimonidine
+    - id: UniProt:P08913
+      label: Protein
+      name: Alpha-2A adrenergic receptor
+    - id: UniProt:P18089
+      label: Protein
+      name: Alpha-2B adrenergic receptor
+    - id: UniProt:P18825
+      label: Protein
+      name: Alpha-2C adrenergic receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: REACT:R-HSA-418597
+      label: Pathway
+      name: G alpha (z) signalling events
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0031284
+      label: PhenotypicFeature
+      name: Flushing
+    - id: HP:0001041
+      label: PhenotypicFeature
+      name: Facial erythema
+    - id: MESH:D012393
+      label: Disease
+      name: Rosacea
+  reference:
+    - https://go.drugbank.com/drugs/DB00484#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Brimonidine#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Rosacea#Medications
+    - https://pubmed.ncbi.nlm.nih.gov/26566370/
+  comment: The drug has an anti-inflammatory role which can help with treating some of the signs and symptoms of rosasea.
+- directed: true
+  graph:
+    _id: DB00484_MESH_D009798_2
+    disease: Ocular hypertension
+    disease_mesh: MESH:D009798
+    drug: brimonidine
+    drug_mesh: MESH:D000068438
+    drugbank: DB:DB00484
+  links:
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P08913
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P18089
+    - key: increases activity of
+      source: MESH:D000068438
+      target: UniProt:P18825
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418594
+    - key: participates in
+      source: UniProt:P08913
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18089
+      target: REACT:R-HSA-418597
+    - key: participates in
+      source: UniProt:P18825
+      target: REACT:R-HSA-418597
+    - key: decreases abundance of
+      source: REACT:R-HSA-418594
+      target: CHEBI:17489
+    - key: decreases abundance of
+      source: REACT:R-HSA-418597
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: UBERON:0001796
+    - key: regulates
+      source: CHEBI:17489
+      target: GO:0006939
+    - key: regulates
+      source: GO:0006939
+      target: UBERON:0003956
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: MESH:D009798
+    - key: negatively correlated with
+      source: UBERON:0003956
+      target: MESH:D009798
+  multigraph: true
+  nodes:
+    - id: MESH:D000068438
+      label: Drug
+      name: brimonidine
+    - id: UniProt:P08913
+      label: Protein
+      name: Alpha-2A adrenergic receptor
+    - id: UniProt:P18089
+      label: Protein
+      name: Alpha-2B adrenergic receptor
+    - id: UniProt:P18825
+      label: Protein
+      name: Alpha-2C adrenergic receptor
+    - id: REACT:R-HSA-418594
+      label: Pathway
+      name: G alpha (i) signalling events
+    - id: REACT:R-HSA-418597
+      label: Pathway
+      name: G alpha (z) signalling events
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: UBERON:0003956
+      label: GrossAnatomicalStructure
+      name: aqueous drainage system
+    - id: MESH:D009798
+      label: Disease
+      name: Ocular hypertension
+  reference:
+    - https://go.drugbank.com/drugs/DB00484#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Brimonidine#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
+    - https://en.wikipedia.org/wiki/Ciliary_body#Clinical_significance
+  comment: UBERON:0003956 includes the uveoscleral network as well as other canals for aqueous humor drainage. The uveoscleral network is the structure that seems to be affected by alpha adrenergic agonists, such as brimonidine, specially in long-term treatments (i.e. chronic dosing).
+- directed: true
+  graph:
+    _id: DB00930_MESH_D006937_1
+    disease: Hypercholesterolemia
+    disease_mesh: MESH:D006937
+    drug: colesevelam
+    drug_mesh: MESH:D000069472
+    drugbank: DB:DB00930
+  links:
+    - key: decreases abundance of
+      source: MESH:D000069472
+      target: CHEBI:47774
+    - key: positively correlated with
+      source: CHEBI:47774
+      target: MESH:D006937
+  multigraph: true
+  nodes:
+    - id: MESH:D000069472
+      label: Drug
+      name: colesevelam
+    - id: CHEBI:47774
+      label: ChemicalSubstance
+      name: low-density lipoprotein cholesterol
+    - id: MESH:D006937
+      label: Disease
+      name: Hypercholesterolemia
+  reference:
+    - https://go.drugbank.com/drugs/DB00930
+    - https://en.wikipedia.org/wiki/Colesevelam
+  comment: Colesevelamid is a type of ion exchange resin (MESH:D007475).
+- directed: true
+  graph:
+    _id: DB00781_MESH_D014605_1
+    disease: Uveitis
+    disease_mesh: MESH:D014605
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: InterPro:IPR005025
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: InterPro:IPR005025
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:562
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014605
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: InterPro:IPR005025
+      label: GeneFamily
+      name: NADPH-dependent FMN reductase-like
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014605
+      label: Disease
+      name: Uveitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00781#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    _id: DB00781_MESH_D003234_1
+    disease: Bacterial conjunctivitis
+    disease_mesh: MESH:D003234
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: InterPro:IPR005025
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: InterPro:IPR005025
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:1279
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:1279
+    - key: causes
+      source: NCBITaxon:1279
+      target: MESH:D003234
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: InterPro:IPR005025
+      label: GeneFamily
+      name: NADPH-dependent FMN reductase-like
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:1279
+      label: OrganismTaxon
+      name: Staphylococcus sp
+    - id: MESH:D003234
+      label: Disease
+      name: Bacterial conjunctivitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00781#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    _id: DB00781_MESH_D014552_1
+    disease: Urinary tract infectious disease
+    disease_mesh: MESH:D014552
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: InterPro:IPR005025
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: InterPro:IPR005025
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:562
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: InterPro:IPR005025
+      label: GeneFamily
+      name: NADPH-dependent FMN reductase-like
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary tract infectious disease
+  reference:
+    - https://go.drugbank.com/drugs/DB00781#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    _id: DB00781_MESH_D010032_1
+    disease: Otitis externa
+    disease_mesh: MESH:D010032
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: InterPro:IPR005025
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: InterPro:IPR005025
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:2
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:2
+    - key: causes
+      source: NCBITaxon:2
+      target: MESH:D010032
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: InterPro:IPR005025
+      label: GeneFamily
+      name: NADPH-dependent FMN reductase-like
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:2
+      label: OrganismTaxon
+      name: Bacteria
+    - id: MESH:D010032
+      label: Disease
+      name: Otitis externa
+  reference:
+    - https://go.drugbank.com/drugs/DB00781#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    _id: DB00781_MESH_D007634_1
+    disease: Keratitis
+    disease_mesh: MESH:D007634
+    drug: Polymyxin B
+    drug_mesh: MESH:D011112
+    drugbank: DB:DB00781
+  links:
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:16412
+    - key: disrupts
+      source: MESH:D011112
+      target: CHEBI:25051
+    - key: negatively regulates
+      source: MESH:D011112
+      target: InterPro:IPR005025
+    - key: part of
+      source: CHEBI:16412
+      target: GO:0009274
+    - key: part of
+      source: CHEBI:25051
+      target: GO:0009274
+    - key: part of
+      source: InterPro:IPR005025
+      target: GO:0045272
+    - key: in taxon
+      source: GO:0009274
+      target: NCBITaxon:1280
+    - key: in taxon
+      source: GO:0045272
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D007634
+  multigraph: true
+  nodes:
+    - id: MESH:D011112
+      label: Drug
+      name: Polymyxin B
+    - id: CHEBI:16412
+      label: ChemicalSubstance
+      name: lipopolysaccharide
+    - id: CHEBI:25051
+      label: ChemicalSubstance
+      name: Lipid A
+    - id: InterPro:IPR005025
+      label: GeneFamily
+      name: NADPH-dependent FMN reductase-like
+    - id: GO:0009274
+      label: CellularComponent
+      name: peptidoglycan-based cell wall
+    - id: GO:0045272
+      label: CellularComponent
+      name: plasma membrane respiratory chain complex I
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D007634
+      label: Disease
+      name: Keratitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00781#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Polymyxin_B#Mechanism_of_action
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5355641/
+- directed: true
+  graph:
+    _id: DB01261_MESH_D003924_1
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: sitagliptin
+    drug_mesh: MESH:D000068900
+    drugbank: DB:DB01261
+  links:
+    - key: negatively regulates
+      source: MESH:D000068900
+      target: UniProt:P27487
+    - key: participates in
+      source: UniProt:P27487
+      target: REACT:R-HSA-381771
+    - key: participates in
+      source: UniProt:P27487
+      target: REACT:R-HSA-400511
+    - key: negatively correlated with
+      source: REACT:R-HSA-381771
+      target: GO:0030073
+    - key: negatively correlated with
+      source: REACT:R-HSA-400511
+      target: GO:0030073
+    - key: positively correlated with
+      source: REACT:R-HSA-381771
+      target: GO:0070091
+    - key: positively correlated with
+      source: REACT:R-HSA-400511
+      target: GO:0070091
+    - key: positively correlated with
+      source: GO:0070091
+      target: MESH:D003924
+    - key: negatively correlated with
+      source: GO:0030073
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:D000068900
+      label: Drug
+      name: sitagliptin
+    - id: UniProt:P27487
+      label: Protein
+      name: Dipeptidyl peptidase 4
+    - id: REACT:R-HSA-381771
+      label: Pathway
+      name: Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)
+    - id: REACT:R-HSA-400511
+      label: Pathway
+      name: Synthesis, secretion, and inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)
+    - id: GO:0030073
+      label: BiologicalProcess
+      name: Insulin Secretion
+    - id: GO:0070091
+      label: BiologicalProcess
+      name: glucagon secretion
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference:
+    - https://go.drugbank.com/drugs/DB01261#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Sitagliptin
+    - https://en.wikipedia.org/wiki/Dipeptidyl_peptidase-4_inhibitor
+    - https://en.wikipedia.org/wiki/Incretin#Medical_uses
+    - https://en.wikipedia.org/wiki/Type_2_diabetes#Pathophysiology
+- directed: true
+  graph:
+    _id: DB00661_MESH_D006973_1
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: verapamil
+    drug_mesh: MESH:D014700
+    drugbank: DB:DB00661
+  links:
+    - key: decreases activity of
+      source: MESH:D014700
+      target: InterPro:IPR005446
+    - key: positively regulates
+      source: InterPro:IPR005446
+      target: GO:0060402
+    - key: positively correlated with
+      source: GO:0060402
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0033533
+    - key: positively correlated with
+      source: HP:0033533
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D014700
+      label: Drug
+      name: verapamil
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: GO:0060402
+      label: BiologicalProcess
+      name: calcium ion transport into cytosol
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0033533
+      label: PhenotypicFeature
+      name: Increased cardiac output
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00661#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/
+    - https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents
+- directed: true
+  graph:
+    _id: DB00661_MESH_D001281_1
+    disease: Atrial fibrillation
+    disease_mesh: MESH:D001281
+    drug: verapamil
+    drug_mesh: MESH:D014700
+    drugbank: DB:DB00661
+  links:
+    - key: decreases activity of
+      source: MESH:D014700
+      target: InterPro:IPR005446
+    - key: positively regulates
+      source: InterPro:IPR005446
+      target: GO:0061337
+    - key: positively correlated with
+      source: GO:0061337
+      target: GO:0060047
+    - key: positively correlated with
+      source: GO:0060047
+      target: HP:0001692
+    - key: manifestation of
+      source: HP:0001692
+      target: MESH:D001281
+  multigraph: true
+  nodes:
+    - id: MESH:D014700
+      label: Drug
+      name: verapamil
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: GO:0061337
+      label: BiologicalProcess
+      name: cardiac conduction
+    - id: GO:0060047
+      label: BiologicalProcess
+      name: heart contraction
+    - id: HP:0001692
+      label: PhenotypicFeature
+      name: Atrial arrhythmia
+    - id: MESH:D001281
+      label: Disease
+      name: Atrial fibrillation
+  reference:
+    - https://go.drugbank.com/drugs/DB00661#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/
+    - https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents
+    - https://en.wikipedia.org/wiki/Atrial_fibrillation#Rate_control
+- directed: true
+  graph:
+    _id: DB00661_MESH_D054058_1
+    disease: Acute coronary syndrome
+    disease_mesh: MESH:D054058
+    drug: verapamil
+    drug_mesh: MESH:D014700
+    drugbank: DB:DB00661
+  links:
+    - key: decreases activity of
+      source: MESH:D014700
+      target: InterPro:IPR005446
+    - key: positively regulates
+      source: InterPro:IPR005446
+      target: GO:0060402
+    - key: positively correlated with
+      source: GO:0060402
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0033401
+    - key: positively correlated with
+      source: HP:0033401
+      target: MESH:D054058
+  multigraph: true
+  nodes:
+    - id: MESH:D014700
+      label: Drug
+      name: verapamil
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: GO:0060402
+      label: BiologicalProcess
+      name: calcium ion transport into cytosol
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0033401
+      label: PhenotypicFeature
+      name: Tissue ischemia
+    - id: MESH:D054058
+      label: Disease
+      name: Acute coronary syndrome
+  reference:
+    - https://go.drugbank.com/drugs/DB00661#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/
+    - https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents
+- directed: true
+  graph:
+    _id: DB00661_MESH_D000787_1
+    disease: Angina pectoris
+    disease_mesh: MESH:D000787
+    drug: verapamil
+    drug_mesh: MESH:D014700
+    drugbank: DB:DB00661
+  links:
+    - key: decreases activity of
+      source: MESH:D014700
+      target: InterPro:IPR005446
+    - key: positively regulates
+      source: InterPro:IPR005446
+      target: GO:0060402
+    - key: positively correlated with
+      source: GO:0060402
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0033401
+    - key: positively correlated with
+      source: HP:0033401
+      target: MESH:D000787
+  multigraph: true
+  nodes:
+    - id: MESH:D014700
+      label: Drug
+      name: verapamil
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: GO:0060402
+      label: BiologicalProcess
+      name: calcium ion transport into cytosol
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0033401
+      label: PhenotypicFeature
+      name: Tissue ischemia
+    - id: MESH:D000787
+      label: Disease
+      name: Angina pectoris
+  reference:
+    - https://go.drugbank.com/drugs/DB00661#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/
+    - https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents
+    - https://en.wikipedia.org/wiki/Angina#Treatment
+- directed: true
+  graph:
+    _id: DB00661_MESH_D000788_1
+    disease: Angina Pectoris, Variant
+    disease_mesh: MESH:D000788
+    drug: verapamil
+    drug_mesh: MESH:D014700
+    drugbank: DB:DB00661
+  links:
+    - key: decreases activity of
+      source: MESH:D014700
+      target: InterPro:IPR005446
+    - key: positively regulates
+      source: InterPro:IPR005446
+      target: GO:0060402
+    - key: positively correlated with
+      source: GO:0060402
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0033401
+    - key: positively correlated with
+      source: HP:0033401
+      target: MESH:D000788
+  multigraph: true
+  nodes:
+    - id: MESH:D014700
+      label: Drug
+      name: verapamil
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: GO:0060402
+      label: BiologicalProcess
+      name: calcium ion transport into cytosol
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0033401
+      label: PhenotypicFeature
+      name: Tissue ischemia
+    - id: MESH:D000788
+      label: Disease
+      name: Angina Pectoris, Variant
+  reference:
+    - https://go.drugbank.com/drugs/DB00661#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6966/
+    - https://en.wikipedia.org/wiki/Verapamil#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Antiarrhythmic_agent#Class_IV_agents
+    - https://en.wikipedia.org/wiki/Variant_angina#Maintenance
+  comment: The disease is also known as as Prinzmetal angina.
+- directed: true
+  graph:
+    _id: DB01144_MESH_D005902_1
+    disease: Open-angle glaucoma
+    disease_mesh: MESH:D005902
+    drug: dichlorphenamide
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB01144
+  links:
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00915
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00918
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P22748
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P43166
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:O43570
+    - key: positively regulates
+      source: UniProt:P00915
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P00918
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P22748
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P43166
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:O43570
+      target: GO:0015701
+    - key: increases abundance of
+      source: GO:0015701
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: dichlorphenamide
+      alt_names:
+        - Diclofenamide
+    - id: UniProt:P00915
+      label: Protein
+      name: Carbonic anhydrase 1
+    - id: UniProt:P00918
+      label: Protein
+      name: Carbonic anhydrase 2
+    - id: UniProt:P22748
+      label: Protein
+      name: Carbonic anhydrase 4
+    - id: UniProt:P43166
+      label: Protein
+      name: Carbonic anhydrase 7
+    - id: UniProt:O43570
+      label: Protein
+      name: Carbonic anhydrase 12
+    - id: GO:0015701
+      label: BiologicalProcess
+      name: bicarbonate transport
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Open-angle glaucoma
+  reference:
+    - https://go.drugbank.com/drugs/DB01144#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL17/
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/
+    - https://en.wikipedia.org/wiki/Glaucoma#Medication
+    - https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0
+    - https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
+- directed: true
+  graph:
+    _id: DB01144_MESH_D015812_1
+    disease: Angle-closure glaucoma
+    disease_mesh: MESH:D015812
+    drug: dichlorphenamide
+    drug_mesh: MESH:D004005
+    drugbank: DB:DB01144
+  links:
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00915
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P00918
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P22748
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:P43166
+    - key: negatively regulates
+      source: MESH:D004005
+      target: UniProt:O43570
+    - key: positively regulates
+      source: UniProt:P00915
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P00918
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P22748
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:P43166
+      target: GO:0015701
+    - key: positively regulates
+      source: UniProt:O43570
+      target: GO:0015701
+    - key: increases abundance of
+      source: GO:0015701
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: positively correlated with
+      source: HP:0007906
+      target: MESH:D015812
+  multigraph: true
+  nodes:
+    - id: MESH:D004005
+      label: Drug
+      name: dichlorphenamide
+      alt_names:
+        - Diclofenamide
+    - id: UniProt:P00915
+      label: Protein
+      name: Carbonic anhydrase 1
+    - id: UniProt:P00918
+      label: Protein
+      name: Carbonic anhydrase 2
+    - id: UniProt:P22748
+      label: Protein
+      name: Carbonic anhydrase 4
+    - id: UniProt:P43166
+      label: Protein
+      name: Carbonic anhydrase 7
+    - id: UniProt:O43570
+      label: Protein
+      name: Carbonic anhydrase 12
+    - id: GO:0015701
+      label: BiologicalProcess
+      name: bicarbonate transport
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular Hypertension
+    - id: MESH:D015812
+      label: Disease
+      name: Angle-closure glaucoma
+  reference:
+    - https://go.drugbank.com/drugs/DB01144#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL17/
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/
+    - https://en.wikipedia.org/wiki/Glaucoma#Medication\
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC506660/
+    - https://www.aaopt.org/docs/knowledge-base/outline26514.doc?sfvrsn=5f863d3_0
+    - https://en.wikipedia.org/wiki/Aqueous_humour#Clinical_significance
 
