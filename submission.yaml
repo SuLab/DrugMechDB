@@ -1,1 +1,396 @@
-
+-   directed: true
+    graph:
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: dimethyl fumarate
+        drug_mesh: MESH:D000069462
+        drugbank: DB:DB08908
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069462
+        target: UniProt:Q14145
+    -   key: decreases abundance of
+        source: UniProt:Q14145
+        target: UniProt:Q16236
+    -   key: negatively regulates
+        source: UniProt:Q16236
+        target: GO:0006979
+    -   key: correlated with
+        source: GO:0006979
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069462
+        label: Drug
+        name: dimethyl fumarate
+    -   id: UniProt:Q14145
+        label: Protein
+        name: Kelch-like ECH-associated protein 1
+    -   id: UniProt:Q16236
+        label: Protein
+        name: Nrf2
+    -   id: GO:0006979
+        label: BiologicalProcess
+        name: Oxidative Stress
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference:        
+        - https://go.drugbank.com/drugs/DB08908
+-   comment: Withdrawn
+    directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: iproclozide
+        drug_mesh: MESH:C010474
+        drugbank: DB:DB09247
+    links:
+    -   key: decreases activity of
+        source: MESH:C010474
+        target: UniProt:P21397
+    -   key: positively regulates
+        source: UniProt:P21397
+        target: GO:0042402
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D012701
+    -   key: decreases abundance of
+        source: GO:0042402
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0099153
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0099155
+    -   key: negatively correlated with
+        source: GO:0099153
+        target: MESH:D003866
+    -   key: negatively correlated with
+        source: GO:0099155
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:C010474
+        label: Drug
+        name: Iproclozide
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase [flavin-containing] A
+    -   id: GO:0042402
+        label: BiologicalProcess
+        name: Cellular biogenic amine catabolic process
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0099153
+        label: BiologicalProcess
+        name: Synaptic transmission, serotonergic
+    -   id: GO:0099155
+        label: BiologicalProcess
+        name: Synaptic transmission, noradrenergic
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder 
+    reference: 
+    - https://pubmed.ncbi.nlm.nih.gov/26104056/
+    - https://www.ncbi.nlm.nih.gov/books/NBK539848/
+    - https://go.drugbank.com/drugs/DB09247
+-   directed: true
+    graph:
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: Thiopental
+        drug_mesh: MESH:D013874
+        drugbank: DB:DB00599
+    links:
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P14867
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P47869
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P34903
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P48169
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P31644
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:Q16445
+    -   key: positively regulates
+        source: UniProt:Q16445
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P14867
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P47869
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P34903
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P48169
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P31644
+        target: GO:0022851
+    -   key: positively correlated with
+        source: GO:0022851
+        target: GO:0060081
+    -   key: negatively regulates
+        source: GO:0060081
+        target: GO:0019228
+    -   key: contributes to
+        source: GO:0019228
+        target: GO:0050806
+    -   key: positively correlated with
+        source: GO:0050806
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:D013874
+        label: Drug
+        name: Thiopental
+    -   id: UniProt:P14867
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-1
+    -   id: UniProt:P47869
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-2
+    -   id: UniProt:P34903
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-3
+    -   id: UniProt:P48169
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-4
+    -   id: UniProt:P31644
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-5
+    -   id: UniProt:Q16445
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-6
+    -   id: GO:0022851
+        label: MolecularActivity
+        name: GABA-gated chloride ion channel activity
+    -   id: GO:0060081
+        label: BiologicalProcess
+        name: Membrane hyperpolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: GO:0050806
+        label: BiologicalProcess
+        name: Positive regulation of synaptic transmission
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference:
+    - https://go.drugbank.com/drugs/DB00599
+-   directed: true
+    graph:
+        disease: Benign intracranial hypertension
+        disease_mesh: MESH:D011559
+        drug: Thiopental
+        drug_mesh: MESH:D013874
+        drugbank: DB:DB00599
+    links:
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P14867
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P47869
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P34903
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P48169
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:P31644
+    -   key: positively regulates
+        source: MESH:D013874
+        target: UniProt:Q16445
+    -   key: positively regulates
+        source: UniProt:Q16445
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P14867
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P47869
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P34903
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P48169
+        target: GO:0022851
+    -   key: positively regulates
+        source: UniProt:P31644
+        target: GO:0022851
+    -   key: positively correlated with
+        source: GO:0022851
+        target: GO:0060081
+    -   key: negatively regulates
+        source: GO:0060081
+        target: GO:0019228
+    -   key: located in
+        source: GO:0019228
+        target: CL:0000198
+    -   key: positively correlated with
+        source: CL:0000198
+        target: MESH:D010146
+    -   key: manifestation of
+        source: MESH:D010146
+        target: MESH:D011559
+    multigraph: true
+    nodes:
+    -   id: MESH:D013874
+        label: Drug
+        name: Thiopental
+    -   id: UniProt:P14867
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-1
+    -   id: UniProt:P47869
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-2
+    -   id: UniProt:P34903
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-3
+    -   id: UniProt:P48169
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-4
+    -   id: UniProt:P31644
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-5
+    -   id: UniProt:Q16445
+        label: Protein
+        name: Gamma-aminobutyric acid receptor subunit alpha-6
+    -   id: GO:0022851
+        label: MolecularActivity
+        name: GABA-gated chloride ion channel activity
+    -   id: GO:0060081
+        label: BiologicalProcess
+        name: Membrane hyperpolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D011559
+        label: Disease
+        name: Benign intracranial hypertension
+    reference:
+    - https://go.drugbank.com/drugs/DB00599
+-   comment: Phensuximide is an anticonvulsant in the succinimide class. Discontinued.
+        https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=008855
+    directed: true
+    graph:
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: phensuximide
+        drug_mesh: MESH:C100129
+        drugbank: DB:DB00832
+    links:
+    -   key: decreases activity of
+        source: MESH:C100129
+        target: UniProt:O43497
+    -   key: positively regulates
+        source: UniProt:O43497
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0019228
+    -   key: located in
+        source: GO:0019228
+        target: UBERON:0000955
+    -   key: positively correlated with
+        source: UBERON:0000955
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:C100129
+        label: Drug
+        name: Phensuximide
+    -   id: UniProt:O43497
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1G
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: UBERON:0000955
+        label: GrossAnatomicalStructure
+        name: Brain
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL797/
+    - https://go.drugbank.com/drugs/DB00832
+-   comment: Phensuximide is an anticonvulsant in the succinimide class. Discontinued.
+        https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=008855
+    directed: true
+    graph:
+        disease: Absence seizure
+        disease_mesh: MESH:D004832
+        drug: Phensuximide
+        drug_mesh: MESH:C100129
+        drugbank: DB:DB00832
+    links:
+    -   key: decreases activity of
+        source: MESH:C100129
+        target: UniProt:O43497
+    -   key: positively regulates
+        source: UniProt:O43497
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0019228
+    -   key: located in
+        source: GO:0019228
+        target: UBERON:0000955
+    -   key: positively correlated with
+        source: UBERON:0000955
+        target: MESH:D004832
+    multigraph: true
+    nodes:
+    -   id: MESH:C100129
+        label: Drug
+        name: Phensuximide
+    -   id: UniProt:O43497
+        label: Protein
+        name: Voltage-dependent T-type calcium channel subunit alpha-1G
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: UBERON:0000955
+        label: GrossAnatomicalStructure
+        name: Brain
+    -   id: MESH:D004832
+        label: Disease
+        name: Absence seizure
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL797/
+    - https://go.drugbank.com/drugs/DB00832
