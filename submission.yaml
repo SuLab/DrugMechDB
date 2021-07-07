@@ -1,1 +1,999 @@
-
+-   directed: true
+    graph:
+        disease: Anxiety
+        disease_mesh: MESH:D001007
+        drug: meprobamate
+        drug_mesh: MESH:D008620
+        drugbank: DB:DB00371
+    links:
+    -   key: increases activity of
+        source: MESH:D008620
+        target: InterPro:IPR006028
+    -   key: positively regulates
+        source: InterPro:IPR006028
+        target: GO:0007214
+    -   key: negatively regulates
+        source: GO:0007214
+        target: HP:0100852
+    -   key: negatively regulates
+        source: GO:0007214
+        target: MESH:D007319
+    -   key: positively correlated with
+        source: HP:0100852
+        target: MESH:D001007
+    -   key: positively correlated with
+        source: MESH:D007319
+        target: MESH:D001007
+    multigraph: true
+    nodes:
+    -   id: MESH:D008620
+        label: Drug
+        name: Meprobamate
+    -   id: InterPro:IPR006028
+        label: GeneFamily
+        name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    -   id: GO:0007214
+        label: BiologicalProcess
+        name: Gamma-aminobutyric acid signaling pathway
+    -   id: HP:0100852
+        label: PhenotypicFeature
+        name: Abnormal fear/anxiety-related behavior
+    -   id: MESH:D007319
+        label: Disease
+        name: Sleeplessness
+    -   id: MESH:D001007
+        label: Disease
+        name: Anxiety
+    reference:
+    - https://go.drugbank.com/drugs/DB00371
+-   directed: true
+    graph:
+        disease: Subarachnoid intracranial hemorrhage
+        disease_mesh: MESH:D013345
+        drug: nimodipine
+        drug_mesh: MESH:D009553
+        drugbank: DB:DB00393
+    links:
+    -   key: decreases activity of
+        source: MESH:D009553
+        target: InterPro:IPR031649
+    -   key: positively regulates
+        source: InterPro:IPR031649
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0006939
+    -   key: positively regulates
+        source: GO:0006939
+        target: GO:0042310
+    -   key: positively correlated with 
+        source: GO:0042310
+        target: HP:0025637
+    -   key: positively correlated with 
+        source: HP:0025637
+        target: MESH:D013345
+    multigraph: true
+    nodes:
+    -   id: MESH:D009553
+        label: Drug
+        name: Nimodipine
+    -   id: InterPro:IPR031649
+        label: GeneFamily
+        name: Voltage-dependent L-type calcium channel, IQ-associated domain
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: Calcium ion import
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: Smooth muscle contraction
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0025637
+        label: PhenotypicFeature
+        name: Vasospasm
+    -   id: MESH:D013345
+        label: Disease
+        name: Subarachnoid intracranial hemorrhage
+    reference: 
+    - https://en.wikipedia.org/wiki/Nimodipine
+    - https://go.drugbank.com/drugs/DB00393
+-   directed: true
+    graph:
+        disease: Actinic keratosis
+        disease_mesh: MESH:D055623
+        drug: fluorouracil
+        drug_mesh: MESH:D005472
+        drugbank: DB:DB00544
+    links:
+    -   key: decreases activity of
+        source: MESH:D005472
+        target: UniProt:P04818
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: GO:0071897
+    -   key: disrupts
+        source: MESH:D005472
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0071897
+    -   key: occurs in
+        source: GO:0071897
+        target: MESH:D055623
+    -   key: disrupts
+        source: MESH:D005472
+        target: MESH:D012313
+    -   key: participates in
+        source: MESH:D012313
+        target: GO:0032774
+    -   key: occurs in
+        source: GO:0032774
+        target: MESH:D055623
+    multigraph: true
+    nodes:
+    -   id: MESH:D005472
+        label: Drug
+        name: Fluorouracil
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: MESH:D012313
+        label: ChemicalSubstance
+        name: RNA
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0032774
+        label: BiologicalProcess
+        name: RNA biosynthetic process
+    -   id: MESH:D055623
+        label: Disease
+        name: Actinic keratosis
+    reference: 
+    - https://en.wikipedia.org/wiki/Actinic_keratosis
+    - https://go.drugbank.com/drugs/DB00544#BE0000324
+-   directed: true
+    graph:
+        disease: Malignant tumor of stomach
+        disease_mesh: MESH:D013274
+        drug: fluorouracil
+        drug_mesh: MESH:D005472
+        drugbank: DB:DB00544
+    links:
+    -   key: decreases activity of
+        source: MESH:D005472
+        target: UniProt:P04818
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: GO:0071897
+    -   key: disrupts
+        source: MESH:D005472
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0071897
+    -   key: occurs in
+        source: GO:0071897
+        target: MESH:D013274
+    -   key: disrupts
+        source: MESH:D005472
+        target: MESH:D012313
+    -   key: participates in
+        source: MESH:D012313
+        target: GO:0032774
+    -   key: occurs in
+        source: GO:0032774
+        target: MESH:D013274
+    multigraph: true
+    nodes:
+    -   id: MESH:D005472
+        label: Drug
+        name: Fluorouracil
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: MESH:D012313
+        label: ChemicalSubstance
+        name: RNA
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0032774
+        label: BiologicalProcess
+        name: RNA biosynthetic process
+    -   id: MESH:D013274
+        label: Disease
+        name: Malignant tumor of stomach
+    reference: 
+    - https://go.drugbank.com/drugs/DB00544#BE0000324
+-   directed: true
+    graph:
+        disease: Malignant tumor of colon
+        disease_mesh: MESH:D003110
+        drug: fluorouracil
+        drug_mesh: MESH:D005472
+        drugbank: DB:DB00544
+    links:
+    -   key: decreases activity of
+        source: MESH:D005472
+        target: UniProt:P04818
+    -   key: positively regulates
+        source: UniProt:P04818
+        target: GO:0071897
+    -   key: disrupts
+        source: MESH:D005472
+        target: MESH:D004247
+    -   key: participates in
+        source: MESH:D004247
+        target: GO:0071897
+    -   key: occurs in
+        source: GO:0071897
+        target: MESH:D003110
+    -   key: disrupts
+        source: MESH:D005472
+        target: MESH:D012313
+    -   key: participates in
+        source: MESH:D012313
+        target: GO:0032774
+    -   key: occurs in
+        source: GO:0032774
+        target: MESH:D003110
+    multigraph: true
+    nodes:
+    -   id: MESH:D005472
+        label: Drug
+        name: Fluorouracil
+    -   id: UniProt:P04818
+        label: Protein
+        name: Thymidylate synthase
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: MESH:D012313
+        label: ChemicalSubstance
+        name: RNA
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: GO:0032774
+        label: BiologicalProcess
+        name: RNA biosynthetic process
+    -   id: MESH:D003110
+        label: Disease
+        name: Malignant tumor of colon
+    reference: 
+    - https://go.drugbank.com/drugs/DB00544#BE0000324
+-   directed: true
+    graph:
+        disease: Endometrial carcinoma
+        disease_mesh: MESH:D016889
+        drug: Medroxyprogesterone
+        drug_mesh: MESH:D008525
+        drugbank: DB:DB00603
+    links:
+    -   key: increases activity of
+        source: DB:DB00603
+        target: UniProt:P06401
+    -   key: participates in
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: negatively regulates
+        source: GO:0050847
+        target: GO:0008283
+    -   key: located in
+        source: GO:0008283
+        target: UBERON:0001295
+    -   key: positively correlated with
+        source: UBERON:0001295
+        target: MESH:D016889
+    multigraph: true
+    nodes:
+    -   id: DB:DB00603
+        label: Drug
+        name: Medroxyprogesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: MESH:D016889
+        label: Disease
+        name: Endometrial carcinoma
+    reference:
+    - https://go.drugbank.com/drugs/DB00603
+-   comment: Oral tablets containing medroxyprogesterone acetate are conjugated with estrogens and indicated to prevent menopausal flushing. This gaph is for the combination drug.
+    directed: true
+    graph:
+        disease: Menopausal flushing
+        disease_mesh: MESH:D019584
+        drug: Medroxyprogesterone
+        drug_mesh: MESH:D008525
+        drugbank: DB:DB00603
+    links:
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P06401
+    -   key: positively regulates
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: treats
+        source: GO:0050847
+        target: MESH:D019584
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P03372
+    -   key: positively regulates
+        source: UniProt:P03372
+        target: GO:0030520
+    -   key: treats
+        source: GO:0030520
+        target: MESH:D019584
+    multigraph: true
+    nodes:
+    -   id: MESH:D008525
+        label: Drug
+        name: Medroxyprogesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor
+    -   id: GO:0030520
+        label: BiologicalProcess
+        name: Intracellular estrogen receptor signaling pathway
+    -   id: MESH:D019584
+        label: Disease
+        name: Menopausal flushing
+    reference: 
+    - https://go.drugbank.com/drugs/DB00603
+-   comment: Oral tablets containing medroxyprogesterone acetate are conjugated with estrogens and indicated to prevent postmenopausal osteoporosis. This gaph is for the combination drug.
+    directed: true
+    graph:
+        disease: Postmenopausal osteoporosis
+        disease_mesh: MESH:D015663
+        drug: Medroxyprogesterone
+        drug_mesh: MESH:D008525
+        drugbank: DB:DB00603
+    links:
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P06401
+    -   key: positively regulates
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: treats
+        source: GO:0050847
+        target: MESH:D015663
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P03372
+    -   key: positively regulates
+        source: UniProt:P03372
+        target: GO:0030520
+    -   key: treats
+        source: GO:0030520
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:D008525
+        label: Drug
+        name: Medroxyprogesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor
+    -   id: GO:0030520
+        label: BiologicalProcess
+        name: Intracellular estrogen receptor signaling pathway
+    -   id: MESH:D015663
+        label: Disease
+        name: Postmenopausal osteoporosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB00603
+-   directed: true
+    graph:
+        disease: Endometriosis
+        disease_mesh: MESH:D004715
+        drug: Medroxyprogesterone
+        drug_mesh: MESH:D008525
+        drugbank: DB:DB00603
+    links:
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P06401
+    -   key: participates in
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: negatively regulates
+        source: GO:0050847
+        target: GO:0008283
+    -   key: located in
+        source: GO:0008283
+        target: UBERON:0001295
+    -   key: positively correlated with
+        source: UBERON:0001295
+        target: MESH:D004715
+    multigraph: true
+    nodes:
+    -   id: MESH:D008525
+        label: Drug
+        name: Medroxyprogesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: MESH:D004715
+        label: Disease
+        name: Endometriosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00603
+-   directed: true
+    graph:
+        disease: Dysfunctional uterine bleeding
+        disease_mesh: MESH:D008796
+        drug: Medroxyprogesterone
+        drug_mesh: MESH:D008525
+        drugbank: DB:DB00603
+    links:
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P06401
+    -   key: negatively regulates
+        source: UniProt:P06401
+        target: GO:0050673
+    -   key: located in
+        source: GO:0050673
+        target: UBERON:0001295
+    -   key: correlated with
+        source: UBERON:0001295
+        target: HP:0030126
+    -   key: causes
+        source: HP:0030126
+        target: MESH:D008796
+    multigraph: true
+    nodes:
+    -   id: MESH:D008525
+        label: Drug
+        name: Medroxyprogesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: UBERON:0001295
+        label: GrossAnatomicalStructure
+        name: Endometrium
+    -   id: HP:0030126
+        label: PhenotypicFeature
+        name: Abnormality of the endometrium
+    -   id: GO:0050673
+        label: BiologicalProcess
+        name: Epithelial cell proliferation
+    -   id: MESH:D008796
+        label: Disease
+        name: Dysfunctional uterine bleeding
+    reference:
+    - https://go.drugbank.com/drugs/DB00603
+-   comment: Oral tablets containing medroxyprogesterone acetate are conjugated with estrogens and indicated to prevent atrophic vaginitis. This gaph is for the combination drug.
+    directed: true
+    graph:
+        disease: Atrophic vaginitis
+        disease_mesh: MESH:D059268
+        drug: Medroxyprogesterone
+        drug_mesh: MESH:D008525
+        drugbank: DB:DB00603
+    links:
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P06401
+    -   key: positively regulates
+        source: UniProt:P06401
+        target: GO:0050847
+    -   key: treats
+        source: GO:0050847
+        target: MESH:D059268
+    -   key: increases activity of
+        source: MESH:D008525
+        target: UniProt:P03372
+    -   key: positively regulates
+        source: UniProt:P03372
+        target: GO:0030520
+    -   key: treats
+        source: GO:0030520
+        target: MESH:D059268
+    multigraph: true
+    nodes:
+    -   id: MESH:D008525
+        label: Drug
+        name: Medroxyprogesterone
+    -   id: UniProt:P06401
+        label: Protein
+        name: Progesterone receptor
+    -   id: GO:0050847
+        label: BiologicalProcess
+        name: Progesterone receptor signaling pathway
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor
+    -   id: GO:0030520
+        label: BiologicalProcess
+        name: Intracellular estrogen receptor signaling pathway
+    -   id: MESH:D059268
+        label: Disease
+        name: Atrophic vaginitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00603
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: telmisartan
+        drug_mesh: MESH:C084178
+        drugbank: DB:DB00966
+    links:
+    -   key: increases activity of
+        source: DB:DB00966
+        target: UniProt:P30556
+    -   key: increases activity of
+        source: DB:DB00966
+        target: UniProt:P37231
+    -   key: negatively correlated with
+        source: UniProt:P37231
+        target: GO:0045777
+    -   key: positively correlated with
+        source: UniProt:P30556
+        target: MESH:D000804
+    -   key: positively regulates
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: positively correlated with
+        source: MESH:D014661
+        target: GO:0045777
+    -   key: positively correlated with
+        source: GO:0045777
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: DB:DB00966
+        label: Drug
+        name: Telmisartan
+    -   id: UniProt:P37231
+        label: Protein
+        name: Peroxisome proliferator-activated receptor gamma
+    -   id: UniProt:P30556
+        label: Protein
+        name: Type-1 angiotensin II receptor
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00966#BE0000215
+-   directed: true
+    graph:
+        disease: Cerebrovascular accident
+        disease_mesh: MESH:D020521
+        drug: telmisartan
+        drug_mesh: MESH:C084178
+        drugbank: DB:DB00966
+    links:
+    -   key: increases activity of
+        source: DB:DB00966
+        target: UniProt:P30556
+    -   key: increases activity of
+        source: DB:DB00966
+        target: UniProt:P37231
+    -   key: negatively correlated with
+        source: UniProt:P37231
+        target: GO:0045777
+    -   key: positively correlated with
+        source: UniProt:P30556
+        target: MESH:D000804
+    -   key: positively regulates
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: positively correlated with
+        source: MESH:D014661
+        target: GO:0045777
+    -   key: positively correlated with
+        source: GO:0045777
+        target: MESH:D006973
+    -   key: affects risk for
+        source: MESH:D006973
+        target: MESH:D020521
+    multigraph: true
+    nodes:
+    -   id: DB:DB00966
+        label: Drug
+        name: Telmisartan
+    -   id: UniProt:P37231
+        label: Protein
+        name: Peroxisome proliferator-activated receptor gamma
+    -   id: UniProt:P30556
+        label: Protein
+        name: Type-1 angiotensin II receptor
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: MESH:D014661
+        label: Disease
+        name: Vasoconstriction
+    -   id: GO:0045777
+        label: BiologicalProcess
+        name: Positive regulation of blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    -   id: MESH:D020521
+        label: Disease
+        name: Cerebrovascular accident
+    reference:
+    - https://go.drugbank.com/drugs/DB00966#BE0000215
+-   directed: true
+    graph:
+        disease: Rheumatoid arthritis
+        disease_mesh: MESH:D001172
+        drug: leflunomide
+        drug_mesh: MESH:C045463
+        drugbank: DB:DB01097
+    links:
+    -   key: has metabolite
+        source: MESH:C045463
+        target: MESH:C527525
+    -   key: decreases activity of
+        source: MESH:C527525
+        target: UniProt:Q02127
+    -   key: positively regulates
+        source: UniProt:Q02127
+        target: GO:0006221
+    -   key: positively correlated with
+        source: GO:0006221
+        target: GO:0090592
+    -   key: positively correlated with 
+        source: GO:0090592
+        target: GO:0050798
+    -   key: positively correlated with 
+        source: GO:0050798
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:C045463
+        label: Drug
+        name: Leflunomide
+    -   id: MESH:C527525
+        label: Drug
+        name: Teriflunomide
+    -   id: UniProt:Q02127
+        label: Protein
+        name: Dihydroorotate dehydrogenase (quinone), mitochondrial
+    -   id: GO:0006221
+        label: BiologicalProcess
+        name: Pyrimidine nucleotide biosynthetic process
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0050798
+        label: BiologicalProcess
+        name: Activated T cell proliferation
+    -   id: MESH:D001172
+        label: Disease
+        name: Rheumatoid arthritis
+    reference: 
+    - https://en.wikipedia.org/wiki/Leflunomide
+    - https://go.drugbank.com/drugs/DB01097
+-   directed: true
+    graph:
+        disease: Psoriasis with arthropathy
+        disease_mesh: MESH:D015535
+        drug: leflunomide
+        drug_mesh: MESH:C045463
+        drugbank: DB:DB01097
+    links:
+    -   key: has metabolite
+        source: MESH:C045463
+        target: MESH:C527525
+    -   key: decreases activity of
+        source: MESH:C527525
+        target: UniProt:Q02127
+    -   key: positively regulates
+        source: UniProt:Q02127
+        target: GO:0006221
+    -   key: positively correlated with
+        source: GO:0006221
+        target: GO:0090592
+    -   key: positively correlated with 
+        source: GO:0090592
+        target: GO:0050798
+    -   key: positively correlated with 
+        source: GO:0050798
+        target: MESH:D015535
+    multigraph: true
+    nodes:
+    -   id: MESH:C045463
+        label: Drug
+        name: Leflunomide
+    -   id: MESH:C527525
+        label: Drug
+        name: Teriflunomide
+    -   id: UniProt:Q02127
+        label: Protein
+        name: Dihydroorotate dehydrogenase (quinone), mitochondrial
+    -   id: GO:0006221
+        label: BiologicalProcess
+        name: Pyrimidine nucleotide biosynthetic process
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0050798
+        label: BiologicalProcess
+        name: Activated T cell proliferation
+    -   id: MESH:D015535
+        label: Disease
+        name: Psoriasis with arthropathy
+    reference: 
+    - https://en.wikipedia.org/wiki/Leflunomide
+    - https://go.drugbank.com/drugs/DB01097
+-   directed: true
+    graph:
+        disease: Impetigo
+        disease_mesh: MESH:D007169
+        drug: retapamulin
+        drug_mesh: MESH:C508887,MESH:C475718
+        drugbank: DB:DB01256
+    links:
+    -   key: decreases activity of
+        source: DB:DB01256
+        target: UniProt:Q9A1X4
+    -   key: positively regulates
+        source: UniProt:Q9A1X4
+        target: GO:0006412
+    -   key: in taxon
+        source: GO:0006412
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D007169
+    multigraph: true
+    nodes:
+    -   id: DB:DB01256
+        label: Drug
+        name: Retapamulin
+    -   id: UniProt:Q9A1X4
+        label: Protein
+        name: 50S ribosomal protein L3 (Streptococcus pyogenes)
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Translation
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D007169
+        label: Disease
+        name: Impetigo
+    reference: 
+    - https://go.drugbank.com/drugs/DB01256#BE0000843
+-   directed: true
+    graph:
+        disease: Primary progressive multiple sclerosis
+        disease_mesh: MESH:D020528
+        drug: ocrelizumab
+        drug_mesh: MESH:C533411
+        drugbank: DB:DB11988
+    links:
+    -   key: negatively regulates
+        source: MESH:C533411
+        target: UniProt:P11836
+    -   key: expressed in
+        source: UniProt:P11836
+        target: CL:0000236
+    -   key: contributes to
+        source: CL:0000236
+        target: MESH:D020528
+    multigraph: true
+    nodes:
+    -   id: MESH:C533411
+        label: Drug
+        name: Ocrelizumab
+    -   id: UniProt:P11836
+        label: Protein
+        name: B-lymphocyte antigen CD20
+    -   id: CL:0000236
+        label: Cell
+        name: B cell
+    -   id: MESH:D020528
+        label: Disease
+        name: Primary progressive multiple sclerosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB11988
+-   directed: true
+    graph:
+        disease: Primary progressive multiple sclerosis
+        disease_mesh: MESH:D020528
+        drug: ocrelizumab
+        drug_mesh: MESH:C533411
+        drugbank: DB:DB11988
+    links:
+    -   key: positively regulates
+        source: MESH:C533411
+        target: GO:0001788
+    -   key: causes
+        source: GO:0001788
+        target: GO:0001783
+    -   key: negatively correlated with
+        source: GO:0001783
+        target: MESH:D020528
+    multigraph: true
+    nodes:
+    -   id: MESH:C533411
+        label: Drug
+        name: Ocrelizumab
+    -   id: GO:0001788
+        label: BiologicalProcess
+        name: Antibody-dependent cellular cytotoxicity
+    -   id: GO:0001783
+        label: BiologicalProcess
+        name: B cell apoptotic process
+    -   id: MESH:D020528
+        label: Disease
+        name: Primary progressive multiple sclerosis
+    reference: 
+    - https://go.drugbank.com/drugs/DB11988
+-   comment: Tinidazole is a prodrug
+    directed: true
+    graph:
+        disease: Infection by Trypanosoma cruzi
+        disease_mesh: MESH:D014355
+        drug: benznidazole
+        drug_mesh: MESH:C009999
+        drugbank: DB:DB11989
+    links:
+    -   key: positively regulates
+        source: MESH:C009999
+        target: GO:0000305
+    -   key: disrupts
+        source: GO:0000305
+        target: MESH:D004247
+    -   key: in taxon
+        source: MESH:D004247
+        target: NCBITaxon:5693
+    -   key: causes
+        source: NCBITaxon:5693
+        target: MESH:D014355
+    multigraph: true
+    nodes:
+    -   id: MESH:C009999
+        label: Drug
+        name: Benznidazole
+    -   id: GO:0000305
+        label: BiologicalProcess
+        name: Response to oxygen radical
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
+    -   id: NCBITaxon:5693
+        label: OrganismTaxon
+        name: Trypanosoma cruzi
+    -   id: MESH:D014355
+        label: Disease
+        name: Infection by Trypanosoma cruzi
+    reference:
+    - https://go.drugbank.com/drugs/DB11989
+-   directed: true
+    graph:
+        disease: Atrial fibrillation
+        disease_mesh: MESH:D001281
+        drug: vernakalant
+        drug_mesh: MESH:C524581
+        drugbank: DB:DB06217
+    links:
+    -   key: decreases activity of
+        source: MESH:C524581
+        target: UniProt:P22460
+    -   key: positively regulates
+        source: UniProt:P22460
+        target: GO:0086013
+    -   key: decreases activity of
+        source: MESH:C524581
+        target: UniProt:Q9UK17
+    -   key: positively regulates
+        source: UniProt:Q9UK17
+        target: GO:0086013
+    -   key: occurs in
+        source: GO:0086013
+        target: UBERON:0000948
+    -   key: affected by
+        source: UBERON:0000948
+        target: MESH:D001281
+    multigraph: true
+    nodes:
+    -   id: MESH:C524581
+        label: Drug
+        name: Vernakalant
+    -   id: GO:0086013
+        label: BiologicalProcess
+        name: Membrane repolarization during cardiac muscle cell action potential
+    -   id: UniProt:P22460
+        label: Protein
+        name: Potassium voltage-gated channel subfamily A member 5
+    -   id: UniProt:Q9UK17
+        label: Protein
+        name: Potassium voltage-gated channel subfamily D member 3
+    -   id: UBERON:0000948
+        label: GrossAnatomicalStructure
+        name: Heart
+    -   id: MESH:D001281
+        label: Disease
+        name: Atrial fibrillation
+    reference: 
+    - https://go.drugbank.com/drugs/DB06217#BE0004717
+    - https://en.wikipedia.org/wiki/Vernakalant#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Iron deficiency anemia
+        disease_mesh: MESH:D018798
+        drug: ferric carboxymaltose
+        drug_mesh: MESH:C522335
+        drugbank: DB:DB08917
+    links:
+    -   key: increases abundance of
+        source: MESH:C522335
+        target: MESH:D007501
+    -   key: participates in
+        source: MESH:D007501
+        target: GO:0055072
+    -   key: negatively correlated with
+        source: GO:0055072
+        target: MESH:D018798
+    multigraph: true
+    nodes:
+    -   id: MESH:C522335
+        label: Drug
+        name: Ferric carboxymaltose
+    -   id: MESH:D007501
+        label: ChemicalSubstance
+        name: Iron
+    -   id: GO:0055072
+        label: BiologicalProcess
+        name: Iron ion homeostasis
+    -   id: MESH:D018798
+        label: Disease
+        name: Iron deficiency anemia
+    reference: 
+    - https://go.drugbank.com/drugs/DB08917
