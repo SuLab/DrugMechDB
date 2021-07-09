@@ -1,1 +1,1042 @@
-
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: metoprolol
+        drug_mesh: MESH:D008790
+        drugbank: DB:DB00264
+    links:
+    -   key: decreases activity of
+        source: MESH:D008790
+        target: UniProt:P08588
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0002001 
+    -   key: positively regulates
+        source: GO:0002001
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D008790
+        label: Drug
+        name: Metoprolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: GO:0002001
+        label: BiologicalProcess
+        name: Renin secretion into blood stream
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference: 
+    - https://go.drugbank.com/drugs/DB00264
+    - https://en.wikipedia.org/wiki/Metoprolol#Pharmacology
+-   directed: true
+    graph:
+        disease: Myocardial infarction
+        disease_mesh: MESH:D009203
+        drug: metoprolol
+        drug_mesh: MESH:D008790
+        drugbank: DB:DB00264
+    links:
+    -   key: decreases activity of
+        source: MESH:D008790
+        target: UniProt:P08588 
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0014808
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:1990454
+    -   key: positively regulates
+        source: GO:0014808
+        target: GO:0061337
+    -   key: positively regulates
+        source: GO:1990454
+        target: GO:0061337
+    -   key: positively correlated with
+        source: GO:0061337
+        target: HP:0031546
+    -   key: positively correlated with
+        source: HP:0031546
+        target: MESH:D009203
+    multigraph: true
+    nodes:
+    -   id: MESH:D008790
+        label: Drug
+        name: Metoprolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor 
+    -   id: GO:0014808
+        label: BiologicalProcess
+        name: Release of sequestered calcium ion into cytosol by sarcoplasmic reticulum
+    -   id: GO:1990454
+        label: CellularComponent
+        name: L-type voltage-gated calcium channel complex
+    -   id: HP:0031546
+        label: PhenotypicFeature
+        name: Cardiac conduction abnormality
+    -   id: GO:0061337
+        label: BiologicalProcess
+        name: Cardiac conduction
+    -   id: MESH:D009203
+        label: Disease
+        name: Myocardial infarction
+    reference: 
+    - https://go.drugbank.com/drugs/DB00264
+-   directed: true
+    graph:
+        disease: Acute coronary syndrome
+        disease_mesh: MESH:D054058
+        drug: metoprolol
+        drug_mesh: MESH:D008790
+        drugbank: DB:DB00264
+    links:
+    -   key: decreases activity of
+        source: MESH:D008790
+        target: UniProt:P08588 
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0014808
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:1990454
+    -   key: positively regulates
+        source: GO:0014808
+        target: GO:0061337
+    -   key: positively regulates
+        source: GO:1990454
+        target: GO:0061337
+    -   key: positively correlated with
+        source: GO:0061337
+        target: HP:0031546
+    -   key: positively correlated with
+        source: HP:0031546
+        target: MESH:D054058
+    multigraph: true
+    nodes:
+    -   id: MESH:D008790
+        label: Drug
+        name: Metoprolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor 
+    -   id: GO:0014808
+        label: BiologicalProcess
+        name: Release of sequestered calcium ion into cytosol by sarcoplasmic reticulum
+    -   id: GO:1990454
+        label: CellularComponent
+        name: L-type voltage-gated calcium channel complex
+    -   id: HP:0031546
+        label: PhenotypicFeature
+        name: Cardiac conduction abnormality
+    -   id: GO:0061337
+        label: BiologicalProcess
+        name: Cardiac conduction
+    -   id: MESH:D054058
+        label: Disease
+        name: Acute coronary syndrome
+    reference: 
+    - https://go.drugbank.com/drugs/DB00264
+-   directed: true
+    graph:
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: metoprolol
+        drug_mesh: MESH:D008790
+        drugbank: DB:DB00264
+    links:
+    -   key: decreases activity of
+        source: MESH:D008790
+        target: UniProt:P08588 
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:0014808
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: GO:1990454
+    -   key: positively regulates
+        source: GO:0014808
+        target: GO:0061337
+    -   key: positively regulates
+        source: GO:1990454
+        target: GO:0061337
+    -   key: positively correlated with
+        source: GO:0061337
+        target: HP:0031546
+    -   key: positively correlated with
+        source: HP:0031546
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D008790
+        label: Drug
+        name: Metoprolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor 
+    -   id: GO:0014808
+        label: BiologicalProcess
+        name: Release of sequestered calcium ion into cytosol by sarcoplasmic reticulum
+    -   id: GO:1990454
+        label: CellularComponent
+        name: L-type voltage-gated calcium channel complex
+    -   id: HP:0031546
+        label: PhenotypicFeature
+        name: Cardiac conduction abnormality
+    -   id: GO:0061337
+        label: BiologicalProcess
+        name: Cardiac conduction
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference: 
+    - https://go.drugbank.com/drugs/DB00264
+-   comment: Potentially non-efficacious https://pubmed.ncbi.nlm.nih.gov/26615034/
+    directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: negatively regulates
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:P50148
+    -   key: positively regulates
+        source: UniProt:P50148
+        target: UniProt:P19838
+    -   key: positively regulates
+        source: UniProt:P19838
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:10239
+    -   key: causes
+        source: NCBITaxon:10239
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:P50148
+        label: Protein
+        name: Guanine nucleotide-binding protein G(q) subunit alpha
+    -   id: UniProt:P19838
+        label: Protein
+        name: Nuclear factor NF-kappa-B p105 subunit
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: NCBITaxon:10239
+        label: OrganismTaxon
+        name: Viruses
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference:
+    - https://go.drugbank.com/drugs/DB01114
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: negatively regulates
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:P50148
+    -   key: positively regulates
+        source: UniProt:P50148
+        target: UniProt:P19838
+    -   key: positively regulates
+        source: UniProt:P19838
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0000969
+    -   key: occurs in
+        source: HP:0000969
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:P50148
+        label: Protein
+        name: Guanine nucleotide-binding protein G(q) subunit alpha
+    -   id: UniProt:P19838
+        label: Protein
+        name: Nuclear factor NF-kappa-B p105 subunit
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0000969
+        label: PhenotypicFeature
+        name: Edema
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01114
+    - https://pubmed.ncbi.nlm.nih.gov/19476049/
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: negatively regulates
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:P50148
+    -   key: positively regulates
+        source: UniProt:P50148
+        target: UniProt:P19838
+    -   key: positively regulates
+        source: UniProt:P19838
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0000004
+    -   key: affected by
+        source: UBERON:0000004
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:P50148
+        label: Protein
+        name: Guanine nucleotide-binding protein G(q) subunit alpha
+    -   id: UniProt:P19838
+        label: Protein
+        name: Nuclear factor NF-kappa-B p105 subunit
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01114
+    - https://pubmed.ncbi.nlm.nih.gov/14561186/
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: negatively regulates
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: increases activity of
+        source: MESH:D006632
+        target: CL:0000540
+    -   key: located in
+        source: CL:0000540
+        target: UBERON:0000004
+    -   key: affected by
+        source: UBERON:0000004
+        target: UBERON:0001645
+    -   key: contributes to
+        source: UBERON:0001645
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   alt_ids: MESH:D009474
+        id: CL:0000540
+        label: Cell
+        name: Neuron
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   alt_ids: MESH:D014276
+        id: UBERON:0001645
+        label: GrossAnatomicalStructure
+        name: Trigeminal nerve
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference:
+    - https://go.drugbank.com/drugs/DB01114
+    - https://en.wikipedia.org/wiki/Sneeze
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: negatively regulates
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: increases abundance of
+        source: MESH:D006632
+        target: MESH:D013373
+    -   key: participates in
+        source: MESH:D013373
+        target: MESH:D020078
+    -   key: contributes to
+        source: MESH:D020078
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: MESH:D020078
+        label: Disease
+        name: Neurogenic Inflammation
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01114
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3764847/
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: negatively regulates
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:Q8NER1
+        target: CL:0000197
+    -   key: contributes to
+        source: CL:0000197
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1
+    -   id: CL:0000197
+        label: Cell
+        name: Sensory Receptor Cell
+    -   id: MESH:D011537
+        label: Disease
+        name: Itching of skin
+    reference:
+    - https://go.drugbank.com/drugs/DB01114
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2519061/
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: negatively regulates
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0071159
+    -   key: positively regulates
+        source: GO:0071159
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0000004
+    -   key: affected by
+        source: UBERON:0000004
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071159
+        label: CellularComponent
+        name: NF-kappaB complex
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://pubmed.ncbi.nlm.nih.gov/14561186/
+    - https://go.drugbank.com/drugs/DB01114
+-   directed: true
+    graph:
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: chlorphenamine
+        drug_mesh: MESH:D002744
+        drugbank: DB:DB01114
+    links:
+    -   key: decreases activity of
+        source: MESH:D002744
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:D002744
+        label: Drug
+        name: Chlorphenamine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference:
+    - https://go.drugbank.com/drugs/DB01114
+    - https://en.wikipedia.org/wiki/Hives
+-   directed: true
+    graph:
+        disease: Myasthenia gravis
+        disease_mesh: MESH:D009157
+        drug: neostigmine
+        drug_mesh: MESH:D009388
+        drugbank: DB:DB01400
+    links:
+    -   key: decreases activity of
+        source: MESH:D009388
+        target: UniProt:P22303
+    -   key: positively regulates
+        source: UniProt:P22303
+        target: GO:0006581
+    -   key: decreases abundance of
+        source: GO:0006581
+        target: MESH:D000109
+    -   key: increases activity of
+        source: MESH:D000109
+        target: GO:0015464
+    -   key: disrupted by
+        source: GO:0015464
+        target: MESH:D009157
+    multigraph: true
+    nodes:
+    -   id: MESH:D009388
+        label: Drug
+        name: Neostigmine
+    -   id: UniProt:P22303
+        label: Protein
+        name: Acetylcholinesterase
+    -   id: GO:0006581
+        label: BiologicalProcess
+        name: Acetylcholine catabolic process
+    -   id: GO:0015464
+        label: MolecularActivity
+        name: Acetylcholine receptor activity
+    -   id: MESH:D000109
+        label: ChemicalSubstance
+        name: Acetylcholine
+    -   id: MESH:D009157
+        label: Disease
+        name: Myasthenia gravis
+    reference: 
+    - https://go.drugbank.com/drugs/DB01400#BE0000426
+    - https://en.wikipedia.org/wiki/Myasthenia_gravis#Pathophysiology
+-   directed: true
+    graph:
+        disease: Retention of urine
+        disease_mesh: MESH:D016055
+        drug: neostigmine
+        drug_mesh: MESH:D009388
+        drugbank: DB:DB01400
+    links:
+    -   key: decreases activity of
+        source: MESH:D009388
+        target: UniProt:P22303
+    -   key: positively regulates
+        source: UniProt:P22303
+        target: GO:0006581
+    -   key: decreases abundance of
+        source: GO:0006581
+        target: MESH:D000109
+    -   key: positively regulates
+        source: MESH:D000109
+        target: GO:0014832
+    -   key: negatively correlated with
+        source: GO:0014832
+        target: MESH:D016055
+    multigraph: true
+    nodes:
+    -   id: MESH:D009388
+        label: Drug
+        name: Neostigmine
+    -   id: UniProt:P22303
+        label: Protein
+        name: Acetylcholinesterase
+    -   id: GO:0006581
+        label: BiologicalProcess
+        name: Acetylcholine catabolic process
+    -   id: GO:0014832
+        label: BiologicalProcess
+        name: Urinary bladder smooth muscle contraction
+    -   id: MESH:D000109
+        label: ChemicalSubstance
+        name: Acetylcholine
+    -   id: MESH:D016055
+        label: Disease
+        name: Retention of urine
+    reference:
+    - https://go.drugbank.com/drugs/DB01400#BE0000426
+-   directed: true
+    graph:
+        disease: Renal cell carcinoma
+        disease_mesh: MESH:D002292
+        drug: cabozantinib
+        drug_mesh: MESH:C558660
+        drugbank: DB:DB08875
+    links:
+    -   key: decreases activity of
+        source: MESH:C558660
+        target: UniProt:P08581
+    -   key: decreases activity of
+        source: MESH:C558660
+        target: UniProt:P35968
+    -   key: decreases activity of
+        source: MESH:C558660
+        target: UniProt:P07949
+    -   key: positively regulates
+        source: UniProt:P08581
+        target: GO:0007169
+    -   key: positively regulates
+        source: UniProt:P35968
+        target: GO:0007169
+    -   key: positively regulates
+        source: UniProt:P07949
+        target: GO:0007169
+    -   key: positively correlated with
+        source: GO:0007169
+        target: GO:0001525
+    -   key: positively correlated with
+        source: GO:0007169
+        target: HP:0031377
+    -   key: occurs in
+        source: GO:0001525
+        target: MESH:D002292
+    -   key: occurs in
+        source: HP:0031377
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C558660
+        label: Drug
+        name: Cabozantinib
+    -   id: UniProt:P08581
+        label: Protein
+        name: Hepatocyte growth factor receptor
+    -   id: UniProt:P35968
+        label: Protein
+        name: Vascular endothelial growth factor receptor 2
+    -   id: UniProt:P07949
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase receptor Ret
+    -   id: GO:0007169
+        label: BiologicalProcess
+        name: Transmembrane receptor protein tyrosine kinase signaling pathway
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: Angiogenesis
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
+    -   id: MESH:D002292
+        label: Disease
+        name: Renal cell carcinoma
+    reference: 
+    - https://go.drugbank.com/drugs/DB08875#BE0000915
+    - https://en.wikipedia.org/wiki/Cabozantinib
+-   directed: true
+    graph:
+        disease: Medullary thyroid carcinoma
+        disease_mesh: MESH:C536914
+        drug: cabozantinib
+        drug_mesh: MESH:C558660
+        drugbank: DB:DB08875
+    links:
+    -   key: decreases activity of
+        source: MESH:C558660
+        target: UniProt:P08581
+    -   key: decreases activity of
+        source: MESH:C558660
+        target: UniProt:P35968
+    -   key: decreases activity of
+        source: MESH:C558660
+        target: UniProt:P07949
+    -   key: positively regulates
+        source: UniProt:P08581
+        target: GO:0007169
+    -   key: positively regulates
+        source: UniProt:P35968
+        target: GO:0007169
+    -   key: positively regulates
+        source: UniProt:P07949
+        target: GO:0007169
+    -   key: positively correlated with
+        source: GO:0007169
+        target: GO:0001525
+    -   key: positively correlated with
+        source: GO:0007169
+        target: HP:0031377
+    -   key: occurs in
+        source: GO:0001525
+        target: MESH:C536914
+    -   key: occurs in
+        source: HP:0031377
+        target: MESH:C536914
+    multigraph: true
+    nodes:
+    -   id: MESH:C558660
+        label: Drug
+        name: Cabozantinib
+    -   id: UniProt:P08581
+        label: Protein
+        name: Hepatocyte growth factor receptor
+    -   id: UniProt:P35968
+        label: Protein
+        name: Vascular endothelial growth factor receptor 2
+    -   id: UniProt:P07949
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase receptor Ret
+    -   id: GO:0007169
+        label: BiologicalProcess
+        name: Transmembrane receptor protein tyrosine kinase signaling pathway
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: Angiogenesis
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
+    -   id: MESH:C536914
+        label: Disease
+        name: Medullary thyroid carcinoma
+    reference: 
+    - https://go.drugbank.com/drugs/DB08875#BE0000915
+    - https://en.wikipedia.org/wiki/Cabozantinib
+-   comment: This drug is in Phase III Clinical Trials. Perazine has incomplete annotation in the DrugBank.
+    directed: true
+    graph:
+        disease: Nausea
+        disease_mesh: MESH:D009325
+        drug: perazine
+        drug_mesh: MESH:D010464
+        drugbank: DB:DB12710
+    links:
+    -   key: decreases activity of
+        source: MESH:D010464
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D009325
+    multigraph: true
+    nodes:
+    -   id: MESH:D010464
+        label: Drug
+        name: Perazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: MESH:D009325
+        label: Disease
+        name: Nausea
+    reference: 
+    - https://drugs.ncats.io/drug/8915147A2B
+    - https://go.drugbank.com/drugs/DB12710
+-   comment: This drug is in Phase III Clinical Trials. Perazine has incomplete annotation in the DrugBank.
+    directed: true
+    graph:
+        disease: Vomiting
+        disease_mesh: MESH:D014839
+        drug: perazine
+        drug_mesh: MESH:D010464
+        drugbank: DB:DB12710
+    links:
+    -   key: decreases activity of
+        source: MESH:D010464
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D014839
+    multigraph: true
+    nodes:
+    -   id: MESH:D010464
+        label: Drug
+        name: Perazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: MESH:D014839
+        label: Disease
+        name: Vomiting
+    reference: 
+    - https://drugs.ncats.io/drug/8915147A2B
+    - https://go.drugbank.com/drugs/DB12710
+-   comment: No evidence found to support perazine treatment for enterobiasis.
+    directed: true
+    graph:
+        disease: Enterobiasis
+        disease_mesh: MESH:D017229
+        drug: perazine
+        drug_mesh: MESH:D010464
+        drugbank: DB:DB12710
+    links:
+    -   key: treats
+        source: MESH:D010464
+        target: MESH:D017229
+    multigraph: true
+    nodes:
+    -   id: MESH:D010464
+        label: Drug
+        name: Perazine
+    -   id: MESH:D017229
+        label: Disease
+        name: Enterobiasis
+    reference: 
+    - https://drugs.ncats.io/drug/8915147A2B
+    - https://go.drugbank.com/drugs/DB12710
+-   comment: No evidence found to support perazine treatment for ascariasis.
+    directed: true
+    graph:
+        disease: Ascariasis
+        disease_mesh: MESH:D001196
+        drug: perazine
+        drug_mesh: MESH:D010464
+        drugbank: DB:DB12710
+    links:
+    -   key: treats
+        source: MESH:D010464
+        target: MESH:D001196
+    multigraph: true
+    nodes:
+    -   id: MESH:D010464
+        label: Drug
+        name: Perazine
+    -   id: MESH:D001196
+        label: Disease
+        name: Ascariasis
+    reference: 
+    - https://drugs.ncats.io/drug/8915147A2B
+    - https://go.drugbank.com/drugs/DB12710
+-   directed: true
+    graph:
+        disease: Anxiety
+        disease_mesh: MESH:D001007
+        drug: perazine
+        drug_mesh: MESH:D010464
+        drugbank: DB:DB12710 
+    links:
+    -   key: decreases activity of
+        source: DB:DB12710
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: correlated with
+        source: GO:0061527
+        target: MESH:D001007
+    multigraph: true
+    nodes:
+    -   id: DB:DB12710
+        label: Drug
+        name: Perazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D001007
+        label: Disease
+        name: Anxiety
+    reference: 
+    - https://pubmed.ncbi.nlm.nih.gov/26317601/
+    - https://drugs.ncats.io/drug/8915147A2B
+    - https://go.drugbank.com/drugs/DB12710
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: perazine
+        drug_mesh: MESH:D010464
+        drugbank: DB:DB12710
+    links:
+    -   key: decreases activity of
+        source: DB:DB12710
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: located in
+        source: GO:0061527
+        target: UBERON:0000451
+    -   key: regulates
+        source: UBERON:0000451
+        target: HP:0000708
+    -   key: manifestation of
+        source: HP:0000708
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: DB:DB12710
+        label: Drug
+        name: Perazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: UBERON:0000451
+        label: GrossAnatomicalStructure
+        name: Prefrontal complex
+    -   id: HP:0000708
+        label: PhenotypicFeature
+        name: Behavioral abnormality
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference:
+    - https://en.wikipedia.org/wiki/Perazine
+    - https://go.drugbank.com/drugs/DB12710
