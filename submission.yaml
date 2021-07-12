@@ -1,1 +1,2381 @@
-
+- directed: true
+  graph:
+    _id: DB00712_MESH_D010003_1
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: flurbiprofen
+    drug_mesh: MESH:D005480
+    drugbank: DB:DB00712
+  links:
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D010003
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:D005480
+      label: Drug
+      name: flurbiprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB00712
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL563/
+- directed: true
+  graph:
+    _id: DB00712_MESH_D001172_1
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: flurbiprofen
+    drug_mesh: MESH:D005480
+    drugbank: DB:DB00712
+  links:
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:D005480
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D001172
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:D005480
+      label: Drug
+      name: flurbiprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference: https://go.drugbank.com/drugs/DB00712 https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL563/
+- directed: true
+  graph:
+    _id: DB01009_MESH_D001172_1
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: ketoprofen
+    drug_mesh: MESH:D007660
+    drugbank: DB:DB01009
+  links:
+    - key: negatively regulates
+      source: MESH:D007660
+      target: UniProt:P23219
+    - key: negatively regulates
+      source: MESH:D007660
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0005059
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D001172
+    - key: positively correlated with
+      source: HP:0005059
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:D007660
+      label: Drug
+      name: ketoprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0005059
+      label: PhenotypicFeature
+      name: Arthralgia/arthritis
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB01009#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Ketoprofen#Mechanism
+    - https://en.wikipedia.org/wiki/Rheumatoid_arthritis#Anti-inflammatory_and_analgesic_agents
+- directed: true
+  graph:
+    _id: DB01009_MESH_D001172_2
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: ketoprofen
+    drug_mesh: MESH:D007660
+    drugbank: DB:DB01009
+  links:
+    - key: negatively regulates
+      source: MESH:D007660
+      target: UniProt:P25024
+    - key: positively regulates
+      source: UniProt:P25024
+      target: GO:0030593
+    - key: positively regulates
+      source: UniProt:P25024
+      target: GO:0002407
+    - key: positively correlated with
+      source: GO:0030593
+      target: HP:0005059
+    - key: positively correlated with
+      source: GO:0030593
+      target: HP:0001386
+    - key: positively correlated with
+      source: GO:0002407
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D001172
+    - key: positively correlated with
+      source: HP:0005059
+      target: MESH:D001172
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:D007660
+      label: Drug
+      name: ketoprofen
+    - id: UniProt:P25024
+      label: Protein
+      name: C-X-C chemokine receptor type 1
+    - id: GO:0030593
+      label: BiologicalProcess
+      name: neutrophil chemotaxis
+    - id: GO:0002407
+      label: BiologicalProcess
+      name: dendritic cell chemotaxis
+    - id: HP:0005059
+      label: PhenotypicFeature
+      name: Arthralgia/arthritis
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB01009#BE0003552
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943798/
+- directed: true
+  graph:
+    _id: DB01009_MESH_D004412_1
+    disease: Dysmenorrhea
+    disease_mesh: MESH:D004412
+    drug: ketoprofen
+    drug_mesh: MESH:D007660
+    drugbank: DB:DB01009
+  links:
+    - key: negatively regulates
+      source: MESH:D007660
+      target: UniProt:P23219
+    - key: negatively regulates
+      source: MESH:D007660
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively regulates
+      source: MESH:D011453
+      target:
+    - key: positively correlated with
+      source:
+      target: MESH:D004412
+  multigraph: true
+  nodes:
+    - id: MESH:D007660
+      label: Drug
+      name: ketoprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: GO:0070471
+      label: BiologicalProcess
+      name: uterine smooth muscle contraction
+    - id: MESH:D004412
+      label: Disease
+      name: Dysmenorrhea
+  reference:
+    - https://go.drugbank.com/drugs/DB01009
+    - https://www.aafp.org/afp/1999/0801/p489.html
+- directed: true
+  graph:
+    _id: DB01009_MESH_D010003_1
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: ketoprofen
+    drug_mesh: MESH:D007660
+    drugbank: DB:DB01009
+  links:
+    - key: negatively regulates
+      source: MESH:D007660
+      target: UniProt:P23219
+    - key: negatively regulates
+      source: MESH:D007660
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D010003
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:D007660
+      label: Drug
+      name: ketoprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference: https://go.drugbank.com/drugs/DB01009
+  comment: In contrast to rheumatoid arthritis, in osteoarthritis the joints do not become hot or red.  (https://en.wikipedia.org/wiki/Osteoarthritis#cite_note-NIH2015-1)
+- directed: true
+  graph:
+    _id: DB00461_MESH_D010003_1
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: Nabumetone
+    drug_mesh: MESH:D007660
+    drugbank: DB:DB00461
+  links:
+    - key: produces
+      source: MESH:D007660
+      target: CHEBI:35628
+    - key: decreases activity of
+      source: CHEBI:35628
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: CHEBI:35628
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D010003
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:D007660
+      label: Drug
+      name: Nabumetone
+    - id: CHEBI:35628
+      label: Drug
+      name: (6-methoxy-2-naphthyl)acetic acid
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB00461#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Nabumetone
+  comment: Nabumetone is a prodrug, which is metabolised into the pharmacologically active drug (CHEBI:35628, 6-methoxy-2-naphthyl acetic acid). Note that the drug preferentially blocks COX-2 activity.
+- directed: true
+  graph:
+    _id: DB00461_MESH_D001172_1
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: Nabumetone
+    drug_mesh: MESH:D007660
+    drugbank: DB:DB00461
+  links:
+    - key: produces
+      source: MESH:D007660
+      target: CHEBI:35628
+    - key: decreases activity of
+      source: CHEBI:35628
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: CHEBI:35628
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D001172
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:D007660
+      label: Drug
+      name: Nabumetone
+    - id: CHEBI:35628
+      label: Drug
+      name: (6-methoxy-2-naphthyl)acetic acid
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB00461#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Nabumetone
+  comment: Nabumetone is a prodrug, which is metabolised into the pharmacologically active drug (CHEBI:35628, 6-methoxy-2-naphthyl acetic acid). Note that the drug preferentially blocks COX-2 activity.
+- directed: true
+  graph:
+    _id: DB09213_MESH_D001172_1
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: dexibuprofen
+    drug_mesh: MESH:C539402
+    drugbank: DB:DB09213
+  links:
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D001172
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:C539402
+      label: Drug
+      name: dexibuprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB09213#BE0000262
+    - https://go.drugbank.com/drugs/DB09213#BE0000017
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+  comment: Dexibuprofen is an active enantiomer of ibuprofen.
+- directed: true
+  graph:
+    _id: DB09213_MESH_D001171_1
+    disease: Arthritis, Juvenile
+    disease_mesh: MESH:D001171
+    drug: dexibuprofen
+    drug_mesh: MESH:C539402
+    drugbank: DB:DB09213
+  links:
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D001171
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D001171
+  multigraph: true
+  nodes:
+    - id: MESH:C539402
+      label: Drug
+      name: dexibuprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001171
+      label: Disease
+      name: Arthritis, Juvenile
+  reference:
+    - https://go.drugbank.com/drugs/DB09213#BE0000262
+    - https://go.drugbank.com/drugs/DB09213#BE0000017
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+  comment: The disease is also known as Juvenile rheumatoid arthritis as per DrugCentral. Dexibuprofen is an active enantiomer of ibuprofen.
+- directed: true
+  graph:
+    _id: DB09213_MESH_D010003_1
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: dexibuprofen
+    drug_mesh: MESH:C539402
+    drugbank: DB:DB09213
+  links:
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: HP:0001386
+      target: MESH:D010003
+    - key: positively correlated with
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:C539402
+      label: Drug
+      name: dexibuprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB09213#BE0000262
+    - https://go.drugbank.com/drugs/DB09213#BE0000017
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+  comment: Dexibuprofen is an active enantiomer of ibuprofen.
+- directed: true
+  graph:
+    _id: DB09213_MESH_D005334_1
+    disease: Fever
+    disease_mesh: MESH:D005334
+    drug: dexibuprofen
+    drug_mesh: MESH:C539402
+    drugbank: DB:DB09213
+  links:
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: MESH:D005334
+  multigraph: true
+  nodes:
+    - id: MESH:C539402
+      label: Drug
+      name: dexibuprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: MESH:D005334
+      label: Disease
+      name: Fever
+  reference:
+    - https://go.drugbank.com/drugs/DB09213#BE0000262
+    - https://go.drugbank.com/drugs/DB09213#BE0000017
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+    - https://en.wikipedia.org/wiki/Fever#PGE2_release
+  comment: Dexibuprofen is an active enantiomer of ibuprofen.
+- directed: true
+  graph:
+    _id: DB09213_MESH_D010146_1
+    disease: Pain
+    disease_mesh: MESH:D010146
+    drug: dexibuprofen
+    drug_mesh: MESH:C539402
+    drugbank: DB:DB09213
+  links:
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: MESH:D010146
+  multigraph: true
+  nodes:
+    - id: MESH:C539402
+      label: Drug
+      name: dexibuprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: MESH:D010146
+      label: Disease
+      name: Pain
+  reference:
+    - https://go.drugbank.com/drugs/DB09213#BE0000262
+    - https://go.drugbank.com/drugs/DB09213#BE0000017
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+    - https://en.wikipedia.org/wiki/Fever#PGE2_release
+  comment: Dexibuprofen is an active enantiomer of ibuprofen.
+- directed: true
+  graph:
+    _id: DB09213_MESH_D006261_1
+    disease: Headache Disorders
+    disease_mesh: MESH:D006261
+    drug: dexibuprofen
+    drug_mesh: MESH:C539402
+    drugbank: DB:DB09213
+  links:
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D006261
+  multigraph: true
+  nodes:
+    - id: MESH:C539402
+      label: Drug
+      name: dexibuprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D006261
+      label: Disease
+      name: Headache Disorders
+  reference:
+    - https://go.drugbank.com/drugs/DB09213#BE0000262
+    - https://go.drugbank.com/drugs/DB09213#BE0000017
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+    - https://en.wikipedia.org/wiki/Fever#PGE2_release
+  comment: Dexibuprofen is an active enantiomer of ibuprofen.
+- directed: true
+  graph:
+    _id: DB09213_MESH_D004412_1
+    disease: Dysmenorrhea
+    disease_mesh: MESH:D004412
+    drug: dexibuprofen
+    drug_mesh: MESH:C539402
+    drugbank: DB:DB09213
+  links:
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C539402
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D004412
+  multigraph: true
+  nodes:
+    - id: MESH:C539402
+      label: Drug
+      name: dexibuprofen
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D004412
+      label: Disease
+      name: Dysmenorrhea
+  reference:
+    - https://go.drugbank.com/drugs/DB09213#BE0000262
+    - https://go.drugbank.com/drugs/DB09213#BE0000017
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL175/
+    - https://en.wikipedia.org/wiki/Ibuprofen#Pharmacology
+    - https://en.wikipedia.org/wiki/Fever#PGE2_release
+  comment: Dexibuprofen is an active enantiomer of ibuprofen.
+- directed: true
+  graph:
+    _id: DB05016_MESH_D020388_1
+    disease: Muscular Dystrophy, Duchenne
+    disease_mesh: MESH:D020388
+    drug: ataluren
+    drug_mesh: MESH:C515878
+    drugbank: DB:DB05016
+  links:
+    - key: positively correlated with
+      source: MESH:C515878
+      target: UniProt:P11532
+    - key: disrupted by
+      source: UniProt:P11532
+      target: MESH:D018389
+    - key: predisposes
+      source: MESH:D018389
+      target: MESH:D059365
+    - key: positively correlated with
+      source: MESH:D059365
+      target: HP:0003323
+    - key: manifestation of
+      source: HP:0003323
+      target: MESH:D020388
+  multigraph: true
+  nodes:
+    - id: MESH:C515878
+      label: Drug
+      name: ataluren
+    - id: UniProt:P11532
+      label: Protein
+      name: Dystrophin
+    - id: MESH:D018389
+      label: ChemicalSubstance
+      name: Codon, Nonsense
+    - id: MESH:D059365
+      label: BiologicalProcess
+      name: Nonsense Mediated mRNA Decay
+    - id: HP:0003323
+      label: PhenotypicFeature
+      name: Progressive muscle weakness
+    - id: MESH:D020388
+      label: Disease
+      name: Muscular Dystrophy, Duchenne
+  reference:
+    - https://go.drugbank.com/drugs/DB05016#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Ataluren#Pharmacology
+  comment: The drug enables ribosomes to bypass premature stop codons caused by nonsense mutations in the dystrophin gene. This restores the full-length and functional capability of dystrophin. Without the drug, the premature stop codon means that a truncated protein will be produced, which will be unabled to play its role in muscle strenght and proper function leading to the disease. The disease is denoted Duchenne muscular dystrophy in the original file as per DrugCentral.
+- directed: true
+  graph:
+    _id: DB01057_MESH_D004948_1
+    disease: Esotropia
+    disease_mesh: MESH:D004948
+    drug: Echothiophate Iodide
+    drug_mesh: MESH:D004456
+    drugbank: DB:DB01057
+  links:
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P22303
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P06276
+    - key: positively regulates
+      source: UniProt:P06276
+      target: GO:0003990
+    - key: decreases abundance of
+      source: GO:0003990
+      target: MESH:D000109
+    - key: positively regulates
+      source: UniProt:P22303
+      target: GO:0006581
+    - key: decreases abundance of
+      source: GO:0006581
+      target: MESH:D000109
+    - key: negatively correlated with
+      source: MESH:D000109
+      target: HP:0000549
+    - key: manifestation of
+      source: HP:0000549
+      target: MESH:D004948
+  multigraph: true
+  nodes:
+    - id: MESH:D004456
+      label: Drug
+      name: Echothiophate Iodide
+    - id: UniProt:P22303
+      label: Protein
+      name: Acetylcholinesterase
+    - id: UniProt:P06276
+      label: Protein
+      name: Cholinesterase
+    - id: GO:0003990
+      label: MolecularActivity
+      name: acetylcholinesterase activity
+    - id: GO:0006581
+      label: BiologicalProcess
+      name: acetylcholine catabolic process
+    - id: MESH:D000109
+      label: ChemicalSubstance
+      name: Acetylcholine
+    - id: HP:0000549
+      label: PhenotypicFeature
+      name: Abnormal conjugate eye movement
+    - id: MESH:D004948
+      label: Disease
+      name: Esotropia
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/
+    - https://go.drugbank.com/drugs/DB01057#BE0002180
+  comment: MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212).
+- directed: true
+  graph:
+    _id: DB01057_MESH_D005902_1
+    disease: Glaucoma, Open-Angle
+    disease_mesh: MESH:D005902
+    drug: Echothiophate Iodide
+    drug_mesh: MESH:D004456
+    drugbank: DB:DB01057
+  links:
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P22303
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P06276
+    - key: positively regulates
+      source: UniProt:P06276
+      target: GO:0003990
+    - key: decreases abundance of
+      source: GO:0003990
+      target: MESH:D000109
+    - key: positively regulates
+      source: UniProt:P22303
+      target: GO:0006581
+    - key: decreases abundance of
+      source: GO:0006581
+      target: MESH:D000109
+    - key: positively correlated with
+      source: MESH:D000109
+      target: HP:0000616
+    - key: negatively correlated with
+      source: HP:0000616
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: manifestation of
+      source: HP:0007906
+      target: MESH:D005902
+  multigraph: true
+  nodes:
+    - id: MESH:D004456
+      label: Drug
+      name: Echothiophate Iodide
+    - id: UniProt:P22303
+      label: Protein
+      name: Acetylcholinesterase
+    - id: UniProt:P06276
+      label: Protein
+      name: Cholinesterase
+    - id: GO:0003990
+      label: MolecularActivity
+      name: acetylcholinesterase activity
+    - id: GO:0006581
+      label: BiologicalProcess
+      name: acetylcholine catabolic process
+    - id: MESH:D000109
+      label: ChemicalSubstance
+      name: Acetylcholine
+    - id: HP:0000616
+      label: PhenotypicFeature
+      name: Miosis
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular hypertension
+    - id: MESH:D005902
+      label: Disease
+      name: Glaucoma, Open-Angle
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/
+    - https://go.drugbank.com/drugs/DB01057#BE0002180
+  comment: The drug allows for the trabecular meshwork in the eye (UBERON:0005969) to open, increasing the outflow of the aqueous humor and having a positive impact on reducing intraocular pressure. Note that MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212). The disease is also known as Open-angle glaucoma as per in DrugCentral.
+- directed: true
+  graph:
+    _id: DB01057_MESH_D005901_1
+    disease: Glaucoma
+    disease_mesh: MESH:D005901
+    drug: Echothiophate Iodide
+    drug_mesh: MESH:D004456
+    drugbank: DB:DB01057
+  links:
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P22303
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P06276
+    - key: positively regulates
+      source: UniProt:P06276
+      target: GO:0003990
+    - key: decreases abundance of
+      source: GO:0003990
+      target: MESH:D000109
+    - key: positively regulates
+      source: UniProt:P22303
+      target: GO:0006581
+    - key: decreases abundance of
+      source: GO:0006581
+      target: MESH:D000109
+    - key: positively correlated with
+      source: MESH:D000109
+      target: HP:0000616
+    - key: negatively correlated with
+      source: HP:0000616
+      target: UBERON:0001796
+    - key: positively correlated with
+      source: UBERON:0001796
+      target: HP:0007906
+    - key: manifestation of
+      source: HP:0007906
+      target: MESH:D005901
+  multigraph: true
+  nodes:
+    - id: MESH:D004456
+      label: Drug
+      name: Echothiophate Iodide
+    - id: UniProt:P22303
+      label: Protein
+      name: Acetylcholinesterase
+    - id: UniProt:P06276
+      label: Protein
+      name: Cholinesterase
+    - id: GO:0003990
+      label: MolecularActivity
+      name: acetylcholinesterase activity
+    - id: GO:0006581
+      label: BiologicalProcess
+      name: acetylcholine catabolic process
+    - id: MESH:D000109
+      label: ChemicalSubstance
+      name: Acetylcholine
+    - id: HP:0000616
+      label: PhenotypicFeature
+      name: Miosis
+    - id: UBERON:0001796
+      label: GrossAnatomicalStructure
+      name: aqueous humor of eyeball
+    - id: HP:0007906
+      label: PhenotypicFeature
+      name: Ocular hypertension
+    - id: MESH:D005901
+      label: Disease
+      name: Glaucoma
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/
+    - https://go.drugbank.com/drugs/DB01057#BE0002180
+  comment: The drug allows for the trabecular meshwork in the eye (UBERON:0005969) to open, increasing the outflow of the aqueous humor and having a positive impact on reducing intraocular pressure. Note that MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212).
+- directed: true
+  graph:
+    _id: DB01057_MESH_D000080362_1
+    disease: Stargardt's disease
+    disease_mesh: MESH:D000080362
+    drug: Echothiophate Iodide
+    drug_mesh: MESH:D004456
+    drugbank: DB:DB01057
+  links:
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P22303
+    - key: decreases activity of
+      source: MESH:D004456
+      target: UniProt:P06276
+    - key: positively regulates
+      source: UniProt:P06276
+      target: GO:0003990
+    - key: decreases abundance of
+      source: GO:0003990
+      target: MESH:D000109
+    - key: positively regulates
+      source: UniProt:P22303
+      target: GO:0006581
+    - key: decreases abundance of
+      source: GO:0006581
+      target: MESH:D000109
+    - key: positively correlated with
+      source: MESH:D000109
+      target: HP:0000616
+    - key: negatively correlated with
+      source: HP:0000616
+      target: HP:0007663
+    - key: manifestation of
+      source: HP:0007663
+      target: MESH:D000080362
+  multigraph: true
+  nodes:
+    - id: MESH:D004456
+      label: Drug
+      name: Echothiophate Iodide
+    - id: UniProt:P22303
+      label: Protein
+      name: Acetylcholinesterase
+    - id: UniProt:P06276
+      label: Protein
+      name: Cholinesterase
+    - id: GO:0003990
+      label: MolecularActivity
+      name: acetylcholinesterase activity
+    - id: GO:0006581
+      label: BiologicalProcess
+      name: acetylcholine catabolic process
+    - id: MESH:D000109
+      label: ChemicalSubstance
+      name: Acetylcholine
+    - id: HP:0000616
+      label: PhenotypicFeature
+      name: Miosis
+    - id: HP:0007663
+      label: PhenotypicFeature
+      name: Reduced visual acuity
+    - id: MESH:D000080362
+      label: Disease
+      name: Stargardt's disease
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201341/
+    - https://go.drugbank.com/drugs/DB01057#BE0002180
+    - https://patents.google.com/patent/US7915312B2/en
+  comment: MESH:C061212 is not an alternative MESH ID for this drug (https://meshb.nlm.nih.gov/record/ui?ui=C061212).
+- directed: true
+  graph:
+    _id: DB11256_MESH_D000152_1
+    disease: Acne vulgaris
+    disease_mesh: MESH:D000152
+    drug: levomefolic acid
+    drug_mesh: MESH:C569381
+    drugbank: DB:DB11256
+  links:
+    - key: treats
+      source: MESH:C569381
+      target: MESH:D000152
+  multigraph: true
+  nodes:
+    - id: MESH:C569381
+      label: Drug
+      name: levomefolic acid
+    - id: MESH:D000152
+      label: Disease
+      name: Acne vulgaris
+  reference: https://www.accessdata.fda.gov/drugsatfda_docs/nda/2010/022532Orig1s000CrossR.pdf
+  comment: Levomefolic acid can be found in contraceptive pills as a source of folic acid to help to prevent spinal cord birth defects in an unborn baby. There has not been any evidence to support that levomefolic acid on its own is an indication for acne vulgaris. When combined with hormones such as progestin and estrogen (birth pill) it can be used to treat moderate acne as well as premenstrual dysphoric disorder (https://www.webmd.com/drugs/2/drug-154717/beyaz-oral/details), but not on its own.
+- directed: true
+  graph:
+    _id: DB11256_MESH_D065446_1
+    disease: Premenstrual dysphoric disorder
+    disease_mesh: MESH:D065446
+    drug: levomefolic acid
+    drug_mesh: MESH:C569381
+    drugbank: DB:DB11256
+  links:
+    - key: treats
+      source: MESH:C569381
+      target: MESH:D065446
+  multigraph: true
+  nodes:
+    - id: MESH:C569381
+      label: Drug
+      name: levomefolic acid
+    - id: MESH:D065446
+      label: Disease
+      name: Premenstrual dysphoric disorder
+  reference: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58cd12d3-39b1-4375-b7e0-09ba2378a52b
+  comment: Levomefolic acid can be found in contraceptive pills as a source of folic acid to help to prevent spinal cord birth defects in an unborn baby. There has not been any evidence to support that levomefolic acid on its own is an indication for acne vulgaris. When combined with hormones such as progestin and estrogen (birth pill) it can be used to treat moderate acne as well as premenstrual dysphoric disorder (https://www.webmd.com/drugs/2/drug-154717/beyaz-oral/details), but not on its own.
+- directed: true
+  graph:
+    _id: DB09221_MESH_D010437_1
+    disease: Peptic ulcer
+    disease_mesh: MESH:D010437
+    drug: polaprezinc
+    drug_mesh: MESH:C061957
+    drugbank: DB:DB09221
+  links:
+    - key: decreases abundance of
+      source: MESH:C061957
+      target: CHEBI:26523
+    - key: positively correlated with
+      source: MESH:C061957
+      target: GO:0070254
+    - key: negatively correlated with
+      source: MESH:C061957
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D010437
+    - key: negatively correlated with
+      source: GO:0070254
+      target: MESH:D010437
+    - key: positively correlated with
+      source: MESH:C061957
+      target: GO:0042060
+    - key: negatively correlated with
+      source: MESH:C061957
+      target: NCBITaxon:210
+    - key: causes
+      source: NCBITaxon:210
+      target: MESH:D010437
+    - key: negatively correlated with
+      source: GO:0042060
+      target: MESH:D010437
+    - key: positively correlated with
+      source: CHEBI:26523
+      target: MESH:D010437
+  multigraph: true
+  nodes:
+    - id: MESH:C061957
+      label: Drug
+      name: polaprezinc
+    - id: CHEBI:26523
+      label: ChemicalSubstance
+      name: reactive oxygen species
+    - id: NCBITaxon:210
+      label: OrganismTaxon
+      name: Helicobacter pylori
+    - id: GO:0042060
+      label: BiologicalProcess
+      name: Wound Healing
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0070254
+      label: BiologicalProcess
+      name: mucus secretion
+    - id: MESH:D010437
+      label: Disease
+      name: Peptic ulcer
+  reference: https://en.wikipedia.org/wiki/Zinc_L-carnosine#Mechanisms_of_action
+  comment: The drug stimulates the expression of several genes (e.g. HSP, SOD, etc) but it's not clear if the drug binds to these or other targets to modulate the known actions namely oxygen radical scavenging, anti-oxidation, anti-inflammation, and acceleration of gastrointestinal wound healing.
+- directed: true
+  graph:
+    _id: DB00482_MESH_D010003_1
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: celecoxib
+    drug_mesh: MESH:D000068579
+    drugbank: DB:DB00482
+  links:
+    - key: decreases activity of
+      source: MESH:D000068579
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D010003
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:D000068579
+      label: Drug
+      name: celecoxib
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB00482
+    - https://en.wikipedia.org/wiki/Celecoxib#Anti-inflammatory
+- directed: true
+  graph:
+    _id: DB00482_MESH_D013167_1
+    disease: Ankylosing spondylitis
+    disease_mesh: MESH:D013167
+    drug: celecoxib
+    drug_mesh: MESH:D000068579
+    drugbank: DB:DB00482
+  links:
+    - key: decreases activity of
+      source: MESH:D000068579
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001369
+    - key: manifestation of
+      source: HP:0001369
+      target: MESH:D013167
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D013167
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D013167
+  multigraph: true
+  nodes:
+    - id: MESH:D000068579
+      label: Drug
+      name: celecoxib
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0001369
+      label: PhenotypicFeature
+      name: Arthritis
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D013167
+      label: Disease
+      name: Ankylosing spondylitis
+  reference: https://go.drugbank.com/drugs/DB00482
+- directed: true
+  graph:
+    _id: DB00482_MESH_D001172_1
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: celecoxib
+    drug_mesh: MESH:D000068579
+    drugbank: DB:DB00482
+  links:
+    - key: decreases activity of
+      source: MESH:D000068579
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D001172
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:D000068579
+      label: Drug
+      name: celecoxib
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference: https://go.drugbank.com/drugs/DB00482
+- directed: true
+  graph:
+    _id: DB00482_MESH_D001171_1
+    disease: Juvenile rheumatoid arthritis
+    disease_mesh: MESH:D001171
+    drug: celecoxib
+    drug_mesh: MESH:D000068579
+    drugbank: DB:DB00482
+  links:
+    - key: decreases activity of
+      source: MESH:D000068579
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D001171
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D001171
+  multigraph: true
+  nodes:
+    - id: MESH:D000068579
+      label: Drug
+      name: celecoxib
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001171
+      label: Disease
+      name: Juvenile rheumatoid arthritis
+  reference: https://go.drugbank.com/drugs/DB00482
+- directed: true
+  graph:
+    _id: DB06736_MESH_D001172_1
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: aceclofenac
+    drug_mesh: MESH:C056498
+    drugbank: DB:DB06736
+  links:
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D001172
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:C056498
+      label: Drug
+      name: aceclofenac
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB06736
+    - https://en.wikipedia.org/wiki/Aceclofenac#Chemistry
+- directed: true
+  graph:
+    _id: DB06736_MESH_D013167_1
+    disease: Ankylosing spondylitis
+    disease_mesh: MESH:D013167
+    drug: aceclofenac
+    drug_mesh: MESH:C056498
+    drugbank: DB:DB06736
+  links:
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001369
+    - key: manifestation of
+      source: HP:0001369
+      target: MESH:D013167
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D013167
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D013167
+  multigraph: true
+  nodes:
+    - id: MESH:C056498
+      label: Drug
+      name: aceclofenac
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0001369
+      label: PhenotypicFeature
+      name: Arthritis
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D013167
+      label: Disease
+      name: Ankylosing spondylitis
+  reference:
+    - https://go.drugbank.com/drugs/DB06736
+    - https://en.wikipedia.org/wiki/Aceclofenac#Chemistry
+    - https://en.wikipedia.org/wiki/Ankylosing_spondylitis#Medication
+- directed: true
+  graph:
+    _id: DB06736_MESH_D010003_1
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: aceclofenac
+    drug_mesh: MESH:C056498
+    drugbank: DB:DB06736
+  links:
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D010003
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:C056498
+      label: Drug
+      name: aceclofenac
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB06736
+    - https://en.wikipedia.org/wiki/Aceclofenac#Chemistry
+- directed: true
+  graph:
+    _id: DB06736_MESH_D001416_1
+    disease: Backache
+    disease_mesh: MESH:D001416
+    drug: aceclofenac
+    drug_mesh: MESH:C056498
+    drugbank: DB:DB06736
+  links:
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P23219
+    - key: decreases activity of
+      source: MESH:C056498
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P23219
+      target: REACT:R-HSA-2162123
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0003326
+    - key: located in
+      source: HP:0003326
+      target: UBERON:0004479
+    - key: location of
+      source: UBERON:0004479
+      target: MESH:D001416
+  multigraph: true
+  nodes:
+    - id: MESH:C056498
+      label: Drug
+      name: aceclofenac
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0003326
+      label: PhenotypicFeature
+      name: Myalgia
+    - id: UBERON:0004479
+      label: GrossAnatomicalStructure
+      name: musculature of trunk
+    - id: MESH:D001416
+      label: Disease
+      name: Backache
+  reference:
+    - https://go.drugbank.com/drugs/DB06736
+    - https://en.wikipedia.org/wiki/Aceclofenac#Chemistry
+- directed: true
+  graph:
+    _id: DB01283_MESH_D010003_1
+    disease: Osteoarthritis
+    disease_mesh: MESH:D010003
+    drug: lumiracoxib
+    drug_mesh: MESH:C473384
+    drugbank: DB:DB01283
+  links:
+    - key: decreases activity of
+      source: MESH:C473384
+      target: UniProt:P35354
+    - key: participates in
+      source: UniProt:P35354
+      target: REACT:R-HSA-2162123
+    - key: increases abundance of
+      source: REACT:R-HSA-2162123
+      target: MESH:D011453
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0002829
+    - key: positively correlated with
+      source: MESH:D011453
+      target: HP:0001386
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D010003
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D010003
+  multigraph: true
+  nodes:
+    - id: MESH:C473384
+      label: Drug
+      name: lumiracoxib
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: REACT:R-HSA-2162123
+      label: Pathway
+      name: Synthesis of Prostaglandins (PG) and Thromboxanes (TX)
+    - id: MESH:D011453
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: MESH:D010003
+      label: Disease
+      name: Osteoarthritis
+  reference:
+    - https://go.drugbank.com/drugs/DB01283
+    - https://en.wikipedia.org/wiki/Lumiracoxib
+  comment: Withdrawn from the market in several countries. It has never been approved in the US.
+- directed: true
+  graph:
+    _id: DB00771_MESH_D004760_1
+    disease: Enterocolitis
+    disease_mesh: MESH:D004760
+    drug: clidinium
+    drug_mesh: MESH:C054940
+    drugbank: DB:DB00771
+  links:
+    - key: negatively regulates
+      source: MESH:C054940
+      target: UniProt:P11229
+    - key: positively regulates
+      source: UniProt:P11229
+      target: GO:0006939
+    - key: positively correlated with
+      source: GO:0006939
+      target: GO:0001696
+    - key: positively correlated with
+      source: GO:0006939
+      target: HP:0003394
+    - key: correlated with
+      source: GO:0001696
+      target: MESH:D004760
+    - key: correlated with
+      source: HP:0003394
+      target: MESH:D004760
+  multigraph: true
+  nodes:
+    - id: MESH:C054940
+      label: Drug
+      name: clidinium
+    - id: UniProt:P11229
+      label: Protein
+      name: Muscarinic acetylcholine receptor M1
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction
+    - id: GO:0001696
+      label: BiologicalProcess
+      name: Intestinal Secretions
+    - id: HP:0003394
+      label: PhenotypicFeature
+      name: Muscle spasm
+    - id: MESH:D004760
+      label: Disease
+      name: Enterocolitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00771#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Clidinium_bromide#Mechanism_of_action
+  comment: The disease, specially the acute form, is mainly caused by infection (https://en.wikipedia.org/wiki/Enterocolitis#Cause), leading to inflammation. So in addition to treating the symptoms (such as spams and GI secretions), antibiotics, anti-virals etc may be needed for treatment (https://en.wikipedia.org/wiki/Enterocolitis#Treatment).
+- directed: true
+  graph:
+    _id: DB00942_MESH_D010300_1
+    disease: Parkinson's disease
+    disease_mesh: MESH:D010300
+    drug: cycrimine
+    drug_mesh: MESH:C012262
+    drugbank: DB:DB00942
+  links:
+    - key: negatively regulates
+      source: MESH:C012262
+      target: UniProt:P11229
+    - key: positively regulates
+      source: UniProt:P11229
+      target: GO:0007271
+    - key: increases activity of
+      source: GO:0007271
+      target: GO:0014055
+    - key: positively correlated with
+      source: GO:0014055
+      target: MESH:D010300
+  multigraph: true
+  nodes:
+    - id: MESH:C012262
+      label: Drug
+      name: cycrimine
+    - id: UniProt:P11229
+      label: Protein
+      name: Muscarinic acetylcholine receptor M1
+    - id: GO:0007271
+      label: BiologicalProcess
+      name: synaptic transmission, cholinergic
+    - id: GO:0014055
+      label: BiologicalProcess
+      name: acetylcholine secretion, neurotransmission
+    - id: MESH:D010300
+      label: Disease
+      name: Parkinson's disease
+  reference: https://go.drugbank.com/drugs/DB00942#mechanism-of-action https://pubchem.ncbi.nlm.nih.gov/compound/2911#section=Pharmacology-and-Biochemistry
+  comment: In Parkinson's disease, there is imbalance between levels of acetylcholine and dopamine, where increased levels of acetylcholine and degeneration of dopaminergic pathways are observed. Therefore, muscarinic antagonists block central cholinergic activity and balance out neurotransmitters in the brain (https://en.wikipedia.org/wiki/Muscarinic_antagonist#Effects). Anticholinergic drugs may also be prescribed to improve bladder dysfunction (https://pubmed.ncbi.nlm.nih.gov/20370804/).
+- directed: true
+  graph:
+    _id: DB09119_MESH_D004828_1
+    disease: Epilepsies, Partial
+    disease_mesh: MESH:D004828
+    drug: eslicarbazepine acetate
+    drug_mesh: MESH:C416835
+    drugbank: DB:DB09119
+  links:
+    - key: has metabolite
+      source: MESH:C416835
+      target: MESH:C571001
+    - key: decreases activity of
+      source: MESH:C571001
+      target: InterPro:IPR001696
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0035725
+    - key: regulates
+      source: GO:0035725
+      target: GO:0019228
+    - key: contributes to
+      source: GO:0019228
+      target: HP:0011097
+    - key: positively correlated with
+      source: HP:0011097
+      target: MESH:D004828
+  multigraph: true
+  nodes:
+    - id: MESH:C416835
+      label: Drug
+      name: eslicarbazepine acetate
+    - id: MESH:C571001
+      label: Drug
+      name: eslicarbazepine
+    - id: InterPro:IPR001696
+      label: GeneFamily
+      name: Voltage gated sodium channel, alpha subunit
+    - id: GO:0035725
+      label: BiologicalProcess
+      name: sodium ion transmembrane transport
+    - id: GO:0019228
+      label: BiologicalProcess
+      name: neuronal action potential
+    - id: HP:0011097
+      label: PhenotypicFeature
+      name: Epileptic spasm
+    - id: MESH:D004828
+      label: Disease
+      name: Epilepsies, Partial
+  reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/179344#section=Pharmacology-and-Biochemistry
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL87992/
+  comment: The antiseizure mechanism of action based on the voltage sodium channels is not a consensus (https://en.wikipedia.org/wiki/Eslicarbazepine_acetate#Mechanism_of_action). The drug could also bind to calcium channels (https://go.drugbank.com/drugs/DB09119#mechanism-of-action). Note that the protein target listed in DrugBank (https://go.drugbank.com/drugs/DB09119#BE0005793) does not seem to be involved in epilepsy, but rather in inflammation and pain.
+- directed: true
+  graph:
+    _id: DB00277_MESH_D008171_1
+    disease: Lung Diseases
+    disease_mesh: MESH:D008171
+    drug: theophylline
+    drug_mesh: MESH:D013806
+    drugbank: DB:DB00277
+  links:
+    - key: increases activity of
+      source: MESH:D013806
+      target: UniProt:Q92769
+    - key: positively regulates
+      source: UniProt:Q92769
+      target: GO:0016575
+    - key: negatively correlated with
+      source: GO:0016575
+      target: GO:0006954
+    - key: decreases activity of
+      source: MESH:D013806
+      target: InterPro:IPR023174
+    - key: decreases activity of
+      source: MESH:D013806
+      target: InterPro:IPR001634
+    - key: positively regulates
+      source: InterPro:IPR023174
+      target: GO:0006198
+    - key: negatively regulates
+      source: InterPro:IPR023174
+      target: GO:0019933
+    - key: positively regulates
+      source: InterPro:IPR001634
+      target: HP:4000007
+    - key: positively correlated with
+      source: HP:4000007
+      target: MESH:D008171
+    - key: positively regulates
+      source: InterPro:IPR001634
+      target: GO:0006954
+    - key: decreases abundance of
+      source: GO:0006198
+      target: CHEBI:17489
+    - key: increases abundance of
+      source: GO:0019933
+      target: CHEBI:17489
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: GO:0044557
+    - key: negatively correlated with
+      source: CHEBI:17489
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D008171
+    - key: negatively correlated with
+      source: GO:0044557
+      target: MESH:D008171
+  multigraph: true
+  nodes:
+    - id: MESH:D013806
+      label: Drug
+      name: theophylline
+      alt_ids:
+        - MESH:D000628
+        - MESH:D031210
+    - id: InterPro:IPR001634
+      label: GeneFamily
+      name: Adenosine receptor
+    - id: InterPro:IPR023174
+      label: GeneFamily
+      name: 3'5'-cyclic nucleotide phosphodiesterase, conserved site
+    - id: UniProt:Q92769
+      label: Protein
+      name: Histone deacetylase 2
+    - id: GO:0016575
+      label: BiologicalProcess
+      name: histone deacetylation
+    - id: GO:0006198
+      label: BiologicalProcess
+      name: cAMP catabolic process
+    - id: GO:0019933
+      label: BiologicalProcess
+      name: cAMP-mediated signaling
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0044557
+      label: BiologicalProcess
+      name: relaxation of smooth muscle
+    - id: HP:4000007
+      label: PhenotypicFeature
+      name: Bronchoconstriction
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3',5'-cyclic AMP
+    - id: MESH:D008171
+      label: Disease
+      name: Lung Diseases
+  reference:
+    - https://go.drugbank.com/drugs/DB00277#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Theophylline#Pharmacodynamics
+    - https://pubmed.ncbi.nlm.nih.gov/18660825/
+    - https://pubmed.ncbi.nlm.nih.gov/12212985/
+    - https://pubmed.ncbi.nlm.nih.gov/15980878/
+    - https://pubmed.ncbi.nlm.nih.gov/19762093/
+  comment: This disease is also known as Disorder of lung as per DrugCentral. Note this disease name is a very generic term, that could encompass any diseases of the lungs, including neoplasms, infectious diseases (e.g. tuberculosis) and rare diseases (e.g. cystic fibrosis) for which theophylline may not have any therapeutic benefit at all. Therefore, this annotation is done for all lung diseases that could be indications for this drug to encompass diseases that are similar to asthma, bronchitis, COPD and alike.
+- directed: true
+  graph:
+    _id: DB00445_MESH_D001943_1
+    disease: Breast Neoplasms
+    disease_mesh: MESH:D001943
+    drug: epirubicin
+    drug_mesh: MESH:D015251
+    drugbank: DB:DB00445
+  links:
+    - key: negatively regulates
+      source: MESH:D015251
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: positively correlated with
+      source: HP:0031377
+      target: MESH:D001943
+    - key: decreases abundance of
+      source: MESH:D015251
+      target: GO:0032993
+    - key: has participant
+      source: GO:0032993
+      target: UniProt:P11388
+    - key: positively correlated with
+      source: UniProt:P11388
+      target: GO:0006260
+    - key: increases abundance of
+      source: MESH:D015251
+      target: MESH:D005609
+    - key: positively correlated with
+      source: MESH:D005609
+      target: GO:0090734
+    - key: positively correlated with
+      source: GO:0090734
+      target: GO:0006915
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D001943
+    - key: positively correlated with
+      source: GO:0006260
+      target: HP:0031377
+    - key: positively correlated with
+      source: GO:0006260
+      target: GO:0140014
+    - key: positively correlated with
+      source: GO:0140014
+      target: HP:0031377
+    - key: manifestation of
+      source: HP:0031377
+      target: MESH:D001943
+  multigraph: true
+  nodes:
+    - id: MESH:D015251
+      label: Drug
+      name: epirubicin
+    - id: UniProt:P11388
+      label: Protein
+      name: DNA topoisomerase 2-alpha
+    - id: GO:0032993
+      label: CellularComponent
+      name: protein-DNA complex
+    - id: MESH:D005609
+      label: ChemicalSubstance
+      name: Free Radicals
+    - id: GO:0090734
+      label: CellularComponent
+      name: site of DNA damage
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: HP:0031377
+      label: PhenotypicFeature
+      name: Abnormal cell proliferation
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: GO:0140014
+      label: BiologicalProcess
+      name: mitotic nuclear division
+    - id: MESH:D001943
+      label: Disease
+      name: Breast Neoplasm
+  reference:
+    - https://go.drugbank.com/drugs/DB00445#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Epirubicin
+  comment: The disease is denoted Carcinoma of breast in the original file as per DrugCentral. The drug intercaltes with DNA and prevents DNA replication and downstream processes, some of them involving UniProt:P11388, which leads to cell/tumour death.
+- directed: true
+  graph:
+    _id: DB00569_MESH_D020246_1
+    disease: Venous Thrombosis
+    disease_mesh: MESH:D020246
+    drug: fondaparinux
+    drug_mesh: MESH:D000077425
+    drugbank: DB:DB00569
+  links:
+    - key: positively regulates
+      source: MESH:D000077425
+      target: UniProt:P01008
+    - key: decreases activity of
+      source: UniProt:P01008
+      target: UniProt:P00742
+    - key: positively correlated with
+      source: UniProt:P00742
+      target: GO:0007596
+    - key: located in
+      source: GO:0007596
+      target: UBERON:0035552
+    - key: location of
+      source: UBERON:0035552
+      target: MESH:D020246
+  multigraph: true
+  nodes:
+    - id: MESH:D000077425
+      label: Drug
+      name: fondaparinux
+    - id: UniProt:P01008
+      label: Protein
+      name: Antithrombin-III
+    - id: UniProt:P00742
+      label: Protein
+      name: Coagulation factor X
+    - id: GO:0007596
+      label: BiologicalProcess
+      name: blood coagulation
+    - id: UBERON:0035552
+      label: GrossAnatomicalStructure
+      name: deep vein
+    - id: MESH:D020246
+      label: Disease
+      name: Venous Thrombosis
+  reference:
+    - https://go.drugbank.com/drugs/DB00569#BE0000280
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201202/
+    - https://en.wikipedia.org/wiki/Fondaparinux#Mechanism_of_action
+  comment: The disease is also known as Deep venous thrombosis as per DrugCentral. Note that among the original MESH IDs for this drug one of them seems to have been deprecated (MESH:C438268) whereas the other (MESH:C049714) is for a compound where no evidence has been found to be related to fondaparinux.
+- directed: true
+  graph:
+    _id: DB00569_MESH_D011655_1
+    disease: Pulmonary Embolism
+    disease_mesh: MESH:D011655
+    drug: fondaparinux
+    drug_mesh: MESH:D000077425
+    drugbank: DB:DB00569
+  links:
+    - key: positively regulates
+      source: MESH:D000077425
+      target: UniProt:P01008
+    - key: decreases activity of
+      source: UniProt:P01008
+      target: UniProt:P00742
+    - key: positively correlated with
+      source: UniProt:P00742
+      target: GO:0007596
+    - key: positively correlated with
+      source: GO:0007596
+      target: HP:0001907
+    - key: positively correlated with
+      source: HP:0001907
+      target: MESH:D011655
+  multigraph: true
+  nodes:
+    - id: MESH:D000077425
+      label: Drug
+      name: fondaparinux
+    - id: UniProt:P01008
+      label: Protein
+      name: Antithrombin-III
+    - id: UniProt:P00742
+      label: Protein
+      name: Coagulation factor X
+    - id: GO:0007596
+      label: BiologicalProcess
+      name: blood coagulation
+    - id: HP:0001907
+      label: PhenotypicFeature
+      name: Thromboembolism
+    - id: MESH:D011655
+      label: Disease
+      name: Pulmonary Embolism
+  reference:
+    - https://go.drugbank.com/drugs/DB00569#BE0000280
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201202/
+    - https://en.wikipedia.org/wiki/Fondaparinux#Mechanism_of_action
+  comment: The disease is also known as Pulmonary thromboembolism as per DrugCentral. Note that among the original MESH IDs for this drug one of them seems to have been deprecated (MESH:C438268) whereas the other (MESH:C049714) is for a compound where no evidence has been found to be related to fondaparinux.
