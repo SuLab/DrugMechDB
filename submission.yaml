@@ -79,10 +79,10 @@
     -   key: increases abundance of
         source: GO:0006919
         target: UniProt:P01584
-    -   key: located in
+    -   key: produced by
         source: UniProt:P01584
         target: CL:0000775
-    -   key: located in
+    -   key: produced by
         source: UniProt:P01584
         target: CL:0000576
     -   key: negatively regulates
@@ -211,10 +211,10 @@
     -   key: increases abundance of
         source: GO:0006919
         target: UniProt:P01584
-    -   key: located in
+    -   key: produced by
         source: UniProt:P01584
         target: CL:0000775
-    -   key: located in
+    -   key: produced by
         source: UniProt:P01584
         target: CL:0000576
     -   key: negatively regulates
@@ -1423,7 +1423,8 @@
         name: Atrophic vaginitis
     reference:
     - https://go.drugbank.com/drugs/DB00890
--   directed: true
+-   comment: dienestrol treatment is mainly recommended for post-menopausal dyspareunia.
+    directed: true
     graph:
         disease: Dyspareunia
         disease_mesh: MESH:D004414
@@ -1483,17 +1484,14 @@
     -   key: chemically similar to
         source: MESH:C008976
         target: MESH:D012597
-    -   key: disrupts
-        source: MESH:D012597
-        target: UBERON:0004638
-    -   key: located in
-        source: UBERON:0004638
-        target: HP:0002619
     -   key: causes
         source: MESH:D012597
-        target: GO:0070527
-    -   key: located in
-        source: GO:0070527
+        target: HP:0100699
+    -   key: positively correlated with
+        source: HP:0100699
+        target: GO:0097709
+    -   key: negatively correlated with
+        source: GO:0097709
         target: HP:0002619
     -   key: manifestation of
         source: HP:0002619
@@ -1506,12 +1504,12 @@
     -   id: MESH:D012597
         label: ChemicalSubstance
         name: Sclerosing Solutions
-    -   id: UBERON:0004638
-        label: GrossAnatomicalStructure
-        name: blood vessel endothelium
-    -   id: GO:0070527
+    -   id: HP:0100699
+        label: PhenotypicFeature
+        name: Scarring
+    -   id: GO:0097709
         label: BiologicalProcess
-        name: platelet aggregation
+        name: connective tissue replacement
     -   id: HP:0002619
         label: PhenotypicFeature
         name: Varicose veins
