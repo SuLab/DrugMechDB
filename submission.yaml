@@ -1,1 +1,1381 @@
-
+- directed: true
+  graph:
+    _id: DB09230_MESH_D006973_1
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: azelnidipine
+    drug_mesh: MESH:C061679
+    drugbank: DB:DB09230
+  links:
+    - key: decreases activity of
+      source: MESH:C061679
+      target: UniProt:Q02641
+    - key: positively regulates
+      source: UniProt:Q02641
+      target: GO:0061577
+    - key: positively regulates
+      source: GO:0061577
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:C061679
+      label: Drug
+      name: azelnidipine
+    - id: UniProt:Q02641
+      label: Protein
+      name: Voltage-dependent L-type calcium channel subunit beta-1
+    - id: GO:0061577
+      label: BiologicalProcess
+      name: calcium ion transmembrane transport via high voltage-gated calcium channel
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference: https://go.drugbank.com/drugs/DB09230#mechanism-of-action
+  comment: The drug may also modulate other members of the Voltage-gated L-type calcium channel protein family (https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1275868/) or T-type calcium channel protein family (https://en.wikipedia.org/wiki/Azelnidipine).
+- directed: true
+  graph:
+    _id: DB00612_MESH_D006973_1
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: bisoprolol
+    drug_mesh: MESH:D017298
+    drugbank: DB:DB00612
+  links:
+    - key: decreases activity of
+      source: MESH:D017298
+      target: UBERON:0034729
+    - key: positively correlated with
+      source: UBERON:0034729
+      target: GO:0042310
+    - key: decreases activity of
+      source: MESH:D017298
+      target: UniProt:P08588
+    - key: positively correlated with
+      source: UniProt:P08588
+      target: HP:0033533
+    - key: positively correlated with
+      source: HP:0033533
+      target: HP:0032263
+    - key: negatively correlated with
+      source: MESH:D017298
+      target: GO:0002001
+    - key: positively correlated with
+      source: GO:0002001
+      target: GO:0042310
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: positively correlated with
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D017298
+      label: Drug
+      name: bisoprolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: UBERON:0034729
+      label: GrossAnatomicalStructure
+      name: sympathetic nerve
+    - id: GO:0002001
+      label: BiologicalProcess
+      name: renin secretion into blood stream
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: HP:0033533
+      label: PhenotypicFeature
+      name: Increased cardiac output
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00612
+    - https://en.wikipedia.org/wiki/Bisoprolol#Mechanism_of_action
+  comment: At higher doses, bisoprolol antagonizes the B2 receptors, but is mainly selective for B1 receptors.
+- directed: true
+  graph:
+    _id: DB00195_MESH_D006973_1
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: betaxolol
+    drug_mesh: MESH:D015784
+    drugbank: DB:DB00195
+  links:
+    - key: decreases activity of
+      source: MESH:D015784
+      target: UniProt:P08588
+    - key: participates in
+      source: UniProt:P08588
+      target: REACT:R-HSA-418555
+    - key: increases abundance of
+      source: REACT:R-HSA-418555
+      target: CHEBI:17489
+    - key: positively regulates
+      source: REACT:R-HSA-418555
+      target: InterPro:IPR005446
+    - key: positively correlated with
+      source: InterPro:IPR005446
+      target: GO:0060047
+    - key: positively correlated with
+      source: GO:0060047
+      target: HP:0032263
+    - key: positively correlated with
+      source: CHEBI:17489
+      target: GO:0060047
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D015784
+      label: Drug
+      name: betaxolol
+    - id: UniProt:P08588
+      label: Protein
+      name: Beta-1 adrenergic receptor
+    - id: REACT:R-HSA-418555
+      label: Pathway
+      name: G alpha (s) signalling events
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: CHEBI:17489
+      label: ChemicalSubstance
+      name: 3,5-cyclic AMP
+    - id: GO:0060047
+      label: BiologicalProcess
+      name: heart contraction
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00195#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Betaxolol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL423/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/2369#section=Pharmacology-and-Biochemistry
+    - https://en.wikipedia.org/wiki/CAMP-dependent_pathway#Importance
+  comment: L-type calcium channels are modulated by the adrenergic nervous system, hence betaxolol could indirectly modulate L calcium channels, decreasing heart rate and contraction, ultimately decreasing high blood pressure (https://en.wikipedia.org/wiki/L-type_calcium_channel#Inhibition_and_modulation).
+- directed: true
+  graph:
+    _id: DB00194_MESH_D016849_1
+    disease: Keratitis, Herpetic
+    disease_mesh: MESH:D016849
+    drug: vidarabine
+    drug_mesh: MESH:D014740
+    drugbank: DB:DB00194
+  links:
+    - key: has metabolite
+      source: MESH:D014740
+      target: MESH:D001084
+    - key: decreases activity of
+      source: MESH:D001084
+      target: UniProt:P04293
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0039686
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0090503
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0043631
+    - key: in taxon
+      source: GO:0043631
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0039686
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0090503
+      target: NCBITaxon:10299
+    - key: causes
+      source: NCBITaxon:10299
+      target: MESH:D016849
+  multigraph: true
+  nodes:
+    - id: MESH:D014740
+      label: Drug
+      name: vidarabine
+    - id: MESH:D001084
+      label: ChemicalSubstance
+      name: Vidarabine Phosphate
+    - id: UniProt:P04293
+      label: Protein
+      name: DNA polymerase catalytic subunit
+    - id: GO:0039686
+      label: BiologicalProcess
+      name: bidirectional double-stranded viral DNA replication
+    - id: GO:0090503
+      label: BiologicalProcess
+      name: RNA phosphodiester bond hydrolysis, exonucleolytic
+    - id: GO:0043631
+      label: BiologicalProcess
+      name: RNA polyadenylation
+    - id: NCBITaxon:10299
+      label: OrganismTaxon
+      name: Human alphaherpesvirus 1 strain 17
+    - id: MESH:D016849
+      label: Disease
+      name: Keratitis, Herpetic
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1090/
+    - https://en.wikipedia.org/wiki/Vidarabine#Mode_of_action
+    - https://go.drugbank.com/drugs/DB00194
+  comment: This disease is also known as Herpes simplex keratitis as per DrugCentral. The drug needs to be converted to Vidarabine Phosphate first (monophosphate --> diphosphate --> triphosphate) to become active and exert its role as inhibitor (https://pubchem.ncbi.nlm.nih.gov/compound/21704#section=Mechanism-of-Action).
+- directed: true
+  graph:
+    _id: DB00194_MESH_D007635_1
+    disease: Keratitis, Dendritic
+    disease_mesh: MESH:D007635
+    drug: vidarabine
+    drug_mesh: MESH:D014740
+    drugbank: DB:DB00194
+  links:
+    - key: has metabolite
+      source: MESH:D014740
+      target: MESH:D001084
+    - key: decreases activity of
+      source: MESH:D001084
+      target: UniProt:P04293
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0039686
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0090503
+    - key: positively regulates
+      source: UniProt:P04293
+      target: GO:0043631
+    - key: in taxon
+      source: GO:0043631
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0039686
+      target: NCBITaxon:10299
+    - key: in taxon
+      source: GO:0090503
+      target: NCBITaxon:10299
+    - key: causes
+      source: NCBITaxon:10299
+      target: MESH:D007635
+  multigraph: true
+  nodes:
+    - id: MESH:D014740
+      label: Drug
+      name: vidarabine
+    - id: MESH:D001084
+      label: ChemicalSubstance
+      name: Vidarabine Phosphate
+    - id: UniProt:P04293
+      label: Protein
+      name: DNA polymerase catalytic subunit
+    - id: GO:0039686
+      label: BiologicalProcess
+      name: bidirectional double-stranded viral DNA replication
+    - id: GO:0090503
+      label: BiologicalProcess
+      name: RNA phosphodiester bond hydrolysis, exonucleolytic
+    - id: GO:0043631
+      label: BiologicalProcess
+      name: RNA polyadenylation
+    - id: NCBITaxon:10299
+      label: OrganismTaxon
+      name: Human alphaherpesvirus 1 strain 17
+    - id: MESH:D007635
+      label: Disease
+      name: Keratitis, Dendritic
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1090/
+    - https://en.wikipedia.org/wiki/Vidarabine#Mode_of_action
+    - https://go.drugbank.com/drugs/DB00194
+  comment: This disease is denoted as Herpes simplex dendritic keratitis in the original file as per DrugCentral. The drug needs to be converted to Vidarabine Phosphate first (monophosphate --> diphosphate --> triphosphate) to become active and exert its role as inhibitor (https://pubchem.ncbi.nlm.nih.gov/compound/21704#section=Mechanism-of-Action).
+- directed: true
+  graph:
+    _id: DB00322_MESH_D008113_1
+    disease: Liver Neoplasms
+    disease_mesh: MESH:D008113
+    drug: floxuridine
+    drug_mesh: MESH:D005467
+    drugbank: DB:DB00322
+  links:
+    - key: has metabolite
+      source: MESH:D005467
+      target: CHEBI:46345
+    - key: decreases activity of
+      source: CHEBI:46345
+      target: UniProt:P04818
+    - key: positively regulates
+      source: UniProt:P04818
+      target: GO:0006235
+    - key: positively regulates
+      source: UniProt:P04818
+      target: GO:0006231
+    - key: positively correlated with
+      source: GO:0006231
+      target: GO:0006260
+    - key: positively correlated with
+      source: GO:0006235
+      target: GO:0006260
+    - key: precedes
+      source: GO:0006260
+      target: HP:0031377
+    - key: positively correlated with
+      source: HP:0031377
+      target: MESH:D008113
+  multigraph: true
+  nodes:
+    - id: MESH:D005467
+      label: Drug
+      name: floxuridine
+    - id: CHEBI:46345
+      label: ChemicalSubstance
+      name: 5-fluorouracil
+    - id: UniProt:P04818
+      label: Protein
+      name: Thymidylate synthase
+    - id: GO:0006235
+      label: BiologicalProcess
+      name: dTTP biosynthetic process
+    - id: GO:0006231
+      label: BiologicalProcess
+      name: dTMP biosynthetic process
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: HP:0031377
+      label: PhenotypicFeature
+      name: Abnormal cell proliferation
+    - id: MESH:D008113
+      label: Disease
+      name: Liver Neoplasms
+  reference:
+    - https://go.drugbank.com/drugs/DB00322#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Floxuridine#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Fluorouracil#Mechanism_of_action
+  comment: This disease is denoted as Malignant neoplasm of liver in the original file as per DrugCentral.
+- directed: true
+  graph:
+    _id: DB01395_MESH_D000152_1
+    disease: Acne vulgaris
+    disease_mesh: MESH:D000152
+    drug: drospirenone
+    drug_mesh: MESH:C035144
+    drugbank: DB:DB01395
+  links:
+    - key: negatively regulates
+      source: MESH:C035144
+      target: UniProt:P10275
+    - key: positively regulates
+      source: UniProt:P10275
+      target: GO:0006702
+    - key: positively regulates
+      source: MESH:C035144
+      target: UniProt:P06401
+    - key: negatively correlated with
+      source: UniProt:P06401
+      target: GO:0006702
+    - key: increases abundance of
+      source: GO:0006702
+      target: UBERON:0001866
+    - key: produced by
+      source: UBERON:0001866
+      target: HP:0025249
+    - key: positively correlated with
+      source: HP:0025249
+      target: MESH:D000152
+  multigraph: true
+  nodes:
+    - id: MESH:C035144
+      label: Drug
+      name: drospirenone
+    - id: UniProt:P06401
+      label: Protein
+      name: Progesterone receptor
+    - id: UniProt:P10275
+      label: Protein
+      name: Androgen receptor
+    - id: GO:0006702
+      label: BiologicalProcess
+      name: androgen biosynthetic process
+    - id: UBERON:0001866
+      label: GrossAnatomicalStructure
+      name: sebum
+    - id: HP:0025249
+      label: PhenotypicFeature
+      name: Comedo
+    - id: MESH:D000152
+      label: Disease
+      name: Acne vulgaris
+  reference: https://go.drugbank.com/drugs/DB01395#mechanism-of-action
+  comment: Drospirenone seems to have much lower affinity to androgen receptor than to the progesterone counterpart (https://en.wikipedia.org/wiki/Drospirenone#Pharmacology).
+- directed: true
+  graph:
+    _id: DB01395_MESH_D065446_1
+    disease: Premenstrual dysphoric disorder
+    disease_mesh: MESH:D065446
+    drug: drospirenone
+    drug_mesh: MESH:C035144
+    drugbank: DB:DB01395
+  links:
+    - key: negatively regulates
+      source: MESH:C035144
+      target: UniProt:P08235
+    - key: positively correlated with
+      source: UniProt:P08235
+      target: GO:0005890
+    - key: positively correlated with
+      source: UniProt:P08235
+      target: InterPro:IPR001696
+    - key: regulates
+      source: GO:0005890
+      target: GO:0070294
+    - key: regulates
+      source: GO:0005890
+      target: GO:0036359
+    - key: regulates
+      source: InterPro:IPR001696
+      target: GO:0070294
+    - key: correlated with
+      source: GO:0036359
+      target: HP:0000969
+    - key: correlated with
+      source: GO:0070294
+      target: HP:0000969
+    - key: correlated with
+      source: GO:0036359
+      target: MESH:D059373
+    - key: correlated with
+      source: GO:0070294
+      target: MESH:D059373
+    - key: manifestation of
+      source: MESH:D059373
+      target: MESH:D065446
+    - key: correlated with
+      source: HP:0000969
+      target: MESH:D065446
+  multigraph: true
+  nodes:
+    - id: MESH:C035144
+      label: Drug
+      name: drospirenone
+    - id: UniProt:P08235
+      label: Protein
+      name: Mineralocorticoid receptor
+    - id: InterPro:IPR001696
+      label: GeneFamily
+      name: Voltage gated sodium channel, alpha subunit
+    - id: GO:0005890
+      label: CellularComponent
+      name: sodium:potassium-exchanging ATPase complex
+    - id: GO:0070294
+      label: BiologicalProcess
+      name: renal sodium ion absorption
+    - id: GO:0036359
+      label: BiologicalProcess
+      name: renal potassium excretion
+    - id: HP:0000969
+      label: PhenotypicFeature
+      name: Edema
+    - id: MESH:D059373
+      label: PhenotypicFeature
+      name: Mastodynia
+    - id: MESH:D065446
+      label: Disease
+      name: Premenstrual dysphoric disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB01395#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Antimineralocorticoid#Mechanism_of_action
+    - https://pubmed.ncbi.nlm.nih.gov/18472980/
+  comment: The use of progesterone, progestin and similar compounds may not be superior to placebo in reducing premenstrual symptoms judging from the results of the majority of controlled trials (https://pubmed.ncbi.nlm.nih.gov/7791258/). Also note that it is generally agreed that neither a deficiency nor excess in progesterone/progestin levels is etiologically relevant to the disorder (https://pubmed.ncbi.nlm.nih.gov/16650465/). It's largelly accepted that SSRIs as better treatment and should be the first attempt for treatment of premenstrual dysphoric disorder.
+- directed: true
+  graph:
+    _id: DB01395_MESH_D019584_1
+    disease: Hot Flashes
+    disease_mesh: MESH:D019584
+    drug: drospirenone
+    drug_mesh: MESH:C035144
+    drugbank: DB:DB01395
+  links:
+    - key: positively regulates
+      source: MESH:C035144
+      target: UniProt:P06401
+    - key: decreases abundance of
+      source: UniProt:P06401
+      target: Pfam:PF00446
+    - key: positively correlated with
+      source: Pfam:PF00446
+      target: MESH:D019584
+    - key: correlated with
+      source: UniProt:P06401
+      target: MESH:D014666
+    - key: positively regulates
+      source: MESH:D014666
+      target: GO:0001659
+    - key: negatively correlated with
+      source: GO:0001659
+      target: HP:0005968
+    - key: positively correlated with
+      source: HP:0005968
+      target: MESH:D019584
+  multigraph: true
+  nodes:
+    - id: MESH:C035144
+      label: Drug
+      name: drospirenone
+    - id: UniProt:P06401
+      label: Protein
+      name: Progesterone receptor
+    - id: Pfam:PF00446
+      label: GeneFamily
+      name: Gonadotropin-releasing hormone
+    - id: MESH:D014666
+      label: GrossAnatomicalStructure
+      name: Vasomotor System
+    - id: GO:0001659
+      label: BiologicalProcess
+      name: temperature homeostasis
+    - id: HP:0005968
+      label: PhenotypicFeature
+      name: Temperature instability
+    - id: MESH:D019584
+      label: Disease
+      name: Hot Flashes
+  reference:
+    - https://go.drugbank.com/drugs/DB01395#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Progestogen_(medication)#Pharmacodynamics
+    - https://www.tandfonline.com/doi/full/10.1080/13697137.2018.1472567
+    - https://journals.lww.com/co-endocrinology/Abstract/2015/12000/Progesterone_or_progestin_as_menopausal_ovarian.13.aspx
+  comment: The disease is denoted Menopausal flushing in the original file. Note that a combination therapy of estradiol and drospirenone would be more effective at reducing the frequency of hot flushes and other menopausal symptoms, than a mono-therapy relying on progestin only. Also, since many progestogens have off-target effects including estrogenic effects, the improvement in hot flashes maybe due to the drug binding to estrogen receptors instead. Note the term Vasomotor System (https://en.wikipedia.org/wiki/Vasomotor_center) does not seem to be represented in other ontologies.
+- directed: true
+  graph:
+    _id: DB01395_MESH_D059268_1
+    disease: Atrophic vaginitis
+    disease_mesh: MESH:D059268
+    drug: drospirenone
+    drug_mesh: MESH:C035144
+    drugbank: DB:DB01395
+  links:
+    - key: positively regulates
+      source: MESH:C035144
+      target: UniProt:P06401
+    - key: participates in
+      source: UniProt:P06401
+      target: REACT:R-HSA-9018519
+    - key: negatively correlated with
+      source: REACT:R-HSA-9018519
+      target: HP:0031088
+    - key: negatively correlated with
+      source: REACT:R-HSA-9018519
+      target: HP:0030683
+    - key: manifestation of
+      source: HP:0030683
+      target: MESH:D059268
+    - key: manifestation of
+      source: HP:0031088
+      target: MESH:D059268
+  multigraph: true
+  nodes:
+    - id: MESH:C035144
+      label: Drug
+      name: drospirenone
+    - id: UniProt:P06401
+      label: Protein
+      name: Progesterone receptor
+    - id: REACT:R-HSA-9018519
+      label: Pathway
+      name: Estrogen-dependent gene expression
+    - id: HP:0030683
+      label: PhenotypicFeature
+      name: Vaginitis
+    - id: HP:0031088
+      label: PhenotypicFeature
+      name: Vaginal dryness
+    - id: MESH:D059268
+      label: Disease
+      name: Atrophic vaginitis
+  reference:
+    - https://go.drugbank.com/drugs/DB01395#mechanism-of-action
+    - https://en.wikipedia.org/wiki/Antimineralocorticoid#Mechanism_of_action
+    - https://pubmed.ncbi.nlm.nih.gov/18472980/
+  comment: Note that the combination therapy of estradiol and drospirenone would be more effective at treating atrophic vaginitis, than a mono-therapy relying on progestin only. Also, since many progestogens have off-target effects including estrogenic effects, the improvement in hot flashes maybe due to the drug binding to estrogen receptors instead.
+- directed: true
+  graph:
+    _id: DB01077_MESH_D010001_1
+    disease: Osteitis deformans
+    disease_mesh: MESH:D010001
+    drug: etidronic acid
+    drug_mesh: MESH:D012968
+    drugbank: DB:DB01077
+  links:
+    - key: negatively correlated with
+      source: MESH:D012968
+      target: GO:0140603
+    - key: increases activity of
+      source: GO:0140603
+      target: CL:0000092
+    - key: negatively regulates
+      source: MESH:D012968
+      target: UniProt:P38606
+    - key: positively regulates
+      source: UniProt:P38606
+      target: GO:1902600
+    - key: positively correlated with
+      source: GO:1902600
+      target: GO:0045453
+    - key: positively regulates
+      source: MESH:D012968
+      target: GO:0006915
+    - key: decreases abundance of
+      source: GO:0006915
+      target: CL:0000092
+    - key: positively regulates
+      source: CL:0000092
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: MESH:D010001
+    - key: molecularly interacts with
+      source: MESH:D012968
+      target: CHEBI:52255
+    - key: positively correlated with
+      source: CHEBI:52255
+      target: GO:0001503
+    - key: positively correlated with
+      source: CHEBI:52255
+      target: GO:1990523
+    - key: negatively correlated with
+      source: GO:1990523
+      target: MESH:D010001
+    - key: negatively correlated with
+      source: GO:0001503
+      target: MESH:D010001
+  multigraph: true
+  nodes:
+    - id: MESH:D012968
+      label: Drug
+      name: etidronic acid
+    - id: GO:0140603
+      label: MolecularActivity
+      name: ATP hydrolysis activity
+    - id: UniProt:P38606
+      label: Protein
+      name: V-type proton ATPase catalytic subunit A
+    - id: GO:1902600
+      label: BiologicalProcess
+      name: proton transmembrane transport
+    - id: CHEBI:52255
+      label: ChemicalSubstance
+      name: hydroxylapatite
+    - id: CL:0000092
+      label: Cell
+      name: osteoclast
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: GO:0001503
+      label: BiologicalProcess
+      name: ossification
+    - id: GO:1990523
+      label: BiologicalProcess
+      name: bone regeneration
+    - id: MESH:D010001
+      label: Disease
+      name: Osteitis deformans
+  reference:
+    - https://go.drugbank.com/drugs/DB01077#mechanism-of-action
+    - https://drugs.ncats.io/drug/M2F465ROXU
+    - https://www.caymanchem.com/product/20769/etidronate-(sodium-salt)
+    - https://en.wikipedia.org/wiki/Etidronic_acid#Medical
+  comment: Etidronate is a weak inhibitor of proton transport in animal models (https://pubmed.ncbi.nlm.nih.gov/8889850/).
+- directed: true
+  graph:
+    _id: DB00234_MESH_D003865_1
+    disease: Major depressive disorder
+    disease_mesh: MESH:D003865
+    drug: reboxetine
+    drug_mesh: MESH:C074679
+    drugbank: DB:DB00234
+  links:
+    - key: negatively regulates
+      source: MESH:C074679
+      target: UniProt:P23975
+    - key: positively regulates
+      source: UniProt:P23975
+      target: GO:0051620
+    - key: positively correlated with
+      source: GO:0051620
+      target: MESH:D003865
+  multigraph: true
+  nodes:
+    - id: MESH:C074679
+      label: Drug
+      name: reboxetine
+    - id: UniProt:P23975
+      label: Protein
+      name: Sodium-dependent noradrenaline transporter
+    - id: GO:0051620
+      label: BiologicalProcess
+      name: norepinephrine uptake
+    - id: MESH:D003865
+      label: Disease
+      name: Major depressive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00234
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL14370/
+  comment: MESH:D003865 is denoted as Depressive Disorder, Major in the MESH website. Note that the drug may slighlty inhibit the reuptake of serotonin too.
+- directed: true
+  graph:
+    _id: DB00395_MESH_D001416_1
+    disease: Backache
+    disease_mesh: MESH:D001416
+    drug: carisoprodol
+    drug_mesh: MESH:D002328
+    drugbank: DB:DB00395
+  links:
+    - key: negatively correlated with
+      source: MESH:D002328
+      target: HP:0003552
+    - key: negatively correlated with
+      source: MESH:D002328
+      target: HP:0003326
+    - key: negatively correlated with
+      source: MESH:D002328
+      target: HP:0003394
+    - key: located in
+      source: HP:0003552
+      target: UBERON:0004479
+    - key: located in
+      source: HP:0003326
+      target: UBERON:0004479
+    - key: located in
+      source: HP:0003394
+      target: UBERON:0004479
+    - key: location of
+      source: UBERON:0004479
+      target: MESH:D001416
+  multigraph: true
+  nodes:
+    - id: MESH:D002328
+      label: Drug
+      name: carisoprodol
+    - id: HP:0003552
+      label: PhenotypicFeature
+      name: Muscle stiffness
+    - id: HP:0003326
+      label: PhenotypicFeature
+      name: Myalgia
+    - id: HP:0003394
+      label: PhenotypicFeature
+      name: Muscle spasm
+    - id: UBERON:0004479
+      label: GrossAnatomicalStructure
+      name: musculature of trunk
+    - id: MESH:D001416
+      label: Disease
+      name: Backache
+  reference: https://go.drugbank.com/drugs/DB00395#mechanism-of-action
+  comment: Drug has been withdrawn in Europe due to increased risk of abuse or addiction, intoxication and events related to psychomotor impairment (https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1233/).
+- directed: true
+  graph:
+    _id: DB00395_MESH_D009128_1
+    disease: Spasticity
+    disease_mesh: MESH:D009128
+    drug: carisoprodol
+    drug_mesh: MESH:D002328
+    drugbank: DB:DB00395
+  links:
+    - key: negatively correlated with
+      source: MESH:D002328
+      target: HP:0001276
+    - key: located in
+      source: HP:0001276
+      target: UBERON:0014892
+    - key: location of
+      source: UBERON:0014892
+      target: MESH:D009128
+  multigraph: true
+  nodes:
+    - id: MESH:D002328
+      label: Drug
+      name: carisoprodol
+    - id: HP:0001276
+      label: PhenotypicFeature
+      name: Hypertonia
+    - id: UBERON:0014892
+      label: GrossAnatomicalStructure
+      name: skeletal muscle organ
+    - id: MESH:D009128
+      label: Disease
+      name: Spasticity
+  reference: https://go.drugbank.com/drugs/DB00395#mechanism-of-action
+  comment: Drug has been withdrawn in Europe due to increased risk of abuse or addiction, intoxication and events related to psychomotor impairment (https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1233/).
+- directed: true
+  graph:
+    _id: DB00004_MESH_D016410_1
+    disease: Primary cutaneous T-cell lymphoma
+    disease_mesh: MESH:D016410
+    drug: denileukin diftitox
+    drug_mesh: MESH:C078456
+    drugbank: DB:DB00004
+  links:
+    - key: molecularly interacts with
+      source: MESH:C078456
+      target: UniProt:P01589
+    - key: molecularly interacts with
+      source: MESH:C078456
+      target: UniProt:P14784
+    - key: molecularly interacts with
+      source: MESH:C078456
+      target: UniProt:P31785
+    - key: participates in
+      source: UniProt:P01589
+      target: GO:0006898
+    - key: participates in
+      source: UniProt:P14784
+      target: GO:0006898
+    - key: participates in
+      source: UniProt:P31785
+      target: GO:0006898
+    - key: positively correlated with
+      source: GO:0006898
+      target: GO:1901998
+    - key: increases abundance of
+      source: GO:1901998
+      target: MESH:D004167
+    - key: decreases activity of
+      source: MESH:D004167
+      target: UniProt:P13639
+    - key: positively regulates
+      source: UniProt:P13639
+      target: GO:0006414
+    - key: correlated with
+      source: GO:0006414
+      target: MESH:D016410
+  multigraph: true
+  nodes:
+    - id: MESH:C078456
+      label: Drug
+      name: denileukin diftitox
+    - id: UniProt:P01589
+      label: Protein
+      name: Interleukin-2 receptor subunit alpha
+    - id: UniProt:P14784
+      label: Protein
+      name: Interleukin-2 receptor subunit beta
+    - id: UniProt:P31785
+      label: Protein
+      name: Cytokine receptor common subunit gamma
+    - id: GO:0006898
+      label: BiologicalProcess
+      name: receptor-mediated endocytosis
+    - id: GO:1901998
+      label: BiologicalProcess
+      name: toxin transport
+    - id: MESH:D004167
+      label: ChemicalSubstance
+      name: Diphtheria Toxin
+    - id: UniProt:P13639
+      label: Protein
+      name: Elongation factor 2
+    - id: GO:0006414
+      label: BiologicalProcess
+      name: translational elongation
+    - id: MESH:D016410
+      label: Disease
+      name: Primary cutaneous T-cell lymphoma
+  reference:
+    - https://go.drugbank.com/drugs/DB00004#mechanism-of-action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201550/
+    - https://en.wikipedia.org/wiki/Denileukin_diftitox
+    - https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/103767s5144lbl.pdf
+  comment: Drug has been withdrawn in Europe due to increased risk of abuse or addiction, intoxication and events related to psychomotor impairment (https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1233/).
+- directed: true
+  graph:
+    _id: DB01085_MESH_D014987_1
+    disease: Aptyalism
+    disease_mesh: MESH:D014987
+    drug: pilocarpine
+    drug_mesh: MESH:D010862
+    drugbank: DB:DB01085
+  links:
+    - key: increases activity of
+      source: MESH:D010862
+      target: InterPro:IPR000995
+    - key: increases abundance of
+      source: InterPro:IPR000995
+      target: GO:0046541
+    - key: negatively correlated with
+      source: GO:0046541
+      target: MESH:D014987
+  multigraph: true
+  nodes:
+    - id: MESH:D010862
+      label: Drug
+      name: pilocarpine
+    - id: InterPro:IPR000995
+      label: GeneFamily
+      name: Muscarinic acetylcholine receptor family
+    - id: GO:0046541
+      label: BiologicalProcess
+      name: saliva secretion
+    - id: MESH:D014987
+      label: Disease
+      name: Aptyalism
+  reference: https://go.drugbank.com/drugs/DB01085
+  comment: MESH:D014987 is denoted as Xerostomia in MESH.
+- directed: true
+  graph:
+    _id: DB11820_MESH_D014355_1
+    disease: Infection by Trypanosoma cruzi
+    disease_mesh: MESH:D014355
+    drug: nifurtimox
+    drug_mesh: MESH:D009547
+    drugbank: DB:DB11820
+  links:
+    - key: produces
+      source: MESH:D009547
+      target: CHEBI:26523
+    - key: disrupts
+      source: CHEBI:26523
+      target: CHEBI:16991
+    - key: in taxon
+      source: CHEBI:16991
+      target: NCBITaxon:5693
+    - key: causes
+      source: NCBITaxon:5693
+      target: MESH:D014355
+  multigraph: true
+  nodes:
+    - id: MESH:D009547
+      label: Drug
+      name: nifurtimox
+    - id: CHEBI:26523
+      label: ChemicalSubstance
+      name: reactive oxygen species
+    - id: CHEBI:16991
+      label: ChemicalSubstance
+      name: deoxyribonucleic acid
+    - id: NCBITaxon:5693
+      label: OrganismTaxon
+      name: Trypanosoma cruzi
+    - id: MESH:D014355
+      label: Disease
+      name: Infection by Trypanosoma cruzi
+  reference:
+    - https://en.wikipedia.org/wiki/Nifurtimox#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL290960/
+  comment: The disease is known as Chagas Disease in MESH (MESH:D014355). The drug is metabolized by nitoreductases (https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/213464s000lbl.pdf) rather than nitoreductases being the target of this drug (https://go.drugbank.com/drugs/DB11820#BE0010011).
+- directed: true
+  graph:
+    _id: DB04830_MESH_D003924_1
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: buformin
+    drug_mesh: MESH:D002026
+    drugbank: DB:DB04830
+  links:
+    - key: negatively correlated with
+      source: MESH:D002026
+      target: GO:0001951
+    - key: negatively correlated with
+      source: MESH:D002026
+      target: GO:0006094
+    - key: negatively correlated with
+      source: MESH:D002026
+      target: HP:0008189
+    - key: increases activity of
+      source: MESH:D002026
+      target: GO:0046323
+    - key: positively correlated with
+      source: GO:0001951
+      target: HP:0003074
+    - key: positively correlated with
+      source: GO:0006094
+      target: HP:0003074
+    - key: positively correlated with
+      source: HP:0008189
+      target: HP:0003074
+    - key: negatively correlated with
+      source: GO:0046323
+      target: HP:0003074
+    - key: manifestation of
+      source: HP:0003074
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:D002026
+      label: Drug
+      name: buformin
+    - id: GO:0001951
+      label: BiologicalProcess
+      name: intestinal D-glucose absorption
+    - id: HP:0008189
+      label: PhenotypicFeature
+      name: Insulin insensitivity
+    - id: GO:0046323
+      label: BiologicalProcess
+      name: glucose import
+    - id: GO:0006094
+      label: BiologicalProcess
+      name: gluconeogenesis
+    - id: HP:0003074
+      label: PhenotypicFeature
+      name: Hyperglycemia
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference: https://en.wikipedia.org/wiki/Buformin#Mechanism_of_action
+  comment: Withdrawn from the market in many countries. Never been marketed in the US.
+- directed: true
+  graph:
+    _id: DB09084_MESH_D010146_1
+    disease: Pain
+    disease_mesh: MESH:D010146
+    drug: benzydamine
+    drug_mesh: MESH:D001591
+    drugbank: DB:DB09084
+  links:
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: UniProt:P01375
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: UniProt:P01584
+    - key: positively correlated with
+      source: UniProt:P01375
+      target: GO:0006954
+    - key: positively correlated with
+      source: UniProt:P01584
+      target: GO:0006954
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: GO:0043312
+    - key: positively correlated with
+      source: GO:0043312
+      target: GO:0006954
+    - key: negatively correlated with
+      source: MESH:D001591
+      target: MESH:D013373
+    - key: positively correlated with
+      source: MESH:D013373
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D010146
+  multigraph: true
+  nodes:
+    - id: MESH:D001591
+      label: Drug
+      name: benzydamine
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: GO:0043312
+      label: BiologicalProcess
+      name: neutrophil degranulation
+    - id: MESH:D013373
+      label: ChemicalSubstance
+      name: Substance P
+    - id: UniProt:P01375
+      label: Protein
+      name: Tumor necrosis factor
+    - id: UniProt:P01584
+      label: Protein
+      name: Interleukin-1 beta
+    - id: MESH:D010146
+      label: Disease
+      name: Pain
+  reference: https://go.drugbank.com/drugs/DB09084
+  comment: Unlike other NSAIDs, it does not inhibit cyclooxygenase or lipooxygenase (https://en.wikipedia.org/wiki/Benzydamine#Pharmacology).
+- directed: true
+  graph:
+    _id: DB01240_MESH_D003371_1
+    disease: Cough
+    disease_mesh: MESH:D003371
+    drug: epoprostenol
+    drug_mesh: MESH:D011464
+    drugbank: DB:DB01240
+  links:
+    - key: positively correlated with
+      source: MESH:D011464
+      target: UniProt:P43119
+    - key: positively regulates
+      source: UniProt:P43119
+      target: GO:0016501
+    - key: positively regulates
+      source: GO:0016501
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: MESH:D003371
+  multigraph: true
+  nodes:
+    - id: MESH:D011464
+      label: Drug
+      name: epoprostenol
+    - id: UniProt:P43119
+      label: Protein
+      name: Prostacyclin receptor
+    - id: GO:0016501
+      label: MolecularActivity
+      name: prostacyclin receptor activity
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D003371
+      label: Disease
+      name: Cough
+  reference: https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1139/ https://go.drugbank.com/drugs/DB01240#BE0000475
+  comment: Dilators could open up airways and help to reduce cough (https://www.mayoclinic.org/diseases-conditions/chronic-cough/diagnosis-treatment/drc-20351580).
+- directed: true
+  graph:
+    _id: DB01432_MESH_D006949_1
+    disease: Hyperlipidemia
+    disease_mesh: MESH:D006949
+    drug: cholestyramine
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB01432
+  links:
+    - key: molecularly interacts with
+      source: MESH:D002164
+      target: CHEBI:3098
+    - key: correlated with
+      source: CHEBI:3098
+      target: HP:0030985
+    - key: negatively correlated with
+      source: HP:0030985
+      target: MESH:D006949
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: cholestyramine
+    - id: CHEBI:3098
+      label: ChemicalSubstance
+      name: bile acid
+    - id: HP:0030985
+      label: PhenotypicFeature
+      name: Decreased serum bile concentration
+    - id: MESH:D006949
+      label: Disease
+      name: Hyperlipidemia
+  reference: https://go.drugbank.com/drugs/DB01432
+  comment: Cholestyramine is a bile acid sequestrant (https://www.ebi.ac.uk/ols/ontologies/ncit/terms?iri=http://purl.obolibrary.org/obo/NCIT_C98148) and its ultimate action is to lower serum concentration of lipids, namely cholesterol, phospholipids, triglycerides, and cholesterol esters.
+- directed: true
+  graph:
+    _id: DB01432_MESH_D006937_1
+    disease: Hypercholesterolemia
+    disease_mesh: MESH:D006937
+    drug: cholestyramine
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB01432
+  links:
+    - key: molecularly interacts with
+      source: MESH:D002164
+      target: CHEBI:3098
+    - key: correlated with
+      source: CHEBI:3098
+      target: HP:0030985
+    - key: negatively correlated with
+      source: HP:0030985
+      target: MESH:D006937
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: cholestyramine
+    - id: CHEBI:3098
+      label: ChemicalSubstance
+      name: bile acid
+    - id: HP:0030985
+      label: PhenotypicFeature
+      name: Decreased serum bile concentration
+    - id: MESH:D006937
+      label: Disease
+      name: Hypercholesterolemia
+  reference: https://go.drugbank.com/drugs/DB01432
+  comment: Cholestyramine is a bile acid sequestrant (https://www.ebi.ac.uk/ols/ontologies/ncit/terms?iri=http://purl.obolibrary.org/obo/NCIT_C98148) and its ultimate action is to lower plasma cholesterol concentrations.
+- directed: true
+  graph:
+    _id: DB00429_MESH_D006473_1
+    disease: Postpartum hemorrhage
+    disease_mesh: MESH:D006473
+    drug: carboprost
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB00429
+  links:
+    - key: increases activity of
+      source: MESH:D002164
+      target: InterPro:IPR008365
+    - key: positively regulates
+      source: InterPro:IPR008365
+      target: GO:0070471
+    - key: positively correlated with
+      source: GO:0070471
+      target: GO:0042310
+    - key: negatively correlated with
+      source: GO:0042310
+      target: MESH:D006473
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: carboprost
+      alt_names:
+        - Carboprost tromethamine
+    - id: InterPro:IPR008365
+      label: Protein
+      name: Prostanoid receptor
+    - id: GO:0070471
+      label: BiologicalProcess
+      name: uterine smooth muscle contraction
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: MESH:D006473
+      label: Disease
+      name: Postpartum hemorrhage
+  reference: https://go.drugbank.com/drugs/DB00429
+  comment: DrugBank and ChEMBL seem to disagree on the target of this drug (UniProt:P43088 in ChEMBL, UniProt:P34995 in DrugBank). Hence using a more generic term (IPR008365) to encompass both entries from those two databases.
+- directed: true
+  graph:
+    _id: DB00822_MESH_D000437_1
+    disease: Alcoholism
+    disease_mesh: MESH:D000437
+    drug: disulfiram
+    drug_mesh: MESH:D004221
+    drugbank: DB:DB00822
+  links:
+    - key: negatively regulates
+      source: MESH:D004221
+      target: UniProt:P05091
+    - key: positively regulates
+      source: UniProt:P05091
+      target: GO:0006069
+    - key: decreases abundance of
+      source: GO:0006069
+      target: CHEBI:15343
+    - key: positively correlated with
+      source: CHEBI:15343
+      target: HP:0002017
+    - key: positively correlated with
+      source: CHEBI:15343
+      target: HP:0002098
+    - key: positively correlated with
+      source: CHEBI:15343
+      target: HP:0001033
+    - key: positively correlated with
+      source: CHEBI:15343
+      target: HP:0002098
+    - key: positively correlated with
+      source: CHEBI:15343
+      target: HP:0002017
+    - key: negatively correlated with
+      source: HP:0001033
+      target: MESH:D000437
+    - key: negatively correlated with
+      source: HP:0002098
+      target: MESH:D000437
+    - key: negatively correlated with
+      source: HP:0002017
+      target: MESH:D000437
+  multigraph: true
+  nodes:
+    - id: MESH:D004221
+      label: Drug
+      name: disulfiram
+    - id: UniProt:P05091
+      label: Protein
+      name: Aldehyde dehydrogenase, mitochondrial
+    - id: CHEBI:15343
+      label: ChemicalSubstance
+      name: acetaldehyde
+    - id: GO:0006069
+      label: BiologicalProcess
+      name: ethanol oxidation
+    - id: HP:0001033
+      label: PhenotypicFeature
+      name: Facial flushing after alcohol intake
+    - id: HP:0002098
+      label: PhenotypicFeature
+      name: Respiratory distress
+    - id: HP:0002017
+      label: PhenotypicFeature
+      name: Nausea and vomiting
+    - id: MESH:D000437
+      label: Disease
+      name: Alcoholism
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL964/
+    - https://en.wikipedia.org/wiki/Disulfiram
+    - https://en.wikipedia.org/wiki/Acetaldehyde#Aggravating_factors
+  comment: Note that this drug is used as a support to the treatment of chronic alcoholism by producing an acute sensitivity to ethanol (as part of an avoidance therapy for alcohol abuse). It's been suggested that disulfiram itself is unlikely responsible for the enzyme inactivation in vivo; several active metabolites of the drug, especially diethylthiomethylcarbamate, inhibits the enzyme in vitro (https://pubchem.ncbi.nlm.nih.gov/compound/3117#section=Mechanism-of-Action).
+- directed: true
+  graph:
+    _id: DB01744_MESH_D001416_1
+    disease: Backache
+    disease_mesh: MESH:D001416
+    drug: camphor
+    drug_mesh: MESH:D002164
+    drugbank: DB:DB01744
+  links:
+    - key: decreases activity of
+      source: MESH:D002164
+      target: UniProt:O75762
+    - key: negatively correlated with
+      source: MESH:D002164
+      target: HP:0012531
+    - key: regulates
+      source: UniProt:O75762
+      target: GO:0050968
+    - key: correlated with
+      source: GO:0050968
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D001416
+  multigraph: true
+  nodes:
+    - id: MESH:D002164
+      label: Drug
+      name: camphor
+      alt_ids:
+        - MESH:C436264
+    - id: UniProt:O75762
+      label: Protein
+      name: Transient receptor potential cation channel subfamily A member 1
+    - id: GO:0050968
+      label: BiologicalProcess
+      name: detection of chemical stimulus involved in sensory perception of pain
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D001416
+      label: Disease
+      name: Backache
+  reference: https://go.drugbank.com/drugs/DB01744
+  comment: Camphor is analgesic (https://www.genome.jp/dbget-bin/www_bget?cpd:C00808). The activation of members of the transient receptor ion channel protein family applications lead to desensitization, which in turn contributes to the analgesic effects of camphor after prolonged/repeated applications (https://pubmed.ncbi.nlm.nih.gov/33804078/).
