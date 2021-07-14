@@ -1,1 +1,1570 @@
-
+-   directed: true
+    graph:
+        disease: Paroxysmal atrial fibrillation
+        disease_mesh: MESH:D001281
+        drug: propafenone
+        drug_mesh: MESH:D011405
+        drugbank: DB:DB01182
+    links:
+    -   key: negatively regulates
+        source: MESH:D011405
+        target: InterPro:IPR001696
+    -   key: increases transport of
+        source: InterPro:IPR001696
+        target: MESH:D012964
+    -   key: positively regulates
+        source: MESH:D012964
+        target: GO:0086001
+    -   key: positively correlated with
+        source: GO:0086001
+        target: GO:0086003
+    -   key: positively correlated with
+        source: GO:0086003
+        target: HP:0004308
+    -   key: manifestation of
+        source: HP:0004308
+        target: MESH:D001281
+    multigraph: true
+    nodes:
+    -   id: MESH:D011405
+        label: Drug
+        name: propafenone
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: GO:0086001
+        label: BiologicalProcess
+        name: Cardiac muscle cell action potential
+    -   id: GO:0086003
+        label: BiologicalProcess
+        name: cardiac muscle cell contraction
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
+    -   id: MESH:D001281
+        label: Disease
+        name: Paroxysmal atrial fibrillation
+    reference:
+    - https://go.drugbank.com/drugs/DB01182
+    - https://en.wikipedia.org/wiki/Propafenone
+-   directed: true
+    graph:
+        disease: Gout
+        disease_mesh: MESH:D006073
+        drug: colchicine
+        drug_mesh: MESH:D003078
+        drugbank: DB:DB01394
+    links:
+    -   key: decreases activity of
+        source: MESH:D003078
+        target: UniProt:P07437
+    -   key: positively regulates
+        source: UniProt:P07437
+        target: GO:0046785
+    -   key: positively regulates
+        source: GO:0046785
+        target: REACT:R-HSA-844456
+    -   key: positively regulates
+        source: GO:0046785
+        target: GO:0007266
+    -   key: positively regulates
+        source: REACT:R-HSA-844456
+        target: GO:0006919
+    -   key: positively regulates
+        source: GO:0007266
+        target: GO:0006919
+    -   key: increases abundance of
+        source: GO:0006919
+        target: UniProt:P01584
+    -   key: produced by
+        source: UniProt:P01584
+        target: CL:0000775
+    -   key: produced by
+        source: UniProt:P01584
+        target: CL:0000576
+    -   key: negatively regulates
+        source: MESH:D003078
+        target: GO:1990266
+    -   key: negatively regulates
+        source: MESH:D003078
+        target: GO:0016176
+    -   key: negatively regulates
+        source: MESH:D003078
+        target: GO:0030593
+    -   key: positively correlated with
+        source: GO:0030593
+        target: GO:0070942
+    -   key: positively correlated with
+        source: GO:1990266
+        target: GO:0070942
+    -   key: positively correlated with
+        source: GO:0016176
+        target: GO:0070942
+    -   key: caused by
+        source: GO:0070942
+        target: CL:0000775
+    -   key: participates in
+        source: CL:0000775
+        target: GO:0045087
+    -   key: participates in
+        source: CL:0000576
+        target: GO:0045087
+    -   key: positively correlated with
+        source: GO:0045087
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0005059
+    -   key: manifestation of
+        source: HP:0005059
+        target: MESH:D006073
+    multigraph: true
+    nodes:
+    -   id: MESH:D003078
+        label: Drug
+        name: colchicine
+    -   id: UniProt:P07437
+        label: Protein
+        name: Tubulin beta chain
+    -   id: GO:1990266
+        label: BiologicalProcess
+        name: neutrophil migration
+    -   id: GO:0016176
+        label: MolecularActivity
+        name: superoxide-generating NADPH oxidase activator activity
+    -   id: GO:0030593
+        label: BiologicalProcess
+        name: neutrophil chemotaxis
+    -   id: GO:0007266
+        label: BiologicalProcess
+        name: Rho protein signal transduction
+    -   id: REACT:R-HSA-844456
+        label: Pathway
+        name: The NLRP3 inflammasome
+    -   id: GO:0046785
+        label: BiologicalProcess
+        name: Microtubule polymerization
+    -   id: CL:0000775
+        label: Cell
+        name: Neutrophil
+    -   id: CL:0000576
+        label: Cell
+        name: Monocyte
+    -   id: GO:0045087
+        label: BiologicalProcess
+        name: innate immune response
+    -   id: GO:0070942
+        label: BiologicalProcess
+        name: neutrophil mediated cytotoxicity
+    -   id: GO:0007266
+        label: BiologicalProcess
+        name: Rho protein signal transduction
+    -   id: GO:0006919
+        label: BiologicalProcess
+        name: activation of cysteine-type endopeptidase activity involved in apoptotic process
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0005059
+        label: PhenotypicFeature
+        name: Joint pain/Joint inflammation
+    -   id: MESH:D006073
+        label: Disease
+        name: Gout
+    reference:
+    - https://go.drugbank.com/drugs/DB01394
+    - https://en.wikipedia.org/wiki/Colchicine
+    - https://pubmed.ncbi.nlm.nih.gov/25151572/
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4656054/
+-   directed: true
+    graph:
+        disease: Familial Mediterranean fever
+        disease_mesh: MESH:D010505
+        drug: colchicine
+        drug_mesh: MESH:D003078
+        drugbank: DB:DB01394
+    links:
+    -   key: decreases activity of
+        source: MESH:D003078
+        target: UniProt:P07437
+    -   key: positively regulates
+        source: UniProt:P07437
+        target: GO:0046785
+    -   key: positively regulates
+        source: GO:0046785
+        target: REACT:R-HSA-844456
+    -   key: positively regulates
+        source: GO:0046785
+        target: GO:0007266
+    -   key: positively regulates
+        source: REACT:R-HSA-844456
+        target: GO:0006919
+    -   key: positively regulates
+        source: GO:0007266
+        target: GO:0006919
+    -   key: increases abundance of
+        source: GO:0006919
+        target: UniProt:P01584
+    -   key: produced by
+        source: UniProt:P01584
+        target: CL:0000775
+    -   key: produced by
+        source: UniProt:P01584
+        target: CL:0000576
+    -   key: negatively regulates
+        source: MESH:D003078
+        target: GO:1990266
+    -   key: negatively regulates
+        source: MESH:D003078
+        target: GO:0016176
+    -   key: negatively regulates
+        source: MESH:D003078
+        target: GO:0030593
+    -   key: positively correlated with
+        source: GO:0030593
+        target: GO:0070942
+    -   key: positively correlated with
+        source: GO:1990266
+        target: GO:0070942
+    -   key: positively correlated with
+        source: GO:0016176
+        target: GO:0070942
+    -   key: caused by
+        source: GO:0070942
+        target: CL:0000775
+    -   key: participates in
+        source: CL:0000775
+        target: GO:0045087
+    -   key: participates in
+        source: CL:0000576
+        target: GO:0045087
+    -   key: positively correlated with
+        source: GO:0045087
+        target: GO:0006954
+    -   key: manifestation of
+        source: GO:0006954
+        target: MESH:D010505
+    multigraph: true
+    nodes:
+    -   id: MESH:D003078
+        label: Drug
+        name: colchicine
+    -   id: UniProt:P07437
+        label: Protein
+        name: Tubulin beta chain
+    -   id: GO:1990266
+        label: BiologicalProcess
+        name: neutrophil migration
+    -   id: GO:0016176
+        label: MolecularActivity
+        name: superoxide-generating NADPH oxidase activator activity
+    -   id: GO:0030593
+        label: BiologicalProcess
+        name: neutrophil chemotaxis
+    -   id: GO:0007266
+        label: BiologicalProcess
+        name: Rho protein signal transduction
+    -   id: REACT:R-HSA-844456
+        label: Pathway
+        name: The NLRP3 inflammasome
+    -   id: GO:0046785
+        label: BiologicalProcess
+        name: Microtubule polymerization
+    -   id: CL:0000775
+        label: Cell
+        name: Neutrophil
+    -   id: CL:0000576
+        label: Cell
+        name: Monocyte
+    -   id: GO:0045087
+        label: BiologicalProcess
+        name: innate immune response
+    -   id: GO:0070942
+        label: BiologicalProcess
+        name: neutrophil mediated cytotoxicity
+    -   id: GO:0007266
+        label: BiologicalProcess
+        name: Rho protein signal transduction
+    -   id: GO:0006919
+        label: BiologicalProcess
+        name: activation of cysteine-type endopeptidase activity involved in apoptotic process
+    -   id: UniProt:P01584
+        label: Protein
+        name: Interleukin-1 beta
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D010505
+        label: Disease
+        name: Familial Mediterranean fever
+    reference:
+    - https://go.drugbank.com/drugs/DB01394
+    - https://en.wikipedia.org/wiki/Colchicine
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4656054/
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: omalizumab
+        drug_mesh: MESH:D000069444
+        drugbank: DB:DB00043
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069444
+        target: GO:0019767
+    -   key: part of
+        source: GO:0019767
+        target: UniProt:P01854
+    -   key: expressed in
+        source: UniProt:P01854
+        target: CL:0000097
+    -   key: expressed in
+        source: UniProt:P01854
+        target: CL:0000767
+    -   key: positively correlated with
+        source: CL:0000097
+        target: GO:0043303
+    -   key: positively correlated with
+        source: CL:0000767
+        target: GO:0002561
+    -   key: caused by
+        source: GO:0043303
+        target: REACT:R-HSA-2454202
+    -   key: caused by
+        source: GO:0002561
+        target: REACT:R-HSA-2454202
+    -   key: positively correlated with
+        source: REACT:R-HSA-2454202
+        target: GO:0002441
+    -   key: positively correlated with
+        source: REACT:R-HSA-2454202
+        target: GO:0002540
+    -   key: positively correlated with
+        source: GO:0002441
+        target: MESH:D001249
+    -   key: positively correlated with
+        source: GO:0002540
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069444
+        label: Drug
+        name: omalizumab
+    -   id: GO:0019767
+        label: MolecularActivity
+        name: IgE receptor activity
+    -   id: UniProt:P01854
+        label: Protein
+        name: Immunoglobulin heavy constant epsilon
+    -   id: CL:0000097
+        label: Cell
+        name: mast cell
+    -   id: CL:0000767
+        label: Cell
+        name: basophill
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: mast cell degranulation
+    -   id: GO:0002561
+        label: BiologicalProcess
+        name: basophil degranulation
+    -   id: REACT:R-HSA-2454202
+        label: Pathway
+        name: Allergen dependent IgE bound FCERI aggregation
+    -   id: GO:0002540
+        label: BiologicalProcess
+        name: leukotriene production involved in inflammatory response
+    -   id: GO:0002441
+        label: BiologicalProcess
+        name: histamine secretion involved in inflammatory response
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    - https://go.drugbank.com/drugs/DB00043
+    - https://europepmc.org/article/pmc/pmc2478654
+    - https://en.wikipedia.org/wiki/Omalizumab
+-   directed: true
+    graph:
+        disease: Chronic idiopathic urticaria
+        disease_mesh: MESH:D000080223
+        drug: omalizumab
+        drug_mesh: MESH:D000069444
+        drugbank: DB:DB00043
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069444
+        target: GO:0019767
+    -   key: part of
+        source: GO:0019767
+        target: UniProt:P01854
+    -   key: expressed in
+        source: UniProt:P01854
+        target: CL:0000097
+    -   key: expressed in
+        source: UniProt:P01854
+        target: CL:0000767
+    -   key: positively correlated with
+        source: CL:0000097
+        target: GO:0043303
+    -   key: positively correlated with
+        source: CL:0000767
+        target: GO:0002561
+    -   key: caused by
+        source: GO:0043303
+        target: REACT:R-HSA-2454202
+    -   key: caused by
+        source: GO:0002561
+        target: REACT:R-HSA-2454202
+    -   key: positively correlated with
+        source: REACT:R-HSA-2454202
+        target: GO:0002441
+    -   key: positively correlated with
+        source: REACT:R-HSA-2454202
+        target: GO:0002540
+    -   key: positively correlated with
+        source: GO:0002441
+        target: MESH:D000080223
+    -   key: positively correlated with
+        source: GO:0002540
+        target: MESH:D000080223
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069444
+        label: Drug
+        name: omalizumab
+    -   id: GO:0019767
+        label: MolecularActivity
+        name: IgE receptor activity
+    -   id: UniProt:P01854
+        label: Protein
+        name: Immunoglobulin heavy constant epsilon
+    -   id: CL:0000097
+        label: Cell
+        name: mast cell
+    -   id: CL:0000767
+        label: Cell
+        name: basophill
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: mast cell degranulation
+    -   id: GO:0002561
+        label: BiologicalProcess
+        name: basophil degranulation
+    -   id: REACT:R-HSA-2454202
+        label: Pathway
+        name: Allergen dependent IgE bound FCERI aggregation
+    -   id: GO:0002540
+        label: BiologicalProcess
+        name: leukotriene production involved in inflammatory response
+    -   id: GO:0002441
+        label: BiologicalProcess
+        name: histamine secretion involved in inflammatory response
+    -   id: MESH:D000080223
+        label: Disease
+        name: Chronic idiopathic urticaria
+    reference:
+    - https://go.drugbank.com/drugs/DB00043
+    - https://europepmc.org/article/pmc/pmc2478654
+    - https://en.wikipedia.org/wiki/Omalizumab
+-   directed: true
+    graph:
+        disease: Actinic keratosis
+        disease_mesh: MESH:D055623
+        drug: masoprocol
+        drug_mesh: MESH:D009637
+        drugbank: DB:DB00179
+    links:
+    -   key: decreases activity of
+        source: MESH:D009637
+        target: UniProt:P42345
+    -   key: positively regulates
+        source: UniProt:P42345
+        target: REACT:R-HSA-166208
+    -   key: positively correlated with
+        source: REACT:R-HSA-166208
+        target: HP:0031377
+    -   key: causes
+        source: HP:0031377
+        target: MESH:D055623
+    multigraph: true
+    nodes:
+    -   id: MESH:D009637
+        label: Drug
+        name: masoprocol
+    -   id: UniProt:P42345
+        label: Protein
+        name: Serine/threonine-protein kinase mTOR
+    -   id: REACT:R-HSA-166208
+        label: Pathway
+        name: mTORC1-mediated signalling
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
+    -   id: MESH:D055623
+        label: Disease
+        name: Actinic keratosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00179
+    - http://europepmc.org/article/MED/23053656
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: cetirizine
+        drug_mesh: MESH:D017332
+        drugbank: DB:DB00341
+    links:
+    -   key: decreases activity of
+        source: MESH:D017332
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0031417
+    -   key: manifestation of
+        source: HP:0031417
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D017332
+        label: Drug
+        name: cetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0031417
+        label: PhenotypicFeature
+        name: Rhinorrhea
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00341
+    - https://en.wikipedia.org/wiki/Cetirizine
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: cetirizine
+        drug_mesh: MESH:D017332
+        drugbank: DB:DB00341
+    links:
+    -   key: decreases activity of
+        source: MESH:D017332
+        target: UniProt:P35367
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0051381
+    -   key: positively regulates
+        source: GO:0051381
+        target: GO:0023041
+    -   key: located in
+        source: GO:0023041
+        target: UBERON:0000004
+    -   key: affected by
+        source: UBERON:0000004
+        target: UBERON:0001645
+    -   key: contributes to
+        source: UBERON:0001645
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:D017332
+        label: Drug
+        name: cetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0051381
+        label: MolecularActivity
+        name: Histamine binding
+    -   id: GO:0023041
+        label: BiologicalProcess
+        name: Neuronal signal transduction
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   alt_ids: MESH:D014276
+        id: UBERON:0001645
+        label: GrossAnatomicalStructure
+        name: Trigeminal nerve
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference:
+    - https://go.drugbank.com/drugs/DB00341
+    - https://en.wikipedia.org/wiki/Cetirizine
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: cetirizine
+        drug_mesh: MESH:D017332
+        drugbank: DB:DB00341
+    links:
+    -   key: decreases activity of
+        source: MESH:D017332
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0031417
+    -   key: manifestation of
+        source: HP:0031417
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:D017332
+        label: Drug
+        name: cetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0031417
+        label: PhenotypicFeature
+        name: Rhinorrhea
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00341
+    - https://en.wikipedia.org/wiki/Cetirizine
+-   directed: true
+    graph:
+        disease: Chronic idiopathic urticaria
+        disease_mesh: MESH:D000080223
+        drug: cetirizine
+        drug_mesh: MESH:D017332
+        drugbank: DB:DB00341
+    links:
+    -   key: decreases activity of
+        source: MESH:D017332
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0043117
+    -   key: positively correlated with
+        source: GO:0071420
+        target: HP:0000969
+    -   key: manifestation of
+        source: HP:0000969
+        target: MESH:D000080223
+    -   key: manifestation of
+        source: GO:0043117
+        target: MESH:D000080223
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D000080223
+    multigraph: true
+    nodes:
+    -   id: MESH:D017332
+        label: Drug
+        name: cetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043117
+        label: BiologicalProcess
+        name: Positive regulation of vascular permeability
+    -   id: HP:0000969
+        label: PhenotypicFeature
+        name: Edema
+    -   id: MESH:D000080223
+        label: Disease
+        name: Chronic idiopathic urticaria
+    reference:
+    - https://go.drugbank.com/drugs/DB00341
+    - https://en.wikipedia.org/wiki/Cetirizine
+-   directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: cetirizine
+        drug_mesh: MESH:D017332
+        drugbank: DB:DB00341
+    links:
+    -   key: decreases activity of
+        source: MESH:D017332
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:10239
+    -   key: causes
+        source: NCBITaxon:10239
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D017332
+        label: Drug
+        name: cetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: NCBITaxon:10239
+        label: OrganismTaxon
+        name: Viruses
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference:
+    - https://go.drugbank.com/drugs/DB00341
+    - https://en.wikipedia.org/wiki/Cetirizine
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: cetirizine
+        drug_mesh: MESH:D017332
+        drugbank: DB:DB00341
+    links:
+    -   key: decreases activity of
+        source: MESH:D017332
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: has phenotype
+        source: GO:0006954
+        target: HP:0031417
+    -   key: manifestation of
+        source: HP:0031417
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D017332
+        label: Drug
+        name: cetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: HP:0031417
+        label: PhenotypicFeature
+        name: Rhinorrhea
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00341
+    - https://en.wikipedia.org/wiki/Cetirizine
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: cetirizine
+        drug_mesh: MESH:D017332
+        drugbank: DB:DB00341
+    links:
+    -   key: decreases activity of
+        source: MESH:D017332
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D017332
+        label: Drug
+        name: cetirizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00341
+    - https://en.wikipedia.org/wiki/Cetirizine
+-   comment: Dipivefrin is a prodrug with little or no pharmacologically 
+        activity until it is hydrolyzed into epinephrine inside the human eye.
+    directed: true
+    graph:
+        disease: Open-angle glaucoma
+        disease_mesh: MESH:D005902
+        drug: dipivefrine
+        drug_mesh: MESH:C015173
+        drugbank: DB:DB00449
+    links:
+    -   key: has metabolite
+        source: MESH:C015173
+        target: MESH:D004837
+    -   key: increases activity of
+        source: MESH:D004837
+        target: InterPro:IPR002233
+    -   key: participates in
+        source: InterPro:IPR002233
+        target: GO:0004935
+    -   key: positively regulates
+        source: GO:0004935
+        target: GO:0042310
+    -   key: negatively correlated with
+        source: GO:0042310
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: positively correlated with
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:C015173
+        label: Drug
+        name: dipivefrine
+    -   id: MESH:D004837
+        label: ChemicalSubstance
+        name: epinephrine
+    -   id: InterPro:IPR002233
+        label: GeneFamily
+        name: Adrenoceptor family
+    -   id: GO:0004935
+        label: MolecularActivity
+        name: adrenergic receptor activity
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: vasoconstriction
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: Aqueous Humor
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular Hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Open-angle glaucoma
+    reference:
+    - https://go.drugbank.com/drugs/DB00449
+    - https://en.wikipedia.org/wiki/Dipivefrine
+-   comments: Oxcarbazepine is a prodrug, which is largely metabolised to its pharmacologically active
+         10-monohydroxy derivative licarbazepine (sometimes abbreviated MHD).
+    directed: true
+    graph:
+        disease: Localization-related epilepsy
+        disease_mesh: MESH:D004828
+        drug: oxcarbazepine
+        drug_mesh: MESH:C036006
+        drugbank: DB:DB00776
+    links:
+    -   key: has metabolite
+        source: MESH:C036006
+        target: CHEBI:701
+    -   key: decreases activity of
+        source: CHEBI:701
+        target: MESH:D061566
+    -   key: positively regulates
+        source: MESH:D061566
+        target: GO:0035725
+    -   key: positively regulates
+        source: GO:0035725
+        target: GO:0019228
+    -   key: positively correlated with
+        source: GO:0019228
+        target: HP:0011097
+    -   key: positively correlated with
+        source: HP:0011097
+        target: MESH:D004828
+    multigraph: true
+    nodes:
+    -   id: MESH:C036006
+        label: Drug
+        name: oxcarbazepine
+    -   id: CHEBI:701
+        label: ChemicalSubstance
+        name: licarbazepine
+    -   id: MESH:D061566
+        label: GeneFamily
+        name: Voltage-Gated Sodium Channels
+    -   id: GO:0035725
+        label: BiologicalProcess
+        name: sodium ion transmembrane transport
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: neuronal action potential
+    -   id: HP:0011097
+        label: PhenotypicFeature
+        name: Epileptic spasm
+    -   id: MESH:D004828
+        label: Disease
+        name: Localization-related epilepsy
+    reference:
+    - https://go.drugbank.com/drugs/DB00776
+    - https://en.wikipedia.org/wiki/Oxcarbazepine
+-   directed: true
+    graph:
+        disease: Sore throat symptom
+        disease_mesh: MESH:D010612
+        drug: benzocaine
+        drug_mesh: MESH:D001566
+        drugbank: DB:DB01086
+    links:
+    -   key: decreases activity of
+        source: MESH:D001566
+        target: UniProt:Q9Y5Y9
+    -   key: participates in
+        source: UniProt:Q9Y5Y9
+        target: GO:0005248
+    -   key: increases transport of
+        source: GO:0005248
+        target: MESH:D012964
+    -   key: positively correlated with
+        source: MESH:D012964
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0019228
+    -   key: occurs in
+        source: GO:0019228
+        target: CL:0000198
+    -   key: participates in
+        source: CL:0000198
+        target: GO:0019233
+    -   key: occurs in
+        source: GO:0019233
+        target: MESH:D010612
+    multigraph: true
+    nodes:
+    -   id: MESH:D001566
+        label: Drug
+        name: benzocaine
+    -   id: UniProt:Q9Y5Y9
+        label: Protein
+        name: Sodium channel protein type 10 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: GO:0005248
+        label: BiologicalProcess
+        name: Voltage-gated sodium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D010612
+        label: Drug
+        name: Sore throat symptom
+    reference:
+    - https://go.drugbank.com/drugs/DB01086
+    - https://en.wikipedia.org/wiki/Benzocaine
+-   directed: true
+    graph:
+        disease: Cough
+        disease_mesh: MESH:D003371
+        drug: benzocaine
+        drug_mesh: MESH:D001566
+        drugbank: DB:DB01086
+    links:
+    -   key: decreases activity of
+        source: MESH:D001566
+        target: UniProt:Q9Y5Y9
+    -   key: participates in
+        source: UniProt:Q9Y5Y9
+        target: GO:0005248
+    -   key: increases transport of
+        source: GO:0005248
+        target: MESH:D012964
+    -   key: positively correlated with
+        source: MESH:D012964
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0019228
+    -   key: occurs in
+        source: GO:0019228
+        target: CL:0000198
+    -   key: participates in
+        source: CL:0000198
+        target: GO:0019233
+    -   key: occurs in
+        source: GO:0019233
+        target: MESH:D003371
+    multigraph: true
+    nodes:
+    -   id: MESH:D001566
+        label: Drug
+        name: benzocaine
+    -   id: UniProt:Q9Y5Y9
+        label: Protein
+        name: Sodium channel protein type 10 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: GO:0005248
+        label: BiologicalProcess
+        name: Voltage-gated sodium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D003371
+        label: Drug
+        name: Cough
+    reference:
+    - https://go.drugbank.com/drugs/DB01086
+    - https://en.wikipedia.org/wiki/Benzocaine
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: benzocaine
+        drug_mesh: MESH:D001566
+        drugbank: DB:DB01086
+    links:
+    -   key: decreases activity of
+        source: MESH:D001566
+        target: UniProt:Q9Y5Y9
+    -   key: participates in
+        source: UniProt:Q9Y5Y9
+        target: GO:0005248
+    -   key: increases transport of
+        source: GO:0005248
+        target: MESH:D012964
+    -   key: positively correlated with
+        source: MESH:D012964
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0019228
+    -   key: occurs in
+        source: GO:0019228
+        target: CL:0000198
+    -   key: participates in
+        source: CL:0000198
+        target: GO:0019233
+    -   key: manifestation of
+        source: GO:0019233
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:D001566
+        label: Drug
+        name: benzocaine
+    -   id: UniProt:Q9Y5Y9
+        label: Protein
+        name: Sodium channel protein type 10 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: GO:0005248
+        label: BiologicalProcess
+        name: Voltage-gated sodium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D011537
+        label: Drug
+        name: Itching of skin
+    reference:
+    - https://go.drugbank.com/drugs/DB01086
+    - https://en.wikipedia.org/wiki/Benzocaine
+-   directed: true
+    graph:
+        disease: Tinea pedis
+        disease_mesh: MESH:D014008
+        drug: benzocaine
+        drug_mesh: MESH:D001566
+        drugbank: DB:DB01086
+    links:
+    -   key: decreases activity of
+        source: MESH:D001566
+        target: UniProt:Q9Y5Y9
+    -   key: participates in
+        source: UniProt:Q9Y5Y9
+        target: GO:0005248
+    -   key: increases transport of
+        source: GO:0005248
+        target: MESH:D012964
+    -   key: positively correlated with
+        source: MESH:D012964
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0019228
+    -   key: occurs in
+        source: GO:0019228
+        target: CL:0000198
+    -   key: participates in
+        source: CL:0000198
+        target: GO:0019233
+    -   key: occurs in
+        source: GO:0019233
+        target: MESH:D014008
+    multigraph: true
+    nodes:
+    -   id: MESH:D001566
+        label: Drug
+        name: benzocaine
+    -   id: UniProt:Q9Y5Y9
+        label: Protein
+        name: Sodium channel protein type 10 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: GO:0005248
+        label: BiologicalProcess
+        name: Voltage-gated sodium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D014008
+        label: Drug
+        name: Tinea pedis
+    reference:
+    - https://go.drugbank.com/drugs/DB01086
+    - https://en.wikipedia.org/wiki/Benzocaine
+-   directed: true
+    graph:
+        disease: Tinea pedis
+        disease_mesh: MESH:D014008
+        drug: benzocaine
+        drug_mesh: MESH:D001566
+        drugbank: DB:DB01086
+    links:
+    -   key: decreases activity of
+        source: MESH:D001566
+        target: UniProt:Q9Y5Y9
+    -   key: participates in
+        source: UniProt:Q9Y5Y9
+        target: GO:0005248
+    -   key: increases transport of
+        source: GO:0005248
+        target: MESH:D012964
+    -   key: positively correlated with
+        source: MESH:D012964
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0019228
+    -   key: occurs in
+        source: GO:0019228
+        target: CL:0000198
+    -   key: participates in
+        source: CL:0000198
+        target: GO:0019233
+    -   key: occurs in
+        source: GO:0019233
+        target: MESH:D014008
+    multigraph: true
+    nodes:
+    -   id: MESH:D001566
+        label: Drug
+        name: benzocaine
+    -   id: UniProt:Q9Y5Y9
+        label: Protein
+        name: Sodium channel protein type 10 subunit alpha
+    -   id: MESH:D012964
+        label: ChemicalSubstance
+        name: Sodium
+    -   id: GO:0005248
+        label: BiologicalProcess
+        name: Voltage-gated sodium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: Neuronal action potential
+    -   id: CL:0000198
+        label: Cell
+        name: Pain receptor cell
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: Sensory perception of pain
+    -   id: MESH:D014008
+        label: Drug
+        name: Tinea pedis
+    reference:
+    - https://go.drugbank.com/drugs/DB01086
+    - https://en.wikipedia.org/wiki/Benzocaine
+-   comment:  pixantrone has not yet received FDA approval in the United States, it has been granted conditional
+              marketing approval by the European Union.
+    directed: true
+    graph:
+        disease: Non-Hodgkin's lymphoma
+        disease_mesh: MESH:D008228
+        drug: Pixantrone
+        drug_mesh: MESH:C086548
+        drugbank: DB:DB06193
+    links:
+    -   key: increases abundance of
+        source: MESH:C086548
+        target: MESH:D018736
+    -   key: decreases activity of
+        source: MESH:D018736
+        target: UniProt:P11388
+    -   key: positively regulates
+        source: UniProt:P11388
+        target: GO:0006974
+    -   key: positively regulates
+        source: GO:0006974
+        target: GO:0030263
+    -   key: positively correlated with
+        source: GO:0030263
+        target: GO:0008219
+    -   key: decreases abundance of
+        source: GO:0008219
+        target: CL:0001063
+    -   key: manifestation of
+        source: CL:0001063
+        target: MESH:D008228
+    multigraph: true
+    nodes:
+    -   id: MESH:C086548
+        label: Drug
+        name: Pixantrone
+    -   id: UniProt:P11388
+        label: Protein
+        name: DNA topoisomerase 2-alpha
+    -   id: MESH:D018736
+        label: ChemicalSubstance
+        name: DNA adducts
+    -   id: GO:0006974
+        label: BiologicalProcess
+        name: cellular response to DNA damage stimulus
+    -   id: GO:0030263
+        label: BiologicalProcess
+        name: apoptotic chromosome condensation
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: cell death
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cells
+    -   id: MESH:D008228
+        label: Disease
+        name: Non-Hodgkin's lymphoma
+    reference:
+    - https://go.drugbank.com/drugs/DB06193
+    - https://en.wikipedia.org/wiki/Pixantrone
+-   directed: true
+    graph:
+        disease: Atrophic vaginitis
+        disease_mesh: MESH:D059268
+        drug: dienestrol
+        drug_mesh: MESH:D004028
+        drugbank: DB:DB00890
+    links:
+    -   key: chemically similar to
+        source: MESH:D004028
+        target: MESH:D004967
+    -   key: increases activity of
+        source: MESH:D004967
+        target: UniProt:P03372
+    -   key: positively regulates
+        source: UniProt:P03372
+        target: REACT:R-HSA-9018519
+    -   key: negatively correlated with
+        source: REACT:R-HSA-9018519
+        target: HP:0030683
+    -   key: manifestation of
+        source: HP:0030683
+        target: MESH:D059268
+    multigraph: true
+    nodes:
+    -   id: MESH:D004028
+        label: Drug
+        name: dienestrol
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor alpha
+    -   id: MESH:D004967
+        label: ChemicalSubstance
+        name: Estrogen
+    -   id: REACT:R-HSA-9018519
+        label: Pathway
+        name: Estrogen-dependent gene expression
+    -   id: HP:0030683
+        label: PhenotypicFeature
+        name: Vaginitis
+    -   id: MESH:D059268
+        label: Disease
+        name: Atrophic vaginitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00890
+-   comment: dienestrol treatment is mainly recommended for post-menopausal dyspareunia.
+    directed: true
+    graph:
+        disease: Dyspareunia
+        disease_mesh: MESH:D004414
+        drug: dienestrol
+        drug_mesh: MESH:D004028
+        drugbank: DB:DB00890
+    links:
+    -   key: chemically similar to
+        source: MESH:D004028
+        target: MESH:D004967
+    -   key: increases activity of
+        source: MESH:D004967
+        target: UniProt:P03372
+    -   key: positively regulates
+        source: UniProt:P03372
+        target: REACT:R-HSA-9018519
+    -   key: negatively correlated with
+        source: REACT:R-HSA-9018519
+        target: HP:0030016
+    -   key: manifestation of
+        source: HP:0030016
+        target: MESH:D004414
+    multigraph: true
+    nodes:
+    -   id: MESH:D004028
+        label: Drug
+        name: dienestrol
+    -   id: UniProt:P03372
+        label: Protein
+        name: Estrogen receptor alpha
+    -   id: MESH:D004967
+        label: ChemicalSubstance
+        name: Estrogen
+    -   id: REACT:R-HSA-9018519
+        label: Pathway
+        name: Estrogen-dependent gene expression
+    -   id: HP:0030016
+        label: PhenotypicFeature
+        name: Dyspareunia
+    -   id: MESH:D004414
+        label: Disease
+        name: Dyspareunia
+    reference:
+    - https://go.drugbank.com/drugs/DB00890
+-   comment: Polidocanol is a sclerosing agent indicated to treat uncomplicated spider veins.
+        Sclerosing solutions cause the vein to scar, forcing blood to reroute
+        through healthier veins. The collapsed vein is reabsorbed into local tissue
+        and eventually fades (https://www.mayoclinic.org/tests-procedures/sclerotherapy/about/pac-20384592).
+    directed: true
+    graph:
+        disease: Venous varices
+        disease_mesh: MESH:D014648
+        drug: polidocanol
+        drug_mesh: MESH:C008976
+        drugbank: DB:DB06811
+    links:
+    -   key: chemically similar to
+        source: MESH:C008976
+        target: MESH:D012597
+    -   key: causes
+        source: MESH:D012597
+        target: HP:0100699
+    -   key: positively correlated with
+        source: HP:0100699
+        target: GO:0097709
+    -   key: negatively correlated with
+        source: GO:0097709
+        target: HP:0002619
+    -   key: manifestation of
+        source: HP:0002619
+        target: MESH:D014648
+    multigraph: true
+    nodes:
+    -   id: MESH:C008976
+        label: Drug
+        name: polidocanol
+    -   id: MESH:D012597
+        label: ChemicalSubstance
+        name: Sclerosing Solutions
+    -   id: HP:0100699
+        label: PhenotypicFeature
+        name: Scarring
+    -   id: GO:0097709
+        label: BiologicalProcess
+        name: connective tissue replacement
+    -   id: HP:0002619
+        label: PhenotypicFeature
+        name: Varicose veins
+    -   id: MESH:D014648
+        label: Disease
+        name: Venous varices
+    reference:
+    - https://go.drugbank.com/drugs/DB06811
+    - https://en.wikipedia.org/wiki/Polidocanol
+-   directed: true
+    graph:
+        disease: Merkel cell carcinoma
+        disease_mesh: MESH:D015266
+        drug: Avelumab
+        drug_mesh: MESH:C000609138
+        drugbank: DB:DB11945
+    links:
+    -   key: decreases activity of
+        source: MESH:C000609138
+        target: UniProt:Q9NZQ7
+    -   key: negatively regulates
+        source: UniProt:Q9NZQ7
+        target: GO:0042098
+    -   key: negatively regulates
+        source: UniProt:Q9NZQ7
+        target: GO:0042110
+    -   key: positively correlated with
+        source: GO:0042098
+        target: GO:0002424
+    -   key: positively correlated with
+        source: GO:0042110
+        target: GO:0002424
+    -   key: negatively correlated with
+        source: GO:0002424
+        target: MESH:D015266
+    multigraph: true
+    nodes:
+    -   id: MESH:C000609138
+        label: Drug
+        name: Avelumab
+    -   id: UniProt:Q9NZQ7
+        label: Protein
+        name: Programmed cell death 1 ligand 1
+    -   id: GO:0042098
+        label: BiologicalProcess
+        name: T cell proliferation
+    -   id: GO:0042110
+        label: BiologicalProcess
+        name: T cell activation
+    -   id: GO:0002424
+        label: BiologicalProcess
+        name: T cell mediated immune response to tumor cell
+    -   id: MESH:D015266
+        label: Disease
+        name: Merkel cell carcinoma
+    reference:
+    - https://go.drugbank.com/drugs/DB11945
+    - https://en.wikipedia.org/wiki/Avelumab
