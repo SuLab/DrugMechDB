@@ -1,1 +1,1131 @@
-
+- directed: true
+  graph:
+    disease: Influenza
+    disease_mesh: MESH:D007251
+    drug: zanamivir
+    drug_mesh: MESH:D053243
+    drugbank: DB:DB00558
+  links:
+    - key: negatively regulates
+      source: MESH:D053243
+      target: UniProt:P03468
+    - key: positively regulates
+      source: UniProt:P03468
+      target: GO:0019076
+    - key: in taxon
+      source: GO:0019076
+      target: NCBITaxon:11320
+    - key: causes
+      source: NCBITaxon:11320
+      target: MESH:D007251
+  multigraph: true
+  nodes:
+    - id: MESH:D053243
+      label: Drug
+      name: zanamivir
+    - id: UniProt:P03468
+      label: Protein
+      name: Neuraminidase
+    - id: GO:0019076
+      label: BiologicalProcess
+      name: viral release from host cell
+    - id: NCBITaxon:11320
+      label: OrganismTaxon
+      name: Influenza A virus
+    - id: MESH:D007251
+      label: Disease
+      name: Influenza
+  reference:
+    - https://go.drugbank.com/drugs/DB00558
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL222813/
+- directed: true
+  graph:
+    disease: Candidemia
+    disease_mesh: MESH:D058387
+    drug: anidulafungin
+    drug_mesh: MESH:C102786
+    drugbank: DB:DB00362
+  links:
+    - key: negatively regulates
+      source: MESH:C102786
+      target: InterPro:IPR026899
+    - key: positively regulates
+      source: InterPro:IPR026899
+      target: GO:0006075
+    - key: in taxon
+      source: GO:0006075
+      target: NCBITaxon:237561
+    - key: causes
+      source: NCBITaxon:237561
+      target: MESH:D058387
+  multigraph: true
+  nodes:
+    - id: MESH:C102786
+      label: Drug
+      name: anidulafungin
+    - id: InterPro:IPR026899
+      label: GeneFamily
+      name: 1,3-beta-glucan synthase subunit FKS1-like, domain-1
+    - id: GO:0006075
+      label: BiologicalProcess
+      name: (1->3)-beta-D-glucan biosynthetic process
+    - id: NCBITaxon:237561
+      label: OrganismTaxon
+      name: Candida albicans SC5314
+    - id: MESH:D058387
+      label: Disease
+      name: Candidemia
+  reference:
+    - https://go.drugbank.com/drugs/DB00362
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL264241/
+- directed: true
+  graph:
+    disease: Chronic type B viral hepatitis
+    disease_mesh: MESH:D019694
+    drug: interferon alfa-2b
+    drug_mesh: MESH:C554127
+    drugbank: DB:DB00105
+  links:
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P48551
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P17181
+    - key: positively regulates
+      source: UniProt:P48551
+      target: GO:0007259
+    - key: positively regulates
+      source: UniProt:P17181
+      target: GO:0007259
+    - key: positively correlated with
+      source: GO:0007259
+      target: REACT:R-HSA-1169410
+    - key: disrupts
+      source: REACT:R-HSA-1169410
+      target: NCBITaxon:10407
+    - key: causes
+      source: NCBITaxon:10407
+      target: MESH:D019694
+  multigraph: true
+  nodes:
+    - id: MESH:C554127
+      label: Drug
+      name: interferon alfa-2b
+    - id: UniProt:P48551
+      label: Protein
+      name: Interferon alpha/beta receptor 2
+    - id: UniProt:P17181
+      label: Protein
+      name: Interferon alpha/beta receptor 1
+    - id: GO:0007259
+      label: BiologicalProcess
+      name: receptor signaling pathway via JAK-STAT
+    - id: REACT:R-HSA-1169410
+      label: Pathway
+      name: Antiviral mechanism by IFN-stimulated genes
+    - id: NCBITaxon:10407
+      label: OrganismTaxon
+      name: Hepatitis B virus
+    - id: MESH:D019694
+      label: Disease
+      name: Chronic type B viral hepatitis
+  reference: https://go.drugbank.com/drugs/DB00105
+- directed: true
+  graph:
+    disease: Chronic hepatitis C
+    disease_mesh: MESH:D019698
+    drug: interferon alfa-2b
+    drug_mesh: MESH:C554127
+    drugbank: DB:DB00105
+  links:
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P48551
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P17181
+    - key: positively regulates
+      source: UniProt:P48551
+      target: GO:0007259
+    - key: positively regulates
+      source: UniProt:P17181
+      target: GO:0007259
+    - key: positively correlated with
+      source: GO:0007259
+      target: REACT:R-HSA-1169410
+    - key: disrupts
+      source: REACT:R-HSA-1169410
+      target: NCBITaxon:11103
+    - key: causes
+      source: NCBITaxon:11103
+      target: MESH:D019698
+  multigraph: true
+  nodes:
+    - id: MESH:C554127
+      label: Drug
+      name: interferon alfa-2b
+    - id: UniProt:P48551
+      label: Protein
+      name: Interferon alpha/beta receptor 2
+    - id: UniProt:P17181
+      label: Protein
+      name: Interferon alpha/beta receptor 1
+    - id: GO:0007259
+      label: BiologicalProcess
+      name: receptor signaling pathway via JAK-STAT
+    - id: REACT:R-HSA-1169410
+      label: Pathway
+      name: Antiviral mechanism by IFN-stimulated genes
+    - id: NCBITaxon:11103
+      label: OrganismTaxon
+      name: Hepacivirus C
+    - id: MESH:D019698
+      label: Disease
+      name: Chronic hepatitis C
+  reference: https://go.drugbank.com/drugs/DB00105
+- directed: true
+  graph:
+    disease: Kaposi's sarcoma associated with AIDS
+    disease_mesh: MESH:C554498
+    drug: interferon alfa-2b
+    drug_mesh: MESH:C554127
+    drugbank: DB:DB00105
+  links:
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P48551
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P17181
+    - key: positively regulates
+      source: UniProt:P48551
+      target: GO:0007259
+    - key: positively regulates
+      source: UniProt:P17181
+      target: GO:0007259
+    - key: positively correlated with
+      source: GO:0007259
+      target: REACT:R-HSA-1169410
+    - key: disrupts
+      source: REACT:R-HSA-1169410
+      target: NCBITaxon:37296
+    - key: causes
+      source: NCBITaxon:37296
+      target: MESH:C554498
+  multigraph: true
+  nodes:
+    - id: MESH:C554127
+      label: Drug
+      name: interferon alfa-2b
+    - id: UniProt:P48551
+      label: Protein
+      name: Interferon alpha/beta receptor 2
+    - id: UniProt:P17181
+      label: Protein
+      name: Interferon alpha/beta receptor 1
+    - id: GO:0007259
+      label: BiologicalProcess
+      name: receptor signaling pathway via JAK-STAT
+    - id: REACT:R-HSA-1169410
+      label: Pathway
+      name: Antiviral mechanism by IFN-stimulated genes
+    - id: NCBITaxon:37296
+      label: OrganismTaxon
+      name: Human gammaherpesvirus 8
+    - id: MESH:C554498
+      label: Disease
+      name: Kaposi's sarcoma associated with AIDS
+  reference:
+    - https://go.drugbank.com/drugs/DB00105
+    - https://en.wikipedia.org/wiki/Kaposi%27s_sarcoma#Cause
+- directed: true
+  graph:
+    disease: Condyloma acuminatum
+    disease_mesh: MESH:D003218
+    drug: interferon alfa-2b
+    drug_mesh: MESH:C554127
+    drugbank: DB:DB00105
+  links:
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P48551
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P17181
+    - key: positively regulates
+      source: UniProt:P48551
+      target: GO:0007259
+    - key: positively regulates
+      source: UniProt:P17181
+      target: GO:0007259
+    - key: positively correlated with
+      source: GO:0007259
+      target: REACT:R-HSA-1169410
+    - key: disrupts
+      source: REACT:R-HSA-1169410
+      target: NCBITaxon:10566
+    - key: causes
+      source: NCBITaxon:10566
+      target: MESH:D003218
+  multigraph: true
+  nodes:
+    - id: MESH:C554127
+      label: Drug
+      name: interferon alfa-2b
+    - id: UniProt:P48551
+      label: Protein
+      name: Interferon alpha/beta receptor 2
+    - id: UniProt:P17181
+      label: Protein
+      name: Interferon alpha/beta receptor 1
+    - id: GO:0007259
+      label: BiologicalProcess
+      name: receptor signaling pathway via JAK-STAT
+    - id: REACT:R-HSA-1169410
+      label: Pathway
+      name: Antiviral mechanism by IFN-stimulated genes
+    - id: NCBITaxon:10566
+      label: OrganismTaxon
+      name: Human papillomavirus
+    - id: MESH:D003218
+      label: Disease
+      name: Condyloma acuminatum
+      alt_names:
+        - Genital wart
+        - Condylomata Acuminata
+  reference:
+    - https://go.drugbank.com/drugs/DB00105
+    - https://en.wikipedia.org/wiki/Genital_wart#Causes
+- directed: true
+  graph:
+    disease: Follicular lymphoma
+    disease_mesh: MESH:D008224
+    drug: interferon alfa-2b
+    drug_mesh: MESH:C554127
+    drugbank: DB:DB00105
+  links:
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P48551
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P17181
+    - key: negatively regulates
+      source: UniProt:P48551
+      target: GO:0046651
+    - key: negatively regulates
+      source: UniProt:P17181
+      target: GO:0046651
+    - key: positively regulates
+      source: UniProt:P48551
+      target: GO:0006915
+    - key: positively regulates
+      source: UniProt:P17181
+      target: GO:0006915
+    - key: decreases abundance of
+      source: UniProt:P48551
+      target: MESH:D015513
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D008224
+    - key: decreases abundance of
+      source: UniProt:P17181
+      target: MESH:D015513
+    - key: positively correlated with
+      source: MESH:D015513
+      target: MESH:D008224
+    - key: positively correlated with
+      source: GO:0046651
+      target: MESH:D008224
+  multigraph: true
+  nodes:
+    - id: MESH:C554127
+      label: Drug
+      name: interferon alfa-2b
+    - id: UniProt:P48551
+      label: Protein
+      name: Interferon alpha/beta receptor 2
+    - id: UniProt:P17181
+      label: Protein
+      name: Interferon alpha/beta receptor 1
+    - id: GO:0046651
+      label: BiologicalProcess
+      name: lymphocyte proliferation
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: MESH:D015513
+      label: Protein
+      name: Oncogene Proteins
+    - id: MESH:D008224
+      label: Disease
+      name: Follicular lymphoma
+  reference:
+    - https://go.drugbank.com/drugs/DB00105
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Interferon-alfa-2B#section=Mechanism-of-Action
+    - https://en.wikipedia.org/wiki/Follicular_lymphoma
+  comment: The precise mechanisms of action of interferons have not been fully elucidated but appear to be complex, and the resultant activities appear to be substantially interrelated.
+- directed: true
+  graph:
+    disease: Malignant melanoma
+    disease_mesh: MESH:D008545
+    drug: interferon alfa-2b
+    drug_mesh: MESH:C554127
+    drugbank: DB:DB00105
+  links:
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P48551
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P17181
+    - key: negatively regulates
+      source: UniProt:P48551
+      target: GO:0097325
+    - key: negatively regulates
+      source: UniProt:P17181
+      target: GO:0097325
+    - key: positively regulates
+      source: UniProt:P48551
+      target: GO:0006915
+    - key: positively regulates
+      source: UniProt:P17181
+      target: GO:0006915
+    - key: decreases abundance of
+      source: UniProt:P48551
+      target: MESH:D015513
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D008545
+    - key: decreases abundance of
+      source: UniProt:P17181
+      target: MESH:D015513
+    - key: positively correlated with
+      source: MESH:D015513
+      target: MESH:D008545
+    - key: positively correlated with
+      source: GO:0097325
+      target: MESH:D008545
+  multigraph: true
+  nodes:
+    - id: MESH:C554127
+      label: Drug
+      name: interferon alfa-2b
+    - id: UniProt:P48551
+      label: Protein
+      name: Interferon alpha/beta receptor 2
+    - id: UniProt:P17181
+      label: Protein
+      name: Interferon alpha/beta receptor 1
+    - id: GO:0097325
+      label: BiologicalProcess
+      name: melanocyte proliferation
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: MESH:D015513
+      label: Protein
+      name: Oncogene Proteins
+    - id: MESH:D008545
+      label: Disease
+      name: Malignant melanoma
+  reference:
+    - https://go.drugbank.com/drugs/DB00105
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Interferon-alfa-2B#section=Mechanism-of-Action
+    - https://en.wikipedia.org/wiki/Melanoma
+  comment: The precise mechanisms of action of interferons have not been fully elucidated but appear to be complex, and the resultant activities appear to be substantially interrelated.
+- directed: true
+  graph:
+    disease: Hairy cell leukemia
+    disease_mesh: MESH:D007943
+    drug: interferon alfa-2b
+    drug_mesh: MESH:C554127
+    drugbank: DB:DB00105
+  links:
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P48551
+    - key: molecularly interacts with
+      source: MESH:C554127
+      target: UniProt:P17181
+    - key: negatively regulates
+      source: UniProt:P48551
+      target: GO:0042100
+    - key: negatively regulates
+      source: UniProt:P17181
+      target: GO:0042100
+    - key: positively regulates
+      source: UniProt:P48551
+      target: GO:0006915
+    - key: positively regulates
+      source: UniProt:P17181
+      target: GO:0006915
+    - key: decreases abundance of
+      source: UniProt:P48551
+      target: MESH:D015513
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D007943
+    - key: decreases abundance of
+      source: UniProt:P17181
+      target: MESH:D015513
+    - key: positively correlated with
+      source: MESH:D015513
+      target: MESH:D007943
+    - key: positively correlated with
+      source: GO:0042100
+      target: MESH:D007943
+  multigraph: true
+  nodes:
+    - id: MESH:C554127
+      label: Drug
+      name: interferon alfa-2b
+    - id: UniProt:P48551
+      label: Protein
+      name: Interferon alpha/beta receptor 2
+    - id: UniProt:P17181
+      label: Protein
+      name: Interferon alpha/beta receptor 1
+    - id: GO:0042100
+      label: BiologicalProcess
+      name: B cell proliferation
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
+    - id: MESH:D015513
+      label: Protein
+      name: Oncogene Proteins
+    - id: MESH:D007943
+      label: Disease
+      name: Hairy cell leukemia
+  reference:
+    - https://go.drugbank.com/drugs/DB00105
+    - https://pubchem.ncbi.nlm.nih.gov/compound/Interferon-alfa-2B#section=Mechanism-of-Action
+    - https://en.wikipedia.org/wiki/Hairy_cell_leukemia
+  comment: The precise mechanisms of action of interferons have not been fully elucidated but appear to be complex, and the resultant activities appear to be substantially interrelated.
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: valsartan
+    drug_mesh: MESH:D000068756
+    drugbank: DB:DB00177
+  links:
+    - key: negatively regulates
+      source: MESH:D000068756
+      target: UniProt:P30556
+    - key: positively regulates
+      source: UniProt:P30556
+      target: GO:0042310
+    - key: positively regulates
+      source: UniProt:P30556
+      target: GO:0002018
+    - key: positively regulates
+      source: GO:0002018
+      target: GO:0003092
+    - key: positively regulates
+      source: GO:0002018
+      target: GO:0070294
+    - key: positively correlated with
+      source: GO:0070294
+      target: HP:0032263
+    - key: positively correlated with
+      source: GO:0003092
+      target: HP:0032263
+    - key: positively correlated with
+      source: GO:0042310
+      target: HP:0032263
+    - key: affects risk for
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D000068756
+      label: Drug
+      name: valsartan
+    - id: UniProt:P30556
+      label: Protein
+      name: Type-1 angiotensin II receptor
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: GO:0002018
+      label: BiologicalProcess
+      name: renin-angiotensin regulation of aldosterone production
+    - id: GO:0003092
+      label: BiologicalProcess
+      name: renal water retention
+    - id: GO:0070294
+      label: BiologicalProcess
+      name: renal sodium ion absorption
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB00177
+    - https://en.wikipedia.org/wiki/Valsartan#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Aldosterone
+  comment: Valsartan acts at the receptor level, therefore it provides a more complete angiotensin II antagonism since angiotensin II is generated by other enzymes as well as ACE. Note that valsartan does not affect the metabolism of bradykinin like ACE inhibitors do.
+- directed: true
+  graph:
+    disease: Atrial fibrillation
+    disease_mesh: MESH:D001281
+    drug: acetyldigitoxin
+    drug_mesh: MESH:D000112
+    drugbank: DB:DB00511
+  links:
+    - key: negatively regulates
+      source: MESH:D000112
+      target: UniProt:P05023
+    - key: positively regulates
+      source: UniProt:P05023
+      target: GO:0006814
+    - key: correlated with
+      source: GO:0006814
+      target: GO:0060048
+    - key: correlated with
+      source: GO:0060048
+      target: MESH:D001281
+  multigraph: true
+  nodes:
+    - id: MESH:D000112
+      label: Drug
+      name: acetyldigitoxin
+    - id: UniProt:P05023
+      label: Protein
+      name: Sodium/potassium-transporting ATPase subunit alpha-1
+    - id: GO:0006814
+      label: BiologicalProcess
+      name: sodium ion transport
+    - id: GO:0060048
+      label: BiologicalProcess
+      name: cardiac muscle contraction
+    - id: MESH:D001281
+      label: Disease
+      name: Atrial fibrillation
+  reference:
+    - https://go.drugbank.com/drugs/DB00511
+    - https://en.wikipedia.org/wiki/Acetyldigitoxin
+    - https://en.wikipedia.org/wiki/Cardiac_glycoside#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Congestive heart failure
+    disease_mesh: MESH:D006333
+    drug: acetyldigitoxin
+    drug_mesh: MESH:D000112
+    drugbank: DB:DB00511
+  links:
+    - key: negatively regulates
+      source: MESH:D000112
+      target: UniProt:P05023
+    - key: positively regulates
+      source: UniProt:P05023
+      target: GO:0006814
+    - key: correlated with
+      source: GO:0006814
+      target: GO:0060048
+    - key: correlated with
+      source: GO:0060048
+      target: HP:0005110
+    - key: positively correlated with
+      source: HP:0005110
+      target: MESH:D006333
+  multigraph: true
+  nodes:
+    - id: MESH:D000112
+      label: Drug
+      name: acetyldigitoxin
+    - id: UniProt:P05023
+      label: Protein
+      name: Sodium/potassium-transporting ATPase subunit alpha-1
+    - id: GO:0006814
+      label: BiologicalProcess
+      name: sodium ion transport
+    - id: GO:0060048
+      label: BiologicalProcess
+      name: cardiac muscle contraction
+    - id: HP:0005110
+      label: PhenotypicFeature
+      name: Atrial fibrillation
+    - id: MESH:D006333
+      label: Disease
+      name: Congestive heart failure
+  reference:
+    - https://go.drugbank.com/drugs/DB00511
+    - https://en.wikipedia.org/wiki/Acetyldigitoxin
+    - https://en.wikipedia.org/wiki/Cardiac_glycoside#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Heart_failure#Causes
+- directed: true
+  graph:
+    disease: Chronic lymphoid leukemia, disease
+    disease_mesh: MESH:D015451
+    drug: bendamustine
+    drug_mesh: MESH:D000069461
+    drugbank: DB:DB06769
+  links:
+    - key: disrupts
+      source: MESH:D000069461
+      target: MESH:D004247
+    - key: participates in
+      source: MESH:D004247
+      target: GO:0006260
+    - key: precedes
+      source: GO:0006260
+      target: GO:0046651
+    - key: positively correlated with
+      source: GO:0046651
+      target: MESH:D015451
+  multigraph: true
+  nodes:
+    - id: MESH:D000069461
+      label: Drug
+      name: bendamustine
+    - id: MESH:D004247
+      label: ChemicalSubstance
+      name: DNA
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: GO:0046651
+      label: BiologicalProcess
+      name: lymphocyte proliferation
+    - id: MESH:D015451
+      label: Disease
+      name: Chronic lymphoid leukemia, disease
+  reference: https://go.drugbank.com/drugs/DB06769
+- directed: true
+  graph:
+    disease: Follicular non-Hodgkin's lymphoma
+    disease_mesh: MESH:D008224
+    drug: bendamustine
+    drug_mesh: MESH:D000069461
+    drugbank: DB:DB06769
+  links:
+    - key: disrupts
+      source: MESH:D000069461
+      target: MESH:D004247
+    - key: participates in
+      source: MESH:D004247
+      target: GO:0006260
+    - key: precedes
+      source: GO:0006260
+      target: GO:0046651
+    - key: positively correlated with
+      source: GO:0046651
+      target: MESH:D008224
+  multigraph: true
+  nodes:
+    - id: MESH:D000069461
+      label: Drug
+      name: bendamustine
+    - id: MESH:D004247
+      label: ChemicalSubstance
+      name: DNA
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: GO:0046651
+      label: BiologicalProcess
+      name: lymphocyte proliferation
+    - id: MESH:D008224
+      label: Disease
+      name: Follicular non-Hodgkin's lymphoma
+  reference: https://go.drugbank.com/drugs/DB06769
+- directed: true
+  graph:
+    disease: Cough
+    disease_mesh: MESH:D003371
+    drug: guaiacol
+    drug_mesh: MESH:D006139
+    drugbank: DB:DB11359
+  links:
+    - key: subclass of
+      source: MESH:D006139
+      target: CHEBI:77035
+    - key: negatively correlated with
+      source: CHEBI:77035
+      target: HP:0006536
+    - key: positively correlated with
+      source: HP:0006536
+      target: MESH:D003371
+  multigraph: true
+  nodes:
+    - id: MESH:D006139
+      label: Drug
+      name: guaiacol
+    - id: CHEBI:77035
+      label: ChemicalSubstance
+      name: expectorant
+    - id: HP:0006536
+      label: PhenotypicFeature
+      name: Airway obstruction
+    - id: MESH:D003371
+      label: Disease
+      name: Cough
+  reference: https://go.drugbank.com/drugs/DB11359
+  comment: Expectorants increase airway water or the volume of airway secretions (https://en.wikipedia.org/wiki/Mucoactive_agent).
+- directed: true
+  graph:
+    disease: Rhinitis
+    disease_mesh: MESH:D012220
+    drug: guaiacol
+    drug_mesh: MESH:D006139
+    drugbank: DB:DB11359
+  links:
+    - key: subclass of
+      source: MESH:D006139
+      target: CHEBI:77035
+    - key: negatively correlated with
+      source: CHEBI:77035
+      target: HP:0006536
+    - key: positively correlated with
+      source: HP:0006536
+      target: HP:0012735
+    - key: manifestation of
+      source: HP:0012735
+      target: MESH:D012220
+  multigraph: true
+  nodes:
+    - id: MESH:D006139
+      label: Drug
+      name: guaiacol
+    - id: CHEBI:77035
+      label: ChemicalSubstance
+      name: expectorant
+    - id: HP:0006536
+      label: PhenotypicFeature
+      name: Airway obstruction
+    - id: HP:0012735
+      label: PhenotypicFeature
+      name: Cough
+    - id: MESH:D012220
+      label: Disease
+      name: Rhinitis
+  reference:
+    - https://go.drugbank.com/drugs/DB11359
+    - https://en.wikipedia.org/wiki/Rhinitis
+    - https://en.wikipedia.org/wiki/Mucoactive_agent
+- directed: true
+  graph:
+    disease: Common cold
+    disease_mesh: MESH:D003139
+    drug: guaiacol
+    drug_mesh: MESH:D006139
+    drugbank: DB:DB11359
+  links:
+    - key: subclass of
+      source: MESH:D006139
+      target: CHEBI:77035
+    - key: negatively correlated with
+      source: CHEBI:77035
+      target: HP:0006536
+    - key: positively correlated with
+      source: HP:0006536
+      target: HP:0012735
+    - key: manifestation of
+      source: HP:0012735
+      target: MESH:D003139
+  multigraph: true
+  nodes:
+    - id: MESH:D006139
+      label: Drug
+      name: guaiacol
+    - id: CHEBI:77035
+      label: ChemicalSubstance
+      name: expectorant
+    - id: HP:0006536
+      label: PhenotypicFeature
+      name: Airway obstruction
+    - id: HP:0012735
+      label: PhenotypicFeature
+      name: Cough
+    - id: MESH:D003139
+      label: Disease
+      name: Common cold
+  reference:
+    - https://go.drugbank.com/drugs/DB11359
+    - https://en.wikipedia.org/wiki/Common_cold
+    - https://en.wikipedia.org/wiki/Mucoactive_agent
+- directed: true
+  graph:
+    disease: Osteoporosis
+    disease_mesh: MESH:D010024
+    drug: neridronic acid
+    drug_mesh: MESH:C053389
+    drugbank: DB:DB11620
+  links:
+    - key: prevents
+      source: MESH:C053389
+      target: GO:0045453
+    - key: positively correlated with
+      source: GO:0045453
+      target: HP:0004349
+    - key: manifestation of
+      source: HP:0004349
+      target: MESH:D010024
+  multigraph: true
+  nodes:
+    - id: MESH:C053389
+      label: Drug
+      name: neridronic acid
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: HP:0004349
+      label: PhenotypicFeature
+      name: Reduced bone mineral density
+    - id: MESH:D010024
+      label: Disease
+      name: Osteoporosis
+  reference: https://go.drugbank.com/drugs/DB11620
+- directed: true
+  graph:
+    disease: Humoral hypercalcemia of malignancy
+    disease_mesh: MESH:C562390
+    drug: neridronic acid
+    drug_mesh: MESH:C053389
+    drugbank: DB:DB11620
+  links:
+    - key: prevents
+      source: MESH:C053389
+      target: GO:0045453
+    - key: correlated with
+      source: GO:0045453
+      target: HP:0004363
+    - key: superclass of
+      source: HP:0004363
+      target: MESH:C562390
+  multigraph: true
+  nodes:
+    - id: MESH:C053389
+      label: Drug
+      name: neridronic acid
+    - id: GO:0045453
+      label: BiologicalProcess
+      name: bone resorption
+    - id: HP:0004363
+      label: PhenotypicFeature
+      name: Abnormal circulating calcium concentration
+    - id: MESH:C562390
+      label: Disease
+      name: Humoral hypercalcemia of malignancy
+  reference: https://go.drugbank.com/drugs/DB11620
+- directed: true
+  graph:
+    disease: Hypophosphatemia
+    disease_mesh: MESH:D017674
+    drug: sodium glycerophosphate
+    drug_mesh: MESH:C029620
+    drugbank: DB:DB09561
+  links:
+    - key: increases abundance of
+      source: MESH:C029620
+      target: CHEBI:24838
+    - key: correlated with
+      source: CHEBI:24838
+      target: HP:0100529
+    - key: superclass of
+      source: HP:0100529
+      target: MESH:D017674
+  multigraph: true
+  nodes:
+    - id: MESH:C029620
+      label: Drug
+      name: sodium glycerophosphate
+    - id: CHEBI:24838
+      label: ChemicalSubstance
+      name: inorganic phosphate
+    - id: HP:0100529
+      label: PhenotypicFeature
+      name: Abnormal blood phosphate concentration
+    - id: MESH:D017674
+      label: Disease
+      name: Hypophosphatemia
+  reference: https://go.drugbank.com/drugs/DB09561
+- directed: true
+  graph:
+    disease: Myoclonic seizure
+    disease_mesh: MESH:D004831
+    drug: stiripentol
+    drug_mesh: MESH:C021092
+    drugbank: DB:DB09118
+  links:
+    - key: negatively regulates
+      source: MESH:C021092
+      target: UniProt:P00338
+    - key: positively correlated with
+      source: MESH:C021092
+      target: MESH:D000066829
+    - key: negatively correlated with
+      source: MESH:D000066829
+      target: MESH:D004831
+    - key: negatively regulates
+      source: MESH:C021092
+      target: UniProt:P07195
+    - key: positively regulates
+      source: UniProt:P00338
+      target: GO:0006090
+    - key: positively regulates
+      source: UniProt:P07195
+      target: GO:0006090
+    - key: regulates
+      source: GO:0006090
+      target: GO:0019228
+    - key: regulates
+      source: UniProt:P07195
+      target: Pfam:PF01007
+    - key: regulates
+      source: UniProt:P00338
+      target: Pfam:PF01007
+    - key: regulates
+      source: Pfam:PF01007
+      target: GO:0019228
+    - key: positively correlated with
+      source: UniProt:P00338
+      target: GO:0019228
+    - key: positively correlated with
+      source: UniProt:P07195
+      target: GO:0019228
+    - key: positively correlated with
+      source: GO:0019228
+      target: MESH:D004831
+    - key: increases abundance of
+      source: MESH:C021092
+      target: CHEBI:16865
+    - key: correlated with
+      source: CHEBI:16865
+      target: GO:0060077
+    - key: negatively correlated with
+      source: GO:0060077
+      target: MESH:D004831
+  multigraph: true
+  nodes:
+    - id: MESH:C021092
+      label: Drug
+      name: stiripentol
+    - id: CHEBI:16865
+      label: ChemicalSubstance
+      name: γ-aminobutyric acid
+    - id: GO:0060077
+      label: CellularComponent
+      name: inhibitory synapse
+    - id: UniProt:P00338
+      label: Protein
+      name: L-lactate dehydrogenase A chain
+    - id: UniProt:P07195
+      label: Protein
+      name: L-lactate dehydrogenase B chain
+    - id: GO:0006090
+      label: BiologicalProcess
+      name: pyruvate metabolic process
+    - id: Pfam:PF01007
+      label: GeneFamily
+      name: Inward-rectifier potassium ion channel
+    - id: GO:0019228
+      label: BiologicalProcess
+      name: neuronal action potential
+    - id: MESH:D000066829
+      label: BiologicalProcess
+      name: Neuroprotection
+    - id: MESH:D004831
+      label: Disease
+      name: Myoclonic seizure
+      alt_names:
+        - Epilepsies, Myoclonic
+        - Dravet Syndrome
+  reference:
+    - https://go.drugbank.com/drugs/DB09118
+    - https://en.wikipedia.org/wiki/Stiripentol#Pharmacology
+    - https://pubmed.ncbi.nlm.nih.gov/28434133/
+    - https://en.wikipedia.org/wiki/Potassium_channel
+  comment: A working hypothesis for a mode of action is that reduced metabolism weakens homeostatic control of intracellular and extracellular ionic concentrations, leading to hyperexcitability and seizure. However it's not known the exact mechanisms by which (A) glucose deprivation cause ionic imbalance and at the same time sustain neuronal hyperexcitability (i.e., a status associated with higher metabolic demands); and (B) which reduced glucose metabolism can generate seizures while also being anticonvulsant (https://pubmed.ncbi.nlm.nih.gov/29143800/).
+- directed: true
+  graph:
+    disease: Angina pectoris
+    disease_mesh: MESH:D000787
+    drug: ivabradine
+    drug_mesh: MESH:C088408
+    drugbank: DB:DB09083
+  links:
+    - key: negatively regulates
+      source: MESH:C088408
+      target: UniProt:Q9UL51
+    - key: negatively regulates
+      source: MESH:C088408
+      target: UniProt:Q9Y3Q4
+    - key: regulates
+      source: UniProt:Q9UL51
+      target: GO:0086012
+    - key: regulates
+      source: UniProt:Q9Y3Q4
+      target: GO:0086012
+    - key: regulates
+      source: GO:0086012
+      target: GO:0006936
+    - key: correlated with
+      source: GO:0006936
+      target: MESH:D000787
+  multigraph: true
+  nodes:
+    - id: MESH:C088408
+      label: Drug
+      name: ivabradine
+    - id: UniProt:Q9UL51
+      label: Protein
+      name: Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 2
+    - id: UniProt:Q9Y3Q4
+      label: Protein
+      name: Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4
+    - id: GO:0086012
+      label: BiologicalProcess
+      name: membrane depolarization during cardiac muscle cell action potential
+    - id: GO:0006936
+      label: BiologicalProcess
+      name: muscle contraction
+    - id: MESH:D000787
+      label: Disease
+      name: Angina pectoris
+  reference:
+    - https://go.drugbank.com/drugs/DB09083
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL471737/
+    - https://en.wikipedia.org/wiki/Ivabradine#Mechanism_of_action
+  comment: Both UniProt:Q9UL51 and UniProt:Q9Y3Q4 are slow sodium channels, also known as If channels, where 'f' stands for funny, as per the unusual properties compared with other current systems known at the time of their discovery. Note that out of the two proteins, UniProt:Q9Y3Q4 is the most highly expressed in sinoatrial node myocytes (https://pubmed.ncbi.nlm.nih.gov/17999560/).
+- directed: true
+  graph:
+    disease: Toxic effect of arsenic AND/OR its compounds
+    disease_mesh: MESH:D020261
+    drug: dimercaprol
+    drug_mesh: MESH:D004112
+    drugbank: DB:DB06782
+  links:
+    - key: subclass of
+      source: MESH:D004112
+      target: MESH:D002614
+    - key: positively correlated with
+      source: MESH:D002614
+      target: GO:0071722
+    - key: negatively correlated with
+      source: GO:0071722
+      target: MESH:D020261
+  multigraph: true
+  nodes:
+    - id: MESH:D004112
+      label: Drug
+      name: dimercaprol
+    - id: MESH:D002614
+      label: ChemicalSubstance
+      name: Chelating Agents
+    - id: GO:0071722
+      label: BiologicalProcess
+      name: detoxification of arsenic-containing substance
+    - id: MESH:D020261
+      label: Disease
+      name: Toxic effect of arsenic AND/OR its compounds
+  reference:
+    - https://go.drugbank.com/drugs/DB06782
+    - https://pubchem.ncbi.nlm.nih.gov/compound/3080#section=Mechanism-of-Action
+    - https://en.wikipedia.org/wiki/Dimercaprol#Mechanism_of_action
