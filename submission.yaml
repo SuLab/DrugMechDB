@@ -39,7 +39,7 @@
     - key: negatively correlated with
       source: GO:0001503
       target: MESH:D015663
-    - key: negatively co rrelated with
+    - key: negatively correlated with
       source: GO:1990523
       target: MESH:D015663
   multigraph: true
@@ -719,7 +719,7 @@
     - key: negatively correlated with
       source: GO:0006306
       target: GO:0006351
-    - key: negatively correlated with
+    - key: positively correlated with
       source: GO:0006351
       target: MESH:D016147
     - key: negatively correlated with
@@ -818,7 +818,7 @@
     - key: correlated with
       source: HP:0002071
       target: MESH:D012559
-    - key: positively regulates
+    - key: negatively regulates
       source: UniProt:P28335
       target: GO:0014046
     - key: positively regulates
@@ -836,50 +836,17 @@
     - key: positively regulates
       source: UniProt:P14416
       target: GO:0014046
-    - key: increases abundance of
-      source: GO:0014046
-      target: CHEBI:18243
     - key: located in
-      source: CHEBI:18243
+      source: GO:0014046
       target: UBERON:0001910
-    - key: correlated with
+    - key: negatively correlated with
+      source: GO:0014046
+      target: MESH:D012559
+    - key: positively correlated with
       source: UBERON:0001910
-      target: HP:0000709
+      target: MESH:D012559
     - key: positively correlated with
       source: HP:0000709
-      target: MESH:D012559
-    - key: located in
-      source: CHEBI:18243
-      target: UBERON:0009834
-    - key: correlated with
-      source: UBERON:0009834
-      target: HP:0100543
-    - key: correlated with
-      source: UBERON:0009834
-      target: HP:0030213
-    - key: correlated with
-      source: UBERON:0009834
-      target: HP:0012154
-    - key: correlated with
-      source: UBERON:0009834
-      target: HP:0002465
-    - key: correlated with
-      source: UBERON:0009834
-      target: HP:0000741
-    - key: positively correlated with
-      source: HP:0100543
-      target: MESH:D012559
-    - key: positively correlated with
-      source: HP:0030213
-      target: MESH:D012559
-    - key: positively correlated with
-      source: HP:0012154
-      target: MESH:D012559
-    - key: positively correlated with
-      source: HP:0002465
-      target: MESH:D012559
-    - key: positively correlated with
-      source: HP:0000741
       target: MESH:D012559
   multigraph: true
   nodes:
@@ -913,30 +880,9 @@
     - id: GO:0004952
       label: MolecularActivity
       name: dopamine neurotransmitter receptor activity
-    - id: CHEBI:18243
-      label: ChemicalSubstance
-      name: dopamine
-    - id: UBERON:0009834
-      label: GrossAnatomicalStructure
-      name: dorsolateral prefrontal cortex
     - id: UBERON:0001910
       label: GrossAnatomicalStructure
       name: medial forebrain bundle
-    - id: HP:0100543
-      label: PhenotypicFeature
-      name: Cognitive impairment
-    - id: HP:0030213
-      label: PhenotypicFeature
-      name: Emotional blunting
-    - id: HP:0012154
-      label: PhenotypicFeature
-      name: Anhedonia
-    - id: HP:0002465
-      label: PhenotypicFeature
-      name: Poor speech
-    - id: HP:0000741
-      label: PhenotypicFeature
-      name: Apathy
     - id: HP:0000709
       label: PhenotypicFeature
       name: Psychosis
@@ -950,6 +896,7 @@
     - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL12713/
     - https://go.drugbank.com/drugs/DB06144
     - https://pubmed.ncbi.nlm.nih.gov/24300463/
+    - https://pubmed.ncbi.nlm.nih.gov/8778681/
 - directed: true
   graph:
     disease: Constipation
