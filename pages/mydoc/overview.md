@@ -2289,26 +2289,6 @@ datatable: true
 | [DB00290_MESH_D016403_1](db00290-mesh-d016403-1.html) | bleomycin | DB:DB00290 | MESH:D001761 | Diffuse non-Hodgkin's lymphoma, large cell | MESH:D016403 | 5 | 5 |
 | [DB00290_MESH_D008224_1](db00290-mesh-d008224-1.html) | bleomycin | DB:DB00290 | MESH:D001761 | Follicular non-Hodgkin's lymphoma | MESH:D008224 | 5 | 5 |
 | [DB00290_MESH_D010412_1](db00290-mesh-d010412-1.html) | bleomycin | DB:DB00290 | MESH:D001761 | Malignant tumor of penis | MESH:D010412 | 5 | 5 |
-| [DB00090_MESH_D008059_1](db00090-mesh-d008059-1.html) | laronidase | DB:DB00090 | None | Mucopolysaccharidosis, MPS-I | MESH:D008059 | 5 | 4 |
-| [DB00137_MESH_D008268_1](db00137-mesh-d008268-1.html) | lutein | DB:DB00137 | MESH:D014975 | Age related macular degeneration | MESH:D008268 | 5 | 4 |
-| [DB00137_MESH_D015352_1](db00137-mesh-d015352-1.html) | lutein | DB:DB00137 | MESH:D014975 | Tear film insufficiency | MESH:D015352 | 5 | 4 |
-| [DB00137_MESH_D000080343_1](db00137-mesh-d000080343-1.html) | lutein | DB:DB00137 | MESH:D014975 | Meibomian gland dysfunction | MESH:D000080343 | 5 | 4 |
-| [DB00209_MESH_D053202_1](db00209-mesh-d053202-1.html) | trospium | DB:DB00209 | MESH:C003330 | Urge incontinence of urine | MESH:D053202 | 8 | 6 |
-| [DB00570_MESH_D012514_1](db00570-mesh-d012514-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Kaposi's sarcoma | MESH:D012514 | 10 | 14 |
-| [DB00570_MESH_D009182_1](db00570-mesh-d009182-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Mycosis fungoides | MESH:D009182 | 10 | 14 |
-| [DB00570_MESH_D008228_1](db00570-mesh-d008228-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Non-Hodgkin's lymphoma | MESH:D008228 | 10 | 14 |
-| [DB00570_MESH_D013736_1](db00570-mesh-d013736-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Malignant tumor of testis | MESH:D013736 | 10 | 14 |
-| [DB00570_MESH_C538636_1](db00570-mesh-c538636-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Langerhans cell histiocytosis, disseminated | MESH:C538636 | 10 | 14 |
-| [DB00570_MESH_D006689_1](db00570-mesh-d006689-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Hodgkin's disease | MESH:D006689 | 10 | 14 |
-| [DB00570_MESH_D031901_1](db00570-mesh-d031901-1.html) | vinblastine | DB:DB00570 | MESH:D014747 | Gestational trophoblastic neoplasia | MESH:D031901 | 10 | 14 |
-| [DB00859_MESH_D001172_1](db00859-mesh-d001172-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Rheumatoid arthritis | MESH:D001172 | 6 | 5 |
-| [DB00859_MESH_D006527_1](db00859-mesh-d006527-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Wilson's disease | MESH:D006527 | 6 | 5 |
-| [DB00859_MESH_D003555_1](db00859-mesh-d003555-1.html) | penicillamine | DB:DB00859 | MESH:D010396 | Cystinuria | MESH:D003555 | 5 | 4 |
-| [DB08872_MESH_D051474_1](db08872-mesh-d051474-1.html) | gabapentin enacarbil | DB:DB08872 | MESH:C493250 | Postherpetic neuralgia | MESH:D051474 | 12 | 14 |
-| [DB08872_MESH_D012148_1](db08872-mesh-d012148-1.html) | gabapentin enacarbil | DB:DB08872 | MESH:C493250 | Restless legs | MESH:D012148 | 12 | 14 |
-| [DB01268_MESH_D046152_1](db01268-mesh-d046152-1.html) | sunitinib | DB:DB01268 | MESH:C473478 | Gastrointestinal stromal tumor | MESH:D046152 | 13 | 27 |
-| [DB01268_MESH_D002292_1](db01268-mesh-d002292-1.html) | sunitinib | DB:DB01268 | MESH:C473478 | Renal cell carcinoma | MESH:D002292 | 13 | 27 |
-| [DB01277_MESH_D046150_1](db01277-mesh-d046150-1.html) | mecasermin | DB:DB01277 | MESH:C000604197 | Laron-type isolated somatotropin defect | MESH:D046150 | 8 | 9 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
