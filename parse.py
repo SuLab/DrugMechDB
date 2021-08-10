@@ -112,7 +112,7 @@ def generate_path_pages():
         if pathid in deprecated_ids:
             # delete the webpage
             if os.path.exists("pages/mydoc/" + outfile_name + ".md"):
-                os.remove("pages/mydoc/" + outfile_name + ".md", 'r')
+                os.remove("pages/mydoc/" + outfile_name + ".md")
             # delete the image
             if os.path.exists("images/" + outfile_name + ".png"):
                 os.remove("images/" + outfile_name + ".png")
