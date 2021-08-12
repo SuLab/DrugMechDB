@@ -1,4 +1,4 @@
-# Indication Mechanism of Action Database
+# Indication Mechanism of Action Database 
 A database of paths that represent the mechanism of action from a drug to a disease in an indication.
 
 > [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3708278)
