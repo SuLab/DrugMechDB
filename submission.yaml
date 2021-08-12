@@ -704,10 +704,10 @@
     drug_mesh: MESH:D005913
     drugbank: DB:DB01067
   links:
-    - key: disrupts
+    - key: decreases activity of
       source: MESH:D005913
       target: UniProt:Q09428
-    - key: disrupts
+    - key: decreases activity of
       source: MESH:D005913
       target: UniProt:Q14654
     - key: negatively regulates
@@ -742,7 +742,7 @@
 - directed: true
   graph:
     disease: Leprosy
-    disease_mesh: MESH:D003924
+    disease_mesh: MESH:D007918
     drug: clofazimine
     drug_mesh: MESH:D002991
     drugbank: DB:DB00845
@@ -755,7 +755,7 @@
       target: NCBITaxon:1769
     - key: causes
       source: NCBITaxon:1769
-      target: MESH:D003924
+      target: MESH:D007918
   multigraph: true
   nodes:
     - id: MESH:D002991
@@ -767,7 +767,7 @@
     - id: NCBITaxon:1769
       label: OrganismTaxon
       name: Mycobacterium leprae
-    - id: MESH:D003924
+    - id: MESH:D007918
       label: Disease
       name: Leprosy
   reference:
@@ -996,11 +996,11 @@
     disease: Candidal vulvovaginitis
     disease_mesh: MESH:D002181
     drug: gentian violet
-    drug_mesh: MESH:D002991
+    drug_mesh: MESH:D005840
     drugbank: DB:DB00406
   links:
     - key: disrupts
-      source: MESH:D002991
+      source: MESH:D005840
       target: CHEBI:16991
     - key: in taxon
       source: CHEBI:16991
@@ -1010,7 +1010,7 @@
       target: MESH:D002181
   multigraph: true
   nodes:
-    - id: MESH:D002991
+    - id: MESH:D005840
       label: Drug
       name: gentian violet
     - id: CHEBI:16991
