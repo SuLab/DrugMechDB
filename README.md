@@ -81,3 +81,36 @@ Paths contain the following structure:
         multigraph: true    (required statment for importing paths into networkx).
 
 
+## Website build guide
+
+We originally had this configured so that the ["Update Website" action](https://github.com/SuLab/DrugMechDB/actions/workflows/update-website.yaml) would build the Jekyll files and push to the `gh-pages` branch, which would then be rendered by Github Pages.  However, the web content is now too large and the build process times out.  Therefore, we have to build locally.  The protocol is as follows:
+    
+* **Execute the ["Merge Pages" action](https://github.com/SuLab/DrugMechDB/actions/workflows/merge-pages.yaml)** which will merge the `main` branch to `gh-pages`
+* **Create the `gh-pages` branch locally**
+    
+    `git clone --branch gh-pages --depth 1 git@github.com:SuLab/DrugMechDB.git DrugMechDB.gh-pages` or if the repo already exists locally, `git pull`
+* **Create the Jekyll files from `indication_paths.yaml`**
+    
+    ```
+    cd DrugMechDB.gh-pages
+    python parse.py
+    ```
+* **Use jekyll to render HTML output**: 
+    
+    `bundle exec jekyll build` (HTML files will be in `_site`)
+* **Create the `gh-pages-html` branch locally**: 
+    
+    ```
+    cd ..
+    git clone --branch gh-pages-html git@github.com:SuLab/DrugMechDB.git DrugMechDB.gh-pages-html
+    ``` 
+    or if the repo already exists locally, `git pull`
+* **Copy the new rendered files**: 
+    
+    `cp -r ../DrugMechDB.gh-pages/_site/* .`
+* **Commit and push**: 
+    
+    ```
+    git add .
+    git push
+    ```
