@@ -209,14 +209,14 @@ def generate_path_pages():
             ax.clear()
 
         # 4. save sidebar info for later generation
-        if path["graph"]["drug"] not in drug_sidebar_data:
+        if path["graph"]["drug"].title() not in drug_sidebar_data:
             drug_sidebar_data[path["graph"]["drug"].title()] = {
                 path_title: outfile_name}
         else:
             drug_sidebar_data[path["graph"]["drug"].title()][
                 path_title] = outfile_name
 
-        if path["graph"]["disease"] not in disease_sidebar_data:
+        if path["graph"]["disease"].title() not in disease_sidebar_data:
             disease_sidebar_data[path["graph"]["disease"].title()] = {
                 path_title: outfile_name}
         else:
