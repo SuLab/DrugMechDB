@@ -621,8 +621,7 @@
     - id: MESH:D014552
       label: Disease
       name: Urinary tract infectious disease
-  reference: https://go.drugbank.com/drugs/DB09050
-- directed: true
+  reference: https://go.drugbank.com/drugs/DB09050- directed: true
   graph:
     disease: Malignant tumor of ovary
     disease_mesh: MESH:D010051
@@ -659,7 +658,13 @@
       target: GO:0008283
     - key: positively correlated with
       source: GO:0006302
-      target: GO:0008283
+      target: GO:0006260
+    - key: negatively correlated with
+      source: GO:0006260
+      target: GO:0006915
+    - key: negatively correlated with
+      source: GO:0006915
+      target: MESH:D010051
     - key: positively correlated with
       source: GO:0008283
       target: MESH:D010051
@@ -683,6 +688,12 @@
     - id: GO:0006302
       label: BiologicalProcess
       name: double-strand break repair
+    - id: GO:0006260
+      label: BiologicalProcess
+      name: DNA replication
+    - id: GO:0006915
+      label: BiologicalProcess
+      name: apoptotic process
     - id: GO:0008283
       label: BiologicalProcess
       name: cell population proliferation
@@ -695,7 +706,7 @@
   reference:
     - https://go.drugbank.com/drugs/DB12332
     - https://en.wikipedia.org/wiki/Rucaparib#Mechanism_of_action
-  comment: This drug is a potent vasodilator and it's believed that by dilating tumor-supplying vessels, tumor oxygenation will improve, which in turn it would improve radiotherapy, or increase anticancer drug delivery, as well as improve delivery of PARP inhibitor drugs (rucaparib and others) to the tumor, with consequent increased intra-tumoral PARP inhibition (https://pubmed.ncbi.nlm.nih.gov/25689628/).
+  comment: It is proposed that PARP inhibition specifically targets tumor cells with preexisting HRD (homologous recombination deficiency), such as those cells possessing mutations in the BRCA1 or BRCA2 genes (https://pubmed.ncbi.nlm.nih.gov/28790837/). This drug is a potent vasodilator and it's believed that by dilating tumor-supplying vessels, tumor oxygenation will improve, which in turn it would improve radiotherapy, or increase anticancer drug delivery, as well as improve delivery of PARP inhibitor drugs (rucaparib and others) to the tumor, with consequent increased intra-tumoral PARP inhibition (https://pubmed.ncbi.nlm.nih.gov/25689628/).
 - directed: true
   graph:
     disease: Diabetes mellitus type 2
