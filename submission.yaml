@@ -1,1 +1,976 @@
-
+- directed: true
+  graph:
+    disease: sneezing
+    disease_mesh: MESH:D012912
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D012912
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D012912
+      label: Disease
+      name: sneezing
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Allergic conjunctivitis
+    disease_mesh: MESH:D003233
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D003233
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D003233
+      label: Disease
+      name: Allergic conjunctivitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Urticaria
+    disease_mesh: MESH:D014581
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D014581
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D014581
+      label: Disease
+      name: Urticaria
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Vasomotor rhinitis
+    disease_mesh: MESH:D012223
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0042311
+    - key: positively correlated with
+      source: GO:0042311
+      target: MESH:D012223
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D012223
+      label: Disease
+      name: Vasomotor rhinitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Common cold
+    disease_mesh: MESH:D003139
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: caused by
+      source: GO:0002441
+      target: NCBITaxon:12059
+    - key: causes
+      source: NCBITaxon:12059
+      target: MESH:D003139
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: NCBITaxon:12059
+      label: OrganismTaxon
+      name: Enterovirus
+    - id: MESH:D003139
+      label: Disease
+      name: Common cold
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Seasonal allergic rhinitis
+    disease_mesh: MESH:D006255
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: positively correlated with
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: HP:0007879
+    - key: positively correlated with
+      source: GO:0002441
+      target: HP:0009926
+    - key: manifestation of
+      source: HP:0007879
+      target: MESH:D006255
+    - key: manifestation of
+      source: HP:0009926
+      target: MESH:D006255
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: HP:0007879
+      label: PhenotypicFeature
+      name: Allergic conjunctivitis
+    - id: HP:0009926
+      label: PhenotypicFeature
+      name: Epiphora
+    - id: MESH:D006255
+      label: Disease
+      name: Seasonal allergic rhinitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Allergic rhinitis
+    disease_mesh: MESH:D065631
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D065631
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D065631
+      label: Disease
+      name: Allergic rhinitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Itching of skin
+    disease_mesh: MESH:D011537
+    drug: doxylamine
+    drug_mesh: MESH:D004319
+    drugbank: DB:DB00366
+  links:
+    - key: decreases activity of
+      source: MESH:D004319
+      target: UniProt:P35367
+    - key: positively regulates
+      source: UniProt:P35367
+      target: GO:0004969
+    - key: participates in
+      source: GO:0004969
+      target: GO:0002441
+    - key: positively correlated with
+      source: GO:0002441
+      target: MESH:D011537
+  multigraph: true
+  nodes:
+    - id: MESH:D004319
+      label: Drug
+      name: doxylamine
+      alt_ids:
+        MESH:C035385
+    - id: UniProt:P35367
+      label: Protein
+      name: Histamine H1 receptor
+    - id: GO:0004969
+      label: MolecularActivity
+      name: histamine receptor activity
+    - id: GO:0002441
+      label: BiologicalProcess
+      name: histamine secretion involved in inflammatory response
+    - id: MESH:D011537
+      label: Disease
+      name: Itching of skin
+  reference:
+    - https://go.drugbank.com/drugs/DB00366
+    - https://en.wikipedia.org/wiki/Doxylamine#Pharmacology
+- directed: true
+  graph:
+    disease: Human immunodeficiency virus infection
+    disease_mesh: MESH:D015658
+    drug: atazanavir
+    drug_mesh: MESH:D000069446
+    drugbank: DB:DB01072
+  links:
+    - key: negatively regulates
+      source: MESH:D000069446
+      target: UniProt:Q72874
+    - key: positively regulates
+      source: UniProt:Q72874
+      target: GO:0006508
+    - key: in taxon
+      source: GO:0006508
+      target: NCBITaxon:11676
+    - key: causes
+      source: NCBITaxon:11676
+      target: MESH:D015658
+  multigraph: true
+  nodes:
+    - id: MESH:D000069446
+      label: Drug
+      name: atazanavir
+    - id: UniProt:Q72874
+      label: Protein
+      name: Protease
+    - id: GO:0006508
+      label: BiologicalProcess
+      name: proteolysis
+    - id: NCBITaxon:11676
+      label: OrganismTaxon
+      name: Human immunodeficiency virus 1
+    - id: MESH:D015658
+      label: Disease
+      name: Human immunodeficiency virus infection
+  reference: https://go.drugbank.com/drugs/DB01072
+- directed: true
+  graph:
+    disease: Mixed hyperlipidemia
+    disease_mesh: MESH:D006950
+    drug: fluvastatin
+    drug_mesh: MESH:C065180
+    drugbank: DB:DB01095
+  links:
+    - key: decreases activity of
+      source: MESH:C065180
+      target: UniProt:P04035
+    - key: positively regulates
+      source: UniProt:P04035
+      target: GO:0008610
+    - key: increases abundance of
+      source: GO:0008610
+      target: MESH:D008077
+    - key: increases abundance of
+      source: GO:0008610
+      target: CHEBI:16113
+    - key: increases abundance of
+      source: GO:0008610
+      target: CHEBI:17855
+    - key: positively correlated with
+      source: MESH:D008077
+      target: MESH:D006950
+    - key: positively correlated with
+      source: CHEBI:17855
+      target: MESH:D006950
+    - key: positively correlated with
+      source: CHEBI:16113
+      target: MESH:D006950
+  multigraph: true
+  nodes:
+    - id: MESH:C065180
+      label: Drug
+      name: fluvastatin
+    - id: UniProt:P04035
+      label: Protein
+      name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    - id: GO:0008610
+      label: BiologicalProcess
+      name: lipid biosynthetic process
+    - id: CHEBI:16113
+      label: ChemicalSubstance
+      name: cholesterol
+    - id: MESH:D008077
+      label: ChemicalSubstance
+      name: Lipoproteins, LDL
+    - id: CHEBI:17855
+      label: ChemicalSubstance
+      name: triglyceride
+    - id: MESH:D006950
+      label: Disease
+      name: Mixed hyperlipidemia
+  reference:
+    - https://go.drugbank.com/drugs/DB01095
+    - https://en.wikipedia.org/wiki/Fluvastatin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Hypercholesterolemia
+    disease_mesh: MESH:D006937
+    drug: fluvastatin
+    drug_mesh: MESH:C065180
+    drugbank: DB:DB01095
+  links:
+    - key: decreases activity of
+      source: MESH:C065180
+      target: UniProt:P04035
+    - key: positively regulates
+      source: UniProt:P04035
+      target: GO:0006695
+    - key: increases abundance of
+      source: GO:0006695
+      target: CHEBI:16113
+    - key: positively correlated with
+      source: CHEBI:16113
+      target: MESH:D006937
+  multigraph: true
+  nodes:
+    - id: MESH:C065180
+      label: Drug
+      name: fluvastatin
+    - id: UniProt:P04035
+      label: Protein
+      name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    - id: GO:0006695
+      label: BiologicalProcess
+      name: cholesterol biosynthetic process
+    - id: CHEBI:16113
+      label: ChemicalSubstance
+      name: cholesterol
+    - id: MESH:D006937
+      label: Disease
+      name: Hypercholesterolemia
+  reference:
+    - https://go.drugbank.com/drugs/DB01095
+    - https://en.wikipedia.org/wiki/Fluvastatin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Arteriosclerotic vascular disease
+    disease_mesh: MESH:D001161
+    drug: fluvastatin
+    drug_mesh: MESH:C065180
+    drugbank: DB:DB01095
+  links:
+    - key: decreases activity of
+      source: MESH:C065180
+      target: UniProt:P04035
+    - key: positively regulates
+      source: UniProt:P04035
+      target: GO:0006695
+    - key: increases abundance of
+      source: GO:0006695
+      target: CHEBI:16113
+    - key: positively correlated with
+      source: CHEBI:16113
+      target: HP:0002621
+    - key: manifestation of
+      source: HP:0002621
+      target: MESH:D001161
+  multigraph: true
+  nodes:
+    - id: MESH:C065180
+      label: Drug
+      name: fluvastatin
+    - id: UniProt:P04035
+      label: Protein
+      name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    - id: GO:0006695
+      label: BiologicalProcess
+      name: cholesterol biosynthetic process
+    - id: CHEBI:16113
+      label: ChemicalSubstance
+      name: cholesterol
+    - id: HP:0002621
+      label: PhenotypicFeature
+      name: Atherosclerosis
+    - id: MESH:D001161
+      label: Disease
+      name: Arteriosclerotic vascular disease
+  reference:
+    - https://go.drugbank.com/drugs/DB01095
+    - https://en.wikipedia.org/wiki/Fluvastatin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Bipolar affective disorder, current episode depression
+    disease_mesh: MESH:D001714
+    drug: lurasidone
+    drug_mesh: MESH:D000069056
+    drugbank: DB:DB08815
+  links:
+    - key: decreases activity of
+      source: MESH:D000069056
+      target: UniProt:P14416
+    - key: decreases activity of
+      source: MESH:D000069056
+      target: UniProt:P28223
+    - key: positively regulates
+      source: UniProt:P14416
+      target: GO:0014046
+    - key: positively regulates
+      source: UniProt:P28223
+      target: GO:0014046
+    - key: positively correlated with
+      source: GO:0014046
+      target: HP:0100754
+    - key: manifestation of
+      source: HP:0100754
+      target: MESH:D001714
+  multigraph: true
+  nodes:
+    - id: MESH:D000069056
+      label: Drug
+      name: lurasidone
+      alt_names:
+        - Lurasidone Hydrochloride
+    - id: UniProt:P14416
+      label: Protein
+      name: D(2) dopamine receptor
+    - id: UniProt:P28223
+      label: Protein
+      name: 5-hydroxytryptamine receptor 2A
+    - id: GO:0014046
+      label: BiologicalProcess
+      name: dopamine secretion
+    - id: HP:0100754
+      label: PhenotypicFeature
+      name: Mania
+    - id: MESH:D001714
+      label: Disease
+      name: Bipolar affective disorder, current episode depression
+      alt_names:
+        - Bipolar Disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB08815
+    - https://en.wikipedia.org/wiki/Bipolar_disorder
+- directed: true
+  graph:
+    disease: Schizophrenia
+    disease_mesh: MESH:D012559
+    drug: lurasidone
+    drug_mesh: MESH:D000069056
+    drugbank: DB:DB08815
+  links:
+    - key: decreases activity of
+      source: MESH:D000069056
+      target: UniProt:P14416
+    - key: decreases activity of
+      source: MESH:D000069056
+      target: UniProt:P28223
+    - key: positively regulates
+      source: UniProt:P14416
+      target: GO:0014046
+    - key: positively regulates
+      source: UniProt:P28223
+      target: GO:0014046
+    - key: correlated with
+      source: GO:0014046
+      target: HP:0100543
+    - key: correlated with
+      source: GO:0014046
+      target: HP:0030213
+    - key: correlated with
+      source: GO:0014046
+      target: HP:0012154
+    - key: correlated with
+      source: GO:0014046
+      target: HP:0002465
+    - key: correlated with
+      source: GO:0014046
+      target: HP:0000741
+    - key: correlated with
+      source: GO:0014046
+      target: HP:0000709
+    - key: manifestation of
+      source: HP:0100543
+      target: MESH:D012559
+    - key: manifestation of
+      source: HP:0030213
+      target: MESH:D012559
+    - key: manifestation of
+      source: HP:0012154
+      target: MESH:D012559
+    - key: manifestation of
+      source: HP:0002465
+      target: MESH:D012559
+    - key: manifestation of
+      source: HP:0000741
+      target: MESH:D012559
+    - key: manifestation of
+      source: HP:0000709
+      target: MESH:D012559
+  multigraph: true
+  nodes:
+    - id: MESH:D000069056
+      label: Drug
+      name: lurasidone
+      alt_names:
+        - Lurasidone Hydrochloride
+    - id: UniProt:P14416
+      label: Protein
+      name: D(2) dopamine receptor
+    - id: UniProt:P28223
+      label: Protein
+      name: 5-hydroxytryptamine receptor 2A
+    - id: GO:0014046
+      label: BiologicalProcess
+      name: dopamine secretion
+    - id: HP:0100543
+      label: PhenotypicFeature
+      name: Cognitive impairment
+    - id: HP:0030213
+      label: PhenotypicFeature
+      name: Emotional blunting
+    - id: HP:0012154
+      label: PhenotypicFeature
+      name: Anhedonia
+    - id: HP:0002465
+      label: PhenotypicFeature
+      name: Poor speech
+    - id: HP:0000741
+      label: PhenotypicFeature
+      name: Apathy
+    - id: HP:0000709
+      label: PhenotypicFeature
+      name: Psychosis
+    - id: MESH:D012559
+      label: Disease
+      name: Schizophrenia
+  reference: https://go.drugbank.com/drugs/DB08815
+- directed: true
+  graph:
+    disease: Non-small cell lung cancer
+    disease_mesh: MESH:D002289
+    drug: nivolumab
+    drug_mesh: MESH:C581771
+    drugbank: DB:DB09035
+  links:
+    - key: decreases activity of
+      source: MESH:C581771
+      target: UniProt:Q15116
+    - key: negatively regulates
+      source: UniProt:Q15116
+      target: GO:0002418
+    - key: negatively correlated with
+      source: GO:0002418
+      target: MESH:D002289
+  multigraph: true
+  nodes:
+    - id: MESH:C581771
+      label: Drug
+      name: nivolumab
+    - id: UniProt:Q15116
+      label: Protein
+      name: Programmed cell death protein 1
+    - id: GO:0002418
+      label: BiologicalProcess
+      name: immune response to tumor cell
+    - id: MESH:D002289
+      label: Disease
+      name: Non-small cell lung cancer
+  reference:
+    - https://go.drugbank.com/drugs/DB09035
+    - https://en.wikipedia.org/wiki/Nivolumab#Mechanism_of_action
+  comment: This drug is an example of immune checkpoint blockade. Programmed death 1 (PD-1) is a key immune-checkpoint receptor expressed by activated T cells, and it mediates immunosuppression. Inhibition of the PD-1 protein can enhance T-cell responses and mediate preclinical antitumor activity (https://pubmed.ncbi.nlm.nih.gov/22658127/).
+- directed: true
+  graph:
+    disease: Acne vulgaris
+    disease_mesh: MESH:D000152
+    drug: nadifloxacin
+    drug_mesh: MESH:C062127
+    drugbank: DB:DB12447
+  links:
+    - key: negatively correlated with
+      source: MESH:C062127
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D000152
+    - key: negatively correlated with
+      source: MESH:C062127
+      target: UBERON:0001866
+    - key: positively correlated with
+      source: UBERON:0001866
+      target: MESH:D000152
+    - key: decreases activity of
+      source: MESH:C062127
+      target: InterPro:IPR002205
+    - key: decreases activity of
+      source: MESH:C062127
+      target: InterPro:IPR013759
+    - key: regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: regulates
+      source: InterPro:IPR002205
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1747
+    - key: causes
+      source: NCBITaxon:1747
+      target: MESH:D000152
+  multigraph: true
+  nodes:
+    - id: MESH:C062127
+      label: Drug
+      name: nadifloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: InterPro:IPR002205
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit A/C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: UBERON:0001866
+      label: GrossAnatomicalStructure
+      name: sebum
+    - id: NCBITaxon:1747
+      label: OrganismTaxon
+      name: Cutibacterium acnes
+    - id: MESH:D000152
+      label: Disease
+      name: Acne vulgaris
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL363449/
+    - https://en.wikipedia.org/wiki/Nadifloxacin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Acute myelomonocytic leukemia, FAB M4
+    disease_mesh: MESH:D015479
+    drug: arsenic trioxide
+    drug_mesh: MESH:C006632
+    drugbank: DB:DB01169
+  links:
+    - key: negatively correlated with
+      source: MESH:C006632
+      target: GO:0071838
+    - key: positively correlated with
+      source: GO:0071838
+      target: MESH:D015479
+    - key: negatively correlated with
+      source: MESH:C006632
+      target: GO:0001525
+    - key: positively correlated with
+      source: GO:0001525
+      target: MESH:D015479
+    - key: increases abundance of
+      source: MESH:C006632
+      target: CHEBI:26523
+    - key: positively correlated with
+      source: CHEBI:26523
+      target: GO:0006309
+    - key: disrupts
+      source: MESH:C006632
+      target: MESH:D015514
+    - key: positively correlated with
+      source: MESH:D015514
+      target: MESH:D015479
+    - key: negatively correlated with
+      source: GO:0006309
+      target: MESH:D015479
+  multigraph: true
+  nodes:
+    - id: MESH:C006632
+      label: Drug
+      name: arsenic trioxide
+    - id: MESH:D015514
+      label: Protein
+      name: Oncogene Proteins, Fusion
+    - id: CHEBI:26523
+      label: ChemicalSubstance
+      name: reactive oxygen species
+    - id: GO:0071838
+      label: BiologicalProcess
+      name: cell proliferation in bone marrow
+    - id: GO:0001525
+      label: BiologicalProcess
+      name: angiogenesis
+    - id: GO:0006309
+      label: BiologicalProcess
+      name: apoptotic DNA fragmentation
+    - id: MESH:D015479
+      label: Disease
+      name: Acute myelomonocytic leukemia, FAB M4
+  reference:
+    - https://go.drugbank.com/drugs/DB01169
+    - https://pubmed.ncbi.nlm.nih.gov/12124315/
+- directed: true
+  graph:
+    disease: Acute promyelocytic leukemia, FAB M3
+    disease_mesh: MESH:D015473
+    drug: arsenic trioxide
+    drug_mesh: MESH:C006632
+    drugbank: DB:DB01169
+  links:
+    - key: negatively correlated with
+      source: MESH:C006632
+      target: GO:0071838
+    - key: positively correlated with
+      source: GO:0071838
+      target: MESH:D015473
+    - key: negatively correlated with
+      source: MESH:C006632
+      target: GO:0001525
+    - key: positively correlated with
+      source: GO:0001525
+      target: MESH:D015473
+    - key: increases abundance of
+      source: MESH:C006632
+      target: CHEBI:26523
+    - key: positively correlated with
+      source: CHEBI:26523
+      target: GO:0006309
+    - key: disrupts
+      source: MESH:C006632
+      target: MESH:D015514
+    - key: positively correlated with
+      source: MESH:D015514
+      target: MESH:D015473
+    - key: negatively correlated with
+      source: GO:0006309
+      target: MESH:D015473
+  multigraph: true
+  nodes:
+    - id: MESH:C006632
+      label: Drug
+      name: arsenic trioxide
+    - id: MESH:D015514
+      label: Protein
+      name: Oncogene Proteins, Fusion
+    - id: CHEBI:26523
+      label: ChemicalSubstance
+      name: reactive oxygen species
+    - id: GO:0071838
+      label: BiologicalProcess
+      name: cell proliferation in bone marrow
+    - id: GO:0001525
+      label: BiologicalProcess
+      name: angiogenesis
+    - id: GO:0006309
+      label: BiologicalProcess
+      name: apoptotic DNA fragmentation
+    - id: MESH:D015473
+      label: Disease
+      name: Acute promyelocytic leukemia, FAB M3
+  reference:
+    - https://go.drugbank.com/drugs/DB01169
+    - https://pubmed.ncbi.nlm.nih.gov/12124315/
+- directed: true
+  graph:
+    disease: Acute promyelocytic leukemia, FAB M3
+    disease_mesh: MESH:D015473
+    drug: tamibarotene
+    drug_mesh: MESH:C061133
+    drugbank: DB:DB04942
+  links:
+    - key: positively regulates
+      source: MESH:C061133
+      target: UniProt:P10826
+    - key: positively regulates
+      source: MESH:C061133
+      target: UniProt:P10276
+    - key: negatively regulates
+      source: UniProt:P10826
+      target: GO:0008283
+    - key: negatively regulates
+      source: UniProt:P10276
+      target: GO:0008283
+    - key: positively correlated with
+      source: GO:0008283
+      target: MESH:D015473
+  multigraph: true
+  nodes:
+    - id: MESH:C061133
+      label: Drug
+      name: tamibarotene
+    - id: UniProt:P10826
+      label: Protein
+      name: Retinoic acid receptor beta
+    - id: UniProt:P10276
+      label: Protein
+      name: Retinoic acid receptor alpha
+    - id: GO:0008283
+      label: BiologicalProcess
+      name: cell population proliferation
+    - id: MESH:D015473
+      label: Disease
+      name: Acute promyelocytic leukemia, FAB M3
+  reference:
+    - https://go.drugbank.com/drugs/DB04942
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL25202/
+    - https://en.wikipedia.org/wiki/Tamibarotene
+  comment: The drug has been approved in Japan but not yet in the US
+- directed: true
+  graph:
+    disease: Cystic fibrosis of the lung
+    disease_mesh: MESH:D003550
+    drug: adenosine phosphate
+    drug_mesh: MESH:D000249
+    drugbank: DB:DB00131
+  links:
+    - key: treats
+      source: MESH:D000249
+      target: MESH:D003550
+  multigraph: true
+  nodes:
+    - id: MESH:D000249
+      label: Drug
+      name: adenosine phosphate
+    - id: MESH:D003550
+      label: Disease
+      name: Cystic fibrosis of the lung
+  reference: https://go.drugbank.com/drugs/DB00131
+  comment: There appears to be no evidence that adenosine phosphate can be used to treat Cystic fibrosis of the lung.
