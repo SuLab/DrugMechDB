@@ -1,1 +1,1008 @@
-
+- directed: true
+  graph:
+    disease: Toxoplasmosis
+    disease_mesh: MESH:D014123
+    drug: sulfadiazine
+    drug_mesh: MESH:D013411
+    drugbank: DB:DB00359
+  links:
+    - key: negatively regulates
+      source: MESH:D013411
+      target: InterPro:IPR006390
+    - key: positively regulates
+      source: InterPro:IPR006390
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:5811
+    - key: causes
+      source: NCBITaxon:5811
+      target: MESH:D014123
+  multigraph: true
+  nodes:
+    - id: MESH:D013411
+      label: Drug
+      name: sulfadiazine
+    - id: InterPro:IPR006390
+      label: GeneFamily
+      name: Dihydropteroate synthase domain
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:5811
+      label: OrganismTaxon
+      name: Toxoplasma gondii
+    - id: MESH:D014123
+      label: Disease
+      name: Toxoplasmosis
+  reference:
+    - https://go.drugbank.com/drugs/DB00359
+    - https://en.wikipedia.org/wiki/Sulfadiazine#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Chorioretinitis
+    disease_mesh: MESH:D002825
+    drug: sulfadiazine
+    drug_mesh: MESH:D013411
+    drugbank: DB:DB00359
+  links:
+    - key: negatively regulates
+      source: MESH:D013411
+      target: InterPro:IPR006390
+    - key: positively regulates
+      source: InterPro:IPR006390
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:5811
+    - key: causes
+      source: NCBITaxon:5811
+      target: MESH:D002825
+  multigraph: true
+  nodes:
+    - id: MESH:D013411
+      label: Drug
+      name: sulfadiazine
+    - id: InterPro:IPR006390
+      label: GeneFamily
+      name: Dihydropteroate synthase domain
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:5811
+      label: OrganismTaxon
+      name: Toxoplasma gondii
+    - id: MESH:D002825
+      label: Disease
+      name: Chorioretinitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00359
+    - https://en.wikipedia.org/wiki/Sulfadiazine#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Ulcerative colitis
+    disease_mesh: MESH:D003093
+    drug: sulfadiazine
+    drug_mesh: MESH:D013411
+    drugbank: DB:DB00359
+  links:
+    - key: negatively correlated with
+      source: MESH:D013411
+      target: GO:0006954
+    - key: located in
+      source: GO:0006954
+      target: UBERON:0001155
+    - key: location of
+      source: UBERON:0001155
+      target: MESH:D003093
+  multigraph: true
+  nodes:
+    - id: MESH:D013411
+      label: Drug
+      name: sulfadiazine
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: UBERON:0001155
+      label: GrossAnatomicalStructure
+      name: colon
+    - id: MESH:D003093
+      label: Disease
+      name: Ulcerative colitis
+  reference:
+    - https://go.drugbank.com/drugs/DB00359
+    - https://en.wikipedia.org/wiki/Sulfadiazine#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Ulcerative_colitis
+    - https://pubmed.ncbi.nlm.nih.gov/11009042/
+- directed: true
+  graph:
+    disease: Congenital toxoplasmosis
+    disease_mesh: MESH:D014125
+    drug: sulfadiazine
+    drug_mesh: MESH:D013411
+    drugbank: DB:DB00359
+  links:
+    - key: negatively regulates
+      source: MESH:D013411
+      target: InterPro:IPR006390
+    - key: positively regulates
+      source: InterPro:IPR006390
+      target: GO:0046656
+    - key: in taxon
+      source: GO:0046656
+      target: NCBITaxon:5811
+    - key: causes
+      source: NCBITaxon:5811
+      target: MESH:D014125
+  multigraph: true
+  nodes:
+    - id: MESH:D013411
+      label: Drug
+      name: sulfadiazine
+    - id: InterPro:IPR006390
+      label: GeneFamily
+      name: Dihydropteroate synthase domain
+    - id: GO:0046656
+      label: BiologicalProcess
+      name: folic acid biosynthetic process
+    - id: NCBITaxon:5811
+      label: OrganismTaxon
+      name: Toxoplasma gondii
+    - id: MESH:D014125
+      label: Disease
+      name: Congenital toxoplasmosis
+  reference:
+    - https://go.drugbank.com/drugs/DB00359
+    - https://en.wikipedia.org/wiki/Sulfadiazine#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Skin ulcer
+    disease_mesh: MESH:D012883
+    drug: sulfadiazine
+    drug_mesh: MESH:D013411
+    drugbank: DB:DB00359
+  links:
+    - key: disrupts
+      source: MESH:D013411
+      target: GO:0005618
+    - key: in taxon
+      source: GO:0005618
+      target: NCBITaxon:2
+    - key: positively correlated with
+      source: NCBITaxon:2
+      target: MESH:D012883
+  multigraph: true
+  nodes:
+    - id: MESH:D013411
+      label: Drug
+      name: sulfadiazine
+    - id: GO:0005618
+      label: CellularComponent
+      name: cell wall
+    - id: NCBITaxon:2
+      label: OrganismTaxon
+      name: Bacteria
+    - id: MESH:D012883
+      label: Disease
+      name: Skin ulcer
+  reference:
+    - https://pubmed.ncbi.nlm.nih.gov/28639707/
+    - https://en.wikipedia.org/wiki/Ulcer_(dermatology)#Causes
+    - https://pubmed.ncbi.nlm.nih.gov/7014694/
+- directed: true
+  graph:
+    disease: Hypercholesterolemia
+    disease_mesh: MESH:D006937
+    drug: bezafibrate
+    drug_mesh: MESH:D001629
+    drugbank: DB:DB01393
+  links:
+    - key: increases activity of
+      source: MESH:D001629
+      target: UniProt:P37231
+    - key: increases activity of
+      source: MESH:D001629
+      target: UniProt:Q07869
+    - key: increases activity of
+      source: MESH:D001629
+      target: UniProt:Q03181
+    - key: decreases abundance of
+      source: UniProt:P37231
+      target: MESH:D014280
+    - key: decreases abundance of
+      source: UniProt:Q07869
+      target: MESH:D014280
+    - key: decreases abundance of
+      source: UniProt:Q03181
+      target: MESH:D014280
+    - key: decreases abundance of
+      source: UniProt:P37231
+      target: MESH:D008078
+    - key: decreases abundance of
+      source: UniProt:Q07869
+      target: MESH:D008078
+    - key: decreases abundance of
+      source: UniProt:Q03181
+      target: MESH:D008078
+    - key: increases abundance of
+      source: UniProt:P37231
+      target: MESH:D008076
+    - key: increases abundance of
+      source: UniProt:Q07869
+      target: MESH:D008076
+    - key: increases abundance of
+      source: UniProt:Q03181
+      target: MESH:D008076
+    - key: negatively correlated with
+      source: MESH:D008076
+      target: MESH:D006937
+    - key: positively correlated with
+      source: MESH:D008078
+      target: MESH:D006937
+    - key: positively correlated with
+      source: MESH:D014280
+      target: MESH:D006937
+  multigraph: true
+  nodes:
+    - id: MESH:D001629
+      label: Drug
+      name: bezafibrate
+    - id: UniProt:P37231
+      label: Protein
+      name: Peroxisome proliferator-activated receptor gamma
+    - id: UniProt:Q07869
+      label: Protein
+      name: Peroxisome proliferator-activated receptor alpha
+    - id: UniProt:Q03181
+      label: Protein
+      name: Peroxisome proliferator-activated receptor delta
+    - id: MESH:D008076
+      label: ChemicalSubstance
+      name: Cholesterol, HDL
+    - id: MESH:D008078
+      label: ChemicalSubstance
+      name: Cholesterol, LDL
+    - id: MESH:D014280
+      label: ChemicalSubstance
+      name: Triglycerides
+    - id: MESH:D006937
+      label: Disease
+      name: Hypercholesterolemia
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL264374/
+    - https://go.drugbank.com/drugs/DB01393
+    - https://en.wikipedia.org/wiki/Bezafibrate
+    - https://en.wikipedia.org/wiki/Lipid-lowering_agent#Established
+- directed: true
+  graph:
+    disease: Hyperlipidemia
+    disease_mesh: MESH:D006949
+    drug: bezafibrate
+    drug_mesh: MESH:D001629
+    drugbank: DB:DB01393
+  links:
+    - key: increases activity of
+      source: MESH:D001629
+      target: UniProt:P37231
+    - key: increases activity of
+      source: MESH:D001629
+      target: UniProt:Q07869
+    - key: increases activity of
+      source: MESH:D001629
+      target: UniProt:Q03181
+    - key: decreases abundance of
+      source: UniProt:P37231
+      target: MESH:D014280
+    - key: decreases abundance of
+      source: UniProt:Q07869
+      target: MESH:D014280
+    - key: decreases abundance of
+      source: UniProt:Q03181
+      target: MESH:D014280
+    - key: decreases abundance of
+      source: UniProt:P37231
+      target: MESH:D008078
+    - key: decreases abundance of
+      source: UniProt:Q07869
+      target: MESH:D008078
+    - key: decreases abundance of
+      source: UniProt:Q03181
+      target: MESH:D008078
+    - key: increases abundance of
+      source: UniProt:P37231
+      target: MESH:D008076
+    - key: increases abundance of
+      source: UniProt:Q07869
+      target: MESH:D008076
+    - key: increases abundance of
+      source: UniProt:Q03181
+      target: MESH:D008076
+    - key: positively correlated with
+      source: MESH:D008078
+      target: HP:0003124
+    - key: negatively correlated with
+      source: MESH:D008076
+      target: HP:0003124
+    - key: positively correlated with
+      source: HP:0003124
+      target: MESH:D006949
+    - key: positively correlated with
+      source: MESH:D014280
+      target: MESH:D006949
+  multigraph: true
+  nodes:
+    - id: MESH:D001629
+      label: Drug
+      name: bezafibrate
+    - id: UniProt:P37231
+      label: Protein
+      name: Peroxisome proliferator-activated receptor gamma
+    - id: UniProt:Q07869
+      label: Protein
+      name: Peroxisome proliferator-activated receptor alpha
+    - id: UniProt:Q03181
+      label: Protein
+      name: Peroxisome proliferator-activated receptor delta
+    - id: MESH:D008076
+      label: ChemicalSubstance
+      name: Cholesterol, HDL
+    - id: MESH:D008078
+      label: ChemicalSubstance
+      name: Cholesterol, LDL
+    - id: MESH:D014280
+      label: ChemicalSubstance
+      name: Triglycerides
+    - id: HP:0003124
+      label: PhenotypicFeature
+      name: Hypercholesterolemia
+    - id: MESH:D006949
+      label: Disease
+      name: Hyperlipidemia
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL264374/
+    - https://go.drugbank.com/drugs/DB01393
+    - https://en.wikipedia.org/wiki/Bezafibrate
+    - https://en.wikipedia.org/wiki/Lipid-lowering_agent#Established
+- directed: true
+  graph:
+    disease: Pain
+    disease_mesh: MESH:D010146
+    drug: mefenamic acid
+    drug_mesh: MESH:D008528
+    drugbank: DB:DB00784
+  links:
+    - key: decreases activity of
+      source: MESH:D008528
+      target: UniProt:P35354
+    - key: decreases activity of
+      source: MESH:D008528
+      target: UniProt:P23219
+    - key: positively regulates
+      source: UniProt:P35354
+      target: GO:0001516
+    - key: positively regulates
+      source: UniProt:P23219
+      target: GO:0001516
+    - key: increases abundance of
+      source: GO:0001516
+      target: MESH:D014280
+    - key: positively correlated with
+      source: MESH:D014280
+      target: MESH:D010146
+  multigraph: true
+  nodes:
+    - id: MESH:D008528
+      label: Drug
+      name: mefenamic acid
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: GO:0001516
+      label: BiologicalProcess
+      name: prostaglandin biosynthetic process
+    - id: MESH:D014280
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: MESH:D010146
+      label: Disease
+      name: Pain
+  reference:
+    - https://go.drugbank.com/drugs/DB00784
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL686/
+- directed: true
+  graph:
+    disease: Dysmenorrhea
+    disease_mesh: MESH:D004412
+    drug: mefenamic acid
+    drug_mesh: MESH:D008528
+    drugbank: DB:DB00784
+  links:
+    - key: decreases activity of
+      source: MESH:D008528
+      target: UniProt:P35354
+    - key: decreases activity of
+      source: MESH:D008528
+      target: UniProt:P23219
+    - key: positively regulates
+      source: UniProt:P35354
+      target: GO:0001516
+    - key: positively regulates
+      source: UniProt:P23219
+      target: GO:0001516
+    - key: increases abundance of
+      source: GO:0001516
+      target: MESH:D014280
+    - key: positively correlated with
+      source: MESH:D014280
+      target: HP:0012531
+    - key: manifestation of
+      source: HP:0012531
+      target: MESH:D004412
+  multigraph: true
+  nodes:
+    - id: MESH:D008528
+      label: Drug
+      name: mefenamic acid
+    - id: UniProt:P35354
+      label: Protein
+      name: Prostaglandin G/H synthase 2
+    - id: UniProt:P23219
+      label: Protein
+      name: Prostaglandin G/H synthase 1
+    - id: GO:0001516
+      label: BiologicalProcess
+      name: prostaglandin biosynthetic process
+    - id: MESH:D014280
+      label: ChemicalSubstance
+      name: Prostaglandins
+    - id: HP:0012531
+      label: PhenotypicFeature
+      name: Pain
+    - id: MESH:D004412
+      label: Disease
+      name: Dysmenorrhea
+  reference:
+    - https://go.drugbank.com/drugs/DB00784
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL686/
+- directed: true
+  graph:
+    disease: Epilepsy
+    disease_mesh: MESH:D004827
+    drug: pentobarbital
+    drug_mesh: MESH:D010424
+    drugbank: DB:DB00312
+  links:
+    - key: increases activity of
+      source: MESH:D010424
+      target: InterPro:IPR006028
+    - key: positively regulates
+      source: InterPro:IPR006028
+      target: GO:0022851
+    - key: positively correlated with
+      source: GO:0022851
+      target: GO:0060081
+    - key: negatively correlated with
+      source: GO:0060081
+      target: GO:0061535
+    - key: correlated with
+      source: GO:0061535
+      target: HP:0001250
+    - key: manifestation of
+      source: HP:0001250
+      target: MESH:D004827
+  multigraph: true
+  nodes:
+    - id: MESH:D010424
+      label: Drug
+      name: pentobarbital
+    - id: InterPro:IPR006028
+      label: GeneFamily
+      name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    - id: GO:0022851
+      label: MolecularActivity
+      name: GABA-gated chloride ion channel activity
+    - id: GO:0060081
+      label: BiologicalProcess
+      name: membrane hyperpolarization
+    - id: GO:0061535
+      label: BiologicalProcess
+      name: glutamate secretion, neurotransmission
+    - id: HP:0001250
+      label: PhenotypicFeature
+      name: Seizure
+    - id: MESH:D004827
+      label: Disease
+      name: Epilepsy
+  reference:
+    - https://go.drugbank.com/drugs/DB00312
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL448/
+- directed: true
+  graph:
+    disease: Status epilepticus
+    disease_mesh: MESH:D013226
+    drug: pentobarbital
+    drug_mesh: MESH:D010424
+    drugbank: DB:DB00312
+  links:
+    - key: increases activity of
+      source: MESH:D010424
+      target: InterPro:IPR006028
+    - key: positively regulates
+      source: InterPro:IPR006028
+      target: GO:0022851
+    - key: positively correlated with
+      source: GO:0022851
+      target: GO:0060081
+    - key: negatively correlated with
+      source: GO:0060081
+      target: GO:0061535
+    - key: correlated with
+      source: GO:0061535
+      target: HP:0001250
+    - key: manifestation of
+      source: HP:0001250
+      target: MESH:D013226
+  multigraph: true
+  nodes:
+    - id: MESH:D010424
+      label: Drug
+      name: pentobarbital
+    - id: InterPro:IPR006028
+      label: GeneFamily
+      name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    - id: GO:0022851
+      label: MolecularActivity
+      name: GABA-gated chloride ion channel activity
+    - id: GO:0060081
+      label: BiologicalProcess
+      name: membrane hyperpolarization
+    - id: GO:0061535
+      label: BiologicalProcess
+      name: glutamate secretion, neurotransmission
+    - id: HP:0001250
+      label: PhenotypicFeature
+      name: Seizure
+    - id: MESH:D013226
+      label: Disease
+      name: Status epilepticus
+  reference:
+    - https://go.drugbank.com/drugs/DB00312
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL448/
+- directed: true
+  graph:
+    disease: Hyperlipidemia
+    disease_mesh: MESH:D006949
+    drug: clofibrate
+    drug_mesh: MESH:D002994
+    drugbank: DB:DB00636
+  links:
+    - key: increases activity of
+      source: MESH:D002994
+      target: UniProt:Q07869
+    - key: decreases abundance of
+      source: UniProt:Q07869
+      target: MESH:D014280
+    - key: decreases abundance of
+      source: UniProt:Q07869
+      target: MESH:D008078
+    - key: increases abundance of
+      source: UniProt:Q07869
+      target: MESH:D008076
+    - key: positively correlated with
+      source: MESH:D008078
+      target: HP:0003124
+    - key: negatively correlated with
+      source: MESH:D008076
+      target: HP:0003124
+    - key: positively correlated with
+      source: HP:0003124
+      target: MESH:D006949
+    - key: positively correlated with
+      source: MESH:D014280
+      target: MESH:D006949
+  multigraph: true
+  nodes:
+    - id: MESH:D002994
+      label: Drug
+      name: clofibrate
+    - id: UniProt:Q07869
+      label: Protein
+      name: Peroxisome proliferator-activated receptor alpha
+    - id: MESH:D008076
+      label: ChemicalSubstance
+      name: Cholesterol, HDL
+    - id: MESH:D008078
+      label: ChemicalSubstance
+      name: Cholesterol, LDL
+    - id: MESH:D014280
+      label: ChemicalSubstance
+      name: Triglycerides
+    - id: HP:0003124
+      label: PhenotypicFeature
+      name: Hypercholesterolemia
+    - id: MESH:D006949
+      label: Disease
+      name: Hyperlipidemia
+  reference: https://go.drugbank.com/drugs/DB00636
+- directed: true
+  graph:
+    disease: Migraine
+    disease_mesh: MESH:D008881
+    drug: frovatriptan
+    drug_mesh: MESH:C108128
+    drugbank: DB:DB00998
+  links:
+    - key: positively regulates
+      source: MESH:C108128
+      target: UniProt:P28221
+    - key: positively regulates
+      source: MESH:C108128
+      target: UniProt:P28222
+    - key: positively regulates
+      source: UniProt:P28222
+      target: GO:0042310
+    - key: negatively regulates
+      source: UniProt:P28221
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: MESH:D008881
+    - key: negatively correlated with
+      source: GO:0042310
+      target: MESH:D008881
+  multigraph: true
+  nodes:
+    - id: MESH:C108128
+      label: Drug
+      name: frovatriptan
+    - id: UniProt:P28221
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1D
+    - id: UniProt:P28222
+      label: Protein
+      name: 5-hydroxytryptamine receptor 1B
+    - id: GO:0042310
+      label: BiologicalProcess
+      name: vasoconstriction
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: MESH:D008881
+      label: Disease
+      name: Migraine
+  reference:
+    - https://go.drugbank.com/drugs/DB00998
+    - https://en.wikipedia.org/wiki/Frovatriptan#Pharmacodynamics
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1279/
+- directed: true
+  graph:
+    disease: Depressive disorder
+    disease_mesh: MESH:D003866
+    drug: desipramine
+    drug_mesh: MESH:D003891
+    drugbank: DB:DB01151
+  links:
+    - key: negatively regulates
+      source: MESH:D003891
+      target: UniProt:P23975
+    - key: positively regulates
+      source: UniProt:P23975
+      target: GO:0051620
+    - key: positively correlated with
+      source: GO:0051620
+      target: MESH:D003866
+  multigraph: true
+  nodes:
+    - id: MESH:D003891
+      label: Drug
+      name: desipramine
+    - id: UniProt:P23975
+      label: Protein
+      name: Sodium-dependent noradrenaline transporter
+    - id: GO:0051620
+      label: BiologicalProcess
+      name: norepinephrine uptake
+    - id: MESH:D003866
+      label: Disease
+      name: Depressive disorder
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL72/
+    - https://en.wikipedia.org/wiki/Desipramine#Pharmacodynamics
+- directed: true
+  graph:
+      disease: Schizophrenia
+      disease_mesh: MESH:D012559
+      drug: fluspirilene
+      drug_mesh: MESH:D005484
+      drugbank: DB:DB04842
+  links:
+    -   key: decreases activity of
+        source: MESH:D005484
+        target: UniProt:P14416
+    -   key: positively regulates
+        source: UniProt:P14416
+        target: GO:0014046
+    -   key: increases abundance of
+        source: GO:0014046
+        target: CHEBI:18243
+    -   key: located in
+        source: CHEBI:18243
+        target: UBERON:0001910
+    -   key: correlated with
+        source: UBERON:0001910
+        target: HP:0000709
+    -   key: positively correlated with
+        source: HP:0000709
+        target: MESH:D012559
+    -   key: located in
+        source: CHEBI:18243
+        target: UBERON:0009834
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0100543
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0030213
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0012154
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0002465
+    -   key: correlated with
+        source: UBERON:0009834
+        target: HP:0000741
+    -   key: positively correlated with
+        source: HP:0100543
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0030213
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0012154
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0002465
+        target: MESH:D012559
+    -   key: positively correlated with
+        source: HP:0000741
+        target: MESH:D012559
+  multigraph: true
+  nodes:
+    -   id: MESH:D005484
+        label: Drug
+        name: fluspirilene
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: GO:0014046
+        label: BiologicalProcess
+        name: dopamine secretion
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: UBERON:0009834
+        label: GrossAnatomicalStructure
+        name: dorsolateral prefrontal cortex
+    -   id: UBERON:0001910
+        label: GrossAnatomicalStructure
+        name: medial forebrain bundle
+    -   id: HP:0100543
+        label: PhenotypicFeature
+        name: Cognitive impairment
+    -   id: HP:0030213
+        label: PhenotypicFeature
+        name: Emotional blunting
+    -   id: HP:0012154
+        label: PhenotypicFeature
+        name: Anhedonia
+    -   id: HP:0002465
+        label: PhenotypicFeature
+        name: Poor speech
+    -   id: HP:0000741
+        label: PhenotypicFeature
+        name: Apathy
+    -   id: HP:0000709
+        label: PhenotypicFeature
+        name: Psychosis
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+  reference: https://go.drugbank.com/drugs/DB04842
+- directed: true
+  graph:
+    disease: Respiratory tract infection
+    disease_mesh: MESH:D012141
+    drug: azidocillin
+    drug_mesh: MESH:C100243
+    drugbank: DB:DB08795
+  links:
+    - key: decreases activity of
+      source: MESH:C100243
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D012141
+  multigraph: true
+  nodes:
+    - id: MESH:C100243
+      label: Drug
+      name: azidocillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D012141
+      label: Disease
+      name: Respiratory tract infection
+  reference: https://go.drugbank.com/drugs/DB08795
+- directed: true
+  graph:
+    disease: Hypokalemia
+    disease_mesh: MESH:D007008
+    drug: potassium citrate
+    drug_mesh: MESH:D019357
+    drugbank: DB:DB09125
+  links:
+    - key: increases abundance of
+      source: MESH:D019357
+      target: MESH:D011188
+    - key: negatively correlated with
+      source: MESH:D011188
+      target: MESH:D007008
+  multigraph: true
+  nodes:
+    - id: MESH:D019357
+      label: Drug
+      name: potassium citrate
+    - id: MESH:D011188
+      label: ChemicalSubstance
+      name: Potassium
+    - id: MESH:D007008
+      label: Disease
+      name: Hypokalemia
+  reference:
+    - https://go.drugbank.com/drugs/DB09125
+    - https://en.wikipedia.org/wiki/Hypokalemia
+    - https://en.wikipedia.org/wiki/Potassium_citrate#Uses
+- directed: true
+  graph:
+    disease: Renal tubular acidosis
+    disease_mesh: MESH:D000141
+    drug: potassium citrate
+    drug_mesh: MESH:D019357
+    drugbank: DB:DB09125
+  links:
+    - key: increases abundance of
+      source: MESH:D019357
+      target: MESH:D011188
+    - key: negatively correlated with
+      source: MESH:D011188
+      target: MESH:D006859
+    - key: positively correlated with
+      source: MESH:D006859
+      target: MESH:D000141
+  multigraph: true
+  nodes:
+    - id: MESH:D019357
+      label: Drug
+      name: potassium citrate
+    - id: MESH:D011188
+      label: ChemicalSubstance
+      name: Potassium
+    - id: MESH:D006859
+      label: ChemicalSubstance
+      name: Hydrogen
+    - id: MESH:D000141
+      label: Disease
+      name: Renal tubular acidosis
+  reference:
+    - https://go.drugbank.com/drugs/DB09125
+    - https://en.wikipedia.org/wiki/Renal_tubular_acidosis
+    - https://en.wikipedia.org/wiki/Acidosis
+- directed: true
+  graph:
+    disease: Anxiety
+    disease_mesh: MESH:D001007
+    drug: etizolam
+    drug_mesh: MESH:C044610
+    drugbank: DB:DB09166
+  links:
+    - key: increases activity of
+      source: MESH:C044610
+      target: InterPro:IPR006028
+    - key: positively regulates
+      source: InterPro:IPR006028
+      target: GO:0022851
+    - key: positively correlated with
+      source: GO:0022851
+      target: GO:0060081
+    - key: negatively correlated with
+      source: GO:0060081
+      target: GO:0007269
+    - key: positively correlated with
+      source: GO:0007269
+      target: MESH:D001007
+  multigraph: true
+  nodes:
+    - id: MESH:C044610
+      label: Drug
+      name: etizolam
+    - id: InterPro:IPR006028
+      label: GeneFamily
+      name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
+    - id: GO:0022851
+      label: MolecularActivity
+      name: GABA-gated chloride ion channel activity
+    - id: GO:0060081
+      label: BiologicalProcess
+      name: membrane hyperpolarization
+    - id: GO:0007269
+      label: BiologicalProcess
+      name: neurotransmitter secretion
+    - id: MESH:D001007
+      label: Disease
+      name: Anxiety
+  reference: https://en.wikipedia.org/wiki/Etizolam#Pharmacology
+- directed: true
+  graph:
+    disease: Benign prostatic hyperplasia
+    disease_mesh: MESH:D011470
+    drug: naftopidil
+    drug_mesh: MESH:C064357
+    drugbank: DB:DB12092
+  links:
+    - key: decreases activity of
+      source: MESH:C064357
+      target: UniProt:P25100
+    - key: positively regulates
+      source: UniProt:P25100
+      target: GO:0006939
+    - key: positively correlated with
+      source: GO:0006939
+      target: HP:0011037
+    - key: manifestation of
+      source: HP:0011037
+      target: MESH:D011470
+  multigraph: true
+  nodes:
+    - id: MESH:C064357
+      label: Drug
+      name: naftopidil
+    - id: UniProt:P25100
+      label: Protein
+      name: Alpha-1D adrenergic receptor
+    - id: GO:0006939
+      label: BiologicalProcess
+      name: smooth muscle contraction
+    - id: HP:0011037
+      label: PhenotypicFeature
+      name: Decreased urine output
+    - id: MESH:D011470
+      label: Disease
+      name: Benign prostatic hyperplasia
+  reference:
+    - https://en.wikipedia.org/wiki/Naftopidil
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL142635/
+    - https://en.wikipedia.org/wiki/Alpha_blocker#Benign_prostatic_hyperplasia
+    - https://en.wikipedia.org/wiki/Benign_prostatic_hyperplasia
