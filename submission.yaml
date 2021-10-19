@@ -40,9 +40,9 @@
         target: GO:0032275
     -   key: positively regulates
         source: GO:0032275
-        target: GO:0042698
+        target: GO:0035937
     -   key: positively regulates
-        source: GO:0042698
+        source: GO:0035937
         target: GO:0008283
     -   key: located in
         source: GO:0008283
@@ -64,9 +64,9 @@
     -   id: GO:0032275
         label: BiologicalProcess
         name: Luteinizing hormone secretion
-    -   id: GO:0042698
+    -   id: GO:0035937
         label: BiologicalProcess
-        name: ovulation cycle
+        name: estrogen secretion
     -   id: GO:0008283
         label: BiologicalProcess
         name: Cell population proliferation
@@ -94,7 +94,7 @@
     -   key: positively correlated with
         source: UniProt:P35367
         target: MESH:D006632
-    -   key: increases activity of
+    -   key: positively regulates
         source: MESH:D006632
         target: CL:0000540
     -   key: located in
@@ -659,11 +659,8 @@
         drug_mesh: MESH:C581106
         drugbank: DB:DB08913
     links:
-    -   key: disrupts
-        source: MESH:C581106
-        target: MESH:D004247
     -   key: positively correlated with
-        source: MESH:D004247
+        source: MESH:C581106
         target: GO:0035861
     -   key: positively regulates
         source: GO:0035861
@@ -682,9 +679,6 @@
     -   id: MESH:C581106
         label: Drug
         name: radium Ra 223 dichloride
-    -   id: MESH:D004247
-        label: ChemicalSubstance
-        name: DNA
     -   id: GO:0035861
         label: CellularComponent
         name: site of double-strand break
