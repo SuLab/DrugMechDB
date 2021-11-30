@@ -6,7 +6,7 @@
         drug_mesh: MESH:C004945
         drugbank: DB:DB00226
     links:
-    -   key: increases activity of
+    -   key: regulates
         source: MESH:C004945
         target: UniProt:P23975
     -   key: participates in
@@ -15,11 +15,14 @@
     -   key: decreases abundance of
         source: GO:0051620
         target: MESH:D009638
-    -   key: negatively regulates
+    -   key: positively regulates
         source: MESH:D009638
-        target: GO:0004936
+        target: GO:0042310
     -   key: negatively regulates
-        source: GO:0004936
+        source: MESH:C004945
+        target: GO:0048243
+    -   key: positively correlated with
+        source: GO:0048243
         target: GO:0042310
     -   key: positively correlated with
         source: GO:0042310
@@ -28,7 +31,7 @@
     nodes:
     -   id: MESH:C004945
         label: Drug
-        name: guanadrel
+        name: Guanadrel
     -   id: UniProt:P23975
         label: Protein
         name: Sodium-dependent noradrenaline transporter
@@ -38,12 +41,12 @@
     -   id: MESH:D009638
         label: ChemicalSubstance
         name: Norepinephrine
-    -   id: GO:0004936
-        label: BiologicalProcess
-        name: Alpha-adrenergic receptor activity
     -   id: GO:0042310
         label: BiologicalProcess
         name: Vasoconstriction
+    -   id: GO:0048243
+        label: BiologicalProcess
+        name: Norepinephrine secretion
     -   id: MESH:D006973
         label: Disease
         name: Hypertensive disorder
@@ -234,18 +237,16 @@
     - https://pubchem.ncbi.nlm.nih.gov/compound/19003
     - https://en.wikipedia.org/wiki/Ciclacillin
     - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200356/
--   comment: The MESH:C007084 term is not matching with clindamycin phosphate, MESH:D002981 is matching Clindamycin
-             Drugbank entries are same for both entries and are interchangebly used, So using MESH:D002981.
-    directed: true
+-   directed: true
     graph:
         disease: Infectious disease of abdomen
         disease_mesh: MESH:D059413
         drug: clindamycin phosphate
-        drug_mesh: MESH:D002981
+        drug_mesh: MESH:C007084
         drugbank: DB:DB01190
     links:
     -   key: decreases activity of
-        source: MESH:D002981
+        source: MESH:C007084
         target: MESH:D012338
     -   key: part of
         source: MESH:D012338
@@ -270,7 +271,7 @@
         target: MESH:D059413
     multigraph: true
     nodes:
-    -   id: MESH:D002981
+    -   id: MESH:C007084
         label: Drug
         name: clindamycin phosphate
     -   id: MESH:D054681
@@ -368,19 +369,16 @@
     - https://go.drugbank.com/drugs/DB01190
     - https://pubchem.ncbi.nlm.nih.gov/compound/446598
     - https://en.wikipedia.org/wiki/Clindamycin
--   comment: The MESH:C007084 term is not matching with clindamycin phosphate, MESH:D002981 is matching Clindamycin
-             Drugbank entries are same for both entries and are interchangebly used, So using MESH:D002981. Empyema of pleura
-             is caused by baterial infections such as Streptococcus pneumoniae and Staphylococcus aureus.
-    directed: true
+-   directed: true
     graph:
         disease: Empyema of pleura
         disease_mesh: MESH:D016724
         drug: clindamycin phosphate
-        drug_mesh: MESH:D002981
+        drug_mesh: MESH:C007084
         drugbank: DB:DB01190
     links:
     -   key: decreases activity of
-        source: MESH:D002981
+        source: MESH:C007084
         target: MESH:D012338
     -   key: part of
         source: MESH:D012338
@@ -405,7 +403,7 @@
         target: MESH:D016724
     multigraph: true
     nodes:
-    -   id: MESH:D002981
+    -   id: MESH:C007084
         label: Drug
         name: clindamycin phosphate
     -   id: MESH:D054681
@@ -438,18 +436,16 @@
     - https://pubchem.ncbi.nlm.nih.gov/compound/446598
     - https://en.wikipedia.org/wiki/Clindamycin
     - https://www.healthline.com/health/empyema
--   comment: The MESH:C007084 term is not matching with clindamycin phosphate, MESH:D002981 is matching Clindamycin
-             Drugbank entries are same for both entries and are interchangebly used, So using MESH:D002981.
-    directed: true
+-   directed: true
     graph:
         disease: Aspiration pneumonia
         disease_mesh: MESH:D011015
         drug: clindamycin phosphate
-        drug_mesh: MESH:D002981
+        drug_mesh: MESH:C007084
         drugbank: DB:DB01190
     links:
     -   key: decreases activity of
-        source: MESH:D002981
+        source: MESH:C007084
         target: MESH:D012338
     -   key: part of
         source: MESH:D012338
@@ -474,7 +470,7 @@
         target: MESH:D011015
     multigraph: true
     nodes:
-    -   id: MESH:D002981
+    -   id: MESH:C007084
         label: Drug
         name: clindamycin phosphate
     -   id: MESH:D054681
@@ -574,18 +570,16 @@
     - https://pubchem.ncbi.nlm.nih.gov/compound/446598
     - https://en.wikipedia.org/wiki/Clindamycin
     - https://www.medicinenet.com/script/main/art.asp?articlekey=60945
--   comment: The MESH:C007084 term is not matching with clindamycin phosphate, MESH:D002981 is matching Clindamycin
-             Drugbank entries are same for both entries and are interchangebly used, So using MESH:D002981.
-    directed: true
+-   directed: true
     graph:
         disease: Acne vulgaris
         disease_mesh: MESH:D000152
         drug: clindamycin phosphate
-        drug_mesh: MESH:D002981
+        drug_mesh: MESH:C007084
         drugbank: DB:DB01190
     links:
     -   key: decreases activity of
-        source: MESH:D002981
+        source: MESH:C007084
         target: MESH:D012338
     -   key: part of
         source: MESH:D012338
@@ -610,7 +604,7 @@
         target: MESH:D000152
     multigraph: true
     nodes:
-    -   id: MESH:D002981
+    -   id: MESH:C007084
         label: Drug
         name: clindamycin phosphate
     -   id: MESH:D054681
@@ -642,18 +636,16 @@
     - https://go.drugbank.com/drugs/DB01190
     - https://pubchem.ncbi.nlm.nih.gov/compound/446598
     - https://en.wikipedia.org/wiki/Clindamycin
--   comment: The MESH:C007084 term is not matching with clindamycin phosphate, MESH:D002981 is matching Clindamycin
-             Drugbank entries are same for both entries and are interchangebly used, So using MESH:D002981.
-    directed: true
+-   directed: true
     graph:
         disease: Streptococcus pyogenes infection
         disease_mesh: MESH:D013290
         drug: clindamycin phosphate
-        drug_mesh: MESH:D002981
+        drug_mesh: MESH:C007084
         drugbank: DB:DB01190
     links:
     -   key: decreases activity of
-        source: MESH:D002981
+        source: MESH:C007084
         target: MESH:D012338
     -   key: part of
         source: MESH:D012338
@@ -678,7 +670,7 @@
         target: MESH:D013290
     multigraph: true
     nodes:
-    -   id: MESH:D002981
+    -   id: MESH:C007084
         label: Drug
         name: clindamycin phosphate
     -   id: MESH:D012338
@@ -710,18 +702,16 @@
     - https://go.drugbank.com/drugs/DB01190
     - https://pubchem.ncbi.nlm.nih.gov/compound/446598
     - https://en.wikipedia.org/wiki/Clindamycin
--   comment: The MESH:C007084 term is not matching with clindamycin phosphate, MESH:D002981 is matching Clindamycin
-             Drugbank entries are same for both entries and are interchangebly used, So using MESH:D002981.
-    directed: true
+-   directed: true
     graph:
         disease: Staphylococcal pneumonia
         disease_mesh: MESH:D011023
         drug: clindamycin phosphate
-        drug_mesh: MESH:D002981
+        drug_mesh: MESH:C007084
         drugbank: DB:DB01190
     links:
     -   key: decreases activity of
-        source: MESH:D002981
+        source: MESH:C007084
         target: MESH:D012338
     -   key: part of
         source: MESH:D012338
@@ -746,7 +736,7 @@
         target: MESH:D011023
     multigraph: true
     nodes:
-    -   id: MESH:D002981
+    -   id: MESH:C007084
         label: Drug
         name: clindamycin phosphate
     -   id: MESH:D012338
@@ -778,18 +768,16 @@
     - https://go.drugbank.com/drugs/DB01190
     - https://pubchem.ncbi.nlm.nih.gov/compound/446598
     - https://en.wikipedia.org/wiki/Clindamycin
--   comment: The MESH:C007084 term is not matching with clindamycin phosphate, MESH:D002981 is matching Clindamycin
-             Drugbank entries are same for both entries and are interchangebly used, So using MESH:D002981.
-    directed: true
+-   directed: true
     graph:
         disease: Infection due to Staphylococcus aureus
         disease_mesh: MESH:D013203
         drug: clindamycin phosphate
-        drug_mesh: MESH:D002981
+        drug_mesh: MESH:C007084
         drugbank: DB:DB01190
     links:
     -   key: decreases activity of
-        source: MESH:D002981
+        source: MESH:C007084
         target: MESH:D012338
     -   key: part of
         source: MESH:D012338
@@ -814,7 +802,7 @@
         target: MESH:D013203
     multigraph: true
     nodes:
-    -   id: MESH:D002981
+    -   id: MESH:C007084
         label: Drug
         name: clindamycin phosphate
     -   id: MESH:D012338
@@ -1012,6 +1000,9 @@
         target: UniProt:P08913
     -   key: decreases activity of
         source: MESH:D008803
+        target: UniProt:P18825
+    -   key: decreases activity of
+        source: MESH:D008803
         target: UniProt:P35367
     -   key: participates in
         source: UniProt:P23975
@@ -1031,9 +1022,12 @@
     -   key: positively correlated with
         source: UniProt:P28335
         target: MESH:D012701
-    -   key: positively correlated with
+    -   key: correlated with
         source: UniProt:P08913
-        target: MESH:D012701
+        target: MESH:D003865
+    -   key: correlated with
+        source: UniProt:P18825
+        target: MESH:D003865
     -   key: positively correlated with
         source: UniProt:P35367
         target: HP:0000739
@@ -1072,6 +1066,9 @@
     -   id: UniProt:P08913
         label: Protein
         name: Alpha-2A adrenergic receptor
+    -   id: UniProt:P18825
+        label: Protein
+        name: Alpha-2C adrenergic receptor
     -   id: UniProt:P35367
         label: Protein
         name: Histamine H1 receptor
@@ -1103,6 +1100,7 @@
     - https://go.drugbank.com/drugs/DB06148
     - https://en.wikipedia.org/wiki/Mianserin#Pharmacodynamics
     - https://pubchem.ncbi.nlm.nih.gov/compound/4184
+    - https://drugs.ncats.io/drug/250PJI13LM
 -   directed: true
     graph:
         disease: Chronic hepatitis C
