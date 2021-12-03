@@ -1,1 +1,1320 @@
-
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: guanadrel
+        drug_mesh: MESH:C004945
+        drugbank: DB:DB00226
+    links:
+    -   key: regulates
+        source: MESH:C004945
+        target: UniProt:P23975
+    -   key: participates in
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: positively regulates
+        source: MESH:D009638
+        target: GO:0042310
+    -   key: negatively regulates
+        source: MESH:C004945
+        target: GO:0048243
+    -   key: positively correlated with
+        source: GO:0048243
+        target: GO:0042310
+    -   key: positively correlated with
+        source: GO:0042310
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:C004945
+        label: Drug
+        name: Guanadrel
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Norepinephrine uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: GO:0048243
+        label: BiologicalProcess
+        name: Norepinephrine secretion
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00226
+    - https://pubchem.ncbi.nlm.nih.gov/compound/38521
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1037/
+    - https://en.wikipedia.org/wiki/Guanadrel
+    - https://pubmed.ncbi.nlm.nih.gov/3896742/
+-   directed: true
+    graph:
+        disease: Pharyngitis
+        disease_mesh: MESH:D010612
+        drug: cyclacillin
+        drug_mesh: MESH:D003493
+        drugbank: DB:DB01000
+    links:
+    -   key: decreases activity of
+        source: MESH:D003493
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: positively correlated with
+        source: GO:0005618
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D010612
+    multigraph: true
+    nodes:
+    -   id: MESH:D003493
+        label: Drug
+        name: cyclacillin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D010612
+        label: Disease
+        name: Pharyngitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01000
+    - https://en.wikipedia.org/wiki/Pharyngitis#Bacterial
+    - https://pubchem.ncbi.nlm.nih.gov/compound/19003
+    - https://en.wikipedia.org/wiki/Ciclacillin
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200356/
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: cyclacillin
+        drug_mesh: MESH:D003493
+        drugbank: DB:DB01000
+    links:
+    -   key: decreases activity of
+        source: MESH:D003493
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: positively correlated with
+        source: GO:0005618
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D003493
+        label: Drug
+        name: cyclacillin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference:
+    - https://go.drugbank.com/drugs/DB01000
+    - https://pubchem.ncbi.nlm.nih.gov/compound/19003
+    - https://en.wikipedia.org/wiki/Ciclacillin
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200356/
+-   directed: true
+    graph:
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: cyclacillin
+        drug_mesh: MESH:D003493
+        drugbank: DB:DB01000
+    links:
+    -   key: decreases activity of
+        source: MESH:D003493
+        target: InterPro:IPR001460
+    -   key: positively regulates
+        source: InterPro:IPR001460
+        target: GO:0018104
+    -   key: positively regulates
+        source: GO:0018104
+        target: GO:0009273
+    -   key: has output
+        source: GO:0009273
+        target: GO:0005618
+    -   key: positively correlated with
+        source: GO:0005618
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:D003493
+        label: Drug
+        name: cyclacillin
+    -   id: InterPro:IPR001460
+        label: GeneFamily
+        name: Penicillin-binding protein, transpeptidase
+    -   id: GO:0018104
+        label: BiologicalProcess
+        name: Cross-linking of the peptidoglycan
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0005618
+        label: CellularComponent
+        name: Cell wall
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01000
+    - https://pubchem.ncbi.nlm.nih.gov/compound/19003
+    - https://en.wikipedia.org/wiki/Ciclacillin
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1200356/
+-   directed: true
+    graph:
+        disease: Infectious disease of abdomen
+        disease_mesh: MESH:D059413
+        drug: clindamycin phosphate
+        drug_mesh: MESH:C007084
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:C007084
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: MESH:D054681
+    -   key: part of
+        source: MESH:D054681
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D059413
+    multigraph: true
+    nodes:
+    -   id: MESH:C007084
+        label: Drug
+        name: clindamycin phosphate
+    -   id: MESH:D054681
+        label: Protein
+        name: 50S Ribosome Subunits, Large, Bacterial
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D059413
+        label: Disease
+        name: Infectious disease of abdomen
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+-   directed: true
+    graph:
+        disease: Bacterial vaginosis
+        disease_mesh: MESH:D016585
+        drug: clindamycin
+        drug_mesh: MESH:D002981
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:D002981
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: MESH:D054681
+    -   key: part of
+        source: MESH:D054681
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D016585
+    multigraph: true
+    nodes:
+    -   id: MESH:D002981
+        label: Drug
+        name: clindamycin
+    -   id: MESH:D054681
+        label: Protein
+        name: 50S Ribosome Subunits, Large, Bacterial
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D016585
+        label: Disease
+        name: Bacterial vaginosis
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+-   directed: true
+    graph:
+        disease: Empyema of pleura
+        disease_mesh: MESH:D016724
+        drug: clindamycin phosphate
+        drug_mesh: MESH:C007084
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:C007084
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: MESH:D054681
+    -   key: part of
+        source: MESH:D054681
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D016724
+    multigraph: true
+    nodes:
+    -   id: MESH:C007084
+        label: Drug
+        name: clindamycin phosphate
+    -   id: MESH:D054681
+        label: Protein
+        name: 50S Ribosome Subunits, Large, Bacterial
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D016724
+        label: Disease
+        name: Empyema of pleura
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+    - https://www.healthline.com/health/empyema
+-   directed: true
+    graph:
+        disease: Aspiration pneumonia
+        disease_mesh: MESH:D011015
+        drug: clindamycin phosphate
+        drug_mesh: MESH:C007084
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:C007084
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: MESH:D054681
+    -   key: part of
+        source: MESH:D054681
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D011015
+    multigraph: true
+    nodes:
+    -   id: MESH:C007084
+        label: Drug
+        name: clindamycin phosphate
+    -   id: MESH:D054681
+        label: Protein
+        name: 50S Ribosome Subunits, Large, Bacterial
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D011015
+        label: Disease
+        name: Aspiration pneumonia
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+    - https://www.healthline.com/health/aspiration-pneumonia
+-   directed: true
+    graph:
+        disease: Pneumococcal pneumonia
+        disease_mesh: MESH:D011018
+        drug: clindamycin
+        drug_mesh: MESH:D002981
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:D002981
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: UniProt:P66096
+    -   key: part of
+        source: UniProt:P66096
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D002981
+        label: Drug
+        name: clindamycin
+    -   id: UniProt:P66096
+        label: Protein
+        name: 50S ribosomal protein L1 Streptococcus pneumoniae
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumococcal pneumonia
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+    - https://www.medicinenet.com/script/main/art.asp?articlekey=60945
+-   directed: true
+    graph:
+        disease: Acne vulgaris
+        disease_mesh: MESH:D000152
+        drug: clindamycin phosphate
+        drug_mesh: MESH:C007084
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:C007084
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: MESH:D054681
+    -   key: part of
+        source: MESH:D054681
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D000152
+    multigraph: true
+    nodes:
+    -   id: MESH:C007084
+        label: Drug
+        name: clindamycin phosphate
+    -   id: MESH:D054681
+        label: Protein
+        name: 50S Ribosome Subunits, Large, Bacterial
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D000152
+        label: Disease
+        name: Acne vulgaris
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+-   directed: true
+    graph:
+        disease: Streptococcus pyogenes infection
+        disease_mesh: MESH:D013290
+        drug: clindamycin phosphate
+        drug_mesh: MESH:C007084
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:C007084
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: UniProt:P0C0D5
+    -   key: part of
+        source: UniProt:P0C0D5
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:C007084
+        label: Drug
+        name: clindamycin phosphate
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:P0C0D5
+        label: Protein
+        name: 50S ribosomal protein L4 (Streptococcus pyogenes)
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+-   directed: true
+    graph:
+        disease: Staphylococcal pneumonia
+        disease_mesh: MESH:D011023
+        drug: clindamycin phosphate
+        drug_mesh: MESH:C007084
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:C007084
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: UniProt:Q2G0P0
+    -   key: part of
+        source: UniProt:Q2G0P0
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D011023
+    multigraph: true
+    nodes:
+    -   id: MESH:C007084
+        label: Drug
+        name: clindamycin phosphate
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:Q2G0P0
+        label: Protein
+        name: 50S ribosomal protein L1 Staphylococcus aureus (strain NCTC 8325)
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D011023
+        label: Disease
+        name: Staphylococcal pneumonia
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: clindamycin phosphate
+        drug_mesh: MESH:C007084
+        drugbank: DB:DB01190
+    links:
+    -   key: decreases activity of
+        source: MESH:C007084
+        target: MESH:D012338
+    -   key: part of
+        source: MESH:D012338
+        target: UniProt:Q2G0P0
+    -   key: part of
+        source: UniProt:Q2G0P0
+        target: GO:0005840
+    -   key: participates in
+        source: GO:0005840
+        target: GO:0000048
+    -   key: positively correlated with
+        source: GO:0000048
+        target: GO:0006412
+    -   key: positively correlated with
+        source: GO:0006412
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C007084
+        label: Drug
+        name: clindamycin phosphate
+    -   id: MESH:D012338
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 23S
+    -   id: UniProt:Q2G0P0
+        label: Protein
+        name: 50S ribosomal protein L1 Staphylococcus aureus (strain NCTC 8325)
+    -   id: GO:0005840
+        label: CellularComponent
+        name: Ribosome
+    -   id: GO:0000048
+        label: MolecularActivity
+        name: peptidyltransferase activity
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: Bacterial translation
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: cell division
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1753/
+    - https://go.drugbank.com/drugs/DB01190
+    - https://pubchem.ncbi.nlm.nih.gov/compound/446598
+    - https://en.wikipedia.org/wiki/Clindamycin
+-   directed: true
+    graph:
+        disease: Human immunodeficiency virus infection
+        disease_mesh: MESH:D015658
+        drug: saquinavir
+        drug_mesh: MESH:D019258
+        drugbank: DB:DB01232
+    links:
+    -   key: decreases activity of
+        source: MESH:D019258
+        target: UniProt:Q72874
+    -   key: increases activity of
+        source: UniProt:Q72874
+        target: UniProt:P04591
+    -   key: participates in
+        source: UniProt:P04591
+        target: GO:0019068
+    -   key: in taxon
+        source: GO:0019068
+        target: NCBITaxon:11676
+    -   key: causes
+        source: NCBITaxon:11676
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D019258
+        label: Drug
+        name: saquinavir
+    -   id: UniProt:Q72874
+        label: Protein
+        name: HIV-1 protease
+    -   id: UniProt:P04591
+        label: Protein
+        name: Gag polyprotein
+    -   id: GO:0019068
+        label: BiologicalProcess
+        name: virion assembly
+    -   id: NCBITaxon:11676
+        label: OrganismTaxon
+        name: Human immunodeficiency virus 1
+    -   id: MESH:D015658
+        label: Disease
+        name: Human immunodeficiency virus infection
+    reference:
+    - https://go.drugbank.com/drugs/DB01232#mechanism-of-action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/441243
+    - https://en.wikipedia.org/wiki/Saquinavir
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL114/
+-   directed: true
+    graph:
+        disease: Diabetes mellitus
+        disease_mesh: MESH:D003920
+        drug: insulin aspart
+        drug_mesh: MESH:D061267
+        drugbank: DB:DB01306
+    links:
+    -   key: increases activity of
+        source: MESH:D061267
+        target: UniProt:P06213
+    -   key: positively regulates
+        source: UniProt:P06213
+        target: GO:0004714
+    -   key: positively regulates
+        source: GO:0004714
+        target: UniProt:P31749
+    -   key: positively regulates
+        source: UniProt:P31749
+        target: UniProt:P14672
+    -   key: positively regulates
+        source: UniProt:P31749
+        target: MESH:D011493
+    -   key: positively regulates
+        source: UniProt:P14672
+        target: GO:0046323
+    -   key: positively regulates
+        source: MESH:D011493
+        target: GO:0046323
+    -   key: negatively correlated with
+        source: GO:0046323
+        target: MESH:D003920
+    multigraph: true
+    nodes:
+    -   id: MESH:D061267
+        label: Drug
+        name: insulin detemir
+    -   id: UniProt:P06213
+        label: Protein
+        name: Insulin receptor
+    -   id: GO:0004714
+        label: MolecularActivity
+        name: transmembrane receptor protein tyrosine kinase activity
+    -   id: UniProt:P31749
+        label: Protein
+        name: RAC-alpha serine/threonine-protein kinase
+    -   id: MESH:D011493
+        label: Protein
+        name: Protein Kinase C
+    -   id: UniProt:P14672
+        label: Protein
+        name: Solute carrier family 2, facilitated glucose transporter member 4
+    -   id: GO:0046323
+        label: BiologicalProcess
+        name: glucose import
+    -   id: MESH:D003920
+        label: Disease
+        name: Diabetes mellitus
+    reference:
+    - https://go.drugbank.com/drugs/DB01306
+    - https://en.wikipedia.org/wiki/Insulin_aspart
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201496/
+-   directed: true
+    graph:
+        disease: Iron deficiency anemia
+        disease_mesh: MESH:D018798
+        drug: iron
+        drug_mesh: MESH:D007501
+        drugbank: DB:DB01592
+    links:
+    -   key: increases abundance of
+        source: MESH:D007501
+        target: CHEBI:18248
+    -   key: correlated with
+        source: CHEBI:18248
+        target: GO:0055072
+    -   key: negatively correlated with
+        source: GO:0055072
+        target: MESH:D018798
+    multigraph: true
+    nodes:
+    -   id: MESH:D007501
+        label: Drug
+        name: iron
+    -   id: CHEBI:18248
+        label: ChemicalSubstance
+        name: iron atom
+    -   id: GO:0055072
+        label: BiologicalProcess
+        name: iron ion homeostasis
+    -   id: MESH:D018798
+        label: Disease
+        name: Iron deficiency anemia
+    reference:
+    - https://go.drugbank.com/drugs/DB01592
+    - https://pubchem.ncbi.nlm.nih.gov/compound/23925
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: mianserin
+        drug_mesh: MESH:D008803
+        drugbank: DB:DB06148
+    links:
+    -   key: decreases activity of
+        source: MESH:D008803
+        target: UniProt:P28223
+    -   key: decreases activity of
+        source: MESH:D008803
+        target: UniProt:P28335
+    -   key: decreases activity of
+        source: MESH:D008803
+        target: UniProt:P23975
+    -   key: decreases activity of
+        source: MESH:D008803
+        target: UniProt:P08913
+    -   key: decreases activity of
+        source: MESH:D008803
+        target: UniProt:P18825
+    -   key: decreases activity of
+        source: MESH:D008803
+        target: UniProt:P35367
+    -   key: participates in
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: participates in
+        source: MESH:D009638
+        target: GO:0023041
+    -   key: negatively correlated with
+        source: GO:0023041
+        target: MESH:D003865
+    -   key: positively correlated with
+        source: UniProt:P28223
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: UniProt:P28335
+        target: MESH:D012701
+    -   key: correlated with
+        source: UniProt:P08913
+        target: MESH:D003865
+    -   key: correlated with
+        source: UniProt:P18825
+        target: MESH:D003865
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: HP:0000739
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0032099
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: HP:0000739
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: HP:0002360
+    -   key: positively correlated with
+        source: GO:0032099
+        target: MESH:D003865
+    -   key: positively correlated with
+        source: HP:0000739
+        target: MESH:D003865
+    -   key: positively correlated with
+        source: HP:0002360
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D008803
+        label: Drug
+        name: mianserin
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: UniProt:P28335
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2C
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: UniProt:P18825
+        label: Protein
+        name: Alpha-2C adrenergic receptor
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: noradrenaline
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Noradrenaline uptake
+    -   id: GO:0023041
+        label: BiologicalProcess
+        name: Neuronal activation
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0032099
+        label: BiologicalProcess
+        name: Negative regulation of appetite
+    -   id: HP:0000739
+        label: PhenotypicFeature
+        name: Anxiety
+    -   id: HP:0002360
+        label: PhenotypicFeature
+        name: Sleep disturbance
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB06148
+    - https://en.wikipedia.org/wiki/Mianserin#Pharmacodynamics
+    - https://pubchem.ncbi.nlm.nih.gov/compound/4184
+    - https://drugs.ncats.io/drug/250PJI13LM
+-   directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: daclatasvir
+        drug_mesh: MESH:C549273
+        drugbank: DB:DB09102
+    links:
+    -   key: negatively regulates
+        source: MESH:C549273
+        target: UniProt:Q5L478
+    -   key: molecularly interacts with
+        source: UniProt:Q5L478
+        target: MESH:C000618292
+    -   key: increases abundance of
+        source: MESH:C000618292
+        target: MESH:C037178
+    -   key: positively correlated with
+        source: MESH:C037178
+        target: MESH:D002784
+    -   key: located in
+        source: MESH:D002784
+        target: MESH:D000086969
+    -   key: location of
+        source: MESH:D000086969
+        target: GO:0039694
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0003968
+    -   key: positively regulates
+        source: GO:0003968
+        target: GO:0039694
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0004197
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0004252
+    -   key: positively correlated with
+        source: GO:0004197
+        target: MESH:D014779
+    -   key: positively correlated with
+        source: GO:0004252
+        target: MESH:D014779
+    -   key: positively correlated with
+        source: MESH:D014779
+        target: MESH:D019065
+    -   key: in taxon
+        source: GO:0039694
+        target: NCBITaxon:11103
+    -   key: in taxon
+        source: MESH:D019065
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C549273
+        label: Drug
+        name: daclatasvir
+    -   id: UniProt:Q5L478
+        label: Protein
+        name: Nonstructural protein 5A
+    -   id: GO:0003968
+        label: MolecularActivity
+        name: RNA-directed 5'-3' RNA polymerase activity
+    -   id: GO:0039694
+        label: BiologicalProcess
+        name: viral RNA genome replication
+    -   id: MESH:C000618292
+        label: Protein
+        name: PI4KIIIalpha protein, human
+    -   id: MESH:C037178
+        label: ChemicalSubstance
+        name: phosphatidylinositol 4-phosphate
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D000086969
+        label: CellularComponent
+        name: Viral Replication Compartments
+    -   id: GO:0004197
+        label: MolecularActivity
+        name: cysteine-type endopeptidase activity
+    -   id: GO:0004252
+        label: MolecularActivity
+        name: serine-type endopeptidase activity
+    -   id: MESH:D014779
+        label: BiologicalProcess
+        name: Virus Replication
+    -   id: MESH:D019065
+        label: BiologicalProcess
+        name: Virus Assembly
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference:
+    - https://go.drugbank.com/drugs/DB09102#mechanismofaction
+    - https://pubchem.ncbi.nlm.nih.gov/compound/25154714
+    - https://en.wikipedia.org/wiki/Daclatasvir
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2023898/
+    - https://www.uniprot.org/uniprot/Q5L478
+-   directed: true
+    graph:
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: blonanserin
+        drug_mesh: MESH:C079310
+        drugbank: DB:DB09223
+    links:
+    -   key: decreases activity of
+        source: MESH:C079310
+        target: UniProt:P14416
+    -   key: decreases activity of
+        source: MESH:C079310
+        target: UniProt:P35462
+    -   key: decreases activity of
+        source: MESH:C079310
+        target: UniProt:P28223
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P35462
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: UniProt:P28223
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: correlated with
+        source: GO:0060096
+        target: MESH:D012559
+    -   key: correlated with
+        source: GO:0061527
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: MESH:C079310
+        label: Drug
+        name: blonanserin
+    -   id: UniProt:P14416
+        label: Protein
+        name: Dopamine D2 receptor
+    -   id: UniProt:P35462
+        label: Protein
+        name: Dopamine D3 receptor
+    -   id: UniProt:P28223
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2A
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: dopamine
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: serotonin
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: dopamine secretion, neurotransmission
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference:
+    - https://go.drugbank.com/drugs/DB09223
+    - https://en.wikipedia.org/wiki/Blonanserin
+    - https://pubchem.ncbi.nlm.nih.gov/compound/125564
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL178803/
+-   directed: true
+    graph:
+        disease: Constipation
+        disease_mesh: MESH:D003248
+        drug: glycerol
+        drug_mesh: MESH:D005990
+        drugbank: DB:DB09462
+    links:
+    -   key: subclass of
+        source: MESH:D005990
+        target: MESH:D054368
+    -   key: positively regulates
+        source: MESH:D054368
+        target: GO:0120054
+    -   key: positively correlated with
+        source: GO:0120054
+        target: GO:0030421
+    -   key: negatively correlated with
+        source: GO:0030421
+        target: MESH:D003248
+    multigraph: true
+    nodes:
+    -   id: MESH:D005990
+        label: Drug
+        name: glycerol
+    -   id: MESH:D054368
+        label: ChemicalSubstance
+        name: Laxatives
+    -   id: GO:0120054
+        label: BiologicalProcess
+        name: Intestinal motility
+    -   id: GO:0030421
+        label: BiologicalProcess
+        name: Defecation
+    -   id: MESH:D003248
+        label: Disease
+        name: Constipation
+    reference:
+    - https://go.drugbank.com/drugs/DB09462
