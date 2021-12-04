@@ -1,1 +1,141 @@
-
+-   directed: true
+    graph:
+        disease: Premenstrual dysphoric disorder
+        disease_mesh: MESH:D065446
+        drug: paroxetine
+        drug_mesh: MESH:D017374
+        drugbank: DB:DB00715
+    links:
+    -   key: decreases activity of
+        source: MESH:D017374
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701 
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: negatively correlated with
+        source: GO:0060096
+        target: MESH:D065446 
+    multigraph: true
+    nodes:
+    -   id: MESH:D017374
+        label: Drug
+        name: Paroxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D065446
+        label: Disease
+        name: Premenstrual dysphoric disorder
+    reference: 
+    - https://go.drugbank.com/drugs/DB00715#BE0000749
+    - https://drugs.ncats.io/drug/41VRH5220H
+    - https://en.wikipedia.org/wiki/Premenstrual_dysphoric_disorder
+-   directed: true
+    graph:
+        disease: Menopausal flushing
+        disease_mesh: MESH:D019584
+        drug: paroxetine
+        drug_mesh: MESH:D017374
+        drugbank: DB:DB00715
+    links:
+    -   key: decreases activity of
+        source: MESH:D017374
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701 
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: treats
+        source: GO:0060096
+        target: MESH:D019584 
+    multigraph: true
+    nodes:
+    -   id: MESH:D017374
+        label: Drug
+        name: Paroxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D019584
+        label: Disease
+        name: Menopausal flushing
+    reference: 
+    - https://go.drugbank.com/drugs/DB00715#BE0000749
+    - https://drugs.ncats.io/drug/41VRH5220H
+    - https://en.wikipedia.org/wiki/Hot_flash#Mechanism
+-   directed: true
+    graph:
+        disease: Panic disorder
+        disease_mesh: MESH:D016584
+        drug: paroxetine
+        drug_mesh: MESH:D017374
+        drugbank: DB:DB00715
+    links:
+    -   key: decreases activity of
+        source: MESH:D017374
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701 
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: treats
+        source: GO:0060096
+        target: MESH:D016584 
+    multigraph: true
+    nodes:
+    -   id: MESH:D017374
+        label: Drug
+        name: Paroxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D016584
+        label: Disease
+        name: Panic disorder
+    reference: 
+    - https://go.drugbank.com/drugs/DB00715#BE0000749
+    - https://drugs.ncats.io/drug/41VRH5220H
+    - https://en.wikipedia.org/wiki/Panic_disorder
