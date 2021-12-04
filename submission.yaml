@@ -1,1 +1,47 @@
-
+-   directed: true
+    graph:
+        disease: Posttraumatic stress disorder
+        disease_mesh: MESH:D013313
+        drug: paroxetine
+        drug_mesh: MESH:D017374
+        drugbank: DB:DB00715
+    links:
+    -   key: decreases activity of
+        source: MESH:D017374
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701 
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: negatively correlated with
+        source: GO:0060096
+        target: MESH:D013313 
+    multigraph: true
+    nodes:
+    -   id: MESH:D017374
+        label: Drug
+        name: Paroxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D013313
+        label: Disease
+        name: Posttraumatic stress disorder
+    reference: 
+    - https://go.drugbank.com/drugs/DB00715#BE0000749
+    - https://drugs.ncats.io/drug/41VRH5220H
+    - https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder
