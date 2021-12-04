@@ -1,1 +1,51 @@
-
+-   directed: true
+    graph:
+        disease: Staphylococcal infectious disease
+        disease_mesh: MESH:D013203
+        drug: teicoplanin
+        drug_mesh: MESH:D017334
+        drugbank: DB:DB06149
+    links:
+    -   key: negatively regulates
+        source: MESH:D017334
+        target: MESH:C002956
+    -   key: participates in
+        source: MESH:C002956
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: occurs in
+        source: GO:0051301
+        target: NCBITaxon:1279
+    -   key: causes
+        source: NCBITaxon:1279
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:D017334
+        label: Drug
+        name: Teicoplanin
+    -   id: MESH:C002956
+        label: ChemicalSubstance
+        name: Alanylalanine
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1279
+        label: OrganismTaxon
+        name: Staphylococcus
+    -   id: MESH:D013203
+        label: Disease
+        name: Staphylococcal infectious disease
+    reference:
+    - https://go.drugbank.com/drugs/DB06149
