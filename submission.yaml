@@ -1,1 +1,52 @@
-
+-   directed: true
+    graph:
+        disease: Systemic lupus erythematosus
+        disease_mesh: MESH:D008180
+        drug: belimumab
+        drug_mesh: MESH:C511911
+        drugbank: DB:DB08879
+    links:
+    -   key: decreases activity of
+        source: MESH:C511911
+        target: UniProt:Q9Y275
+    -   key: positively regulates
+        source: UniProt:Q9Y275
+        target: GO:0042100
+    -   key: positively regulates
+        source: UniProt:Q9Y275
+        target: GO:0031296
+    -   key: positively regulates
+        source: UniProt:Q9Y275
+        target: GO:0030183
+    -   key: occurs in
+        source: GO:0042100
+        target: MESH:D008180
+    -   key: occurs in
+        source: GO:0031296
+        target: MESH:D008180
+    -   key: occurs in
+        source: GO:0030183
+        target: MESH:D008180
+    multigraph: true
+    nodes:
+    -   id: MESH:C511911
+        label: Drug
+        name: belimumab
+    -   id: UniProt:Q9Y275
+        label: Protein
+        name: Tumor necrosis factor ligand superfamily member 13B
+    -   id: GO:0042100
+        label: BiologicalProcess
+        name: B cell proliferation
+    -   id: GO:0030183
+        label: BiologicalProcess
+        name: B cell differentiation
+    -   id: GO:0031296
+        label: BiologicalProcess
+        name: B cell costimulation
+    -   id: MESH:D008180
+        label: Disease
+        name: Systemic lupus erythematosus
+    reference:
+    - https://en.wikipedia.org/wiki/Belimumab
+    - https://go.drugbank.com/drugs/DB08879
