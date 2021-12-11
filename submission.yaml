@@ -1,1 +1,1052 @@
+- directed: true
+  graph:
+    disease: Infection due to Staphylococcus aureus
+    disease_mesh: MESH:D013203
+    drug: cefalexin
+    drug_mesh: MESH:D002506
+    drugbank: DB:DB00567
+  links:
+    - key: decreases activity of
+      source: MESH:D002506
+      target: InterPro:IPR001460
+    - key: positively regulates
+      source: InterPro:IPR001460
+      target: GO:0009252
+    - key: in taxon
+      source: GO:0009252
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D013203
+  multigraph: true
+  nodes:
+    - id: MESH:D002506
+      label: Drug
+      name: cefalexin
+    - id: InterPro:IPR001460
+      label: GeneFamily
+      name: Penicillin-binding protein, transpeptidase
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D013203
+      label: Disease
+      name: Infection due to Staphylococcus aureus
+  reference:
+    - https://go.drugbank.com/drugs/DB00567
+    - https://en.wikipedia.org/wiki/Cefalexin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Pneumonia due to Streptococcus
+    disease_mesh: MESH:D011018
+    drug: cefalexin
+    drug_mesh: MESH:D002506
+    drugbank: DB:DB00567
+  links:
+    - key: decreases activity of
+      source: MESH:D002506
+      target: InterPro:IPR001460
+    - key: positively regulates
+      source: InterPro:IPR001460
+      target: GO:0009252
+    - key: in taxon
+      source: GO:0009252
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D011018
+  multigraph: true
+  nodes:
+    - id: MESH:D002506
+      label: Drug
+      name: cefalexin
+    - id: InterPro:IPR001460
+      label: GeneFamily
+      name: Penicillin-binding protein, transpeptidase
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D011018
+      label: Disease
+      name: Pneumonia due to Streptococcus
+  reference:
+      - https://go.drugbank.com/drugs/DB00567
+      - https://en.wikipedia.org/wiki/Cefalexin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Streptococcus pyogenes infection
+    disease_mesh: MESH:D013290
+    drug: cefalexin
+    drug_mesh: MESH:D002506
+    drugbank: DB:DB00567
+  links:
+    - key: decreases activity of
+      source: MESH:D002506
+      target: UniProt:Q8DR59
+    - key: positively regulates
+      source: UniProt:Q8DR59
+      target: GO:0009252
+    - key: in taxon
+      source: GO:0009252
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D013290
+  multigraph: true
+  nodes:
+    - id: MESH:D002506
+      label: Drug
+      name: cefalexin
+    - id: UniProt:Q8DR59
+      label: Protein
+      name: Penicillin-binding protein 1A
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D013290
+      label: Disease
+      name: Streptococcus pyogenes infection
+  reference:
+      - https://go.drugbank.com/drugs/DB00567
+      - https://en.wikipedia.org/wiki/Cefalexin#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Prostatitis
+    disease_mesh: MESH:D011472
+    drug: cefalexin
+    drug_mesh: MESH:D002506
+    drugbank: DB:DB00567
+  links:
+    - key: decreases activity of
+      source: MESH:D002506
+      target: UniProt:Q8DR59
+    - key: positively regulates
+      source: UniProt:Q8DR59
+      target: GO:0009252
+    - key: in taxon
+      source: GO:0009252
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D011472
+  multigraph: true
+  nodes:
+    - id: MESH:D002506
+      label: Drug
+      name: cefalexin
+    - id: UniProt:Q8DR59
+      label: Protein
+      name: Penicillin-binding protein 1A
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D011472
+      label: Disease
+      name: Prostatitis
+  reference:
+      - https://go.drugbank.com/drugs/DB00567
+      - https://en.wikipedia.org/wiki/Cefalexin#Mechanism_of_action
+      - https://medlineplus.gov/ency/article/000519.htm
+- directed: true
+  graph:
+    disease: Vivax malaria
+    disease_mesh: MESH:D016780
+    drug: chloroquine
+    drug_mesh: MESH:D002738
+    drugbank: DB:DB00608
+  links:
+    - key: molecularly interacts with
+      source: MESH:D002738
+      target: MESH:D006418
+    - key: molecularly interacts with
+      source: MESH:D002738
+      target: CHEBI:36161
+    - key: disrupts
+      source: CHEBI:36161
+      target: NCBITaxon:5855
+    - key: disrupts
+      source: MESH:D006418
+      target: NCBITaxon:5855
+    - key: causes
+      source: NCBITaxon:5855
+      target: MESH:D016780
+  multigraph: true
+  nodes:
+    - id: MESH:D002738
+      label: Drug
+      name: chloroquine
+      alt_ids:
+        - MESH:C023676
+    - id: MESH:D006418
+      label: ChemicalSubstance
+      name: Heme
+    - id: CHEBI:36161
+      label: ChemicalSubstance
+      name: hematin
+    - id: NCBITaxon:5855
+      label: OrganismTaxon
+      name: Plasmodium vivax
+    - id: MESH:D016780
+      label: Disease
+      name: Vivax malaria
+  reference: https://go.drugbank.com/drugs/DB00608
+- directed: true
+  graph:
+    disease: Discoid lupus erythematosus
+    disease_mesh: MESH:D008179
+    drug: chloroquine
+    drug_mesh: MESH:D002738
+    drugbank: DB:DB00608
+  links:
+    - key: negatively correlated with
+      source: MESH:D002738
+      target: UniProt:Q9NR96
+    - key: positively correlated with
+      source: UniProt:Q9NR96
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0000988
+    - key: manifestation of
+      source: HP:0000988
+      target: MESH:D008179
+  multigraph: true
+  nodes:
+    - id: MESH:D002738
+      label: Drug
+      name: chloroquine
+      alt_ids:
+        - MESH:C023676
+    - id: UniProt:Q9NR96
+      label: Protein
+      name: Toll-like receptor 9
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: HP:0000988
+      label: PhenotypicFeature
+      name: Skin rash
+    - id: MESH:D008179
+      label: Disease
+      name: Discoid lupus erythematosus
+  reference:
+    - https://go.drugbank.com/drugs/DB00608
+    - https://en.wikipedia.org/wiki/Discoid_lupus_erythematosus#Signs_and_symptoms
+- directed: true
+  graph:
+    disease: Systemic lupus erythematosus
+    disease_mesh: MESH:D008180
+    drug: chloroquine
+    drug_mesh: MESH:D002738
+    drugbank: DB:DB00608
+  links:
+    - key: negatively correlated with
+      source: MESH:D002738
+      target: UniProt:Q9NR96
+    - key: positively correlated with
+      source: UniProt:Q9NR96
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0001386
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0002829
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0025300
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D008180
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D008180
+    - key: manifestation of
+      source: HP:0025300
+      target: MESH:D008180
+  multigraph: true
+  nodes:
+    - id: MESH:D002738
+      label: Drug
+      name: chloroquine
+      alt_ids:
+        - MESH:C023676
+    - id: UniProt:Q9NR96
+      label: Protein
+      name: Toll-like receptor 9
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: HP:0025300
+      label: PhenotypicFeature
+      name: Malar rash
+    - id: MESH:D008180
+      label: Disease
+      name: Systemic lupus erythematosus
+  reference:
+    - https://go.drugbank.com/drugs/DB00608
+    - https://en.wikipedia.org/wiki/Malar_rash
+    - https://en.wikipedia.org/wiki/Lupus_erythematosus#Signs_and_symptoms
+- directed: true
+  graph:
+    disease: Falciparum malaria
+    disease_mesh: MESH:D016778
+    drug: chloroquine
+    drug_mesh: MESH:D002738
+    drugbank: DB:DB00608
+  links:
+    - key: molecularly interacts with
+      source: MESH:D002738
+      target: MESH:D006418
+    - key: molecularly interacts with
+      source: MESH:D002738
+      target: CHEBI:36161
+    - key: disrupts
+      source: CHEBI:36161
+      target: NCBITaxon:5833
+    - key: disrupts
+      source: MESH:D006418
+      target: NCBITaxon:5833
+    - key: causes
+      source: NCBITaxon:5833
+      target: MESH:D016778
+  multigraph: true
+  nodes:
+    - id: MESH:D002738
+      label: Drug
+      name: chloroquine
+      alt_ids:
+        - MESH:C023676
+    - id: MESH:D006418
+      label: ChemicalSubstance
+      name: Heme
+    - id: CHEBI:36161
+      label: ChemicalSubstance
+      name: hematin
+    - id: NCBITaxon:5833
+      label: OrganismTaxon
+      name: Plasmodium falciparum
+    - id: MESH:D016778
+      label: Disease
+      name: Falciparum malaria
+  reference: https://go.drugbank.com/drugs/DB00608
+- directed: true
+  graph:
+    disease: Rheumatoid arthritis
+    disease_mesh: MESH:D001172
+    drug: chloroquine
+    drug_mesh: MESH:D002738
+    drugbank: DB:DB00608
+  links:
+    - key: negatively correlated with
+      source: MESH:D002738
+      target: UniProt:Q9NR96
+    - key: positively correlated with
+      source: UniProt:Q9NR96
+      target: GO:0006954
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0001386
+    - key: positively correlated with
+      source: GO:0006954
+      target: HP:0002829
+    - key: manifestation of
+      source: HP:0001386
+      target: MESH:D001172
+    - key: manifestation of
+      source: HP:0002829
+      target: MESH:D001172
+  multigraph: true
+  nodes:
+    - id: MESH:D002738
+      label: Drug
+      name: chloroquine
+      alt_ids:
+        - MESH:C023676
+    - id: UniProt:Q9NR96
+      label: Protein
+      name: Toll-like receptor 9
+    - id: GO:0006954
+      label: BiologicalProcess
+      name: inflammatory response
+    - id: HP:0001386
+      label: PhenotypicFeature
+      name: Joint swelling
+    - id: HP:0002829
+      label: PhenotypicFeature
+      name: Arthralgia
+    - id: MESH:D001172
+      label: Disease
+      name: Rheumatoid arthritis
+  reference: https://go.drugbank.com/drugs/DB00608
+- directed: true
+  graph:
+    disease: Hypertensive disorder
+    disease_mesh: MESH:D006973
+    drug: amiloride
+    drug_mesh: MESH:D000584
+    drugbank: DB:DB00594
+  links:
+    - key: decreases activity of
+      source: MESH:D000584
+      target: UniProt:P51170
+    - key: decreases activity of
+      source: MESH:D000584
+      target: UniProt:P37088
+    - key: decreases activity of
+      source: MESH:D000584
+      target: UniProt:P51168
+    - key: participates in
+      source: UniProt:P51170
+      target: GO:0070294
+    - key: participates in
+      source: UniProt:P37088
+      target: GO:0070294
+    - key: participates in
+      source: UniProt:P51168
+      target: GO:0070294
+    - key: positively correlated with
+      source: GO:0070294
+      target: GO:0003092
+    - key: positively correlated with
+      source: GO:0003092
+      target: HP:0032263
+    - key: manifestation of
+      source: HP:0032263
+      target: MESH:D006973
+  multigraph: true
+  nodes:
+    - id: MESH:D000584
+      label: Drug
+      name: amiloride
+    - id: UniProt:P51170
+      label: Protein
+      name: Amiloride-sensitive sodium channel subunit gamma
+    - id: UniProt:P37088
+      label: Protein
+      name: Amiloride-sensitive sodium channel subunit alpha
+    - id: UniProt:P51168
+      label: Protein
+      name: Amiloride-sensitive sodium channel subunit beta
+    - id: GO:0070294
+      label: BiologicalProcess
+      name: renal sodium ion absorption
+    - id: GO:0003092
+      label: BiologicalProcess
+      name: renal water retention
+    - id: HP:0032263
+      label: PhenotypicFeature
+      name: Increased blood pressure
+    - id: MESH:D006973
+      label: Disease
+      name: Hypertensive disorder
+  reference:
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2107836/
+    - https://go.drugbank.com/drugs/DB00594
+- directed: true
+  graph:
+    disease: Edema
+    disease_mesh: MESH:D004487
+    drug: amiloride
+    drug_mesh: MESH:D000584
+    drugbank: DB:DB00594
+  links:
+    - key: decreases activity of
+      source: MESH:D000584
+      target: UniProt:P51170
+    - key: decreases activity of
+      source: MESH:D000584
+      target: UniProt:P37088
+    - key: decreases activity of
+      source: MESH:D000584
+      target: UniProt:P51168
+    - key: participates in
+      source: UniProt:P51170
+      target: GO:0070294
+    - key: participates in
+      source: UniProt:P37088
+      target: GO:0070294
+    - key: participates in
+      source: UniProt:P51168
+      target: GO:0070294
+    - key: positively correlated with
+      source: GO:0070294
+      target: GO:0003092
+    - key: positively correlated with
+      source: GO:0003092
+      target: MESH:D004487
+  multigraph: true
+  nodes:
+    - id: MESH:D000584
+      label: Drug
+      name: amiloride
+    - id: UniProt:P51170
+      label: Protein
+      name: Amiloride-sensitive sodium channel subunit gamma
+    - id: UniProt:P37088
+      label: Protein
+      name: Amiloride-sensitive sodium channel subunit alpha
+    - id: UniProt:P51168
+      label: Protein
+      name: Amiloride-sensitive sodium channel subunit beta
+    - id: GO:0070294
+      label: BiologicalProcess
+      name: renal sodium ion absorption
+    - id: GO:0003092
+      label: BiologicalProcess
+      name: renal water retention
+    - id: MESH:D004487
+      label: Disease
+      name: Edema
+  reference:
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2107836/
+    - https://go.drugbank.com/drugs/DB00594
+- directed: true
+  graph:
+    disease: Major depressive disorder
+    disease_mesh: MESH:D003865
+    drug: nefazodone
+    drug_mesh: MESH:C051752
+    drugbank: DB:DB01149
+  links:
+    - key: negatively regulates
+      source: MESH:C051752
+      target: UniProt:P31645
+    - key: negatively regulates
+      source: MESH:C051752
+      target: UniProt:P23975
+    - key: negatively regulates
+      source: MESH:C051752
+      target: UniProt:P28223
+    - key: negatively regulates
+      source: MESH:C051752
+      target: UniProt:P28335
+    - key: positively regulates
+      source: UniProt:P31645
+      target: GO:0051610
+    - key: positively regulates
+      source: UniProt:P23975
+      target: GO:0051620
+    - key: positively regulates
+      source: UniProt:P28223
+      target: GO:0051610
+    - key: negatively regulates
+      source: UniProt:P28335
+      target: GO:0014046
+    - key: positively correlated with
+      source: GO:0051620
+      target: MESH:D003865
+    - key: positively correlated with
+      source: GO:0051610
+      target: MESH:D003865
+    - key: negatively correlated with
+      source: GO:0014046
+      target: MESH:D003865
+  multigraph: true
+  nodes:
+    - id: MESH:C051752
+      label: Drug
+      name: nefazodone
+    - id: UniProt:P23975
+      label: Protein
+      name: Sodium-dependent noradrenaline transporter
+    - id: UniProt:P31645
+      label: Protein
+      name: Sodium-dependent serotonin transporter
+    - id: UniProt:P28223
+      label: Protein
+      name: 5-hydroxytryptamine receptor 2A
+    - id: UniProt:P28335
+      label: Protein
+      name: 5-hydroxytryptamine receptor 2C
+    - id: GO:0051610
+      label: BiologicalProcess
+      name: serotonin uptake
+    - id: GO:0051620
+      label: BiologicalProcess
+      name: norepinephrine uptake
+    - id: GO:0014046
+      label: BiologicalProcess
+      name: dopamine secretion
+    - id: MESH:D003865
+      label: Disease
+      name: Major depressive disorder
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL623/
+    - https://go.drugbank.com/drugs/DB01149
+    - https://en.wikipedia.org/wiki/5-HT2C_receptor#Function
+- directed: true
+  graph:
+    disease: Parkinsonism
+    disease_mesh: MESH:D020734
+    drug: pergolide
+    drug_mesh: MESH:D010479
+    drugbank: DB:DB01186
+  links:
+    - key: increases activity of
+      source: MESH:D010479
+      target: InterPro:IPR000929
+    - key: negatively correlated with
+      source: InterPro:IPR000929
+      target: HP:0002071
+    - key: manifestation of
+      source: HP:0002071
+      target: MESH:D020734
+  multigraph: true
+  nodes:
+    - id: MESH:D010479
+      label: Drug
+      name: pergolide
+    - id: InterPro:IPR000929
+      label: GeneFamily
+      name: Dopamine receptor family
+    - id: HP:0002071
+      label: PhenotypicFeature
+      name: Abnormality of extrapyramidal motor function
+    - id: MESH:D020734
+      label: Disease
+      name: Parkinsonism
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL531/
+    - https://en.wikipedia.org/wiki/Dopamine_receptor#Parkinson's_disease
+    - https://pubchem.ncbi.nlm.nih.gov/compound/47811#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Atrial fibrillation
+    disease_mesh: MESH:D001281
+    drug: dronedarone
+    drug_mesh: MESH:C118667
+    drugbank: DB:DB04855
+  links:
+    - key: negatively regulates
+      source: MESH:C118667
+      target: InterPro:IPR001696
+    - key: negatively regulates
+      source: MESH:C118667
+      target: InterPro:IPR005446
+    - key: negatively regulates
+      source: MESH:C118667
+      target: UniProt:Q9Y3Q4
+    - key: negatively regulates
+      source: MESH:C118667
+      target: UniProt:P63252
+    - key: positively regulates
+      source: InterPro:IPR001696
+      target: GO:0061337
+    - key: positively regulates
+      source: InterPro:IPR005446
+      target: GO:0061337
+    - key: positively regulates
+      source: UniProt:Q9Y3Q4
+      target: GO:0061337
+    - key: positively regulates
+      source: UniProt:P63252
+      target: GO:0061337
+    - key: positively correlated with
+      source: GO:0061337
+      target: HP:0001692
+    - key: manifestation of
+      source: HP:0001692
+      target: MESH:D001281
+  multigraph: true
+  nodes:
+    - id: MESH:C118667
+      label: Drug
+      name: dronedarone
+    - id: InterPro:IPR001696
+      label: GeneFamily
+      name: Voltage gated sodium channel, alpha subunit
+    - id: InterPro:IPR005446
+      label: GeneFamily
+      name: Voltage-dependent calcium channel, L-type, alpha-1 subunit
+    - id: UniProt:Q9Y3Q4
+      label: Protein
+      name: Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4
+    - id: UniProt:P63252
+      label: Protein
+      name: Inward rectifier potassium channel 2
+    - id: GO:0061337
+      label: BiologicalProcess
+      name: cardiac conduction
+    - id: HP:0001692
+      label: PhenotypicFeature
+      name: Atrial arrhythmia
+    - id: MESH:D001281
+      label: Disease
+      name: Atrial fibrillation
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL184412/
+    - https://en.wikipedia.org/wiki/Dronedarone#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Non-small cell lung cancer
+    disease_mesh: MESH:D002289
+    drug: ramucirumab
+    drug_mesh: MESH:C543333
+    drugbank: DB:DB05578
+  links:
+    - key: decreases activity of
+      source: MESH:C543333
+      target: UniProt:P35968
+    - key: positively regulates
+      source: UniProt:P35968
+      target: GO:0001525
+    - key: positively correlated with
+      source: GO:0001525
+      target: MESH:D002289
+  multigraph: true
+  nodes:
+    - id: MESH:C543333
+      label: Drug
+      name: ramucirumab
+    - id: UniProt:P35968
+      label: Protein
+      name: Vascular endothelial growth factor receptor 2
+    - id: GO:0001525
+      label: BiologicalProcess
+      name: angiogenesis
+    - id: MESH:D002289
+      label: Disease
+      name: Non-small cell lung cancer
+  reference:
+    - https://go.drugbank.com/drugs/DB05578
+    - https://en.wikipedia.org/wiki/Ramucirumab#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Diabetes mellitus type 2
+    disease_mesh: MESH:D003924
+    drug: alogliptin
+    drug_mesh: MESH:C520853
+    drugbank: DB:DB06203
+  links:
+    - key: negatively regulates
+      source: MESH:C520853
+      target: UniProt:P27487
+    - key: participates in
+      source: UniProt:P27487
+      target: REACT:R-HSA-381771
+    - key: participates in
+      source: UniProt:P27487
+      target: REACT:R-HSA-400511
+    - key: negatively correlated with
+      source: REACT:R-HSA-381771
+      target: GO:0030073
+    - key: negatively correlated with
+      source: REACT:R-HSA-400511
+      target: GO:0030073
+    - key: positively correlated with
+      source: REACT:R-HSA-381771
+      target: GO:0070091
+    - key: positively correlated with
+      source: REACT:R-HSA-400511
+      target: GO:0070091
+    - key: positively correlated with
+      source: GO:0070091
+      target: MESH:D003924
+    - key: negatively correlated with
+      source: GO:0030073
+      target: MESH:D003924
+  multigraph: true
+  nodes:
+    - id: MESH:C520853
+      label: Drug
+      name: alogliptin
+    - id: UniProt:P27487
+      label: Protein
+      name: Dipeptidyl peptidase 4
+    - id: REACT:R-HSA-381771
+      label: Pathway
+      name: Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)
+    - id: REACT:R-HSA-400511
+      label: Pathway
+      name: Synthesis, secretion, and inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)
+    - id: GO:0030073
+      label: BiologicalProcess
+      name: Insulin Secretion
+    - id: GO:0070091
+      label: BiologicalProcess
+      name: glucagon secretion
+    - id: MESH:D003924
+      label: Disease
+      name: Diabetes mellitus type 2
+  reference: https://go.drugbank.com/drugs/DB06203
+- directed: true
+  graph:
+    disease: Depressive disorder
+    disease_mesh: MESH:D003866
+    drug: butriptyline
+    drug_mesh: MESH:C100242
+    drugbank: DB:DB09016
+  links:
+    - key: negatively regulates
+      source: MESH:C100242
+      target: UniProt:P23975
+    - key: negatively regulates
+      source: MESH:C100242
+      target: UniProt:P31645
+    - key: positively regulates
+      source: UniProt:P23975
+      target: GO:0051934
+    - key: positively regulates
+      source: UniProt:P31645
+      target: GO:0051610
+    - key: positively correlated with
+      source: GO:0051610
+      target: MESH:D003866
+    - key: positively correlated with
+      source: GO:0051934
+      target: MESH:D003866
+  multigraph: true
+  nodes:
+    - id: MESH:C100242
+      label: Drug
+      name: butriptyline
+    - id: UniProt:P31645
+      label: Protein
+      name: Sodium-dependent serotonin transporter
+    - id: UniProt:P23975
+      label: Protein
+      name: Sodium-dependent noradrenaline transporter
+    - id: GO:0051610
+      label: BiologicalProcess
+      name: serotonin uptake
+    - id: GO:0051934
+      label: BiologicalProcess
+      name: catecholamine uptake involved in synaptic transmission
+    - id: MESH:D003866
+      label: Disease
+      name: Depressive disorder
+  reference:
+    - https://go.drugbank.com/drugs/DB09016
+    - https://en.wikipedia.org/wiki/Butriptyline#Pharmacodynamics
+    - https://pubchem.ncbi.nlm.nih.gov/compound/21772#section=MeSH-Pharmacological-Classification
+  comment: Butriptyline may seem to be very weak at blocking any biogenic amine uptake, including serotonin (https://pubmed.ncbi.nlm.nih.gov/6499924/).
+- directed: true
+  graph:
+    disease: Depressive disorder
+    disease_mesh: MESH:D003866
+    drug: mebanazine
+    drug_mesh: MESH:C004343
+    drugbank: DB:DB09248
+  links:
+    - key: negatively regulates
+      source: MESH:C004343
+      target: UniProt:P21397
+    - key: negatively regulates
+      source: MESH:C004343
+      target: UniProt:P27338
+    - key: positively regulates
+      source: UniProt:P21397
+      target: GO:0042135
+    - key: positively regulates
+      source: UniProt:P27338
+      target: GO:0042135
+    - key: positively correlated with
+      source: GO:0042135
+      target: MESH:D003866
+  multigraph: true
+  nodes:
+    - id: MESH:C004343
+      label: Drug
+      name: mebanazine
+    - id: UniProt:P21397
+      label: Protein
+      name: Amine oxidase [flavin-containing] A
+    - id: UniProt:P27338
+      label: Protein
+      name: Amine oxidase [flavin-containing] B
+    - id: GO:0042135
+      label: BiologicalProcess
+      name: neurotransmitter catabolic process
+    - id: MESH:D003866
+      label: Disease
+      name: Depressive disorder
+  reference:
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1909283/
+    - https://en.wikipedia.org/wiki/Monoamine_oxidase_inhibitor#Mechanism_of_action
+  comment: Withdrawn due to hepatotoxicity (https://en.wikipedia.org/wiki/Mebanazine).
+- directed: true
+  graph:
+    disease: Human immunodeficiency virus infection
+    disease_mesh: MESH:D015658
+    drug: cobicistat
+    drug_mesh: MESH:D000069547
+    drugbank: DB:DB09065
+  links:
+    - key: negatively regulates
+      source: MESH:D000069547
+      target: InterPro:IPR001128﻿
+    - key: positively regulates
+      source: InterPro:IPR001128﻿
+      target: GO:0042178
+    - key: decreases abundance of
+      source: GO:0042178
+      target: CHEBI:22587
+    - key: negatively correlated with
+      source: CHEBI:22587
+      target: MESH:D015658
+  multigraph: true
+  nodes:
+    - id: MESH:D000069547
+      label: Drug
+      name: cobicistat
+    - id: InterPro:IPR001128﻿
+      label: GeneFamily
+      name: Cytochrome P450
+    - id: GO:0042178
+      label: BiologicalProcess
+      name: xenobiotic catabolic process
+    - id: CHEBI:22587
+      label: ChemicalSubstance
+      name: antiviral agent
+    - id: MESH:D015658
+      label: Disease
+      name: Human immunodeficiency virus infection
+  reference:
+    - https://go.drugbank.com/drugs/DB09065
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2095208/
+  comment: Cobicistat does not have any anti-HIV activity on its own; it acts as a pharmacokinetic enhancer by inhibiting cytochrome P450 3A isoforms (CYP3A) and therefore increases the systemic exposure of coadministered agents that are metabolized by CYP3A enzymes (https://pubchem.ncbi.nlm.nih.gov/compound/25151504#section=Mechanism-of-Action)
+- directed: true
+  graph:
+    disease: Angina pectoris
+    disease_mesh: MESH:D000787
+    drug: nicorandil
+    drug_mesh: MESH:D020108
+    drugbank: DB:DB09220
+  links:
+    - key: positively regulates
+      source: MESH:D020108
+      target: UniProt:O60706
+    - key: positively regulates
+      source: UniProt:O60706
+      target: GO:0061337
+    - key: positively regulates
+      source: UniProt:O60706
+      target: GO:0042311
+    - key: negatively correlated with
+      source: GO:0042311
+      target: MESH:D000787
+    - key: negatively correlated with
+      source: GO:0061337
+      target: MESH:D000787
+  multigraph: true
+  nodes:
+    - id: MESH:D020108
+      label: Drug
+      name: nicorandil
+    - id: UniProt:O60706
+      label: Protein
+      name: ATP-binding cassette sub-family C member 9
+    - id: GO:0061337
+      label: BiologicalProcess
+      name: cardiac conduction
+    - id: GO:0042311
+      label: BiologicalProcess
+      name: vasodilation
+    - id: MESH:D000787
+      label: Disease
+      name: Angina pectoris
+  reference:
+    - https://go.drugbank.com/drugs/DB09220
+    - https://en.wikipedia.org/wiki/Nicorandil#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/47528#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Amyotrophic lateral sclerosis
+    disease_mesh: MESH:D000690
+    drug: edaravone
+    drug_mesh: MESH:C005435
+    drugbank: DB:DB12243
+  links:
+    - key: positively regulates
+      source: MESH:C005435
+      target: GO:0019430
+    - key: subclass of
+      source: MESH:C005435
+      target: CHEBI:63726
+    - key: subclass of
+      source: MESH:C005435
+      target: CHEBI:66980
+    - key: negatively correlated with
+      source: GO:0019430
+      target: MESH:D000690
+    - key: negatively correlated with
+      source: CHEBI:63726
+      target: MESH:D000690
+    - key: negatively correlated with
+      source: CHEBI:66980
+      target: MESH:D000690
+  multigraph: true
+  nodes:
+    - id: MESH:C005435
+      label: Drug
+      name: edaravone
+    - id: GO:0019430
+      label: BiologicalProcess
+      name: removal of superoxide radicals
+    - id: CHEBI:63726
+      label: ChemicalSubstance
+      name: neuroprotective agent
+    - id: CHEBI:66980
+      label: ChemicalSubstance
+      name: nootropic agent
+    - id: MESH:D000690
+      label: Disease
+      name: Amyotrophic lateral sclerosis
+  reference:
+    - https://go.drugbank.com/drugs/DB12243
+    - https://en.wikipedia.org/wiki/Edaravone#Pharmacology
+    - https://pubchem.ncbi.nlm.nih.gov/compound/4021#section=Mechanism-of-Action
+- directed: true
+  graph:
+    disease: Asthma
+    disease_mesh: MESH:D001249
+    drug: reproterol
+    drug_mesh: MESH:C014792
+    drugbank: DB:DB12846
+  links:
+    - key: increases activity of
+      source: MESH:C014792
+      target: UniProt:P07550
+    - key: positively regulates
+      source: UniProt:P07550
+      target: GO:0044557
+    - key: negatively correlated with
+      source: GO:0044557
+      target: MESH:D001249
+  multigraph: true
+  nodes:
+    - id: MESH:C014792
+      label: Drug
+      name: reproterol
+    - id: UniProt:P07550
+      label: Protein
+      name: Beta-2 adrenergic receptor
+    - id: GO:0044557
+      label: BiologicalProcess
+      name: relaxation of smooth muscle
+    - id: MESH:D001249
+      label: Disease
+      name: Asthma
+  reference:
+    - https://pubchem.ncbi.nlm.nih.gov/compound/25654#section=MeSH-Pharmacological-Classification
+    - https://en.wikipedia.org/wiki/Reproterol
 
