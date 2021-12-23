@@ -1,1 +1,1649 @@
-
+-   directed: true
+    graph:
+        disease: Social phobia
+        disease_mesh: MESH:D000072861
+        drug: fluvoxamine
+        drug_mesh: MESH:D016666
+        drugbank: DB:DB00176
+    links:
+    -   key: decreases activity of
+        source: MESH:D016666
+        target: UniProt:P31645
+    -   key: negatively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: located in
+        source: GO:0051610
+        target: GO:0043083
+    -   key: correlated with
+        source: GO:0043083
+        target: GO:0060096
+    -   key: negatively correlated with
+        source: GO:0060096
+        target: MESH:D000072861
+    multigraph: true
+    nodes:
+    -   id: MESH:D016666
+        label: Drug
+        name: fluvoxamine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: serotonin uptake
+    -   id: GO:0043083
+        label: CellularComponent
+        name: Synaptic cleft
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D000072861
+        label: Disease
+        name: Social phobia
+    reference:
+    - https://go.drugbank.com/drugs/DB00176
+    - https://en.wikipedia.org/wiki/Fluvoxamine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL814/
+-   directed: true
+    graph:
+        disease: Obsessive-compulsive disorder
+        disease_mesh: MESH:D009771
+        drug: fluvoxamine
+        drug_mesh: MESH:D016666
+        drugbank: DB:DB00176
+    links:
+    -   key: decreases activity of
+        source: MESH:D016666
+        target: UniProt:P31645
+    -   key: negatively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: located in
+        source: GO:0051610
+        target: GO:0043083
+    -   key: correlated with
+        source: GO:0043083
+        target: GO:0060096
+    -   key: negatively correlated with
+        source: GO:0060096
+        target: MESH:D009771
+    multigraph: true
+    nodes:
+    -   id: MESH:D016666
+        label: Drug
+        name: fluvoxamine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: serotonin uptake
+    -   id: GO:0043083
+        label: CellularComponent
+        name: Synaptic cleft
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D009771
+        label: Disease
+        name: Obsessive-compulsive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00176
+    - https://en.wikipedia.org/wiki/Fluvoxamine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL814/
+-   directed: true
+    graph:
+        disease: Candidiasis, Vulvovaginal
+        disease_mesh: MESH:D002181
+        drug: terconazole
+        drug_mesh: MESH:C037815
+        drugbank: DB:DB00251
+    links:
+    -   key: negatively regulates
+        source: MESH:C037815
+        target: UniProt:P10613
+    -   key: positively regulates
+        source: UniProt:P10613
+        target: GO:0006696
+    -   key: produces
+        source: GO:0006696
+        target: CHEBI:16933
+    -   key: located in
+        source: CHEBI:16933
+        target: GO:0030445
+    -   key: regulates
+        source: GO:0030445
+        target: MESH:D002463
+    -   key: in taxon
+        source: MESH:D002463
+        target: NCBITaxon:237561
+    -   key: causes
+        source: NCBITaxon:237561
+        target: MESH:D002181
+    multigraph: true
+    nodes:
+    -   id: MESH:C037815
+        label: Drug
+        name: terconazole
+    -   id: UniProt:P10613
+        label: Protein
+        name: Lanosterol 14-alpha demethylase
+    -   id: GO:0006696
+        label: BiologicalProcess
+        name: ergosterol biosynthetic process
+    -   id: CHEBI:16933
+        label: ChemicalSubstance
+        name: ergosterol
+    -   id: GO:0030445
+        label: CellularComponent
+        name: yeast-form cell wall
+    -   id: MESH:D002463
+        label: PhenotypicFeature
+        name: Cell Membrane Permeability
+    -   id: NCBITaxon:237561
+        label: OrganismTaxon
+        name: Candida albicans SC5314
+    -   id: MESH:D002181
+        label: Disease
+        name: Candidiasis, Vulvovaginal
+    reference:
+    - https://go.drugbank.com/drugs/DB00251
+    - http://europepmc.org/article/MED/1951574
+    - http://europepmc.org/article/MED/2677363
+    - https://en.wikipedia.org/wiki/Terconazole
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Tension-type headache
+        disease_mesh: MESH:D018781
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D018781
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D018781
+        label: Disease
+        name: Tension-type headache
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Migraine
+        disease_mesh: MESH:D008881
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D008881
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D008881
+        label: Disease
+        name: Migraine
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Toothache
+        disease_mesh: MESH:D014098
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D014098
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D014098
+        label: Disease
+        name: Toothache
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Headache disorder
+        disease_mesh: MESH:D020773
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D020773
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D020773
+        label: Disease
+        name: Headache disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Joint pain
+        disease_mesh: MESH:D018771
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D018771
+    -   key: ameliorates
+        source: GO:0006954
+        target: MESH:D018771
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D018771
+        label: Disease
+        name: Joint pain
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D003139
+    -   key: ameliorates
+        source: GO:0006954
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: paracetamol
+        drug_mesh: MESH:D000082
+        drugbank: DB:DB00316
+    links:
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:D000082
+        target: UniProt:Q15185
+    -   key: has metabolite
+        source: MESH:D000082
+        target: MESH:C107594
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P21554
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:P34972
+    -   key: positively regulates
+        source: MESH:C107594
+        target: UniProt:Q8NER1
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:Q15185
+        target: GO:0001516
+    -   key: increases abundance of
+        source: GO:0001516
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P21554
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:P34972
+        target: GO:0019233
+    -   key: negatively regulates
+        source: UniProt:Q8NER1
+        target: GO:0019233
+    -   key: ameliorates
+        source: GO:0019233
+        target: MESH:D065631
+    -   key: ameliorates
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D000082
+        label: Drug
+        name: paracetamol
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:Q15185
+        label: Protein
+        name: Prostaglandin E synthase 3
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: MESH:C107594
+        label: ChemicalSubstance
+        name: N-(4-hydroxyphenyl)arachidonylamide (AM404)
+    -   id: UniProt:P21554
+        label: Protein
+        name: Cannabinoid receptor 1
+    -   id: UniProt:P34972
+        label: Protein
+        name: Cannabinoid receptor 2
+    -   id: UniProt:Q8NER1
+        label: Protein
+        name: Transient receptor potential cation channel subfamily V member 1 (TRPV1)
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammation
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB00316
+    - https://en.wikipedia.org/wiki/Paracetamol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL112/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/1983
+    - https://pubmed.ncbi.nlm.nih.gov/15987694/
+-   directed: true
+    graph:
+        disease: Itching of skin
+        disease_mesh: MESH:D011537
+        drug: dyclonine
+        drug_mesh: MESH:C100063
+        drugbank: DB:DB00645
+    links:
+    -   key: decreases activity of
+        source: MESH:C100063
+        target: InterPro:IPR001696
+    -   key: participates in
+        source: InterPro:IPR001696
+        target: GO:0005248
+    -   key: positively regulates
+        source: GO:0005248
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0019228
+    -   key: contributes to
+        source: GO:0019228
+        target: GO:0050806
+    -   key: actively involved in
+        source: GO:0050806
+        target: GO:1904058
+    -   key: positively regulates
+        source: GO:1904058
+        target: CL:0000197
+    -   key: positively correlated with
+        source: CL:0000197
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:C100063
+        label: Drug
+        name: dyclonine
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0005248
+        label: BiologicalProcess
+        name: Voltage-gated sodium channel activity
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: GO:0019228
+        label: BiologicalProcess
+        name: neuronal action potential
+    -   id: GO:0050806
+        label: BiologicalProcess
+        name: positive regulation of synaptic transmission
+    -   id: GO:1904058
+        label: BiologicalProcess
+        name: positive regulation of sensory perception of pain
+    -   id: CL:0000197
+        label: Cell
+        name: Sensory Receptor Cell
+    -   id: MESH:D011537
+        label: Drug
+        name: Itching of skin
+    reference:
+    - https://go.drugbank.com/drugs/DB00645
+    - http://europepmc.org/article/MED/8799190
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201217/
+    - https://en.wikipedia.org/wiki/Dyclonine
+    - https://pubchem.ncbi.nlm.nih.gov/compound/3180
+-   directed: true
+    graph:
+        disease: Pheochromocytoma
+        disease_mesh: MESH:D010673
+        drug: metirosine
+        drug_mesh: MESH:D019805
+        drugbank: DB:DB00765
+    links:
+    -   key: decreases activity of
+        source: MESH:D019805
+        target: UniProt:P07101
+    -   key: positively regulates
+        source: UniProt:P07101
+        target: REACT:R-HSA-209905
+    -   key: positively correlated with
+        source: REACT:R-HSA-209905
+        target: CHEBI:18243
+    -   key: positively correlated with
+        source: REACT:R-HSA-209905
+        target: CHEBI:33568
+    -   key: positively correlated with
+        source: REACT:R-HSA-209905
+        target: CHEBI:33569
+    -   key: positively regulates
+        source: CHEBI:18243
+        target: GO:0042310
+    -   key: positively regulates
+        source: CHEBI:33568
+        target: GO:0042310
+    -   key: positively regulates
+        source: CHEBI:33569
+        target: GO:0042310
+    -   key: affects risk for
+        source: GO:0042310
+        target: HP:0000822
+    -   key: manifestation of
+        source: HP:0000822
+        target: MESH:D010673
+    multigraph: true
+    nodes:
+    -   id: MESH:D019805
+        label: Drug
+        name: metirosine
+    -   id: UniProt:P07101
+        label: Protein
+        name: Tyrosine 3-monooxygenase
+    -   id: REACT:R-HSA-209905
+        label: Pathway
+        name: Catecholamine biosynthesis
+    -   id: CHEBI:18243
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: CHEBI:33568
+        label: ChemicalSubstance
+        name: adrenaline
+    -   id: CHEBI:33569
+        label: ChemicalSubstance
+        name: noradrenaline
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
+    -   id: MESH:D010673
+        label: Disease
+        name: Pheochromocytoma
+    reference:
+    - https://go.drugbank.com/drugs/DB00765
+    - https://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1200862
+    - https://en.wikipedia.org/wiki/Pheochromocytoma
+    - https://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=441350
+-   directed: true
+    graph:
+        disease: Acute promyelocytic leukemia, FAB M3
+        disease_mesh: MESH:D015473
+        drug: cytarabine
+        drug_mesh: MESH:D003561
+        drugbank: DB:DB00987
+    links:
+    -   key: has metabolite
+        source: MESH:D003561
+        target: MESH:D001085
+    -   key: causes
+        source: MESH:D001085
+        target: MESH:D004249
+    -   key: decreases activity of
+        source: MESH:D001085
+        target: UniProt:P06746
+    -   key: positively regulates
+        source: UniProt:P06746
+        target: GO:0090592
+    -   key: positively regulates
+        source: GO:0090592
+        target: GO:0008283
+    -   key: causes
+        source: MESH:D004249
+        target: GO:0008219
+    -   key: negatively regulates
+        source: GO:0008219
+        target: CL:0001063
+    -   key: manifestation of
+        source: CL:0001063
+        target: MESH:D015473
+    -   key: precedes
+        source: GO:0008283
+        target: MESH:D015473
+    multigraph: true
+    nodes:
+    -   id: MESH:D003561
+        label: Drug
+        name: cytarabine
+    -   id: MESH:D001085
+        label: ChemicalSubstance
+        name: Arabinofuranosylcytosine Triphosphate
+    -   id: MESH:D004249
+        label: BiologicalProcess
+        name: DNA Damage
+    -   id: UniProt:P06746
+        label: Protein
+        name: DNA polymerase beta
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cells
+    -   id: MESH:D015473
+        label: Disease
+        name: Acute promyelocytic leukemia, FAB M3
+    reference:
+    - https://go.drugbank.com/drugs/DB00987#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cytarabine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL803/
+-   directed: true
+    graph:
+        disease: Acute myeloid leukemia, disease
+        disease_mesh: MESH:D015470
+        drug: cytarabine
+        drug_mesh: MESH:D003561
+        drugbank: DB:DB00987
+    links:
+    -   key: has metabolite
+        source: MESH:D003561
+        target: MESH:D001085
+    -   key: causes
+        source: MESH:D001085
+        target: MESH:D004249
+    -   key: decreases activity of
+        source: MESH:D001085
+        target: UniProt:P06746
+    -   key: positively regulates
+        source: UniProt:P06746
+        target: GO:0090592
+    -   key: positively regulates
+        source: GO:0090592
+        target: GO:0008283
+    -   key: causes
+        source: MESH:D004249
+        target: GO:0008219
+    -   key: negatively regulates
+        source: GO:0008219
+        target: CL:0001063
+    -   key: manifestation of
+        source: CL:0001063
+        target: MESH:D015470
+    -   key: precedes
+        source: GO:0008283
+        target: MESH:D015470
+    multigraph: true
+    nodes:
+    -   id: MESH:D003561
+        label: Drug
+        name: cytarabine
+    -   id: MESH:D001085
+        label: ChemicalSubstance
+        name: Arabinofuranosylcytosine Triphosphate
+    -   id: MESH:D004249
+        label: BiologicalProcess
+        name: DNA Damage
+    -   id: UniProt:P06746
+        label: Protein
+        name: DNA polymerase beta
+    -   id: GO:0090592
+        label: BiologicalProcess
+        name: DNA synthesis involved in DNA replication
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: GO:0008219
+        label: BiologicalProcess
+        name: Cell death
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cells
+    -   id: MESH:D015470
+        label: Disease
+        name: Acute myeloid leukemia, disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00987#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cytarabine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL803/
+-   directed: true
+    graph:
+        disease: Angina pectoris
+        disease_mesh: MESH:D000787
+        drug: isosorbide mononitrate
+        drug_mesh: MESH:C030397
+        drugbank: DB:DB01020
+    links:
+    -   key: increases abundance of
+        source: MESH:C030397
+        target: MESH:D009569
+    -   key: positively regulates
+        source: MESH:D009569
+        target: InterPro:IPR001170
+    -   key: increases activity of
+        source: InterPro:IPR001170
+        target: MESH:D006152
+    -   key: positively regulates
+        source: MESH:D006152
+        target: GO:0006470
+    -   key: positively regulates
+        source: MESH:D006152
+        target: GO:0051208
+    -   key: positively correlated with
+        source: GO:0051208
+        target: GO:0060087
+    -   key: precedes
+        source: GO:0051208
+        target: GO:0042311
+    -   key: ameliorates
+        source: GO:0042311
+        target: MESH:D000787
+    -   key: occurs in
+        source: GO:0006470
+        target: MESH:D018994
+    -   key: positively correlated with
+        source: MESH:D018994
+        target: GO:0060087
+    -   key: ameliorates
+        source: GO:0060087
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:C030397
+        label: Drug
+        name: isosorbide mononitrate
+    -   id: MESH:D009569
+        label: ChemicalSubstance
+        name: Nitric oxide
+    -   id: InterPro:IPR001170
+        label: GeneFamily
+        name: Guanylate cyclase
+    -   id: GO:0051208
+        label: BiologicalProcess
+        name: Sequestering of calcium ion
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: Vasodilation
+    -   id: MESH:D006152
+        label: ChemicalSubstance
+        name: Cyclic guanosine 3',5'-monophosphate (cGMP)
+    -   id: GO:0006470
+        label: BiologicalProcess
+        name: Protein dephosphorylation
+    -   id: MESH:D018994
+        label: ChemicalSubstance
+        name: Myosin light chains
+    -   id: GO:0060087
+        label: BiologicalProcess
+        name: Relaxation of vascular associated smooth muscle
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina pectoris
+    reference:
+    - https://go.drugbank.com/drugs/DB01020#mechanismofaction
+    - https://en.wikipedia.org/wiki/Isosorbide_mononitrate
+    - https://pubchem.ncbi.nlm.nih.gov/compound/27661
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1311/
+-   directed: true
+    graph:
+        disease: Anxiety disorder
+        disease_mesh: MESH:D001008
+        drug: captodiame
+        drug_mesh: MESH:C495502
+        drugbank: DB:DB09014
+    links:
+    -   key: decreases activity of
+        source: MESH:C495502
+        target: UniProt:P28335
+    -   key: positively correlated with
+        source: UniProt:P28335
+        target: MESH:D012701
+    -   key: increases abundance of
+        source: MESH:C495502
+        target: UniProt:P23560
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: HP:0000739
+    -   key: increases activity of
+        source: MESH:C495502
+        target: UniProt:Q99720
+    -   key: positively regulates
+        source: UniProt:Q99720
+        target: GO:0007269
+    -   key: negatively regulates
+        source: GO:0007269
+        target: HP:0012154
+    -   key: negatively regulates
+        source: UniProt:Q99720
+        target: HP:0000739
+    -   key: negatively regulates
+        source: UniProt:P23560
+        target: HP:0012154
+    -   key: positively correlated with
+        source: HP:0012154
+        target: HP:0000739
+    -   key: manifestation of
+        source: HP:0000739
+        target: MESH:D001008
+    multigraph: true
+    nodes:
+    -   id: MESH:C495502
+        label: Drug
+        name: captodiame
+    -   id: UniProt:P28335
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2C
+    -   id: UniProt:Q99720
+        label: Protein
+        name: Sigma non-opioid intracellular receptor 1
+    -   id: UniProt:P23560
+        label: Protein
+        name: brain-derived neurotrophic factor (BDNF)
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0007269
+        label: BiologicalProcess
+        name: Neurotransmitter secretion
+    -   id: HP:0000739
+        label: PhenotypicFeature
+        name: Anxiety
+    -   id: HP:0012154
+        label: PhenotypicFeature
+        name: Anhedonia
+    -   id: MESH:D001008
+        label: Disease
+        name: Anxiety disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB09014
+    - https://patentimages.storage.googleapis.com/6d/5c/16/f8b01012044478/EP2291181B9.pdf
+    - https://pubmed.ncbi.nlm.nih.gov/23863923/
+-   comment: Magnesium carbonate reacts with hydrochloric acid in the stomach to form carbon dioxide
+             and magnesium chloride thus neutralizing excess acid in the stomach
+    directed: true
+    graph:
+        disease: Gastroesophageal reflux disease
+        disease_mesh: MESH:D005764
+        drug: magnesium carbonate
+        drug_mesh: MESH:C005479
+        drugbank: DB:DB09481
+    links:
+    -   key: subclass of
+        source: MESH:C005479
+        target: MESH:D000863
+    -   key: negatively correlated with
+        source: MESH:D000863
+        target: GO:0001696
+    -   key: negatively correlated with
+        source: GO:0001696
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D006356
+    -   key: positively correlated with
+        source: MESH:D006356
+        target: MESH:D005764
+    multigraph: true
+    nodes:
+    -   id: MESH:C005479
+        label: Drug
+        name: magnesium carbonate
+    -   id: MESH:D000863
+        label: ChemicalSubstance
+        name: Antacids
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    reference:
+    - https://go.drugbank.com/drugs/DB09481
+-   comment: Magnesium carbonate reacts with hydrochloric acid in the stomach to form carbon dioxide
+             and magnesium chloride thus neutralizing excess acid in the stomach
+    directed: true
+    graph:
+        disease: Heartburn
+        disease_mesh: MESH:D006356
+        drug: magnesium carbonate
+        drug_mesh: MESH:C005479
+        drugbank: DB:DB09481
+    links:
+    -   key: subclass of
+        source: MESH:C005479
+        target: MESH:D000863
+    -   key: negatively correlated with
+        source: MESH:D000863
+        target: GO:0001696
+    -   key: negatively correlated with
+        source: GO:0001696
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D006356
+    multigraph: true
+    nodes:
+    -   id: MESH:C005479
+        label: Drug
+        name: magnesium carbonate
+    -   id: MESH:D000863
+        label: ChemicalSubstance
+        name: Antacids
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    reference:
+    - https://go.drugbank.com/drugs/DB09481
+-   comment: Magnesium carbonate reacts with hydrochloric acid in the stomach to form carbon dioxide
+             and magnesium chloride thus neutralizing excess acid in the stomach
+    directed: true
+    graph:
+        disease: Peptic ulcer
+        disease_mesh: MESH:D010437
+        drug: magnesium carbonate
+        drug_mesh: MESH:C005479
+        drugbank: DB:DB09481
+    links:
+    -   key: subclass of
+        source: MESH:C005479
+        target: MESH:D000863
+    -   key: negatively correlated with
+        source: MESH:D000863
+        target: GO:0001696
+    -   key: negatively correlated with
+        source: GO:0001696
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D006356
+    -   key: positively correlated with
+        source: MESH:D006356
+        target: MESH:D005764
+    -   key: positively correlated with
+        source: MESH:D005764
+        target: MESH:D010437
+    multigraph: true
+    nodes:
+    -   id: MESH:C005479
+        label: Drug
+        name: magnesium carbonate
+    -   id: MESH:D000863
+        label: ChemicalSubstance
+        name: Antacids
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    -   id: MESH:D010437
+        label: Disease
+        name: Peptic ulcer
+    reference:
+    - https://go.drugbank.com/drugs/DB09481
+    - https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-021-01687-8
+-   comment: Magnesium carbonate reacts with hydrochloric acid in the stomach to form carbon dioxide
+             and magnesium chloride thus neutralizing excess acid in the stomach
+    directed: true
+    graph:
+        disease: Constipation
+        disease_mesh: MESH:D003248
+        drug: magnesium carbonate
+        drug_mesh: MESH:C005479
+        drugbank: DB:DB09481
+    links:
+    -   key: subclass of
+        source: MESH:C005479
+        target: MESH:D000863
+    -   key: negatively correlated with
+        source: MESH:D000863
+        target: GO:0001696
+    -   key: negatively correlated with
+        source: GO:0001696
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D006356
+    -   key: positively correlated with
+        source: MESH:D006356
+        target: MESH:D005764
+    -   key: positively correlated with
+        source: MESH:D005764
+        target: MESH:D003248
+    multigraph: true
+    nodes:
+    -   id: MESH:C005479
+        label: Drug
+        name: magnesium carbonate
+    -   id: MESH:D000863
+        label: ChemicalSubstance
+        name: Antacids
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    -   id: MESH:D003248
+        label: Disease
+        name: Constipation
+    reference:
+    - https://go.drugbank.com/drugs/DB09481
+    - https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-021-01687-8
+-   comment: Magnesium carbonate reacts with hydrochloric acid in the stomach to form carbon dioxide
+             and magnesium chloride thus neutralizing excess acid in the stomach
+    directed: true
+    graph:
+        disease: Indigestion
+        disease_mesh: MESH:D004415
+        drug: magnesium carbonate
+        drug_mesh: MESH:C005479
+        drugbank: DB:DB09481
+    links:
+    -   key: subclass of
+        source: MESH:C005479
+        target: MESH:D000863
+    -   key: negatively correlated with
+        source: MESH:D000863
+        target: GO:0001696
+    -   key: negatively correlated with
+        source: GO:0001696
+        target: MESH:D005744
+    -   key: positively correlated with
+        source: MESH:D005744
+        target: MESH:D006356
+    -   key: positively correlated with
+        source: MESH:D006356
+        target: MESH:D005764
+    -   key: positively correlated with
+        source: MESH:D005764
+        target: MESH:D004415
+    multigraph: true
+    nodes:
+    -   id: MESH:C005479
+        label: Drug
+        name: magnesium carbonate
+    -   id: MESH:D000863
+        label: ChemicalSubstance
+        name: Antacids
+    -   id: GO:0001696
+        label: BiologicalProcess
+        name: Gastric acid secretion
+    -   id: MESH:D005744
+        label: ChemicalSubstance
+        name: Gastric Acid
+    -   id: MESH:D006356
+        label: Disease
+        name: Heartburn
+    -   id: MESH:D005764
+        label: Disease
+        name: Gastroesophageal reflux disease
+    -   id: MESH:D004415
+        label: Disease
+        name: Indigestion
+    reference:
+    - https://go.drugbank.com/drugs/DB09481
+    - https://bmcgastroenterol.biomedcentral.com/articles/10.1186/s12876-021-01687-8
