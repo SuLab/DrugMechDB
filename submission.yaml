@@ -1,1 +1,1279 @@
-
+-   directed: true
+    graph:
+        disease: Bipolar affective disorder, current episode depression
+        disease_mesh: MESH:D001714
+        drug: fluoxetine
+        drug_mesh: MESH:D005473
+        drugbank: DB:DB00472
+    links:
+    -   key: decreases activity of
+        source: MESH:D005473
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: negatively regulates
+        source: GO:0060096
+        target: MESH:D001714
+    multigraph: true
+    nodes:
+    -   id: MESH:D005473
+        label: Drug
+        name: fluoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D001714
+        label: Disease
+        name: Bipolar affective disorder, current episode depression
+    reference:
+    - https://go.drugbank.com/drugs/DB00472
+    - https://en.wikipedia.org/wiki/Fluoxetine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/
+    - https://pubmed.ncbi.nlm.nih.gov/17289086/
+-   directed: true
+    graph:
+        disease: Panic disorder
+        disease_mesh: MESH:D016584
+        drug: fluoxetine
+        drug_mesh: MESH:D005473
+        drugbank: DB:DB00472
+    links:
+    -   key: decreases activity of
+        source: MESH:D005473
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: positively correlated with
+        source: MESH:D012701
+        target: GO:0060096
+    -   key: negatively regulates
+        source: GO:0060096
+        target: MESH:D016584
+    multigraph: true
+    nodes:
+    -   id: MESH:D005473
+        label: Drug
+        name: fluoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: GO:0060096
+        label: BiologicalProcess
+        name: Serotonin secretion, neurotransmission
+    -   id: MESH:D016584
+        label: Disease
+        name: Panic disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00472
+    - https://en.wikipedia.org/wiki/Fluoxetine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/
+    - https://pubmed.ncbi.nlm.nih.gov/17289086/
+-   directed: true
+    graph:
+        disease: Premenstrual dysphoric disorder
+        disease_mesh: MESH:D065446
+        drug: fluoxetine
+        drug_mesh: MESH:D005473
+        drugbank: DB:DB00472
+    links:
+    -   key: decreases activity of
+        source: MESH:D005473
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: MESH:D019964
+    -   key: positively correlated with
+        source: MESH:D019964
+        target: MESH:D065446
+    multigraph: true
+    nodes:
+    -   id: MESH:D005473
+        label: Drug
+        name: fluoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D019964
+        label: Disease
+        name: Mood Disorders
+    -   id: MESH:D065446
+        label: Disease
+        name: Premenstrual dysphoric disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00472
+    - https://en.wikipedia.org/wiki/Fluoxetine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/
+    - https://pubmed.ncbi.nlm.nih.gov/17289086/
+-   directed: true
+    graph:
+        disease: Depressive disorder
+        disease_mesh: MESH:D003866
+        drug: fluoxetine
+        drug_mesh: MESH:D005473
+        drugbank: DB:DB00472
+    links:
+    -   key: decreases activity of
+        source: MESH:D005473
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: MESH:D019964
+    -   key: positively correlated with
+        source: MESH:D019964
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D005473
+        label: Drug
+        name: fluoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D019964
+        label: Disease
+        name: Mood Disorders
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00472
+    - https://en.wikipedia.org/wiki/Fluoxetine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/
+    - https://pubmed.ncbi.nlm.nih.gov/17289086/
+-   directed: true
+    graph:
+        disease: Bulimia nervosa
+        disease_mesh: MESH:D052018
+        drug: fluoxetine
+        drug_mesh: MESH:D005473
+        drugbank: DB:DB00472
+    links:
+    -   key: decreases activity of
+        source: MESH:D005473
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: HP:0100738
+    -   key: positively correlated with
+        source: HP:0100738
+        target: MESH:D052018
+    multigraph: true
+    nodes:
+    -   id: MESH:D005473
+        label: Drug
+        name: fluoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: HP:0100738
+        label: PhenotypicFeature
+        name: Abnormal eating behavior
+    -   id: MESH:D052018
+        label: Disease
+        name: Bulimia nervosa
+    reference:
+    - https://go.drugbank.com/drugs/DB00472
+    - https://en.wikipedia.org/wiki/Fluoxetine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/
+    - https://pubmed.ncbi.nlm.nih.gov/17289086/
+-   directed: true
+    graph:
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: fluoxetine
+        drug_mesh: MESH:D005473
+        drugbank: DB:DB00472
+    links:
+    -   key: decreases activity of
+        source: MESH:D005473
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: MESH:D019964
+    -   key: positively correlated with
+        source: MESH:D019964
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D005473
+        label: Drug
+        name: fluoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D019964
+        label: Disease
+        name: Mood Disorders
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00472
+    - https://en.wikipedia.org/wiki/Fluoxetine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/
+    - https://pubmed.ncbi.nlm.nih.gov/17289086/
+-   directed: true
+    graph:
+        disease: Obsessive-compulsive disorder
+        disease_mesh: MESH:D009771
+        drug: fluoxetine
+        drug_mesh: MESH:D005473
+        drugbank: DB:DB00472
+    links:
+    -   key: decreases activity of
+        source: MESH:D005473
+        target: UniProt:P31645
+    -   key: positively regulates
+        source: UniProt:P31645
+        target: GO:0051610
+    -   key: decreases abundance of
+        source: GO:0051610
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: MESH:D019964
+    -   key: positively correlated with
+        source: MESH:D019964
+        target: MESH:D009771
+    multigraph: true
+    nodes:
+    -   id: MESH:D005473
+        label: Drug
+        name: fluoxetine
+    -   id: UniProt:P31645
+        label: Protein
+        name: Sodium-dependent serotonin transporter
+    -   id: GO:0051610
+        label: BiologicalProcess
+        name: Serotonin uptake
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D019964
+        label: Disease
+        name: Mood Disorders
+    -   id: MESH:D009771
+        label: Disease
+        name: Obsessive-compulsive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00472
+    - https://en.wikipedia.org/wiki/Fluoxetine
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL41/
+    - https://pubmed.ncbi.nlm.nih.gov/17289086/
+-   directed: true
+    graph:
+        disease: Infection due to Staphylococcus aureus
+        disease_mesh: MESH:D013203
+        drug: Cefdinir
+        drug_mesh: MESH:C056814
+        drugbank: DB:DB00535
+    links:
+    -   key: decreases activity of
+        source: MESH:C056814
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: decreases activity of
+        source: MESH:C056814
+        target: UniProt:Q53725
+    -   key: positively regulates
+        source: UniProt:Q53725
+        target: GO:0071972
+    -   key: positively correlated with
+        source: GO:0071972
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:1280
+    -   key: causes
+        source: NCBITaxon:1280
+        target: MESH:D013203
+    multigraph: true
+    nodes:
+    -   id: MESH:C056814
+        label: Drug
+        name: Cefdinir
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: UniProt:Q53725
+        label: Protein
+        name: Cell division protein FtsI (Staphylococcus aureus)
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: NCBITaxon:1280
+        label: OrganismTaxon
+        name: Staphylococcus aureus
+    -   id: MESH:D013203
+        label: Disease
+        name: Infection due to Staphylococcus aureus
+    reference:
+    - https://go.drugbank.com/drugs/DB00535#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cefdinir
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL927/
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefdinir
+        drug_mesh: MESH:C056814
+        drugbank: DB:DB00535
+    links:
+    -   key: decreases activity of
+        source: MESH:C056814
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: decreases activity of
+        source: MESH:C056814
+        target: UniProt:Q54946
+    -   key: positively regulates
+        source: UniProt:Q54946
+        target: GO:0071972
+    -   key: positively correlated with
+        source: GO:0071972
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C056814
+        label: Drug
+        name: Cefdinir
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: UniProt:Q54946
+        label: Protein
+        name: DD-transpeptidase (Streptococcus pneumoniae)
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference:
+    - https://go.drugbank.com/drugs/DB00535#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cefdinir
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL927/
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: Cefdinir
+        drug_mesh: MESH:C056814
+        drugbank: DB:DB00535
+    links:
+    -   key: decreases activity of
+        source: MESH:C056814
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: decreases activity of
+        source: MESH:C056814
+        target: UniProt:J7M1U3
+    -   key: positively regulates
+        source: UniProt:J7M1U3
+        target: GO:0071972
+    -   key: positively correlated with
+        source: GO:0071972
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:C056814
+        label: Drug
+        name: Cefdinir
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: UniProt:J7M1U3
+        label: Protein
+        name: DD-transpeptidase (Streptococcus pyogenes)
+    -   id: GO:0071972
+        label: MolecularActivity
+        name: peptidoglycan L,D-transpeptidase activity
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D011018
+        label: Disease
+        name: Streptococcus pyogenes infection
+    reference:
+    - https://go.drugbank.com/drugs/DB00535#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cefdinir
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL927/
+-   directed: true
+    graph:
+        disease: Malignant tumor of ovary
+        disease_mesh: MESH:D010051
+        drug: topotecan
+        drug_mesh: MESH:D019772
+        drugbank: DB:DB01030
+    links:
+    -   key: decreases activity of
+        source: MESH:D019772
+        target: UniProt:P11387
+    -   key: positively regulates
+        source: UniProt:P11387
+        target: GO:0003677
+    -   key: correlated with
+        source: GO:0003677
+        target: GO:0006260
+    -   key: positively correlated with
+        source: GO:0006260
+        target: CL:0001063
+    -   key: positively correlated with
+        source: CL:0001063
+        target: MESH:D010051
+    multigraph: true
+    nodes:
+    -   id: MESH:D019772
+        label: Drug
+        name: topotecan
+    -   id: UniProt:P11387
+        label: Protein
+        name: DNA topoisomerase 1
+    -   id: GO:0003677
+        label: MolecularActivity
+        name: DNA binding
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cells
+    -   id: MESH:D010051
+        label: Disease
+        name: Malignant tumor of ovary
+    reference:
+    - https://go.drugbank.com/drugs/DB01030
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL84/
+    - https://en.wikipedia.org/wiki/Topotecan
+-   directed: true
+    graph:
+        disease: Small cell carcinoma of lung
+        disease_mesh: MESH:D055752
+        drug: topotecan
+        drug_mesh: MESH:D019772
+        drugbank: DB:DB01030
+    links:
+    -   key: decreases activity of
+        source: MESH:D019772
+        target: UniProt:P11387
+    -   key: positively regulates
+        source: UniProt:P11387
+        target: GO:0003677
+    -   key: correlated with
+        source: GO:0003677
+        target: GO:0006260
+    -   key: positively correlated with
+        source: GO:0006260
+        target: CL:0001063
+    -   key: positively correlated with
+        source: CL:0001063
+        target: MESH:D055752
+    multigraph: true
+    nodes:
+    -   id: MESH:D019772
+        label: Drug
+        name: topotecan
+    -   id: UniProt:P11387
+        label: Protein
+        name: DNA topoisomerase 1
+    -   id: GO:0003677
+        label: MolecularActivity
+        name: DNA binding
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cells
+    -   id: MESH:D055752
+        label: Disease
+        name: Small cell carcinoma of lung
+    reference:
+    - https://go.drugbank.com/drugs/DB01030
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL84/
+    - https://en.wikipedia.org/wiki/Topotecan
+-   directed: true
+    graph:
+        disease: Motion sickness
+        disease_mesh: MESH:D009041
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: decreases activity of
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: HP:0002017
+    -   key: manifestation of
+        source: HP:0002017
+        target: MESH:D009041
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: synaptic transmission, cholinergic
+    -   id: HP:0002017
+        label: PhenotypicFeature
+        name: Nausea and vomiting
+    -   id: MESH:D009041
+        label: Disease
+        name: Motion sickness
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   directed: true
+    graph:
+        disease: Sneezing
+        disease_mesh: MESH:D012912
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: negatively regulates
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: CL:0000540
+    -   key: located in
+        source: CL:0000540
+        target: UBERON:0000004
+    -   key: affected by
+        source: UBERON:0000004
+        target: UBERON:0001645
+    -   key: contributes to
+        source: UBERON:0001645
+        target: MESH:D012912
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   alt_ids: MESH:D009474
+        id: CL:0000540
+        label: Cell
+        name: neuron
+    -   id: UBERON:0000004
+        label: GrossAnatomicalStructure
+        name: Nose
+    -   alt_ids: MESH:D014276
+        id: UBERON:0001645
+        label: GrossAnatomicalStructure
+        name: trigeminal nerve
+    -   id: MESH:D012912
+        label: Disease
+        name: Sneezing
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://en.wikipedia.org/wiki/Sneeze
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   directed: true
+    graph:
+        disease: Seasonal allergic rhinitis
+        disease_mesh: MESH:D006255
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: decreases activity of
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D006255
+        label: Disease
+        name: Seasonal allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   directed: true
+    graph:
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: decreases activity of
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   directed: true
+    graph:
+        disease: Common cold
+        disease_mesh: MESH:D003139
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: decreases activity of
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:10239
+    -   key: causes
+        source: NCBITaxon:10239
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: NCBITaxon:10239
+        label: OrganismTaxon
+        name: Viruses
+    -   id: MESH:D003139
+        label: Disease
+        name: Common cold
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   directed: true
+    graph:
+        disease: Allergic conjunctivitis
+        disease_mesh: MESH:D003233
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: decreases activity of
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003233
+        label: Disease
+        name: Allergic conjunctivitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   directed: true
+    graph:
+        disease: Vasomotor rhinitis
+        disease_mesh: MESH:D012223
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: decreases activity of
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012223
+        label: Disease
+        name: Vasomotor rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   directed: true
+    graph:
+        disease: Cough
+        disease_mesh: MESH:D003371
+        drug: cyclizine
+        drug_mesh: MESH:D003501
+        drugbank: DB:DB01176
+    links:
+    -   key: decreases activity of
+        source: MESH:D003501
+        target: UniProt:P35367
+    -   key: positively regulates
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D003371
+    multigraph: true
+    nodes:
+    -   id: MESH:D003501
+        label: Drug
+        name: cyclizine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003371
+        label: Disease
+        name: Cough
+    reference:
+    - https://go.drugbank.com/drugs/DB01176
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL648/
+    - https://en.wikipedia.org/wiki/Cyclizine
+-   comment: Encainide (trade name Enkaid) is a class Ic antiarrhythmic agent. It is no longer used because of its frequent proarrhythmic side effects.
+    directed: true
+    graph:
+        disease: Ventricular premature beats
+        disease_mesh: MESH:D018879
+        drug: encainide
+        drug_mesh: MESH:D016700
+        drugbank: DB:DB01228
+    links:
+    -   key: decreases activity of
+        source: MESH:D016700
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0086060
+    -   key: positively regulates
+        source: GO:0086060
+        target: GO:0061337
+    -   key: positively regulates
+        source: GO:0061337
+        target: GO:0060047
+    -   key: positively correlated with
+        source: GO:0060047
+        target: HP:0001649
+    -   key: positively correlated with
+        source: GO:0060047
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0001649
+        target: MESH:D018879
+    -   key: positively correlated with
+        source: HP:0000822
+        target: MESH:D018879
+    multigraph: true
+    nodes:
+    -   id: MESH:D016700
+        label: Drug
+        name: encainide
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0086060
+        label: MolecularActivity
+        name: voltage-gated sodium channel activity involved in AV node cell action potential
+    -   id: GO:0061337
+        label: BiologicalProcess
+        name: cardiac conduction
+    -   id: GO:0060047
+        label: BiologicalProcess
+        name: heart contraction
+    -   id: HP:0001649
+        label: PhenotypicFeature
+        name: heart rate
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: blood pressure
+    -   id: MESH:D018879
+        label: Disease
+        name: Ventricular premature beats
+    reference:
+    - https://go.drugbank.com/drugs/DB01228
+    - https://en.wikipedia.org/wiki/Encainide
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL315838/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/48041
+    - https://pubmed.ncbi.nlm.nih.gov/2518680/
+-   directed: true
+    graph:
+        disease: Carcinoma of breast
+        disease_mesh: MESH:D001943
+        drug: ixabepilone
+        drug_mesh: MESH:C430592
+        drugbank: DB:DB04845
+    links:
+    -   key: decreases activity of
+        source: MESH:C430592
+        target: InterPro:IPR002453
+    -   key: participates in
+        source: InterPro:IPR002453
+        target: GO:1902850
+    -   key: positively correlated with
+        source: GO:1902850
+        target: GO:0140014
+    -   key: positively correlated with
+        source: GO:0140014
+        target: GO:0008283
+    -   key: precedes
+        source: GO:0008283
+        target: CL:0001063
+    -   key: positively correlated with
+        source: CL:0001063
+        target: MESH:D001943
+    multigraph: true
+    nodes:
+    -   id: MESH:C430592
+        label: Drug
+        name: ixabepilone
+    -   id: InterPro:IPR002453
+        label: GeneFamily
+        name: Beta-tubulin
+    -   id: GO:1902850
+        label: BiologicalProcess
+        name: Microtubule cytoskeleton organization involved in mitosis
+    -   id: GO:0140014
+        label: BiologicalProcess
+        name: Mitotic nuclear division
+    -   id: CL:0001063
+        label: Cell
+        name: tumor cell
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: Cell population proliferation
+    -   id: MESH:D001943
+        label: Disease
+        name: Carcinoma of breast
+    reference:
+    - https://go.drugbank.com/drugs/DB04845
+    - https://en.wikipedia.org/wiki/Ixabepilone
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201752/
+    - https://pubmed.ncbi.nlm.nih.gov/22113255/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/6445540
+-   directed: true
+    graph:
+        disease: Backache
+        disease_mesh: MESH:D001416
+        drug: methyl salicylate
+        drug_mesh: MESH:C033069
+        drugbank: DB:DB09543
+    links:
+    -   key: decreases activity of
+        source: MESH:C033069
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: MESH:C033069
+        target: UniProt:P35354
+    -   key: increases abundance of
+        source: UniProt:P23219
+        target: MESH:D011453
+    -   key: increases abundance of
+        source: UniProt:P35354
+        target: MESH:D011453
+    -   key: positively regulates
+        source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: MESH:D001416
+    multigraph: true
+    nodes:
+    -   id: MESH:C033069
+        label: Drug
+        name: methyl salicylate
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: MESH:D011453
+        label: ChemicalSubstance
+        name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: MESH:D001416
+        label: Disease
+        name: Backache
+    reference:
+    - https://go.drugbank.com/drugs/DB09543
+    - https://en.wikipedia.org/wiki/Methyl_salicylate
+-   directed: true
+    graph:
+        disease: Chronic hepatitis C
+        disease_mesh: MESH:D019698
+        drug: grazoprevir
+        drug_mesh: MESH:C578009
+        drugbank: DB:DB11575
+    links:
+    -   key: decreases activity of
+        source: MESH:C578009
+        target: UniProt:B0B3C9
+    -   key: positively regulates
+        source: UniProt:B0B3C9
+        target: GO:0039694
+    -   key: capable of
+        source: UniProt:B0B3C9
+        target: GO:0008236
+    -   key: in taxon
+        source: GO:0039694
+        target: NCBITaxon:11103
+    -   key: in taxon
+        source: GO:0008236
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C578009
+        label: Drug
+        name: grazoprevir
+    -   id: UniProt:B0B3C9
+        label: Protein
+        name: Genome polyprotein
+    -   id: GO:0039694
+        label: BiologicalProcess
+        name: Viral RNA genome replication
+    -   id: GO:0008236
+        label: MolecularActivity
+        name: Serine-type peptidase activity
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Chronic hepatitis C
+    reference:
+    - https://go.drugbank.com/drugs/DB11575
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2063090/
+    - https://en.wikipedia.org/wiki/Grazoprevir
+-   directed: true
+    graph:
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: zofenopril
+        drug_mesh: MESH:C044958
+        drugbank: DB:DB13166
+    links:
+    -   key: has metabolite
+        source: MESH:C044958
+        target: MESH:C065520
+    -   key: decreases activity of
+        source: MESH:C065520
+        target: UniProt:P12821
+    -   key: increases abundance of
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: causes
+        source: MESH:D000804
+        target: MESH:D014661
+    -   key: contributes to
+        source: MESH:D014661
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:C044958
+        label: Drug
+        name: zofenopril
+    -   id: MESH:C065520
+        label: ChemicalSubstance
+        name: zofenoprilate
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: MESH:D014661
+        label: Disease
+        name: vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: hypertensive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB13166
+    - https://pubchem.ncbi.nlm.nih.gov/compound/92400
+    - https://en.wikipedia.org/wiki/Zofenopril
