@@ -1,11 +1,12 @@
-# Indication Mechanism of Action Database 
-A database of paths that represent the mechanism of action from a drug to a disease in an indication.
+# Indication Mechanism of Action Database
+A database of paths that represent the mechanism of action from a drug to a disease in an indication. A preliminary relase of DrugMechDB was published here:
 
 > [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3708278)
 <br><Small>Mayers, Michael; Steinecke, Dylan; Su, Andrew I.<small><br>
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3708278.svg)](https://doi.org/10.5281/zenodo.3708278)
 
+A web interface to DrugMechDB can be found at https://sulab.github.io/DrugMechDB/.
 
 ## Purpose
 
@@ -81,3 +82,57 @@ Paths contain the following structure:
         multigraph: true    (required statment for importing paths into networkx).
 
 
+## Website build guide
+
+We originally had this configured so that the ["Update Website" action](https://github.com/SuLab/DrugMechDB/actions/workflows/update-website.yaml) would build the Jekyll files and push to the `gh-pages` branch, which would then be rendered by Github Pages.  However, the web content is now too large and the build process times out.  Therefore, we have to build locally.  The protocol is as follows:
+    
+* **Execute the ["Merge Pages" action](https://github.com/SuLab/DrugMechDB/actions/workflows/merge-pages.yaml)** which will merge the `main` branch to `gh-pages`
+* **Create the `gh-pages` branch locally**
+    
+    ```
+    git clone --branch gh-pages --depth 1 git@github.com:SuLab/DrugMechDB.git DrugMechDB.gh-pages
+    cd DrugMechDB.gh-pages
+    ``` 
+    
+    or if the repo already exists locally, 
+    ```
+    cd DrugMechDB.gh-pages
+    git pull
+    ```
+* **Create the Jekyll files from `indication_paths.yaml`**
+    
+    ```
+    python parse.py
+    ```
+* **Use jekyll to render HTML output**: 
+    
+    This command can take up to ~30 mins to complete, and output HTML files will be in `_site`
+    ```
+    bundle exec jekyll build
+    ```
+* **Create the `gh-pages-html` branch locally**: 
+    
+    ```
+    cd ..
+    git clone --branch gh-pages-html git@github.com:SuLab/DrugMechDB.git DrugMechDB.gh-pages-html
+    cd DrugMechDB.gh-pages-html
+    ``` 
+    or if the repo already exists locally, 
+    
+    ```
+    cd DrugMechDB.gh-pages-html
+    git pull
+    ```
+* **Copy the new rendered files**: 
+    
+    ```
+    rm -rf *
+    cp -r ../DrugMechDB.gh-pages/_site/* .
+    ```
+* **Commit and push**: 
+    
+    ```
+    git add .
+    git commit -m 'Update website'
+    git push
+    ```
