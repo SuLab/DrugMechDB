@@ -3261,6 +3261,348 @@ datatable: true
 | [DB09104_MESH_D005764_1](db09104-mesh-d005764-1.html) | magnesium hydroxide | DB:DB09104 | MESH:D008276 | Gastroesophageal reflux disease | MESH:D005764 | 4 | 3 |
 | [DB09104_MESH_D006356_1](db09104-mesh-d006356-1.html) | magnesium hydroxide | DB:DB09104 | MESH:D008276 | Heartburn | MESH:D006356 | 4 | 3 |
 | [DB00962_MESH_D007319_1](db00962-mesh-d007319-1.html) | zaleplon | DB:DB00962 | MESH:C085665 | Disorders of initiating and maintaining sleep | MESH:D007319 | 5 | 4 |
+| [DB00936_MESH_D013585_1](db00936-mesh-d013585-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Synovitis | MESH:D013585 | 6 | 6 |
+| [DB00936_MESH_D010146_1](db00936-mesh-d010146-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Pain | MESH:D010146 | 6 | 6 |
+| [DB00936_MESH_D001172_1](db00936-mesh-d001172-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Rheumatoid arthritis | MESH:D001172 | 7 | 7 |
+| [DB00936_MESH_D014008_1](db00936-mesh-d014008-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Tinea pedis | MESH:D014008 | 7 | 7 |
+| [DB00936_MESH_D000152_1](db00936-mesh-d000152-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Acne vulgaris | MESH:D000152 | 7 | 7 |
+| [DB00936_MESH_D003139_1](db00936-mesh-d003139-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Common cold | MESH:D003139 | 8 | 9 |
+| [DB00936_MESH_D005334_1](db00936-mesh-d005334-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Fever | MESH:D005334 | 6 | 6 |
+| [DB00936_MESH_D010003_1](db00936-mesh-d010003-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Osteoarthritis | MESH:D010003 | 8 | 9 |
+| [DB00936_MESH_D065631_1](db00936-mesh-d065631-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Allergic rhinitis | MESH:D065631 | 6 | 6 |
+| [DB00936_MESH_D012628_1](db00936-mesh-d012628-1.html) | salicylic acid | DB:DB00936 | MESH:D020156 | Seborrheic dermatitis | MESH:D012628 | 6 | 6 |
+| [DB09050_MESH_D059413_1](db09050-mesh-d059413-1.html) | ceftolozane | DB:DB09050 | MESH:C519491 | Infectious disease of abdomen | MESH:D059413 | 5 | 4 |
+| [DB09050_MESH_D014552_1](db09050-mesh-d014552-1.html) | ceftolozane | DB:DB09050 | MESH:C519491 | Urinary tract infectious disease | MESH:D014552 | 5 | 4 |
+| [DB12332_MESH_D010051_1](db12332-mesh-d010051-1.html) | rucaparib | DB:DB12332 | MESH:C531549 | Malignant tumor of ovary | MESH:D010051 | 11 | 13 |
+| [DB01067_MESH_D003924_1](db01067-mesh-d003924-1.html) | glipizide | DB:DB01067 | MESH:D005913 | Diabetes mellitus type 2 | MESH:D003924 | 5 | 5 |
+| [DB00845_MESH_D007918_1](db00845-mesh-d007918-1.html) | clofazimine | DB:DB00845 | MESH:D002991 | Leprosy | MESH:D007918 | 4 | 3 |
+| [DB00845_MESH_D056006_1](db00845-mesh-d056006-1.html) | clofazimine | DB:DB00845 | MESH:D002991 | Multibacillary leprosy | MESH:D056006 | 4 | 3 |
+| [DB00845_MESH_D017511_1](db00845-mesh-d017511-1.html) | clofazimine | DB:DB00845 | MESH:D002991 | Pyoderma gangrenosum | MESH:D017511 | 6 | 5 |
+| [DB00214_MESH_D006973_1](db00214-mesh-d006973-1.html) | torsemide | DB:DB00214 | MESH:C026116 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
+| [DB00214_MESH_D004487_1](db00214-mesh-d004487-1.html) | torsemide | DB:DB00214 | MESH:C026116 | Edema | MESH:D004487 | 5 | 4 |
+| [DB00372_MESH_D009325_1](db00372-mesh-d009325-1.html) | thiethylperazine | DB:DB00372 | MESH:D013847 | Nausea | MESH:D009325 | 3 | 2 |
+| [DB00372_MESH_D014839_1](db00372-mesh-d014839-1.html) | thiethylperazine | DB:DB00372 | MESH:D013847 | Vomiting | MESH:D014839 | 3 | 2 |
+| [DB00406_MESH_D002181_1](db00406-mesh-d002181-1.html) | gentian violet | DB:DB00406 | MESH:D005840 | Candidal vulvovaginitis | MESH:D002181 | 4 | 3 |
+| [DB00126_MESH_D001206_1](db00126-mesh-d001206-1.html) | ascorbic acid | DB:DB00126 | MESH:D001205 | Ascorbic acid deficiency | MESH:D001206 | 2 | 1 |
+| [DB00178_MESH_D006973_1](db00178-mesh-d006973-1.html) | ramipril | DB:DB00178 | MESH:D017257 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
+| [DB00178_MESH_D020521_1](db00178-mesh-d020521-1.html) | ramipril | DB:DB00178 | MESH:D017257 | Cerebrovascular accident | MESH:D020521 | 7 | 6 |
+| [DB00286_MESH_D019584_1](db00286-mesh-d019584-1.html) | conjugated estrogens | DB:DB00286 | MESH:D004966 | Menopausal flushing | MESH:D019584 | 9 | 9 |
+| [DB00286_MESH_D004414_1](db00286-mesh-d004414-1.html) | conjugated estrogens | DB:DB00286 | MESH:D004966 | Dyspareunia | MESH:D004414 | 6 | 6 |
+| [DB00364_MESH_D004381_1](db00364-mesh-d004381-1.html) | sucralfate | DB:DB00364 | MESH:D013392 | Duodenal ulcer disease | MESH:D004381 | 8 | 12 |
+| [DB09085_MESH_D011537_1](db09085-mesh-d011537-1.html) | tetracaine | DB:DB09085 | MESH:D013748 | Itching of skin | MESH:D011537 | 6 | 5 |
+| [DB11596_MESH_D000749_1](db11596-mesh-d000749-1.html) | levofolinic acid | DB:DB11596 | MESH:D058766 | Megaloblastic anemia | MESH:D000749 | 3 | 2 |
+| [DB11596_MESH_D005494_1](db11596-mesh-d005494-1.html) | levofolinic acid | DB:DB11596 | MESH:D058766 | Folic acid deficiency | MESH:D005494 | 3 | 2 |
+| [DB00266_MESH_D020766_1](db00266-mesh-d020766-1.html) | dicoumarol | DB:DB00266 | MESH:D001728 | Cerebral embolism | MESH:D020766 | 7 | 6 |
+| [DB00266_MESH_D013923_1](db00266-mesh-d013923-1.html) | dicoumarol | DB:DB00266 | MESH:D001728 | Thromboembolic disorder | MESH:D013923 | 7 | 6 |
+| [DB00266_MESH_D009203_1](db00266-mesh-d009203-1.html) | dicoumarol | DB:DB00266 | MESH:D001728 | Myocardial infarction | MESH:D009203 | 7 | 6 |
+| [DB00266_MESH_D013927_1](db00266-mesh-d013927-1.html) | dicoumarol | DB:DB00266 | MESH:D001728 | Thrombosis | MESH:D013927 | 7 | 6 |
+| [DB00872_MESH_D007010_1](db00872-mesh-d007010-1.html) | conivaptan | DB:DB00872 | MESH:C106389 | Hyponatremia | MESH:D007010 | 6 | 6 |
+| [DB01111_MESH_D004927_1](db01111-mesh-d004927-1.html) | colistimethate sodium | DB:DB01111 | MESH:C004691 | Infection due to Escherichia coli | MESH:D004927 | 4 | 3 |
+| [DB01551_MESH_D012220_1](db01551-mesh-d012220-1.html) | dihydrocodeine | DB:DB01551 | MESH:C014481 | Rhinitis | MESH:D012220 | 7 | 6 |
+| [DB01551_MESH_D065631_1](db01551-mesh-d065631-1.html) | dihydrocodeine | DB:DB01551 | MESH:C014481 | Allergic rhinitis | MESH:D065631 | 7 | 6 |
+| [DB01551_MESH_D010146_1](db01551-mesh-d010146-1.html) | dihydrocodeine | DB:DB01551 | MESH:C014481 | Pain | MESH:D010146 | 7 | 6 |
+| [DB01551_MESH_D003371_1](db01551-mesh-d003371-1.html) | dihydrocodeine | DB:DB01551 | MESH:C014481 | Cough | MESH:D003371 | 5 | 4 |
+| [DB01551_MESH_D003139_1](db01551-mesh-d003139-1.html) | dihydrocodeine | DB:DB01551 | MESH:C014481 | Common cold | MESH:D003139 | 9 | 9 |
+| [DB01914_MESH_D007003_1](db01914-mesh-d007003-1.html) | glucose | DB:DB01914 | MESH:D005947 | Hypoglycemia | MESH:D007003 | 2 | 1 |
+| [DB11950_MESH_D003924_1](db11950-mesh-d003924-1.html) | teneligliptin | DB:DB11950 | MESH:C579035 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 7 |
+| [DB00366_MESH_D012912_1](db00366-mesh-d012912-1.html) | doxylamine | DB:DB00366 | MESH:D004319 | sneezing | MESH:D012912 | 5 | 4 |
+| [DB00366_MESH_D003233_1](db00366-mesh-d003233-1.html) | doxylamine | DB:DB00366 | MESH:D004319 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
+| [DB00366_MESH_D014581_1](db00366-mesh-d014581-1.html) | doxylamine | DB:DB00366 | MESH:D004319 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB00366_MESH_D012223_1](db00366-mesh-d012223-1.html) | doxylamine | DB:DB00366 | MESH:D004319 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
+| [DB00366_MESH_D003139_1](db00366-mesh-d003139-1.html) | doxylamine | DB:DB00366 | MESH:D004319 | Common cold | MESH:D003139 | 6 | 5 |
+| [DB00366_MESH_D006255_1](db00366-mesh-d006255-1.html) | doxylamine | DB:DB00366 | MESH:D004319 | Seasonal allergic rhinitis | MESH:D006255 | 7 | 7 |
+| [DB00366_MESH_D065631_2](db00366-mesh-d065631-2.html) | doxylamine | DB:DB00366 | MESH:D004319 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
+| [DB00366_MESH_D011537_1](db00366-mesh-d011537-1.html) | doxylamine | DB:DB00366 | MESH:D004319 | Itching of skin | MESH:D011537 | 5 | 4 |
+| [DB01072_MESH_D015658_1](db01072-mesh-d015658-1.html) | atazanavir | DB:DB01072 | MESH:D000069446 | Human immunodeficiency virus infection | MESH:D015658 | 5 | 4 |
+| [DB01095_MESH_D006950_1](db01095-mesh-d006950-1.html) | fluvastatin | DB:DB01095 | MESH:C065180 | Mixed hyperlipidemia | MESH:D006950 | 7 | 8 |
+| [DB01095_MESH_D006937_1](db01095-mesh-d006937-1.html) | fluvastatin | DB:DB01095 | MESH:C065180 | Hypercholesterolemia | MESH:D006937 | 5 | 4 |
+| [DB01095_MESH_D001161_1](db01095-mesh-d001161-1.html) | fluvastatin | DB:DB01095 | MESH:C065180 | Arteriosclerotic vascular disease | MESH:D001161 | 6 | 5 |
+| [DB08815_MESH_D001714_1](db08815-mesh-d001714-1.html) | lurasidone | DB:DB08815 | MESH:D000069056 | Bipolar affective disorder, current episode depression | MESH:D001714 | 6 | 6 |
+| [DB08815_MESH_D012559_1](db08815-mesh-d012559-1.html) | lurasidone | DB:DB08815 | MESH:D000069056 | Schizophrenia | MESH:D012559 | 11 | 16 |
+| [DB09035_MESH_D002289_1](db09035-mesh-d002289-1.html) | nivolumab | DB:DB09035 | MESH:C581771 | Non-small cell lung cancer | MESH:D002289 | 4 | 3 |
+| [DB12447_MESH_D000152_1](db12447-mesh-d000152-1.html) | nadifloxacin | DB:DB12447 | MESH:C062127 | Acne vulgaris | MESH:D000152 | 8 | 10 |
+| [DB01169_MESH_D015479_1](db01169-mesh-d015479-1.html) | arsenic trioxide | DB:DB01169 | MESH:C006632 | Acute myelomonocytic leukemia, FAB M4 | MESH:D015479 | 7 | 9 |
+| [DB01169_MESH_D015473_1](db01169-mesh-d015473-1.html) | arsenic trioxide | DB:DB01169 | MESH:C006632 | Acute promyelocytic leukemia, FAB M3 | MESH:D015473 | 7 | 9 |
+| [DB04942_MESH_D015473_1](db04942-mesh-d015473-1.html) | tamibarotene | DB:DB04942 | MESH:C061133 | Acute promyelocytic leukemia, FAB M3 | MESH:D015473 | 5 | 5 |
+| [DB00131_MESH_D003550_1](db00131-mesh-d003550-1.html) | adenosine phosphate | DB:DB00131 | MESH:D000249 | Cystic fibrosis of the lung | MESH:D003550 | 2 | 1 |
+| [DB00343_MESH_D000787_1](db00343-mesh-d000787-1.html) | diltiazem | DB:DB00343 | MESH:D004110 | Angina pectoris | MESH:D000787 | 7 | 7 |
+| [DB00343_MESH_D000788_1](db00343-mesh-d000788-1.html) | diltiazem | DB:DB00343 | MESH:D004110 | Prinzmetal angina | MESH:D000788 | 7 | 7 |
+| [DB00343_MESH_D006973_1](db00343-mesh-d006973-1.html) | diltiazem | DB:DB00343 | MESH:D004110 | Hypertensive disorder | MESH:D006973 | 7 | 7 |
+| [DB00343_MESH_D001281_1](db00343-mesh-d001281-1.html) | diltiazem | DB:DB00343 | MESH:D004110 | Atrial fibrillation | MESH:D001281 | 7 | 7 |
+| [DB01330_MESH_D011023_1](db01330-mesh-d011023-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Staphylococcal pneumonia | MESH:D011023 | 5 | 4 |
+| [DB01330_MESH_D004716_1](db01330-mesh-d004716-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Endometritis | MESH:D004716 | 5 | 4 |
+| [DB01330_MESH_D004927_1](db01330-mesh-d004927-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Infection due to Escherichia coli | MESH:D004927 | 5 | 4 |
+| [DB01330_MESH_D013203_1](db01330-mesh-d013203-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Infection due to Staphylococcus aureus | MESH:D013203 | 5 | 4 |
+| [DB01330_MESH_D013290_1](db01330-mesh-d013290-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Streptococcus pyogenes infection | MESH:D013290 | 5 | 4 |
+| [DB01330_MESH_D018410_1](db01330-mesh-d018410-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Bacterial pneumonia | MESH:D018410 | 5 | 4 |
+| [DB01330_MESH_D059413_1](db01330-mesh-d059413-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Infectious disease of abdomen | MESH:D059413 | 5 | 4 |
+| [DB01330_MESH_D011018_1](db01330-mesh-d011018-1.html) | cefotetan | DB:DB01330 | MESH:D015313 | Pneumonia due to Streptococcus | MESH:D011018 | 5 | 4 |
+| [DB04572_MESH_D008228_1](db04572-mesh-d008228-1.html) | thiotepa | DB:DB04572 | MESH:D013852 | Non-Hodgkin's lymphoma | MESH:D008228 | 5 | 4 |
+| [DB04572_MESH_D010051_1](db04572-mesh-d010051-1.html) | thiotepa | DB:DB04572 | MESH:D013852 | Malignant tumor of ovary | MESH:D010051 | 5 | 4 |
+| [DB04572_MESH_D006689_1](db04572-mesh-d006689-1.html) | thiotepa | DB:DB04572 | MESH:D013852 | Hodgkin's disease | MESH:D006689 | 5 | 4 |
+| [DB04572_MESH_D001749_1](db04572-mesh-d001749-1.html) | thiotepa | DB:DB04572 | MESH:D013852 | Malignant tumor of urinary bladder | MESH:D001749 | 5 | 4 |
+| [DB12026_MESH_D019698_1](db12026-mesh-d019698-1.html) | voxilaprevir | DB:DB12026 | MESH:C000619503 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
+| [DB12399_MESH_D010003_1](db12399-mesh-d010003-1.html) | polmacoxib | DB:DB12399 | MESH:C000599293 | Osteoarthritis | MESH:D010003 | 9 | 10 |
+| [DB00912_MESH_D003924_1](db00912-mesh-d003924-1.html) | repaglinide | DB:DB00912 | MESH:C072379 | Diabetes mellitus type 2 | MESH:D003924 | 5 | 4 |
+| [DB00697_MESH_D009128_1](db00697-mesh-d009128-1.html) | tizanidine | DB:DB00697 | MESH:C023754 | Spasticity | MESH:D009128 | 6 | 7 |
+| [DB00359_MESH_D014123_1](db00359-mesh-d014123-1.html) | sulfadiazine | DB:DB00359 | MESH:D013411 | Toxoplasmosis | MESH:D014123 | 5 | 4 |
+| [DB00359_MESH_D002825_1](db00359-mesh-d002825-1.html) | sulfadiazine | DB:DB00359 | MESH:D013411 | Chorioretinitis | MESH:D002825 | 5 | 4 |
+| [DB00359_MESH_D003093_1](db00359-mesh-d003093-1.html) | sulfadiazine | DB:DB00359 | MESH:D013411 | Ulcerative colitis | MESH:D003093 | 4 | 3 |
+| [DB00359_MESH_D014125_1](db00359-mesh-d014125-1.html) | sulfadiazine | DB:DB00359 | MESH:D013411 | Congenital toxoplasmosis | MESH:D014125 | 5 | 4 |
+| [DB00359_MESH_D012883_1](db00359-mesh-d012883-1.html) | sulfadiazine | DB:DB00359 | MESH:D013411 | Skin ulcer | MESH:D012883 | 4 | 3 |
+| [DB01393_MESH_D006937_1](db01393-mesh-d006937-1.html) | bezafibrate | DB:DB01393 | MESH:D001629 | Hypercholesterolemia | MESH:D006937 | 8 | 15 |
+| [DB01393_MESH_D006949_1](db01393-mesh-d006949-1.html) | bezafibrate | DB:DB01393 | MESH:D001629 | Hyperlipidemia | MESH:D006949 | 9 | 16 |
+| [DB00784_MESH_D010146_1](db00784-mesh-d010146-1.html) | mefenamic acid | DB:DB00784 | MESH:D008528 | Pain | MESH:D010146 | 6 | 6 |
+| [DB00784_MESH_D004412_1](db00784-mesh-d004412-1.html) | mefenamic acid | DB:DB00784 | MESH:D008528 | Dysmenorrhea | MESH:D004412 | 7 | 7 |
+| [DB00312_MESH_D004827_1](db00312-mesh-d004827-1.html) | pentobarbital | DB:DB00312 | MESH:D010424 | Epilepsy | MESH:D004827 | 7 | 6 |
+| [DB00312_MESH_D013226_1](db00312-mesh-d013226-1.html) | pentobarbital | DB:DB00312 | MESH:D010424 | Status epilepticus | MESH:D013226 | 7 | 6 |
+| [DB00636_MESH_D006949_1](db00636-mesh-d006949-1.html) | clofibrate | DB:DB00636 | MESH:D002994 | Hyperlipidemia | MESH:D006949 | 7 | 8 |
+| [DB00998_MESH_D008881_1](db00998-mesh-d008881-1.html) | frovatriptan | DB:DB00998 | MESH:C108128 | Migraine | MESH:D008881 | 6 | 6 |
+| [DB01151_MESH_D003866_1](db01151-mesh-d003866-1.html) | desipramine | DB:DB01151 | MESH:D003891 | Depressive disorder | MESH:D003866 | 4 | 3 |
+| [DB04842_MESH_D012559_1](db04842-mesh-d012559-1.html) | fluspirilene | DB:DB04842 | MESH:D005484 | Schizophrenia | MESH:D012559 | 13 | 17 |
+| [DB08795_MESH_D012141_1](db08795-mesh-d012141-1.html) | azidocillin | DB:DB08795 | MESH:C100243 | Respiratory tract infection | MESH:D012141 | 6 | 5 |
+| [DB09125_MESH_D007008_1](db09125-mesh-d007008-1.html) | potassium citrate | DB:DB09125 | MESH:D019357 | Hypokalemia | MESH:D007008 | 3 | 2 |
+| [DB09125_MESH_D000141_1](db09125-mesh-d000141-1.html) | potassium citrate | DB:DB09125 | MESH:D019357 | Renal tubular acidosis | MESH:D000141 | 4 | 3 |
+| [DB09166_MESH_D001007_1](db09166-mesh-d001007-1.html) | etizolam | DB:DB09166 | MESH:C044610 | Anxiety | MESH:D001007 | 6 | 5 |
+| [DB12092_MESH_D011470_1](db12092-mesh-d011470-1.html) | naftopidil | DB:DB12092 | MESH:C064357 | Benign prostatic hyperplasia | MESH:D011470 | 5 | 4 |
+| [DB00573_MESH_D001172_1](db00573-mesh-d001172-1.html) | fenoprofen | DB:DB00573 | MESH:D005279 | Rheumatoid arthritis | MESH:D001172 | 8 | 9 |
+| [DB00573_MESH_D010146_1](db00573-mesh-d010146-1.html) | fenoprofen | DB:DB00573 | MESH:D005279 | Pain | MESH:D010146 | 6 | 6 |
+| [DB00573_MESH_D010003_1](db00573-mesh-d010003-1.html) | fenoprofen | DB:DB00573 | MESH:D005279 | Osteoarthritis | MESH:D010003 | 8 | 9 |
+| [DB00820_MESH_D007172_1](db00820-mesh-d007172-1.html) | tadalafil | DB:DB00820 | MESH:D000068581 | Impotence | MESH:D007172 | 8 | 7 |
+| [DB00820_MESH_D011470_1](db00820-mesh-d011470-1.html) | tadalafil | DB:DB00820 | MESH:D000068581 | Benign prostatic hyperplasia | MESH:D011470 | 8 | 7 |
+| [DB00820_MESH_D006976_1](db00820-mesh-d006976-1.html) | tadalafil | DB:DB00820 | MESH:D000068581 | Pulmonary hypertension | MESH:D006976 | 7 | 6 |
+| [DB06151_MESH_D003550_2](db06151-mesh-d003550-2.html) | acetylcysteine | DB:DB06151 | MESH:D000111 | Cystic fibrosis of the lung | MESH:D003550 | 5 | 5 |
+| [DB06151_MESH_D001987_2](db06151-mesh-d001987-2.html) | acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchiectasis | MESH:D001987 | 5 | 5 |
+| [DB06151_MESH_D001991_2](db06151-mesh-d001991-2.html) | acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchitis | MESH:D001991 | 5 | 5 |
+| [DB06151_MESH_D000686_2](db06151-mesh-d000686-2.html) | acetylcysteine | DB:DB06151 | MESH:D000111 | Amyloidosis | MESH:D000686 | 4 | 3 |
+| [DB09212_MESH_D001172_1](db09212-mesh-d001172-1.html) | loxoprofen | DB:DB09212 | MESH:C040656 | Rheumatoid arthritis | MESH:D001172 | 8 | 9 |
+| [DB00669_MESH_D008881_1](db00669-mesh-d008881-1.html) | sumatriptan | DB:DB00669 | MESH:D018170 | Migraine | MESH:D008881 | 6 | 6 |
+| [DB00502_MESH_D005879_1](db00502-mesh-d005879-1.html) | haloperidol | DB:DB00502 | MESH:D006220 | Gilles de la Tourette's syndrome | MESH:D005879 | 5 | 4 |
+| [DB00502_MESH_D011618_1](db00502-mesh-d011618-1.html) | haloperidol | DB:DB00502 | MESH:D006220 | Psychotic disorder | MESH:D011618 | 5 | 4 |
+| [DB00502_MESH_D012559_1](db00502-mesh-d012559-1.html) | haloperidol | DB:DB00502 | MESH:D006220 | Schizophrenia | MESH:D012559 | 5 | 4 |
+| [DB00669_MESH_D003027_1](db00669-mesh-d003027-1.html) | sumatriptan | DB:DB00669 | MESH:D018170 | Cluster headache syndrome | MESH:D003027 | 6 | 6 |
+| [DB00847_MESH_D003554_1](db00847-mesh-d003554-1.html) | mercaptamine | DB:DB00847 | MESH:D003543 | Cystinosis | MESH:D003554 | 3 | 2 |
+| [DB01251_MESH_D003924_1](db01251-mesh-d003924-1.html) | gliquidone | DB:DB01251 | MESH:C010969 | Diabetes mellitus type 2 | MESH:D003924 | 6 | 5 |
+| [DB04398_MESH_D011537_1](db04398-mesh-d011537-1.html) | lactic acid | DB:DB04398 | MESH:D019344 | Itching of skin | MESH:D011537 | 3 | 2 |
+| [DB04575_MESH_D019584_1](db04575-mesh-d019584-1.html) | quinestrol | DB:DB04575 | MESH:D011800 | Menopausal flushing | MESH:D019584 | 7 | 6 |
+| [DB04575_MESH_D059268_1](db04575-mesh-d059268-1.html) | quinestrol | DB:DB04575 | MESH:D011800 | Atrophic vaginitis | MESH:D059268 | 6 | 6 |
+| [DB00091_MESH_D015352_1](db00091-mesh-d015352-1.html) | ciclosporin | DB:DB00091 | MESH:D016572 | Tear film insufficiency | MESH:D015352 | 9 | 10 |
+| [DB00091_MESH_D007638_1](db00091-mesh-d007638-1.html) | ciclosporin | DB:DB00091 | MESH:D016572 | Keratoconjunctivitis sicca | MESH:D007638 | 9 | 10 |
+| [DB00091_MESH_D001172_1](db00091-mesh-d001172-1.html) | ciclosporin | DB:DB00091 | MESH:D016572 | Rheumatoid arthritis | MESH:D001172 | 9 | 10 |
+| [DB00344_MESH_D003866_1](db00344-mesh-d003866-1.html) | protriptyline | DB:DB00344 | MESH:D011530 | Depressive disorder | MESH:D003866 | 10 | 10 |
+| [DB00794_MESH_D004828_1](db00794-mesh-d004828-1.html) | primidone | DB:DB00794 | MESH:D011324 | Simple partial seizure | MESH:D004828 | 9 | 10 |
+| [DB00794_MESH_D004827_1](db00794-mesh-d004827-1.html) | primidone | DB:DB00794 | MESH:D011324 | Epilepsy | MESH:D004827 | 9 | 10 |
+| [DB00794_MESH_D012640_1](db00794-mesh-d012640-1.html) | primidone | DB:DB00794 | MESH:D011324 | Tonic-clonic seizure | MESH:D012640 | 9 | 10 |
+| [DB00794_MESH_D065768_1](db00794-mesh-d065768-1.html) | primidone | DB:DB00794 | MESH:D011324 | Lennox-Gastaut syndrome | MESH:D065768 | 9 | 10 |
+| [DB00794_MESH_D004830_1](db00794-mesh-d004830-1.html) | primidone | DB:DB00794 | MESH:D011324 | Tonic-clonic epilepsy | MESH:D004830 | 9 | 10 |
+| [DB00946_MESH_D013927_1](db00946-mesh-d013927-1.html) | phenprocoumon | DB:DB00946 | MESH:D010644 | Thrombosis | MESH:D013927 | 7 | 6 |
+| [DB00946_MESH_D009203_1](db00946-mesh-d009203-1.html) | phenprocoumon | DB:DB00946 | MESH:D010644 | Myocardial infarction | MESH:D009203 | 7 | 6 |
+| [DB00946_MESH_D013923_1](db00946-mesh-d013923-1.html) | phenprocoumon | DB:DB00946 | MESH:D010644 | Thromboembolic disorder | MESH:D013923 | 7 | 6 |
+| [DB01142_MESH_D003876_1](db01142-mesh-d003876-1.html) | doxepin | DB:DB01142 | MESH:D004316 | Atopic dermatitis | MESH:D003876 | 8 | 8 |
+| [DB01142_MESH_D011537_1](db01142-mesh-d011537-1.html) | doxepin | DB:DB01142 | MESH:D004316 | Itching of skin | MESH:D011537 | 8 | 8 |
+| [DB01142_MESH_D009450_1](db01142-mesh-d009450-1.html) | doxepin | DB:DB01142 | MESH:D004316 | Lichen simplex chronicus | MESH:D009450 | 8 | 8 |
+| [DB01142_MESH_D003866_1](db01142-mesh-d003866-1.html) | doxepin | DB:DB01142 | MESH:D004316 | Depressive disorder | MESH:D003866 | 10 | 10 |
+| [DB01142_MESH_D001007_1](db01142-mesh-d001007-1.html) | doxepin | DB:DB01142 | MESH:D004316 | Anxiety | MESH:D001007 | 10 | 10 |
+| [DB01142_MESH_D001714_1](db01142-mesh-d001714-1.html) | doxepin | DB:DB01142 | MESH:D004316 | Bipolar affective disorder, current episode depression | MESH:D001714 | 10 | 10 |
+| [DB06791_MESH_D000172_1](db06791-mesh-d000172-1.html) | lanreotide | DB:DB06791 | MESH:C060347 | Acromegaly | MESH:D000172 | 6 | 6 |
+| [DB08931_MESH_D000081029_1](db08931-mesh-d000081029-1.html) | riociguat | DB:DB08931 | MESH:C542595 | Pulmonary arterial hypertension | MESH:D000081029 | 7 | 6 |
+| [DB12872_MESH_D014842_1](db12872-mesh-d014842-1.html) | vonicog alfa | DB:DB12872 | MESH:D014841 | von Willebrand disorder | MESH:D014842 | 7 | 7 |
+| [DB00163_MESH_D014811_1](db00163-mesh-d014811-1.html) | Vitamin E | DB:DB00163 | MESH:D014810 | Vitamin E deficiency | MESH:D014811 | 2 | 1 |
+| [DB00351_MESH_D016889_1](db00351-mesh-d016889-1.html) | megestrol acetate | DB:DB00351 | MESH:D008535 | Endometrial carcinoma | MESH:D016889 | 8 | 7 |
+| [DB00719_MESH_D012912_1](db00719-mesh-d012912-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Sneezing | MESH:D012912 | 7 | 6 |
+| [DB00719_MESH_D006255_1](db00719-mesh-d006255-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Seasonal allergic rhinitis | MESH:D006255 | 6 | 5 |
+| [DB00719_MESH_D011537_1](db00719-mesh-d011537-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Itching of skin | MESH:D011537 | 5 | 4 |
+| [DB00719_MESH_D003139_1](db00719-mesh-d003139-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Common cold | MESH:D003139 | 6 | 5 |
+| [DB00719_MESH_D014581_1](db00719-mesh-d014581-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Urticaria | MESH:D014581 | 6 | 5 |
+| [DB00719_MESH_D012223_1](db00719-mesh-d012223-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Vasomotor rhinitis | MESH:D012223 | 6 | 5 |
+| [DB00719_MESH_D065631_1](db00719-mesh-d065631-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
+| [DB00719_MESH_D003233_1](db00719-mesh-d003233-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
+| [DB00932_MESH_D015658_1](db00932-mesh-d015658-1.html) | tipranavir | DB:DB00932 | MESH:C107201 | Human immunodeficiency virus infection | MESH:D015658 | 7 | 7 |
+| [DB01349_MESH_D006973_1](db01349-mesh-d006973-1.html) | tasosartan | DB:DB01349 | MESH:C086167 | Hypertensive disorder | MESH:D006973 | 13 | 15 |
+| [DB03166_MESH_D010032_1](db03166-mesh-d010032-1.html) | acetic acid | DB:DB03166 | MESH:D019342 | Otitis externa | MESH:D010032 | 4 | 3 |
+| [DB08913_MESH_D011471_1](db08913-mesh-d011471-1.html) | radium Ra 223 dichloride | DB:DB08913 | MESH:C581106 | Malignant tumor of prostate | MESH:D011471 | 6 | 5 |
+| [DB11591_MESH_D065631_1](db11591-mesh-d065631-1.html) | bilastine | DB:DB11591 | MESH:C445659 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
+| [DB11591_MESH_D014581_1](db11591-mesh-d014581-1.html) | bilastine | DB:DB11591 | MESH:C445659 | Urticaria | MESH:D014581 | 6 | 5 |
+| [DB11738_MESH_D006973_1](db11738-mesh-d006973-1.html) | rilmenidine | DB:DB11738 | MESH:C032302 | Hypertensive disorder | MESH:D006973 | 5 | 4 |
+| [DB13164_MESH_D002289_1](db13164-mesh-d002289-1.html) | olmutinib | DB:DB13164 | MESH:C000617753 | Non-small cell lung cancer | MESH:D002289 | 6 | 6 |
+| [DB12466_MESH_D007251_1](db12466-mesh-d007251-1.html) | favipiravir | DB:DB12466 | MESH:C462182 | Influenza | MESH:D007251 | 6 | 5 |
+| [DB13173_MESH_D009472_1](db13173-mesh-d009472-1.html) | cerliponase alfa | DB:DB13173 | MESH:C000621431 | Late-infantile neuronal ceroid lipofuscinosis | MESH:D009472 | 8 | 8 |
+| [DB00499_MESH_D011471_1](db00499-mesh-d011471-1.html) | flutamide | DB:DB00499 | MESH:D005485 | Malignant tumor of prostate | MESH:D011471 | 7 | 6 |
+| [DB00623_MESH_D012559_2](db00623-mesh-d012559-2.html) | fluphenazine enanthate | DB:DB00623 | MESH:C017610 | Schizophrenia | MESH:D012559 | 7 | 6 |
+| [DB00623_MESH_D011618_1](db00623-mesh-d011618-1.html) | fluphenazine decanoate | DB:DB00623 | MESH:C011825 | Psychotic disorder | MESH:D011618 | 7 | 6 |
+| [DB00695_MESH_D004487_1](db00695-mesh-d004487-1.html) | furosemide | DB:DB00695 | MESH:D005665 | Edema | MESH:D004487 | 8 | 9 |
+| [DB00695_MESH_D006973_1](db00695-mesh-d006973-1.html) | furosemide | DB:DB00695 | MESH:D005665 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
+| [DB00954_MESH_D011019_1](db00954-mesh-d011019-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Pneumonia due to Mycoplasma pneumoniae | MESH:D011019 | 9 | 9 |
+| [DB00954_MESH_D011018_1](db00954-mesh-d011018-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Pneumonia due to Streptococcus | MESH:D011018 | 9 | 9 |
+| [DB00954_MESH_D013290_1](db00954-mesh-d013290-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Streptococcus pyogenes infection | MESH:D013290 | 9 | 9 |
+| [DB00954_MESH_D013203_1](db00954-mesh-d013203-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Infection due to Staphylococcus aureus | MESH:D013203 | 9 | 9 |
+| [DB00954_MESH_D010612_1](db00954-mesh-d010612-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Pharyngitis | MESH:D010612 | 9 | 9 |
+| [DB00954_MESH_D001991_1](db00954-mesh-d001991-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Bronchitis | MESH:D001991 | 9 | 9 |
+| [DB00954_MESH_D011014_1](db00954-mesh-d011014-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Pneumonia | MESH:D011014 | 9 | 9 |
+| [DB00954_MESH_D014069_1](db00954-mesh-d014069-1.html) | dirithromycin | DB:DB00954 | MESH:C053853 | Tonsillitis | MESH:D014069 | 9 | 9 |
+| [DB01016_MESH_D003924_1](db01016-mesh-d003924-1.html) | glibenclamide | DB:DB01016 | MESH:D005905 | Diabetes mellitus type 2 | MESH:D003924 | 8 | 8 |
+| [DB01764_MESH_D013290_1](db01764-mesh-d013290-1.html) | dalfopristin | DB:DB01764 | MESH:C113826 | Streptococcus pyogenes infection | MESH:D013290 | 7 | 6 |
+| [DB04878_MESH_D003924_1](db04878-mesh-d003924-1.html) | voglibose | DB:DB04878 | MESH:C102817 | Diabetes mellitus type 2 | MESH:D003924 | 9 | 11 |
+| [DB04878_MESH_D005776_1](db04878-mesh-d005776-1.html) | voglibose | DB:DB04878 | MESH:C102817 | Glucosylceramide beta-glucosidase deficiency | MESH:D005776 | 3 | 2 |
+| [DB06412_MESH_D000741_1](db06412-mesh-d000741-1.html) | oxymetholone | DB:DB06412 | MESH:D010110 | Aplastic anemia | MESH:D000741 | 6 | 6 |
+| [DB06412_MESH_D029503_1](db06412-mesh-d029503-1.html) | oxymetholone | DB:DB06412 | MESH:D010110 | Congenital hypoplastic anemia | MESH:D029503 | 6 | 6 |
+| [DB09568_MESH_D015228_1](db09568-mesh-d015228-1.html) | omega-3-carboxylic acids | DB:DB09568 | None | Hypertriglyceridemia | MESH:D015228 | 8 | 9 |
+| [DB00226_MESH_D006973_1](db00226-mesh-d006973-1.html) | guanadrel | DB:DB00226 | MESH:C004945 | Hypertensive disorder | MESH:D006973 | 7 | 7 |
+| [DB01000_MESH_D010612_1](db01000-mesh-d010612-1.html) | cyclacillin | DB:DB01000 | MESH:D003493 | Pharyngitis | MESH:D010612 | 8 | 7 |
+| [DB01000_MESH_D014552_1](db01000-mesh-d014552-1.html) | cyclacillin | DB:DB01000 | MESH:D003493 | Urinary tract infectious disease | MESH:D014552 | 8 | 7 |
+| [DB01000_MESH_D001991_1](db01000-mesh-d001991-1.html) | cyclacillin | DB:DB01000 | MESH:D003493 | Bronchitis | MESH:D001991 | 8 | 7 |
+| [DB01190_MESH_D059413_1](db01190-mesh-d059413-1.html) | clindamycin phosphate | DB:DB01190 | MESH:C007084 | Infectious disease of abdomen | MESH:D059413 | 9 | 8 |
+| [DB01190_MESH_D016585_1](db01190-mesh-d016585-1.html) | clindamycin | DB:DB01190 | MESH:D002981 | Bacterial vaginosis | MESH:D016585 | 9 | 8 |
+| [DB01190_MESH_D016724_1](db01190-mesh-d016724-1.html) | clindamycin phosphate | DB:DB01190 | MESH:C007084 | Empyema of pleura | MESH:D016724 | 9 | 8 |
+| [DB01190_MESH_D011015_1](db01190-mesh-d011015-1.html) | clindamycin phosphate | DB:DB01190 | MESH:C007084 | Aspiration pneumonia | MESH:D011015 | 9 | 8 |
+| [DB01190_MESH_D011018_1](db01190-mesh-d011018-1.html) | clindamycin | DB:DB01190 | MESH:D002981 | Pneumococcal pneumonia | MESH:D011018 | 9 | 8 |
+| [DB01190_MESH_D000152_1](db01190-mesh-d000152-1.html) | clindamycin phosphate | DB:DB01190 | MESH:C007084 | Acne vulgaris | MESH:D000152 | 9 | 8 |
+| [DB01190_MESH_D013290_1](db01190-mesh-d013290-1.html) | clindamycin phosphate | DB:DB01190 | MESH:C007084 | Streptococcus pyogenes infection | MESH:D013290 | 9 | 8 |
+| [DB01190_MESH_D011023_1](db01190-mesh-d011023-1.html) | clindamycin phosphate | DB:DB01190 | MESH:C007084 | Staphylococcal pneumonia | MESH:D011023 | 9 | 8 |
+| [DB01190_MESH_D013203_1](db01190-mesh-d013203-1.html) | clindamycin phosphate | DB:DB01190 | MESH:C007084 | Infection due to Staphylococcus aureus | MESH:D013203 | 9 | 8 |
+| [DB01232_MESH_D015658_1](db01232-mesh-d015658-1.html) | saquinavir | DB:DB01232 | MESH:D019258 | Human immunodeficiency virus infection | MESH:D015658 | 6 | 5 |
+| [DB01306_MESH_D003920_1](db01306-mesh-d003920-1.html) | insulin aspart | DB:DB01306 | MESH:D061267 | Diabetes mellitus | MESH:D003920 | 8 | 8 |
+| [DB01592_MESH_D018798_1](db01592-mesh-d018798-1.html) | iron | DB:DB01592 | MESH:D007501 | Iron deficiency anemia | MESH:D018798 | 4 | 3 |
+| [DB06148_MESH_D003865_1](db06148-mesh-d003865-1.html) | mianserin | DB:DB06148 | MESH:D008803 | Major depressive disorder | MESH:D003865 | 15 | 21 |
+| [DB09102_MESH_D019698_1](db09102-mesh-d019698-1.html) | daclatasvir | DB:DB09102 | MESH:C549273 | Chronic hepatitis C | MESH:D019698 | 14 | 16 |
+| [DB09223_MESH_D012559_1](db09223-mesh-d012559-1.html) | blonanserin | DB:DB09223 | MESH:C079310 | Schizophrenia | MESH:D012559 | 9 | 10 |
+| [DB09462_MESH_D003248_1](db09462-mesh-d003248-1.html) | glycerol | DB:DB09462 | MESH:D005990 | Constipation | MESH:D003248 | 5 | 4 |
+| [DB00715_MESH_D013313_1](db00715-mesh-d013313-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Posttraumatic stress disorder | MESH:D013313 | 6 | 5 |
+| [DB00715_MESH_D065446_1](db00715-mesh-d065446-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Premenstrual dysphoric disorder | MESH:D065446 | 6 | 5 |
+| [DB00715_MESH_D019584_1](db00715-mesh-d019584-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Menopausal flushing | MESH:D019584 | 6 | 5 |
+| [DB00715_MESH_D016584_1](db00715-mesh-d016584-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Panic disorder | MESH:D016584 | 6 | 5 |
+| [DB00715_MESH_D009771_1](db00715-mesh-d009771-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Obsessive-compulsive disorder | MESH:D009771 | 6 | 5 |
+| [DB00715_MESH_D003865_1](db00715-mesh-d003865-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Major depressive disorder | MESH:D003865 | 6 | 5 |
+| [DB00715_MESH_D000072861_1](db00715-mesh-d000072861-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Social phobia | MESH:D000072861 | 6 | 5 |
+| [DB00715_MESH_D003866_1](db00715-mesh-d003866-1.html) | paroxetine | DB:DB00715 | MESH:D017374 | Depressive disorder | MESH:D003866 | 6 | 5 |
+| [DB00970_MESH_D009396_1](db00970-mesh-d009396-1.html) | Dactinomycin | DB:DB00970 | MESH:D003609 | Nephroblastoma | MESH:D009396 | 7 | 7 |
+| [DB00970_MESH_D013736_1](db00970-mesh-d013736-1.html) | dactinomycin | DB:DB00970 | MESH:D003609 | Malignant tumor of testis | MESH:D013736 | 7 | 7 |
+| [DB00970_MESH_D031901_1](db00970-mesh-d031901-1.html) | dactinomycin | DB:DB00970 | MESH:D003609 | Gestational trophoblastic neoplasia | MESH:D031901 | 7 | 7 |
+| [DB00970_MESH_D012208_1](db00970-mesh-d012208-1.html) | dactinomycin | DB:DB00970 | MESH:D003609 | Rhabdomyosarcoma | MESH:D012208 | 7 | 7 |
+| [DB00970_MESH_D012512_1](db00970-mesh-d012512-1.html) | dactinomycin | DB:DB00970 | MESH:D003609 | Ewing's sarcoma | MESH:D012512 | 7 | 7 |
+| [DB01174_MESH_D004827_2](db01174-mesh-d004827-2.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Epilepsy | MESH:D004827 | 12 | 16 |
+| [DB01174_MESH_D014653_1](db01174-mesh-d014653-1.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Vascular headache | MESH:D014653 | 12 | 16 |
+| [DB01174_MESH_D012640_1](db01174-mesh-d012640-1.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Tonic-clonic seizure | MESH:D012640 | 12 | 16 |
+| [DB01174_MESH_D004828_1](db01174-mesh-d004828-1.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Simple partial seizure | MESH:D004828 | 12 | 16 |
+| [DB01174_MESH_D003027_1](db01174-mesh-d003027-1.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Cluster headache syndrome | MESH:D003027 | 12 | 16 |
+| [DB01174_MESH_D008881_1](db01174-mesh-d008881-1.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Migraine | MESH:D008881 | 12 | 16 |
+| [DB01174_MESH_D004830_1](db01174-mesh-d004830-1.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Tonic-clonic epilepsy | MESH:D004830 | 12 | 16 |
+| [DB01174_MESH_D065768_1](db01174-mesh-d065768-1.html) | phenobarbital | DB:DB01174 | MESH:D010634 | Lennox-Gastaut syndrome | MESH:D065768 | 12 | 16 |
+| [DB06149_MESH_D013203_1](db06149-mesh-d013203-1.html) | teicoplanin | DB:DB06149 | MESH:D017334 | Staphylococcal infectious disease | MESH:D013203 | 7 | 6 |
+| [DB08879_MESH_D008180_1](db08879-mesh-d008180-1.html) | belimumab | DB:DB08879 | MESH:C511911 | Systemic lupus erythematosus | MESH:D008180 | 6 | 7 |
+| [DB00567_MESH_D013203_1](db00567-mesh-d013203-1.html) | cefalexin | DB:DB00567 | MESH:D002506 | Infection due to Staphylococcus aureus | MESH:D013203 | 5 | 4 |
+| [DB00567_MESH_D011018_1](db00567-mesh-d011018-1.html) | cefalexin | DB:DB00567 | MESH:D002506 | Pneumonia due to Streptococcus | MESH:D011018 | 5 | 4 |
+| [DB00567_MESH_D013290_1](db00567-mesh-d013290-1.html) | cefalexin | DB:DB00567 | MESH:D002506 | Streptococcus pyogenes infection | MESH:D013290 | 5 | 4 |
+| [DB00567_MESH_D011472_1](db00567-mesh-d011472-1.html) | cefalexin | DB:DB00567 | MESH:D002506 | Prostatitis | MESH:D011472 | 5 | 4 |
+| [DB00608_MESH_D016780_1](db00608-mesh-d016780-1.html) | chloroquine | DB:DB00608 | MESH:D002738 | Vivax malaria | MESH:D016780 | 5 | 5 |
+| [DB00608_MESH_D008179_1](db00608-mesh-d008179-1.html) | chloroquine | DB:DB00608 | MESH:D002738 | Discoid lupus erythematosus | MESH:D008179 | 5 | 4 |
+| [DB00608_MESH_D008180_1](db00608-mesh-d008180-1.html) | chloroquine | DB:DB00608 | MESH:D002738 | Systemic lupus erythematosus | MESH:D008180 | 7 | 8 |
+| [DB00608_MESH_D016778_1](db00608-mesh-d016778-1.html) | chloroquine | DB:DB00608 | MESH:D002738 | Falciparum malaria | MESH:D016778 | 5 | 5 |
+| [DB00608_MESH_D001172_1](db00608-mesh-d001172-1.html) | chloroquine | DB:DB00608 | MESH:D002738 | Rheumatoid arthritis | MESH:D001172 | 6 | 6 |
+| [DB00594_MESH_D006973_1](db00594-mesh-d006973-1.html) | amiloride | DB:DB00594 | MESH:D000584 | Hypertensive disorder | MESH:D006973 | 8 | 9 |
+| [DB00594_MESH_D004487_1](db00594-mesh-d004487-1.html) | amiloride | DB:DB00594 | MESH:D000584 | Edema | MESH:D004487 | 7 | 8 |
+| [DB01149_MESH_D003865_1](db01149-mesh-d003865-1.html) | nefazodone | DB:DB01149 | MESH:C051752 | Major depressive disorder | MESH:D003865 | 9 | 11 |
+| [DB01186_MESH_D020734_1](db01186-mesh-d020734-1.html) | pergolide | DB:DB01186 | MESH:D010479 | Parkinsonism | MESH:D020734 | 4 | 3 |
+| [DB04855_MESH_D001281_1](db04855-mesh-d001281-1.html) | dronedarone | DB:DB04855 | MESH:C118667 | Atrial fibrillation | MESH:D001281 | 8 | 10 |
+| [DB05578_MESH_D002289_1](db05578-mesh-d002289-1.html) | ramucirumab | DB:DB05578 | MESH:C543333 | Non-small cell lung cancer | MESH:D002289 | 4 | 3 |
+| [DB06203_MESH_D003924_1](db06203-mesh-d003924-1.html) | alogliptin | DB:DB06203 | MESH:C520853 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 9 |
+| [DB09016_MESH_D003866_1](db09016-mesh-d003866-1.html) | butriptyline | DB:DB09016 | MESH:C100242 | Depressive disorder | MESH:D003866 | 6 | 6 |
+| [DB09248_MESH_D003866_1](db09248-mesh-d003866-1.html) | mebanazine | DB:DB09248 | MESH:C004343 | Depressive disorder | MESH:D003866 | 5 | 5 |
+| [DB09065_MESH_D015658_2](db09065-mesh-d015658-2.html) | cobicistat | DB:DB09065 | MESH:D000069547 | Human immunodeficiency virus infection | MESH:D015658 | 5 | 4 |
+| [DB09220_MESH_D000787_1](db09220-mesh-d000787-1.html) | nicorandil | DB:DB09220 | MESH:D020108 | Angina pectoris | MESH:D000787 | 5 | 5 |
+| [DB12243_MESH_D000690_1](db12243-mesh-d000690-1.html) | edaravone | DB:DB12243 | MESH:C005435 | Amyotrophic lateral sclerosis | MESH:D000690 | 5 | 6 |
+| [DB12846_MESH_D001249_1](db12846-mesh-d001249-1.html) | reproterol | DB:DB12846 | MESH:C014792 | Asthma | MESH:D001249 | 4 | 3 |
+| [DB00437_MESH_D006073_1](db00437-mesh-d006073-1.html) | allopurinol | DB:DB00437 | MESH:D000493 | Gout | MESH:D006073 | 5 | 4 |
+| [DB00437_MESH_D015210_1](db00437-mesh-d015210-1.html) | allopurinol | DB:DB00437 | MESH:D000493 | Articular gout | MESH:D015210 | 6 | 5 |
+| [DB00437_MESH_D033461_1](db00437-mesh-d033461-1.html) | allopurinol | DB:DB00437 | MESH:D000493 | Hyperuricemia | MESH:D033461 | 5 | 4 |
+| [DB00512_MESH_D004697_1](db00512-mesh-d004697-1.html) | vancomycin | DB:DB00512 | MESH:D014640 | Bacterial endocarditis | MESH:D004697 | 8 | 10 |
+| [DB00512_MESH_D011023_1](db00512-mesh-d011023-1.html) | vancomycin | DB:DB00512 | MESH:D014640 | Staphylococcal pneumonia | MESH:D011023 | 8 | 10 |
+| [DB00512_MESH_D000071074_1](db00512-mesh-d000071074-1.html) | vancomycin | DB:DB00512 | MESH:D014640 | Sepsis of the newborn | MESH:D000071074 | 8 | 10 |
+| [DB00512_MESH_D013203_1](db00512-mesh-d013203-1.html) | vancomycin | DB:DB00512 | MESH:D014640 | Infection due to Staphylococcus aureus | MESH:D013203 | 8 | 10 |
+| [DB00512_MESH_D004761_1](db00512-mesh-d004761-1.html) | vancomycin | DB:DB00512 | MESH:D014640 | Pseudomembranous enterocolitis | MESH:D004761 | 8 | 10 |
+| [DB01235_MESH_D010300_1](db01235-mesh-d010300-1.html) | levodopa | DB:DB01235 | MESH:D007980 | Parkinson's disease | MESH:D010300 | 5 | 4 |
+| [DB01235_MESH_D020734_2](db01235-mesh-d020734-2.html) | levodopa | DB:DB01235 | MESH:D007980 | Parkinsonism | MESH:D020734 | 5 | 4 |
+| [DB01235_MESH_D010301_1](db01235-mesh-d010301-1.html) | levodopa | DB:DB01235 | MESH:D007980 | Postencephalitic parkinsonism | MESH:D010301 | 5 | 4 |
+| [DB00976_MESH_D011019_1](db00976-mesh-d011019-1.html) | telithromycin | DB:DB00976 | MESH:C106791 | Pneumonia due to Mycoplasma pneumoniae | MESH:D011019 | 6 | 6 |
+| [DB00976_MESH_D013290_1](db00976-mesh-d013290-1.html) | telithromycin | DB:DB00976 | MESH:C106791 | Streptococcus pyogenes infection | MESH:D013290 | 6 | 6 |
+| [DB00976_MESH_D011018_1](db00976-mesh-d011018-1.html) | telithromycin | DB:DB00976 | MESH:C106791 | Pneumococcal pneumonia | MESH:D011018 | 6 | 6 |
+| [DB00976_MESH_D061387_1](db00976-mesh-d061387-1.html) | telithromycin | DB:DB00976 | MESH:C106791 | Chlamydial pneumonia | MESH:D061387 | 6 | 6 |
+| [DB00660_MESH_D009128_1](db00660-mesh-d009128-1.html) | metaxalone | DB:DB00660 | MESH:C011301 | Spasticity | MESH:D009128 | 4 | 3 |
+| [DB11742_MESH_D065631_1](db11742-mesh-d065631-1.html) | ebastine | DB:DB11742 | MESH:C058249 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
+| [DB11742_MESH_D000080223_1](db11742-mesh-d000080223-1.html) | ebastine | DB:DB11742 | MESH:C058249 | Chronic idiopathic urticaria | MESH:D000080223 | 5 | 4 |
+| [DB09235_MESH_D006973_1](db09235-mesh-d006973-1.html) | efonidipine | DB:DB09235 | MESH:C066425 | Hypertensive disorder | MESH:D006973 | 7 | 7 |
+| [DB00988_MESH_D007022_1](db00988-mesh-d007022-1.html) | dopamine | DB:DB00988 | MESH:D004298 | Low blood pressure | MESH:D007022 | 6 | 6 |
+| [DB00988_MESH_D002303_1](db00988-mesh-d002303-1.html) | dopamine | DB:DB00988 | MESH:D004298 | Low cardiac output syndrome | MESH:D002303 | 4 | 3 |
+| [DB00100_MESH_D002836_1](db00100-mesh-d002836-1.html) | nonacog alfa | DB:DB00100 | None | Hereditary factor IX deficiency disease | MESH:D002836 | 6 | 6 |
+| [DB00518_MESH_D020019_1](db00518-mesh-d020019-1.html) | albendazole | DB:DB00518 | MESH:D015766 | Cerebral cysticercosis | MESH:D020019 | 7 | 7 |
+| [DB00518_MESH_D004443_1](db00518-mesh-d004443-1.html) | albendazole | DB:DB00518 | MESH:D015766 | Echinococcus granulosus infection of lung | MESH:D004443 | 7 | 7 |
+| [DB00882_MESH_D007247_1](db00882-mesh-d007247-1.html) | clomifene | DB:DB00882 | MESH:D002996 | Female infertility | MESH:D007247 | 7 | 8 |
+| [DB00888_MESH_D006689_1](db00888-mesh-d006689-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Hodgkin's disease | MESH:D006689 | 5 | 4 |
+| [DB00888_MESH_D009182_1](db00888-mesh-d009182-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Mycosis fungoides | MESH:D009182 | 5 | 4 |
+| [DB00888_MESH_D011087_1](db00888-mesh-d011087-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Polycythemia vera | MESH:D011087 | 5 | 4 |
+| [DB00888_MESH_D008175_1](db00888-mesh-d008175-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Malignant tumor of lung | MESH:D008175 | 5 | 4 |
+| [DB00888_MESH_D008228_1](db00888-mesh-d008228-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Non-Hodgkin's lymphoma | MESH:D008228 | 5 | 4 |
+| [DB00888_MESH_D015464_1](db00888-mesh-d015464-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Chronic myeloid leukemia | MESH:D015464 | 5 | 4 |
+| [DB00888_MESH_D016410_1](db00888-mesh-d016410-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Primary cutaneous T-cell lymphoma | MESH:D016410 | 5 | 4 |
+| [DB00888_MESH_D015451_1](db00888-mesh-d015451-1.html) | mechlorethamine | DB:DB00888 | MESH:D008466 | Chronic lymphoid leukemia, disease | MESH:D015451 | 5 | 4 |
+| [DB01170_MESH_D006973_1](db01170-mesh-d006973-1.html) | guanethidine | DB:DB01170 | MESH:D006145 | Hypertensive disorder | MESH:D006973 | 6 | 6 |
+| [DB01204_MESH_D020529_1](db01204-mesh-d020529-1.html) | mitoxantrone | DB:DB01204 | MESH:D008942 | Relapsing remitting multiple sclerosis | MESH:D020529 | 8 | 14 |
+| [DB01204_MESH_D015470_1](db01204-mesh-d015470-1.html) | mitoxantrone | DB:DB01204 | MESH:D008942 | Acute myeloid leukemia, disease | MESH:D015470 | 5 | 5 |
+| [DB01209_MESH_D010146_1](db01209-mesh-d010146-1.html) | dezocine | DB:DB01209 | MESH:C010827 | Pain | MESH:D010146 | 14 | 16 |
+| [DB02925_MESH_D006973_1](db02925-mesh-d006973-1.html) | piretanide | DB:DB02925 | MESH:C015451 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
+| [DB02925_MESH_D004487_1](db02925-mesh-d004487-1.html) | piretanide | DB:DB02925 | MESH:C015451 | Edema | MESH:D004487 | 6 | 5 |
+| [DB06603_MESH_D016410_1](db06603-mesh-d016410-1.html) | Panobinostat | DB:DB06603 | MESH:C496932 | Primary cutaneous T-cell lymphoma | MESH:D016410 | 6 | 6 |
+| [DB06603_MESH_D009101_1](db06603-mesh-d009101-1.html) | Panobinostat | DB:DB06603 | MESH:C496932 | Multiple myeloma | MESH:D009101 | 6 | 6 |
+| [DB08906_MESH_D001249_1](db08906-mesh-d001249-1.html) | fluticasone furoate | DB:DB08906 | MESH:C523187 | Asthma | MESH:D001249 | 11 | 14 |
+| [DB08906_MESH_D065631_1](db08906-mesh-d065631-1.html) | fluticasone furoate | DB:DB08906 | MESH:C523187 | Allergic rhinitis | MESH:D065631 | 11 | 14 |
+| [DB11737_MESH_D002289_1](db11737-mesh-d002289-1.html) | icotinib | DB:DB11737 | MESH:C531470 | Non-small cell lung cancer | MESH:D002289 | 6 | 6 |
+| [DB00176_MESH_D000072861_1](db00176-mesh-d000072861-1.html) | fluvoxamine | DB:DB00176 | MESH:D016666 | Social phobia | MESH:D000072861 | 6 | 5 |
+| [DB00176_MESH_D009771_1](db00176-mesh-d009771-1.html) | fluvoxamine | DB:DB00176 | MESH:D016666 | Obsessive-compulsive disorder | MESH:D009771 | 6 | 5 |
+| [DB00251_MESH_D002181_1](db00251-mesh-d002181-1.html) | terconazole | DB:DB00251 | MESH:C037815 | Candidiasis, Vulvovaginal | MESH:D002181 | 8 | 7 |
+| [DB00316_MESH_D010146_2](db00316-mesh-d010146-2.html) | paracetamol | DB:DB00316 | MESH:D000082 | Pain | MESH:D010146 | 12 | 16 |
+| [DB00316_MESH_D018781_1](db00316-mesh-d018781-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Tension-type headache | MESH:D018781 | 12 | 16 |
+| [DB00316_MESH_D008881_1](db00316-mesh-d008881-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Migraine | MESH:D008881 | 12 | 16 |
+| [DB00316_MESH_D014098_1](db00316-mesh-d014098-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Toothache | MESH:D014098 | 12 | 16 |
+| [DB00316_MESH_D020773_1](db00316-mesh-d020773-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Headache disorder | MESH:D020773 | 12 | 16 |
+| [DB00316_MESH_D018771_1](db00316-mesh-d018771-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Joint pain | MESH:D018771 | 13 | 17 |
+| [DB00316_MESH_D003139_1](db00316-mesh-d003139-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Common cold | MESH:D003139 | 13 | 17 |
+| [DB00316_MESH_D065631_1](db00316-mesh-d065631-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Allergic rhinitis | MESH:D065631 | 13 | 17 |
+| [DB00645_MESH_D011537_1](db00645-mesh-d011537-1.html) | dyclonine | DB:DB00645 | MESH:C100063 | Itching of skin | MESH:D011537 | 9 | 8 |
+| [DB00765_MESH_D010673_1](db00765-mesh-d010673-1.html) | metirosine | DB:DB00765 | MESH:D019805 | Pheochromocytoma | MESH:D010673 | 9 | 10 |
+| [DB00987_MESH_D015473_1](db00987-mesh-d015473-1.html) | cytarabine | DB:DB00987 | MESH:D003561 | Acute promyelocytic leukemia, FAB M3 | MESH:D015473 | 8 | 8 |
+| [DB00987_MESH_D015470_1](db00987-mesh-d015470-1.html) | cytarabine | DB:DB00987 | MESH:D003561 | Acute myeloid leukemia, disease | MESH:D015470 | 8 | 8 |
+| [DB01020_MESH_D000787_1](db01020-mesh-d000787-1.html) | isosorbide mononitrate | DB:DB01020 | MESH:C030397 | Angina pectoris | MESH:D000787 | 10 | 11 |
+| [DB09014_MESH_D001008_1](db09014-mesh-d001008-1.html) | captodiame | DB:DB09014 | MESH:C495502 | Anxiety disorder | MESH:D001008 | 9 | 11 |
+| [DB09481_MESH_D005764_1](db09481-mesh-d005764-1.html) | magnesium carbonate | DB:DB09481 | MESH:C005479 | Gastroesophageal reflux disease | MESH:D005764 | 6 | 5 |
+| [DB09481_MESH_D006356_1](db09481-mesh-d006356-1.html) | magnesium carbonate | DB:DB09481 | MESH:C005479 | Heartburn | MESH:D006356 | 5 | 4 |
+| [DB09481_MESH_D010437_1](db09481-mesh-d010437-1.html) | magnesium carbonate | DB:DB09481 | MESH:C005479 | Peptic ulcer | MESH:D010437 | 7 | 6 |
+| [DB09481_MESH_D003248_1](db09481-mesh-d003248-1.html) | magnesium carbonate | DB:DB09481 | MESH:C005479 | Constipation | MESH:D003248 | 7 | 6 |
+| [DB09481_MESH_D004415_1](db09481-mesh-d004415-1.html) | magnesium carbonate | DB:DB09481 | MESH:C005479 | Indigestion | MESH:D004415 | 7 | 6 |
+| [DB00472_MESH_D001714_1](db00472-mesh-d001714-1.html) | fluoxetine | DB:DB00472 | MESH:D005473 | Bipolar affective disorder, current episode depression | MESH:D001714 | 6 | 5 |
+| [DB00472_MESH_D016584_1](db00472-mesh-d016584-1.html) | fluoxetine | DB:DB00472 | MESH:D005473 | Panic disorder | MESH:D016584 | 6 | 5 |
+| [DB00472_MESH_D065446_1](db00472-mesh-d065446-1.html) | fluoxetine | DB:DB00472 | MESH:D005473 | Premenstrual dysphoric disorder | MESH:D065446 | 6 | 5 |
+| [DB00472_MESH_D003866_1](db00472-mesh-d003866-1.html) | fluoxetine | DB:DB00472 | MESH:D005473 | Depressive disorder | MESH:D003866 | 6 | 5 |
+| [DB00472_MESH_D052018_1](db00472-mesh-d052018-1.html) | fluoxetine | DB:DB00472 | MESH:D005473 | Bulimia nervosa | MESH:D052018 | 6 | 5 |
+| [DB00472_MESH_D003865_1](db00472-mesh-d003865-1.html) | fluoxetine | DB:DB00472 | MESH:D005473 | Major depressive disorder | MESH:D003865 | 6 | 5 |
+| [DB00472_MESH_D009771_1](db00472-mesh-d009771-1.html) | fluoxetine | DB:DB00472 | MESH:D005473 | Obsessive-compulsive disorder | MESH:D009771 | 6 | 5 |
+| [DB00535_MESH_D013203_1](db00535-mesh-d013203-1.html) | Cefdinir | DB:DB00535 | MESH:C056814 | Infection due to Staphylococcus aureus | MESH:D013203 | 7 | 6 |
+| [DB00535_MESH_D011018_1](db00535-mesh-d011018-1.html) | Cefdinir | DB:DB00535 | MESH:C056814 | Pneumonia due to Streptococcus | MESH:D011018 | 7 | 6 |
+| [DB00535_MESH_D011018_2](db00535-mesh-d011018-2.html) | Cefdinir | DB:DB00535 | MESH:C056814 | Pneumonia due to Streptococcus | MESH:D011018 | 7 | 6 |
+| [DB01030_MESH_D010051_1](db01030-mesh-d010051-1.html) | topotecan | DB:DB01030 | MESH:D019772 | Malignant tumor of ovary | MESH:D010051 | 6 | 5 |
+| [DB01030_MESH_D055752_1](db01030-mesh-d055752-1.html) | topotecan | DB:DB01030 | MESH:D019772 | Small cell carcinoma of lung | MESH:D055752 | 6 | 5 |
+| [DB01176_MESH_D009041_1](db01176-mesh-d009041-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Motion sickness | MESH:D009041 | 5 | 4 |
+| [DB01176_MESH_D012912_1](db01176-mesh-d012912-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Sneezing | MESH:D012912 | 7 | 6 |
+| [DB01176_MESH_D006255_1](db01176-mesh-d006255-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Seasonal allergic rhinitis | MESH:D006255 | 6 | 5 |
+| [DB01176_MESH_D065631_1](db01176-mesh-d065631-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
+| [DB01176_MESH_D003139_1](db01176-mesh-d003139-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Common cold | MESH:D003139 | 6 | 5 |
+| [DB01176_MESH_D003233_1](db01176-mesh-d003233-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
+| [DB01176_MESH_D012223_1](db01176-mesh-d012223-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Vasomotor rhinitis | MESH:D012223 | 6 | 5 |
+| [DB01176_MESH_D003371_1](db01176-mesh-d003371-1.html) | cyclizine | DB:DB01176 | MESH:D003501 | Cough | MESH:D003371 | 6 | 5 |
+| [DB01228_MESH_D018879_1](db01228-mesh-d018879-1.html) | encainide | DB:DB01228 | MESH:D016700 | Ventricular premature beats | MESH:D018879 | 8 | 8 |
+| [DB04845_MESH_D001943_1](db04845-mesh-d001943-1.html) | ixabepilone | DB:DB04845 | MESH:C430592 | Carcinoma of breast | MESH:D001943 | 7 | 6 |
+| [DB09543_MESH_D001416_1](db09543-mesh-d001416-1.html) | methyl salicylate | DB:DB09543 | MESH:C033069 | Backache | MESH:D001416 | 6 | 6 |
+| [DB11575_MESH_D019698_1](db11575-mesh-d019698-1.html) | grazoprevir | DB:DB11575 | MESH:C578009 | Chronic hepatitis C | MESH:D019698 | 6 | 6 |
+| [DB13166_MESH_D006973_1](db13166-mesh-d006973-1.html) | zofenopril | DB:DB13166 | MESH:C044958 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
