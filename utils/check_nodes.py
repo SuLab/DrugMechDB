@@ -35,19 +35,19 @@ def main():
                 with session.get("https://id.nlm.nih.gov/mesh/lookup/details?descriptor={}".format(node["id"][5:])) as res:
                     res = res.json()
                     preferred = list(filter(lambda term: term["preferred"], res["terms"]))
-                    mesh.append({"node" : res["descriptor"].removeprefix("http://id.nlm.nih.gov/mesh/"), "label" : preferred[0]["label"] if preferred else None})
+                    mesh.append({"node" : res["descriptor"].removeprefix("http://id.nlm.nih.gov/mesh/"), "name" : preferred[0]["label"] if preferred else None})
 
                 nodes_.append(node["id"])
 
             for node in directed["nodes"]:
-                # Find the node which is equal to the node we found the label for
-                labels = list(filter(lambda m: m["node"] == node["id"][5:], mesh))
-                if labels:
-                    node.update({ "label" : labels[0]["label"] })
+                # Find the node which is equal to the node we found the updated name for
+                names = list(filter(lambda m: m["node"] == node["id"][5:], mesh))
+                if names:
+                    node.update({ "name" : names[0]["name"] })
 
             indication_paths_updated.append(directed)
 
-    # Create new indication_paths.yml file with updated labels
+    # Create new indication_paths.yml file with updated na es
     with open("./../indication_paths.yaml", "w") as u:
         yaml.dump(indication_paths_updated, stream=u, indent=4, default_flow_style=False)
 
