@@ -271,7 +271,7 @@
         target: MESH:D009638
     -   key: decreases abundance of
         source: GO:0090494
-        target: MESH:D004298
+        target: MESH:D004298  
     -   key: negatively correlated with
         source: MESH:D009638
         target: MESH:D009478
@@ -280,7 +280,7 @@
         target: MESH:D009478
     -   key: positively regulates
         source: MESH:D009478
-        target: HP:0002591
+        target: HP:0002591   
     -   key: contributes to
         source: HP:0002591
         target: MESH:D009765
@@ -484,10 +484,10 @@
         drug_mesh: MESH:D005557
         drugbank: DB:DB03843
     links:
-    -   key: negatively regulates
+    -   key: positively regulates
         source: MESH:D005557
         target: GO:0008213
-    -   key: negatively regulates
+    -   key: positively regulates
         source: MESH:D005557
         target: GO:0006305
     -   key: disrupts
@@ -535,67 +535,73 @@
     links:
     -   key: increases activity of
         source: MESH:D006632
-        target: UniProt:P35367
+        target: UniProt:P60568
     -   key: increases activity of
-        source: MESH:D006632
-        target: UniProt:P25021
+        source: UniProt:P60568
+        target: UniProt:P01589
     -   key: increases activity of
-        source: MESH:D006632
-        target: UniProt:Q9Y5N1
+        source: UniProt:P60568
+        target: UniProt:P14784
     -   key: increases activity of
-        source: MESH:D006632
-        target: UniProt:Q9H3N8
-    -   key: participates in
-        source: UniProt:P35367
-        target: GO:0006955
-    -   key: participates in
-        source: UniProt:P25021
-        target: GO:0006955
-    -   key: participates in
-        source: UniProt:Q9Y5N1
-        target: GO:0006955
-    -   key: participates in
-        source: UniProt:Q9H3N8
-        target: GO:0006955
-    -   key: positively correlated with
-        source: GO:0006955
-        target: CL:0000763
-    -   key: positively correlated with
-        source: CL:0000763
+        source: UniProt:P60568
+        target: UniProt:P31785
+    -   key: positively regulates
+        source: UniProt:P01589
+        target: REACT:R-HSA-9020558
+    -   key: positively regulates
+        source: UniProt:P14784
+        target: REACT:R-HSA-9020558
+    -   key: positively regulates
+        source: UniProt:P31785
+        target: REACT:R-HSA-9020558
+    -   key: positively regulates
+        source: REACT:R-HSA-9020558
+        target: GO:0045065
+    -   key: positively regulates
+        source: REACT:R-HSA-9020558
+        target: GO:0030101
+    -   key: negatively correlated with
+        source: GO:0045065
+        target: MESH:D015470
+    -   key: negatively correlated with
+        source: GO:0030101
         target: MESH:D015470
     multigraph: true
     nodes:
     -   id: MESH:D006632
         label: Drug
         name: histamine
-    -   id: UniProt:P35367
+    -   id: UniProt:P60568
         label: Protein
-        name: Histamine H1 receptor
-    -   id: UniProt:P25021
+        name: Interleukin-2
+    -   id: UniProt:P01589
         label: Protein
-        name: Histamine H2 receptor
-    -   id: UniProt:Q9Y5N1
+        name: Interleukin-2 receptor subunit alpha
+    -   id: UniProt:P14784
         label: Protein
-        name: Histamine H3 receptor
-    -   id: UniProt:Q9H3N8
+        name: Interleukin-2 receptor subunit beta
+    -   id: UniProt:P31785
         label: Protein
-        name: Histamine H4 receptor
-    -   id: GO:0006955
+        name: Cytokine receptor common subunit gamma
+    -   id: REACT:R-HSA-9020558
+        label: Pathway
+        name: Interleukin-2 signaling
+    -   id: GO:0045065
         label: BiologicalProcess
-        name: immune response
-    -   id: CL:0000763
-        label: Cell
-        name: myeloid cell
+        name: cytotoxic T cell differentiation
+    -   id: GO:0030101
+        label: BiologicalProcess
+        name: natural killer cell activation
     -   id: MESH:D015470
         label: Disease
         name: Leukemia, Myeloid, Acute
     reference:
     -   https://go.drugbank.com/drugs/DB05381#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P35367#function
-    -   https://www.uniprot.org/uniprot/P25021#function
-    -   https://www.uniprot.org/uniprot/Q9Y5N1#function
-    -   https://www.uniprot.org/uniprot/Q9H3N8#function
-    -   https://www.frontiersin.org/articles/10.3389/fimmu.2018.01873/full
+    -   https://www.uniprot.org/uniprot/P60568#function
+    -   https://www.uniprot.org/uniprot/P01589#function
+    -   https://www.uniprot.org/uniprot/P14784#function
+    -   https://www.uniprot.org/uniprot/P31785#function
+    -   https://en.wikipedia.org/wiki/Histamine_dihydrochloride
     -   https://en.wikipedia.org/wiki/Acute_myeloid_leukemia
 -   directed: true
     graph:
@@ -611,32 +617,20 @@
     -   key: increases activity of
         source: MESH:D006632
         target: UniProt:P25021
-    -   key: increases activity of
-        source: MESH:D006632
-        target: UniProt:Q9Y5N1
-    -   key: increases activity of
-        source: MESH:D006632
-        target: UniProt:Q9H3N8
-    -   key: participates in
+    -   key: positively regulates
         source: UniProt:P35367
-        target: GO:0006954
-    -   key: participates in
+        target: GO:0042311
+    -   key: positively regulates
         source: UniProt:P25021
-        target: GO:0006954
+        target: GO:0042311
     -   key: participates in
-        source: UniProt:Q9Y5N1
+        source: GO:0042311
         target: GO:0006954
-    -   key: participates in
-        source: UniProt:Q9H3N8
-        target: GO:0006954
-    -   key: positively correlated with
+    -   key: causes
         source: GO:0006954
-        target: CL:0000097
-    -   key: contributes to
-        source: CL:0000097
-        target: HP:0002829
-    -   key: manifestation of
-        source: HP:0002829
+        target: MESH:D010146
+    -   key: occurs in
+        source: MESH:D010146
         target: MESH:D010003
     multigraph: true
     nodes:
@@ -649,21 +643,15 @@
     -   id: UniProt:P25021
         label: Protein
         name: Histamine H2 receptor
-    -   id: UniProt:Q9Y5N1
-        label: Protein
-        name: Histamine H3 receptor
-    -   id: UniProt:Q9H3N8
-        label: Protein
-        name: Histamine H4 receptor
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
-    -   id: CL:0000097
-        label: Cell
-        name: mast cell
-    -   id: HP:0002829
-        label: PhenotypicFeature
-        name: Arthralgia
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
     -   id: MESH:D010003
         label: Disease
         name: Osteoarthritis
@@ -671,35 +659,31 @@
     -   https://go.drugbank.com/drugs/DB05381#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P35367#function
     -   https://www.uniprot.org/uniprot/P25021#function
-    -   https://www.uniprot.org/uniprot/Q9Y5N1#function
-    -   https://www.uniprot.org/uniprot/Q9H3N8#function
-    -   https://www.frontiersin.org/articles/10.3389/fimmu.2018.01873/full
+    -   https://www.verywellhealth.com/australian-cream-5105107
+    -   https://en.wikipedia.org/wiki/Histamine_dihydrochloride
     -   https://en.wikipedia.org/wiki/Osteoarthritis
 -   directed: true
     graph:
         disease: Pellagra
         disease_mesh: MESH:D010383
-        drug: histamineinositol nicotinate
+        drug: inositol nicotinate
         drug_mesh: MESH:C005193
         drugbank: DB:DB08949
     links:
-    -   key: increases activity of
-        source: MESH:C005193
-        target: UniProt:Q8TDS4
-    -   key: increases activity of
-        source: MESH:C005193
-        target: UniProt:P49019
-    -   key: participates in
-        source: UniProt:Q8TDS4
-        target: GO:0050995
-    -   key: participates in
-        source: UniProt:P49019
-        target: GO:0050995
     -   key: increases abundance of
-        source: GO:0050995
-        target: MESH:D014280
-    -   key: contributes to
-        source: MESH:D014280
+        source: MESH:C005193
+        target: MESH:D009539
+    -   key: increases abundance of
+        source: MESH:C005193
+        target: MESH:D007294
+    -   key: positively correlated with
+        source: MESH:D009539
+        target: MESH:D009536
+    -   key: positively correlated with
+        source: MESH:D007294
+        target: MESH:D009536
+    -   key: negatively correlated with
+        source: MESH:D009536
         target: HP:0100497
     -   key: positively correlated with
         source: HP:0100497
@@ -709,18 +693,15 @@
     -   id: MESH:C005193
         label: Drug
         name: inositol nicotinate
-    -   id: UniProt:Q8TDS4
-        label: Protein
-        name: Hydroxycarboxylic acid receptor 2
-    -   id: UniProt:P49019
-        label: Protein
-        name: Hydroxycarboxylic acid receptor 3
-    -   id: GO:0050995
-        label: BiologicalProcess
-        name: negative regulation of lipid catabolic process
-    -   id: MESH:D014280
+    -   id: MESH:D009539
         label: ChemicalSubstance
-        name: Triglycerides
+        name: Nicotinic Acids
+    -   id: MESH:D007294
+        label: ChemicalSubstance
+        name: Inositol
+    -   id: MESH:D009536
+        label: ChemicalSubstance
+        name: Niacinamide
     -   id: HP:0100497
         label: PhenotypicFeature
         name: Vitamin B3 deficiency
@@ -729,8 +710,9 @@
         name: Pellagra
     reference:
     -   https://go.drugbank.com/drugs/DB08949#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/Q8TDS4#function
-    -   https://www.uniprot.org/uniprot/P49019#function
+    -   https://en.wikipedia.org/wiki/Inositol_nicotinate
+    -   https://en.wikipedia.org/wiki/Niacin
+    -   https://en.wikipedia.org/wiki/Inositol
     -   https://en.wikipedia.org/wiki/Pellagra
 -   directed: true
     graph:
@@ -1079,14 +1061,14 @@
     -   key: participates in
         source: UniProt:P42765
         target: GO:0006695
-    -   key: correlated with
+    -   key: increases abundance of
         source: GO:0006695
-        target: GO:0045907
+        target: MESH:D002784
     -   key: positively correlated with
-        source: GO:0045907
-        target: MESH:D017202
-    -   key: manifestation of
-        source: MESH:D017202
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: contributes to
+        source: HP:0002621
         target: MESH:D000787
     multigraph: true
     nodes:
@@ -1099,12 +1081,12 @@
     -   id: GO:0006695
         label: BiologicalProcess
         name: cholesterol biosynthetic process
-    -   id: GO:0045907
-        label: BiologicalProcess
-        name: positive regulation of vasoconstriction
-    -   id: MESH:D017202
-        label: Disease
-        name: Myocardial Ischemia
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: Atherosclerosis
     -   id: MESH:D000787
         label: Disease
         name: Angina Pectoris
@@ -1112,3 +1094,4 @@
     -   https://go.drugbank.com/drugs/DB09069#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P42765#function
     -   https://en.wikipedia.org/wiki/Angina
+    -   https://en.wikipedia.org/wiki/Atherosclerosis
