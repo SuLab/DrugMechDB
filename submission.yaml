@@ -525,7 +525,8 @@
     reference:
     -   https://go.drugbank.com/drugs/DB03843#mechanism-of-action
     -   https://www.cdc.gov/infectioncontrol/guidelines/disinfection/disinfection-methods/chemical.html#Formaldehyde
--   directed: true
+-   Comment: Histamine dihydrochloride that is used in Leukemia, Myeloid, Acute treatment.
+    directed: true
     graph:
         disease: Leukemia, Myeloid, Acute
         disease_mesh: MESH:D015470
@@ -603,7 +604,9 @@
     -   https://www.uniprot.org/uniprot/P31785#function
     -   https://en.wikipedia.org/wiki/Histamine_dihydrochloride
     -   https://en.wikipedia.org/wiki/Acute_myeloid_leukemia
--   directed: true
+    Comment: Histamine dihydrochloride that is used in Leukemia, Myeloid, Acute treatment.
+-   comment: Histamine dihydrochloride is an active ingredient that is used for the temporary relief of minor aches and pains of the muscles and joints associated with arthritis.
+    directed: true
     graph:
         disease: Osteoarthritis
         disease_mesh: MESH:D010003
@@ -611,57 +614,22 @@
         drug_mesh: MESH:D006632
         drugbank: DB:DB05381
     links:
-    -   key: increases activity of
+    -   key: treats
         source: MESH:D006632
-        target: UniProt:P35367
-    -   key: increases activity of
-        source: MESH:D006632
-        target: UniProt:P25021
-    -   key: positively regulates
-        source: UniProt:P35367
-        target: GO:0042311
-    -   key: positively regulates
-        source: UniProt:P25021
-        target: GO:0042311
-    -   key: participates in
-        source: GO:0042311
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: MESH:D010146
-    -   key: occurs in
-        source: MESH:D010146
         target: MESH:D010003
     multigraph: true
     nodes:
     -   id: MESH:D006632
         label: Drug
         name: histamine
-    -   id: UniProt:P35367
-        label: Protein
-        name: Histamine H1 receptor
-    -   id: UniProt:P25021
-        label: Protein
-        name: Histamine H2 receptor
-    -   id: GO:0042311
-        label: BiologicalProcess
-        name: vasodilation
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: inflammatory response
-    -   id: MESH:D010146
-        label: Disease
-        name: Pain
     -   id: MESH:D010003
         label: Disease
         name: Osteoarthritis
     reference:
-    -   https://go.drugbank.com/drugs/DB05381#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P35367#function
-    -   https://www.uniprot.org/uniprot/P25021#function
-    -   https://www.verywellhealth.com/australian-cream-5105107
     -   https://en.wikipedia.org/wiki/Histamine_dihydrochloride
     -   https://en.wikipedia.org/wiki/Osteoarthritis
+    -   https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=869735f9-335e-4a5e-adfc-91167ae943c5
+    comment: Histamine dihydrochloride is an active ingredient that is used for the temporary relief of minor aches and pains of the muscles and joints associated with arthritis.
 -   directed: true
     graph:
         disease: Pellagra
@@ -673,17 +641,8 @@
     -   key: increases abundance of
         source: MESH:C005193
         target: MESH:D009539
-    -   key: increases abundance of
-        source: MESH:C005193
-        target: MESH:D007294
-    -   key: positively correlated with
-        source: MESH:D009539
-        target: MESH:D009536
-    -   key: positively correlated with
-        source: MESH:D007294
-        target: MESH:D009536
     -   key: negatively correlated with
-        source: MESH:D009536
+        source: MESH:D009539
         target: HP:0100497
     -   key: positively correlated with
         source: HP:0100497
@@ -696,12 +655,6 @@
     -   id: MESH:D009539
         label: ChemicalSubstance
         name: Nicotinic Acids
-    -   id: MESH:D007294
-        label: ChemicalSubstance
-        name: Inositol
-    -   id: MESH:D009536
-        label: ChemicalSubstance
-        name: Niacinamide
     -   id: HP:0100497
         label: PhenotypicFeature
         name: Vitamin B3 deficiency
@@ -711,8 +664,6 @@
     reference:
     -   https://go.drugbank.com/drugs/DB08949#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Inositol_nicotinate
-    -   https://en.wikipedia.org/wiki/Niacin
-    -   https://en.wikipedia.org/wiki/Inositol
     -   https://en.wikipedia.org/wiki/Pellagra
 -   directed: true
     graph:
