@@ -1,1 +1,1105 @@
-
+-   comment: Esmolol hydrochloride inhibits the beta1 receptors located chiefly in cardiac muscle,
+            but this preferential effect is not absolute and at higher doses it begins to inhibit beta2 receptors
+            located chiefly in the bronchial and vascular musculature.
+    directed: true
+    graph:
+        disease: Atrial fibrillation
+        disease_mesh: MESH:D001281
+        drug: esmolol
+        drug_mesh: MESH:C036604
+        drugbank: DB:DB00187
+    links:
+    -   key: decreases activity of
+        source: MESH:C036604
+        target: UniProt:P08588
+    -   key: located in
+        source: UniProt:P08588
+        target: UBERON:0002349
+    -   key: positively regulates
+        source: UBERON:0002349
+        target: GO:1902608
+    -   key: increases abundance of
+        source: GO:1902608
+        target: MESH:D002118
+    -   key: positively regulates
+        source: MESH:D002118
+        target: GO:0015276
+    -   key: correlated with
+        source: GO:0015276
+        target: MESH:D001281
+    multigraph: true
+    nodes:
+    -   id: MESH:C036604
+        label: Drug
+        name: esmolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UBERON:0002349
+        label: GrossAnatomicalStructure
+        name: myocardium
+    -   id: GO:1902608
+        label: BiologicalProcess
+        name: activation of calcium channels
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: intracellular calcium
+    -   id: GO:0015276
+        label: BiologicalProcess
+        name: ionotropic effect
+    -   id: MESH:D001281
+        label: Disease
+        name: Atrial fibrillation
+    reference:
+    - https://go.drugbank.com/drugs/DB00187
+    - https://pubchem.ncbi.nlm.nih.gov/compound/59768
+    - https://en.wikipedia.org/wiki/Esmolol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL768/
+-   comment: Esmolol hydrochloride inhibits the beta1 receptors located chiefly in cardiac muscle,
+            but this preferential effect is not absolute and at higher doses it begins to inhibit beta2 receptors
+            located chiefly in the bronchial and vascular musculature.
+    directed: true
+    graph:
+        disease: Supraventricular tachycardia
+        disease_mesh: MESH:D013617
+        drug: esmolol
+        drug_mesh: MESH:C036604
+        drugbank: DB:DB00187
+    links:
+    -   key: decreases activity of
+        source: MESH:C036604
+        target: UniProt:P08588
+    -   key: located in
+        source: UniProt:P08588
+        target: UBERON:0002349
+    -   key: positively regulates
+        source: UBERON:0002349
+        target: GO:1902608
+    -   key: increases abundance of
+        source: GO:1902608
+        target: MESH:D002118
+    -   key: positively regulates
+        source: MESH:D002118
+        target: GO:0015276
+    -   key: correlated with
+        source: GO:0015276
+        target: MESH:D013617
+    multigraph: true
+    nodes:
+    -   id: MESH:C036604
+        label: Drug
+        name: esmolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UBERON:0002349
+        label: GrossAnatomicalStructure
+        name: myocardium
+    -   id: GO:1902608
+        label: BiologicalProcess
+        name: activation of calcium channels
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: intracellular calcium
+    -   id: GO:0015276
+        label: BiologicalProcess
+        name: ionotropic effect
+    -   id: MESH:D013617
+        label: Disease
+        name: Supraventricular tachycardia
+    reference:
+    - https://go.drugbank.com/drugs/DB00187
+    - https://pubchem.ncbi.nlm.nih.gov/compound/59768
+    - https://en.wikipedia.org/wiki/Esmolol
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL768/
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: cefalotin
+        drug_mesh: MESH:D002512
+        drugbank: DB:DB00456
+    links:
+    -   key: decreases activity of
+        source: MESH:D002512
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D002512
+        label: Drug
+        name: cefalotin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus Sp
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference:
+    - https://go.drugbank.com/drugs/DB00456#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cefalotin
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL617/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/6024
+    - https://pubmed.ncbi.nlm.nih.gov/7626623/
+-   directed: true
+    graph:
+        disease: Urinary tract infectious disease
+        disease_mesh: MESH:D014552
+        drug: cefalotin
+        drug_mesh: MESH:D002512
+        drugbank: DB:DB00456
+    links:
+    -   key: decreases activity of
+        source: MESH:D002512
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D002512
+        label: Drug
+        name: cefalotin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary tract infectious disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00456#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cefalotin
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL617/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/6024
+    - https://pubmed.ncbi.nlm.nih.gov/7626623/
+-   directed: true
+    graph:
+        disease: Pneumonia
+        disease_mesh: MESH:D011014
+        drug: cefalotin
+        drug_mesh: MESH:D002512
+        drugbank: DB:DB00456
+    links:
+    -   key: decreases activity of
+        source: MESH:D002512
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D011014
+    multigraph: true
+    nodes:
+    -   id: MESH:D002512
+        label: Drug
+        name: cefalotin
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D011014
+        label: Disease
+        name: Pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB00456#mechanismofaction
+    - https://en.wikipedia.org/wiki/Cefalotin
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL617/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/6024
+    - https://pubmed.ncbi.nlm.nih.gov/7626623/
+-   comment: Trimethaphan is indicated for production of controlled hypotension during surgery. During the emergency treatment of pulmonary edema 
+             in patients with pulmonary hypertension associated with systemic hypertension.
+    directed: true
+    graph:
+        disease: Pulmonary edema
+        disease_mesh: MESH:D011654
+        drug: trimetaphan
+        drug_mesh: MESH:D014294
+        drugbank: DB:DB01116
+    links:
+    -   key: decreases activity of
+        source: MESH:D014294
+        target: InterPro:IPR002394
+    -   key: positively regulates
+        source: InterPro:IPR002394
+        target: GO:0007271
+    -   key: positively correlated with
+        source: GO:0007271
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: HP:0032263
+    -   key: positively correlated with
+        source: HP:0032263
+        target: MESH:D011654
+    multigraph: true
+    nodes:
+    -   id: MESH:D014294
+        label: Drug
+        name: trimetaphan
+    -   id: InterPro:IPR002394
+        label: GeneFamily
+        name: Nicotinic acetylcholine receptor
+    -   id: GO:0007271
+        label: BiologicalProcess
+        name: synaptic transmission, cholinergic
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: smooth muscle relaxation
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
+    -   id: MESH:D011654
+        label: Disease
+        name: Pulmonary edema
+    reference:
+    - https://go.drugbank.com/drugs/DB01116
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201329/
+-   directed: true
+    graph:
+        disease: Attention deficit hyperactivity disorder
+        disease_mesh: MESH:D001289
+        drug: lisdexamfetamine
+        drug_mesh: MESH:D000069478
+        drugbank: DB:DB01255
+    links:
+    -   key: has metabolite
+        source: MESH:D000069478
+        target: MESH:D003913
+    -   key: increases activity of
+        source: MESH:D003913
+        target: UniProt:Q96RJ0
+    -   key: participates in
+        source: UniProt:Q96RJ0
+        target: GO:0015844
+    -   key: located in
+        source: GO:0015844
+        target: GO:0045202
+    -   key: negatively correlated with
+        source: GO:0045202
+        target: MESH:D001289
+    -   key: decreases uptake of
+        source: MESH:D003913
+        target: UniProt:Q05940
+    -   key: increases abundance of
+        source: UniProt:Q05940
+        target: MESH:D018377
+    -   key: located in
+        source: MESH:D018377
+        target: GO:0045202
+    -   key: negatively correlated with
+        source: GO:0045202
+        target: MESH:D001289
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069478
+        label: Drug
+        name: lisdexamfetamine
+    -   id: MESH:D003913
+        label: ChemicalSubstance
+        name: Dextroamphetamine
+    -   id: UniProt:Q05940
+        label: Protein
+        name: Synaptic vesicular amine transporter
+    -   id: UniProt:Q96RJ0
+        label: Protein
+        name: Trace amine-associated receptor 1
+    -   id: GO:0015844
+        label: BiologicalProcess
+        name: monoamine transport
+    -   id: UniProt:Q05940
+        label: Protein
+        name: monoamine transporter
+    -   id: MESH:D018377
+        label: ChemicalSubstance
+        name: neurotransmitters
+    -   id: GO:0045202
+        label: CellularComponent
+        name: synapse
+    -   id: MESH:D001289
+        label: Disease
+        name: Attention deficit hyperactivity disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01255
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201222/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/11597698
+    - https://en.wikipedia.org/wiki/Lisdexamfetamine#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Binge eating disorder
+        disease_mesh: MESH:D056912
+        drug: lisdexamfetamine
+        drug_mesh: MESH:D000069478
+        drugbank: DB:DB01255
+    links:
+    -   key: has metabolite
+        source: MESH:D000069478
+        target: MESH:D003913
+    -   key: increases activity of
+        source: MESH:D003913
+        target: UniProt:Q96RJ0
+    -   key: participates in
+        source: UniProt:Q96RJ0
+        target: GO:0015844
+    -   key: located in
+        source: GO:0015844
+        target: GO:0045202
+    -   key: negatively correlated with
+        source: GO:0045202
+        target: MESH:D056912
+    -   key: decreases uptake of
+        source: MESH:D003913
+        target: UniProt:Q05940
+    -   key: increases abundance of
+        source: UniProt:Q05940
+        target: MESH:D018377
+    -   key: located in
+        source: MESH:D018377
+        target: GO:0045202
+    -   key: negatively correlated with
+        source: GO:0045202
+        target: MESH:D056912
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069478
+        label: Drug
+        name: lisdexamfetamine
+    -   id: MESH:D003913
+        label: ChemicalSubstance
+        name: Dextroamphetamine
+    -   id: UniProt:Q05940
+        label: Protein
+        name: Synaptic vesicular amine transporter
+    -   id: UniProt:Q96RJ0
+        label: Protein
+        name: Trace amine-associated receptor 1
+    -   id: GO:0015844
+        label: BiologicalProcess
+        name: monoamine transport
+    -   id: UniProt:Q05940
+        label: Protein
+        name: monoamine transporter
+    -   id: MESH:D018377
+        label: ChemicalSubstance
+        name: neurotransmitters
+    -   id: GO:0045202
+        label: CellularComponent
+        name: synapse
+    -   id: MESH:D056912
+        label: Disease
+        name: Binge eating disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01255
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201222/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/11597698
+    - https://en.wikipedia.org/wiki/Lisdexamfetamine#Mechanism_of_action
+-   directed: true
+    graph:
+        disease: Pulmonary emphysema
+        disease_mesh: MESH:D011656
+        drug: tiotropium bromide
+        drug_mesh: MESH:D000069447
+        drugbank: DB:DB01409
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069447
+        target: UniProt:P20309
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939
+    -   key: located in
+        source: GO:0006939
+        target: UBERON:0002187
+    -   key: location of
+        source: UBERON:0002187
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069447
+        label: Drug
+        name: tiotropium bromide
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002187
+        label: GrossAnatomicalStructure
+        name: terminal bronchiole
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary emphysema
+    reference:
+    - https://go.drugbank.com/drugs/DB01409#BE0000092
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1900528/
+    - https://en.wikipedia.org/wiki/Tiotropium_bromide#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5487427
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: tiotropium bromide
+        drug_mesh: MESH:D000069447
+        drugbank: DB:DB01409
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069447
+        target: UniProt:P20309
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939
+    -   key: located in
+        source: GO:0006939
+        target: UBERON:0002187
+    -   key: location of
+        source: UBERON:0002187
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069447
+        label: Drug
+        name: tiotropium bromide
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002187
+        label: GrossAnatomicalStructure
+        name: terminal bronchiole
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    - https://go.drugbank.com/drugs/DB01409#BE0000092
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1900528/
+    - https://en.wikipedia.org/wiki/Tiotropium_bromide#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5487427
+-   directed: true
+    graph:
+        disease: Chronic bronchitis
+        disease_mesh: MESH:D029481
+        drug: tiotropium bromide
+        drug_mesh: MESH:D000069447
+        drugbank: DB:DB01409
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069447
+        target: UniProt:P20309
+    -   key: participates in
+        source: UniProt:P20309
+        target: GO:1905144
+    -   key: positively regulates
+        source: GO:1905144
+        target: GO:0006939
+    -   key: located in
+        source: GO:0006939
+        target: UBERON:0002187
+    -   key: location of
+        source: UBERON:0002187
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D029481
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069447
+        label: Drug
+        name: tiotropium bromide
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
+    -   id: GO:1905144
+        label: BiologicalProcess
+        name: response to acetylcholine
+    -   id: GO:0006939
+        label: BiologicalProcess
+        name: smooth muscle contraction
+    -   id: UBERON:0002187
+        label: GrossAnatomicalStructure
+        name: terminal bronchiole
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D029481
+        label: Disease
+        name: Chronic bronchitis
+    reference:
+    - https://go.drugbank.com/drugs/DB01409#BE0000092
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1900528/
+    - https://en.wikipedia.org/wiki/Tiotropium_bromide#Mechanism_of_action
+    - https://pubchem.ncbi.nlm.nih.gov/compound/5487427
+-   directed: true
+    graph:
+        disease: Bacterial endocarditis
+        disease_mesh: MESH:D004697
+        drug: imipenem
+        drug_mesh: MESH:D015378
+        drugbank: DB:DB01598
+    links:
+    -   key: decreases activity of
+        source: MESH:D015378
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D004697
+    multigraph: true
+    nodes:
+    -   id: MESH:D015378
+        label: Drug
+        name: imipenem
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D004697
+        label: Disease
+        name: Bacterial endocarditis
+    reference:
+    - https://go.drugbank.com/drugs/DB01598#mechanismofaction
+    - https://en.wikipedia.org/wiki/Imipenem#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL148/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/104838
+-   directed: true
+    graph:
+        disease: Endometritis
+        disease_mesh: MESH:D004716
+        drug: imipenem
+        drug_mesh: MESH:D015378
+        drugbank: DB:DB01598
+    links:
+    -   key: decreases activity of
+        source: MESH:D015378
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D004716
+    multigraph: true
+    nodes:
+    -   id: MESH:D015378
+        label: Drug
+        name: imipenem
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D004716
+        label: Disease
+        name: Endometritis
+    reference:
+    - https://go.drugbank.com/drugs/DB01598#mechanismofaction
+    - https://en.wikipedia.org/wiki/Imipenem#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL148/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/104838
+-   directed: true
+    graph:
+        disease: Abdominal abscess
+        disease_mesh: MESH:D018784
+        drug: imipenem
+        drug_mesh: MESH:D015378
+        drugbank: DB:DB01598
+    links:
+    -   key: decreases activity of
+        source: MESH:D015378
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D018784
+    multigraph: true
+    nodes:
+    -   id: MESH:D015378
+        label: Drug
+        name: imipenem
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D018784
+        label: Disease
+        name: Abdominal abscess
+    reference:
+    - https://go.drugbank.com/drugs/DB01598#mechanismofaction
+    - https://en.wikipedia.org/wiki/Imipenem#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL148/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/104838
+-   directed: true
+    graph:
+        disease: Bacterial pneumonia
+        disease_mesh: MESH:D018410
+        drug: imipenem
+        drug_mesh: MESH:D015378
+        drugbank: DB:DB01598
+    links:
+    -   key: decreases activity of
+        source: MESH:D015378
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:D015378
+        label: Drug
+        name: imipenem
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D018410
+        label: Disease
+        name: Bacterial pneumonia
+    reference:
+    - https://go.drugbank.com/drugs/DB01598#mechanismofaction
+    - https://en.wikipedia.org/wiki/Imipenem#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL148/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/104838
+-   directed: true
+    graph:
+        disease: Infectious disease of abdomen
+        disease_mesh: MESH:D059413
+        drug: imipenem
+        drug_mesh: MESH:D015378
+        drugbank: DB:DB01598
+    links:
+    -   key: decreases activity of
+        source: MESH:D015378
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D059413
+    multigraph: true
+    nodes:
+    -   id: MESH:D015378
+        label: Drug
+        name: imipenem
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D059413
+        label: Disease
+        name: Infectious disease of abdomen
+    reference:
+    - https://go.drugbank.com/drugs/DB01598#mechanismofaction
+    - https://en.wikipedia.org/wiki/Imipenem#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL148/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/104838
+-   comment: phenylacetate conjugates with glutamine to form phenylacetylglutamine, which is excreted by the kidneys
+    directed: true
+    graph:
+        disease: Hyperammonemia
+        disease_mesh: MESH:D022124
+        drug: phenylacetic acid
+        drug_mesh: MESH:C025136
+        drugbank: DB:DB09269
+    links:
+    -   key: decreases abundance of
+        source: MESH:C025136
+        target: MESH:D005973
+    -   key: positively regulates
+        source: MESH:D005973
+        target: GO:0007588
+    -   key: decreases abundance of
+        source: GO:0007588
+        target: MESH:D000641
+    -   key: contributes to
+        source: MESH:D000641
+        target: MESH:D022124
+    multigraph: true
+    nodes:
+    -   id: MESH:C025136
+        label: Drug
+        name: phenylacetic acid
+    -   id: MESH:D005973
+        label: ChemicalSubstance
+        name: Glutamine
+    -   id: GO:0007588
+        label: BiologicalProcess
+        name: Renal excretion
+    -   id: MESH:D000641
+        label: ChemicalSubstance
+        name: Ammonia
+    -   id: MESH:D022124
+        label: Disease
+        name: Hyperammonemia
+    reference:
+    - https://go.drugbank.com/drugs/DB09269#mechanismofaction
+    - https://www.accessdata.fda.gov/drugsatfda_docs/label/2005/020645lbl.pdf
+    - https://en.wikipedia.org/wiki/Hyperammonemia#Treatment
+-   directed: true
+    graph:
+        disease: Pneumonia due to Streptococcus
+        disease_mesh: MESH:D011018
+        drug: imipenem
+        drug_mesh: MESH:D015378
+        drugbank: DB:DB01598
+    links:
+    -   key: decreases activity of
+        source: MESH:D015378
+        target: InterPro:IPR005311
+    -   key: positively regulates
+        source: InterPro:IPR005311
+        target: GO:0009252
+    -   key: positively regulates
+        source: GO:0009252
+        target: GO:0009273
+    -   key: positively correlated with
+        source: GO:0009273
+        target: GO:0051301
+    -   key: in taxon
+        source: GO:0051301
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D015378
+        label: Drug
+        name: imipenem
+    -   id: GO:0009252
+        label: BiologicalProcess
+        name: Peptidoglycan biosynthetic process
+    -   id: InterPro:IPR005311
+        label: GeneFamily
+        name: Penicillin binding proteins
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: Peptidoglycan-based cell wall biogenesis
+    -   id: GO:0051301
+        label: BiologicalProcess
+        name: Cell division
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus Sp
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia due to Streptococcus
+    reference:
+    - https://go.drugbank.com/drugs/DB01598#mechanismofaction
+    - https://en.wikipedia.org/wiki/Imipenem#Mechanism_of_action
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL148/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/104838
+-   directed: true
+    graph:
+        disease: Multiple myeloma
+        disease_mesh: MESH:D009101
+        drug: Ixazomib
+        drug_mesh: MESH:C548400
+        drugbank: DB:DB09570
+    links:
+    -   key: decreases activity of
+        source: MESH:C548400
+        target: UniProt:P28074
+    -   key: decreases activity of
+        source: MESH:C548400
+        target: UniProt:P20618
+    -   key: decreases activity of
+        source: MESH:C548400
+        target: GO:0071159
+    -   key: participates in
+        source: UniProt:P28074
+        target: GO:0043161
+    -   key: participates in
+        source: UniProt:P20618
+        target: GO:0043161
+    -   key: negatively regulates
+        source: GO:0071159
+        target: GO:0006915
+    -   key: negatively regulates
+        source: GO:0043161
+        target: GO:0006915
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D009101
+    multigraph: true
+    nodes:
+    -   id: MESH:C548400
+        label: Drug
+        name: Ixazomib
+    -   id: UniProt:P28074
+        label: Protein
+        name: Proteasome subunit beta type-5
+    -   id: UniProt:P20618
+        label: Protein
+        name: Proteasome subunit beta type-1
+    -   id: GO:0071159
+        label: CellularComponent
+        name: NF-kappaB complex
+    -   id: GO:0043161
+        label: BiologicalProcess
+        name: Proteasome-mediated ubiquitin-dependent protein catabolic process
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: Apoptotic process
+    -   id: MESH:D009101
+        label: Disease
+        name: Multiple myeloma
+    reference:
+    - https://go.drugbank.com/drugs/DB09570
+    - https://pubmed.ncbi.nlm.nih.gov/23995855/
+    - https://pubchem.ncbi.nlm.nih.gov/compound/25183872
+    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2141296/
+    - https://en.wikipedia.org/wiki/Ixazomib
+-   comment: Calcium salts are phosphate binders. They work by binding with the phosphate in the food you eat,
+             so that it is eliminated from the body without being absorbed.
+    directed: true
+    graph:
+        disease: Hypocalcemia
+        disease_mesh: MESH:D006996
+        drug: calcium glubionate
+        drug_mesh: MESH:C042131
+        drugbank: DB:DB13142
+    links:
+    -   key: increases activity of
+        source: MESH:C042131
+        target: UniProt:P41180
+    -   key: increases abundance of
+        source: MESH:C042131
+        target: MESH:D002118
+    -   key: positively regulates
+        source: UniProt:P41180
+        target: GO:0055074
+    -   key: negatively correlated with
+        source: MESH:D002118
+        target: MESH:D006996
+    -   key: negatively correlated with
+        source: GO:0055074
+        target: MESH:D006996
+    multigraph: true
+    nodes:
+    -   id: MESH:C042131
+        label: Drug
+        name: calcium glubionate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: UniProt:P41180
+        label: Protein
+        name: Extracellular calcium-sensing receptor
+    -   id: GO:0055074
+        label: BiologicalProcess
+        name: calcium ion homeostasis
+    -   id: MESH:D006996
+        label: Disease
+        name: Hypocalcemia
+    reference:
+    - https://go.drugbank.com/drugs/DB13142
+    - https://en.wikipedia.org/wiki/Hypocalcemia
