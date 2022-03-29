@@ -1,1 +1,457 @@
-
+-   directed: true
+    graph:
+        disease: Angina Pectoris
+        disease_mesh: MESH:D000787
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069059
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: contributes to
+        source: HP:0002621
+        target: MESH:D000787
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: Atherosclerosis
+    -   id: MESH:D000787
+        label: Disease
+        name: Angina Pectoris
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://en.wikipedia.org/wiki/Atherosclerosis
+    -   https://en.wikipedia.org/wiki/Angina
+-   directed: true
+    graph:
+        disease: Angina Pectoris, Variant
+        disease_mesh: MESH:D000788
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069059
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: contributes to
+        source: HP:0002621
+        target: MESH:D000788
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: Atherosclerosis
+    -   id: MESH:D000788
+        label: Disease
+        name: Angina Pectoris, Variant
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://en.wikipedia.org/wiki/Atherosclerosis
+    -   https://en.wikipedia.org/wiki/Variant_angina
+-   directed: true
+    graph:
+        disease: Arteriosclerosis
+        disease_mesh: MESH:D001161
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069059
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: manifestation of
+        source: HP:0002621
+        target: MESH:D001161
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: Atherosclerosis
+    -   id: MESH:D001161
+        label: Disease
+        name: Arteriosclerosis 
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://en.wikipedia.org/wiki/Atherosclerosis
+    -   https://en.wikipedia.org/wiki/Arteriosclerosis
+-   directed: true
+    graph:
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069059
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: HP:0003107
+    -   key: manifestation of
+        source: HP:0003107
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0003107
+        label: PhenotypicFeature
+        name: Abnormal circulating cholesterol concentration
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://en.wikipedia.org/wiki/Hypercholesterolemia
+-   directed: true
+    graph:
+        disease: Hyperlipidemia, Familial Combined
+        disease_mesh: MESH:D006950
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069059
+        target: UniProt:P04035
+    -   key: increases activity of
+        source: MESH:D000069059
+        target: UniProt:P06858
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: positively regulates
+        source: UniProt:P06858
+        target: GO:0019433
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: decreases abundance of
+        source: GO:0019433
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006950
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: GO:0019433
+        label: BiologicalProcess
+        name: triglyceride catabolic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D006950
+        label: Disease
+        name: Hyperlipidemia, Familial Combined
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://www.uniprot.org/uniprot/P06858#function
+    -   https://pubmed.ncbi.nlm.nih.gov/15262189/
+    -   https://en.wikipedia.org/wiki/Hyperlipidemia
+-   directed: true
+    graph:
+        disease: Hyperlipoproteinemia Type III
+        disease_mesh: MESH:D006952
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069059
+        target: UniProt:P04035
+    -   key: increases activity of
+        source: MESH:D000069059
+        target: UniProt:P06858
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: positively regulates
+        source: UniProt:P06858
+        target: GO:0019433
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: decreases abundance of
+        source: GO:0019433
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006952
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D006952
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: GO:0019433
+        label: BiologicalProcess
+        name: triglyceride catabolic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D006952
+        label: Disease
+        name: Hyperlipoproteinemia Type III
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://www.uniprot.org/uniprot/P06858#function
+    -   https://pubmed.ncbi.nlm.nih.gov/15262189/
+    -   https://en.wikipedia.org/wiki/Familial_dysbetalipoproteinemia
+-   directed: true
+    graph:
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: increases activity of
+        source: MESH:D000069059
+        target: UniProt:P06858
+    -   key: positively regulates
+        source: UniProt:P06858
+        target: GO:0019433
+    -   key: decreases abundance of
+        source: GO:0019433
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0019433
+        label: BiologicalProcess
+        name: triglyceride catabolic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P06858#function
+    -   https://pubmed.ncbi.nlm.nih.gov/15262189/
+    -   https://en.wikipedia.org/wiki/Hypertriglyceridemia
+-   directed: true
+    graph:
+        disease: Stroke
+        disease_mesh: MESH:D020521
+        drug: atorvastatin
+        drug_mesh: MESH:D000069059
+        drugbank: DB:DB01076
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069059
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: contributes to
+        source: HP:0002621
+        target: HP:0002637
+    -   key: manifestation of
+        source: HP:0002637
+        target: MESH:D020521
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069059
+        label: Drug
+        name: atorvastatin
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: Atherosclerosis
+    -   id: HP:0002637
+        label: PhenotypicFeature
+        name: Cerebral ischemia
+    -   id: MESH:D020521
+        label: Disease
+        name: Stroke
+    reference:
+    -   https://go.drugbank.com/drugs/DB01076#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://en.wikipedia.org/wiki/Atherosclerosis
+    -   https://en.wikipedia.org/wiki/Brain_ischemia
+    -   https://en.wikipedia.org/wiki/Stroke
+-   directed: true
+    graph:
+        disease: Melanosis
+        disease_mesh: MESH:D008548
+        drug: hydroquinone
+        drug_mesh: MESH:C031927
+        drugbank: DB:DB09526
+    links:
+    -   key: decreases activity of
+        source: MESH:C031927
+        target: UniProt:P14679
+    -   key: positively regulates
+        source: UniProt:P14679
+        target: GO:0042438
+    -   key: increases abundance of
+        source: GO:0042438
+        target: MESH:D008543
+    -   key: positively correlated with
+        source: MESH:D008543
+        target: MESH:D008548
+    multigraph: true
+    nodes:
+    -   id: MESH:C031927
+        label: Drug
+        name: hydroquinone
+    -   id: UniProt:P14679
+        label: Protein
+        name: Tyrosinase
+    -   id: GO:0042438
+        label: BiologicalProcess
+        name: melanin biosynthetic process
+    -   id: MESH:D008543
+        label: ChemicalSubstance
+        name: Melanins
+    -   id: MESH:D008548
+        label: Disease
+        name: Melanosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB09526#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P14679#function
+    -   https://en.wikipedia.org/wiki/Melanosis
