@@ -12,11 +12,8 @@
     -   key: decreases activity of
         source: MESH:C036604
         target: UniProt:P08588
-    -   key: located in
-        source: UniProt:P08588
-        target: UBERON:0002349
     -   key: positively regulates
-        source: UBERON:0002349
+        source: UniProt:P08588
         target: GO:1902608
     -   key: increases abundance of
         source: GO:1902608
@@ -35,9 +32,6 @@
     -   id: UniProt:P08588
         label: Protein
         name: Beta-1 adrenergic receptor
-    -   id: UBERON:0002349
-        label: GrossAnatomicalStructure
-        name: myocardium
     -   id: GO:1902608
         label: BiologicalProcess
         name: activation of calcium channels
@@ -45,8 +39,8 @@
         label: ChemicalSubstance
         name: intracellular calcium
     -   id: GO:0015276
-        label: BiologicalProcess
-        name: ionotropic effect
+        label: MolecularActivity
+        name: ligand-gated ion channel activity
     -   id: MESH:D001281
         label: Disease
         name: Atrial fibrillation
@@ -69,11 +63,8 @@
     -   key: decreases activity of
         source: MESH:C036604
         target: UniProt:P08588
-    -   key: located in
-        source: UniProt:P08588
-        target: UBERON:0002349
     -   key: positively regulates
-        source: UBERON:0002349
+        source: UniProt:P08588
         target: GO:1902608
     -   key: increases abundance of
         source: GO:1902608
@@ -92,9 +83,6 @@
     -   id: UniProt:P08588
         label: Protein
         name: Beta-1 adrenergic receptor
-    -   id: UBERON:0002349
-        label: GrossAnatomicalStructure
-        name: myocardium
     -   id: GO:1902608
         label: BiologicalProcess
         name: activation of calcium channels
@@ -102,8 +90,8 @@
         label: ChemicalSubstance
         name: intracellular calcium
     -   id: GO:0015276
-        label: BiologicalProcess
-        name: ionotropic effect
+        label: MolecularActivity
+        name: ligand-gated ion channel activity
     -   id: MESH:D013617
         label: Disease
         name: Supraventricular tachycardia
@@ -289,11 +277,23 @@
     links:
     -   key: decreases activity of
         source: MESH:D014294
-        target: InterPro:IPR002394
+        target: UniProt:Q9GZZ6
+    -   key: decreases activity of
+        source: MESH:D014294
+        target: UniProt:P30926
+    -   key: decreases activity of
+        source: MESH:D014294
+        target: UniProt:P32297
     -   key: positively regulates
-        source: InterPro:IPR002394
+        source: UniProt:Q9GZZ6
         target: GO:0007271
-    -   key: positively correlated with
+    -   key: positively regulates
+        source: UniProt:P30926
+        target: GO:0007271
+    -   key: positively regulates
+        source: UniProt:P32297
+        target: GO:0007271
+    -   key: negatively correlated with
         source: GO:0007271
         target: GO:0044557
     -   key: positively correlated with
@@ -310,9 +310,15 @@
     -   id: MESH:D014294
         label: Drug
         name: trimetaphan
-    -   id: InterPro:IPR002394
-        label: GeneFamily
-        name: Nicotinic acetylcholine receptor
+    -   id: UniProt:Q9GZZ6
+        label: Protein
+        name: Neuronal acetylcholine receptor subunit alpha-10
+    -   id: UniProt:P30926
+        label: Protein
+        name: Neuronal acetylcholine receptor subunit beta-4
+    -   id: UniProt:P32297
+        label: Protein
+        name: Neuronal acetylcholine receptor subunit beta-3
     -   id: GO:0007271
         label: BiologicalProcess
         name: synaptic transmission, cholinergic
@@ -910,14 +916,11 @@
         drug_mesh: MESH:C025136
         drugbank: DB:DB09269
     links:
-    -   key: decreases abundance of
+    -   key: part of
         source: MESH:C025136
-        target: MESH:D005973
-    -   key: positively regulates
-        source: MESH:D005973
-        target: GO:0007588
+        target: MESH:C003089
     -   key: decreases abundance of
-        source: GO:0007588
+        source: MESH:C003089
         target: MESH:D000641
     -   key: contributes to
         source: MESH:D000641
@@ -927,12 +930,9 @@
     -   id: MESH:C025136
         label: Drug
         name: phenylacetic acid
-    -   id: MESH:D005973
+    -   id: MESH:C003089
         label: ChemicalSubstance
-        name: Glutamine
-    -   id: GO:0007588
-        label: BiologicalProcess
-        name: Renal excretion
+        name: phenylacetylglutamine
     -   id: MESH:D000641
         label: ChemicalSubstance
         name: Ammonia
