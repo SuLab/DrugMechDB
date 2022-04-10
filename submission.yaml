@@ -12,17 +12,23 @@
     -   key: decreases activity of
         source: MESH:C036604
         target: UniProt:P08588
-    -   key: positively regulates
+    -   key: decreases activity of
         source: UniProt:P08588
-        target: GO:1902608
-    -   key: increases abundance of
-        source: GO:1902608
-        target: MESH:D002118
-    -   key: positively regulates
-        source: MESH:D002118
-        target: GO:0015276
+        target: InterPro:IPR030672
+    -   key: decreases synthesis of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0015278
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0051899
+    -   key: ameliorates
+        source: GO:0051899
+        target: HP:0004308
     -   key: correlated with
-        source: GO:0015276
+        source: HP:0004308
         target: MESH:D001281
     multigraph: true
     nodes:
@@ -32,15 +38,21 @@
     -   id: UniProt:P08588
         label: Protein
         name: Beta-1 adrenergic receptor
-    -   id: GO:1902608
-        label: BiologicalProcess
-        name: activation of calcium channels
-    -   id: MESH:D002118
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
         label: ChemicalSubstance
-        name: intracellular calcium
-    -   id: GO:0015276
-        label: MolecularActivity
-        name: ligand-gated ion channel activity
+        name: Cyclic AMP
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
     -   id: MESH:D001281
         label: Disease
         name: Atrial fibrillation
@@ -63,17 +75,23 @@
     -   key: decreases activity of
         source: MESH:C036604
         target: UniProt:P08588
-    -   key: positively regulates
+    -   key: decreases activity of
         source: UniProt:P08588
-        target: GO:1902608
-    -   key: increases abundance of
-        source: GO:1902608
-        target: MESH:D002118
-    -   key: positively regulates
-        source: MESH:D002118
-        target: GO:0015276
+        target: InterPro:IPR030672
+    -   key: decreases synthesis of
+        source: InterPro:IPR030672
+        target: MESH:D000242
+    -   key: negatively regulates
+        source: MESH:D000242
+        target: GO:0015278
+    -   key: decreases activity of
+        source: GO:0015278
+        target: GO:0051899
+    -   key: ameliorates
+        source: GO:0051899
+        target: HP:0004308
     -   key: correlated with
-        source: GO:0015276
+        source: HP:0004308
         target: MESH:D013617
     multigraph: true
     nodes:
@@ -83,15 +101,21 @@
     -   id: UniProt:P08588
         label: Protein
         name: Beta-1 adrenergic receptor
-    -   id: GO:1902608
-        label: BiologicalProcess
-        name: activation of calcium channels
-    -   id: MESH:D002118
+    -   id: InterPro:IPR030672
+        label: GeneFamily
+        name: Adenylate cyclase
+    -   id: MESH:D000242
         label: ChemicalSubstance
-        name: intracellular calcium
-    -   id: GO:0015276
-        label: MolecularActivity
-        name: ligand-gated ion channel activity
+        name: Cyclic AMP
+    -   id: GO:0015278
+        label: BiologicalProcess
+        name: Calcium release
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: Membrane depolarization
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
     -   id: MESH:D013617
         label: Disease
         name: Supraventricular tachycardia
@@ -337,7 +361,9 @@
     reference:
     - https://go.drugbank.com/drugs/DB01116
     - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201329/
--   directed: true
+-   comment: Lisdexamfetamine is a prodrug of dextroamphetamine. The active form of this drug blocks the reuptake of norepinephrine and dopamine 
+             into the presynaptic neuron and increase the release of these monoamines into the extraneuronal space.
+    directed: true
     graph:
         disease: Attention deficit hyperactivity disorder
         disease_mesh: MESH:D001289
@@ -348,29 +374,53 @@
     -   key: has metabolite
         source: MESH:D000069478
         target: MESH:D003913
-    -   key: increases activity of
+    -   key: decreases activity of
         source: MESH:D003913
-        target: UniProt:Q96RJ0
+        target: UniProt:P23975
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:Q01959
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:P27338
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:P21397
     -   key: participates in
-        source: UniProt:Q96RJ0
-        target: GO:0015844
-    -   key: located in
-        source: GO:0015844
-        target: GO:0045202
-    -   key: negatively correlated with
-        source: GO:0045202
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: participates in
+        source: UniProt:Q01959
+        target: GO:0051583
+    -   key: decreases abundance of
+        source: UniProt:P27338
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: UniProt:P27338
+        target: MESH:D004298
+    -   key: decreases abundance of
+        source: UniProt:P21397
+        target: MESH:D004298
+    -   key: decreases abundance of
+        source: UniProt:P21397
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051583
+        target: MESH:D004298
+    -   key: participates in
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: disrupted by
+        source: GO:0061533
         target: MESH:D001289
-    -   key: decreases uptake of
-        source: MESH:D003913
-        target: UniProt:Q05940
-    -   key: increases abundance of
-        source: UniProt:Q05940
-        target: MESH:D018377
-    -   key: located in
-        source: MESH:D018377
-        target: GO:0045202
-    -   key: negatively correlated with
-        source: GO:0045202
+    -   key: disrupted by
+        source: GO:0061527
         target: MESH:D001289
     multigraph: true
     nodes:
@@ -380,24 +430,36 @@
     -   id: MESH:D003913
         label: ChemicalSubstance
         name: Dextroamphetamine
-    -   id: UniProt:Q05940
+    -   id: UniProt:P23975
         label: Protein
-        name: Synaptic vesicular amine transporter
-    -   id: UniProt:Q96RJ0
+        name: Sodium-dependent noradrenaline transporter
+    -   id: UniProt:Q01959
         label: Protein
-        name: Trace amine-associated receptor 1
-    -   id: GO:0015844
+        name: Sodium-dependent dopamine transporter
+    -   id: UniProt:P27338
+        label: Protein
+        name: Amine oxidase B
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase A
+    -   id: GO:0051620
         label: BiologicalProcess
-        name: monoamine transport
-    -   id: UniProt:Q05940
-        label: Protein
-        name: monoamine transporter
-    -   id: MESH:D018377
+        name: Noradrenaline uptake
+    -   id: GO:0051583
+        label: BiologicalProcess
+        name: Dopamine uptake involved in synaptic transmission
+    -   id: MESH:D009638
         label: ChemicalSubstance
-        name: neurotransmitters
-    -   id: GO:0045202
-        label: CellularComponent
-        name: synapse
+        name: Noradrenaline
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
     -   id: MESH:D001289
         label: Disease
         name: Attention deficit hyperactivity disorder
@@ -406,7 +468,9 @@
     - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201222/
     - https://pubchem.ncbi.nlm.nih.gov/compound/11597698
     - https://en.wikipedia.org/wiki/Lisdexamfetamine#Mechanism_of_action
--   directed: true
+-   comment: Lisdexamfetamine is a prodrug of dextroamphetamine. The active form of this drug blocks the reuptake of norepinephrine and dopamine 
+             into the presynaptic neuron and increase the release of these monoamines into the extraneuronal space.
+    directed: true
     graph:
         disease: Binge eating disorder
         disease_mesh: MESH:D056912
@@ -417,29 +481,53 @@
     -   key: has metabolite
         source: MESH:D000069478
         target: MESH:D003913
-    -   key: increases activity of
+    -   key: decreases activity of
         source: MESH:D003913
-        target: UniProt:Q96RJ0
+        target: UniProt:P23975
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:Q01959
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:P27338
+    -   key: decreases activity of
+        source: MESH:D003913
+        target: UniProt:P21397
     -   key: participates in
-        source: UniProt:Q96RJ0
-        target: GO:0015844
-    -   key: located in
-        source: GO:0015844
-        target: GO:0045202
-    -   key: negatively correlated with
-        source: GO:0045202
+        source: UniProt:P23975
+        target: GO:0051620
+    -   key: participates in
+        source: UniProt:Q01959
+        target: GO:0051583
+    -   key: decreases abundance of
+        source: UniProt:P27338
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: UniProt:P27338
+        target: MESH:D004298
+    -   key: decreases abundance of
+        source: UniProt:P21397
+        target: MESH:D004298
+    -   key: decreases abundance of
+        source: UniProt:P21397
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051620
+        target: MESH:D009638
+    -   key: decreases abundance of
+        source: GO:0051583
+        target: MESH:D004298
+    -   key: participates in
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: participates in
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: disrupted by
+        source: GO:0061533
         target: MESH:D056912
-    -   key: decreases uptake of
-        source: MESH:D003913
-        target: UniProt:Q05940
-    -   key: increases abundance of
-        source: UniProt:Q05940
-        target: MESH:D018377
-    -   key: located in
-        source: MESH:D018377
-        target: GO:0045202
-    -   key: negatively correlated with
-        source: GO:0045202
+    -   key: disrupted by
+        source: GO:0061527
         target: MESH:D056912
     multigraph: true
     nodes:
@@ -449,24 +537,36 @@
     -   id: MESH:D003913
         label: ChemicalSubstance
         name: Dextroamphetamine
-    -   id: UniProt:Q05940
+    -   id: UniProt:P23975
         label: Protein
-        name: Synaptic vesicular amine transporter
-    -   id: UniProt:Q96RJ0
+        name: Sodium-dependent noradrenaline transporter
+    -   id: UniProt:Q01959
         label: Protein
-        name: Trace amine-associated receptor 1
-    -   id: GO:0015844
+        name: Sodium-dependent dopamine transporter
+    -   id: UniProt:P27338
+        label: Protein
+        name: Amine oxidase B
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase A
+    -   id: GO:0051620
         label: BiologicalProcess
-        name: monoamine transport
-    -   id: UniProt:Q05940
-        label: Protein
-        name: monoamine transporter
-    -   id: MESH:D018377
+        name: Noradrenaline uptake
+    -   id: GO:0051583
+        label: BiologicalProcess
+        name: Dopamine uptake involved in synaptic transmission
+    -   id: MESH:D009638
         label: ChemicalSubstance
-        name: neurotransmitters
-    -   id: GO:0045202
-        label: CellularComponent
-        name: synapse
+        name: Noradrenaline
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: Dopamine secretion, neurotransmission
     -   id: MESH:D056912
         label: Disease
         name: Binge eating disorder
