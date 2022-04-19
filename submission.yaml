@@ -900,53 +900,20 @@
         drug_mesh: MESH:D010656
         drugbank: DB:DB00388
     links:
-    -   key: increases activity of
+    -   key: causes
         source: MESH:D010656
-        target: UniProt:P35348
-    -   key: increases activity of
-        source: MESH:D010656
-        target: UniProt:P35368
-    -   key: increases activity of
-        source: MESH:D010656
-        target: UniProt:P25100
-    -   key: positively regulates
-        source: UniProt:P35348
-        target: GO:0042310
-    -   key: positively regulates
-        source: UniProt:P35368
-        target: GO:0042310
-    -   key: positively regulates
-        source: UniProt:P25100
-        target: GO:0042310
-    -   key: negatively correlated with
-        source: GO:0042310
         target: MESH:D015878
     multigraph: true
     nodes:
     -   id: MESH:D010656
         label: Drug
         name: phenylephrine
-    -   id: UniProt:P35348
-        label: Protein
-        name: Alpha-1A adrenergic receptor
-    -   id: UniProt:P35368
-        label: Protein
-        name: Alpha-1B adrenergic receptor
-    -   id: UniProt:P25100
-        label: Protein
-        name: Alpha-1D adrenergic receptor
-    -   id: GO:0042310
-        label: BiologicalProcess
-        name: vasoconstriction
     -   id: MESH:D015878
         label: Disease
         name: Mydriasis
     reference:
     -   https://go.drugbank.com/drugs/DB00388#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P35348#function
-    -   https://www.uniprot.org/uniprot/P35368#function
-    -   https://www.uniprot.org/uniprot/P25100#function
-    -   https://en.wikipedia.org/wiki/Mydriasis
+    Comment: Phenylephrine is used as a diagnostic aid and it causes mydriasis (dilated pupils).
 -   directed: true
     graph:
         disease: Proctitis
