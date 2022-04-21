@@ -1,1 +1,856 @@
-
+- directed: true
+  graph:
+    disease: Urinary tract infectious disease
+    disease_mesh: MESH:D014552
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary tract infectious disease
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Pharyngitis
+    disease_mesh: MESH:D010612
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D010612
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D010612
+      label: Disease
+      name: Pharyngitis
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Syphilis
+    disease_mesh: MESH:D013587
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D013587
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D013587
+      label: Disease
+      name: Syphilis
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Trachoma
+    disease_mesh: MESH:D014141
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:813
+    - key: causes
+      source: NCBITaxon:813
+      target: MESH:D014141
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:813
+      label: OrganismTaxon
+      name: Chlamydia trachomatis
+    - id: MESH:D014141
+      label: Disease
+      name: Trachoma
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Brucellosis
+    disease_mesh: MESH:D002006
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:29459
+    - key: causes
+      source: NCBITaxon:29459
+      target: MESH:D002006
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:29459
+      label: OrganismTaxon
+      name: Brucella melitensis
+    - id: MESH:D002006
+      label: Disease
+      name: Brucellosis
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Psittacosis
+    disease_mesh: MESH:D009956
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:83554
+    - key: causes
+      source: NCBITaxon:83554
+      target: MESH:D009956
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:83554
+      label: OrganismTaxon
+      name: Chlamydia psittaci
+    - id: MESH:D009956
+      label: Disease
+      name: Psittacosis
+      alt_name: Ornithosis
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Bacterial conjunctivitis
+    disease_mesh: MESH:D003234
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1279
+    - key: causes
+      source: NCBITaxon:1279
+      target: MESH:D003234
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1279
+      label: OrganismTaxon
+      name: Staphylococcus sp.
+    - id: MESH:D003234
+      label: Disease
+      name: Bacterial conjunctivitis
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Conjunctivitis, Inclusion
+    disease_mesh: MESH:D003235
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:813
+    - key: causes
+      source: NCBITaxon:813
+      target: MESH:D003235
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:813
+      label: OrganismTaxon
+      name: Chlamydia trachomatis
+    - id: MESH:D003235
+      label: Disease
+      name: Conjunctivitis, Inclusion
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://meshb.nlm.nih.gov/record/ui?ui=D003235
+- directed: true
+  graph:
+    disease: Rocky Mountain Spotted Fever
+    disease_mesh: MESH:D012373
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:783
+    - key: causes
+      source: NCBITaxon:783
+      target: MESH:D012373
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:783
+      label: OrganismTaxon
+      name: Rickettsia rickettsii
+    - id: MESH:D012373
+      label: Disease
+      name: Rocky Mountain Spotted Fever
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://meshb.nlm.nih.gov/record/ui?ui=D012373
+- directed: true
+  graph:
+    disease: Pneumonia
+    disease_mesh: MESH:D011014
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D011014
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D011014
+      label: Disease
+      name: Pneumonia
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Actinomycosis
+    disease_mesh: MESH:D000196
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1654
+    - key: causes
+      source: NCBITaxon:1654
+      target: MESH:D000196
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1654
+      label: OrganismTaxon
+      name: Actinomyces
+    - id: MESH:D000196
+      label: Disease
+      name: Actinomycosis
+      alt_name: Actinomycotic infection
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Actinomycosis#Causes
+    - https://meshb.nlm.nih.gov/record/ui?ui=D000196
+- directed: true
+  graph:
+    disease: Anthrax
+    disease_mesh: MESH:D000881
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1392
+    - key: causes
+      source: NCBITaxon:1392
+      target: MESH:D000881
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1392
+      label: OrganismTaxon
+      name: Bacillus anthracis
+    - id: MESH:D000881
+      label: Disease
+      name: Anthrax
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Spotted Fever Group Rickettsiosis
+    disease_mesh: MESH:D000073605
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:780
+    - key: causes
+      source: NCBITaxon:780
+      target: MESH:D000073605
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:780
+      label: OrganismTaxon
+      name: Rickettsia sp
+    - id: MESH:D000073605
+      label: Disease
+      name: Spotted Fever Group Rickettsiosis
+      alt_name: Rickettsialpox
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Sinusitis
+    disease_mesh: MESH:D012852
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D012852
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D012852
+      label: Disease
+      name: Sinusitis
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Gonorrhea
+    disease_mesh: MESH:D006069
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:485
+    - key: causes
+      source: NCBITaxon:485
+      target: MESH:D006069
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:485
+      label: OrganismTaxon
+      name: Neisseria gonorrhoeae
+    - id: MESH:D006069
+      label: Disease
+      name: Gonorrhea
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Relapsing fever
+    disease_mesh: MESH:D012061
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:138
+    - key: causes
+      source: NCBITaxon:138
+      target: MESH:D012061
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:138
+      label: OrganismTaxon
+      name: Borrelia sp
+    - id: MESH:D012061
+      label: Disease
+      name: Relapsing fever
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Yaws
+    disease_mesh: MESH:D015001
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D015001
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D015001
+      label: Disease
+      name: Yaws
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://meshb.nlm.nih.gov/record/ui?ui=D015001
+- directed: true
+  graph:
+    disease: Acne vulgaris
+    disease_mesh: MESH:D000152
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:1747
+    - key: causes
+      source: NCBITaxon:1747
+      target: MESH:D000152
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:1747
+      label: OrganismTaxon
+      name: Cutibacterium acnes
+    - id: MESH:D000152
+      label: Disease
+      name: Acne vulgaris
+  reference: https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+- directed: true
+  graph:
+    disease: Q fever
+    disease_mesh: MESH:D011778
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:777
+    - key: causes
+      source: NCBITaxon:777
+      target: MESH:D011778
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:777
+      label: OrganismTaxon
+      name: Coxiella burnetii
+    - id: MESH:D011778
+      label: Disease
+      name: Q fever
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://meshb.nlm.nih.gov/record/ui?ui=D011778
+- directed: true
+  graph:
+    disease: Granuloma inguinale
+    disease_mesh: MESH:D006100
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:39824
+    - key: causes
+      source: NCBITaxon:39824
+      target: MESH:D006100
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:39824
+      label: OrganismTaxon
+      name: Klebsiella granulomatis
+    - id: MESH:D006100
+      label: Disease
+      name: Granuloma inguinale
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://meshb.nlm.nih.gov/record/ui?ui=D006100
+- directed: true
+  graph:
+    disease: Bronchitis
+    disease_mesh: MESH:D001991
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:2104
+    - key: causes
+      source: NCBITaxon:2104
+      target: MESH:D001991
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:2104
+      label: OrganismTaxon
+      name: Mycoplasma pneumoniae
+    - id: MESH:D001991
+      label: Disease
+      name: Bronchitis
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://en.wikipedia.org/wiki/Bronchitis
+- directed: true
+  graph:
+    disease: Lymphogranuloma venereum
+    disease_mesh: MESH:D008219
+    drug: tetracycline
+    drug_mesh: MESH:D013752
+    drugbank: DB:DB00759
+  links:
+    - key: disrupts
+      source: MESH:D013752
+      target: GO:0044391
+    - key: location of
+      source: GO:0044391
+      target: GO:0006412
+    - key: in taxon
+      source: GO:0006412
+      target: NCBITaxon:813
+    - key: causes
+      source: NCBITaxon:813
+      target: MESH:D008219
+  multigraph: true
+  nodes:
+    - id: MESH:D013752
+      label: Drug
+      name: tetracycline
+    - id: GO:0044391
+      label: CellularComponent
+      name: ribosomal subunit
+    - id: GO:0006412
+      label: BiologicalProcess
+      name: translation
+    - id: NCBITaxon:813
+      label: OrganismTaxon
+      name: Chlamydia trachomatis
+    - id: MESH:D008219
+      label: Disease
+      name: Lymphogranuloma venereum
+  reference:
+    - https://en.wikipedia.org/wiki/Tetracycline#Mechanism_of_action
+    - https://meshb.nlm.nih.gov/record/ui?ui=D008219
