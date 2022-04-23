@@ -12,23 +12,20 @@
     -   key: decreases activity of
         source: MESH:C036604
         target: UniProt:P08588
-    -   key: decreases activity of
+    -   key: increases activity of
         source: UniProt:P08588
         target: InterPro:IPR030672
-    -   key: decreases synthesis of
+    -   key: increases abundance of
         source: InterPro:IPR030672
-        target: MESH:D000242
-    -   key: negatively regulates
-        source: MESH:D000242
-        target: GO:0015278
-    -   key: decreases activity of
-        source: GO:0015278
-        target: GO:0051899
-    -   key: ameliorates
-        source: GO:0051899
-        target: HP:0004308
-    -   key: correlated with
-        source: HP:0004308
+        target: CHEBI:17489
+    -   key: positively regulates
+        source: CHEBI:17489
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0086003
+    -   key: positively correlated with
+        source: GO:0086003
         target: MESH:D001281
     multigraph: true
     nodes:
@@ -41,18 +38,15 @@
     -   id: InterPro:IPR030672
         label: GeneFamily
         name: Adenylate cyclase
-    -   id: MESH:D000242
+    -   id: CHEBI:17489
         label: ChemicalSubstance
-        name: Cyclic AMP
-    -   id: GO:0015278
+        name: 3',5'-cyclic AMP
+    -   id: GO:0070509
         label: BiologicalProcess
-        name: Calcium release
-    -   id: GO:0051899
+        name: Calcium ion import
+    -   id: GO:0086003
         label: BiologicalProcess
-        name: Membrane depolarization
-    -   id: HP:0004308
-        label: PhenotypicFeature
-        name: Ventricular arrhythmia
+        name: Cardiac muscle cell contraction
     -   id: MESH:D001281
         label: Disease
         name: Atrial fibrillation
@@ -75,23 +69,20 @@
     -   key: decreases activity of
         source: MESH:C036604
         target: UniProt:P08588
-    -   key: decreases activity of
+    -   key: increases activity of
         source: UniProt:P08588
         target: InterPro:IPR030672
-    -   key: decreases synthesis of
+    -   key: increases abundance of
         source: InterPro:IPR030672
-        target: MESH:D000242
-    -   key: negatively regulates
-        source: MESH:D000242
-        target: GO:0015278
-    -   key: decreases activity of
-        source: GO:0015278
-        target: GO:0051899
-    -   key: ameliorates
-        source: GO:0051899
-        target: HP:0004308
-    -   key: correlated with
-        source: HP:0004308
+        target: CHEBI:17489
+    -   key: positively regulates
+        source: CHEBI:17489
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0086003
+    -   key: positively correlated with
+        source: GO:0086003
         target: MESH:D013617
     multigraph: true
     nodes:
@@ -104,18 +95,15 @@
     -   id: InterPro:IPR030672
         label: GeneFamily
         name: Adenylate cyclase
-    -   id: MESH:D000242
+    -   id: CHEBI:17489
         label: ChemicalSubstance
-        name: Cyclic AMP
-    -   id: GO:0015278
+        name: 3',5'-cyclic AMP
+    -   id: GO:0070509
         label: BiologicalProcess
-        name: Calcium release
-    -   id: GO:0051899
+        name: Calcium ion import
+    -   id: GO:0086003
         label: BiologicalProcess
-        name: Membrane depolarization
-    -   id: HP:0004308
-        label: PhenotypicFeature
-        name: Ventricular arrhythmia
+        name: Cardiac muscle cell contraction
     -   id: MESH:D013617
         label: Disease
         name: Supraventricular tachycardia
@@ -382,44 +370,41 @@
         target: UniProt:Q01959
     -   key: decreases activity of
         source: MESH:D003913
-        target: UniProt:P27338
-    -   key: decreases activity of
-        source: MESH:D003913
-        target: UniProt:P21397
-    -   key: participates in
+        target: UniProt:Q05940
+    -   key: positively regulates
         source: UniProt:P23975
         target: GO:0051620
-    -   key: participates in
-        source: UniProt:Q01959
-        target: GO:0051583
-    -   key: decreases abundance of
-        source: UniProt:P27338
-        target: MESH:D009638
-    -   key: decreases abundance of
-        source: UniProt:P27338
-        target: MESH:D004298
-    -   key: decreases abundance of
-        source: UniProt:P21397
-        target: MESH:D004298
-    -   key: decreases abundance of
-        source: UniProt:P21397
-        target: MESH:D009638
     -   key: decreases abundance of
         source: GO:0051620
         target: MESH:D009638
+    -   key: positively regulates
+        source: UniProt:Q01959
+        target: GO:0051583
     -   key: decreases abundance of
         source: GO:0051583
         target: MESH:D004298
-    -   key: participates in
-        source: MESH:D009638
-        target: GO:0061533
-    -   key: participates in
+    -   key: positively correlated with
         source: MESH:D004298
         target: GO:0061527
-    -   key: disrupted by
+    -   key: positively regulates
+        source: UniProt:Q05940
+        target: GO:0015842
+    -   key: decreases abundance of
+        source: GO:0015842
+        target: MESH:D004298
+    -   key: decreases abundance of
+        source: GO:0015842
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: GO:0061533
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: GO:0061527
+    -   key: treats
         source: GO:0061533
         target: MESH:D001289
-    -   key: disrupted by
+    -   key: treats
         source: GO:0061527
         target: MESH:D001289
     multigraph: true
@@ -433,148 +418,39 @@
     -   id: UniProt:P23975
         label: Protein
         name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0051620
+        label: BiologicalProcess
+        name: Norepinephrine uptake
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
     -   id: UniProt:Q01959
         label: Protein
         name: Sodium-dependent dopamine transporter
-    -   id: UniProt:P27338
-        label: Protein
-        name: Amine oxidase B
-    -   id: UniProt:P21397
-        label: Protein
-        name: Amine oxidase A
-    -   id: GO:0051620
-        label: BiologicalProcess
-        name: Noradrenaline uptake
     -   id: GO:0051583
         label: BiologicalProcess
         name: Dopamine uptake involved in synaptic transmission
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Noradrenaline
     -   id: MESH:D004298
         label: ChemicalSubstance
         name: Dopamine
-    -   id: GO:0061533
-        label: BiologicalProcess
-        name: Norepinephrine secretion, neurotransmission
     -   id: GO:0061527
         label: BiologicalProcess
         name: Dopamine secretion, neurotransmission
+    -   id: UniProt:Q05940
+        label: Protein
+        name: Synaptic vesicular amine transporter
+    -   id: GO:0015842
+        label: BiologicalProcess
+        name: Aminergic neurotransmitter loading into synaptic vesicle
+    -   id: GO:0061533
+        label: BiologicalProcess
+        name: Norepinephrine secretion, neurotransmission
     -   id: MESH:D001289
         label: Disease
         name: Attention deficit hyperactivity disorder
     reference:
+    - https://go.drugbank.com/drugs/DB01576
     - https://go.drugbank.com/drugs/DB01255
-    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201222/
-    - https://pubchem.ncbi.nlm.nih.gov/compound/11597698
-    - https://en.wikipedia.org/wiki/Lisdexamfetamine#Mechanism_of_action
--   comment: Lisdexamfetamine is a prodrug of dextroamphetamine. The active form of this drug blocks the reuptake of norepinephrine and dopamine 
-             into the presynaptic neuron and increase the release of these monoamines into the extraneuronal space.
-    directed: true
-    graph:
-        disease: Binge eating disorder
-        disease_mesh: MESH:D056912
-        drug: lisdexamfetamine
-        drug_mesh: MESH:D000069478
-        drugbank: DB:DB01255
-    links:
-    -   key: has metabolite
-        source: MESH:D000069478
-        target: MESH:D003913
-    -   key: decreases activity of
-        source: MESH:D003913
-        target: UniProt:P23975
-    -   key: decreases activity of
-        source: MESH:D003913
-        target: UniProt:Q01959
-    -   key: decreases activity of
-        source: MESH:D003913
-        target: UniProt:P27338
-    -   key: decreases activity of
-        source: MESH:D003913
-        target: UniProt:P21397
-    -   key: participates in
-        source: UniProt:P23975
-        target: GO:0051620
-    -   key: participates in
-        source: UniProt:Q01959
-        target: GO:0051583
-    -   key: decreases abundance of
-        source: UniProt:P27338
-        target: MESH:D009638
-    -   key: decreases abundance of
-        source: UniProt:P27338
-        target: MESH:D004298
-    -   key: decreases abundance of
-        source: UniProt:P21397
-        target: MESH:D004298
-    -   key: decreases abundance of
-        source: UniProt:P21397
-        target: MESH:D009638
-    -   key: decreases abundance of
-        source: GO:0051620
-        target: MESH:D009638
-    -   key: decreases abundance of
-        source: GO:0051583
-        target: MESH:D004298
-    -   key: participates in
-        source: MESH:D009638
-        target: GO:0061533
-    -   key: participates in
-        source: MESH:D004298
-        target: GO:0061527
-    -   key: disrupted by
-        source: GO:0061533
-        target: MESH:D056912
-    -   key: disrupted by
-        source: GO:0061527
-        target: MESH:D056912
-    multigraph: true
-    nodes:
-    -   id: MESH:D000069478
-        label: Drug
-        name: lisdexamfetamine
-    -   id: MESH:D003913
-        label: ChemicalSubstance
-        name: Dextroamphetamine
-    -   id: UniProt:P23975
-        label: Protein
-        name: Sodium-dependent noradrenaline transporter
-    -   id: UniProt:Q01959
-        label: Protein
-        name: Sodium-dependent dopamine transporter
-    -   id: UniProt:P27338
-        label: Protein
-        name: Amine oxidase B
-    -   id: UniProt:P21397
-        label: Protein
-        name: Amine oxidase A
-    -   id: GO:0051620
-        label: BiologicalProcess
-        name: Noradrenaline uptake
-    -   id: GO:0051583
-        label: BiologicalProcess
-        name: Dopamine uptake involved in synaptic transmission
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Noradrenaline
-    -   id: MESH:D004298
-        label: ChemicalSubstance
-        name: Dopamine
-    -   id: GO:0061533
-        label: BiologicalProcess
-        name: Norepinephrine secretion, neurotransmission
-    -   id: GO:0061527
-        label: BiologicalProcess
-        name: Dopamine secretion, neurotransmission
-    -   id: MESH:D056912
-        label: Disease
-        name: Binge eating disorder
-    reference:
-    - https://go.drugbank.com/drugs/DB01255
-    - https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201222/
-    - https://pubchem.ncbi.nlm.nih.gov/compound/11597698
-    - https://en.wikipedia.org/wiki/Lisdexamfetamine#Mechanism_of_action
 -   directed: true
     graph:
         disease: Pulmonary emphysema
