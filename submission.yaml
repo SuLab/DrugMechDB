@@ -73,26 +73,35 @@
     links:
     -   key: decreases activity of
         source: MESH:D002110
-        target: InterPro:IPR001634
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
     -   key: decreases activity of
         source: MESH:D002110
         target: InterPro:IPR023088
     -   key: positively regulates
-        source: InterPro:IPR001634
-        target: GO:0006954
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
     -   key: positively regulates
         source: InterPro:IPR023088
         target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
     -   key: decreases abundance of
         source: GO:0006198
         target: MESH:D000242
-    -   key: negatively correlated with
+    -   key: positively regulates
         source: MESH:D000242
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
-        target: HP:0012531
+        target: GO:0019233
     -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
         source: HP:0012531
         target: MESH:D001416
     multigraph: true
@@ -100,21 +109,27 @@
     -   id: MESH:D002110
         label: Drug
         name: caffeine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptor
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
     -   id: InterPro:IPR023088
         label: GeneFamily
         name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
     -   id: GO:0006198
         label: BiologicalProcess
         name: cAMP catabolic process
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: GO:0006954
+    -   id: GO:0019233
         label: BiologicalProcess
-        name: inflammatory response
+        name: sensory perception of pain
     -   id: HP:0012531
         label: PhenotypicFeature
         name: Pain
@@ -126,7 +141,7 @@
     -   https://en.wikipedia.org/wiki/Caffeine
     -   https://en.wikipedia.org/wiki/Adenosine_receptor
     -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
-    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
     -   https://en.wikipedia.org/wiki/Back_pain
 -   directed: true
     graph:
@@ -138,51 +153,66 @@
     links:
     -   key: decreases activity of
         source: MESH:D002110
-        target: InterPro:IPR001634
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
     -   key: decreases activity of
         source: MESH:D002110
         target: InterPro:IPR023088
     -   key: positively regulates
-        source: InterPro:IPR001634
-        target: GO:0006954
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
     -   key: positively regulates
         source: InterPro:IPR023088
         target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
     -   key: decreases abundance of
         source: GO:0006198
         target: MESH:D000242
-    -   key: negatively correlated with
+    -   key: positively regulates
         source: MESH:D000242
-        target: GO:0006954
+        target: GO:0019233
     -   key: positively correlated with
-        source: GO:0006954
-        target: HP:0001742
+        source: GO:0019233
+        target: HP:0012531
     -   key: contributes to
-        source: HP:0001742
+        source: HP:0012531
         target: MESH:D003027
     multigraph: true
     nodes:
     -   id: MESH:D002110
         label: Drug
         name: caffeine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptor
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
     -   id: InterPro:IPR023088
         label: GeneFamily
         name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
     -   id: GO:0006198
         label: BiologicalProcess
         name: cAMP catabolic process
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: GO:0006954
+    -   id: GO:0019233
         label: BiologicalProcess
-        name: inflammatory response
-    -   id: HP:0001742
+        name: sensory perception of pain
+    -   id: HP:0012531
         label: PhenotypicFeature
-        name: Nasal congestion
+        name: Pain
     -   id: MESH:D003027
         label: Disease
         name: Cluster Headache
@@ -191,7 +221,7 @@
     -   https://en.wikipedia.org/wiki/Caffeine
     -   https://en.wikipedia.org/wiki/Adenosine_receptor
     -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
-    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
     -   https://en.wikipedia.org/wiki/Cluster_headache
 -   directed: true
     graph:
@@ -333,51 +363,66 @@
     links:
     -   key: decreases activity of
         source: MESH:D002110
-        target: InterPro:IPR001634
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
     -   key: decreases activity of
         source: MESH:D002110
         target: InterPro:IPR023088
     -   key: positively regulates
-        source: InterPro:IPR001634
-        target: GO:0006954
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
     -   key: positively regulates
         source: InterPro:IPR023088
         target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
     -   key: decreases abundance of
         source: GO:0006198
         target: MESH:D000242
-    -   key: negatively correlated with
+    -   key: positively regulates
         source: MESH:D000242
-        target: GO:0006954
+        target: GO:0019233
     -   key: positively correlated with
-        source: GO:0006954
-        target: HP:0001742
+        source: GO:0019233
+        target: HP:0012531
     -   key: contributes to
-        source: HP:0001742
+        source: HP:0012531
         target: MESH:D020773
     multigraph: true
     nodes:
     -   id: MESH:D002110
         label: Drug
         name: caffeine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptor
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
     -   id: InterPro:IPR023088
         label: GeneFamily
         name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
     -   id: GO:0006198
         label: BiologicalProcess
         name: cAMP catabolic process
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: GO:0006954
+    -   id: GO:0019233
         label: BiologicalProcess
-        name: inflammatory response
-    -   id: HP:0001742
+        name: sensory perception of pain
+    -   id: HP:0012531
         label: PhenotypicFeature
-        name: Nasal congestion
+        name: Pain
     -   id: MESH:D020773
         label: Disease
         name: Headache Disorders
@@ -386,7 +431,7 @@
     -   https://en.wikipedia.org/wiki/Caffeine
     -   https://en.wikipedia.org/wiki/Adenosine_receptor
     -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
-    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
     -   https://en.wikipedia.org/wiki/Headache
 -   directed: true
     graph:
@@ -398,51 +443,66 @@
     links:
     -   key: decreases activity of
         source: MESH:D002110
-        target: InterPro:IPR001634
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
     -   key: decreases activity of
         source: MESH:D002110
         target: InterPro:IPR023088
     -   key: positively regulates
-        source: InterPro:IPR001634
-        target: GO:0006954
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
     -   key: positively regulates
         source: InterPro:IPR023088
         target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
     -   key: decreases abundance of
         source: GO:0006198
         target: MESH:D000242
-    -   key: negatively correlated with
+    -   key: positively regulates
         source: MESH:D000242
-        target: GO:0006954
+        target: GO:0019233
     -   key: positively correlated with
-        source: GO:0006954
-        target: HP:0001742
+        source: GO:0019233
+        target: HP:0012531
     -   key: contributes to
-        source: HP:0001742
+        source: HP:0012531
         target: MESH:D008881
     multigraph: true
     nodes:
     -   id: MESH:D002110
         label: Drug
         name: caffeine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptor
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
     -   id: InterPro:IPR023088
         label: GeneFamily
         name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
     -   id: GO:0006198
         label: BiologicalProcess
         name: cAMP catabolic process
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: GO:0006954
+    -   id: GO:0019233
         label: BiologicalProcess
-        name: inflammatory response
-    -   id: HP:0001742
+        name: sensory perception of pain
+    -   id: HP:0012531
         label: PhenotypicFeature
-        name: Nasal congestion
+        name: Pain
     -   id: MESH:D008881
         label: Disease
         name: Migraine Disorders
@@ -451,7 +511,7 @@
     -   https://en.wikipedia.org/wiki/Caffeine
     -   https://en.wikipedia.org/wiki/Adenosine_receptor
     -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
-    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
     -   https://en.wikipedia.org/wiki/Migraine
 -   directed: true
     graph:
@@ -480,7 +540,13 @@
         source: MESH:D000242
         target: GO:0006954
     -   key: positively correlated with
+        source: MESH:D000242
+        target: GO:0044557
+    -   key: positively correlated with
         source: GO:0006954
+        target: HP:0003552
+    -   key: negatively correlated with
+        source: GO:0044557
         target: HP:0003552
     -   key: contributes to
         source: HP:0003552
@@ -505,6 +571,9 @@
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
     -   id: HP:0003552
         label: PhenotypicFeature
         name: Muscle stiffness
@@ -528,45 +597,60 @@
     links:
     -   key: decreases activity of
         source: MESH:D002110
-        target: InterPro:IPR001634
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
     -   key: decreases activity of
         source: MESH:D002110
         target: InterPro:IPR023088
     -   key: positively regulates
-        source: InterPro:IPR001634
-        target: GO:0006954
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
     -   key: positively regulates
         source: InterPro:IPR023088
         target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
     -   key: decreases abundance of
         source: GO:0006198
         target: MESH:D000242
-    -   key: negatively correlated with
+    -   key: positively regulates
         source: MESH:D000242
-        target: GO:0006954
-    -   key: causes
-        source: GO:0006954
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
         target: MESH:D010146
     multigraph: true
     nodes:
     -   id: MESH:D002110
         label: Drug
         name: caffeine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptor
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
     -   id: InterPro:IPR023088
         label: GeneFamily
         name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
     -   id: GO:0006198
         label: BiologicalProcess
         name: cAMP catabolic process
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: GO:0006954
+    -   id: GO:0019233
         label: BiologicalProcess
-        name: inflammatory response
+        name: sensory perception of pain
     -   id: MESH:D010146
         label: Disease
         name: Pain
@@ -575,7 +659,7 @@
     -   https://en.wikipedia.org/wiki/Caffeine
     -   https://en.wikipedia.org/wiki/Adenosine_receptor
     -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
-    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
     -   https://en.wikipedia.org/wiki/Pain
 -   directed: true
     graph:
@@ -652,51 +736,66 @@
     links:
     -   key: decreases activity of
         source: MESH:D002110
-        target: InterPro:IPR001634
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
     -   key: decreases activity of
         source: MESH:D002110
         target: InterPro:IPR023088
     -   key: positively regulates
-        source: InterPro:IPR001634
-        target: GO:0006954
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
     -   key: positively regulates
         source: InterPro:IPR023088
         target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
     -   key: decreases abundance of
         source: GO:0006198
         target: MESH:D000242
-    -   key: negatively correlated with
+    -   key: positively regulates
         source: MESH:D000242
-        target: GO:0006954
+        target: GO:0019233
     -   key: positively correlated with
-        source: GO:0006954
-        target: HP:0000739
+        source: GO:0019233
+        target: HP:0012531
     -   key: contributes to
-        source: HP:0000739
+        source: HP:0012531
         target: MESH:D018781
     multigraph: true
     nodes:
     -   id: MESH:D002110
         label: Drug
         name: caffeine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptor
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
     -   id: InterPro:IPR023088
         label: GeneFamily
         name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
     -   id: GO:0006198
         label: BiologicalProcess
         name: cAMP catabolic process
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: GO:0006954
+    -   id: GO:0019233
         label: BiologicalProcess
-        name: inflammatory response
-    -   id: HP:0000739
+        name: sensory perception of pain
+    -   id: HP:0012531
         label: PhenotypicFeature
-        name: Anxiety
+        name: Pain
     -   id: MESH:D018781
         label: Disease
         name: Tension-Type Headache
@@ -705,7 +804,7 @@
     -   https://en.wikipedia.org/wiki/Caffeine
     -   https://en.wikipedia.org/wiki/Adenosine_receptor
     -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
-    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
     -   https://en.wikipedia.org/wiki/Tension_headache
 -   directed: true
     graph:
@@ -717,45 +816,66 @@
     links:
     -   key: decreases activity of
         source: MESH:D002110
-        target: InterPro:IPR001634
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
     -   key: decreases activity of
         source: MESH:D002110
         target: InterPro:IPR023088
     -   key: positively regulates
-        source: InterPro:IPR001634
-        target: GO:0006954
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
     -   key: positively regulates
         source: InterPro:IPR023088
         target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
     -   key: decreases abundance of
         source: GO:0006198
         target: MESH:D000242
-    -   key: negatively correlated with
+    -   key: positively regulates
         source: MESH:D000242
-        target: GO:0006954
+        target: GO:0019233
     -   key: positively correlated with
-        source: GO:0006954
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
         target: MESH:D014653
     multigraph: true
     nodes:
     -   id: MESH:D002110
         label: Drug
         name: caffeine
-    -   id: InterPro:IPR001634
-        label: GeneFamily
-        name: Adenosine receptor
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
     -   id: InterPro:IPR023088
         label: GeneFamily
         name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
     -   id: GO:0006198
         label: BiologicalProcess
         name: cAMP catabolic process
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: GO:0006954
+    -   id: GO:0019233
         label: BiologicalProcess
-        name: inflammatory response
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
     -   id: MESH:D014653
         label: Disease
         name: Vascular Headaches
@@ -764,7 +884,7 @@
     -   https://en.wikipedia.org/wiki/Caffeine
     -   https://en.wikipedia.org/wiki/Adenosine_receptor
     -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
-    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
     -   https://en.wikipedia.org/wiki/Vascular_headache
 -   directed: true
     graph:
@@ -1268,9 +1388,15 @@
         target: GO:0006954
     -   key: positively correlated with
         source: GO:0006954
-        target: HP:0002665
-    -   key: contributes to
-        source: HP:0002665
+        target: HP:0000989
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000988
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D016410
+    -   key: manifestation of
+        source: HP:0000988
         target: MESH:D016410
     multigraph: true
     nodes:
@@ -1292,9 +1418,12 @@
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
-    -   id: HP:0002665
+    -   id: HP:0000989
         label: PhenotypicFeature
-        name: Lymphoma
+        name: Pruritus
+    -   id: HP:0000988
+        label: PhenotypicFeature
+        name: Skin rash
     -   id: MESH:D016410
         label: Disease
         name: Lymphoma, T-Cell, Cutaneous
@@ -1392,8 +1521,17 @@
     -   key: positively correlated with
         source: GO:0001516
         target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
     -   key: positively correlated with
         source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0012531
+        target: MESH:D010032
+    -   key: manifestation of
+        source: HP:0000989
         target: MESH:D010032
     multigraph: true
     nodes:
@@ -1415,6 +1553,12 @@
     -   id: GO:0006954
         label: BiologicalProcess
         name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
     -   id: MESH:D010032
         label: Disease
         name: Otitis Externa
