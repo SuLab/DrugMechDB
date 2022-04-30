@@ -1,1 +1,1701 @@
-
+-   directed: true
+    graph:
+        disease: Arthralgia
+        disease_mesh: MESH:D018771
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR001634
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: InterPro:IPR001634
+        target: GO:0006954
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001387
+    -   key: contributes to
+        source: HP:0001387
+        target: MESH:D018771
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001387
+        label: PhenotypicFeature
+        name: Joint stiffness
+    -   id: MESH:D018771
+        label: Disease
+        name: Arthralgia
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://en.wikipedia.org/wiki/Arthralgia
+-   directed: true
+    graph:
+        disease: Back Pain
+        disease_mesh: MESH:D001416
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D001416
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D001416
+        label: Disease
+        name: Back Pain
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
+    -   https://en.wikipedia.org/wiki/Back_pain
+-   directed: true
+    graph:
+        disease: Cluster Headache
+        disease_mesh: MESH:D003027
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D003027
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D003027
+        label: Disease
+        name: Cluster Headache
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
+    -   https://en.wikipedia.org/wiki/Cluster_headache
+-   directed: true
+    graph:
+        disease: Common Cold
+        disease_mesh: MESH:D003139
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR001634
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: InterPro:IPR001634
+        target: GO:0006954
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001742
+    -   key: contributes to
+        source: HP:0001742
+        target: MESH:D003139
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal congestion
+    -   id: MESH:D003139
+        label: Disease
+        name: Common Cold
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://en.wikipedia.org/wiki/Common_cold
+-   directed: true
+    graph:
+        disease: Dysmenorrhea
+        disease_mesh: MESH:D004412
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR001634
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: InterPro:IPR001634
+        target: GO:0006954
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
+    -   key: positively correlated with
+        source: HP:0012531
+        target: MESH:D004412
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D004412
+        label: Disease
+        name: Dysmenorrhea
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://en.wikipedia.org/wiki/Dysmenorrhea
+-   directed: true
+    graph:
+        disease: Headache Disorders
+        disease_mesh: MESH:D020773
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D020773
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D020773
+        label: Disease
+        name: Headache Disorders
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
+    -   https://en.wikipedia.org/wiki/Headache
+-   directed: true
+    graph:
+        disease: Migraine Disorders
+        disease_mesh: MESH:D008881
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D008881
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D008881
+        label: Disease
+        name: Migraine Disorders
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
+    -   https://en.wikipedia.org/wiki/Migraine
+-   directed: true
+    graph:
+        disease: Muscle Spasticity
+        disease_mesh: MESH:D009128
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR001634
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: InterPro:IPR001634
+        target: GO:0006954
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006954
+    -   key: positively correlated with
+        source: MESH:D000242
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0003552
+    -   key: negatively correlated with
+        source: GO:0044557
+        target: HP:0003552
+    -   key: contributes to
+        source: HP:0003552
+        target: MESH:D009128
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: HP:0003552
+        label: PhenotypicFeature
+        name: Muscle stiffness
+    -   id: MESH:D009128
+        label: Disease
+        name: Muscle Spasticity
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://en.wikipedia.org/wiki/Spasticity
+-   directed: true
+    graph:
+        disease: Pain
+        disease_mesh: MESH:D010146
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: MESH:D010146
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
+    -   https://en.wikipedia.org/wiki/Pain
+-   directed: true
+    graph:
+        disease: Rhinitis, Allergic
+        disease_mesh: MESH:D065631
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR001634
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: InterPro:IPR001634
+        target: GO:0006954
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: negatively correlated with
+        source: MESH:D000242
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001742
+    -   key: contributes to
+        source: HP:0001742
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal congestion
+    -   id: MESH:D065631
+        label: Disease
+        name: Rhinitis, Allergic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://pubmed.ncbi.nlm.nih.gov/17397885/
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   directed: true
+    graph:
+        disease: Tension-Type Headache
+        disease_mesh: MESH:D018781
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D018781
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D018781
+        label: Disease
+        name: Tension-Type Headache
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
+    -   https://en.wikipedia.org/wiki/Tension_headache
+-   directed: true
+    graph:
+        disease: Vascular Headaches
+        disease_mesh: MESH:D014653
+        drug: caffeine
+        drug_mesh: MESH:D002110
+        drugbank: DB:DB00201
+    links:
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29274
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: UniProt:P29275
+    -   key: decreases activity of
+        source: MESH:D002110
+        target: InterPro:IPR023088
+    -   key: positively regulates
+        source: UniProt:P29274
+        target: GO:0004016
+    -   key: positively regulates
+        source: UniProt:P29275
+        target: GO:0004016
+    -   key: positively regulates
+        source: InterPro:IPR023088
+        target: GO:0006198
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: GO:0006198
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D014653
+    multigraph: true
+    nodes:
+    -   id: MESH:D002110
+        label: Drug
+        name: caffeine
+    -   id: UniProt:P29274
+        label: Protein
+        name: Adenosine receptor A2a
+    -   id: UniProt:P29275
+        label: Protein
+        name: Adenosine receptor A2b
+    -   id: InterPro:IPR023088
+        label: GeneFamily
+        name: 3'5'-cyclic nucleotide phosphodiesterase
+    -   id: GO:0004016
+        label: BiologicalProcess
+        name: adenylate cyclase activity
+    -   id: GO:0006198
+        label: BiologicalProcess
+        name: cAMP catabolic process
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D014653
+        label: Disease
+        name: Vascular Headaches
+    reference:
+    -   https://go.drugbank.com/drugs/DB00201#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Caffeine
+    -   https://en.wikipedia.org/wiki/Adenosine_receptor
+    -   https://en.wikipedia.org/wiki/Cyclic_nucleotide_phosphodiesterase
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5366829/
+    -   https://en.wikipedia.org/wiki/Vascular_headache
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Asthma
+-   directed: true
+    graph:
+        disease: Crohn Disease
+        disease_mesh: MESH:D003424
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Crohn%27s_disease
+-   directed: true
+    graph:
+        disease: Dermatitis, Atopic
+        disease_mesh: MESH:D003876
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: MESH:D003876
+        label: Disease
+        name: Dermatitis, Atopic
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Atopic_dermatitis
+-   directed: true
+    graph:
+        disease: Dermatitis, Contact
+        disease_mesh: MESH:D003877
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D003877
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D003877
+        label: Disease
+        name: Dermatitis, Contact
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Contact_dermatitis
+-   directed: true
+    graph:
+        disease: Dermatitis, Seborrheic
+        disease_mesh: MESH:D012628
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D012628
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012628
+        label: Disease
+        name: Dermatitis, Seborrheic
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Seborrhoeic_dermatitis
+-   directed: true
+    graph:
+        disease: Exanthema
+        disease_mesh: MESH:D005076
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000988
+    -   key: manifestation of
+        source: HP:0000988
+        target: MESH:D005076
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000988
+        label: PhenotypicFeature
+        name: Skin rash
+    -   id: MESH:D005076
+        label: Disease
+        name: Exanthema
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Exanthem
+-   directed: true
+    graph:
+        disease: Granuloma Annulare
+        disease_mesh: MESH:D016460
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: positively correlated with
+        source: HP:0011123
+        target: MESH:D016460
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D016460
+        label: Disease
+        name: Granuloma Annulare
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Granuloma_annulare
+-   directed: true
+    graph:
+        disease: Lupus Erythematosus, Discoid
+        disease_mesh: MESH:D008179
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D008179
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D008179
+        label: Disease
+        name: Lupus Erythematosus, Discoid
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Discoid_lupus_erythematosus
+-   directed: true
+    graph:
+        disease: Lymphoma, T-Cell, Cutaneous
+        disease_mesh: MESH:D016410
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000988
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D016410
+    -   key: manifestation of
+        source: HP:0000988
+        target: MESH:D016410
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: HP:0000988
+        label: PhenotypicFeature
+        name: Skin rash
+    -   id: MESH:D016410
+        label: Disease
+        name: Lymphoma, T-Cell, Cutaneous
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Cutaneous_T_cell_lymphoma
+-   directed: true
+    graph:
+        disease: Neurodermatitis
+        disease_mesh: MESH:D009450
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D009450
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: MESH:D009450
+        label: Disease
+        name: Neurodermatitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Lichen_simplex_chronicus
+-   directed: true
+    graph:
+        disease: Otitis Externa
+        disease_mesh: MESH:D010032
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0012531
+        target: MESH:D010032
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D010032
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: MESH:D010032
+        label: Disease
+        name: Otitis Externa
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Otitis_externa
+-   directed: true
+    graph:
+        disease: Pruritus Ani
+        disease_mesh: MESH:D011538
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: located in
+        source: HP:0000989
+        target: UBERON:0001245
+    -   key: location of
+        source: UBERON:0001245
+        target: MESH:D011538
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: UBERON:0001245
+        label: GrossAnatomicalStructure
+        name: anus
+    -   id: MESH:D011538
+        label: Disease
+        name: Pruritus Ani
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Pruritus_ani
+-   directed: true
+    graph:
+        disease: Rhinitis, Allergic
+        disease_mesh: MESH:D065631
+        drug: desonide
+        drug_mesh: MESH:D003898
+        drugbank: DB:DB01260
+    links:
+    -   key: increases activity of
+        source: MESH:D003898
+        target: UniProt:P04150
+    -   key: decreases abundance of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001742
+    -   key: contributes to
+        source: HP:0001742
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D003898
+        label: Drug
+        name: desonide
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001742
+        label: PhenotypicFeature
+        name: Nasal congestion
+    -   id: MESH:D065631
+        label: Disease
+        name: Rhinitis, Allergic
+    reference:
+    -   https://go.drugbank.com/drugs/DB01260#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
