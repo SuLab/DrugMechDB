@@ -1,1 +1,1065 @@
-
+- directed: true
+  graph:
+    disease: Staphylococcal Infections
+    disease_mesh: MESH:D013203
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D013203
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D013203
+      label: Disease
+      name: Staphylococcal Infections
+      alt_name: Infection due to Staphylococcus aureus
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Syphilis
+    disease_mesh: MESH:D013587
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D013587
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D013587
+      label: Disease
+      name: Syphilis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Pharyngitis
+    disease_mesh: MESH:D010612
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D010612
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D010612
+      label: Disease
+      name: Pharyngitis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Streptococcus pyogenes infection
+    disease_mesh: MESH:D013290
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D013290
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D013290
+      label: Disease
+      name: Streptococcus pyogenes infection
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Diphtheria
+    disease_mesh: MESH:D004165
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1717
+    - key: causes
+      source: NCBITaxon:1717
+      target: MESH:D004165
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1717
+      label: OrganismTaxon
+      name: Corynebacterium diphtheriae
+    - id: MESH:D004165
+      label: Disease
+      name: Diphtheria
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Secondary syphilis
+    disease_mesh: MESH:C536773
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:C536773
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:C536773
+      label: Disease
+      name: Secondary syphilis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Pneumonia due to Streptococcus
+    disease_mesh: MESH:D011018
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D011018
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D011018
+      label: Disease
+      name: Pneumonia due to Streptococcus
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Latent syphilis
+    disease_mesh: MESH:D013592
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D013592
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D013592
+      label: Disease
+      name: Latent syphilis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Scarlet fever
+    disease_mesh: MESH:D012541
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D012541
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D012541
+      label: Disease
+      name: Scarlet fever
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Neurosyphilis
+    disease_mesh: MESH:D009494
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D009494
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D009494
+      label: Disease
+      name: Neurosyphilis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Treponemal Infections
+    disease_mesh: MESH:D014211
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D014211
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D014211
+      label: Disease
+      name: Treponemal Infections
+      alt_name: Bejel
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Endocarditis, Bacterial
+    disease_mesh: MESH:D004697
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D004697
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D004697
+      label: Disease
+      name: Endocarditis, Bacterial
+      alt_name: Bacterial endocarditis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Rat-Bite Fever
+    disease_mesh: MESH:D011906
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:34105
+    - key: causes
+      source: NCBITaxon:34105
+      target: MESH:D011906
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:34105
+      label: OrganismTaxon
+      name: Streptobacillus moniliformis
+    - id: MESH:D011906
+      label: Disease
+      name: Rat-Bite Fever
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Anthrax
+    disease_mesh: MESH:D000881
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1392
+    - key: causes
+      source: NCBITaxon:1392
+      target: MESH:D000881
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1392
+      label: OrganismTaxon
+      name: Bacillus anthracis
+    - id: MESH:D000881
+      label: Disease
+      name: Anthrax
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Erysipeloid
+    disease_mesh: MESH:D004887
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1648
+    - key: causes
+      source: NCBITaxon:1648
+      target: MESH:D004887
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1648
+      label: OrganismTaxon
+      name: Erysipelothrix rhusiopathiae
+    - id: MESH:D004887
+      label: Disease
+      name: Erysipeloid
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+    - https://meshb.nlm.nih.gov/record/ui?ui=D004887
+- directed: true
+  graph:
+    disease: Congenital syphilis
+    disease_mesh: MESH:D013590
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D013590
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D013590
+      label: Disease
+      name: Congenital syphilis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Pinta
+    disease_mesh: MESH:D010874
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:157
+    - key: causes
+      source: NCBITaxon:157
+      target: MESH:D010874
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:157
+      label: OrganismTaxon
+      name: Treponema sp
+    - id: MESH:D010874
+      label: Disease
+      name: Pinta
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Yaws
+    disease_mesh: MESH:D015001
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:D015001
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:D015001
+      label: Disease
+      name: Yaws
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+- directed: true
+  graph:
+    disease: Erysipelas
+    disease_mesh: MESH:D004886
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D004886
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D004886
+      label: Disease
+      name: Erysipelas
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
+    - https://en.wikipedia.org/wiki/Erysipelas#Cause
+- directed: true
+  graph:
+    disease: Late syphilis
+    disease_mesh: MESH:C536774
+    drug: Procaine benzylpenicillin
+    drug_mesh: MESH:D010402
+    drugbank: DB:DB09320
+  links:
+    - key: produces
+      source: MESH:D010402
+      target: DB:DB01053
+    - key: negatively regulates
+      source: DB:DB01053
+      target: Pfam:PF00905
+    - key: positively regulates
+      source: Pfam:PF00905
+      target: GO:0009252
+    - key: positively correlated with
+      source: GO:0009252
+      target: GO:0009273
+    - key: in taxon
+      source: GO:0009273
+      target: NCBITaxon:160
+    - key: causes
+      source: NCBITaxon:160
+      target: MESH:C536774
+  multigraph: true
+  nodes:
+    - id: MESH:D010402
+      label: Drug
+      name: Procaine benzylpenicillin
+      alt_name: Penicillin G Procaine
+    - id: DB:DB01053
+      label: Drug
+      name: Benzylpenicillin
+    - id: Pfam:PF00905
+      label: GeneFamily
+      name: Penicillin binding protein transpeptidase domain
+    - id: GO:0009252
+      label: BiologicalProcess
+      name: peptidoglycan biosynthetic process
+    - id: GO:0009273
+      label: BiologicalProcess
+      name: peptidoglycan-based cell wall biogenesis
+    - id: NCBITaxon:160
+      label: OrganismTaxon
+      name: Treponema pallidum
+    - id: MESH:C536774
+      label: Disease
+      name: Late syphilis
+  reference:
+    - https://go.drugbank.com/drugs/DB09320
+    - https://en.wikipedia.org/wiki/Procaine_benzylpenicillin#Mechanism
