@@ -1,1 +1,5230 @@
-
+-   directed: true
+    graph:
+        disease: Addison Disease
+        disease_mesh: MESH:D000224
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: treats
+        source: MESH:D008775
+        target: MESH:D000224
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: MESH:D000224
+        label: Disease
+        name: Addison Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://en.wikipedia.org/wiki/Addison%27s_disease
+    comment: Addison Disease is a primary adrenal insufficiency which is characterized by the inadequate production of the steroid hormones such as cortisol and aldosterone.
+-   directed: true
+    graph:
+        disease: Adrenal Hyperplasia, Congenital
+        disease_mesh: MESH:D000312
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: treats
+        source: MESH:D008775
+        target: MESH:D000312
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: MESH:D000312
+        label: Disease
+        name: Adrenal Hyperplasia, Congenital
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://en.wikipedia.org/wiki/Congenital_adrenal_hyperplasia
+    comment: Adrenal Hyperplasia, Congenital is a group of inherited disorders of the adrenal glands which is caused by the defects in the synthesis of hydrocortisone.
+-   directed: true
+    graph:
+        disease: Adrenal Insufficiency
+        disease_mesh: MESH:D000309
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: treats
+        source: MESH:D008775
+        target: MESH:D000309
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: MESH:D000309
+        label: Disease
+        name: Adrenal Insufficiency
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://en.wikipedia.org/wiki/Adrenal_insufficiency
+    comment: Adrenal Insufficiency is a disorder of the adrenal glands, the pitutary gland or the hypothalamus which is caused by the defects in the synthesis of adrenal corticosteroids.
+-   directed: true
+    graph:
+        disease: Anemia, Diamond-Blackfan
+        disease_mesh: MESH:D029503
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001908
+    -   key: manifestation of
+        source: HP:0001908
+        target: MESH:D029503
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001908
+        label: PhenotypicFeature
+        name: Hypoplastic anemia
+    -   id: MESH:D029503
+        label: Disease
+        name: Anemia, Diamond-Blackfan
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Diamond%E2%80%93Blackfan_anemia
+-   directed: true
+    graph:
+        disease: Anemia, Hemolytic, Autoimmune
+        disease_mesh: MESH:D000744
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001878
+    -   key: positively correlated with
+        source: HP:0001878
+        target: MESH:D000744
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001878
+        label: PhenotypicFeature
+        name: Hemolytic anemia
+    -   id: MESH:D000744
+        label: Disease
+        name: Anemia, Hemolytic, Autoimmune
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Autoimmune_hemolytic_anemia
+-   directed: true
+    graph:
+        disease: Angioedema
+        disease_mesh: MESH:D000799
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002067
+    -   key: location of
+        source: UBERON:0002067
+        target: MESH:D000799
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002067
+        label: GrossAnatomicalStructure
+        name: dermis
+    -   id: MESH:D000799
+        label: Disease
+        name: Angioedema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Angioedema
+-   directed: true
+    graph:
+        disease: Arthritis, Gouty
+        disease_mesh: MESH:D015210
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D015210
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D015210
+        label: Disease
+        name: Arthritis, Gouty
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Gout
+-   directed: true
+    graph:
+        disease: Arthritis, Juvenile
+        disease_mesh: MESH:D001171
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001171
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001171
+        label: Disease
+        name: Arthritis, Juvenile
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Juvenile_idiopathic_arthritis
+-   directed: true
+    graph:
+        disease: Arthritis, Psoriatic
+        disease_mesh: MESH:D015535
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0003765
+    -   key: positively correlated with
+        source: HP:0003765
+        target: MESH:D015535
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0003765
+        label: PhenotypicFeature
+        name: Psoriasiform dermatitis
+    -   id: MESH:D015535
+        label: Disease
+        name: Arthritis, Psoriatic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Psoriatic_arthritis
+-   directed: true
+    graph:
+        disease: Arthritis, Rheumatoid
+        disease_mesh: MESH:D001172
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Arthritis, Rheumatoid
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Rheumatoid_arthritis
+-   directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Asthma
+-   directed: true
+    graph:
+        disease: Autoimmune Diseases
+        disease_mesh: MESH:D001327
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002960
+    -   key: positively correlated with
+        source: HP:0002960
+        target: MESH:D001327
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002960
+        label: PhenotypicFeature
+        name: Autoimmunity
+    -   id: MESH:D001327
+        label: Disease
+        name: Autoimmune Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Autoimmune_disease
+-   directed: true
+    graph:
+        disease: Berylliosis
+        disease_mesh: MESH:D001607
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: MESH:D001607
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
+    -   id: MESH:D001607
+        label: Disease
+        name: Berylliosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Berylliosis
+-   directed: true
+    graph:
+        disease: Brain Edema
+        disease_mesh: MESH:D001929
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0000955
+    -   key: location of
+        source: UBERON:0000955
+        target: MESH:D001929
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0000955
+        label: GrossAnatomicalStructure
+        name: brain
+    -   id: MESH:D001929
+        label: Disease
+        name: Brain Edema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Cerebral_edema
+-   directed: true
+    graph:
+        disease: Bursitis
+        disease_mesh: MESH:D002062
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0003668
+    -   key: location of
+        source: UBERON:0003668
+        target: MESH:D002062
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0003668
+        label: GrossAnatomicalStructure
+        name: synovial bursa
+    -   id: MESH:D002062
+        label: Disease
+        name: Bursitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Bursitis
+-   directed: true
+    graph:
+        disease: Crohn Disease
+        disease_mesh: MESH:D003424
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001555
+    -   key: location of
+        source: UBERON:0001555
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001555
+        label: GrossAnatomicalStructure
+        name: digestive tract
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Crohn%27s_disease
+-   directed: true
+    graph:
+        disease: Dermatitis, Atopic
+        disease_mesh: MESH:D003876
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003876
+        label: Disease
+        name: Dermatitis, Atopic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Atopic_dermatitis
+-   directed: true
+    graph:
+        disease: Dermatitis, Contact
+        disease_mesh: MESH:D003877
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003877
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003877
+        label: Disease
+        name: Dermatitis, Contact
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Contact_dermatitis
+-   directed: true
+    graph:
+        disease: Dermatitis, Exfoliative
+        disease_mesh: MESH:D003873
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003873
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003873
+        label: Disease
+        name: Dermatitis, Exfoliative
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Erythroderma
+-   directed: true
+    graph:
+        disease: Dermatitis Herpetiformis
+        disease_mesh: MESH:D003874
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003874
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003874
+        label: Disease
+        name: Dermatitis Herpetiformis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Dermatitis_herpetiformis
+-   directed: true
+    graph:
+        disease: Dermatitis, Seborrheic
+        disease_mesh: MESH:D012628
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D012628
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D012628
+        label: Disease
+        name: Dermatitis, Seborrheic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Seborrhoeic_dermatitis
+-   directed: true
+    graph:
+        disease: Erythema Multiforme
+        disease_mesh: MESH:D004892
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D004892
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D004892
+        label: Disease
+        name: Erythema Multiforme
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Erythema_multiforme
+-   directed: true
+    graph:
+        disease: Exanthema
+        disease_mesh: MESH:D005076
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0000988
+    -   key: manifestation of
+        source: HP:0000988
+        target: MESH:D005076
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000988
+        label: PhenotypicFeature
+        name: Skin rash
+    -   id: MESH:D005076
+        label: Disease
+        name: Exanthema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Exanthem
+-   directed: true
+    graph:
+        disease: Eye Diseases
+        disease_mesh: MESH:D005128
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D005128
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D005128
+        label: Disease
+        name: Eye Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Eye_disease
+-   directed: true
+    graph:
+        disease: Granuloma Annulare
+        disease_mesh: MESH:D016460
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: positively correlated with
+        source: HP:0011123
+        target: MESH:D016460
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D016460
+        label: Disease
+        name: Granuloma Annulare
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Granuloma_annulare
+-   directed: true
+    graph:
+        disease: Hodgkin Disease
+        disease_mesh: MESH:D006689
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D006689
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D006689
+        label: Disease
+        name: Hodgkin Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Hodgkin_lymphoma
+-   directed: true
+    graph:
+        disease: Humoral Hypercalcemia Of Malignancy
+        disease_mesh: MESH:C562390
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: decreases activity of
+        source: MESH:D008775
+        target: UniProt:O15528
+    -   key: participates in
+        source: UniProt:O15528
+        target: GO:0006816
+    -   key: positively correlated with
+        source: GO:0006816
+        target: HP:0003072
+    -   key: caused by
+        source: HP:0003072
+        target: MESH:D044162
+    -   key: contributes to
+        source: MESH:D044162
+        target: MESH:C562390
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:O15528
+        label: Protein
+        name: 25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial
+    -   id: GO:0006816
+        label: BiologicalProcess
+        name: calcium ion transport
+    -   id: HP:0003072
+        label: PhenotypicFeature
+        name: Hypercalcemia
+    -   id: MESH:D044162
+        label: ChemicalSubstance
+        name: Parathyroid Hormone-Related Protein
+    -   id: MESH:C562390
+        label: Disease
+        name: Humoral Hypercalcemia Of Malignancy
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/O15528#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4675637/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5442343/
+    -   https://en.wikipedia.org/wiki/Parathyroid_hormone-related_protein
+    -   https://en.wikipedia.org/wiki/Parathyroid_hormone-related_protein#Humoral_hypercalcemia_of_malignancy
+-   directed: true
+    graph:
+        disease: Inflammatory Bowel Diseases
+        disease_mesh: MESH:D015212
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001555
+    -   key: location of
+        source: UBERON:0001555
+        target: MESH:D015212
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001555
+        label: GrossAnatomicalStructure
+        name: digestive tract
+    -   id: MESH:D015212
+        label: Disease
+        name: Inflammatory Bowel Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Inflammatory_bowel_disease
+-   directed: true
+    graph:
+        disease: Laryngeal Edema
+        disease_mesh: MESH:D007819
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001737
+    -   key: location of
+        source: UBERON:0001737
+        target: MESH:D007819
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001737
+        label: GrossAnatomicalStructure
+        name: larynx
+    -   id: MESH:D007819
+        label: Disease
+        name: Laryngeal Edema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Reinke%27s_edema
+-   directed: true
+    graph:
+        disease: Lupus Erythematosus, Discoid
+        disease_mesh: MESH:D008179
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002960
+    -   key: manifestation of
+        source: HP:0002960
+        target: MESH:D008179
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002960
+        label: PhenotypicFeature
+        name: Autoimmunity
+    -   id: MESH:D008179
+        label: Disease
+        name: Lupus Erythematosus, Discoid
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Discoid_lupus_erythematosus
+-   directed: true
+    graph:
+        disease: Lupus Erythematosus, Systemic
+        disease_mesh: MESH:D008180
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002960
+    -   key: manifestation of
+        source: HP:0002960
+        target: MESH:D008180
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002960
+        label: PhenotypicFeature
+        name: Autoimmunity
+    -   id: MESH:D008180
+        label: Disease
+        name: Lupus Erythematosus, Systemic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Lupus_erythematosus
+-   directed: true
+    graph:
+        disease: Lymphoma, Follicular
+        disease_mesh: MESH:D008224
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D008224
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D008224
+        label: Disease
+        name: Lymphoma, Follicular
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Follicular_lymphoma
+-   directed: true
+    graph:
+        disease: Lymphoma, Non-Hodgkin
+        disease_mesh: MESH:D008228
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D008228
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D008228
+        label: Disease
+        name: Lymphoma, Non-Hodgkin
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Non-Hodgkin_lymphoma
+-   directed: true
+    graph:
+        disease: Lymphoma, T-Cell, Cutaneous
+        disease_mesh: MESH:D016410
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000988
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0000988
+        target: MESH:D016410
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D016410
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000988
+        label: PhenotypicFeature
+        name: Skin rash
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: MESH:D016410
+        label: Disease
+        name: Lymphoma, T-Cell, Cutaneous
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Cutaneous_T_cell_lymphoma
+-   directed: true
+    graph:
+        disease: Multiple Sclerosis
+        disease_mesh: MESH:D009103
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0003401
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001251
+    -   key: manifestation of
+        source: HP:0003401
+        target: MESH:D009103
+    -   key: manifestation of
+        source: HP:0001251
+        target: MESH:D009103
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0003401
+        label: PhenotypicFeature
+        name: Paresthesia
+    -   id: HP:0001251
+        label: PhenotypicFeature
+        name: Ataxia
+    -   id: MESH:D009103
+        label: Disease
+        name: Multiple Sclerosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Multiple_sclerosis
+-   directed: true
+    graph:
+        disease: Musculoskeletal Diseases
+        disease_mesh: MESH:D009140
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D009140
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D009140
+        label: Disease
+        name: Musculoskeletal Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Musculoskeletal_disorder
+-   directed: true
+    graph:
+        disease: Mycosis Fungoides
+        disease_mesh: MESH:D009182
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0012192
+    -   key: manifestation of
+        source: HP:0012192
+        target: MESH:D009182
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012192
+        label: PhenotypicFeature
+        name: Cutaneous T-cell lymphoma
+    -   id: MESH:D009182
+        label: Disease
+        name: Mycosis Fungoides
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Cutaneous_T_cell_lymphoma
+    -   https://en.wikipedia.org/wiki/Mycosis_fungoides
+-   directed: true
+    graph:
+        disease: Nephrotic Syndrome
+        disease_mesh: MESH:D009404
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D009404
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D009404
+        label: Disease
+        name: Nephrotic Syndrome
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Nephrotic_syndrome
+-   directed: true
+    graph:
+        disease: Neurodermatitis
+        disease_mesh: MESH:D009450
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0000989
+    -   key: positively correlated with
+        source: HP:0000989
+        target: MESH:D009450
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: MESH:D009450
+        label: Disease
+        name: Neurodermatitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Lichen_simplex_chronicus
+-   directed: true
+    graph:
+        disease: Pemphigus
+        disease_mesh: MESH:D010392
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0008066
+    -   key: manifestation of
+        source: HP:0008066
+        target: MESH:D010392
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0008066
+        label: PhenotypicFeature
+        name: Abnormal blistering of the skin
+    -   id: MESH:D010392
+        label: Disease
+        name: Pemphigus
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Pemphigus
+-   directed: true
+    graph:
+        disease: Pneumonia, Aspiration
+        disease_mesh: MESH:D011015
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002048
+    -   key: location of
+        source: UBERON:0002048
+        target: MESH:D011015
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002048
+        label: GrossAnatomicalStructure
+        name: lung
+    -   id: MESH:D011015
+        label: Disease
+        name: Pneumonia, Aspiration
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Aspiration_pneumonia
+-   directed: true
+    graph:
+        disease: Pruritus Ani
+        disease_mesh: MESH:D011538
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: located in
+        source: HP:0000989
+        target: UBERON:0001245
+    -   key: location of
+        source: UBERON:0001245
+        target: MESH:D011538
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: UBERON:0001245
+        label: GrossAnatomicalStructure
+        name: anus
+    -   id: MESH:D011538
+        label: Disease
+        name: Pruritus Ani
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Pruritus_ani
+-   directed: true
+    graph:
+        disease: Psoriasis
+        disease_mesh: MESH:D011565
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: positively correlated with
+        source: HP:0011123
+        target: MESH:D011565
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D011565
+        label: Disease
+        name: Psoriasis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Psoriasis
+-   directed: true
+    graph:
+        disease: Pulmonary Eosinophilia
+        disease_mesh: MESH:D011657
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: GO:0048245
+    -   key: positively correlated with
+        source: GO:0048245
+        target: MESH:D011657
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: GO:0048245
+        label: BiologicalProcess
+        name: eosinophil chemotaxis
+    -   id: MESH:D011657
+        label: Disease
+        name: Pulmonary Eosinophilia
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/L%C3%B6ffler%27s_syndrome
+-   directed: true
+    graph:
+        disease: Rheumatic Heart Disease
+        disease_mesh: MESH:D012214
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0001654
+    -   key: manifestation of
+        source: HP:0001654
+        target: MESH:D012214
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001654
+        label: PhenotypicFeature
+        name: Abnormal heart valve morphology
+    -   id: MESH:D012214
+        label: Disease
+        name: Rheumatic Heart Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Rheumatic_fever
+-   directed: true
+    graph:
+        disease: Rhinitis, Allergic
+        disease_mesh: MESH:D065631
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001826
+    -   key: location of
+        source: UBERON:0001826
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001826
+        label: GrossAnatomicalStructure
+        name: nasal cavity mucosa
+    -   id: MESH:D065631
+        label: Disease
+        name: Rhinitis, Allergic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   directed: true
+    graph:
+        disease: Rhinitis, Allergic, Perennial
+        disease_mesh: MESH:D012221
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: produces
+        source: MESH:D008775
+        target: MESH:D000077555
+    -   key: increases activity of
+        source: MESH:D000077555
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001826
+    -   key: location of
+        source: UBERON:0001826
+        target: MESH:D012221
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: MESH:D000077555
+        label: ChemicalSubstance
+        name: Methylprednisolone Acetate
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001826
+        label: GrossAnatomicalStructure
+        name: nasal cavity mucosa
+    -   id: MESH:D012221
+        label: Disease
+        name: Rhinitis, Allergic, Perennial
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   directed: true
+    graph:
+        disease: Rhinitis, Allergic, Seasonal
+        disease_mesh: MESH:D006255
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: produces
+        source: MESH:D008775
+        target: MESH:D000077555
+    -   key: increases activity of
+        source: MESH:D000077555
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001826
+    -   key: location of
+        source: UBERON:0001826
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: MESH:D000077555
+        label: ChemicalSubstance
+        name: Methylprednisolone Acetate
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001826
+        label: GrossAnatomicalStructure
+        name: nasal cavity mucosa
+    -   id: MESH:D006255
+        label: Disease
+        name: Rhinitis, Allergic, Seasonal
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   directed: true
+    graph:
+        disease: Sarcoidosis
+        disease_mesh: MESH:D012507
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D012507
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012507
+        label: Disease
+        name: Sarcoidosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Sarcoidosis
+-   directed: true
+    graph:
+        disease: Serum Sickness
+        disease_mesh: MESH:D012713
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001025
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002829
+    -   key: contributes to
+        source: HP:0001025
+        target: MESH:D012713
+    -   key: contributes to
+        source: HP:0002829
+        target: MESH:D012713
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001025
+        label: PhenotypicFeature
+        name: Urticaria
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Arthralgia
+    -   id: MESH:D012713
+        label: Disease
+        name: Serum Sickness
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Serum_sickness
+-   directed: true
+    graph:
+        disease: Skin Diseases
+        disease_mesh: MESH:D012871
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D012871
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D012871
+        label: Disease
+        name: Skin Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Skin_condition
+-   directed: true
+    graph:
+        disease: Spondylitis, Ankylosing
+        disease_mesh: MESH:D013167
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0033631
+    -   key: contributes to
+        source: HP:0033631
+        target: MESH:D013167
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0033631
+        label: PhenotypicFeature
+        name: Spondylitis
+    -   id: MESH:D013167
+        label: Disease
+        name: Spondylitis, Ankylosing
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Ankylosing_spondylitis
+-   directed: true
+    graph:
+        disease: Synovitis
+        disease_mesh: MESH:D013585
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002018
+    -   key: location of
+        source: UBERON:0002018
+        target: MESH:D013585
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002018
+        label: GrossAnatomicalStructure
+        name: synovial membrane of synovial joint
+    -   id: MESH:D013585
+        label: Disease
+        name: Synovitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Synovitis
+-   directed: true
+    graph:
+        disease: Tendinopathy
+        disease_mesh: MESH:D052256
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
+    -   key: located in
+        source: HP:0012531
+        target: UBERON:0000043
+    -   key: location of
+        source: UBERON:0000043
+        target: MESH:D052256
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: UBERON:0000043
+        label: GrossAnatomicalStructure
+        name: tendon
+    -   id: MESH:D052256
+        label: Disease
+        name: Tendinopathy
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Tendinopathy
+-   directed: true
+    graph:
+        disease: Tennis Elbow
+        disease_mesh: MESH:D013716
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0100261
+    -   key: manifestation of
+        source: HP:0012531
+        target: MESH:D013716
+    -   key: manifestation of
+        source: HP:0100261
+        target: MESH:D013716
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: HP:0100261
+        label: PhenotypicFeature
+        name: Abnormal tendon morphology
+    -   id: MESH:D013716
+        label: Disease
+        name: Tennis Elbow
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Tennis_elbow
+-   directed: true
+    graph:
+        disease: Tenosynovitis
+        disease_mesh: MESH:D013717
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0011233
+    -   key: location of
+        source: UBERON:0011233
+        target: MESH:D013717
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0011233
+        label: GrossAnatomicalStructure
+        name: synovial membrane of synovial tendon sheath
+    -   id: MESH:D013717
+        label: Disease
+        name: Tenosynovitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Tenosynovitis
+-   directed: true
+    graph:
+        disease: Thyroiditis
+        disease_mesh: MESH:D013966
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002046
+    -   key: location of
+        source: UBERON:0002046
+        target: MESH:D013966
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002046
+        label: GrossAnatomicalStructure
+        name: thyroid gland
+    -   id: MESH:D013966
+        label: Disease
+        name: Thyroiditis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Thyroiditis
+-   directed: true
+    graph:
+        disease: Trichinellosis
+        disease_mesh: MESH:D014235
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:6333
+    -   key: causes
+        source: NCBITaxon:6333
+        target: MESH:D014235
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: NCBITaxon:6333
+        label: OrganismTaxon
+        name: Trichinella
+    -   id: MESH:D014235
+        label: Disease
+        name: Trichinellosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Trichinosis
+-   directed: true
+    graph:
+        disease: Tuberculosis, Miliary
+        disease_mesh: MESH:D014391
+        drug: methylprednisolone
+        drug_mesh: MESH:D008775
+        drugbank: DB:DB00959
+    links:
+    -   key: increases activity of
+        source: MESH:D008775
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: occurs in
+        source: GO:0006954
+        target: UBERON:0002048
+    -   key: location of
+        source: UBERON:0002048
+        target: HP:0032262
+    -   key: positively correlated with
+        source: HP:0032262
+        target: MESH:D014391
+    multigraph: true
+    nodes:
+    -   id: MESH:D008775
+        label: Drug
+        name: methylprednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002048
+        label: GrossAnatomicalStructure
+        name: lung
+    -   id: HP:0032262
+        label: PhenotypicFeature
+        name: Pulmonary tuberculosis
+    -   id: MESH:D014391
+        label: Disease
+        name: Tuberculosis, Miliary
+    reference:
+    -   https://go.drugbank.com/drugs/DB00959#mechanism-of-action
+    -   https://drugs.ncats.io/drug/X4W7ZR7023
+    -   https://en.wikipedia.org/wiki/Methylprednisolone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Miliary_tuberculosis
