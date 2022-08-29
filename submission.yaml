@@ -1,1 +1,4186 @@
-
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Addison Disease
+        disease_mesh: MESH:D000224
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: treats
+        source: MESH:D011239
+        target: MESH:D000224
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: MESH:D000224
+        label: Disease
+        name: Addison Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://en.wikipedia.org/wiki/Addison%27s_disease
+    comment: Addison Disease is a primary adrenal insufficiency which is characterized by the inadequate production of the steroid hormones such as cortisol and aldosterone.
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Adrenal Hyperplasia, Congenital
+        disease_mesh: MESH:D000312
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: treats
+        source: MESH:D011239
+        target: MESH:D000312
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: MESH:D000312
+        label: Disease
+        name: Adrenal Hyperplasia, Congenital
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://en.wikipedia.org/wiki/Congenital_adrenal_hyperplasia
+    comment: Adrenal Hyperplasia, Congenital is a group of inherited disorders of the adrenal glands which is caused by the defects in the synthesis of hydrocortisone.
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Adrenal Insufficiency
+        disease_mesh: MESH:D000309
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: treats
+        source: MESH:D011239
+        target: MESH:D000309
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: MESH:D000309
+        label: Disease
+        name: Adrenal Insufficiency
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://en.wikipedia.org/wiki/Adrenal_insufficiency
+    comment: Adrenal Insufficiency is a disorder of the adrenal glands, the pitutary gland or the hypothalamus which is caused by the defects in the synthesis of adrenal corticosteroids.
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Anemia, Diamond-Blackfan
+        disease_mesh: MESH:D029503
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001908
+    -   key: manifestation of
+        source: HP:0001908
+        target: MESH:D029503
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001908
+        label: PhenotypicFeature
+        name: Hypoplastic anemia
+    -   id: MESH:D029503
+        label: Disease
+        name: Anemia, Diamond-Blackfan
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Diamond%E2%80%93Blackfan_anemia
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Anemia, Hemolytic, Autoimmune
+        disease_mesh: MESH:D000744
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001878
+    -   key: positively correlated with
+        source: HP:0001878
+        target: MESH:D000744
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001878
+        label: PhenotypicFeature
+        name: Hemolytic anemia
+    -   id: MESH:D000744
+        label: Disease
+        name: Anemia, Hemolytic, Autoimmune
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Autoimmune_hemolytic_anemia
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Angioedema
+        disease_mesh: MESH:D000799
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002067
+    -   key: location of
+        source: UBERON:0002067
+        target: MESH:D000799
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002067
+        label: GrossAnatomicalStructure
+        name: dermis
+    -   id: MESH:D000799
+        label: Disease
+        name: Angioedema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Angioedema
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Arthritis, Gouty
+        disease_mesh: MESH:D015210
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D015210
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D015210
+        label: Disease
+        name: Arthritis, Gouty
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Gout
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Arthritis, Juvenile
+        disease_mesh: MESH:D001171
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001171
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001171
+        label: Disease
+        name: Arthritis, Juvenile
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Juvenile_idiopathic_arthritis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Arthritis, Psoriatic
+        disease_mesh: MESH:D015535
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0003765
+    -   key: positively correlated with
+        source: HP:0003765
+        target: MESH:D015535
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0003765
+        label: PhenotypicFeature
+        name: Psoriasiform dermatitis
+    -   id: MESH:D015535
+        label: Disease
+        name: Arthritis, Psoriatic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Psoriatic_arthritis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Arthritis, Rheumatoid
+        disease_mesh: MESH:D001172
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001386
+    -   key: positively correlated with
+        source: HP:0001386
+        target: MESH:D001172
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001386
+        label: PhenotypicFeature
+        name: Joint swelling
+    -   id: MESH:D001172
+        label: Disease
+        name: Arthritis, Rheumatoid
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Rheumatoid_arthritis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Asthma
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Autoimmune Diseases
+        disease_mesh: MESH:D001327
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002960
+    -   key: positively correlated with
+        source: HP:0002960
+        target: MESH:D001327
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002960
+        label: PhenotypicFeature
+        name: Autoimmunity
+    -   id: MESH:D001327
+        label: Disease
+        name: Autoimmune Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Autoimmune_disease
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Berylliosis
+        disease_mesh: MESH:D001607
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
+        target: MESH:D001607
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
+    -   id: MESH:D001607
+        label: Disease
+        name: Berylliosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Berylliosis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Crohn Disease
+        disease_mesh: MESH:D003424
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001555
+    -   key: location of
+        source: UBERON:0001555
+        target: MESH:D003424
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001555
+        label: GrossAnatomicalStructure
+        name: digestive tract
+    -   id: MESH:D003424
+        label: Disease
+        name: Crohn Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Crohn%27s_disease
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Dermatitis, Atopic
+        disease_mesh: MESH:D003876
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003876
+        label: Disease
+        name: Dermatitis, Atopic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Atopic_dermatitis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Dermatitis, Contact
+        disease_mesh: MESH:D003877
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003877
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003877
+        label: Disease
+        name: Dermatitis, Contact
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Contact_dermatitis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Dermatitis, Exfoliative
+        disease_mesh: MESH:D003873
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003873
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003873
+        label: Disease
+        name: Dermatitis, Exfoliative
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Erythroderma
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Dermatitis Herpetiformis
+        disease_mesh: MESH:D003874
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003874
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003874
+        label: Disease
+        name: Dermatitis Herpetiformis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Dermatitis_herpetiformis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Erythema Multiforme
+        disease_mesh: MESH:D004892
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D004892
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D004892
+        label: Disease
+        name: Erythema Multiforme
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Erythema_multiforme
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Hodgkin Disease
+        disease_mesh: MESH:D006689
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D006689
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D006689
+        label: Disease
+        name: Hodgkin Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Hodgkin_lymphoma
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Humoral Hypercalcemia Of Malignancy
+        disease_mesh: MESH:C562390
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: decreases activity of
+        source: MESH:D011239
+        target: UniProt:O15528
+    -   key: participates in
+        source: UniProt:O15528
+        target: GO:0006816
+    -   key: positively correlated with
+        source: GO:0006816
+        target: HP:0003072
+    -   key: caused by
+        source: HP:0003072
+        target: MESH:D044162
+    -   key: contributes to
+        source: MESH:D044162
+        target: MESH:C562390
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:O15528
+        label: Protein
+        name: 25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial
+    -   id: GO:0006816
+        label: BiologicalProcess
+        name: calcium ion transport
+    -   id: HP:0003072
+        label: PhenotypicFeature
+        name: Hypercalcemia
+    -   id: MESH:D044162
+        label: ChemicalSubstance
+        name: Parathyroid Hormone-Related Protein
+    -   id: MESH:C562390
+        label: Disease
+        name: Humoral Hypercalcemia Of Malignancy
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/O15528#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4675637/
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5442343/
+    -   https://en.wikipedia.org/wiki/Parathyroid_hormone-related_protein
+    -   https://en.wikipedia.org/wiki/Parathyroid_hormone-related_protein#Humoral_hypercalcemia_of_malignancy
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Inflammatory Bowel Diseases
+        disease_mesh: MESH:D015212
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001555
+    -   key: location of
+        source: UBERON:0001555
+        target: MESH:D015212
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001555
+        label: GrossAnatomicalStructure
+        name: digestive tract
+    -   id: MESH:D015212
+        label: Disease
+        name: Inflammatory Bowel Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Inflammatory_bowel_disease
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Laryngeal Edema
+        disease_mesh: MESH:D007819
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001737
+    -   key: location of
+        source: UBERON:0001737
+        target: MESH:D007819
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001737
+        label: GrossAnatomicalStructure
+        name: larynx
+    -   id: MESH:D007819
+        label: Disease
+        name: Laryngeal Edema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Reinke%27s_edema
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Leukemia, Lymphocytic, Chronic, B-Cell
+        disease_mesh: MESH:D015451
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D015451
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D015451
+        label: Disease
+        name: Leukemia, Lymphocytic, Chronic, B-Cell
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Chronic_lymphocytic_leukemia
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Lupus Erythematosus, Systemic
+        disease_mesh: MESH:D008180
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002960
+    -   key: manifestation of
+        source: HP:0002960
+        target: MESH:D008180
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002960
+        label: PhenotypicFeature
+        name: Autoimmunity
+    -   id: MESH:D008180
+        label: Disease
+        name: Lupus Erythematosus, Systemic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Lupus_erythematosus
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Lymphoma, Follicular
+        disease_mesh: MESH:D008224
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D008224
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisolone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D008224
+        label: Disease
+        name: Lymphoma, Follicular
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Follicular_lymphoma
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Lymphoma, Large B-Cell, Diffuse
+        disease_mesh: MESH:D016403
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D016403
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D016403
+        label: Disease
+        name: Lymphoma, Large B-Cell, Diffuse
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Diffuse_large_B-cell_lymphoma
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Lymphoma, Non-Hodgkin
+        disease_mesh: MESH:D008228
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0002665
+    -   key: manifestation of
+        source: HP:0002665
+        target: MESH:D008228
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0002665
+        label: PhenotypicFeature
+        name: Lymphoma
+    -   id: MESH:D008228
+        label: Disease
+        name: Lymphoma, Non-Hodgkin
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Non-Hodgkin_lymphoma
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Lymphoma, T-Cell, Cutaneous
+        disease_mesh: MESH:D016410
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000988
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000989
+    -   key: manifestation of
+        source: HP:0000988
+        target: MESH:D016410
+    -   key: manifestation of
+        source: HP:0000989
+        target: MESH:D016410
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000988
+        label: PhenotypicFeature
+        name: Skin rash
+    -   id: HP:0000989
+        label: PhenotypicFeature
+        name: Pruritus
+    -   id: MESH:D016410
+        label: Disease
+        name: Lymphoma, T-Cell, Cutaneous
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Cutaneous_T_cell_lymphoma
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Multiple Sclerosis
+        disease_mesh: MESH:D009103
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0003401
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001251
+    -   key: manifestation of
+        source: HP:0003401
+        target: MESH:D009103
+    -   key: manifestation of
+        source: HP:0001251
+        target: MESH:D009103
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0003401
+        label: PhenotypicFeature
+        name: Paresthesia
+    -   id: HP:0001251
+        label: PhenotypicFeature
+        name: Ataxia
+    -   id: MESH:D009103
+        label: Disease
+        name: Multiple Sclerosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Multiple_sclerosis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Musculoskeletal Diseases
+        disease_mesh: MESH:D009140
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
+    -   key: contributes to
+        source: HP:0012531
+        target: MESH:D009140
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D009140
+        label: Disease
+        name: Musculoskeletal Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Musculoskeletal_disorder
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Mycosis Fungoides
+        disease_mesh: MESH:D009182
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0000988
+    -   key: contributes to
+        source: HP:0000988
+        target: MESH:D009182
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0000988
+        label: PhenotypicFeature
+        name: Skin rash
+    -   id: MESH:D009182
+        label: Disease
+        name: Mycosis Fungoides
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Mycosis_fungoides
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Nephrotic Syndrome
+        disease_mesh: MESH:D009404
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D009404
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D009404
+        label: Disease
+        name: Nephrotic Syndrome
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Nephrotic_syndrome
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Pemphigus
+        disease_mesh: MESH:D010392
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0008066
+    -   key: manifestation of
+        source: HP:0008066
+        target: MESH:D010392
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0008066
+        label: PhenotypicFeature
+        name: Abnormal blistering of the skin
+    -   id: MESH:D010392
+        label: Disease
+        name: Pemphigus
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Pemphigus
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Psoriasis
+        disease_mesh: MESH:D011565
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: positively correlated with
+        source: HP:0011123
+        target: MESH:D011565
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D011565
+        label: Disease
+        name: Psoriasis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Psoriasis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Pulmonary Eosinophilia
+        disease_mesh: MESH:D011657
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: GO:0048245   
+    -   key: positively correlated with
+        source: GO:0048245
+        target: MESH:D011657
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: GO:0048245
+        label: BiologicalProcess
+        name: eosinophil chemotaxis
+    -   id: MESH:D011657
+        label: Disease
+        name: Pulmonary Eosinophilia
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/L%C3%B6ffler%27s_syndrome
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Rheumatic Heart Disease
+        disease_mesh: MESH:D012214
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: contributes to
+        source: GO:0006954
+        target: HP:0001654
+    -   key: manifestation of
+        source: HP:0001654
+        target: MESH:D012214
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001654
+        label: PhenotypicFeature
+        name: Abnormal heart valve morphology
+    -   id: MESH:D012214
+        label: Disease
+        name: Rheumatic Heart Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Rheumatic_fever
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Rhinitis, Allergic
+        disease_mesh: MESH:D065631
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0001826
+    -   key: location of
+        source: UBERON:0001826
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0001826
+        label: GrossAnatomicalStructure
+        name: nasal cavity mucosa
+    -   id: MESH:D065631
+        label: Disease
+        name: Rhinitis, Allergic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Sarcoidosis
+        disease_mesh: MESH:D012507
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D012507
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: MESH:D012507
+        label: Disease
+        name: Sarcoidosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Sarcoidosis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Serum Sickness
+        disease_mesh: MESH:D012713
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0001025
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0002829
+    -   key: contributes to
+        source: HP:0001025
+        target: MESH:D012713
+    -   key: contributes to
+        source: HP:0002829
+        target: MESH:D012713
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0001025
+        label: PhenotypicFeature
+        name: Urticaria
+    -   id: HP:0002829
+        label: PhenotypicFeature
+        name: Arthralgia
+    -   id: MESH:D012713
+        label: Disease
+        name: Serum Sickness
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Serum_sickness
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Skin Diseases
+        disease_mesh: MESH:D012871
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D012871
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D012871
+        label: Disease
+        name: Skin Diseases
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Skin_condition
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Ankylosing spondylitis
+        disease_mesh: MESH:D013167
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0033631
+    -   key: contributes to
+        source: HP:0033631
+        target: MESH:D013167
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0033631
+        label: PhenotypicFeature
+        name: Spondylitis
+    -   id: MESH:D013167
+        label: Disease
+        name: Ankylosing spondylitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Ankylosing_spondylitis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Tennis Elbow
+        disease_mesh: MESH:D013716
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
+        target: HP:0012531
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0100261
+    -   key: manifestation of
+        source: HP:0012531
+        target: MESH:D013716
+    -   key: manifestation of
+        source: HP:0100261
+        target: MESH:D013716
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: HP:0100261
+        label: PhenotypicFeature
+        name: Abnormal tendon morphology
+    -   id: MESH:D013716
+        label: Disease
+        name: Tennis Elbow
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Tennis_elbow
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Thyroiditis
+        disease_mesh: MESH:D013966
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: located in
+        source: GO:0006954
+        target: UBERON:0002046
+    -   key: location of
+        source: UBERON:0002046
+        target: MESH:D013966
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: UBERON:0002046
+        label: GrossAnatomicalStructure
+        name: thyroid gland
+    -   id: MESH:D013966
+        label: Disease
+        name: Thyroiditis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Thyroiditis
+-   comment: Prednisone is a synthetic glucocorticoid derived from cortisone. It acts as a prodrug and converted into the active metabolite prednisolone in the liver.
+    directed: true
+    graph:
+        disease: Trichinellosis
+        disease_mesh: MESH:D014235
+        drug: prednisone
+        drug_mesh: MESH:D011241
+        drugbank: DB:DB00635
+    links:
+    -   key: has metabolite
+        source: MESH:D011241
+        target: MESH:D011239
+    -   key: increases activity of
+        source: MESH:D011239
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: UniProt:P04083
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P23219
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P35354
+    -   key: decreases activity of
+        source: UniProt:P04083
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P23219
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P35354
+        target: GO:0001516
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0001516
+    -   key: positively correlated with
+        source: GO:0019370
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0001516
+        target: GO:0006954
+    -   key: caused by
+        source: GO:0006954
+        target: NCBITaxon:6333
+    -   key: causes
+        source: NCBITaxon:6333
+        target: MESH:D014235
+    multigraph: true
+    nodes:
+    -   id: MESH:D011241
+        label: Drug
+        name: prednisone
+    -   id: MESH:D011239
+        label: ChemicalSubstance
+        name: Prednisolone
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P04083
+        label: Protein
+        name: Annexin A1
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: UniProt:P23219
+        label: Protein
+        name: Prostaglandin G/H synthase 1
+    -   id: UniProt:P35354
+        label: Protein
+        name: Prostaglandin G/H synthase 2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: GO:0001516
+        label: BiologicalProcess
+        name: prostaglandin biosynthetic process
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: NCBITaxon:6333
+        label: OrganismTaxon
+        name: Trichinella
+    -   id: MESH:D014235
+        label: Disease
+        name: Trichinellosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00635#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Prednisone
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P04083#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://www.uniprot.org/uniprot/P23219#function
+    -   https://www.uniprot.org/uniprot/P35354#function
+    -   https://en.wikipedia.org/wiki/Trichinosis
