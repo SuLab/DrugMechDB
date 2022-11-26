@@ -1,1 +1,1117 @@
-
+- directed: true
+  graph:
+    disease: Gonorrhea
+    disease_mesh: MESH:D006069
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:485
+    - key: causes
+      source: NCBITaxon:485
+      target: MESH:D006069
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:485
+      label: OrganismTaxon
+      name: Neisseria gonorrhoeae
+    - id: MESH:D006069
+      label: Disease
+      name: Gonorrhea
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Shigellosis
+    disease_mesh: MESH:D004405
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:624
+    - key: causes
+      source: NCBITaxon:624
+      target: MESH:D004405
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:624
+      label: OrganismTaxon
+      name: Shigella sonnei
+    - id: MESH:D004405
+      label: Disease
+      name: Dysentery, Bacillary
+      alt_name: Shigellosis
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Typhoid fever
+    disease_mesh: MESH:D014435
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:90370
+    - key: causes
+      source: NCBITaxon:90370
+      target: MESH:D014435
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:90370
+      label: OrganismTaxon
+      name: Salmonella enterica subsp. enterica serovar Typhi
+    - id: MESH:D014435
+      label: Disease
+      name: Typhoid fever
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Anthrax
+    disease_mesh: MESH:D000881
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1392
+    - key: causes
+      source: NCBITaxon:1392
+      target: MESH:D000881
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1392
+      label: OrganismTaxon
+      name: Bacillus anthracis
+    - id: MESH:D000881
+      label: Disease
+      name: Anthrax
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Staphylococcal Infections
+    disease_mesh: MESH:D013203
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D013203
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D013203
+      label: Disease
+      name: Staphylococcal Infections
+      alt_name: Infection due to Staphylococcus aureus
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Abdominal abscess
+    disease_mesh: MESH:D018784
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D018784
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D018784
+      label: Disease
+      name: Abdominal abscess
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Pyelonephritis
+    disease_mesh: MESH:D011704
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D011704
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D011704
+      label: Disease
+      name: Pyelonephritis
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Nosocomial pneumonia
+    disease_mesh: MESH:D000077299
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:90370
+    - key: causes
+      source: NCBITaxon:90370
+      target: MESH:D000077299
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:90370
+      label: OrganismTaxon
+      name: Salmonella enterica subsp. enterica serovar Typhi
+    - id: MESH:D000077299
+      label: Disease
+      name: Nosocomial pneumonia
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Pneumonia due to Mycoplasma pneumoniae
+    disease_mesh: MESH:D011019
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:2104
+    - key: causes
+      source: NCBITaxon:2104
+      target: MESH:D011019
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:2104
+      label: OrganismTaxon
+      name: Mycoplasma pneumoniae
+    - id: MESH:D011019
+      label: Disease
+      name: Pneumonia due to Mycoplasma pneumoniae
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Bronchitis
+    disease_mesh: MESH:D001991
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:727
+    - key: causes
+      source: NCBITaxon:727
+      target: MESH:D001991
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:727
+      label: OrganismTaxon
+      name: Haemophilus influenzae
+    - id: MESH:D001991
+      label: Disease
+      name: Bronchitis
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Intraabdominal Infections
+    disease_mesh: MESH:D059413
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D059413
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D059413
+      label: Disease
+      name: Intraabdominal Infections
+      alt_name: Infectious disease of abdomen
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Prostatitis
+    disease_mesh: MESH:D011472
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D011472
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D011472
+      label: Disease
+      name: Prostatitis
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Pneumonia
+    disease_mesh: MESH:D011014
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D011014
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D011014
+      label: Disease
+      name: Pneumonia
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Urinary Tract Infections
+    disease_mesh: MESH:D014552
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D014552
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D014552
+      label: Disease
+      name: Urinary Tract Infections
+      alt_name: Urinary tract infectious disease
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Cystitis
+    disease_mesh: MESH:D003556
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D003556
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D003556
+      label: Disease
+      name: Cystitis
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Enterobacteriaceae Infections
+    disease_mesh: MESH:D004756
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:543
+    - key: causes
+      source: NCBITaxon:543
+      target: MESH:D004756
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:543
+      label: OrganismTaxon
+      name: Enterobacteriaceae
+    - id: MESH:D004756
+      label: Disease
+      name: Enterobacteriaceae Infections
+      alt_name: Infection due to Enterobacteriaceae
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Pneumonia, Bacterial
+    disease_mesh: MESH:D018410
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D018410
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D018410
+      label: Disease
+      name: Pneumonia, Bacterial
+      alt_name: Bacterial pneumonia
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Rhinoscleroma
+    disease_mesh: MESH:D012226
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:39831
+    - key: causes
+      source: NCBITaxon:39831
+      target: MESH:D012226
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:39831
+      label: OrganismTaxon
+      name: Klebsiella pneumoniae subsp. rhinoscleromatis
+    - id: MESH:D012226
+      label: Disease
+      name: Rhinoscleroma
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Bacterial conjunctivitis
+    disease_mesh: MESH:D003234
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1279
+    - key: causes
+      source: NCBITaxon:1279
+      target: MESH:D003234
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1279
+      label: OrganismTaxon
+      name: Staphylococcus sp
+    - id: MESH:D003234
+      label: Disease
+      name: Bacterial conjunctivitis
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Otitis externa
+    disease_mesh: MESH:D010032
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:2
+    - key: causes
+      source: NCBITaxon:2
+      target: MESH:D010032
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:2
+      label: OrganismTaxon
+      name: Bacteria
+    - id: MESH:D010032
+      label: Disease
+      name: Otitis externa
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Chancroid
+    disease_mesh: MESH:D002602
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:730
+    - key: causes
+      source: NCBITaxon:730
+      target: MESH:D002602
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:730
+      label: OrganismTaxon
+      name: Haemophilus ducreyi
+    - id: MESH:D002602
+      label: Disease
+      name: Chancroid
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Chlamydial pneumonia
+    disease_mesh: MESH:D061387
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:83558
+    - key: causes
+      source: NCBITaxon:83558
+      target: MESH:D061387
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:83558
+      label: OrganismTaxon
+      name: Chlamydia pneumoniae
+    - id: MESH:D061387
+      label: Disease
+      name: Chlamydial pneumonia
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Escherichia coli Infections
+    disease_mesh: MESH:D004927
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D004927
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D004927
+      label: Disease
+      name: Escherichia coli Infections
+      alt_name: Infection due to Escherichia coli
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Pneumonia, Pneumococcal
+    disease_mesh: MESH:D011018
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1313
+    - key: causes
+      source: NCBITaxon:1313
+      target: MESH:D011018
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1313
+      label: OrganismTaxon
+      name: Streptococcus pneumoniae
+    - id: MESH:D011018
+      label: Disease
+      name: Pneumonia, Pneumococcal
+      alt_name: Pneumococcal pneumonia
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Pneumonia, Staphylococcal
+    disease_mesh: MESH:D011023
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1280
+    - key: causes
+      source: NCBITaxon:1280
+      target: MESH:D011023
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1280
+      label: OrganismTaxon
+      name: Staphylococcus aureus
+    - id: MESH:D011023
+      label: Disease
+      name: Pneumonia, Staphylococcal
+      alt_name: Staphylococcal pneumonia
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease:
+    disease_mesh: MESH:D013290
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:1314
+    - key: causes
+      source: NCBITaxon:1314
+      target: MESH:D013290
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:1314
+      label: OrganismTaxon
+      name: Streptococcus pyogenes
+    - id: MESH:D013290
+      label: Disease
+      name: Streptococcus pyogenes infection
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
+- directed: true
+  graph:
+    disease: Dysentery
+    disease_mesh: MESH:D004403
+    drug: ofloxacin
+    drug_mesh: MESH:D015242
+    drugbank: DB:DB01165
+  links:
+    - key: negatively regulates
+      source: MESH:D015242
+      target: InterPro:IPR013759
+    - key: positively regulates
+      source: InterPro:IPR013759
+      target: GO:0006265
+    - key: in taxon
+      source: GO:0006265
+      target: NCBITaxon:562
+    - key: causes
+      source: NCBITaxon:562
+      target: MESH:D004403
+  multigraph: true
+  nodes:
+    - id: MESH:D015242
+      label: Drug
+      name: ofloxacin
+    - id: InterPro:IPR013759
+      label: GeneFamily
+      name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    - id: GO:0006265
+      label: BiologicalProcess
+      name: DNA topological change
+    - id: NCBITaxon:562
+      label: OrganismTaxon
+      name: Escherichia coli
+    - id: MESH:D004403
+      label: Disease
+      name: Dysentery
+      alt_name: Infectious diarrheal disease
+  reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
