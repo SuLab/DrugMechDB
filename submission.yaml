@@ -8,7 +8,7 @@
         drugbank: DB:DB08873
     links:
     -   key: decreases activity of
-        source: MESH:C512204
+        source: DB:DB08873
         target: UniProt:B0B3C9
     -   key: positively regulates
         source: UniProt:B0B3C9
@@ -21,7 +21,7 @@
         target: MESH:D019698
     multigraph: true
     nodes:
-    -   id: MESH:C512204
+    -   id: DB:DB08873
         label: Drug
         name: Boceprevir
     -   id: UniProt:B0B3C9
@@ -51,7 +51,7 @@
         drugbank: DB:DB08873
     links:
     -   key: decreases activity of
-        source: MESH:C512204
+        source: DB:DB08873
         target: UniProt:B0B3C9
     -   key: positively regulates
         source: UniProt:B0B3C9
@@ -64,7 +64,7 @@
         target: MESH:D019698
     multigraph: true
     nodes:
-    -   id: MESH:C512204
+    -   id: DB:DB08873
         label: Drug
         name: Boceprevir
     -   id: UniProt:B0B3C9
@@ -890,17 +890,11 @@
     -   key: prevents
         source: GO:0060081
         target: GO:0019228
-    -   key: contributes to
-        source: GO:0019228
-        target: HP:0002018
-    -   key: contributes to
-        source: GO:0019228
-        target: HP:0000713
     -   key: positively correlated with
-        source: HP:0002018
-        target: MESH:D009293
+        source: GO:0019228
+        target: GO:0019233
     -   key: positively correlated with
-        source: HP:0000713
+        source: GO:0019233
         target: MESH:D009293
     multigraph: true
     nodes:
@@ -916,12 +910,9 @@
     -   id: GO:0019228
         label: BiologicalProcess
         name: neuronal action potential
-    -   id: HP:0002018
-        label: PhenotypicFeature
-        name: Nausea
-    -   id: HP:0000713
-        label: PhenotypicFeature
-        name: Agitation
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
     -   id: MESH:D009293
         label: Disease
         name: Opioid-Related Disorders
