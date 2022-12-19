@@ -884,17 +884,20 @@
     -   key: increases activity of
         source: MESH:D008692
         target: UniProt:P35372
-    -   key: causes
+    -   key: decreases abundance of
         source: UniProt:P35372
-        target: GO:0060081
-    -   key: prevents
-        source: GO:0060081
-        target: GO:0019228
+        target: MESH:D005680
+    -   key: correlated with
+        source: MESH:D005680
+        target: HP:0000716
+    -   key: correlated with
+        source: MESH:D005680
+        target: HP:0000739
     -   key: positively correlated with
-        source: GO:0019228
-        target: GO:0019233
+        source: HP:0000716
+        target: MESH:D009293
     -   key: positively correlated with
-        source: GO:0019233
+        source: HP:0000739
         target: MESH:D009293
     multigraph: true
     nodes:
@@ -904,21 +907,23 @@
     -   id: UniProt:P35372
         label: Protein
         name: Mu-type opioid receptor
-    -   id: GO:0060081
-        label: BiologicalProcess
-        name: membrane hyperpolarization
-    -   id: GO:0019228
-        label: BiologicalProcess
-        name: neuronal action potential
-    -   id: GO:0019233
-        label: BiologicalProcess
-        name: sensory perception of pain
+    -   id: MESH:D005680
+        label: ChemicalSubstance
+        name: gamma-Aminobutyric Acid
+    -   id: HP:0000716
+        label: PhenotypicFeature
+        name: Depression
+    -   id: HP:0000739
+        label: PhenotypicFeature
+        name: Anxiety
     -   id: MESH:D009293
         label: Disease
         name: Opioid-Related Disorders
     reference:
     -   https://go.drugbank.com/drugs/DB01227#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P35372#function
+    -   https://en.wikipedia.org/wiki/%CE%9C-opioid_receptor#Activation
+    -   https://my.clevelandclinic.org/health/articles/22857-gamma-aminobutyric-acid-gaba
     -   https://en.wikipedia.org/wiki/Opioid_use_disorder
 -   directed: true
     graph:
@@ -932,17 +937,11 @@
     -   key: increases activity of
         source: MESH:C100294
         target: UniProt:P35348
-    -   key: negatively regulates
-        source: UniProt:P35348
-        target: GO:0032098
     -   key: positively correlated with
-        source: GO:0032098
-        target: GO:0008152
-    -   key: contributes to
-        source: GO:0008152
-        target: HP:0002591
-    -   key: manifestation of
-        source: HP:0002591
+        source: UniProt:P35348
+        target: HP:0004396
+    -   key: negatively correlated with
+        source: HP:0004396
         target: MESH:D009765
     multigraph: true
     nodes:
@@ -952,15 +951,9 @@
     -   id: UniProt:P35348
         label: Protein
         name: Alpha-1A adrenergic receptor
-    -   id: GO:0032098
-        label: BiologicalProcess
-        name: regulation of appetite
-    -   id: GO:0008152
-        label: BiologicalProcess
-        name: metabolic process
-    -   id: HP:0002591
+    -   id: HP:0004396
         label: PhenotypicFeature
-        name: Polyphagia
+        name: Poor appetite
     -   id: MESH:D009765
         label: Disease
         name: Obesity
@@ -968,6 +961,7 @@
     -   https://go.drugbank.com/drugs/DB01579#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Phendimetrazine
     -   https://www.uniprot.org/uniprot/P35348#function
+    -   https://en.wikipedia.org/wiki/Alpha-1_adrenergic_receptor#Neuronal
     -   https://en.wikipedia.org/wiki/Obesity
 -   directed: true
     graph:
@@ -981,17 +975,11 @@
     -   key: increases activity of
         source: MESH:C100294
         target: UniProt:P35368
-    -   key: negatively regulates
-        source: UniProt:P35368
-        target: GO:0032098
     -   key: positively correlated with
-        source: GO:0032098
-        target: GO:0008152
-    -   key: contributes to
-        source: GO:0008152
-        target: HP:0002591
-    -   key: manifestation of
-        source: HP:0002591
+        source: UniProt:P35368
+        target: HP:0004396
+    -   key: negatively correlated with
+        source: HP:0004396
         target: MESH:D009765
     multigraph: true
     nodes:
@@ -1001,15 +989,9 @@
     -   id: UniProt:P35368
         label: Protein
         name: Alpha-1B adrenergic receptor
-    -   id: GO:0032098
-        label: BiologicalProcess
-        name: regulation of appetite
-    -   id: GO:0008152
-        label: BiologicalProcess
-        name: metabolic process
-    -   id: HP:0002591
+    -   id: HP:0004396
         label: PhenotypicFeature
-        name: Polyphagia
+        name: Poor appetite
     -   id: MESH:D009765
         label: Disease
         name: Obesity
@@ -1017,6 +999,7 @@
     -   https://go.drugbank.com/drugs/DB01579#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Phendimetrazine
     -   https://www.uniprot.org/uniprot/P35368#function
+    -   https://en.wikipedia.org/wiki/Alpha-1_adrenergic_receptor#Neuronal
     -   https://en.wikipedia.org/wiki/Obesity
 -   directed: true
     graph:
@@ -1030,20 +1013,17 @@
     -   key: decreases activity of
         source: MESH:C100294
         target: UniProt:P23975
-    -   key: increases abundance of
-        source: UniProt:P23975
-        target: MESH:D009638
-    -   key: increases activity of
-        source: MESH:D009638
-        target: UBERON:0001017
     -   key: positively regulates
-        source: UBERON:0001017
-        target: GO:0008217
-    -   key: contributes to
-        source: GO:0008217
-        target: HP:0000822
+        source: UniProt:P23975
+        target: GO:0015874
+    -   key: occurs in
+        source: GO:0015874
+        target: UBERON:0001898
+    -   key: positively correlated with
+        source: UBERON:0001898
+        target: HP:0002591
     -   key: manifestation of
-        source: HP:0000822
+        source: HP:0002591
         target: MESH:D009765
     multigraph: true
     nodes:
@@ -1053,18 +1033,15 @@
     -   id: UniProt:P23975
         label: Protein
         name: Sodium-dependent noradrenaline transporter
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Norepinephrine
-    -   id: UBERON:0001017
-        label: GrossAnatomicalStructure
-        name: central nervous system
-    -   id: GO:0008217
+    -   id: GO:0015874
         label: BiologicalProcess
-        name: regulation of blood pressure
-    -   id: HP:0000822
+        name: norepinephrine transport
+    -   id: UBERON:0001898
+        label: GrossAnatomicalStructure
+        name: hypothalamus
+    -   id: HP:0002591
         label: PhenotypicFeature
-        name: Hypertension
+        name: Polyphagia
     -   id: MESH:D009765
         label: Disease
         name: Obesity
@@ -1072,6 +1049,7 @@
     -   https://go.drugbank.com/drugs/DB01579#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Phendimetrazine
     -   https://www.uniprot.org/uniprot/P23975#function
+    -   https://www.sciencedirect.com/topics/neuroscience/phendimetrazine#:~:text=Mechanism%20of%20Action%3A%20A%20phenylalkylamine,Therapeutic%20Effect%3A%20Decreases%20appetite
     -   https://en.wikipedia.org/wiki/Obesity
 -   directed: true
     graph:
