@@ -1,1 +1,52 @@
-
+-   directed: true
+    graph:
+        _id: DB01227_MESH_D009293_1
+        disease: Opioid-Related Disorders
+        disease_mesh: MESH:D009293
+        drug: Methadyl Acetate
+        drug_mesh: MESH:D008692
+        drugbank: DB:DB01227
+    links:
+    -   key: increases activity of
+        source: MESH:D008692
+        target: UniProt:P35372
+    -   key: participates in
+        source: UniProt:P35372
+        target: REACT:R-HSA-418594
+    -   key: decreases abundance of
+        source: REACT:R-HSA-418594
+        target: MESH:D013373
+    -   key: positively correlated with
+        source: MESH:D013373
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: MESH:D010146
+    -   key: positively correlated with
+        source: MESH:D010146
+        target: MESH:D009293
+    multigraph: true
+    nodes:
+    -   id: MESH:D008692
+        label: Drug
+        name: Methadyl Acetate
+    -   id: UniProt:P35372
+        label: Protein
+        name: Mu opioid receptor
+    -   id: REACT:R-HSA-418594
+        label: Pathway
+        name: G alpha (i) signalling events
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: MESH:D010146
+        label: Disease
+        name: Pain
+    -   id: MESH:D009293
+        label: Disease
+        name: Opioid-Related Disorders
+    reference:
+    - https://go.drugbank.com/drugs/DB01227
