@@ -1,1 +1,1047 @@
-
+-   directed: true
+    graph:
+        _id: DB08873_MESH_D019698_1
+        disease: Hepatitis C, Chronic
+        disease_mesh: MESH:D019698
+        drug: Boceprevir
+        drug_mesh: MESH:C512204
+        drugbank: DB:DB08873
+    links:
+    -   key: decreases activity of
+        source: DB:DB08873
+        target: UniProt:B0B3C9
+    -   key: positively regulates
+        source: UniProt:B0B3C9
+        target: GO:0006260
+    -   key: in taxon
+        source: GO:0006260
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: DB:DB08873
+        label: Drug
+        name: Boceprevir
+    -   id: UniProt:B0B3C9
+        label: Protein
+        name: Genome polyprotein
+    -   id: GO:0006260
+        label: BiologicalProcess
+        name: DNA replication
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Hepatitis C, Chronic
+    reference:
+    -   https://go.drugbank.com/drugs/DB08873#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Boceprevir
+    -   https://www.uniprot.org/uniprot/B0B3C9#function
+    -   https://en.wikipedia.org/wiki/Hepatitis_C
+-   directed: true
+    graph:
+        _id: DB08873_MESH_D019698_2
+        disease: Hepatitis C, Chronic
+        disease_mesh: MESH:D019698
+        drug: Boceprevir
+        drug_mesh: MESH:C512204
+        drugbank: DB:DB08873
+    links:
+    -   key: decreases activity of
+        source: DB:DB08873
+        target: UniProt:B0B3C9
+    -   key: positively regulates
+        source: UniProt:B0B3C9
+        target: GO:0006508
+    -   key: in taxon
+        source: GO:0006508
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: DB:DB08873
+        label: Drug
+        name: Boceprevir
+    -   id: UniProt:B0B3C9
+        label: Protein
+        name: Genome polyprotein
+    -   id: GO:0006508
+        label: BiologicalProcess
+        name: proteolysis
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Hepatitis C, Chronic
+    reference:
+    -   https://go.drugbank.com/drugs/DB08873#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Boceprevir
+    -   https://www.uniprot.org/uniprot/B0B3C9#function
+    -   https://en.wikipedia.org/wiki/Hepatitis_C
+-   directed: true
+    graph:
+        _id: DB00835_MESH_D003233_1
+        disease: Conjunctivitis, Allergic
+        disease_mesh: MESH:D003233
+        drug: Brompheniramine
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
+    links:
+    -   key: decreases activity of
+        source: MESH:D001977
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0043114
+    -   key: correlated with
+        source: GO:0043114
+        target: MESH:D003233
+    multigraph: true
+    nodes:
+    -   id: MESH:D001977
+        label: Drug
+        name: Brompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0043114
+        label: BiologicalProcess
+        name: regulation of vascular permeability
+    -   id: MESH:D003233
+        label: Disease
+        name: Conjunctivitis, Allergic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00835#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P35367#function
+    -   https://en.wikipedia.org/wiki/Allergic_conjunctivitis
+-   directed: true
+    graph:
+        _id: DB00835_MESH_D011537_1
+        disease: Pruritus
+        disease_mesh: MESH:D011537
+        drug: Brompheniramine
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
+    links:
+    -   key: decreases activity of
+        source: MESH:D001977
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0043114
+    -   key: correlated with
+        source: GO:0043114
+        target: MESH:D011537
+    multigraph: true
+    nodes:
+    -   id: MESH:D001977
+        label: Drug
+        name: Brompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0043114
+        label: BiologicalProcess
+        name: regulation of vascular permeability
+    -   id: MESH:D011537
+        label: Disease
+        name: Pruritus
+    reference:
+    -   https://go.drugbank.com/drugs/DB00835#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P35367#function
+    -   https://en.wikipedia.org/wiki/Itch
+-   directed: true
+    graph:
+        _id: DB00835_MESH_D065631_1
+        disease: Rhinitis, Allergic
+        disease_mesh: MESH:D065631
+        drug: Brompheniramine
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
+    links:
+    -   key: decreases activity of
+        source: MESH:D001977
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0043114
+    -   key: correlated with
+        source: GO:0043114
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:D001977
+        label: Drug
+        name: Brompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0043114
+        label: BiologicalProcess
+        name: regulation of vascular permeability
+    -   id: MESH:D065631
+        label: Disease
+        name: Rhinitis, Allergic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00835#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P35367#function
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   directed: true
+    graph:
+        _id: DB00835_MESH_D006255_1
+        disease: Rhinitis, Allergic, Seasonal
+        disease_mesh: MESH:D006255
+        drug: Brompheniramine
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
+    links:
+    -   key: decreases activity of
+        source: MESH:D001977
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0043114
+    -   key: correlated with
+        source: GO:0043114
+        target: MESH:D006255
+    multigraph: true
+    nodes:
+    -   id: MESH:D001977
+        label: Drug
+        name: Brompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0043114
+        label: BiologicalProcess
+        name: regulation of vascular permeability
+    -   id: MESH:D006255
+        label: Disease
+        name: Rhinitis, Allergic, Seasonal
+    reference:
+    -   https://go.drugbank.com/drugs/DB00835#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P35367#function
+    -   https://en.wikipedia.org/wiki/Allergic_rhinitis
+-   directed: true
+    graph:
+        _id: DB00835_MESH_D012223_1
+        disease: Rhinitis, Vasomotor
+        disease_mesh: MESH:D012223
+        drug: Brompheniramine
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
+    links:
+    -   key: decreases activity of
+        source: MESH:D001977
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0043114
+    -   key: correlated with
+        source: GO:0043114
+        target: MESH:D012223
+    multigraph: true
+    nodes:
+    -   id: MESH:D001977
+        label: Drug
+        name: Brompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0043114
+        label: BiologicalProcess
+        name: regulation of vascular permeability
+    -   id: MESH:D012223
+        label: Disease
+        name: Rhinitis, Vasomotor
+    reference:
+    -   https://go.drugbank.com/drugs/DB00835#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P35367#function
+    -   https://en.wikipedia.org/wiki/Nonallergic_rhinitis
+-   directed: true
+    graph:
+        _id: DB00835_MESH_D014581_1
+        disease: Urticaria
+        disease_mesh: MESH:D014581
+        drug: Brompheniramine
+        drug_mesh: MESH:D001977
+        drugbank: DB:DB00835
+    links:
+    -   key: decreases activity of
+        source: MESH:D001977
+        target: UniProt:P35367
+    -   key: positively correlated with
+        source: UniProt:P35367
+        target: MESH:D006632
+    -   key: positively regulates
+        source: MESH:D006632
+        target: GO:0043114
+    -   key: correlated with
+        source: GO:0043114
+        target: MESH:D014581
+    multigraph: true
+    nodes:
+    -   id: MESH:D001977
+        label: Drug
+        name: Brompheniramine
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0043114
+        label: BiologicalProcess
+        name: regulation of vascular permeability
+    -   id: MESH:D014581
+        label: Disease
+        name: Urticaria
+    reference:
+    -   https://go.drugbank.com/drugs/DB00835#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P35367#function
+    -   https://en.wikipedia.org/wiki/Hives
+-   directed: true
+    graph:
+        _id: DB00671_MESH_D001991_1
+        disease: Bronchitis
+        disease_mesh: MESH:D001991
+        drug: Cefixime
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
+    links:
+    -   key: decreases activity of
+        source: MESH:D020682
+        target: UniProt:P44469
+    -   key: positively regulates
+        source: UniProt:P44469
+        target: GO:0009273
+    -   key: positively regulates
+        source: GO:0009273
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:1213463
+    -   key: causes
+        source: NCBITaxon:1213463
+        target: MESH:D001991
+    multigraph: true
+    nodes:
+    -   id: MESH:D020682
+        label: Drug
+        name: Cefixime
+    -   id: UniProt:P44469
+        label: Protein
+        name: Peptidoglycan D,D-transpeptidase MrdA
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:1213463
+        label: OrganismTaxon
+        name: Mycoplasma pneumoniae 19294
+    -   id: MESH:D001991
+        label: Disease
+        name: Bronchitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00671#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P44469#function
+    -   https://en.wikipedia.org/wiki/Bronchitis
+-   directed: true
+    graph:
+        _id: DB00671_MESH_D006069_1
+        disease: Gonorrhea
+        disease_mesh: MESH:D006069
+        drug: Cefixime
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
+    links:
+    -   key: decreases activity of
+        source: MESH:D020682
+        target: UniProt:P44469
+    -   key: positively regulates
+        source: UniProt:P44469
+        target: GO:0009273
+    -   key: positively regulates
+        source: GO:0009273
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:485
+    -   key: causes
+        source: NCBITaxon:485
+        target: MESH:D006069
+    multigraph: true
+    nodes:
+    -   id: MESH:D020682
+        label: Drug
+        name: Cefixime
+    -   id: UniProt:P44469
+        label: Protein
+        name: Peptidoglycan D,D-transpeptidase MrdA
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:485
+        label: OrganismTaxon
+        name: Neisseria gonorrhoeae
+    -   id: MESH:D006069
+        label: Disease
+        name: Gonorrhea
+    reference:
+    -   https://go.drugbank.com/drugs/DB00671#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P44469#function
+    -   https://en.wikipedia.org/wiki/Gonorrhea
+-   directed: true
+    graph:
+        _id: DB00671_MESH_D010612_1
+        disease: Pharyngitis
+        disease_mesh: MESH:D010612
+        drug: Cefixime
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
+    links:
+    -   key: decreases activity of
+        source: MESH:D020682
+        target: UniProt:P44469
+    -   key: positively regulates
+        source: UniProt:P44469
+        target: GO:0009273
+    -   key: positively regulates
+        source: GO:0009273
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D010612
+    multigraph: true
+    nodes:
+    -   id: MESH:D020682
+        label: Drug
+        name: Cefixime
+    -   id: UniProt:P44469
+        label: Protein
+        name: Peptidoglycan D,D-transpeptidase MrdA
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D010612
+        label: Disease
+        name: Pharyngitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00671#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P44469#function
+    -   https://en.wikipedia.org/wiki/Pharyngitis
+-   directed: true
+    graph:
+        _id: DB00671_MESH_D012141_1
+        disease: Respiratory Tract Infections
+        disease_mesh: MESH:D012141
+        drug: Cefixime
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
+    links:
+    -   key: decreases activity of
+        source: MESH:D020682
+        target: UniProt:P44469
+    -   key: positively regulates
+        source: UniProt:P44469
+        target: GO:0009273
+    -   key: positively regulates
+        source: GO:0009273
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:727
+    -   key: causes
+        source: NCBITaxon:727
+        target: MESH:D012141
+    multigraph: true
+    nodes:
+    -   id: MESH:D020682
+        label: Drug
+        name: Cefixime
+    -   id: UniProt:P44469
+        label: Protein
+        name: Peptidoglycan D,D-transpeptidase MrdA
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:727
+        label: OrganismTaxon
+        name: Haemophilus influenzae
+    -   id: MESH:D012141
+        label: Disease
+        name: Respiratory Tract Infections
+    reference:
+    -   https://go.drugbank.com/drugs/DB00671#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P44469#function
+    -   https://en.wikipedia.org/wiki/Respiratory_tract_infection
+-   directed: true
+    graph:
+        _id: DB00671_MESH_D013290_1
+        disease: Streptococcal Infections
+        disease_mesh: MESH:D013290
+        drug: Cefixime
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
+    links:
+    -   key: decreases activity of
+        source: MESH:D020682
+        target: UniProt:P44469
+    -   key: positively regulates
+        source: UniProt:P44469
+        target: GO:0009273
+    -   key: positively regulates
+        source: GO:0009273
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:1301
+    -   key: causes
+        source: NCBITaxon:1301
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D020682
+        label: Drug
+        name: Cefixime
+    -   id: UniProt:P44469
+        label: Protein
+        name: Peptidoglycan D,D-transpeptidase MrdA
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:1301
+        label: OrganismTaxon
+        name: Streptococcus
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcal Infections
+    reference:
+    -   https://go.drugbank.com/drugs/DB00671#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P44469#function
+    -   https://en.wikipedia.org/wiki/Group_A_streptococcal_infection
+    -   https://en.wikipedia.org/wiki/Group_B_streptococcal_infection
+-   directed: true
+    graph:
+        _id: DB00671_MESH_D014069_1
+        disease: Tonsillitis
+        disease_mesh: MESH:D014069
+        drug: Cefixime
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
+    links:
+    -   key: decreases activity of
+        source: MESH:D020682
+        target: UniProt:P44469
+    -   key: positively regulates
+        source: UniProt:P44469
+        target: GO:0009273
+    -   key: positively regulates
+        source: GO:0009273
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D014069
+    multigraph: true
+    nodes:
+    -   id: MESH:D020682
+        label: Drug
+        name: Cefixime
+    -   id: UniProt:P44469
+        label: Protein
+        name: Peptidoglycan D,D-transpeptidase MrdA
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D014069
+        label: Disease
+        name: Tonsillitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00671#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P44469#function
+    -   https://en.wikipedia.org/wiki/Tonsillitis
+-   directed: true
+    graph:
+        _id: DB00671_MESH_D014552_1
+        disease: Urinary Tract Infections
+        disease_mesh: MESH:D014552
+        drug: Cefixime
+        drug_mesh: MESH:D020682
+        drugbank: DB:DB00671
+    links:
+    -   key: decreases activity of
+        source: MESH:D020682
+        target: UniProt:P44469
+    -   key: positively regulates
+        source: UniProt:P44469
+        target: GO:0009273
+    -   key: positively regulates
+        source: GO:0009273
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:562
+    -   key: causes
+        source: NCBITaxon:562
+        target: MESH:D014552
+    multigraph: true
+    nodes:
+    -   id: MESH:D020682
+        label: Drug
+        name: Cefixime
+    -   id: UniProt:P44469
+        label: Protein
+        name: Peptidoglycan D,D-transpeptidase MrdA
+    -   id: GO:0009273
+        label: BiologicalProcess
+        name: peptidoglycan-based cell wall biogenesis
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:562
+        label: OrganismTaxon
+        name: Escherichia coli
+    -   id: MESH:D014552
+        label: Disease
+        name: Urinary Tract Infections
+    reference:
+    -   https://go.drugbank.com/drugs/DB00671#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P44469#function
+    -   https://en.wikipedia.org/wiki/Urinary_tract_infection
+-   directed: true
+    graph:
+        _id: DB00758_MESH_D054058_1
+        disease: Acute Coronary Syndrome
+        disease_mesh: MESH:D054058
+        drug: Clopidogrel
+        drug_mesh: MESH:D000077144
+        drugbank: DB:DB00758
+    links:
+    -   key: enabled by
+        source: MESH:D000077144
+        target: UniProt:P23141
+    -   key: negatively regulates
+        source: UniProt:P23141
+        target: UniProt:Q9H244
+    -   key: positively regulates
+        source: UniProt:Q9H244
+        target: GO:0070527
+    -   key: positively correlated with
+        source: GO:0070527
+        target: MESH:D054058
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077144
+        label: Drug
+        name: Clopidogrel
+    -   id: UniProt:P23141
+        label: Protein
+        name: Liver carboxylesterase 1
+    -   id: UniProt:Q9H244
+        label: Protein
+        name: P2Y purinoceptor 12
+    -   id: GO:0070527
+        label: BiologicalProcess
+        name: platelet aggregation
+    -   id: MESH:D054058
+        label: Disease
+        name: Acute Coronary Syndrome
+    reference:
+    -   https://go.drugbank.com/drugs/DB00758#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P23141#function
+    -   https://www.uniprot.org/uniprot/Q9H244#function
+    -   https://en.wikipedia.org/wiki/Acute_coronary_syndrome
+-   directed: true
+    graph:
+        _id: DB00758_MESH_D020766_1
+        disease: Intracranial Embolism
+        disease_mesh: MESH:D020766
+        drug: Clopidogrel
+        drug_mesh: MESH:D000077144
+        drugbank: DB:DB00758
+    links:
+    -   key: enabled by
+        source: MESH:D000077144
+        target: UniProt:P23141
+    -   key: negatively regulates
+        source: UniProt:P23141
+        target: UniProt:Q9H244
+    -   key: positively regulates
+        source: UniProt:Q9H244
+        target: GO:0070527
+    -   key: contributes to
+        source: GO:0070527
+        target: MESH:D020766
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077144
+        label: Drug
+        name: Clopidogrel
+    -   id: UniProt:P23141
+        label: Protein
+        name: Liver carboxylesterase 1
+    -   id: UniProt:Q9H244
+        label: Protein
+        name: P2Y purinoceptor 12
+    -   id: GO:0070527
+        label: BiologicalProcess
+        name: platelet aggregation
+    -   id: MESH:D020766
+        label: Disease
+        name: Intracranial Embolism
+    reference:
+    -   https://go.drugbank.com/drugs/DB00758#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P23141#function
+    -   https://www.uniprot.org/uniprot/Q9H244#function
+    -   https://en.wikipedia.org/wiki/Embolism
+-   directed: true
+    graph:
+        _id: DB00027_MESH_D003234_1
+        disease: Conjunctivitis, Bacterial
+        disease_mesh: MESH:D003234
+        drug: Gramicidin
+        drug_mesh: MESH:D006096
+        drugbank: DB:DB00027
+    links:
+    -   key: negatively regulates
+        source: MESH:D006096
+        target: GO:0030313
+    -   key: participates in
+        source: GO:0030313
+        target: GO:0090559
+    -   key: participates in
+        source: GO:0090559
+        target: GO:0022803
+    -   key: occurs in
+        source: GO:0022803
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D003234
+    multigraph: true
+    nodes:
+    -   id: MESH:D006096
+        label: Drug
+        name: Gramicidin
+    -   id: GO:0030313
+        label: CellularComponent
+        name: cell envelope
+    -   id: GO:0090559
+        label: BiologicalProcess
+        name: regulation of membrane permeability
+    -   id: GO:0022803
+        label: MolecularActivity
+        name: passive transmembrane transporter activity
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D003234
+        label: Disease
+        name: Conjunctivitis, Bacterial
+    reference:
+    -   https://go.drugbank.com/drugs/DB00027#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Gramicidin
+    -   https://en.wikipedia.org/wiki/Conjunctivitis
+-   directed: true
+    graph:
+        _id: DB01210_MESH_D005902_1
+        disease: Glaucoma, Open-Angle
+        disease_mesh: MESH:D005902
+        drug: Levobunolol
+        drug_mesh: MESH:D002040
+        drugbank: DB:DB01210
+    links:
+    -   key: decreases activity of
+        source: MESH:D002040
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: MESH:D002040
+        target: UniProt:P07550
+    -   key: increases abundance of
+        source: UniProt:P08588
+        target: MESH:D000242
+    -   key: increases abundance of
+        source: UniProt:P07550
+        target: MESH:D000242
+    -   key: located in
+        source: MESH:D000242
+        target: UBERON:0010427
+    -   key: correlated with
+        source: UBERON:0010427
+        target: UBERON:0001796
+    -   key: positively correlated with
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: manifestation of
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:D002040
+        label: Drug
+        name: Levobunolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: UBERON:0010427
+        label: GrossAnatomicalStructure
+        name: ciliary processes
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Glaucoma, Open-Angle
+    reference:
+    -   https://go.drugbank.com/drugs/DB01210#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P08588#function
+    -   https://www.uniprot.org/uniprot/P07550#function
+    -   https://en.wikipedia.org/wiki/Ocular_hypertension
+    -   https://en.wikipedia.org/wiki/Glaucoma
+-   directed: true
+    graph:
+        _id: DB01579_MESH_D009765_1
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: phendimetrazine
+        drug_mesh: MESH:C100294
+        drugbank: DB:DB01579
+    links:
+    -   key: increases activity of
+        source: MESH:C100294
+        target: UniProt:P35348
+    -   key: positively correlated with
+        source: UniProt:P35348
+        target: HP:0004396
+    -   key: negatively correlated with
+        source: HP:0004396
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:C100294
+        label: Drug
+        name: phendimetrazine
+    -   id: UniProt:P35348
+        label: Protein
+        name: Alpha-1A adrenergic receptor
+    -   id: HP:0004396
+        label: PhenotypicFeature
+        name: Poor appetite
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference:
+    -   https://go.drugbank.com/drugs/DB01579#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phendimetrazine
+    -   https://www.uniprot.org/uniprot/P35348#function
+    -   https://en.wikipedia.org/wiki/Alpha-1_adrenergic_receptor#Neuronal
+    -   https://en.wikipedia.org/wiki/Obesity
+-   directed: true
+    graph:
+        _id: DB01579_MESH_D009765_2
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: phendimetrazine
+        drug_mesh: MESH:C100294
+        drugbank: DB:DB01579
+    links:
+    -   key: increases activity of
+        source: MESH:C100294
+        target: UniProt:P35368
+    -   key: positively correlated with
+        source: UniProt:P35368
+        target: HP:0004396
+    -   key: negatively correlated with
+        source: HP:0004396
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:C100294
+        label: Drug
+        name: phendimetrazine
+    -   id: UniProt:P35368
+        label: Protein
+        name: Alpha-1B adrenergic receptor
+    -   id: HP:0004396
+        label: PhenotypicFeature
+        name: Poor appetite
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference:
+    -   https://go.drugbank.com/drugs/DB01579#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phendimetrazine
+    -   https://www.uniprot.org/uniprot/P35368#function
+    -   https://en.wikipedia.org/wiki/Alpha-1_adrenergic_receptor#Neuronal
+    -   https://en.wikipedia.org/wiki/Obesity
+-   directed: true
+    graph:
+        _id: DB01579_MESH_D009765_4
+        disease: Obesity
+        disease_mesh: MESH:D009765
+        drug: phendimetrazine
+        drug_mesh: MESH:C100294
+        drugbank: DB:DB01579
+    links:
+    -   key: decreases activity of
+        source: MESH:C100294
+        target: UniProt:P23975
+    -   key: positively regulates
+        source: UniProt:P23975
+        target: GO:0015874
+    -   key: decreases abundance of
+        source: GO:0015874
+        target: MESH:D009638
+    -   key: positively correlated with
+        source: MESH:D009638
+        target: HP:0004396
+    -   key: negatively correlated with
+        source: HP:0004396
+        target: MESH:D009765
+    multigraph: true
+    nodes:
+    -   id: MESH:C100294
+        label: Drug
+        name: phendimetrazine
+    -   id: UniProt:P23975
+        label: Protein
+        name: Sodium-dependent noradrenaline transporter
+    -   id: GO:0015874
+        label: BiologicalProcess
+        name: norepinephrine transport
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: HP:0004396
+        label: PhenotypicFeature
+        name: Poor appetite
+    -   id: MESH:D009765
+        label: Disease
+        name: Obesity
+    reference:
+    -   https://go.drugbank.com/drugs/DB01579#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phendimetrazine
+    -   https://www.uniprot.org/uniprot/P23975#function
+    -   https://en.wikipedia.org/wiki/Obesity
+-   directed: true
+    graph:
+        _id: DB00495_MESH_D015658_1
+        disease: HIV Infections
+        disease_mesh: MESH:D015658
+        drug: Zidovudine
+        drug_mesh: MESH:D015215
+        drugbank: DB:DB00495
+    links:
+    -   key: increases abundance of
+        source: MESH:D015215
+        target: MESH:C052873
+    -   key: decreases activity of
+        source: MESH:C052873
+        target: UniProt:Q72547
+    -   key: expressed in
+        source: UniProt:Q72547
+        target: GO:0039693
+    -   key: in taxon
+        source: GO:0039693
+        target: NCBITaxon:12721
+    -   key: causes
+        source: NCBITaxon:12721
+        target: MESH:D015658
+    multigraph: true
+    nodes:
+    -   id: MESH:D015215
+        label: Drug
+        name: Zidovudine
+    -   id: MESH:C052873
+        label: ChemicalSubstance
+        name: zidovudine triphosphate
+    -   id: UniProt:Q72547
+        label: Protein
+        name: Reverse transcriptase/RNaseH
+    -   id: GO:0039693
+        label: BiologicalProcess
+        name: viral DNA genome replication
+    -   id: NCBITaxon:12721
+        label: OrganismTaxon
+        name: Human immunodeficiency virus
+    -   id: MESH:D015658
+        label: Disease
+        name: HIV Infections
+    reference:
+    -   https://go.drugbank.com/drugs/DB00495#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Zidovudine
+    -   https://en.wikipedia.org/wiki/HIV
