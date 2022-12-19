@@ -1,1 +1,154 @@
-
+-   directed: true
+    graph:
+        disease: Skin ulcer
+        disease_mesh: MESH:D012883
+        drug: sulfadiazine silver
+        drug_mesh: MESH:D012837 
+        drugbank: DB:DB05245
+    links:
+    -   key: disrupts
+        source: MESH:D012837 
+        target: GO:0009274
+    -   key: part of
+        source: GO:0009274
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D012883
+    multigraph: true
+    nodes:
+    -   id: MESH:D012837 
+        label: Drug
+        name: Sulfadiazine silver
+    -   id: GO:0009274
+        label: CellularComponent
+        name: peptidoglycan-based cell wall
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D012883
+        label: Disease
+        name: Skin ulcer
+    reference:
+    - https://go.drugbank.com/drugs/DB05245
+-   directed: true
+    graph:
+        disease: Chronic myeloid leukemia
+        disease_mesh: MESH:D015464
+        drug: ponatinib
+        drug_mesh: MESH:D004103
+        drugbank: DB:DB08901
+    links:
+    -   key: decreases activity of
+        source: MESH:D004103
+        target: UniProt:P00519
+    -   key: participates in
+        source: UniProt:P00519
+        target: MESH:D016044
+    -   key: positively regulates
+        source: MESH:D016044
+        target: GO:0004674
+    -   key: positively correlated with
+        source: GO:0004674
+        target: GO:0007266
+    -   key: positively correlated with
+        source: GO:0007266
+        target: GO:0008283
+    -   key: negatively correlated with
+        source: GO:0007266
+        target: GO:0006915
+    -   key: positively correlated with
+        source: GO:0008283
+        target: MESH:D015464
+    -   key: negatively correlated with
+        source: GO:0006915
+        target: MESH:D015464
+    multigraph: true
+    nodes:
+    -   id: MESH:D004103
+        label: Drug
+        name: ponatinib
+    -   id: UniProt:P00519
+        label: Protein
+        name: Tyrosine-protein kinase ABL1
+    -   id: MESH:D016044
+        label: Protein
+        name: Fusion Proteins, bcr-abl
+    -   id: GO:0004674
+        label: MolecularActivity
+        name: protein serine/threonine kinase activity
+    -   id: GO:0007266
+        label: BiologicalProcess
+        name: Rho protein signal transduction
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: GO:0006915
+        label: BiologicalProcess
+        name: apoptotic process
+    -   id: MESH:D015464
+        label: Disease
+        name: Chronic myeloid leukemia
+    reference:
+    - https://go.drugbank.com/drugs/DB08901
+-   directed: true
+    graph:
+        disease: Gaucher Disease
+        disease_mesh: MESH:D005776
+        drug: eliglustat
+        drug_mesh: MESH:C522917
+        drugbank: DB:DB09039
+    links:
+    -   key: decreases activity of
+        source: MESH:C522917
+        target: UniProt:Q16739
+    -   key: participates in
+        source: UniProt:Q16739
+        target: GO:0006679
+    -   key: increases abundance of
+        source: GO:0006679
+        target: MESH:D005963
+    -   key: contributes to
+        source: MESH:D005963
+        target: MESH:D005776
+    multigraph: true
+    nodes:
+    -   id: MESH:C522917
+        label: Drug
+        name: eliglustat
+    -   id: UniProt:Q16739
+        label: Protein
+        name: Ceramide glucosyltransferase
+    -   id: GO:0006679
+        label: BiologicalProcess
+        name: glucosylceramide biosynthetic process
+    -   id: MESH:D005963
+        label: ChemicalSubstance
+        name: Glucosylceramides
+    -   id: MESH:D005776
+        label: Disease
+        name: Gaucher Disease
+    reference:
+    - https://go.drugbank.com/drugs/DB09039
+-   comment: The exact mechanism of action is unknown.
+    directed: true
+    graph:
+        disease: Amebic infection
+        disease_mesh: MESH:D000562
+        drug: diiodohydroxyquinoline
+        drug_mesh: MESH:D004103
+        drugbank: DB:DB09115
+    links:
+    -   key: treats
+        source: MESH:D004103
+        target: MESH:D000562
+    multigraph: true
+    nodes:
+    -   id: MESH:D004103
+        label: Drug
+        name: diiodohydroxyquinoline
+    -   id: MESH:D000562
+        label: Disease
+        name: Amebic infection
+    reference:
+    - https://go.drugbank.com/drugs/DB09115
