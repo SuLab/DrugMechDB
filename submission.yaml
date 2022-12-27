@@ -435,14 +435,14 @@
         drug_mesh: MESH:D006585
         drugbank: DB:DB00488
     links:
-    -   key: increases activity of
+    -   key: has metabolite
         source: MESH:D006585
-        target: InterPro:IPR001128
-    -   key: produces
-        source: InterPro:IPR001128
         target: MESH:D005557
-    -   key: enabled by
+    -   key: increases activity of
         source: MESH:D005557
+        target: InterPro:IPR001128
+    -   key: positively regulates
+        source: InterPro:IPR001128
         target: GO:0006305
     -   key: disrupts
         source: GO:0006305
@@ -455,12 +455,12 @@
     -   id: MESH:D006585
         label: Drug
         name: Altretamine
-    -   id: InterPro:IPR001128
-        label: GeneFamily
-        name: Cytochrome P450
     -   id: MESH:D005557
         label: ChemicalSubstance
         name: Formaldehyde
+    -   id: InterPro:IPR001128
+        label: GeneFamily
+        name: Cytochrome P450
     -   id: GO:0006305
         label: BiologicalProcess
         name: DNA alkylation
@@ -483,14 +483,14 @@
         drug_mesh: MESH:D006585
         drugbank: DB:DB00488
     links:
-    -   key: increases activity of
+    -   key: has metabolite
         source: MESH:D006585
-        target: InterPro:IPR001128
-    -   key: produces
-        source: InterPro:IPR001128
         target: CHEBI:73080
-    -   key: enabled by
+    -   key: increases activity of
         source: CHEBI:73080
+        target: InterPro:IPR001128
+    -   key: positively regulates
+        source: InterPro:IPR001128
         target: GO:0006305
     -   key: disrupts
         source: GO:0006305
@@ -503,12 +503,12 @@
     -   id: MESH:D006585
         label: Drug
         name: Altretamine
-    -   id: InterPro:IPR001128
-        label: GeneFamily
-        name: Cytochrome P450
     -   id: CHEBI:73080
         label: ChemicalSubstance
         name: hemiaminal
+    -   id: InterPro:IPR001128
+        label: GeneFamily
+        name: Cytochrome P450
     -   id: GO:0006305
         label: BiologicalProcess
         name: DNA alkylation
@@ -935,11 +935,11 @@
     -   key: positively regulates
         source: UniProt:P01275
         target: MESH:D007328
-    -   key: decreases abundance of
+    -   key: contributes to
         source: MESH:D007328
-        target: MESH:D005947
-    -   key: treats
-        source: MESH:D005947
+        target: HP:0000855
+    -   key: manifestation of
+        source: HP:0000855
         target: MESH:D003924
     multigraph: true
     nodes:
@@ -955,9 +955,9 @@
     -   id: MESH:D007328
         label: ChemicalSubstance
         name: Insulin
-    -   id: MESH:D005947
-        label: ChemicalSubstance
-        name: Glucose
+    -   id: HP:0000855
+        label: PhenotypicFeature
+        name: Insulin resistance
     -   id: MESH:D003924
         label: Disease
         name: Diabetes Mellitus, Type 2
@@ -1037,11 +1037,11 @@
     -   key: positively regulates
         source: UniProt:P09681
         target: MESH:D007328
-    -   key: decreases abundance of
+    -   key: contributes to
         source: MESH:D007328
-        target: MESH:D005947
-    -   key: treats
-        source: MESH:D005947
+        target: HP:0000855
+    -   key: manifestation of
+        source: HP:0000855
         target: MESH:D003924
     multigraph: true
     nodes:
@@ -1057,9 +1057,9 @@
     -   id: MESH:D007328
         label: ChemicalSubstance
         name: Insulin
-    -   id: MESH:D005947
-        label: ChemicalSubstance
-        name: Glucose
+    -   id: HP:0000855
+        label: PhenotypicFeature
+        name: Insulin resistance
     -   id: MESH:D003924
         label: Disease
         name: Diabetes Mellitus, Type 2
@@ -1091,11 +1091,11 @@
     -   key: increases abundance of
         source: UniProt:P01275
         target: MESH:D006003
-    -   key: increases abundance of
+    -   key: contributes to
         source: MESH:D006003
-        target: MESH:D005947
-    -   key: treats
-        source: MESH:D005947
+        target: HP:0001943
+    -   key: negatively correlated with
+        source: HP:0001943
         target: MESH:D003924
     multigraph: true
     nodes:
@@ -1114,9 +1114,9 @@
     -   id: MESH:D006003
         label: ChemicalSubstance
         name: Glycogen
-    -   id: MESH:D005947
-        label: ChemicalSubstance
-        name: Glucose
+    -   id: HP:0001943
+        label: PhenotypicFeature
+        name: Hypoglycemia
     -   id: MESH:D003924
         label: Disease
         name: Diabetes Mellitus, Type 2
