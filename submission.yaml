@@ -1,1 +1,2353 @@
-
+-   directed: true
+    graph:
+        _id: DB06237_MESH_D007172_1
+        disease: Erectile Dysfunction
+        disease_mesh: MESH:D007172
+        drug: avanafil
+        drug_mesh: MESH:C553414
+        drugbank: DB:DB06237
+    links:
+    -   key: decreases activity of
+        source: MESH:C553414
+        target: UniProt:O76074
+    -   key: positively regulates
+        source: UniProt:O76074
+        target: GO:0046069
+    -   key: decreases abundance of
+        source: GO:0046069
+        target: MESH:D006152
+    -   key: positively regulates
+        source: MESH:D006152
+        target: GO:0044557
+    -   key: positively correlated with
+        source: GO:0044557
+        target: GO:0008015
+    -   key: negatively correlated with
+        source: GO:0008015
+        target: MESH:D007172
+    multigraph: true
+    nodes:
+    -   id: MESH:C553414
+        label: Drug
+        name: avanafil
+    -   id: UniProt:O76074
+        label: Protein
+        name: cGMP-specific 3',5'-cyclic phosphodiesterase
+    -   id: GO:0046069
+        label: BiologicalProcess
+        name: cGMP catabolic process
+    -   id: MESH:D006152
+        label: ChemicalSubstance
+        name: Cyclic GMP
+    -   id: GO:0044557
+        label: BiologicalProcess
+        name: relaxation of smooth muscle
+    -   id: GO:0008015
+        label: BiologicalProcess
+        name: blood circulation
+    -   id: MESH:D007172
+        label: Disease
+        name: Erectile Dysfunction
+    reference:
+    -   https://go.drugbank.com/drugs/DB06237#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/O76074#function
+    -   https://en.wikipedia.org/wiki/Erectile_dysfunction
+-   directed: true
+    graph:
+        _id: DB00878_MESH_D005891_1
+        disease: Gingivitis
+        disease_mesh: MESH:D005891
+        drug: Chlorhexidine
+        drug_mesh: MESH:D002710
+        drugbank: DB:DB00878
+    links:
+    -   key: disrupts
+        source: MESH:D002710
+        target: GO:0005886
+    -   key: in taxon
+        source: GO:0005886
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D005891
+    multigraph: true
+    nodes:
+    -   id: MESH:D002710
+        label: Drug
+        name: Chlorhexidine
+    -   id: GO:0005886
+        label: CellularComponent
+        name: plasma membrane
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D005891
+        label: Disease
+        name: Gingivitis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00878#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Gingivitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D003876_1
+        disease: Dermatitis, Atopic
+        disease_mesh: MESH:D003876
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: increases abundance of
+        source: GO:0019370
+        target: MESH:D015289
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003876
+        label: Disease
+        name: Dermatitis, Atopic
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://pubmed.ncbi.nlm.nih.gov/11872155/
+    -   https://en.wikipedia.org/wiki/Atopic_dermatitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D003876_2
+        disease: Dermatitis, Atopic
+        disease_mesh: MESH:D003876
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: MESH:D016753
+    -   key: negatively regulates
+        source: MESH:D016753
+        target: InterPro:IPR000451
+    -   key: positively regulates
+        source: InterPro:IPR000451
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: MESH:D016753
+        label: ChemicalSubstance
+        name: Interleukin-10
+    -   id: InterPro:IPR000451
+        label: GeneFamily
+        name: NF-kappa-B/Dorsal
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003876
+        label: Disease
+        name: Dermatitis, Atopic
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://pubmed.ncbi.nlm.nih.gov/7721885/
+    -   https://en.wikipedia.org/wiki/Atopic_dermatitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D003877_1
+        disease: Dermatitis, Contact
+        disease_mesh: MESH:D003877
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: increases abundance of
+        source: GO:0019370
+        target: MESH:D015289
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003877
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003877
+        label: Disease
+        name: Dermatitis, Contact
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://pubmed.ncbi.nlm.nih.gov/11872155/
+    -   https://en.wikipedia.org/wiki/Contact_dermatitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D003877_2
+        disease: Dermatitis, Contact
+        disease_mesh: MESH:D003877
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: MESH:D016753
+    -   key: negatively regulates
+        source: MESH:D016753
+        target: InterPro:IPR000451
+    -   key: positively regulates
+        source: InterPro:IPR000451
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D003877
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: MESH:D016753
+        label: ChemicalSubstance
+        name: Interleukin-10
+    -   id: InterPro:IPR000451
+        label: GeneFamily
+        name: NF-kappa-B/Dorsal
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D003877
+        label: Disease
+        name: Dermatitis, Contact
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://pubmed.ncbi.nlm.nih.gov/7721885/
+    -   https://en.wikipedia.org/wiki/Contact_dermatitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D012628_1
+        disease: Dermatitis, Seborrheic
+        disease_mesh: MESH:D012628
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: increases abundance of
+        source: GO:0019370
+        target: MESH:D015289
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D012628
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D012628
+        label: Disease
+        name: Dermatitis, Seborrheic
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://pubmed.ncbi.nlm.nih.gov/11872155/
+    -   https://en.wikipedia.org/wiki/Seborrhoeic_dermatitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D012628_2
+        disease: Dermatitis, Seborrheic
+        disease_mesh: MESH:D012628
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: MESH:D016753
+    -   key: negatively regulates
+        source: MESH:D016753
+        target: InterPro:IPR000451
+    -   key: positively regulates
+        source: InterPro:IPR000451
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D012628
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: MESH:D016753
+        label: ChemicalSubstance
+        name: Interleukin-10
+    -   id: InterPro:IPR000451
+        label: GeneFamily
+        name: NF-kappa-B/Dorsal
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D012628
+        label: Disease
+        name: Dermatitis, Seborrheic
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://pubmed.ncbi.nlm.nih.gov/7721885/
+    -   https://en.wikipedia.org/wiki/Seborrhoeic_dermatitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D012536_1
+        disease: Scalp Dermatoses
+        disease_mesh: MESH:D012536
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: decreases activity of
+        source: UniProt:P04150
+        target: UniProt:P47712
+    -   key: positively regulates
+        source: UniProt:P47712
+        target: GO:0019370
+    -   key: increases abundance of
+        source: GO:0019370
+        target: MESH:D015289
+    -   key: positively regulates
+        source: MESH:D015289
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D012536
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: UniProt:P47712
+        label: Protein
+        name: Cytosolic phospholipase A2
+    -   id: GO:0019370
+        label: BiologicalProcess
+        name: leukotriene biosynthetic process
+    -   id: MESH:D015289
+        label: ChemicalSubstance
+        name: Leukotrienes
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D012536
+        label: Disease
+        name: Scalp Dermatoses
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://www.uniprot.org/uniprot/P47712#function
+    -   https://pubmed.ncbi.nlm.nih.gov/11872155/
+    -   https://en.wikipedia.org/wiki/Dermatitis
+-   comment: Clobetasol is under investigation for the treatment of Scleroderma. Clobetasol propionate is a propionate ester of clobetasol which act as a glucocorticoid receptor and approved for the treatment of dermatoses.
+    directed: true
+    graph:
+        _id: DB11750_MESH_D012536_2
+        disease: Scalp Dermatoses
+        disease_mesh: MESH:D012536
+        drug: Clobetasol
+        drug_mesh: MESH:D002990
+        drugbank: DB:DB11750
+    links:
+    -   key: increases activity of
+        source: MESH:D002990
+        target: UniProt:P04150
+    -   key: increases activity of
+        source: UniProt:P04150
+        target: MESH:D016753
+    -   key: negatively regulates
+        source: MESH:D016753
+        target: InterPro:IPR000451
+    -   key: positively regulates
+        source: InterPro:IPR000451
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: HP:0011123
+    -   key: contributes to
+        source: HP:0011123
+        target: MESH:D012536
+    multigraph: true
+    nodes:
+    -   id: MESH:D002990
+        label: Drug
+        name: Clobetasol
+    -   id: UniProt:P04150
+        label: Protein
+        name: Glucocorticoid receptor
+    -   id: MESH:D016753
+        label: ChemicalSubstance
+        name: Interleukin-10
+    -   id: InterPro:IPR000451
+        label: GeneFamily
+        name: NF-kappa-B/Dorsal
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
+    -   id: HP:0011123
+        label: PhenotypicFeature
+        name: Inflammatory abnormality of the skin
+    -   id: MESH:D012536
+        label: Disease
+        name: Scalp Dermatoses
+    reference:
+    -   https://go.drugbank.com/drugs/DB11750#mechanism-of-action
+    -   https://go.drugbank.com/drugs/DB01013#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clobetasol
+    -   https://www.uniprot.org/uniprot/P04150#function
+    -   https://pubmed.ncbi.nlm.nih.gov/7721885/
+    -   https://en.wikipedia.org/wiki/Dermatitis
+-   directed: true
+    graph:
+        _id: DB08865_MESH_D002289_1
+        disease: Carcinoma, Non-Small-Cell Lung
+        disease_mesh: MESH:D002289
+        drug: Crizotinib
+        drug_mesh: MESH:D000077547
+        drugbank: DB:DB08865
+    links:
+    -   key: decreases activity of
+        source: MESH:D000077547
+        target: UniProt:Q9UM73
+    -   key: positively regulates
+        source: UniProt:Q9UM73
+        target: GO:0008283
+    -   key: contributes to
+        source: GO:0008283
+        target: MESH:D002289
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077547
+        label: Drug
+        name: Crizotinib
+    -   id: UniProt:Q9UM73
+        label: Protein
+        name: ALK tyrosine kinase receptor
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D002289
+        label: Disease
+        name: Carcinoma, Non-Small-Cell Lung
+    reference:
+    -   https://go.drugbank.com/drugs/DB08865#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/Q9UM73#function
+    -   https://en.wikipedia.org/wiki/Non-small-cell_lung_cancer
+-   directed: true
+    graph:
+        _id: DB08865_MESH_D002289_2
+        disease: Carcinoma, Non-Small-Cell Lung
+        disease_mesh: MESH:D002289
+        drug: Crizotinib
+        drug_mesh: MESH:D000077547
+        drugbank: DB:DB08865
+    links:
+    -   key: decreases activity of
+        source: MESH:D000077547
+        target: UniProt:P08922
+    -   key: positively regulates
+        source: UniProt:P08922
+        target: GO:0008283
+    -   key: contributes to
+        source: GO:0008283
+        target: MESH:D002289
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077547
+        label: Drug
+        name: Crizotinib
+    -   id: UniProt:P08922
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase ROS
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: MESH:D002289
+        label: Disease
+        name: Carcinoma, Non-Small-Cell Lung
+    reference:
+    -   https://go.drugbank.com/drugs/DB08865#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P08922#function
+    -   https://en.wikipedia.org/wiki/Non-small-cell_lung_cancer
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D001249_1
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:P27815
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q07343
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08493
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08499
+    -   key: decreases abundance of
+        source: UniProt:P27815
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q07343
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08493
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08499
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: UniProt:P27815
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+    -   id: UniProt:Q07343
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4B
+    -   id: UniProt:Q08493
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4C
+    -   id: UniProt:Q08499
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4D
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P27815#function
+    -   https://www.uniprot.org/uniprot/Q07343#function
+    -   https://www.uniprot.org/uniprot/Q08493#function
+    -   https://www.uniprot.org/uniprot/Q08499#function
+    -   https://en.wikipedia.org/wiki/Asthma
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D001249_2
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: InterPro:IPR001634
+    -   key: negatively regulates
+        source: InterPro:IPR001634
+        target: GO:0004016
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: GO:0004016
+        label: MolecularActivity
+        name: adenylate cyclase activity
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Asthma
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D000080445_1
+        disease: Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome
+        disease_mesh: MESH:D000080445
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:P27815
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q07343
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08493
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08499
+    -   key: decreases abundance of
+        source: UniProt:P27815
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q07343
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08493
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08499
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D000080445
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: UniProt:P27815
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+    -   id: UniProt:Q07343
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4B
+    -   id: UniProt:Q08493
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4C
+    -   id: UniProt:Q08499
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4D
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D000080445
+        label: Disease
+        name: Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P27815#function
+    -   https://www.uniprot.org/uniprot/Q07343#function
+    -   https://www.uniprot.org/uniprot/Q08493#function
+    -   https://www.uniprot.org/uniprot/Q08499#function
+    -   https://en.wikipedia.org/wiki/Asthma
+    -   https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D000080445_2
+        disease: Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome
+        disease_mesh: MESH:D000080445
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: InterPro:IPR001634
+    -   key: negatively regulates
+        source: InterPro:IPR001634
+        target: GO:0004016
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D000080445
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: GO:0004016
+        label: MolecularActivity
+        name: adenylate cyclase activity
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D000080445
+        label: Disease
+        name: Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Asthma
+    -   https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D001986_1
+        disease: Bronchial Spasm
+        disease_mesh: MESH:D001986
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:P27815
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q07343
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08493
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08499
+    -   key: decreases abundance of
+        source: UniProt:P27815
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q07343
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08493
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08499
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D001986
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: UniProt:P27815
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+    -   id: UniProt:Q07343
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4B
+    -   id: UniProt:Q08493
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4C
+    -   id: UniProt:Q08499
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4D
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D001986
+        label: Disease
+        name: Bronchial Spasm
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P27815#function
+    -   https://www.uniprot.org/uniprot/Q07343#function
+    -   https://www.uniprot.org/uniprot/Q08493#function
+    -   https://www.uniprot.org/uniprot/Q08499#function
+    -   https://en.wikipedia.org/wiki/Bronchospasm
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D001986_2
+        disease: Bronchial Spasm
+        disease_mesh: MESH:D001986
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: InterPro:IPR001634
+    -   key: negatively regulates
+        source: InterPro:IPR001634
+        target: GO:0004016
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D001986
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: GO:0004016
+        label: MolecularActivity
+        name: adenylate cyclase activity
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D001986
+        label: Disease
+        name: Bronchial Spasm
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Bronchospasm
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D029481_1
+        disease: Bronchitis, Chronic
+        disease_mesh: MESH:D029481
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:P27815
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q07343
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08493
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08499
+    -   key: decreases abundance of
+        source: UniProt:P27815
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q07343
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08493
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08499
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D029481
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: UniProt:P27815
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+    -   id: UniProt:Q07343
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4B
+    -   id: UniProt:Q08493
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4C
+    -   id: UniProt:Q08499
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4D
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D029481
+        label: Disease
+        name: Bronchitis, Chronic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P27815#function
+    -   https://www.uniprot.org/uniprot/Q07343#function
+    -   https://www.uniprot.org/uniprot/Q08493#function
+    -   https://www.uniprot.org/uniprot/Q08499#function
+    -   https://en.wikipedia.org/wiki/Bronchitis#Chronic_bronchitis
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D029481_2
+        disease: Bronchitis, Chronic
+        disease_mesh: MESH:D029481
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: InterPro:IPR001634
+    -   key: negatively regulates
+        source: InterPro:IPR001634
+        target: GO:0004016
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D029481
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: GO:0004016
+        label: MolecularActivity
+        name: adenylate cyclase activity
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D029481
+        label: Disease
+        name: Bronchitis, Chronic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Bronchitis#Chronic_bronchitis
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D011656_1
+        disease: Pulmonary Emphysema
+        disease_mesh: MESH:D011656
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:P27815
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q07343
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08493
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: UniProt:Q08499
+    -   key: decreases abundance of
+        source: UniProt:P27815
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q07343
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08493
+        target: MESH:D000242
+    -   key: decreases abundance of
+        source: UniProt:Q08499
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: UniProt:P27815
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+    -   id: UniProt:Q07343
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4B
+    -   id: UniProt:Q08493
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4C
+    -   id: UniProt:Q08499
+        label: Protein
+        name: cAMP-specific 3',5'-cyclic phosphodiesterase 4D
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary Emphysema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P27815#function
+    -   https://www.uniprot.org/uniprot/Q07343#function
+    -   https://www.uniprot.org/uniprot/Q08493#function
+    -   https://www.uniprot.org/uniprot/Q08499#function
+    -   https://en.wikipedia.org/wiki/Emphysema
+-   directed: true
+    graph:
+        _id: DB00651_MESH_D011656_2
+        disease: Pulmonary Emphysema
+        disease_mesh: MESH:D011656
+        drug: Dyphylline
+        drug_mesh: MESH:D004400
+        drugbank: DB:DB00651
+    links:
+    -   key: decreases activity of
+        source: MESH:D004400
+        target: InterPro:IPR001634
+    -   key: negatively regulates
+        source: InterPro:IPR001634
+        target: GO:0004016
+    -   key: increases abundance of
+        source: GO:0004016
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0042311
+    -   key: negatively correlated with
+        source: GO:0042311
+        target: MESH:D011656
+    multigraph: true
+    nodes:
+    -   id: MESH:D004400
+        label: Drug
+        name: Dyphylline
+    -   id: InterPro:IPR001634
+        label: GeneFamily
+        name: Adenosine receptor
+    -   id: GO:0004016
+        label: MolecularActivity
+        name: adenylate cyclase activity
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0042311
+        label: BiologicalProcess
+        name: vasodilation
+    -   id: MESH:D011656
+        label: Disease
+        name: Pulmonary Emphysema
+    reference:
+    -   https://go.drugbank.com/drugs/DB00651#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Emphysema
+-   directed: true
+    graph:
+        _id: DB11574_MESH_D019698_1
+        disease: Hepatitis C, Chronic
+        disease_mesh: MESH:D019698
+        drug: elbasvir
+        drug_mesh: MESH:C000589335
+        drugbank: DB:DB11574
+    links:
+    -   key: decreases activity of
+        source: MESH:C000589335
+        target: UniProt:Q5L478
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0019079
+    -   key: in taxon
+        source: GO:0019079
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C000589335
+        label: Drug
+        name: elbasvir
+    -   id: UniProt:Q5L478
+        label: Protein
+        name: Nonstructural protein 5A
+    -   id: GO:0019079
+        label: BiologicalProcess
+        name: viral genome replication
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Hepatitis C, Chronic
+    reference:
+    -   https://go.drugbank.com/drugs/DB11574#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/Q5L478#function
+    -   https://en.wikipedia.org/wiki/Hepatitis_C
+-   directed: true
+    graph:
+        _id: DB11574_MESH_D019698_2
+        disease: Hepatitis C, Chronic
+        disease_mesh: MESH:D019698
+        drug: elbasvir
+        drug_mesh: MESH:C000589335
+        drugbank: DB:DB11574
+    links:
+    -   key: decreases activity of
+        source: MESH:C000589335
+        target: UniProt:Q5L478
+    -   key: positively regulates
+        source: UniProt:Q5L478
+        target: GO:0019068
+    -   key: in taxon
+        source: GO:0019068
+        target: NCBITaxon:11103
+    -   key: causes
+        source: NCBITaxon:11103
+        target: MESH:D019698
+    multigraph: true
+    nodes:
+    -   id: MESH:C000589335
+        label: Drug
+        name: elbasvir
+    -   id: UniProt:Q5L478
+        label: Protein
+        name: Nonstructural protein 5A
+    -   id: GO:0019068
+        label: BiologicalProcess
+        name: virion assembly
+    -   id: NCBITaxon:11103
+        label: OrganismTaxon
+        name: Hepacivirus C
+    -   id: MESH:D019698
+        label: Disease
+        name: Hepatitis C, Chronic
+    reference:
+    -   https://go.drugbank.com/drugs/DB11574#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/Q5L478#function
+    -   https://en.wikipedia.org/wiki/Hepatitis_C
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D018263_1
+        disease: Adenocarcinoma, Follicular
+        disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: InterPro:IPR009135
+    -   key: positively regulates
+        source: InterPro:IPR009135
+        target: GO:0001525
+    -   key: contributes to
+        source: GO:0001525
+        target: MESH:D018263
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: InterPro:IPR009135
+        label: GeneFamily
+        name: Vascular endothelial growth factor receptor 1 (VEGFR1)
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: angiogenesis
+    -   id: MESH:D018263
+        label: Disease
+        name: Adenocarcinoma, Follicular
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Adenocarcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D018263_2
+        disease: Adenocarcinoma, Follicular
+        disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: InterPro:IPR016248
+    -   key: positively regulates
+        source: InterPro:IPR016248
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D018263
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: InterPro:IPR016248
+        label: GeneFamily
+        name: Fibroblast growth factor receptor family
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D018263
+        label: Disease
+        name: Adenocarcinoma, Follicular
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Adenocarcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D018263_3
+        disease: Adenocarcinoma, Follicular
+        disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P16234
+    -   key: positively regulates
+        source: UniProt:P16234
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D018263
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P16234
+        label: Protein
+        name: Platelet-derived growth factor receptor alpha
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D018263
+        label: Disease
+        name: Adenocarcinoma, Follicular
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P16234#function
+    -   https://en.wikipedia.org/wiki/Adenocarcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D018263_4
+        disease: Adenocarcinoma, Follicular
+        disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P10721
+    -   key: positively regulates
+        source: UniProt:P10721
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D018263
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P10721
+        label: Protein
+        name: Mast/stem cell growth factor receptor Kit
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D018263
+        label: Disease
+        name: Adenocarcinoma, Follicular
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P10721#function
+    -   https://en.wikipedia.org/wiki/Adenocarcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D018263_5
+        disease: Adenocarcinoma, Follicular
+        disease_mesh: MESH:D018263
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P07949
+    -   key: positively regulates
+        source: UniProt:P07949
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D018263
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P07949
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase receptor Ret
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D018263
+        label: Disease
+        name: Adenocarcinoma, Follicular
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P07949#function
+    -   https://en.wikipedia.org/wiki/Adenocarcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D002292_1
+        disease: Carcinoma, Renal Cell
+        disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: InterPro:IPR009135
+    -   key: positively regulates
+        source: InterPro:IPR009135
+        target: GO:0001525
+    -   key: contributes to
+        source: GO:0001525
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: InterPro:IPR009135
+        label: GeneFamily
+        name: Vascular endothelial growth factor receptor 1 (VEGFR1)
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: angiogenesis
+    -   id: MESH:D002292
+        label: Disease
+        name: Carcinoma, Renal Cell
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Adenocarcinoma
+    -   https://en.wikipedia.org/wiki/Renal_cell_carcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D002292_2
+        disease: Carcinoma, Renal Cell
+        disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: InterPro:IPR016248
+    -   key: positively regulates
+        source: InterPro:IPR016248
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: InterPro:IPR016248
+        label: GeneFamily
+        name: Fibroblast growth factor receptor family
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Carcinoma, Renal Cell
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Adenocarcinoma
+    -   https://en.wikipedia.org/wiki/Renal_cell_carcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D002292_3
+        disease: Carcinoma, Renal Cell
+        disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P16234
+    -   key: positively regulates
+        source: UniProt:P16234
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P16234
+        label: Protein
+        name: Platelet-derived growth factor receptor alpha
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Carcinoma, Renal Cell
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P16234#function
+    -   https://en.wikipedia.org/wiki/Renal_cell_carcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D002292_4
+        disease: Carcinoma, Renal Cell
+        disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P10721
+    -   key: positively regulates
+        source: UniProt:P10721
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P10721
+        label: Protein
+        name: Mast/stem cell growth factor receptor Kit
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Carcinoma, Renal Cell
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P10721#function
+    -   https://en.wikipedia.org/wiki/Renal_cell_carcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D002292_5
+        disease: Carcinoma, Renal Cell
+        disease_mesh: MESH:D002292
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P07949
+    -   key: positively regulates
+        source: UniProt:P07949
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D002292
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P07949
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase receptor Ret
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D002292
+        label: Disease
+        name: Carcinoma, Renal Cell
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P07949#function
+    -   https://en.wikipedia.org/wiki/Renal_cell_carcinoma
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D000077273_1
+        disease: Thyroid Cancer, Papillary
+        disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: InterPro:IPR009135
+    -   key: positively regulates
+        source: InterPro:IPR009135
+        target: GO:0001525
+    -   key: positively correlated with
+        source: GO:0001525
+        target: GO:0009987
+    -   key: positively correlated with
+        source: GO:0009987
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D000077273
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: InterPro:IPR009135
+        label: GeneFamily
+        name: Vascular endothelial growth factor receptor 1 (VEGFR1)
+    -   id: GO:0001525
+        label: BiologicalProcess
+        name: angiogenesis
+    -   id: GO:0009987
+        label: BiologicalProcess
+        name: cellular process
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D000077273
+        label: Disease
+        name: Thyroid Cancer, Papillary
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Papillary_thyroid_cancer
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D000077273_2
+        disease: Thyroid Cancer, Papillary
+        disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: InterPro:IPR016248
+    -   key: positively regulates
+        source: InterPro:IPR016248
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D000077273
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: InterPro:IPR016248
+        label: GeneFamily
+        name: Fibroblast growth factor receptor family
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D000077273
+        label: Disease
+        name: Thyroid Cancer, Papillary
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Papillary_thyroid_cancer
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D000077273_3
+        disease: Thyroid Cancer, Papillary
+        disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P16234
+    -   key: positively regulates
+        source: UniProt:P16234
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D000077273
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P16234
+        label: Protein
+        name: Platelet-derived growth factor receptor alpha
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D000077273
+        label: Disease
+        name: Thyroid Cancer, Papillary
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P16234#function
+    -   https://en.wikipedia.org/wiki/Papillary_thyroid_cancer
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D000077273_4
+        disease: Thyroid Cancer, Papillary
+        disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P10721
+    -   key: positively regulates
+        source: UniProt:P10721
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D000077273
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P10721
+        label: Protein
+        name: Mast/stem cell growth factor receptor Kit
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D000077273
+        label: Disease
+        name: Thyroid Cancer, Papillary
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P10721#function
+    -   https://en.wikipedia.org/wiki/Papillary_thyroid_cancer
+-   directed: true
+    graph:
+        _id: DB09078_MESH_D000077273_5
+        disease: Thyroid Cancer, Papillary
+        disease_mesh: MESH:D000077273
+        drug: lenvatinib
+        drug_mesh: MESH:C531958
+        drugbank: DB:DB09078
+    links:
+    -   key: decreases activity of
+        source: MESH:C531958
+        target: UniProt:P07949
+    -   key: positively regulates
+        source: UniProt:P07949
+        target: GO:0008283
+    -   key: occurs in
+        source: GO:0008283
+        target: CL:0001064
+    -   key: participates in
+        source: CL:0001064
+        target: MESH:D000077273
+    multigraph: true
+    nodes:
+    -   id: MESH:C531958
+        label: Drug
+        name: lenvatinib
+    -   id: UniProt:P07949
+        label: Protein
+        name: Proto-oncogene tyrosine-protein kinase receptor Ret
+    -   id: GO:0008283
+        label: BiologicalProcess
+        name: cell population proliferation
+    -   id: CL:0001064
+        label: Cell
+        name: malignant cell
+    -   id: MESH:D000077273
+        label: Disease
+        name: Thyroid Cancer, Papillary
+    reference:
+    -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P07949#function
+    -   https://en.wikipedia.org/wiki/Papillary_thyroid_cancer
+-   directed: true
+    graph:
+        _id: DB06655_MESH_D003924_1
+        disease: Diabetes Mellitus, Type 2
+        disease_mesh: MESH:D003924
+        drug: Liraglutide
+        drug_mesh: MESH:D000069450
+        drugbank: DB:DB06655
+    links:
+    -   key: increases activity of
+        source: MESH:D000069450
+        target: UniProt:P43220
+    -   key: increases abundance of
+        source: UniProt:P43220
+        target: MESH:D000242
+    -   key: positively regulates
+        source: MESH:D000242
+        target: GO:0035773
+    -   key: negatively regulates
+        source: GO:0035773
+        target: GO:0070091
+    -   key: increases abundance of
+        source: GO:0070091
+        target: MESH:D001786
+    -   key: positively correlated with
+        source: MESH:D001786
+        target: HP:0003074
+    -   key: manifestation of
+        source: HP:0003074
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069450
+        label: Drug
+        name: Liraglutide
+    -   id: UniProt:P43220
+        label: Protein
+        name: Glucagon-like peptide 1 receptor
+    -   id: MESH:D000242
+        label: ChemicalSubstance
+        name: Cyclic AMP
+    -   id: GO:0035773
+        label: BiologicalProcess
+        name: insulin secretion involved in cellular response to glucose stimulus
+    -   id: GO:0070091
+        label: BiologicalProcess
+        name: glucagon secretion
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood Glucose
+    -   id: HP:0003074
+        label: PhenotypicFeature
+        name: Hyperglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes Mellitus, Type 2
+    reference:
+    -   https://go.drugbank.com/drugs/DB06655#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P43220#function
+    -   https://en.wikipedia.org/wiki/Type_2_diabetes
+-   directed: true
+    graph:
+        _id: DB00508_MESH_D009325_1
+        disease: Nausea
+        disease_mesh: MESH:D009325
+        drug: Triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
+    links:
+    -   key: decreases activity of
+        source: MESH:D014273
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: MESH:D009325
+    multigraph: true
+    nodes:
+    -   id: MESH:D014273
+        label: Drug
+        name: Triflupromazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: MESH:D009325
+        label: Disease
+        name: Nausea
+    reference:
+    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P14416#function
+    -   https://en.wikipedia.org/wiki/Dopamine_receptor
+    -   https://en.wikipedia.org/wiki/Nausea
+-   directed: true
+    graph:
+        _id: DB00508_MESH_D011618_1
+        disease: Psychotic Disorders
+        disease_mesh: MESH:D011618
+        drug: Triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
+    links:
+    -   key: decreases activity of
+        source: MESH:D014273
+        target: UniProt:P21728
+    -   key: positively correlated with
+        source: UniProt:P21728
+        target: MESH:D004298
+    -   key: contributes to
+        source: MESH:D004298
+        target: HP:0000738
+    -   key: contributes to
+        source: MESH:D004298
+        target: HP:0000746
+    -   key: manifestation of
+        source: HP:0000738
+        target: MESH:D011618
+    -   key: manifestation of
+        source: HP:0000746
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: MESH:D014273
+        label: Drug
+        name: Triflupromazine
+    -   id: UniProt:P21728
+        label: Protein
+        name: D(1A) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: HP:0000738
+        label: PhenotypicFeature
+        name: Hallucinations
+    -   id: HP:0000746
+        label: PhenotypicFeature
+        name: Delusions
+    -   id: MESH:D011618
+        label: Disease
+        name: Psychotic Disorders
+    reference:
+    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P21728#function
+    -   https://en.wikipedia.org/wiki/Dopamine_receptor
+    -   https://en.wikipedia.org/wiki/Psychosis
+-   directed: true
+    graph:
+        _id: DB00508_MESH_D011618_2
+        disease: Psychotic Disorders
+        disease_mesh: MESH:D011618
+        drug: Triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
+    links:
+    -   key: decreases activity of
+        source: MESH:D014273
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: contributes to
+        source: MESH:D004298
+        target: HP:0000738
+    -   key: contributes to
+        source: MESH:D004298
+        target: HP:0000746
+    -   key: manifestation of
+        source: HP:0000738
+        target: MESH:D011618
+    -   key: manifestation of
+        source: HP:0000746
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: MESH:D014273
+        label: Drug
+        name: Triflupromazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: HP:0000738
+        label: PhenotypicFeature
+        name: Hallucinations
+    -   id: HP:0000746
+        label: PhenotypicFeature
+        name: Delusions
+    -   id: MESH:D011618
+        label: Disease
+        name: Psychotic Disorders
+    reference:
+    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P14416#function
+    -   https://en.wikipedia.org/wiki/Dopamine_receptor
+    -   https://en.wikipedia.org/wiki/Psychosis
+-   directed: true
+    graph:
+        _id: DB00508_MESH_D011618_3
+        disease: Psychotic Disorders
+        disease_mesh: MESH:D011618
+        drug: Triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
+    links:
+    -   key: decreases activity of
+        source: MESH:D014273
+        target: UniProt:P11229
+    -   key: positively regulates
+        source: UniProt:P11229
+        target: GO:0007213
+    -   key: positively correlated with
+        source: GO:0007213
+        target: MESH:D000109
+    -   key: contributes to
+        source: MESH:D000109
+        target: HP:0100753
+    -   key: positively correlated with
+        source: HP:0100753
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: MESH:D014273
+        label: Drug
+        name: Triflupromazine
+    -   id: UniProt:P11229
+        label: Protein
+        name: Muscarinic acetylcholine receptor M1
+    -   id: GO:0007213
+        label: BiologicalProcess
+        name: G protein-coupled acetylcholine receptor signaling pathway
+    -   id: MESH:D000109
+        label: ChemicalSubstance
+        name: Acetylcholine
+    -   id: HP:0100753
+        label: PhenotypicFeature
+        name: Schizophrenia
+    -   id: MESH:D011618
+        label: Disease
+        name: Psychotic Disorders
+    reference:
+    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P11229#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4268065/
+    -   https://en.wikipedia.org/wiki/Psychosis
+-   directed: true
+    graph:
+        _id: DB00508_MESH_D011618_4
+        disease: Psychotic Disorders
+        disease_mesh: MESH:D011618
+        drug: Triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
+    links:
+    -   key: decreases activity of
+        source: MESH:D014273
+        target: UniProt:P08172
+    -   key: positively regulates
+        source: UniProt:P08172
+        target: GO:0007213
+    -   key: positively correlated with
+        source: GO:0007213
+        target: MESH:D000109
+    -   key: contributes to
+        source: MESH:D000109
+        target: HP:0100753
+    -   key: positively correlated with
+        source: HP:0100753
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: MESH:D014273
+        label: Drug
+        name: Triflupromazine
+    -   id: UniProt:P08172
+        label: Protein
+        name: Muscarinic acetylcholine receptor M2
+    -   id: GO:0007213
+        label: BiologicalProcess
+        name: G protein-coupled acetylcholine receptor signaling pathway
+    -   id: MESH:D000109
+        label: ChemicalSubstance
+        name: Acetylcholine
+    -   id: HP:0100753
+        label: PhenotypicFeature
+        name: Schizophrenia
+    -   id: MESH:D011618
+        label: Disease
+        name: Psychotic Disorders
+    reference:
+    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P08172#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4268065/
+    -   https://en.wikipedia.org/wiki/Psychosis
+-   directed: true
+    graph:
+        _id: DB00508_MESH_D011618_5
+        disease: Psychotic Disorders
+        disease_mesh: MESH:D011618
+        drug: Triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
+    links:
+    -   key: decreases activity of
+        source: MESH:D014273
+        target: UniProt:P41595
+    -   key: positively regulates
+        source: UniProt:P41595
+        target: GO:0001820
+    -   key: positively correlated with
+        source: GO:0001820
+        target: MESH:D012701
+    -   key: contributes to
+        source: MESH:D012701
+        target: HP:0000738
+    -   key: contributes to
+        source: MESH:D012701
+        target: HP:0000746
+    -   key: manifestation of
+        source: HP:0000738
+        target: MESH:D011618
+    -   key: manifestation of
+        source: HP:0000746
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: MESH:D014273
+        label: Drug
+        name: Triflupromazine
+    -   id: UniProt:P41595
+        label: Protein
+        name: 5-hydroxytryptamine receptor 2B
+    -   id: GO:0001820
+        label: BiologicalProcess
+        name: serotonin secretion
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: HP:0000738
+        label: PhenotypicFeature
+        name: Hallucinations
+    -   id: HP:0000746
+        label: PhenotypicFeature
+        name: Delusions
+    -   id: MESH:D011618
+        label: Disease
+        name: Psychotic Disorders
+    reference:
+    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P41595#function
+    -   https://en.wikipedia.org/wiki/Psychosis
+-   directed: true
+    graph:
+        _id: DB00508_MESH_D014839_1
+        disease: Vomiting
+        disease_mesh: MESH:D014839
+        drug: Triflupromazine
+        drug_mesh: MESH:D014273
+        drugbank: DB:DB00508
+    links:
+    -   key: decreases activity of
+        source: MESH:D014273
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: MESH:D014839
+    multigraph: true
+    nodes:
+    -   id: MESH:D014273
+        label: Drug
+        name: Triflupromazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: MESH:D014839
+        label: Disease
+        name: Vomiting
+    reference:
+    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P14416#function
+    -   https://en.wikipedia.org/wiki/Dopamine_receptor
+    -   https://en.wikipedia.org/wiki/Vomiting
