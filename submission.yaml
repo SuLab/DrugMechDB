@@ -653,42 +653,6 @@
     -   https://en.wikipedia.org/wiki/Non-small-cell_lung_cancer
 -   directed: true
     graph:
-        _id: DB08865_MESH_D002289_3
-        disease: Carcinoma, Non-Small-Cell Lung
-        disease_mesh: MESH:D002289
-        drug: Crizotinib
-        drug_mesh: MESH:D000077547
-        drugbank: DB:DB08865
-    links:
-    -   key: decreases activity of
-        source: MESH:D000077547
-        target: UniProt:P08922
-    -   key: positively regulates
-        source: UniProt:P08922
-        target: GO:0030154
-    -   key: contributes to
-        source: GO:0030154
-        target: MESH:D002289
-    multigraph: true
-    nodes:
-    -   id: MESH:D000077547
-        label: Drug
-        name: Crizotinib
-    -   id: UniProt:P08922
-        label: Protein
-        name: Proto-oncogene tyrosine-protein kinase ROS
-    -   id: GO:0030154
-        label: BiologicalProcess
-        name: cell differentiation
-    -   id: MESH:D002289
-        label: Disease
-        name: Carcinoma, Non-Small-Cell Lung
-    reference:
-    -   https://go.drugbank.com/drugs/DB08865#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P08922#function
-    -   https://en.wikipedia.org/wiki/Non-small-cell_lung_cancer
--   directed: true
-    graph:
         _id: DB00651_MESH_D001249_1
         disease: Asthma
         disease_mesh: MESH:D001249
@@ -1383,17 +1347,8 @@
     -   key: positively regulates
         source: InterPro:IPR009135
         target: GO:0001525
-    -   key: positively correlated with
+    -   key: contributes to
         source: GO:0001525
-        target: GO:0009987
-    -   key: positively correlated with
-        source: GO:0009987
-        target: GO:0008283
-    -   key: occurs in
-        source: GO:0008283
-        target: CL:0001064
-    -   key: participates in
-        source: CL:0001064
         target: MESH:D018263
     multigraph: true
     nodes:
@@ -1406,22 +1361,12 @@
     -   id: GO:0001525
         label: BiologicalProcess
         name: angiogenesis
-    -   id: GO:0009987
-        label: BiologicalProcess
-        name: cellular process
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: cell population proliferation
-    -   id: CL:0001064
-        label: Cell
-        name: malignant cell
     -   id: MESH:D018263
         label: Disease
         name: Adenocarcinoma, Follicular
     reference:
     -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Adenocarcinoma
-    -   https://en.wikipedia.org/wiki/Follicular_thyroid_cancer
 -   directed: true
     graph:
         _id: DB09078_MESH_D018263_2
@@ -1463,7 +1408,6 @@
     reference:
     -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Adenocarcinoma
-    -   https://en.wikipedia.org/wiki/Follicular_thyroid_cancer
 -   directed: true
     graph:
         _id: DB09078_MESH_D018263_3
@@ -1506,7 +1450,6 @@
     -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P16234#function
     -   https://en.wikipedia.org/wiki/Adenocarcinoma
-    -   https://en.wikipedia.org/wiki/Follicular_thyroid_cancer
 -   directed: true
     graph:
         _id: DB09078_MESH_D018263_4
@@ -1549,7 +1492,6 @@
     -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P10721#function
     -   https://en.wikipedia.org/wiki/Adenocarcinoma
-    -   https://en.wikipedia.org/wiki/Follicular_thyroid_cancer
 -   directed: true
     graph:
         _id: DB09078_MESH_D018263_5
@@ -1592,7 +1534,6 @@
     -   https://go.drugbank.com/drugs/DB09078#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P07949#function
     -   https://en.wikipedia.org/wiki/Adenocarcinoma
-    -   https://en.wikipedia.org/wiki/Follicular_thyroid_cancer
 -   directed: true
     graph:
         _id: DB09078_MESH_D002292_1
@@ -1608,17 +1549,8 @@
     -   key: positively regulates
         source: InterPro:IPR009135
         target: GO:0001525
-    -   key: positively correlated with
+    -   key: contributes to
         source: GO:0001525
-        target: GO:0009987
-    -   key: positively correlated with
-        source: GO:0009987
-        target: GO:0008283
-    -   key: occurs in
-        source: GO:0008283
-        target: CL:0001064
-    -   key: participates in
-        source: CL:0001064
         target: MESH:D002292
     multigraph: true
     nodes:
@@ -1631,15 +1563,6 @@
     -   id: GO:0001525
         label: BiologicalProcess
         name: angiogenesis
-    -   id: GO:0009987
-        label: BiologicalProcess
-        name: cellular process
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: cell population proliferation
-    -   id: CL:0001064
-        label: Cell
-        name: malignant cell
     -   id: MESH:D002292
         label: Disease
         name: Carcinoma, Renal Cell
@@ -2134,132 +2057,6 @@
     -   https://en.wikipedia.org/wiki/Nausea
 -   directed: true
     graph:
-        _id: DB00508_MESH_D009325_2
-        disease: Nausea
-        disease_mesh: MESH:D009325
-        drug: Triflupromazine
-        drug_mesh: MESH:D014273
-        drugbank: DB:DB00508
-    links:
-    -   key: decreases activity of
-        source: MESH:D014273
-        target: UniProt:P11229
-    -   key: positively regulates
-        source: UniProt:P11229
-        target: GO:0007213
-    -   key: positively correlated with
-        source: GO:0007213
-        target: GO:0001696
-    -   key: correlated with
-        source: GO:0001696
-        target: MESH:D009325
-    multigraph: true
-    nodes:
-    -   id: MESH:D014273
-        label: Drug
-        name: Triflupromazine
-    -   id: UniProt:P11229
-        label: Protein
-        name: Muscarinic acetylcholine receptor M1
-    -   id: GO:0007213
-        label: BiologicalProcess
-        name: G protein-coupled acetylcholine receptor signaling pathway
-    -   id: GO:0001696
-        label: BiologicalProcess
-        name: gastric acid secretion
-    -   id: MESH:D009325
-        label: Disease
-        name: Nausea
-    reference:
-    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P11229#function
-    -   https://en.wikipedia.org/wiki/Nausea
--   directed: true
-    graph:
-        _id: DB00508_MESH_D009325_3
-        disease: Nausea
-        disease_mesh: MESH:D009325
-        drug: Triflupromazine
-        drug_mesh: MESH:D014273
-        drugbank: DB:DB00508
-    links:
-    -   key: decreases activity of
-        source: MESH:D014273
-        target: UniProt:P08172
-    -   key: positively regulates
-        source: UniProt:P08172
-        target: GO:0007213
-    -   key: positively correlated with
-        source: GO:0007213
-        target: GO:0001696
-    -   key: correlated with
-        source: GO:0001696
-        target: MESH:D009325
-    multigraph: true
-    nodes:
-    -   id: MESH:D014273
-        label: Drug
-        name: Triflupromazine
-    -   id: UniProt:P08172
-        label: Protein
-        name: Muscarinic acetylcholine receptor M2
-    -   id: GO:0007213
-        label: BiologicalProcess
-        name: G protein-coupled acetylcholine receptor signaling pathway
-    -   id: GO:0001696
-        label: BiologicalProcess
-        name: gastric acid secretion
-    -   id: MESH:D009325
-        label: Disease
-        name: Nausea
-    reference:
-    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P08172#function
-    -   https://en.wikipedia.org/wiki/Nausea
--   directed: true
-    graph:
-        _id: DB00508_MESH_D009325_4
-        disease: Nausea
-        disease_mesh: MESH:D009325
-        drug: Triflupromazine
-        drug_mesh: MESH:D014273
-        drugbank: DB:DB00508
-    links:
-    -   key: decreases activity of
-        source: MESH:D014273
-        target: UniProt:P41595
-    -   key: positively regulates
-        source: UniProt:P41595
-        target: GO:0001820
-    -   key: positively correlated with
-        source: GO:0001820
-        target: MESH:D012701
-    -   key: positively correlated with
-        source: MESH:D012701
-        target: MESH:D009325
-    multigraph: true
-    nodes:
-    -   id: MESH:D014273
-        label: Drug
-        name: Triflupromazine
-    -   id: UniProt:P41595
-        label: Protein
-        name: 5-hydroxytryptamine receptor 2B
-    -   id: GO:0001820
-        label: BiologicalProcess
-        name: serotonin secretion
-    -   id: MESH:D012701
-        label: ChemicalSubstance
-        name: Serotonin
-    -   id: MESH:D009325
-        label: Disease
-        name: Nausea
-    reference:
-    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P41595#function
-    -   https://en.wikipedia.org/wiki/Nausea
--   directed: true
-    graph:
         _id: DB00508_MESH_D011618_1
         disease: Psychotic Disorders
         disease_mesh: MESH:D011618
@@ -2553,130 +2350,4 @@
     -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P14416#function
     -   https://en.wikipedia.org/wiki/Dopamine_receptor
-    -   https://en.wikipedia.org/wiki/Vomiting
--   directed: true
-    graph:
-        _id: DB00508_MESH_D014839_2
-        disease: Vomiting
-        disease_mesh: MESH:D014839
-        drug: Triflupromazine
-        drug_mesh: MESH:D014273
-        drugbank: DB:DB00508
-    links:
-    -   key: decreases activity of
-        source: MESH:D014273
-        target: UniProt:P11229
-    -   key: positively regulates
-        source: UniProt:P11229
-        target: GO:0007213
-    -   key: positively correlated with
-        source: GO:0007213
-        target: GO:0001696
-    -   key: correlated with
-        source: GO:0001696
-        target: MESH:D014839
-    multigraph: true
-    nodes:
-    -   id: MESH:D014273
-        label: Drug
-        name: Triflupromazine
-    -   id: UniProt:P11229
-        label: Protein
-        name: Muscarinic acetylcholine receptor M1
-    -   id: GO:0007213
-        label: BiologicalProcess
-        name: G protein-coupled acetylcholine receptor signaling pathway
-    -   id: GO:0001696
-        label: BiologicalProcess
-        name: gastric acid secretion
-    -   id: MESH:D014839
-        label: Disease
-        name: Vomiting
-    reference:
-    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P11229#function
-    -   https://en.wikipedia.org/wiki/Vomiting
--   directed: true
-    graph:
-        _id: DB00508_MESH_D014839_3
-        disease: Vomiting
-        disease_mesh: MESH:D014839
-        drug: Triflupromazine
-        drug_mesh: MESH:D014273
-        drugbank: DB:DB00508
-    links:
-    -   key: decreases activity of
-        source: MESH:D014273
-        target: UniProt:P08172
-    -   key: positively regulates
-        source: UniProt:P08172
-        target: GO:0007213
-    -   key: positively correlated with
-        source: GO:0007213
-        target: GO:0001696
-    -   key: correlated with
-        source: GO:0001696
-        target: MESH:D014839
-    multigraph: true
-    nodes:
-    -   id: MESH:D014273
-        label: Drug
-        name: Triflupromazine
-    -   id: UniProt:P08172
-        label: Protein
-        name: Muscarinic acetylcholine receptor M2
-    -   id: GO:0007213
-        label: BiologicalProcess
-        name: G protein-coupled acetylcholine receptor signaling pathway
-    -   id: GO:0001696
-        label: BiologicalProcess
-        name: gastric acid secretion
-    -   id: MESH:D014839
-        label: Disease
-        name: Vomiting
-    reference:
-    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P08172#function
-    -   https://en.wikipedia.org/wiki/Vomiting
--   directed: true
-    graph:
-        _id: DB00508_MESH_D014839_4
-        disease: Vomiting
-        disease_mesh: MESH:D014839
-        drug: Triflupromazine
-        drug_mesh: MESH:D014273
-        drugbank: DB:DB00508
-    links:
-    -   key: decreases activity of
-        source: MESH:D014273
-        target: UniProt:P41595
-    -   key: positively regulates
-        source: UniProt:P41595
-        target: GO:0001820
-    -   key: positively correlated with
-        source: GO:0001820
-        target: MESH:D012701
-    -   key: positively correlated with
-        source: MESH:D012701
-        target: MESH:D014839
-    multigraph: true
-    nodes:
-    -   id: MESH:D014273
-        label: Drug
-        name: Triflupromazine
-    -   id: UniProt:P41595
-        label: Protein
-        name: 5-hydroxytryptamine receptor 2B
-    -   id: GO:0001820
-        label: BiologicalProcess
-        name: serotonin secretion
-    -   id: MESH:D012701
-        label: ChemicalSubstance
-        name: Serotonin
-    -   id: MESH:D014839
-        label: Disease
-        name: Vomiting
-    reference:
-    -   https://go.drugbank.com/drugs/DB00508#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P41595#function
     -   https://en.wikipedia.org/wiki/Vomiting
