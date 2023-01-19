@@ -15,26 +15,20 @@
     -   key: decreases activity of
         source: MESH:C004858
         target: UniProt:P20309
-    -   key: positively regulates
+    -   key: positively correlated with
         source: UniProt:P11229
-        target: GO:0006939
-    -   key: positively regulates
+        target: GO:0007271
+    -   key: positively correlated with
         source: UniProt:P08172
-        target: GO:0006939
-    -   key: positively regulates
+        target: GO:0007271
+    -   key: positively correlated with
         source: UniProt:P20309
-        target: GO:0006939
+        target: GO:0007271
     -   key: positively correlated with
-        source: GO:0006939
-        target: HP:0002018
-    -   key: positively correlated with
-        source: GO:0006939
-        target: HP:0002013
-    -   key: positively correlated with
-        source: HP:0002018
-        target: MESH:D014717
-    -   key: positively correlated with
-        source: HP:0002013
+        source: GO:0007271
+        target: HP:0002017
+    -   key: manifestation of
+        source: HP:0002017
         target: MESH:D014717
     multigraph: true
     nodes:
@@ -50,15 +44,12 @@
     -   id: UniProt:P20309
         label: Protein
         name: Muscarinic acetylcholine receptor M3
-    -   id: GO:0006939
+    -   id: GO:0007271
         label: BiologicalProcess
-        name: smooth muscle contraction
-    -   id: HP:0002018
+        name: synaptic transmission, cholinergic
+    -   id: HP:0002017
         label: PhenotypicFeature
-        name: Nausea
-    -   id: HP:0002013
-        label: PhenotypicFeature
-        name: Vomiting
+        name: Nausea and vomiting
     -   id: MESH:D014717
         label: Disease
         name: Vertigo
