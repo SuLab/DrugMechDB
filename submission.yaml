@@ -1,1 +1,771 @@
-
+-   comment: Goserelin causes initial increase in the production of corresponding sex hormones, but after a period of about 14 to 21 days,
+     production of LH is greatly reduced due to receptor downregulation, and sex hormones are generally reduced.
+    directed: true
+    graph:
+        _id: DB00014_MESH_D004715_1
+        disease: Endometriosis
+        disease_mesh: MESH:D004715
+        drug: Goserelin
+        drug_mesh: MESH:D017273
+        drugbank: DB:DB00014
+    links:
+    -   key: increases activity of
+        source: MESH:D017273
+        target: UniProt:P30968
+    -   key: increases abundance of
+        source: UniProt:P30968
+        target: MESH:D006065
+    -   key: positively regulates
+        source: MESH:D006065
+        target: GO:0006703
+    -   key: increases abundance of
+        source: GO:0006703
+        target: MESH:D004967
+    -   key: positively correlated with
+        source: MESH:D004967
+        target: MESH:D004715
+    multigraph: true
+    nodes:
+    -   id: MESH:D017273
+        label: Drug
+        name: Goserelin
+    -   id: UniProt:P30968
+        label: Protein
+        name: Gonadotropin-releasing hormone receptor
+    -   id: MESH:D006065
+        label: ChemicalSubstance
+        name: Gonadotropins, Pituitary
+    -   id: GO:0006703
+        label: BiologicalProcess
+        name: Estrogen biosynthetic process
+    -   id: MESH:D004967
+        label: ChemicalSubstance
+        name: Estrogens
+    -   id: MESH:D004715
+        label: Disease
+        name: Endometriosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00014#mechanismofaction
+-   directed: true
+    graph:
+        _id: DB00068_MESH_D020529_1
+        disease: Relapsing remitting multiple sclerosis
+        disease_mesh: MESH:D020529
+        drug: Interferon beta-1b
+        drug_mesh: MESH:D000068576
+        drugbank: DB:DB00068
+    links:
+    -   key: increases activity of
+        source: MESH:D000068576
+        target: UniProt:P17181
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0042100
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0050798
+    -   key: negatively regulates
+        source: UniProt:P17181
+        target: GO:0019882
+    -   key: increases activity of
+        source: MESH:D000068576
+        target: UniProt:P48551
+    -   key: negatively regulates
+        source: UniProt:P48551
+        target: GO:0006954
+    -   key: negatively regulates
+        source: UniProt:P48551
+        target: GO:0042100
+    -   key: negatively regulates
+        source: UniProt:P48551
+        target: GO:0050798
+    -   key: negatively regulates
+        source: UniProt:P48551
+        target: GO:0019882
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0042100
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0050798
+        target: MESH:D020529
+    -   key: positively correlated with
+        source: GO:0019882
+        target: MESH:D020529
+    multigraph: true
+    nodes:
+    -   id: MESH:D000068576
+        label: Drug
+        name: Interferon beta-1b
+    -   id: UniProt:P17181
+        label: Protein
+        name: Interferon alpha/beta receptor 1
+    -   id: UniProt:P48551
+        label: Protein
+        name: Interferon alpha/beta receptor 2
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0042100
+        label: BiologicalProcess
+        name: B cell proliferation
+    -   id: GO:0050798
+        label: BiologicalProcess
+        name: Activated T cell proliferation
+    -   id: GO:0019882
+        label: BiologicalProcess
+        name: Antigen processing and presentation
+    -   id: MESH:D020529
+        label: Disease
+        name: Relapsing remitting multiple sclerosis
+    reference:
+    - https://go.drugbank.com/drugs/DB00068
+    - https://en.wikipedia.org/wiki/Interferon_beta-1a
+-   comment: Tacrine has been discontinued for the United States market.
+    directed: true
+    graph:
+        _id: DB00382_MESH_D000544_1
+        disease: Alzheimer's disease
+        disease_mesh: MESH:D000544
+        drug: Tacrine
+        drug_mesh: MESH:D013619
+        drugbank: DB:DB00382
+    links:
+    -   key: decreases activity of
+        source: MESH:D013619
+        target: UniProt:P22303
+    -   key: increases abundance of
+        source: UniProt:P22303
+        target: MESH:D000109
+    -   key: ameliorates
+        source: MESH:D000109
+        target: MESH:D000544
+    multigraph: true
+    nodes:
+    -   id: MESH:D013619
+        label: Drug
+        name: Tacrine
+    -   id: UniProt:P22303
+        label: Protein
+        name: Cholinesterase
+    -   id: MESH:D000109
+        label: ChemicalSubstance
+        name: Acetylcholine
+    -   id: MESH:D000544
+        label: Disease
+        name: Alzheimer's disease
+    reference:
+    - https://go.drugbank.com/drugs/DB00382
+-   directed: true
+    graph:
+        _id: DB00752_MESH_D003865_1
+        disease: Major depressive disorder
+        disease_mesh: MESH:D003865
+        drug: Tranylcypromine
+        drug_mesh: MESH:D014191
+        drugbank: DB:DB00752
+    links:
+    -   key: decreases activity of
+        source: MESH:D014191
+        target: UniProt:P27338
+    -   key: decreases activity of
+        source: MESH:D014191
+        target: UniProt:P21397
+    -   key: negatively regulates
+        source: UniProt:P21397
+        target: MESH:D009638
+    -   key: negatively regulates
+        source: UniProt:P21397
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D009638
+        target: MESH:D003865
+    -   key: negatively regulates
+        source: UniProt:P21397
+        target: MESH:D012701
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: MESH:D003865
+    -   key: negatively regulates
+        source: UniProt:P27338
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D004298
+        target: MESH:D003865
+    multigraph: true
+    nodes:
+    -   id: MESH:D014191
+        label: Drug
+        name: Tranylcypromine
+    -   id: UniProt:P27338
+        label: Protein
+        name: Amine oxidase [flavin-containing] B
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase [flavin-containing] A
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: MESH:D009638
+        label: ChemicalSubstance
+        name: Norepinephrine
+    -   id: MESH:D003865
+        label: Disease
+        name: Major depressive disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB00752
+-   directed: true
+    graph:
+        _id: DB01063_MESH_D011618_1
+        disease: Psychotic disorder
+        disease_mesh: MESH:D011618
+        drug: Acetophenazine
+        drug_mesh: MESH:C100162
+        drugbank: DB:DB01063
+    links:
+    -   key: negatively regulates
+        source: MESH:C100162
+        target: UniProt:P14416
+    -   key: positively correlated with
+        source: UniProt:P14416
+        target: GO:0061527
+    -   key: positively correlated with
+        source: GO:0061527
+        target: HP:0000708
+    -   key: manifestation of
+        source: HP:0000708
+        target: MESH:D011618
+    multigraph: true
+    nodes:
+    -   id: MESH:C100162
+        label: Drug
+        name: Acetophenazine
+    -   id: UniProt:P14416
+        label: Protein
+        name: D(2) dopamine receptor
+    -   id: GO:0061527
+        label: BiologicalProcess
+        name: dopamine secretion, neurotransmission
+    -   id: HP:0000708
+        label: PhenotypicFeature
+        name: Behavioral abnormality
+    -   id: MESH:D011618
+        label: Disease
+        name: Psychotic disorder
+    reference:
+    - https://go.drugbank.com/drugs/DB01063#mechanismofaction
+-   directed: true
+    graph:
+        _id: DB04844_MESH_D006816_1
+        disease: Huntington Disease
+        disease_mesh: MESH:D006816
+        drug: Tetrabenazine
+        drug_mesh: MESH:D013747
+        drugbank: DB:DB04844
+    links:
+    -   key: decreases activity of
+        source: MESH:D013747
+        target: UniProt:Q05940
+    -   key: positively regulates
+        source: UniProt:Q05940
+        target: GO:0015842
+    -   key: positively correlated with
+        source: GO:0015842
+        target: REACT:R-HSA-212676
+    -   key: positively correlated with
+        source: REACT:R-HSA-212676
+        target: MESH:D006816
+    multigraph: true
+    nodes:
+    -   id: MESH:D013747
+        label: Drug
+        name: Tetrabenazine
+    -   id: UniProt:Q05940
+        label: Protein
+        name: Synaptic vesicular amine transporter
+    -   id: GO:0015842
+        label: BiologicalProcess
+        name: aminergic neurotransmitter loading into synaptic vesicle
+    -   id: REACT:R-HSA-212676
+        label: Pathway
+        name: Dopamine Neurotransmitter Release Cycle
+    -   id: MESH:D006816
+        label: Disease
+        name: Huntington Disease
+    reference:
+    - https://go.drugbank.com/drugs/DB04844
+-   directed: true
+    graph:
+        _id: DB07615_MESH_D001249_1
+        disease: Asthma
+        disease_mesh: MESH:D001249
+        drug: Tranilast
+        drug_mesh: MESH:C012293
+        drugbank: DB:DB07615
+    links:
+    -   key: decreases activity of
+        source: MESH:C012293
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C012293
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D001249
+    multigraph: true
+    nodes:
+    -   id: MESH:C012293
+        label: Drug
+        name: Tranilast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D001249
+        label: Disease
+        name: Asthma
+    reference:
+    - https://go.drugbank.com/drugs/DB07615
+-   directed: true
+    graph:
+        _id: DB07615_MESH_D003876_1
+        disease: Atopic dermatitis
+        disease_mesh: MESH:D003876
+        drug: Tranilast
+        drug_mesh: MESH:C012293
+        drugbank: DB:DB07615
+    links:
+    -   key: decreases activity of
+        source: MESH:C012293
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C012293
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D003876
+    multigraph: true
+    nodes:
+    -   id: MESH:C012293
+        label: Drug
+        name: Tranilast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D003876
+        label: Disease
+        name: Atopic dermatitis
+    reference:
+    - https://go.drugbank.com/drugs/DB07615
+-   directed: true
+    graph:
+        _id: DB07615_MESH_D007627_1
+        disease: Keloid scar
+        disease_mesh: MESH:D007627
+        drug: Tranilast
+        drug_mesh: MESH:C012293
+        drugbank: DB:DB07615
+    links:
+    -   key: decreases activity of
+        source: MESH:C012293
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C012293
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D007627
+    multigraph: true
+    nodes:
+    -   id: MESH:C012293
+        label: Drug
+        name: Tranilast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D007627
+        label: Disease
+        name: Keloid scar
+    reference:
+    - https://go.drugbank.com/drugs/DB07615
+-   directed: true
+    graph:
+        _id: DB07615_MESH_D017439_1
+        disease: Hypertrophic scar
+        disease_mesh: MESH:D017439
+        drug: Tranilast
+        drug_mesh: MESH:C012293
+        drugbank: DB:DB07615
+    links:
+    -   key: decreases activity of
+        source: MESH:C012293
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C012293
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D017439
+    multigraph: true
+    nodes:
+    -   id: MESH:C012293
+        label: Drug
+        name: Tranilast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D017439
+        label: Disease
+        name: Hypertrophic scar
+    reference:
+    - https://go.drugbank.com/drugs/DB07615
+-   directed: true
+    graph:
+        _id: DB07615_MESH_D065631_1
+        disease: Allergic rhinitis
+        disease_mesh: MESH:D065631
+        drug: Tranilast
+        drug_mesh: MESH:C012293
+        drugbank: DB:DB07615
+    links:
+    -   key: decreases activity of
+        source: MESH:C012293
+        target: UniProt:P35367
+    -   key: negatively regulates
+        source: MESH:C012293
+        target: GO:0043303
+    -   key: increases abundance of
+        source: GO:0043303
+        target: MESH:D006632
+    -   key: causes
+        source: MESH:D006632
+        target: GO:0071420
+    -   key: participates in
+        source: UniProt:P35367
+        target: GO:0004969
+    -   key: participates in
+        source: GO:0004969
+        target: GO:0071420
+    -   key: positively correlated with
+        source: GO:0071420
+        target: GO:0006954
+    -   key: positively correlated with
+        source: GO:0006954
+        target: MESH:D065631
+    multigraph: true
+    nodes:
+    -   id: MESH:C012293
+        label: Drug
+        name: Tranilast
+    -   id: UniProt:P35367
+        label: Protein
+        name: Histamine H1 receptor
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: Histamine receptor activity
+    -   id: MESH:D006632
+        label: ChemicalSubstance
+        name: Histamine
+    -   id: GO:0071420
+        label: BiologicalProcess
+        name: Cellular response to histamine
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: Inflammatory response
+    -   id: GO:0043303
+        label: BiologicalProcess
+        name: Mast cell degranulation
+    -   id: MESH:D065631
+        label: Disease
+        name: Allergic rhinitis
+    reference:
+    - https://go.drugbank.com/drugs/DB07615
+-   directed: true
+    graph:
+        _id: DB08874_MESH_D003015_1
+        disease: Clostridium difficile infection
+        disease_mesh: MESH:D003015
+        drug: Fidaxomicin
+        drug_mesh: null
+        drugbank: DB:DB08874
+    links:
+    -   key: decreases activity of
+        source: DB:DB08874
+        target: UniProt:Q18BX5
+    -   key: participates in
+        source: UniProt:Q18BX5
+        target: GO:0006352
+    -   key: in taxon
+        source: GO:0006352
+        target: NCBITaxon:1496
+    -   key: causes
+        source: NCBITaxon:1496
+        target: MESH:D003015
+    multigraph: true
+    nodes:
+    -   id: DB:DB08874
+        label: Drug
+        name: Fidaxomicin
+    -   id: UniProt:Q18BX5
+        label: Protein
+        name: RNA polymerase sigma factor SigA
+    -   id: GO:0006352
+        label: BiologicalProcess
+        name: DNA-templated transcription initiation
+    -   id: NCBITaxon:1496
+        label: OrganismTaxon
+        name: Clostridioides difficile
+    -   id: MESH:D003015
+        label: Disease
+        name: Clostridium difficile infection
+    reference:
+    - https://go.drugbank.com/drugs/DB08874#mechanismofaction
+-   directed: true
+    graph:
+        _id: DB08874_MESH_D004761_1
+        disease: Pseudomembranous enterocolitis
+        disease_mesh: MESH:D004761
+        drug: Fidaxomicin
+        drug_mesh: null
+        drugbank: DB:DB08874
+    links:
+    -   key: decreases activity of
+        source: DB:DB08874
+        target: UniProt:Q18BX5
+    -   key: participates in
+        source: UniProt:Q18BX5
+        target: GO:0006352
+    -   key: in taxon
+        source: GO:0006352
+        target: NCBITaxon:1496
+    -   key: causes
+        source: NCBITaxon:1496
+        target: MESH:D004761
+    multigraph: true
+    nodes:
+    -   id: DB:DB08874
+        label: Drug
+        name: Fidaxomicin
+    -   id: UniProt:Q18BX5
+        label: Protein
+        name: RNA polymerase sigma factor SigA
+    -   id: GO:0006352
+        label: BiologicalProcess
+        name: DNA-templated transcription initiation
+    -   id: NCBITaxon:1496
+        label: OrganismTaxon
+        name: Clostridioides difficile
+    -   id: MESH:D004761
+        label: Disease
+        name: Pseudomembranous enterocolitis
+    reference:
+    - https://go.drugbank.com/drugs/DB08874#mechanismofaction
+-   directed: true
+    graph:
+        _id: DB00592_MESH_D001196_1
+        disease: Ascariasis
+        disease_mesh: MESH:D001196
+        drug: Piperazine
+        drug_mesh: null
+        drugbank: DB:DB00592
+    links:
+    -   key: increases activity of
+        source: DB:DB00592
+        target: InterPro:IPR002289
+    -   key: participates in
+        source: InterPro:IPR002289
+        target: HP:0003470
+    -   key: in taxon
+        source: HP:0003470
+        target: NCBITaxon:6252
+    -   key: causes
+        source: NCBITaxon:6252
+        target: MESH:D001196
+    multigraph: true
+    nodes:
+    -   id: DB:DB00592
+        label: Drug
+        name: Piperazine
+    -   id: InterPro:IPR002289
+        label: GeneFamily
+        name: Gamma-aminobutyric-acid A receptor, beta subunit
+    -   id: HP:0003470
+        label: PhenotypicFeature
+        name: Paralysis
+    -   id: NCBITaxon:6252
+        label: OrganismTaxon
+        name: Ascaris lumbricoides
+    -   id: MESH:D001196
+        label: Disease
+        name: Ascariasis
+    reference:
+    - https://go.drugbank.com/drugs/DB00592
+    - https://drugs.ncats.io/drug/1RTM4PAL0V
+-   directed: true
+    graph:
+        _id: DB00592_MESH_D017229_1
+        disease: Enterobiasis
+        disease_mesh: MESH:D017229
+        drug: Piperazine
+        drug_mesh: null
+        drugbank: DB:DB00592
+    links:
+    -   key: increases activity of
+        source: DB:DB00592
+        target: InterPro:IPR002289
+    -   key: participates in
+        source: InterPro:IPR002289
+        target: HP:0003470
+    -   key: in taxon
+        source: HP:0003470
+        target: NCBITaxon:51028
+    -   key: causes
+        source: NCBITaxon:51028
+        target: MESH:D017229
+    multigraph: true
+    nodes:
+    -   id: DB:DB00592
+        label: Drug
+        name: Piperazine
+    -   id: InterPro:IPR002289
+        label: GeneFamily
+        name: Gamma-aminobutyric-acid A receptor, beta subunit
+    -   id: HP:0003470
+        label: PhenotypicFeature
+        name: Paralysis
+    -   id: NCBITaxon:51028
+        label: OrganismTaxon
+        name: Enterobius vermicularis
+    -   id: MESH:D017229
+        label: Disease
+        name: Enterobiasis
+    reference:
+    - https://go.drugbank.com/drugs/DB00592
+    - https://drugs.ncats.io/drug/1RTM4PAL0V
