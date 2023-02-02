@@ -1,1 +1,1063 @@
-
+-   directed: true
+    graph:
+        _id: DB01193_MESH_D018879_1
+        disease: Ventricular Premature Complexes
+        disease_mesh: MESH:D018879
+        drug: Acebutolol
+        drug_mesh: MESH:D000070
+        drugbank: DB:DB01193
+    links:
+    -   key: decreases activity of
+        source: MESH:D000070
+        target: UniProt:P08588
+    -   key: positively correlated with
+        source: UniProt:P08588
+        target: MESH:D004837
+    -   key: positively correlated with
+        source: MESH:D004837
+        target: HP:0001649
+    -   key: contributes to
+        source: HP:0001649
+        target: MESH:D018879
+    multigraph: true
+    nodes:
+    -   id: MESH:D000070
+        label: Drug
+        name: Acebutolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: MESH:D004837
+        label: ChemicalSubstance
+        name: Epinephrine
+    -   id: HP:0001649
+        label: PhenotypicFeature
+        name: Tachycardia
+    -   id: MESH:D018879
+        label: Disease
+        name: Ventricular Premature Complexes
+    reference:
+    -   https://go.drugbank.com/drugs/DB01193#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P08588#function
+    -   https://en.wikipedia.org/wiki/Premature_ventricular_contraction
+-   comment: The drug, acetohexamide has been withdrawn from the US.
+    directed: true
+    graph:
+        _id: DB00414_MESH_D003924_1
+        disease: Diabetes Mellitus, Type 2
+        disease_mesh: MESH:D003924
+        drug: Acetohexamide
+        drug_mesh: MESH:D000092
+        drugbank: DB:DB00414
+    links:
+    -   key: decreases activity of
+        source: MESH:D000092
+        target: UniProt:P48048
+    -   key: negatively correlated with
+        source: UniProt:P48048
+        target: GO:0051899
+    -   key: positively regulates
+        source: GO:0051899
+        target: GO:0005245
+    -   key: positively correlated with
+        source: GO:0005245
+        target: GO:0070509
+    -   key: positively regulates
+        source: GO:0070509
+        target: GO:0030073
+    -   key: positively correlated with
+        source: GO:0030073
+        target: HP:0001943
+    -   key: negatively correlated with
+        source: HP:0001943
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: MESH:D000092
+        label: Drug
+        name: Acetohexamide
+    -   id: UniProt:P48048
+        label: Protein
+        name: ATP-sensitive inward rectifier potassium channel 1
+    -   id: GO:0051899
+        label: BiologicalProcess
+        name: membrane depolarization
+    -   id: GO:0005245
+        label: MolecularActivity
+        name: voltage-gated calcium channel activity
+    -   id: GO:0070509
+        label: BiologicalProcess
+        name: calcium ion import
+    -   id: GO:0030073
+        label: BiologicalProcess
+        name: insulin secretion
+    -   id: HP:0001943
+        label: PhenotypicFeature
+        name: Hypoglycemia
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes Mellitus, Type 2
+    reference:
+    -   https://go.drugbank.com/drugs/DB00414#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Acetohexamide
+    -   https://www.uniprot.org/uniprot/P48048#function
+    -   https://en.wikipedia.org/wiki/Type_2_diabetes
+-   directed: true
+    graph:
+        _id: DB00964_MESH_D005902_1
+        disease: Glaucoma, Open-Angle
+        disease_mesh: MESH:D005902
+        drug: apraclonidine
+        drug_mesh: MESH:C016986
+        drugbank: DB:DB00964
+    links:
+    -   key: increases activity of
+        source: MESH:C016986
+        target: UniProt:P08913
+    -   key: negatively regulates
+        source: UniProt:P08913
+        target: UBERON:0001796
+    -   key: participates in
+        source: UBERON:0001796
+        target: HP:0007906
+    -   key: manifestation of
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:C016986
+        label: Drug
+        name: apraclonidine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: UBERON:0001796
+        label: GrossAnatomicalStructure
+        name: aqueous humor of eyeball
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Glaucoma, Open-Angle
+    reference:
+    -   https://go.drugbank.com/drugs/DB00964#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Apraclonidine
+    -   https://www.uniprot.org/uniprot/P08913#function
+    -   https://en.wikipedia.org/wiki/Glaucoma
+-   directed: true
+    graph:
+        _id: DB05015_MESH_D016411_1
+        disease: Lymphoma, T-Cell, Peripheral
+        disease_mesh: MESH:D016411
+        drug: belinostat
+        drug_mesh: MESH:C487081
+        drugbank: DB:DB05015
+    links:
+    -   key: decreases activity of
+        source: MESH:C487081
+        target: InterPro:IPR017320
+    -   key: positively regulates
+        source: InterPro:IPR017320
+        target: GO:0016575
+    -   key: positively correlated with
+        source: GO:0016575
+        target: HP:0031377
+    -   key: positively correlated with
+        source: HP:0031377
+        target: MESH:D016411
+    multigraph: true
+    nodes:
+    -   id: MESH:C487081
+        label: Drug
+        name: belinostat
+    -   id: InterPro:IPR017320
+        label: GeneFamily
+        name: Histone deacetylase class II, eukaryotic-type
+    -   id: GO:0016575
+        label: BiologicalProcess
+        name: histone deacetylation
+    -   id: HP:0031377
+        label: PhenotypicFeature
+        name: Abnormal cell proliferation
+    -   id: MESH:D016411
+        label: Disease
+        name: Lymphoma, T-Cell, Peripheral
+    reference:
+    -   https://go.drugbank.com/drugs/DB05015#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Belinostat
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543853/
+    -   https://en.wikipedia.org/wiki/Peripheral_T-cell_lymphoma
+-   directed: true
+    graph:
+        _id: DB01164_MESH_D006323_1
+        disease: Heart Arrest
+        disease_mesh: MESH:D006323
+        drug: Calcium Chloride
+        drug_mesh: MESH:D002122
+        drugbank: DB:DB01164
+    links:
+    -   key: positively regulates
+        source: MESH:D002122
+        target: GO:0030322
+    -   key: negatively correlated with
+        source: GO:0030322
+        target: HP:0011675
+    -   key: positively correlated with
+        source: HP:0011675
+        target: MESH:D006323
+    multigraph: true
+    nodes:
+    -   id: MESH:D002122
+        label: Drug
+        name: Calcium Chloride
+    -   id: GO:0030322
+        label: BiologicalProcess
+        name: stabilization of membrane potential
+    -   id: HP:0011675
+        label: PhenotypicFeature
+        name: Arrhythmia
+    -   id: MESH:D006323
+        label: Disease
+        name: Heart Arrest
+    reference:
+    -   https://go.drugbank.com/drugs/DB01164#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Cardiac_arrest
+-   directed: true
+    graph:
+        _id: DB01164_MESH_D006947_1
+        disease: Hyperkalemia
+        disease_mesh: MESH:D006947
+        drug: Calcium Chloride
+        drug_mesh: MESH:D002122
+        drugbank: DB:DB01164
+    links:
+    -   key: positively regulates
+        source: MESH:D002122
+        target: GO:0030322
+    -   key: negatively correlated with
+        source: GO:0030322
+        target: HP:0011675
+    -   key: positively correlated with
+        source: HP:0011675
+        target: MESH:D006947
+    multigraph: true
+    nodes:
+    -   id: MESH:D002122
+        label: Drug
+        name: Calcium Chloride
+    -   id: GO:0030322
+        label: BiologicalProcess
+        name: stabilization of membrane potential
+    -   id: HP:0011675
+        label: PhenotypicFeature
+        name: Arrhythmia
+    -   id: MESH:D006947
+        label: Disease
+        name: Hyperkalemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB01164#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Hyperkalemia#Myocardial_excitability
+-   directed: true
+    graph:
+        _id: DB01164_MESH_D006996_1
+        disease: Hypocalcemia
+        disease_mesh: MESH:D006996
+        drug: Calcium Chloride
+        drug_mesh: MESH:D002122
+        drugbank: DB:DB01164
+    links:
+    -   key: increases abundance of
+        source: MESH:D002122
+        target: MESH:D002118
+    -   key: negatively correlated with
+        source: MESH:D002118
+        target: MESH:D006996
+    multigraph: true
+    nodes:
+    -   id: MESH:D002122
+        label: Drug
+        name: Calcium Chloride
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: MESH:D006996
+        label: Disease
+        name: Hypocalcemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB01164#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Hypocalcemia
+-   directed: true
+    graph:
+        _id: DB01597_MESH_D018784_1
+        disease: Abdominal Abscess
+        disease_mesh: MESH:D018784
+        drug: Cilastatin
+        drug_mesh: MESH:D015377
+        drugbank: DB:DB01597
+    links:
+    -   key: decreases activity of
+        source: MESH:D015377
+        target: UniProt:P16444
+    -   key: disrupts
+        source: UniProt:P16444
+        target: MESH:D015378
+    -   key: negatively regulates
+        source: MESH:D015378
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D018784
+    multigraph: true
+    nodes:
+    -   id: MESH:D015377
+        label: Drug
+        name: Cilastatin
+    -   id: UniProt:P16444
+        label: Protein
+        name: Dipeptidase 1
+    -   id: MESH:D015378
+        label: ChemicalSubstance
+        name: Imipenem
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D018784
+        label: Disease
+        name: Abdominal Abscess
+    reference:
+    -   https://go.drugbank.com/drugs/DB01597#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Cilastatin
+    -   https://en.wikipedia.org/wiki/Imipenem
+    -   https://www.uniprot.org/uniprot/P16444#function
+    -   https://en.wikipedia.org/wiki/Abscess
+-   directed: true
+    graph:
+        _id: DB01597_MESH_D004697_1
+        disease: Endocarditis, Bacterial
+        disease_mesh: MESH:D004697
+        drug: Cilastatin
+        drug_mesh: MESH:D015377
+        drugbank: DB:DB01597
+    links:
+    -   key: decreases activity of
+        source: MESH:D015377
+        target: UniProt:P16444
+    -   key: disrupts
+        source: UniProt:P16444
+        target: MESH:D015378
+    -   key: negatively regulates
+        source: MESH:D015378
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D004697
+    multigraph: true
+    nodes:
+    -   id: MESH:D015377
+        label: Drug
+        name: Cilastatin
+    -   id: UniProt:P16444
+        label: Protein
+        name: Dipeptidase 1
+    -   id: MESH:D015378
+        label: ChemicalSubstance
+        name: Imipenem
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D004697
+        label: Disease
+        name: Endocarditis, Bacterial
+    reference:
+    -   https://go.drugbank.com/drugs/DB01597#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Cilastatin
+    -   https://en.wikipedia.org/wiki/Imipenem
+    -   https://www.uniprot.org/uniprot/P16444#function
+    -   https://en.wikipedia.org/wiki/Endocarditis#Infective_endocarditis
+-   directed: true
+    graph:
+        _id: DB01597_MESH_D004716_1
+        disease: Endometritis
+        disease_mesh: MESH:D004716
+        drug: Cilastatin
+        drug_mesh: MESH:D015377
+        drugbank: DB:DB01597
+    links:
+    -   key: decreases activity of
+        source: MESH:D015377
+        target: UniProt:P16444
+    -   key: disrupts
+        source: UniProt:P16444
+        target: MESH:D015378
+    -   key: negatively regulates
+        source: MESH:D015378
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D004716
+    multigraph: true
+    nodes:
+    -   id: MESH:D015377
+        label: Drug
+        name: Cilastatin
+    -   id: UniProt:P16444
+        label: Protein
+        name: Dipeptidase 1
+    -   id: MESH:D015378
+        label: ChemicalSubstance
+        name: Imipenem
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D004716
+        label: Disease
+        name: Endometritis
+    reference:
+    -   https://go.drugbank.com/drugs/DB01597#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Cilastatin
+    -   https://en.wikipedia.org/wiki/Imipenem
+    -   https://www.uniprot.org/uniprot/P16444#function
+    -   https://en.wikipedia.org/wiki/Endometritis
+-   directed: true
+    graph:
+        _id: DB01597_MESH_D059413_1
+        disease: Intraabdominal Infections
+        disease_mesh: MESH:D059413
+        drug: Cilastatin
+        drug_mesh: MESH:D015377
+        drugbank: DB:DB01597
+    links:
+    -   key: decreases activity of
+        source: MESH:D015377
+        target: UniProt:P16444
+    -   key: disrupts
+        source: UniProt:P16444
+        target: MESH:D015378
+    -   key: negatively regulates
+        source: MESH:D015378
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D059413
+    multigraph: true
+    nodes:
+    -   id: MESH:D015377
+        label: Drug
+        name: Cilastatin
+    -   id: UniProt:P16444
+        label: Protein
+        name: Dipeptidase 1
+    -   id: MESH:D015378
+        label: ChemicalSubstance
+        name: Imipenem
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D059413
+        label: Disease
+        name: Intraabdominal Infections
+    reference:
+    -   https://go.drugbank.com/drugs/DB01597#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Cilastatin
+    -   https://en.wikipedia.org/wiki/Imipenem
+    -   https://www.uniprot.org/uniprot/P16444#function
+    -   https://en.wikipedia.org/wiki/Intra-abdominal_infection
+-   directed: true
+    graph:
+        _id: DB01597_MESH_D018410_1
+        disease: Pneumonia, Bacterial
+        disease_mesh: MESH:D018410
+        drug: Cilastatin
+        drug_mesh: MESH:D015377
+        drugbank: DB:DB01597
+    links:
+    -   key: decreases activity of
+        source: MESH:D015377
+        target: UniProt:P16444
+    -   key: disrupts
+        source: UniProt:P16444
+        target: MESH:D015378
+    -   key: negatively regulates
+        source: MESH:D015378
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D018410
+    multigraph: true
+    nodes:
+    -   id: MESH:D015377
+        label: Drug
+        name: Cilastatin
+    -   id: UniProt:P16444
+        label: Protein
+        name: Dipeptidase 1
+    -   id: MESH:D015378
+        label: ChemicalSubstance
+        name: Imipenem
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D018410
+        label: Disease
+        name: Pneumonia, Bacterial
+    reference:
+    -   https://go.drugbank.com/drugs/DB01597#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Cilastatin
+    -   https://en.wikipedia.org/wiki/Imipenem
+    -   https://www.uniprot.org/uniprot/P16444#function
+    -   https://en.wikipedia.org/wiki/Bacterial_pneumonia
+-   directed: true
+    graph:
+        _id: DB01597_MESH_D011018_1
+        disease: Pneumonia, Pneumococcal
+        disease_mesh: MESH:D011018
+        drug: Cilastatin
+        drug_mesh: MESH:D015377
+        drugbank: DB:DB01597
+    links:
+    -   key: decreases activity of
+        source: MESH:D015377
+        target: UniProt:P16444
+    -   key: disrupts
+        source: UniProt:P16444
+        target: MESH:D015378
+    -   key: negatively regulates
+        source: MESH:D015378
+        target: GO:0042546
+    -   key: occurs in
+        source: GO:0042546
+        target: NCBITaxon:1313
+    -   key: causes
+        source: NCBITaxon:1313
+        target: MESH:D011018
+    multigraph: true
+    nodes:
+    -   id: MESH:D015377
+        label: Drug
+        name: Cilastatin
+    -   id: UniProt:P16444
+        label: Protein
+        name: Dipeptidase 1
+    -   id: MESH:D015378
+        label: ChemicalSubstance
+        name: Imipenem
+    -   id: GO:0042546
+        label: BiologicalProcess
+        name: cell wall biogenesis
+    -   id: NCBITaxon:1313
+        label: OrganismTaxon
+        name: Streptococcus pneumoniae
+    -   id: MESH:D011018
+        label: Disease
+        name: Pneumonia, Pneumococcal
+    reference:
+    -   https://go.drugbank.com/drugs/DB01597#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Cilastatin
+    -   https://en.wikipedia.org/wiki/Imipenem
+    -   https://www.uniprot.org/uniprot/P16444#function
+    -   https://en.wikipedia.org/wiki/Pneumococcal_pneumonia
+-   directed: true
+    graph:
+        _id: DB00575_MESH_D001289_1
+        disease: Attention Deficit Disorder with Hyperactivity
+        disease_mesh: MESH:D001289
+        drug: Clonidine
+        drug_mesh: MESH:D003000
+        drugbank: DB:DB00575
+    links:
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P08913
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P18089
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P18825
+    -   key: negatively regulates
+        source: UniProt:P08913
+        target: GO:0048243
+    -   key: negatively regulates
+        source: UniProt:P18089
+        target: GO:0048243
+    -   key: negatively regulates
+        source: UniProt:P18825
+        target: GO:0048243
+    -   key: participates in
+        source: GO:0048243
+        target: HP:0000752
+    -   key: manifestation of
+        source: HP:0000752
+        target: MESH:D001289
+    multigraph: true
+    nodes:
+    -   id: MESH:D003000
+        label: Drug
+        name: Clonidine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: UniProt:P18089
+        label: Protein
+        name: Alpha-2B adrenergic receptor
+    -   id: UniProt:P18825
+        label: Protein
+        name: Alpha-2C adrenergic receptor
+    -   id: GO:0048243
+        label: BiologicalProcess
+        name: norepinephrine secretion
+    -   id: HP:0000752
+        label: PhenotypicFeature
+        name: Hyperactivity
+    -   id: MESH:D001289
+        label: Disease
+        name: Attention Deficit Disorder with Hyperactivity 
+    reference:
+    -   https://go.drugbank.com/drugs/DB00575#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clonidine#Pharmacology
+    -   https://www.uniprot.org/uniprot/P08913#function
+    -   https://www.uniprot.org/uniprot/P18089#function
+    -   https://www.uniprot.org/uniprot/P18825#function
+    -   https://en.wikipedia.org/wiki/Alpha-2_adrenergic_receptor
+    -   https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder
+-   directed: true
+    graph:
+        _id: DB00575_MESH_D005902_1
+        disease: Glaucoma, Open-Angle
+        disease_mesh: MESH:D005902
+        drug: Clonidine
+        drug_mesh: MESH:D003000
+        drugbank: DB:DB00575
+    links:
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P08913
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P18089
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P18825
+    -   key: negatively regulates
+        source: UniProt:P08913
+        target: GO:0048243
+    -   key: negatively regulates
+        source: UniProt:P18089
+        target: GO:0048243
+    -   key: negatively regulates
+        source: UniProt:P18825
+        target: GO:0048243
+    -   key: participates in
+        source: GO:0048243
+        target: HP:0007906
+    -   key: manifestation of
+        source: HP:0007906
+        target: MESH:D005902
+    multigraph: true
+    nodes:
+    -   id: MESH:D003000
+        label: Drug
+        name: Clonidine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: UniProt:P18089
+        label: Protein
+        name: Alpha-2B adrenergic receptor
+    -   id: UniProt:P18825
+        label: Protein
+        name: Alpha-2C adrenergic receptor
+    -   id: GO:0048243
+        label: BiologicalProcess
+        name: norepinephrine secretion
+    -   id: HP:0007906
+        label: PhenotypicFeature
+        name: Ocular hypertension
+    -   id: MESH:D005902
+        label: Disease
+        name: Glaucoma, Open-Angle
+    reference:
+    -   https://go.drugbank.com/drugs/DB00575#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P08913#function
+    -   https://www.uniprot.org/uniprot/P18089#function
+    -   https://www.uniprot.org/uniprot/P18825#function
+    -   https://en.wikipedia.org/wiki/Alpha-2_adrenergic_receptor
+    -   https://pubmed.ncbi.nlm.nih.gov/1138682/
+    -   https://en.wikipedia.org/wiki/Glaucoma
+-   directed: true
+    graph:
+        _id: DB00575_MESH_D006973_1
+        disease: Hypertension
+        disease_mesh: MESH:D006973
+        drug: Clonidine
+        drug_mesh: MESH:D003000
+        drugbank: DB:DB00575
+    links:
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P08913
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P18089
+    -   key: increases activity of
+        source: MESH:D003000
+        target: UniProt:P18825
+    -   key: negatively regulates
+        source: UniProt:P08913
+        target: GO:0048243
+    -   key: negatively regulates
+        source: UniProt:P18089
+        target: GO:0048243
+    -   key: negatively regulates
+        source: UniProt:P18825
+        target: GO:0048243
+    -   key: participates in
+        source: GO:0048243
+        target: GO:0042310
+    -   key: positively correlated with
+        source: GO:0042310
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D003000
+        label: Drug
+        name: Clonidine
+    -   id: UniProt:P08913
+        label: Protein
+        name: Alpha-2A adrenergic receptor
+    -   id: UniProt:P18089
+        label: Protein
+        name: Alpha-2B adrenergic receptor
+    -   id: UniProt:P18825
+        label: Protein
+        name: Alpha-2C adrenergic receptor
+    -   id: GO:0048243
+        label: BiologicalProcess
+        name: norepinephrine secretion
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: vasoconstriction
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertension
+    reference:
+    -   https://go.drugbank.com/drugs/DB00575#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Clonidine#Pharmacology
+    -   https://www.uniprot.org/uniprot/P08913#function
+    -   https://www.uniprot.org/uniprot/P18089#function
+    -   https://www.uniprot.org/uniprot/P18825#function
+    -   https://en.wikipedia.org/wiki/Alpha-2_adrenergic_receptor
+    -   https://en.wikipedia.org/wiki/Hypertension
+-   directed: true
+    graph:
+        _id: DB00700_MESH_D006973_1
+        disease: Hypertension
+        disease_mesh: MESH:D006973
+        drug: Eplerenone
+        drug_mesh: MESH:D000077545
+        drugbank: DB:DB00700
+    links:
+    -   key: decreases activity of
+        source: MESH:D000077545
+        target: UniProt:P08235
+    -   key: positively correlated with
+        source: UniProt:P08235
+        target: MESH:D000450
+    -   key: participates in
+        source: MESH:D000450
+        target: HP:0032263
+    -   key: manifestation of
+        source: HP:0032263
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077545
+        label: Drug
+        name: Eplerenone
+    -   id: UniProt:P08235
+        label: Protein
+        name: Mineralocorticoid receptor
+    -   id: MESH:D000450
+        label: ChemicalSubstance
+        name: Aldosterone
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertension
+    reference:
+    -   https://go.drugbank.com/drugs/DB00700#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Eplerenone#Pharmacology
+    -   https://www.uniprot.org/uniprot/P08235#function
+    -   https://en.wikipedia.org/wiki/Hypertension
+-   directed: true
+    graph:
+        _id: DB04854_MESH_D033461_1
+        disease: Hyperuricemia
+        disease_mesh: MESH:D033461
+        drug: Febuxostat
+        drug_mesh: MESH:D000069465
+        drugbank: DB:DB04854
+    links:
+    -   key: decreases activity of
+        source: MESH:D000069465
+        target: UniProt:P47989
+    -   key: positively regulates
+        source: UniProt:P47989
+        target: GO:0004854
+    -   key: increases abundance of
+        source: GO:0004854
+        target: MESH:D014527
+    -   key: positively correlated with
+        source: MESH:D014527
+        target: MESH:D033461
+    multigraph: true
+    nodes:
+    -   id: MESH:D000069465
+        label: Drug
+        name: Febuxostat
+    -   id: UniProt:P47989
+        label: Protein
+        name: Xanthine dehydrogenase/oxidase
+    -   id: GO:0004854
+        label: MolecularActivity
+        name: xanthine dehydrogenase activity
+    -   id: MESH:D014527
+        label: ChemicalSubstance
+        name: Uric Acid
+    -   id: MESH:D033461
+        label: Disease
+        name: Hyperuricemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB04854#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Febuxostat
+    -   https://www.uniprot.org/uniprot/P47989#function
+    -   https://en.wikipedia.org/wiki/Hyperuricemia
+-   directed: true
+    graph:
+        _id: DB00053_MESH_D005776_1
+        disease: Gaucher Disease
+        disease_mesh: MESH:D005776
+        drug: imiglucerase
+        drug_mesh: MESH:C090568
+        drugbank: DB:DB00053
+    links:
+    -   key: positively regulates
+        source: MESH:C090568
+        target: UniProt:P04062
+    -   key: negatively regulates
+        source: UniProt:P04062
+        target: MESH:D005963
+    -   key: positively correlated with
+        source: MESH:D005963
+        target: MESH:D005776
+    multigraph: true
+    nodes:
+    -   id: MESH:C090568
+        label: Drug
+        name: imiglucerase
+    -   id: UniProt:P04062
+        label: Protein
+        name: Lysosomal acid glucosylceramidase
+    -   id: MESH:D005963
+        label: ChemicalSubstance
+        name: Glucosylceramides
+    -   id: MESH:D005776
+        label: Disease
+        name: Gaucher Disease
+    reference:
+    -   https://go.drugbank.com/drugs/DB00053#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Imiglucerase
+    -   https://www.uniprot.org/uniprot/P04062#function
+    -   https://en.wikipedia.org/wiki/Glucocerebroside
+    -   https://en.wikipedia.org/wiki/Gaucher%27s_disease
+-   directed: true
+    graph:
+        _id: DB01131_MESH_D016778_1
+        disease: Malaria, Falciparum
+        disease_mesh: MESH:D016778
+        drug: Proguanil
+        drug_mesh: MESH:D002727
+        drugbank: DB:DB01131
+    links:
+    -   key: has metabolite
+        source: MESH:D002727
+        target: MESH:C026009
+    -   key: decreases activity of
+        source: MESH:C026009
+        target: UniProt:P00374
+    -   key: positively regulates
+        source: UniProt:P00374
+        target: REACT:R-HSA-8956320
+    -   key: positively regulates
+        source: REACT:R-HSA-8956320
+        target: GO:0071897
+    -   key: in taxon
+        source: GO:0071897
+        target: NCBITaxon:5833
+    -   key: causes
+        source: NCBITaxon:5833
+        target: MESH:D016778
+    multigraph: true
+    nodes:
+    -   id: MESH:D002727
+        label: Drug
+        name: Proguanil
+    -   id: MESH:C026009
+        label: ChemicalSubstance
+        name: cycloguanil
+    -   id: UniProt:P00374
+        label: Protein
+        name: Dihydrofolate reductase
+    -   id: REACT:R-HSA-8956320
+        label: Pathway
+        name: Nucleotide biosynthesis
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: NCBITaxon:5833
+        label: OrganismTaxon
+        name: Plasmodium falciparum
+    -   id: MESH:D016778
+        label: Disease
+        name: Malaria, Falciparum
+    reference:
+    -   https://go.drugbank.com/drugs/DB01131#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Proguanil
+    -   https://en.wikipedia.org/wiki/Malaria
+-   directed: true
+    graph:
+        _id: DB00468_MESH_D016778_1
+        disease: Malaria, Falciparum
+        disease_mesh: MESH:D016778
+        drug: Quinine
+        drug_mesh: MESH:D011803
+        drugbank: DB:DB00468
+    links:
+    -   key: decreases activity of
+        source: MESH:D011803
+        target: UniProt:Q8IL04
+    -   key: positively regulates
+        source: UniProt:Q8IL04
+        target: GO:0042167
+    -   key: decreases abundance of
+        source: GO:0042167
+        target: MESH:D006418
+    -   key: disrupts
+        source: MESH:D006418
+        target: NCBITaxon:5833
+    -   key: causes
+        source: NCBITaxon:5833
+        target: MESH:D016778
+    multigraph: true
+    nodes:
+    -   id: MESH:D011803
+        label: Drug
+        name: Quinine
+    -   id: UniProt:Q8IL04
+        label: Protein
+        name: Heme ligase
+    -   id: GO:0042167
+        label: BiologicalProcess
+        name: heme catabolic process
+    -   id: MESH:D006418
+        label: ChemicalSubstance
+        name: Heme
+    -   id: NCBITaxon:5833
+        label: OrganismTaxon
+        name: Plasmodium falciparum
+    -   id: MESH:D016778
+        label: Disease
+        name: Malaria, Falciparum
+    reference:
+    -   https://go.drugbank.com/drugs/DB00468#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Quinine#Mechanism_of_action
+    -   https://www.uniprot.org/uniprot/Q8IL04#function
+    -   https://en.wikipedia.org/wiki/Malaria
+-   directed: true
+    graph:
+        _id: DB00468_MESH_D016778_2
+        disease: Malaria, Falciparum
+        disease_mesh: MESH:D016778
+        drug: Quinine
+        drug_mesh: MESH:D011803
+        drugbank: DB:DB00468
+    links:
+    -   key: negatively regulates
+        source: MESH:D011803
+        target: GO:0006412
+    -   key: negatively regulates
+        source: MESH:D011803
+        target: GO:0071897
+    -   key: negatively regulates
+        source: MESH:D011803
+        target: REACT:R-HSA-70171
+    -   key: occurs in
+        source: GO:0006412
+        target: NCBITaxon:5833
+    -   key: occurs in
+        source: GO:0071897
+        target: NCBITaxon:5833
+    -   key: occurs in
+        source: REACT:R-HSA-70171
+        target: NCBITaxon:5833
+    -   key: causes
+        source: NCBITaxon:5833
+        target: MESH:D016778
+    multigraph: true
+    nodes:
+    -   id: MESH:D011803
+        label: Drug
+        name: Quinine
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: translation
+    -   id: GO:0071897
+        label: BiologicalProcess
+        name: DNA biosynthetic process
+    -   id: REACT:R-HSA-70171
+        label: Pathway
+        name: Glycolysis
+    -   id: NCBITaxon:5833
+        label: OrganismTaxon
+        name: Plasmodium falciparum
+    -   id: MESH:D016778
+        label: Disease
+        name: Malaria, Falciparum
+    reference:
+    -   https://go.drugbank.com/drugs/DB00468#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Quinine#Mechanism_of_action
+    -   https://www.drugs.com/monograph/quinine.html
+    -   https://en.wikipedia.org/wiki/Malaria
