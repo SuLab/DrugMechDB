@@ -968,18 +968,15 @@
     links:
     -   key: decreases activity of
         source: MESH:D011803
-        target: UniProt:A0A024VM31
+        target: UniProt:Q8IL04
     -   key: positively regulates
-        source: UniProt:A0A024VM31
-        target: GO:0006783
-    -   key: increases abundance of
-        source: GO:0006783
+        source: UniProt:Q8IL04
+        target: GO:0042167
+    -   key: decreases abundance of
+        source: GO:0042167
         target: MESH:D006418
-    -   key: positively regulates
+    -   key: disrupts
         source: MESH:D006418
-        target: GO:0008219
-    -   key: in taxon
-        source: GO:0008219
         target: NCBITaxon:5833
     -   key: causes
         source: NCBITaxon:5833
@@ -989,18 +986,15 @@
     -   id: MESH:D011803
         label: Drug
         name: Quinine
-    -   id: UniProt:A0A024VM31
+    -   id: UniProt:Q8IL04
         label: Protein
-        name: Ferrochelatase
-    -   id: GO:0006783
+        name: Heme ligase
+    -   id: GO:0042167
         label: BiologicalProcess
-        name: heme biosynthetic process
+        name: heme catabolic process
     -   id: MESH:D006418
         label: ChemicalSubstance
         name: Heme
-    -   id: GO:0008219
-        label: BiologicalProcess
-        name: cell death
     -   id: NCBITaxon:5833
         label: OrganismTaxon
         name: Plasmodium falciparum
@@ -1010,7 +1004,7 @@
     reference:
     -   https://go.drugbank.com/drugs/DB00468#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Quinine#Mechanism_of_action
-    -   https://www.uniprot.org/uniprot/A0A024VM31#function
+    -   https://www.uniprot.org/uniprot/Q8IL04#function
     -   https://en.wikipedia.org/wiki/Malaria
 -   directed: true
     graph:
