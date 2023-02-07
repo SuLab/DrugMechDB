@@ -359,17 +359,8 @@
         source: MESH:D002119
         target: GO:0001696
     -   key: positively regulates
-        source: MESH:D002119
-        target: GO:0032310
-    -   key: positively regulates
         source: GO:0001696
         target: InterPro:IPR034162
-    -   key: increases abundance of
-        source: GO:0032310
-        target: MESH:D011453
-    -   key: negatively regulates
-        source: MESH:D011453
-        target: GO:0001696
     -   key: contributes to
         source: InterPro:IPR034162
         target: HP:0002020
@@ -384,15 +375,9 @@
     -   id: GO:0001696
         label: BiologicalProcess
         name: gastric acid secretion
-    -   id: GO:0032310
-        label: BiologicalProcess
-        name: prostaglandin secretion
     -   id: InterPro:IPR034162
         label: GeneFamily
         name: Pepsin catalytic domain
-    -   id: MESH:D011453
-        label: ChemicalSubstance
-        name: Prostaglandins
     -   id: HP:0002020
         label: PhenotypicFeature
         name: Gastroesophageal reflux
@@ -401,7 +386,6 @@
         name: Dyspepsia
     reference:
     -   https://go.drugbank.com/drugs/DB06724#mechanism-of-action
-    -   https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/582326
     -   https://en.wikipedia.org/wiki/Indigestion
 -   comment: Calcium carbonate is a dietary supplement. It is used when the amount of calcium taken is less in the diet which causes low level calcium in blood (hypocalcemia).
     directed: true
@@ -959,7 +943,7 @@
     -   key: participates in
         source: UniProt:P14416
         target: GO:1903350
-    -   key: positively regulates
+    -   key: correlated with
         source: GO:1903350
         target: HP:0000738
     -   key: correlated with
@@ -1024,7 +1008,7 @@
     -   key: participates in
         source: UniProt:P14416
         target: GO:1903350
-    -   key: positively regulates
+    -   key: correlated with
         source: GO:1903350
         target: HP:0000738
     -   key: correlated with
