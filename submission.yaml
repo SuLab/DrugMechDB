@@ -1,1 +1,42 @@
-
+-   directed: true
+    graph:
+        _id: DB01165_MESH_D013290_1
+        disease: Streptococcal Infections
+        disease_mesh: MESH:D013290
+        drug: ofloxacin
+        drug_mesh: MESH:D015242
+        drugbank: DB:DB01165
+    links:
+    -   key: negatively regulates
+        source: MESH:D015242
+        target: InterPro:IPR013759
+    -   key: positively regulates
+        source: InterPro:IPR013759
+        target: GO:0006265
+    -   key: in taxon
+        source: GO:0006265
+        target: NCBITaxon:1314
+    -   key: causes
+        source: NCBITaxon:1314
+        target: MESH:D013290
+    multigraph: true
+    nodes:
+    -   id: MESH:D015242
+        label: Drug
+        name: ofloxacin
+    -   id: InterPro:IPR013759
+        label: GeneFamily
+        name: DNA topoisomerase, type IIA, subunit B, C-terminal
+    -   id: GO:0006265
+        label: BiologicalProcess
+        name: DNA topological change
+    -   id: NCBITaxon:1314
+        label: OrganismTaxon
+        name: Streptococcus pyogenes
+    -   id: MESH:D013290
+        label: Disease
+        name: Streptococcal Infections
+    reference:
+    - https://en.wikipedia.org/wiki/Ofloxacin#Mode_of_action
+    - https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2311224/
+    - https://go.drugbank.com/drugs/DB01165
