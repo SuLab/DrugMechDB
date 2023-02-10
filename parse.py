@@ -114,8 +114,8 @@ def generate_path_pages():
             if os.path.exists("pages/mydoc/" + outfile_name + ".md"):
                 os.remove("pages/mydoc/" + outfile_name + ".md")
             # delete the image
-            if os.path.exists("images/" + outfile_name + ".png"):
-                os.remove("images/" + outfile_name + ".png")
+            if os.path.exists("images/" + outfile_name + ".jpg"):
+                os.remove("images/" + outfile_name + ".jpg")
             # Jump to next iteration
             continue
 
@@ -143,8 +143,8 @@ def generate_path_pages():
 
             output.write("\nPath ID: `" + pathid + "`\n")
 
-            output.write('{% include image.html url="images/' + outfile_name + '.png" ' +
-                         'file="' + outfile_name + '.png" alt="' +
+            output.write('{% include image.html url="images/' + outfile_name + '.jpg" ' +
+                         'file="' + outfile_name + '.jpg" alt="' +
                          outfile_name + '" %}\n\n')
 
             output.write("## Concepts\n\n")
@@ -196,14 +196,14 @@ def generate_path_pages():
 
         # Only remake if the files the page is new and/or different
         # or if the image is missing
-        if new_file or not os.path.exists("images/" + outfile_name + ".png"):
+        if new_file or not os.path.exists("images/" + outfile_name + ".jpg"):
             print('Building new page: ' + path_title)
 
-            if os.path.exists("images/" + outfile_name + ".png"):
-                os.remove("images/" + outfile_name + ".png")
+            if os.path.exists("images/" + outfile_name + ".jpg"):
+                os.remove("images/" + outfile_name + ".jpg")
 
             dp.plot_path(path)
-            plt.savefig("images/" + outfile_name + ".png")
+            plt.savefig("images/" + outfile_name + ".jpg")
 
             plt.close(fig=None)
             ax.clear()
