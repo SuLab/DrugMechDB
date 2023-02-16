@@ -208,15 +208,21 @@
         target: UniProt:P25021
     -   key: positively regulates
         source: UniProt:P25021
-        target: GO:0001696
-    -   key: increases abundance of
-        source: GO:0001696
-        target: MESH:D005744
-    -   key: contributes to
-        source: MESH:D005744
-        target: HP:0002024
+        target: GO:0004969
+    -   key: positively correlated with
+        source: GO:0004969
+        target: GO:0002553
+    -   key: positively regulates
+        source: GO:0002553
+        target: HP:0001025
+    -   key: positively regulates
+        source: GO:0002553
+        target: HP:0012531
     -   key: manifestation of
-        source: HP:0002024
+        source: HP:0001025
+        target: MESH:D034721
+    -   key: manifestation of
+        source: HP:0012531
         target: MESH:D034721
     multigraph: true
     nodes:
@@ -226,15 +232,18 @@
     -   id: UniProt:P25021
         label: Protein
         name: Histamine H2 receptor
-    -   id: GO:0001696
+    -   id: GO:0004969
+        label: MolecularActivity
+        name: histamine receptor activity
+    -   id: GO:0002553
         label: BiologicalProcess
-        name: gastric acid secretion
-    -   id: MESH:D005744
-        label: ChemicalSubstance
-        name: Gastric Acid
-    -   id: HP:0002024
+        name: histamine secretion by mast cell
+    -   id: HP:0001025
         label: PhenotypicFeature
-        name: Malabsorption
+        name: Urticaria
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
     -   id: MESH:D034721
         label: Disease
         name: Mastocytosis, Systemic
@@ -242,8 +251,6 @@
     -   https://go.drugbank.com/drugs/DB00501#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Cimetidine
     -   https://www.uniprot.org/uniprot/P25021#function
-    -   https://pubmed.ncbi.nlm.nih.gov/7446515/
-    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4362676/
     -   https://en.wikipedia.org/wiki/Mastocytosis#Systemic_mastocytosis_(SM)
 -   directed: true
     graph:
@@ -260,11 +267,8 @@
     -   key: positively regulates
         source: UniProt:P25021
         target: GO:0035898
-    -   key: occurs in
+    -   key: positively correlated with
         source: GO:0035898
-        target: UBERON:0001132
-    -   key: location of
-        source: UBERON:0001132
         target: MESH:D009377
     multigraph: true
     nodes:
@@ -277,9 +281,6 @@
     -   id: GO:0035898
         label: BiologicalProcess
         name: parathyroid hormone secretion
-    -   id: UBERON:0001132
-        label: GrossAnatomicalStructure
-        name: parathyroid gland
     -   id: MESH:D009377
         label: Disease
         name: Multiple Endocrine Neoplasia
@@ -517,42 +518,6 @@
     -   https://en.wikipedia.org/wiki/Allergic_conjunctivitis
 -   directed: true
     graph:
-        _id: DB01106_MESH_D003233_2
-        disease: Conjunctivitis, Allergic
-        disease_mesh: MESH:D003233
-        drug: levocabastine
-        drug_mesh: MESH:C047340
-        drugbank: DB:DB01106
-    links:
-    -   key: decreases activity of
-        source: MESH:C047340
-        target: UniProt:P35367
-    -   key: positively regulates
-        source: UniProt:P35367
-        target: GO:051381
-    -   key: contributes to
-        source: GO:051381
-        target: MESH:D003233
-    multigraph: true
-    nodes:
-    -   id: MESH:C047340
-        label: Drug
-        name: levocabastine
-    -   id: UniProt:P35367
-        label: Protein
-        name: Histamine H1 receptor
-    -   id: GO:051381
-        label: MolecularActivity
-        name: histamine binding
-    -   id: MESH:D003233
-        label: Disease
-        name: Conjunctivitis, Allergic
-    reference: 
-    -   https://go.drugbank.com/drugs/DB01106#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P35367#function
-    -   https://en.wikipedia.org/wiki/Allergic_conjunctivitis
--   directed: true
-    graph:
         _id: DB01106_MESH_D003233_3
         disease: Conjunctivitis, Allergic
         disease_mesh: MESH:D003233
@@ -605,11 +570,8 @@
     -   key: chemically similar to
         source: MESH:C502722
         target: UniProt:P07988
-    -   key: negatively regulates
+    -   key: negatively correlated with
         source: UniProt:P07988
-        target: GO:0043129
-    -   key: contributes to
-        source: GO:0043129
         target: HP:0002107
     -   key: manifestation of
         source: HP:0002107
@@ -622,9 +584,6 @@
     -   id: UniProt:P07988
         label: Protein
         name: Pulmonary surfactant-associated protein B
-    -   id: GO:0043129
-        label: BiologicalProcess
-        name: surfactant homeostasis
     -   id: HP:0002107
         label: PhenotypicFeature
         name: Pneumothorax
@@ -652,11 +611,11 @@
     -   key: positively regulates
         source: UniProt:P40238
         target: GO:0030220
-    -   key: positively correlated with
+    -   key: increases abundance of
         source: GO:0030220
-        target: HP:0001894
+        target: MESH:D001792
     -   key: negatively correlated with
-        source: HP:0001894
+        source: MESH:D001792
         target: MESH:D013921
     multigraph: true
     nodes:
@@ -669,9 +628,9 @@
     -   id: GO:0030220
         label: BiologicalProcess
         name: platelet formation
-    -   id: HP:0001894
-        label: PhenotypicFeature
-        name: Thrombocytosis
+    -   id: MESH:D001792
+        label: ChemicalSubstance
+        name: Blood Platelets
     -   id: MESH:D013921
         label: Disease
         name: Thrombocytopenia
@@ -700,27 +659,21 @@
         target: UniProt:P41145
     -   key: participates in
         source: UniProt:P35372
-        target: REACT:R-HSA-202040
+        target: GO:0038003
     -   key: participates in
         source: UniProt:P41143
-        target: REACT:R-HSA-202040
+        target: GO:0038003
     -   key: participates in
         source: UniProt:P41145
-        target: REACT:R-HSA-202040
+        target: GO:0038003
     -   key: positively regulates
-        source: REACT:R-HSA-202040
-        target: GO:0060081
-    -   key: prevents
-        source: GO:0060081
-        target: GO:0019228
-    -   key: produces
-        source: GO:0019228
-        target: MESH:D018377
-    -   key: contributes to
-        source: MESH:D018377
-        target: MESH:D013375
+        source: GO:0038003
+        target: REACT:R-HSA-1296065
+    -   key: correlated with
+        source: REACT:R-HSA-1296065
+        target: HP:0002791
     -   key: positively correlated with
-        source: MESH:D013375
+        source: HP:0002791
         target: MESH:D009293
     multigraph: true
     nodes:
@@ -736,29 +689,26 @@
     -   id: UniProt:P41145
         label: Protein
         name: Kappa-type opioid receptor
-    -   id: REACT:R-HSA-202040
+    -   id: GO:0038003
+        label: BiologicalProcess
+        name: G protein-coupled opioid receptor signaling pathway
+    -   id: REACT:R-HSA-1296065
         label: Pathway
-        name: G-protein activation
-    -   id: GO:0060081
-        label: BiologicalProcess
-        name: membrane hyperpolarization
-    -   id: GO:0019228
-        label: BiologicalProcess
-        name: neuronal action potential
-    -   id: MESH:D018377
-        label: ChemicalSubstance
-        name: Neurotransmitter Agents
-    -   id: MESH:D013375
-        label: Disease
-        name: Substance Withdrawal Syndrome
+        name: Inwardly rectifying K+ channels
+    -   id: HP:0002791
+        label: PhenotypicFeature
+        name: Hypoventilation
     -   id: MESH:D009293
         label: Disease
         name: Opioid-Related Disorders
     reference: 
     -   https://go.drugbank.com/drugs/DB01183#mechanism-of-action
+    -   https://nida.nih.gov/publications/drugfacts/naloxone
+    -   https://www.sciencedirect.com/topics/neuroscience/naloxone
     -   https://www.uniprot.org/uniprot/P35372#function
     -   https://www.uniprot.org/uniprot/P41143#function
     -   https://www.uniprot.org/uniprot/P41145#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4755838/
     -   https://en.wikipedia.org/wiki/Opioid_receptor#Mechanism_of_activation
     -   https://en.wikipedia.org/wiki/Opioid_use_disorder
 -   directed: true
@@ -781,24 +731,18 @@
         target: UniProt:P41145
     -   key: participates in
         source: UniProt:P35372
-        target: REACT:R-HSA-202040
+        target: GO:0038003
     -   key: participates in
         source: UniProt:P41143
-        target: REACT:R-HSA-202040
+        target: GO:0038003
     -   key: participates in
         source: UniProt:P41145
-        target: REACT:R-HSA-202040
-    -   key: positively regulates
-        source: REACT:R-HSA-202040
-        target: GO:0060081
-    -   key: prevents
-        source: GO:0060081
-        target: GO:0019228
+        target: GO:0038003
+    -   key: increases response to
+        source: GO:0038003
+        target: MESH:D006930
     -   key: positively correlated with
-        source: GO:0019228
-        target: GO:0019233
-    -   key: causes
-        source: GO:0019233
+        source: MESH:D006930
         target: MESH:D010146
     multigraph: true
     nodes:
@@ -814,18 +758,12 @@
     -   id: UniProt:P41145
         label: Protein
         name: Kappa-type opioid receptor
-    -   id: REACT:R-HSA-202040
-        label: Pathway
-        name: G-protein activation
-    -   id: GO:0060081
+    -   id: GO:0038003
         label: BiologicalProcess
-        name: membrane hyperpolarization
-    -   id: GO:0019228
-        label: BiologicalProcess
-        name: neuronal action potential
-    -   id: GO:0019233
-        label: BiologicalProcess
-        name: sensory perception of pain
+        name: G protein-coupled opioid receptor signaling pathway
+    -   id: MESH:D006930
+        label: Disease
+        name: Hyperalgesia
     -   id: MESH:D010146
         label: Disease
         name: Pain
@@ -834,7 +772,9 @@
     -   https://www.uniprot.org/uniprot/P35372#function
     -   https://www.uniprot.org/uniprot/P41143#function
     -   https://www.uniprot.org/uniprot/P41145#function
-    -   https://en.wikipedia.org/wiki/Opioid_receptor#Mechanism_of_activation
+    -   https://pubmed.ncbi.nlm.nih.gov/21412369/
+    -   https://pubs.asahq.org/anesthesiology/article/118/5/1160/13630/Effects-of-Naloxone-on-Opioid-induced-Hyperalgesia
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3330728/
     -   https://en.wikipedia.org/wiki/Pain
 -   directed: true
     graph:
@@ -1065,23 +1005,17 @@
         drug_mesh: MESH:C000611266
         drugbank: DB:DB05336
     links:
-    -   key: molecularly interacts with
+    -   key: decreases activity of
         source: MESH:C000611266
         target: UniProt:P13423
-    -   key: part of
-        source: UniProt:P13423
-        target: MESH:C030325
     -   key: positively regulates
-        source: MESH:C030325
-        target: GO:0046789
-    -   key: positively correlated with
-        source: GO:0046789
+        source: UniProt:P13423
         target: GO:0035635
-    -   key: negatively correlated with
+    -   key: positively correlated with
         source: GO:0035635
-        target: GO:0016049
+        target: GO:0008219
     -   key: in taxon
-        source: GO:0016049
+        source: GO:0008219
         target: NCBITaxon:1392
     -   key: causes
         source: NCBITaxon:1392
@@ -1094,18 +1028,12 @@
     -   id: UniProt:P13423
         label: Protein
         name: Protective antigen
-    -   id: MESH:C030325
-        label: ChemicalSubstance
-        name: anthrax toxin
-    -   id: GO:0046789
-        label: MolecularActivity
-        name: host cell surface receptor binding
     -   id: GO:0035635
         label: BiologicalProcess
         name: entry of bacterium into host cell
-    -   id: GO:0016049
+    -   id: GO:0008219
         label: BiologicalProcess
-        name: cell growth
+        name: cell death
     -   id: NCBITaxon:1392
         label: OrganismTaxon
         name: Bacillus anthracis
@@ -1136,11 +1064,17 @@
     -   key: participates in
         source: UniProt:P08908
         target: GO:0014059
-    -   key: negatively correlated with
+    -   key: correlated with
         source: GO:0014062
-        target: HP:0000739
+        target: MESH:D012701
     -   key: negatively correlated with
+        source: MESH:D012701
+        target: HP:0000739
+    -   key: correlated with
         source: GO:0014059
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D004298
         target: HP:0000739
     -   key: positively correlated with
         source: HP:0000739
@@ -1156,9 +1090,15 @@
     -   id: GO:0014062
         label: BiologicalProcess
         name: regulation of serotonin secretion
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
     -   id: GO:0014059
         label: BiologicalProcess
         name: regulation of dopamine secretion
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
     -   id: HP:0000739
         label: PhenotypicFeature
         name: Anxiety
