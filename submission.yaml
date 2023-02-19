@@ -668,9 +668,9 @@
         target: GO:0038003
     -   key: positively regulates
         source: GO:0038003
-        target: REACT:R-HSA-1296065
+        target: REACT:R-HSA-1296059
     -   key: correlated with
-        source: REACT:R-HSA-1296065
+        source: REACT:R-HSA-1296059
         target: HP:0002791
     -   key: positively correlated with
         source: HP:0002791
@@ -692,9 +692,9 @@
     -   id: GO:0038003
         label: BiologicalProcess
         name: G protein-coupled opioid receptor signaling pathway
-    -   id: REACT:R-HSA-1296065
+    -   id: REACT:R-HSA-1296059
         label: Pathway
-        name: Inwardly rectifying K+ channels
+        name: G protein gated Potassium channels
     -   id: HP:0002791
         label: PhenotypicFeature
         name: Hypoventilation
@@ -738,7 +738,7 @@
     -   key: participates in
         source: UniProt:P41145
         target: GO:0038003
-    -   key: increases response to
+    -   key: positively correlated with
         source: GO:0038003
         target: MESH:D006930
     -   key: positively correlated with
@@ -1011,11 +1011,8 @@
     -   key: positively regulates
         source: UniProt:P13423
         target: GO:0035635
-    -   key: positively correlated with
-        source: GO:0035635
-        target: GO:0008219
     -   key: in taxon
-        source: GO:0008219
+        source: GO:0035635
         target: NCBITaxon:1392
     -   key: causes
         source: NCBITaxon:1392
@@ -1031,9 +1028,6 @@
     -   id: GO:0035635
         label: BiologicalProcess
         name: entry of bacterium into host cell
-    -   id: GO:0008219
-        label: BiologicalProcess
-        name: cell death
     -   id: NCBITaxon:1392
         label: OrganismTaxon
         name: Bacillus anthracis
@@ -1058,23 +1052,11 @@
     -   key: increases activity of
         source: MESH:C055267
         target: UniProt:P08908
-    -   key: participates in
-        source: UniProt:P08908
-        target: GO:0014062
-    -   key: participates in
-        source: UniProt:P08908
-        target: GO:0014059
     -   key: correlated with
-        source: GO:0014062
+        source: UniProt:P08908
         target: MESH:D012701
     -   key: negatively correlated with
         source: MESH:D012701
-        target: HP:0000739
-    -   key: correlated with
-        source: GO:0014059
-        target: MESH:D004298
-    -   key: negatively correlated with
-        source: MESH:D004298
         target: HP:0000739
     -   key: positively correlated with
         source: HP:0000739
@@ -1087,18 +1069,9 @@
     -   id: UniProt:P08908
         label: Protein
         name: 5-hydroxytryptamine receptor 1A
-    -   id: GO:0014062
-        label: BiologicalProcess
-        name: regulation of serotonin secretion
     -   id: MESH:D012701
         label: ChemicalSubstance
         name: Serotonin
-    -   id: GO:0014059
-        label: BiologicalProcess
-        name: regulation of dopamine secretion
-    -   id: MESH:D004298
-        label: ChemicalSubstance
-        name: Dopamine
     -   id: HP:0000739
         label: PhenotypicFeature
         name: Anxiety
