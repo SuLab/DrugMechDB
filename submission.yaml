@@ -12,12 +12,12 @@
         target: UniProt:P05023
     -   key: positively regulates
         source: UniProt:P05023
-        target: GO:0061533
+        target: GO:0006813
     -   key: positively correlated with
-        source: GO:0061533
-        target: GO:0042310
+        source: GO:0006813
+        target: CHEBI:29103
     -   key: positively correlated with
-        source: GO:0042310
+        source: CHEBI:29103
         target: HP:0011675
     -   key: manifestation of
         source: HP:0011675
@@ -30,12 +30,12 @@
     -   id: UniProt:P05023
         label: Protein
         name: Sodium/potassium-transporting ATPase subunit alpha-1
-    -   id: GO:0061533
+    -   id: GO:0006813
         label: BiologicalProcess
-        name: norepinephrine secretion, neurotransmission
-    -   id: GO:0042310
-        label: BiologicalProcess
-        name: vasoconstriction
+        name: potassium ion transport
+    -   id: CHEBI:29103
+        label: ChemicalSubstance
+        name: potassium(1+)
     -   id: HP:0011675
         label: PhenotypicFeature
         name: Arrhythmia
@@ -44,6 +44,7 @@
         name: Ventricular Fibrillation
     reference: 
     -   https://go.drugbank.com/drugs/DB01158#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Bretylium
     -   https://www.uniprot.org/uniprot/P05023#function
     -   https://en.wikipedia.org/wiki/Ventricular_fibrillation
 -   directed: true
@@ -61,41 +62,29 @@
     -   key: derives into
         source: MESH:C020243
         target: MESH:D010710
-    -   key: positively regulates
+    -   key: negatively correlated with
         source: MESH:D010710
-        target: GO:0055074
-    -   key: positively regulates
+        target: MESH:D006996
+    -   key: negatively correlated with
         source: MESH:D002118
-        target: GO:0055074
-    -   key: positively regulates
-        source: MESH:D002118
-        target: InterPro:IPR000276
+        target: MESH:D006996
     -   key: negatively regulates
-        source: InterPro:IPR000276
+        source: MESH:D002118
         target: GO:0035898
-    -   key: negatively correlated with
-        source: GO:0035898
-        target: GO:0070977
     -   key: positively correlated with
-        source: GO:0070977
-        target: GO:0055074
-    -   key: negatively correlated with
         source: GO:0035898
         target: MESH:D002112
-    -   key: positively regulates
+    -   key: has active ingredient
         source: MESH:D002112
-        target: UniProt:P20020
-    -   key: positively regulates
-        source: MESH:D002112
-        target: UniProt:Q9H1D0
-    -   key: positively regulates
-        source: UniProt:P20020
-        target: GO:0055074
-    -   key: positively regulates
-        source: UniProt:Q9H1D0
-        target: GO:0055074
+        target: MESH:D002117
+    -   key: negatively regulates
+        source: MESH:D002117
+        target: GO:0002158
+    -   key: positively correlated with
+        source: GO:0002158
+        target: GO:0045453
     -   key: negatively correlated with
-        source: GO:0055074
+        source: GO:0045453
         target: MESH:D006996
     multigraph: true
     nodes:
@@ -108,34 +97,26 @@
     -   id: MESH:D010710
         label: ChemicalSubstance
         name: Phosphates
-    -   id: MESH:D002112
-        label: ChemicalSubstance
-        name: Calcifediol
-    -   id: GO:0055074
-        label: BiologicalProcess
-        name: calcium ion homeostasis
     -   id: GO:0035898
         label: BiologicalProcess
         name: parathyroid hormone secretion
-    -   id: GO:0070977
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcifediol
+    -   id: MESH:D002117
+        label: ChemicalSubstance
+        name: Calcitriol
+    -   id: GO:0002158
         label: BiologicalProcess
-        name: bone maturation
-    -   id: InterPro:IPR000276
-        label: GeneFamily
-        name: G protein-coupled receptor, rhodopsin-like
-    -   id: UniProt:P20020
-        label: Protein
-        name: Plasma membrane calcium-transporting ATPase 1
-    -   id: UniProt:Q9H1D0
-        label: Protein
-        name: Transient receptor potential cation channel subfamily V member 6
+        name: osteoclast proliferation
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: bone resorption
     -   id: MESH:D006996
         label: Disease
         name: Hypocalcemia
     reference: 
     -   https://go.drugbank.com/drugs/DB11348#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P20020#function
-    -   https://www.uniprot.org/uniprot/Q9H1D0#function
     -   https://en.wikipedia.org/wiki/Hypocalcemia
 -   directed: true
     graph:
@@ -152,41 +133,29 @@
     -   key: derives into
         source: MESH:C020243
         target: MESH:D010710
-    -   key: positively regulates
+    -   key: negatively correlated with
         source: MESH:D010710
-        target: GO:0055074
-    -   key: positively regulates
+        target: MESH:D010024
+    -   key: negatively correlated with
         source: MESH:D002118
-        target: GO:0055074
-    -   key: positively regulates
-        source: MESH:D002118
-        target: InterPro:IPR000276
+        target: MESH:D010024
     -   key: negatively regulates
-        source: InterPro:IPR000276
+        source: MESH:D002118
         target: GO:0035898
-    -   key: negatively correlated with
-        source: GO:0035898
-        target: GO:0070977
     -   key: positively correlated with
-        source: GO:0070977
-        target: GO:0055074
-    -   key: negatively correlated with
         source: GO:0035898
         target: MESH:D002112
-    -   key: positively regulates
+    -   key: has active ingredient
         source: MESH:D002112
-        target: UniProt:P20020
+        target: MESH:D002117
     -   key: positively regulates
-        source: MESH:D002112
-        target: UniProt:Q9H1D0
-    -   key: positively regulates
-        source: UniProt:P20020
-        target: GO:0055074
-    -   key: positively regulates
-        source: UniProt:Q9H1D0
-        target: GO:0055074
-    -   key: negatively correlated with
-        source: GO:0055074
+        source: MESH:D002117
+        target: GO:0045453
+    -   key: contributes to
+        source: GO:0045453
+        target: HP:0004349
+    -   key: manifestation of
+        source: HP:0004349
         target: MESH:D010024
     multigraph: true
     nodes:
@@ -199,34 +168,26 @@
     -   id: MESH:D010710
         label: ChemicalSubstance
         name: Phosphates
-    -   id: MESH:D002112
-        label: ChemicalSubstance
-        name: Calcifediol
-    -   id: GO:0055074
-        label: BiologicalProcess
-        name: calcium ion homeostasis
     -   id: GO:0035898
         label: BiologicalProcess
         name: parathyroid hormone secretion
-    -   id: GO:0070977
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcifediol
+    -   id: MESH:D002117
+        label: ChemicalSubstance
+        name: Calcitriol
+    -   id: GO:0045453
         label: BiologicalProcess
-        name: bone maturation
-    -   id: InterPro:IPR000276
-        label: GeneFamily
-        name: G protein-coupled receptor, rhodopsin-like
-    -   id: UniProt:P20020
-        label: Protein
-        name: Plasma membrane calcium-transporting ATPase 1
-    -   id: UniProt:Q9H1D0
-        label: Protein
-        name: Transient receptor potential cation channel subfamily V member 6
+        name: bone resorption
+    -   id: HP:0004349
+        label: PhenotypicFeature
+        name: Reduced bone mineral density
     -   id: MESH:D010024
         label: Disease
         name: Osteoporosis
     reference: 
     -   https://go.drugbank.com/drugs/DB11348#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P20020#function
-    -   https://www.uniprot.org/uniprot/Q9H1D0#function
     -   https://en.wikipedia.org/wiki/Osteoporosis
 -   directed: true
     graph:
@@ -243,44 +204,29 @@
     -   key: derives into
         source: MESH:C020243
         target: MESH:D010710
-    -   key: positively regulates
+    -   key: negatively correlated with
         source: MESH:D010710
-        target: GO:0055074
-    -   key: positively regulates
+        target: MESH:D015663
+    -   key: negatively correlated with
         source: MESH:D002118
-        target: GO:0055074
-    -   key: positively regulates
-        source: MESH:D002118
-        target: InterPro:IPR000276
+        target: MESH:D015663
     -   key: negatively regulates
-        source: InterPro:IPR000276
+        source: MESH:D002118
         target: GO:0035898
-    -   key: negatively correlated with
-        source: GO:0035898
-        target: GO:0070977
     -   key: positively correlated with
-        source: GO:0070977
-        target: GO:0055074
-    -   key: negatively correlated with
         source: GO:0035898
         target: MESH:D002112
-    -   key: positively regulates
+    -   key: has active ingredient
         source: MESH:D002112
-        target: UniProt:P20020
+        target: MESH:D002117
     -   key: positively regulates
-        source: MESH:D002112
-        target: UniProt:Q9H1D0
-    -   key: positively regulates
-        source: UniProt:P20020
-        target: GO:0055074
-    -   key: positively regulates
-        source: UniProt:Q9H1D0
-        target: GO:0055074
-    -   key: negatively correlated with
-        source: GO:0055074
-        target: HP:0000939
+        source: MESH:D002117
+        target: GO:0045453
     -   key: contributes to
-        source: HP:0000939
+        source: GO:0045453
+        target: HP:0004349
+    -   key: manifestation of
+        source: HP:0004349
         target: MESH:D015663
     multigraph: true
     nodes:
@@ -293,37 +239,26 @@
     -   id: MESH:D010710
         label: ChemicalSubstance
         name: Phosphates
-    -   id: MESH:D002112
-        label: ChemicalSubstance
-        name: Calcifediol
-    -   id: GO:0055074
-        label: BiologicalProcess
-        name: calcium ion homeostasis
     -   id: GO:0035898
         label: BiologicalProcess
         name: parathyroid hormone secretion
-    -   id: GO:0070977
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcifediol
+    -   id: MESH:D002117
+        label: ChemicalSubstance
+        name: Calcitriol
+    -   id: GO:0045453
         label: BiologicalProcess
-        name: bone maturation
-    -   id: InterPro:IPR000276
-        label: GeneFamily
-        name: G protein-coupled receptor, rhodopsin-like
-    -   id: UniProt:P20020
-        label: Protein
-        name: Plasma membrane calcium-transporting ATPase 1
-    -   id: UniProt:Q9H1D0
-        label: Protein
-        name: Transient receptor potential cation channel subfamily V member 6
-    -   id: HP:0000939
+        name: bone resorption
+    -   id: HP:0004349
         label: PhenotypicFeature
-        name: Osteoporosis
+        name: Reduced bone mineral density
     -   id: MESH:D015663
         label: Disease
         name: Osteoporosis, Postmenopausal
     reference: 
     -   https://go.drugbank.com/drugs/DB11348#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P20020#function
-    -   https://www.uniprot.org/uniprot/Q9H1D0#function
     -   https://en.wikipedia.org/wiki/Osteoporosis
 -   comment: Fosphenytoin is a prodrug of phenytoin used for the treatment of epileptic seizures.
     directed: true
@@ -477,6 +412,7 @@
     -   https://go.drugbank.com/drugs/DB00996#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Gabapentin#Pharmacology
     -   https://www.uniprot.org/uniprot/P54289#function
+    -   https://pubmed.ncbi.nlm.nih.gov/10621952/
     -   https://en.wikipedia.org/wiki/Postherpetic_neuralgia
 -   directed: true
     graph:
@@ -575,6 +511,7 @@
     -   https://go.drugbank.com/drugs/DB00996#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Gabapentin#Pharmacology
     -   https://www.uniprot.org/uniprot/P54289#function
+    -   https://pubmed.ncbi.nlm.nih.gov/10621952/
     -   https://en.wikipedia.org/wiki/Restless_legs_syndrome
 -   comment: Iproniazid is withdrawn in USA due to interactions with tyrosine in food products.
     directed: true
@@ -730,9 +667,6 @@
         target: UniProt:P12821
     -   key: positively regulates
         source: UniProt:P12821
-        target: REACT:R-HSA-2022377
-    -   key: positively regulates
-        source: REACT:R-HSA-2022377
         target: GO:0042310
     -   key: contributes to
         source: GO:0042310
@@ -751,9 +685,6 @@
     -   id: UniProt:P12821
         label: Protein
         name: Angiotensin-converting enzyme
-    -   id: REACT:R-HSA-2022377
-        label: Pathway
-        name: Metabolism of Angiotensinogen to Angiotensins
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
