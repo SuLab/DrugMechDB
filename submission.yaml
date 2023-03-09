@@ -665,8 +665,11 @@
     -   key: decreases activity of
         source: MESH:C053500
         target: UniProt:P12821
-    -   key: positively regulates
+    -   key: positively correlated with
         source: UniProt:P12821
+        target: MESH:D000804
+    -   key: positively regulates
+        source: MESH:D000804
         target: GO:0042310
     -   key: contributes to
         source: GO:0042310
@@ -685,6 +688,9 @@
     -   id: UniProt:P12821
         label: Protein
         name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
@@ -1109,20 +1115,20 @@
     -   key: decreases activity of
         source: CHEBI:169041
         target: UniProt:P04035
-    -   key: negatively regulates
+    -   key: increases activity of
         source: CHEBI:169041
-        target: REACT:R-HSA-8866423
+        target: UniProt:P06858
     -   key: positively regulates
         source: UniProt:P04035
         target: GO:0006695
     -   key: positively regulates
-        source: REACT:R-HSA-8866423
-        target: GO:0019432
+        source: UniProt:P06858
+        target: GO:0019433
     -   key: increases abundance of
         source: GO:0006695
         target: MESH:D002784
-    -   key: increases abundance of
-        source: GO:0019432
+    -   key: decreases abundance of
+        source: GO:0019433
         target: MESH:D014280
     -   key: positively correlated with
         source: MESH:D002784
@@ -1144,12 +1150,12 @@
     -   id: GO:0006695
         label: BiologicalProcess
         name: cholesterol biosynthetic process
-    -   id: REACT:R-HSA-8866423
-        label: Pathway
-        name: VLDL assembly
-    -   id: GO:0019432
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0019433
         label: BiologicalProcess
-        name: triglyceride biosynthetic process
+        name: triglyceride catabolic process
     -   id: MESH:D002784
         label: ChemicalSubstance
         name: Cholesterol
@@ -1163,6 +1169,8 @@
     -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
     -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://www.uniprot.org/uniprot/P06858#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1760655/
     -   https://en.wikipedia.org/wiki/Combined_hyperlipidemia
 -   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
     directed: true
@@ -1180,9 +1188,9 @@
     -   key: decreases activity of
         source: CHEBI:169041
         target: UniProt:P04035
-    -   key: negatively regulates
+    -   key: increases activity of
         source: CHEBI:169041
-        target: REACT:R-HSA-8866423
+        target: UniProt:P06858
     -   key: increases activity of
         source: CHEBI:169041
         target: UniProt:P02647
@@ -1190,16 +1198,16 @@
         source: UniProt:P04035
         target: GO:0006695
     -   key: positively regulates
-        source: REACT:R-HSA-8866423
-        target: GO:0019432
+        source: UniProt:P06858
+        target: GO:0019433
     -   key: positively regulates
         source: UniProt:P02647
         target: GO:0034380
     -   key: increases abundance of
         source: GO:0006695
         target: MESH:D002784
-    -   key: increases abundance of
-        source: GO:0019432
+    -   key: decreases abundance of
+        source: GO:0019433
         target: MESH:D014280
     -   key: increases abundance of
         source: GO:0034380
@@ -1230,15 +1238,15 @@
     -   id: GO:0006695
         label: BiologicalProcess
         name: cholesterol biosynthetic process
-    -   id: REACT:R-HSA-8866423
-        label: Pathway
-        name: VLDL assembly
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0019433
+        label: BiologicalProcess
+        name: triglyceride catabolic process
     -   id: GO:0034380
         label: BiologicalProcess
         name: high-density lipoprotein particle assembly
-    -   id: GO:0019432
-        label: BiologicalProcess
-        name: triglyceride biosynthetic process
     -   id: MESH:D002784
         label: ChemicalSubstance
         name: Cholesterol
@@ -1256,6 +1264,7 @@
     -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
     -   https://www.uniprot.org/uniprot/P04035#function
     -   https://www.uniprot.org/uniprot/P02647#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1760655/
     -   https://en.wikipedia.org/wiki/Familial_dysbetalipoproteinemia
 -   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
     directed: true
@@ -1270,14 +1279,14 @@
     -   key: has metabolite
         source: MESH:D019821
         target: CHEBI:169041
-    -   key: negatively regulates
+    -   key: increases activity of
         source: CHEBI:169041
-        target: REACT:R-HSA-8866423
+        target: UniProt:P06858
     -   key: positively regulates
-        source: REACT:R-HSA-8866423
-        target: GO:0019432
-    -   key: increases abundance of
-        source: GO:0019432
+        source: UniProt:P06858
+        target: GO:0019433
+    -   key: decreases abundance of
+        source: GO:0019433
         target: MESH:D014280
     -   key: positively correlated with
         source: MESH:D014280
@@ -1290,12 +1299,12 @@
     -   id: CHEBI:169041
         label: ChemicalSubstance
         name: simvastatin hydroxy acid
-    -   id: REACT:R-HSA-8866423
-        label: Pathway
-        name: VLDL assembly
-    -   id: GO:0019432
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0019433
         label: BiologicalProcess
-        name: triglyceride biosynthetic process
+        name: triglyceride catabolic process
     -   id: MESH:D014280
         label: ChemicalSubstance
         name: Triglycerides
@@ -1305,6 +1314,8 @@
     reference:
     -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P06858#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1760655/
     -   https://en.wikipedia.org/wiki/Hypertriglyceridemia
 -   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
     directed: true
