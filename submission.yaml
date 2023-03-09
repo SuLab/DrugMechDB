@@ -1,1 +1,1470 @@
-
+-   directed: true
+    graph:
+        _id: DB01158_MESH_D014693_1
+        disease: Ventricular Fibrillation
+        disease_mesh: MESH:D014693
+        drug: bretylium
+        drug_mesh: MESH:C045166
+        drugbank: DB:DB01158
+    links:
+    -   key: decreases activity of
+        source: MESH:C045166
+        target: UniProt:P05023
+    -   key: positively regulates
+        source: UniProt:P05023
+        target: GO:0006813
+    -   key: positively correlated with
+        source: GO:0006813
+        target: CHEBI:29103
+    -   key: positively correlated with
+        source: CHEBI:29103
+        target: HP:0011675
+    -   key: manifestation of
+        source: HP:0011675
+        target: MESH:D014693
+    multigraph: true
+    nodes:
+    -   id: MESH:C045166
+        label: Drug
+        name: bretylium
+    -   id: UniProt:P05023
+        label: Protein
+        name: Sodium/potassium-transporting ATPase subunit alpha-1
+    -   id: GO:0006813
+        label: BiologicalProcess
+        name: potassium ion transport
+    -   id: CHEBI:29103
+        label: ChemicalSubstance
+        name: potassium(1+)
+    -   id: HP:0011675
+        label: PhenotypicFeature
+        name: Arrhythmia
+    -   id: MESH:D014693
+        label: Disease
+        name: Ventricular Fibrillation
+    reference: 
+    -   https://go.drugbank.com/drugs/DB01158#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Bretylium
+    -   https://www.uniprot.org/uniprot/P05023#function
+    -   https://en.wikipedia.org/wiki/Ventricular_fibrillation
+-   directed: true
+    graph:
+        _id: DB11348_MESH_D006996_1
+        disease: Hypocalcemia
+        disease_mesh: MESH:D006996
+        drug: calcium phosphate
+        drug_mesh: MESH:C020243
+        drugbank: DB:DB11348
+    links:
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D002118
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D010710
+    -   key: negatively correlated with
+        source: MESH:D010710
+        target: MESH:D006996
+    -   key: negatively correlated with
+        source: MESH:D002118
+        target: MESH:D006996
+    -   key: negatively regulates
+        source: MESH:D002118
+        target: GO:0035898
+    -   key: positively correlated with
+        source: GO:0035898
+        target: MESH:D002112
+    -   key: has active ingredient
+        source: MESH:D002112
+        target: MESH:D002117
+    -   key: negatively regulates
+        source: MESH:D002117
+        target: GO:0002158
+    -   key: positively correlated with
+        source: GO:0002158
+        target: GO:0045453
+    -   key: negatively correlated with
+        source: GO:0045453
+        target: MESH:D006996
+    multigraph: true
+    nodes:
+    -   id: MESH:C020243
+        label: Drug
+        name: calcium phosphate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: MESH:D010710
+        label: ChemicalSubstance
+        name: Phosphates
+    -   id: GO:0035898
+        label: BiologicalProcess
+        name: parathyroid hormone secretion
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcifediol
+    -   id: MESH:D002117
+        label: ChemicalSubstance
+        name: Calcitriol
+    -   id: GO:0002158
+        label: BiologicalProcess
+        name: osteoclast proliferation
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: bone resorption
+    -   id: MESH:D006996
+        label: Disease
+        name: Hypocalcemia
+    reference: 
+    -   https://go.drugbank.com/drugs/DB11348#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Hypocalcemia
+-   directed: true
+    graph:
+        _id: DB11348_MESH_D010024_1
+        disease: Osteoporosis
+        disease_mesh: MESH:D010024
+        drug: calcium phosphate
+        drug_mesh: MESH:C020243
+        drugbank: DB:DB11348
+    links:
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D002118
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D010710
+    -   key: negatively correlated with
+        source: MESH:D010710
+        target: MESH:D010024
+    -   key: negatively correlated with
+        source: MESH:D002118
+        target: MESH:D010024
+    -   key: negatively regulates
+        source: MESH:D002118
+        target: GO:0035898
+    -   key: positively correlated with
+        source: GO:0035898
+        target: MESH:D002112
+    -   key: has active ingredient
+        source: MESH:D002112
+        target: MESH:D002117
+    -   key: positively regulates
+        source: MESH:D002117
+        target: GO:0045453
+    -   key: contributes to
+        source: GO:0045453
+        target: HP:0004349
+    -   key: manifestation of
+        source: HP:0004349
+        target: MESH:D010024
+    multigraph: true
+    nodes:
+    -   id: MESH:C020243
+        label: Drug
+        name: calcium phosphate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: MESH:D010710
+        label: ChemicalSubstance
+        name: Phosphates
+    -   id: GO:0035898
+        label: BiologicalProcess
+        name: parathyroid hormone secretion
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcifediol
+    -   id: MESH:D002117
+        label: ChemicalSubstance
+        name: Calcitriol
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: bone resorption
+    -   id: HP:0004349
+        label: PhenotypicFeature
+        name: Reduced bone mineral density
+    -   id: MESH:D010024
+        label: Disease
+        name: Osteoporosis
+    reference: 
+    -   https://go.drugbank.com/drugs/DB11348#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Osteoporosis
+-   directed: true
+    graph:
+        _id: DB11348_MESH_D015663_1
+        disease: Osteoporosis, Postmenopausal
+        disease_mesh: MESH:D015663
+        drug: calcium phosphate
+        drug_mesh: MESH:C020243
+        drugbank: DB:DB11348
+    links:
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D002118
+    -   key: derives into
+        source: MESH:C020243
+        target: MESH:D010710
+    -   key: negatively correlated with
+        source: MESH:D010710
+        target: MESH:D015663
+    -   key: negatively correlated with
+        source: MESH:D002118
+        target: MESH:D015663
+    -   key: negatively regulates
+        source: MESH:D002118
+        target: GO:0035898
+    -   key: positively correlated with
+        source: GO:0035898
+        target: MESH:D002112
+    -   key: has active ingredient
+        source: MESH:D002112
+        target: MESH:D002117
+    -   key: positively regulates
+        source: MESH:D002117
+        target: GO:0045453
+    -   key: contributes to
+        source: GO:0045453
+        target: HP:0004349
+    -   key: manifestation of
+        source: HP:0004349
+        target: MESH:D015663
+    multigraph: true
+    nodes:
+    -   id: MESH:C020243
+        label: Drug
+        name: calcium phosphate
+    -   id: MESH:D002118
+        label: ChemicalSubstance
+        name: Calcium
+    -   id: MESH:D010710
+        label: ChemicalSubstance
+        name: Phosphates
+    -   id: GO:0035898
+        label: BiologicalProcess
+        name: parathyroid hormone secretion
+    -   id: MESH:D002112
+        label: ChemicalSubstance
+        name: Calcifediol
+    -   id: MESH:D002117
+        label: ChemicalSubstance
+        name: Calcitriol
+    -   id: GO:0045453
+        label: BiologicalProcess
+        name: bone resorption
+    -   id: HP:0004349
+        label: PhenotypicFeature
+        name: Reduced bone mineral density
+    -   id: MESH:D015663
+        label: Disease
+        name: Osteoporosis, Postmenopausal
+    reference: 
+    -   https://go.drugbank.com/drugs/DB11348#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Osteoporosis
+-   comment: Fosphenytoin is a prodrug of phenytoin used for the treatment of epileptic seizures.
+    directed: true
+    graph:
+        _id: DB01320_MESH_D004827_1
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: fosphenytoin
+        drug_mesh: MESH:C043114
+        drugbank: DB:DB01320
+    links:
+    -   key: has metabolite
+        source: MESH:C043114
+        target: MESH:D010672
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: HP:0001250
+    -   key: manifestation of
+        source: HP:0001250
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:C043114
+        label: Drug
+        name: fosphenytoin
+    -   id: MESH:D010672
+        label: ChemicalSubstance
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference:
+    -   https://go.drugbank.com/drugs/DB01320#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Epilepsy
+-   comment: Fosphenytoin is a prodrug of phenytoin used for the treatment of epileptic seizures.
+    directed: true
+    graph:
+        _id: DB01320_MESH_D013226_1
+        disease: Status Epilepticus
+        disease_mesh: MESH:D013226
+        drug: fosphenytoin
+        drug_mesh: MESH:C043114
+        drugbank: DB:DB01320
+    links:
+    -   key: has metabolite
+        source: MESH:C043114
+        target: MESH:D010672
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: HP:0001250
+    -   key: positively correlated with
+        source: HP:0001250
+        target: MESH:D013226
+    multigraph: true
+    nodes:
+    -   id: MESH:C043114
+        label: Drug
+        name: fosphenytoin
+    -   id: MESH:D010672
+        label: ChemicalSubstance
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D013226
+        label: Disease
+        name: Status Epilepticus
+    reference:
+    -   https://go.drugbank.com/drugs/DB01320#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Status_epilepticus
+-   directed: true
+    graph:
+        _id: DB00996_MESH_D051474_1
+        disease: Neuralgia, Postherpetic
+        disease_mesh: MESH:D051474
+        drug: Gabapentin
+        drug_mesh: MESH:D000077206
+        drugbank: DB:DB00996
+    links:
+    -   key: decreases activity of
+        source: MESH:D000077206
+        target: UniProt:P54289
+    -   key: participates in
+        source: UniProt:P54289
+        target: GO:0005245
+    -   key: increases abundance of
+        source: GO:0005245
+        target: MESH:D013373
+    -   key: positively correlated with
+        source: MESH:D013373
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012534
+    -   key: positively correlated with
+        source: HP:0012534
+        target: MESH:D051474
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077206
+        label: Drug
+        name: Gabapentin
+    -   id: UniProt:P54289
+        label: Protein
+        name: Voltage-dependent calcium channel subunit alpha-2/delta-1
+    -   id: GO:0005245
+        label: MolecularActivity
+        name: voltage-gated calcium channel activity
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012534
+        label: PhenotypicFeature
+        name: Dysesthesia
+    -   id: MESH:D051474
+        label: Disease
+        name: Neuralgia, Postherpetic
+    reference: 
+    -   https://go.drugbank.com/drugs/DB00996#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Gabapentin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P54289#function
+    -   https://pubmed.ncbi.nlm.nih.gov/10621952/
+    -   https://en.wikipedia.org/wiki/Postherpetic_neuralgia
+-   directed: true
+    graph:
+        _id: DB00996_MESH_D012148_1
+        disease: Restless Legs Syndrome
+        disease_mesh: MESH:D012148
+        drug: Gabapentin
+        drug_mesh: MESH:D000077206
+        drugbank: DB:DB00996
+    links:
+    -   key: decreases activity of
+        source: MESH:D000077206
+        target: UniProt:P54289
+    -   key: positively regulates
+        source: UniProt:P54289
+        target: GO:0006936
+    -   key: positively correlated with
+        source: GO:0006936
+        target: HP:0012531
+    -   key: positively correlated with
+        source: HP:0012531
+        target: MESH:D012148
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077206
+        label: Drug
+        name: Gabapentin
+    -   id: UniProt:P54289
+        label: Protein
+        name: Voltage-dependent calcium channel subunit alpha-2/delta-1
+    -   id: GO:0006936
+        label: BiologicalProcess
+        name: muscle contraction
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D012148
+        label: Disease
+        name: Restless Legs Syndrome
+    reference: 
+    -   https://go.drugbank.com/drugs/DB00996#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Gabapentin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P54289#function
+    -   https://en.wikipedia.org/wiki/Restless_legs_syndrome
+-   directed: true
+    graph:
+        _id: DB00996_MESH_D012148_2
+        disease: Restless Legs Syndrome
+        disease_mesh: MESH:D012148
+        drug: Gabapentin
+        drug_mesh: MESH:D000077206
+        drugbank: DB:DB00996
+    links:
+    -   key: decreases activity of
+        source: MESH:D000077206
+        target: UniProt:P54289
+    -   key: participates in
+        source: UniProt:P54289
+        target: GO:0005245
+    -   key: increases abundance of
+        source: GO:0005245
+        target: MESH:D013373
+    -   key: positively correlated with
+        source: MESH:D013373
+        target: GO:0019233
+    -   key: positively correlated with
+        source: GO:0019233
+        target: HP:0012531
+    -   key: positively correlated with
+        source: HP:0012531
+        target: MESH:D012148
+    multigraph: true
+    nodes:
+    -   id: MESH:D000077206
+        label: Drug
+        name: Gabapentin
+    -   id: UniProt:P54289
+        label: Protein
+        name: Voltage-dependent calcium channel subunit alpha-2/delta-1
+    -   id: GO:0005245
+        label: MolecularActivity
+        name: voltage-gated calcium channel activity
+    -   id: MESH:D013373
+        label: ChemicalSubstance
+        name: Substance P
+    -   id: GO:0019233
+        label: BiologicalProcess
+        name: sensory perception of pain
+    -   id: HP:0012531
+        label: PhenotypicFeature
+        name: Pain
+    -   id: MESH:D012148
+        label: Disease
+        name: Restless Legs Syndrome
+    reference: 
+    -   https://go.drugbank.com/drugs/DB00996#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Gabapentin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P54289#function
+    -   https://pubmed.ncbi.nlm.nih.gov/10621952/
+    -   https://en.wikipedia.org/wiki/Restless_legs_syndrome
+-   comment: Iproniazid is withdrawn in USA due to interactions with tyrosine in food products.
+    directed: true
+    graph:
+        _id: DB04818_MESH_D003866_1
+        disease: Depressive Disorder
+        disease_mesh: MESH:D003866
+        drug: Iproniazid
+        drug_mesh: MESH:D007490
+        drugbank: DB:DB04818
+    links:
+    -   key: decreases activity of
+        source: MESH:D007490
+        target: UniProt:P21397
+    -   key: decreases activity of
+        source: MESH:D007490
+        target: UniProt:P27338
+    -   key: has metabolite
+        source: MESH:D007490
+        target: MESH:C044821
+    -   key: decreases activity of
+        source: MESH:C044821
+        target: UniProt:P21397
+    -   key: decreases activity of
+        source: MESH:C044821
+        target: UniProt:P27338
+    -   key: positively regulates
+        source: UniProt:P21397
+        target: GO:0042429
+    -   key: positively regulates
+        source: UniProt:P21397
+        target: GO:0042420
+    -   key: positively regulates
+        source: UniProt:P27338
+        target: GO:0042420
+    -   key: decreases abundance of
+        source: GO:0042429
+        target: MESH:D012701
+    -   key: decreases abundance of
+        source: GO:0042420
+        target: MESH:D004298
+    -   key: negatively correlated with
+        source: MESH:D012701
+        target: HP:0000716
+    -   key: negatively correlated with
+        source: MESH:D004298
+        target: HP:0000716
+    -   key: manifestation of
+        source: HP:0000716
+        target: MESH:D003866
+    multigraph: true
+    nodes:
+    -   id: MESH:D007490
+        label: Drug
+        name: Iproniazid
+    -   id: UniProt:P21397
+        label: Protein
+        name: Amine oxidase [flavin-containing] A
+    -   id: UniProt:P27338
+        label: Protein
+        name: Amine oxidase [flavin-containing] B
+    -   id: MESH:C044821
+        label: ChemicalSubstance
+        name: 1-isopropylhydrazine
+    -   id: GO:0042429
+        label: BiologicalProcess
+        name: serotonin catabolic process
+    -   id: GO:0042420
+        label: BiologicalProcess
+        name: dopamine catabolic process
+    -   id: MESH:D012701
+        label: ChemicalSubstance
+        name: Serotonin
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: HP:0000716
+        label: PhenotypicFeature
+        name: Depression
+    -   id: MESH:D003866
+        label: Disease
+        name: Depressive Disorder
+    reference: 
+    -   https://go.drugbank.com/drugs/DB04818#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Iproniazid#Reactions_and_mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Monoamine_oxidase_inhibitor#Mechanism_of_action
+    -   https://www.uniprot.org/uniprot/P21397#function
+    -   https://www.uniprot.org/uniprot/P27338#function
+    -   https://en.wikipedia.org/wiki/Depression_(mood)
+    -   https://en.wikipedia.org/wiki/Major_depressive_disorder
+-   directed: true
+    graph:
+        _id: DB01421_MESH_D006501_1
+        disease: Hepatic Encephalopathy
+        disease_mesh: MESH:D006501
+        drug: Paromomycin
+        drug_mesh: MESH:D010303
+        drugbank: DB:DB01421
+    links:
+    -   key: negatively regulates
+        source: MESH:D010303
+        target: MESH:D012336
+    -   key: part of
+        source: MESH:D012336
+        target: GO:0044391
+    -   key: positively regulates
+        source: GO:0044391
+        target: GO:0006412
+    -   key: in taxon
+        source: GO:0006412
+        target: NCBITaxon:2
+    -   key: causes
+        source: NCBITaxon:2
+        target: MESH:D006501
+    multigraph: true
+    nodes:
+    -   id: MESH:D010303
+        label: Drug
+        name: Paromomycin
+    -   id: MESH:D012336
+        label: ChemicalSubstance
+        name: RNA, Ribosomal, 16S
+    -   id: GO:0044391
+        label: CellularComponent
+        name: ribosomal subunit
+    -   id: GO:0006412
+        label: BiologicalProcess
+        name: translation
+    -   id: NCBITaxon:2
+        label: OrganismTaxon
+        name: Bacteria
+    -   id: MESH:D006501
+        label: Disease
+        name: Hepatic Encephalopathy
+    reference: 
+    -   https://go.drugbank.com/drugs/DB01421#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Hepatic_encephalopathy
+-   comment: Perindopril is a nonsulfhydryl prodrug of perindoprilat, which is used to treat hypertension.
+    directed: true
+    graph:
+        _id: DB00790_MESH_D006973_1
+        disease: Hypertension
+        disease_mesh: MESH:D006973
+        drug: Perindopril
+        drug_mesh: MESH:D020913
+        drugbank: DB:DB00790
+    links:
+    -   key: has metabolite
+        source: MESH:D020913
+        target: MESH:C053500
+    -   key: decreases activity of
+        source: MESH:C053500
+        target: UniProt:P12821
+    -   key: produces
+        source: UniProt:P12821
+        target: MESH:D000804
+    -   key: positively regulates
+        source: MESH:D000804
+        target: GO:0042310
+    -   key: contributes to
+        source: GO:0042310
+        target: HP:0032263
+    -   key: positively correlated with
+        source: HP:0032263
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D020913
+        label: Drug
+        name: Perindopril
+    -   id: MESH:C053500
+        label: ChemicalSubstance
+        name: perindoprilat
+    -   id: UniProt:P12821
+        label: Protein
+        name: Angiotensin-converting enzyme
+    -   id: MESH:D000804
+        label: ChemicalSubstance
+        name: Angiotensin II
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: vasoconstriction
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertension
+    reference:
+    -   https://go.drugbank.com/drugs/DB00790#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Perindopril
+    -   https://www.uniprot.org/uniprot/P12821#function
+    -   https://en.wikipedia.org/wiki/Hypertension
+-   directed: true
+    graph:
+        _id: DB00252_MESH_D004828_1
+        disease: Epilepsies, Partial
+        disease_mesh: MESH:D004828
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: HP:0001250
+    -   key: positively correlated with
+        source: HP:0001250
+        target: MESH:D004828
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004828
+        label: Disease
+        name: Epilepsies, Partial
+    reference:
+    -   https://go.drugbank.com/drugs/DB00252#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Focal_seizure
+-   directed: true
+    graph:
+        _id: DB00252_MESH_D004827_1
+        disease: Epilepsy
+        disease_mesh: MESH:D004827
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: HP:0001250
+    -   key: manifestation of
+        source: HP:0001250
+        target: MESH:D004827
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004827
+        label: Disease
+        name: Epilepsy
+    reference:
+    -   https://go.drugbank.com/drugs/DB00252#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Epilepsy
+-   directed: true
+    graph:
+        _id: DB00252_MESH_D004830_1
+        disease: Epilepsy, Tonic-Clonic
+        disease_mesh: MESH:D004830
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: HP:0001250
+    -   key: positively correlated with
+        source: HP:0001250
+        target: MESH:D004830
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D004830
+        label: Disease
+        name: Epilepsy, Tonic-Clonic
+    reference:
+    -   https://go.drugbank.com/drugs/DB00252#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Generalized_tonic%E2%80%93clonic_seizure
+-   directed: true
+    graph:
+        _id: DB00252_MESH_D065768_1
+        disease: Lennox Gastaut Syndrome
+        disease_mesh: MESH:D065768
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: HP:0001250
+    -   key: manifestation of
+        source: HP:0001250
+        target: MESH:D065768
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D065768
+        label: Disease
+        name: Lennox Gastaut Syndrome
+    reference:
+    -   https://go.drugbank.com/drugs/DB00252#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Lennox%E2%80%93Gastaut_syndrome
+-   directed: true
+    graph:
+        _id: DB00252_MESH_D012640_1
+        disease: Seizures
+        disease_mesh: MESH:D012640
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: MESH:D012640
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: MESH:D012640
+        label: Disease
+        name: Seizures
+    reference:
+    -   https://go.drugbank.com/drugs/DB00252#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Seizure
+-   directed: true
+    graph:
+        _id: DB00252_MESH_D013226_1
+        disease: Status Epilepticus
+        disease_mesh: MESH:D013226
+        drug: Phenytoin
+        drug_mesh: MESH:D010672
+        drugbank: DB:DB00252
+    links:
+    -   key: decreases activity of
+        source: MESH:D010672
+        target: InterPro:IPR001696
+    -   key: positively regulates
+        source: InterPro:IPR001696
+        target: GO:0098870
+    -   key: contributes to
+        source: GO:0098870
+        target: HP:0001250
+    -   key: positively correlated with
+        source: HP:0001250
+        target: MESH:D013226
+    multigraph: true
+    nodes:
+    -   id: MESH:D010672
+        label: Drug
+        name: Phenytoin
+    -   id: InterPro:IPR001696
+        label: GeneFamily
+        name: Voltage gated sodium channel, alpha subunit
+    -   id: GO:0098870
+        label: BiologicalProcess
+        name: action potential propagation
+    -   id: HP:0001250
+        label: PhenotypicFeature
+        name: Seizure
+    -   id: MESH:D013226
+        label: Disease
+        name: Status Epilepticus
+    reference:
+    -   https://go.drugbank.com/drugs/DB00252#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Phenytoin#Mechanism_of_action
+    -   https://en.wikipedia.org/wiki/Status_epilepticus
+-   comment: Pipotiazine is under investigational in USA but approved in UK and other countries for schizophrenia.
+    directed: true
+    graph:
+        _id: DB01621_MESH_D012559_1
+        disease: Schizophrenia
+        disease_mesh: MESH:D012559
+        drug: Pipotiazine
+        drug_mesh: MESH:null
+        drugbank: DB:DB01621
+    links:
+    -   key: decreases activity of
+        source: DB:DB01621
+        target: InterPro:IPR000929
+    -   key: correlated with
+        source: InterPro:IPR000929
+        target: MESH:D004298
+    -   key: positively correlated with
+        source: MESH:D004298
+        target: HP:0000738
+    -   key: manifestation of
+        source: HP:0000738
+        target: MESH:D012559
+    multigraph: true
+    nodes:
+    -   id: DB:DB01621
+        label: Drug
+        name: Pipotiazine
+    -   id: InterPro:IPR000929
+        label: GeneFamily
+        name: Dopamine receptor family
+    -   id: MESH:D004298
+        label: ChemicalSubstance
+        name: Dopamine
+    -   id: HP:0000738
+        label: PhenotypicFeature
+        name: Hallucinations 
+    -   id: MESH:D012559
+        label: Disease
+        name: Schizophrenia
+    reference: 
+    -   https://go.drugbank.com/drugs/DB01621#mechanism-of-action
+    -   https://drugs.ncats.io/substances?q=%22PIPOTIAZINE%22
+    -   https://en.wikipedia.org/wiki/Schizophrenia
+-   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
+    directed: true
+    graph:
+        _id: DB00641_MESH_D001161_1
+        disease: Arteriosclerosis
+        disease_mesh: MESH:D001161
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: has metabolite
+        source: MESH:D019821
+        target: CHEBI:169041
+    -   key: decreases activity of
+        source: CHEBI:169041
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: located in
+        source: MESH:D002784
+        target: UBERON:0001637
+    -   key: location of
+        source: UBERON:0001637
+        target: MESH:D001161
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: CHEBI:169041
+        label: ChemicalSubstance
+        name: simvastatin hydroxy acid
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: UBERON:0001637
+        label: GrossAnatomicalStructure
+        name: artery
+    -   id: MESH:D001161
+        label: Disease
+        name: Arteriosclerosis
+    reference:
+    -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://www.mayoclinic.org/diseases-conditions/arteriosclerosis-atherosclerosis/symptoms-causes/syc-20350569
+    -   https://en.wikipedia.org/wiki/Arteriosclerosis
+-   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
+    directed: true
+    graph:
+        _id: DB00641_MESH_D006937_1
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: has metabolite
+        source: MESH:D019821
+        target: CHEBI:169041
+    -   key: decreases activity of
+        source: CHEBI:169041
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: CHEBI:169041
+        label: ChemicalSubstance
+        name: simvastatin hydroxy acid
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://en.wikipedia.org/wiki/Hypercholesterolemia
+-   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
+    directed: true
+    graph:
+        _id: DB00641_MESH_D006950_1
+        disease: Hyperlipidemia, Familial Combined
+        disease_mesh: MESH:D006950
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: has metabolite
+        source: MESH:D019821
+        target: CHEBI:169041
+    -   key: decreases activity of
+        source: CHEBI:169041
+        target: UniProt:P04035
+    -   key: increases activity of
+        source: CHEBI:169041
+        target: UniProt:P06858
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: positively regulates
+        source: UniProt:P06858
+        target: GO:0019433
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: decreases abundance of
+        source: GO:0019433
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006950
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D006950
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: CHEBI:169041
+        label: ChemicalSubstance
+        name: simvastatin hydroxy acid
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0019433
+        label: BiologicalProcess
+        name: triglyceride catabolic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D006950
+        label: Disease
+        name: Hyperlipidemia, Familial Combined
+    reference:
+    -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://www.uniprot.org/uniprot/P06858#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1760655/
+    -   https://en.wikipedia.org/wiki/Combined_hyperlipidemia
+-   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
+    directed: true
+    graph:
+        _id: DB00641_MESH_D006952_1
+        disease: Hyperlipoproteinemia Type III
+        disease_mesh: MESH:D006952
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: has metabolite
+        source: MESH:D019821
+        target: CHEBI:169041
+    -   key: decreases activity of
+        source: CHEBI:169041
+        target: UniProt:P04035
+    -   key: increases activity of
+        source: CHEBI:169041
+        target: UniProt:P06858
+    -   key: increases activity of
+        source: CHEBI:169041
+        target: UniProt:P02647
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: positively regulates
+        source: UniProt:P06858
+        target: GO:0019433
+    -   key: positively regulates
+        source: UniProt:P02647
+        target: GO:0034380
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: decreases abundance of
+        source: GO:0019433
+        target: MESH:D014280
+    -   key: increases abundance of
+        source: GO:0034380
+        target: MESH:D008076
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006952
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D006952
+    -   key: negatively correlated with
+        source: MESH:D008076
+        target: MESH:D006952
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: CHEBI:169041
+        label: ChemicalSubstance
+        name: simvastatin hydroxy acid
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: UniProt:P02647
+        label: Protein
+        name: Apolipoprotein A-I
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0019433
+        label: BiologicalProcess
+        name: triglyceride catabolic process
+    -   id: GO:0034380
+        label: BiologicalProcess
+        name: high-density lipoprotein particle assembly
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D008076
+        label: ChemicalSubstance
+        name: Cholesterol, HDL
+    -   id: MESH:D006952
+        label: Disease
+        name: Hyperlipoproteinemia Type III
+    reference:
+    -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P04035#function
+    -   https://www.uniprot.org/uniprot/P02647#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1760655/
+    -   https://en.wikipedia.org/wiki/Familial_dysbetalipoproteinemia
+-   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
+    directed: true
+    graph:
+        _id: DB00641_MESH_D015228_1
+        disease: Hypertriglyceridemia
+        disease_mesh: MESH:D015228
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: has metabolite
+        source: MESH:D019821
+        target: CHEBI:169041
+    -   key: increases activity of
+        source: CHEBI:169041
+        target: UniProt:P06858
+    -   key: positively regulates
+        source: UniProt:P06858
+        target: GO:0019433
+    -   key: decreases abundance of
+        source: GO:0019433
+        target: MESH:D014280
+    -   key: positively correlated with
+        source: MESH:D014280
+        target: MESH:D015228
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: CHEBI:169041
+        label: ChemicalSubstance
+        name: simvastatin hydroxy acid
+    -   id: UniProt:P06858
+        label: Protein
+        name: Lipoprotein lipase
+    -   id: GO:0019433
+        label: BiologicalProcess
+        name: triglyceride catabolic process
+    -   id: MESH:D014280
+        label: ChemicalSubstance
+        name: Triglycerides
+    -   id: MESH:D015228
+        label: Disease
+        name: Hypertriglyceridemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P06858#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1760655/
+    -   https://en.wikipedia.org/wiki/Hypertriglyceridemia
+-   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
+    directed: true
+    graph:
+        _id: DB00641_MESH_D052456_1
+        disease: Hypoalphalipoproteinemias
+        disease_mesh: MESH:D052456
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: has metabolite
+        source: MESH:D019821
+        target: CHEBI:169041
+    -   key: increases activity of
+        source: CHEBI:169041
+        target: UniProt:P02647
+    -   key: positively regulates
+        source: UniProt:P02647
+        target: GO:0034380
+    -   key: increases abundance of
+        source: GO:0034380
+        target: MESH:D008076
+    -   key: negatively correlated with
+        source: MESH:D008076
+        target: MESH:D052456
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: CHEBI:169041
+        label: ChemicalSubstance
+        name: simvastatin hydroxy acid
+    -   id: UniProt:P02647
+        label: Protein
+        name: Apolipoprotein A-I
+    -   id: GO:0034380
+        label: BiologicalProcess
+        name: high-density lipoprotein particle assembly
+    -   id: MESH:D008076
+        label: ChemicalSubstance
+        name: Cholesterol, HDL
+    -   id: MESH:D052456
+        label: Disease
+        name: Hypoalphalipoproteinemias
+    reference:
+    -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://www.uniprot.org/uniprot/P02647#function
+    -   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2493531/
+    -   https://en.wikipedia.org/wiki/Hypoalphalipoproteinemia
+-   comment: Simvastatin is a prodrug in which the 6-membered lactone ring of simvastatin is hydrolyzed to generate the simvastatin hydroxy acid (beta,delta-dihydroxy acid), an active metabolite in the body.
+    directed: true
+    graph:
+        _id: DB00641_MESH_D020521_1
+        disease: Stroke
+        disease_mesh: MESH:D020521
+        drug: Simvastatin
+        drug_mesh: MESH:D019821
+        drugbank: DB:DB00641
+    links:
+    -   key: has metabolite
+        source: MESH:D019821
+        target: CHEBI:169041
+    -   key: decreases activity of
+        source: CHEBI:169041
+        target: UniProt:P04035
+    -   key: positively regulates
+        source: UniProt:P04035
+        target: GO:0006695
+    -   key: increases abundance of
+        source: GO:0006695
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: HP:0002621
+    -   key: positively correlated with
+        source: HP:0002621
+        target: MESH:D020521
+    multigraph: true
+    nodes:
+    -   id: MESH:D019821
+        label: Drug
+        name: Simvastatin
+    -   id: CHEBI:169041
+        label: ChemicalSubstance
+        name: simvastatin hydroxy acid
+    -   id: UniProt:P04035
+        label: Protein
+        name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+    -   id: GO:0006695
+        label: BiologicalProcess
+        name: cholesterol biosynthetic process
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: HP:0002621
+        label: PhenotypicFeature
+        name: Atherosclerosis
+    -   id: MESH:D020521
+        label: Disease
+        name: Stroke
+    reference:
+    -   https://go.drugbank.com/drugs/DB00641#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Simvastatin#Pharmacology
+    -   https://en.wikipedia.org/wiki/Stroke
+-   comment: The drug, tofogliflozin is under investigational.
+    directed: true
+    graph:
+        _id: DB11824_MESH_D003924_1
+        disease: Diabetes Mellitus, Type 2
+        disease_mesh: MESH:D003924
+        drug: Tofogliflozin
+        drug_mesh: MESH:C575086
+        drugbank: DB:DB11824
+    links:
+    -   key: decreases activity of
+        source: DB:DB11824
+        target: UniProt:P31639
+    -   key: positively regulates
+        source: UniProt:P31639
+        target: GO:0035623
+    -   key: correlated with
+        source: GO:0035623
+        target: MESH:D001786
+    -   key: positively correlated with
+        source: MESH:D001786
+        target: MESH:D003924
+    multigraph: true
+    nodes:
+    -   id: DB:DB11824
+        label: Drug
+        name: Tofogliflozin
+    -   id: UniProt:P31639
+        label: Protein
+        name: Sodium/glucose cotransporter 2
+    -   id: GO:0035623
+        label: BiologicalProcess
+        name: renal glucose absorption
+    -   id: MESH:D001786
+        label: ChemicalSubstance
+        name: Blood Glucose
+    -   id: MESH:D003924
+        label: Disease
+        name: Diabetes Mellitus, Type 2
+    reference: 
+    -   https://go.drugbank.com/drugs/DB11824#mechanism-of-action
+    -   https://drugs.ncats.io/substances?q=%22TOFOGLIFLOZIN%22
+    -   https://en.wikipedia.org/wiki/Tofogliflozin
+    -   https://www.uniprot.org/uniprot/P31639#function
+    -   https://en.wikipedia.org/wiki/Type_2_diabetes
