@@ -7,7 +7,7 @@
         drug_mesh: MESH:null
         drugbank: DB:DB06768
     links:
-    -   key: capable of
+    -   key: part of
         source: DB:DB06768
         target: MESH:D058427
     -   key: negatively regulates
@@ -48,7 +48,7 @@
         drug_mesh: MESH:null
         drugbank: DB:DB06768
     links:
-    -   key: capable of
+    -   key: part of
         source: DB:DB06768
         target: MESH:D058427
     -   key: negatively regulates
@@ -89,7 +89,7 @@
         drug_mesh: MESH:null
         drugbank: DB:DB06768
     links:
-    -   key: capable of
+    -   key: part of
         source: DB:DB06768
         target: MESH:D058427
     -   key: negatively regulates
@@ -130,7 +130,7 @@
         drug_mesh: MESH:null
         drugbank: DB:DB06768
     links:
-    -   key: capable of
+    -   key: part of
         source: DB:DB06768
         target: MESH:D058427
     -   key: negatively regulates
@@ -171,7 +171,7 @@
         drug_mesh: MESH:null
         drugbank: DB:DB06768
     links:
-    -   key: capable of
+    -   key: part of
         source: DB:DB06768
         target: MESH:D058427
     -   key: negatively regulates
@@ -212,7 +212,7 @@
         drug_mesh: MESH:null
         drugbank: DB:DB06768
     links:
-    -   key: capable of
+    -   key: part of
         source: DB:DB06768
         target: MESH:D058427
     -   key: negatively regulates
@@ -253,7 +253,7 @@
         drug_mesh: MESH:null
         drugbank: DB:DB06768
     links:
-    -   key: capable of
+    -   key: part of
         source: DB:DB06768
         target: MESH:D058427
     -   key: negatively regulates
@@ -315,8 +315,11 @@
     -   key: increases abundance of
         source: GO:0001516
         target: MESH:D011453
-    -   key: causes
+    -   key: contributes to
         source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
         target: HP:0012531
     -   key: positively correlated with
         source: HP:0012531
@@ -338,6 +341,9 @@
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
     -   id: HP:0012531
         label: PhenotypicFeature
         name: Pain
@@ -547,8 +553,11 @@
     -   key: increases abundance of
         source: GO:0001516
         target: MESH:D011453
-    -   key: causes
+    -   key: contributes to
         source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
         target: HP:0012531
     -   key: positively correlated with
         source: HP:0012531
@@ -570,6 +579,9 @@
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
     -   id: HP:0012531
         label: PhenotypicFeature
         name: Pain
@@ -605,8 +617,11 @@
     -   key: increases abundance of
         source: GO:0001516
         target: MESH:D011453
-    -   key: causes
+    -   key: contributes to
         source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
         target: HP:0012531
     -   key: positively correlated with
         source: HP:0012531
@@ -628,6 +643,9 @@
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
     -   id: HP:0012531
         label: PhenotypicFeature
         name: Pain
@@ -785,8 +803,11 @@
     -   key: increases abundance of
         source: GO:0001516
         target: MESH:D011453
-    -   key: causes
+    -   key: contributes to
         source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
         target: MESH:D010146
     multigraph: true
     nodes:
@@ -805,6 +826,9 @@
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
     -   id: MESH:D010146
         label: Disease
         name: Pain
@@ -837,8 +861,11 @@
     -   key: increases abundance of
         source: GO:0001516
         target: MESH:D011453
-    -   key: causes
+    -   key: contributes to
         source: MESH:D011453
+        target: GO:0006954
+    -   key: causes
+        source: GO:0006954
         target: HP:0012531
     -   key: positively correlated with
         source: HP:0012531
@@ -860,6 +887,9 @@
     -   id: MESH:D011453
         label: ChemicalSubstance
         name: Prostaglandins
+    -   id: GO:0006954
+        label: BiologicalProcess
+        name: inflammatory response
     -   id: HP:0012531
         label: PhenotypicFeature
         name: Pain
@@ -880,14 +910,11 @@
         drug_mesh: MESH:D005492
         drugbank: DB:DB00158
     links:
-    -   key: enabled by
+    -   key: response increased by
         source: MESH:D005492
         target: UniProt:P00374
     -   key: positively regulates
         source: UniProt:P00374
-        target: GO:0019432
-    -   key: positively correlated with
-        source: GO:0019432
         target: GO:0006164
     -   key: occurs in
         source: GO:0006164
@@ -906,9 +933,6 @@
     -   id: UniProt:P00374
         label: Protein
         name: Dihydrofolate reductase
-    -   id: GO:0019432
-        label: BiologicalProcess
-        name: triglyceride biosynthetic process
     -   id: GO:0006164
         label: BiologicalProcess
         name: purine nucleotide biosynthetic process
@@ -923,6 +947,7 @@
         name: Anemia, Iron-Deficiency
     reference:
     -   https://go.drugbank.com/drugs/DB00158#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P00374#function
     -   https://en.wikipedia.org/wiki/Iron-deficiency_anemia
 -   directed: true
     graph:
@@ -933,7 +958,7 @@
         drug_mesh: MESH:D005492
         drugbank: DB:DB00158
     links:
-    -   key: enabled by
+    -   key: response increased by
         source: MESH:D005492
         target: UniProt:P00374
     -   key: positively regulates
@@ -944,6 +969,9 @@
         target: MESH:D013763
     -   key: negatively correlated with
         source: MESH:D013763
+        target: HP:0001889
+    -   key: positively correlated with
+        source: HP:0001889
         target: MESH:D001361
     multigraph: true
     nodes:
@@ -959,11 +987,15 @@
     -   id: MESH:D013763
         label: ChemicalSubstance
         name: Tetrahydrofolates
+    -   id: HP:0001889
+        label: PhenotypicFeature
+        name: Megaloblastic anemia
     -   id: MESH:D001361
         label: Disease
         name: Avitaminosis
     reference:
     -   https://go.drugbank.com/drugs/DB00158#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P00374#function
     -   https://en.wikipedia.org/wiki/Vitamin_deficiency
 -   directed: true
     graph:
@@ -974,7 +1006,7 @@
         drug_mesh: MESH:D005492
         drugbank: DB:DB00158
     links:
-    -   key: enabled by
+    -   key: response increased by
         source: MESH:D005492
         target: UniProt:P00374
     -   key: positively regulates
@@ -985,6 +1017,9 @@
         target: MESH:D013763
     -   key: negatively correlated with
         source: MESH:D013763
+        target: HP:0001889
+    -   key: manifestation of
+        source: HP:0001889
         target: MESH:D005494
     multigraph: true
     nodes:
@@ -1000,11 +1035,15 @@
     -   id: MESH:D013763
         label: ChemicalSubstance
         name: Tetrahydrofolates
+    -   id: HP:0001889
+        label: PhenotypicFeature
+        name: Megaloblastic anemia
     -   id: MESH:D005494
         label: Disease
         name: Folic Acid Deficiency
     reference:
     -   https://go.drugbank.com/drugs/DB00158#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P00374#function
     -   https://en.wikipedia.org/wiki/Folate_deficiency
 -   directed: true
     graph:
@@ -1063,6 +1102,9 @@
     -   key: decreases activity of
         source: CHEBI:80613
         target: InterPro:IPR005990
+    -   key: disrupts
+        source: CHEBI:80613
+        target: MESH:D004247
     -   key: positively regulates
         source: UniProt:P00492
         target: GO:0006164
@@ -1075,6 +1117,9 @@
     -   key: positively correlated with
         source: GO:0006164
         target: GO:0016049
+    -   key: located in
+        source: MESH:D004247
+        target: CL:0001063
     -   key: occurs in
         source: GO:0016049
         target: CL:0001063
@@ -1098,6 +1143,9 @@
     -   id: InterPro:IPR005990
         label: GeneFamily
         name: Inosine-5'-monophosphate dehydrogenase
+    -   id: MESH:D004247
+        label: ChemicalSubstance
+        name: DNA
     -   id: GO:0006164
         label: BiologicalProcess
         name: purine nucleotide biosynthetic process
