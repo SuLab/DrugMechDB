@@ -910,11 +910,11 @@
         drug_mesh: MESH:D005492
         drugbank: DB:DB00158
     links:
-    -   key: response increased by
+    -   key: has metabolite
         source: MESH:D005492
-        target: UniProt:P00374
+        target: MESH:D013763
     -   key: positively regulates
-        source: UniProt:P00374
+        source: MESH:D013763
         target: GO:0006164
     -   key: occurs in
         source: GO:0006164
@@ -930,9 +930,9 @@
     -   id: MESH:D005492
         label: Drug
         name: Folic Acid
-    -   id: UniProt:P00374
-        label: Protein
-        name: Dihydrofolate reductase
+    -   id: MESH:D013763
+        label: ChemicalSubstance
+        name: Tetrahydrofolates
     -   id: GO:0006164
         label: BiologicalProcess
         name: purine nucleotide biosynthetic process
@@ -947,7 +947,6 @@
         name: Anemia, Iron-Deficiency
     reference:
     -   https://go.drugbank.com/drugs/DB00158#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P00374#function
     -   https://en.wikipedia.org/wiki/Iron-deficiency_anemia
 -   directed: true
     graph:
@@ -958,14 +957,8 @@
         drug_mesh: MESH:D005492
         drugbank: DB:DB00158
     links:
-    -   key: response increased by
+    -   key: has metabolite
         source: MESH:D005492
-        target: UniProt:P00374
-    -   key: positively regulates
-        source: UniProt:P00374
-        target: GO:0019432
-    -   key: increases abundance of
-        source: GO:0019432
         target: MESH:D013763
     -   key: negatively correlated with
         source: MESH:D013763
@@ -978,12 +971,6 @@
     -   id: MESH:D005492
         label: Drug
         name: Folic Acid
-    -   id: UniProt:P00374
-        label: Protein
-        name: Dihydrofolate reductase
-    -   id: GO:0019432
-        label: BiologicalProcess
-        name: triglyceride biosynthetic process
     -   id: MESH:D013763
         label: ChemicalSubstance
         name: Tetrahydrofolates
@@ -995,7 +982,6 @@
         name: Avitaminosis
     reference:
     -   https://go.drugbank.com/drugs/DB00158#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P00374#function
     -   https://en.wikipedia.org/wiki/Vitamin_deficiency
 -   directed: true
     graph:
@@ -1006,14 +992,8 @@
         drug_mesh: MESH:D005492
         drugbank: DB:DB00158
     links:
-    -   key: response increased by
+    -   key: has metabolite
         source: MESH:D005492
-        target: UniProt:P00374
-    -   key: positively regulates
-        source: UniProt:P00374
-        target: GO:0019432
-    -   key: increases abundance of
-        source: GO:0019432
         target: MESH:D013763
     -   key: negatively correlated with
         source: MESH:D013763
@@ -1026,12 +1006,6 @@
     -   id: MESH:D005492
         label: Drug
         name: Folic Acid
-    -   id: UniProt:P00374
-        label: Protein
-        name: Dihydrofolate reductase
-    -   id: GO:0019432
-        label: BiologicalProcess
-        name: triglyceride biosynthetic process
     -   id: MESH:D013763
         label: ChemicalSubstance
         name: Tetrahydrofolates
@@ -1043,7 +1017,6 @@
         name: Folic Acid Deficiency
     reference:
     -   https://go.drugbank.com/drugs/DB00158#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/P00374#function
     -   https://en.wikipedia.org/wiki/Folate_deficiency
 -   directed: true
     graph:
