@@ -430,33 +430,21 @@
         target: MESH:D009569
     -   key: increases activity of
         source: MESH:D009569
-        target: UniProt:Q02108
+        target: UniProt:P16066
+    -   key: increases abundance of
+        source: UniProt:P16066
+        target: MESH:D006152
     -   key: increases activity of
-        source: MESH:D009569
-        target: UniProt:Q02153
-    -   key: increases abundance of
-        source: UniProt:Q02108
-        target: MESH:D006152
-    -   key: increases abundance of
-        source: UniProt:Q02153
-        target: MESH:D006152
-    -   key: positively regulates
         source: MESH:D006152
-        target: GO:0004672
-    -   key: increases abundance of
-        source: GO:0004672
-        target: CHEBI:39124
-    -   key: causes
-        source: CHEBI:39124
+        target: UniProt:Q13976
+    -   key: regulates
+        source: UniProt:Q13976
+        target: GO:0050115
+    -   key: positively regulates
+        source: GO:0050115
         target: GO:0044557
-    -   key: causes
-        source: CHEBI:39124
-        target: GO:0042311
     -   key: negatively correlated with
         source: GO:0044557
-        target: MESH:D000787
-    -   key: negatively correlated with
-        source: GO:0042311
         target: MESH:D000787
     multigraph: true
     nodes:
@@ -466,34 +454,29 @@
     -   id: MESH:D009569
         label: ChemicalSubstance
         name: Nitric Oxide
-    -   id: UniProt:Q02108
+    -   id: UniProt:P16066
         label: Protein
-        name: Guanylate cyclase soluble subunit alpha-1
-    -   id: UniProt:Q02153
-        label: Protein
-        name: Guanylate cyclase soluble subunit beta-1
+        name: Atrial natriuretic peptide receptor 1
     -   id: MESH:D006152
         label: ChemicalSubstance
         name: Cyclic GMP
-    -   id: GO:0004672
+    -   id: UniProt:Q13976
+        label: Protein
+        name: cGMP-dependent protein kinase 1
+    -   id: GO:0050115
         label: MolecularActivity
-        name: protein kinase activity
-    -   id: CHEBI:39124
-        label: ChemicalSubstance
-        name: calcium ion
+        name: myosin-light-chain-phosphatase activity
     -   id: GO:0044557
         label: BiologicalProcess
         name: relaxation of smooth muscle
-    -   id: GO:0042311
-        label: BiologicalProcess
-        name: vasodilation
     -   id: MESH:D000787
         label: Disease
         name: Angina Pectoris
     reference:
     -   https://go.drugbank.com/drugs/DB00883#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/Q02108#function
-    -   https://www.uniprot.org/uniprot/Q02153#function
+    -   https://www.uniprot.org/uniprot/P16066#function
+    -   https://www.uniprot.org/uniprot/Q13976#function
+    -   https://en.wikipedia.org/wiki/Myosin-light-chain_phosphatase
     -   https://en.wikipedia.org/wiki/Angina
 -   directed: true
     graph:
@@ -504,10 +487,10 @@
         drug_mesh: MESH:C417083
         drugbank: DB:DB00022
     links:
-    -   key: decreases activity of
+    -   key: increases activity of
         source: MESH:C417083
         target: UniProt:P17181
-    -   key: decreases activity of
+    -   key: increases activity of
         source: MESH:C417083
         target: UniProt:P48551
     -   key: positively regulates
@@ -516,14 +499,11 @@
     -   key: positively regulates
         source: UniProt:P48551
         target: REACT:R-HSA-8950505
-    -   key: increases activity of
+    -   key: positively regulates
         source: REACT:R-HSA-8950505
         target: GO:0140374
-    -   key: prevents
+    -   key: caused by
         source: GO:0140374
-        target: GO:0008283
-    -   key: in taxon
-        source: GO:0008283
         target: NCBITaxon:11103
     -   key: causes
         source: NCBITaxon:11103
@@ -545,9 +525,6 @@
     -   id: GO:0140374
         label: BiologicalProcess
         name: antiviral innate immune response
-    -   id: GO:0008283
-        label: BiologicalProcess
-        name: cell population proliferation
     -   id: NCBITaxon:11103
         label: OrganismTaxon
         name: Hepacivirus C
@@ -623,20 +600,8 @@
     -   key: molecularly interacts with
         source: MESH:D012256
         target: UniProt:Q969G6
-    -   key: molecularly interacts with
-        source: MESH:D012256
-        target: UniProt:Q8NFF5
-    -   key: molecularly interacts with
-        source: MESH:D012256
-        target: UniProt:P30043
     -   key: positively regulates
         source: UniProt:Q969G6
-        target: GO:0009398
-    -   key: positively regulates
-        source: UniProt:Q8NFF5
-        target: GO:0009398
-    -   key: positively regulates
-        source: UniProt:P30043
         target: GO:0009398
     -   key: increases abundance of
         source: GO:0009398
@@ -655,12 +620,6 @@
     -   id: UniProt:Q969G6
         label: Protein
         name: Riboflavin kinase
-    -   id: UniProt:Q8NFF5
-        label: Protein
-        name: FAD synthase
-    -   id: UniProt:P30043
-        label: Protein
-        name: Flavin reductase (NADPH)
     -   id: GO:0009398
         label: BiologicalProcess
         name: FMN biosynthetic process
@@ -676,8 +635,6 @@
     reference:
     -   https://go.drugbank.com/drugs/DB00140#mechanism-of-action
     -   https://www.uniprot.org/uniprot/Q969G6#function
-    -   https://www.uniprot.org/uniprot/Q8NFF5#function
-    -   https://www.uniprot.org/uniprot/P30043#function
     -   https://en.wikipedia.org/wiki/Vitamin_deficiency
 -   directed: true
     graph:
@@ -865,15 +822,15 @@
     links:
     -   key: molecularly interacts with
         source: MESH:C401859
-        target: UniProt:P68106
+        target: UniProt:P62942
     -   key: negatively regulates
-        source: UniProt:P68106
+        source: UniProt:P62942
         target: UniProt:P42345
     -   key: positively regulates
         source: UniProt:P42345
-        target: GO:0016049
+        target: GO:0008283
     -   key: occurs in
-        source: GO:0016049
+        source: GO:0008283
         target: CL:0001063
     -   key: causes
         source: CL:0001063
@@ -883,15 +840,15 @@
     -   id: MESH:C401859
         label: Drug
         name: temsirolimus
-    -   id: UniProt:P68106
+    -   id: UniProt:P62942
         label: Protein
-        name: Peptidyl-prolyl cis-trans isomerase FKBP1B
+        name: Peptidyl-prolyl cis-trans isomerase FKBP1A
     -   id: UniProt:P42345
         label: Protein
         name: Serine/threonine-protein kinase mTOR
-    -   id: GO:0016049
+    -   id: GO:0008283
         label: BiologicalProcess
-        name: cell growth
+        name: cell population proliferation
     -   id: CL:0001063
         label: Cell
         name: neoplastic cell
@@ -901,7 +858,7 @@
     reference:
     -   https://go.drugbank.com/drugs/DB06287#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Temsirolimus#Mechanism_of_action
-    -   https://www.uniprot.org/uniprot/P68106#function
+    -   https://www.uniprot.org/uniprot/P62942#function
     -   https://www.uniprot.org/uniprot/P42345#function
     -   https://en.wikipedia.org/wiki/Renal_cell_carcinoma
 -   directed: true
@@ -915,15 +872,15 @@
     links:
     -   key: molecularly interacts with
         source: MESH:C401859
-        target: UniProt:P68106
+        target: UniProt:P62942
     -   key: negatively regulates
-        source: UniProt:P68106
+        source: UniProt:P62942
         target: UniProt:P42345
     -   key: positively regulates
         source: UniProt:P42345
-        target: GO:0016049
+        target: GO:0008283
     -   key: occurs in
-        source: GO:0016049
+        source: GO:0008283
         target: CL:0001063
     -   key: causes
         source: CL:0001063
@@ -933,15 +890,15 @@
     -   id: MESH:C401859
         label: Drug
         name: temsirolimus
-    -   id: UniProt:P68106
+    -   id: UniProt:P62942
         label: Protein
-        name: Peptidyl-prolyl cis-trans isomerase FKBP1B
+        name: Peptidyl-prolyl cis-trans isomerase FKBP1A
     -   id: UniProt:P42345
         label: Protein
         name: Serine/threonine-protein kinase mTOR
-    -   id: GO:0016049
+    -   id: GO:0008283
         label: BiologicalProcess
-        name: cell growth
+        name: cell population proliferation
     -   id: CL:0001063
         label: Cell
         name: neoplastic cell
@@ -951,7 +908,7 @@
     reference:
     -   https://go.drugbank.com/drugs/DB06287#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Temsirolimus#Mechanism_of_action
-    -   https://www.uniprot.org/uniprot/P68106#function
+    -   https://www.uniprot.org/uniprot/P62942#function
     -   https://www.uniprot.org/uniprot/P42345#function
     -   https://en.wikipedia.org/wiki/Mantle_cell_lymphoma
 -   directed: true
@@ -1031,17 +988,29 @@
     -   key: increases activity of
         source: MESH:D000077288
         target: UniProt:P37231
-    -   key: participates in
+    -   key: molecularly interacts with
         source: UniProt:P37231
-        target: GO:0042593
-    -   key: correlated with
-        source: GO:0042593
-        target: MESH:D007328
-    -   key: negatively correlated with
-        source: MESH:D007328
+        target: InterPro:IPR000003
+    -   key: positively regulates
+        source: InterPro:IPR000003
+        target: GO:0010467
+    -   key: participates in
+        source: GO:0010467
+        target: GO:0006006
+    -   key: participates in
+        source: GO:0010467
+        target: GO:0006631
+    -   key: negatively regulates
+        source: GO:0006006
         target: MESH:D001786
+    -   key: decreases abundance of
+        source: GO:0006631
+        target: MESH:D005227
     -   key: positively correlated with
         source: MESH:D001786
+        target: MESH:D003924
+    -   key: positively correlated with
+        source: MESH:D005227
         target: MESH:D003924
     multigraph: true
     nodes:
@@ -1051,20 +1020,30 @@
     -   id: UniProt:P37231
         label: Protein
         name: Peroxisome proliferator-activated receptor gamma
-    -   id: GO:0042593
+    -   id: InterPro:IPR000003
+        label: GeneFamily
+        name: Retinoid X receptor/HNF4
+    -   id: GO:0010467
         label: BiologicalProcess
-        name: glucose homeostasis
-    -   id: MESH:D007328
-        label: ChemicalSubstance
-        name: Insulin
+        name: gene expression
+    -   id: GO:0006006
+        label: BiologicalProcess
+        name: glucose metabolic process
+    -   id: GO:0006631
+        label: BiologicalProcess
+        name: fatty acid metabolic process
     -   id: MESH:D001786
         label: ChemicalSubstance
         name: Blood Glucose
+    -   id: MESH:D005227
+        label: ChemicalSubstance
+        name: Fatty Acids
     -   id: MESH:D003924
         label: Disease
         name: Diabetes Mellitus, Type 2
     reference:
     -   https://go.drugbank.com/drugs/DB00197#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Thiazolidinedione
     -   https://www.uniprot.org/uniprot/P37231#function
     -   https://en.wikipedia.org/wiki/Type_2_diabetes
 -   directed: true
@@ -1078,9 +1057,9 @@
     links:
     -   key: decreases activity of
         source: MESH:D014331
-        target: InterPro:IPR000995
+        target: UniProt:P20309
     -   key: positively regulates
-        source: InterPro:IPR000995
+        source: UniProt:P20309
         target: GO:0090075
     -   key: positively correlated with
         source: GO:0090075
@@ -1090,9 +1069,9 @@
     -   id: MESH:D014331
         label: Drug
         name: Tropicamide
-    -   id: InterPro:IPR000995
-        label: GeneFamily
-        name: Muscarinic acetylcholine receptor family
+    -   id: UniProt:P20309
+        label: Protein
+        name: Muscarinic acetylcholine receptor M3
     -   id: GO:0090075
         label: BiologicalProcess
         name: relaxation of muscle
@@ -1101,4 +1080,5 @@
         name: Mydriasis
     reference:
     -   https://go.drugbank.com/drugs/DB00809#mechanism-of-action
+    -   https://www.uniprot.org/uniprot/P20309#function
     -   https://en.wikipedia.org/wiki/Mydriasis
