@@ -991,26 +991,20 @@
     -   key: molecularly interacts with
         source: UniProt:P37231
         target: InterPro:IPR000003
-    -   key: positively regulates
+    -   key: increases activity of
         source: InterPro:IPR000003
-        target: GO:0010467
-    -   key: participates in
-        source: GO:0010467
-        target: GO:0006006
-    -   key: participates in
-        source: GO:0010467
-        target: GO:0006631
-    -   key: negatively regulates
-        source: GO:0006006
-        target: MESH:D001786
-    -   key: decreases abundance of
-        source: GO:0006631
-        target: MESH:D005227
-    -   key: positively correlated with
-        source: MESH:D001786
-        target: MESH:D003924
-    -   key: positively correlated with
-        source: MESH:D005227
+        target: UniProt:P15090
+    -   key: positively regulates
+        source: UniProt:P15090
+        target: GO:0060612
+    -   key: negatively correlated with
+        source: GO:0060612
+        target: MESH:D005230
+    -   key: contributes to
+        source: MESH:D005230
+        target: HP:0000855
+    -   key: manifestation of
+        source: HP:0000855
         target: MESH:D003924
     multigraph: true
     nodes:
@@ -1023,21 +1017,18 @@
     -   id: InterPro:IPR000003
         label: GeneFamily
         name: Retinoid X receptor/HNF4
-    -   id: GO:0010467
+    -   id: UniProt:P15090
+        label: Protein
+        name: Fatty acid-binding protein, adipocyte
+    -   id: GO:0060612
         label: BiologicalProcess
-        name: gene expression
-    -   id: GO:0006006
-        label: BiologicalProcess
-        name: glucose metabolic process
-    -   id: GO:0006631
-        label: BiologicalProcess
-        name: fatty acid metabolic process
-    -   id: MESH:D001786
+        name: adipose tissue development
+    -   id: MESH:D005230
         label: ChemicalSubstance
-        name: Blood Glucose
-    -   id: MESH:D005227
-        label: ChemicalSubstance
-        name: Fatty Acids
+        name: Fatty Acids, Nonesterified
+    -   id: HP:0000855
+        label: PhenotypicFeature
+        name: Insulin resistance
     -   id: MESH:D003924
         label: Disease
         name: Diabetes Mellitus, Type 2
@@ -1045,6 +1036,7 @@
     -   https://go.drugbank.com/drugs/DB00197#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Thiazolidinedione
     -   https://www.uniprot.org/uniprot/P37231#function
+    -   https://www.uniprot.org/uniprot/P15090#function
     -   https://en.wikipedia.org/wiki/Type_2_diabetes
 -   directed: true
     graph:
