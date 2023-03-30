@@ -10,10 +10,10 @@
     -   key: decreases activity of
         source: MESH:D000967
         target: UniProt:Q9NJG8
-    -   key: negatively regulates
+    -   key: decreases abundance of
         source: MESH:D000967
         target: MESH:D000255
-    -   key: negatively regulates
+    -   key: decreases abundance of
         source: MESH:D000967
         target: MESH:D006160
     -   key: positively regulates
@@ -22,29 +22,17 @@
     -   key: positively regulates
         source: UniProt:Q9NJG8
         target: GO:0006260
-    -   key: positively regulates
+    -   key: occurs in
         source: MESH:D000255
-        target: GO:0061621
-    -   key: positively regulates
-        source: MESH:D000255
-        target: GO:0006099
-    -   key: positively regulates
+        target: NCBITaxon:5661
+    -   key: occurs in
         source: MESH:D006160
-        target: GO:0006099
-    -   key: positively regulates
-        source: MESH:D006160
-        target: GO:0061621
+        target: NCBITaxon:5661
     -   key: occurs in
         source: GO:0009299
         target: NCBITaxon:5661
     -   key: occurs in
         source: GO:0006260
-        target: NCBITaxon:5661
-    -   key: occurs in
-        source: GO:0061621
-        target: NCBITaxon:5661
-    -   key: occurs in
-        source: GO:0006099
         target: NCBITaxon:5661
     -   key: causes
         source: NCBITaxon:5661
@@ -69,12 +57,6 @@
     -   id: GO:0006260
         label: BiologicalProcess
         name: DNA replication
-    -   id: GO:0061621
-        label: BiologicalProcess
-        name: canonical glycolysis
-    -   id: GO:0006099
-        label: BiologicalProcess
-        name: tricarboxylic acid cycle
     -   id: NCBITaxon:5661
         label: OrganismTaxon
         name: Leishmania donovani
@@ -84,6 +66,7 @@
     reference:
     -   https://go.drugbank.com/drugs/DB05630#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Sodium_stibogluconate#Mechanism_of_action
+    -   https://www.uniprot.org/uniprot/Q9NJG8#function
     -   https://en.wikipedia.org/wiki/Leishmaniasis
 -   directed: true
     graph:
@@ -94,11 +77,8 @@
         drug_mesh: MESH:D019817
         drugbank: DB:DB03793
     links:
-    -   key: has active ingredient
-        source: MESH:D019817
-        target: MESH:D020160
     -   key: molecularly interacts with
-        source: MESH:D020160
+        source: MESH:D019817
         target: MESH:D005998
     -   key: produces
         source: MESH:D005998
@@ -117,9 +97,6 @@
     -   id: MESH:D019817
         label: Drug
         name: Benzoic Acid
-    -   id: MESH:D020160
-        label: ChemicalSubstance
-        name: Sodium Benzoate
     -   id: MESH:D005998
         label: ChemicalSubstance
         name: Glycine
@@ -497,9 +474,9 @@
         target: GO:0006939
     -   key: occurs in
         source: GO:0006939
-        target: UBERON:0001605
+        target: UBERON:0005969
     -   key: location of
-        source: UBERON:0001605
+        source: UBERON:0005969
         target: HP:0007906
     -   key: contributes to
         source: HP:0007906
@@ -518,10 +495,9 @@
     -   id: GO:0006939
         label: BiologicalProcess
         name: smooth muscle contraction
-    -   id: UBERON:0001605
+    -   id: UBERON:0005969
         label: GrossAnatomicalStructure
-        name: ciliary muscle
-        name: smooth muscle contraction
+        name: eye trabecular meshwork
     -   id: HP:0007906
         label: PhenotypicFeature
         name: Ocular hypertension
@@ -557,9 +533,9 @@
         target: GO:0006939
     -   key: occurs in
         source: GO:0006939
-        target: UBERON:0001605
+        target: UBERON:0005969
     -   key: location of
-        source: UBERON:0001605
+        source: UBERON:0005969
         target: MESH:D009798
     multigraph: true
     nodes:
@@ -575,9 +551,9 @@
     -   id: GO:0006939
         label: BiologicalProcess
         name: smooth muscle contraction
-    -   id: UBERON:0001605
+    -   id: UBERON:0005969
         label: GrossAnatomicalStructure
-        name: ciliary muscle
+        name: eye trabecular meshwork
     -   id: MESH:D009798
         label: Disease
         name: Ocular Hypertension
@@ -605,20 +581,14 @@
     -   key: increases abundance of
         source: GO:0007190
         target: MESH:D000242
-    -   key: increases abundance of
-        source: GO:0007190
-        target: MESH:D017868
-    -   key: positively correlated with
-        source: MESH:D000242
-        target: MESH:D001993
-    -   key: positively correlated with
-        source: MESH:D017868
-        target: MESH:D001993
-    -   key: positively regulates
-        source: MESH:D001993
-        target: GO:0044557
     -   key: negatively correlated with
-        source: GO:0044557
+        source: MESH:D000242
+        target: GO:0006939
+    -   key: occurs in
+        source: GO:0006939
+        target: UBERON:0002185
+    -   key: location of
+        source: UBERON:0002185
         target: MESH:D029424
     multigraph: true
     nodes:
@@ -634,15 +604,12 @@
     -   id: MESH:D000242
         label: ChemicalSubstance
         name: Cyclic AMP
-    -   id: MESH:D017868
-        label: ChemicalSubstance
-        name: Cyclic AMP-Dependent Protein Kinases
-    -   id: MESH:D001993
-        label: ChemicalSubstance
-        name: Bronchodilator Agents
-    -   id: GO:0044557
+    -   id: GO:0006939
         label: BiologicalProcess
-        name: relaxation of smooth muscle
+        name: smooth muscle contraction
+    -   id: UBERON:0002185
+        label: GrossAnatomicalStructure
+        name: bronchus
     -   id: MESH:D029424
         label: Disease
         name: Pulmonary Disease, Chronic Obstructive
