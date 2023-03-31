@@ -402,24 +402,21 @@
         target: UniProt:P06213
     -   key: positively regulates
         source: UniProt:P06213
-        target: GO:0004713
+        target: REACT:R-HSA-74751
     -   key: positively regulates
-        source: GO:0004713
+        source: REACT:R-HSA-74751
         target: REACT:R-HSA-198203
+    -   key: regulates
+        source: REACT:R-HSA-198203
+        target: UniProt:P14672
     -   key: participates in
-        source: REACT:R-HSA-198203
+        source: UniProt:P14672
         target: GO:0046323
-    -   key: negatively regulates
-        source: REACT:R-HSA-198203
-        target: HP:0000855
     -   key: decreases abundance of
         source: GO:0046323
         target: MESH:D001786
     -   key: positively correlated with
         source: MESH:D001786
-        target: MESH:D003920
-    -   key: manifestation of
-        source: HP:0000855
         target: MESH:D003920
     multigraph: true
     nodes:
@@ -429,18 +426,18 @@
     -   id: UniProt:P06213
         label: Protein
         name: Insulin receptor
-    -   id: GO:0004713
-        label: MolecularActivity
-        name: protein tyrosine kinase activity
+    -   id: REACT:R-HSA-74751
+        label: Pathway
+        name: Insulin receptor signalling cascade
     -   id: REACT:R-HSA-198203
         label: Pathway
         name: PI3K/AKT activation
+    -   id: UniProt:P14672
+        label: Protein
+        name: Solute carrier family 2, facilitated glucose transporter member 4
     -   id: GO:0046323
         label: BiologicalProcess
         name: glucose import
-    -   id: HP:0000855
-        label: PhenotypicFeature
-        name: Insulin resistance
     -   id: MESH:D001786
         label: ChemicalSubstance
         name: Blood Glucose
@@ -450,6 +447,7 @@
     reference: 
     -   https://go.drugbank.com/drugs/DB01309#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P06213#function
+    -   https://www.uniprot.org/uniprot/P14672#function
     -   https://en.wikipedia.org/wiki/Diabetes
 -   directed: true
     graph:
@@ -475,8 +473,11 @@
     -   key: occurs in
         source: GO:0006939
         target: UBERON:0005969
-    -   key: location of
+    -   key: positively regulates
         source: UBERON:0005969
+        target: UBERON:0003956
+    -   key: correlated with
+        source: UBERON:0003956
         target: HP:0007906
     -   key: contributes to
         source: HP:0007906
@@ -498,6 +499,9 @@
     -   id: UBERON:0005969
         label: GrossAnatomicalStructure
         name: eye trabecular meshwork
+    -   id: UBERON:0003956
+        label: GrossAnatomicalStructure
+        name: aqueous drainage system
     -   id: HP:0007906
         label: PhenotypicFeature
         name: Ocular hypertension
@@ -534,8 +538,11 @@
     -   key: occurs in
         source: GO:0006939
         target: UBERON:0005969
-    -   key: location of
+    -   key: positively regulates
         source: UBERON:0005969
+        target: UBERON:0003956
+    -   key: correlated with
+        source: UBERON:0003956
         target: MESH:D009798
     multigraph: true
     nodes:
@@ -554,6 +561,9 @@
     -   id: UBERON:0005969
         label: GrossAnatomicalStructure
         name: eye trabecular meshwork
+    -   id: UBERON:0003956
+        label: GrossAnatomicalStructure
+        name: aqueous drainage system
     -   id: MESH:D009798
         label: Disease
         name: Ocular Hypertension
