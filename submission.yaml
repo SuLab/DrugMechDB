@@ -57,15 +57,18 @@
         target: InterPro:IPR006028
     -   key: positively regulates
         source: InterPro:IPR006028
-        target: GO:0022851
-    -   key: positively regulates
-        source: GO:0022851
-        target: GO:0060081
-    -   key: negatively correlated with
-        source: GO:0060081
-        target: GO:0019228
+        target: GO:0007214
+    -   key: negatively regulates
+        source: GO:0007214
+        target: HP:0100852
+    -   key: negatively regulates
+        source: GO:0007214
+        target: MESH:D007319
     -   key: positively correlated with
-        source: GO:0019228
+        source: HP:0100852
+        target: MESH:D001007
+    -   key: positively correlated with
+        source: MESH:D007319
         target: MESH:D001007
     multigraph: true
     nodes:
@@ -78,15 +81,15 @@
     -   id: InterPro:IPR006028
         label: GeneFamily
         name: Gamma-aminobutyric acid A receptor/Glycine receptor alpha
-    -   id: GO:0022851
-        label: MolecularActivity
-        name: GABA-gated chloride ion channel activity
-    -   id: GO:0060081
+    -   id: GO:0007214
         label: BiologicalProcess
-        name: membrane hyperpolarization
-    -   id: GO:0019228
-        label: BiologicalProcess
-        name: neuronal action potential
+        name: gamma-aminobutyric acid signaling pathway
+    -   id: HP:0100852
+        label: PhenotypicFeature
+        name: Abnormal fear/anxiety-related behavior
+    -   id: MESH:D007319
+        label: Disease
+        name: Sleep Initiation and Maintenance Disorders
     -   id: MESH:D001007
         label: Disease
         name: Anxiety
@@ -540,14 +543,20 @@
         drug_mesh: MESH:D011223
         drugbank: DB:DB01058
     links:
-    -   key: negatively regulates
+    -   key: disrupts
         source: MESH:D011223
-        target: GO:0055074
+        target: GO:0005886
+    -   key: participates in
+        source: GO:0005886
+        target: GO:0070509
     -   key: positively correlated with
-        source: GO:0055074
+        source: GO:0070509
         target: GO:0006936
-    -   key: occurs in
+    -   key: contributes to
         source: GO:0006936
+        target: HP:0003470
+    -   key: occurs in
+        source: HP:0003470
         target: NCBITaxon:6198
     -   key: causes
         source: NCBITaxon:6198
@@ -557,12 +566,18 @@
     -   id: MESH:D011223
         label: Drug
         name: Praziquantel
-    -   id: GO:0055074
+    -   id: GO:0005886
+        label: CellularComponent
+        name: plasma membrane
+    -   id: GO:0070509
         label: BiologicalProcess
-        name: calcium ion homeostasis
+        name: calcium ion import
     -   id: GO:0006936
         label: BiologicalProcess
         name: muscle contraction
+    -   id: HP:0003470
+        label: PhenotypicFeature
+        name: Paralysis
     -   id: NCBITaxon:6198
         label: OrganismTaxon
         name: Opisthorchis viverrini
@@ -582,14 +597,20 @@
         drug_mesh: MESH:D011223
         drugbank: DB:DB01058
     links:
-    -   key: negatively regulates
+    -   key: disrupts
         source: MESH:D011223
-        target: GO:0055074
+        target: GO:0005886
+    -   key: participates in
+        source: GO:0005886
+        target: GO:0070509
     -   key: positively correlated with
-        source: GO:0055074
+        source: GO:0070509
         target: GO:0006936
-    -   key: occurs in
+    -   key: contributes to
         source: GO:0006936
+        target: HP:0003470
+    -   key: occurs in
+        source: HP:0003470
         target: NCBITaxon:6181
     -   key: causes
         source: NCBITaxon:6181
@@ -599,12 +620,18 @@
     -   id: MESH:D011223
         label: Drug
         name: Praziquantel
-    -   id: GO:0055074
+    -   id: GO:0005886
+        label: CellularComponent
+        name: plasma membrane
+    -   id: GO:0070509
         label: BiologicalProcess
-        name: calcium ion homeostasis
+        name: calcium ion import
     -   id: GO:0006936
         label: BiologicalProcess
         name: muscle contraction
+    -   id: HP:0003470
+        label: PhenotypicFeature
+        name: Paralysis
     -   id: NCBITaxon:6181
         label: OrganismTaxon
         name: Schistosoma
@@ -1125,56 +1152,43 @@
     -   key: located in
         source: MESH:D002784
         target: UBERON:0002110
-    -   key: increases activity of
-        source: MESH:D014580
-        target: UniProt:Q96RI1
+    -   key: location of
+        source: UBERON:0002110
+        target: MESH:D002769
     -   key: participates in
-        source: UniProt:Q96RI1
+        source: MESH:D014580
         target: GO:0032782
     -   key: increases abundance of
         source: GO:0032782
         target: MESH:D001647
-    -   key: positively correlated with
+    -   key: negatively correlated with
         source: MESH:D001647
-        target: GO:0006954
-    -   key: located in
-        source: GO:0006954
-        target: UBERON:0002110
-    -   key: location of
-        source: UBERON:0002110
         target: MESH:D002769
     multigraph: true
     nodes:
     -   id: MESH:D014580
         label: Drug
         name: Ursodeoxycholic Acid
-    -   id: UniProt:Q96RI1
-        label: Protein
-        name: Bile acid receptor
     -   id: GO:0006695
         label: BiologicalProcess
         name: cholesterol biosynthetic process
     -   id: MESH:D002784
         label: ChemicalSubstance
         name: Cholesterol
+    -   id: UBERON:0002110
+        label: GrossAnatomicalStructure
+        name: gallbladder
     -   id: GO:0032782
         label: BiologicalProcess
         name: bile acid secretion
     -   id: MESH:D001647
         label: ChemicalSubstance
         name: Bile Acids and Salts
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: inflammatory response
-    -   id: UBERON:0002110
-        label: GrossAnatomicalStructure
-        name: gallbladder
     -   id: MESH:D002769
         label: Disease
         name: Cholelithiasis
     reference:
     -   https://go.drugbank.com/drugs/DB01586#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/Q96RI1#function
     -   https://en.wikipedia.org/wiki/Gallstone
 -   directed: true
     graph:
@@ -1188,23 +1202,14 @@
     -   key: negatively regulates
         source: MESH:D014580
         target: GO:0097284
-    -   key: increases activity of
-        source: MESH:D014580
-        target: UniProt:Q96RI1
     -   key: participates in
-        source: UniProt:Q96RI1
+        source: MESH:D014580
         target: GO:0032782
     -   key: increases abundance of
         source: GO:0032782
         target: MESH:D001647
-    -   key: positively correlated with
-        source: MESH:D001647
-        target: GO:0006954
-    -   key: occurs in
-        source: GO:0006954
-        target: CL:0000182
     -   key: negatively correlated with
-        source: CL:0000182
+        source: MESH:D001647
         target: MESH:D008105
     -   key: positively correlated with
         source: GO:0097284
@@ -1214,9 +1219,6 @@
     -   id: MESH:D014580
         label: Drug
         name: Ursodeoxycholic Acid
-    -   id: UniProt:Q96RI1
-        label: Protein
-        name: Bile acid receptor
     -   id: GO:0097284
         label: BiologicalProcess
         name: hepatocyte apoptotic process
@@ -1226,16 +1228,9 @@
     -   id: MESH:D001647
         label: ChemicalSubstance
         name: Bile Acids and Salts
-    -   id: GO:0006954
-        label: BiologicalProcess
-        name: inflammatory response
-    -   id: CL:0000182
-        label: Cell
-        name: hepatocyte
     -   id: MESH:D008105
         label: Disease
         name: Liver Cirrhosis, Biliary
     reference:
     -   https://go.drugbank.com/drugs/DB01586#mechanism-of-action
-    -   https://www.uniprot.org/uniprot/Q96RI1#function
     -   https://en.wikipedia.org/wiki/Primary_biliary_cholangitis
