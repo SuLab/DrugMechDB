@@ -42,6 +42,88 @@
     -   https://en.wikipedia.org/wiki/Allergic_conjunctivitis
 -   directed: true
     graph:
+        _id: DB01432_MESH_D006937_1
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006937
+        drug: Cholestyramine Resin
+        drug_mesh: MESH:D002792
+        drugbank: DB:DB01432
+    links:
+    -   key: negatively regulates
+        source: MESH:D002792
+        target: MESH:D001647
+    -   key: positively regulates
+        source: MESH:D001647
+        target: GO:0030299
+    -   key: increases abundance of
+        source: GO:0030299
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006937
+    multigraph: true
+    nodes:
+    -   id: MESH:D002792
+        label: Drug
+        name: Cholestyramine Resin
+    -   id: MESH:D001647
+        label: ChemicalSubstance
+        name: Bile Acids and Salts
+    -   id: GO:0030299
+        label: BiologicalProcess
+        name: intestinal cholesterol absorption
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D006937
+        label: Disease
+        name: Hypercholesterolemia
+    reference:
+    -   https://go.drugbank.com/drugs/DB01432#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Hypercholesterolemia
+-   directed: true
+    graph:
+        _id: DB01432_MESH_D006949_1
+        disease: Hypercholesterolemia
+        disease_mesh: MESH:D006949
+        drug: Cholestyramine Resin
+        drug_mesh: MESH:D002792
+        drugbank: DB:DB01432
+    links:
+    -   key: negatively regulates
+        source: MESH:D002792
+        target: MESH:D001647
+    -   key: positively regulates
+        source: MESH:D001647
+        target: GO:0030299
+    -   key: increases abundance of
+        source: GO:0030299
+        target: MESH:D002784
+    -   key: positively correlated with
+        source: MESH:D002784
+        target: MESH:D006949
+    multigraph: true
+    nodes:
+    -   id: MESH:D002792
+        label: Drug
+        name: Cholestyramine Resin
+    -   id: MESH:D001647
+        label: ChemicalSubstance
+        name: Bile Acids and Salts
+    -   id: GO:0030299
+        label: BiologicalProcess
+        name: intestinal cholesterol absorption
+    -   id: MESH:D002784
+        label: ChemicalSubstance
+        name: Cholesterol
+    -   id: MESH:D006949
+        label: Disease
+        name: Hyperlipidemias
+    reference:
+    -   https://go.drugbank.com/drugs/DB01432#mechanism-of-action
+    -   https://en.wikipedia.org/wiki/Hyperlipidemia
+-   directed: true
+    graph:
         _id: DB00628_MESH_D001007_1
         disease: Anxiety
         disease_mesh: MESH:D001007
@@ -1014,126 +1096,6 @@
     reference:
     -   https://go.drugbank.com/drugs/DB01082#mechanism-of-action
     -   https://en.wikipedia.org/wiki/Tularemia
--   directed: true
-    graph:
-        _id: DB08841_MESH_D006937_1
-        disease: Hypercholesterolemia
-        disease_mesh: MESH:D006937
-        drug: Tyramine
-        drug_mesh: MESH:D014439
-        drugbank: DB:DB08841
-    links:
-    -   key: disrupted by
-        source: MESH:D014439
-        target: UniProt:P21397
-    -   key: positively regulates
-        source: UniProt:P21397
-        target: REACT:R-HSA-181430
-    -   key: increases abundance of
-        source: REACT:R-HSA-181430
-        target: MESH:D009638
-    -   key: positively correlated with
-        source: MESH:D009638
-        target: MESH:D002784
-    -   key: positively correlated with
-        source: MESH:D009638
-        target: MESH:D014280
-    -   key: positively correlated with
-        source: MESH:D002784
-        target: MESH:D006937
-    -   key: positively correlated with
-        source: MESH:D014280
-        target: MESH:D006937
-    multigraph: true
-    nodes:
-    -   id: MESH:D014439
-        label: Drug
-        name: Tyramine
-    -   id: UniProt:P21397
-        label: Protein
-        name: Amine oxidase [flavin-containing] A
-    -   id: REACT:R-HSA-181430
-        label: Pathway
-        name: Norepinephrine Neurotransmitter Release Cycle
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Norepinephrine
-    -   id: MESH:D014280
-        label: ChemicalSubstance
-        name: Triglycerides
-    -   id: MESH:D002784
-        label: ChemicalSubstance
-        name: Cholesterol
-    -   id: MESH:D006937
-        label: Disease
-        name: Hypercholesterolemia
-    reference:
-    -   https://go.drugbank.com/drugs/DB08841#mechanism-of-action
-    -   https://drugs.ncats.io/substances?q=%22TYRAMINE%22
-    -   https://en.wikipedia.org/wiki/Tyramine#Physical_effects_and_pharmacology
-    -   https://www.uniprot.org/uniprot/P21397#function
-    -   https://www.scielo.br/j/bjps/a/wcrY5x7qSRkqm77pbSnqHGD/
-    -   https://en.wikipedia.org/wiki/Hypercholesterolemia
--   directed: true
-    graph:
-        _id: DB08841_MESH_D006949_1
-        disease: Hyperlipidemias
-        disease_mesh: MESH:D006949
-        drug: Tyramine
-        drug_mesh: MESH:D014439
-        drugbank: DB:DB08841
-    links:
-    -   key: disrupted by
-        source: MESH:D014439
-        target: UniProt:P21397
-    -   key: positively regulates
-        source: UniProt:P21397
-        target: REACT:R-HSA-181430
-    -   key: increases abundance of
-        source: REACT:R-HSA-181430
-        target: MESH:D009638
-    -   key: positively correlated with
-        source: MESH:D009638
-        target: MESH:D002784
-    -   key: positively correlated with
-        source: MESH:D009638
-        target: MESH:D014280
-    -   key: positively correlated with
-        source: MESH:D002784
-        target: MESH:D006949
-    -   key: positively correlated with
-        source: MESH:D014280
-        target: MESH:D006949
-    multigraph: true
-    nodes:
-    -   id: MESH:D014439
-        label: Drug
-        name: Tyramine
-    -   id: UniProt:P21397
-        label: Protein
-        name: Amine oxidase [flavin-containing] A
-    -   id: REACT:R-HSA-181430
-        label: Pathway
-        name: Norepinephrine Neurotransmitter Release Cycle
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Norepinephrine
-    -   id: MESH:D014280
-        label: ChemicalSubstance
-        name: Triglycerides
-    -   id: MESH:D002784
-        label: ChemicalSubstance
-        name: Cholesterol
-    -   id: MESH:D006949
-        label: Disease
-        name: Hyperlipidemias
-    reference:
-    -   https://go.drugbank.com/drugs/DB08841#mechanism-of-action
-    -   https://drugs.ncats.io/substances?q=%22TYRAMINE%22
-    -   https://en.wikipedia.org/wiki/Tyramine#Physical_effects_and_pharmacology
-    -   https://www.uniprot.org/uniprot/P21397#function
-    -   https://www.scielo.br/j/bjps/a/wcrY5x7qSRkqm77pbSnqHGD/
-    -   https://en.wikipedia.org/wiki/Hyperlipidemia
 -   directed: true
     graph:
         _id: DB01586_MESH_D002769_1
