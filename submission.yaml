@@ -1,1 +1,65 @@
-
+-   directed: true
+    graph:
+        _id: DB00960_MESH_D006973_1
+        disease: Hypertensive disorder
+        disease_mesh: MESH:D006973
+        drug: Pindolol
+        drug_mesh: MESH:D010869
+        drugbank: DB:DB00960
+    links:
+    -   key: decreases activity of
+        source: MESH:D010869
+        target: UniProt:P08588
+    -   key: decreases activity of
+        source: MESH:D010869
+        target: UniProt:P07550
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: HP:0033533
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P07550
+        target: GO:0042310
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
+    -   key: positively regulates
+        source: GO:0042310
+        target: HP:0032263
+    -   key: positively correlated with
+        source: HP:0032263
+        target: MESH:D006973
+    -   key: positively correlated with
+        source: HP:0033533
+        target: MESH:D006973
+    multigraph: true
+    nodes:
+    -   id: MESH:D010869
+        label: Drug
+        name: Pindolol
+    -   id: UniProt:P08588
+        label: Protein
+        name: Beta-1 adrenergic receptor
+    -   id: UniProt:P07550
+        label: Protein
+        name: Beta-2 adrenergic receptor
+    -   id: HP:0033533
+        label: PhenotypicFeature
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: GO:0042310
+        label: BiologicalProcess
+        name: Vasoconstriction
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
+    -   id: MESH:D006973
+        label: Disease
+        name: Hypertensive disorder
+    reference:
+    - https://en.wikipedia.org/wiki/Beta-1_adrenergic_receptor
+    - https://go.drugbank.com/drugs/DB00960#BE0000694
