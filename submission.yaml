@@ -422,21 +422,21 @@
         target: UniProt:Q14524
     -   key: positively regulates
         source: UniProt:P35499
-        target: GO:0086010
+        target: GO:0086060
     -   key: positively regulates
         source: UniProt:Q14524
-        target: GO:0086010
+        target: GO:0086060
+    -   key: positively regulates
+        source: GO:0086060
+        target: GO:0061337
     -   key: positively correlated with
-        source: GO:0086010
+        source: GO:0061337
         target: GO:0060047
     -   key: positively correlated with
-        source: GO:0086010
-        target: HP:0011675
-    -   key: contributes to
         source: GO:0060047
-        target: MESH:D001281
-    -   key: contributes to
-        source: HP:0011675
+        target: HP:0001649
+    -   key: manifestation of
+        source: HP:0001649
         target: MESH:D001281
     multigraph: true
     nodes:
@@ -449,15 +449,18 @@
     -   id: UniProt:Q14524
         label: Protein
         name: Sodium channel protein type 5 subunit alpha
-    -   id: GO:0086010
+    -   id: GO:0086060
+        label: MolecularActivity
+        name: voltage-gated sodium channel activity involved in AV node cell action potential
+    -   id: GO:0061337
         label: BiologicalProcess
-        name: membrane depolarization during action potential
+        name: cardiac conduction
     -   id: GO:0060047
         label: BiologicalProcess
         name: heart contraction
-    -   id: HP:0011675
+    -   id: HP:0001649
         label: PhenotypicFeature
-        name: Arrhythmia
+        name: Tachycardia
     -   id: MESH:D001281
         label: Disease
         name: Atrial Fibrillation
@@ -610,10 +613,10 @@
     -   key: positively correlated with
         source: UniProt:P28223
         target: MESH:D012701
-    -   key: regulates
+    -   key: correlated with
         source: MESH:D004298
         target: HP:0000716
-    -   key: regulates
+    -   key: correlated with
         source: MESH:D012701
         target: HP:0000716
     -   key: contributes to
@@ -668,10 +671,10 @@
     -   key: positively correlated with
         source: UniProt:P28223
         target: MESH:D012701
-    -   key: regulates
+    -   key: correlated with
         source: MESH:D004298
         target: HP:0000716
-    -   key: regulates
+    -   key: correlated with
         source: MESH:D012701
         target: HP:0000716
     -   key: manifestation of
@@ -720,7 +723,7 @@
     -   key: positively correlated with
         source: UniProt:P14416
         target: MESH:D004298
-    -   key: positively regulates
+    -   key: positively correlated with
         source: MESH:D004298
         target: HP:0000738
     -   key: manifestation of
@@ -763,37 +766,28 @@
         source: MESH:D011433
         target: UniProt:P07550
     -   key: positively correlated with
-        source: UniProt:P08588
-        target: MESH:D004837
-    -   key: positively correlated with
-        source: UniProt:P08588
-        target: MESH:D009638
-    -   key: positively correlated with
         source: UniProt:P07550
-        target: MESH:D004837
-    -   key: positively correlated with
-        source: UniProt:P07550
-        target: MESH:D009638
+        target: GO:0042310
     -   key: positively regulates
-        source: MESH:D004837
-        target: GO:0007190
+        source: UniProt:P08588
+        target: HP:0033533
     -   key: positively regulates
-        source: MESH:D009638
-        target: GO:0007190
-    -   key: increases abundance of
-        source: GO:0007190
-        target: MESH:D000242
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
     -   key: positively correlated with
-        source: MESH:D000242
-        target: GO:0060047
-    -   key: positively correlated with
-        source: MESH:D000242
-        target: HP:0011675
-    -   key: positively correlated with
-        source: GO:0060047
-        target: MESH:D000787
+        source: GO:0042310
+        target: HP:0032263
     -   key: contributes to
-        source: HP:0011675
+        source: HP:0032263
+        target: HP:0000822
+    -   key: contributes to
+        source: HP:0033533
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
         target: MESH:D000787
     multigraph: true
     nodes:
@@ -806,32 +800,29 @@
     -   id: UniProt:P07550
         label: Protein
         name: Beta-2 adrenergic receptor
-    -   id: MESH:D004837
-        label: ChemicalSubstance
-        name: Epinephrine
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Norepinephrine
-    -   id: GO:0007190
+    -   id: GO:0042310
         label: BiologicalProcess
-        name: activation of adenylate cyclase activity
-    -   id: MESH:D000242
-        label: ChemicalSubstance
-        name: Cyclic AMP
-    -   id: GO:0060047
-        label: BiologicalProcess
-        name: heart contraction
-    -   id: HP:0011675
+        name: vasoconstriction
+    -   id: HP:0033533
         label: PhenotypicFeature
-        name: Arrhythmia
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
     -   id: MESH:D000787
         label: Disease
         name: Angina Pectoris
     reference: 
     -   https://go.drugbank.com/drugs/DB00571#mechanism-of-action
-    -   https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
     -   https://www.uniprot.org/uniprot/P08588#function
     -   https://www.uniprot.org/uniprot/P07550#function
+    -   https://www.uniprot.org/uniprot/P00797#function
     -   https://en.wikipedia.org/wiki/Angina
 -   directed: true
     graph:
@@ -849,31 +840,28 @@
         source: MESH:D011433
         target: UniProt:P07550
     -   key: positively correlated with
-        source: UniProt:P08588
-        target: MESH:D004837
-    -   key: positively correlated with
-        source: UniProt:P08588
-        target: MESH:D009638
-    -   key: positively correlated with
         source: UniProt:P07550
-        target: MESH:D004837
-    -   key: positively correlated with
-        source: UniProt:P07550
-        target: MESH:D009638
+        target: GO:0042310
     -   key: positively regulates
-        source: MESH:D004837
-        target: GO:0007190
+        source: UniProt:P08588
+        target: HP:0033533
     -   key: positively regulates
-        source: MESH:D009638
-        target: GO:0007190
-    -   key: increases abundance of
-        source: GO:0007190
-        target: MESH:D000242
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P00797
+        target: GO:0042310
     -   key: positively correlated with
-        source: MESH:D000242
-        target: HP:0011675
+        source: GO:0042310
+        target: HP:0032263
     -   key: contributes to
-        source: HP:0011675
+        source: HP:0032263
+        target: HP:0000822
+    -   key: contributes to
+        source: HP:0033533
+        target: HP:0000822
+    -   key: positively correlated with
+        source: HP:0000822
         target: MESH:D001281
     multigraph: true
     nodes:
@@ -886,29 +874,29 @@
     -   id: UniProt:P07550
         label: Protein
         name: Beta-2 adrenergic receptor
-    -   id: MESH:D004837
-        label: ChemicalSubstance
-        name: Epinephrine
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Norepinephrine
-    -   id: GO:0007190
+    -   id: GO:0042310
         label: BiologicalProcess
-        name: activation of adenylate cyclase activity
-    -   id: MESH:D000242
-        label: ChemicalSubstance
-        name: Cyclic AMP
-    -   id: HP:0011675
+        name: vasoconstriction
+    -   id: HP:0033533
         label: PhenotypicFeature
-        name: Arrhythmia
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
     -   id: MESH:D001281
         label: Disease
         name: Atrial Fibrillation
     reference: 
     -   https://go.drugbank.com/drugs/DB00571#mechanism-of-action
-    -   https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
     -   https://www.uniprot.org/uniprot/P08588#function
     -   https://www.uniprot.org/uniprot/P07550#function
+    -   https://www.uniprot.org/uniprot/P00797#function
     -   https://en.wikipedia.org/wiki/Atrial_fibrillation
 -   directed: true
     graph:
@@ -937,11 +925,14 @@
     -   key: positively correlated with
         source: UniProt:P07550
         target: MESH:D009638
-    -   key: contributes to
+    -   key: positively correlated with
         source: MESH:D004837
-        target: HP:0001714
-    -   key: contributes to
+        target: HP:0000822
+    -   key: positively correlated with
         source: MESH:D009638
+        target: HP:0000822
+    -   key: contributes to
+        source: HP:0000822
         target: HP:0001714
     -   key: manifestation of
         source: HP:0001714
@@ -963,6 +954,9 @@
     -   id: MESH:D009638
         label: ChemicalSubstance
         name: Norepinephrine
+    -   id: HP:0000822
+        label: PhenotypicFeature
+        name: Hypertension
     -   id: HP:0001714
         label: PhenotypicFeature
         name: Ventricular hypertrophy
@@ -1043,16 +1037,25 @@
         source: MESH:D011433
         target: UniProt:P07550
     -   key: positively correlated with
-        source: UniProt:P08588
-        target: MESH:D004837
-    -   key: positively correlated with
         source: UniProt:P07550
-        target: MESH:D004837
+        target: GO:0042310
     -   key: positively regulates
-        source: MESH:D004837
+        source: UniProt:P08588
+        target: HP:0033533
+    -   key: positively regulates
+        source: UniProt:P08588
+        target: UniProt:P00797
+    -   key: positively regulates
+        source: UniProt:P00797
         target: GO:0042310
     -   key: positively correlated with
         source: GO:0042310
+        target: HP:0032263
+    -   key: positively correlated with
+        source: HP:0032263
+        target: MESH:D006973
+    -   key: positively correlated with
+        source: HP:0033533
         target: MESH:D006973
     multigraph: true
     nodes:
@@ -1065,12 +1068,18 @@
     -   id: UniProt:P07550
         label: Protein
         name: Beta-2 adrenergic receptor
-    -   id: MESH:D004837
-        label: ChemicalSubstance
-        name: Epinephrine
     -   id: GO:0042310
         label: BiologicalProcess
         name: vasoconstriction
+    -   id: HP:0033533
+        label: PhenotypicFeature
+        name: Increased cardiac output
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: HP:0032263
+        label: PhenotypicFeature
+        name: Increased blood pressure
     -   id: MESH:D006973
         label: Disease
         name: Hypertension
@@ -1078,6 +1087,7 @@
     -   https://go.drugbank.com/drugs/DB00571#mechanism-of-action
     -   https://www.uniprot.org/uniprot/P08588#function
     -   https://www.uniprot.org/uniprot/P07550#function
+    -   https://www.uniprot.org/uniprot/P00797#function
     -   https://en.wikipedia.org/wiki/Hypertension
 -   directed: true
     graph:
@@ -1095,31 +1105,22 @@
         source: MESH:D011433
         target: UniProt:P07550
     -   key: positively correlated with
-        source: UniProt:P08588
-        target: MESH:D004837
-    -   key: positively correlated with
-        source: UniProt:P08588
-        target: MESH:D009638
-    -   key: positively correlated with
         source: UniProt:P07550
-        target: MESH:D004837
-    -   key: positively correlated with
-        source: UniProt:P07550
-        target: MESH:D009638
+        target: GO:0042310
     -   key: positively regulates
-        source: MESH:D004837
-        target: GO:0007190
+        source: UniProt:P08588
+        target: UniProt:P00797
     -   key: positively regulates
-        source: MESH:D009638
-        target: GO:0007190
-    -   key: increases abundance of
-        source: GO:0007190
-        target: MESH:D000242
+        source: UniProt:P00797
+        target: GO:0042310
     -   key: positively correlated with
-        source: MESH:D000242
-        target: HP:0011675
+        source: GO:0042310
+        target: HP:0032263
+    -   key: contributes to
+        source: HP:0032263
+        target: HP:0004308
     -   key: manifestation of
-        source: HP:0011675
+        source: HP:0004308
         target: MESH:D013617
     multigraph: true
     nodes:
@@ -1132,29 +1133,26 @@
     -   id: UniProt:P07550
         label: Protein
         name: Beta-2 adrenergic receptor
-    -   id: MESH:D004837
-        label: ChemicalSubstance
-        name: Epinephrine
-    -   id: MESH:D009638
-        label: ChemicalSubstance
-        name: Norepinephrine
-    -   id: GO:0007190
+    -   id: GO:0042310
         label: BiologicalProcess
-        name: activation of adenylate cyclase activity
-    -   id: MESH:D000242
-        label: ChemicalSubstance
-        name: Cyclic AMP
-    -   id: HP:0011675
+        name: vasoconstriction
+    -   id: UniProt:P00797
+        label: Protein
+        name: Renin
+    -   id: HP:0032263
         label: PhenotypicFeature
-        name: Arrhythmia
+        name: Increased blood pressure
+    -   id: HP:0004308
+        label: PhenotypicFeature
+        name: Ventricular arrhythmia
     -   id: MESH:D013617
         label: Disease
         name: Tachycardia, Supraventricular
     reference: 
     -   https://go.drugbank.com/drugs/DB00571#mechanism-of-action
-    -   https://en.wikipedia.org/wiki/Propranolol#Mechanism_of_action
     -   https://www.uniprot.org/uniprot/P08588#function
     -   https://www.uniprot.org/uniprot/P07550#function
+    -   https://www.uniprot.org/uniprot/P00797#function
     -   https://en.wikipedia.org/wiki/Tachycardia
 -   comment: Quinfamide is under phase III trial for the treatment of Amoebiasis and Helminthiasis.
     directed: true
@@ -1166,17 +1164,36 @@
         drug_mesh: MESH:C026546
         drugbank: DB:DB12780
     links:
-    -   key: treats
+    -   key: physically interacts with
         source: MESH:C026546
+        target: MESH:D008463
+    -   key: negatively regulates
+        source: MESH:D008463
+        target: GO:0048870
+    -   key: in taxon
+        source: GO:0048870
+        target: NCBITaxon:5759
+    -   key: causes
+        source: NCBITaxon:5759
         target: MESH:D000562
     multigraph: true
     nodes:
     -   id: MESH:C026546
         label: Drug
         name: quinfamide
+    -   id: MESH:D008463
+        label: ChemicalSubstance
+        name: Mebendazole
+    -   id: GO:0048870
+        label: BiologicalProcess
+        name: cell motility
+    -   id: NCBITaxon:5759
+        label: OrganismTaxon
+        name: Entamoeba histolytica
     -   id: MESH:D000562
         label: Disease
         name: Amebiasis
     reference:
     -   https://go.drugbank.com/drugs/DB12780#mechanism-of-action
+    -   https://drugs.ncats.io/drug/O1ZB1046R1
     -   https://en.wikipedia.org/wiki/Amoebiasis
