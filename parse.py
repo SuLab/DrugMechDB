@@ -152,7 +152,7 @@ def generate_path_pages():
             output.write("| Identifier | Name | Type    |\n")
             output.write("|------------|------|---------|\n")
             for node in path['nodes']:
-                output.write("| " + node["id"] + " | " + node["name"] + " | "
+                output.write("| <a href=\"https://identifiers.org/" + node["id"] + "\">" + node["id"] + " </a> | " + node["name"] + " | "
                              + node["label"] + " |\n")
             output.write("|------------|------|---------|\n")
 
