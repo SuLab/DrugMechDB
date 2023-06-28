@@ -3,7 +3,11 @@
 <head>
     {% include head.html %}
     <script>
-        $(document).ready(function() {
+        
+        fetch("sidebar-{{page.sidebar}}.html")
+        .then(resp => resp.text())
+        .then(html => document.getElementById("tg-sb-sidebar").innerHTML = html)
+        .then(function () {
             // Initialize navgoco with default options
             $("#mysidebar").navgoco({
                 caretHtml: '',
@@ -30,8 +34,7 @@
                 e.preventDefault();
                 $("#mysidebar").navgoco('toggle', true);
             });
-
-        });
+        })
 
     </script>
     <script>
@@ -83,7 +86,7 @@
         {% unless page.hide_sidebar %}
             <!-- Sidebar Column -->
             <div class="col-md-3" id="tg-sb-sidebar">
-                {% include sidebar.html %}
+                
             </div>
             {% assign content_col_size = "col-md-9" %}
         {% endunless %}
