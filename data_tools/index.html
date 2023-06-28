@@ -44,7 +44,11 @@
 <link rel="alternate" type="application/rss+xml" title="DrugMechDB" href="/feed.xml">
 
     <script>
-        $(document).ready(function() {
+        
+        fetch("sidebar-home_sidebar.html")
+        .then(resp => resp.text())
+        .then(html => document.getElementById("tg-sb-sidebar").innerHTML = html)
+        .then(function () {
             // Initialize navgoco with default options
             $("#mysidebar").navgoco({
                 caretHtml: '',
@@ -71,8 +75,7 @@
                 e.preventDefault();
                 $("#mysidebar").navgoco('toggle', true);
             });
-
-        });
+        })
 
     </script>
     <script>
@@ -221,59 +224,6 @@
             <!-- Sidebar Column -->
             <div class="col-md-3" id="tg-sb-sidebar">
                 
-
-<ul id="mysidebar" class="nav">
-  <li class="sidebarTitle"> </li>
-  
-  
-  
-  <li>
-      <a title="Products" href="#">Products</a>
-      <ul>
-          
-          
-          
-          <li><a title="News" href="news.html">News</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Theme instructions" href="mydoc_introduction.html">Theme instructions</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Product 1" href="p1_landing_page.html">Product 1</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a title="Product 2" href="p2_landing_page.html">Product 2</a></li>
-          
-          
-          
-          
-      </ul>
-   </li>
-     
-      
-      
-      <!-- if you aren't using the accordion, uncomment this block:
-         <p class="external">
-             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
-         </p>
-         -->
-</ul>
-
-<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
-<script>$("li.active").parents('li').toggleClass("active");</script>
-
             </div>
             
         
@@ -407,7 +357,7 @@ combo = combine_nodes_and_edges(nodes, edges)
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2023 Su Lab. All rights reserved. <br />
- Site last generated: Jun 27, 2023 <br />
+ Site last generated: Jun 28, 2023 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>
