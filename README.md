@@ -26,7 +26,7 @@ Indications were selected at random from the set contained within DrugCentral. H
 representing a set of common drug disease pairs, and the other half were selected from a pool of less-common diseases
 to vary the targets and diseases treated.
 
-Paths were derived from free-text descriptions found on DrugBank, Wikipeida and within literature. Concepts within the
+Paths were derived from free-text descriptions found on DrugBank, Wikipedia and within literature. Concepts within the
 text were then normalized to a concept type (Drug, Protein, Pathway, etc) and relationships between the concepts were
 determined from the source. Finally concepts were mapped to an identifier depending on the concept type according to
 the following table:
