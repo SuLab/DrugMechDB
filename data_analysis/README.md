@@ -1,6 +1,6 @@
 # Data Analysis
 
- A collection of statistical analysis files and scripts that have performed on the indications data from DrugMechDB. 
+ A collection of statistical analysis files and scripts that we performed on the `indication_paths` data. 
 
 ## Files
 
