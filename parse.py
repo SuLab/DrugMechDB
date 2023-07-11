@@ -157,6 +157,7 @@ def generate_path_pages():
             output.write("|------------|------|---------|\n")
 
             output.write("\n## Relationships\n\n")
+            output.write("\nNOTE: predicates are annotated in <a href=\"https://github.com/biolink/biolink-model/releases/tag/v1.3.0\">Biolink Model (v1.3.0)</a>\n\n")
             output.write("|---------|-----------|---------|\n")
             output.write("| Subject | Predicate | Object  |\n")
             output.write("|---------|-----------|---------|\n")
