@@ -7,7 +7,7 @@ from biothings_client import get_client
 mg = get_client('gene')
 
 # Change to new DOI if updates to DrugMechDB
-DOI = 3708278
+DOI = 8139357
 # set to metapaths_biolink to use biolink model
 metagraph_sheet = 'metapaths'
 
