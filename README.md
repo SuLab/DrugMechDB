@@ -1,10 +1,9 @@
-# Indication Mechanism of Action Database
+# Drug Mechanism Database (DrugMechDB)
 A database of paths that represent the mechanism of action from a drug to a disease in an indication. A preliminary relase of DrugMechDB was published here:
 
-> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/3708278)
-<br><Small>Mayers, Michael; Steinecke, Dylan; Su, Andrew I.<small><br>
+> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/8139357)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3708278.svg)](https://doi.org/10.5281/zenodo.3708278)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8139357.svg)](https://doi.org/10.5281/zenodo.8139357) 
 
 A web interface to DrugMechDB can be found at https://sulab.github.io/DrugMechDB/.
 
@@ -136,3 +135,9 @@ We originally had this configured so that the ["Update Website" action](https://
     git commit -m 'Update website'
     git push
     ```
+
+    
+### Cite this Repository 
+```
+Gonzalez-Cavazos, A. C., Tanska, A., Mayers, M., Carvalho-Silva, D., Sridharan, B., Rewers, P., Sankarlal, U., Jagannathan, L., & Su, A. (2023). Drug Mechanism Database(DrugMechDB) (Version 2.0.1) [Computer software]. https://doi.org/https://doi.org/10.5281/zenodo.8139357
+```

@@ -11,7 +11,7 @@ def auto_adjust_columns_width(writer, sheet, df):
         worksheet.set_column(idx, idx, max_len)  # set column width
 
 # Change DOI to get newer version of DrugMechDB
-DOI = 3708278
+DOI = 8139357
 file_location = "https://zenodo.org/record/{}/files/".format(DOI) + \
                 "indication_MOA_paths.xlsx?download=1"
 
