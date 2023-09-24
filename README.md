@@ -136,8 +136,7 @@ We originally had this configured so that the ["Update Website" action](https://
     git push
     ```
 
-    
-### Cite this Repository 
+### To cite the use of DrugMechDB in your work
 ```
-Gonzalez-Cavazos, A. C., Tanska, A., Mayers, M., Carvalho-Silva, D., Sridharan, B., Rewers, P., Sankarlal, U., Jagannathan, L., & Su, A. (2023). Drug Mechanism Database(DrugMechDB) (Version 2.0.1) [Computer software]. https://doi.org/https://doi.org/10.5281/zenodo.8139357
+Gonzalez-Cavazos, A. C., Tanska, A., Mayers, M., Carvalho-Silva, D., Sridharan, B., Rewers, P. A., Sankarlal, U., Jagannathan, L. & Su, A. I. (2023). DrugMechDB: A Curated Database of Drug Mechanisms. Scientific Data, 10(1), 632.
 ```
