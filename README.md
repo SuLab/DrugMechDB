@@ -1,14 +1,23 @@
 # Drug Mechanism Database (DrugMechDB)
-A database of paths that represent the mechanism of action from a drug to a disease in an indication. A preliminary relase of DrugMechDB was published here:
+**DrugMechDB** is a curated database that captures mechanistic paths from a drug to a disease within a given indication. DrugMechDB provides:
+- Mechanistic paths from drug to disease via biological entities.
+- Expert curation of relationships supported by literature.
+- Graph-based representation of mechanisms suitable for computational analysis.
+- DrugMechDB leverages the [**Biolink Model**](https://biolink.github.io/biolink-model/) to ensure semantic interoperability and consistency across biomedical entities and relationships.
+  
+## 🔗 Resources
 
-> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/8139357)
+- **Latest Release:**  
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8139357.svg)](https://doi.org/10.5281/zenodo.8139357)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8139357.svg)](https://doi.org/10.5281/zenodo.8139357) 
+- **Publication:**  
+  *Gonzalez-Cavazos, A. C., Tanska, A., Mayers, M., Carvalho-Silva, D., Sridharan, B., Rewers, P. A., Sankarlal, U., Jagannathan, L., & Su, A. I. (2023). DrugMechDB: a curated database of drug mechanisms*
+  [Read the paper on Scientific Data](https://www.nature.com/articles/s41597-023-02534-z)
 
-A web interface to DrugMechDB can be found at https://sulab.github.io/DrugMechDB/.
+- **Web Interface:**  
+  Explore DrugMechDB online: [https://sulab.github.io/DrugMechDB/](https://sulab.github.io/DrugMechDB/)
 
 ## Purpose
-
 Most drug mechanisms are described simply as a protein target, or sometimes a pathway, that then treats the disease.
 However, there are usually more steps across a biological knowledge graph required to traverse from the target through
 its mechanism to the reduction of a disease.  This database attempts to catalog a subset of known drug-disease indications
@@ -136,8 +145,8 @@ We originally had this configured so that the ["Update Website" action](https://
     git push
     ```
 
-    
-### Cite this Repository 
+
+### To cite the use of DrugMechDB in your work
 ```
-Gonzalez-Cavazos, A. C., Tanska, A., Mayers, M., Carvalho-Silva, D., Sridharan, B., Rewers, P., Sankarlal, U., Jagannathan, L., & Su, A. (2023). Drug Mechanism Database(DrugMechDB) (Version 2.0.1) [Computer software]. https://doi.org/https://doi.org/10.5281/zenodo.8139357
+Gonzalez-Cavazos, A. C., Tanska, A., Mayers, M., Carvalho-Silva, D., Sridharan, B., Rewers, P. A., Sankarlal, U., Jagannathan, L. & Su, A. I. (2023). DrugMechDB: A Curated Database of Drug Mechanisms. Scientific Data, 10(1), 632.
 ```
