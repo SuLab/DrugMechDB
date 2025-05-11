@@ -1,11 +1,21 @@
 # Drug Mechanism Database (DrugMechDB)
-A database of paths that represent the mechanism of action from a drug to a disease in an indication. A preliminary relase of DrugMechDB was published here:
+**DrugMechDB** is a curated database that captures mechanistic paths from a drug to a disease within a given indication. DrugMechDB provides:
+- Mechanistic paths from drug to disease via biological entities.
+- Expert curation of relationships supported by literature.
+- Graph-based representation of mechanisms suitable for computational analysis.
+- DrugMechDB leverages the [**Biolink Model**](https://biolink.github.io/biolink-model/) to ensure semantic interoperability and consistency across biomedical entities and relationships.
+  
+## 🔗 Resources
 
-> [**Database of mechanism of action paths for selected drug-disease indications**](https://zenodo.org/record/8139357)
+- **Latest Release:**  
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8139357.svg)](https://doi.org/10.5281/zenodo.8139357)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8139357.svg)](https://doi.org/10.5281/zenodo.8139357) 
+- **Publication:**  
+  *Gonzalez-Cavazos, A. C., Tanska, A., Mayers, M., Carvalho-Silva, D., Sridharan, B., Rewers, P. A., Sankarlal, U., Jagannathan, L., & Su, A. I. (2023). DrugMechDB: a curated database of drug mechanisms*
+  [Read the paper on Scientific Data](https://www.nature.com/articles/s41597-023-02534-z)
 
-A web interface to DrugMechDB can be found at https://sulab.github.io/DrugMechDB/.
+- **Web Interface:**  
+  Explore DrugMechDB online: [https://sulab.github.io/DrugMechDB/](https://sulab.github.io/DrugMechDB/)
 
 ## Purpose
 
