@@ -380,7 +380,7 @@ Protein (or other gene product) is almost always going to be the appropriate con
 
 ### Is case sensitivity important?
 
-Case sensitivity is important only in Node Names.  In all other fields, case sensitivity will be normalized
+Case sensitivity is important in Node Names and Node Labels.  In all other fields, case sensitivity will be normalized
 to the standard within `indication_paths.yaml` after new additions are submitted via pull request.
 
 ### What should I annotate for General Bacterial Infections? UniProt identifiers are species specific!

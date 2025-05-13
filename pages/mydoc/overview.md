@@ -13,9 +13,9 @@ datatable: true
 |--------|------|-------------|--------------|---------|-----------------|--------------------|----------------------|
 | [DB00619_MESH_D015464_1](db00619-mesh-d015464-1.html) | imatinib | DB:DB00619 | MESH:D000068877 | CML (ph+) | MESH:D015464 | 3 | 2 |
 | [DB00619_MESH_D034721_1](db00619-mesh-d034721-1.html) | imatinib | DB:DB00619 | MESH:D000068877 | Systemic mast cell disease | MESH:D034721 | 5 | 5 |
-| [DB00316_MESH_D010146_1](db00316-mesh-d010146-1.html) | acetaminophen | DB:DB00316 | MESH:D000082 | Pain | MESH:D010146 | 6 | 7 |
+| [DB00316_MESH_D010146_1](db00316-mesh-d010146-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Pain | MESH:D010146 | 7 | 8 |
 | [DB00316_MESH_D005334_1](db00316-mesh-d005334-1.html) | acetaminophen | DB:DB00316 | MESH:D000082 | Fever | MESH:D005334 | 5 | 4 |
-| [DB00945_MESH_D010146_1](db00945-mesh-d010146-1.html) | acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Pain | MESH:D010146 | 5 | 5 |
+| [DB00945_MESH_D010146_1](db00945-mesh-d010146-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Pain | MESH:D010146 | 7 | 7 |
 | [DB00945_MESH_D013927_1](db00945-mesh-d013927-1.html) | acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Thrombosis | MESH:D013927 | 6 | 6 |
 | [DB00788_MESH_D010146_1](db00788-mesh-d010146-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Pain | MESH:D010146 | 5 | 4 |
 | [DB01059_MESH_D004405_1](db01059-mesh-d004405-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Shigellosis | MESH:D004405 | 7 | 7 |
@@ -40,10 +40,10 @@ datatable: true
 | [DB00342_MESH_D017449_1](db00342-mesh-d017449-1.html) | terfenadine | DB:DB00342 | MESH:D016593 | allergic skin disorders | MESH:D017449 | 4 | 3 |
 | [DB01048_MESH_D015658_1](db01048-mesh-d015658-1.html) | abacavir | DB:DB01048 | MESH:C106538 | HIV infection | MESH:D015658 | 5 | 4 |
 | [DB00717_MESH_D008595_1](db00717-mesh-d008595-1.html) | norethisterone | DB:DB00717 | MESH:D009640 | Menorrhagia | MESH:D008595 | 5 | 4 |
-| [DB00246_MESH_D012559_1](db00246-mesh-d012559-1.html) | ziprasidone | DB:DB00246 | MESH:C092292 | Schizophrenia | MESH:D012559 | 4 | 3 |
+| [DB00246_MESH_D012559_1](db00246-mesh-d012559-1.html) | ziprasidone | DB:DB00246 | MESH:C092292 | Schizophrenia | MESH:D012559 | 8 | 8 |
 | [DB00748_MESH_D003233_1](db00748-mesh-d003233-1.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | seasonal allergic conjunctivitis | MESH:D003233 | 4 | 3 |
 | [DB00066_MESH_D016649_1](db00066-mesh-d016649-1.html) | follitropin | DB:DB00066 | MESH:D005640 | primary ovarian failure | MESH:D016649 | 4 | 3 |
-| [DB01212_MESH_D006069_1](db01212-mesh-d006069-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Gonorrhea | MESH:D006069 | 5 | 4 |
+| [DB01212_MESH_D006069_1](db01212-mesh-d006069-1.html) | Ceftriaxone | DB:DB01212 | MESH:D002443 | Gonorrhea | MESH:D006069 | 5 | 4 |
 | [DB02703_MESH_D000881_1](db02703-mesh-d000881-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Anthrax | MESH:D000881 | 5 | 4 |
 | [DB00682_MESH_D011655_1](db00682-mesh-d011655-1.html) | warfarin | DB:DB00682 | MESH:D014859 | Pulmonary embolism | MESH:D011655 | 5 | 4 |
 | [DB09046_MESH_D008060_1](db09046-mesh-d008060-1.html) | metreleptin | DB:DB09046 | MESH:C415771 | lipodystrophy | MESH:D008060 | 4 | 3 |
@@ -63,7 +63,7 @@ datatable: true
 | [DB00443_MESH_D003424_1](db00443-mesh-d003424-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Crohn's disease | MESH:D003424 | 5 | 4 |
 | [MESH_C106301_MESH_D003233_1](mesh-c106301-mesh-d003233-1.html) | tazanolast | None | MESH:C106301 | Allergic conjuctivitis | MESH:D003233 | 3 | 2 |
 | [DB00620_MESH_D003424_1](db00620-mesh-d003424-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:D014221 | Crohn's disease | MESH:D003424 | 5 | 4 |
-| [DB00996_MESH_D012148_1](db00996-mesh-d012148-1.html) | gabapentin | DB:DB00996 | MESH:D000077206 | Restless Legs Syndrome | MESH:D012148 | 4 | 3 |
+| [DB00996_MESH_D012148_1](db00996-mesh-d012148-1.html) | Gabapentin | DB:DB00996 | MESH:D000077206 | Restless Legs Syndrome | MESH:D012148 | 5 | 4 |
 | [DB01598_MESH_D010538_1](db01598-mesh-d010538-1.html) | imipenem | DB:DB01598 | MESH:D015378 | Peritonitis | MESH:D010538 | 5 | 4 |
 | [DB00860_MESH_D012507_1](db00860-mesh-d012507-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Sarcoidosis | MESH:D012507 | 6 | 5 |
 | [DB09345_MESH_D010146_1](db09345-mesh-d010146-1.html) | pramocaine | DB:DB09345 | MESH:C005548 | Pain | MESH:D010146 | 4 | 3 |
@@ -83,7 +83,7 @@ datatable: true
 | [DB02362_MESH_D010392_1](db02362-mesh-d010392-1.html) | aminobenzoic acid | DB:DB02362 | MESH:D010129 | Pemphigus | MESH:D010392 | 2 | 1 |
 | [DB01067_MESH_D006943_1](db01067-mesh-d006943-1.html) | glipizide | DB:DB01067 | MESH:D005913 | Hyperglycemia | MESH:D006943 | 5 | 4 |
 | [DB12212_MESH_D013610_1](db12212-mesh-d013610-1.html) | landiolol | DB:DB12212 | MESH:C077049 | Tachyarrhythmia | MESH:D013610 | 4 | 3 |
-| [DB01106_MESH_D003233_1](db01106-mesh-d003233-1.html) | levocabastine | DB:DB01106 | MESH:C047340 | Allergic conjunctivitis | MESH:D003233 | 4 | 3 |
+| [DB01106_MESH_D003233_1](db01106-mesh-d003233-1.html) | levocabastine | DB:DB01106 | MESH:C047340 | Conjunctivitis, Allergic | MESH:D003233 | 4 | 3 |
 | [DB01418_MESH_D011655_1](db01418-mesh-d011655-1.html) | acenocoumarol | DB:DB01418 | MESH:D000074 | Pulmonary Embolism | MESH:D011655 | 5 | 4 |
 | [DB14649_MESH_D009101_1](db14649-mesh-d009101-1.html) | dexamethasone acetate | DB:DB14649 | MESH:C018038 | Multiple meyloma | MESH:D009101 | 6 | 5 |
 | [DB13676_MESH_D012559_1](db13676-mesh-d012559-1.html) | mosapramine | DB:DB13676 | MESH:C046384 | Schizophrenia | MESH:D012559 | 4 | 3 |
@@ -109,7 +109,7 @@ datatable: true
 | [DB00878_MESH_D010518_1](db00878-mesh-d010518-1.html) | chlorhexidine | DB:DB00878 | MESH:D002710 | periodontitis | MESH:D010518 | 4 | 3 |
 | [DB00059_MESH_D054198_1](db00059-mesh-d054198-1.html) | pegaspargase | DB:DB00059 | MESH:C042705 | Acute lymphoblastic leukemia | MESH:D054198 | 4 | 3 |
 | [DB01201_MESH_D014397_1](db01201-mesh-d014397-1.html) | rifapentine | DB:DB01201 | MESH:C018421 | Pulmonary tuberculosis | MESH:D014397 | 5 | 4 |
-| [DB11152_MESH_D003218_1](db11152-mesh-d003218-1.html) | trichloroacetic acid | DB:DB11152 | MESH:D014238 | Condyloma acuminatum | MESH:D003218 | 3 | 2 |
+| [DB11152_MESH_D003218_1](db11152-mesh-d003218-1.html) | Trichloroacetic Acid | DB:DB11152 | MESH:D014238 | Condylomata Acuminata | MESH:D003218 | 4 | 3 |
 | [DB12131_MESH_D003704_1](db12131-mesh-d003704-1.html) | vinpocetine | DB:DB12131 | MESH:C013983 | Dementia | MESH:D003704 | 4 | 3 |
 | [DB13142_MESH_D006996_1](db13142-mesh-d006996-1.html) | calcium glubionate | DB:DB13142 | MESH:C042131 | Hypocalcemia | MESH:D006996 | 3 | 2 |
 | [DB01437_MESH_D007319_1](db01437-mesh-d007319-1.html) | glutethimide | DB:DB01437 | MESH:D005984 | Insomnia | MESH:D007319 | 4 | 3 |
@@ -209,39 +209,28 @@ datatable: true
 | [DB05352_MESH_D000686_1](db05352-mesh-d000686-1.html) | tafamidis | DB:DB05352 | MESH:C547076 | Amyloidosis | MESH:D000686 | 8 | 7 |
 | [DB12459_MESH_D002289_1](db12459-mesh-d002289-1.html) | belotecan | DB:DB12459 | MESH:C116963 | Non-small cell lung cancer | MESH:D002289 | 5 | 4 |
 | [DB12459_MESH_D010051_1](db12459-mesh-d010051-1.html) | belotecan | DB:DB12459 | MESH:C116963 | Malignant tumor of ovary | MESH:D010051 | 5 | 4 |
-| [DB00182_MESH_D009765_1](db00182-mesh-d009765-1.html) | amfetamine | DB:DB00182 | MESH:D000661 | Obesity | MESH:D009765 | 6 | 5 |
-| [DB00182_MESH_D009765_2](db00182-mesh-d009765-2.html) | amfetamine | DB:DB00182 | MESH:D000661 | Obesity | MESH:D009765 | 6 | 5 |
-| [DB00182_MESH_D009290_1](db00182-mesh-d009290-1.html) | amfetamine | DB:DB00182 | MESH:D000661 | Narcolepsy | MESH:D009290 | 5 | 4 |
-| [DB00182_MESH_D009290_2](db00182-mesh-d009290-2.html) | amfetamine | DB:DB00182 | MESH:D000661 | Narcolepsy | MESH:D009290 | 5 | 4 |
-| [DB00182_MESH_D001289_1](db00182-mesh-d001289-1.html) | amfetamine | DB:DB00182 | MESH:D000661 | Attention deficit hyperactivity disorder | MESH:D001289 | 5 | 4 |
-| [DB00182_MESH_D001289_2](db00182-mesh-d001289-2.html) | amfetamine | DB:DB00182 | MESH:D000661 | Attention deficit hyperactivity disorder | MESH:D001289 | 5 | 4 |
-| [DB00182_MESH_D001289_3](db00182-mesh-d001289-3.html) | amfetamine | DB:DB00182 | MESH:D000661 | Attention deficit hyperactivity disorder | MESH:D001289 | 6 | 5 |
-| [DB00182_MESH_D001289_4](db00182-mesh-d001289-4.html) | amfetamine | DB:DB00182 | MESH:D000661 | Attention deficit hyperactivity disorder | MESH:D001289 | 5 | 4 |
-| [DB00182_MESH_D001289_5](db00182-mesh-d001289-5.html) | amfetamine | DB:DB00182 | MESH:D000661 | Attention deficit hyperactivity disorder | MESH:D001289 | 5 | 4 |
-| [DB00435_MESH_D010547_1](db00435-mesh-d010547-1.html) | nitric oxide | DB:DB00435 | MESH:D009569 | Persistent pulmonary hypertension of the newborn | MESH:D010547 | 4 | 3 |
-| [DB00435_MESH_D006976_1](db00435-mesh-d006976-1.html) | nitric oxide | DB:DB00435 | MESH:D009569 | Pulmonary hypertension | MESH:D006976 | 7 | 6 |
-| [DB00568_MESH_D009325_1](db00568-mesh-d009325-1.html) | cinnarizine | DB:DB00568 | MESH:D002936 | Nausea | MESH:D009325 | 3 | 2 |
-| [DB00568_MESH_D014717_1](db00568-mesh-d014717-1.html) | cinnarizine | DB:DB00568 | MESH:D002936 | Vertigo | MESH:D014717 | 4 | 3 |
-| [DB00568_MESH_D014717_2](db00568-mesh-d014717-2.html) | cinnarizine | DB:DB00568 | MESH:D002936 | Vertigo | MESH:D014717 | 4 | 3 |
-| [DB00568_MESH_D009041_1](db00568-mesh-d009041-1.html) | cinnarizine | DB:DB00568 | MESH:D002936 | Motion sickness | MESH:D009041 | 3 | 2 |
+| [DB00182_MESH_D009765_1](db00182-mesh-d009765-1.html) | Amphetamine | DB:DB00182 | MESH:D000661 | Obesity | MESH:D009765 | 11 | 14 |
+| [DB00182_MESH_D009290_1](db00182-mesh-d009290-1.html) | Amphetamine | DB:DB00182 | MESH:D000661 | Narcolepsy | MESH:D009290 | 9 | 11 |
+| [DB00182_MESH_D001289_1](db00182-mesh-d001289-1.html) | Amphetamine | DB:DB00182 | MESH:D000661 | Attention Deficit Disorder with Hyperactivity | MESH:D001289 | 9 | 11 |
+| [DB00435_MESH_D010547_1](db00435-mesh-d010547-1.html) | Nitric Oxide | DB:DB00435 | MESH:D009569 | Persistent Fetal Circulation Syndrome | MESH:D010547 | 6 | 5 |
+| [DB00435_MESH_D006976_1](db00435-mesh-d006976-1.html) | Nitric Oxide | DB:DB00435 | MESH:D009569 | Hypertension, Pulmonary | MESH:D006976 | 7 | 6 |
+| [DB00568_MESH_D009325_1](db00568-mesh-d009325-1.html) | Cinnarizine | DB:DB00568 | MESH:D002936 | Nausea | MESH:D009325 | 8 | 9 |
+| [DB00568_MESH_D014717_1](db00568-mesh-d014717-1.html) | Cinnarizine | DB:DB00568 | MESH:D002936 | Vertigo | MESH:D014717 | 8 | 9 |
+| [DB00568_MESH_D009041_1](db00568-mesh-d009041-1.html) | Cinnarizine | DB:DB00568 | MESH:D002936 | Motion Sickness | MESH:D009041 | 8 | 9 |
 | [DB00655_MESH_D000152_1](db00655-mesh-d000152-1.html) | estrone | DB:DB00655 | MESH:D004970 | Acne vulgaris | MESH:D000152 | 7 | 6 |
 | [DB00655_MESH_D010024_1](db00655-mesh-d010024-1.html) | estrone | DB:DB00655 | MESH:D004970 | Osteoporosis | MESH:D010024 | 3 | 2 |
-| [DB01294_MESH_D003967_1](db01294-mesh-d003967-1.html) | bismuth subsalicylate | DB:DB01294 | MESH:C015715 | Diarrhea | MESH:D003967 | 4 | 3 |
-| [DB01294_MESH_D003967_2](db01294-mesh-d003967-2.html) | bismuth subsalicylate | DB:DB01294 | MESH:C015715 | Diarrhea | MESH:D003967 | 6 | 5 |
-| [DB01294_MESH_D004415_1](db01294-mesh-d004415-1.html) | bismuth subsalicylate | DB:DB01294 | MESH:C015715 | Indigestion | MESH:D004415 | 4 | 3 |
-| [DB01105_MESH_D009765_1](db01105-mesh-d009765-1.html) | sibutramine | DB:DB01105 | MESH:C058254 | Obesity | MESH:D009765 | 4 | 3 |
-| [DB01105_MESH_D009765_2](db01105-mesh-d009765-2.html) | sibutramine | DB:DB01105 | MESH:C058254 | Obesity | MESH:D009765 | 4 | 3 |
-| [DB09010_MESH_D003110_1](db09010-mesh-d003110-1.html) | carmofur | DB:DB09010 | MESH:C017367 | Malignant tumor of colon | MESH:D003110 | 4 | 3 |
+| [DB01294_MESH_D003967_1](db01294-mesh-d003967-1.html) | bismuth subsalicylate | DB:DB01294 | MESH:C015715 | Diarrhea | MESH:D003967 | 6 | 5 |
+| [DB01294_MESH_D004415_1](db01294-mesh-d004415-1.html) | bismuth subsalicylate | DB:DB01294 | MESH:C015715 | Dyspepsia | MESH:D004415 | 5 | 4 |
+| [DB01105_MESH_D009765_1](db01105-mesh-d009765-1.html) | sibutramine | DB:DB01105 | MESH:C058254 | Obesity | MESH:D009765 | 8 | 8 |
+| [DB09010_MESH_D003110_1](db09010-mesh-d003110-1.html) | carmofur | DB:DB09010 | MESH:C017367 | Colonic Neoplasms | MESH:D003110 | 5 | 4 |
 | [DB09010_MESH_D000086382_1](db09010-mesh-d000086382-1.html) | carmofur | DB:DB09010 | MESH:C017367 | Covid-19 | MESH:D000086382 | 3 | 2 |
-| [DB01685_MESH_D033461_1](db01685-mesh-d033461-1.html) | topiroxostat | DB:DB01685 | MESH:C504882 | Hyperuricemia | MESH:D033461 | 4 | 3 |
-| [DB01685_MESH_D033461_2](db01685-mesh-d033461-2.html) | topiroxostat | DB:DB01685 | MESH:C504882 | Hyperuricemia | MESH:D033461 | 4 | 3 |
-| [DB01685_MESH_D006073_1](db01685-mesh-d006073-1.html) | topiroxostat | DB:DB01685 | MESH:C504882 | Gout | MESH:D006073 | 4 | 3 |
-| [DB01685_MESH_D006073_2](db01685-mesh-d006073-2.html) | topiroxostat | DB:DB01685 | MESH:C504882 | Gout | MESH:D006073 | 4 | 3 |
-| [DB09357_MESH_D007418_1](db09357-mesh-d007418-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Paralytic ileus | MESH:D007418 | 6 | 5 |
+| [DB01685_MESH_D033461_1](db01685-mesh-d033461-1.html) | FYX-051 | DB:DB01685 | MESH:C504882 | Hyperuricemia | MESH:D033461 | 5 | 5 |
+| [DB01685_MESH_D006073_1](db01685-mesh-d006073-1.html) | FYX-051 | DB:DB01685 | MESH:C504882 | Gout | MESH:D006073 | 5 | 5 |
+| [DB09357_MESH_D007418_1](db09357-mesh-d007418-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Intestinal Pseudo-Obstruction | MESH:D007418 | 6 | 5 |
 | [DB09357_MESH_D018589_1](db09357-mesh-d018589-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Gastroparesis | MESH:D018589 | 6 | 5 |
-| [DB09357_MESH_D003963_1](db09357-mesh-d003963-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Diaper rash | MESH:D003963 | 4 | 3 |
-| [DB09357_MESH_D004485_1](db09357-mesh-d004485-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Eczema | MESH:D004485 | 4 | 3 |
-| [DB09357_MESH_D012871_1](db09357-mesh-d012871-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Disorder of skin | MESH:D012871 | 4 | 3 |
+| [DB09357_MESH_D003963_1](db09357-mesh-d003963-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Diaper Rash | MESH:D003963 | 6 | 5 |
+| [DB09357_MESH_D004485_1](db09357-mesh-d004485-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Eczema | MESH:D004485 | 4 | 4 |
+| [DB09357_MESH_D012871_1](db09357-mesh-d012871-1.html) | dexpanthenol | DB:DB09357 | MESH:C007288 | Skin Diseases | MESH:D012871 | 4 | 4 |
 | [DB00007_MESH_D004715_1](db00007-mesh-d004715-1.html) | leuprorelin | DB:DB00007 | MESH:D016729,MESH:C493311 | Endometriosis | MESH:D004715 | 5 | 4 |
 | [DB00007_MESH_D011629_1](db00007-mesh-d011629-1.html) | leuprorelin | DB:DB00007 | MESH:D016729,MESH:C493311 | Precocious puberty | MESH:D011629 | 7 | 8 |
 | [DB00222_MESH_D003924_1](db00222-mesh-d003924-1.html) | glimepiride | DB:DB00222 | MESH:C057619 | Diabetes mellitus type 2 | MESH:D003924 | 8 | 8 |
@@ -286,20 +275,10 @@ datatable: true
 | [DB01606_MESH_D018784_1](db01606-mesh-d018784-1.html) | tazobactam | DB:DB01606 | MESH:C043265 | Abdominal abscess | MESH:D018784 | 5 | 4 |
 | [DB12319_MESH_D033461_1](db12319-mesh-d033461-1.html) | benzbromarone | DB:DB12319 | MESH:D001553 | Hyperuricemia | MESH:D033461 | 5 | 4 |
 | [DB12319_MESH_D006073_1](db12319-mesh-d006073-1.html) | benzbromarone | DB:DB12319 | MESH:D001553 | Gout | MESH:D006073 | 5 | 4 |
-| [DB01579_MESH_D009765_1](db01579-mesh-d009765-1.html) | phendimetrazine | DB:DB01579 | MESH:C100294 | Obesity | MESH:D009765 | 5 | 4 |
-| [DB01579_MESH_D009765_2](db01579-mesh-d009765-2.html) | phendimetrazine | DB:DB01579 | MESH:C100294 | Obesity | MESH:D009765 | 5 | 4 |
-| [DB01579_MESH_D009765_3](db01579-mesh-d009765-3.html) | phendimetrazine | DB:DB01579 | MESH:C100294 | Obesity | MESH:D009765 | 5 | 4 |
+| [DB01579_MESH_D009765_1](db01579-mesh-d009765-1.html) | phendimetrazine | DB:DB01579 | MESH:C100294 | Obesity | MESH:D009765 | 4 | 3 |
+| [DB01579_MESH_D009765_2](db01579-mesh-d009765-2.html) | phendimetrazine | DB:DB01579 | MESH:C100294 | Obesity | MESH:D009765 | 4 | 3 |
 | [DB01579_MESH_D009765_4](db01579-mesh-d009765-4.html) | phendimetrazine | DB:DB01579 | MESH:C100294 | Obesity | MESH:D009765 | 6 | 5 |
-| [DB01579_MESH_D009765_5](db01579-mesh-d009765-5.html) | phendimetrazine | DB:DB01579 | MESH:C100294 | Obesity | MESH:D009765 | 5 | 4 |
-| [DB00313_MESH_D004832_1](db00313-mesh-d004832-1.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 7 | 6 |
-| [DB00313_MESH_D004832_2](db00313-mesh-d004832-2.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 7 | 6 |
-| [DB00313_MESH_D004832_3](db00313-mesh-d004832-3.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 8 | 7 |
-| [DB00313_MESH_D004832_4](db00313-mesh-d004832-4.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 5 | 4 |
-| [DB00313_MESH_D004832_5](db00313-mesh-d004832-5.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 7 | 6 |
-| [DB00313_MESH_D004832_6](db00313-mesh-d004832-6.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 7 | 6 |
-| [DB00313_MESH_D004832_7](db00313-mesh-d004832-7.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 7 | 6 |
-| [DB00313_MESH_D004832_8](db00313-mesh-d004832-8.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 8 | 7 |
-| [DB00313_MESH_D004832_9](db00313-mesh-d004832-9.html) | valproic acid | DB:DB00313 | MESH:D014635 | Absence seizure | MESH:D004832 | 5 | 4 |
+| [DB00313_MESH_D004832_1](db00313-mesh-d004832-1.html) | Valproic Acid | DB:DB00313 | MESH:D014635 | Epilepsy, Absence | MESH:D004832 | 7 | 7 |
 | [DB00313_MESH_D001714_1](db00313-mesh-d001714-1.html) | valproic acid | DB:DB00313 | MESH:D014635 | Bipolar disorder | MESH:D001714 | 5 | 4 |
 | [DB00313_MESH_D001714_2](db00313-mesh-d001714-2.html) | valproic acid | DB:DB00313 | MESH:D014635 | Bipolar disorder | MESH:D001714 | 6 | 5 |
 | [DB00313_MESH_D001714_3](db00313-mesh-d001714-3.html) | valproic acid | DB:DB00313 | MESH:D014635 | Bipolar disorder | MESH:D001714 | 6 | 5 |
@@ -308,60 +287,33 @@ datatable: true
 | [DB00313_MESH_D004827_3](db00313-mesh-d004827-3.html) | valproic acid | DB:DB00313 | MESH:D014635 | Epilepsy | MESH:D004827 | 5 | 4 |
 | [DB00313_MESH_D004827_4](db00313-mesh-d004827-4.html) | valproic acid | DB:DB00313 | MESH:D014635 | Epilepsy | MESH:D004827 | 6 | 5 |
 | [DB00313_MESH_D008881_1](db00313-mesh-d008881-1.html) | valproic acid | DB:DB00313 | MESH:D014635 | migraine | MESH:D008881 | 6 | 5 |
-| [DB00495_MESH_D015658_1](db00495-mesh-d015658-1.html) | zidovudine | DB:DB00495 | MESH:D015215 | Human immunodeficiency virus infection | MESH:D015658 | 6 | 5 |
-| [DB00495_MESH_D015658_2](db00495-mesh-d015658-2.html) | zidovudine | DB:DB00495 | MESH:D015215 | Human immunodeficiency virus infection | MESH:D015658 | 6 | 5 |
-| [DB01227_MESH_D009293_1](db01227-mesh-d009293-1.html) | levomethadyl acetate | DB:DB01227 | None | Opioid dependence | MESH:D009293 | 5 | 4 |
-| [DB01227_MESH_D009293_2](db01227-mesh-d009293-2.html) | levomethadyl acetate | DB:DB01227 | None | Opioid dependence | MESH:D009293 | 5 | 4 |
-| [DB01210_MESH_D005902_1](db01210-mesh-d005902-1.html) | levobunolol | DB:DB01210 | MESH:D002040 | Open-angle glaucoma | MESH:D005902 | 7 | 6 |
-| [DB01210_MESH_D005902_2](db01210-mesh-d005902-2.html) | levobunolol | DB:DB01210 | MESH:D002040 | Open-angle glaucoma | MESH:D005902 | 7 | 6 |
-| [DB01210_MESH_D005902_3](db01210-mesh-d005902-3.html) | levobunolol | DB:DB01210 | MESH:D002040 | Open-angle glaucoma | MESH:D005902 | 7 | 6 |
-| [DB01210_MESH_D005902_4](db01210-mesh-d005902-4.html) | levobunolol | DB:DB01210 | MESH:D002040 | Open-angle glaucoma | MESH:D005902 | 7 | 6 |
-| [DB01210_MESH_D009798_1](db01210-mesh-d009798-1.html) | levobunolol | DB:DB01210 | MESH:D002040 | Ocular hypertension | MESH:D009798 | 7 | 6 |
-| [DB01210_MESH_D009798_2](db01210-mesh-d009798-2.html) | levobunolol | DB:DB01210 | MESH:D002040 | Ocular hypertension | MESH:D009798 | 7 | 6 |
+| [DB00495_MESH_D015658_1](db00495-mesh-d015658-1.html) | Zidovudine | DB:DB00495 | MESH:D015215 | HIV Infections | MESH:D015658 | 6 | 5 |
+| [DB01227_MESH_D009293_1](db01227-mesh-d009293-1.html) | Methadyl Acetate | DB:DB01227 | MESH:D008692 | Opioid-Related Disorders | MESH:D009293 | 7 | 6 |
+| [DB01210_MESH_D005902_1](db01210-mesh-d005902-1.html) | Levobunolol | DB:DB01210 | MESH:D002040 | Glaucoma, Open-Angle | MESH:D005902 | 8 | 8 |
+| [DB01210_MESH_D009798_1](db01210-mesh-d009798-1.html) | Levobunolol | DB:DB01210 | MESH:D002040 | Ocular Hypertension | MESH:D009798 | 7 | 7 |
 | [DB01210_MESH_D009798_3](db01210-mesh-d009798-3.html) | levobunolol | DB:DB01210 | MESH:D002040 | Ocular hypertension | MESH:D009798 | 7 | 6 |
 | [DB01210_MESH_D009798_4](db01210-mesh-d009798-4.html) | levobunolol | DB:DB01210 | MESH:D002040 | Ocular hypertension | MESH:D009798 | 7 | 6 |
-| [DB00027_MESH_D003234_1](db00027-mesh-d003234-1.html) | gramicidin | DB:DB00027 | MESH:D006096 | Bacterial conjunctivitis | MESH:D003234 | 7 | 6 |
-| [DB00027_MESH_D003234_2](db00027-mesh-d003234-2.html) | gramicidin | DB:DB00027 | MESH:D006096 | Bacterial conjunctivitis | MESH:D003234 | 10 | 9 |
-| [DB00758_MESH_D054058_1](db00758-mesh-d054058-1.html) | clopidogrel | DB:DB00758 | None | Acute coronary syndrome | MESH:D054058 | 8 | 7 |
-| [DB00758_MESH_D054058_2](db00758-mesh-d054058-2.html) | clopidogrel | DB:DB00758 | None | Acute coronary syndrome | MESH:D054058 | 8 | 7 |
-| [DB00758_MESH_D020766_1](db00758-mesh-d020766-1.html) | clopidogrel | DB:DB00758 | None | Cerebral embolism | MESH:D020766 | 8 | 7 |
-| [DB00758_MESH_D020766_2](db00758-mesh-d020766-2.html) | clopidogrel | DB:DB00758 | None | Cerebral embolism | MESH:D020766 | 8 | 7 |
-| [DB08873_MESH_D019698_1](db08873-mesh-d019698-1.html) | boceprevir | DB:DB08873 | MESH:C512204 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
-| [DB08873_MESH_D019698_2](db08873-mesh-d019698-2.html) | boceprevir | DB:DB08873 | MESH:C512204 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
+| [DB00027_MESH_D003234_1](db00027-mesh-d003234-1.html) | Gramicidin | DB:DB00027 | MESH:D006096 | Conjunctivitis, Bacterial | MESH:D003234 | 6 | 5 |
+| [DB00758_MESH_D054058_1](db00758-mesh-d054058-1.html) | Clopidogrel | DB:DB00758 | MESH:D000077144 | Acute Coronary Syndrome | MESH:D054058 | 4 | 3 |
+| [DB00758_MESH_D020766_1](db00758-mesh-d020766-1.html) | Clopidogrel | DB:DB00758 | MESH:D000077144 | Intracranial Embolism | MESH:D020766 | 4 | 3 |
+| [DB08873_MESH_D019698_1](db08873-mesh-d019698-1.html) | Boceprevir | DB:DB08873 | MESH:C512204 | Hepatitis C, Chronic | MESH:D019698 | 5 | 4 |
+| [DB08873_MESH_D019698_2](db08873-mesh-d019698-2.html) | Boceprevir | DB:DB08873 | MESH:C512204 | Hepatitis C, Chronic | MESH:D019698 | 5 | 4 |
 | [DB01282_MESH_D011218_1](db01282-mesh-d011218-1.html) | carbetocin | DB:DB01282 | MESH:C020731 | Prader-Willi syndrome | MESH:D011218 | 2 | 1 |
 | [DB01282_MESH_D006473_1](db01282-mesh-d006473-1.html) | carbetocin | DB:DB01282 | MESH:C020731 | postpartum hemorrhage | MESH:D006473 | 6 | 5 |
-| [DB00671_MESH_D006069_1](db00671-mesh-d006069-1.html) | cefixime | DB:DB00671 | MESH:D020682 | Gonorrhea | MESH:D006069 | 7 | 6 |
-| [DB00671_MESH_D006069_2](db00671-mesh-d006069-2.html) | cefixime | DB:DB00671 | MESH:D020682 | Gonorrhea | MESH:D006069 | 9 | 8 |
-| [DB00671_MESH_D014069_1](db00671-mesh-d014069-1.html) | cefixime | DB:DB00671 | MESH:D020682 | Tonsillitis | MESH:D014069 | 7 | 6 |
-| [DB00671_MESH_D014069_2](db00671-mesh-d014069-2.html) | cefixime | DB:DB00671 | MESH:D020682 | Tonsillitis | MESH:D014069 | 9 | 8 |
-| [DB00671_MESH_D013290_1](db00671-mesh-d013290-1.html) | cefixime | DB:DB00671 | MESH:D020682 | Streptococcus pyogenes infection | MESH:D013290 | 7 | 6 |
-| [DB00671_MESH_D013290_2](db00671-mesh-d013290-2.html) | cefixime | DB:DB00671 | MESH:D020682 | Streptococcus pyogenes infection | MESH:D013290 | 9 | 8 |
-| [DB00671_MESH_D001991_1](db00671-mesh-d001991-1.html) | cefixime | DB:DB00671 | MESH:D020682 | Bronchitis | MESH:D001991 | 7 | 6 |
-| [DB00671_MESH_D001991_2](db00671-mesh-d001991-2.html) | cefixime | DB:DB00671 | MESH:D020682 | Bronchitis | MESH:D001991 | 9 | 8 |
-| [DB00671_MESH_D014552_1](db00671-mesh-d014552-1.html) | cefixime | DB:DB00671 | MESH:D020682 | Urinary tract infectious disease | MESH:D014552 | 7 | 6 |
-| [DB00671_MESH_D014552_2](db00671-mesh-d014552-2.html) | cefixime | DB:DB00671 | MESH:D020682 | Urinary tract infectious disease | MESH:D014552 | 9 | 8 |
-| [DB00671_MESH_D010612_1](db00671-mesh-d010612-1.html) | cefixime | DB:DB00671 | MESH:D020682 | Pharyngitis | MESH:D010612 | 7 | 6 |
-| [DB00671_MESH_D010612_2](db00671-mesh-d010612-2.html) | cefixime | DB:DB00671 | MESH:D020682 | Pharyngitis | MESH:D010612 | 9 | 8 |
-| [DB00671_MESH_D012141_1](db00671-mesh-d012141-1.html) | cefixime | DB:DB00671 | MESH:D020682 | Upper respiratory infection | MESH:D012141 | 7 | 6 |
-| [DB00671_MESH_D012141_2](db00671-mesh-d012141-2.html) | cefixime | DB:DB00671 | MESH:D020682 | Upper respiratory infection | MESH:D012141 | 9 | 8 |
-| [DB00835_MESH_D006255_1](db00835-mesh-d006255-1.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Seasonal allergic rhinitis | MESH:D006255 | 5 | 4 |
-| [DB00835_MESH_D006255_2](db00835-mesh-d006255-2.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Seasonal allergic rhinitis | MESH:D006255 | 3 | 2 |
-| [DB00835_MESH_D006255_3](db00835-mesh-d006255-3.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Seasonal allergic rhinitis | MESH:D006255 | 3 | 2 |
-| [DB00835_MESH_D014581_1](db00835-mesh-d014581-1.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Urticaria | MESH:D014581 | 5 | 4 |
-| [DB00835_MESH_D014581_2](db00835-mesh-d014581-2.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Urticaria | MESH:D014581 | 3 | 2 |
-| [DB00835_MESH_D014581_3](db00835-mesh-d014581-3.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Urticaria | MESH:D014581 | 3 | 2 |
-| [DB00835_MESH_D011537_1](db00835-mesh-d011537-1.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Itching of skin | MESH:D011537 | 5 | 4 |
-| [DB00835_MESH_D011537_2](db00835-mesh-d011537-2.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Itching of skin | MESH:D011537 | 3 | 2 |
+| [DB00671_MESH_D006069_1](db00671-mesh-d006069-1.html) | Cefixime | DB:DB00671 | MESH:D020682 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB00671_MESH_D014069_1](db00671-mesh-d014069-1.html) | Cefixime | DB:DB00671 | MESH:D020682 | Tonsillitis | MESH:D014069 | 6 | 5 |
+| [DB00671_MESH_D013290_1](db00671-mesh-d013290-1.html) | Cefixime | DB:DB00671 | MESH:D020682 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB00671_MESH_D001991_1](db00671-mesh-d001991-1.html) | Cefixime | DB:DB00671 | MESH:D020682 | Bronchitis | MESH:D001991 | 6 | 5 |
+| [DB00671_MESH_D014552_1](db00671-mesh-d014552-1.html) | Cefixime | DB:DB00671 | MESH:D020682 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB00671_MESH_D010612_1](db00671-mesh-d010612-1.html) | Cefixime | DB:DB00671 | MESH:D020682 | Pharyngitis | MESH:D010612 | 6 | 5 |
+| [DB00671_MESH_D012141_1](db00671-mesh-d012141-1.html) | Cefixime | DB:DB00671 | MESH:D020682 | Respiratory Tract Infections | MESH:D012141 | 6 | 5 |
+| [DB00835_MESH_D006255_1](db00835-mesh-d006255-1.html) | Brompheniramine | DB:DB00835 | MESH:D001977 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 5 | 4 |
+| [DB00835_MESH_D014581_1](db00835-mesh-d014581-1.html) | Brompheniramine | DB:DB00835 | MESH:D001977 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB00835_MESH_D011537_1](db00835-mesh-d011537-1.html) | Brompheniramine | DB:DB00835 | MESH:D001977 | Pruritus | MESH:D011537 | 5 | 4 |
 | [DB00835_MESH_D011537_3](db00835-mesh-d011537-3.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Itching of skin | MESH:D011537 | 3 | 2 |
-| [DB00835_MESH_D003233_1](db00835-mesh-d003233-1.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
-| [DB00835_MESH_D003233_2](db00835-mesh-d003233-2.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic conjunctivitis | MESH:D003233 | 3 | 2 |
-| [DB00835_MESH_D003233_3](db00835-mesh-d003233-3.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic conjunctivitis | MESH:D003233 | 3 | 2 |
-| [DB00835_MESH_D012223_1](db00835-mesh-d012223-1.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
-| [DB00835_MESH_D012223_2](db00835-mesh-d012223-2.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Vasomotor rhinitis | MESH:D012223 | 3 | 2 |
-| [DB00835_MESH_D012223_3](db00835-mesh-d012223-3.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Vasomotor rhinitis | MESH:D012223 | 3 | 2 |
-| [DB00835_MESH_D065631_1](db00835-mesh-d065631-1.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
-| [DB00835_MESH_D065631_2](db00835-mesh-d065631-2.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic rhinitis | MESH:D065631 | 3 | 2 |
-| [DB00835_MESH_D065631_3](db00835-mesh-d065631-3.html) | brompheniramine | DB:DB00835 | MESH:D001977 | Allergic rhinitis | MESH:D065631 | 3 | 2 |
+| [DB00835_MESH_D003233_1](db00835-mesh-d003233-1.html) | Brompheniramine | DB:DB00835 | MESH:D001977 | Conjunctivitis, Allergic | MESH:D003233 | 5 | 4 |
+| [DB00835_MESH_D012223_1](db00835-mesh-d012223-1.html) | Brompheniramine | DB:DB00835 | MESH:D001977 | Rhinitis, Vasomotor | MESH:D012223 | 5 | 4 |
+| [DB00835_MESH_D065631_1](db00835-mesh-d065631-1.html) | Brompheniramine | DB:DB00835 | MESH:D001977 | Rhinitis, Allergic | MESH:D065631 | 5 | 4 |
 | [DB12459_MESH_D010051_2](db12459-mesh-d010051-2.html) | gemcitabine | DB:DB12459 | MESH:C056507 | Malignant tumor of ovary | MESH:D010051 | 10 | 11 |
 | [DB12459_MESH_D002289_2](db12459-mesh-d002289-2.html) | gem citabine | DB:DB12459 | MESH:C056507 | Non-small cell lung cancer | MESH:D002289 | 10 | 11 |
 | [DB00325_MESH_D006973_1](db00325-mesh-d006973-1.html) | nitroprusside | DB:DB00325 | MESH:D009599 | Hypertensive disorder | MESH:D006973 | 8 | 7 |
@@ -442,35 +394,31 @@ datatable: true
 | [DB01436_MESH_D007011_1](db01436-mesh-d007011-1.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Hypoparathyroidism | MESH:D007011 | 8 | 7 |
 | [DB01436_MESH_D007011_2](db01436-mesh-d007011-2.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Hypoparathyroidism | MESH:D007011 | 8 | 7 |
 | [DB01436_MESH_D007011_3](db01436-mesh-d007011-3.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Hypoparathyroidism | MESH:D007011 | 8 | 7 |
-| [DB01436_MESH_D012080_1](db01436-mesh-d012080-1.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Renal osteodystrophy | MESH:D012080 | 8 | 7 |
-| [DB01436_MESH_D012080_2](db01436-mesh-d012080-2.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Renal osteodystrophy | MESH:D012080 | 8 | 7 |
-| [DB01436_MESH_D012080_3](db01436-mesh-d012080-3.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Renal osteodystrophy | MESH:D012080 | 8 | 7 |
-| [DB01436_MESH_D006961_1](db01436-mesh-d006961-1.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Hyperparathyroidism | MESH:D006961 | 8 | 7 |
-| [DB13158_MESH_D004485_1](db13158-mesh-d004485-1.html) | clobetasone butyrate | DB:DB13158 | MESH:C010893 | Eczema | MESH:D004485 | 7 | 6 |
-| [DB13158_MESH_D003876_1](db13158-mesh-d003876-1.html) | clobetasone butyrate | DB:DB13158 | MESH:C010893 | Atopic dermatitis | MESH:D003876 | 7 | 6 |
-| [DB04932_MESH_D006504_1](db04932-mesh-d006504-1.html) | defibrotide | DB:DB04932 | MESH:C036901 | Veno-occlusive disease of the liver | MESH:D006504 | 6 | 5 |
-| [DB04932_MESH_D006504_2](db04932-mesh-d006504-2.html) | defibrotide | DB:DB04932 | MESH:C036901 | Veno-occlusive disease of the liver | MESH:D006504 | 6 | 5 |
-| [DB04932_MESH_D006504_3](db04932-mesh-d006504-3.html) | defibrotide | DB:DB04932 | MESH:C036901 | Veno-occlusive disease of the liver | MESH:D006504 | 8 | 7 |
-| [DB04846_MESH_D006973_1](db04846-mesh-d006973-1.html) | celiprolol | DB:DB04846 | MESH:D017272 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
-| [DB04846_MESH_D000787_1](db04846-mesh-d000787-1.html) | celiprolol | DB:DB04846 | MESH:D017272 | Angina pectoris | MESH:D000787 | 7 | 6 |
-| [DB00981_MESH_D005902_1](db00981-mesh-d005902-1.html) | physostigmine | DB:DB00981 | MESH:D010830 | Open-angle glaucoma | MESH:D005902 | 6 | 5 |
-| [DB00981_MESH_D005902_2](db00981-mesh-d005902-2.html) | physostigmine | DB:DB00981 | MESH:D010830 | Open-angle glaucoma | MESH:D005902 | 6 | 5 |
-| [DB13001_MESH_D010146_1](db13001-mesh-d010146-1.html) | tinoridine | DB:DB13001 | MESH:C100290 | Pain | MESH:D010146 | 4 | 3 |
-| [DB01080_MESH_D013036_1](db01080-mesh-d013036-1.html) | vigabatrin | DB:DB01080 | MESH:D020888 | West syndrome | MESH:D013036 | 6 | 5 |
-| [DB00447_MESH_D012141_1](db00447-mesh-d012141-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Upper respiratory infection | MESH:D012141 | 6 | 5 |
+| [DB01436_MESH_D012080_1](db01436-mesh-d012080-1.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Chronic Kidney Disease-Mineral and Bone Disorder | MESH:D012080 | 8 | 7 |
+| [DB01436_MESH_D012080_2](db01436-mesh-d012080-2.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Chronic Kidney Disease-Mineral and Bone Disorder | MESH:D012080 | 8 | 7 |
+| [DB01436_MESH_D012080_3](db01436-mesh-d012080-3.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Chronic Kidney Disease-Mineral and Bone Disorder | MESH:D012080 | 8 | 7 |
+| [DB01436_MESH_D006961_1](db01436-mesh-d006961-1.html) | alfacalcidol | DB:DB01436 | MESH:C008088 | Hyperparathyroidism | MESH:D006961 | 6 | 5 |
+| [DB13158_MESH_D004485_1](db13158-mesh-d004485-1.html) | clobetasone butyrate | DB:DB13158 | MESH:C010893 | Eczema | MESH:D004485 | 6 | 5 |
+| [DB13158_MESH_D003876_1](db13158-mesh-d003876-1.html) | clobetasone butyrate | DB:DB13158 | MESH:C010893 | Dermatitis, Atopic | MESH:D003876 | 8 | 8 |
+| [DB04932_MESH_D006504_1](db04932-mesh-d006504-1.html) | defibrotide | DB:DB04932 | MESH:C036901 | Hepatic Veno-Occlusive Disease | MESH:D006504 | 5 | 4 |
+| [DB04932_MESH_D006504_2](db04932-mesh-d006504-2.html) | defibrotide | DB:DB04932 | MESH:C036901 | Hepatic Veno-Occlusive Disease | MESH:D006504 | 5 | 4 |
+| [DB04932_MESH_D006504_3](db04932-mesh-d006504-3.html) | defibrotide | DB:DB04932 | MESH:C036901 | Hepatic Veno-Occlusive Disease | MESH:D006504 | 6 | 6 |
+| [DB04846_MESH_D006973_1](db04846-mesh-d006973-1.html) | Celiprolol | DB:DB04846 | MESH:D017272 | Hypertension | MESH:D006973 | 8 | 8 |
+| [DB04846_MESH_D000787_1](db04846-mesh-d000787-1.html) | Celiprolol | DB:DB04846 | MESH:D017272 | Angina Pectoris | MESH:D000787 | 9 | 9 |
+| [DB00981_MESH_D005902_1](db00981-mesh-d005902-1.html) | Physostigmine | DB:DB00981 | MESH:D010830 | Glaucoma, Open-Angle | MESH:D005902 | 6 | 5 |
+| [DB00981_MESH_D005902_2](db00981-mesh-d005902-2.html) | Physostigmine | DB:DB00981 | MESH:D010830 | Glaucoma, Open-Angle | MESH:D005902 | 6 | 5 |
+| [DB13001_MESH_D010146_1](db13001-mesh-d010146-1.html) | tinoridine | DB:DB13001 | MESH:C100290 | Pain | MESH:D010146 | 6 | 6 |
+| [DB01080_MESH_D013036_1](db01080-mesh-d013036-1.html) | Vigabatrin | DB:DB01080 | MESH:D020888 | Spasms, Infantile | MESH:D013036 | 5 | 4 |
+| [DB00447_MESH_D012141_1](db00447-mesh-d012141-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Respiratory Tract Infections | MESH:D012141 | 6 | 5 |
 | [DB00447_MESH_D011014_1](db00447-mesh-d011014-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Pneumonia | MESH:D011014 | 6 | 5 |
 | [DB00447_MESH_D001991_1](db00447-mesh-d001991-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Bronchitis | MESH:D001991 | 6 | 5 |
-| [DB00447_MESH_D014552_1](db00447-mesh-d014552-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Urinary tract infectious disease | MESH:D014552 | 6 | 5 |
-| [DB00447_MESH_D013290_1](db00447-mesh-d013290-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Streptococcus pyogenes infection | MESH:D013290 | 6 | 5 |
+| [DB00447_MESH_D014552_1](db00447-mesh-d014552-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB00447_MESH_D013290_1](db00447-mesh-d013290-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
 | [DB00447_MESH_D014069_1](db00447-mesh-d014069-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Tonsillitis | MESH:D014069 | 6 | 5 |
-| [DB00447_MESH_D011018_1](db00447-mesh-d011018-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Pneumonia due to Streptococcus | MESH:D011018 | 6 | 5 |
-| [DB08882_MESH_D003924_1](db08882-mesh-d003924-1.html) | linagliptin | DB:DB08882 | MESH:D000069476 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 6 |
-| [DB08882_MESH_D003924_2](db08882-mesh-d003924-2.html) | linagliptin | DB:DB08882 | MESH:D000069476 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 6 |
-| [DB08882_MESH_D003924_3](db08882-mesh-d003924-3.html) | linagliptin | DB:DB08882 | MESH:D000069476 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 6 |
-| [DB08882_MESH_D003924_4](db08882-mesh-d003924-4.html) | linagliptin | DB:DB08882 | MESH:D000069476 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 6 |
-| [DB08882_MESH_D003924_5](db08882-mesh-d003924-5.html) | linagliptin | DB:DB08882 | MESH:D000069476 | Diabetes mellitus type 2 | MESH:D003924 | 3 | 2 |
-| [DB00488_MESH_D010051_1](db00488-mesh-d010051-1.html) | altretamine | DB:DB00488 | MESH:D006585 | Malignant tumor of ovary | MESH:D010051 | 6 | 5 |
-| [DB00488_MESH_D010051_2](db00488-mesh-d010051-2.html) | altretamine | DB:DB00488 | MESH:D006585 | Malignant tumor of ovary | MESH:D010051 | 6 | 5 |
+| [DB00447_MESH_D011018_1](db00447-mesh-d011018-1.html) | loracarbef | DB:DB00447 | MESH:C054920 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB08882_MESH_D003924_1](db08882-mesh-d003924-1.html) | Linagliptin | DB:DB08882 | MESH:D000069476 | Diabetes Mellitus, Type 2 | MESH:D003924 | 8 | 10 |
+| [DB00488_MESH_D010051_1](db00488-mesh-d010051-1.html) | Altretamine | DB:DB00488 | MESH:D006585 | Ovarian Neoplasms | MESH:D010051 | 5 | 4 |
+| [DB00488_MESH_D010051_2](db00488-mesh-d010051-2.html) | Altretamine | DB:DB00488 | MESH:D006585 | Ovarian Neoplasms | MESH:D010051 | 5 | 4 |
 | [DB00383_MESH_D010437_1](db00383-mesh-d010437-1.html) | oxyphencyclimine | DB:DB00383 | MESH:C100201 | Peptic ulcer | MESH:D010437 | 5 | 4 |
 | [DB00550_MESH_D006980_1](db00550-mesh-d006980-1.html) | propylthiouracil | DB:DB00550 | MESH:D011441 | Hyperthyroidism | MESH:D006980 | 4 | 3 |
 | [DB00550_MESH_D013958_1](db00550-mesh-d013958-1.html) | propylthiouracil | DB:DB00550 | MESH:D011441 | Thyrotoxic crisis | MESH:D013958 | 4 | 3 |
@@ -532,86 +480,75 @@ datatable: true
 | [DB00799_MESH_D011565_1](db00799-mesh-d011565-1.html) | tazarotene | DB:DB00799 | MESH:C086827 | Psoriasis | MESH:D011565 | 10 | 20 |
 | [DB04930_MESH_D012532_1](db04930-mesh-d012532-1.html) | permethrin | DB:DB04930 | MESH:D026023 | Infestation by Sarcoptes scabiei var hominis | MESH:D012532 | 7 | 6 |
 | [DB00850_MESH_D012559_1](db00850-mesh-d012559-1.html) | perphenazine | DB:DB00850 | MESH:D010546 | Schizophrenia | MESH:D012559 | 8 | 8 |
-| [DB06237_MESH_D007172_1](db06237-mesh-d007172-1.html) | avanafil | DB:DB06237 | MESH:C553414 | Impotence | MESH:D007172 | 7 | 6 |
-| [DB00878_MESH_D005891_1](db00878-mesh-d005891-1.html) | chlorhexidine | DB:DB00878 | MESH:D002710 | Gingivitis | MESH:D005891 | 5 | 4 |
-| [DB00651_MESH_D000080445_1](db00651-mesh-d000080445-1.html) | diprophylline | DB:DB00651 | MESH:D004400 | Asthma-chronic obstructive pulmonary disease overlap syndrome | MESH:D000080445 | 8 | 7 |
-| [DB00651_MESH_D000080445_2](db00651-mesh-d000080445-2.html) | diprophylline | DB:DB00651 | MESH:D004400 | Asthma-chronic obstructive pulmonary disease overlap syndrome | MESH:D000080445 | 8 | 7 |
-| [DB00651_MESH_D029481_1](db00651-mesh-d029481-1.html) | diprophylline | DB:DB00651 | MESH:D004400 | Chronic bronchitis | MESH:D029481 | 8 | 7 |
-| [DB00651_MESH_D029481_2](db00651-mesh-d029481-2.html) | diprophylline | DB:DB00651 | MESH:D004400 | Chronic bronchitis | MESH:D029481 | 8 | 7 |
-| [DB00651_MESH_D001986_1](db00651-mesh-d001986-1.html) | diprophylline | DB:DB00651 | MESH:D004400 | Bronchospasm | MESH:D001986 | 8 | 7 |
-| [DB00651_MESH_D001986_2](db00651-mesh-d001986-2.html) | diprophylline | DB:DB00651 | MESH:D004400 | Bronchospasm | MESH:D001986 | 8 | 7 |
-| [DB00651_MESH_D011656_1](db00651-mesh-d011656-1.html) | diprophylline | DB:DB00651 | MESH:D004400 | Pulmonary emphysema | MESH:D011656 | 8 | 7 |
-| [DB00651_MESH_D011656_2](db00651-mesh-d011656-2.html) | diprophylline | DB:DB00651 | MESH:D004400 | Pulmonary emphysema | MESH:D011656 | 8 | 7 |
-| [DB00651_MESH_D001249_1](db00651-mesh-d001249-1.html) | diprophylline | DB:DB00651 | MESH:D004400 | Asthma | MESH:D001249 | 8 | 7 |
-| [DB00651_MESH_D001249_2](db00651-mesh-d001249-2.html) | diprophylline | DB:DB00651 | MESH:D004400 | Asthma | MESH:D001249 | 8 | 7 |
-| [DB11574_MESH_D019698_1](db11574-mesh-d019698-1.html) | Elbasvir | DB:DB11574 | MESH:C000589335 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
-| [DB11574_MESH_D019698_2](db11574-mesh-d019698-2.html) | Elbasvir | DB:DB11574 | MESH:C000589335 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
-| [DB09078_MESH_D000077273_1](db09078-mesh-d000077273-1.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Papillary thyroid carcinoma | MESH:D000077273 | 6 | 5 |
-| [DB09078_MESH_D000077273_2](db09078-mesh-d000077273-2.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Papillary thyroid carcinoma | MESH:D000077273 | 5 | 4 |
-| [DB09078_MESH_D000077273_3](db09078-mesh-d000077273-3.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Papillary thyroid carcinoma | MESH:D000077273 | 5 | 4 |
-| [DB09078_MESH_D000077273_4](db09078-mesh-d000077273-4.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Papillary thyroid carcinoma | MESH:D000077273 | 5 | 4 |
-| [DB09078_MESH_D000077273_5](db09078-mesh-d000077273-5.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Papillary thyroid carcinoma | MESH:D000077273 | 5 | 4 |
-| [DB09078_MESH_D018263_1](db09078-mesh-d018263-1.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Follicular thyroid carcinoma | MESH:D018263 | 6 | 5 |
-| [DB09078_MESH_D018263_2](db09078-mesh-d018263-2.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Follicular thyroid carcinoma | MESH:D018263 | 5 | 4 |
-| [DB09078_MESH_D018263_3](db09078-mesh-d018263-3.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Follicular thyroid carcinoma | MESH:D018263 | 5 | 4 |
-| [DB09078_MESH_D018263_4](db09078-mesh-d018263-4.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Follicular thyroid carcinoma | MESH:D018263 | 5 | 4 |
-| [DB09078_MESH_D018263_5](db09078-mesh-d018263-5.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Follicular thyroid carcinoma | MESH:D018263 | 5 | 4 |
-| [DB09078_MESH_D002292_1](db09078-mesh-d002292-1.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Renal cell carcinoma | MESH:D002292 | 6 | 5 |
-| [DB09078_MESH_D002292_2](db09078-mesh-d002292-2.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Renal cell carcinoma | MESH:D002292 | 5 | 4 |
-| [DB09078_MESH_D002292_3](db09078-mesh-d002292-3.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Renal cell carcinoma | MESH:D002292 | 5 | 4 |
-| [DB09078_MESH_D002292_4](db09078-mesh-d002292-4.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Renal cell carcinoma | MESH:D002292 | 5 | 4 |
-| [DB09078_MESH_D002292_5](db09078-mesh-d002292-5.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Renal cell carcinoma | MESH:D002292 | 5 | 4 |
-| [DB06655_MESH_D003924_1](db06655-mesh-d003924-1.html) | liraglutide | DB:DB06655 | MESH:D000069450 | Diabetes mellitus type 2 | MESH:D003924 | 8 | 7 |
-| [DB11750_MESH_D003876_1](db11750-mesh-d003876-1.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Atopic dermatitis | MESH:D003876 | 6 | 5 |
-| [DB11750_MESH_D003876_2](db11750-mesh-d003876-2.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Atopic dermatitis | MESH:D003876 | 5 | 4 |
-| [DB11750_MESH_D003877_1](db11750-mesh-d003877-1.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Contact dermatitis | MESH:D003877 | 6 | 5 |
-| [DB11750_MESH_D003877_2](db11750-mesh-d003877-2.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Contact dermatitis | MESH:D003877 | 5 | 4 |
-| [DB11750_MESH_D012628_1](db11750-mesh-d012628-1.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Seborrheic dermatitis | MESH:D012628 | 6 | 5 |
-| [DB11750_MESH_D012628_2](db11750-mesh-d012628-2.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Seborrheic dermatitis | MESH:D012628 | 5 | 4 |
-| [DB11750_MESH_D012536_1](db11750-mesh-d012536-1.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Dermatosis of scalp | MESH:D012536 | 6 | 5 |
-| [DB11750_MESH_D012536_2](db11750-mesh-d012536-2.html) | clobetasol propionate | DB:DB11750 | MESH:D002990 | Dermatosis of scalp | MESH:D012536 | 5 | 4 |
-| [DB08865_MESH_D002289_1](db08865-mesh-d002289-1.html) | crizotinib | DB:DB08865 | MESH:C551994 | Non-small cell lung cancer | MESH:D002289 | 4 | 3 |
-| [DB08865_MESH_D002289_2](db08865-mesh-d002289-2.html) | crizotinib | DB:DB08865 | MESH:C551994 | Non-small cell lung cancer | MESH:D002289 | 4 | 3 |
-| [DB08865_MESH_D002289_3](db08865-mesh-d002289-3.html) | crizotinib | DB:DB08865 | MESH:C551994 | Non-small cell lung cancer | MESH:D002289 | 4 | 3 |
-| [DB00508_MESH_D011618_1](db00508-mesh-d011618-1.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic disorder | MESH:D011618 | 5 | 4 |
-| [DB00508_MESH_D011618_2](db00508-mesh-d011618-2.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic disorder | MESH:D011618 | 5 | 4 |
-| [DB00508_MESH_D011618_3](db00508-mesh-d011618-3.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic disorder | MESH:D011618 | 5 | 4 |
-| [DB00508_MESH_D011618_4](db00508-mesh-d011618-4.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic disorder | MESH:D011618 | 5 | 4 |
-| [DB00508_MESH_D011618_5](db00508-mesh-d011618-5.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic disorder | MESH:D011618 | 5 | 4 |
-| [DB00508_MESH_D014839_1](db00508-mesh-d014839-1.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Vomiting | MESH:D014839 | 6 | 5 |
-| [DB00508_MESH_D014839_2](db00508-mesh-d014839-2.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Vomiting | MESH:D014839 | 5 | 4 |
-| [DB00508_MESH_D014839_3](db00508-mesh-d014839-3.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Vomiting | MESH:D014839 | 5 | 4 |
-| [DB00508_MESH_D014839_4](db00508-mesh-d014839-4.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Vomiting | MESH:D014839 | 6 | 5 |
-| [DB00508_MESH_D009325_1](db00508-mesh-d009325-1.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Nausea | MESH:D009325 | 6 | 5 |
-| [DB00508_MESH_D009325_2](db00508-mesh-d009325-2.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Nausea | MESH:D009325 | 5 | 4 |
-| [DB00508_MESH_D009325_3](db00508-mesh-d009325-3.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Nausea | MESH:D009325 | 5 | 4 |
-| [DB00508_MESH_D009325_4](db00508-mesh-d009325-4.html) | triflupromazine | DB:DB00508 | MESH:D014273 | Nausea | MESH:D009325 | 6 | 5 |
-| [DB00404_MESH_D001007_1](db00404-mesh-d001007-1.html) | alprazolam | DB:DB00404 | MESH:D000525 | Anxiety | MESH:D001007 | 7 | 6 |
-| [DB00404_MESH_D016584_1](db00404-mesh-d016584-1.html) | alprazolam | DB:DB00404 | MESH:D000525 | Panic disorder | MESH:D016584 | 7 | 6 |
-| [DB00921_MESH_D059350_1](db00921-mesh-d059350-1.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Chronic pain | MESH:D059350 | 7 | 6 |
-| [DB00921_MESH_D059350_2](db00921-mesh-d059350-2.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Chronic pain | MESH:D059350 | 5 | 4 |
-| [DB00921_MESH_D009293_1](db00921-mesh-d009293-1.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Opioid dependence | MESH:D009293 | 8 | 7 |
-| [DB00921_MESH_D009293_2](db00921-mesh-d009293-2.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Opioid dependence | MESH:D009293 | 5 | 4 |
-| [DB08998_MESH_D003866_1](db08998-mesh-d003866-1.html) | Demexiptiline | DB:DB08998 | MESH:C033781 | Depressive disorder | MESH:D003866 | 4 | 3 |
+| [DB06237_MESH_D007172_1](db06237-mesh-d007172-1.html) | avanafil | DB:DB06237 | MESH:C553414 | Erectile Dysfunction | MESH:D007172 | 7 | 6 |
+| [DB00878_MESH_D005891_1](db00878-mesh-d005891-1.html) | Chlorhexidine | DB:DB00878 | MESH:D002710 | Gingivitis | MESH:D005891 | 4 | 3 |
+| [DB00651_MESH_D000080445_1](db00651-mesh-d000080445-1.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome | MESH:D000080445 | 8 | 10 |
+| [DB00651_MESH_D000080445_2](db00651-mesh-d000080445-2.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome | MESH:D000080445 | 6 | 5 |
+| [DB00651_MESH_D029481_1](db00651-mesh-d029481-1.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Bronchitis, Chronic | MESH:D029481 | 8 | 10 |
+| [DB00651_MESH_D029481_2](db00651-mesh-d029481-2.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Bronchitis, Chronic | MESH:D029481 | 6 | 5 |
+| [DB00651_MESH_D001986_1](db00651-mesh-d001986-1.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Bronchial Spasm | MESH:D001986 | 8 | 10 |
+| [DB00651_MESH_D001986_2](db00651-mesh-d001986-2.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Bronchial Spasm | MESH:D001986 | 6 | 5 |
+| [DB00651_MESH_D011656_1](db00651-mesh-d011656-1.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Pulmonary Emphysema | MESH:D011656 | 8 | 10 |
+| [DB00651_MESH_D011656_2](db00651-mesh-d011656-2.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Pulmonary Emphysema | MESH:D011656 | 6 | 5 |
+| [DB00651_MESH_D001249_1](db00651-mesh-d001249-1.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Asthma | MESH:D001249 | 8 | 10 |
+| [DB00651_MESH_D001249_2](db00651-mesh-d001249-2.html) | Dyphylline | DB:DB00651 | MESH:D004400 | Asthma | MESH:D001249 | 6 | 5 |
+| [DB11574_MESH_D019698_1](db11574-mesh-d019698-1.html) | elbasvir | DB:DB11574 | MESH:C000589335 | Hepatitis C, Chronic | MESH:D019698 | 5 | 4 |
+| [DB11574_MESH_D019698_2](db11574-mesh-d019698-2.html) | elbasvir | DB:DB11574 | MESH:C000589335 | Hepatitis C, Chronic | MESH:D019698 | 5 | 4 |
+| [DB09078_MESH_D000077273_1](db09078-mesh-d000077273-1.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Thyroid Cancer, Papillary | MESH:D000077273 | 7 | 6 |
+| [DB09078_MESH_D000077273_2](db09078-mesh-d000077273-2.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Thyroid Cancer, Papillary | MESH:D000077273 | 5 | 4 |
+| [DB09078_MESH_D000077273_3](db09078-mesh-d000077273-3.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Thyroid Cancer, Papillary | MESH:D000077273 | 5 | 4 |
+| [DB09078_MESH_D000077273_4](db09078-mesh-d000077273-4.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Thyroid Cancer, Papillary | MESH:D000077273 | 5 | 4 |
+| [DB09078_MESH_D000077273_5](db09078-mesh-d000077273-5.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Thyroid Cancer, Papillary | MESH:D000077273 | 5 | 4 |
+| [DB09078_MESH_D018263_1](db09078-mesh-d018263-1.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Adenocarcinoma, Follicular | MESH:D018263 | 4 | 3 |
+| [DB09078_MESH_D018263_2](db09078-mesh-d018263-2.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Adenocarcinoma, Follicular | MESH:D018263 | 5 | 4 |
+| [DB09078_MESH_D018263_3](db09078-mesh-d018263-3.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Adenocarcinoma, Follicular | MESH:D018263 | 5 | 4 |
+| [DB09078_MESH_D018263_4](db09078-mesh-d018263-4.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Adenocarcinoma, Follicular | MESH:D018263 | 5 | 4 |
+| [DB09078_MESH_D018263_5](db09078-mesh-d018263-5.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Adenocarcinoma, Follicular | MESH:D018263 | 5 | 4 |
+| [DB09078_MESH_D002292_1](db09078-mesh-d002292-1.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Carcinoma, Renal Cell | MESH:D002292 | 4 | 3 |
+| [DB09078_MESH_D002292_2](db09078-mesh-d002292-2.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Carcinoma, Renal Cell | MESH:D002292 | 5 | 4 |
+| [DB09078_MESH_D002292_3](db09078-mesh-d002292-3.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Carcinoma, Renal Cell | MESH:D002292 | 5 | 4 |
+| [DB09078_MESH_D002292_4](db09078-mesh-d002292-4.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Carcinoma, Renal Cell | MESH:D002292 | 5 | 4 |
+| [DB09078_MESH_D002292_5](db09078-mesh-d002292-5.html) | lenvatinib | DB:DB09078 | MESH:C531958 | Carcinoma, Renal Cell | MESH:D002292 | 5 | 4 |
+| [DB06655_MESH_D003924_1](db06655-mesh-d003924-1.html) | Liraglutide | DB:DB06655 | MESH:D000069450 | Diabetes Mellitus, Type 2 | MESH:D003924 | 8 | 7 |
+| [DB11750_MESH_D003876_1](db11750-mesh-d003876-1.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Dermatitis, Atopic | MESH:D003876 | 8 | 7 |
+| [DB11750_MESH_D003876_2](db11750-mesh-d003876-2.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Dermatitis, Atopic | MESH:D003876 | 7 | 6 |
+| [DB11750_MESH_D003877_1](db11750-mesh-d003877-1.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Dermatitis, Contact | MESH:D003877 | 8 | 7 |
+| [DB11750_MESH_D003877_2](db11750-mesh-d003877-2.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Dermatitis, Contact | MESH:D003877 | 7 | 6 |
+| [DB11750_MESH_D012628_1](db11750-mesh-d012628-1.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Dermatitis, Seborrheic | MESH:D012628 | 8 | 7 |
+| [DB11750_MESH_D012628_2](db11750-mesh-d012628-2.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Dermatitis, Seborrheic | MESH:D012628 | 7 | 6 |
+| [DB11750_MESH_D012536_1](db11750-mesh-d012536-1.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Scalp Dermatoses | MESH:D012536 | 8 | 7 |
+| [DB11750_MESH_D012536_2](db11750-mesh-d012536-2.html) | Clobetasol | DB:DB11750 | MESH:D002990 | Scalp Dermatoses | MESH:D012536 | 7 | 6 |
+| [DB08865_MESH_D002289_1](db08865-mesh-d002289-1.html) | Crizotinib | DB:DB08865 | MESH:D000077547 | Carcinoma, Non-Small-Cell Lung | MESH:D002289 | 4 | 3 |
+| [DB08865_MESH_D002289_2](db08865-mesh-d002289-2.html) | Crizotinib | DB:DB08865 | MESH:D000077547 | Carcinoma, Non-Small-Cell Lung | MESH:D002289 | 4 | 3 |
+| [DB00508_MESH_D011618_1](db00508-mesh-d011618-1.html) | Triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic Disorders | MESH:D011618 | 6 | 6 |
+| [DB00508_MESH_D011618_2](db00508-mesh-d011618-2.html) | Triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic Disorders | MESH:D011618 | 6 | 6 |
+| [DB00508_MESH_D011618_3](db00508-mesh-d011618-3.html) | Triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic Disorders | MESH:D011618 | 6 | 5 |
+| [DB00508_MESH_D011618_4](db00508-mesh-d011618-4.html) | Triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic Disorders | MESH:D011618 | 6 | 5 |
+| [DB00508_MESH_D011618_5](db00508-mesh-d011618-5.html) | Triflupromazine | DB:DB00508 | MESH:D014273 | Psychotic Disorders | MESH:D011618 | 7 | 7 |
+| [DB00508_MESH_D014839_1](db00508-mesh-d014839-1.html) | Triflupromazine | DB:DB00508 | MESH:D014273 | Vomiting | MESH:D014839 | 4 | 3 |
+| [DB00508_MESH_D009325_1](db00508-mesh-d009325-1.html) | Triflupromazine | DB:DB00508 | MESH:D014273 | Nausea | MESH:D009325 | 4 | 3 |
+| [DB00404_MESH_D001007_1](db00404-mesh-d001007-1.html) | Alprazolam | DB:DB00404 | MESH:D000525 | Anxiety | MESH:D001007 | 4 | 3 |
+| [DB00404_MESH_D016584_1](db00404-mesh-d016584-1.html) | Alprazolam | DB:DB00404 | MESH:D000525 | Panic Disorder | MESH:D016584 | 5 | 4 |
+| [DB00921_MESH_D059350_1](db00921-mesh-d059350-1.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Chronic Pain | MESH:D059350 | 7 | 6 |
+| [DB00921_MESH_D059350_2](db00921-mesh-d059350-2.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Chronic Pain | MESH:D059350 | 5 | 4 |
+| [DB00921_MESH_D009293_1](db00921-mesh-d009293-1.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Opioid-Related Disorders | MESH:D009293 | 7 | 6 |
+| [DB00921_MESH_D009293_2](db00921-mesh-d009293-2.html) | Buprenorphine | DB:DB00921 | MESH:D002047 | Opioid-Related Disorders | MESH:D009293 | 5 | 5 |
+| [DB08998_MESH_D003866_1](db08998-mesh-d003866-1.html) | demexiptiline | DB:DB08998 | MESH:C033781 | Depressive Disorder | MESH:D003866 | 5 | 4 |
 | [DB01167_MESH_D006660_1](db01167-mesh-d006660-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Histoplasmosis | MESH:D006660 | 6 | 5 |
 | [DB01167_MESH_D001759_1](db01167-mesh-d001759-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Blastomycosis | MESH:D001759 | 6 | 5 |
-| [DB01167_MESH_D055744_1](db01167-mesh-d055744-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Invasive pulmonary aspergillosis | MESH:D055744 | 6 | 5 |
-| [DB01167_MESH_D060585_1](db01167-mesh-d060585-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Fusarium infection | MESH:D060585 | 6 | 5 |
+| [DB01167_MESH_D055744_1](db01167-mesh-d055744-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Invasive Pulmonary Aspergillosis | MESH:D055744 | 6 | 5 |
+| [DB01167_MESH_D060585_1](db01167-mesh-d060585-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Fusariosis | MESH:D060585 | 6 | 5 |
 | [DB01167_MESH_D058387_1](db01167-mesh-d058387-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Candidemia | MESH:D058387 | 6 | 5 |
 | [DB01167_MESH_D001228_1](db01167-mesh-d001228-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Aspergillosis | MESH:D001228 | 6 | 5 |
-| [DB04861_MESH_D006973_1](db04861-mesh-d006973-1.html) | Nebivolol | DB:DB04861 | MESH:D000068577 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
-| [DB04861_MESH_D006973_2](db04861-mesh-d006973-2.html) | Nebivolol | DB:DB04861 | MESH:D000068577 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
-| [DB04861_MESH_D006973_3](db04861-mesh-d006973-3.html) | Nebivolol | DB:DB04861 | MESH:D000068577 | Hypertensive disorder | MESH:D006973 | 8 | 7 |
-| [DB01113_MESH_D016491_1](db01113-mesh-d016491-1.html) | Papaverine | DB:DB01113 | MESH:D010208 | Peripheral vascular disease | MESH:D016491 | 8 | 7 |
-| [DB01132_MESH_D003924_1](db01132-mesh-d003924-1.html) | Pioglitazone | DB:DB01132 | None | Diabetes mellitus type 2 | MESH:D003924 | 6 | 5 |
-| [DB01132_MESH_D003924_2](db01132-mesh-d003924-2.html) | Pioglitazone | DB:DB01132 | None | Diabetes mellitus type 2 | MESH:D003924 | 6 | 5 |
-| [DB01132_MESH_D003924_3](db01132-mesh-d003924-3.html) | Pioglitazone | DB:DB01132 | None | Diabetes mellitus type 2 | MESH:D003924 | 6 | 5 |
-| [DB00489_MESH_D001281_1](db00489-mesh-d001281-1.html) | Sotalol | DB:DB00489 | MESH:D013015 | Atrial fibrillation | MESH:D001281 | 7 | 6 |
-| [DB00489_MESH_D001281_2](db00489-mesh-d001281-2.html) | Sotalol | DB:DB00489 | MESH:D013015 | Atrial fibrillation | MESH:D001281 | 6 | 5 |
-| [DB00708_MESH_D010149_1](db00708-mesh-d010149-1.html) | Sufentanil | DB:DB00708 | MESH:D017409 | Postoperative pain | MESH:D010149 | 7 | 6 |
-| [DB00775_MESH_D054058_1](db00775-mesh-d054058-1.html) | Tirofiban | DB:DB00775 | None | Acute coronary syndrome | MESH:D054058 | 6 | 5 |
-| [DB00385_MESH_D001749_1](db00385-mesh-d001749-1.html) | Valrubicin | DB:DB00385 | MESH:C016163 | Malignant tumor of urinary bladder | MESH:D001749 | 8 | 7 |
-| [DB00385_MESH_D001749_2](db00385-mesh-d001749-2.html) | Valrubicin | DB:DB00385 | MESH:C016163 | Malignant tumor of urinary bladder | MESH:D001749 | 5 | 4 |
+| [DB04861_MESH_D006973_1](db04861-mesh-d006973-1.html) | Nebivolol | DB:DB04861 | MESH:D000068577 | Hypertension | MESH:D006973 | 6 | 5 |
+| [DB04861_MESH_D006973_2](db04861-mesh-d006973-2.html) | Nebivolol | DB:DB04861 | MESH:D000068577 | Hypertension | MESH:D006973 | 5 | 4 |
+| [DB04861_MESH_D006973_3](db04861-mesh-d006973-3.html) | Nebivolol | DB:DB04861 | MESH:D000068577 | Hypertension | MESH:D006973 | 7 | 6 |
+| [DB01113_MESH_D016491_1](db01113-mesh-d016491-1.html) | Papaverine | DB:DB01113 | MESH:D010208 | Peripheral Vascular Diseases | MESH:D016491 | 5 | 4 |
+| [DB01132_MESH_D003924_1](db01132-mesh-d003924-1.html) | Pioglitazone | DB:DB01132 | MESH:D000077205 | Diabetes Mellitus, Type 2 | MESH:D003924 | 7 | 6 |
+| [DB00489_MESH_D001281_1](db00489-mesh-d001281-1.html) | Sotalol | DB:DB00489 | MESH:D013015 | Atrial Fibrillation | MESH:D001281 | 9 | 10 |
+| [DB00708_MESH_D010149_1](db00708-mesh-d010149-1.html) | Sufentanil | DB:DB00708 | MESH:D017409 | Pain, Postoperative | MESH:D010149 | 7 | 6 |
+| [DB00775_MESH_D054058_1](db00775-mesh-d054058-1.html) | Tirofiban | DB:DB00775 | MESH:D000077466 | Acute Coronary Syndrome | MESH:D054058 | 6 | 6 |
+| [DB00385_MESH_D001749_1](db00385-mesh-d001749-1.html) | valrubicin | DB:DB00385 | MESH:C016163 | Urinary Bladder Neoplasms | MESH:D001749 | 5 | 4 |
 | [DB00313_MESH_D001714_4](db00313-mesh-d001714-4.html) | valproic acid | DB:DB00313 | MESH:D014635 | Bipolar disorder | MESH:D001714 | 6 | 5 |
 | [DB00313_MESH_D001714_5](db00313-mesh-d001714-5.html) | valproic acid | DB:DB00313 | MESH:D014635 | Bipolar disorder | MESH:D001714 | 6 | 5 |
 | [DB00313_MESH_D008881_2](db00313-mesh-d008881-2.html) | valproic acid | DB:DB00313 | MESH:D014635 | migraine | MESH:D008881 | 6 | 5 |
@@ -640,7 +577,7 @@ datatable: true
 | [DB00643_MESH_D014257_1](db00643-mesh-d014257-1.html) | mebendazole | DB:DB00643 | MESH:D008463 | Trichuriasis | MESH:D014257 | 10 | 11 |
 | [DB00643_MESH_D001196_1](db00643-mesh-d001196-1.html) | mebendazole | DB:DB00643 | MESH:D008463 | Ascariasis | MESH:D001196 | 10 | 11 |
 | [DB00643_MESH_D017229_1](db00643-mesh-d017229-1.html) | mebendazole | DB:DB00643 | MESH:D008463 | Enterobiasis | MESH:D017229 | 10 | 11 |
-| [DB00848_MESH_D001196_1](db00848-mesh-d001196-1.html) | levamisole | DB:DB00848 | MESH:D007978 | Ascariasis | MESH:D001196 | 7 | 7 |
+| [DB00848_MESH_D001196_1](db00848-mesh-d001196-1.html) | Levamisole | DB:DB00848 | MESH:D007978 | Ascariasis | MESH:D001196 | 7 | 7 |
 | [DB00848_MESH_D000724_1](db00848-mesh-d000724-1.html) | levamisole | DB:DB00848 | MESH:D007978 | Ancylostomiasis | MESH:D000724 | 7 | 7 |
 | [DB01130_MESH_D009450_1](db01130-mesh-d009450-1.html) | prednicarbate | DB:DB01130 | MESH:C035287 | Lichen simplex chronicus | MESH:D009450 | 7 | 6 |
 | [DB01130_MESH_D011538_1](db01130-mesh-d011538-1.html) | prednicarbate | DB:DB01130 | MESH:C035287 | Pruritus ani | MESH:D011538 | 7 | 6 |
@@ -701,30 +638,29 @@ datatable: true
 | [DB00547_MESH_D012628_1](db00547-mesh-d012628-1.html) | desoximetasone | DB:DB00547 | MESH:D003899 | Seborrheic dermatitis | MESH:D012628 | 6 | 5 |
 | [DB00918_MESH_D008881_1](db00918-mesh-d008881-1.html) | almotriptan | DB:DB00918 | MESH:C409045 | Migraine | MESH:D008881 | 9 | 12 |
 | [DB09041_MESH_D014009_1](db09041-mesh-d014009-1.html) | tavaborole | DB:DB09041 | MESH:C512998 | Onychomycosis due to dermatophyte | MESH:D014009 | 5 | 4 |
-| [DB01193_MESH_D018879_1](db01193-mesh-d018879-1.html) | Acebutolol | DB:DB01193 | MESH:D000070 | Ventricular premature beats | MESH:D018879 | 5 | 6 |
-| [DB00414_MESH_D003924_1](db00414-mesh-d003924-1.html) | Acetohexamide | DB:DB00414 | MESH:D000092 | Diabetes mellitus type 2 | MESH:D003924 | 5 | 4 |
-| [DB00964_MESH_D005902_1](db00964-mesh-d005902-1.html) | Apraclonidine | DB:DB00964 | MESH:C016986 | Open-angle glaucoma | MESH:D005902 | 8 | 7 |
-| [DB05015_MESH_D016411_1](db05015-mesh-d016411-1.html) | Belinostat | DB:DB05015 | MESH:C487081 | Peripheral T-cell lymphoma | MESH:D016411 | 8 | 13 |
-| [DB00468_MESH_D016778_1](db00468-mesh-d016778-1.html) | Quinine | DB:DB00468 | MESH:D011803 | Falciparum malaria | MESH:D016778 | 7 | 6 |
-| [DB00468_MESH_D016778_2](db00468-mesh-d016778-2.html) | Quinine | DB:DB00468 | MESH:D011803 | Falciparum malaria | MESH:D016778 | 8 | 10 |
-| [DB00700_MESH_D006973_1](db00700-mesh-d006973-1.html) | Eplerenone | DB:DB00700 | None | Hypertensive disorder | MESH:D006973 | 8 | 9 |
-| [DB04854_MESH_D033461_1](db04854-mesh-d033461-1.html) | Febuxostat | DB:DB04854 | MESH:D000069465 | Hyperuricemia | MESH:D033461 | 4 | 3 |
-| [DB00053_MESH_D005776_1](db00053-mesh-d005776-1.html) | Imiglucerase | DB:DB00053 | MESH:C090568 | Glucosylceramide beta-glucosidase deficiency | MESH:D005776 | 4 | 3 |
-| [DB01131_MESH_D016778_1](db01131-mesh-d016778-1.html) | Proguanil | DB:DB01131 | MESH:D002727 | Falciparum malaria | MESH:D016778 | 7 | 6 |
-| [DB01597_MESH_D004697_1](db01597-mesh-d004697-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Bacterial endocarditis | MESH:D004697 | 5 | 4 |
-| [DB01597_MESH_D018784_1](db01597-mesh-d018784-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Abdominal abscess | MESH:D018784 | 5 | 4 |
-| [DB01597_MESH_D059413_1](db01597-mesh-d059413-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Infectious disease of abdomen | MESH:D059413 | 5 | 4 |
-| [DB01597_MESH_D011018_1](db01597-mesh-d011018-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Pneumonia due to Streptococcus | MESH:D011018 | 5 | 4 |
-| [DB01597_MESH_D018410_1](db01597-mesh-d018410-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Bacterial pneumonia | MESH:D018410 | 5 | 4 |
-| [DB01597_MESH_D004716_1](db01597-mesh-d004716-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Endometritis | MESH:D004716 | 5 | 4 |
-| [DB00575_MESH_D006973_1](db00575-mesh-d006973-1.html) | Clonidine | DB:DB00575 | MESH:D003000 | Hypertensive disorder | MESH:D006973 | 8 | 7 |
-| [DB00575_MESH_D006973_2](db00575-mesh-d006973-2.html) | Clonidine | DB:DB00575 | MESH:D003000 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
-| [DB00575_MESH_D001289_1](db00575-mesh-d001289-1.html) | Clonidine | DB:DB00575 | MESH:D003000 | Attention deficit hyperactivity disorder | MESH:D001289 | 6 | 5 |
-| [DB00575_MESH_D005902_1](db00575-mesh-d005902-1.html) | Clonidine | DB:DB00575 | MESH:D003000 | Open-angle glaucoma | MESH:D005902 | 6 | 5 |
+| [DB01193_MESH_D018879_1](db01193-mesh-d018879-1.html) | Acebutolol | DB:DB01193 | MESH:D000070 | Ventricular Premature Complexes | MESH:D018879 | 5 | 4 |
+| [DB00414_MESH_D003924_1](db00414-mesh-d003924-1.html) | Acetohexamide | DB:DB00414 | MESH:D000092 | Diabetes Mellitus, Type 2 | MESH:D003924 | 8 | 7 |
+| [DB00964_MESH_D005902_1](db00964-mesh-d005902-1.html) | apraclonidine | DB:DB00964 | MESH:C016986 | Glaucoma, Open-Angle | MESH:D005902 | 5 | 4 |
+| [DB05015_MESH_D016411_1](db05015-mesh-d016411-1.html) | belinostat | DB:DB05015 | MESH:C487081 | Lymphoma, T-Cell, Peripheral | MESH:D016411 | 5 | 4 |
+| [DB00468_MESH_D016778_1](db00468-mesh-d016778-1.html) | Quinine | DB:DB00468 | MESH:D011803 | Malaria, Falciparum | MESH:D016778 | 6 | 5 |
+| [DB00468_MESH_D016778_2](db00468-mesh-d016778-2.html) | Quinine | DB:DB00468 | MESH:D011803 | Malaria, Falciparum | MESH:D016778 | 6 | 7 |
+| [DB00700_MESH_D006973_1](db00700-mesh-d006973-1.html) | Eplerenone | DB:DB00700 | MESH:D000077545 | Hypertension | MESH:D006973 | 5 | 4 |
+| [DB04854_MESH_D033461_1](db04854-mesh-d033461-1.html) | Febuxostat | DB:DB04854 | MESH:D000069465 | Hyperuricemia | MESH:D033461 | 5 | 4 |
+| [DB00053_MESH_D005776_1](db00053-mesh-d005776-1.html) | imiglucerase | DB:DB00053 | MESH:C090568 | Gaucher Disease | MESH:D005776 | 4 | 3 |
+| [DB01131_MESH_D016778_1](db01131-mesh-d016778-1.html) | Proguanil | DB:DB01131 | MESH:D002727 | Malaria, Falciparum | MESH:D016778 | 7 | 6 |
+| [DB01597_MESH_D004697_1](db01597-mesh-d004697-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Endocarditis, Bacterial | MESH:D004697 | 6 | 5 |
+| [DB01597_MESH_D018784_1](db01597-mesh-d018784-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Abdominal Abscess | MESH:D018784 | 6 | 5 |
+| [DB01597_MESH_D059413_1](db01597-mesh-d059413-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB01597_MESH_D011018_1](db01597-mesh-d011018-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB01597_MESH_D018410_1](db01597-mesh-d018410-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB01597_MESH_D004716_1](db01597-mesh-d004716-1.html) | Cilastatin | DB:DB01597 | MESH:D015377 | Endometritis | MESH:D004716 | 6 | 5 |
+| [DB00575_MESH_D006973_1](db00575-mesh-d006973-1.html) | Clonidine | DB:DB00575 | MESH:D003000 | Hypertension | MESH:D006973 | 7 | 8 |
+| [DB00575_MESH_D001289_1](db00575-mesh-d001289-1.html) | Clonidine | DB:DB00575 | MESH:D003000 | Attention Deficit Disorder with Hyperactivity | MESH:D001289 | 7 | 8 |
+| [DB00575_MESH_D005902_1](db00575-mesh-d005902-1.html) | Clonidine | DB:DB00575 | MESH:D003000 | Glaucoma, Open-Angle | MESH:D005902 | 7 | 8 |
 | [DB01164_MESH_D007008_1](db01164-mesh-d007008-1.html) | Calcium chloride | DB:DB01164 | MESH:D002122 | Hypokalemia | MESH:D007008 | 2 | 1 |
-| [DB01164_MESH_D006947_1](db01164-mesh-d006947-1.html) | Calcium chloride | DB:DB01164 | MESH:D002122 | Hyperkalemia | MESH:D006947 | 5 | 4 |
-| [DB01164_MESH_D006323_1](db01164-mesh-d006323-1.html) | Calcium chloride | DB:DB01164 | MESH:D002122 | Cardiac arrest | MESH:D006323 | 4 | 3 |
-| [DB01164_MESH_D006996_1](db01164-mesh-d006996-1.html) | Calcium chloride | DB:DB01164 | MESH:D002122 | Hypocalcemia | MESH:D006996 | 4 | 3 |
+| [DB01164_MESH_D006947_1](db01164-mesh-d006947-1.html) | Calcium Chloride | DB:DB01164 | MESH:D002122 | Hyperkalemia | MESH:D006947 | 4 | 3 |
+| [DB01164_MESH_D006323_1](db01164-mesh-d006323-1.html) | Calcium Chloride | DB:DB01164 | MESH:D002122 | Heart Arrest | MESH:D006323 | 4 | 3 |
+| [DB01164_MESH_D006996_1](db01164-mesh-d006996-1.html) | Calcium Chloride | DB:DB01164 | MESH:D002122 | Hypocalcemia | MESH:D006996 | 3 | 2 |
 | [DB00302_MESH_D004715_1](db00302-mesh-d004715-1.html) | tranexamic acid | DB:DB00302 | MESH:D014148 | Endometriosis | MESH:D004715 | 7 | 8 |
 | [DB00302_MESH_D008595_1](db00302-mesh-d008595-1.html) | tranexamic acid | DB:DB00302 | MESH:D014148 | Menorrhagia | MESH:D008595 | 6 | 6 |
 | [DB00347_MESH_D004827_1](db00347-mesh-d004827-1.html) | trimethadione | DB:DB00347 | MESH:D014293 | Epilepsy | MESH:D004827 | 8 | 10 |
@@ -782,7 +718,7 @@ datatable: true
 | [DB00434_MESH_D014581_1](db00434-mesh-d014581-1.html) | Cyproheptadine | DB:DB00434 | MESH:D003533 | Urticaria | MESH:D014581 | 6 | 5 |
 | [DB00434_MESH_D012912_1](db00434-mesh-d012912-1.html) | Cyproheptadine | DB:DB00434 | MESH:D003533 | Sneezing | MESH:D012912 | 7 | 6 |
 | [DB00434_MESH_D065631_1](db00434-mesh-d065631-1.html) | Cyproheptadine | DB:DB00434 | MESH:D003533 | Allergic rhinitis | MESH:D065631 | 7 | 6 |
-| [DB00960_MESH_D006973_1](db00960-mesh-d006973-1.html) | Pindolol | DB:DB00960 | MESH:D010869 | Hypertensive disorder | MESH:D006973 | 7 | 7 |
+| [DB00960_MESH_D006973_1](db00960-mesh-d006973-1.html) | Pindolol | DB:DB00960 | MESH:D010869 | Hypertensive disorder | MESH:D006973 | 8 | 9 |
 | [DB00188_MESH_D020522_1](db00188-mesh-d020522-1.html) | Bortezomib | DB:DB00188 | MESH:D000069286 | Mantle cell lymphoma | MESH:D020522 | 7 | 8 |
 | [DB00188_MESH_D009101_1](db00188-mesh-d009101-1.html) | Bortezomib | DB:DB00188 | MESH:D000069286 | Multiple myeloma | MESH:D009101 | 7 | 8 |
 | [DB01042_MESH_D010051_1](db01042-mesh-d010051-1.html) | Melphalan | DB:DB01042 | MESH:D008558 | Malignant tumor of ovary | MESH:D010051 | 5 | 4 |
@@ -801,28 +737,25 @@ datatable: true
 | [DB06794_MESH_D003233_1](db06794-mesh-d003233-1.html) | Lodoxamide | DB:DB06794 | MESH:C021702,MESH:C022028 | Vernal conjunctivitis | MESH:D003233 | 5 | 4 |
 | [DB09449_MESH_D003248_1](db09449-mesh-d003248-1.html) | Sodium phosphate | DB:DB09449 | MESH:C018279 | Constipation | MESH:D003248 | 3 | 2 |
 | [DB00434_MESH_D012912_2](db00434-mesh-d012912-2.html) | Cyproheptadine | DB:DB00434 | MESH:D003533 | Sneezing | MESH:D012912 | 7 | 6 |
-| [DB00300_MESH_D015658_1](db00300-mesh-d015658-1.html) | Tenofovir disoproxil | DB:DB00300 | None | Human immunodeficiency virus infection | MESH:D015658 | 7 | 6 |
-| [DB00300_MESH_D019694_1](db00300-mesh-d019694-1.html) | Tenofovir disoproxil | DB:DB00300 | None | Chronic type B viral hepatitis | MESH:D019694 | 7 | 6 |
-| [DB01266_MESH_D003218_1](db01266-mesh-d003218-1.html) | Sinecatechins | DB:DB01266 | None | Condyloma acuminatum | MESH:D003218 | 11 | 16 |
-| [DB11817_MESH_D001172_1](db11817-mesh-d001172-1.html) | Baricitinib | DB:DB11817 | MESH:C000596027 | Rheumatoid arthritis | MESH:D001172 | 9 | 11 |
-| [DB09279_MESH_D006973_1](db09279-mesh-d006973-1.html) | Fimasartan | DB:DB09279 | MESH:C558933 | Hypertensive disorder | MESH:D006973 | 10 | 11 |
-| [DB01222_MESH_D003424_1](db01222-mesh-d003424-1.html) | Budesonide | DB:DB01222 | MESH:D019819 | Crohn's disease | MESH:D003424 | 5 | 4 |
-| [DB01222_MESH_D001249_1](db01222-mesh-d001249-1.html) | Budesonide | DB:DB01222 | MESH:D019819 | Asthma | MESH:D001249 | 5 | 4 |
-| [DB01222_MESH_D065631_1](db01222-mesh-d065631-1.html) | Budesonide | DB:DB01222 | MESH:D019819 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
-| [DB01222_MESH_D003424_2](db01222-mesh-d003424-2.html) | Budesonide | DB:DB01222 | MESH:D019819 | Crohn's disease | MESH:D003424 | 10 | 11 |
-| [DB01222_MESH_D001249_2](db01222-mesh-d001249-2.html) | Budesonide | DB:DB01222 | MESH:D019819 | Asthma | MESH:D001249 | 10 | 11 |
-| [DB01222_MESH_D065631_2](db01222-mesh-d065631-2.html) | Budesonide | DB:DB01222 | MESH:D019819 | Allergic rhinitis | MESH:D065631 | 10 | 11 |
-| [DB06724_MESH_D006996_1](db06724-mesh-d006996-1.html) | Calcium carbonate | DB:DB06724 | MESH:D002119 | Hypocalcemia | MESH:D006996 | 3 | 2 |
-| [DB06724_MESH_D004415_1](db06724-mesh-d004415-1.html) | Calcium carbonate | DB:DB06724 | MESH:D002119 | Indigestion | MESH:D004415 | 6 | 9 |
-| [DB01150_MESH_D001991_1](db01150-mesh-d001991-1.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Bronchitis | MESH:D001991 | 8 | 9 |
-| [DB01150_MESH_D012141_1](db01150-mesh-d012141-1.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Upper respiratory infection | MESH:D012141 | 8 | 9 |
-| [DB01150_MESH_D013290_1](db01150-mesh-d013290-1.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Streptococcus pyogenes infection | MESH:D013290 | 8 | 9 |
-| [DB01150_MESH_D014069_1](db01150-mesh-d014069-1.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Tonsillitis | MESH:D014069 | 8 | 9 |
-| [DB01150_MESH_D013203_1](db01150-mesh-d013203-1.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Infection due to Staphylococcus aureus | MESH:D013203 | 8 | 9 |
-| [DB00215_MESH_D003866_1](db00215-mesh-d003866-1.html) | Citalopram | DB:DB00215 | MESH:D015283 | Depressive disorder | MESH:D003866 | 5 | 4 |
-| [DB00215_MESH_D003865_1](db00215-mesh-d003865-1.html) | Citalopram | DB:DB00215 | MESH:D015283 | Major depressive disorder | MESH:D003865 | 5 | 4 |
-| [DB00401_MESH_D006973_1](db00401-mesh-d006973-1.html) | Nisoldipine | DB:DB00401 | MESH:D015737 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
-| [DB01267_MESH_D011618_1](db01267-mesh-d011618-1.html) | Paliperidone | DB:DB01267 | None | Schizoaffective disorder | MESH:D011618 | 8 | 11 |
+| [DB00300_MESH_D015658_1](db00300-mesh-d015658-1.html) | Tenofovir disoproxil | DB:DB00300 | None | HIV Infections | MESH:D015658 | 7 | 6 |
+| [DB00300_MESH_D019694_1](db00300-mesh-d019694-1.html) | Tenofovir disoproxil | DB:DB00300 | None | Hepatitis B, Chronic | MESH:D019694 | 7 | 6 |
+| [DB01266_MESH_D003218_1](db01266-mesh-d003218-1.html) | Sinecatechins | DB:DB01266 | None | Condylomata Acuminata | MESH:D003218 | 11 | 16 |
+| [DB11817_MESH_D001172_1](db11817-mesh-d001172-1.html) | baricitinib | DB:DB11817 | MESH:C000596027 | Arthritis, Rheumatoid | MESH:D001172 | 8 | 10 |
+| [DB09279_MESH_D006973_1](db09279-mesh-d006973-1.html) | fimasartan | DB:DB09279 | MESH:C558933 | Hypertension | MESH:D006973 | 7 | 7 |
+| [DB01222_MESH_D003424_1](db01222-mesh-d003424-1.html) | Budesonide | DB:DB01222 | MESH:D019819 | Crohn Disease | MESH:D003424 | 11 | 13 |
+| [DB01222_MESH_D001249_1](db01222-mesh-d001249-1.html) | Budesonide | DB:DB01222 | MESH:D019819 | Asthma | MESH:D001249 | 11 | 13 |
+| [DB01222_MESH_D065631_1](db01222-mesh-d065631-1.html) | Budesonide | DB:DB01222 | MESH:D019819 | Rhinitis, Allergic | MESH:D065631 | 11 | 13 |
+| [DB06724_MESH_D006996_1](db06724-mesh-d006996-1.html) | Calcium Carbonate | DB:DB06724 | MESH:D002119 | Hypocalcemia | MESH:D006996 | 3 | 2 |
+| [DB06724_MESH_D004415_1](db06724-mesh-d004415-1.html) | Calcium Carbonate | DB:DB06724 | MESH:D002119 | Dyspepsia | MESH:D004415 | 5 | 4 |
+| [DB01150_MESH_D001991_1](db01150-mesh-d001991-1.html) | cefprozil | DB:DB01150 | MESH:C052018 | Bronchitis | MESH:D001991 | 7 | 7 |
+| [DB01150_MESH_D012141_1](db01150-mesh-d012141-1.html) | cefprozil | DB:DB01150 | MESH:C052018 | Respiratory Tract Infections | MESH:D012141 | 7 | 7 |
+| [DB01150_MESH_D013290_1](db01150-mesh-d013290-1.html) | cefprozil | DB:DB01150 | MESH:C052018 | Streptococcal Infections | MESH:D013290 | 7 | 7 |
+| [DB01150_MESH_D014069_1](db01150-mesh-d014069-1.html) | cefprozil | DB:DB01150 | MESH:C052018 | Tonsillitis | MESH:D014069 | 7 | 7 |
+| [DB01150_MESH_D013203_1](db01150-mesh-d013203-1.html) | cefprozil | DB:DB01150 | MESH:C052018 | Staphylococcal Infections | MESH:D013203 | 7 | 7 |
+| [DB00215_MESH_D003866_1](db00215-mesh-d003866-1.html) | Citalopram | DB:DB00215 | MESH:D015283 | Depressive Disorder | MESH:D003866 | 5 | 4 |
+| [DB00215_MESH_D003865_1](db00215-mesh-d003865-1.html) | Citalopram | DB:DB00215 | MESH:D015283 | Depressive Disorder, Major | MESH:D003865 | 5 | 4 |
+| [DB00401_MESH_D006973_1](db00401-mesh-d006973-1.html) | Nisoldipine | DB:DB00401 | MESH:D015737 | Hypertension | MESH:D006973 | 8 | 9 |
+| [DB01267_MESH_D011618_1](db01267-mesh-d011618-1.html) | Paliperidone Palmitate | DB:DB01267 | MESH:D000068882 | Psychotic Disorders | MESH:D011618 | 8 | 8 |
 | [DB00110_MESH_D018357_1](db00110-mesh-d018357-1.html) | palivizumab | DB:DB00110 | MESH:D000069455 | Respiratory syncytial virus infection | MESH:D018357 | 6 | 6 |
 | [DB01603_MESH_D012852_1](db01603-mesh-d012852-1.html) | meticillin | DB:DB01603 | MESH:D008712 | Sinusitis | MESH:D012852 | 9 | 9 |
 | [DB01603_MESH_D011023_1](db01603-mesh-d011023-1.html) | meticillin | DB:DB01603 | MESH:D008712 | Staphylococcal pneumonia | MESH:D011023 | 9 | 9 |
@@ -839,7 +772,7 @@ datatable: true
 | [DB12865_MESH_D006962_1](db12865-mesh-d006962-1.html) | etelcalcetide | DB:DB12865 | MESH:C583569 | Secondary hyperparathyroidism | MESH:D006962 | 6 | 5 |
 | [DB01166_MESH_D007383_1](db01166-mesh-d007383-1.html) | cilostazol | DB:DB01166 | MESH:C045645 | Intermittent claudication | MESH:D007383 | 8 | 8 |
 | [DB01144_MESH_D005902_1](db01144-mesh-d005902-1.html) | dichlorphenamide | DB:DB01144 | MESH:D004005 | Open-angle glaucoma | MESH:D005902 | 10 | 13 |
-| [DB08842_MESH_D000544_1](db08842-mesh-d000544-1.html) | acetylcarnitine | DB:DB08842 | MESH:D004005 | Alzheimer's disease | MESH:D000544 | 20 | 30 |
+| [DB08842_MESH_D000544_1](db08842-mesh-d000544-1.html) | Acetylcarnitine | DB:DB08842 | MESH:D000108 | Alzheimer Disease | MESH:D000544 | 20 | 26 |
 | [DB00903_MESH_D004487_1](db00903-mesh-d004487-1.html) | ethacrynic acid | DB:DB00903 | MESH:D004976 | Edema | MESH:D004487 | 7 | 7 |
 | [DB00038_MESH_D013921_1](db00038-mesh-d013921-1.html) | oprelvekin | DB:DB00038 | MESH:C105308 | Thrombocytopenic disorder | MESH:D013921 | 6 | 6 |
 | [DB00038_MESH_D013921_2](db00038-mesh-d013921-2.html) | oprelvekin | DB:DB00038 | MESH:C105308 | Thrombocytopenic disorder | MESH:D013921 | 6 | 5 |
@@ -873,29 +806,27 @@ datatable: true
 | [DB08949_MESH_D010383_1](db08949-mesh-d010383-1.html) | Inositol Niacinate | DB:DB08949 | MESH:C005193 | Pellagra | MESH:D010383 | 5 | 4 |
 | [DB00257_MESH_D000152_1](db00257-mesh-d000152-1.html) | Adapalene | DB:DB00257 | MESH:D000068816 | Acne vulgaris | MESH:D000152 | 5 | 4 |
 | [DB00257_MESH_D000152_2](db00257-mesh-d000152-2.html) | Adapalene | DB:DB00257 | MESH:D000068816 | Acne vulgaris | MESH:D000152 | 7 | 5 |
-| [DB09256_MESH_D013274_1](db09256-mesh-d013274-1.html) | Tegafur | DB:DB09256 | MESH:D005641 | Malignant tumor of stomach | MESH:D013274 | 11 | 12 |
-| [DB01267_MESH_D012559_1](db01267-mesh-d012559-1.html) | Paliperidone | DB:DB01267 | None | Schizophrenia | MESH:D012559 | 8 | 11 |
-| [DB12833_MESH_D002012_1](db12833-mesh-d002012-1.html) | Tandospirone | DB:DB12833 | MESH:C055267 | Bruxism (teeth grinding) | MESH:D002012 | 4 | 3 |
-| [DB09079_MESH_D002289_1](db09079-mesh-d002289-1.html) | Nintedanib | DB:DB09079 | MESH:C530716 | Non-small cell lung cancer | MESH:D002289 | 12 | 14 |
-| [DB09079_MESH_D000080203_1](db09079-mesh-d000080203-1.html) | Nintedanib | DB:DB09079 | MESH:C530716 | Hamman-Rich syndrome | MESH:D000080203 | 7 | 8 |
-| [DB05336_MESH_C571912_1](db05336-mesh-c571912-1.html) | Obiltoxaximab | DB:DB05336 | MESH:C000611266 | Inhalational anthrax | MESH:C571912 | 6 | 5 |
-| [DB13125_MESH_D013921_1](db13125-mesh-d013921-1.html) | Lusutrombopag | DB:DB13125 | MESH:C000611387 | Thrombocytopenic disorder | MESH:D013921 | 9 | 9 |
-| [DB04897_MESH_D012127_1](db04897-mesh-d012127-1.html) | Lucinactant | DB:DB04897 | MESH:C502722 | Respiratory distress syndrome in the newborn | MESH:D012127 | 6 | 5 |
-| [DB01106_MESH_D003233_2](db01106-mesh-d003233-2.html) | Levocabastine | DB:DB01106 | MESH:C047340 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
-| [DB01106_MESH_D003233_3](db01106-mesh-d003233-3.html) | Levocabastine | DB:DB01106 | MESH:C047340 | Allergic conjunctivitis | MESH:D003233 | 4 | 3 |
-| [DB00593_MESH_D004832_1](db00593-mesh-d004832-1.html) | Ethosuximide | DB:DB00593 | MESH:D005013 | Absence seizure | MESH:D004832 | 6 | 5 |
-| [DB00593_MESH_D004832_2](db00593-mesh-d004832-2.html) | Ethosuximide | DB:DB00593 | MESH:D005013 | Absence seizure | MESH:D004832 | 6 | 6 |
-| [DB09038_MESH_D003924_1](db09038-mesh-d003924-1.html) | Empagliflozin | DB:DB09038 | MESH:C570240 | Diabetes mellitus type 2 | MESH:D003924 | 6 | 5 |
-| [DB00501_MESH_D004381_1](db00501-mesh-d004381-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Duodenal ulcer disease | MESH:D004381 | 5 | 4 |
-| [DB00501_MESH_D013276_1](db00501-mesh-d013276-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Gastric ulcer | MESH:D013276 | 5 | 4 |
-| [DB00501_MESH_D015043_1](db00501-mesh-d015043-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Zollinger-Ellison syndrome | MESH:D015043 | 5 | 4 |
-| [DB00501_MESH_D009377_1](db00501-mesh-d009377-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Multiple endocrine adenomas | MESH:D009377 | 5 | 4 |
-| [DB00501_MESH_D004415_1](db00501-mesh-d004415-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Indigestion | MESH:D004415 | 5 | 4 |
-| [DB00501_MESH_D005764_1](db00501-mesh-d005764-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Gastroesophageal reflux disease | MESH:D005764 | 5 | 4 |
+| [DB09256_MESH_D013274_1](db09256-mesh-d013274-1.html) | Tegafur | DB:DB09256 | MESH:D005641 | Stomach Neoplasms | MESH:D013274 | 9 | 9 |
+| [DB01267_MESH_D012559_1](db01267-mesh-d012559-1.html) | Paliperidone Palmitate | DB:DB01267 | MESH:D000068882 | Schizophrenia | MESH:D012559 | 8 | 8 |
+| [DB12833_MESH_D002012_1](db12833-mesh-d002012-1.html) | tandospirone | DB:DB12833 | MESH:C055267 | Bruxism | MESH:D002012 | 5 | 4 |
+| [DB09079_MESH_D002289_1](db09079-mesh-d002289-1.html) | nintedanib | DB:DB09079 | MESH:C530716 | Carcinoma, Non-Small-Cell Lung | MESH:D002289 | 13 | 17 |
+| [DB09079_MESH_D000080203_1](db09079-mesh-d000080203-1.html) | nintedanib | DB:DB09079 | MESH:C530716 | Hamman-Rich Syndrome | MESH:D000080203 | 13 | 17 |
+| [DB05336_MESH_C571912_1](db05336-mesh-c571912-1.html) | obiltoxaximab | DB:DB05336 | MESH:C000611266 | Inhalation anthrax | MESH:C571912 | 5 | 4 |
+| [DB13125_MESH_D013921_1](db13125-mesh-d013921-1.html) | lusutrombopag | DB:DB13125 | MESH:C000611387 | Thrombocytopenia | MESH:D013921 | 5 | 4 |
+| [DB04897_MESH_D012127_1](db04897-mesh-d012127-1.html) | lucinactant | DB:DB04897 | MESH:C502722 | Respiratory Distress Syndrome, Newborn | MESH:D012127 | 4 | 3 |
+| [DB01106_MESH_D003233_3](db01106-mesh-d003233-3.html) | levocabastine | DB:DB01106 | MESH:C047340 | Conjunctivitis, Allergic | MESH:D003233 | 5 | 4 |
+| [DB00593_MESH_D004832_1](db00593-mesh-d004832-1.html) | Ethosuximide | DB:DB00593 | MESH:D005013 | Epilepsy, Absence | MESH:D004832 | 5 | 4 |
+| [DB09038_MESH_D003924_1](db09038-mesh-d003924-1.html) | empagliflozin | DB:DB09038 | MESH:C570240 | Diabetes Mellitus, Type 2 | MESH:D003924 | 5 | 4 |
+| [DB00501_MESH_D004381_1](db00501-mesh-d004381-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Duodenal Ulcer | MESH:D004381 | 7 | 6 |
+| [DB00501_MESH_D013276_1](db00501-mesh-d013276-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Stomach Ulcer | MESH:D013276 | 7 | 6 |
+| [DB00501_MESH_D015043_1](db00501-mesh-d015043-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Zollinger-Ellison Syndrome | MESH:D015043 | 6 | 5 |
+| [DB00501_MESH_D009377_1](db00501-mesh-d009377-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Multiple Endocrine Neoplasia | MESH:D009377 | 4 | 3 |
+| [DB00501_MESH_D004415_1](db00501-mesh-d004415-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Dyspepsia | MESH:D004415 | 6 | 5 |
+| [DB00501_MESH_D005764_1](db00501-mesh-d005764-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Gastroesophageal Reflux | MESH:D005764 | 6 | 5 |
 | [DB00501_MESH_D006356_1](db00501-mesh-d006356-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Heartburn | MESH:D006356 | 5 | 4 |
-| [DB00501_MESH_D034721_1](db00501-mesh-d034721-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Systemic mast cell disease | MESH:D034721 | 5 | 4 |
-| [DB01183_MESH_D009293_1](db01183-mesh-d009293-1.html) | Naloxone | DB:DB01183 | MESH:D009270 | Opioid dependence | MESH:D009293 | 9 | 10 |
-| [DB01183_MESH_D010146_1](db01183-mesh-d010146-1.html) | Naloxone | DB:DB01183 | MESH:D009270 | Pain | MESH:D010146 | 9 | 10 |
+| [DB00501_MESH_D034721_1](db00501-mesh-d034721-1.html) | Cimetidine | DB:DB00501 | MESH:D002927 | Mastocytosis, Systemic | MESH:D034721 | 7 | 7 |
+| [DB01183_MESH_D009293_1](db01183-mesh-d009293-1.html) | Naloxone | DB:DB01183 | MESH:D009270 | Opioid-Related Disorders | MESH:D009293 | 8 | 9 |
+| [DB01183_MESH_D010146_1](db01183-mesh-d010146-1.html) | Naloxone | DB:DB01183 | MESH:D009270 | Pain | MESH:D010146 | 7 | 8 |
 | [DB00152_MESH_D013832_1](db00152-mesh-d013832-1.html) | Thiamine | DB:DB00152 | MESH:D013831 | Thiamin deficiency | MESH:D013832 | 6 | 7 |
 | [DB00152_MESH_D014806_1](db00152-mesh-d014806-1.html) | Thiamine | DB:DB00152 | MESH:D013831 | Cobalamin deficiency | MESH:D014806 | 2 | 1 |
 | [DB00152_MESH_D020915_1](db00152-mesh-d020915-1.html) | Thiamine | DB:DB00152 | MESH:D013831 | Korsakoff Syndrome | MESH:D020915 | 5 | 4 |
@@ -989,8 +920,8 @@ datatable: true
 | [DB01061_MESH_D011015_1](db01061-mesh-d011015-1.html) | Azlocillin | DB:DB01061 | MESH:D001390 | Aspiration pneumonia | MESH:D011015 | 7 | 6 |
 | [DB01061_MESH_D016868_1](db01061-mesh-d016868-1.html) | Azlocillin | DB:DB01061 | MESH:D001390 | Bacterial infection due to Serratia | MESH:D016868 | 7 | 6 |
 | [DB01061_MESH_D014552_1](db01061-mesh-d014552-1.html) | Azlocillin | DB:DB01061 | MESH:D001390 | Urinary tract infectious disease | MESH:D014552 | 7 | 6 |
-| [DB01147_MESH_D013203_1](db01147-mesh-d013203-1.html) | Cloxacillin | DB:DB01147 | MESH:D003023 | Infection due to Staphylococcus aureus | MESH:D013203 | 7 | 6 |
-| [DB01147_MESH_D011023_1](db01147-mesh-d011023-1.html) | Cloxacillin | DB:DB01147 | MESH:D003023 | Staphylococcal pneumonia | MESH:D011023 | 7 | 6 |
+| [DB01147_MESH_D013203_1](db01147-mesh-d013203-1.html) | Cloxacillin | DB:DB01147 | MESH:D003023 | Staphylococcal Infections | MESH:D013203 | 7 | 6 |
+| [DB01147_MESH_D011023_1](db01147-mesh-d011023-1.html) | Cloxacillin | DB:DB01147 | MESH:D003023 | Pneumonia, Staphylococcal | MESH:D011023 | 7 | 6 |
 | [DB01147_MESH_D010612_1](db01147-mesh-d010612-1.html) | Cloxacillin | DB:DB01147 | MESH:D003023 | Pharyngitis | MESH:D010612 | 7 | 6 |
 | [DB01147_MESH_D012852_1](db01147-mesh-d012852-1.html) | Cloxacillin | DB:DB01147 | MESH:D003023 | Sinusitis | MESH:D012852 | 7 | 6 |
 | [DB01401_MESH_D005334_1](db01401-mesh-d005334-1.html) | Choline magnesium trisalicylate | DB:DB01401 | MESH:C017959 | Fever | MESH:D005334 | 5 | 5 |
@@ -1008,11 +939,11 @@ datatable: true
 | [DB11606_MESH_C536392_1](db11606-mesh-c536392-1.html) | Susoctocog alfa | DB:DB11606 | None | Acquired factor VIII deficiency disease | MESH:C536392 | 3 | 2 |
 | [DB11607_MESH_D006467_1](db11607-mesh-d006467-1.html) | Efmoroctocog alfa | DB:DB11607 | MESH:C587014 | Hereditary factor VIII deficiency disease | MESH:D006467 | 3 | 2 |
 | [DB00347_MESH_D004832_2](db00347-mesh-d004832-2.html) | trimethadione | DB:DB00347 | MESH:D014293 | Absence seizure | MESH:D004832 | 6 | 5 |
-| [DB00668_MESH_D001987_1](db00668-mesh-d001987-1.html) | epinephrine | DB:DB00668 | MESH:D004837 | Bronchiectasis | MESH:D001987 | 11 | 16 |
-| [DB00668_MESH_D001991_1](db00668-mesh-d001991-1.html) | epinephrine | DB:DB00668 | MESH:D004837 | Bronchitis | MESH:D001991 | 11 | 16 |
-| [DB00668_MESH_D011656_1](db00668-mesh-d011656-1.html) | epinephrine | DB:DB00668 | MESH:D004837 | Pulmonary emphysema | MESH:D011656 | 12 | 17 |
-| [DB00668_MESH_D012135_1](db00668-mesh-d012135-1.html) | epinephrine | DB:DB00668 | MESH:D004837 | Respiratory Sounds | MESH:D012135 | 12 | 17 |
-| [DB00668_MESH_D004417_1](db00668-mesh-d004417-1.html) | epinephrine | DB:DB00668 | MESH:D004837 | Dyspnea | MESH:D004417 | 11 | 16 |
+| [DB00668_MESH_D001987_1](db00668-mesh-d001987-1.html) | Epinephrine | DB:DB00668 | MESH:D004837 | Bronchiectasis | MESH:D001987 | 11 | 16 |
+| [DB00668_MESH_D001991_1](db00668-mesh-d001991-1.html) | Epinephrine | DB:DB00668 | MESH:D004837 | Bronchitis | MESH:D001991 | 11 | 16 |
+| [DB00668_MESH_D011656_1](db00668-mesh-d011656-1.html) | Epinephrine | DB:DB00668 | MESH:D004837 | Pulmonary Emphysema | MESH:D011656 | 11 | 16 |
+| [DB00668_MESH_D012135_1](db00668-mesh-d012135-1.html) | Epinephrine | DB:DB00668 | MESH:D004837 | Respiratory Sounds | MESH:D012135 | 11 | 16 |
+| [DB00668_MESH_D004417_1](db00668-mesh-d004417-1.html) | Epinephrine | DB:DB00668 | MESH:D004837 | Dyspnea | MESH:D004417 | 11 | 16 |
 | [DB09053_MESH_D015451_1](db09053-mesh-d015451-1.html) | ibrutinib | DB:DB09053 | MESH:C551803 | Chronic lymphoid leukemia, disease | MESH:D015451 | 7 | 8 |
 | [DB06201_MESH_D065768_1](db06201-mesh-d065768-1.html) | rufinamide | DB:DB06201 | MESH:C079703 | Lennox-Gastaut syndrome | MESH:D065768 | 6 | 5 |
 | [DB06201_MESH_D065768_2](db06201-mesh-d065768-2.html) | rufinamide | DB:DB06201 | MESH:C079703 | Lennox-Gastaut syndrome | MESH:D065768 | 6 | 5 |
@@ -1035,7 +966,7 @@ datatable: true
 | [DB00624_MESH_D005058_1](db00624-mesh-d005058-1.html) | Testosterone | DB:DB00624 | MESH:D013739 | Male hypogonadism | MESH:D005058 | 5 | 4 |
 | [DB01420_MESH_D007713_1](db01420-mesh-d007713-1.html) | Testosterone propionate | DB:DB01420 | MESH:D043343 | Klinefelter's syndrome, XXY | MESH:D007713 | 6 | 5 |
 | [DB00624_MESH_D007713_1](db00624-mesh-d007713-1.html) | Testosterone | DB:DB00624 | MESH:D013739 | Klinefelter's syndrome, XXY | MESH:D007713 | 6 | 5 |
-| [DB04911_MESH_D013207_1](db04911-mesh-d013207-1.html) | Oritavancin | DB:DB04911 | MESH:C100708 | Staphylococcal infection of skin | MESH:D013207 | 5 | 4 |
+| [DB04911_MESH_D013207_1](db04911-mesh-d013207-1.html) | oritavancin | DB:DB04911 | MESH:C100708 | Staphylococcal Skin Infections | MESH:D013207 | 5 | 4 |
 | [DB04911_MESH_D017192_1](db04911-mesh-d017192-1.html) | Oritavancin | DB:DB04911 | MESH:C100708 | Bacterial infection of skin | MESH:D017192 | 5 | 4 |
 | [DB06414_MESH_D015658_1](db06414-mesh-d015658-1.html) | Etravirine | DB:DB06414 | MESH:C451734 | Human immunodeficiency virus infection | MESH:D015658 | 5 | 4 |
 | [DB08907_MESH_D003924_1](db08907-mesh-d003924-1.html) | Canagliflozin | DB:DB08907 | MESH:D000068896 | Diabetes mellitus type 2 | MESH:D003924 | 5 | 4 |
@@ -1106,29 +1037,29 @@ datatable: true
 | [DB01003_MESH_D003233_1](db01003-mesh-d003233-1.html) | cromoglicic acid | DB:DB01003 | MESH:D004205 | Giant papillary conjunctivitis | MESH:D003233 | 8 | 9 |
 | [DB01003_MESH_D034721_1](db01003-mesh-d034721-1.html) | cromoglicic acid | DB:DB01003 | MESH:D004205 | Systemic mast cell disease | MESH:D034721 | 7 | 7 |
 | [DB01003_MESH_D001249_1](db01003-mesh-d001249-1.html) | cromoglicic acid | DB:DB01003 | MESH:D004205 | Asthma | MESH:D001249 | 7 | 7 |
-| [DB11824_MESH_D003924_1](db11824-mesh-d003924-1.html) | Tofogliflozin | DB:DB11824 | MESH:C575086 | Diabetes mellitus type 2 | MESH:D003924 | 5 | 4 |
-| [DB00641_MESH_D006937_1](db00641-mesh-d006937-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hypercholesterolemia | MESH:D006937 | 5 | 4 |
-| [DB00641_MESH_D006950_1](db00641-mesh-d006950-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Mixed hyperlipidemia | MESH:D006950 | 7 | 7 |
-| [DB00641_MESH_D015228_1](db00641-mesh-d015228-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hypertriglyceridemia | MESH:D015228 | 4 | 3 |
-| [DB00641_MESH_D052456_1](db00641-mesh-d052456-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hypoalphalipoproteinemia | MESH:D052456 | 4 | 3 |
-| [DB00641_MESH_D006952_1](db00641-mesh-d006952-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Familial type 3 hyperlipoproteinemia | MESH:D006952 | 4 | 3 |
-| [DB00641_MESH_D020521_1](db00641-mesh-d020521-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Cerebrovascular accident | MESH:D020521 | 6 | 5 |
-| [DB00641_MESH_D001161_1](db00641-mesh-d001161-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Arteriosclerotic vascular disease | MESH:D001161 | 6 | 5 |
-| [DB01621_MESH_D012559_1](db01621-mesh-d012559-1.html) | Pipotiazine palmitate | DB:DB01621 | None | Schizophrenia | MESH:D012559 | 8 | 8 |
-| [DB00790_MESH_D006973_1](db00790-mesh-d006973-1.html) | Perindopril | DB:DB00790 | MESH:D020913 | Hypertensive disorder | MESH:D006973 | 10 | 10 |
-| [DB01421_MESH_D006501_1](db01421-mesh-d006501-1.html) | Paromomycin | DB:DB01421 | MESH:D010303 | Hepatic coma | MESH:D006501 | 7 | 6 |
-| [DB04818_MESH_D003866_1](db04818-mesh-d003866-1.html) | Iproniazid | DB:DB04818 | MESH:D007490 | Depressive disorder | MESH:D003866 | 5 | 5 |
-| [DB00996_MESH_D012148_2](db00996-mesh-d012148-2.html) | Gabapentin | DB:DB00996 | None | Restless legs | MESH:D012148 | 12 | 14 |
-| [DB00996_MESH_D051474_1](db00996-mesh-d051474-1.html) | Gabapentin | DB:DB00996 | None | Postherpetic neuralgia | MESH:D051474 | 12 | 14 |
-| [DB01320_MESH_D004827_1](db01320-mesh-d004827-1.html) | Fosphenytoin | DB:DB01320 | MESH:C043114 | Epilepsy | MESH:D004827 | 8 | 7 |
-| [DB01320_MESH_D013226_1](db01320-mesh-d013226-1.html) | Fosphenytoin | DB:DB01320 | MESH:C043114 | Status epilepticus | MESH:D013226 | 8 | 7 |
-| [DB00252_MESH_D004827_1](db00252-mesh-d004827-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Epilepsy | MESH:D004827 | 7 | 6 |
-| [DB00252_MESH_D013226_1](db00252-mesh-d013226-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Status epilepticus | MESH:D013226 | 7 | 6 |
-| [DB01158_MESH_D014693_1](db01158-mesh-d014693-1.html) | Bretylium | DB:DB01158 | MESH:C045166 | Ventricular fibrillation | MESH:D014693 | 6 | 5 |
-| [DB00252_MESH_D004828_1](db00252-mesh-d004828-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Localization-related epilepsy | MESH:D004828 | 7 | 6 |
-| [DB00252_MESH_D012640_1](db00252-mesh-d012640-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Tonic-clonic seizure | MESH:D012640 | 7 | 6 |
-| [DB00252_MESH_D065768_1](db00252-mesh-d065768-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Lennox-Gastaut syndrome | MESH:D065768 | 7 | 6 |
-| [DB00252_MESH_D004830_1](db00252-mesh-d004830-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Tonic-clonic epilepsy | MESH:D004830 | 7 | 6 |
+| [DB11824_MESH_D003924_1](db11824-mesh-d003924-1.html) | Tofogliflozin | DB:DB11824 | MESH:C575086 | Diabetes Mellitus, Type 2 | MESH:D003924 | 5 | 4 |
+| [DB00641_MESH_D006937_1](db00641-mesh-d006937-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hypercholesterolemia | MESH:D006937 | 6 | 5 |
+| [DB00641_MESH_D006950_1](db00641-mesh-d006950-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hyperlipidemia, Familial Combined | MESH:D006950 | 9 | 9 |
+| [DB00641_MESH_D015228_1](db00641-mesh-d015228-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hypertriglyceridemia | MESH:D015228 | 6 | 5 |
+| [DB00641_MESH_D052456_1](db00641-mesh-d052456-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hypoalphalipoproteinemias | MESH:D052456 | 6 | 5 |
+| [DB00641_MESH_D006952_1](db00641-mesh-d006952-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Hyperlipoproteinemia Type III | MESH:D006952 | 12 | 13 |
+| [DB00641_MESH_D020521_1](db00641-mesh-d020521-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Stroke | MESH:D020521 | 7 | 6 |
+| [DB00641_MESH_D001161_1](db00641-mesh-d001161-1.html) | Simvastatin | DB:DB00641 | MESH:D019821 | Arteriosclerosis | MESH:D001161 | 7 | 6 |
+| [DB01621_MESH_D012559_1](db01621-mesh-d012559-1.html) | Pipotiazine | DB:DB01621 | MESH:null | Schizophrenia | MESH:D012559 | 5 | 4 |
+| [DB00790_MESH_D006973_1](db00790-mesh-d006973-1.html) | Perindopril | DB:DB00790 | MESH:D020913 | Hypertension | MESH:D006973 | 7 | 6 |
+| [DB01421_MESH_D006501_1](db01421-mesh-d006501-1.html) | Paromomycin | DB:DB01421 | MESH:D010303 | Hepatic Encephalopathy | MESH:D006501 | 6 | 5 |
+| [DB04818_MESH_D003866_1](db04818-mesh-d003866-1.html) | Iproniazid | DB:DB04818 | MESH:D007490 | Depressive Disorder | MESH:D003866 | 10 | 13 |
+| [DB00996_MESH_D012148_2](db00996-mesh-d012148-2.html) | Gabapentin | DB:DB00996 | MESH:D000077206 | Restless Legs Syndrome | MESH:D012148 | 7 | 6 |
+| [DB00996_MESH_D051474_1](db00996-mesh-d051474-1.html) | Gabapentin | DB:DB00996 | MESH:D000077206 | Neuralgia, Postherpetic | MESH:D051474 | 7 | 6 |
+| [DB01320_MESH_D004827_1](db01320-mesh-d004827-1.html) | fosphenytoin | DB:DB01320 | MESH:C043114 | Epilepsy | MESH:D004827 | 6 | 5 |
+| [DB01320_MESH_D013226_1](db01320-mesh-d013226-1.html) | fosphenytoin | DB:DB01320 | MESH:C043114 | Status Epilepticus | MESH:D013226 | 6 | 5 |
+| [DB00252_MESH_D004827_1](db00252-mesh-d004827-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Epilepsy | MESH:D004827 | 5 | 4 |
+| [DB00252_MESH_D013226_1](db00252-mesh-d013226-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Status Epilepticus | MESH:D013226 | 5 | 4 |
+| [DB01158_MESH_D014693_1](db01158-mesh-d014693-1.html) | bretylium | DB:DB01158 | MESH:C045166 | Ventricular Fibrillation | MESH:D014693 | 6 | 5 |
+| [DB00252_MESH_D004828_1](db00252-mesh-d004828-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Epilepsies, Partial | MESH:D004828 | 5 | 4 |
+| [DB00252_MESH_D012640_1](db00252-mesh-d012640-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Seizures | MESH:D012640 | 4 | 3 |
+| [DB00252_MESH_D065768_1](db00252-mesh-d065768-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Lennox Gastaut Syndrome | MESH:D065768 | 5 | 4 |
+| [DB00252_MESH_D004830_1](db00252-mesh-d004830-1.html) | Phenytoin | DB:DB00252 | MESH:D010672 | Epilepsy, Tonic-Clonic | MESH:D004830 | 5 | 4 |
 | [DB00128_MESH_D007008_1](db00128-mesh-d007008-1.html) | Aspartic Acid, Potassium Salt | DB:DB00128 | MESH:D001224 | Hypokalemia | MESH:D007008 | 3 | 2 |
 | [DB00193_MESH_D010146_2](db00193-mesh-d010146-2.html) | Tramadol | DB:DB00193 | MESH:D014147 | Pain | MESH:D010146 | 19 | 22 |
 | [DB00193_MESH_D010003_1](db00193-mesh-d010003-1.html) | Tramadol | DB:DB00193 | MESH:D014147 | Osteoarthritis | MESH:D010003 | 20 | 23 |
@@ -1184,8 +1115,8 @@ datatable: true
 | [DB01137_MESH_D003234_1](db01137-mesh-d003234-1.html) | levofloxacin | DB:DB01137 | MESH:D064704 | Bacterial conjunctivitis | MESH:D003234 | 6 | 6 |
 | [DB01137_MESH_D003234_2](db01137-mesh-d003234-2.html) | levofloxacin | DB:DB01137 | MESH:D064704 | Pneumonia due to Mycoplasma pneumoniae | MESH:D003234 | 6 | 6 |
 | [DB01369_MESH_D013290_1](db01369-mesh-d013290-1.html) | quinupristin | DB:DB01369 | MESH:C113825 | Streptococcus pyogenes infection | MESH:D013290 | 8 | 9 |
-| [DB00461_MESH_D010003_1](db00461-mesh-d010003-1.html) | Nabumetone | DB:DB00461 | MESH:D007660 | Osteoarthritis | MESH:D010003 | 9 | 10 |
-| [DB00461_MESH_D001172_1](db00461-mesh-d001172-1.html) | Nabumetone | DB:DB00461 | MESH:D007660 | Rheumatoid arthritis | MESH:D001172 | 9 | 10 |
+| [DB00461_MESH_D010003_1](db00461-mesh-d010003-1.html) | Nabumetone | DB:DB00461 | MESH:D000077430 | Osteoarthritis | MESH:D010003 | 9 | 10 |
+| [DB00461_MESH_D001172_1](db00461-mesh-d001172-1.html) | Nabumetone | DB:DB00461 | MESH:D000077430 | Arthritis, Rheumatoid | MESH:D001172 | 9 | 10 |
 | [DB00727_MESH_D000787_1](db00727-mesh-d000787-1.html) | glyceryl trinitrate | DB:DB00727 | MESH:D005996 | Angina pectoris | MESH:D000787 | 7 | 7 |
 | [DB01280_MESH_D054218_1](db01280-mesh-d054218-1.html) | nelarabine | DB:DB01280 | MESH:C104457 | T-cell acute lymphoblastic leukemia | MESH:D054218 | 7 | 7 |
 | [DB00184_MESH_D010383_1](db00184-mesh-d010383-1.html) | nicotine | DB:DB00184 | MESH:D009538 | Niacin deficiency | MESH:D010383 | 2 | 1 |
@@ -1214,20 +1145,20 @@ datatable: true
 | [DB09114_MESH_D012127_1](db09114-mesh-d012127-1.html) | Colfosceril palmitate | DB:DB09114 | MESH:C081581 | Respiratory distress syndrome in the newborn | MESH:D012127 | 3 | 2 |
 | [DB11812_MESH_D001932_1](db11812-mesh-d001932-1.html) | Talaporfin | DB:DB11812 | MESH:C053434 | Primary malignant neoplasm of brain | MESH:D001932 | 3 | 2 |
 | [DB11812_MESH_D008175_1](db11812-mesh-d008175-1.html) | Talaporfin | DB:DB11812 | MESH:C053434 | Malignant tumor of lung | MESH:D008175 | 3 | 2 |
-| [DB01108_MESH_D000308_1](db01108-mesh-d000308-1.html) | Trilostane | DB:DB01108 | MESH:C009954 | Hypercortisolism | MESH:D000308 | 7 | 8 |
-| [DB11348_MESH_D010024_1](db11348-mesh-d010024-1.html) | Calcium Phosphate | DB:DB11348 | MESH:C020243 | Osteoporosis | MESH:D010024 | 17 | 23 |
-| [DB11348_MESH_D006996_1](db11348-mesh-d006996-1.html) | Calcium Phosphate | DB:DB11348 | MESH:C020243 | Hypocalcemia | MESH:D006996 | 17 | 23 |
-| [DB11348_MESH_D015663_1](db11348-mesh-d015663-1.html) | Calcium Phosphate | DB:DB11348 | MESH:C020243 | Postmenopausal osteoporosis | MESH:D015663 | 17 | 23 |
-| [DB06824_MESH_D006527_1](db06824-mesh-d006527-1.html) | Trientine | DB:DB06824 | MESH:D014266 | Wilson's disease | MESH:D006527 | 4 | 3 |
-| [DB06824_MESH_D002292_1](db06824-mesh-d002292-1.html) | Trientine | DB:DB06824 | MESH:D014266 | Renal cell carcinoma | MESH:D002292 | 6 | 5 |
-| [DB06824_MESH_D002292_2](db06824-mesh-d002292-2.html) | Trientine | DB:DB06824 | MESH:D014266 | Renal cell carcinoma | MESH:D002292 | 12 | 17 |
-| [DB06824_MESH_D002292_3](db06824-mesh-d002292-3.html) | Trientine | DB:DB06824 | MESH:D014266 | Renal cell carcinoma | MESH:D002292 | 7 | 7 |
-| [DB01015_MESH_D009617_1](db01015-mesh-d009617-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Nocardiosis | MESH:D009617 | 6 | 5 |
-| [DB01015_MESH_D004405_1](db01015-mesh-d004405-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Shigellosis | MESH:D004405 | 6 | 5 |
-| [DB01015_MESH_D014123_1](db01015-mesh-d014123-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Toxoplasmosis | MESH:D014123 | 6 | 5 |
-| [DB01015_MESH_D003235_1](db01015-mesh-d003235-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Chlamydial conjunctivitis | MESH:D003235 | 6 | 5 |
-| [DB00299_MESH_D006560_1](db00299-mesh-d006560-1.html) | Penciclovir | DB:DB00299 | MESH:C053539 | Herpes labialis | MESH:D006560 | 7 | 6 |
-| [DB06626_MESH_D002292_1](db06626-mesh-d002292-1.html) | Axitinib | DB:DB06626 | None | Renal cell carcinoma | MESH:D002292 | 9 | 12 |
+| [DB01108_MESH_D000308_1](db01108-mesh-d000308-1.html) | trilostane | DB:DB01108 | MESH:C009954 | Adrenocortical Hyperfunction | MESH:D000308 | 7 | 7 |
+| [DB11348_MESH_D010024_1](db11348-mesh-d010024-1.html) | calcium phosphate | DB:DB11348 | MESH:C020243 | Osteoporosis | MESH:D010024 | 9 | 10 |
+| [DB11348_MESH_D006996_1](db11348-mesh-d006996-1.html) | calcium phosphate | DB:DB11348 | MESH:C020243 | Hypocalcemia | MESH:D006996 | 9 | 10 |
+| [DB11348_MESH_D015663_1](db11348-mesh-d015663-1.html) | calcium phosphate | DB:DB11348 | MESH:C020243 | Osteoporosis, Postmenopausal | MESH:D015663 | 9 | 10 |
+| [DB06824_MESH_D006527_1](db06824-mesh-d006527-1.html) | Trientine | DB:DB06824 | MESH:D014266 | Hepatolenticular Degeneration | MESH:D006527 | 3 | 2 |
+| [DB06824_MESH_D002292_1](db06824-mesh-d002292-1.html) | Trientine | DB:DB06824 | MESH:D014266 | Carcinoma, Renal Cell | MESH:D002292 | 6 | 5 |
+| [DB06824_MESH_D002292_2](db06824-mesh-d002292-2.html) | Trientine | DB:DB06824 | MESH:D014266 | Carcinoma, Renal Cell | MESH:D002292 | 11 | 15 |
+| [DB06824_MESH_D002292_3](db06824-mesh-d002292-3.html) | Trientine | DB:DB06824 | MESH:D014266 | Carcinoma, Renal Cell | MESH:D002292 | 7 | 7 |
+| [DB01015_MESH_D009617_1](db01015-mesh-d009617-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Nocardia Infections | MESH:D009617 | 7 | 6 |
+| [DB01015_MESH_D004405_1](db01015-mesh-d004405-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Dysentery, Bacillary | MESH:D004405 | 7 | 6 |
+| [DB01015_MESH_D014123_1](db01015-mesh-d014123-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Toxoplasmosis | MESH:D014123 | 7 | 6 |
+| [DB01015_MESH_D003235_1](db01015-mesh-d003235-1.html) | Sulfamethoxazole | DB:DB01015 | MESH:D013420 | Conjunctivitis, Inclusion | MESH:D003235 | 7 | 6 |
+| [DB00299_MESH_D006560_1](db00299-mesh-d006560-1.html) | penciclovir | DB:DB00299 | MESH:C053539 | Herpes Labialis | MESH:D006560 | 6 | 5 |
+| [DB06626_MESH_D002292_1](db06626-mesh-d002292-1.html) | Axitinib | DB:DB06626 | MESH:D000077784 | Carcinoma, Renal Cell | MESH:D002292 | 7 | 8 |
 | [DB00005_MESH_D001172_1](db00005-mesh-d001172-1.html) | Etanercept | DB:DB00005 | MESH:D000068800 | Rheumatoid arthritis | MESH:D001172 | 7 | 8 |
 | [DB00005_MESH_D001171_1](db00005-mesh-d001171-1.html) | Etanercept | DB:DB00005 | MESH:D000068800 | Juvenile idiopathic arthritis | MESH:D001171 | 7 | 8 |
 | [DB00005_MESH_D015535_1](db00005-mesh-d015535-1.html) | Etanercept | DB:DB00005 | MESH:D000068800 | Psoriasis with arthropathy | MESH:D015535 | 7 | 9 |
@@ -1248,20 +1179,18 @@ datatable: true
 | [DB08993_MESH_D014397_1](db08993-mesh-d014397-1.html) | Enviomycin | DB:DB08993 | MESH:D004776 | Pulmonary tuberculosis | MESH:D014397 | 5 | 4 |
 | [DB00584_MESH_D006333_1](db00584-mesh-d006333-1.html) | Enalapril | DB:DB00584 | MESH:D004656 | Congestive heart failure | MESH:D006333 | 9 | 9 |
 | [DB00584_MESH_D006973_1](db00584-mesh-d006973-1.html) | Enalapril | DB:DB00584 | MESH:D004656 | Hypertensive disorder | MESH:D006973 | 9 | 9 |
-| [DB00548_MESH_D012393_1](db00548-mesh-d012393-1.html) | Azelaic acid | DB:DB00548 | MESH:C010038 | Rosacea | MESH:D012393 | 4 | 3 |
-| [DB00548_MESH_D000152_1](db00548-mesh-d000152-1.html) | Azelaic acid | DB:DB00548 | MESH:C010038 | Acne vulgaris | MESH:D000152 | 6 | 5 |
-| [DB00548_MESH_D000152_2](db00548-mesh-d000152-2.html) | Azelaic acid | DB:DB00548 | MESH:C010038 | Acne vulgaris | MESH:D000152 | 8 | 9 |
-| [DB00548_MESH_D000152_3](db00548-mesh-d000152-3.html) | Azelaic acid | DB:DB00548 | MESH:C010038 | Acne vulgaris | MESH:D000152 | 4 | 3 |
-| [DB01415_MESH_D014069_1](db01415-mesh-d014069-1.html) | Ceftibuten | DB:DB01415 | None | Tonsillitis | MESH:D014069 | 6 | 5 |
-| [DB01415_MESH_D013290_1](db01415-mesh-d013290-1.html) | Ceftibuten | DB:DB01415 | None | Streptococcus pyogenes infection | MESH:D013290 | 6 | 5 |
-| [DB01501_MESH_D003967_1](db01501-mesh-d003967-1.html) | Difenoxin | DB:DB01501 | MESH:C100010 | Diarrhea | MESH:D003967 | 6 | 5 |
-| [DB00644_MESH_D000568_1](db00644-mesh-d000568-1.html) | Gonadorelin | DB:DB00644 | MESH:D007987 | Amenorrhea | MESH:D000568 | 7 | 7 |
-| [DB08887_MESH_D015228_1](db08887-mesh-d015228-1.html) | Icosapent ethyl | DB:DB08887 | None | Hypertriglyceridemia | MESH:D015228 | 8 | 9 |
-| [DB00627_MESH_D001361_1](db00627-mesh-d001361-1.html) | Nicotinic acid | DB:DB00627 | MESH:D009525 | Vitamin deficiency | MESH:D001361 | 3 | 2 |
-| [DB00627_MESH_D015228_1](db00627-mesh-d015228-1.html) | Nicotinic acid | DB:DB00627 | MESH:D009525 | Hypertriglyceridemia | MESH:D015228 | 5 | 4 |
-| [DB00627_MESH_D006950_1](db00627-mesh-d006950-1.html) | Nicotinic acid | DB:DB00627 | MESH:D009525 | Mixed hyperlipidemia | MESH:D006950 | 16 | 18 |
-| [DB00627_MESH_D006937_1](db00627-mesh-d006937-1.html) | Nicotinic acid | DB:DB00627 | MESH:D009525 | Hypercholesterolemia | MESH:D006937 | 16 | 18 |
-| [DB00627_MESH_D006949_1](db00627-mesh-d006949-1.html) | Nicotinic acid | DB:DB00627 | MESH:D009525 | Hyperlipidemia | MESH:D006949 | 16 | 18 |
+| [DB00548_MESH_D012393_1](db00548-mesh-d012393-1.html) | azelaic acid | DB:DB00548 | MESH:C010038 | Rosacea | MESH:D012393 | 5 | 4 |
+| [DB00548_MESH_D000152_2](db00548-mesh-d000152-2.html) | azelaic acid | DB:DB00548 | MESH:C010038 | Acne Vulgaris | MESH:D000152 | 8 | 10 |
+| [DB01415_MESH_D014069_1](db01415-mesh-d014069-1.html) | Ceftibuten | DB:DB01415 | MESH:D000077722 | Tonsillitis | MESH:D014069 | 6 | 5 |
+| [DB01415_MESH_D013290_1](db01415-mesh-d013290-1.html) | Ceftibuten | DB:DB01415 | MESH:D000077722 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB01501_MESH_D003967_1](db01501-mesh-d003967-1.html) | difenoxin | DB:DB01501 | MESH:C100010 | Diarrhea | MESH:D003967 | 6 | 5 |
+| [DB00644_MESH_D000568_1](db00644-mesh-d000568-1.html) | Gonadotropin-Releasing Hormone | DB:DB00644 | MESH:D007987 | Amenorrhea | MESH:D000568 | 6 | 6 |
+| [DB08887_MESH_D015228_1](db08887-mesh-d015228-1.html) | Icosapent ethyl | DB:DB08887 | MESH:null | Hypertriglyceridemia | MESH:D015228 | 8 | 10 |
+| [DB00627_MESH_D001361_1](db00627-mesh-d001361-1.html) | Niacin | DB:DB00627 | MESH:D009525 | Avitaminosis | MESH:D001361 | 3 | 2 |
+| [DB00627_MESH_D015228_1](db00627-mesh-d015228-1.html) | Niacin | DB:DB00627 | MESH:D009525 | Hypertriglyceridemia | MESH:D015228 | 8 | 9 |
+| [DB00627_MESH_D006950_1](db00627-mesh-d006950-1.html) | Niacin | DB:DB00627 | MESH:D009525 | Hyperlipidemia, Familial Combined | MESH:D006950 | 9 | 10 |
+| [DB00627_MESH_D006937_1](db00627-mesh-d006937-1.html) | Niacin | DB:DB00627 | MESH:D009525 | Hypercholesterolemia | MESH:D006937 | 8 | 8 |
+| [DB00627_MESH_D006949_1](db00627-mesh-d006949-1.html) | Niacin | DB:DB00627 | MESH:D009525 | Hyperlipidemias | MESH:D006949 | 9 | 10 |
 | [DB00205_MESH_D008288_1](db00205-mesh-d008288-1.html) | pyrimethamine | DB:DB00205 | MESH:D011739 | Malaria | MESH:D008288 | 8 | 8 |
 | [DB00205_MESH_D014123_1](db00205-mesh-d014123-1.html) | pyrimethamine | DB:DB00205 | MESH:D011739 | Toxoplasmosis | MESH:D014123 | 8 | 8 |
 | [DB00484_MESH_D012393_1](db00484-mesh-d012393-1.html) | brimonidine | DB:DB00484 | MESH:D000068438 | Rosacea | MESH:D012393 | 11 | 16 |
@@ -1326,28 +1255,27 @@ datatable: true
 | [DB06663_MESH_D000308_1](db06663-mesh-d000308-1.html) | pasireotide | DB:DB06663 | MESH:C517782 | Hypercortisolism | MESH:D000308 | 9 | 11 |
 | [DB08889_MESH_D009101_1](db08889-mesh-d009101-1.html) | carfilzomib | DB:DB08889 | MESH:C524865, MESH:C519125 | Multiple myeloma | MESH:D009101 | 11 | 15 |
 | [DB08899_MESH_D011471_1](db08899-mesh-d011471-1.html) | enzalutamide | DB:DB08899 | MESH:C540278 | Malignant tumor of prostate | MESH:D011471 | 7 | 6 |
-| [DB00945_MESH_D009203_1](db00945-mesh-d009203-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Myocardial infarction | MESH:D009203 | 8 | 8 |
-| [DB00945_MESH_D010146_2](db00945-mesh-d010146-2.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Pain | MESH:D010146 | 5 | 5 |
-| [DB00945_MESH_D003139_1](db00945-mesh-d003139-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Common cold | MESH:D003139 | 6 | 6 |
-| [DB00945_MESH_D014098_1](db00945-mesh-d014098-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Toothache | MESH:D014098 | 6 | 6 |
-| [DB00945_MESH_D020773_1](db00945-mesh-d020773-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Headache | MESH:D020773 | 6 | 6 |
-| [DB00945_MESH_D008881_1](db00945-mesh-d008881-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Migraine | MESH:D008881 | 6 | 6 |
-| [DB00945_MESH_D001416_1](db00945-mesh-d001416-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Backache | MESH:D001416 | 6 | 6 |
-| [DB00945_MESH_D010003_1](db00945-mesh-d010003-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Osteoarthritis | MESH:D010003 | 6 | 6 |
-| [DB00945_MESH_D001172_1](db00945-mesh-d001172-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Rheumatoid arthritis | MESH:D001172 | 6 | 6 |
-| [DB00945_MESH_D018771_1](db00945-mesh-d018771-1.html) | Acetylsalicylic acid | DB:DB00945 | MESH:D001241 | Joint pain | MESH:D018771 | 6 | 6 |
-| [DB00158_MESH_D001361_1](db00158-mesh-d001361-1.html) | Folic acid | DB:DB00158 | MESH:D005492 | Vitamin deficiency | MESH:D001361 | 3 | 2 |
-| [DB00158_MESH_D005494_1](db00158-mesh-d005494-1.html) | Folic acid | DB:DB00158 | MESH:D005492 | Folic acid deficiency | MESH:D005494 | 5 | 4 |
-| [DB00158_MESH_D018798_1](db00158-mesh-d018798-1.html) | Folic acid | DB:DB00158 | MESH:D005492 | Iron deficiency anemia | MESH:D018798 | 6 | 5 |
-| [DB00049_MESH_D033461_1](db00049-mesh-d033461-1.html) | Rasburicase | DB:DB00049 | MESH:C469709 | Hyperuricemia | MESH:D033461 | 3 | 2 |
-| [DB00352_MESH_D015470_1](db00352-mesh-d015470-1.html) | Thioguanine | DB:DB00352 | MESH:D013866 | Acute myeloid leukemia | MESH:D015470 | 11 | 15 |
-| [DB06768_MESH_D003877_1](db06768-mesh-d003877-1.html) | Ammonium lactate | DB:DB06768 | None | Contact dermatitis | MESH:D003877 | 5 | 4 |
-| [DB06768_MESH_D011537_1](db06768-mesh-d011537-1.html) | Ammonium lactate | DB:DB06768 | None | Itching of skin | MESH:D011537 | 5 | 4 |
-| [DB06768_MESH_D011538_1](db06768-mesh-d011538-1.html) | Ammonium lactate | DB:DB06768 | None | Pruritus ani | MESH:D011538 | 5 | 4 |
-| [DB06768_MESH_D005076_1](db06768-mesh-d005076-1.html) | Ammonium lactate | DB:DB06768 | None | Eruption of skin | MESH:D005076 | 5 | 4 |
-| [DB06768_MESH_D003876_1](db06768-mesh-d003876-1.html) | Ammonium lactate | DB:DB06768 | None | Atopic dermatitis | MESH:D003876 | 5 | 4 |
-| [DB06768_MESH_D012628_1](db06768-mesh-d012628-1.html) | Ammonium lactate | DB:DB06768 | None | Seborrheic dermatitis | MESH:D012628 | 5 | 4 |
-| [DB06768_MESH_D016460_1](db06768-mesh-d016460-1.html) | Ammonium lactate | DB:DB06768 | None | Granuloma annulare | MESH:D016460 | 5 | 4 |
+| [DB00945_MESH_D009203_1](db00945-mesh-d009203-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Myocardial Infarction | MESH:D009203 | 8 | 8 |
+| [DB00945_MESH_D003139_1](db00945-mesh-d003139-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Common Cold | MESH:D003139 | 7 | 7 |
+| [DB00945_MESH_D014098_1](db00945-mesh-d014098-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Toothache | MESH:D014098 | 8 | 8 |
+| [DB00945_MESH_D020773_1](db00945-mesh-d020773-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Headache Disorders | MESH:D020773 | 8 | 8 |
+| [DB00945_MESH_D008881_1](db00945-mesh-d008881-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Migraine Disorders | MESH:D008881 | 8 | 8 |
+| [DB00945_MESH_D001416_1](db00945-mesh-d001416-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Back Pain | MESH:D001416 | 7 | 7 |
+| [DB00945_MESH_D010003_1](db00945-mesh-d010003-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Osteoarthritis | MESH:D010003 | 7 | 7 |
+| [DB00945_MESH_D001172_1](db00945-mesh-d001172-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Arthritis, Rheumatoid | MESH:D001172 | 7 | 7 |
+| [DB00945_MESH_D018771_1](db00945-mesh-d018771-1.html) | Aspirin | DB:DB00945 | MESH:D001241 | Arthralgia | MESH:D018771 | 8 | 8 |
+| [DB00158_MESH_D001361_1](db00158-mesh-d001361-1.html) | Folic Acid | DB:DB00158 | MESH:D005492 | Avitaminosis | MESH:D001361 | 4 | 3 |
+| [DB00158_MESH_D005494_1](db00158-mesh-d005494-1.html) | Folic Acid | DB:DB00158 | MESH:D005492 | Folic Acid Deficiency | MESH:D005494 | 4 | 3 |
+| [DB00158_MESH_D018798_1](db00158-mesh-d018798-1.html) | Folic Acid | DB:DB00158 | MESH:D005492 | Anemia, Iron-Deficiency | MESH:D018798 | 6 | 5 |
+| [DB00049_MESH_D033461_1](db00049-mesh-d033461-1.html) | rasburicase | DB:DB00049 | MESH:C469709 | Hyperuricemia | MESH:D033461 | 4 | 3 |
+| [DB00352_MESH_D015470_1](db00352-mesh-d015470-1.html) | Thioguanine | DB:DB00352 | MESH:D013866 | Leukemia, Myeloid, Acute | MESH:D015470 | 10 | 12 |
+| [DB06768_MESH_D003877_1](db06768-mesh-d003877-1.html) | Ammonium lactate | DB:DB06768 | MESH:null | Dermatitis, Contact | MESH:D003877 | 5 | 4 |
+| [DB06768_MESH_D011537_1](db06768-mesh-d011537-1.html) | Ammonium lactate | DB:DB06768 | MESH:null | Pruritus | MESH:D011537 | 5 | 4 |
+| [DB06768_MESH_D011538_1](db06768-mesh-d011538-1.html) | Ammonium lactate | DB:DB06768 | MESH:null | Pruritus Ani | MESH:D011538 | 6 | 5 |
+| [DB06768_MESH_D005076_1](db06768-mesh-d005076-1.html) | Ammonium lactate | DB:DB06768 | MESH:null | Exanthema | MESH:D005076 | 5 | 4 |
+| [DB06768_MESH_D003876_1](db06768-mesh-d003876-1.html) | Ammonium lactate | DB:DB06768 | MESH:null | Dermatitis, Atopic | MESH:D003876 | 5 | 4 |
+| [DB06768_MESH_D012628_1](db06768-mesh-d012628-1.html) | Ammonium lactate | DB:DB06768 | MESH:null | Dermatitis, Seborrheic | MESH:D012628 | 5 | 4 |
+| [DB06768_MESH_D016460_1](db06768-mesh-d016460-1.html) | Ammonium lactate | DB:DB06768 | MESH:null | Granuloma Annulare | MESH:D016460 | 5 | 4 |
 | [DB00610_MESH_D007022_1](db00610-mesh-d007022-1.html) | metaraminol | DB:DB00610 | MESH:D008680 | Low blood pressure | MESH:D007022 | 5 | 5 |
 | [DB00634_MESH_D015863_1](db00634-mesh-d015863-1.html) | sulfacetamide | DB:DB00634 | MESH:D013409 | Iridocyclitis | MESH:D015863 | 5 | 4 |
 | [DB00634_MESH_D012628_1](db00634-mesh-d012628-1.html) | sulfacetamide | DB:DB00634 | MESH:D013409 | Seborrheic dermatitis | MESH:D012628 | 5 | 4 |
@@ -1453,34 +1381,26 @@ datatable: true
 | [DB08908_MESH_D020529_1](db08908-mesh-d020529-1.html) | Dimethyl fumarate | DB:DB08908 | MESH:D000069462 | Relapsing remitting multiple sclerosis | MESH:D020529 | 4 | 3 |
 | [DB09303_MESH_D006937_1](db09303-mesh-d006937-1.html) | Evolocumab | DB:DB09303 | MESH:C577155 | Hypercholesterolemia | MESH:D006937 | 5 | 4 |
 | [DB12712_MESH_D013610_1](db12712-mesh-d013610-1.html) | Pilsicainide | DB:DB12712 | MESH:C042288 | Tachyarrhythmia | MESH:D013610 | 7 | 6 |
-| [DB00809_MESH_D015878_1](db00809-mesh-d015878-1.html) | Tropicamide | DB:DB00809 | MESH:D014331 | Dilated pupil | MESH:D015878 | 6 | 6 |
-| [DB00197_MESH_D003924_1](db00197-mesh-d003924-1.html) | Troglitazone | DB:DB00197 | None | Diabetes mellitus type 2 | MESH:D003924 | 8 | 8 |
-| [DB00197_MESH_D003924_2](db00197-mesh-d003924-2.html) | Troglitazone | DB:DB00197 | None | Diabetes mellitus type 2 | MESH:D003924 | 7 | 7 |
-| [DB00197_MESH_D003924_3](db00197-mesh-d003924-3.html) | Troglitazone | DB:DB00197 | None | Diabetes mellitus type 2 | MESH:D003924 | 8 | 8 |
-| [DB00469_MESH_D001168_1](db00469-mesh-d001168-1.html) | Tenoxicam | DB:DB00469 | MESH:C032801 | Arthritis | MESH:D001168 | 6 | 6 |
-| [DB00140_MESH_D001361_1](db00140-mesh-d001361-1.html) | Riboflavin | DB:DB00140 | MESH:D012256 | Vitamin deficiency | MESH:D001361 | 8 | 8 |
-| [DB06287_MESH_D020522_1](db06287-mesh-d020522-1.html) | Temsirolimus | DB:DB06287 | MESH:C401859 | Mantle cell lymphoma | MESH:D020522 | 7 | 6 |
-| [DB06287_MESH_D002292_1](db06287-mesh-d002292-1.html) | Temsirolimus | DB:DB06287 | MESH:C401859 | Renal cell carcinoma | MESH:D002292 | 7 | 6 |
-| [DB05271_MESH_D010300_1](db05271-mesh-d010300-1.html) | Rotigotine | DB:DB05271 | MESH:C047508 | Parkinson's disease | MESH:D010300 | 11 | 16 |
-| [DB05271_MESH_D012148_1](db05271-mesh-d012148-1.html) | Rotigotine | DB:DB05271 | MESH:C047508 | Restless legs | MESH:D012148 | 11 | 16 |
-| [DB01150_MESH_D001991_2](db01150-mesh-d001991-2.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Bronchitis | MESH:D001991 | 8 | 8 |
-| [DB01150_MESH_D012141_2](db01150-mesh-d012141-2.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Upper respiratory infection | MESH:D012141 | 8 | 8 |
-| [DB01150_MESH_D013290_2](db01150-mesh-d013290-2.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Streptococcus pyogenes infection | MESH:D013290 | 8 | 8 |
-| [DB01150_MESH_D014069_2](db01150-mesh-d014069-2.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Tonsillitis | MESH:D014069 | 8 | 8 |
-| [DB01150_MESH_D013203_2](db01150-mesh-d013203-2.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Infection due to Staphylococcus aureus | MESH:D013203 | 8 | 8 |
-| [DB01150_MESH_D001991_3](db01150-mesh-d001991-3.html) | Cefprozil | DB:DB01150 | MESH:C052018 | Bronchitis | MESH:D001991 | 8 | 8 |
-| [DB00355_MESH_D014552_1](db00355-mesh-d014552-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Urinary tract infectious disease | MESH:D014552 | 9 | 9 |
-| [DB00355_MESH_D004927_1](db00355-mesh-d004927-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Infection due to Escherichia coli | MESH:D004927 | 9 | 9 |
-| [DB00355_MESH_D004716_1](db00355-mesh-d004716-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Endometritis | MESH:D004716 | 9 | 9 |
-| [DB00355_MESH_D059413_1](db00355-mesh-d059413-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Infectious disease of abdomen | MESH:D059413 | 9 | 9 |
-| [DB00355_MESH_D004756_1](db00355-mesh-d004756-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Infection due to Enterobacteriaceae | MESH:D004756 | 9 | 9 |
-| [DB00355_MESH_D012226_1](db00355-mesh-d012226-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Rhinoscleroma | MESH:D012226 | 9 | 9 |
-| [DB00355_MESH_D016868_1](db00355-mesh-d016868-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Bacterial infection due to Serratia | MESH:D016868 | 9 | 9 |
-| [DB00625_MESH_D015658_1](db00625-mesh-d015658-1.html) | Efavirenz | DB:DB00625 | MESH:C098320 | Human immunodeficiency virus infection | MESH:D015658 | 5 | 4 |
-| [DB00883_MESH_D000787_1](db00883-mesh-d000787-1.html) | Isosorbide dinitrate | DB:DB00883 | MESH:D007548 | Angina pectoris | MESH:D000787 | 10 | 11 |
-| [DB01225_MESH_D020246_1](db01225-mesh-d020246-1.html) | Enoxaparin sodium | DB:DB01225 | MESH:D017984 | Deep venous thrombosis | MESH:D020246 | 7 | 7 |
-| [DB00022_MESH_D019698_1](db00022-mesh-d019698-1.html) | Peginterferon alfa-2b | DB:DB00022 | MESH:C417083 | Chronic hepatitis C | MESH:D019698 | 8 | 8 |
-| [DB06209_MESH_D054058_1](db06209-mesh-d054058-1.html) | Prasugrel | DB:DB06209 | MESH:D000068799 | Acute coronary syndrome | MESH:D054058 | 6 | 5 |
+| [DB00809_MESH_D015878_1](db00809-mesh-d015878-1.html) | Tropicamide | DB:DB00809 | MESH:D014331 | Mydriasis | MESH:D015878 | 4 | 3 |
+| [DB00197_MESH_D003924_2](db00197-mesh-d003924-2.html) | Troglitazone | DB:DB00197 | MESH:D000077288 | Diabetes Mellitus, Type 2 | MESH:D003924 | 8 | 7 |
+| [DB00469_MESH_D001168_1](db00469-mesh-d001168-1.html) | tenoxicam | DB:DB00469 | MESH:C032801 | Arthritis | MESH:D001168 | 8 | 8 |
+| [DB00140_MESH_D001361_1](db00140-mesh-d001361-1.html) | Riboflavin | DB:DB00140 | MESH:D012256 | Avitaminosis | MESH:D001361 | 6 | 5 |
+| [DB06287_MESH_D020522_1](db06287-mesh-d020522-1.html) | temsirolimus | DB:DB06287 | MESH:C401859 | Lymphoma, Mantle-Cell | MESH:D020522 | 6 | 5 |
+| [DB06287_MESH_D002292_1](db06287-mesh-d002292-1.html) | temsirolimus | DB:DB06287 | MESH:C401859 | Carcinoma, Renal Cell | MESH:D002292 | 6 | 5 |
+| [DB05271_MESH_D010300_1](db05271-mesh-d010300-1.html) | rotigotine | DB:DB05271 | MESH:C047508 | Parkinson Disease | MESH:D010300 | 10 | 14 |
+| [DB05271_MESH_D012148_1](db05271-mesh-d012148-1.html) | rotigotine | DB:DB05271 | MESH:C047508 | Restless Legs Syndrome | MESH:D012148 | 9 | 12 |
+| [DB00355_MESH_D014552_1](db00355-mesh-d014552-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB00355_MESH_D004927_1](db00355-mesh-d004927-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB00355_MESH_D004716_1](db00355-mesh-d004716-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Endometritis | MESH:D004716 | 6 | 5 |
+| [DB00355_MESH_D059413_1](db00355-mesh-d059413-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB00355_MESH_D004756_1](db00355-mesh-d004756-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB00355_MESH_D012226_1](db00355-mesh-d012226-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB00355_MESH_D016868_1](db00355-mesh-d016868-1.html) | Aztreonam | DB:DB00355 | MESH:D001398 | Serratia Infections | MESH:D016868 | 6 | 5 |
+| [DB00625_MESH_D015658_1](db00625-mesh-d015658-1.html) | efavirenz | DB:DB00625 | MESH:C098320 | HIV Infections | MESH:D015658 | 5 | 4 |
+| [DB00883_MESH_D000787_1](db00883-mesh-d000787-1.html) | Isosorbide Dinitrate | DB:DB00883 | MESH:D007548 | Angina Pectoris | MESH:D000787 | 8 | 7 |
+| [DB01225_MESH_D020246_1](db01225-mesh-d020246-1.html) | Enoxaparin | DB:DB01225 | MESH:D017984 | Venous Thrombosis | MESH:D020246 | 5 | 4 |
+| [DB00022_MESH_D019698_1](db00022-mesh-d019698-1.html) | peginterferon alfa-2b | DB:DB00022 | MESH:C417083 | Hepatitis C, Chronic | MESH:D019698 | 7 | 7 |
+| [DB06209_MESH_D054058_1](db06209-mesh-d054058-1.html) | Prasugrel Hydrochloride | DB:DB06209 | MESH:D000068799 | Acute Coronary Syndrome | MESH:D054058 | 6 | 6 |
 | [DB00291_MESH_D015451_1](db00291-mesh-d015451-1.html) | Chlorambucil | DB:DB00291 | MESH:D002699 | Chronic lymphoid leukemia, disease | MESH:D015451 | 6 | 6 |
 | [DB00291_MESH_D008224_1](db00291-mesh-d008224-1.html) | Chlorambucil | DB:DB00291 | MESH:D002699 | Follicular non-Hodgkin's lymphoma | MESH:D008224 | 6 | 6 |
 | [DB00291_MESH_D006689_1](db00291-mesh-d006689-1.html) | Chlorambucil | DB:DB00291 | MESH:D002699 | Hodgkin's disease | MESH:D006689 | 6 | 6 |
@@ -1541,23 +1461,23 @@ datatable: true
 | [DB11964_MESH_D005764_1](db11964-mesh-d005764-1.html) | ilaprazole | DB:DB11964 | MESH:C119615 | Gastroesophageal reflux disease | MESH:D005764 | 7 | 6 |
 | [DB12267_MESH_D002289_1](db12267-mesh-d002289-1.html) | brigatinib | DB:DB12267 | MESH:C000598580 | Non-small cell lung cancer | MESH:D002289 | 6 | 6 |
 | [DB12625_MESH_D003924_1](db12625-mesh-d003924-1.html) | evogliptin | DB:DB12625 | MESH:C557982 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 7 |
-| [DB00767_MESH_D020250_1](db00767-mesh-d020250-1.html) | Benzquinamide | DB:DB00767 | MESH:C100234 | Postoperative nausea and vomiting | MESH:D020250 | 4 | 4 |
-| [DB01140_MESH_D014069_1](db01140-mesh-d014069-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Tonsillitis | MESH:D014069 | 8 | 8 |
-| [DB01140_MESH_D013290_1](db01140-mesh-d013290-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Streptococcus pyogenes infection | MESH:D013290 | 8 | 8 |
-| [DB01140_MESH_D014552_1](db01140-mesh-d014552-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Urinary tract infectious disease | MESH:D014552 | 8 | 8 |
-| [DB01140_MESH_D013203_1](db01140-mesh-d013203-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Infection due to Staphylococcus aureus | MESH:D013203 | 8 | 8 |
-| [DB01309_MESH_D003920_1](db01309-mesh-d003920-1.html) | Insulin glulisine | DB:DB01309 | MESH:C479079 | Diabetes mellitus | MESH:D003920 | 9 | 10 |
-| [DB09080_MESH_D029424_1](db09080-mesh-d029424-1.html) | Olodaterol | DB:DB09080 | MESH:C549647 | Chronic obstructive lung disease | MESH:D029424 | 7 | 6 |
-| [DB13165_MESH_D009798_1](db13165-mesh-d009798-1.html) | Ripasudil | DB:DB13165 | MESH:C584679 | Ocular hypertension | MESH:D009798 | 4 | 3 |
-| [DB13165_MESH_D005901_1](db13165-mesh-d005901-1.html) | Ripasudil | DB:DB13165 | MESH:C584679 | Glaucoma | MESH:D005901 | 4 | 3 |
-| [DB05630_MESH_D007896_1](db05630-mesh-d007896-1.html) | Sodium stibogluconate | DB:DB05630 | MESH:D000967 | Leishmaniasis | MESH:D007896 | 9 | 11 |
-| [DB00342_MESH_D000080223_1](db00342-mesh-d000080223-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Chronic idiopathic urticaria | MESH:D000080223 | 5 | 4 |
-| [DB00342_MESH_D012223_1](db00342-mesh-d012223-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
-| [DB00342_MESH_D065631_1](db00342-mesh-d065631-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
+| [DB00767_MESH_D020250_1](db00767-mesh-d020250-1.html) | benzquinamide | DB:DB00767 | MESH:C100234 | Postoperative Nausea and Vomiting | MESH:D020250 | 4 | 3 |
+| [DB01140_MESH_D014069_1](db01140-mesh-d014069-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Tonsillitis | MESH:D014069 | 6 | 5 |
+| [DB01140_MESH_D013290_1](db01140-mesh-d013290-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB01140_MESH_D014552_1](db01140-mesh-d014552-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB01140_MESH_D013203_1](db01140-mesh-d013203-1.html) | Cefadroxil | DB:DB01140 | MESH:D002434 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB01309_MESH_D003920_1](db01309-mesh-d003920-1.html) | insulin glulisine | DB:DB01309 | MESH:C479079 | Diabetes Mellitus | MESH:D003920 | 8 | 7 |
+| [DB09080_MESH_D029424_1](db09080-mesh-d029424-1.html) | olodaterol | DB:DB09080 | MESH:C549647 | Pulmonary Disease, Chronic Obstructive | MESH:D029424 | 7 | 6 |
+| [DB13165_MESH_D009798_1](db13165-mesh-d009798-1.html) | K-115 | DB:DB13165 | MESH:C584679 | Ocular Hypertension | MESH:D009798 | 7 | 7 |
+| [DB13165_MESH_D005901_1](db13165-mesh-d005901-1.html) | K-115 | DB:DB13165 | MESH:C584679 | Glaucoma | MESH:D005901 | 8 | 8 |
+| [DB05630_MESH_D007896_1](db05630-mesh-d007896-1.html) | Antimony Sodium Gluconate | DB:DB05630 | MESH:D000967 | Leishmaniasis | MESH:D007896 | 8 | 10 |
+| [DB00342_MESH_D000080223_1](db00342-mesh-d000080223-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Chronic Urticaria | MESH:D000080223 | 5 | 4 |
+| [DB00342_MESH_D012223_1](db00342-mesh-d012223-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Rhinitis, Vasomotor | MESH:D012223 | 6 | 5 |
+| [DB00342_MESH_D065631_1](db00342-mesh-d065631-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Rhinitis, Allergic | MESH:D065631 | 6 | 5 |
 | [DB00342_MESH_D012912_1](db00342-mesh-d012912-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Sneezing | MESH:D012912 | 5 | 4 |
-| [DB00342_MESH_D006255_1](db00342-mesh-d006255-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Seasonal allergic rhinitis | MESH:D006255 | 5 | 4 |
-| [DB00342_MESH_D003139_1](db00342-mesh-d003139-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Common cold | MESH:D003139 | 5 | 4 |
-| [DB00342_MESH_D003233_1](db00342-mesh-d003233-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
+| [DB00342_MESH_D006255_1](db00342-mesh-d006255-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 6 | 5 |
+| [DB00342_MESH_D003139_1](db00342-mesh-d003139-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Common Cold | MESH:D003139 | 6 | 5 |
+| [DB00342_MESH_D003233_1](db00342-mesh-d003233-1.html) | Terfenadine | DB:DB00342 | MESH:D016593 | Conjunctivitis, Allergic | MESH:D003233 | 6 | 5 |
 | [DB00288_MESH_D016460_1](db00288-mesh-d016460-1.html) | Amcinonide | DB:DB00288 | MESH:C012716 | Granuloma annulare | MESH:D016460 | 8 | 8 |
 | [DB00288_MESH_D003877_1](db00288-mesh-d003877-1.html) | Amcinonide | DB:DB00288 | MESH:C012716 | Contact dermatitis | MESH:D003877 | 8 | 8 |
 | [DB00288_MESH_D011538_1](db00288-mesh-d011538-1.html) | Amcinonide | DB:DB00288 | MESH:C012716 | Pruritus ani | MESH:D011538 | 9 | 9 |
@@ -1596,8 +1516,8 @@ datatable: true
 | [DB01057_MESH_D005902_1](db01057-mesh-d005902-1.html) | Echothiophate Iodide | DB:DB01057 | MESH:D004456 | Glaucoma, Open-Angle | MESH:D005902 | 10 | 10 |
 | [DB01057_MESH_D005901_1](db01057-mesh-d005901-1.html) | Echothiophate Iodide | DB:DB01057 | MESH:D004456 | Glaucoma | MESH:D005901 | 10 | 10 |
 | [DB01057_MESH_D000080362_1](db01057-mesh-d000080362-1.html) | Echothiophate Iodide | DB:DB01057 | MESH:D004456 | Stargardt's disease | MESH:D000080362 | 9 | 9 |
-| [DB00703_MESH_D015812_1](db00703-mesh-d015812-1.html) | methazolamide | DB:DB00703 | MESH:D004005 | Angle-closure glaucoma | MESH:D015812 | 10 | 13 |
-| [DB00703_MESH_D005902_1](db00703-mesh-d005902-1.html) | methazolamide | DB:DB00703 | MESH:D004005 | Open-angle glaucoma | MESH:D005902 | 10 | 13 |
+| [DB00703_MESH_D015812_1](db00703-mesh-d015812-1.html) | Methazolamide | DB:DB00703 | MESH:D008704 | Glaucoma, Angle-Closure | MESH:D015812 | 10 | 13 |
+| [DB00703_MESH_D005902_1](db00703-mesh-d005902-1.html) | Methazolamide | DB:DB00703 | MESH:D008704 | Glaucoma, Open-Angle | MESH:D005902 | 10 | 13 |
 | [DB00653_MESH_D003248_1](db00653-mesh-d003248-1.html) | magnesium sulfate | DB:DB00653 | MESH:D008278 | Constipation | MESH:D003248 | 7 | 8 |
 | [DB00061_MESH_C531816_1](db00061-mesh-c531816-1.html) | pegademase | DB:DB00061 | MESH:C051409 | Adenosine deaminase deficiency | MESH:C531816 | 5 | 4 |
 | [DB00169_MESH_D010024_1](db00169-mesh-d010024-1.html) | Colecalciferol | DB:DB00169 | MESH:D002762 | Osteoporosis | MESH:D010024 | 9 | 9 |
@@ -1624,35 +1544,33 @@ datatable: true
 | [DB06282_MESH_D065631_1](db06282-mesh-d065631-1.html) | Levocetirizine | DB:DB06282 | MESH:C472067 | Allergic rhinitis | MESH:D065631 | 7 | 6 |
 | [DB06282_MESH_D000080223_1](db06282-mesh-d000080223-1.html) | Levocetirizine | DB:DB06282 | MESH:C472067 | Chronic idiopathic urticaria | MESH:D000080223 | 8 | 9 |
 | [DB08820_MESH_D003550_1](db08820-mesh-d003550-1.html) | Ivacaftor | DB:DB08820 | MESH:C545203 | Cystic fibrosis of the lung | MESH:D003550 | 3 | 2 |
-| [DB08841_MESH_D006937_1](db08841-mesh-d006937-1.html) | Tyramine | DB:DB08841 | MESH:D014439 | Hypercholesterolemia | MESH:D006937 | 5 | 5 |
-| [DB08841_MESH_D006949_1](db08841-mesh-d006949-1.html) | Tyramine | DB:DB08841 | MESH:D014439 | Hyperlipidemia | MESH:D006949 | 5 | 5 |
-| [DB01586_MESH_D002769_1](db01586-mesh-d002769-1.html) | Ursodiol | DB:DB01586 | MESH:D014580 | Calculus in biliary tract | MESH:D002769 | 5 | 5 |
-| [DB01586_MESH_D008105_1](db01586-mesh-d008105-1.html) | Ursodiol | DB:DB01586 | MESH:D014580 | Primary biliary cirrhosis | MESH:D008105 | 4 | 3 |
-| [DB12017_MESH_D020301_1](db12017-mesh-d020301-1.html) | Ozagrel | DB:DB12017 | MESH:C034364 | Spasm of cerebral arteries | MESH:D020301 | 6 | 5 |
-| [DB12017_MESH_D001249_1](db12017-mesh-d001249-1.html) | Ozagrel | DB:DB12017 | MESH:C034364 | Asthma | MESH:D001249 | 5 | 4 |
-| [DB03793_MESH_D022124_1](db03793-mesh-d022124-1.html) | Benzoic acid | DB:DB03793 | MESH:D019817 | Hyperammonemia | MESH:D022124 | 5 | 4 |
-| [DB03793_MESH_D012594_1](db03793-mesh-d012594-1.html) | Benzoic acid | DB:DB03793 | MESH:D019817 | Systemic sclerosis | MESH:D012594 | 2 | 1 |
+| [DB01586_MESH_D002769_1](db01586-mesh-d002769-1.html) | Ursodeoxycholic Acid | DB:DB01586 | MESH:D014580 | Cholelithiasis | MESH:D002769 | 7 | 7 |
+| [DB01586_MESH_D008105_1](db01586-mesh-d008105-1.html) | Ursodeoxycholic Acid | DB:DB01586 | MESH:D014580 | Liver Cirrhosis, Biliary | MESH:D008105 | 5 | 5 |
+| [DB12017_MESH_D020301_1](db12017-mesh-d020301-1.html) | ozagrel | DB:DB12017 | MESH:C034364 | Vasospasm, Intracranial | MESH:D020301 | 5 | 4 |
+| [DB12017_MESH_D001249_1](db12017-mesh-d001249-1.html) | ozagrel | DB:DB12017 | MESH:C034364 | Asthma | MESH:D001249 | 6 | 5 |
+| [DB03793_MESH_D022124_1](db03793-mesh-d022124-1.html) | Benzoic Acid | DB:DB03793 | MESH:D019817 | Hyperammonemia | MESH:D022124 | 6 | 5 |
+| [DB03793_MESH_D012594_1](db03793-mesh-d012594-1.html) | Benzoic Acid | DB:DB03793 | MESH:D019817 | Scleroderma, Localized | MESH:D012594 | 2 | 1 |
 | [DB03793_MESH_D003882_1](db03793-mesh-d003882-1.html) | Benzoic acid | DB:DB03793 | MESH:D019817 | Dermatomyositis | MESH:D003882 | 2 | 1 |
 | [DB03793_MESH_D010392_1](db03793-mesh-d010392-1.html) | Benzoic acid | DB:DB03793 | MESH:D019817 | Pemphigus | MESH:D010392 | 2 | 1 |
-| [DB03793_MESH_D010411_1](db03793-mesh-d010411-1.html) | Benzoic acid | DB:DB03793 | MESH:D019817 | Induratio penis plastica | MESH:D010411 | 2 | 1 |
-| [DB01058_MESH_D012552_1](db01058-mesh-d012552-1.html) | Praziquantel | DB:DB01058 | MESH:D011223 | Infection by Schistosoma | MESH:D012552 | 8 | 9 |
-| [DB01058_MESH_D009889_1](db01058-mesh-d009889-1.html) | Praziquantel | DB:DB01058 | MESH:D011223 | Opisthorchiasis | MESH:D009889 | 8 | 9 |
-| [DB01082_MESH_D014406_1](db01082-mesh-d014406-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Tularemia | MESH:D014406 | 5 | 4 |
-| [DB01082_MESH_D010930_1](db01082-mesh-d010930-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Plague | MESH:D010930 | 5 | 4 |
-| [DB01082_MESH_D002602_1](db01082-mesh-d002602-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Chancroid | MESH:D002602 | 5 | 4 |
-| [DB01082_MESH_D014397_1](db01082-mesh-d014397-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Pulmonary tuberculosis | MESH:D014397 | 5 | 4 |
-| [DB01082_MESH_D006100_1](db01082-mesh-d006100-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Granuloma inguinale | MESH:D006100 | 5 | 4 |
-| [DB01082_MESH_D002006_1](db01082-mesh-d002006-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Brucellosis | MESH:D002006 | 5 | 4 |
-| [DB00628_MESH_D001007_1](db00628-mesh-d001007-1.html) | Clorazepate | DB:DB00628 | MESH:D003009 | Anxiety | MESH:D001007 | 6 | 5 |
-| [DB01146_MESH_D012912_1](db01146-mesh-d012912-1.html) | Diphenylpyraline | DB:DB01146 | MESH:C009871 | Sneezing | MESH:D012912 | 5 | 4 |
-| [DB01146_MESH_D011537_1](db01146-mesh-d011537-1.html) | Diphenylpyraline | DB:DB01146 | MESH:C009871 | Itching of skin | MESH:D011537 | 5 | 4 |
-| [DB01146_MESH_D065631_1](db01146-mesh-d065631-1.html) | Diphenylpyraline | DB:DB01146 | MESH:C009871 | Allergic rhinitis | MESH:D065631 | 5 | 4 |
-| [DB01146_MESH_D003233_1](db01146-mesh-d003233-1.html) | Diphenylpyraline | DB:DB01146 | MESH:C009871 | Allergic conjunctivitis | MESH:D003233 | 5 | 4 |
-| [DB01146_MESH_D012223_1](db01146-mesh-d012223-1.html) | Diphenylpyraline | DB:DB01146 | MESH:C009871 | Vasomotor rhinitis | MESH:D012223 | 5 | 4 |
-| [DB01146_MESH_D014581_1](db01146-mesh-d014581-1.html) | Diphenylpyraline | DB:DB01146 | MESH:C009871 | Urticaria | MESH:D014581 | 5 | 4 |
-| [DB06766_MESH_D003233_1](db06766-mesh-d003233-1.html) | Alcaftadine | DB:DB06766 | MESH:C557708 | Allergic conjunctivitis | MESH:D003233 | 7 | 7 |
-| [DB09051_MESH_D009085_1](db09051-mesh-d009085-1.html) | Elosulfase alfa | DB:DB09051 | MESH:C102295 | Mucopolysaccharidosis, MPS-IV-A | MESH:D009085 | 5 | 4 |
-| [DB11992_MESH_D003924_1](db11992-mesh-d003924-1.html) | Omarigliptin | DB:DB11992 | MESH:C587539 | Diabetes mellitus type 2 | MESH:D003924 | 9 | 10 |
+| [DB03793_MESH_D010411_1](db03793-mesh-d010411-1.html) | Benzoic Acid | DB:DB03793 | MESH:D019817 | Penile Induration | MESH:D010411 | 2 | 1 |
+| [DB01058_MESH_D012552_1](db01058-mesh-d012552-1.html) | Praziquantel | DB:DB01058 | MESH:D011223 | Schistosomiasis | MESH:D012552 | 7 | 6 |
+| [DB01058_MESH_D009889_1](db01058-mesh-d009889-1.html) | Praziquantel | DB:DB01058 | MESH:D011223 | Opisthorchiasis | MESH:D009889 | 7 | 6 |
+| [DB01082_MESH_D014406_1](db01082-mesh-d014406-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Tularemia | MESH:D014406 | 8 | 8 |
+| [DB01082_MESH_D010930_1](db01082-mesh-d010930-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Plague | MESH:D010930 | 8 | 8 |
+| [DB01082_MESH_D002602_1](db01082-mesh-d002602-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Chancroid | MESH:D002602 | 8 | 8 |
+| [DB01082_MESH_D014397_1](db01082-mesh-d014397-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Tuberculosis, Pulmonary | MESH:D014397 | 8 | 8 |
+| [DB01082_MESH_D006100_1](db01082-mesh-d006100-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Granuloma Inguinale | MESH:D006100 | 8 | 8 |
+| [DB01082_MESH_D002006_1](db01082-mesh-d002006-1.html) | Streptomycin | DB:DB01082 | MESH:D013307 | Brucellosis | MESH:D002006 | 8 | 8 |
+| [DB00628_MESH_D001007_1](db00628-mesh-d001007-1.html) | Clorazepate Dipotassium | DB:DB00628 | MESH:D003009 | Anxiety | MESH:D001007 | 7 | 7 |
+| [DB01146_MESH_D012912_1](db01146-mesh-d012912-1.html) | diphenylpyraline | DB:DB01146 | MESH:C009871 | Sneezing | MESH:D012912 | 4 | 3 |
+| [DB01146_MESH_D011537_1](db01146-mesh-d011537-1.html) | diphenylpyraline | DB:DB01146 | MESH:C009871 | Pruritus | MESH:D011537 | 4 | 3 |
+| [DB01146_MESH_D065631_1](db01146-mesh-d065631-1.html) | diphenylpyraline | DB:DB01146 | MESH:C009871 | Rhinitis, Allergic | MESH:D065631 | 5 | 4 |
+| [DB01146_MESH_D003233_1](db01146-mesh-d003233-1.html) | diphenylpyraline | DB:DB01146 | MESH:C009871 | Conjunctivitis, Allergic | MESH:D003233 | 5 | 4 |
+| [DB01146_MESH_D012223_1](db01146-mesh-d012223-1.html) | diphenylpyraline | DB:DB01146 | MESH:C009871 | Rhinitis, Vasomotor | MESH:D012223 | 5 | 4 |
+| [DB01146_MESH_D014581_1](db01146-mesh-d014581-1.html) | diphenylpyraline | DB:DB01146 | MESH:C009871 | Urticaria | MESH:D014581 | 4 | 3 |
+| [DB06766_MESH_D003233_1](db06766-mesh-d003233-1.html) | alcaftadine | DB:DB06766 | MESH:C557708 | Conjunctivitis, Allergic | MESH:D003233 | 5 | 4 |
+| [DB09051_MESH_D009085_1](db09051-mesh-d009085-1.html) | GALNS protein, human | DB:DB09051 | MESH:C102295 | Mucopolysaccharidosis IV | MESH:D009085 | 5 | 4 |
+| [DB11992_MESH_D003924_1](db11992-mesh-d003924-1.html) | Omarigliptin | DB:DB11992 | MESH:C587539 | Diabetes Mellitus, Type 2 | MESH:D003924 | 7 | 7 |
 | [DB11783_MESH_D006973_1](db11783-mesh-d006973-1.html) | imidapril | DB:DB11783 | MESH:C065166 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
 | [DB09230_MESH_D006973_1](db09230-mesh-d006973-1.html) | azelnidipine | DB:DB09230 | MESH:C061679 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
 | [DB01093_MESH_D018856_1](db01093-mesh-d018856-1.html) | dimethyl sulfoxide | DB:DB01093 | MESH:D004121 | Cystitis, Interstitial | MESH:D018856 | 5 | 5 |
@@ -1716,27 +1634,27 @@ datatable: true
 | [DB01241_MESH_D015228_1](db01241-mesh-d015228-1.html) | gemfibrozil | DB:DB01241 | MESH:D015248 | Hypertriglyceridemia | MESH:D015228 | 6 | 5 |
 | [DB08860_MESH_D006937_1](db08860-mesh-d006937-1.html) | Pitavastatin | DB:DB08860 | MESH:C108475 | Hypercholesterolemia | MESH:D006937 | 5 | 4 |
 | [DB08860_MESH_D006950_1](db08860-mesh-d006950-1.html) | Pitavastatin | DB:DB08860 | MESH:C108475 | Mixed hyperlipidemia | MESH:D006950 | 5 | 4 |
-| [DB00718_MESH_D019694_1](db00718-mesh-d019694-1.html) | Adefovir dipivoxil | DB:DB00718 | MESH:C106812 | Chronic type B viral hepatitis | MESH:D019694 | 6 | 5 |
-| [DB00578_MESH_D011472_1](db00578-mesh-d011472-1.html) | Carbenicillin | DB:DB00578 | MESH:D002228 | Prostatitis | MESH:D011472 | 7 | 6 |
-| [DB00578_MESH_D014552_1](db00578-mesh-d014552-1.html) | Carbenicillin | DB:DB00578 | MESH:D002228 | Urinary tract infectious disease | MESH:D014552 | 7 | 6 |
-| [DB00381_MESH_D000788_1](db00381-mesh-d000788-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Prinzmetal angina | MESH:D000788 | 6 | 5 |
-| [DB00381_MESH_D006973_1](db00381-mesh-d006973-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Hypertensive disorder | MESH:D006973 | 7 | 6 |
-| [DB00381_MESH_D000787_1](db00381-mesh-d000787-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Angina pectoris | MESH:D000787 | 6 | 5 |
-| [DB00381_MESH_D020521_1](db00381-mesh-d020521-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Cerebrovascular accident | MESH:D020521 | 8 | 8 |
-| [DB00979_MESH_D015878_1](db00979-mesh-d015878-1.html) | Cyclopentolate | DB:DB00979 | MESH:D003519 | Dilated pupil | MESH:D015878 | 6 | 6 |
-| [DB01195_MESH_D001281_1](db01195-mesh-d001281-1.html) | Flecainide | DB:DB01195 | MESH:D005424 | Atrial fibrillation | MESH:D001281 | 12 | 13 |
-| [DB00047_MESH_D003922_1](db00047-mesh-d003922-1.html) | Insulin glargine | DB:DB00047 | MESH:D000069036 | Diabetes mellitus type 1 | MESH:D003922 | 9 | 10 |
-| [DB00047_MESH_D003924_1](db00047-mesh-d003924-1.html) | Insulin glargine | DB:DB00047 | MESH:D000069036 | Diabetes mellitus type 2 | MESH:D003924 | 9 | 10 |
-| [DB00334_MESH_D012559_1](db00334-mesh-d012559-1.html) | Olanzapine | DB:DB00334 | None | Schizophrenia | MESH:D012559 | 6 | 5 |
-| [DB00334_MESH_D003865_1](db00334-mesh-d003865-1.html) | Olanzapine | DB:DB00334 | None | Major depressive disorder | MESH:D003865 | 7 | 7 |
-| [DB00334_MESH_D001714_1](db00334-mesh-d001714-1.html) | Olanzapine | DB:DB00334 | None | Bipolar Disorder | MESH:D001714 | 7 | 7 |
-| [DB00571_MESH_D002312_1](db00571-mesh-d002312-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Hypertrophic cardiomyopathy | MESH:D002312 | 9 | 10 |
-| [DB00571_MESH_D000787_1](db00571-mesh-d000787-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Angina pectoris | MESH:D000787 | 9 | 10 |
-| [DB00571_MESH_D006973_1](db00571-mesh-d006973-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Hypertensive disorder | MESH:D006973 | 9 | 10 |
-| [DB00571_MESH_D006391_1](db00571-mesh-d006391-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Hemangioma | MESH:D006391 | 10 | 14 |
-| [DB00571_MESH_D001281_1](db00571-mesh-d001281-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Atrial fibrillation | MESH:D001281 | 10 | 11 |
-| [DB00571_MESH_D013617_1](db00571-mesh-d013617-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Supraventricular tachycardia | MESH:D013617 | 10 | 11 |
-| [DB12780_MESH_D000562_1](db12780-mesh-d000562-1.html) | Quinfamide | DB:DB12780 | MESH:C026546 | Amebic infection | MESH:D000562 | 2 | 1 |
+| [DB00718_MESH_D019694_1](db00718-mesh-d019694-1.html) | adefovir dipivoxil | DB:DB00718 | MESH:C106812 | Hepatitis B, Chronic | MESH:D019694 | 6 | 5 |
+| [DB00578_MESH_D011472_1](db00578-mesh-d011472-1.html) | Carbenicillin | DB:DB00578 | MESH:D002228 | Prostatitis | MESH:D011472 | 6 | 5 |
+| [DB00578_MESH_D014552_1](db00578-mesh-d014552-1.html) | Carbenicillin | DB:DB00578 | MESH:D002228 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB00381_MESH_D000788_1](db00381-mesh-d000788-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Angina Pectoris, Variant | MESH:D000788 | 6 | 6 |
+| [DB00381_MESH_D006973_1](db00381-mesh-d006973-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Hypertension | MESH:D006973 | 6 | 6 |
+| [DB00381_MESH_D000787_1](db00381-mesh-d000787-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Angina Pectoris | MESH:D000787 | 6 | 6 |
+| [DB00381_MESH_D020521_1](db00381-mesh-d020521-1.html) | Amlodipine | DB:DB00381 | MESH:D017311 | Stroke | MESH:D020521 | 7 | 7 |
+| [DB00979_MESH_D015878_1](db00979-mesh-d015878-1.html) | Cyclopentolate | DB:DB00979 | MESH:D003519 | Mydriasis | MESH:D015878 | 6 | 6 |
+| [DB01195_MESH_D001281_1](db01195-mesh-d001281-1.html) | Flecainide | DB:DB01195 | MESH:D005424 | Atrial Fibrillation | MESH:D001281 | 8 | 8 |
+| [DB00047_MESH_D003922_1](db00047-mesh-d003922-1.html) | Insulin Glargine | DB:DB00047 | MESH:D000069036 | Diabetes Mellitus, Type 1 | MESH:D003922 | 8 | 7 |
+| [DB00047_MESH_D003924_1](db00047-mesh-d003924-1.html) | Insulin Glargine | DB:DB00047 | MESH:D000069036 | Diabetes Mellitus, Type 2 | MESH:D003924 | 8 | 7 |
+| [DB00334_MESH_D012559_1](db00334-mesh-d012559-1.html) | Olanzapine | DB:DB00334 | MESH:D000077152 | Schizophrenia | MESH:D012559 | 5 | 4 |
+| [DB00334_MESH_D003865_1](db00334-mesh-d003865-1.html) | Olanzapine | DB:DB00334 | MESH:D000077152 | Depressive Disorder, Major | MESH:D003865 | 7 | 7 |
+| [DB00334_MESH_D001714_1](db00334-mesh-d001714-1.html) | Olanzapine | DB:DB00334 | MESH:D000077152 | Bipolar Disorder | MESH:D001714 | 7 | 7 |
+| [DB00571_MESH_D002312_1](db00571-mesh-d002312-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Cardiomyopathy, Hypertrophic | MESH:D002312 | 8 | 10 |
+| [DB00571_MESH_D000787_1](db00571-mesh-d000787-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Angina Pectoris | MESH:D000787 | 9 | 10 |
+| [DB00571_MESH_D006973_1](db00571-mesh-d006973-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Hypertension | MESH:D006973 | 8 | 9 |
+| [DB00571_MESH_D006391_1](db00571-mesh-d006391-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Hemangioma | MESH:D006391 | 6 | 6 |
+| [DB00571_MESH_D001281_1](db00571-mesh-d001281-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Atrial Fibrillation | MESH:D001281 | 9 | 10 |
+| [DB00571_MESH_D013617_1](db00571-mesh-d013617-1.html) | Propranolol | DB:DB00571 | MESH:D011433 | Tachycardia, Supraventricular | MESH:D013617 | 8 | 8 |
+| [DB12780_MESH_D000562_1](db12780-mesh-d000562-1.html) | quinfamide | DB:DB12780 | MESH:C026546 | Amebiasis | MESH:D000562 | 4 | 3 |
 | [DB00559_MESH_D012594_1](db00559-mesh-d012594-1.html) | bosentan | DB:DB00559 | MESH:C086232 | Systemic sclerosis | MESH:D012594 | 6 | 6 |
 | [DB00559_MESH_D006976_1](db00559-mesh-d006976-1.html) | bosentan | DB:DB00559 | MESH:C086232 | Pulmonary hypertension | MESH:D006976 | 5 | 5 |
 | [DB00559_MESH_D000081029_1](db00559-mesh-d000081029-1.html) | bosentan | DB:DB00559 | MESH:C086232 | Pulmonary arterial hypertension | MESH:D000081029 | 5 | 5 |
@@ -1901,8 +1819,8 @@ datatable: true
 | [DB00948_MESH_D011015_1](db00948-mesh-d011015-1.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Aspiration pneumonia | MESH:D011015 | 6 | 5 |
 | [DB00948_MESH_D016868_1](db00948-mesh-d016868-1.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Bacterial infection due to Serratia | MESH:D016868 | 6 | 5 |
 | [DB00948_MESH_D014552_1](db00948-mesh-d014552-1.html) | mezlocillin | DB:DB00948 | MESH:D008802 | Urinary tract infectious disease | MESH:D014552 | 6 | 5 |
-| [DB01194_MESH_D009798_1](db01194-mesh-d009798-1.html) | brinzolamide | DB:DB01194 | MESH:D004005 | Ocular hypertension | MESH:D009798 | 5 | 4 |
-| [DB01194_MESH_D005902_1](db01194-mesh-d005902-1.html) | brinzolamide | DB:DB01194 | MESH:D004005 | Open-angle glaucoma | MESH:D005902 | 6 | 5 |
+| [DB01194_MESH_D009798_1](db01194-mesh-d009798-1.html) | brinzolamide | DB:DB01194 | MESH:C111827 | Ocular Hypertension | MESH:D009798 | 5 | 4 |
+| [DB01194_MESH_D005902_1](db01194-mesh-d005902-1.html) | brinzolamide | DB:DB01194 | MESH:C111827 | Glaucoma, Open-Angle | MESH:D005902 | 6 | 5 |
 | [DB11820_MESH_D014355_1](db11820-mesh-d014355-1.html) | nifurtimox | DB:DB11820 | MESH:D009547 | Infection by Trypanosoma cruzi | MESH:D014355 | 5 | 4 |
 | [DB04830_MESH_D003924_1](db04830-mesh-d003924-1.html) | buformin | DB:DB04830 | MESH:D002026 | Diabetes mellitus type 2 | MESH:D003924 | 7 | 9 |
 | [DB00973_MESH_C537345_1](db00973-mesh-c537345-1.html) | ezetimibe | DB:DB00973 | MESH:D000069438 | Sitosterolemia | MESH:C537345 | 6 | 5 |
@@ -1937,30 +1855,24 @@ datatable: true
 | [DB12161_MESH_D000071057_1](db12161-mesh-d000071057-1.html) | deutetrabenazine | DB:DB12161 | MESH:C000609690 | Tardive dyskinesia | MESH:D000071057 | 7 | 6 |
 | [DB12161_MESH_D006816_1](db12161-mesh-d006816-1.html) | deutetrabenazine | DB:DB12161 | MESH:C000609690 | Huntington's chorea | MESH:D006816 | 7 | 6 |
 | [DB12930_MESH_D003866_1](db12930-mesh-d003866-1.html) | opipramol | DB:DB12930 | MESH:D009888 | Depressive disorder | MESH:D003866 | 4 | 3 |
-| [DB01063_MESH_D011618_1](db01063-mesh-d011618-1.html) | Acetophenazine | DB:DB01063 | MESH:C100162 | Psychotic disorder | MESH:D011618 | 7 | 7 |
+| [DB01063_MESH_D011618_1](db01063-mesh-d011618-1.html) | Acetophenazine | DB:DB01063 | MESH:C100162 | Psychotic disorder | MESH:D011618 | 5 | 4 |
 | [DB08874_MESH_D004761_1](db08874-mesh-d004761-1.html) | Fidaxomicin | DB:DB08874 | None | Pseudomembranous enterocolitis | MESH:D004761 | 5 | 4 |
 | [DB08874_MESH_D003015_1](db08874-mesh-d003015-1.html) | Fidaxomicin | DB:DB08874 | None | Clostridium difficile infection | MESH:D003015 | 5 | 4 |
-| [DB00014_MESH_D004715_1](db00014-mesh-d004715-1.html) | Goserelin | DB:DB00014 | MESH:D017273 | Endometriosis | MESH:D004715 | 7 | 7 |
-| [DB00068_MESH_D020529_1](db00068-mesh-d020529-1.html) | Interferon beta-1b | DB:DB00068 | MESH:D000068576 | Relapsing remitting multiple sclerosis | MESH:D020529 | 11 | 13 |
-| [DB14655_MESH_D001943_1](db14655-mesh-d001943-1.html) | Drostanolone propionate | DB:DB14655 | MESH:C007561 | Malignant tumor of breast | MESH:D001943 | 8 | 9 |
-| [DB00382_MESH_D000544_1](db00382-mesh-d000544-1.html) | Tacrine | DB:DB00382 | MESH:D013619 | Alzheimer's disease | MESH:D000544 | 5 | 4 |
-| [DB00592_MESH_D001196_1](db00592-mesh-d001196-1.html) | Piperazine | DB:DB00592 | None | Ascariasis | MESH:D001196 | 9 | 9 |
-| [DB00592_MESH_D017229_1](db00592-mesh-d017229-1.html) | Piperazine | DB:DB00592 | None | Enterobiasis | MESH:D017229 | 9 | 9 |
+| [DB00014_MESH_D004715_1](db00014-mesh-d004715-1.html) | Goserelin | DB:DB00014 | MESH:D017273 | Endometriosis | MESH:D004715 | 6 | 5 |
+| [DB00068_MESH_D020529_1](db00068-mesh-d020529-1.html) | Interferon beta-1b | DB:DB00068 | MESH:D000068576 | Relapsing remitting multiple sclerosis | MESH:D020529 | 8 | 14 |
+| [DB00382_MESH_D000544_1](db00382-mesh-d000544-1.html) | Tacrine | DB:DB00382 | MESH:D013619 | Alzheimer's disease | MESH:D000544 | 4 | 3 |
+| [DB00592_MESH_D001196_1](db00592-mesh-d001196-1.html) | Piperazine | DB:DB00592 | None | Ascariasis | MESH:D001196 | 5 | 4 |
+| [DB00592_MESH_D017229_1](db00592-mesh-d017229-1.html) | Piperazine | DB:DB00592 | None | Enterobiasis | MESH:D017229 | 5 | 4 |
 | [DB14655_MESH_D001943_2](db14655-mesh-d001943-2.html) | Drostanolone propionate | DB:DB14655 | MESH:C007561 | Breast Neoplasms | MESH:D001943 | 5 | 4 |
 | [DB00858_MESH_D001943_1](db00858-mesh-d001943-1.html) | Drostanolone | DB:DB00858 | MESH:C100263 | Breast Neoplasms | MESH:D001943 | 5 | 4 |
-| [DB04844_MESH_D006816_1](db04844-mesh-d006816-1.html) | Tetrabenazine | DB:DB04844 | MESH:D013747 | Huntington Disease | MESH:D006816 | 6 | 5 |
-| [DB07615_MESH_D001249_1](db07615-mesh-d001249-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Asthma | MESH:D001249 | 6 | 5 |
-| [DB07615_MESH_D001249_2](db07615-mesh-d001249-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Asthma | MESH:D001249 | 7 | 7 |
-| [DB07615_MESH_D065631_1](db07615-mesh-d065631-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
+| [DB04844_MESH_D006816_1](db04844-mesh-d006816-1.html) | Tetrabenazine | DB:DB04844 | MESH:D013747 | Huntington Disease | MESH:D006816 | 5 | 4 |
+| [DB07615_MESH_D001249_1](db07615-mesh-d001249-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Asthma | MESH:D001249 | 8 | 8 |
+| [DB07615_MESH_D065631_1](db07615-mesh-d065631-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Allergic rhinitis | MESH:D065631 | 8 | 8 |
 | [DB07615_MESH_D065631_2](db07615-mesh-d065631-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Allergic rhinitis | MESH:D065631 | 7 | 7 |
-| [DB07615_MESH_D003876_1](db07615-mesh-d003876-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Atopic dermatitis | MESH:D003876 | 6 | 5 |
+| [DB07615_MESH_D003876_1](db07615-mesh-d003876-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Atopic dermatitis | MESH:D003876 | 8 | 8 |
 | [DB07615_MESH_D003876_2](db07615-mesh-d003876-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Atopic dermatitis | MESH:D003876 | 7 | 7 |
-| [DB07615_MESH_D007627_1](db07615-mesh-d007627-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Keloid scar | MESH:D007627 | 6 | 5 |
-| [DB07615_MESH_D007627_2](db07615-mesh-d007627-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Keloid scar | MESH:D007627 | 7 | 7 |
-| [DB07615_MESH_D017439_1](db07615-mesh-d017439-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Hypertrophic scar | MESH:D017439 | 6 | 5 |
-| [DB07615_MESH_D017439_2](db07615-mesh-d017439-2.html) | Tranilast | DB:DB07615 | MESH:C012293 | Hypertrophic scar | MESH:D017439 | 7 | 7 |
-| [DB07615_MESH_D007627_3](db07615-mesh-d007627-3.html) | Tranilast | DB:DB07615 | MESH:C012293 | Keloid scar | MESH:D007627 | 6 | 5 |
-| [DB07615_MESH_D017439_3](db07615-mesh-d017439-3.html) | Tranilast | DB:DB07615 | MESH:C012293 | Hypertrophic scar | MESH:D017439 | 6 | 5 |
+| [DB07615_MESH_D007627_1](db07615-mesh-d007627-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Keloid scar | MESH:D007627 | 8 | 8 |
+| [DB07615_MESH_D017439_1](db07615-mesh-d017439-1.html) | Tranilast | DB:DB07615 | MESH:C012293 | Hypertrophic scar | MESH:D017439 | 8 | 8 |
 | [DB00701_MESH_D015658_1](db00701-mesh-d015658-1.html) | amprenavir | DB:DB00701 | MESH:C095108 | Human immunodeficiency virus infection | MESH:D015658 | 6 | 5 |
 | [DB00836_MESH_D003967_1](db00836-mesh-d003967-1.html) | loperamide | DB:DB00836 | MESH:D008139 | Diarrhea | MESH:D003967 | 7 | 6 |
 | [DB00957_MESH_D019584_1](db00957-mesh-d019584-1.html) | norgestimate | DB:DB00957 | MESH:C017576 | Menopausal flushing | MESH:D019584 | 6 | 6 |
@@ -2067,18 +1979,18 @@ datatable: true
 | [DB01744_MESH_D001416_1](db01744-mesh-d001416-1.html) | camphor | DB:DB01744 | MESH:D002164 | Backache | MESH:D001416 | 5 | 5 |
 | [DB06700_MESH_D003865_1](db06700-mesh-d003865-1.html) | desvenlafaxine | DB:DB06700 | MESH:D000069468 | Major depressive disorder | MESH:D003865 | 8 | 9 |
 | [DB00881_MESH_D006973_1](db00881-mesh-d006973-1.html) | quinapril | DB:DB00881 | MESH:D000077583 | Hypertensive disorder | MESH:D006973 | 8 | 8 |
-| [DB01432_MESH_D006949_1](db01432-mesh-d006949-1.html) | cholestyramine | DB:DB01432 | MESH:D002164 | Hyperlipidemia | MESH:D006949 | 4 | 3 |
-| [DB01432_MESH_D006937_1](db01432-mesh-d006937-1.html) | cholestyramine | DB:DB01432 | MESH:D002164 | Hypercholesterolemia | MESH:D006937 | 4 | 3 |
-| [DB00429_MESH_D006473_1](db00429-mesh-d006473-1.html) | carboprost | DB:DB00429 | MESH:D002164 | Postpartum hemorrhage | MESH:D006473 | 5 | 4 |
+| [DB01432_MESH_D006949_1](db01432-mesh-d006949-1.html) | Cholestyramine Resin | DB:DB01432 | MESH:D002792 | Hyperlipidemias | MESH:D006949 | 4 | 3 |
+| [DB01432_MESH_D006937_1](db01432-mesh-d006937-1.html) | Cholestyramine Resin | DB:DB01432 | MESH:D002792 | Hypercholesterolemia | MESH:D006937 | 4 | 3 |
+| [DB00429_MESH_D006473_1](db00429-mesh-d006473-1.html) | carboprost tromethamine | DB:DB00429 | MESH:C062843 | Postpartum Hemorrhage | MESH:D006473 | 5 | 4 |
 | [DB01602_MESH_D014552_1](db01602-mesh-d014552-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Urinary tract infectious disease | MESH:D014552 | 8 | 7 |
 | [DB01602_MESH_D012852_1](db01602-mesh-d012852-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Sinusitis | MESH:D012852 | 8 | 7 |
 | [DB01602_MESH_D006069_1](db01602-mesh-d006069-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Gonorrhea | MESH:D006069 | 8 | 7 |
 | [DB01602_MESH_D010612_1](db01602-mesh-d010612-1.html) | bacampicillin | DB:DB01602 | MESH:C011674 | Pharyngitis | MESH:D010612 | 8 | 7 |
 | [DB00844_MESH_D010146_1](db00844-mesh-d010146-1.html) | nalbuphine | DB:DB00844 | MESH:D009266 | Pain | MESH:D010146 | 10 | 11 |
 | [DB00844_MESH_D048949_1](db00844-mesh-d048949-1.html) | nalbuphine | DB:DB00844 | MESH:D009266 | Labor pain | MESH:D048949 | 10 | 11 |
-| [DB01075_MESH_D012223_1](db01075-mesh-d012223-1.html) | diphenhydramine | DB:DB01075 | MESH:D009266 | Vasomotor rhinitis | MESH:D012223 | 6 | 5 |
-| [DB01075_MESH_D006255_1](db01075-mesh-d006255-1.html) | diphenhydramine | DB:DB01075 | MESH:D009266 | Seasonal allergic rhinitis | MESH:D006255 | 6 | 5 |
-| [DB01075_MESH_D003233_1](db01075-mesh-d003233-1.html) | diphenhydramine | DB:DB01075 | MESH:D009266 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
+| [DB01075_MESH_D012223_1](db01075-mesh-d012223-1.html) | Diphenhydramine | DB:DB01075 | MESH:D004155 | Rhinitis, Vasomotor | MESH:D012223 | 6 | 5 |
+| [DB01075_MESH_D006255_1](db01075-mesh-d006255-1.html) | Diphenhydramine | DB:DB01075 | MESH:D004155 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 6 | 5 |
+| [DB01075_MESH_D003233_1](db01075-mesh-d003233-1.html) | Diphenhydramine | DB:DB01075 | MESH:D004155 | Conjunctivitis, Allergic | MESH:D003233 | 6 | 5 |
 | [DB01229_MESH_D005902_1](db01229-mesh-d005902-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Open-angle glaucoma | MESH:D005902 | 2 | 1 |
 | [DB01229_MESH_D010051_1](db01229-mesh-d010051-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Malignant tumor of ovary | MESH:D010051 | 8 | 8 |
 | [DB01229_MESH_D009798_1](db01229-mesh-d009798-1.html) | paclitaxel | DB:DB01229 | MESH:D017239,MESH:D000068196 | Ocular hypertension | MESH:D009798 | 2 | 1 |
@@ -2095,7 +2007,7 @@ datatable: true
 | [DB09082_MESH_D011656_1](db09082-mesh-d011656-1.html) | vilanterol | DB:DB09082 | MESH:C550468 | Pulmonary emphysema | MESH:D011656 | 8 | 7 |
 | [DB09082_MESH_D029481_1](db09082-mesh-d029481-1.html) | vilanterol | DB:DB09082 | MESH:C550468 | Chronic bronchitis | MESH:D029481 | 7 | 6 |
 | [DB09082_MESH_D001249_1](db09082-mesh-d001249-1.html) | vilanterol | DB:DB09082 | MESH:C550468 | Asthma | MESH:D001249 | 7 | 6 |
-| [DB00752_MESH_D003865_1](db00752-mesh-d003865-1.html) | Tranylcypromine | DB:DB00752 | MESH:D014191 | Major depressive disorder | MESH:D003865 | 6 | 7 |
+| [DB00752_MESH_D003865_1](db00752-mesh-d003865-1.html) | Tranylcypromine | DB:DB00752 | MESH:D014191 | Major depressive disorder | MESH:D003865 | 7 | 9 |
 | [DB06151_MESH_D003550_1](db06151-mesh-d003550-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Cystic Fibrosis | MESH:D003550 | 4 | 3 |
 | [DB06151_MESH_D001991_1](db06151-mesh-d001991-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchitis | MESH:D001991 | 4 | 3 |
 | [DB06151_MESH_D001987_1](db06151-mesh-d001987-1.html) | Acetylcysteine | DB:DB06151 | MESH:D000111 | Bronchiectasis | MESH:D001987 | 4 | 4 |
@@ -2139,7 +2051,7 @@ datatable: true
 | [DB04896_MESH_D005356_1](db04896-mesh-d005356-1.html) | milnacipran | DB:DB04896 | MESH:C048107 | Fibromyalgia | MESH:D005356 | 11 | 11 |
 | [DB06413_MESH_D009290_1](db06413-mesh-d009290-1.html) | armodafinil | DB:DB06413 | MESH:C579652 | Narcolepsy | MESH:D009290 | 6 | 5 |
 | [DB09263_MESH_D006947_1](db09263-mesh-d006947-1.html) | patiromer calcium | DB:DB09263 | MESH:C568789 | Hyperkalemia | MESH:D006947 | 3 | 2 |
-| [DB06723_MESH_D004415_1](db06723-mesh-d004415-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Indigestion | MESH:D004415 | 4 | 3 |
+| [DB06723_MESH_D004415_1](db06723-mesh-d004415-1.html) | Aluminum Hydroxide | DB:DB06723 | MESH:D000536 | Dyspepsia | MESH:D004415 | 4 | 3 |
 | [DB06723_MESH_D010437_1](db06723-mesh-d010437-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Peptic ulcer | MESH:D010437 | 4 | 3 |
 | [DB06723_MESH_D004381_1](db06723-mesh-d004381-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Duodenal ulcer disease | MESH:D004381 | 4 | 3 |
 | [DB06723_MESH_D006356_1](db06723-mesh-d006356-1.html) | Aluminum hydroxide | DB:DB06723 | MESH:D000536 | Heartburn | MESH:D006356 | 3 | 2 |
@@ -2412,13 +2324,12 @@ datatable: true
 | [DB03209_MESH_D013274_2](db03209-mesh-d013274-2.html) | Oteracil | DB:DB03209 | MESH:D010094 | Stomach neoplasms | MESH:D013274 | 6 | 5 |
 | [DB01185_MESH_D011628_3](db01185-mesh-d011628-3.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Delayed puberty | MESH:D011628 | 5 | 4 |
 | [DB01185_MESH_D007713_3](db01185-mesh-d007713-3.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Klinefelter Syndrome | MESH:D007713 | 5 | 4 |
-| [DB01185_MESH_D003456_3](db01185-mesh-d003456-3.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Cryptorchidism | MESH:D003456 | 6 | 5 |
+| [DB01185_MESH_D003456_3](db01185-mesh-d003456-3.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Cryptorchidism | MESH:D003456 | 5 | 4 |
 | [DB01185_MESH_D005058_3](db01185-mesh-d005058-3.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Eunuchism | MESH:D005058 | 5 | 4 |
-| [DB01185_MESH_D009224_2](db01185-mesh-d009224-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Myotonia Congenita | MESH:D009224 | 2 | 1 |
 | [DB00905_MESH_D005902_2](db00905-mesh-d005902-2.html) | Bimatoprost | DB:DB00905 | MESH:D000069580 | Open-angle glaucoma | MESH:D005902 | 5 | 4 |
 | [DB00905_MESH_D009798_2](db00905-mesh-d009798-2.html) | Bimatoprost | DB:DB00905 | MESH:D000069580 | Ocular hypertension | MESH:D009798 | 4 | 3 |
-| [DB00687_MESH_D000224_2](db00687-mesh-d000224-2.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Addison disease | MESH:D000224 | 11 | 12 |
-| [DB00687_MESH_D000312_2](db00687-mesh-d000312-2.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Congenital adrenal hyperplasia | MESH:D000312 | 11 | 12 |
+| [DB00687_MESH_D000224_2](db00687-mesh-d000224-2.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Addison disease | MESH:D000224 | 12 | 13 |
+| [DB00687_MESH_D000312_2](db00687-mesh-d000312-2.html) | Fludrocortisone acetate | DB:DB00687 | MESH:C034635 | Congenital adrenal hyperplasia | MESH:D000312 | 5 | 4 |
 | [DB01021_MESH_D006973_4](db01021-mesh-d006973-4.html) | Trichlormethiazide | DB:DB01021 | MESH:D014237 | Hypertension | MESH:D006973 | 5 | 4 |
 | [DB00056_MESH_D015470_3](db00056-mesh-d015470-3.html) | Gemtuzumab ozogamicin | DB:DB00056 | MESH:D000079982 | Acute myeloid leukemia, disease | MESH:D015470 | 6 | 6 |
 | [DB01185_MESH_D009634_2](db01185-mesh-d009634-2.html) | Fluoxymesterone | DB:DB01185 | MESH:D005474 | Noonan syndrome | MESH:D009634 | 5 | 4 |
@@ -2479,7 +2390,7 @@ datatable: true
 | [DB01438_MESH_D053159_1](db01438-mesh-d053159-1.html) | Phenazopyridine | DB:DB01438 | MESH:D010621 | Dysuria | MESH:D053159 | 5 | 4 |
 | [DB06643_MESH_D015663_1](db06643-mesh-d015663-1.html) | denosumab | DB:DB06643 | MESH:D000069448 | Postmenopausal osteoporosis | MESH:D015663 | 5 | 4 |
 | [DB06643_MESH_D010024_1](db06643-mesh-d010024-1.html) | denosumab | DB:DB06643 | MESH:D000069448 | Osteoporosis | MESH:D010024 | 5 | 4 |
-| [DB08809_MESH_D014860_1](db08809-mesh-d014860-1.html) | dichloroacetic acid | DB:DB08809 | MESH:D003999 | Verruca | MESH:D014860 | 3 | 2 |
+| [DB08809_MESH_D014860_1](db08809-mesh-d014860-1.html) | Dichloroacetic Acid | DB:DB08809 | MESH:D003999 | Warts | MESH:D014860 | 4 | 3 |
 | [DB00963_MESH_D010146_1](db00963-mesh-d010146-1.html) | bromfenac | DB:DB00963 | MESH:C053083 | Pain | MESH:D010146 | 5 | 5 |
 | [DB00536_MESH_D015624_1](db00536-mesh-d015624-1.html) | guanidine | DB:DB00536 | MESH:D019791 | Eaton-Lambert syndrome | MESH:D015624 | 5 | 4 |
 | [DB09070_MESH_D015663_1](db09070-mesh-d015663-1.html) | tibolone | DB:DB09070 | MESH:C027385 | Postmenopausal osteoporosis | MESH:D015663 | 5 | 4 |
@@ -2517,7 +2428,7 @@ datatable: true
 | [DB00791_MESH_D011087_1](db00791-mesh-d011087-1.html) | uracil mustard | DB:DB00791 | MESH:D014499 | Polycythemia vera | MESH:D011087 | 7 | 7 |
 | [DB00791_MESH_D008228_1](db00791-mesh-d008228-1.html) | uracil mustard | DB:DB00791 | MESH:D014499 | Non-Hodgkin's lymphoma | MESH:D008228 | 7 | 7 |
 | [DB00791_MESH_D015464_1](db00791-mesh-d015464-1.html) | uracil mustard | DB:DB00791 | MESH:D014499 | Chronic myeloid leukemia | MESH:D015464 | 7 | 7 |
-| [DB00934_MESH_D003866_1](db00934-mesh-d003866-1.html) | maprotiline | DB:DB00934 | MESH:C033781 | Depressive disorder | MESH:D003866 | 6 | 5 |
+| [DB00934_MESH_D003866_1](db00934-mesh-d003866-1.html) | Maprotiline | DB:DB00934 | MESH:D008376 | Depressive Disorder | MESH:D003866 | 6 | 5 |
 | [DB08907_MESH_D003924_2](db08907-mesh-d003924-2.html) | dapagliflozin | DB:DB08907 | MESH:C529054 | Diabetes mellitus type 2 | MESH:D003924 | 6 | 5 |
 | [DB08932_MESH_D000081029_1](db08932-mesh-d000081029-1.html) | macitentan | DB:DB08932 | MESH:C533860 | Pulmonary arterial hypertension | MESH:D000081029 | 6 | 6 |
 | [DB06767_MESH_D003371_1](db06767-mesh-d003371-1.html) | ammonium chloride | DB:DB06767 | MESH:D000643 | Cough | MESH:D003371 | 5 | 4 |
@@ -2569,7 +2480,7 @@ datatable: true
 | [DB01283_MESH_D010003_1](db01283-mesh-d010003-1.html) | lumiracoxib | DB:DB01283 | MESH:C473384 | Osteoarthritis | MESH:D010003 | 7 | 7 |
 | [DB01599_MESH_D006937_1](db01599-mesh-d006937-1.html) | probucol | DB:DB01599 | MESH:D011341 | Hypercholesterolemia | MESH:D006937 | 6 | 6 |
 | [DB01599_MESH_D006949_1](db01599-mesh-d006949-1.html) | probucol | DB:DB01599 | MESH:D011341 | Hyperlipidemia | MESH:D006949 | 6 | 6 |
-| [DB05018_MESH_D000795_1](db05018-mesh-d000795-1.html) | migalastat | DB:DB05018 | MESH:C090092 | Fabry's disease | MESH:D000795 | 5 | 4 |
+| [DB05018_MESH_D000795_1](db05018-mesh-d000795-1.html) | migalastat | DB:DB05018 | MESH:C090092 | Fabry Disease | MESH:D000795 | 5 | 4 |
 | [DB09331_MESH_D009101_1](db09331-mesh-d009101-1.html) | daratumumab | DB:DB09331 | MESH:C556306 | Multiple myeloma | MESH:D009101 | 6 | 7 |
 | [DB12190_MESH_D012141_1](db12190-mesh-d012141-1.html) | faropenem | DB:DB12190 | MESH:C107057 | Respiratory tract infection | MESH:D012141 | 6 | 5 |
 | [DB12190_MESH_D017192_1](db12190-mesh-d017192-1.html) | faropenem | DB:DB12190 | MESH:C107057 | Bacterial infection of skin | MESH:D017192 | 6 | 5 |
@@ -2642,14 +2553,14 @@ datatable: true
 | [DB13163_MESH_D003371_1](db13163-mesh-d003371-1.html) | terpin | DB:DB13163 | MESH:C005804 | Cough | MESH:D003371 | 3 | 2 |
 | [DB00579_MESH_D009765_1](db00579-mesh-d009765-1.html) | Mazindol | DB:DB00579 | MESH:D008454 | Obesity | MESH:D009765 | 16 | 16 |
 | [DB00706_MESH_D011470_1](db00706-mesh-d011470-1.html) | tamsulosin | DB:DB00706 | MESH:C088482 | Benign prostatic hyperplasia | MESH:D011470 | 6 | 6 |
-| [DB00833_MESH_D014069_1](db00833-mesh-d014069-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Tonsillitis | MESH:D014069 | 7 | 7 |
-| [DB00833_MESH_D010612_1](db00833-mesh-d010612-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Pharyngitis | MESH:D010612 | 7 | 7 |
-| [DB00833_MESH_D012141_1](db00833-mesh-d012141-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Upper respiratory infection | MESH:D012141 | 7 | 7 |
-| [DB00833_MESH_D013290_1](db00833-mesh-d013290-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Streptococcus pyogenes infection | MESH:D013290 | 7 | 7 |
-| [DB00833_MESH_D014552_1](db00833-mesh-d014552-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Urinary tract infectious disease | MESH:D014552 | 7 | 7 |
-| [DB00833_MESH_D013203_1](db00833-mesh-d013203-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Staphylococcal infections | MESH:D013203 | 7 | 7 |
-| [DB00833_MESH_D011018_1](db00833-mesh-d011018-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Pneumonia due to Streptococcus | MESH:D011018 | 7 | 7 |
-| [DB00833_MESH_D011014_1](db00833-mesh-d011014-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Pneumonia | MESH:D011014 | 7 | 7 |
+| [DB00833_MESH_D014069_1](db00833-mesh-d014069-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Tonsillitis | MESH:D014069 | 5 | 4 |
+| [DB00833_MESH_D010612_1](db00833-mesh-d010612-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Pharyngitis | MESH:D010612 | 5 | 4 |
+| [DB00833_MESH_D012141_1](db00833-mesh-d012141-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Upper respiratory infection | MESH:D012141 | 5 | 4 |
+| [DB00833_MESH_D013290_1](db00833-mesh-d013290-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Streptococcus pyogenes infection | MESH:D013290 | 5 | 4 |
+| [DB00833_MESH_D014552_1](db00833-mesh-d014552-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Urinary tract infectious disease | MESH:D014552 | 5 | 4 |
+| [DB00833_MESH_D013203_1](db00833-mesh-d013203-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Staphylococcal infections | MESH:D013203 | 5 | 4 |
+| [DB00833_MESH_D011018_1](db00833-mesh-d011018-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Pneumonia due to Streptococcus | MESH:D011018 | 5 | 4 |
+| [DB00833_MESH_D011014_1](db00833-mesh-d011014-1.html) | Cefaclor | DB:DB00833 | MESH:D002433 | Pneumonia | MESH:D011014 | 5 | 4 |
 | [DB01197_MESH_D006973_1](db01197-mesh-d006973-1.html) | Captopril | DB:DB01197 | MESH:D002216 | Hypertensive disorder | MESH:D006973 | 8 | 8 |
 | [DB01197_MESH_D003928_1](db01197-mesh-d003928-1.html) | Captopril | DB:DB01197 | MESH:D002216 | Diabetic renal disease | MESH:D003928 | 9 | 9 |
 | [DB03904_MESH_D003877_1](db03904-mesh-d003877-1.html) | Carbamide | DB:DB03904 | MESH:D014508 | Contact dermatitis | MESH:D003877 | 4 | 3 |
@@ -2658,7 +2569,7 @@ datatable: true
 | [DB03904_MESH_D014010_1](db03904-mesh-d014010-1.html) | Carbamide | DB:DB03904 | MESH:D014508 | Pityriasis versicolor | MESH:D014010 | 4 | 3 |
 | [DB03904_MESH_D003876_1](db03904-mesh-d003876-1.html) | Carbamide | DB:DB03904 | MESH:D014508 | Atopic dermatitis | MESH:D003876 | 4 | 3 |
 | [DB05197_MESH_D013276_1](db05197-mesh-d013276-1.html) | sofalcone | DB:DB05197 | MESH:C035032 | Gastric ulcer | MESH:D013276 | 6 | 7 |
-| [DB09068_MESH_D003865_1](db09068-mesh-d003865-1.html) | vortioxetine | DB:DB09068 | MESH:C557874 | Major depressive disorder | MESH:D003865 | 7 | 7 |
+| [DB09068_MESH_D003865_1](db09068-mesh-d003865-1.html) | vortioxetine | DB:DB09068 | MESH:C557874 | Major depressive disorder | MESH:D003865 | 10 | 13 |
 | [DB09109_MESH_D006467_1](db09109-mesh-d006467-1.html) | Turoctocog alfa | DB:DB09109 | MESH:C577506 | Hemophilia A | MESH:D006467 | 7 | 6 |
 | [DB00505_MESH_D010437_1](db00505-mesh-d010437-1.html) | Tridihexethyl | DB:DB00505 | MESH:C005386 | Peptic ulcer | MESH:D010437 | 6 | 5 |
 | [DB00505_MESH_D013276_1](db00505-mesh-d013276-1.html) | Tridihexethyl | DB:DB00505 | MESH:C005386 | Gastric ulcer | MESH:D013276 | 6 | 5 |
@@ -3352,8 +3263,8 @@ datatable: true
 | [DB00359_MESH_D012883_1](db00359-mesh-d012883-1.html) | sulfadiazine | DB:DB00359 | MESH:D013411 | Skin ulcer | MESH:D012883 | 4 | 3 |
 | [DB01393_MESH_D006937_1](db01393-mesh-d006937-1.html) | bezafibrate | DB:DB01393 | MESH:D001629 | Hypercholesterolemia | MESH:D006937 | 8 | 15 |
 | [DB01393_MESH_D006949_1](db01393-mesh-d006949-1.html) | bezafibrate | DB:DB01393 | MESH:D001629 | Hyperlipidemia | MESH:D006949 | 9 | 16 |
-| [DB00784_MESH_D010146_1](db00784-mesh-d010146-1.html) | mefenamic acid | DB:DB00784 | MESH:D008528 | Pain | MESH:D010146 | 6 | 6 |
-| [DB00784_MESH_D004412_1](db00784-mesh-d004412-1.html) | mefenamic acid | DB:DB00784 | MESH:D008528 | Dysmenorrhea | MESH:D004412 | 7 | 7 |
+| [DB00784_MESH_D010146_1](db00784-mesh-d010146-1.html) | Mefenamic Acid | DB:DB00784 | MESH:D008528 | Pain | MESH:D010146 | 6 | 6 |
+| [DB00784_MESH_D004412_1](db00784-mesh-d004412-1.html) | Mefenamic Acid | DB:DB00784 | MESH:D008528 | Dysmenorrhea | MESH:D004412 | 6 | 6 |
 | [DB00312_MESH_D004827_1](db00312-mesh-d004827-1.html) | pentobarbital | DB:DB00312 | MESH:D010424 | Epilepsy | MESH:D004827 | 7 | 6 |
 | [DB00312_MESH_D013226_1](db00312-mesh-d013226-1.html) | pentobarbital | DB:DB00312 | MESH:D010424 | Status epilepticus | MESH:D013226 | 7 | 6 |
 | [DB00636_MESH_D006949_1](db00636-mesh-d006949-1.html) | clofibrate | DB:DB00636 | MESH:D002994 | Hyperlipidemia | MESH:D006949 | 7 | 8 |
@@ -3419,7 +3330,7 @@ datatable: true
 | [DB00719_MESH_D003233_1](db00719-mesh-d003233-1.html) | azatadine | DB:DB00719 | MESH:C006656 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
 | [DB00932_MESH_D015658_1](db00932-mesh-d015658-1.html) | tipranavir | DB:DB00932 | MESH:C107201 | Human immunodeficiency virus infection | MESH:D015658 | 7 | 7 |
 | [DB01349_MESH_D006973_1](db01349-mesh-d006973-1.html) | tasosartan | DB:DB01349 | MESH:C086167 | Hypertensive disorder | MESH:D006973 | 13 | 15 |
-| [DB03166_MESH_D010032_1](db03166-mesh-d010032-1.html) | acetic acid | DB:DB03166 | MESH:D019342 | Otitis externa | MESH:D010032 | 4 | 3 |
+| [DB03166_MESH_D010032_1](db03166-mesh-d010032-1.html) | Acetic Acid | DB:DB03166 | MESH:D019342 | Otitis Externa | MESH:D010032 | 4 | 3 |
 | [DB08913_MESH_D011471_1](db08913-mesh-d011471-1.html) | radium Ra 223 dichloride | DB:DB08913 | MESH:C581106 | Malignant tumor of prostate | MESH:D011471 | 6 | 5 |
 | [DB11591_MESH_D065631_1](db11591-mesh-d065631-1.html) | bilastine | DB:DB11591 | MESH:C445659 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
 | [DB11591_MESH_D014581_1](db11591-mesh-d014581-1.html) | bilastine | DB:DB11591 | MESH:C445659 | Urticaria | MESH:D014581 | 6 | 5 |
@@ -3559,14 +3470,13 @@ datatable: true
 | [DB00176_MESH_D000072861_1](db00176-mesh-d000072861-1.html) | fluvoxamine | DB:DB00176 | MESH:D016666 | Social phobia | MESH:D000072861 | 6 | 5 |
 | [DB00176_MESH_D009771_1](db00176-mesh-d009771-1.html) | fluvoxamine | DB:DB00176 | MESH:D016666 | Obsessive-compulsive disorder | MESH:D009771 | 6 | 5 |
 | [DB00251_MESH_D002181_1](db00251-mesh-d002181-1.html) | terconazole | DB:DB00251 | MESH:C037815 | Candidiasis, Vulvovaginal | MESH:D002181 | 8 | 7 |
-| [DB00316_MESH_D010146_2](db00316-mesh-d010146-2.html) | paracetamol | DB:DB00316 | MESH:D000082 | Pain | MESH:D010146 | 12 | 16 |
-| [DB00316_MESH_D018781_1](db00316-mesh-d018781-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Tension-type headache | MESH:D018781 | 12 | 16 |
-| [DB00316_MESH_D008881_1](db00316-mesh-d008881-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Migraine | MESH:D008881 | 12 | 16 |
-| [DB00316_MESH_D014098_1](db00316-mesh-d014098-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Toothache | MESH:D014098 | 12 | 16 |
-| [DB00316_MESH_D020773_1](db00316-mesh-d020773-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Headache disorder | MESH:D020773 | 12 | 16 |
-| [DB00316_MESH_D018771_1](db00316-mesh-d018771-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Joint pain | MESH:D018771 | 13 | 17 |
-| [DB00316_MESH_D003139_1](db00316-mesh-d003139-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Common cold | MESH:D003139 | 13 | 17 |
-| [DB00316_MESH_D065631_1](db00316-mesh-d065631-1.html) | paracetamol | DB:DB00316 | MESH:D000082 | Allergic rhinitis | MESH:D065631 | 13 | 17 |
+| [DB00316_MESH_D018781_1](db00316-mesh-d018781-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Tension-Type Headache | MESH:D018781 | 7 | 8 |
+| [DB00316_MESH_D008881_1](db00316-mesh-d008881-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Migraine Disorders | MESH:D008881 | 7 | 8 |
+| [DB00316_MESH_D014098_1](db00316-mesh-d014098-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Toothache | MESH:D014098 | 7 | 8 |
+| [DB00316_MESH_D020773_1](db00316-mesh-d020773-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Headache Disorders | MESH:D020773 | 7 | 8 |
+| [DB00316_MESH_D018771_1](db00316-mesh-d018771-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Arthralgia | MESH:D018771 | 7 | 8 |
+| [DB00316_MESH_D003139_1](db00316-mesh-d003139-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Common Cold | MESH:D003139 | 7 | 8 |
+| [DB00316_MESH_D065631_1](db00316-mesh-d065631-1.html) | Acetaminophen | DB:DB00316 | MESH:D000082 | Rhinitis, Allergic | MESH:D065631 | 7 | 8 |
 | [DB00645_MESH_D011537_1](db00645-mesh-d011537-1.html) | dyclonine | DB:DB00645 | MESH:C100063 | Itching of skin | MESH:D011537 | 9 | 8 |
 | [DB00765_MESH_D010673_1](db00765-mesh-d010673-1.html) | metirosine | DB:DB00765 | MESH:D019805 | Pheochromocytoma | MESH:D010673 | 9 | 10 |
 | [DB00987_MESH_D015473_1](db00987-mesh-d015473-1.html) | cytarabine | DB:DB00987 | MESH:D003561 | Acute promyelocytic leukemia, FAB M3 | MESH:D015473 | 8 | 8 |
@@ -3603,6 +3513,1350 @@ datatable: true
 | [DB09543_MESH_D001416_1](db09543-mesh-d001416-1.html) | methyl salicylate | DB:DB09543 | MESH:C033069 | Backache | MESH:D001416 | 6 | 6 |
 | [DB11575_MESH_D019698_1](db11575-mesh-d019698-1.html) | grazoprevir | DB:DB11575 | MESH:C578009 | Chronic hepatitis C | MESH:D019698 | 6 | 6 |
 | [DB13166_MESH_D006973_1](db13166-mesh-d006973-1.html) | zofenopril | DB:DB13166 | MESH:C044958 | Hypertensive disorder | MESH:D006973 | 6 | 5 |
+| [DB00748_MESH_D003233_2](db00748-mesh-d003233-2.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | Conjunctivitis, Allergic | MESH:D003233 | 6 | 5 |
+| [DB00748_MESH_D065631_1](db00748-mesh-d065631-1.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | Rhinitis, Allergic | MESH:D065631 | 6 | 5 |
+| [DB00748_MESH_D003139_1](db00748-mesh-d003139-1.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | Common cold | MESH:D003139 | 7 | 6 |
+| [DB00748_MESH_D011537_1](db00748-mesh-d011537-1.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | Pruritus | MESH:D011537 | 5 | 4 |
+| [DB00748_MESH_D006255_1](db00748-mesh-d006255-1.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 6 | 5 |
+| [DB00748_MESH_D014581_1](db00748-mesh-d014581-1.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | Urticaria | MESH:D014581 | 5 | 4 |
+| [DB00748_MESH_D012223_1](db00748-mesh-d012223-1.html) | carbinoxamine | DB:DB00748 | MESH:C004649 | Rhinitis, Vasomotor | MESH:D012223 | 6 | 5 |
+| [DB12412_MESH_D003924_1](db12412-mesh-d003924-1.html) | gemigliptin | DB:DB12412 | MESH:C534891 | Diabetes Mellitus, Type 2 | MESH:D003924 | 7 | 7 |
+| [DB04938_MESH_D004414_2](db04938-mesh-d004414-2.html) | ospemifene | DB:DB04938 | MESH:C119141 | Dyspareunia | MESH:D004414 | 6 | 5 |
+| [DB01192_MESH_D059350_1](db01192-mesh-d059350-1.html) | oxymorphone | DB:DB01192 | MESH:D010111 | Chronic Pain | MESH:D059350 | 6 | 5 |
+| [DB01192_MESH_D048949_1](db01192-mesh-d048949-1.html) | oxymorphone | DB:DB01192 | MESH:D010111 | Labor Pain | MESH:D048949 | 6 | 5 |
+| [DB01192_MESH_D010146_1](db01192-mesh-d010146-1.html) | oxymorphone | DB:DB01192 | MESH:D010111 | Pain | MESH:D010146 | 6 | 5 |
+| [DB00863_MESH_D004381_1](db00863-mesh-d004381-1.html) | ranitidine | DB:DB00863 | MESH:D011899 | Duodenal Ulcer | MESH:D004381 | 7 | 6 |
+| [DB00863_MESH_D013276_1](db00863-mesh-d013276-1.html) | ranitidine | DB:DB00863 | MESH:D011899 | Stomach Ulcer | MESH:D013276 | 7 | 6 |
+| [DB00863_MESH_D005764_1](db00863-mesh-d005764-1.html) | ranitidine | DB:DB00863 | MESH:D011899 | Gastroesophageal Reflux | MESH:D005764 | 5 | 4 |
+| [DB00863_MESH_D006356_1](db00863-mesh-d006356-1.html) | ranitidine | DB:DB00863 | MESH:D011899 | Heartburn | MESH:D006356 | 5 | 4 |
+| [DB00863_MESH_D004415_1](db00863-mesh-d004415-1.html) | ranitidine | DB:DB00863 | MESH:D011899 | Dyspepsia | MESH:D004415 | 6 | 5 |
+| [DB00863_MESH_D015043_1](db00863-mesh-d015043-1.html) | ranitidine | DB:DB00863 | MESH:D011899 | Zollinger-Ellison Syndrome | MESH:D015043 | 6 | 5 |
+| [DB00989_MESH_D000544_1](db00989-mesh-d000544-1.html) | rivastigmine | DB:DB00989 | MESH:D000068836 | Alzheimer Disease | MESH:D000544 | 6 | 6 |
+| [DB00656_MESH_D003865_1](db00656-mesh-d003865-1.html) | trazodone | DB:DB00656 | MESH:D014196 | Depressive Disorder, Major | MESH:D003865 | 7 | 7 |
+| [DB01068_MESH_D004831_1](db01068-mesh-d004831-1.html) | clonazepam | DB:DB01068 | MESH:D002998 | Epilepsies, Myoclonic | MESH:D004831 | 7 | 6 |
+| [DB01068_MESH_D004832_1](db01068-mesh-d004832-1.html) | clonazepam | DB:DB01068 | MESH:D002998 | Epilepsy, Absence | MESH:D004832 | 7 | 6 |
+| [DB01068_MESH_D065768_1](db01068-mesh-d065768-1.html) | clonazepam | DB:DB01068 | MESH:D002998 | Lennox Gastaut Syndrome | MESH:D065768 | 7 | 6 |
+| [DB01068_MESH_D016584_1](db01068-mesh-d016584-1.html) | clonazepam | DB:DB01068 | MESH:D002998 | Panic Disorder | MESH:D016584 | 5 | 4 |
+| [DB01068_MESH_D012640_1](db01068-mesh-d012640-1.html) | clonazepam | DB:DB01068 | MESH:D002998 | Seizures | MESH:D012640 | 7 | 6 |
+| [DB00937_MESH_D009765_1](db00937-mesh-d009765-1.html) | diethylpropion | DB:DB00937 | MESH:D004053 | Obesity | MESH:D009765 | 10 | 10 |
+| [DB01127_MESH_D002179_1](db01127-mesh-d002179-1.html) | econazole | DB:DB01127 | MESH:D004464 | Candidiasis, Cutaneous | MESH:D002179 | 7 | 6 |
+| [DB01127_MESH_D014008_1](db01127-mesh-d014008-1.html) | econazole | DB:DB01127 | MESH:D004464 | Tinea Pedis | MESH:D014008 | 7 | 6 |
+| [DB01127_MESH_D014010_1](db01127-mesh-d014010-1.html) | econazole | DB:DB01127 | MESH:D004464 | Tinea Versicolor | MESH:D014010 | 7 | 6 |
+| [DB03843_MESH_D007251_1](db03843-mesh-d007251-1.html) | formaldehyde | DB:DB03843 | MESH:D005557 | Influenza, Human | MESH:D007251 | 6 | 6 |
+| [DB05381_MESH_D015470_1](db05381-mesh-d015470-1.html) | histamine | DB:DB05381 | MESH:D006632 | Leukemia, Myeloid, Acute | MESH:D015470 | 9 | 11 |
+| [DB05381_MESH_D010003_1](db05381-mesh-d010003-1.html) | histamine | DB:DB05381 | MESH:D006632 | Osteoarthritis | MESH:D010003 | 2 | 1 |
+| [DB08949_MESH_D010383_2](db08949-mesh-d010383-2.html) | inositol nicotinate | DB:DB08949 | MESH:C005193 | Pellagra | MESH:D010383 | 4 | 3 |
+| [DB00238_MESH_D015658_1](db00238-mesh-d015658-1.html) | nevirapine | DB:DB00238 | MESH:D019829 | HIV Infections | MESH:D015658 | 6 | 5 |
+| [DB00734_MESH_D001321_1](db00734-mesh-d001321-1.html) | risperidone | DB:DB00734 | MESH:D018967 | Autistic Disorder | MESH:D001321 | 8 | 8 |
+| [DB00734_MESH_D012559_1](db00734-mesh-d012559-1.html) | risperidone | DB:DB00734 | MESH:D018967 | Schizophrenia | MESH:D012559 | 8 | 8 |
+| [DB01399_MESH_D001172_1](db01399-mesh-d001172-1.html) | salicylsalicylic acid | DB:DB01399 | MESH:C014182 | Arthritis, Rheumatoid | MESH:D001172 | 7 | 7 |
+| [DB01399_MESH_D010003_1](db01399-mesh-d010003-1.html) | salicylsalicylic acid | DB:DB01399 | MESH:C014182 | Osteoarthritis | MESH:D010003 | 7 | 7 |
+| [DB00839_MESH_D003924_1](db00839-mesh-d003924-1.html) | tolazamide | DB:DB00839 | MESH:D014042 | Diabetes Mellitus, Type 2 | MESH:D003924 | 6 | 6 |
+| [DB09069_MESH_D000787_1](db09069-mesh-d000787-1.html) | trimetazidine | DB:DB09069 | MESH:D014292 | Angina Pectoris | MESH:D000787 | 6 | 5 |
+| [DB01122_MESH_D009157_1](db01122-mesh-d009157-1.html) | ambenonium | DB:DB01122 | MESH:D000549 | Myasthenia Gravis | MESH:D009157 | 5 | 4 |
+| [DB04812_MESH_D001172_1](db04812-mesh-d001172-1.html) | benoxaprofen | DB:DB04812 | MESH:C011677 | Arthritis, Rheumatoid | MESH:D001172 | 7 | 6 |
+| [DB00493_MESH_D001170_1](db00493-mesh-d001170-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Arthritis, Infectious | MESH:D001170 | 6 | 5 |
+| [DB00493_MESH_D059413_1](db00493-mesh-d059413-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB00493_MESH_D016920_1](db00493-mesh-d016920-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Meningitis, Bacterial | MESH:D016920 | 6 | 5 |
+| [DB00493_MESH_D020814_1](db00493-mesh-d020814-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Meningitis, Escherichia coli | MESH:D020814 | 6 | 5 |
+| [DB00493_MESH_D008585_1](db00493-mesh-d008585-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Meningitis, Meningococcal | MESH:D008585 | 6 | 5 |
+| [DB00493_MESH_D000071074_1](db00493-mesh-d000071074-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Neonatal Sepsis | MESH:D000071074 | 6 | 5 |
+| [DB00493_MESH_D018410_1](db00493-mesh-d018410-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB00493_MESH_D011018_1](db00493-mesh-d011018-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB00493_MESH_D011023_1](db00493-mesh-d011023-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 5 |
+| [DB00493_MESH_D016868_1](db00493-mesh-d016868-1.html) | cefotaxime | DB:DB00493 | MESH:D002439 | Serratia Infections | MESH:D016868 | 6 | 5 |
+| [DB02266_MESH_D010146_1](db02266-mesh-d010146-1.html) | flufenamic acid | DB:DB02266 | MESH:D005439 | Pain | MESH:D010146 | 7 | 7 |
+| [DB09284_MESH_D000787_1](db09284-mesh-d000787-1.html) | imolamine | DB:DB09284 | MESH:C002787 | Angina pectoris | MESH:D000787 | 4 | 3 |
+| [DB12465_MESH_D006973_1](db12465-mesh-d006973-1.html) | ketanserin | DB:DB12465 | MESH:D007650 | Hypertension | MESH:D006973 | 5 | 4 |
+| [DB00763_MESH_D006980_1](db00763-mesh-d006980-1.html) | methimazole | DB:DB00763 | MESH:D008713 | Hyperthyroidism | MESH:D006980 | 5 | 4 |
+| [DB00691_MESH_D006973_1](db00691-mesh-d006973-1.html) | moexipril | DB:DB00691 | MESH:C058302 | Hypertension | MESH:D006973 | 7 | 7 |
+| [DB09282_MESH_D000787_1](db09282-mesh-d000787-1.html) | molsidomine | DB:DB09282 | MESH:D008981 | Angina pectoris | MESH:D000787 | 8 | 7 |
+| [DB00517_MESH_D010437_1](db00517-mesh-d010437-1.html) | octatropine methylbromide | DB:DB00517 | MESH:C100237 | Peptic Ulcer | MESH:D010437 | 8 | 9 |
+| [DB00517_MESH_D013276_1](db00517-mesh-d013276-1.html) | octatropine methylbromide | DB:DB00517 | MESH:C100237 | Stomach Ulcer | MESH:D013276 | 10 | 11 |
+| [DB08883_MESH_D004828_1](db08883-mesh-d004828-1.html) | perampanel | DB:DB08883 | MESH:C551441 | Epilepsies, Partial | MESH:D004828 | 6 | 5 |
+| [DB00273_MESH_D004828_1](db00273-mesh-d004828-1.html) | topiramate | DB:DB00273 | MESH:D000077236 | Epilepsies, Partial | MESH:D004828 | 7 | 7 |
+| [DB00273_MESH_D004830_1](db00273-mesh-d004830-1.html) | topiramate | DB:DB00273 | MESH:D000077236 | Epilepsy, Tonic-Clonic | MESH:D004830 | 7 | 7 |
+| [DB00273_MESH_D065768_1](db00273-mesh-d065768-1.html) | topiramate | DB:DB00273 | MESH:D000077236 | Lennox Gastaut Syndrome | MESH:D065768 | 7 | 7 |
+| [DB01076_MESH_D000787_1](db01076-mesh-d000787-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Angina Pectoris | MESH:D000787 | 6 | 5 |
+| [DB01076_MESH_D000788_1](db01076-mesh-d000788-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Angina Pectoris, Variant | MESH:D000788 | 6 | 5 |
+| [DB01076_MESH_D001161_1](db01076-mesh-d001161-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Arteriosclerosis | MESH:D001161 | 6 | 5 |
+| [DB01076_MESH_D006937_1](db01076-mesh-d006937-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Hypercholesterolemia | MESH:D006937 | 6 | 5 |
+| [DB01076_MESH_D006950_1](db01076-mesh-d006950-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Hyperlipidemia, Familial Combined | MESH:D006950 | 8 | 8 |
+| [DB01076_MESH_D006952_1](db01076-mesh-d006952-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Hyperlipoproteinemia Type III | MESH:D006952 | 8 | 8 |
+| [DB01076_MESH_D015228_1](db01076-mesh-d015228-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Hypertriglyceridemia | MESH:D015228 | 5 | 4 |
+| [DB01076_MESH_D020521_1](db01076-mesh-d020521-1.html) | atorvastatin | DB:DB01076 | MESH:D000069059 | Stroke | MESH:D020521 | 7 | 6 |
+| [DB09526_MESH_D008548_1](db09526-mesh-d008548-1.html) | hydroquinone | DB:DB09526 | MESH:C031927 | Melanosis | MESH:D008548 | 5 | 4 |
+| [DB01112_MESH_D004756_1](db01112-mesh-d004756-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB01112_MESH_D004927_1](db01112-mesh-d004927-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB01112_MESH_D006069_1](db01112-mesh-d006069-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB01112_MESH_D007169_1](db01112-mesh-d007169-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Impetigo | MESH:D007169 | 6 | 5 |
+| [DB01112_MESH_D008193_1](db01112-mesh-d008193-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Lyme Disease | MESH:D008193 | 6 | 5 |
+| [DB01112_MESH_D016920_1](db01112-mesh-d016920-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Meningitis, Bacterial | MESH:D016920 | 6 | 5 |
+| [DB01112_MESH_D018410_1](db01112-mesh-d018410-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB01112_MESH_D011018_1](db01112-mesh-d011018-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB01112_MESH_D011023_1](db01112-mesh-d011023-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 5 |
+| [DB01112_MESH_D012226_1](db01112-mesh-d012226-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB01112_MESH_D013203_1](db01112-mesh-d013203-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB01112_MESH_D013290_1](db01112-mesh-d013290-1.html) | cefuroxime | DB:DB01112 | MESH:D002444 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB00199_MESH_D000152_1](db00199-mesh-d000152-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Acne Vulgaris | MESH:D000152 | 5 | 4 |
+| [DB00199_MESH_D061387_1](db00199-mesh-d061387-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Chlamydial Pneumonia | MESH:D061387 | 5 | 4 |
+| [DB00199_MESH_D003235_1](db00199-mesh-d003235-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Conjunctivitis, Inclusion | MESH:D003235 | 5 | 4 |
+| [DB00199_MESH_D004165_1](db00199-mesh-d004165-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Diphtheria | MESH:D004165 | 5 | 4 |
+| [DB00199_MESH_D004894_1](db00199-mesh-d004894-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Erythrasma | MESH:D004894 | 5 | 4 |
+| [DB00199_MESH_D006069_1](db00199-mesh-d006069-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Gonorrhea | MESH:D006069 | 5 | 4 |
+| [DB00199_MESH_D008088_2](db00199-mesh-d008088-2.html) | erythromycin | DB:DB00199 | MESH:D004917 | Listeriosis | MESH:D008088 | 5 | 4 |
+| [DB00199_MESH_D018410_1](db00199-mesh-d018410-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Pneumonia, Bacterial | MESH:D018410 | 5 | 4 |
+| [DB00199_MESH_D011019_1](db00199-mesh-d011019-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Pneumonia, Mycoplasma | MESH:D011019 | 5 | 4 |
+| [DB00199_MESH_D011018_1](db00199-mesh-d011018-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Pneumonia, Pneumococcal | MESH:D011018 | 5 | 4 |
+| [DB00199_MESH_D013203_1](db00199-mesh-d013203-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Staphylococcal Infections | MESH:D013203 | 5 | 4 |
+| [DB00199_MESH_D013290_1](db00199-mesh-d013290-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Streptococcal Infections | MESH:D013290 | 5 | 4 |
+| [DB00199_MESH_D013587_1](db00199-mesh-d013587-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Syphilis | MESH:D013587 | 5 | 4 |
+| [DB00199_MESH_D014917_1](db00199-mesh-d014917-1.html) | erythromycin | DB:DB00199 | MESH:D004917 | Whooping Cough | MESH:D014917 | 5 | 4 |
+| [DB00199_MESH_D059413_1](db00199-mesh-d059413-1.html) | erythromycin ethylsuccinate | DB:DB00199 | MESH:D015643 | Intraabdominal Infections | MESH:D059413 | 5 | 4 |
+| [DB00199_MESH_D014552_1](db00199-mesh-d014552-1.html) | erythromycin ethylsuccinate | DB:DB00199 | MESH:D015643 | Urinary Tract Infections | MESH:D014552 | 5 | 4 |
+| [DB00199_MESH_D002761_1](db00199-mesh-d002761-1.html) | erythromycin ethylsuccinate | DB:DB00199 | MESH:D015643 | Cholangitis | MESH:D002761 | 5 | 4 |
+| [DB00199_MESH_D006501_1](db00199-mesh-d006501-1.html) | erythromycin ethylsuccinate | DB:DB00199 | MESH:D015643 | Hepatic Encephalopathy | MESH:D006501 | 5 | 4 |
+| [DB00199_MESH_D008581_1](db00199-mesh-d008581-1.html) | erythromycin ethylsuccinate | DB:DB00199 | MESH:D015643 | Meningitis | MESH:D008581 | 5 | 4 |
+| [DB00595_MESH_D000196_1](db00595-mesh-d000196-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Actinomycosis | MESH:D000196 | 6 | 6 |
+| [DB00595_MESH_D000881_1](db00595-mesh-d000881-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Anthrax | MESH:D000881 | 6 | 6 |
+| [DB00595_MESH_D001991_1](db00595-mesh-d001991-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Bronchitis | MESH:D001991 | 6 | 6 |
+| [DB00595_MESH_D002006_1](db00595-mesh-d002006-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Brucellosis | MESH:D002006 | 6 | 6 |
+| [DB00595_MESH_D003234_1](db00595-mesh-d003234-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Conjunctivitis, Bacterial | MESH:D003234 | 6 | 6 |
+| [DB00595_MESH_D003235_1](db00595-mesh-d003235-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Conjunctivitis, Inclusion | MESH:D003235 | 6 | 6 |
+| [DB00595_MESH_D006100_1](db00595-mesh-d006100-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Granuloma inguinale | MESH:D006100 | 5 | 4 |
+| [DB00595_MESH_D008219_1](db00595-mesh-d008219-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Lymphogranuloma venereum | MESH:D008219 | 6 | 6 |
+| [DB00595_MESH_D010612_1](db00595-mesh-d010612-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Pharyngitis | MESH:D010612 | 6 | 6 |
+| [DB00595_MESH_D011014_1](db00595-mesh-d011014-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Pneumonia | MESH:D011014 | 6 | 6 |
+| [DB00595_MESH_D009956_1](db00595-mesh-d009956-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Psittacosis | MESH:D009956 | 6 | 6 |
+| [DB00595_MESH_D011778_1](db00595-mesh-d011778-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Q fever | MESH:D011778 | 6 | 6 |
+| [DB00595_MESH_D012061_1](db00595-mesh-d012061-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Relapsing Fever | MESH:D012061 | 6 | 6 |
+| [DB00595_MESH_D012373_1](db00595-mesh-d012373-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Rocky Mountain Spotted Fever | MESH:D012373 | 6 | 6 |
+| [DB00595_MESH_D012852_1](db00595-mesh-d012852-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Sinusitis | MESH:D012852 | 6 | 6 |
+| [DB00595_MESH_D000073605_1](db00595-mesh-d000073605-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Spotted Fever Group Rickettsiosis | MESH:D000073605 | 6 | 6 |
+| [DB00595_MESH_D013587_1](db00595-mesh-d013587-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Syphilis | MESH:D013587 | 6 | 6 |
+| [DB00595_MESH_D014141_1](db00595-mesh-d014141-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Trachoma | MESH:D014141 | 6 | 6 |
+| [DB00595_MESH_D014552_1](db00595-mesh-d014552-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Urinary Tract Infections | MESH:D014552 | 6 | 6 |
+| [DB00595_MESH_D015001_1](db00595-mesh-d015001-1.html) | oxytetracycline | DB:DB00595 | MESH:D010118 | Yaws | MESH:D015001 | 6 | 6 |
+| [DB00618_MESH_D000196_1](db00618-mesh-d000196-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Actinomycosis | MESH:D000196 | 7 | 7 |
+| [DB00618_MESH_D000881_1](db00618-mesh-d000881-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Anthrax | MESH:D000881 | 7 | 7 |
+| [DB00618_MESH_D001991_1](db00618-mesh-d001991-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Bronchitis | MESH:D001991 | 7 | 7 |
+| [DB00618_MESH_D002006_1](db00618-mesh-d002006-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Brucellosis | MESH:D002006 | 7 | 7 |
+| [DB00618_MESH_D002602_1](db00618-mesh-d002602-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Chancroid | MESH:D002602 | 7 | 7 |
+| [DB00618_MESH_D003235_1](db00618-mesh-d003235-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Conjunctivitis, Inclusion | MESH:D003235 | 7 | 7 |
+| [DB00618_MESH_D006069_1](db00618-mesh-d006069-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Gonorrhea | MESH:D006069 | 7 | 7 |
+| [DB00618_MESH_D006100_1](db00618-mesh-d006100-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Granuloma inguinale | MESH:D006100 | 7 | 7 |
+| [DB00618_MESH_D008219_1](db00618-mesh-d008219-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Lymphogranuloma venereum | MESH:D008219 | 7 | 7 |
+| [DB00618_MESH_D010612_1](db00618-mesh-d010612-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Pharyngitis | MESH:D010612 | 7 | 7 |
+| [DB00618_MESH_D011014_1](db00618-mesh-d011014-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Pneumonia | MESH:D011014 | 7 | 7 |
+| [DB00618_MESH_D009956_1](db00618-mesh-d009956-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Psittacosis | MESH:D009956 | 7 | 7 |
+| [DB00618_MESH_D011778_1](db00618-mesh-d011778-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Q Fever | MESH:D011778 | 7 | 7 |
+| [DB00618_MESH_D012061_1](db00618-mesh-d012061-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Relapsing Fever | MESH:D012061 | 7 | 7 |
+| [DB00618_MESH_D012373_1](db00618-mesh-d012373-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Rocky Mountain Spotted Fever | MESH:D012373 | 7 | 7 |
+| [DB00618_MESH_D012852_1](db00618-mesh-d012852-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Sinusitis | MESH:D012852 | 7 | 7 |
+| [DB00618_MESH_D000073605_2](db00618-mesh-d000073605-2.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Spotted Fever Group Rickettsiosis | MESH:D000073605 | 7 | 7 |
+| [DB00618_MESH_D013203_1](db00618-mesh-d013203-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Staphylococcal Infections | MESH:D013203 | 7 | 7 |
+| [DB00618_MESH_D013587_1](db00618-mesh-d013587-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Syphilis | MESH:D013587 | 7 | 7 |
+| [DB00618_MESH_D014141_1](db00618-mesh-d014141-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Trachoma | MESH:D014141 | 7 | 7 |
+| [DB00618_MESH_D014552_1](db00618-mesh-d014552-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Urinary Tract Infections | MESH:D014552 | 7 | 7 |
+| [DB00618_MESH_D015001_1](db00618-mesh-d015001-1.html) | demeclocycline | DB:DB00618 | MESH:D003707 | Yaws | MESH:D015001 | 7 | 7 |
+| [DB00588_MESH_D003876_1](db00588-mesh-d003876-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Dermatitis, Atopic | MESH:D003876 | 6 | 5 |
+| [DB00588_MESH_D003877_1](db00588-mesh-d003877-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Dermatitis, Contact | MESH:D003877 | 7 | 7 |
+| [DB00588_MESH_D012628_1](db00588-mesh-d012628-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Dermatitis, Seborrheic | MESH:D012628 | 5 | 4 |
+| [DB00588_MESH_D005076_1](db00588-mesh-d005076-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Exanthema | MESH:D005076 | 6 | 5 |
+| [DB00588_MESH_D016460_1](db00588-mesh-d016460-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Granuloma Annulare | MESH:D016460 | 6 | 5 |
+| [DB00588_MESH_D008179_1](db00588-mesh-d008179-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Lupus Erythematosus, Discoid | MESH:D008179 | 5 | 4 |
+| [DB00588_MESH_D016410_1](db00588-mesh-d016410-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 6 | 5 |
+| [DB00588_MESH_D009450_1](db00588-mesh-d009450-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Neurodermatitis | MESH:D009450 | 6 | 5 |
+| [DB00588_MESH_D011538_1](db00588-mesh-d011538-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Pruritus Ani | MESH:D011538 | 7 | 6 |
+| [DB00588_MESH_D011656_1](db00588-mesh-d011656-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Pulmonary Emphysema | MESH:D011656 | 6 | 5 |
+| [DB00588_MESH_D065631_1](db00588-mesh-d065631-1.html) | fluticasone propionate | DB:DB00588 | MESH:D000068298 | Rhinitis, Allergic | MESH:D065631 | 5 | 4 |
+| [DB00388_MESH_D003139_1](db00388-mesh-d003139-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Common Cold | MESH:D003139 | 7 | 8 |
+| [DB00388_MESH_D003233_1](db00388-mesh-d003233-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Conjunctivitis, Allergic | MESH:D003233 | 8 | 9 |
+| [DB00388_MESH_D003371_1](db00388-mesh-d003371-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Cough | MESH:D003371 | 7 | 8 |
+| [DB00388_MESH_D005334_1](db00388-mesh-d005334-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Fever | MESH:D005334 | 7 | 8 |
+| [DB00388_MESH_D020773_1](db00388-mesh-d020773-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Headache Disorders | MESH:D020773 | 7 | 8 |
+| [DB00388_MESH_D006484_1](db00388-mesh-d006484-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Hemorrhoids | MESH:D006484 | 8 | 9 |
+| [DB00388_MESH_D015878_1](db00388-mesh-d015878-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Mydriasis | MESH:D015878 | 2 | 1 |
+| [DB00388_MESH_D011349_1](db00388-mesh-d011349-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Proctitis | MESH:D011349 | 8 | 9 |
+| [DB00388_MESH_D011538_1](db00388-mesh-d011538-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Pruritus Ani | MESH:D011538 | 8 | 9 |
+| [DB00388_MESH_D006255_1](db00388-mesh-d006255-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 7 | 8 |
+| [DB00388_MESH_D065631_1](db00388-mesh-d065631-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Rhinitis, Allergic | MESH:D065631 | 7 | 8 |
+| [DB00388_MESH_D012220_1](db00388-mesh-d012220-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Rhinitis | MESH:D012220 | 7 | 8 |
+| [DB00388_MESH_D012223_1](db00388-mesh-d012223-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Rhinitis, Vasomotor | MESH:D012223 | 7 | 8 |
+| [DB00388_MESH_D012912_1](db00388-mesh-d012912-1.html) | phenylephrine | DB:DB00388 | MESH:D010656 | Sneezing | MESH:D012912 | 7 | 8 |
+| [DB00153_MESH_D015663_1](db00153-mesh-d015663-1.html) | ergocalciferol | DB:DB00153 | None | Postmenopausal osteoporosis | MESH:D015663 | 10 | 10 |
+| [DB00153_MESH_D014808_1](db00153-mesh-d014808-1.html) | ergocalciferol | DB:DB00153 | None | Vitamin D deficiency | MESH:D014808 | 5 | 4 |
+| [DB00153_MESH_D006996_1](db00153-mesh-d006996-1.html) | ergocalciferol | DB:DB00153 | None | Hypocalcemia | MESH:D006996 | 6 | 5 |
+| [DB00153_MESH_D007011_1](db00153-mesh-d007011-1.html) | ergocalciferol | DB:DB00153 | None | Hypoparathyroidism | MESH:D007011 | 7 | 6 |
+| [DB00153_MESH_D012279_1](db00153-mesh-d012279-1.html) | ergocalciferol | DB:DB00153 | None | Rickets | MESH:D012279 | 6 | 5 |
+| [DB00153_MESH_D053098_1](db00153-mesh-d053098-1.html) | ergocalciferol | DB:DB00153 | None | Familial x-linked hypophosphatemic vitamin D refractory rickets | MESH:D053098 | 6 | 5 |
+| [DB00153_MESH_D001361_1](db00153-mesh-d001361-1.html) | ergocalciferol | DB:DB00153 | None | Vitamin deficiency | MESH:D001361 | 5 | 4 |
+| [DB00153_MESH_D010024_1](db00153-mesh-d010024-1.html) | ergocalciferol | DB:DB00153 | None | Osteoporosis | MESH:D010024 | 10 | 10 |
+| [DB00224_MESH_D015658_1](db00224-mesh-d015658-1.html) | indinavir | DB:DB00224 | MESH:D019469 | Human immunodeficiency virus infection | MESH:D015658 | 5 | 4 |
+| [DB00389_MESH_D006980_1](db00389-mesh-d006980-1.html) | carbimazole | DB:DB00389 | MESH:D002231 | Hyperthyroidism | MESH:D006980 | 5 | 4 |
+| [DB00389_MESH_D006111_1](db00389-mesh-d006111-1.html) | carbimazole | DB:DB00389 | MESH:D002231 | Graves' disease | MESH:D006111 | 6 | 5 |
+| [DB06255_MESH_D010024_1](db06255-mesh-d010024-1.html) | incadronic acid | DB:DB06255 | MESH:C071542 | Osteoporosis | MESH:D010024 | 11 | 13 |
+| [DB06255_MESH_C562390_1](db06255-mesh-c562390-1.html) | incadronic acid | DB:DB06255 | MESH:C071542 | Humoral hypercalcemia of malignancy | MESH:C562390 | 10 | 12 |
+| [DB08933_MESH_D014008_1](db08933-mesh-d014008-1.html) | luliconazole | DB:DB08933 | MESH:C112528 | Tinea pedis | MESH:D014008 | 5 | 4 |
+| [DB12554_MESH_D043183_1](db12554-mesh-d043183-1.html) | mebeverine | DB:DB12554 | MESH:C005096 | Irritable bowel syndrome | MESH:D043183 | 5 | 4 |
+| [DB06290_MESH_D019698_1](db06290-mesh-d019698-1.html) | simeprevir | DB:DB06290 | MESH:D000069616 | Chronic hepatitis C | MESH:D019698 | 5 | 4 |
+| [DB00275_MESH_D006973_1](db00275-mesh-d006973-1.html) | Olmesartan Medoxomil | DB:DB00275 | MESH:D000068557 | Hypertensive disorder | MESH:D006973 | 9 | 10 |
+| [DB01023_MESH_D006973_1](db01023-mesh-d006973-1.html) | felodipine | DB:DB01023 | MESH:D015736 | Hypertensive disorder | MESH:D006973 | 9 | 11 |
+| [DB06813_MESH_D016411_1](db06813-mesh-d016411-1.html) | pralatrexate | DB:DB06813 | MESH:C418863 | Peripheral T-cell lymphoma | MESH:D016411 | 7 | 7 |
+| [DB01025_MESH_D013281_1](db01025-mesh-d013281-1.html) | amlexanox | DB:DB01025 | MESH:C045742 | Stomatitis, Aphthous | MESH:D013281 | 2 | 1 |
+| [DB01053_MESH_D000196_1](db01053-mesh-d000196-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Actinomycosis | MESH:D000196 | 6 | 5 |
+| [DB01053_MESH_D000197_1](db01053-mesh-d000197-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Actinomycosis, Cervicofacial | MESH:D000197 | 6 | 5 |
+| [DB01053_MESH_D000881_1](db01053-mesh-d000881-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Anthrax | MESH:D000881 | 6 | 5 |
+| [DB01053_MESH_D001906_1](db01053-mesh-d001906-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Botulism | MESH:D001906 | 6 | 5 |
+| [DB01053_MESH_C531621_1](db01053-mesh-c531621-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Cutaneous anthrax | MESH:C531621 | 6 | 5 |
+| [DB01053_MESH_D004165_1](db01053-mesh-d004165-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Diphtheria | MESH:D004165 | 6 | 5 |
+| [DB01053_MESH_D004697_1](db01053-mesh-d004697-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Endocarditis, Bacterial | MESH:D004697 | 6 | 5 |
+| [DB01053_MESH_D004886_2](db01053-mesh-d004886-2.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Erysipelas | MESH:D004886 | 6 | 5 |
+| [DB01053_MESH_D004887_1](db01053-mesh-d004887-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Erysipeloid | MESH:D004887 | 6 | 5 |
+| [DB01053_MESH_C571911_1](db01053-mesh-c571911-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Gastrointestinal anthrax | MESH:C571911 | 6 | 5 |
+| [DB01053_MESH_C571912_1](db01053-mesh-c571912-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Inhalation anthrax | MESH:C571912 | 6 | 5 |
+| [DB01053_MESH_D008169_1](db01053-mesh-d008169-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Lung Abscess | MESH:D008169 | 6 | 5 |
+| [DB01053_MESH_D008584_1](db01053-mesh-d008584-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Meningitis, Listeria | MESH:D008584 | 6 | 5 |
+| [DB01053_MESH_D008585_1](db01053-mesh-d008585-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Meningitis, Meningococcal | MESH:D008585 | 6 | 5 |
+| [DB01053_MESH_D008586_1](db01053-mesh-d008586-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Meningitis, Pneumococcal | MESH:D008586 | 6 | 5 |
+| [DB01053_MESH_D000071074_1](db01053-mesh-d000071074-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Neonatal Sepsis | MESH:D000071074 | 6 | 5 |
+| [DB01053_MESH_D009494_1](db01053-mesh-d009494-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Neurosyphilis | MESH:D009494 | 7 | 6 |
+| [DB01053_MESH_D010326_1](db01053-mesh-d010326-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Pasteurella Infections | MESH:D010326 | 6 | 5 |
+| [DB01053_MESH_D010612_1](db01053-mesh-d010612-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Pharyngitis | MESH:D010612 | 6 | 5 |
+| [DB01053_MESH_D010874_1](db01053-mesh-d010874-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Pinta | MESH:D010874 | 6 | 5 |
+| [DB01053_MESH_D011015_1](db01053-mesh-d011015-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Pneumonia, Aspiration | MESH:D011015 | 6 | 5 |
+| [DB01053_MESH_D000071067_1](db01053-mesh-d000071067-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Pneumonia, Necrotizing | MESH:D000071067 | 6 | 5 |
+| [DB01053_MESH_D011018_2](db01053-mesh-d011018-2.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB01053_MESH_D011906_1](db01053-mesh-d011906-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Rat-Bite Fever | MESH:D011906 | 6 | 5 |
+| [DB01053_MESH_D012141_1](db01053-mesh-d012141-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Respiratory Tract Infections | MESH:D012141 | 6 | 5 |
+| [DB01053_MESH_D012541_2](db01053-mesh-d012541-2.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Scarlet Fever | MESH:D012541 | 6 | 5 |
+| [DB01053_MESH_D013203_1](db01053-mesh-d013203-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB01053_MESH_D013290_2](db01053-mesh-d013290-2.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB01053_MESH_D013587_1](db01053-mesh-d013587-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Syphilis | MESH:D013587 | 6 | 5 |
+| [DB01053_MESH_D013590_1](db01053-mesh-d013590-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Syphilis, Congenital | MESH:D013590 | 7 | 6 |
+| [DB01053_MESH_D013592_1](db01053-mesh-d013592-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Syphilis, Latent | MESH:D013592 | 6 | 5 |
+| [DB01053_MESH_C536773_1](db01053-mesh-c536773-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Syphilis, secondary | MESH:C536773 | 6 | 5 |
+| [DB01053_MESH_C536774_1](db01053-mesh-c536774-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Syphilis, tertiary | MESH:C536774 | 6 | 5 |
+| [DB01053_MESH_D013742_1](db01053-mesh-d013742-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Tetanus | MESH:D013742 | 6 | 5 |
+| [DB01053_MESH_D014211_1](db01053-mesh-d014211-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Treponemal Infections | MESH:D014211 | 6 | 5 |
+| [DB01053_MESH_D015001_1](db01053-mesh-d015001-1.html) | benzylpenicillin | DB:DB01053 | MESH:D010400 | Yaws | MESH:D015001 | 6 | 5 |
+| [DB00798_MESH_D002761_1](db00798-mesh-d002761-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Cholangitis | MESH:D002761 | 7 | 8 |
+| [DB00798_MESH_D003234_1](db00798-mesh-d003234-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Conjunctivitis, Bacterial | MESH:D003234 | 7 | 8 |
+| [DB00798_MESH_D003607_1](db00798-mesh-d003607-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Dacryocystitis | MESH:D003607 | 7 | 8 |
+| [DB00798_MESH_D004756_1](db00798-mesh-d004756-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Enterobacteriaceae Infections | MESH:D004756 | 7 | 8 |
+| [DB00798_MESH_D004927_1](db00798-mesh-d004927-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Escherichia coli Infections | MESH:D004927 | 7 | 8 |
+| [DB00798_MESH_D005499_1](db00798-mesh-d005499-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Folliculitis | MESH:D005499 | 7 | 8 |
+| [DB00798_MESH_D005667_1](db00798-mesh-d005667-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Furunculosis | MESH:D005667 | 7 | 8 |
+| [DB00798_MESH_D059413_1](db00798-mesh-d059413-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Intraabdominal Infections | MESH:D059413 | 7 | 8 |
+| [DB00798_MESH_D016920_1](db00798-mesh-d016920-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Meningitis, Bacterial | MESH:D016920 | 7 | 8 |
+| [DB00798_MESH_D000071074_1](db00798-mesh-d000071074-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Neonatal Sepsis | MESH:D000071074 | 7 | 8 |
+| [DB00798_MESH_D010304_1](db00798-mesh-d010304-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Paronychia | MESH:D010304 | 7 | 8 |
+| [DB00798_MESH_D018410_1](db00798-mesh-d018410-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Pneumonia, Bacterial | MESH:D018410 | 7 | 8 |
+| [DB00798_MESH_D012226_1](db00798-mesh-d012226-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Rhinoscleroma | MESH:D012226 | 7 | 8 |
+| [DB00798_MESH_D016868_1](db00798-mesh-d016868-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Serratia Infections | MESH:D016868 | 7 | 8 |
+| [DB00798_MESH_D017192_1](db00798-mesh-d017192-1.html) | gentamicin | DB:DB00798 | MESH:D005839 | Skin Diseases, Bacterial | MESH:D017192 | 7 | 8 |
+| [DB00759_MESH_D014552_1](db00759-mesh-d014552-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Urinary tract infectious disease | MESH:D014552 | 5 | 4 |
+| [DB00759_MESH_D010612_1](db00759-mesh-d010612-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Pharyngitis | MESH:D010612 | 5 | 4 |
+| [DB00759_MESH_D013587_1](db00759-mesh-d013587-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Syphilis | MESH:D013587 | 5 | 4 |
+| [DB00759_MESH_D014141_1](db00759-mesh-d014141-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Trachoma | MESH:D014141 | 5 | 4 |
+| [DB00759_MESH_D002006_1](db00759-mesh-d002006-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Brucellosis | MESH:D002006 | 5 | 4 |
+| [DB00759_MESH_D009956_1](db00759-mesh-d009956-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Psittacosis | MESH:D009956 | 5 | 4 |
+| [DB00759_MESH_D003234_1](db00759-mesh-d003234-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Bacterial conjunctivitis | MESH:D003234 | 5 | 4 |
+| [DB00759_MESH_D003235_1](db00759-mesh-d003235-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Conjunctivitis, Inclusion | MESH:D003235 | 5 | 4 |
+| [DB00759_MESH_D012373_1](db00759-mesh-d012373-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Rocky Mountain Spotted Fever | MESH:D012373 | 5 | 4 |
+| [DB00759_MESH_D011014_1](db00759-mesh-d011014-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Pneumonia | MESH:D011014 | 5 | 4 |
+| [DB00759_MESH_D000196_1](db00759-mesh-d000196-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Actinomycosis | MESH:D000196 | 5 | 4 |
+| [DB00759_MESH_D000881_1](db00759-mesh-d000881-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Anthrax | MESH:D000881 | 5 | 4 |
+| [DB00759_MESH_D000073605_1](db00759-mesh-d000073605-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Spotted Fever Group Rickettsiosis | MESH:D000073605 | 5 | 4 |
+| [DB00759_MESH_D012852_1](db00759-mesh-d012852-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Sinusitis | MESH:D012852 | 5 | 4 |
+| [DB00759_MESH_D006069_1](db00759-mesh-d006069-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Gonorrhea | MESH:D006069 | 5 | 4 |
+| [DB00759_MESH_D012061_1](db00759-mesh-d012061-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Relapsing fever | MESH:D012061 | 5 | 4 |
+| [DB00759_MESH_D015001_1](db00759-mesh-d015001-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Yaws | MESH:D015001 | 5 | 4 |
+| [DB00759_MESH_D000152_1](db00759-mesh-d000152-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Acne vulgaris | MESH:D000152 | 5 | 4 |
+| [DB00759_MESH_D011778_1](db00759-mesh-d011778-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Q fever | MESH:D011778 | 5 | 4 |
+| [DB00759_MESH_D006100_1](db00759-mesh-d006100-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Granuloma inguinale | MESH:D006100 | 5 | 4 |
+| [DB00759_MESH_D001991_1](db00759-mesh-d001991-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Bronchitis | MESH:D001991 | 5 | 4 |
+| [DB00759_MESH_D008219_1](db00759-mesh-d008219-1.html) | tetracycline | DB:DB00759 | MESH:D013752 | Lymphogranuloma venereum | MESH:D008219 | 5 | 4 |
+| [DB00415_MESH_D002761_1](db00415-mesh-d002761-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Cholangitis | MESH:D002761 | 6 | 5 |
+| [DB00415_MESH_D004756_1](db00415-mesh-d004756-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB00415_MESH_D059413_1](db00415-mesh-d059413-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB00415_MESH_D004927_1](db00415-mesh-d004927-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB00415_MESH_D014552_1](db00415-mesh-d014552-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB00415_MESH_D010612_1](db00415-mesh-d010612-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Pharyngitis | MESH:D010612 | 6 | 5 |
+| [DB00415_MESH_D008585_1](db00415-mesh-d008585-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Meningitis, Meningococcal | MESH:D008585 | 6 | 5 |
+| [DB00415_MESH_D004405_1](db00415-mesh-d004405-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Dysentery, Bacillary | MESH:D004405 | 6 | 5 |
+| [DB00415_MESH_D008586_1](db00415-mesh-d008586-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Meningitis, Pneumococcal | MESH:D008586 | 6 | 5 |
+| [DB00415_MESH_D010284_1](db00415-mesh-d010284-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Paratyphoid fever | MESH:D010284 | 6 | 5 |
+| [DB00415_MESH_D006069_1](db00415-mesh-d006069-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB00415_MESH_D016920_1](db00415-mesh-d016920-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Meningitis, Bacterial | MESH:D016920 | 6 | 5 |
+| [DB00415_MESH_D011023_1](db00415-mesh-d011023-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 5 |
+| [DB00415_MESH_D012852_1](db00415-mesh-d012852-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Sinusitis | MESH:D012852 | 6 | 5 |
+| [DB00415_MESH_D013203_1](db00415-mesh-d013203-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB00415_MESH_D004697_1](db00415-mesh-d004697-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Endocarditis, Bacterial | MESH:D004697 | 6 | 5 |
+| [DB00415_MESH_D011018_1](db00415-mesh-d011018-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB00415_MESH_D020814_1](db00415-mesh-d020814-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Meningitis, Escherichia coli | MESH:D020814 | 6 | 5 |
+| [DB00415_MESH_D018410_1](db00415-mesh-d018410-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB00415_MESH_D004403_1](db00415-mesh-d004403-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Dysentery | MESH:D004403 | 6 | 5 |
+| [DB00415_MESH_D012226_1](db00415-mesh-d012226-1.html) | ampicillin | DB:DB00415 | MESH:D000667 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB00187_MESH_D001281_1](db00187-mesh-d001281-1.html) | esmolol | DB:DB00187 | MESH:C036604 | Atrial fibrillation | MESH:D001281 | 7 | 6 |
+| [DB00187_MESH_D013617_1](db00187-mesh-d013617-1.html) | esmolol | DB:DB00187 | MESH:C036604 | Supraventricular tachycardia | MESH:D013617 | 7 | 6 |
+| [DB00456_MESH_D011018_1](db00456-mesh-d011018-1.html) | cefalotin | DB:DB00456 | MESH:D002512 | Pneumonia due to Streptococcus | MESH:D011018 | 7 | 6 |
+| [DB00456_MESH_D014552_1](db00456-mesh-d014552-1.html) | cefalotin | DB:DB00456 | MESH:D002512 | Urinary tract infectious disease | MESH:D014552 | 7 | 6 |
+| [DB00456_MESH_D011014_1](db00456-mesh-d011014-1.html) | cefalotin | DB:DB00456 | MESH:D002512 | Pneumonia | MESH:D011014 | 7 | 6 |
+| [DB01116_MESH_D011654_1](db01116-mesh-d011654-1.html) | trimetaphan | DB:DB01116 | MESH:D014294 | Pulmonary edema | MESH:D011654 | 9 | 10 |
+| [DB01255_MESH_D001289_1](db01255-mesh-d001289-1.html) | lisdexamfetamine | DB:DB01255 | MESH:D000069478 | Attention deficit hyperactivity disorder | MESH:D001289 | 13 | 16 |
+| [DB01409_MESH_D011656_1](db01409-mesh-d011656-1.html) | tiotropium bromide | DB:DB01409 | MESH:D000069447 | Pulmonary emphysema | MESH:D011656 | 7 | 6 |
+| [DB01409_MESH_D001249_1](db01409-mesh-d001249-1.html) | tiotropium bromide | DB:DB01409 | MESH:D000069447 | Asthma | MESH:D001249 | 7 | 6 |
+| [DB01409_MESH_D029481_1](db01409-mesh-d029481-1.html) | tiotropium bromide | DB:DB01409 | MESH:D000069447 | Chronic bronchitis | MESH:D029481 | 7 | 6 |
+| [DB01598_MESH_D004697_1](db01598-mesh-d004697-1.html) | imipenem | DB:DB01598 | MESH:D015378 | Bacterial endocarditis | MESH:D004697 | 7 | 6 |
+| [DB01598_MESH_D004716_1](db01598-mesh-d004716-1.html) | imipenem | DB:DB01598 | MESH:D015378 | Endometritis | MESH:D004716 | 7 | 6 |
+| [DB01598_MESH_D018784_1](db01598-mesh-d018784-1.html) | imipenem | DB:DB01598 | MESH:D015378 | Abdominal abscess | MESH:D018784 | 7 | 6 |
+| [DB01598_MESH_D018410_1](db01598-mesh-d018410-1.html) | imipenem | DB:DB01598 | MESH:D015378 | Bacterial pneumonia | MESH:D018410 | 7 | 6 |
+| [DB01598_MESH_D059413_1](db01598-mesh-d059413-1.html) | imipenem | DB:DB01598 | MESH:D015378 | Infectious disease of abdomen | MESH:D059413 | 7 | 6 |
+| [DB09269_MESH_D022124_1](db09269-mesh-d022124-1.html) | phenylacetic acid | DB:DB09269 | MESH:C025136 | Hyperammonemia | MESH:D022124 | 4 | 3 |
+| [DB01598_MESH_D011018_1](db01598-mesh-d011018-1.html) | imipenem | DB:DB01598 | MESH:D015378 | Pneumonia due to Streptococcus | MESH:D011018 | 7 | 6 |
+| [DB09570_MESH_D009101_1](db09570-mesh-d009101-1.html) | Ixazomib | DB:DB09570 | MESH:C548400 | Multiple myeloma | MESH:D009101 | 7 | 8 |
+| [DB13142_MESH_D006996_2](db13142-mesh-d006996-2.html) | calcium glubionate | DB:DB13142 | MESH:C042131 | Hypocalcemia | MESH:D006996 | 5 | 5 |
+| [DB00201_MESH_D018771_1](db00201-mesh-d018771-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Arthralgia | MESH:D018771 | 8 | 8 |
+| [DB00201_MESH_D001416_1](db00201-mesh-d001416-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Back Pain | MESH:D001416 | 10 | 11 |
+| [DB00201_MESH_D003027_1](db00201-mesh-d003027-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Cluster Headache | MESH:D003027 | 10 | 11 |
+| [DB00201_MESH_D003139_1](db00201-mesh-d003139-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Common Cold | MESH:D003139 | 8 | 8 |
+| [DB00201_MESH_D004412_1](db00201-mesh-d004412-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Dysmenorrhea | MESH:D004412 | 8 | 8 |
+| [DB00201_MESH_D020773_1](db00201-mesh-d020773-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Headache Disorders | MESH:D020773 | 10 | 11 |
+| [DB00201_MESH_D008881_1](db00201-mesh-d008881-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Migraine Disorders | MESH:D008881 | 10 | 11 |
+| [DB00201_MESH_D009128_1](db00201-mesh-d009128-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Muscle Spasticity | MESH:D009128 | 9 | 10 |
+| [DB00201_MESH_D010146_1](db00201-mesh-d010146-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Pain | MESH:D010146 | 9 | 10 |
+| [DB00201_MESH_D065631_1](db00201-mesh-d065631-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Rhinitis, Allergic | MESH:D065631 | 8 | 8 |
+| [DB00201_MESH_D018781_1](db00201-mesh-d018781-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Tension-Type Headache | MESH:D018781 | 10 | 11 |
+| [DB00201_MESH_D014653_1](db00201-mesh-d014653-1.html) | caffeine | DB:DB00201 | MESH:D002110 | Vascular Headaches | MESH:D014653 | 10 | 11 |
+| [DB01260_MESH_D001249_1](db01260-mesh-d001249-1.html) | desonide | DB:DB01260 | MESH:D003898 | Asthma | MESH:D001249 | 7 | 7 |
+| [DB01260_MESH_D003424_1](db01260-mesh-d003424-1.html) | desonide | DB:DB01260 | MESH:D003898 | Crohn Disease | MESH:D003424 | 7 | 7 |
+| [DB01260_MESH_D003876_1](db01260-mesh-d003876-1.html) | desonide | DB:DB01260 | MESH:D003898 | Dermatitis, Atopic | MESH:D003876 | 8 | 8 |
+| [DB01260_MESH_D003877_1](db01260-mesh-d003877-1.html) | desonide | DB:DB01260 | MESH:D003898 | Dermatitis, Contact | MESH:D003877 | 7 | 7 |
+| [DB01260_MESH_D012628_1](db01260-mesh-d012628-1.html) | desonide | DB:DB01260 | MESH:D003898 | Dermatitis, Seborrheic | MESH:D012628 | 7 | 7 |
+| [DB01260_MESH_D005076_1](db01260-mesh-d005076-1.html) | desonide | DB:DB01260 | MESH:D003898 | Exanthema | MESH:D005076 | 8 | 8 |
+| [DB01260_MESH_D016460_1](db01260-mesh-d016460-1.html) | desonide | DB:DB01260 | MESH:D003898 | Granuloma Annulare | MESH:D016460 | 8 | 8 |
+| [DB01260_MESH_D008179_1](db01260-mesh-d008179-1.html) | desonide | DB:DB01260 | MESH:D003898 | Lupus Erythematosus, Discoid | MESH:D008179 | 7 | 7 |
+| [DB01260_MESH_D016410_1](db01260-mesh-d016410-1.html) | desonide | DB:DB01260 | MESH:D003898 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 9 | 10 |
+| [DB01260_MESH_D009450_1](db01260-mesh-d009450-1.html) | desonide | DB:DB01260 | MESH:D003898 | Neurodermatitis | MESH:D009450 | 8 | 8 |
+| [DB01260_MESH_D010032_1](db01260-mesh-d010032-1.html) | desonide | DB:DB01260 | MESH:D003898 | Otitis Externa | MESH:D010032 | 9 | 10 |
+| [DB01260_MESH_D011538_1](db01260-mesh-d011538-1.html) | desonide | DB:DB01260 | MESH:D003898 | Pruritus Ani | MESH:D011538 | 9 | 9 |
+| [DB01260_MESH_D065631_1](db01260-mesh-d065631-1.html) | desonide | DB:DB01260 | MESH:D003898 | Rhinitis, Allergic | MESH:D065631 | 8 | 8 |
+| [DB00319_MESH_D012226_1](db00319-mesh-d012226-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB00319_MESH_D006069_1](db00319-mesh-d006069-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB00319_MESH_D004927_1](db00319-mesh-d004927-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB00319_MESH_D059413_1](db00319-mesh-d059413-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB00319_MESH_D018410_1](db00319-mesh-d018410-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB00319_MESH_D014552_1](db00319-mesh-d014552-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB00319_MESH_D013203_1](db00319-mesh-d013203-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB00319_MESH_D001064_1](db00319-mesh-d001064-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Appendicitis | MESH:D001064 | 6 | 5 |
+| [DB00319_MESH_D016868_1](db00319-mesh-d016868-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Serratia Infections | MESH:D016868 | 6 | 5 |
+| [DB00319_MESH_D004756_1](db00319-mesh-d004756-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB00319_MESH_D000077299_1](db00319-mesh-d000077299-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Healthcare-Associated Pneumonia | MESH:D000077299 | 6 | 5 |
+| [DB00319_MESH_D018784_1](db00319-mesh-d018784-1.html) | piperacillin | DB:DB00319 | MESH:D010878 | Abdominal abscess | MESH:D018784 | 6 | 5 |
+| [DB01607_MESH_D011023_1](db01607-mesh-d011023-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 5 |
+| [DB01607_MESH_D013203_1](db01607-mesh-d013203-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB01607_MESH_D004927_1](db01607-mesh-d004927-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB01607_MESH_D059413_1](db01607-mesh-d059413-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB01607_MESH_D014552_1](db01607-mesh-d014552-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB01607_MESH_D012226_1](db01607-mesh-d012226-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB01607_MESH_D016724_1](db01607-mesh-d016724-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Empyema, Pleural | MESH:D016724 | 6 | 5 |
+| [DB01607_MESH_D004756_1](db01607-mesh-d004756-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB01607_MESH_D016868_1](db01607-mesh-d016868-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Serratia Infections | MESH:D016868 | 6 | 5 |
+| [DB01607_MESH_D012488_1](db01607-mesh-d012488-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Salpingitis | MESH:D012488 | 6 | 5 |
+| [DB01607_MESH_D008169_1](db01607-mesh-d008169-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Lung Abscess | MESH:D008169 | 6 | 5 |
+| [DB01607_MESH_D018410_1](db01607-mesh-d018410-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB01607_MESH_D011015_1](db01607-mesh-d011015-1.html) | ticarcillin | DB:DB01607 | MESH:D013982 | Pneumonia, Aspiration | MESH:D011015 | 6 | 5 |
+| [DB00537_MESH_D018784_1](db00537-mesh-d018784-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Abdominal Abscess | MESH:D018784 | 6 | 6 |
+| [DB00537_MESH_D000881_1](db00537-mesh-d000881-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Anthrax | MESH:D000881 | 6 | 6 |
+| [DB00537_MESH_D002602_1](db00537-mesh-d002602-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Chancroid | MESH:D002602 | 6 | 6 |
+| [DB00537_MESH_D003234_1](db00537-mesh-d003234-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Conjunctivitis, Bacterial | MESH:D003234 | 6 | 6 |
+| [DB00537_MESH_D003556_1](db00537-mesh-d003556-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Cystitis | MESH:D003556 | 6 | 6 |
+| [DB00537_MESH_D004403_1](db00537-mesh-d004403-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Dysentery | MESH:D004403 | 6 | 6 |
+| [DB00537_MESH_D004405_1](db00537-mesh-d004405-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Dysentery, Bacillary | MESH:D004405 | 6 | 6 |
+| [DB00537_MESH_D004756_1](db00537-mesh-d004756-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 6 |
+| [DB00537_MESH_D004927_1](db00537-mesh-d004927-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Escherichia coli Infections | MESH:D004927 | 6 | 6 |
+| [DB00537_MESH_D000077299_1](db00537-mesh-d000077299-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Healthcare-Associated Pneumonia | MESH:D000077299 | 6 | 6 |
+| [DB00537_MESH_D059413_1](db00537-mesh-d059413-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Intraabdominal Infections | MESH:D059413 | 6 | 6 |
+| [DB00537_MESH_D010032_1](db00537-mesh-d010032-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Otitis Externa | MESH:D010032 | 6 | 6 |
+| [DB00537_MESH_D018410_1](db00537-mesh-d018410-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Pneumonia, Bacterial | MESH:D018410 | 6 | 6 |
+| [DB00537_MESH_D011018_1](db00537-mesh-d011018-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 6 |
+| [DB00537_MESH_D011472_1](db00537-mesh-d011472-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Prostatitis | MESH:D011472 | 6 | 6 |
+| [DB00537_MESH_D012226_1](db00537-mesh-d012226-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Rhinoscleroma | MESH:D012226 | 6 | 6 |
+| [DB00537_MESH_D013203_1](db00537-mesh-d013203-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Staphylococcal Infections | MESH:D013203 | 6 | 6 |
+| [DB00537_MESH_D013290_1](db00537-mesh-d013290-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Streptococcal Infections | MESH:D013290 | 6 | 6 |
+| [DB00537_MESH_D014435_1](db00537-mesh-d014435-1.html) | ciprofloxacin | DB:DB00537 | MESH:D002939 | Typhoid Fever | MESH:D014435 | 6 | 6 |
+| [DB00254_MESH_D000152_1](db00254-mesh-d000152-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Acne vulgaris | MESH:D000152 | 6 | 5 |
+| [DB00254_MESH_D000196_1](db00254-mesh-d000196-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Actinomycosis | MESH:D000196 | 6 | 5 |
+| [DB00254_MESH_D000881_1](db00254-mesh-d000881-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Anthrax | MESH:D000881 | 6 | 5 |
+| [DB00254_MESH_D001474_1](db00254-mesh-d001474-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Bartonella Infections | MESH:D001474 | 6 | 5 |
+| [DB00254_MESH_D001907_1](db00254-mesh-d001907-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Boutonneuse Fever | MESH:D001907 | 6 | 5 |
+| [DB00254_MESH_D001991_1](db00254-mesh-d001991-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Bronchitis | MESH:D001991 | 6 | 5 |
+| [DB00254_MESH_D002006_1](db00254-mesh-d002006-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Brucellosis | MESH:D002006 | 6 | 5 |
+| [DB00254_MESH_D002602_1](db00254-mesh-d002602-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Chancroid | MESH:D002602 | 6 | 5 |
+| [DB00254_MESH_D002690_1](db00254-mesh-d002690-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Chlamydia Infections | MESH:D002690 | 6 | 5 |
+| [DB00254_MESH_D002771_1](db00254-mesh-d002771-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Cholera | MESH:D002771 | 6 | 5 |
+| [DB00254_MESH_D003235_1](db00254-mesh-d003235-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Conjunctivitis, Inclusion | MESH:D003235 | 6 | 5 |
+| [DB00254_MESH_C531621_1](db00254-mesh-c531621-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Cutaneous anthrax | MESH:C531621 | 6 | 5 |
+| [DB00254_MESH_C571911_1](db00254-mesh-c571911-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Gastrointestinal anthrax | MESH:C571911 | 6 | 5 |
+| [DB00254_MESH_D006069_1](db00254-mesh-d006069-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB00254_MESH_D006100_1](db00254-mesh-d006100-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Granuloma Inguinale | MESH:D006100 | 6 | 5 |
+| [DB00254_MESH_C571912_1](db00254-mesh-c571912-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Inhalation anthrax | MESH:C571912 | 6 | 5 |
+| [DB00254_MESH_D008088_1](db00254-mesh-d008088-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Listeriosis | MESH:D008088 | 6 | 5 |
+| [DB00254_MESH_D008219_1](db00254-mesh-d008219-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Lymphogranuloma Venereum | MESH:D008219 | 6 | 5 |
+| [DB00254_MESH_D010612_1](db00254-mesh-d010612-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Pharyngitis | MESH:D010612 | 6 | 5 |
+| [DB00254_MESH_D018410_1](db00254-mesh-d018410-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB00254_MESH_D011019_1](db00254-mesh-d011019-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Pneumonia, Mycoplasma | MESH:D011019 | 6 | 5 |
+| [DB00254_MESH_D009956_1](db00254-mesh-d009956-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Psittacosis | MESH:D009956 | 6 | 5 |
+| [DB00254_MESH_D011778_1](db00254-mesh-d011778-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Q Fever | MESH:D011778 | 6 | 5 |
+| [DB00254_MESH_D012061_1](db00254-mesh-d012061-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Relapsing Fever | MESH:D012061 | 6 | 5 |
+| [DB00254_MESH_D012282_1](db00254-mesh-d012282-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Rickettsia Infections | MESH:D012282 | 6 | 5 |
+| [DB00254_MESH_D012373_1](db00254-mesh-d012373-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Rocky Mountain Spotted Fever | MESH:D012373 | 6 | 5 |
+| [DB00254_MESH_D012612_1](db00254-mesh-d012612-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Scrub Typhus | MESH:D012612 | 6 | 5 |
+| [DB00254_MESH_D012852_1](db00254-mesh-d012852-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Sinusitis | MESH:D012852 | 6 | 5 |
+| [DB00254_MESH_D000073605_1](db00254-mesh-d000073605-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Spotted Fever Group Rickettsiosis | MESH:D000073605 | 6 | 5 |
+| [DB00254_MESH_D013587_1](db00254-mesh-d013587-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Syphilis | MESH:D013587 | 6 | 5 |
+| [DB00254_MESH_D014141_1](db00254-mesh-d014141-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Trachoma | MESH:D014141 | 6 | 5 |
+| [DB00254_MESH_D014406_1](db00254-mesh-d014406-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Tularemia | MESH:D014406 | 6 | 5 |
+| [DB00254_MESH_D014437_1](db00254-mesh-d014437-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Typhus, Endemic Flea-Borne | MESH:D014437 | 6 | 5 |
+| [DB00254_MESH_D014438_1](db00254-mesh-d014438-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Typhus, Epidemic Louse-Borne | MESH:D014438 | 6 | 5 |
+| [DB00254_MESH_D015001_1](db00254-mesh-d015001-1.html) | doxycycline | DB:DB00254 | MESH:D004318 | Yaws | MESH:D015001 | 6 | 5 |
+| [DB09320_MESH_D013203_1](db09320-mesh-d013203-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Staphylococcal Infections | MESH:D013203 | 7 | 6 |
+| [DB09320_MESH_D013587_1](db09320-mesh-d013587-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Syphilis | MESH:D013587 | 7 | 6 |
+| [DB09320_MESH_D010612_1](db09320-mesh-d010612-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Pharyngitis | MESH:D010612 | 7 | 6 |
+| [DB09320_MESH_D013290_1](db09320-mesh-d013290-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Streptococcus pyogenes infection | MESH:D013290 | 7 | 6 |
+| [DB09320_MESH_D004165_1](db09320-mesh-d004165-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Diphtheria | MESH:D004165 | 7 | 6 |
+| [DB09320_MESH_C536773_1](db09320-mesh-c536773-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Secondary syphilis | MESH:C536773 | 7 | 6 |
+| [DB09320_MESH_D011018_1](db09320-mesh-d011018-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Pneumonia due to Streptococcus | MESH:D011018 | 7 | 6 |
+| [DB09320_MESH_D013592_1](db09320-mesh-d013592-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Latent syphilis | MESH:D013592 | 7 | 6 |
+| [DB09320_MESH_D012541_1](db09320-mesh-d012541-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Scarlet fever | MESH:D012541 | 7 | 6 |
+| [DB09320_MESH_D009494_1](db09320-mesh-d009494-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Neurosyphilis | MESH:D009494 | 7 | 6 |
+| [DB09320_MESH_D014211_1](db09320-mesh-d014211-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Treponemal Infections | MESH:D014211 | 7 | 6 |
+| [DB09320_MESH_D004697_1](db09320-mesh-d004697-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Endocarditis, Bacterial | MESH:D004697 | 7 | 6 |
+| [DB09320_MESH_D011906_1](db09320-mesh-d011906-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Rat-Bite Fever | MESH:D011906 | 7 | 6 |
+| [DB09320_MESH_D000881_1](db09320-mesh-d000881-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Anthrax | MESH:D000881 | 7 | 6 |
+| [DB09320_MESH_D004887_1](db09320-mesh-d004887-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Erysipeloid | MESH:D004887 | 7 | 6 |
+| [DB09320_MESH_D013590_1](db09320-mesh-d013590-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Congenital syphilis | MESH:D013590 | 7 | 6 |
+| [DB09320_MESH_D010874_1](db09320-mesh-d010874-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Pinta | MESH:D010874 | 7 | 6 |
+| [DB09320_MESH_D015001_1](db09320-mesh-d015001-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Yaws | MESH:D015001 | 7 | 6 |
+| [DB09320_MESH_D004886_1](db09320-mesh-d004886-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Erysipelas | MESH:D004886 | 7 | 6 |
+| [DB09320_MESH_C536774_1](db09320-mesh-c536774-1.html) | Procaine benzylpenicillin | DB:DB09320 | MESH:D010402 | Late syphilis | MESH:C536774 | 7 | 6 |
+| [DB13092_MESH_D001991_1](db13092-mesh-d001991-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Bronchitis | MESH:D001991 | 6 | 5 |
+| [DB13092_MESH_D010612_1](db13092-mesh-d010612-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Pharyngitis | MESH:D010612 | 6 | 5 |
+| [DB13092_MESH_D012852_1](db13092-mesh-d012852-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Sinusitis | MESH:D012852 | 6 | 5 |
+| [DB13092_MESH_D013587_1](db13092-mesh-d013587-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Syphilis | MESH:D013587 | 6 | 5 |
+| [DB13092_MESH_D011014_1](db13092-mesh-d011014-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Pneumonia | MESH:D011014 | 6 | 5 |
+| [DB13092_MESH_D000073605_1](db13092-mesh-d000073605-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Rickettsialpox | MESH:D000073605 | 6 | 5 |
+| [DB13092_MESH_D011778_1](db13092-mesh-d011778-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Q fever | MESH:D011778 | 6 | 5 |
+| [DB13092_MESH_D009956_1](db13092-mesh-d009956-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Ornithosis | MESH:D009956 | 6 | 5 |
+| [DB13092_MESH_D006069_1](db13092-mesh-d006069-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB13092_MESH_D008219_1](db13092-mesh-d008219-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Lymphogranuloma venereum | MESH:D008219 | 6 | 5 |
+| [DB13092_MESH_D006100_1](db13092-mesh-d006100-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Granuloma inguinale | MESH:D006100 | 6 | 5 |
+| [DB13092_MESH_D013203_1](db13092-mesh-d013203-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Infection due to Staphylococcus aureus | MESH:D013203 | 6 | 5 |
+| [DB13092_MESH_D000196_1](db13092-mesh-d000196-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Actinomycotic infection | MESH:D000196 | 6 | 5 |
+| [DB13092_MESH_D014552_1](db13092-mesh-d014552-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Urinary tract infectious disease | MESH:D014552 | 6 | 5 |
+| [DB13092_MESH_D000152_1](db13092-mesh-d000152-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Acne vulgaris | MESH:D000152 | 6 | 5 |
+| [DB13092_MESH_D000881_1](db13092-mesh-d000881-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Anthrax | MESH:D000881 | 6 | 5 |
+| [DB13092_MESH_D002602_1](db13092-mesh-d002602-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Chancroid | MESH:D002602 | 6 | 5 |
+| [DB13092_MESH_D015001_1](db13092-mesh-d015001-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Yaws | MESH:D015001 | 6 | 5 |
+| [DB13092_MESH_D003235_1](db13092-mesh-d003235-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Inclusion conjunctivitis | MESH:D003235 | 6 | 5 |
+| [DB13092_MESH_D002006_1](db13092-mesh-d002006-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Brucellosis | MESH:D002006 | 6 | 5 |
+| [DB13092_MESH_D012061_1](db13092-mesh-d012061-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Relapsing fever | MESH:D012061 | 6 | 5 |
+| [DB13092_MESH_D014141_1](db13092-mesh-d014141-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Trachoma | MESH:D014141 | 6 | 5 |
+| [DB13092_MESH_D012373_1](db13092-mesh-d012373-1.html) | meclocycline | DB:DB13092 | MESH:C100122 | Rocky Mountain spotted fever | MESH:D012373 | 6 | 5 |
+| [DB01212_MESH_D001170_1](db01212-mesh-d001170-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Arthritis, Infectious | MESH:D001170 | 6 | 5 |
+| [DB01212_MESH_D002602_1](db01212-mesh-d002602-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Chancroid | MESH:D002602 | 6 | 5 |
+| [DB01212_MESH_D004716_1](db01212-mesh-d004716-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Endometritis | MESH:D004716 | 6 | 5 |
+| [DB01212_MESH_D004756_1](db01212-mesh-d004756-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB01212_MESH_D004927_1](db01212-mesh-d004927-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB01212_MESH_D006069_2](db01212-mesh-d006069-2.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB01212_MESH_D059413_1](db01212-mesh-d059413-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB01212_MESH_D016920_1](db01212-mesh-d016920-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Meningitis, Bacterial | MESH:D016920 | 6 | 5 |
+| [DB01212_MESH_D020814_1](db01212-mesh-d020814-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Meningitis, Escherichia coli | MESH:D020814 | 6 | 5 |
+| [DB01212_MESH_D008585_1](db01212-mesh-d008585-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Meningitis, Meningococcal | MESH:D008585 | 6 | 5 |
+| [DB01212_MESH_D008586_1](db01212-mesh-d008586-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Meningitis, Pneumococcal | MESH:D008586 | 6 | 5 |
+| [DB01212_MESH_D018410_1](db01212-mesh-d018410-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB01212_MESH_D011018_1](db01212-mesh-d011018-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB01212_MESH_D011023_1](db01212-mesh-d011023-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 5 |
+| [DB01212_MESH_D012226_1](db01212-mesh-d012226-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB01212_MESH_D016868_1](db01212-mesh-d016868-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Serratia Infections | MESH:D016868 | 6 | 5 |
+| [DB01212_MESH_D013290_1](db01212-mesh-d013290-1.html) | ceftriaxone | DB:DB01212 | MESH:D002443 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB00997_MESH_C554498_1](db00997-mesh-c554498-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | AIDS-related Kaposi sarcoma | MESH:C554498 | 8 | 9 |
+| [DB00997_MESH_D001943_1](db00997-mesh-d001943-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Breast Neoplasms | MESH:D001943 | 9 | 10 |
+| [DB00997_MESH_D002051_1](db00997-mesh-d002051-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Burkitt Lymphoma | MESH:D002051 | 9 | 10 |
+| [DB00997_MESH_D006689_1](db00997-mesh-d006689-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Hodgkin Disease | MESH:D006689 | 9 | 10 |
+| [DB00997_MESH_D015470_1](db00997-mesh-d015470-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Leukemia, Myeloid, Acute | MESH:D015470 | 9 | 10 |
+| [DB00997_MESH_D008175_1](db00997-mesh-d008175-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Lung Neoplasms | MESH:D008175 | 9 | 10 |
+| [DB00997_MESH_D008224_1](db00997-mesh-d008224-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Lymphoma, Follicular | MESH:D008224 | 9 | 10 |
+| [DB00997_MESH_D016403_1](db00997-mesh-d016403-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Lymphoma, Large B-Cell, Diffuse | MESH:D016403 | 9 | 10 |
+| [DB00997_MESH_D008228_1](db00997-mesh-d008228-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Lymphoma, Non-Hodgkin | MESH:D008228 | 9 | 10 |
+| [DB00997_MESH_D009101_1](db00997-mesh-d009101-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Multiple Myeloma | MESH:D009101 | 9 | 10 |
+| [DB00997_MESH_D009447_1](db00997-mesh-d009447-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Neuroblastoma | MESH:D009447 | 8 | 9 |
+| [DB00997_MESH_D010051_1](db00997-mesh-d010051-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Ovarian Neoplasms | MESH:D010051 | 9 | 10 |
+| [DB00997_MESH_D012514_1](db00997-mesh-d012514-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Sarcoma, Kaposi | MESH:D012514 | 8 | 9 |
+| [DB00997_MESH_D055752_1](db00997-mesh-d055752-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Small Cell Lung Carcinoma | MESH:D055752 | 9 | 10 |
+| [DB00997_MESH_D009396_1](db00997-mesh-d009396-1.html) | doxorubicin | DB:DB00997 | MESH:D004317 | Wilms Tumor | MESH:D009396 | 9 | 10 |
+| [DB00741_MESH_D000152_1](db00741-mesh-d000152-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Acne Vulgaris | MESH:D000152 | 10 | 12 |
+| [DB00741_MESH_D000224_1](db00741-mesh-d000224-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Addison Disease | MESH:D000224 | 3 | 2 |
+| [DB00741_MESH_D000312_1](db00741-mesh-d000312-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Adrenal Hyperplasia, Congenital | MESH:D000312 | 2 | 1 |
+| [DB00741_MESH_D000309_1](db00741-mesh-d000309-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Adrenal Insufficiency | MESH:D000309 | 3 | 2 |
+| [DB00741_MESH_D029503_1](db00741-mesh-d029503-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Anemia, Diamond-Blackfan | MESH:D029503 | 11 | 13 |
+| [DB00741_MESH_D000744_1](db00741-mesh-d000744-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Anemia, Hemolytic, Autoimmune | MESH:D000744 | 12 | 14 |
+| [DB00741_MESH_D000799_1](db00741-mesh-d000799-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Angioedema | MESH:D000799 | 11 | 13 |
+| [DB00741_MESH_D013167_1](db00741-mesh-d013167-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Ankylosing spondylitis | MESH:D013167 | 12 | 14 |
+| [DB00741_MESH_D015210_1](db00741-mesh-d015210-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Arthritis, Gouty | MESH:D015210 | 12 | 14 |
+| [DB00741_MESH_D015535_1](db00741-mesh-d015535-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Arthritis, Psoriatic | MESH:D015535 | 12 | 14 |
+| [DB00741_MESH_D001172_1](db00741-mesh-d001172-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Arthritis, Rheumatoid | MESH:D001172 | 12 | 14 |
+| [DB00741_MESH_D001249_1](db00741-mesh-d001249-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Asthma | MESH:D001249 | 12 | 14 |
+| [DB00741_MESH_D001327_1](db00741-mesh-d001327-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Autoimmune Diseases | MESH:D001327 | 12 | 14 |
+| [DB00741_MESH_D001607_1](db00741-mesh-d001607-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Berylliosis | MESH:D001607 | 12 | 14 |
+| [DB00741_MESH_D001929_1](db00741-mesh-d001929-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Brain Edema | MESH:D001929 | 12 | 14 |
+| [DB00741_MESH_D002062_1](db00741-mesh-d002062-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Bursitis | MESH:D002062 | 12 | 14 |
+| [DB00741_MESH_D003093_1](db00741-mesh-d003093-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Colitis, Ulcerative | MESH:D003093 | 11 | 13 |
+| [DB00741_MESH_D003233_1](db00741-mesh-d003233-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Conjunctivitis, Allergic | MESH:D003233 | 11 | 13 |
+| [DB00741_MESH_D003320_1](db00741-mesh-d003320-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Corneal Ulcer | MESH:D003320 | 11 | 13 |
+| [DB00741_MESH_D003424_1](db00741-mesh-d003424-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Crohn Disease | MESH:D003424 | 11 | 13 |
+| [DB00741_MESH_D003876_1](db00741-mesh-d003876-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Dermatitis, Atopic | MESH:D003876 | 12 | 14 |
+| [DB00741_MESH_D003877_1](db00741-mesh-d003877-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Dermatitis, Contact | MESH:D003877 | 12 | 14 |
+| [DB00741_MESH_D003873_1](db00741-mesh-d003873-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Dermatitis, Exfoliative | MESH:D003873 | 12 | 14 |
+| [DB00741_MESH_D003874_1](db00741-mesh-d003874-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Dermatitis Herpetiformis | MESH:D003874 | 12 | 14 |
+| [DB00741_MESH_D012628_1](db00741-mesh-d012628-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Dermatitis, Seborrheic | MESH:D012628 | 11 | 13 |
+| [DB00741_MESH_D004892_1](db00741-mesh-d004892-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Erythema Multiforme | MESH:D004892 | 11 | 13 |
+| [DB00741_MESH_D005076_1](db00741-mesh-d005076-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Exanthema | MESH:D005076 | 12 | 14 |
+| [DB00741_MESH_D005128_1](db00741-mesh-d005128-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Eye Diseases | MESH:D005128 | 11 | 13 |
+| [DB00741_MESH_D016460_1](db00741-mesh-d016460-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Granuloma Annulare | MESH:D016460 | 11 | 13 |
+| [DB00741_MESH_D006484_1](db00741-mesh-d006484-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Hemorrhoids | MESH:D006484 | 12 | 14 |
+| [DB00741_MESH_D006689_1](db00741-mesh-d006689-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Hodgkin Disease | MESH:D006689 | 11 | 13 |
+| [DB00741_MESH_C562390_1](db00741-mesh-c562390-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 7 | 6 |
+| [DB00741_MESH_D015212_1](db00741-mesh-d015212-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Inflammatory Bowel Diseases | MESH:D015212 | 11 | 13 |
+| [DB00741_MESH_D015863_1](db00741-mesh-d015863-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Iridocyclitis | MESH:D015863 | 11 | 13 |
+| [DB00741_MESH_D007500_1](db00741-mesh-d007500-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Iritis | MESH:D007500 | 11 | 13 |
+| [DB00741_MESH_D007634_1](db00741-mesh-d007634-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Keratitis | MESH:D007634 | 11 | 13 |
+| [DB00741_MESH_D007819_1](db00741-mesh-d007819-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Laryngeal Edema | MESH:D007819 | 11 | 13 |
+| [DB00741_MESH_D008179_1](db00741-mesh-d008179-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Lupus Erythematosus, Discoid | MESH:D008179 | 11 | 13 |
+| [DB00741_MESH_D008180_1](db00741-mesh-d008180-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Lupus Erythematosus, Systemic | MESH:D008180 | 12 | 14 |
+| [DB00741_MESH_D008228_1](db00741-mesh-d008228-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Lymphoma, Non-Hodgkin | MESH:D008228 | 12 | 14 |
+| [DB00741_MESH_D016410_1](db00741-mesh-d016410-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 12 | 15 |
+| [DB00741_MESH_D009103_1](db00741-mesh-d009103-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Multiple Sclerosis | MESH:D009103 | 12 | 15 |
+| [DB00741_MESH_D009140_1](db00741-mesh-d009140-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Musculoskeletal Diseases | MESH:D009140 | 12 | 14 |
+| [DB00741_MESH_D009182_1](db00741-mesh-d009182-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Mycosis Fungoides | MESH:D009182 | 12 | 14 |
+| [DB00741_MESH_D009404_1](db00741-mesh-d009404-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Nephrotic Syndrome | MESH:D009404 | 10 | 12 |
+| [DB00741_MESH_D009450_1](db00741-mesh-d009450-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Neurodermatitis | MESH:D009450 | 11 | 13 |
+| [DB00741_MESH_D010032_1](db00741-mesh-d010032-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Otitis Externa | MESH:D010032 | 12 | 15 |
+| [DB00741_MESH_D010392_1](db00741-mesh-d010392-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Pemphigus | MESH:D010392 | 12 | 14 |
+| [DB00741_MESH_D011015_1](db00741-mesh-d011015-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Pneumonia, Aspiration | MESH:D011015 | 12 | 14 |
+| [DB00741_MESH_D011349_1](db00741-mesh-d011349-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Proctitis | MESH:D011349 | 11 | 13 |
+| [DB00741_MESH_D011538_1](db00741-mesh-d011538-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Pruritus Ani | MESH:D011538 | 13 | 15 |
+| [DB00741_MESH_D011565_1](db00741-mesh-d011565-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Psoriasis | MESH:D011565 | 12 | 14 |
+| [DB00741_MESH_D011657_1](db00741-mesh-d011657-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Pulmonary Eosinophilia | MESH:D011657 | 11 | 13 |
+| [DB00741_MESH_D012214_1](db00741-mesh-d012214-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Rheumatic Heart Disease | MESH:D012214 | 11 | 13 |
+| [DB00741_MESH_D065631_1](db00741-mesh-d065631-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Rhinitis, Allergic | MESH:D065631 | 12 | 14 |
+| [DB00741_MESH_D012393_1](db00741-mesh-d012393-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Rosacea | MESH:D012393 | 11 | 13 |
+| [DB00741_MESH_D012507_1](db00741-mesh-d012507-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Sarcoidosis | MESH:D012507 | 11 | 13 |
+| [DB00741_MESH_D012713_1](db00741-mesh-d012713-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Serum Sickness | MESH:D012713 | 13 | 16 |
+| [DB00741_MESH_D013281_1](db00741-mesh-d013281-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Stomatitis, Aphthous | MESH:D013281 | 11 | 13 |
+| [DB00741_MESH_D013585_1](db00741-mesh-d013585-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Synovitis | MESH:D013585 | 12 | 14 |
+| [DB00741_MESH_D052256_1](db00741-mesh-d052256-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Tendinopathy | MESH:D052256 | 13 | 15 |
+| [DB00741_MESH_D013717_1](db00741-mesh-d013717-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Tenosynovitis | MESH:D013717 | 11 | 13 |
+| [DB00741_MESH_D013966_1](db00741-mesh-d013966-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Thyroiditis | MESH:D013966 | 12 | 14 |
+| [DB00741_MESH_D014008_1](db00741-mesh-d014008-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Tinea Pedis | MESH:D014008 | 11 | 13 |
+| [DB00741_MESH_D014235_1](db00741-mesh-d014235-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Trichinellosis | MESH:D014235 | 11 | 13 |
+| [DB00741_MESH_D014605_1](db00741-mesh-d014605-1.html) | hydrocortisone | DB:DB00741 | MESH:D006854 | Uveitis | MESH:D014605 | 11 | 13 |
+| [DB00684_MESH_D003234_1](db00684-mesh-d003234-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Conjunctivitis, Bacterial | MESH:D003234 | 7 | 7 |
+| [DB00684_MESH_D003607_1](db00684-mesh-d003607-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Dacryocystitis | MESH:D003607 | 7 | 7 |
+| [DB00684_MESH_D004756_1](db00684-mesh-d004756-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Enterobacteriaceae Infections | MESH:D004756 | 7 | 7 |
+| [DB00684_MESH_D004927_1](db00684-mesh-d004927-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Escherichia coli Infections | MESH:D004927 | 7 | 7 |
+| [DB00684_MESH_D000077299_1](db00684-mesh-d000077299-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Healthcare-Associated Pneumonia | MESH:D000077299 | 7 | 7 |
+| [DB00684_MESH_D007637_1](db00684-mesh-d007637-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Keratoconjunctivitis | MESH:D007637 | 7 | 7 |
+| [DB00684_MESH_D016920_1](db00684-mesh-d016920-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Meningitis, Bacterial | MESH:D016920 | 7 | 7 |
+| [DB00684_MESH_D000071074_1](db00684-mesh-d000071074-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Neonatal Sepsis | MESH:D000071074 | 7 | 7 |
+| [DB00684_MESH_D011023_1](db00684-mesh-d011023-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Pneumonia, Staphylococcal | MESH:D011023 | 7 | 7 |
+| [DB00684_MESH_D012226_1](db00684-mesh-d012226-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Rhinoscleroma | MESH:D012226 | 7 | 7 |
+| [DB00684_MESH_D012393_1](db00684-mesh-d012393-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Rosacea | MESH:D012393 | 7 | 7 |
+| [DB00684_MESH_D016868_1](db00684-mesh-d016868-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Serratia Infections | MESH:D016868 | 7 | 7 |
+| [DB00684_MESH_D013203_1](db00684-mesh-d013203-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Staphylococcal Infections | MESH:D013203 | 7 | 7 |
+| [DB00684_MESH_D014605_1](db00684-mesh-d014605-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Uveitis | MESH:D014605 | 7 | 7 |
+| [DB00684_MESH_D014606_1](db00684-mesh-d014606-1.html) | tobramycin | DB:DB00684 | MESH:D014031 | Uveitis, Anterior | MESH:D014606 | 7 | 7 |
+| [DB00479_MESH_D002761_1](db00479-mesh-d002761-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Cholangitis | MESH:D002761 | 7 | 7 |
+| [DB00479_MESH_D004756_1](db00479-mesh-d004756-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Enterobacteriaceae Infections | MESH:D004756 | 7 | 7 |
+| [DB00479_MESH_D004927_1](db00479-mesh-d004927-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Escherichia coli Infections | MESH:D004927 | 7 | 7 |
+| [DB00479_MESH_D000077299_1](db00479-mesh-d000077299-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Healthcare-Associated Pneumonia | MESH:D000077299 | 7 | 7 |
+| [DB00479_MESH_D059413_1](db00479-mesh-d059413-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Intraabdominal Infections | MESH:D059413 | 7 | 7 |
+| [DB00479_MESH_D016920_2](db00479-mesh-d016920-2.html) | amikacin | DB:DB00479 | MESH:D000583 | Meningitis, Bacterial | MESH:D016920 | 7 | 7 |
+| [DB00479_MESH_D020814_1](db00479-mesh-d020814-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Meningitis, Escherichia coli | MESH:D020814 | 7 | 7 |
+| [DB00479_MESH_D000071074_1](db00479-mesh-d000071074-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Neonatal Sepsis | MESH:D000071074 | 7 | 7 |
+| [DB00479_MESH_D010019_1](db00479-mesh-d010019-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Osteomyelitis | MESH:D010019 | 7 | 7 |
+| [DB00479_MESH_D018410_1](db00479-mesh-d018410-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Pneumonia, Bacterial | MESH:D018410 | 7 | 7 |
+| [DB00479_MESH_D011023_1](db00479-mesh-d011023-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Pneumonia, Staphylococcal | MESH:D011023 | 7 | 7 |
+| [DB00479_MESH_D012226_1](db00479-mesh-d012226-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Rhinoscleroma | MESH:D012226 | 7 | 7 |
+| [DB00479_MESH_D016868_1](db00479-mesh-d016868-1.html) | amikacin | DB:DB00479 | MESH:D000583 | Serratia Infections | MESH:D016868 | 7 | 7 |
+| [DB01331_MESH_D018784_1](db01331-mesh-d018784-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Abdominal Abscess | MESH:D018784 | 6 | 5 |
+| [DB01331_MESH_D004716_1](db01331-mesh-d004716-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Endometritis | MESH:D004716 | 6 | 5 |
+| [DB01331_MESH_D004927_1](db01331-mesh-d004927-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB01331_MESH_D006069_1](db01331-mesh-d006069-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB01331_MESH_D059413_1](db01331-mesh-d059413-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB01331_MESH_D008169_1](db01331-mesh-d008169-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Lung Abscess | MESH:D008169 | 6 | 5 |
+| [DB01331_MESH_D011023_1](db01331-mesh-d011023-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 5 |
+| [DB01331_MESH_D018410_1](db01331-mesh-d018410-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB01331_MESH_D011018_1](db01331-mesh-d011018-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB01331_MESH_D012226_1](db01331-mesh-d012226-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB01331_MESH_D013203_1](db01331-mesh-d013203-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB01331_MESH_D013290_1](db01331-mesh-d013290-1.html) | cefoxitin | DB:DB01331 | MESH:D002440 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB00218_MESH_D018784_1](db00218-mesh-d018784-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Abdominal Abscess | MESH:D018784 | 6 | 6 |
+| [DB00218_MESH_D061387_1](db00218-mesh-d061387-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Chlamydial Pneumonia | MESH:D061387 | 6 | 6 |
+| [DB00218_MESH_D003234_1](db00218-mesh-d003234-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Conjunctivitis, Bacterial | MESH:D003234 | 6 | 6 |
+| [DB00218_MESH_D004756_1](db00218-mesh-d004756-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 6 |
+| [DB00218_MESH_D059413_1](db00218-mesh-d059413-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Intraabdominal Infections | MESH:D059413 | 6 | 6 |
+| [DB00218_MESH_D007710_1](db00218-mesh-d007710-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Klebsiella Infections | MESH:D007710 | 6 | 6 |
+| [DB00218_MESH_D010930_1](db00218-mesh-d010930-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Plague | MESH:D010930 | 6 | 6 |
+| [DB00218_MESH_D018410_1](db00218-mesh-d018410-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Pneumonia, Bacterial | MESH:D018410 | 6 | 6 |
+| [DB00218_MESH_D011019_1](db00218-mesh-d011019-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Pneumonia, Mycoplasma | MESH:D011019 | 6 | 6 |
+| [DB00218_MESH_D011018_1](db00218-mesh-d011018-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 6 |
+| [DB00218_MESH_D011023_1](db00218-mesh-d011023-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 6 |
+| [DB00218_MESH_D012226_1](db00218-mesh-d012226-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Rhinoscleroma | MESH:D012226 | 6 | 6 |
+| [DB00218_MESH_D013203_1](db00218-mesh-d013203-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Staphylococcal Infections | MESH:D013203 | 6 | 6 |
+| [DB00218_MESH_D013290_1](db00218-mesh-d013290-1.html) | moxifloxacin | DB:DB00218 | MESH:D000077266 | Streptococcal Infections | MESH:D013290 | 6 | 6 |
+| [DB00788_MESH_D018771_1](db00788-mesh-d018771-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Arthralgia | MESH:D018771 | 7 | 7 |
+| [DB00788_MESH_D001171_1](db00788-mesh-d001171-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Arthritis, Juvenile | MESH:D001171 | 7 | 7 |
+| [DB00788_MESH_D001172_1](db00788-mesh-d001172-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Arthritis, Rheumatoid | MESH:D001172 | 7 | 7 |
+| [DB00788_MESH_D002062_1](db00788-mesh-d002062-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Bursitis | MESH:D002062 | 7 | 7 |
+| [DB00788_MESH_D004412_1](db00788-mesh-d004412-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Dysmenorrhea | MESH:D004412 | 7 | 7 |
+| [DB00788_MESH_D005334_1](db00788-mesh-d005334-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Fever | MESH:D005334 | 6 | 6 |
+| [DB00788_MESH_D006073_1](db00788-mesh-d006073-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Gout | MESH:D006073 | 7 | 7 |
+| [DB00788_MESH_D020773_1](db00788-mesh-d020773-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Headache Disorders | MESH:D020773 | 7 | 7 |
+| [DB00788_MESH_D008881_1](db00788-mesh-d008881-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Migraine Disorders | MESH:D008881 | 7 | 7 |
+| [DB00788_MESH_D063806_1](db00788-mesh-d063806-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Myalgia | MESH:D063806 | 7 | 7 |
+| [DB00788_MESH_D010003_1](db00788-mesh-d010003-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Osteoarthritis | MESH:D010003 | 7 | 7 |
+| [DB00788_MESH_D010146_2](db00788-mesh-d010146-2.html) | naproxen | DB:DB00788 | MESH:D009288 | Pain | MESH:D010146 | 6 | 6 |
+| [DB00788_MESH_D013167_1](db00788-mesh-d013167-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Spondylitis, Ankylosing | MESH:D013167 | 7 | 7 |
+| [DB00788_MESH_D052256_1](db00788-mesh-d052256-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Tendinopathy | MESH:D052256 | 7 | 7 |
+| [DB00788_MESH_D014098_1](db00788-mesh-d014098-1.html) | naproxen | DB:DB00788 | MESH:D009288 | Toothache | MESH:D014098 | 7 | 7 |
+| [DB01332_MESH_D004756_1](db01332-mesh-d004756-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB01332_MESH_D004927_1](db01332-mesh-d004927-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB01332_MESH_D006069_1](db01332-mesh-d006069-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Gonorrhea | MESH:D006069 | 6 | 5 |
+| [DB01332_MESH_D059413_1](db01332-mesh-d059413-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB01332_MESH_D008581_1](db01332-mesh-d008581-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Meningitis | MESH:D008581 | 6 | 5 |
+| [DB01332_MESH_D011014_1](db01332-mesh-d011014-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Pneumonia | MESH:D011014 | 6 | 5 |
+| [DB01332_MESH_D011018_1](db01332-mesh-d011018-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB01332_MESH_D011023_1](db01332-mesh-d011023-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 5 |
+| [DB01332_MESH_D012226_1](db01332-mesh-d012226-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB01332_MESH_D016868_1](db01332-mesh-d016868-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Serratia Infections | MESH:D016868 | 6 | 5 |
+| [DB01332_MESH_D013203_1](db01332-mesh-d013203-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB01332_MESH_D013290_1](db01332-mesh-d013290-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Streptococcal Infections | MESH:D013290 | 6 | 5 |
+| [DB01332_MESH_D014552_1](db01332-mesh-d014552-1.html) | ceftizoxime | DB:DB01332 | MESH:D015296 | Urinary Tract Infections | MESH:D014552 | 6 | 5 |
+| [DB01620_MESH_D003139_1](db01620-mesh-d003139-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Common Cold | MESH:D003139 | 7 | 6 |
+| [DB01620_MESH_D003233_1](db01620-mesh-d003233-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Conjunctivitis, Allergic | MESH:D003233 | 7 | 6 |
+| [DB01620_MESH_D003371_1](db01620-mesh-d003371-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Cough | MESH:D003371 | 6 | 5 |
+| [DB01620_MESH_D005334_1](db01620-mesh-d005334-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Fever | MESH:D005334 | 7 | 6 |
+| [DB01620_MESH_D020773_1](db01620-mesh-d020773-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Headache Disorders | MESH:D020773 | 7 | 6 |
+| [DB01620_MESH_D010612_1](db01620-mesh-d010612-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Pharyngitis | MESH:D010612 | 7 | 6 |
+| [DB01620_MESH_D011537_1](db01620-mesh-d011537-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Pruritus | MESH:D011537 | 6 | 5 |
+| [DB01620_MESH_D065631_1](db01620-mesh-d065631-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Rhinitis, Allergic | MESH:D065631 | 7 | 6 |
+| [DB01620_MESH_D006255_1](db01620-mesh-d006255-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 7 | 6 |
+| [DB01620_MESH_D012912_1](db01620-mesh-d012912-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Sneezing | MESH:D012912 | 6 | 5 |
+| [DB01620_MESH_D014581_1](db01620-mesh-d014581-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Urticaria | MESH:D014581 | 7 | 6 |
+| [DB01620_MESH_D012223_1](db01620-mesh-d012223-1.html) | pheniramine | DB:DB01620 | MESH:D010632 | Rhinitis, Vasomotor | MESH:D012223 | 7 | 6 |
+| [DB01026_MESH_D000308_1](db01026-mesh-d000308-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Adrenocortical Hyperfunction | MESH:D000308 | 5 | 4 |
+| [DB01026_MESH_D001759_1](db01026-mesh-d001759-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Blastomycosis | MESH:D001759 | 6 | 5 |
+| [DB01026_MESH_D002179_1](db01026-mesh-d002179-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Candidiasis, Cutaneous | MESH:D002179 | 6 | 5 |
+| [DB01026_MESH_D002180_1](db01026-mesh-d002180-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Candidiasis, Oral | MESH:D002180 | 6 | 5 |
+| [DB01026_MESH_D002862_1](db01026-mesh-d002862-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Chromoblastomycosis | MESH:D002862 | 6 | 5 |
+| [DB01026_MESH_D003047_1](db01026-mesh-d003047-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Coccidioidomycosis | MESH:D003047 | 6 | 5 |
+| [DB01026_MESH_D012628_1](db01026-mesh-d012628-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Dermatitis, Seborrheic | MESH:D012628 | 6 | 5 |
+| [DB01026_MESH_D006660_1](db01026-mesh-d006660-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Histoplasmosis | MESH:D006660 | 6 | 5 |
+| [DB01026_MESH_D010229_1](db01026-mesh-d010229-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Paracoccidioidomycosis | MESH:D010229 | 6 | 5 |
+| [DB01026_MESH_C536777_1](db01026-mesh-c536777-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Systemic candidiasis | MESH:C536777 | 6 | 5 |
+| [DB01026_MESH_D014008_1](db01026-mesh-d014008-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Tinea Pedis | MESH:D014008 | 6 | 5 |
+| [DB01026_MESH_D014010_1](db01026-mesh-d014010-1.html) | ketoconazole | DB:DB01026 | MESH:D007654 | Tinea Versicolor | MESH:D014010 | 6 | 5 |
+| [DB00420_MESH_D000799_1](db00420-mesh-d000799-1.html) | promazine | DB:DB00420 | MESH:D011395 | Angioedema | MESH:D000799 | 7 | 6 |
+| [DB00420_MESH_D019958_1](db00420-mesh-d019958-1.html) | promazine | DB:DB00420 | MESH:D011395 | Attention Deficit and Disruptive Behavior Disorders | MESH:D019958 | 7 | 7 |
+| [DB00420_MESH_D003233_1](db00420-mesh-d003233-1.html) | promazine | DB:DB00420 | MESH:D011395 | Conjunctivitis, Allergic | MESH:D003233 | 7 | 6 |
+| [DB00420_MESH_D009325_1](db00420-mesh-d009325-1.html) | promazine | DB:DB00420 | MESH:D011395 | Nausea | MESH:D009325 | 11 | 12 |
+| [DB00420_MESH_D017118_1](db00420-mesh-d017118-1.html) | promazine | DB:DB00420 | MESH:D011395 | Porphyria, Acute Intermittent | MESH:D017118 | 12 | 13 |
+| [DB00420_MESH_D011537_1](db00420-mesh-d011537-1.html) | promazine | DB:DB00420 | MESH:D011395 | Pruritus | MESH:D011537 | 6 | 5 |
+| [DB00420_MESH_D011618_1](db00420-mesh-d011618-1.html) | promazine | DB:DB00420 | MESH:D011395 | Psychotic Disorders | MESH:D011618 | 7 | 7 |
+| [DB00420_MESH_D065631_1](db00420-mesh-d065631-1.html) | promazine | DB:DB00420 | MESH:D011395 | Rhinitis, Allergic | MESH:D065631 | 7 | 6 |
+| [DB00420_MESH_D012559_1](db00420-mesh-d012559-1.html) | promazine | DB:DB00420 | MESH:D011395 | Schizophrenia | MESH:D012559 | 7 | 7 |
+| [DB00420_MESH_D012912_1](db00420-mesh-d012912-1.html) | promazine | DB:DB00420 | MESH:D011395 | Sneezing | MESH:D012912 | 6 | 5 |
+| [DB00420_MESH_D014581_1](db00420-mesh-d014581-1.html) | promazine | DB:DB00420 | MESH:D011395 | Urticaria | MESH:D014581 | 7 | 6 |
+| [DB00420_MESH_D014839_1](db00420-mesh-d014839-1.html) | promazine | DB:DB00420 | MESH:D011395 | Vomiting | MESH:D014839 | 11 | 12 |
+| [DB00916_MESH_D018784_1](db00916-mesh-d018784-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Abdominal Abscess | MESH:D018784 | 5 | 4 |
+| [DB00916_MESH_D001922_1](db00916-mesh-d001922-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Brain Abscess | MESH:D001922 | 5 | 4 |
+| [DB00916_MESH_D004697_1](db00916-mesh-d004697-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Endocarditis, Bacterial | MESH:D004697 | 5 | 4 |
+| [DB00916_MESH_D004716_1](db00916-mesh-d004716-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Endometritis | MESH:D004716 | 5 | 4 |
+| [DB00916_MESH_D005873_1](db00916-mesh-d005873-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Giardiasis | MESH:D005873 | 5 | 4 |
+| [DB00916_MESH_D059413_1](db00916-mesh-d059413-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Intraabdominal Infections | MESH:D059413 | 5 | 4 |
+| [DB00916_MESH_D008100_1](db00916-mesh-d008100-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Liver Abscess | MESH:D008100 | 5 | 4 |
+| [DB00916_MESH_D008101_1](db00916-mesh-d008101-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Liver Abscess, Amebic | MESH:D008101 | 5 | 4 |
+| [DB00916_MESH_D012393_1](db00916-mesh-d012393-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Rosacea | MESH:D012393 | 5 | 4 |
+| [DB00916_MESH_D014245_1](db00916-mesh-d014245-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Trichomonas Infections | MESH:D014245 | 5 | 4 |
+| [DB00916_MESH_D016585_1](db00916-mesh-d016585-1.html) | metronidazole | DB:DB00916 | MESH:D008795 | Vaginosis, Bacterial | MESH:D016585 | 5 | 4 |
+| [DB14512_MESH_D001249_1](db14512-mesh-d001249-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Asthma | MESH:D001249 | 7 | 7 |
+| [DB14512_MESH_D003876_1](db14512-mesh-d003876-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Dermatitis, Atopic | MESH:D003876 | 6 | 5 |
+| [DB14512_MESH_D003877_1](db14512-mesh-d003877-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Dermatitis, Contact | MESH:D003877 | 7 | 7 |
+| [DB14512_MESH_D012628_1](db14512-mesh-d012628-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Dermatitis, Seborrheic | MESH:D012628 | 5 | 4 |
+| [DB14512_MESH_D005076_1](db14512-mesh-d005076-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Exanthema | MESH:D005076 | 6 | 5 |
+| [DB14512_MESH_D016460_1](db14512-mesh-d016460-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Granuloma Annulare | MESH:D016460 | 6 | 5 |
+| [DB14512_MESH_D008179_1](db14512-mesh-d008179-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Lupus Erythematosus, Discoid | MESH:D008179 | 5 | 4 |
+| [DB14512_MESH_D016410_1](db14512-mesh-d016410-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 6 | 5 |
+| [DB14512_MESH_D009450_1](db14512-mesh-d009450-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Neurodermatitis | MESH:D009450 | 6 | 5 |
+| [DB14512_MESH_D065631_1](db14512-mesh-d065631-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Rhinitis, Allergic | MESH:D065631 | 5 | 4 |
+| [DB14512_MESH_D011538_1](db14512-mesh-d011538-1.html) | mometasone furoate | DB:DB14512 | MESH:D000068656 | Pruritus Ani | MESH:D011538 | 7 | 6 |
+| [DB00959_MESH_D000224_1](db00959-mesh-d000224-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Addison Disease | MESH:D000224 | 2 | 1 |
+| [DB00959_MESH_D000312_1](db00959-mesh-d000312-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Adrenal Hyperplasia, Congenital | MESH:D000312 | 2 | 1 |
+| [DB00959_MESH_D000309_1](db00959-mesh-d000309-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Adrenal Insufficiency | MESH:D000309 | 2 | 1 |
+| [DB00959_MESH_D029503_1](db00959-mesh-d029503-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Anemia, Diamond-Blackfan | MESH:D029503 | 11 | 13 |
+| [DB00959_MESH_D000744_1](db00959-mesh-d000744-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Anemia, Hemolytic, Autoimmune | MESH:D000744 | 11 | 13 |
+| [DB00959_MESH_D000799_1](db00959-mesh-d000799-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Angioedema | MESH:D000799 | 11 | 13 |
+| [DB00959_MESH_D015210_1](db00959-mesh-d015210-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Arthritis, Gouty | MESH:D015210 | 11 | 13 |
+| [DB00959_MESH_D001171_1](db00959-mesh-d001171-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Arthritis, Juvenile | MESH:D001171 | 11 | 13 |
+| [DB00959_MESH_D015535_1](db00959-mesh-d015535-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Arthritis, Psoriatic | MESH:D015535 | 11 | 13 |
+| [DB00959_MESH_D001172_1](db00959-mesh-d001172-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Arthritis, Rheumatoid | MESH:D001172 | 11 | 13 |
+| [DB00959_MESH_D001249_1](db00959-mesh-d001249-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Asthma | MESH:D001249 | 11 | 13 |
+| [DB00959_MESH_D001327_1](db00959-mesh-d001327-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Autoimmune Diseases | MESH:D001327 | 11 | 13 |
+| [DB00959_MESH_D001607_1](db00959-mesh-d001607-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Berylliosis | MESH:D001607 | 11 | 13 |
+| [DB00959_MESH_D001929_1](db00959-mesh-d001929-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Brain Edema | MESH:D001929 | 11 | 13 |
+| [DB00959_MESH_D002062_1](db00959-mesh-d002062-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Bursitis | MESH:D002062 | 11 | 13 |
+| [DB00959_MESH_D003424_1](db00959-mesh-d003424-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Crohn Disease | MESH:D003424 | 11 | 13 |
+| [DB00959_MESH_D003876_1](db00959-mesh-d003876-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Dermatitis, Atopic | MESH:D003876 | 11 | 13 |
+| [DB00959_MESH_D003877_1](db00959-mesh-d003877-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Dermatitis, Contact | MESH:D003877 | 11 | 13 |
+| [DB00959_MESH_D003873_1](db00959-mesh-d003873-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Dermatitis, Exfoliative | MESH:D003873 | 11 | 13 |
+| [DB00959_MESH_D003874_1](db00959-mesh-d003874-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Dermatitis Herpetiformis | MESH:D003874 | 11 | 13 |
+| [DB00959_MESH_D012628_1](db00959-mesh-d012628-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Dermatitis, Seborrheic | MESH:D012628 | 11 | 13 |
+| [DB00959_MESH_D004892_1](db00959-mesh-d004892-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Erythema Multiforme | MESH:D004892 | 10 | 12 |
+| [DB00959_MESH_D005076_1](db00959-mesh-d005076-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Exanthema | MESH:D005076 | 11 | 13 |
+| [DB00959_MESH_D005128_1](db00959-mesh-d005128-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Eye Diseases | MESH:D005128 | 10 | 12 |
+| [DB00959_MESH_D016460_1](db00959-mesh-d016460-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Granuloma Annulare | MESH:D016460 | 11 | 13 |
+| [DB00959_MESH_D006689_1](db00959-mesh-d006689-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Hodgkin Disease | MESH:D006689 | 11 | 13 |
+| [DB00959_MESH_C562390_1](db00959-mesh-c562390-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 6 | 5 |
+| [DB00959_MESH_D015212_1](db00959-mesh-d015212-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Inflammatory Bowel Diseases | MESH:D015212 | 11 | 13 |
+| [DB00959_MESH_D007819_1](db00959-mesh-d007819-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Laryngeal Edema | MESH:D007819 | 11 | 13 |
+| [DB00959_MESH_D008179_1](db00959-mesh-d008179-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Lupus Erythematosus, Discoid | MESH:D008179 | 11 | 13 |
+| [DB00959_MESH_D008180_1](db00959-mesh-d008180-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Lupus Erythematosus, Systemic | MESH:D008180 | 11 | 13 |
+| [DB00959_MESH_D008224_1](db00959-mesh-d008224-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Lymphoma, Follicular | MESH:D008224 | 11 | 13 |
+| [DB00959_MESH_D008228_1](db00959-mesh-d008228-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Lymphoma, Non-Hodgkin | MESH:D008228 | 11 | 13 |
+| [DB00959_MESH_D016410_1](db00959-mesh-d016410-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 12 | 15 |
+| [DB00959_MESH_D009103_1](db00959-mesh-d009103-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Multiple Sclerosis | MESH:D009103 | 12 | 15 |
+| [DB00959_MESH_D009140_1](db00959-mesh-d009140-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Musculoskeletal Diseases | MESH:D009140 | 11 | 13 |
+| [DB00959_MESH_D009182_1](db00959-mesh-d009182-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Mycosis Fungoides | MESH:D009182 | 11 | 13 |
+| [DB00959_MESH_D009404_1](db00959-mesh-d009404-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Nephrotic Syndrome | MESH:D009404 | 10 | 12 |
+| [DB00959_MESH_D009450_1](db00959-mesh-d009450-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Neurodermatitis | MESH:D009450 | 11 | 13 |
+| [DB00959_MESH_D010392_1](db00959-mesh-d010392-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Pemphigus | MESH:D010392 | 11 | 13 |
+| [DB00959_MESH_D011015_1](db00959-mesh-d011015-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Pneumonia, Aspiration | MESH:D011015 | 11 | 13 |
+| [DB00959_MESH_D011538_1](db00959-mesh-d011538-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Pruritus Ani | MESH:D011538 | 12 | 14 |
+| [DB00959_MESH_D011565_1](db00959-mesh-d011565-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Psoriasis | MESH:D011565 | 11 | 13 |
+| [DB00959_MESH_D011657_1](db00959-mesh-d011657-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Pulmonary Eosinophilia | MESH:D011657 | 11 | 13 |
+| [DB00959_MESH_D012214_1](db00959-mesh-d012214-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Rheumatic Heart Disease | MESH:D012214 | 11 | 13 |
+| [DB00959_MESH_D065631_1](db00959-mesh-d065631-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Rhinitis, Allergic | MESH:D065631 | 11 | 13 |
+| [DB00959_MESH_D012221_1](db00959-mesh-d012221-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Rhinitis, Allergic, Perennial | MESH:D012221 | 12 | 14 |
+| [DB00959_MESH_D006255_1](db00959-mesh-d006255-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 12 | 14 |
+| [DB00959_MESH_D012507_1](db00959-mesh-d012507-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Sarcoidosis | MESH:D012507 | 10 | 12 |
+| [DB00959_MESH_D012713_1](db00959-mesh-d012713-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Serum Sickness | MESH:D012713 | 12 | 15 |
+| [DB00959_MESH_D012871_1](db00959-mesh-d012871-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Skin Diseases | MESH:D012871 | 11 | 13 |
+| [DB00959_MESH_D013167_1](db00959-mesh-d013167-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Spondylitis, Ankylosing | MESH:D013167 | 11 | 13 |
+| [DB00959_MESH_D013585_1](db00959-mesh-d013585-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Synovitis | MESH:D013585 | 11 | 13 |
+| [DB00959_MESH_D052256_1](db00959-mesh-d052256-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Tendinopathy | MESH:D052256 | 12 | 14 |
+| [DB00959_MESH_D013716_1](db00959-mesh-d013716-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Tennis Elbow | MESH:D013716 | 12 | 15 |
+| [DB00959_MESH_D013717_1](db00959-mesh-d013717-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Tenosynovitis | MESH:D013717 | 11 | 13 |
+| [DB00959_MESH_D013966_1](db00959-mesh-d013966-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Thyroiditis | MESH:D013966 | 11 | 13 |
+| [DB00959_MESH_D014235_1](db00959-mesh-d014235-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Trichinellosis | MESH:D014235 | 11 | 13 |
+| [DB00959_MESH_D014391_1](db00959-mesh-d014391-1.html) | methylprednisolone | DB:DB00959 | MESH:D008775 | Tuberculosis, Miliary | MESH:D014391 | 12 | 14 |
+| [DB00620_MESH_D000312_1](db00620-mesh-d000312-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Adrenal Hyperplasia, Congenital | MESH:D000312 | 2 | 1 |
+| [DB00620_MESH_D000309_1](db00620-mesh-d000309-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Adrenal Insufficiency | MESH:D000309 | 2 | 1 |
+| [DB00620_MESH_D029503_1](db00620-mesh-d029503-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Anemia, Diamond-Blackfan | MESH:D029503 | 11 | 13 |
+| [DB00620_MESH_D000799_1](db00620-mesh-d000799-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Angioedema | MESH:D000799 | 11 | 13 |
+| [DB00620_MESH_D015210_1](db00620-mesh-d015210-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Arthritis, Gouty | MESH:D015210 | 11 | 13 |
+| [DB00620_MESH_D001171_1](db00620-mesh-d001171-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Arthritis, Juvenile | MESH:D001171 | 11 | 13 |
+| [DB00620_MESH_D001172_1](db00620-mesh-d001172-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Arthritis, Rheumatoid | MESH:D001172 | 11 | 13 |
+| [DB00620_MESH_D001249_1](db00620-mesh-d001249-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Asthma | MESH:D001249 | 11 | 13 |
+| [DB00620_MESH_D001327_1](db00620-mesh-d001327-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Autoimmune Diseases | MESH:D001327 | 11 | 13 |
+| [DB00620_MESH_D003877_1](db00620-mesh-d003877-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Dermatitis, Contact | MESH:D003877 | 11 | 13 |
+| [DB00620_MESH_D003873_1](db00620-mesh-d003873-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Dermatitis, Exfoliative | MESH:D003873 | 11 | 13 |
+| [DB00620_MESH_D012628_1](db00620-mesh-d012628-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Dermatitis, Seborrheic | MESH:D012628 | 11 | 13 |
+| [DB00620_MESH_D006689_1](db00620-mesh-d006689-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Hodgkin Disease | MESH:D006689 | 11 | 13 |
+| [DB00620_MESH_C562390_1](db00620-mesh-c562390-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 7 | 6 |
+| [DB00620_MESH_D008180_1](db00620-mesh-d008180-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Lupus Erythematosus, Systemic | MESH:D008180 | 11 | 13 |
+| [DB00620_MESH_D008224_1](db00620-mesh-d008224-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Lymphoma, Follicular | MESH:D008224 | 11 | 13 |
+| [DB00620_MESH_D016410_1](db00620-mesh-d016410-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 12 | 15 |
+| [DB00620_MESH_D009404_1](db00620-mesh-d009404-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Nephrotic Syndrome | MESH:D009404 | 10 | 12 |
+| [DB00620_MESH_D009879_1](db00620-mesh-d009879-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Ophthalmia, Sympathetic | MESH:D009879 | 11 | 13 |
+| [DB00620_MESH_D011565_1](db00620-mesh-d011565-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Psoriasis | MESH:D011565 | 11 | 13 |
+| [DB00620_MESH_D012214_1](db00620-mesh-d012214-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Rheumatic Heart Disease | MESH:D012214 | 11 | 13 |
+| [DB00620_MESH_D012713_1](db00620-mesh-d012713-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Serum Sickness | MESH:D012713 | 12 | 15 |
+| [DB00620_MESH_D013167_1](db00620-mesh-d013167-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Spondylitis, Ankylosing | MESH:D013167 | 11 | 13 |
+| [DB00620_MESH_D013585_1](db00620-mesh-d013585-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Synovitis | MESH:D013585 | 11 | 13 |
+| [DB00620_MESH_D013716_1](db00620-mesh-d013716-1.html) | triamcinolone | DB:DB00620 | MESH:D014221 | Tennis Elbow | MESH:D013716 | 12 | 15 |
+| [DB00620_MESH_D000744_1](db00620-mesh-d000744-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Anemia, Hemolytic, Autoimmune | MESH:D000744 | 11 | 13 |
+| [DB00620_MESH_D002062_1](db00620-mesh-d002062-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Bursitis | MESH:D002062 | 11 | 13 |
+| [DB00620_MESH_D002179_1](db00620-mesh-d002179-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Candidiasis, Cutaneous | MESH:D002179 | 11 | 13 |
+| [DB00620_MESH_D005076_1](db00620-mesh-d005076-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Exanthema | MESH:D005076 | 11 | 13 |
+| [DB00620_MESH_D005128_1](db00620-mesh-d005128-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Eye Diseases | MESH:D005128 | 10 | 12 |
+| [DB00620_MESH_D013700_1](db00620-mesh-d013700-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Giant Cell Arteritis | MESH:D013700 | 11 | 13 |
+| [DB00620_MESH_D016460_1](db00620-mesh-d016460-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Granuloma Annulare | MESH:D016460 | 11 | 13 |
+| [DB00620_MESH_D015212_1](db00620-mesh-d015212-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Inflammatory Bowel Diseases | MESH:D015212 | 11 | 13 |
+| [DB00620_MESH_D008228_1](db00620-mesh-d008228-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Lymphoma, Non-Hodgkin | MESH:D008228 | 11 | 13 |
+| [DB00620_MESH_D009103_1](db00620-mesh-d009103-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Multiple Sclerosis | MESH:D009103 | 12 | 15 |
+| [DB00620_MESH_D009182_1](db00620-mesh-d009182-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Mycosis Fungoides | MESH:D009182 | 11 | 13 |
+| [DB00620_MESH_D011538_1](db00620-mesh-d011538-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Pruritus Ani | MESH:D011538 | 12 | 14 |
+| [DB00620_MESH_D006255_1](db00620-mesh-d006255-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Rhinitis, Allergic, Seasonal | MESH:D006255 | 11 | 13 |
+| [DB00620_MESH_D012507_1](db00620-mesh-d012507-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Sarcoidosis | MESH:D012507 | 10 | 12 |
+| [DB00620_MESH_D013281_1](db00620-mesh-d013281-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Stomatitis, Aphthous | MESH:D013281 | 10 | 12 |
+| [DB00620_MESH_D052256_1](db00620-mesh-d052256-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Tendinopathy | MESH:D052256 | 12 | 14 |
+| [DB00620_MESH_D014605_1](db00620-mesh-d014605-1.html) | triamcinolone acetonide | DB:DB00620 | MESH:D014222 | Uveitis | MESH:D014605 | 11 | 13 |
+| [DB00620_MESH_D000224_1](db00620-mesh-d000224-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Addison Disease | MESH:D000224 | 2 | 1 |
+| [DB00620_MESH_D015535_1](db00620-mesh-d015535-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Arthritis, Psoriatic | MESH:D015535 | 11 | 13 |
+| [DB00620_MESH_D001607_1](db00620-mesh-d001607-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Berylliosis | MESH:D001607 | 11 | 13 |
+| [DB00620_MESH_D001929_1](db00620-mesh-d001929-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Brain Edema | MESH:D001929 | 11 | 13 |
+| [DB00620_MESH_D003424_2](db00620-mesh-d003424-2.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Crohn Disease | MESH:D003424 | 11 | 13 |
+| [DB00620_MESH_D003876_1](db00620-mesh-d003876-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Dermatitis, Atopic | MESH:D003876 | 11 | 13 |
+| [DB00620_MESH_D003874_1](db00620-mesh-d003874-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Dermatitis Herpetiformis | MESH:D003874 | 11 | 13 |
+| [DB00620_MESH_D004892_1](db00620-mesh-d004892-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Erythema Multiforme | MESH:D004892 | 10 | 12 |
+| [DB00620_MESH_D007819_1](db00620-mesh-d007819-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Laryngeal Edema | MESH:D007819 | 11 | 13 |
+| [DB00620_MESH_D009140_1](db00620-mesh-d009140-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Musculoskeletal Diseases | MESH:D009140 | 11 | 13 |
+| [DB00620_MESH_D010392_1](db00620-mesh-d010392-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Pemphigus | MESH:D010392 | 11 | 13 |
+| [DB00620_MESH_D011015_1](db00620-mesh-d011015-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Pneumonia, Aspiration | MESH:D011015 | 11 | 13 |
+| [DB00620_MESH_D011657_1](db00620-mesh-d011657-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Pulmonary Eosinophilia | MESH:D011657 | 11 | 13 |
+| [DB00620_MESH_D065631_1](db00620-mesh-d065631-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Rhinitis, Allergic | MESH:D065631 | 11 | 13 |
+| [DB00620_MESH_D012871_1](db00620-mesh-d012871-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Skin Diseases | MESH:D012871 | 11 | 13 |
+| [DB00620_MESH_D013717_1](db00620-mesh-d013717-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Tenosynovitis | MESH:D013717 | 11 | 13 |
+| [DB00620_MESH_D013966_1](db00620-mesh-d013966-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Thyroiditis | MESH:D013966 | 11 | 13 |
+| [DB00620_MESH_D014235_1](db00620-mesh-d014235-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Trichinellosis | MESH:D014235 | 11 | 13 |
+| [DB00620_MESH_D014391_1](db00620-mesh-d014391-1.html) | triamcinolone diacetate | DB:DB00620 | MESH:C030262 | Tuberculosis, Miliary | MESH:D014391 | 12 | 14 |
+| [DB00620_MESH_D000506_1](db00620-mesh-d000506-1.html) | triamcinolone hexacetonide | DB:DB00620 | MESH:C005900 | Alopecia Areata | MESH:D000506 | 11 | 13 |
+| [DB00620_MESH_D007627_1](db00620-mesh-d007627-1.html) | triamcinolone hexacetonide | DB:DB00620 | MESH:C005900 | Keloid | MESH:D007627 | 11 | 13 |
+| [DB00620_MESH_D008010_1](db00620-mesh-d008010-1.html) | triamcinolone hexacetonide | DB:DB00620 | MESH:C005900 | Lichen Planus | MESH:D008010 | 11 | 13 |
+| [DB00620_MESH_D008179_1](db00620-mesh-d008179-1.html) | triamcinolone hexacetonide | DB:DB00620 | MESH:C005900 | Lupus Erythematosus, Discoid | MESH:D008179 | 11 | 13 |
+| [DB00620_MESH_D009335_1](db00620-mesh-d009335-1.html) | triamcinolone hexacetonide | DB:DB00620 | MESH:C005900 | Necrobiosis Lipoidica | MESH:D009335 | 10 | 12 |
+| [DB00620_MESH_D009450_1](db00620-mesh-d009450-1.html) | triamcinolone hexacetonide | DB:DB00620 | MESH:C005900 | Neurodermatitis | MESH:D009450 | 11 | 13 |
+| [DB01059_MESH_D018784_1](db01059-mesh-d018784-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Abdominal Abscess | MESH:D018784 | 6 | 6 |
+| [DB01059_MESH_D000881_1](db01059-mesh-d000881-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Anthrax | MESH:D000881 | 6 | 6 |
+| [DB01059_MESH_D001991_1](db01059-mesh-d001991-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Bronchitis | MESH:D001991 | 6 | 6 |
+| [DB01059_MESH_D002602_1](db01059-mesh-d002602-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Chancroid | MESH:D002602 | 6 | 6 |
+| [DB01059_MESH_D061387_1](db01059-mesh-d061387-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Chlamydial Pneumonia | MESH:D061387 | 6 | 6 |
+| [DB01059_MESH_D003234_1](db01059-mesh-d003234-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Conjunctivitis, Bacterial | MESH:D003234 | 6 | 6 |
+| [DB01059_MESH_D003556_1](db01059-mesh-d003556-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Cystitis | MESH:D003556 | 6 | 6 |
+| [DB01059_MESH_D004403_1](db01059-mesh-d004403-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Dysentery | MESH:D004403 | 6 | 6 |
+| [DB01059_MESH_D004405_2](db01059-mesh-d004405-2.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Dysentery, Bacillary | MESH:D004405 | 6 | 6 |
+| [DB01059_MESH_D004716_1](db01059-mesh-d004716-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Endometritis | MESH:D004716 | 6 | 6 |
+| [DB01059_MESH_D004756_1](db01059-mesh-d004756-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 6 |
+| [DB01059_MESH_D004927_1](db01059-mesh-d004927-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Escherichia coli Infections | MESH:D004927 | 6 | 6 |
+| [DB01059_MESH_D006069_1](db01059-mesh-d006069-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Gonorrhea | MESH:D006069 | 6 | 6 |
+| [DB01059_MESH_D000077299_1](db01059-mesh-d000077299-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Healthcare-Associated Pneumonia | MESH:D000077299 | 6 | 6 |
+| [DB01059_MESH_D059413_1](db01059-mesh-d059413-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Intraabdominal Infections | MESH:D059413 | 6 | 6 |
+| [DB01059_MESH_D007710_1](db01059-mesh-d007710-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Klebsiella Infections | MESH:D007710 | 6 | 6 |
+| [DB01059_MESH_D010032_1](db01059-mesh-d010032-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Otitis Externa | MESH:D010032 | 6 | 6 |
+| [DB01059_MESH_D011014_1](db01059-mesh-d011014-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Pneumonia | MESH:D011014 | 6 | 6 |
+| [DB01059_MESH_D018410_1](db01059-mesh-d018410-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Pneumonia, Bacterial | MESH:D018410 | 6 | 6 |
+| [DB01059_MESH_D011019_1](db01059-mesh-d011019-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Pneumonia, Mycoplasma | MESH:D011019 | 6 | 6 |
+| [DB01059_MESH_D011018_1](db01059-mesh-d011018-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 6 |
+| [DB01059_MESH_D011023_1](db01059-mesh-d011023-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Pneumonia, Staphylococcal | MESH:D011023 | 6 | 6 |
+| [DB01059_MESH_D011472_1](db01059-mesh-d011472-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Prostatitis | MESH:D011472 | 6 | 6 |
+| [DB01059_MESH_D011704_1](db01059-mesh-d011704-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Pyelonephritis | MESH:D011704 | 6 | 6 |
+| [DB01059_MESH_D012226_1](db01059-mesh-d012226-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Rhinoscleroma | MESH:D012226 | 6 | 6 |
+| [DB01059_MESH_D013203_1](db01059-mesh-d013203-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Staphylococcal Infections | MESH:D013203 | 6 | 6 |
+| [DB01059_MESH_D013290_1](db01059-mesh-d013290-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Streptococcal Infections | MESH:D013290 | 6 | 6 |
+| [DB01059_MESH_D014435_1](db01059-mesh-d014435-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Typhoid Fever | MESH:D014435 | 6 | 6 |
+| [DB01059_MESH_D014552_1](db01059-mesh-d014552-1.html) | norfloxacin | DB:DB01059 | MESH:D009643 | Urinary Tract Infections | MESH:D014552 | 6 | 6 |
+| [DB01017_MESH_D000152_1](db01017-mesh-d000152-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Acne Vulgaris | MESH:D000152 | 6 | 6 |
+| [DB01017_MESH_D000196_1](db01017-mesh-d000196-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Actinomycosis | MESH:D000196 | 6 | 6 |
+| [DB01017_MESH_D000881_1](db01017-mesh-d000881-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Anthrax | MESH:D000881 | 6 | 6 |
+| [DB01017_MESH_D001474_1](db01017-mesh-d001474-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Bartonella Infections | MESH:D001474 | 6 | 6 |
+| [DB01017_MESH_D001991_1](db01017-mesh-d001991-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Bronchitis | MESH:D001991 | 6 | 6 |
+| [DB01017_MESH_D002006_1](db01017-mesh-d002006-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Brucellosis | MESH:D002006 | 6 | 6 |
+| [DB01017_MESH_D002602_1](db01017-mesh-d002602-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Chancroid | MESH:D002602 | 6 | 6 |
+| [DB01017_MESH_D002771_1](db01017-mesh-d002771-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Cholera | MESH:D002771 | 6 | 6 |
+| [DB01017_MESH_D003235_1](db01017-mesh-d003235-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Conjunctivitis, Inclusion | MESH:D003235 | 6 | 6 |
+| [DB01017_MESH_D006069_1](db01017-mesh-d006069-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Gonorrhea | MESH:D006069 | 6 | 6 |
+| [DB01017_MESH_D006100_1](db01017-mesh-d006100-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Granuloma inguinale | MESH:D006100 | 5 | 4 |
+| [DB01017_MESH_D008088_1](db01017-mesh-d008088-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Listeriosis | MESH:D008088 | 6 | 6 |
+| [DB01017_MESH_D008219_1](db01017-mesh-d008219-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Lymphogranuloma venereum | MESH:D008219 | 6 | 6 |
+| [DB01017_MESH_D010518_1](db01017-mesh-d010518-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Periodontitis | MESH:D010518 | 6 | 6 |
+| [DB01017_MESH_D010612_1](db01017-mesh-d010612-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Pharyngitis | MESH:D010612 | 6 | 6 |
+| [DB01017_MESH_D010930_1](db01017-mesh-d010930-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Plague | MESH:D010930 | 6 | 6 |
+| [DB01017_MESH_D011014_1](db01017-mesh-d011014-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Pneumonia | MESH:D011014 | 6 | 6 |
+| [DB01017_MESH_D009956_1](db01017-mesh-d009956-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Psittacosis | MESH:D009956 | 6 | 6 |
+| [DB01017_MESH_D011778_1](db01017-mesh-d011778-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Q fever | MESH:D011778 | 6 | 6 |
+| [DB01017_MESH_D012061_1](db01017-mesh-d012061-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Relapsing Fever | MESH:D012061 | 6 | 6 |
+| [DB01017_MESH_D012373_1](db01017-mesh-d012373-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Rocky Mountain Spotted Fever | MESH:D012373 | 6 | 6 |
+| [DB01017_MESH_D012852_1](db01017-mesh-d012852-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Sinusitis | MESH:D012852 | 6 | 6 |
+| [DB01017_MESH_D000073605_1](db01017-mesh-d000073605-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Spotted Fever Group Rickettsiosis | MESH:D000073605 | 6 | 6 |
+| [DB01017_MESH_D013587_1](db01017-mesh-d013587-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Syphilis | MESH:D013587 | 6 | 6 |
+| [DB01017_MESH_D014141_1](db01017-mesh-d014141-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Trachoma | MESH:D014141 | 6 | 6 |
+| [DB01017_MESH_D014406_1](db01017-mesh-d014406-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Tularemia | MESH:D014406 | 6 | 6 |
+| [DB01017_MESH_D014552_1](db01017-mesh-d014552-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Urinary Tract Infections | MESH:D014552 | 6 | 6 |
+| [DB01017_MESH_D015001_1](db01017-mesh-d015001-1.html) | minocycline | DB:DB01017 | MESH:D008911 | Yaws | MESH:D015001 | 6 | 6 |
+| [DB00681_MESH_D000152_1](db00681-mesh-d000152-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Acne Vulgaris | MESH:D000152 | 5 | 4 |
+| [DB00681_MESH_D001228_1](db00681-mesh-d001228-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Aspergillosis | MESH:D001228 | 5 | 4 |
+| [DB00681_MESH_D001759_1](db00681-mesh-d001759-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Blastomycosis | MESH:D001759 | 5 | 4 |
+| [DB00681_MESH_D001991_1](db00681-mesh-d001991-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Bronchitis | MESH:D001991 | 5 | 4 |
+| [DB00681_MESH_D058387_1](db00681-mesh-d058387-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Candidemia | MESH:D058387 | 5 | 4 |
+| [DB00681_MESH_D002177_1](db00681-mesh-d002177-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Candidiasis | MESH:D002177 | 5 | 4 |
+| [DB00681_MESH_D002179_1](db00681-mesh-d002179-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Candidiasis, Cutaneous | MESH:D002179 | 5 | 4 |
+| [DB00681_MESH_D002180_1](db00681-mesh-d002180-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Candidiasis, Oral | MESH:D002180 | 5 | 4 |
+| [DB00681_MESH_D003047_1](db00681-mesh-d003047-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Coccidioidomycosis | MESH:D003047 | 5 | 4 |
+| [DB00681_MESH_D003235_1](db00681-mesh-d003235-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Conjunctivitis, Inclusion | MESH:D003235 | 5 | 4 |
+| [DB00681_MESH_D003453_1](db00681-mesh-d003453-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Cryptococcosis | MESH:D003453 | 5 | 4 |
+| [DB00681_MESH_D003963_1](db00681-mesh-d003963-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Diaper Rash | MESH:D003963 | 5 | 4 |
+| [DB00681_MESH_D006660_1](db00681-mesh-d006660-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Histoplasmosis | MESH:D006660 | 5 | 4 |
+| [DB00681_MESH_D059413_1](db00681-mesh-d059413-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Intraabdominal Infections | MESH:D059413 | 5 | 4 |
+| [DB00681_MESH_D055744_1](db00681-mesh-d055744-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Invasive Pulmonary Aspergillosis | MESH:D055744 | 5 | 4 |
+| [DB00681_MESH_D007896_1](db00681-mesh-d007896-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Leishmaniasis | MESH:D007896 | 5 | 4 |
+| [DB00681_MESH_D007898_1](db00681-mesh-d007898-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Leishmaniasis, Visceral | MESH:D007898 | 5 | 4 |
+| [DB00681_MESH_D016921_1](db00681-mesh-d016921-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Meningitis, Fungal | MESH:D016921 | 5 | 4 |
+| [DB00681_MESH_D009091_1](db00681-mesh-d009091-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Mucormycosis | MESH:D009091 | 5 | 4 |
+| [DB00681_MESH_D010612_1](db00681-mesh-d010612-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Pharyngitis | MESH:D010612 | 5 | 4 |
+| [DB00681_MESH_D011014_1](db00681-mesh-d011014-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Pneumonia | MESH:D011014 | 5 | 4 |
+| [DB00681_MESH_D012852_1](db00681-mesh-d012852-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Sinusitis | MESH:D012852 | 5 | 4 |
+| [DB00681_MESH_C536777_1](db00681-mesh-c536777-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Systemic candidiasis | MESH:C536777 | 5 | 4 |
+| [DB00681_MESH_D014552_1](db00681-mesh-d014552-1.html) | amphotericin B | DB:DB00681 | MESH:D000666 | Urinary Tract Infections | MESH:D014552 | 5 | 4 |
+| [DB02703_MESH_D000152_1](db02703-mesh-d000152-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Acne Vulgaris | MESH:D000152 | 5 | 4 |
+| [DB02703_MESH_D000196_1](db02703-mesh-d000196-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Actinomycosis | MESH:D000196 | 5 | 4 |
+| [DB02703_MESH_D000881_2](db02703-mesh-d000881-2.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Anthrax | MESH:D000881 | 5 | 4 |
+| [DB02703_MESH_D001474_1](db02703-mesh-d001474-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Bartonella Infections | MESH:D001474 | 5 | 4 |
+| [DB02703_MESH_D001907_1](db02703-mesh-d001907-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Boutonneuse Fever | MESH:D001907 | 5 | 4 |
+| [DB02703_MESH_D001991_1](db02703-mesh-d001991-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Bronchitis | MESH:D001991 | 5 | 4 |
+| [DB02703_MESH_D002006_1](db02703-mesh-d002006-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Brucellosis | MESH:D002006 | 5 | 4 |
+| [DB02703_MESH_D002602_1](db02703-mesh-d002602-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Chancroid | MESH:D002602 | 5 | 4 |
+| [DB02703_MESH_D002690_1](db02703-mesh-d002690-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Chlamydia Infections | MESH:D002690 | 5 | 4 |
+| [DB02703_MESH_D002761_1](db02703-mesh-d002761-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Cholangitis | MESH:D002761 | 5 | 4 |
+| [DB02703_MESH_D002771_1](db02703-mesh-d002771-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Cholera | MESH:D002771 | 5 | 4 |
+| [DB02703_MESH_D003233_1](db02703-mesh-d003233-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Conjunctivitis, Allergic | MESH:D003233 | 5 | 4 |
+| [DB02703_MESH_D003234_1](db02703-mesh-d003234-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Conjunctivitis, Bacterial | MESH:D003234 | 5 | 4 |
+| [DB02703_MESH_D003235_1](db02703-mesh-d003235-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Conjunctivitis, Inclusion | MESH:D003235 | 5 | 4 |
+| [DB02703_MESH_C531621_1](db02703-mesh-c531621-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Cutaneous anthrax | MESH:C531621 | 5 | 4 |
+| [DB02703_MESH_D003607_1](db02703-mesh-d003607-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Dacryocystitis | MESH:D003607 | 5 | 4 |
+| [DB02703_MESH_D004756_1](db02703-mesh-d004756-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Enterobacteriaceae Infections | MESH:D004756 | 5 | 4 |
+| [DB02703_MESH_D004927_1](db02703-mesh-d004927-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Escherichia coli Infections | MESH:D004927 | 5 | 4 |
+| [DB02703_MESH_D005499_1](db02703-mesh-d005499-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Folliculitis | MESH:D005499 | 5 | 4 |
+| [DB02703_MESH_D005667_1](db02703-mesh-d005667-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Furunculosis | MESH:D005667 | 5 | 4 |
+| [DB02703_MESH_C571911_1](db02703-mesh-c571911-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Gastrointestinal anthrax | MESH:C571911 | 5 | 4 |
+| [DB02703_MESH_D006069_1](db02703-mesh-d006069-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Gonorrhea | MESH:D006069 | 5 | 4 |
+| [DB02703_MESH_D006100_1](db02703-mesh-d006100-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Granuloma Inguinale | MESH:D006100 | 5 | 4 |
+| [DB02703_MESH_D000077299_1](db02703-mesh-d000077299-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Healthcare-Associated Pneumonia | MESH:D000077299 | 5 | 4 |
+| [DB02703_MESH_C571912_1](db02703-mesh-c571912-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Inhalation anthrax | MESH:C571912 | 5 | 4 |
+| [DB02703_MESH_D059413_1](db02703-mesh-d059413-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Intraabdominal Infections | MESH:D059413 | 5 | 4 |
+| [DB02703_MESH_D007637_1](db02703-mesh-d007637-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Keratoconjunctivitis | MESH:D007637 | 5 | 4 |
+| [DB02703_MESH_D008088_1](db02703-mesh-d008088-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Listeriosis | MESH:D008088 | 5 | 4 |
+| [DB02703_MESH_D008219_1](db02703-mesh-d008219-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Lymphogranuloma Venereum | MESH:D008219 | 5 | 4 |
+| [DB02703_MESH_D016920_1](db02703-mesh-d016920-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Meningitis, Bacterial | MESH:D016920 | 5 | 4 |
+| [DB02703_MESH_D000071074_1](db02703-mesh-d000071074-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Neonatal Sepsis | MESH:D000071074 | 5 | 4 |
+| [DB02703_MESH_D010304_1](db02703-mesh-d010304-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Paronychia | MESH:D010304 | 5 | 4 |
+| [DB02703_MESH_D010612_1](db02703-mesh-d010612-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Pharyngitis | MESH:D010612 | 5 | 4 |
+| [DB02703_MESH_D011008_1](db02703-mesh-d011008-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Pneumococcal Infections | MESH:D011008 | 5 | 4 |
+| [DB02703_MESH_D011014_1](db02703-mesh-d011014-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Pneumonia | MESH:D011014 | 5 | 4 |
+| [DB02703_MESH_D018410_1](db02703-mesh-d018410-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Pneumonia, Bacterial | MESH:D018410 | 5 | 4 |
+| [DB02703_MESH_D011019_1](db02703-mesh-d011019-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Pneumonia, Mycoplasma | MESH:D011019 | 5 | 4 |
+| [DB02703_MESH_D011023_1](db02703-mesh-d011023-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Pneumonia, Staphylococcal | MESH:D011023 | 5 | 4 |
+| [DB02703_MESH_D009956_1](db02703-mesh-d009956-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Psittacosis | MESH:D009956 | 5 | 4 |
+| [DB02703_MESH_D011778_1](db02703-mesh-d011778-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Q Fever | MESH:D011778 | 5 | 4 |
+| [DB02703_MESH_D012061_1](db02703-mesh-d012061-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Relapsing Fever | MESH:D012061 | 5 | 4 |
+| [DB02703_MESH_D012226_1](db02703-mesh-d012226-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Rhinoscleroma | MESH:D012226 | 5 | 4 |
+| [DB02703_MESH_D012282_1](db02703-mesh-d012282-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Rickettsia Infections | MESH:D012282 | 5 | 4 |
+| [DB02703_MESH_D012373_1](db02703-mesh-d012373-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Rocky Mountain Spotted Fever | MESH:D012373 | 5 | 4 |
+| [DB02703_MESH_D012393_1](db02703-mesh-d012393-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Rosacea | MESH:D012393 | 5 | 4 |
+| [DB02703_MESH_D012612_1](db02703-mesh-d012612-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Scrub Typhus | MESH:D012612 | 5 | 4 |
+| [DB02703_MESH_D016868_1](db02703-mesh-d016868-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Serratia Infections | MESH:D016868 | 5 | 4 |
+| [DB02703_MESH_D012852_1](db02703-mesh-d012852-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Sinusitis | MESH:D012852 | 5 | 4 |
+| [DB02703_MESH_D017192_1](db02703-mesh-d017192-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Skin Diseases, Bacterial | MESH:D017192 | 5 | 4 |
+| [DB02703_MESH_D000073605_1](db02703-mesh-d000073605-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Spotted Fever Group Rickettsiosis | MESH:D000073605 | 5 | 4 |
+| [DB02703_MESH_D013203_1](db02703-mesh-d013203-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Staphylococcal Infections | MESH:D013203 | 5 | 4 |
+| [DB02703_MESH_D013290_1](db02703-mesh-d013290-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Streptococcal Infections | MESH:D013290 | 5 | 4 |
+| [DB02703_MESH_D013587_1](db02703-mesh-d013587-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Syphilis | MESH:D013587 | 5 | 4 |
+| [DB02703_MESH_D014141_1](db02703-mesh-d014141-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Trachoma | MESH:D014141 | 5 | 4 |
+| [DB02703_MESH_D014406_1](db02703-mesh-d014406-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Tularemia | MESH:D014406 | 5 | 4 |
+| [DB02703_MESH_D014437_1](db02703-mesh-d014437-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Typhus, Endemic Flea-Borne | MESH:D014437 | 5 | 4 |
+| [DB02703_MESH_D014438_1](db02703-mesh-d014438-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Typhus, Epidemic Louse-Borne | MESH:D014438 | 5 | 4 |
+| [DB02703_MESH_D014552_1](db02703-mesh-d014552-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Urinary Tract Infections | MESH:D014552 | 5 | 4 |
+| [DB02703_MESH_D014605_1](db02703-mesh-d014605-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Uveitis | MESH:D014605 | 5 | 4 |
+| [DB02703_MESH_D014606_1](db02703-mesh-d014606-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Uveitis, Anterior | MESH:D014606 | 5 | 4 |
+| [DB02703_MESH_D015001_1](db02703-mesh-d015001-1.html) | fusidic acid | DB:DB02703 | MESH:D005672 | Yaws | MESH:D015001 | 5 | 4 |
+| [DB01380_MESH_D000152_1](db01380-mesh-d000152-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Acne Vulgaris | MESH:D000152 | 10 | 12 |
+| [DB01380_MESH_D000224_1](db01380-mesh-d000224-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Addison Disease | MESH:D000224 | 2 | 1 |
+| [DB01380_MESH_D000312_1](db01380-mesh-d000312-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Adrenal Hyperplasia, Congenital | MESH:D000312 | 2 | 1 |
+| [DB01380_MESH_D000309_1](db01380-mesh-d000309-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Adrenal Insufficiency | MESH:D000309 | 2 | 1 |
+| [DB01380_MESH_D029503_1](db01380-mesh-d029503-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Anemia, Diamond-Blackfan | MESH:D029503 | 11 | 13 |
+| [DB01380_MESH_D000744_1](db01380-mesh-d000744-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Anemia, Hemolytic, Autoimmune | MESH:D000744 | 11 | 13 |
+| [DB01380_MESH_D000799_1](db01380-mesh-d000799-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Angioedema | MESH:D000799 | 11 | 13 |
+| [DB01380_MESH_D015210_1](db01380-mesh-d015210-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Arthritis, Gouty | MESH:D015210 | 11 | 13 |
+| [DB01380_MESH_D001171_1](db01380-mesh-d001171-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Arthritis, Juvenile | MESH:D001171 | 11 | 13 |
+| [DB01380_MESH_D015535_1](db01380-mesh-d015535-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Arthritis, Psoriatic | MESH:D015535 | 11 | 13 |
+| [DB01380_MESH_D001172_1](db01380-mesh-d001172-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Arthritis, Rheumatoid | MESH:D001172 | 11 | 13 |
+| [DB01380_MESH_D001249_1](db01380-mesh-d001249-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Asthma | MESH:D001249 | 11 | 13 |
+| [DB01380_MESH_D001327_1](db01380-mesh-d001327-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Autoimmune Diseases | MESH:D001327 | 11 | 13 |
+| [DB01380_MESH_D001607_1](db01380-mesh-d001607-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Berylliosis | MESH:D001607 | 11 | 13 |
+| [DB01380_MESH_D001929_1](db01380-mesh-d001929-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Brain Edema | MESH:D001929 | 11 | 13 |
+| [DB01380_MESH_D002062_1](db01380-mesh-d002062-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Bursitis | MESH:D002062 | 11 | 13 |
+| [DB01380_MESH_D003093_1](db01380-mesh-d003093-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Colitis, Ulcerative | MESH:D003093 | 11 | 13 |
+| [DB01380_MESH_D003233_1](db01380-mesh-d003233-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Conjunctivitis, Allergic | MESH:D003233 | 11 | 13 |
+| [DB01380_MESH_D003320_1](db01380-mesh-d003320-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Corneal Ulcer | MESH:D003320 | 11 | 13 |
+| [DB01380_MESH_D003424_1](db01380-mesh-d003424-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Crohn Disease | MESH:D003424 | 11 | 13 |
+| [DB01380_MESH_D003876_1](db01380-mesh-d003876-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Dermatitis, Atopic | MESH:D003876 | 11 | 13 |
+| [DB01380_MESH_D003877_1](db01380-mesh-d003877-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Dermatitis, Contact | MESH:D003877 | 11 | 13 |
+| [DB01380_MESH_D003873_1](db01380-mesh-d003873-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Dermatitis, Exfoliative | MESH:D003873 | 11 | 13 |
+| [DB01380_MESH_D003874_1](db01380-mesh-d003874-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Dermatitis Herpetiformis | MESH:D003874 | 11 | 13 |
+| [DB01380_MESH_D012628_1](db01380-mesh-d012628-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Dermatitis, Seborrheic | MESH:D012628 | 11 | 13 |
+| [DB01380_MESH_D004892_1](db01380-mesh-d004892-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Erythema Multiforme | MESH:D004892 | 10 | 12 |
+| [DB01380_MESH_D005076_1](db01380-mesh-d005076-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Exanthema | MESH:D005076 | 11 | 13 |
+| [DB01380_MESH_D005128_1](db01380-mesh-d005128-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Eye Diseases | MESH:D005128 | 10 | 12 |
+| [DB01380_MESH_D016460_1](db01380-mesh-d016460-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Granuloma Annulare | MESH:D016460 | 11 | 13 |
+| [DB01380_MESH_D006484_1](db01380-mesh-d006484-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Hemorrhoids | MESH:D006484 | 11 | 13 |
+| [DB01380_MESH_D006689_1](db01380-mesh-d006689-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Hodgkin Disease | MESH:D006689 | 11 | 13 |
+| [DB01380_MESH_C562390_1](db01380-mesh-c562390-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 6 | 5 |
+| [DB01380_MESH_D015212_1](db01380-mesh-d015212-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Inflammatory Bowel Diseases | MESH:D015212 | 11 | 13 |
+| [DB01380_MESH_D015863_1](db01380-mesh-d015863-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Iridocyclitis | MESH:D015863 | 11 | 13 |
+| [DB01380_MESH_D007500_1](db01380-mesh-d007500-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Iritis | MESH:D007500 | 11 | 13 |
+| [DB01380_MESH_D007634_2](db01380-mesh-d007634-2.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Keratitis | MESH:D007634 | 11 | 13 |
+| [DB01380_MESH_D007819_1](db01380-mesh-d007819-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Laryngeal Edema | MESH:D007819 | 11 | 13 |
+| [DB01380_MESH_D008179_1](db01380-mesh-d008179-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Lupus Erythematosus, Discoid | MESH:D008179 | 11 | 13 |
+| [DB01380_MESH_D008180_1](db01380-mesh-d008180-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Lupus Erythematosus, Systemic | MESH:D008180 | 11 | 13 |
+| [DB01380_MESH_D008224_1](db01380-mesh-d008224-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Lymphoma, Follicular | MESH:D008224 | 11 | 13 |
+| [DB01380_MESH_D008228_1](db01380-mesh-d008228-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Lymphoma, Non-Hodgkin | MESH:D008228 | 11 | 13 |
+| [DB01380_MESH_D016410_1](db01380-mesh-d016410-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 12 | 15 |
+| [DB01380_MESH_D009103_1](db01380-mesh-d009103-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Multiple Sclerosis | MESH:D009103 | 12 | 15 |
+| [DB01380_MESH_D009140_1](db01380-mesh-d009140-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Musculoskeletal Diseases | MESH:D009140 | 11 | 13 |
+| [DB01380_MESH_D009182_1](db01380-mesh-d009182-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Mycosis Fungoides | MESH:D009182 | 11 | 13 |
+| [DB01380_MESH_D009404_1](db01380-mesh-d009404-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Nephrotic Syndrome | MESH:D009404 | 10 | 12 |
+| [DB01380_MESH_D009450_1](db01380-mesh-d009450-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Neurodermatitis | MESH:D009450 | 11 | 13 |
+| [DB01380_MESH_D010032_1](db01380-mesh-d010032-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Otitis Externa | MESH:D010032 | 12 | 15 |
+| [DB01380_MESH_D010392_1](db01380-mesh-d010392-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Pemphigus | MESH:D010392 | 11 | 13 |
+| [DB01380_MESH_D011015_1](db01380-mesh-d011015-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Pneumonia, Aspiration | MESH:D011015 | 11 | 13 |
+| [DB01380_MESH_D011349_1](db01380-mesh-d011349-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Proctitis | MESH:D011349 | 11 | 13 |
+| [DB01380_MESH_D011538_1](db01380-mesh-d011538-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Pruritus Ani | MESH:D011538 | 12 | 14 |
+| [DB01380_MESH_D011565_1](db01380-mesh-d011565-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Psoriasis | MESH:D011565 | 11 | 13 |
+| [DB01380_MESH_D011657_1](db01380-mesh-d011657-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Pulmonary Eosinophilia | MESH:D011657 | 11 | 13 |
+| [DB01380_MESH_D012214_1](db01380-mesh-d012214-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Rheumatic Heart Disease | MESH:D012214 | 11 | 13 |
+| [DB01380_MESH_D065631_1](db01380-mesh-d065631-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Rhinitis, Allergic | MESH:D065631 | 11 | 13 |
+| [DB01380_MESH_D012393_1](db01380-mesh-d012393-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Rosacea | MESH:D012393 | 11 | 13 |
+| [DB01380_MESH_D012507_1](db01380-mesh-d012507-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Sarcoidosis | MESH:D012507 | 10 | 12 |
+| [DB01380_MESH_D012713_1](db01380-mesh-d012713-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Serum Sickness | MESH:D012713 | 12 | 15 |
+| [DB01380_MESH_D012871_1](db01380-mesh-d012871-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Skin Diseases | MESH:D012871 | 11 | 13 |
+| [DB01380_MESH_D013167_1](db01380-mesh-d013167-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Ankylosing spondylitis | MESH:D013167 | 11 | 13 |
+| [DB01380_MESH_D013281_1](db01380-mesh-d013281-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Stomatitis, Aphthous | MESH:D013281 | 11 | 13 |
+| [DB01380_MESH_D013585_1](db01380-mesh-d013585-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Synovitis | MESH:D013585 | 11 | 13 |
+| [DB01380_MESH_D052256_1](db01380-mesh-d052256-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Tendinopathy | MESH:D052256 | 12 | 14 |
+| [DB01380_MESH_D013716_1](db01380-mesh-d013716-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Tennis Elbow | MESH:D013716 | 12 | 15 |
+| [DB01380_MESH_D013717_1](db01380-mesh-d013717-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Tenosynovitis | MESH:D013717 | 11 | 13 |
+| [DB01380_MESH_D013966_1](db01380-mesh-d013966-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Thyroiditis | MESH:D013966 | 11 | 13 |
+| [DB01380_MESH_D014008_1](db01380-mesh-d014008-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Tinea Pedis | MESH:D014008 | 11 | 13 |
+| [DB01380_MESH_D014235_1](db01380-mesh-d014235-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Trichinellosis | MESH:D014235 | 11 | 13 |
+| [DB01380_MESH_D014391_1](db01380-mesh-d014391-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Tuberculosis, Miliary | MESH:D014391 | 12 | 14 |
+| [DB01380_MESH_D014605_1](db01380-mesh-d014605-1.html) | cortisone acetate | DB:DB01380 | MESH:D003348 | Uveitis | MESH:D014605 | 11 | 13 |
+| [DB00860_MESH_D000224_1](db00860-mesh-d000224-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Addison Disease | MESH:D000224 | 2 | 1 |
+| [DB00860_MESH_D000312_1](db00860-mesh-d000312-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Adrenal Hyperplasia, Congenital | MESH:D000312 | 2 | 1 |
+| [DB00860_MESH_D000309_1](db00860-mesh-d000309-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Adrenal Insufficiency | MESH:D000309 | 2 | 1 |
+| [DB00860_MESH_D000542_1](db00860-mesh-d000542-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Alveolitis, Extrinsic Allergic | MESH:D000542 | 11 | 13 |
+| [DB00860_MESH_D029503_1](db00860-mesh-d029503-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Anemia, Diamond-Blackfan | MESH:D029503 | 11 | 13 |
+| [DB00860_MESH_D000744_1](db00860-mesh-d000744-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Anemia, Hemolytic, Autoimmune | MESH:D000744 | 11 | 13 |
+| [DB00860_MESH_D000799_1](db00860-mesh-d000799-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Angioedema | MESH:D000799 | 11 | 13 |
+| [DB00860_MESH_D015210_1](db00860-mesh-d015210-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Arthritis, Gouty | MESH:D015210 | 11 | 13 |
+| [DB00860_MESH_D001171_1](db00860-mesh-d001171-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Arthritis, Juvenile | MESH:D001171 | 11 | 13 |
+| [DB00860_MESH_D015535_1](db00860-mesh-d015535-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Arthritis, Psoriatic | MESH:D015535 | 11 | 13 |
+| [DB00860_MESH_D001172_1](db00860-mesh-d001172-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Arthritis, Rheumatoid | MESH:D001172 | 11 | 13 |
+| [DB00860_MESH_D001229_1](db00860-mesh-d001229-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Aspergillosis, Allergic Bronchopulmonary | MESH:D001229 | 11 | 13 |
+| [DB00860_MESH_D001249_1](db00860-mesh-d001249-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Asthma | MESH:D001249 | 11 | 13 |
+| [DB00860_MESH_D001327_1](db00860-mesh-d001327-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Autoimmune Diseases | MESH:D001327 | 11 | 13 |
+| [DB00860_MESH_D001607_1](db00860-mesh-d001607-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Berylliosis | MESH:D001607 | 11 | 13 |
+| [DB00860_MESH_D001929_1](db00860-mesh-d001929-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Brain Edema | MESH:D001929 | 11 | 13 |
+| [DB00860_MESH_D002062_1](db00860-mesh-d002062-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Bursitis | MESH:D002062 | 11 | 13 |
+| [DB00860_MESH_D003093_1](db00860-mesh-d003093-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Colitis, Ulcerative | MESH:D003093 | 11 | 13 |
+| [DB00860_MESH_D003233_1](db00860-mesh-d003233-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Conjunctivitis, Allergic | MESH:D003233 | 11 | 13 |
+| [DB00860_MESH_D003320_1](db00860-mesh-d003320-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Corneal Ulcer | MESH:D003320 | 11 | 13 |
+| [DB00860_MESH_D003424_1](db00860-mesh-d003424-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Crohn Disease | MESH:D003424 | 11 | 13 |
+| [DB00860_MESH_D003607_1](db00860-mesh-d003607-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Dacryocystitis | MESH:D003607 | 10 | 12 |
+| [DB00860_MESH_D003876_1](db00860-mesh-d003876-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Dermatitis, Atopic | MESH:D003876 | 11 | 13 |
+| [DB00860_MESH_D003877_1](db00860-mesh-d003877-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Dermatitis, Contact | MESH:D003877 | 11 | 13 |
+| [DB00860_MESH_D003873_1](db00860-mesh-d003873-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Dermatitis, Exfoliative | MESH:D003873 | 11 | 13 |
+| [DB00860_MESH_D003874_1](db00860-mesh-d003874-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Dermatitis Herpetiformis | MESH:D003874 | 11 | 13 |
+| [DB00860_MESH_D012628_1](db00860-mesh-d012628-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Dermatitis, Seborrheic | MESH:D012628 | 11 | 13 |
+| [DB00860_MESH_D004892_1](db00860-mesh-d004892-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Erythema Multiforme | MESH:D004892 | 10 | 12 |
+| [DB00860_MESH_D005076_1](db00860-mesh-d005076-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Exanthema | MESH:D005076 | 11 | 13 |
+| [DB00860_MESH_D005128_1](db00860-mesh-d005128-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Eye Diseases | MESH:D005128 | 10 | 12 |
+| [DB00860_MESH_D013700_1](db00860-mesh-d013700-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Giant Cell Arteritis | MESH:D013700 | 11 | 13 |
+| [DB00860_MESH_D016460_1](db00860-mesh-d016460-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Granuloma Annulare | MESH:D016460 | 11 | 13 |
+| [DB00860_MESH_D006689_1](db00860-mesh-d006689-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Hodgkin Disease | MESH:D006689 | 11 | 13 |
+| [DB00860_MESH_C562390_1](db00860-mesh-c562390-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 6 | 5 |
+| [DB00860_MESH_D015212_1](db00860-mesh-d015212-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Inflammatory Bowel Diseases | MESH:D015212 | 11 | 13 |
+| [DB00860_MESH_D015863_1](db00860-mesh-d015863-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Iridocyclitis | MESH:D015863 | 11 | 13 |
+| [DB00860_MESH_D007500_1](db00860-mesh-d007500-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Iritis | MESH:D007500 | 11 | 13 |
+| [DB00860_MESH_D007634_1](db00860-mesh-d007634-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Keratitis | MESH:D007634 | 11 | 13 |
+| [DB00860_MESH_D007819_1](db00860-mesh-d007819-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Laryngeal Edema | MESH:D007819 | 11 | 13 |
+| [DB00860_MESH_D008179_1](db00860-mesh-d008179-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Lupus Erythematosus, Discoid | MESH:D008179 | 11 | 13 |
+| [DB00860_MESH_D008180_1](db00860-mesh-d008180-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Lupus Erythematosus, Systemic | MESH:D008180 | 11 | 13 |
+| [DB00860_MESH_D008224_1](db00860-mesh-d008224-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Lymphoma, Follicular | MESH:D008224 | 11 | 13 |
+| [DB00860_MESH_D008228_1](db00860-mesh-d008228-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Lymphoma, Non-Hodgkin | MESH:D008228 | 11 | 13 |
+| [DB00860_MESH_D016410_1](db00860-mesh-d016410-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 12 | 15 |
+| [DB00860_MESH_D009103_1](db00860-mesh-d009103-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Multiple Sclerosis | MESH:D009103 | 12 | 15 |
+| [DB00860_MESH_D009140_1](db00860-mesh-d009140-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Musculoskeletal Diseases | MESH:D009140 | 11 | 13 |
+| [DB00860_MESH_D009182_1](db00860-mesh-d009182-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Mycosis Fungoides | MESH:D009182 | 11 | 13 |
+| [DB00860_MESH_D009404_1](db00860-mesh-d009404-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Nephrotic Syndrome | MESH:D009404 | 10 | 12 |
+| [DB00860_MESH_D009450_1](db00860-mesh-d009450-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Neurodermatitis | MESH:D009450 | 11 | 13 |
+| [DB00860_MESH_D009879_1](db00860-mesh-d009879-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Ophthalmia, Sympathetic | MESH:D009879 | 11 | 13 |
+| [DB00860_MESH_D010392_1](db00860-mesh-d010392-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Pemphigus | MESH:D010392 | 11 | 13 |
+| [DB00860_MESH_D011015_1](db00860-mesh-d011015-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Pneumonia, Aspiration | MESH:D011015 | 11 | 13 |
+| [DB00860_MESH_D011111_1](db00860-mesh-d011111-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Polymyalgia Rheumatica | MESH:D011111 | 12 | 14 |
+| [DB00860_MESH_D011538_1](db00860-mesh-d011538-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Pruritus Ani | MESH:D011538 | 12 | 14 |
+| [DB00860_MESH_D011565_1](db00860-mesh-d011565-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Psoriasis | MESH:D011565 | 11 | 13 |
+| [DB00860_MESH_D011657_1](db00860-mesh-d011657-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Pulmonary Eosinophilia | MESH:D011657 | 11 | 13 |
+| [DB00860_MESH_D011658_1](db00860-mesh-d011658-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Pulmonary Fibrosis | MESH:D011658 | 11 | 13 |
+| [DB00860_MESH_D012214_1](db00860-mesh-d012214-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Rheumatic Heart Disease | MESH:D012214 | 11 | 13 |
+| [DB00860_MESH_D065631_1](db00860-mesh-d065631-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Rhinitis, Allergic | MESH:D065631 | 11 | 13 |
+| [DB00860_MESH_D012393_1](db00860-mesh-d012393-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Rosacea | MESH:D012393 | 11 | 13 |
+| [DB00860_MESH_D012507_2](db00860-mesh-d012507-2.html) | prednisolone | DB:DB00860 | MESH:D011239 | Sarcoidosis | MESH:D012507 | 10 | 12 |
+| [DB00860_MESH_D012713_1](db00860-mesh-d012713-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Serum Sickness | MESH:D012713 | 12 | 15 |
+| [DB00860_MESH_D012859_1](db00860-mesh-d012859-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Sjogren's Syndrome | MESH:D012859 | 10 | 12 |
+| [DB00860_MESH_D012871_1](db00860-mesh-d012871-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Skin Diseases | MESH:D012871 | 11 | 13 |
+| [DB00860_MESH_D013167_1](db00860-mesh-d013167-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Ankylosing spondylitis | MESH:D013167 | 11 | 13 |
+| [DB00860_MESH_D013262_1](db00860-mesh-d013262-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Stevens-Johnson Syndrome | MESH:D013262 | 11 | 13 |
+| [DB00860_MESH_D013585_1](db00860-mesh-d013585-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Synovitis | MESH:D013585 | 11 | 13 |
+| [DB00860_MESH_D052256_1](db00860-mesh-d052256-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Tendinopathy | MESH:D052256 | 12 | 14 |
+| [DB00860_MESH_D013716_1](db00860-mesh-d013716-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Tennis Elbow | MESH:D013716 | 12 | 15 |
+| [DB00860_MESH_D013717_1](db00860-mesh-d013717-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Tenosynovitis | MESH:D013717 | 11 | 13 |
+| [DB00860_MESH_D013966_1](db00860-mesh-d013966-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Thyroiditis | MESH:D013966 | 11 | 13 |
+| [DB00860_MESH_D014391_1](db00860-mesh-d014391-1.html) | prednisolone | DB:DB00860 | MESH:D011239 | Tuberculosis, Miliary | MESH:D014391 | 12 | 14 |
+| [DB15566_MESH_D003234_1](db15566-mesh-d003234-1.html) | prednisolone acetate | DB:DB15566 | MESH:C009935 | Conjunctivitis, Bacterial | MESH:D003234 | 11 | 13 |
+| [DB14631_MESH_D014605_1](db14631-mesh-d014605-1.html) | prednisolone phosphate | DB:DB14631 | MESH:C009022 | Uveitis | MESH:D014605 | 11 | 13 |
+| [DB00443_MESH_D000224_1](db00443-mesh-d000224-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Addison Disease | MESH:D000224 | 2 | 1 |
+| [DB00443_MESH_D029503_1](db00443-mesh-d029503-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Anemia, Diamond-Blackfan | MESH:D029503 | 11 | 13 |
+| [DB00443_MESH_D001171_1](db00443-mesh-d001171-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Arthritis, Juvenile | MESH:D001171 | 11 | 13 |
+| [DB00443_MESH_D001172_1](db00443-mesh-d001172-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Arthritis, Rheumatoid | MESH:D001172 | 11 | 13 |
+| [DB00443_MESH_D001249_1](db00443-mesh-d001249-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Asthma | MESH:D001249 | 11 | 13 |
+| [DB00443_MESH_D001327_1](db00443-mesh-d001327-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Autoimmune Diseases | MESH:D001327 | 11 | 13 |
+| [DB00443_MESH_D001607_1](db00443-mesh-d001607-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Berylliosis | MESH:D001607 | 11 | 13 |
+| [DB00443_MESH_D001929_1](db00443-mesh-d001929-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Brain Edema | MESH:D001929 | 11 | 13 |
+| [DB00443_MESH_D002062_1](db00443-mesh-d002062-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Bursitis | MESH:D002062 | 11 | 13 |
+| [DB00443_MESH_D003873_1](db00443-mesh-d003873-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Dermatitis, Exfoliative | MESH:D003873 | 11 | 13 |
+| [DB00443_MESH_D012628_1](db00443-mesh-d012628-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Dermatitis, Seborrheic | MESH:D012628 | 11 | 13 |
+| [DB00443_MESH_D004892_1](db00443-mesh-d004892-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Erythema Multiforme | MESH:D004892 | 10 | 12 |
+| [DB00443_MESH_D005128_1](db00443-mesh-d005128-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Eye Diseases | MESH:D005128 | 10 | 12 |
+| [DB00443_MESH_D006689_1](db00443-mesh-d006689-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Hodgkin Disease | MESH:D006689 | 11 | 13 |
+| [DB00443_MESH_D015212_1](db00443-mesh-d015212-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Inflammatory Bowel Diseases | MESH:D015212 | 11 | 13 |
+| [DB00443_MESH_D007819_1](db00443-mesh-d007819-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Laryngeal Edema | MESH:D007819 | 11 | 13 |
+| [DB00443_MESH_D008179_1](db00443-mesh-d008179-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Lupus Erythematosus, Discoid | MESH:D008179 | 11 | 13 |
+| [DB00443_MESH_D008180_1](db00443-mesh-d008180-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Lupus Erythematosus, Systemic | MESH:D008180 | 11 | 13 |
+| [DB00443_MESH_D008224_1](db00443-mesh-d008224-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Lymphoma, Follicular | MESH:D008224 | 11 | 13 |
+| [DB00443_MESH_D016410_1](db00443-mesh-d016410-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 12 | 15 |
+| [DB00443_MESH_D009103_1](db00443-mesh-d009103-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Multiple Sclerosis | MESH:D009103 | 12 | 15 |
+| [DB00443_MESH_D009140_1](db00443-mesh-d009140-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Musculoskeletal Diseases | MESH:D009140 | 11 | 13 |
+| [DB00443_MESH_D009182_1](db00443-mesh-d009182-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Mycosis Fungoides | MESH:D009182 | 11 | 13 |
+| [DB00443_MESH_D009404_1](db00443-mesh-d009404-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Nephrotic Syndrome | MESH:D009404 | 10 | 12 |
+| [DB00443_MESH_D009450_1](db00443-mesh-d009450-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Neurodermatitis | MESH:D009450 | 11 | 13 |
+| [DB00443_MESH_D065631_1](db00443-mesh-d065631-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Rhinitis, Allergic | MESH:D065631 | 11 | 13 |
+| [DB00443_MESH_D012507_1](db00443-mesh-d012507-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Sarcoidosis | MESH:D012507 | 10 | 12 |
+| [DB00443_MESH_D012536_1](db00443-mesh-d012536-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Scalp Dermatoses | MESH:D012536 | 11 | 13 |
+| [DB00443_MESH_D012713_1](db00443-mesh-d012713-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Serum Sickness | MESH:D012713 | 12 | 15 |
+| [DB00443_MESH_D012871_1](db00443-mesh-d012871-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Skin Diseases | MESH:D012871 | 11 | 13 |
+| [DB00443_MESH_D052256_1](db00443-mesh-d052256-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Tendinopathy | MESH:D052256 | 12 | 14 |
+| [DB00443_MESH_D013716_1](db00443-mesh-d013716-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Tennis Elbow | MESH:D013716 | 12 | 15 |
+| [DB00443_MESH_D013966_1](db00443-mesh-d013966-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Thyroiditis | MESH:D013966 | 11 | 13 |
+| [DB00443_MESH_D014008_1](db00443-mesh-d014008-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Tinea Pedis | MESH:D014008 | 11 | 13 |
+| [DB00443_MESH_D014235_1](db00443-mesh-d014235-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Trichinellosis | MESH:D014235 | 11 | 13 |
+| [DB00443_MESH_D014391_1](db00443-mesh-d014391-1.html) | betamethasone | DB:DB00443 | MESH:D001623 | Tuberculosis, Miliary | MESH:D014391 | 12 | 14 |
+| [DB00443_MESH_D000312_1](db00443-mesh-d000312-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Adrenal Hyperplasia, Congenital | MESH:D000312 | 2 | 1 |
+| [DB00443_MESH_D000309_1](db00443-mesh-d000309-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Adrenal Insufficiency | MESH:D000309 | 2 | 1 |
+| [DB00443_MESH_D000744_1](db00443-mesh-d000744-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Anemia, Hemolytic, Autoimmune | MESH:D000744 | 11 | 13 |
+| [DB00443_MESH_D000799_1](db00443-mesh-d000799-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Angioedema | MESH:D000799 | 11 | 13 |
+| [DB00443_MESH_D015210_1](db00443-mesh-d015210-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Arthritis, Gouty | MESH:D015210 | 11 | 13 |
+| [DB00443_MESH_D015535_1](db00443-mesh-d015535-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Arthritis, Psoriatic | MESH:D015535 | 11 | 13 |
+| [DB00443_MESH_D003424_2](db00443-mesh-d003424-2.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Crohn Disease | MESH:D003424 | 11 | 13 |
+| [DB00443_MESH_D003876_1](db00443-mesh-d003876-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Dermatitis, Atopic | MESH:D003876 | 11 | 13 |
+| [DB00443_MESH_D003877_1](db00443-mesh-d003877-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Dermatitis, Contact | MESH:D003877 | 11 | 13 |
+| [DB00443_MESH_D003874_1](db00443-mesh-d003874-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Dermatitis Herpetiformis | MESH:D003874 | 11 | 13 |
+| [DB00443_MESH_D005076_1](db00443-mesh-d005076-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Exanthema | MESH:D005076 | 11 | 13 |
+| [DB00443_MESH_C562390_1](db00443-mesh-c562390-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 7 | 6 |
+| [DB00443_MESH_D008228_1](db00443-mesh-d008228-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Lymphoma, Non-Hodgkin | MESH:D008228 | 11 | 13 |
+| [DB00443_MESH_D010392_1](db00443-mesh-d010392-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Pemphigus | MESH:D010392 | 11 | 13 |
+| [DB00443_MESH_D011015_1](db00443-mesh-d011015-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Pneumonia, Aspiration | MESH:D011015 | 11 | 13 |
+| [DB00443_MESH_D011565_1](db00443-mesh-d011565-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Psoriasis | MESH:D011565 | 11 | 13 |
+| [DB00443_MESH_D011657_1](db00443-mesh-d011657-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Pulmonary Eosinophilia | MESH:D011657 | 11 | 13 |
+| [DB00443_MESH_D012214_1](db00443-mesh-d012214-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Rheumatic Heart Disease | MESH:D012214 | 11 | 13 |
+| [DB00443_MESH_D013167_1](db00443-mesh-d013167-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Ankylosing spondylitis | MESH:D013167 | 11 | 13 |
+| [DB00443_MESH_D013585_1](db00443-mesh-d013585-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Synovitis | MESH:D013585 | 11 | 13 |
+| [DB00443_MESH_D013717_1](db00443-mesh-d013717-1.html) | betamethasone acetate | DB:DB00443 | MESH:C580789 | Tenosynovitis | MESH:D013717 | 11 | 13 |
+| [DB00443_MESH_D016460_1](db00443-mesh-d016460-1.html) | betamethasone dipropionate | DB:DB00443 | MESH:C011175 | Granuloma Annulare | MESH:D016460 | 11 | 13 |
+| [DB00443_MESH_D011538_1](db00443-mesh-d011538-1.html) | betamethasone dipropionate | DB:DB00443 | MESH:C011175 | Pruritus Ani | MESH:D011538 | 12 | 14 |
+| [DB00635_MESH_D000224_1](db00635-mesh-d000224-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Addison Disease | MESH:D000224 | 3 | 2 |
+| [DB00635_MESH_D000312_1](db00635-mesh-d000312-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Adrenal Hyperplasia, Congenital | MESH:D000312 | 3 | 2 |
+| [DB00635_MESH_D000309_1](db00635-mesh-d000309-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Adrenal Insufficiency | MESH:D000309 | 3 | 2 |
+| [DB00635_MESH_D029503_1](db00635-mesh-d029503-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Anemia, Diamond-Blackfan | MESH:D029503 | 12 | 14 |
+| [DB00635_MESH_D000744_1](db00635-mesh-d000744-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Anemia, Hemolytic, Autoimmune | MESH:D000744 | 12 | 14 |
+| [DB00635_MESH_D000799_1](db00635-mesh-d000799-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Angioedema | MESH:D000799 | 12 | 14 |
+| [DB00635_MESH_D015210_1](db00635-mesh-d015210-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Arthritis, Gouty | MESH:D015210 | 12 | 14 |
+| [DB00635_MESH_D001171_1](db00635-mesh-d001171-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Arthritis, Juvenile | MESH:D001171 | 12 | 14 |
+| [DB00635_MESH_D015535_1](db00635-mesh-d015535-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Arthritis, Psoriatic | MESH:D015535 | 12 | 14 |
+| [DB00635_MESH_D001172_1](db00635-mesh-d001172-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Arthritis, Rheumatoid | MESH:D001172 | 12 | 14 |
+| [DB00635_MESH_D001249_1](db00635-mesh-d001249-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Asthma | MESH:D001249 | 12 | 14 |
+| [DB00635_MESH_D001327_1](db00635-mesh-d001327-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Autoimmune Diseases | MESH:D001327 | 12 | 14 |
+| [DB00635_MESH_D001607_1](db00635-mesh-d001607-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Berylliosis | MESH:D001607 | 12 | 14 |
+| [DB00635_MESH_D003424_1](db00635-mesh-d003424-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Crohn Disease | MESH:D003424 | 12 | 14 |
+| [DB00635_MESH_D003876_1](db00635-mesh-d003876-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Dermatitis, Atopic | MESH:D003876 | 12 | 14 |
+| [DB00635_MESH_D003877_1](db00635-mesh-d003877-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Dermatitis, Contact | MESH:D003877 | 12 | 14 |
+| [DB00635_MESH_D003873_1](db00635-mesh-d003873-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Dermatitis, Exfoliative | MESH:D003873 | 12 | 14 |
+| [DB00635_MESH_D003874_1](db00635-mesh-d003874-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Dermatitis Herpetiformis | MESH:D003874 | 12 | 14 |
+| [DB00635_MESH_D004892_1](db00635-mesh-d004892-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Erythema Multiforme | MESH:D004892 | 11 | 13 |
+| [DB00635_MESH_D006689_1](db00635-mesh-d006689-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Hodgkin Disease | MESH:D006689 | 12 | 14 |
+| [DB00635_MESH_C562390_1](db00635-mesh-c562390-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 7 | 6 |
+| [DB00635_MESH_D015212_1](db00635-mesh-d015212-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Inflammatory Bowel Diseases | MESH:D015212 | 12 | 14 |
+| [DB00635_MESH_D007819_1](db00635-mesh-d007819-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Laryngeal Edema | MESH:D007819 | 12 | 14 |
+| [DB00635_MESH_D015451_1](db00635-mesh-d015451-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Leukemia, Lymphocytic, Chronic, B-Cell | MESH:D015451 | 12 | 14 |
+| [DB00635_MESH_D008180_1](db00635-mesh-d008180-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Lupus Erythematosus, Systemic | MESH:D008180 | 12 | 14 |
+| [DB00635_MESH_D008224_1](db00635-mesh-d008224-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Lymphoma, Follicular | MESH:D008224 | 12 | 14 |
+| [DB00635_MESH_D016403_1](db00635-mesh-d016403-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Lymphoma, Large B-Cell, Diffuse | MESH:D016403 | 12 | 14 |
+| [DB00635_MESH_D008228_1](db00635-mesh-d008228-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Lymphoma, Non-Hodgkin | MESH:D008228 | 12 | 14 |
+| [DB00635_MESH_D016410_1](db00635-mesh-d016410-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Lymphoma, T-Cell, Cutaneous | MESH:D016410 | 13 | 16 |
+| [DB00635_MESH_D009103_1](db00635-mesh-d009103-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Multiple Sclerosis | MESH:D009103 | 13 | 16 |
+| [DB00635_MESH_D009140_1](db00635-mesh-d009140-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Musculoskeletal Diseases | MESH:D009140 | 12 | 14 |
+| [DB00635_MESH_D009182_1](db00635-mesh-d009182-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Mycosis Fungoides | MESH:D009182 | 12 | 14 |
+| [DB00635_MESH_D009404_1](db00635-mesh-d009404-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Nephrotic Syndrome | MESH:D009404 | 11 | 13 |
+| [DB00635_MESH_D010392_1](db00635-mesh-d010392-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Pemphigus | MESH:D010392 | 12 | 14 |
+| [DB00635_MESH_D011565_1](db00635-mesh-d011565-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Psoriasis | MESH:D011565 | 12 | 14 |
+| [DB00635_MESH_D011657_1](db00635-mesh-d011657-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Pulmonary Eosinophilia | MESH:D011657 | 12 | 14 |
+| [DB00635_MESH_D012214_1](db00635-mesh-d012214-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Rheumatic Heart Disease | MESH:D012214 | 12 | 14 |
+| [DB00635_MESH_D065631_1](db00635-mesh-d065631-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Rhinitis, Allergic | MESH:D065631 | 12 | 14 |
+| [DB00635_MESH_D012507_1](db00635-mesh-d012507-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Sarcoidosis | MESH:D012507 | 11 | 13 |
+| [DB00635_MESH_D012713_1](db00635-mesh-d012713-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Serum Sickness | MESH:D012713 | 13 | 16 |
+| [DB00635_MESH_D012871_1](db00635-mesh-d012871-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Skin Diseases | MESH:D012871 | 12 | 14 |
+| [DB00635_MESH_D013167_1](db00635-mesh-d013167-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Ankylosing spondylitis | MESH:D013167 | 12 | 14 |
+| [DB00635_MESH_D013716_1](db00635-mesh-d013716-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Tennis Elbow | MESH:D013716 | 13 | 16 |
+| [DB00635_MESH_D013966_1](db00635-mesh-d013966-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Thyroiditis | MESH:D013966 | 12 | 14 |
+| [DB00635_MESH_D014235_1](db00635-mesh-d014235-1.html) | prednisone | DB:DB00635 | MESH:D011241 | Trichinellosis | MESH:D014235 | 12 | 14 |
+| [DB00438_MESH_D004756_1](db00438-mesh-d004756-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Enterobacteriaceae Infections | MESH:D004756 | 6 | 5 |
+| [DB00438_MESH_D011023_1](db00438-mesh-d011023-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Staphylococcal pneumonia | MESH:D011023 | 6 | 5 |
+| [DB00438_MESH_D018410_1](db00438-mesh-d018410-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Pneumonia, Bacterial | MESH:D018410 | 6 | 5 |
+| [DB00438_MESH_D016920_1](db00438-mesh-d016920-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Meningitis, Bacterial | MESH:D016920 | 6 | 5 |
+| [DB00438_MESH_D059413_1](db00438-mesh-d059413-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Intraabdominal Infections | MESH:D059413 | 6 | 5 |
+| [DB00438_MESH_D012226_1](db00438-mesh-d012226-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Rhinoscleroma | MESH:D012226 | 6 | 5 |
+| [DB00438_MESH_D008585_1](db00438-mesh-d008585-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Meningitis, Meningococcal | MESH:D008585 | 6 | 5 |
+| [DB00438_MESH_D004927_1](db00438-mesh-d004927-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Escherichia coli Infections | MESH:D004927 | 6 | 5 |
+| [DB00438_MESH_D011018_1](db00438-mesh-d011018-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Pneumonia, Pneumococcal | MESH:D011018 | 6 | 5 |
+| [DB00438_MESH_D013203_1](db00438-mesh-d013203-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Staphylococcal Infections | MESH:D013203 | 6 | 5 |
+| [DB00438_MESH_D004716_1](db00438-mesh-d004716-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Endometritis | MESH:D004716 | 6 | 5 |
+| [DB00438_MESH_D013290_1](db00438-mesh-d013290-1.html) | ceftazidime | DB:DB00438 | MESH:D002442 | Streptococcus pyogenes infection | MESH:D013290 | 6 | 5 |
+| [DB00591_MESH_D003877_1](db00591-mesh-d003877-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Contact dermatitis | MESH:D003877 | 9 | 9 |
+| [DB00591_MESH_D008179_1](db00591-mesh-d008179-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Discoid lupus erythematosus | MESH:D008179 | 9 | 9 |
+| [DB00591_MESH_D012628_1](db00591-mesh-d012628-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Seborrheic dermatitis | MESH:D012628 | 9 | 9 |
+| [DB00591_MESH_D016460_1](db00591-mesh-d016460-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Granuloma annulare | MESH:D016460 | 9 | 9 |
+| [DB00591_MESH_D011538_1](db00591-mesh-d011538-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Pruritus ani | MESH:D011538 | 9 | 9 |
+| [DB00591_MESH_D003876_1](db00591-mesh-d003876-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Atopic dermatitis | MESH:D003876 | 9 | 9 |
+| [DB00591_MESH_D005076_1](db00591-mesh-d005076-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Eruption of skin | MESH:D005076 | 9 | 9 |
+| [DB00591_MESH_D016410_1](db00591-mesh-d016410-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Primary cutaneous T-cell lymphoma | MESH:D016410 | 9 | 9 |
+| [DB00591_MESH_D009450_1](db00591-mesh-d009450-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Lichen simplex chronicus | MESH:D009450 | 9 | 9 |
+| [DB00591_MESH_D002833_1](db00591-mesh-d002833-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Choroiditis | MESH:D002833 | 8 | 8 |
+| [DB00591_MESH_D008548_1](db00591-mesh-d008548-1.html) | fluocinolone acetonide | DB:DB00591 | MESH:D005446 | Chloasma | MESH:D008548 | 9 | 9 |
+| [DB01165_MESH_D006069_1](db01165-mesh-d006069-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Gonorrhea | MESH:D006069 | 5 | 4 |
+| [DB01165_MESH_D004405_1](db01165-mesh-d004405-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Shigellosis | MESH:D004405 | 5 | 4 |
+| [DB01165_MESH_D014435_1](db01165-mesh-d014435-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Typhoid fever | MESH:D014435 | 5 | 4 |
+| [DB01165_MESH_D000881_1](db01165-mesh-d000881-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Anthrax | MESH:D000881 | 5 | 4 |
+| [DB01165_MESH_D013203_1](db01165-mesh-d013203-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Staphylococcal Infections | MESH:D013203 | 5 | 4 |
+| [DB01165_MESH_D018784_1](db01165-mesh-d018784-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Abdominal abscess | MESH:D018784 | 5 | 4 |
+| [DB01165_MESH_D011704_1](db01165-mesh-d011704-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Pyelonephritis | MESH:D011704 | 5 | 4 |
+| [DB01165_MESH_D000077299_1](db01165-mesh-d000077299-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Nosocomial pneumonia | MESH:D000077299 | 5 | 4 |
+| [DB01165_MESH_D011019_1](db01165-mesh-d011019-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Pneumonia due to Mycoplasma pneumoniae | MESH:D011019 | 5 | 4 |
+| [DB01165_MESH_D001991_1](db01165-mesh-d001991-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Bronchitis | MESH:D001991 | 5 | 4 |
+| [DB01165_MESH_D059413_1](db01165-mesh-d059413-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Intraabdominal Infections | MESH:D059413 | 5 | 4 |
+| [DB01165_MESH_D011472_1](db01165-mesh-d011472-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Prostatitis | MESH:D011472 | 5 | 4 |
+| [DB01165_MESH_D011014_1](db01165-mesh-d011014-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Pneumonia | MESH:D011014 | 5 | 4 |
+| [DB01165_MESH_D014552_1](db01165-mesh-d014552-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Urinary Tract Infections | MESH:D014552 | 5 | 4 |
+| [DB01165_MESH_D003556_1](db01165-mesh-d003556-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Cystitis | MESH:D003556 | 5 | 4 |
+| [DB01165_MESH_D004756_1](db01165-mesh-d004756-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Enterobacteriaceae Infections | MESH:D004756 | 5 | 4 |
+| [DB01165_MESH_D018410_1](db01165-mesh-d018410-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Pneumonia, Bacterial | MESH:D018410 | 5 | 4 |
+| [DB01165_MESH_D012226_1](db01165-mesh-d012226-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Rhinoscleroma | MESH:D012226 | 5 | 4 |
+| [DB01165_MESH_D003234_1](db01165-mesh-d003234-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Bacterial conjunctivitis | MESH:D003234 | 5 | 4 |
+| [DB01165_MESH_D010032_1](db01165-mesh-d010032-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Otitis externa | MESH:D010032 | 5 | 4 |
+| [DB01165_MESH_D002602_1](db01165-mesh-d002602-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Chancroid | MESH:D002602 | 5 | 4 |
+| [DB01165_MESH_D061387_1](db01165-mesh-d061387-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Chlamydial pneumonia | MESH:D061387 | 5 | 4 |
+| [DB01165_MESH_D004927_1](db01165-mesh-d004927-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Escherichia coli Infections | MESH:D004927 | 5 | 4 |
+| [DB01165_MESH_D011018_1](db01165-mesh-d011018-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Pneumonia, Pneumococcal | MESH:D011018 | 5 | 4 |
+| [DB01165_MESH_D011023_1](db01165-mesh-d011023-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Pneumonia, Staphylococcal | MESH:D011023 | 5 | 4 |
+| [DB01165_MESH_D013290_1](db01165-mesh-d013290-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Streptococcal Infections | MESH:D013290 | 5 | 4 |
+| [DB01165_MESH_D004403_1](db01165-mesh-d004403-1.html) | ofloxacin | DB:DB01165 | MESH:D015242 | Dysentery | MESH:D004403 | 5 | 4 |
+| [DB05245_MESH_D012883_1](db05245-mesh-d012883-1.html) | sulfadiazine silver | DB:DB05245 | MESH:D012837 | Skin ulcer | MESH:D012883 | 4 | 3 |
+| [DB08901_MESH_D015464_1](db08901-mesh-d015464-1.html) | ponatinib | DB:DB08901 | MESH:D004103 | Chronic myeloid leukemia | MESH:D015464 | 8 | 8 |
+| [DB09039_MESH_D005776_1](db09039-mesh-d005776-1.html) | eliglustat | DB:DB09039 | MESH:C522917 | Gaucher Disease | MESH:D005776 | 5 | 4 |
+| [DB09115_MESH_D000562_1](db09115-mesh-d000562-1.html) | diiodohydroxyquinoline | DB:DB09115 | MESH:D004103 | Amebic infection | MESH:D000562 | 2 | 1 |
+| [DB01005_MESH_D010051_1](db01005-mesh-d010051-1.html) | hydroxycarbamide | DB:DB01005 | MESH:D006918 | Malignant tumor of ovary | MESH:D010051 | 5 | 4 |
+| [DB01005_MESH_D006258_1](db01005-mesh-d006258-1.html) | hydroxycarbamide | DB:DB01005 | MESH:D006918 | Malignant tumor of head and/or neck | MESH:D006258 | 5 | 4 |
+| [DB01005_MESH_D015464_1](db01005-mesh-d015464-1.html) | hydroxycarbamide | DB:DB01005 | MESH:D006918 | Chronic myeloid leukemia | MESH:D015464 | 5 | 4 |
+| [DB01005_MESH_D008545_1](db01005-mesh-d008545-1.html) | hydroxycarbamide | DB:DB01005 | MESH:D006918 | Malignant melanoma | MESH:D008545 | 5 | 4 |
+| [DB01005_MESH_D000755_1](db01005-mesh-d000755-1.html) | hydroxycarbamide | DB:DB01005 | MESH:D006918 | Anemia, Sickle Cell | MESH:D000755 | 5 | 4 |
+| [DB01590_MESH_D002292_1](db01590-mesh-d002292-1.html) | everolimus | DB:DB01590 | MESH:D000068338 | Renal cell carcinoma | MESH:D002292 | 5 | 4 |
+| [DB01590_MESH_D001943_1](db01590-mesh-d001943-1.html) | everolimus | DB:DB01590 | MESH:D000068338 | Breast Neoplasms | MESH:D001943 | 5 | 4 |
+| [DB01590_MESH_D014402_1](db01590-mesh-d014402-1.html) | everolimus | DB:DB01590 | MESH:D000068338 | Tuberous Sclerosis | MESH:D014402 | 5 | 4 |
+| [DB00365_MESH_D011018_1](db00365-mesh-d011018-1.html) | grepafloxacin | DB:DB00365 | MESH:C075375 | Pneumonia due to Streptococcus | MESH:D011018 | 6 | 6 |
+| [DB00365_MESH_D003234_1](db00365-mesh-d003234-1.html) | grepafloxacin | DB:DB00365 | MESH:C075375 | Pneumonia due to Mycoplasma pneumoniae | MESH:D003234 | 6 | 6 |
+| [DB00365_MESH_D006069_1](db00365-mesh-d006069-1.html) | grepafloxacin | DB:DB00365 | MESH:C075375 | Gonorrhea | MESH:D006069 | 6 | 6 |
+| [DB00819_MESH_D004832_1](db00819-mesh-d004832-1.html) | acetazolamide | DB:DB00819 | MESH:D000086 | Absence seizure | MESH:D004832 | 4 | 3 |
+| [DB00819_MESH_D005902_1](db00819-mesh-d005902-1.html) | acetazolamide | DB:DB00819 | MESH:D000086 | Open-angle glaucoma | MESH:D005902 | 12 | 17 |
+| [DB00819_MESH_D004487_1](db00819-mesh-d004487-1.html) | acetazolamide | DB:DB00819 | MESH:D000086 | Edema | MESH:D004487 | 12 | 17 |
+| [DB00819_MESH_D015812_1](db00819-mesh-d015812-1.html) | acetazolamide | DB:DB00819 | MESH:D000086 | Angle-closure glaucoma | MESH:D015812 | 12 | 17 |
+| [DB00819_MESH_D000532_1](db00819-mesh-d000532-1.html) | acetazolamide | DB:DB00819 | MESH:D000086 | Anoxia due to high altitude | MESH:D000532 | 12 | 17 |
+| [DB01231_MESH_D014717_1](db01231-mesh-d014717-1.html) | diphenidol | DB:DB01231 | MESH:C004858 | Vertigo | MESH:D014717 | 7 | 8 |
+| [DB01167_MESH_C536777_1](db01167-mesh-c536777-1.html) | Itraconazole | DB:DB01167 | MESH:D017964 | Systemic candidiasis | MESH:C536777 | 6 | 5 |
+| [DB01193_MESH_D006973_1](db01193-mesh-d006973-1.html) | Acebutolol | DB:DB01193 | MESH:D000070 | Hypertension | MESH:D006973 | 5 | 4 |
+| [DB01234_MESH_D003876_1](db01234-mesh-d003876-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Atopic dermatitis | MESH:D003876 | 6 | 5 |
+| [DB01234_MESH_D011565_1](db01234-mesh-d011565-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Psoriasis | MESH:D011565 | 7 | 7 |
+| [DB01234_MESH_D013167_1](db01234-mesh-d013167-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Ankylosing spondylitis | MESH:D013167 | 6 | 5 |
+| [DB01234_MESH_D008179_1](db01234-mesh-d008179-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Discoid lupus erythematosus | MESH:D008179 | 7 | 7 |
+| [DB01234_MESH_D003424_1](db01234-mesh-d003424-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Crohn's disease | MESH:D003424 | 6 | 5 |
+| [DB01234_MESH_D015863_1](db01234-mesh-d015863-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Iridocyclitis | MESH:D015863 | 6 | 5 |
+| [DB01234_MESH_D001172_1](db01234-mesh-d001172-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Rheumatoid arthritis | MESH:D001172 | 7 | 7 |
+| [DB01234_MESH_D012628_1](db01234-mesh-d012628-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Seborrheic dermatitis | MESH:D012628 | 6 | 5 |
+| [DB01234_MESH_D003877_1](db01234-mesh-d003877-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Contact dermatitis | MESH:D003877 | 6 | 5 |
+| [DB01234_MESH_D007627_1](db01234-mesh-d007627-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Keloid scar | MESH:D007627 | 6 | 5 |
+| [DB01234_MESH_D007634_1](db01234-mesh-d007634-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Keratitis | MESH:D007634 | 6 | 5 |
+| [DB01234_MESH_D014605_1](db01234-mesh-d014605-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Uveitis | MESH:D014605 | 6 | 5 |
+| [DB01234_MESH_D002062_1](db01234-mesh-d002062-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Bursitis | MESH:D002062 | 6 | 5 |
+| [DB01234_MESH_D007500_1](db01234-mesh-d007500-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Iritis | MESH:D007500 | 6 | 5 |
+| [DB01234_MESH_D015535_1](db01234-mesh-d015535-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Psoriasis with arthropathy | MESH:D015535 | 6 | 5 |
+| [DB01234_MESH_D007819_1](db01234-mesh-d007819-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Edema of larynx | MESH:D007819 | 6 | 5 |
+| [DB01234_MESH_D001929_1](db01234-mesh-d001929-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Cerebral edema | MESH:D001929 | 6 | 5 |
+| [DB01234_MESH_D000799_1](db01234-mesh-d000799-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Angioedema | MESH:D000799 | 6 | 5 |
+| [DB01234_MESH_D065631_1](db01234-mesh-d065631-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Allergic rhinitis | MESH:D065631 | 6 | 5 |
+| [DB01234_MESH_D001249_1](db01234-mesh-d001249-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Asthma | MESH:D001249 | 6 | 5 |
+| [DB01234_MESH_D003873_1](db01234-mesh-d003873-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Erythroderma | MESH:D003873 | 6 | 5 |
+| [DB01234_MESH_D011538_1](db01234-mesh-d011538-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Pruritus ani | MESH:D011538 | 7 | 6 |
+| [DB01234_MESH_D013716_1](db01234-mesh-d013716-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Epicondylitis | MESH:D013716 | 6 | 5 |
+| [DB01234_MESH_D013717_2](db01234-mesh-d013717-2.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Tenosynovitis | MESH:D013717 | 6 | 5 |
+| [DB01234_MESH_D012214_1](db01234-mesh-d012214-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Rheumatic heart disease | MESH:D012214 | 6 | 5 |
+| [DB01234_MESH_D015212_1](db01234-mesh-d015212-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Inflammatory bowel disease | MESH:D015212 | 6 | 5 |
+| [DB01234_MESH_D005128_1](db01234-mesh-d005128-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Disorder of eye | MESH:D005128 | 6 | 5 |
+| [DB01234_MESH_D009182_1](db01234-mesh-d009182-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Mycosis fungoides | MESH:D009182 | 6 | 5 |
+| [DB01234_MESH_D013966_1](db01234-mesh-d013966-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Thyroiditis | MESH:D013966 | 6 | 5 |
+| [DB01234_MESH_D001607_1](db01234-mesh-d001607-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Berylliosis | MESH:D001607 | 6 | 5 |
+| [DB01234_MESH_D012507_1](db01234-mesh-d012507-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Sarcoidosis | MESH:D012507 | 6 | 5 |
+| [DB01234_MESH_D010392_1](db01234-mesh-d010392-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Pemphigus | MESH:D010392 | 7 | 6 |
+| [DB01234_MESH_D006689_1](db01234-mesh-d006689-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Hodgkin disease | MESH:D006689 | 6 | 5 |
+| [DB01234_MESH_D012871_1](db01234-mesh-d012871-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Disorder of skin | MESH:D012871 | 6 | 5 |
+| [DB01234_MESH_D014235_1](db01234-mesh-d014235-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Infection by larvae of Trichinella spiralis | MESH:D014235 | 7 | 6 |
+| [DB01234_MESH_D014391_1](db01234-mesh-d014391-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Miliary tuberculosis | MESH:D014391 | 7 | 6 |
+| [DB01234_MESH_D010032_1](db01234-mesh-d010032-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Otitis externa | MESH:D010032 | 6 | 5 |
+| [DB01234_MESH_D004892_1](db01234-mesh-d004892-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Erythema multiforme | MESH:D004892 | 6 | 5 |
+| [DB01234_MESH_D003874_1](db01234-mesh-d003874-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Dermatitis herpetiformis | MESH:D003874 | 6 | 5 |
+| [DB01234_MESH_D012393_1](db01234-mesh-d012393-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Rosacea | MESH:D012393 | 6 | 5 |
+| [DB01234_MESH_D003233_1](db01234-mesh-d003233-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Allergic conjunctivitis | MESH:D003233 | 6 | 5 |
+| [DB01234_MESH_D003320_1](db01234-mesh-d003320-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Corneal ulcer | MESH:D003320 | 6 | 5 |
+| [DB01234_MESH_D005076_1](db01234-mesh-d005076-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Eruption of skin | MESH:D005076 | 6 | 5 |
+| [DB01234_MESH_D014606_1](db01234-mesh-d014606-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Anterior uveitis | MESH:D014606 | 6 | 5 |
+| [DB01234_MESH_D015210_1](db01234-mesh-d015210-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Articular gout | MESH:D015210 | 6 | 5 |
+| [DB01234_MESH_D016460_1](db01234-mesh-d016460-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Granuloma annulare | MESH:D016460 | 6 | 5 |
+| [DB01234_MESH_D008180_1](db01234-mesh-d008180-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Systemic lupus erythematosus | MESH:D008180 | 7 | 7 |
+| [DB01234_MESH_D002051_1](db01234-mesh-d002051-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Burkitt's lymphoma | MESH:D002051 | 7 | 6 |
+| [DB01234_MESH_D011657_1](db01234-mesh-d011657-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Löffler's syndrome | MESH:D011657 | 6 | 5 |
+| [DB01234_MESH_D009450_1](db01234-mesh-d009450-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Lichen simplex chronicus | MESH:D009450 | 7 | 6 |
+| [DB01234_MESH_D016410_1](db01234-mesh-d016410-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Primary cutaneous T-cell lymphoma | MESH:D016410 | 7 | 6 |
+| [DB01234_MESH_D009101_1](db01234-mesh-d009101-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Multiple myeloma | MESH:D009101 | 6 | 5 |
+| [DB01234_MESH_D000744_1](db01234-mesh-d000744-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Autoimmune hemolytic anemia | MESH:D000744 | 7 | 7 |
+| [DB01234_MESH_D009103_1](db01234-mesh-d009103-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Multiple sclerosis | MESH:D009103 | 7 | 7 |
+| [DB01234_MESH_D016403_1](db01234-mesh-d016403-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Diffuse non-Hodgkin's lymphoma, large cell | MESH:D016403 | 6 | 5 |
+| [DB01234_MESH_D008228_1](db01234-mesh-d008228-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Non-Hodgkin's lymphoma | MESH:D008228 | 6 | 5 |
+| [DB01234_MESH_D008224_1](db01234-mesh-d008224-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Follicular non-Hodgkin's lymphoma | MESH:D008224 | 7 | 6 |
+| [DB01234_MESH_D029503_1](db01234-mesh-d029503-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Congenital hypoplastic anemia | MESH:D029503 | 7 | 6 |
+| [DB01234_MESH_D012713_1](db01234-mesh-d012713-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Transfusion reaction due to serum protein reaction | MESH:D012713 | 7 | 6 |
+| [DB01234_MESH_D009140_1](db01234-mesh-d009140-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Disorder of musculoskeletal system | MESH:D009140 | 7 | 6 |
+| [DB01234_MESH_D009404_1](db01234-mesh-d009404-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Nephrotic Syndrome | MESH:D009404 | 7 | 6 |
+| [DB01234_MESH_C562390_1](db01234-mesh-c562390-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Humoral Hypercalcemia Of Malignancy | MESH:C562390 | 7 | 6 |
+| [DB01234_MESH_D000312_1](db01234-mesh-d000312-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Adrenogenital disorder | MESH:D000312 | 4 | 3 |
+| [DB01234_MESH_D000224_1](db01234-mesh-d000224-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Primary adrenocortical insufficiency | MESH:D000224 | 5 | 5 |
+| [DB01234_MESH_D000309_1](db01234-mesh-d000309-1.html) | dexamethasone | DB:DB01234 | MESH:D003907 | Adrenal cortical hypofunction | MESH:D000309 | 4 | 3 |
 |--------|-----|-------------|--------------|---------|-----------------|--------------------|----------------------|
 
 <div class="datatable-end"></div>
